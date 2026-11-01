@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件正文读完：8/119；另1份B092已读P1–32，110份尚未通读。完整原著版本、删节和二次整理见各笔记。
+当前现有书籍文件正文读完：9/119；B092为只含前三章的90页文件，110份尚未通读。完整原著版本、删节和二次整理见各笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -102,7 +102,7 @@
 | B089 | [现实世界的诱惑术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF.pdf) | 95 | 已提取/未读 | — |
 | B090 | [电击开场 - Brad P.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%94%B5%E5%87%BB%E5%BC%80%E5%9C%BA%20-%20Brad%20P.epub) | 11 | 正文读完 | [精读](knowledge/books/B090.md) |
 | B091 | [白天约会宝典 - Jeremy Soul.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%99%BD%E5%A4%A9%E7%BA%A6%E4%BC%9A%E5%AE%9D%E5%85%B8%20-%20Jeremy%20Soul.pdf) | 95 | 已提取/未读 | — |
-| B092 | [短信和电话把妹游戏之终极指南 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%9F%AD%E4%BF%A1%E5%92%8C%E7%94%B5%E8%AF%9D%E6%8A%8A%E5%A6%B9%E6%B8%B8%E6%88%8F%E4%B9%8B%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 90 | 部分阅读P1–32 | [精读](knowledge/books/B092.md) |
+| B092 | [短信和电话把妹游戏之终极指南 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%9F%AD%E4%BF%A1%E5%92%8C%E7%94%B5%E8%AF%9D%E6%8A%8A%E5%A6%B9%E6%B8%B8%E6%88%8F%E4%B9%8B%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 90 | 现有正文读完/原书不全 | [精读](knowledge/books/B092.md) |
 | B093 | [神撩术 - 欧阳浮夸.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%A5%9E%E6%92%A9%E6%9C%AF%20-%20%E6%AC%A7%E9%98%B3%E6%B5%AE%E5%A4%B8.pdf) | 188 | 已OCR/未读 | — |
 | B094 | [筛选的101种方式 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%AD%9B%E9%80%89%E7%9A%84101%E7%A7%8D%E6%96%B9%E5%BC%8F%20-%20Adam%20Lyons.pdf) | 30 | 已提取/未读 | — |
 | B095 | [米豪方法 - 米豪.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B1%B3%E8%B1%AA%E6%96%B9%E6%B3%95%20-%20%E7%B1%B3%E8%B1%AA.pdf) | 169 | 已OCR/未读 | — |
