@@ -11,7 +11,7 @@
 | 陈哥短技巧 | 冷读、自我夸张、角色扮演、推拉、夸张曲解及画面感 | [S01](knowledge/books/S01-chen-five.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
 | 阶段模型 | Adam Lyons四阶段与浪迹团队五阶段 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md) |
 | 自我表达与参与 | 杂耍人二次整理的自我、情绪、价值观、平衡；开放式陈述 | [B072](knowledge/books/B072.md) |
-| 线上呈现与邀约 | 真实具体资料、私信与现实安排衔接 | [B037](knowledge/books/B037.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
+| 线上呈现与邀约 | 真实具体资料、私信与现实安排衔接；Time Bridging与结果分层 | [B037](knowledge/books/B037.md)、[B092第一章](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
 | 现场复盘与结果 | 规则随场景调整、过程缺失不补造、收号不等于后续成功 | [B042](knowledge/books/B042.md)、[C04](knowledge/cases/C04-field-notes.md) |
 
 ## 重要分歧
