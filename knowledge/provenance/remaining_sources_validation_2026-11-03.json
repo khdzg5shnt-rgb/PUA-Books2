@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-03",
+  "baseline": "38e2880adbd673d68e98b79bbf338b9f052be8b5",
+  "integrated_content_head": "af079eef0095112d6d73fc3d46f98e8f503268b6",
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 29,
+    "source_records": 157,
+    "archived_files": 30,
+    "scope": "结构/链接/归档身份检查，不是截图识别或恋爱效果验证"
+  },
+  "unit_tests": {
+    "exit_code": 0,
+    "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.113s\n\nOK",
+    "test_methods": 7,
+    "synthetic_scenarios": 56,
+    "scope": "synthetic routing and metadata only; no private chats or live effect claims"
+  },
+  "retrieval_checks": [
+    {
+      "query": "拒绝渠道",
+      "expected_note": "knowledge/books/S19-three-months-contacts.md",
+      "found": true
+    },
+    {
+      "query": "65%",
+      "expected_note": "knowledge/books/S20-ghost-ct-manual.md",
+      "found": true
+    },
+    {
+      "query": "没听清",
+      "expected_note": "knowledge/books/S21-connor-routines-excerpt.md",
+      "found": true
+    },
+    {
+      "query": "123页",
+      "expected_note": "knowledge/books/S22-mystery-pdf-reconciliation.md",
+      "found": true
+    },
+    {
+      "query": "礼貌不是讨好",
+      "expected_note": "knowledge/books/S04-attraction-not-choice.md",
+      "found": true
+    }
+  ],
+  "refusal_route_checks": [
+    {
+      "route_id": "R05",
+      "action": "draft"
+    },
+    {
+      "route_id": "R01",
+      "action": "stop"
+    }
+  ],
+  "substantively_changed_method_ids": [
+    "M02",
+    "M04",
+    "M08",
+    "M09",
+    "M10",
+    "M14",
+    "M22",
+    "M23",
+    "M25"
+  ],
+  "original_book_blobs_preserved": 119,
+  "unit_remote_readback_receipts": [
+    {
+      "unit": "S19",
+      "sha": "2bcffc0d80f0dbe695aa6986d4e48607abbaf648",
+      "parent": "38e2880adbd673d68e98b79bbf338b9f052be8b5",
+      "files": 16,
+      "remote_files_equal": 16,
+      "untouched_blobs_preserved": 272
+    },
+    {
+      "unit": "S20",
+      "sha": "c00e82e30c275afa46f6172bd87245cd84a1a4d4",
+      "parent": "2bcffc0d80f0dbe695aa6986d4e48607abbaf648",
+      "files": 12,
+      "remote_files_equal": 12,
+      "untouched_blobs_preserved": 277
+    },
+    {
+      "unit": "S21",
+      "sha": "0fb29641fdb66507f59e9fb90fb1e2872668aff4",
+      "parent": "c00e82e30c275afa46f6172bd87245cd84a1a4d4",
+      "files": 11,
+      "remote_files_equal": 11,
+      "untouched_blobs_preserved": 279
+    },
+    {
+      "unit": "S22",
+      "sha": "f5d46daef615601f94e65e1be0894430befec916",
+      "parent": "0fb29641fdb66507f59e9fb90fb1e2872668aff4",
+      "files": 17,
+      "remote_files_equal": 17,
+      "untouched_blobs_preserved": 275
+    },
+    {
+      "unit": "E06-prefix",
+      "sha": "af079eef0095112d6d73fc3d46f98e8f503268b6",
+      "parent": "f5d46daef615601f94e65e1be0894430befec916",
+      "files": 12,
+      "remote_files_equal": 12,
+      "untouched_blobs_preserved": 281
+    }
+  ],
+  "next_breakpoint": {
+    "entry": "k第十一课-吸引不是选择..txt",
+    "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
+    "decoded_character": 34905,
+    "page_marker": 26,
+    "printed_page": 21,
+    "section": "第二章 为改变所做的准备"
+  },
+  "remaining": {
+    "original_books_not_read_through": 110,
+    "TOP30_without_complete_reading": 7,
+    "TOP30_legible_complete_garbled": 1,
+    "S21_unreviewed_page_layouts": 31,
+    "S22_unreviewed_page_layouts": 99
+  },
+  "scope": "metadata and synthetic checks do not establish actual reading, OCR, attraction mechanisms or dating outcomes"
+}

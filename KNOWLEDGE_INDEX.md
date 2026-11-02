@@ -50,7 +50,7 @@
 
 2026-11-03续读[S18 《迷男方法》整理(完美)(4).pdf](knowledge/books/S18-peterjoy-upper.md)：当前八页实际为PeterJOY上部笔记；P5嵌入的九阶段表与结构图已目读，不把提取空白当缺页，也不把文件名完美当原著完整。未增加重复方法。
 
-最新整轮验收：[2026-11-03实际阅读、方法变更与下一断点](knowledge/provenance/continuation_2026-11-03.md)。七份上传材料现有正文91,799字符，三份PDF19页均逐页核看；S19从文件P1继续。
+前一轮验收：[七份附件及两篇公开文档的实际阅读](knowledge/provenance/continuation_2026-11-03.md)。最新：[剩余附件、PDF比对与TOP30局部续读](knowledge/provenance/remaining_sources_2026-11-03.md)；下一断点E06第二章字符34905。
 
 2026-11-03续读[S19 3个月(4).pdf](knowledge/books/S19-three-months-contacts.md)：实际为三个月加500个微信的10页指南，未提供结果数据；补清拒绝换平台的范围、正常及时回复与未回补发的区别，不用假清单或平台限制换联系方式。
 

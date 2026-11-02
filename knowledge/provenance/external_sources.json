@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; 22 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 7 without verified complete reading; original publications unverified",
+      "reading_status": "archive_directory_verified; 22 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 7 without verified complete reading; original publications unverified; E06 partial [0,34905), next PAGE26 chapter two",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -2868,7 +2868,7 @@
         "knowledge/books/S21-connor-routines-excerpt.md",
         "knowledge/books/S22-mystery-pdf-reconciliation.md"
       ],
-      "status": "in_progress",
+      "status": "reading units integrated; audit in linked report",
       "source_extraction_characters": 175687,
       "reused_body_pages": 123,
       "top30_units": [
@@ -2889,7 +2889,41 @@
       ],
       "top30_read_characters": 34905,
       "top30_body_characters": 13689,
-      "top30_contents_characters": 21216
+      "top30_contents_characters": 21216,
+      "summary_note": "knowledge/provenance/remaining_sources_2026-11-03.md",
+      "methods_substantively_changed": 9,
+      "synthetic_scenario_count": 56,
+      "next_top30": {
+        "entry": "k第十一课-吸引不是选择..txt",
+        "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
+        "decoded_character": 34905,
+        "page_marker": 26,
+        "printed_page": 21,
+        "section": "第二章 为改变所做的准备"
+      },
+      "integrated_content_head": "af079eef0095112d6d73fc3d46f98e8f503268b6",
+      "unit_commits": [
+        {
+          "unit": "S19",
+          "sha": "2bcffc0d80f0dbe695aa6986d4e48607abbaf648"
+        },
+        {
+          "unit": "S20",
+          "sha": "c00e82e30c275afa46f6172bd87245cd84a1a4d4"
+        },
+        {
+          "unit": "S21",
+          "sha": "0fb29641fdb66507f59e9fb90fb1e2872668aff4"
+        },
+        {
+          "unit": "S22",
+          "sha": "f5d46daef615601f94e65e1be0894430befec916"
+        },
+        {
+          "unit": "E06-prefix",
+          "sha": "af079eef0095112d6d73fc3d46f98e8f503268b6"
+        }
+      ]
     }
   ]
 }

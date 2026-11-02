@@ -1,6 +1,8 @@
 """Behavioral checks against synthetic conversations; no private user cases."""
 import json
+import shutil
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -42,6 +44,24 @@ class RoutingScenarios(unittest.TestCase):
     def test_integrity_and_references(self):
         result=validate()
         self.assertTrue(result['ok'],result['errors'])
+
+    def test_reading_claims_reject_wrong_breakpoint_and_reused_page(self):
+        # A reading claim must fail if its recovery point or reused content differs.
+        with tempfile.TemporaryDirectory(prefix='books2-reading-claims-') as folder:
+            copied=Path(folder)/'repo'
+            shutil.copytree(ROOT,copied,ignore=shutil.ignore_patterns('__pycache__','.git'))
+            path=copied/'knowledge/provenance/core_reading_ledger.json'
+            original=path.read_text(encoding='utf-8')
+            ledger=json.loads(original)
+            next(u for u in ledger['units'] if u['id']=='E06')['next_character']+=1
+            path.write_text(json.dumps(ledger,ensure_ascii=False),encoding='utf-8')
+            self.assertIn('Partial source has no accurate next breakpoint: E06',validate(copied)['errors'])
+            path.write_text(original,encoding='utf-8')
+            path=copied/'knowledge/provenance/S22_top30_equivalence.json'
+            proof=json.loads(path.read_text(encoding='utf-8'))
+            proof['pages'][2]['pdf_normalized_sha256']='0'*64
+            path.write_text(json.dumps(proof,ensure_ascii=False),encoding='utf-8')
+            self.assertIn('Claimed reused pages do not match: S22',validate(copied)['errors'])
 
 
 if __name__=='__main__':unittest.main()
