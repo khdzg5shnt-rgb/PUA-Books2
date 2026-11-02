@@ -28,3 +28,7 @@
 本次补齐的是**来源身份、图像覆盖和缺卷范围**；没有为重复观点新建方法。M10继续用一项真实信息把事情说清楚，M18按实际问题理解完整短答，M23以本人当前意愿为准，M26只给一个当前成品。原定义与[九章摘抄的标题冲突](S13-mystery-excerpts.md)分别保留，不把上部笔记当作完整原著。
 
 内部入口：[方法卡](../../system/METHOD_CARDS.md)、[理论地图](../topics/theory-map.md)、[附件台账](../provenance/additional_reading_ledger.json)。
+
+## 后续交叉定位：字母定义
+
+S18本页没有独立定义的M/B/T，现可到[S22](S22-mystery-pdf-reconciliation.md)P42–43核另一来源：M为Move，B为Bounce，T为TimeBridge，并有相应地点/往返图。它补的是跨来源解释，不能倒写为S18自身提供了定义，也不证明两份图像字节相同或全部原著读完。

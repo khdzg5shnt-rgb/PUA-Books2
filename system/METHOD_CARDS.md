@@ -146,7 +146,7 @@
 
 避免：虚构活动、空闲或顺路；以固定台词阶段、信号数量或通过服从测试为邀约前提；一轮反复换日期，或借最后机会施压。
 
-依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
+依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)
 
 ## M15 确认已答应的安排
 
@@ -156,7 +156,7 @@
 
 避免：把一般意愿写成已定约会，编场次和空闲，反复索取同意；继续无目的调情，或把前一项活动的答应沿用到新去向。
 
-依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)
 
 ## M16 承接替代时间或重约
 
@@ -238,7 +238,7 @@
 
 避免：用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)
 
 ## M24 见面后的真实反馈
 

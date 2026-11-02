@@ -398,7 +398,7 @@
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "current_provided_entry_text_complete; decoded [0,141076), PAGE 1-125, including front matter, nine chapters, conclusion, letter, glossary; original PDF, English edition and corrupted small headings not verified",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,141076), PAGE 1-125, including front matter, nine chapters, conclusion, letter, glossary; S22 PDF text P3–125 matched and 26 selected images reviewed; other layouts, English edition and corrupted small headings unverified",
           "characters": 141076,
           "page_marker_count": 125,
           "notes": "knowledge/books/S04-mystery-method.md",
@@ -569,7 +569,45 @@
           "case_notes": "knowledge/cases/C14-mystery-nextday.md",
           "additional_case_notes": [
             "knowledge/cases/C15-lovedrop-date-plans.md"
-          ]
+          ],
+          "linked_pdf_verification": {
+            "source_id": "S22",
+            "sha256": "0d301304e48910a2aae361bd1da60296c86b93b3007f3c159401f029a4e21094",
+            "matched_file_pages": [
+              3,
+              125
+            ],
+            "proof": "knowledge/provenance/S22_top30_equivalence.json",
+            "visually_reviewed_pages": [
+              1,
+              2,
+              14,
+              15,
+              18,
+              19,
+              20,
+              21,
+              32,
+              34,
+              35,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              55,
+              74,
+              84,
+              88,
+              91,
+              95,
+              106,
+              125
+            ],
+            "scope": "selected-page visual review only; not full English/original edition verification"
+          }
         },
         {
           "entry": "k第十一课-吸引不是选择..txt",
@@ -1557,10 +1595,41 @@
       "title": "加水印-去水印--36.《谜男方法》(2).pdf",
       "sha256": "0d301304e48910a2aae361bd1da60296c86b93b3007f3c159401f029a4e21094",
       "bytes": 10713118,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "provided_text_reconciled_to_prior_fully_read_S04_entry_for_P3_125; direct_reread_P1_8; 26_selected_pages_visually_reviewed; not_a_new_full_read",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "pages": 125
+      "pending": "Prior body reading reused only after 123 page-normalized hashes match; 99 page layouts, obscured corners, anomalous headings, English/original edition and publication completeness still unverified",
+      "pages": 125,
+      "notes": "knowledge/books/S22-mystery-pdf-reconciliation.md",
+      "characters": 141139,
+      "read_coverage": {
+        "locator": "pypdf page text; join U+000C; direct reread P1–8 plus normalized page equivalence to already fully read S04 entry for P3–125; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            141139
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            19735
+          ]
+        ],
+        "coverage_mode": "mixed_direct_read_and_verified_prior_text",
+        "reused_reading": {
+          "source_id": "S04",
+          "entry": "b第二课-迷男方法【必修】..txt",
+          "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
+          "file_pages": [
+            3,
+            125
+          ],
+          "page_count": 123,
+          "proof": "knowledge/provenance/S22_top30_equivalence.json",
+          "notes": "knowledge/books/S04-mystery-method.md"
+        },
+        "newly_read_characters": 19735
+      }
     }
   ],
   "github_discovery": {
@@ -2775,15 +2844,19 @@
       "upload_ids": [
         "S19",
         "S20",
-        "S21"
+        "S21",
+        "S22"
       ],
-      "decoded_characters": 34548,
+      "decoded_characters": 54283,
       "notes": [
         "knowledge/books/S19-three-months-contacts.md",
         "knowledge/books/S20-ghost-ct-manual.md",
-        "knowledge/books/S21-connor-routines-excerpt.md"
+        "knowledge/books/S21-connor-routines-excerpt.md",
+        "knowledge/books/S22-mystery-pdf-reconciliation.md"
       ],
-      "status": "in_progress"
+      "status": "in_progress",
+      "source_extraction_characters": 175687,
+      "reused_body_pages": 123
     }
   ]
 }

@@ -102,6 +102,38 @@ def validate(root=ROOT):
                 errors.append('Upload reading identity mismatch: '+item['id'])
             if item['read_ranges'] != [[0,item['characters']]]:
                 errors.append('Upload coverage mismatch: '+item['id'])
+            if item.get('coverage_mode') == 'mixed_direct_read_and_verified_prior_text':
+                reused=item['reused_reading']
+                prior=next((s for s in provenance['sources'] if s['id']==reused['source_id']),None)
+                entry=next((e for e in (prior or {}).get('entries',[]) if e['entry']==reused['entry']),None)
+                if entry is None or entry['sha256'] != reused['sha256'] or not entry['reading_status'].startswith(
+                        ('current_provided_entry_text_complete','historical_full_text_read_with_existing_notes')):
+                    errors.append('Reused reading has no matching completed source: '+item['id'])
+                proof_file=root/reused['proof']
+                if not proof_file.is_file():
+                    errors.append('Missing page equivalence manifest: '+item['id'])
+                else:
+                    proof=json.loads(proof_file.read_text(encoding='utf-8'))
+                    if (proof['pdf_sha256'] != item['sha256'] or
+                            proof['prior_entry_sha256'] != reused['sha256'] or not proof['not_a_new_full_read']):
+                        errors.append('Page equivalence identity mismatch: '+item['id'])
+                    rows=proof['pages']
+                    if [r['file_page'] for r in rows] != list(range(1,item['page_count']+1)):
+                        errors.append('Incomplete page equivalence manifest: '+item['id'])
+                    a,b=reused['file_pages']
+                    matched=[r for r in rows if a<=r['file_page']<=b]
+                    if len(matched) != reused['page_count'] or any(
+                            not r['normalized_equal'] or
+                            r['prior_normalized_characters'] != r['pdf_normalized_characters'] or
+                            r['prior_normalized_sha256'] != r['pdf_normalized_sha256'] for r in matched):
+                        errors.append('Claimed reused pages do not match: '+item['id'])
+                end=0
+                for a,b in item['actual_read_chunks']:
+                    if a<end or b<=a or b>item['characters']:
+                        errors.append('Invalid direct reading range: '+item['id'])
+                    end=b
+                if sum(b-a for a,b in item['actual_read_chunks']) != item['newly_read_characters']:
+                    errors.append('Direct and reused reading counts conflated: '+item['id'])
             extra_note_paths.add(item['notes'])
     for source in provenance['github_sources']:
         if source.get('core_round_synthesis_note'):

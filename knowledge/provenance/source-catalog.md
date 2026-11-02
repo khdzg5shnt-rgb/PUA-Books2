@@ -96,3 +96,5 @@ S19最新覆盖为现有正文[0,6008)；早期未核登记为历史。见[独�
 S20最新覆盖为现有正文[0,3469)；早期未核登记为历史。见[独立笔记](../books/S20-ghost-ct-manual.md)与[附件台账](additional_reading_ledger.json)。
 
 S21最新覆盖为现有正文[0,25071)；早期未核登记为历史。见[独立笔记](../books/S21-connor-routines-excerpt.md)与[附件台账](additional_reading_ledger.json)。
+
+S22当前提取范围[0,141139)；本轮直接重读[0,19735)，其他正文经123页精确规范化比对沿用S04既有全文阅读，不全部计新增。见[独立笔记](../books/S22-mystery-pdf-reconciliation.md)与[附件台账](additional_reading_ledger.json)。

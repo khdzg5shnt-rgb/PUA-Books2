@@ -513,6 +513,83 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S22",
+      "sha256": "0d301304e48910a2aae361bd1da60296c86b93b3007f3c159401f029a4e21094",
+      "bytes": 10713118,
+      "characters": 141139,
+      "text_sha256": "2f4314fb5fa528385e978c4a5641d13e3d3f024edb2cb1e3d5cfef3143164171",
+      "encoding_or_extraction": "pypdf page text; join U+000C; direct reread P1–8 plus normalized page equivalence to already fully read S04 entry for P3–125",
+      "read_ranges": [
+        [
+          0,
+          141139
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          19735
+        ]
+      ],
+      "newly_read_characters": 19735,
+      "notes": "knowledge/books/S22-mystery-pdf-reconciliation.md",
+      "original_media_verified": false,
+      "rendered_layout_verified": false,
+      "page_count": 125,
+      "read_file_pages": [
+        1,
+        125
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        32,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        55,
+        74,
+        84,
+        88,
+        91,
+        95,
+        106,
+        125
+      ],
+      "coverage_mode": "mixed_direct_read_and_verified_prior_text",
+      "reused_reading": {
+        "source_id": "S04",
+        "entry": "b第二课-迷男方法【必修】..txt",
+        "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
+        "file_pages": [
+          3,
+          125
+        ],
+        "page_count": 123,
+        "proof": "knowledge/provenance/S22_top30_equivalence.json",
+        "notes": "knowledge/books/S04-mystery-method.md"
+      },
+      "status_detail": "provided_text_reconciled_to_prior_fully_read_S04_entry_for_P3_125; direct_reread_P1_8; 26_selected_pages_visually_reviewed; not_a_new_full_read",
+      "status_short": "P3–125与已读TXT逐页一致；本轮重读P1–8并目读26页，非新增全文通读",
+      "limits": "Prior body reading reused only after 123 page-normalized hashes match; 99 page layouts, obscured corners, anomalous headings, English/original edition and publication completeness still unverified",
+      "date": "2026-11-03",
+      "reading_status": "provided_text_reconciled_to_prior_fully_read_S04_entry_for_P3_125; direct_reread_P1_8; 26_selected_pages_visually_reviewed; not_a_new_full_read",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

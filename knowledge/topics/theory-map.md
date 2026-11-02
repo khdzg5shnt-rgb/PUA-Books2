@@ -50,3 +50,5 @@ Tyler词表PAGE 99的Frame现已核到解释事件/情境、赋予互动与人�
 [S18上部笔记](../books/S18-peterjoy-upper.md)P5嵌入图已逐项目读，A2标为女对男兴趣、A3为男对女兴趣。该图只是此版本局部来源，不能将其核验转算为完整Mystery原PDF已读；结构图中的字母没有在本文件独立定义，保留这一缺口。
 
 [S20 CT手册](../books/S20-ghost-ct-manual.md)实际署名幽灵团队，文件名不能证明Mystery归属；P7图为CT纵轴、ioi横轴的流程示意。三个信号和65%均无数据定义，不进入兴趣或许可计算。
+
+[S22 PDF核对](../books/S22-mystery-pdf-reconciliation.md)新增26页图像范围；P42–43明列M=Move、B=Bounce、T=TimeBridge，补S18跨来源定位。123页正文与已读S04精确规范化相等，不建立重复理论/案例，不将示意图当数据。
