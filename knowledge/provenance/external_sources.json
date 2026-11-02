@@ -166,7 +166,7 @@
           "notes": "knowledge/books/S02-chen-twelve/ch12.md"
         }
       ],
-      "next_bookmark": "Current supplied text completed; missing chapter four and referenced images await a verified version. Project next: S04 4-7、建立感情连接..txt decoded character 0.",
+      "next_bookmark": "Current supplied text completed; missing chapter four and referenced images await a verified version. Project current bookmark: CURRENT_STATE.md.",
       "archive_policy": "Original not redistributed; original paraphrased research notes only",
       "front_matter": {
         "start": "PDF file P1",
@@ -229,7 +229,24 @@
           "entry": "1-1、恋爱六阶段模型..txt",
           "bytes": 13188,
           "sha256": "f41c63acdd16110deca6e09d5dc8ee9fbdafacccb5545f5a92a0feae07ac88d8",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing extracted text only; original PDF not verified",
+          "characters": 5202,
+          "page_markers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U05",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "2-2、搭讪心态..txt",
@@ -473,10 +490,15 @@
         "knowledge/cases/C07-published-dialogues.md"
       ],
       "next_bookmark": {
-        "entry": "1-1、恋爱六阶段模型..txt",
+        "entry": "女人最讨厌的聊天4大常见错误..txt",
         "decoded_character_offset": 0,
         "status": "unread",
-        "sha256": "f41c63acdd16110deca6e09d5dc8ee9fbdafacccb5545f5a92a0feae07ac88d8"
+        "sha256": "e8e35c0bc3dc5af31ca7ac47a8dd4d1f470d596621b83236d351a53f7b68a2b0"
+      },
+      "coverage_counts": {
+        "supplied_text_complete_entries": 7,
+        "legible_text_complete_with_unresolved_garbling": 1,
+        "remaining_without_verified_complete_reading": 22
       }
     },
     {

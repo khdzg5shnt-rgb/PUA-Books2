@@ -7,7 +7,7 @@
 | 开场与叙事 | Brad P钩子、故事、张力、收尾及反馈分支 | [B090](knowledge/books/B090.md)、[C05](knowledge/cases/C05-opening-branches.md) |
 | 话题与幽默 | 横向/纵向、双关、铺垫、反转、严肃话题界限 | [B073](knowledge/books/B073.md)、[幽默主题](knowledge/topics/humor-threading.md)、[S04](knowledge/books/S04-top30-units.md) |
 | 陈哥技巧与发散 | 冷读、角色、推拉、曲解、画面感；九类特质、六步暧昧、拆解/平移、五段叙事、潜台词/测试及内部冲突（作者主张） | [S01](knowledge/books/S01-chen-five.md)、[S02已读单元](knowledge/books/S02-chen-twelve.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
-| 阶段与自我表达 | Adam四阶段、浪迹五阶段、杂耍人整理；保留反固定步骤观点 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md)、[B072](knowledge/books/B072.md) |
+| 阶段与自我表达 | Adam四阶段、浪迹五阶段、魔卡六阶段、杂耍人整理；保留反固定步骤观点 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md)、[B072](knowledge/books/B072.md)、[S04 U05](knowledge/books/S04-top30-units.md) |
 | 线上、邀约与结果 | 真实呈现、Time Bridging、Callback Humor、Investment；意愿与安排分开 | [B037](knowledge/books/B037.md)、[B092](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
 | 电话、约会与具体同意 | 陈哥六步电话流程、七组话题、兴趣信号阈值和抵抗概念；作者的推进目标不等于对方意愿 | [S02第十至十二式](knowledge/books/S02-chen-twelve.md)、[指导规则](CHAT_GUIDANCE_PLAYBOOK.md) |
 | 回应与修复 | 事件/感受/需要/请求；魔卡状态/感受/关联，连接的时间/感情/专属记忆及其限制 | [G01](knowledge/books/G01-lianai.md)、[G04](knowledge/books/G04-simp.md)、[S04](knowledge/books/S04-top30-units.md) |
