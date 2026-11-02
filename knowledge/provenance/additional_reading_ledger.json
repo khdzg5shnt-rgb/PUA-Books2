@@ -191,6 +191,49 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S13",
+      "sha256": "1b664837fd7b9f0b2d94961a0ce4cbbacaf5d7ef9cbc0a6ffaef9ff3247ba508",
+      "bytes": 143384,
+      "characters": 33594,
+      "text_sha256": "88d73a9a66f653330011fc0ca88336fd9f32a40318fc64ea43cc75777bc98c96",
+      "encoding_or_extraction": "LibreOffice TXT UTF-8-sig, original extracted line endings retained",
+      "read_ranges": [
+        [
+          0,
+          33594
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          7000
+        ],
+        [
+          7000,
+          14000
+        ],
+        [
+          14000,
+          21000
+        ],
+        [
+          21000,
+          28000
+        ],
+        [
+          28000,
+          33594
+        ]
+      ],
+      "notes": "knowledge/books/S13-mystery-excerpts.md",
+      "original_media_verified": false,
+      "limits": "Extracted body only; original Word media, text boxes/layout and source edition unverified; Chap.6 title conflicts with in-file A2/A3 definitions; coercive LMR instructions not adopted or reproduced",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

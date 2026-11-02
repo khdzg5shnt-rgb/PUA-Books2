@@ -1296,9 +1296,42 @@
       "title": "《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc",
       "sha256": "1b664837fd7b9f0b2d94961a0ce4cbbacaf5d7ef9cbc0a6ffaef9ff3247ba508",
       "bytes": 143384,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "current_provided_or_extracted_body_text_complete; decoded [0,33594); original media/layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Extracted body only; original Word media, text boxes/layout and source edition unverified; Chap.6 title conflicts with in-file A2/A3 definitions; coercive LMR instructions not adopted or reproduced",
+      "notes": "knowledge/books/S13-mystery-excerpts.md",
+      "characters": 33594,
+      "read_coverage": {
+        "locator": "LibreOffice TXT UTF-8-sig, original extracted line endings retained; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            33594
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            7000
+          ],
+          [
+            7000,
+            14000
+          ],
+          [
+            14000,
+            21000
+          ],
+          [
+            21000,
+            28000
+          ],
+          [
+            28000,
+            33594
+          ]
+        ]
+      }
     },
     {
       "id": "S14",
@@ -2480,13 +2513,15 @@
       "upload_ids": [
         "S07",
         "S11",
-        "S12"
+        "S12",
+        "S13"
       ],
-      "decoded_characters": 46230,
+      "decoded_characters": 79824,
       "notes": [
         "knowledge/books/S07-stage-script.md",
         "knowledge/books/S11-mystery-notes.md",
-        "knowledge/books/S12-social-scripts.md"
+        "knowledge/books/S12-social-scripts.md",
+        "knowledge/books/S13-mystery-excerpts.md"
       ],
       "status": "independent reading unit integrated"
     }

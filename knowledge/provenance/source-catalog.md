@@ -80,3 +80,5 @@ S07当前DOCX171段、字符[0,5414)已实际阅读；原先登记的未核状�
 S11最新覆盖为现有正文[0,19448)；早期未核登记为历史。见[独立笔记](../books/S11-mystery-notes.md)与[附件台账](additional_reading_ledger.json)。
 
 S12最新覆盖为现有正文[0,21368)；早期未核登记为历史。见[独立笔记](../books/S12-social-scripts.md)与[附件台账](additional_reading_ledger.json)。
+
+S13最新覆盖为现有正文[0,33594)；早期未核登记为历史。见[独立笔记](../books/S13-mystery-excerpts.md)与[附件台账](additional_reading_ledger.json)。

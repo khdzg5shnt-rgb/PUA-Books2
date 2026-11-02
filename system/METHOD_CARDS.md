@@ -26,11 +26,11 @@
 
 适用：她提供一个日常事件、偏好或具体信息
 
-动作：挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；不是每轮都提问，必要时只留一个问题。 照片或兴趣分享可选一个已知细节回应，允许口味不同，不同时铺开多条追问。
+动作：承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。不是每轮都问，必要时最多一个相关问题。
 
-避免：连续问工作住址爱好；用另一个无关话题抢走分享。 不为填每个停顿反复添加新问题。
+避免：连续查户口、同时铺开多条追问、抢走对方分享，或为填停顿不断另开话题。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -40,9 +40,9 @@
 
 动作：先用已知事实回答，再视当前语境加一点真实态度；未知生活事实不代编。
 
-避免：把每个问题叫测试；故意卖关子、假装职业、无故反问。 不为框架或圈套标签忽视正常的姓名、年龄、职业询问。
+避免：把正常询问叫测试；为争框架故意不答、卖关子、编身份或无故反问。
 
-依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M05 回扣共同话题
 
@@ -72,9 +72,9 @@
 
 动作：沿她接住的角色补一句；角色只是玩笑，随时回现实。
 
-避免：初识强叫老婆；把角色台词当关系确认或真实承诺。 共享角色、昵称和仪式不能代替双方确认关系；不要求对方立即改口。
+避免：强叫亲昵称呼或要求立即改口；把共享角色、昵称和仪式当成双方已确认现实关系、承诺或同意。
 
-依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M08 有依据的可纠正观察
 
@@ -82,9 +82,9 @@
 
 动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。
 
-避免：从头像诊断依恋；空泛算命；断言她只是嘴硬。 不由爱笑推家庭状态，或由单亲家庭推婚姻愿望。 不由开朗或夜间聊天推定创伤、脆弱或缺乏安全感。
+避免：凭外貌、头像、星座或开朗程度推出人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M09 具体欣赏
 
@@ -92,9 +92,9 @@
 
 动作：说清哪个细节值得欣赏；强度不超过用户真实感受与关系基础。 对已经发生的具体好意可以道谢，表达收到这份好意，不以获得下一次配合为目的。
 
-避免：泛夸、贬低别人、编造她的努力过程或承诺。 秘密安排他人夸奖、假赞美、奖励撤回或以亲密换取服务。 不机械在赞美后补贬低，或通过制造尴尬让人争取认可。
+避免：泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M10 分享真实生活
 
@@ -102,9 +102,9 @@
 
 动作：用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。
 
-避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。 不只替换脚本姓名就移植所在地、行业、情史、梦境或未来承诺。 不用虚假照片出处、杜撰配图故事或假装熟悉某作品制造共同点。
+避免：移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M11 接住困扰
 
@@ -144,19 +144,19 @@
 
 动作：用真实活动与一个具体时间提出邀请；允许对方调整或拒绝，不强制先模糊邀约。
 
-避免：虚构展览、空闲或顺路；一轮换多个日期；用最后机会施压。 不以完成固定朋友或暧昧台词阶段作为邀约前提。
+避免：虚构活动、空闲或顺路；以固定台词阶段为邀约前提；一轮反复换日期，或借最后机会施压。
 
-依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M15 确认已答应的安排
 
 适用：她对共同活动表示开放，或已答应具体邀请，正在确定可行性和安排
 
-动作：先区分一般活动意愿与具体约定；只有一般意愿时补一项影响安排的真实信息，不能当作已定约会。已有具体活动与日期时，优先确认尚缺的时间、地点或集合方式；信息全了就简短确认。 需要换场时明确真实去向，再确认双方愿意；不能把上一项活动的答应沿用到新去向。
+动作：一般活动意愿先补一项关键可行信息；接受具体邀请后确认缺少的时间、地点或集合方式，齐全就简短确认。换场要说明真实去向并确认双方愿意。
 
-避免：把已答应后的短回复判冷淡；继续无目的撩到安排失焦。 不把一般活动意愿写成已确定日期，不编场次和空闲，也不反复索取同意。
+避免：把一般意愿写成已定约会，编场次和空闲，反复索取同意；继续无目的调情，或把前一项活动的答应沿用到新去向。
 
-依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M16 承接替代时间或重约
 
@@ -196,9 +196,9 @@
 
 动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。
 
-避免：为了制造焦虑故意消失；归因用户不够有魅力；无限救场。 不用“所有情绪都是自己编故事”否认已发生的单边成本。 不把持续维持所有话题当某一性别的义务。
+避免：故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M20 接住纠正或澄清
 
@@ -216,9 +216,9 @@
 
 动作：只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。
 
-避免：没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。 不把被不尊重或受伤害归为眼光差、个人价值低。
+避免：无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。
 
-依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
+依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M22 表达边界
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
 
-避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。 表白、情侣身份和亲昵称呼不能替代对具体亲密行为的同意。 不将含糊、未反抗、朋友许可或服从测试改写成本人的同意。
+避免：用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
 
 ## M24 见面后的真实反馈
 
