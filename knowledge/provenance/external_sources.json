@@ -366,7 +366,7 @@
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "partial; decoded [0,33384) read: front matter and chapters one-two; remaining text not counted",
+          "reading_status": "partial; decoded [0,42418) read: front matter and chapters one through 3; remaining text not counted",
           "characters": 141076,
           "page_marker_count": 125,
           "notes": "knowledge/books/S04-mystery-method.md",
@@ -411,6 +411,21 @@
               "printed_pages": [
                 8,
                 15
+              ]
+            },
+            {
+              "unit": "chapter 3",
+              "range": [
+                33384,
+                42418
+              ],
+              "page_markers": [
+                22,
+                29
+              ],
+              "printed_pages": [
+                16,
+                23
               ]
             }
           ]
@@ -670,10 +685,10 @@
       ],
       "next_bookmark": {
         "entry": "b第二课-迷男方法【必修】..txt",
-        "decoded_character_offset": 33384,
-        "page_marker": 22,
-        "printed_page": 16,
-        "heading": "第3章 改写她的恋爱电路",
+        "decoded_character_offset": 42418,
+        "page_marker": 30,
+        "printed_page": 24,
+        "heading": "第四章：游戏的规则与架构",
         "status": "unread from this bookmark",
         "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1"
       },
