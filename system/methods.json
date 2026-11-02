@@ -33,7 +33,7 @@
       "id": "M02",
       "name": "等对方回这一轮",
       "use_when": "最后一条是用户已发的消息，对方尚未回复，且没有独立必要的新事务",
-      "operation": "建议先不补发；不编理由结束，不设置冷落倒计时。 可以有失落和不满，停止加码不是要求情绪消失，也不是固定冷落。",
+      "operation": "最后是用户消息且尚未回复时先不补发；对方已有新消息则按本轮事实处理，正常及时回复不等于连发。不设置冷落倒计时，可以保留失落或不满。",
       "avoid": "再发第二个开场、追问为什么不回、虚构忙碌。",
       "sources": [
         {
@@ -49,6 +49,11 @@
         {
           "path": "knowledge/books/S04-emotion-management.md",
           "locator": "事实与假设、暂停加码、对错与边界限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S19-three-months-contacts.md",
+          "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -326,7 +331,7 @@
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
       "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。",
-      "avoid": "移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。",
+      "avoid": "移植导师身份、经历、照片出处和未来承诺，或凭照片断定人品；故意吊住故事等追问。",
       "sources": [
         {
           "path": "knowledge/books/S02-chen-twelve/ch08.md",
@@ -371,6 +376,11 @@
         {
           "path": "knowledge/books/S18-peterjoy-upper.md",
           "locator": "P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S19-three-months-contacts.md",
+          "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -816,8 +826,8 @@
     {
       "id": "M23",
       "name": "尊重拒绝的具体范围",
-      "use_when": "她明确拒绝联系、恋爱发展、某种身体行为或某个活动",
-      "operation": "停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。",
+      "use_when": "她明确拒绝联系、恋爱发展、某种身体行为、活动或转移联系方式",
+      "operation": "停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。",
       "avoid": "用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。",
       "sources": [
         {
@@ -869,6 +879,11 @@
           "path": "knowledge/books/S18-peterjoy-upper.md",
           "locator": "P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S19-three-months-contacts.md",
+          "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -901,8 +916,8 @@
       "id": "M25",
       "name": "开场或自然重联",
       "use_when": "需要开启新一轮，且没有未回复消息或明确不联系的边界",
-      "operation": "优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。",
-      "avoid": "反复考古、假偶遇、假误发、编梦境或近况；虚构问路、购物等理由，或按固定天数刷存在感。",
+      "operation": "优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。需要转平台时直接征求意愿，不以帮忙作为交换条件。",
+      "avoid": "反复考古、假偶遇、假误发、编梦境或近况；虚构购物、资源清单、平台无法发送等理由；按固定天数刷存在感。",
       "sources": [
         {
           "path": "knowledge/books/B090.md",
@@ -927,6 +942,11 @@
         {
           "path": "knowledge/books/G04-daily-coach.md",
           "locator": "一个行动、调用次数/固定天数和黄金时段的证据限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S19-three-months-contacts.md",
+          "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

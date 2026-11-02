@@ -364,6 +364,53 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S19",
+      "sha256": "49090a28a0aa239a57d6dba2b98270ada1d5e0aea979b0225b7e80c56c9d87d9",
+      "bytes": 329430,
+      "characters": 6008,
+      "text_sha256": "482e707d8b2a6ca39497f1071eb7ef0522614690aed1c4f6020a445ff0f80a31",
+      "encoding_or_extraction": "pypdf page text; join U+000C; page sizes 756,699,602,522,669,814,609,600,578,150",
+      "read_ranges": [
+        [
+          0,
+          6008
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          6008
+        ]
+      ],
+      "notes": "knowledge/books/S19-three-months-contacts.md",
+      "original_media_verified": true,
+      "rendered_layout_verified": true,
+      "page_count": 10,
+      "read_file_pages": [
+        1,
+        10
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status_detail": "provided_ten_page_contacts_guide_text_complete_and_all_pages_visually_reviewed; author and outcome claims unverified",
+      "status_short": "现有P1–10全文与全部页面图像已核；数量/成功率无可核数据",
+      "limits": "Current ten-page guide only; author/publication unknown; numerical outcomes and platform claims not verified; no full interaction feedback",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

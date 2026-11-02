@@ -33,7 +33,8 @@
       "contact",
       "physical",
       "romance",
-      "activity"
+      "activity",
+      "channel"
     ],
     "invitation": [
       "none",
@@ -176,17 +177,26 @@
     },
     {
       "id": "R05",
-      "name": "明确不适与话题边界",
+      "name": "明确话题或渠道边界",
       "when": {
-        "field": "boundary_expressed",
-        "op": "eq",
-        "value": true
+        "any": [
+          {
+            "field": "boundary_expressed",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "refusal_scope",
+            "op": "eq",
+            "value": "channel"
+          }
+        ]
       },
       "method_ids": [
         "M23"
       ],
       "action": "draft",
-      "purpose": "停止她明确不接受的当前方向",
+      "purpose": "停止不接受的话题或换平台请求，不扩大成全部联系意愿",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]

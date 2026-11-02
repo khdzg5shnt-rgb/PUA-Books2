@@ -1464,10 +1464,27 @@
       "title": "3个月(4).pdf",
       "sha256": "49090a28a0aa239a57d6dba2b98270ada1d5e0aea979b0225b7e80c56c9d87d9",
       "bytes": 329430,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "provided_ten_page_contacts_guide_text_complete_and_all_pages_visually_reviewed; author and outcome claims unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "pages": 10
+      "pending": "Current ten-page guide only; author/publication unknown; numerical outcomes and platform claims not verified; no full interaction feedback",
+      "pages": 10,
+      "notes": "knowledge/books/S19-three-months-contacts.md",
+      "characters": 6008,
+      "read_coverage": {
+        "locator": "pypdf page text; join U+000C; page sizes 756,699,602,522,669,814,609,600,578,150; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            6008
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            6008
+          ]
+        ]
+      }
     },
     {
       "id": "S20",
@@ -2705,6 +2722,18 @@
         "entry": "k第十一课-吸引不是选择..txt",
         "decoded_character": 0
       }
+    },
+    {
+      "round_id": "remaining-uploads-2026-11-03",
+      "date": "2026-11-03",
+      "upload_ids": [
+        "S19"
+      ],
+      "decoded_characters": 6008,
+      "notes": [
+        "knowledge/books/S19-three-months-contacts.md"
+      ],
+      "status": "in_progress"
     }
   ]
 }

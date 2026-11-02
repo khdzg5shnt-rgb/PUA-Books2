@@ -50,7 +50,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S16 | 迷男方法的精髓(1).pdf | 文件P1–5全部正文与五页图像已核；原版来源未核 | [原创笔记](../knowledge/books/S16-mystery-essence.md) |
 | S17 | 谜男聊天6大杀手锏.pdf | 文件P1–6正文与全部页面已核；正文为幽灵五招，实际六部分 | [原创笔记](../knowledge/books/S17-six-techniques.md) |
 | S18 | 《迷男方法》整理(完美)(4).pdf | 现有上部P1–8全文和图示已核；并非完整原著或下部 | [原创笔记](../knowledge/books/S18-peterjoy-upper.md) |
-| S19 | 3个月(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S19 | 3个月(4).pdf | 现有P1–10全文与全部页面图像已核；数量/成功率无可核数据 | [原创笔记](../knowledge/books/S19-three-months-contacts.md) |
 | S20 | 谜男团队-高级班 ct升级手册.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S21 | PUA话术惯例手册(3).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S22 | 加水印-去水印--36.《谜男方法》(2).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
@@ -74,7 +74,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有4项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有3项。
 
 ## 本轮公开来源继续补读
 
@@ -97,3 +97,5 @@ S16：[当前独立阅读笔记](../knowledge/books/S16-mystery-essence.md)，�
 S17：[当前独立阅读笔记](../knowledge/books/S17-six-techniques.md)，现有提取文字[0,3701)已读；原文不转载。现有六页PDF正文与全部页面已核；文件名与实际署名、五/六标题不一致。真实细节与想象分开，角色不当共同记忆，一轮不堆多种技巧或分支。
 
 S18：[当前独立阅读笔记](../knowledge/books/S18-peterjoy-upper.md)，现有提取文字[0,3306)已读；原文不转载。当前八页实际为PeterJOY上部笔记；P5嵌入的九阶段表与结构图已目读，不把提取空白当缺页，也不把文件名完美当原著完整。未增加重复方法。
+
+S19：[当前独立阅读笔记](../knowledge/books/S19-three-months-contacts.md)，现有提取文字[0,6008)已读；原文不转载。实际为三个月加500个微信的10页指南，未提供结果数据；补清拒绝换平台的范围、正常及时回复与未回补发的区别，不用假清单或平台限制换联系方式。

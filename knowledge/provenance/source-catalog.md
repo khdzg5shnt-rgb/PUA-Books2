@@ -90,3 +90,5 @@ S16最新覆盖为现有正文[0,4968)；早期未核登记为历史。见[独�
 S17最新覆盖为现有正文[0,3701)；早期未核登记为历史。见[独立笔记](../books/S17-six-techniques.md)与[附件台账](additional_reading_ledger.json)。
 
 S18最新覆盖为现有正文[0,3306)；早期未核登记为历史。见[独立笔记](../books/S18-peterjoy-upper.md)与[附件台账](additional_reading_ledger.json)。
+
+S19最新覆盖为现有正文[0,6008)；早期未核登记为历史。见[独立笔记](../books/S19-three-months-contacts.md)与[附件台账](additional_reading_ledger.json)。

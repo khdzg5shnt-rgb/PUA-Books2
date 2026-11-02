@@ -16,11 +16,11 @@
 
 适用：最后一条是用户已发的消息，对方尚未回复，且没有独立必要的新事务
 
-动作：建议先不补发；不编理由结束，不设置冷落倒计时。 可以有失落和不满，停止加码不是要求情绪消失，也不是固定冷落。
+动作：最后是用户消息且尚未回复时先不补发；对方已有新消息则按本轮事实处理，正常及时回复不等于连发。不设置冷落倒计时，可以保留失落或不满。
 
 避免：再发第二个开场、追问为什么不回、虚构忙碌。
 
-依据：[重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；[不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)
+依据：[重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；[不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
 
 ## M03 接住具体内容
 
@@ -102,9 +102,9 @@
 
 动作：用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。
 
-避免：移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。
+避免：移植导师身份、经历、照片出处和未来承诺，或凭照片断定人品；故意吊住故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
 
 ## M11 接住困扰
 
@@ -232,13 +232,13 @@
 
 ## M23 尊重拒绝的具体范围
 
-适用：她明确拒绝联系、恋爱发展、某种身体行为或某个活动
+适用：她明确拒绝联系、恋爱发展、某种身体行为、活动或转移联系方式
 
-动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
+动作：停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。
 
 避免：用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
 
 ## M24 见面后的真实反馈
 
@@ -254,11 +254,11 @@
 
 适用：需要开启新一轮，且没有未回复消息或明确不联系的边界
 
-动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。
+动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。需要转平台时直接征求意愿，不以帮忙作为交换条件。
 
-避免：反复考古、假偶遇、假误发、编梦境或近况；虚构问路、购物等理由，或按固定天数刷存在感。
+避免：反复考古、假偶遇、假误发、编梦境或近况；虚构购物、资源清单、平台无法发送等理由；按固定天数刷存在感。
 
-依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)
+依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
 
 ## M26 压成一句自然的话
 

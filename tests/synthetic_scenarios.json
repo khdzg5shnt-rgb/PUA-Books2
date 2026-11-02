@@ -716,5 +716,33 @@
     "expect_route": "R02",
     "expect_action": "stop",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T55",
+    "context": "虚构教学场景：拒绝换联系方式，明确愿意留原平台聊，即使已有活动约定也先尊重渠道边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "channel",
+      "invitation": "accepted",
+      "shared_callback_available": true
+    },
+    "expect_route": "R05",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T56",
+    "context": "虚构教学场景：明确要求停止全部私人联系，原来有共同话题也不能改走渠道或回扣路线",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "contact",
+      "function": "opening",
+      "shared_callback_available": true
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
   }
 ]
