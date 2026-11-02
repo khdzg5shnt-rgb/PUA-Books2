@@ -70,11 +70,11 @@
 
 适用：她已明确参与一个轻松假拟场景
 
-动作：沿她接住的角色补一句；角色只是玩笑，随时回现实。
+动作：只沿双方已接住的轻松设定补一句，明确是假拟并允许随时回到现实；不伪造共同经历。
 
 避免：强叫亲昵称呼或要求立即改口；把共享角色、昵称和仪式当成双方已确认现实关系、承诺或同意。
 
-依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)
 
 ## M08 有依据的可纠正观察
 
@@ -100,11 +100,11 @@
 
 适用：有相关的已知用户经历或看法，可让对话双向
 
-动作：用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。
+动作：用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。
 
 避免：移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)
 
 ## M11 接住困扰
 
@@ -266,6 +266,6 @@
 
 动作：先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。
 
-避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。
+避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)

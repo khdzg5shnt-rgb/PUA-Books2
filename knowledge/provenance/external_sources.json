@@ -1410,10 +1410,27 @@
       "title": "谜男聊天6大杀手锏.pdf",
       "sha256": "7969f636866b69b1313234a1260ffb1dce68df4c939d760ec2143f4eb9aa9bf6",
       "bytes": 261279,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "provided_pdf_P1-P6_text_complete_and_all_six_pages_visually_reviewed; printed author/title differs from filename; original publication unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "pages": 6
+      "pending": "Current six-page PDF fully read and visually reviewed; printed title/author differs from filename; numbered six sections despite five-technique heading; original publication and case permissions unverified",
+      "pages": 6,
+      "notes": "knowledge/books/S17-six-techniques.md",
+      "characters": 3701,
+      "read_coverage": {
+        "locator": "pypdf page text; join U+000C; page sizes 579,749,717,586,794,271; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            3701
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            3701
+          ]
+        ]
+      }
     },
     {
       "id": "S18",
@@ -2604,15 +2621,17 @@
         "S11",
         "S12",
         "S13",
-        "S16"
+        "S16",
+        "S17"
       ],
-      "decoded_characters": 84792,
+      "decoded_characters": 88493,
       "notes": [
         "knowledge/books/S07-stage-script.md",
         "knowledge/books/S11-mystery-notes.md",
         "knowledge/books/S12-social-scripts.md",
         "knowledge/books/S13-mystery-excerpts.md",
-        "knowledge/books/S16-mystery-essence.md"
+        "knowledge/books/S16-mystery-essence.md",
+        "knowledge/books/S17-six-techniques.md"
       ],
       "status": "independent reading unit integrated",
       "github_documents": [

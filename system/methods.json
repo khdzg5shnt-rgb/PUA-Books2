@@ -204,7 +204,7 @@
       "id": "M07",
       "name": "共同角色玩笑",
       "use_when": "她已明确参与一个轻松假拟场景",
-      "operation": "沿她接住的角色补一句；角色只是玩笑，随时回现实。",
+      "operation": "只沿双方已接住的轻松设定补一句，明确是假拟并允许随时回到现实；不伪造共同经历。",
       "avoid": "强叫亲昵称呼或要求立即改口；把共享角色、昵称和仪式当成双方已确认现实关系、承诺或同意。",
       "sources": [
         {
@@ -225,6 +225,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S17-six-techniques.md",
+          "locator": "P1–6六部分定义、标题/署名差异与未提供后续的候选回复",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -320,7 +325,7 @@
       "id": "M10",
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
-      "operation": "用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。",
+      "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。",
       "avoid": "移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。",
       "sources": [
         {
@@ -356,6 +361,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S17-six-techniques.md",
+          "locator": "P1–6六部分定义、标题/署名差异与未提供后续的候选回复",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -914,7 +924,7 @@
       "name": "压成一句自然的话",
       "use_when": "已经选定本轮目标与依据，需要生成给用户复制的消息",
       "operation": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。",
-      "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。",
+      "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。",
       "sources": [
         {
           "path": "knowledge/books/G01-practical-expansion.md",
@@ -954,6 +964,11 @@
         {
           "path": "knowledge/books/G04-daily-coach.md",
           "locator": "一个行动、调用次数/固定天数和黄金时段的证据限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S17-six-techniques.md",
+          "locator": "P1–6六部分定义、标题/署名差异与未提供后续的候选回复",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

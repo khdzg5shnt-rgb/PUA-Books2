@@ -276,6 +276,49 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S17",
+      "sha256": "7969f636866b69b1313234a1260ffb1dce68df4c939d760ec2143f4eb9aa9bf6",
+      "bytes": 261279,
+      "characters": 3701,
+      "text_sha256": "5d919e9965bb64a30387ba5f3d083cf5f31fcca2747ac99829c64dc45d24af66",
+      "encoding_or_extraction": "pypdf page text; join U+000C; page sizes 579,749,717,586,794,271",
+      "read_ranges": [
+        [
+          0,
+          3701
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          3701
+        ]
+      ],
+      "notes": "knowledge/books/S17-six-techniques.md",
+      "original_media_verified": true,
+      "rendered_layout_verified": true,
+      "page_count": 6,
+      "read_file_pages": [
+        1,
+        6
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status_detail": "provided_pdf_P1-P6_text_complete_and_all_six_pages_visually_reviewed; printed author/title differs from filename; original publication unverified",
+      "status_short": "文件P1–6正文与全部页面已核；正文为幽灵五招，实际六部分",
+      "limits": "Current six-page PDF fully read and visually reviewed; printed title/author differs from filename; numbered six sections despite five-technique heading; original publication and case permissions unverified",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

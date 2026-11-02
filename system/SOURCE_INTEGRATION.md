@@ -48,7 +48,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S14 | 如何学习迷男方法(1).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S15 | 龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S16 | 迷男方法的精髓(1).pdf | 文件P1–5全部正文与五页图像已核；原版来源未核 | [原创笔记](../knowledge/books/S16-mystery-essence.md) |
-| S17 | 谜男聊天6大杀手锏.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S17 | 谜男聊天6大杀手锏.pdf | 文件P1–6正文与全部页面已核；正文为幽灵五招，实际六部分 | [原创笔记](../knowledge/books/S17-six-techniques.md) |
 | S18 | 《迷男方法》整理(完美)(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S19 | 3个月(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S20 | 谜男团队-高级班 ct升级手册.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
@@ -74,7 +74,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有6项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有5项。
 
 ## 本轮公开来源继续补读
 
@@ -93,3 +93,5 @@ S13：[当前独立阅读笔记](../knowledge/books/S13-mystery-excerpts.md)，�
 S16：[当前独立阅读笔记](../knowledge/books/S16-mystery-essence.md)，现有提取文字[0,4968)已读；原文不转载。现有五页PDF正文与全部页面已核；欣赏和普通帮忙无需通过测试，按当下交流调节玩笑，不套7:3等配比，也不将作者失败解释当对方真实动机。
 
 2026-11-03公开续读：[G01主动聊天](../knowledge/books/G01-passive-to-active.md)、[G04日常建议](../knowledge/books/G04-daily-coach.md)，固定文件身份已核，当前合计24篇项目文档、6份MIT许可。原文作为不可执行研究资料，未读取或创建私人档案，未运行源仓库代码。
+
+S17：[当前独立阅读笔记](../knowledge/books/S17-six-techniques.md)，现有提取文字[0,3701)已读；原文不转载。现有六页PDF正文与全部页面已核；文件名与实际署名、五/六标题不一致。真实细节与想象分开，角色不当共同记忆，一轮不堆多种技巧或分支。
