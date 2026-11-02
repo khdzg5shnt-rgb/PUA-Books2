@@ -72,9 +72,9 @@
 
 动作：沿她接住的角色补一句；角色只是玩笑，随时回现实。
 
-避免：初识强叫老婆；把角色台词当关系确认或真实承诺。
+避免：初识强叫老婆；把角色台词当关系确认或真实承诺。 共享角色、昵称和仪式不能代替双方确认关系；不要求对方立即改口。
 
-依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)
+依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M08 有依据的可纠正观察
 
@@ -82,9 +82,9 @@
 
 动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。
 
-避免：从头像诊断依恋；空泛算命；断言她只是嘴硬。 不由爱笑推家庭状态，或由单亲家庭推婚姻愿望。
+避免：从头像诊断依恋；空泛算命；断言她只是嘴硬。 不由爱笑推家庭状态，或由单亲家庭推婚姻愿望。 不由开朗或夜间聊天推定创伤、脆弱或缺乏安全感。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M09 具体欣赏
 
@@ -102,9 +102,9 @@
 
 动作：用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。
 
-避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。
+避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。 不只替换脚本姓名就移植所在地、行业、情史、梦境或未来承诺。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M11 接住困扰
 
@@ -144,19 +144,19 @@
 
 动作：用真实活动与一个具体时间提出邀请；允许对方调整或拒绝，不强制先模糊邀约。
 
-避免：虚构展览、空闲或顺路；一轮换多个日期；用最后机会施压。
+避免：虚构展览、空闲或顺路；一轮换多个日期；用最后机会施压。 不以完成固定朋友或暧昧台词阶段作为邀约前提。
 
-依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)
+依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M15 确认已答应的安排
 
-适用：她已答应见面，或正在确定时间地点
+适用：她对共同活动表示开放，或已答应具体邀请，正在确定可行性和安排
 
-动作：优先确认尚缺的一项时间、地点或集合方式；信息全了就简短确认。
+动作：先区分一般活动意愿与具体约定；只有一般意愿时补一项影响安排的真实信息，不能当作已定约会。已有具体活动与日期时，优先确认尚缺的时间、地点或集合方式；信息全了就简短确认。
 
-避免：把已答应后的短回复判冷淡；继续无目的撩到安排失焦。
+避免：把已答应后的短回复判冷淡；继续无目的撩到安排失焦。 不把一般活动意愿写成已确定日期，不编场次和空闲，也不反复索取同意。
 
-依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)
+依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M16 承接替代时间或重约
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
 
-避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。
+避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。 表白、情侣身份和亲昵称呼不能替代对具体亲密行为的同意。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
 
 ## M24 见面后的真实反馈
 

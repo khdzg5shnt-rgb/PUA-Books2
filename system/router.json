@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "1.0.0",
-  "updated": "2026-11-02",
+  "version": "1.1.0",
+  "updated": "2026-11-03",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
   "defaults": {
@@ -41,7 +41,8 @@
       "alternative",
       "cancelled_with_repair",
       "no_alternative",
-      "cancelled_without_repair"
+      "cancelled_without_repair",
+      "open_to_activity"
     ],
     "function": [
       "unknown",
@@ -252,13 +253,16 @@
     },
     {
       "id": "R09",
-      "name": "已经答应",
+      "name": "活动意愿与安排",
       "when": {
         "any": [
           {
             "field": "invitation",
-            "op": "eq",
-            "value": "accepted"
+            "op": "in",
+            "value": [
+              "accepted",
+              "open_to_activity"
+            ]
           },
           {
             "field": "function",
@@ -271,7 +275,7 @@
         "M15"
       ],
       "action": "draft",
-      "purpose": "完成正在进行的具体安排",
+      "purpose": "分清一般活动意愿和具体约定，只补当前关键的可行信息或安排",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]

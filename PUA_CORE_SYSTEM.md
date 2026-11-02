@@ -25,3 +25,7 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 ## 五份核心沟通资料的新定位
 
 完整提供文字共94,400字符已读；原书与缺图范围另计。按情境看[共情](knowledge/books/S04-empathy.md)、[述情](knowledge/books/S04-expression.md)、[情绪管理](knowledge/books/S04-emotion-management.md)、[允许](knowledge/books/S04-allowing.md)、[影响](knowledge/books/S04-influence.md)。各文保留原主张与案例反馈，同时标清不采用的归责、读心、固定效果及操控推断。当前方法卡与回复规则已回填，无需另开一套竞争模型。
+
+## 五段脚本与阶段边界
+
+[S07](knowledge/books/S07-stage-script.md)现有正文全部阅读。它只有预写单方台词，没有实际对方反馈；不采用移植身份、星座读心、年龄价值排序或强制关系称呼。真实表达、邀约可行性与分项同意仍按同一套方法执行。

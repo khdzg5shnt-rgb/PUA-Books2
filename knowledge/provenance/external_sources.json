@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "review_date": "2026-11-02",
+  "review_date": "2026-11-03",
   "source_access": "Mixed external sources. Selected permissively licensed project documents are archived as inert text. Uploaded books/courses, third-party excerpts, tools and uncertain quoted sources are represented by original research notes plus fixed provenance; absent raw sources may still be needed for new source-detail checks.",
   "sources": [
     {
@@ -1140,10 +1140,22 @@
       "title": "认识→→私密完整流程.docx",
       "sha256": "c726d9554c8dca4a66071562eb8b4f8e8b09858dc38ab2125eef16762b4f07ab",
       "bytes": 20086,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "current_provided_docx_body_text_complete; decoded [0,5414); no embedded media or tables; original course and layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "embedded_media_count": 0
+      "pending": "Author, original course/edition and rendered layout unverified; section four starts at item 2 and final section leaves continuation unspecified",
+      "embedded_media_count": 0,
+      "notes": "knowledge/books/S07-stage-script.md",
+      "characters": 5414,
+      "body_paragraph_count": 171,
+      "read_coverage": {
+        "locator": "OOXML body paragraph text; join LF; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            5414
+          ]
+        ]
+      }
     },
     {
       "id": "S08",
@@ -2411,5 +2423,18 @@
       "references/practical/化解尴尬：轻松救场的实用指南.md",
       "references/practical/高情商拒绝他人：体面护边界的实用指南.md"
     ]
-  }
+  },
+  "continuation_rounds": [
+    {
+      "date": "2026-11-03",
+      "upload_ids": [
+        "S07"
+      ],
+      "decoded_characters": 5414,
+      "notes": [
+        "knowledge/books/S07-stage-script.md"
+      ],
+      "status": "independent reading unit integrated"
+    }
+  ]
 }

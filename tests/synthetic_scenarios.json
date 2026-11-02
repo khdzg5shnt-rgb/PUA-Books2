@@ -665,5 +665,56 @@
     "expect_route": "R16",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T51",
+    "context": "虚构教学场景：对一起逛植物园表示开放，但没有日期和已核活动，只能补可行信息",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "open_to_activity"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T52",
+    "context": "虚构教学场景：明确答应了具体聚餐，仍缺集合点，优先安排",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T53",
+    "context": "虚构教学场景：过去同意活动但当前明确拒绝私人联系，以当前拒绝为准",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "open_to_activity",
+      "refusal_scope": "contact"
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T54",
+    "context": "虚构教学场景：共享角色不覆盖明确身体边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "roleplay_shared": true,
+      "refusal_scope": "physical"
+    },
+    "expect_route": "R02",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
   }
 ]

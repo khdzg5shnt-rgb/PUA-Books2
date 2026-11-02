@@ -33,3 +33,5 @@
 <!-- END_CORE_READING -->
 
 短篇附件S08/S09/S10/S14/S15新增全文范围与方法取舍，见[补读笔记](knowledge/books/S08-S15-calibration.md)及[台账](knowledge/provenance/additional_reading_ledger.json)。
+
+2026-11-03新增：[S07五段脚本的原结构与采用边界](knowledge/books/S07-stage-script.md)；同意范围、真实表达与一般意愿/具体安排已回填现有方法。

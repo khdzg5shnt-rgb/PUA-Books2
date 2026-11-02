@@ -1,6 +1,6 @@
 # 唯一来源入口
 
-截至2026-11-02，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
+截至2026-11-03，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
 
 ## 日常使用
 
@@ -38,7 +38,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S04 | TOP30_DEEP_READ.zip | 22条现有文字完成；1条乱码未解；7条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
 | S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S07 | 认识→→私密完整流程.docx | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S07 | 认识→→私密完整流程.docx | 当前DOCX正文171段、5,414字符已读；原始课程及版式未核 | [五段脚本笔记](../knowledge/books/S07-stage-script.md) |
 | S08 | 《谜男方法》M3模型之A3阶段重要性再总结(3).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S09 | 对谜男方法的21点解释(2).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S10 | 性格内向如何锻炼社交直觉.doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
@@ -74,8 +74,12 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有11项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有10项。
 
 ## 本轮公开来源继续补读
 
 G01的尴尬处理与拒绝表达两篇项目文档已从头到尾读完并按MIT归档，精确blob核对通过；当前总归档22篇项目文档与6份许可。范围与方法取舍见[新增笔记](../knowledge/books/G01-awkwardness-and-refusal.md)。既有9源固定快照未冒认整仓通读。
+
+## 2026-11-03续读
+
+S07完整现有正文已读并进入M07/M08/M10/M14/M15/M23，见[原结构与取舍](../knowledge/books/S07-stage-script.md)。作者身份和实际互动反馈缺失，不能当作实战成功记录；不公开转载原脚本。

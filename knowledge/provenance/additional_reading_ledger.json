@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-02",
-  "locator": "GB18030 decoded raw TXT with CR retained, or LibreOffice-extracted UTF-8-sig text; zero-based half-open",
+  "locator": "Per-record extraction/decoding; zero-based half-open; see encoding_or_extraction",
   "scope": "Full supplied/extracted text only; original Word media and missing referenced diagrams not verified",
   "records": [
     {
@@ -98,6 +98,30 @@
       ],
       "notes": "knowledge/books/S08-S15-calibration.md",
       "original_media_verified": false
+    },
+    {
+      "id": "S07",
+      "date": "2026-11-03",
+      "sha256": "c726d9554c8dca4a66071562eb8b4f8e8b09858dc38ab2125eef16762b4f07ab",
+      "bytes": 20086,
+      "encoding_or_extraction": "word/document.xml body paragraph order;w:t/tab/br;join LF",
+      "characters": 5414,
+      "text_sha256": "654ba0d41bfc051fdb3a0c75842f05964635a2e9f6d9ee37de91d8f75cee7f30",
+      "NUL_count": 0,
+      "replacement_count": 0,
+      "reading_status": "supplied_or_extracted_text_complete",
+      "read_ranges": [
+        [
+          0,
+          5414
+        ]
+      ],
+      "notes": "knowledge/books/S07-stage-script.md",
+      "original_media_verified": true,
+      "embedded_media_count": 0,
+      "rendered_layout_verified": false,
+      "limits": "Current DOCX body only; no media/table/other narrative parts; author and original course unverified; numbering gap and unspecified continuation preserved"
     }
-  ]
+  ],
+  "updated": "2026-11-03"
 }
