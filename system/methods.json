@@ -50,7 +50,7 @@
       "id": "M03",
       "name": "接住具体内容",
       "use_when": "她提供一个日常事件、偏好或具体信息",
-      "operation": "挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；必要时只留一个问题。",
+      "operation": "挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；不是每轮都提问，必要时只留一个问题。",
       "avoid": "连续问工作住址爱好；用另一个无关话题抢走分享。",
       "sources": [
         {
@@ -61,6 +61,11 @@
         {
           "path": "knowledge/topics/humor-threading.md",
           "locator": "作为实际草稿的选择线索",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-expression.md",
+          "locator": "两项基本功、六种句型与案例限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -210,7 +215,7 @@
       "id": "M10",
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
-      "operation": "用一个短细节表达自己；当前没有确认的素材时直接回应，不替用户写人生。",
+      "operation": "用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。",
       "avoid": "复制导师旅游、公司、情史；所有故事都故意停住等她追问。",
       "sources": [
         {
@@ -221,6 +226,11 @@
         {
           "path": "knowledge/books/G01-practical-expansion.md",
           "locator": "真实展示",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-expression.md",
+          "locator": "两项基本功、六种句型与案例限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -262,7 +272,7 @@
       "id": "M12",
       "name": "一起高兴",
       "use_when": "她主动分享好消息或小成果",
-      "operation": "具体接住值得开心的那一件事；可以问一个相关细节，也可以自然祝贺后停。",
+      "operation": "具体接住值得开心的那件事，可表达真实欣赏或替她高兴；不编她付出的过程。可以问一个相关细节，也可以自然祝贺后停。",
       "avoid": "马上拿自己的成就比较；编她必定付出了什么；立刻要求请客。",
       "sources": [
         {
@@ -273,6 +283,11 @@
         {
           "path": "knowledge/books/G04-message-expansion.md",
           "locator": "开心分享与事实检查",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-expression.md",
+          "locator": "两项基本功、六种句型与案例限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -473,7 +488,7 @@
       "id": "M21",
       "name": "有依据的修复",
       "use_when": "截图明确显示某个具体言行造成误解或伤害，用户要修复",
-      "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。",
+      "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。",
       "avoid": "没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。",
       "sources": [
         {
@@ -490,6 +505,11 @@
           "path": "knowledge/books/S04-empathy.md",
           "locator": "四步结构、案例证据与本项目采用边界",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-expression.md",
+          "locator": "两项基本功、六种句型与案例限制",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -500,7 +520,7 @@
       "id": "M22",
       "name": "表达边界",
       "use_when": "她明确无礼、羞辱、施压，或用户需要表达一项真实限制",
-      "operation": "平静说清不接受的具体行为或停止互动；正常分歧不升级为攻击。",
+      "operation": "平静说清不接受的具体行为或停止互动；可以同时表达真实感受与限制。拒绝、不喜欢、不接受及已确认的不公不因语气要求被取消；正常分歧不升级为攻击。",
       "avoid": "为了证明男人感互骂；默认要求用户讨好退让。",
       "sources": [
         {
@@ -511,6 +531,11 @@
         {
           "path": "CHAT_GUIDANCE_PLAYBOOK.md",
           "locator": "不自动归责",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-expression.md",
+          "locator": "两项基本功、六种句型与案例限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

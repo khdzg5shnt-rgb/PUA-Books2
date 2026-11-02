@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; 18 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 11 without verified complete reading; original publications unverified",
+      "reading_status": "archive_directory_verified; 19 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 10 without verified complete reading; original publications unverified",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -975,7 +975,33 @@
           "entry": "说出感觉容易爱：述情.txt",
           "bytes": 59879,
           "sha256": "feecd29a71fd9cb67c0907dbe7ae328e35e54d6afa0ca2ce520b63c9cabf9295",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; decoded [0,20563); CR retained; supplied TXT only; original book/PDF and images unverified",
+          "characters": 20563,
+          "notes": "knowledge/books/S04-expression.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open, CR and other original controls retained",
+            "ranges": [
+              [
+                0,
+                9000
+              ],
+              [
+                9000,
+                18000
+              ],
+              [
+                18000,
+                20563
+              ]
+            ]
+          },
+          "text_integrity": {
+            "CR_count": 400,
+            "NUL_count": 0,
+            "replacement_count": 0,
+            "page_marker_count": 0
+          },
+          "content_gap": "Text introduces three types by willingness to disclose needs, but the three types are not present; image/table source unavailable."
         }
       ],
       "notes": [
@@ -989,21 +1015,22 @@
         "knowledge/cases/C17-tyler-group-number-only.md",
         "knowledge/books/S04-date-tips.md",
         "knowledge/cases/C18-date-tips-overcontact.md",
-        "knowledge/books/S04-empathy.md"
+        "knowledge/books/S04-empathy.md",
+        "knowledge/books/S04-expression.md"
       ],
       "next_bookmark": {
-        "entry": "说出感觉容易爱：述情.txt",
+        "entry": "管好情绪享受爱：情绪管理.txt",
         "decoded_character_offset": 0,
         "heading": "TXT开头，正文未读",
         "status": "unread from this bookmark",
-        "sha256": "feecd29a71fd9cb67c0907dbe7ae328e35e54d6afa0ca2ce520b63c9cabf9295"
+        "sha256": "57de3f99b23f9b10d09876e1ecf0972d0e0d561af0ea499ded87c42c63d841d1"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 18,
+        "supplied_text_complete_entries": 19,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 11,
+        "remaining_without_verified_complete_reading": 10,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 11
+        "unread_or_unverified_historical_entries": 10
       }
     },
     {
@@ -2149,9 +2176,10 @@
     "date": "2026-11-02",
     "baseline": "06f5eb7e94c335387d3410455abf2f0e3b712aa8",
     "units_completed": [
-      "E01"
+      "E01",
+      "E02"
     ],
-    "decoded_characters_read": 16014,
+    "decoded_characters_read": 36577,
     "source_ledger": "knowledge/provenance/core_reading_ledger.json"
   }
 }

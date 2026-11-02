@@ -32,6 +32,38 @@
       "reading_status": "supplied_text_complete",
       "original_publication_completeness": "unverified",
       "raw_text_archived": false
+    },
+    {
+      "id": "E02",
+      "entry": "说出感觉容易爱：述情.txt",
+      "sha256": "feecd29a71fd9cb67c0907dbe7ae328e35e54d6afa0ca2ce520b63c9cabf9295",
+      "bytes": 59879,
+      "characters": 20563,
+      "lines": 401,
+      "encoding": "utf-8-sig",
+      "CR_count": 400,
+      "NUL_count": 0,
+      "replacement_count": 0,
+      "page_marker_count": 0,
+      "chunk_count": 5,
+      "notes": "knowledge/books/S04-expression.md",
+      "read_ranges": [
+        [
+          0,
+          9000
+        ],
+        [
+          9000,
+          18000
+        ],
+        [
+          18000,
+          20563
+        ]
+      ],
+      "reading_status": "supplied_text_complete",
+      "original_publication_completeness": "unverified",
+      "raw_text_archived": false
     }
   ],
   "scope": "Supplied TXT only; not original book/PDF completeness or empirical validation"

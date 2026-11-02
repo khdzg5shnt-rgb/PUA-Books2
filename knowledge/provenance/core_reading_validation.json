@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "unit": "S04-E01",
+  "unit": "S04-E02",
   "structural_check": "passed",
   "unittest_methods_passed": 6,
   "synthetic_scenarios_passed": 48,
@@ -13,5 +13,6 @@
     "screenshot OCR",
     "romantic effects",
     "clinical or causal claims"
-  ]
+  ],
+  "unittest_scope": "48 scenarios previously passed after E01 routing change; E02 changes only notes and methods"
 }
