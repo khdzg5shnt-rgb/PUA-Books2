@@ -360,10 +360,39 @@
           "entry": "a第一课-本吸引力原理【必修】(1)..txt",
           "bytes": 52060,
           "sha256": "8568e419f7b037270d5776c3cf9a230f114218f166ced6eb9dc5c64c9af3a5f7",
-          "reading_status": "unverified_historical_claim",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,21426), PAGE 1-39; related to completed B047, verified textual differences, original PDF/English edition not verified",
           "characters": 21426,
           "page_marker_count": 39,
-          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints; zero-based half-open; CR retained",
+            "ranges": [
+              [
+                0,
+                21426
+              ]
+            ],
+            "page_markers": [
+              1,
+              39
+            ],
+            "printed_pages": [
+              0,
+              38
+            ]
+          },
+          "notes": "knowledge/books/S04-adam-version.md",
+          "related_original_book": "B047",
+          "version_comparison": {
+            "comparison": "NFKC, whitespace stripped, locator/header metadata removed; SequenceMatcher, autojunk false",
+            "B047_normalized_characters": 15077,
+            "S04_normalized_body_characters": 14938,
+            "equal_aligned_characters": 14436,
+            "non_equal_opcodes": 43,
+            "exact_file_duplicate": false,
+            "revision_direction": "unverified",
+            "counts_as_independent_work": false
+          }
         },
         {
           "entry": "b第二课-迷男方法【必修】..txt",
@@ -552,7 +581,10 @@
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
           "bytes": 315266,
           "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "unverified_historical_claim",
+          "characters": 315142,
+          "page_marker_count": 100,
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
@@ -794,21 +826,22 @@
         "knowledge/books/S04-top30-units.md",
         "knowledge/cases/C07-published-dialogues.md",
         "knowledge/books/S04-mystery-method.md",
-        "knowledge/cases/C15-lovedrop-date-plans.md"
+        "knowledge/cases/C15-lovedrop-date-plans.md",
+        "knowledge/books/S04-adam-version.md"
       ],
       "next_bookmark": {
-        "entry": "a第一课-本吸引力原理【必修】(1)..txt",
+        "entry": "TylerDurdens-Classic-Posts-Collection..txt",
         "decoded_character_offset": 0,
-        "heading": "当前TXT开头，封面/目录/正文均未读",
+        "heading": "合集TXT开头，正文未读",
         "status": "unread from this bookmark",
-        "sha256": "8568e419f7b037270d5776c3cf9a230f114218f166ced6eb9dc5c64c9af3a5f7"
+        "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 14,
+        "supplied_text_complete_entries": 15,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 15,
+        "remaining_without_verified_complete_reading": 14,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 15
+        "unread_or_unverified_historical_entries": 14
       }
     },
     {
