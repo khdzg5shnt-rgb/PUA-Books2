@@ -51,3 +51,5 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 [S21原结构与取舍](knowledge/books/S21-connor-routines-excerpt.md)：39页文件末尾明确为节选，目录134页不转算已读；补强没听清时正常重述、不得用网图/他人事迹作本人证据，不采用自动归因和身体特征读心。
 
 [S22原结构与取舍](knowledge/books/S22-mystery-pdf-reconciliation.md)：先证明123页与已读TOP30正文逐字对应后沿用既有阅读，本轮直接重读P1–8与目读26页；141139字符不全计新增。补核M/B/T、阶段/地点图与无数据阈值；其他99页版式仍未核。
+
+[E06引言及第一章](knowledge/books/S04-attraction-not-choice.md)：保留真实欣赏、正常商议与双方边界，不以所谓吸引机制改写自述意愿；后文未读，不宣称全书完成。

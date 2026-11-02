@@ -98,3 +98,5 @@ S20最新覆盖为现有正文[0,3469)；早期未核登记为历史。见[独�
 S21最新覆盖为现有正文[0,25071)；早期未核登记为历史。见[独立笔记](../books/S21-connor-routines-excerpt.md)与[附件台账](additional_reading_ledger.json)。
 
 S22当前提取范围[0,141139)；本轮直接重读[0,19735)，其他正文经123页精确规范化比对沿用S04既有全文阅读，不全部计新增。见[独立笔记](../books/S22-mystery-pdf-reconciliation.md)与[附件台账](additional_reading_ledger.json)。
+
+S04/E06《吸引不是选择》不再只有历史未核标记：[原创笔记](../books/S04-attraction-not-choice.md)覆盖目录、引言与第一章[0,34905)，全长121603；下一断点第二章PAGE26／字符34905，仍未完整。

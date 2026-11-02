@@ -83,7 +83,11 @@ def validate(root=ROOT):
             for a,b in item['read_ranges']:
                 if a != end or b <= a:errors.append('Noncontiguous reading range: '+item['id'])
                 end=b
-            if end != item['characters']:errors.append('Incomplete stated range: '+item['id'])
+            if item.get('reading_status') == 'supplied_text_partial':
+                if not (0 < end < item['characters']) or item.get('next_character') != end:
+                    errors.append('Partial source has no accurate next breakpoint: '+item['id'])
+            elif end != item['characters']:
+                errors.append('Incomplete stated range: '+item['id'])
             extra_note_paths.add(item['notes'])
         complete=sum(e['reading_status'].startswith(('current_provided_entry_text_complete',
                      'historical_full_text_read_with_existing_notes')) for e in s04['entries'])

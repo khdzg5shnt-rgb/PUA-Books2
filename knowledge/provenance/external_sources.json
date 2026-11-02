@@ -613,7 +613,27 @@
           "entry": "k第十一课-吸引不是选择..txt",
           "bytes": 293999,
           "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_partial; decoded [0,34905), PAGE 1–25, contents, introduction and chapter one only; remaining body unverified",
+          "characters": 121603,
+          "notes": "knowledge/books/S04-attraction-not-choice.md",
+          "read_coverage": {
+            "ranges": [
+              [
+                0,
+                34905
+              ]
+            ],
+            "next_character": 34905,
+            "next_page_marker": 26,
+            "next_printed_page": 21,
+            "next_section": "第二章 为改变所做的准备"
+          },
+          "coverage_breakdown": {
+            "contents_characters": 21216,
+            "introduction_part_page_and_chapter_one_characters": 13689
+          },
+          "NUL_count": 0,
+          "replacement_count": 0
         },
         {
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
@@ -1132,13 +1152,7 @@
         "knowledge/books/S04-allowing.md",
         "knowledge/books/S04-influence.md"
       ],
-      "next_bookmark": {
-        "entry": "k第十一课-吸引不是选择..txt",
-        "decoded_character_offset": 0,
-        "heading": "TXT开头，剩余TOP30独立阅读队列；下一工作单元优先补读上传附件",
-        "status": "unread from this bookmark",
-        "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7"
-      },
+      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character 34905; PAGE 26, printed 21, chapter two",
       "coverage_counts": {
         "supplied_text_complete_entries": 22,
         "legible_text_complete_with_unresolved_garbling": 1,
@@ -2856,7 +2870,26 @@
       ],
       "status": "in_progress",
       "source_extraction_characters": 175687,
-      "reused_body_pages": 123
+      "reused_body_pages": 123,
+      "top30_units": [
+        {
+          "id": "E06",
+          "entry": "k第十一课-吸引不是选择..txt",
+          "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
+          "read_ranges": [
+            [
+              0,
+              34905
+            ]
+          ],
+          "source_characters": 121603,
+          "notes": "knowledge/books/S04-attraction-not-choice.md",
+          "status": "source_partial"
+        }
+      ],
+      "top30_read_characters": 34905,
+      "top30_body_characters": 13689,
+      "top30_contents_characters": 21216
     }
   ]
 }
