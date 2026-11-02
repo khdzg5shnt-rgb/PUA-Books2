@@ -9,6 +9,7 @@
 | 开场与叙事 | Brad P的钩子、故事、张力、收尾，以及三类反馈分支 | [B090](knowledge/books/B090.md)、[C05](knowledge/cases/C05-opening-branches.md) |
 | 话题与幽默 | 横向关联、纵向深入、语义双关、铺垫与反转 | [B073](knowledge/books/B073.md)、[主题](knowledge/topics/humor-threading.md) |
 | 陈哥短技巧 | 冷读、自我夸张、角色扮演、推拉、夸张曲解及画面感 | [S01](knowledge/books/S01-chen-five.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
+| 陈哥发散思维 | 观察/提问/表达、关键词拆解与平移、依据关系选一条 | [S02第七式](knowledge/books/S02-chen-twelve.md) |
 | 阶段模型 | Adam Lyons四阶段与浪迹团队五阶段 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md) |
 | 自我表达与参与 | 杂耍人二次整理的自我、情绪、价值观、平衡；开放式陈述 | [B072](knowledge/books/B072.md) |
 | 线上呈现与邀约 | 真实具体资料、私信与现实安排衔接；Time Bridging与结果分层 | [B037](knowledge/books/B037.md)、[B092现有前三章](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
