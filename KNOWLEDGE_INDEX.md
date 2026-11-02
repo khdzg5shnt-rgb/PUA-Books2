@@ -31,3 +31,5 @@
 <!-- CORE_READING -->
 本轮五份核心资料的当前实际覆盖与内部定位见[精读台账](knowledge/provenance/core_reading_ledger.json)。当前完成5份，保留原版与图像缺口。
 <!-- END_CORE_READING -->
+
+短篇附件S08/S09/S10/S14/S15新增全文范围与方法取舍，见[补读笔记](knowledge/books/S08-S15-calibration.md)及[台账](knowledge/provenance/additional_reading_ledger.json)。

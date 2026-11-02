@@ -1150,27 +1150,66 @@
       "title": "《谜男方法》M3模型之A3阶段重要性再总结(3).doc",
       "sha256": "82d900df0e4e9a61aa145f47ab7512474a66a69762eb69869d5033a7278878bd",
       "bytes": 43536,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "all current LibreOffice-extracted body text read; original Word images/textboxes/layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "notes": "knowledge/books/S08-S15-calibration.md",
+      "read_coverage": {
+        "characters": 3753,
+        "ranges": [
+          [
+            0,
+            3753
+          ]
+        ],
+        "extraction": "LibreOffice TXT UTF-8-sig, line endings retained",
+        "text_sha256": "713015f2dd1af2c07e880fd604762ff4704fe7abacf3b4b3e2069060fa766270"
+      },
+      "raw_archive": "not_added; original summary only"
     },
     {
       "id": "S09",
       "title": "对谜男方法的21点解释(2).doc",
       "sha256": "ee7056f0e41319b9cb11709bcd23acf055cfa90edbfee3e812accd483f754c28",
       "bytes": 27672,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "all current LibreOffice-extracted body text read; original Word images/textboxes/layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "notes": "knowledge/books/S08-S15-calibration.md",
+      "read_coverage": {
+        "characters": 1589,
+        "ranges": [
+          [
+            0,
+            1589
+          ]
+        ],
+        "extraction": "LibreOffice TXT UTF-8-sig, line endings retained",
+        "text_sha256": "f433256e67bc7ae1cd525ab5c304e1d06002c5f282a4264d3168d70a550eaae4"
+      },
+      "raw_archive": "not_added; original summary only"
     },
     {
       "id": "S10",
       "title": "性格内向如何锻炼社交直觉.doc",
       "sha256": "28b340f2d76af89ffb548a153065e7882d987e4175c83040f77c02a4d17e7d7f",
       "bytes": 22040,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "all current LibreOffice-extracted body text read; original Word images/textboxes/layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "notes": "knowledge/books/S08-S15-calibration.md",
+      "read_coverage": {
+        "characters": 1148,
+        "ranges": [
+          [
+            0,
+            1148
+          ]
+        ],
+        "extraction": "LibreOffice TXT UTF-8-sig, line endings retained",
+        "text_sha256": "c0879df3f5a28833f9060fa0fdf86fe1bc55302f0c3eea820482e289eca9d779"
+      },
+      "raw_archive": "not_added; original summary only"
     },
     {
       "id": "S11",
@@ -1204,18 +1243,45 @@
       "title": "如何学习迷男方法(1).txt",
       "sha256": "2c2cfdc1ccb3793f440c8faebf9785cb23fd15e925c1df4cb440add15edd70dc",
       "bytes": 3063,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "full supplied GB18030-decoded text read; CR retained; externally referenced material not included",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "notes": "knowledge/books/S08-S15-calibration.md",
+      "read_coverage": {
+        "characters": 1585,
+        "ranges": [
+          [
+            0,
+            1585
+          ]
+        ],
+        "extraction": "gb18030",
+        "text_sha256": "58ac1143310f01693a5afde79b9567a7a97e08f80ad2bf8a60147d5ba3d09032"
+      },
+      "raw_archive": "not_added; original summary only"
     },
     {
       "id": "S15",
       "title": "龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt",
       "sha256": "2773358b1d2e059d7b23c2fd1b73da83ff9306dffe419768b48fcfcdf51c9b12",
       "bytes": 3038,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "full supplied GB18030-decoded text read; CR retained; externally referenced material not included",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "notes": "knowledge/books/S08-S15-calibration.md",
+      "read_coverage": {
+        "characters": 1600,
+        "ranges": [
+          [
+            0,
+            1600
+          ]
+        ],
+        "extraction": "gb18030",
+        "text_sha256": "fcfc632162461e0d2ec5d325531b66fe87a3f128a0f2198d3aa807041da93846"
+      },
+      "raw_archive": "not_added; original summary only",
+      "content_gap": "Title references an escalation chart; no chart or linked prior posts are supplied in this TXT."
     },
     {
       "id": "S16",
@@ -2260,5 +2326,17 @@
     ],
     "decoded_characters_read": 94400,
     "source_ledger": "knowledge/provenance/core_reading_ledger.json"
+  },
+  "additional_reading_round": {
+    "date": "2026-11-02",
+    "upload_ids": [
+      "S08",
+      "S09",
+      "S10",
+      "S14",
+      "S15"
+    ],
+    "decoded_characters": 9675,
+    "ledger": "knowledge/provenance/additional_reading_ledger.json"
   }
 }

@@ -39,14 +39,14 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S07 | 认识→→私密完整流程.docx | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S08 | 《谜男方法》M3模型之A3阶段重要性再总结(3).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S09 | 对谜男方法的21点解释(2).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S10 | 性格内向如何锻炼社交直觉.doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S08 | 《谜男方法》M3模型之A3阶段重要性再总结(3).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
+| S09 | 对谜男方法的21点解释(2).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
+| S10 | 性格内向如何锻炼社交直觉.doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S11 | 迷男方法读书笔记 (1)(1).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S12 | 二、社交软件聊天话术惯例和聊资(终极版)(2).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S13 | 《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S14 | 如何学习迷男方法(1).txt | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S15 | 龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S14 | 如何学习迷男方法(1).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
+| S15 | 龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S16 | 迷男方法的精髓(1).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S17 | 谜男聊天6大杀手锏.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S18 | 《迷男方法》整理(完美)(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
@@ -71,3 +71,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 <!-- CORE_READING -->
 本轮五份核心资料的当前实际覆盖与内部定位见[精读台账](../knowledge/provenance/core_reading_ledger.json)。当前完成5份，保留原版与图像缺口。
 <!-- END_CORE_READING -->
+
+## 本轮短篇附件补读
+
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有11项。

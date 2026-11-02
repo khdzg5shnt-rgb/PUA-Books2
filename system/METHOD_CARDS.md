@@ -30,7 +30,7 @@
 
 避免：连续问工作住址爱好；用另一个无关话题抢走分享。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -82,9 +82,9 @@
 
 动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。
 
-避免：从头像诊断依恋；空泛算命；断言她只是嘴硬。
+避免：从头像诊断依恋；空泛算命；断言她只是嘴硬。 不由爱笑推家庭状态，或由单亲家庭推婚姻愿望。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M09 具体欣赏
 
@@ -94,7 +94,7 @@
 
 避免：泛夸、贬低别人、编造她的努力过程或承诺。 秘密安排他人夸奖、假赞美、奖励撤回或以亲密换取服务。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M10 分享真实生活
 
@@ -104,7 +104,7 @@
 
 避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M11 接住困扰
 
@@ -196,9 +196,9 @@
 
 动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。
 
-避免：为了制造焦虑故意消失；归因用户不够有魅力；无限救场。 不用“所有情绪都是自己编故事”否认已发生的单边成本。
+避免：为了制造焦虑故意消失；归因用户不够有魅力；无限救场。 不用“所有情绪都是自己编故事”否认已发生的单边成本。 不把持续维持所有话题当某一性别的义务。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M20 接住纠正或澄清
 
@@ -238,7 +238,7 @@
 
 避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M24 见面后的真实反馈
 
@@ -256,9 +256,9 @@
 
 动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。
 
-避免：反复考古朋友圈；假装偶遇；编造梦、地点或近况。
+避免：反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。
 
-依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)
+依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
 
 ## M26 压成一句自然的话
 
@@ -268,4 +268,4 @@
 
 避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
