@@ -1374,10 +1374,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "10 selected project documents fully read; 6 added in OS round; not all 67 blobs",
-      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "reading_coverage": "12 selected project documents fully read; two further practical guides added in core-reading round; not all 67 blobs",
+      "pending": "Other unlisted reference documents and independent verification of empirical claims remain outside documented coverage.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 10,
+      "archived_document_count": 12,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1499,11 +1499,56 @@
           "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
           "archive_path": "sources/github/lianai/references/practical/主动表达、第一次见面与自然接触.md.txt",
           "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/化解尴尬：轻松救场的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/化解尴尬：轻松救场的实用指南.md",
+          "bytes": 10460,
+          "sha256": "e87b3e90c1c3fbe17708d1b7bcc43549f8d042d7653c7fd48d7dbb5b0b7c5fcb",
+          "git_blob_sha": "6b408aa1945c737a6b98d229932e31e0b9618f3b",
+          "line_count": 97,
+          "characters": 3820,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_core_round",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints, original newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3820
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/化解尴尬：轻松救场的实用指南.md.txt",
+          "archive_decision": "MIT project-authored guide; exact inert text retained",
+          "notes": "knowledge/books/G01-awkwardness-and-refusal.md"
+        },
+        {
+          "original_path": "references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+          "bytes": 13089,
+          "sha256": "d34c76a00cd07d8337065f327b154483882b7d1787297aa52fe791aab300872b",
+          "git_blob_sha": "4844f5aae83408e844facf5229be3b9b32e24acf",
+          "line_count": 89,
+          "characters": 4715,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_core_round",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints, original newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4715
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/高情商拒绝他人：体面护边界的实用指南.md.txt",
+          "archive_decision": "MIT project-authored guide; exact inert text retained",
+          "notes": "knowledge/books/G01-awkwardness-and-refusal.md"
         }
       ],
       "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
       "os_snapshot_date": "2026-11-02",
-      "os_synthesis_note": "knowledge/books/G01-practical-expansion.md"
+      "os_synthesis_note": "knowledge/books/G01-practical-expansion.md",
+      "core_round_synthesis_note": "knowledge/books/G01-awkwardness-and-refusal.md"
     },
     {
       "id": "G02",
@@ -2297,6 +2342,30 @@
       "declared_license": "MIT",
       "license_archive": "sources/github/goutoujunshi-jev-chat/LICENSE",
       "transform": "none; exact UTF-8 bytes"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/化解尴尬：轻松救场的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/化解尴尬：轻松救场的实用指南.md.txt",
+      "bytes": 10460,
+      "sha256": "e87b3e90c1c3fbe17708d1b7bcc43549f8d042d7653c7fd48d7dbb5b0b7c5fcb",
+      "git_blob_sha": "6b408aa1945c737a6b98d229932e31e0b9618f3b",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/高情商拒绝他人：体面护边界的实用指南.md.txt",
+      "bytes": 13089,
+      "sha256": "d34c76a00cd07d8337065f327b154483882b7d1787297aa52fe791aab300872b",
+      "git_blob_sha": "4844f5aae83408e844facf5229be3b9b32e24acf",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
     }
   ],
   "privacy": {
@@ -2337,6 +2406,10 @@
       "S15"
     ],
     "decoded_characters": 9675,
-    "ledger": "knowledge/provenance/additional_reading_ledger.json"
+    "ledger": "knowledge/provenance/additional_reading_ledger.json",
+    "github_added_paths": [
+      "references/practical/化解尴尬：轻松救场的实用指南.md",
+      "references/practical/高情商拒绝他人：体面护边界的实用指南.md"
+    ]
   }
 }

@@ -41,8 +41,9 @@ def normalize(facts, config):
             raise ValueError('Unknown value for ' + name)
     if value['consecutive_low_rounds'] < 0:
         raise ValueError('consecutive_low_rounds must be nonnegative')
-    if value['function'] in {'distress', 'advice_request', 'good_news', 'question',
-                             'post_date', 'logistics', 'correction'}:
+    if (value['advice_requested'] or value['urgent_practical_need'] or
+            value['function'] in {'distress', 'advice_request', 'good_news', 'question',
+                                  'post_date', 'logistics', 'correction'}):
         value['current_turn_low'] = False
     # Counts describe consecutive low-effort rounds through the latest round.
     # Do not let stale history erase fresh substantive contact.

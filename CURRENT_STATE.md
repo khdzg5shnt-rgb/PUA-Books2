@@ -7,7 +7,7 @@
 - 原126项资料身份清单保留原快照bc6a5d103481dec6583f702f25f36fd4a28fdbae；本轮仅将README改为系统首页，原README另存knowledge/provenance/README-original.md；119份书籍及其余原始文件保持原blob；119份书籍中9份现有正文读完，110份未通读。
 - B092现有90页已读完，目录九章而文件仅前三章，P1/13/32/50大幅图片已复核；[笔记](knowledge/books/B092.md)、[C09行程案例](knowledge/cases/C09-b092-logistics.md)可直接读取。
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
-- 9个公开GitHub候选已检查类型、固定版本与许可；系统整合轮重核9个公开快照、补读16篇项目文档，现6个项目共20篇文档及6份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
+- 9个公开GitHub候选已检查类型、固定版本与许可；系统整合轮重核9个公开快照、补读16篇项目文档，现6个项目共22篇文档及6份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
 - S04共30条：22条现有提取文字已读完，1条可辨文字读完但乱码未解，7条未核完整阅读。Mystery、Tyler及既有笔记继续有效；本轮新增完整阅读单元见[逐文件台账](knowledge/provenance/core_reading_ledger.json)，理论、案例上下文和采用边界均已回填。
 
@@ -15,7 +15,7 @@
 
 ## 准确的下一步
 
-**当前下一工作单元：公开G01/lianai的尴尬处理与拒绝表达两篇项目文档，从文件开头补读；上传附件独立断点为S07《认识→→私密完整流程.docx》正文开头。**
+**当前下一工作单元：S07《认识→→私密完整流程.docx》，从当前上传文件正文开头补读。该文件尚未完成本轮独立全文核验。**
 
 **TOP30独立阅读断点：S04 ZIP内 `k第十一课-吸引不是选择..txt`，原解码字符0。TXT开头，剩余TOP30独立阅读队列；下一工作单元优先补读上传附件。**
 
@@ -57,3 +57,11 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 ## 本轮附件补读
 
 S08/S09/S10/S14/S15已重新核原文件身份并读完当前可提取/解码正文，共9,675字符。源状态、范围和限制见[补读台账](knowledge/provenance/additional_reading_ledger.json)，具体采用与不采用见[笔记](knowledge/books/S08-S15-calibration.md)。
+
+## 本轮公开GitHub补读
+
+G01/lianai的尴尬与拒绝两篇全文完成，见[笔记](knowledge/books/G01-awkwardness-and-refusal.md)。现6项目共22篇项目文档与6份MIT许可归档；其他参考库仍按逐文件范围。
+
+## 本轮最终核验
+
+五份核心TXT及五份短附件、两篇公开项目文档已按上文范围读取并整合。现有26方法/29场景保持，明确求助优先级已修正。结构与台账校验、50个虚构场景通过，详见[本轮记录](knowledge/provenance/core_reading_round_2026-11-02.md)和[检查输出](knowledge/provenance/core_reading_validation.json)。具体私聊、私有来源和真实截图未写入。

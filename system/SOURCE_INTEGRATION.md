@@ -8,11 +8,11 @@
 
 ## GitHub来源的具体整合
 
-本轮实际重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。总归档现为20篇项目文档、6份许可。其他仓库未修改。
+系统搭建轮重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。核心精读轮再补读并归档2篇，当前总归档22篇项目文档、6份许可。其他仓库未修改。
 
 | 来源 | 固定版本 | 内部采用入口与方法 | 归档与范围 |
 | --- | --- | --- | --- |
-| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 10篇项目文档；其余按笔记范围 |
+| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 12篇项目文档；其余按笔记范围 |
 | G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 4篇项目文档；其余按笔记范围 |
 | G03 fan-emotion-analysis-skill | `23f33bdd` | [M01、M19](../knowledge/books/G03-fan.md) | 1篇项目文档；其余按笔记范围 |
 | G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 3篇项目文档；其余按笔记范围 |
@@ -75,3 +75,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 ## 本轮短篇附件补读
 
 S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有11项。
+
+## 本轮公开来源继续补读
+
+G01的尴尬处理与拒绝表达两篇项目文档已从头到尾读完并按MIT归档，精确blob核对通过；当前总归档22篇项目文档与6份许可。范围与方法取舍见[新增笔记](../knowledge/books/G01-awkwardness-and-refusal.md)。既有9源固定快照未冒认整仓通读。

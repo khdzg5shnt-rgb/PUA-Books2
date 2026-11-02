@@ -1,21 +1,77 @@
 {
   "date": "2026-11-02",
-  "unit": "S08-S15-short-upload-batch",
-  "structural_check": "passed",
-  "unittest_methods_passed": 6,
-  "synthetic_scenarios_passed": 48,
-  "scopes": [
-    "source links",
-    "archive identity",
-    "fact-routing priority"
+  "baseline": "06f5eb7e94c335387d3410455abf2f0e3b712aa8",
+  "core_units_complete": 5,
+  "core_supplied_text_characters": 94400,
+  "additional_upload_ids": [
+    "S08",
+    "S09",
+    "S10",
+    "S14",
+    "S15"
   ],
-  "not_tested": [
-    "screenshot OCR",
-    "romantic effects",
-    "clinical or causal claims"
+  "additional_upload_text_characters": 9675,
+  "additional_github_project_documents": 2,
+  "additional_github_text_characters": 8535,
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 29,
+    "source_records": 157,
+    "archived_files": 28,
+    "scope": "结构/链接/归档身份检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "exit_code": 0,
+    "test_methods": 6,
+    "synthetic_scenarios": 50,
+    "output": "test_integrity_and_references (test_routing.RoutingScenarios.test_integrity_and_references) ... ok\ntest_missing_identity_does_not_assume (test_routing.RoutingScenarios.test_missing_identity_does_not_assume) ... ok\ntest_reject_unknown_facts (test_routing.RoutingScenarios.test_reject_unknown_facts) ... ok\ntest_search_is_local_and_returns_usable_paths (test_routing.RoutingScenarios.test_search_is_local_and_returns_usable_paths) ... ok\ntest_synthetic_dialogues (test_routing.RoutingScenarios.test_synthetic_dialogues) ... ok\ntest_type_and_range_validation (test_routing.RoutingScenarios.test_type_and_range_validation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.314s\n\nOK"
+  },
+  "intermediate_verified_commits": [
+    {
+      "unit": "E01",
+      "sha": "f6e7ee5f4c70781584ab95808bae694b79abaa46",
+      "files": 17
+    },
+    {
+      "unit": "E02",
+      "sha": "ea146fcc108f373b55caa8e6d141212e5ee590ee",
+      "files": 12
+    },
+    {
+      "unit": "E03",
+      "sha": "51d1d664c1a41e09c98b746366e729375b29c304",
+      "files": 12
+    },
+    {
+      "unit": "E04",
+      "sha": "b89f9b9efe2c99688e85f8a7f7895e7444a3d3c5",
+      "files": 12
+    },
+    {
+      "unit": "E05",
+      "sha": "b643eb0d569f6711285c9b0db7bdfe93ee7b4d0e",
+      "files": 14
+    },
+    {
+      "unit": "S08-S15",
+      "sha": "d98b57f55dc08255c16ecda4108b6ac683a5c252",
+      "files": 11
+    }
   ],
-  "unittest_scope": "48 scenarios previously passed after E01 routing change; E02 changes only notes and methods",
-  "five_core_units_complete": true,
-  "decoded_characters_complete": 94400,
-  "additional_upload_texts_complete": 5
+  "next_bookmark": {
+    "source": "S07",
+    "file": "认识→→私密完整流程.docx",
+    "position": "current uploaded document body beginning; independent full-text review not yet completed"
+  },
+  "top30_parallel_bookmark": {
+    "entry": "k第十一课-吸引不是选择..txt",
+    "decoded_character_offset": 0
+  },
+  "limits": [
+    "Supplied/extracted text only; missing figures and original editions remain unverified",
+    "Tests check routing and metadata, not OCR or romantic outcomes",
+    "No private conversations or private repositories imported"
+  ]
 }

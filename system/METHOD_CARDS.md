@@ -28,9 +28,9 @@
 
 动作：挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；不是每轮都提问，必要时只留一个问题。
 
-避免：连续问工作住址爱好；用另一个无关话题抢走分享。
+避免：连续问工作住址爱好；用另一个无关话题抢走分享。 不为填每个停顿反复添加新问题。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -204,11 +204,11 @@
 
 适用：她纠正一个事实、玩笑或称呼
 
-动作：承认具体误解并更新当前理解；涉及不舒服就停止那个表达。
+动作：承认具体误解并更新当前理解；涉及不舒服就停止那个表达。 小误解可以简短更正后继续，不必补夸奖、假理由或反复道歉。
 
 避免：把纠正叫嘴硬；强行维持角色；没有证据就全面道歉。
 
-依据：[角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；[原句优先](../knowledge/books/G09-ocr-input.md)
+依据：[角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；[原句优先](../knowledge/books/G09-ocr-input.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
 
 ## M21 有依据的修复
 
@@ -224,11 +224,11 @@
 
 适用：她明确无礼、羞辱、施压，或用户需要表达一项真实限制
 
-动作：平静说清不接受的具体行为或停止互动；可以同时表达真实感受与限制。拒绝、不喜欢、不接受及已确认的不公不因语气要求被取消；正常分歧不升级为攻击。 已发生的具体越界足以表达限制，不必先证明对方有恶意；理解处境不取消承诺和责任。
+动作：平静说清不接受的具体行为或停止互动；可以同时表达真实感受与限制。拒绝、不喜欢、不接受及已确认的不公不因语气要求被取消；正常分歧不升级为攻击。 已发生的具体越界足以表达限制，不必先证明对方有恶意；理解处境不取消承诺和责任。 拒绝不需要重大借口或新的补偿承诺；替代方案只在真实愿意且能做到时给。
 
 避免：为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。
 
-依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
+依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
 
 ## M23 尊重拒绝的具体范围
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
 
-避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。
+避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
 
 ## M24 见面后的真实反馈
 
@@ -266,6 +266,6 @@
 
 动作：先满足这句话的实际作用；默认一至两行、最多一个问题、零至一个表情、一个成品。共情或述情结构只取当前需要的一步，普通回复不附理论。
 
-避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。
+避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)

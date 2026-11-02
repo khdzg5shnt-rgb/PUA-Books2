@@ -69,12 +69,56 @@ def validate(root=ROOT):
         if not (root/archive['license_archive']).is_file():
             errors.append('Missing license: '+archive['license_archive'])
 
+    # Reading ledgers prove metadata consistency, not that a person/model read text.
+    extra_note_paths=set()
+    core_file=root/'knowledge/provenance/core_reading_ledger.json'
+    if core_file.is_file():
+        ledger=json.loads(core_file.read_text(encoding='utf-8'))
+        s04=next(s for s in provenance['sources'] if s['id']=='S04')
+        for item in ledger['units']:
+            entry=next((e for e in s04['entries'] if e['entry']==item['entry']),None)
+            if entry is None or entry['sha256'] != item['sha256']:
+                errors.append('Core reading identity mismatch: '+item['id'])
+            end=0
+            for a,b in item['read_ranges']:
+                if a != end or b <= a:errors.append('Noncontiguous reading range: '+item['id'])
+                end=b
+            if end != item['characters']:errors.append('Incomplete stated range: '+item['id'])
+            extra_note_paths.add(item['notes'])
+        complete=sum(e['reading_status'].startswith(('current_provided_entry_text_complete',
+                     'historical_full_text_read_with_existing_notes')) for e in s04['entries'])
+        counts=s04['coverage_counts']
+        if complete != counts['supplied_text_complete_entries']:
+            errors.append('TOP30 completed count does not match entry statuses')
+        if sum(counts[k] for k in ['supplied_text_complete_entries',
+                'legible_text_complete_with_unresolved_garbling',
+                'remaining_without_verified_complete_reading']) != len(s04['entries']):
+            errors.append('TOP30 counts do not sum to entry count')
+    additional=root/'knowledge/provenance/additional_reading_ledger.json'
+    if additional.is_file():
+        for item in json.loads(additional.read_text(encoding='utf-8'))['records']:
+            source=next(s for s in provenance['sources'] if s['id']==item['id'])
+            if item['sha256'] != source['sha256']:
+                errors.append('Upload reading identity mismatch: '+item['id'])
+            if item['read_ranges'] != [[0,item['characters']]]:
+                errors.append('Upload coverage mismatch: '+item['id'])
+            extra_note_paths.add(item['notes'])
+    for source in provenance['github_sources']:
+        if source.get('core_round_synthesis_note'):
+            extra_note_paths.add(source['core_round_synthesis_note'])
+    cards=(root/'system/METHOD_CARDS.md').read_text(encoding='utf-8')
+    for method in methods:
+        heading='## '+method['id']+' '+method['name']
+        if cards.count(heading)!=1 or method['operation'] not in cards or method['avoid'] not in cards:
+            errors.append('Readable card is not synchronized: '+method['id'])
+
     # Validate local links in the new runtime and expansion notes. Existing historical
     # records can contain out-of-scope external source links and are not rewritten.
     docs = list((root/'system').glob('*.md'))
     docs += [root/p for p in ['README.md','START_HERE.md','AGENTS.md','CURRENT_STATE.md','KNOWLEDGE_INDEX.md','CHAT_GUIDANCE_PLAYBOOK.md']]
     docs += list((root/'knowledge/books').glob('*expansion.md'))
     docs += [root/'knowledge/books/G09-ocr-input.md']
+    docs += [root/path for path in extra_note_paths]
     for doc in docs:
         if not doc.is_file():
             errors.append('Missing required document '+str(doc.relative_to(root)))

@@ -636,5 +636,34 @@
     "expect_route": "R15",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T49",
+    "context": "过去低投入但这一轮明确问办法，即使function未填也应接住新的实际求助",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "advice_requested": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 4,
+      "reciprocity": "consistently_one_sided"
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T50",
+    "context": "有可确认紧要事务，不能因前两轮简短而丢掉这轮实际问题",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "urgent_practical_need": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
   }
 ]

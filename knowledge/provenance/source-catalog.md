@@ -1,6 +1,8 @@
 # 统一外部来源目录
 
-当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。本轮补读16篇项目文档，现6个项目20篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方保留系统整合前的明细，旧9篇/5份数值是历史范围，不能作为当前总计。
+当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。系统搭建轮补读16篇项目文档，核心精读轮另补2篇项目文档，当前6个项目共22篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方保留系统整合前的明细，旧9篇/5份数值是历史范围，不能作为当前总计。
+
+本轮还读完五份核心沟通TXT与S08/S09/S10/S14/S15的现有文字，逐项以[核心台账](core_reading_ledger.json)和[附件台账](additional_reading_ledger.json)为准。
 
 ## 整合前明细（历史）
 
