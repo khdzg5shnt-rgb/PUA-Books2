@@ -37,7 +37,7 @@
 | 编号 | 标题 | 当前覆盖 |
 | --- | --- | --- |
 | S01 | 陈哥聊天5大神操作.docx | 161段正文及9张教学图已读；[笔记](../books/S01-chen-five.md) |
-| S02 | 《子阳陈哥恋爱12式》.pdf | 第7–10式完整；全书部分；[笔记](../books/S02-chen-twelve.md) |
+| S02 | 《子阳陈哥恋爱12式》.pdf | 第7–11式完整；全书部分；[笔记](../books/S02-chen-twelve.md) |
 | S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | 现有文字已读；[案例整理](../cases/C07-published-dialogues.md) |
 | S04 | TOP30_DEEP_READ.zip | 三份历史连续记录＋三篇新增单元，非30/30；[笔记](../books/S04-top30-units.md) |
 | S05 | PUA_MASTER_CURRENT(2).md | 开头与选段；含私人内容，未复制；旧完成宣称待核 |
