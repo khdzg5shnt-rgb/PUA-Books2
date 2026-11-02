@@ -297,8 +297,12 @@ PAGE 8保险职业的层层歧义是同事故事；PAGE 10、17的重复与夸�
 
 ZIP内`a第一课-本吸引力原理【必修】(1)..txt`现有21426原解码字符、39页标全部读完。与已完成B047 EPUB为同作品，已核正文对齐和亲吻/牵手、用词及顺序差异，不按独立新书或验证案例计数；来源、页标、重要细节、比对范围和研究引用缺口见[版本笔记](S04-adam-version.md)。
 
+## U14｜Tyler英文合集分组精读
+
+当前英文TXT共100页标、315142解码字符。已读[0,79212)，前部及10篇完整正文，包括女性心理/范式四篇、Inner game前六篇。具体观点、相反说法、作者自报与未核推断见[分组入口](S04-tyler.md)，不复制另一套正文。
+
 ## 其他条目与下一步
 
-30条中15条现有文字完成，1条可辨文字完成但乱码未解决，14条未核完整阅读。完成是文件范围，不是独立原著数量；历史三份连续记录与新增案例不重复计数。
+30条中15条现有文字完成，1条可辨文字完成但乱码未解决，1条Tyler长篇部分阅读，13条未核完整阅读。完成按文件范围，不是独立原著数量；历史三份连续记录与新增案例不重复计数。
 
-下一处为ZIP内`TylerDurdens-Classic-Posts-Collection..txt`原解码字符0，从当前TXT开头未读；准确身份见[来源记录](../provenance/external_sources.json)和[CURRENT_STATE](../../CURRENT_STATE.md)。
+下一处为ZIP内`TylerDurdens-Classic-Posts-Collection..txt`原解码字符79212、PAGE 28中段《Implementing a Habit》标题；精确身份见[来源记录](../provenance/external_sources.json)和[CURRENT_STATE](../../CURRENT_STATE.md)。

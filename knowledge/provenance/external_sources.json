@@ -581,10 +581,35 @@
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
           "bytes": 315266,
           "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-          "reading_status": "unverified_historical_claim",
+          "reading_status": "partial; decoded [0,79212), front matter and 10 complete essays read; next Implementing a Habit at PAGE 28 middle",
           "characters": 315142,
           "page_marker_count": 100,
-          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "notes": "knowledge/books/S04-tyler.md",
+          "completed_units": [
+            {
+              "unit": "front matter and four female psychology/paradigm essays",
+              "range": [
+                0,
+                32249
+              ],
+              "page_markers": [
+                1,
+                14
+              ]
+            },
+            {
+              "unit": "Inner game first six essays",
+              "range": [
+                32249,
+                79212
+              ],
+              "page_markers": [
+                14,
+                28
+              ]
+            }
+          ]
         },
         {
           "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
@@ -827,21 +852,23 @@
         "knowledge/cases/C07-published-dialogues.md",
         "knowledge/books/S04-mystery-method.md",
         "knowledge/cases/C15-lovedrop-date-plans.md",
-        "knowledge/books/S04-adam-version.md"
+        "knowledge/books/S04-adam-version.md",
+        "knowledge/books/S04-tyler.md"
       ],
       "next_bookmark": {
         "entry": "TylerDurdens-Classic-Posts-Collection..txt",
-        "decoded_character_offset": 0,
-        "heading": "合集TXT开头，正文未读",
+        "decoded_character_offset": 79212,
+        "heading": "Implementing a Habit",
         "status": "unread from this bookmark",
-        "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b"
+        "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
+        "page_marker": 28
       },
       "coverage_counts": {
         "supplied_text_complete_entries": 15,
         "legible_text_complete_with_unresolved_garbling": 1,
         "remaining_without_verified_complete_reading": 14,
-        "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 14
+        "partial_entries": 1,
+        "unread_or_unverified_historical_entries": 13
       }
     },
     {
