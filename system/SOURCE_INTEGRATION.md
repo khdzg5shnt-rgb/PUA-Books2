@@ -35,7 +35,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S01 | 陈哥聊天5大神操作.docx | current_provided_file_text_complete_and_all_nine_raster_images_reviewed | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S02 | 《子阳陈哥恋爱12式》.pdf | all supplied extractable text on PDF file P1–207 read; eleven body chapters (1–3,5–12); chapter four and referenced images not … | [仓库内入口](../knowledge/books/S02-chen-twelve.md) |
 | S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | current_existing_text_complete; no embedded media | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S04 | TOP30_DEEP_READ.zip | 19条现有文字完成；1条乱码未解；10条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
+| S04 | TOP30_DEEP_READ.zip | 20条现有文字完成；1条乱码未解；9条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
 | S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S07 | 认识→→私密完整流程.docx | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
@@ -57,7 +57,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为19条现有文字完成、1条乱码未解、10条未核完整阅读。阅读计数按逐文件实际覆盖更新，原始书库9/119的口径不因TOP30同作品版本读完而增加。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为20条现有文字完成、1条乱码未解、9条未核完整阅读。阅读计数按逐文件实际覆盖更新，原始书库9/119的口径不因TOP30同作品版本读完而增加。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 
@@ -65,6 +65,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 
 
+
 <!-- CORE_READING -->
-本轮五份核心资料的当前实际覆盖与内部定位见[精读台账](../knowledge/provenance/core_reading_ledger.json)。当前完成2份，保留原版与图像缺口。
+本轮五份核心资料的当前实际覆盖与内部定位见[精读台账](../knowledge/provenance/core_reading_ledger.json)。当前完成3份，保留原版与图像缺口。
 <!-- END_CORE_READING -->
