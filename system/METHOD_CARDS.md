@@ -90,11 +90,11 @@
 
 适用：已有一个用户真实欣赏的行为、表达或偏好
 
-动作：说清哪个细节值得欣赏；强度不超过用户真实感受与关系基础。
+动作：说清哪个细节值得欣赏；强度不超过用户真实感受与关系基础。 对已经发生的具体好意可以道谢，表达收到这份好意，不以获得下一次配合为目的。
 
-避免：泛夸、贬低别人、编造她的努力过程或承诺。
+避免：泛夸、贬低别人、编造她的努力过程或承诺。 秘密安排他人夸奖、假赞美、奖励撤回或以亲密换取服务。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)
 
 ## M10 分享真实生活
 
@@ -124,9 +124,9 @@
 
 动作：具体接住值得开心的那件事，可表达真实欣赏或替她高兴；不编她付出的过程。可以问一个相关细节，也可以自然祝贺后停。
 
-避免：马上拿自己的成就比较；编她必定付出了什么；立刻要求请客。
+避免：马上拿自己的成就比较；编她必定付出了什么；立刻要求请客。 把回应开心当训练对方的强化工具。
 
-依据：[融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；[开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)
+依据：[融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；[开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)
 
 ## M13 回答她确实提出的求助
 
@@ -134,9 +134,9 @@
 
 动作：先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。
 
-避免：为了制造张力拒答；冒充专业结论；用帮忙交换关系；对方已求实际办法却只反复问感受；将不提供答案说成唯一有效帮助。
+避免：为了制造张力拒答；冒充专业结论；用帮忙交换关系；对方已求实际办法却只反复问感受；将不提供答案说成唯一有效帮助。 在她明确求助时故意不帮忙以逼迫成长；把普通帮助自动解释成控制欲。
 
-依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)
+依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)
 
 ## M14 一次具体邀约
 

@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; 21 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 8 without verified complete reading; original publications unverified",
+      "reading_status": "archive_directory_verified; 22 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 7 without verified complete reading; original publications unverified",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -903,7 +903,29 @@
           "entry": "帮助他成长，智慧的爱：影响.txt",
           "bytes": 44181,
           "sha256": "b0cfeed0ceaede941620e7d45c2b740df9089816504d8bc9ba4644afd9100c90",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; decoded [0,15014); CR retained; supplied TXT only; original book/PDF and images unverified",
+          "characters": 15014,
+          "notes": "knowledge/books/S04-influence.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open, CR and other original controls retained",
+            "ranges": [
+              [
+                0,
+                9000
+              ],
+              [
+                9000,
+                15014
+              ]
+            ]
+          },
+          "text_integrity": {
+            "CR_count": 208,
+            "NUL_count": 0,
+            "replacement_count": 0,
+            "page_marker_count": 0
+          },
+          "content_gap": "Text introduces two standards of a qualified partner, but no separately presented list/figure is supplied; subsequent prose is available."
         },
         {
           "entry": "幽默密码..txt",
@@ -1069,21 +1091,22 @@
         "knowledge/books/S04-empathy.md",
         "knowledge/books/S04-expression.md",
         "knowledge/books/S04-emotion-management.md",
-        "knowledge/books/S04-allowing.md"
+        "knowledge/books/S04-allowing.md",
+        "knowledge/books/S04-influence.md"
       ],
       "next_bookmark": {
-        "entry": "帮助他成长，智慧的爱：影响.txt",
+        "entry": "k第十一课-吸引不是选择..txt",
         "decoded_character_offset": 0,
-        "heading": "TXT开头，正文未读",
+        "heading": "TXT开头，剩余TOP30独立阅读队列；下一工作单元优先补读上传附件",
         "status": "unread from this bookmark",
-        "sha256": "b0cfeed0ceaede941620e7d45c2b740df9089816504d8bc9ba4644afd9100c90"
+        "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 21,
+        "supplied_text_complete_entries": 22,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 8,
+        "remaining_without_verified_complete_reading": 7,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 8
+        "unread_or_unverified_historical_entries": 7
       }
     },
     {
@@ -2232,9 +2255,10 @@
       "E01",
       "E02",
       "E03",
-      "E04"
+      "E04",
+      "E05"
     ],
-    "decoded_characters_read": 79386,
+    "decoded_characters_read": 94400,
     "source_ledger": "knowledge/provenance/core_reading_ledger.json"
   }
 }

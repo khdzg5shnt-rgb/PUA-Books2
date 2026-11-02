@@ -9,15 +9,17 @@
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
 - 9个公开GitHub候选已检查类型、固定版本与许可；系统整合轮重核9个公开快照、补读16篇项目文档，现6个项目共20篇文档及6份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
-- S04共30条：21条现有提取文字已读完，1条可辨文字读完但乱码未解，8条未核完整阅读。Mystery、Tyler及既有笔记继续有效；本轮新增完整阅读单元见[逐文件台账](knowledge/provenance/core_reading_ledger.json)，理论、案例上下文和采用边界均已回填。
+- S04共30条：22条现有提取文字已读完，1条可辨文字读完但乱码未解，7条未核完整阅读。Mystery、Tyler及既有笔记继续有效；本轮新增完整阅读单元见[逐文件台账](knowledge/provenance/core_reading_ledger.json)，理论、案例上下文和采用边界均已回填。
 
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
 
 ## 准确的下一步
 
-**TOP30阅读断点：S04 ZIP内 `帮助他成长，智慧的爱：影响.txt`，原解码字符0。TXT开头，正文未读。**
+**当前下一工作单元：S08《谜男方法》M3模型之A3阶段重要性再总结(3).doc，从原文件正文开头补读；同批随后核S09/S10/S14/S15。**
 
-ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；条目原字节SHA-256：b0cfeed0ceaede941620e7d45c2b740df9089816504d8bc9ba4644afd9100c90。按[精读台账](knowledge/provenance/core_reading_ledger.json)恢复，不重读已完成单元。
+**TOP30独立阅读断点：S04 ZIP内 `k第十一课-吸引不是选择..txt`，原解码字符0。TXT开头，剩余TOP30独立阅读队列；下一工作单元优先补读上传附件。**
+
+ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；条目原字节SHA-256：36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7。按[精读台账](knowledge/provenance/core_reading_ledger.json)恢复，不重读已完成单元。
 
 S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验。
 
@@ -48,5 +50,6 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 - [说出感觉容易爱：述情.txt](knowledge/books/S04-expression.md)：现有TXT字符[0,20563)完成。
 - [管好情绪享受爱：情绪管理.txt](knowledge/books/S04-emotion-management.md)：现有TXT字符[0,29360)完成。
 - [全然接受是真爱：允许.txt](knowledge/books/S04-allowing.md)：现有TXT字符[0,13449)完成。
+- [帮助他成长，智慧的爱：影响.txt](knowledge/books/S04-influence.md)：现有TXT字符[0,15014)完成。
 
 每项只计当前提供的文字范围，不自动核实原版图像或完整书籍；实际方法变动和案例限制见对应笔记。
