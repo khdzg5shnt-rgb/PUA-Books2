@@ -291,7 +291,20 @@
           "entry": "2-4、搭讪时机..txt",
           "bytes": 10267,
           "sha256": "796bcafb528019e4b15106981f8e4dfd2f55f21b7e305eff6a23af1181f8791b",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing extracted text only; original PDF not verified",
+          "characters": 3955,
+          "page_markers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U10",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "2-6、情感交流..txt",
@@ -567,15 +580,15 @@
         "knowledge/cases/C07-published-dialogues.md"
       ],
       "next_bookmark": {
-        "entry": "2-4、搭讪时机..txt",
+        "entry": "幽默密码..txt",
         "decoded_character_offset": 0,
         "status": "unread",
-        "sha256": "796bcafb528019e4b15106981f8e4dfd2f55f21b7e305eff6a23af1181f8791b"
+        "sha256": "c32364b079e144b90ead3831f5eec295e1c6884733fdb15d528289abc854f2d1"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 11,
+        "supplied_text_complete_entries": 12,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 18
+        "remaining_without_verified_complete_reading": 17
       }
     },
     {

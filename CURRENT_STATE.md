@@ -9,14 +9,14 @@
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
 - 9个公开GitHub候选已检查类型、固定版本与许可；5个项目的9篇文档及5份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
-- S04 TOP30共12/30条有来源定位的阅读记录：11条现有文字完成（含历史三条），另1条可辨文字完成但乱码未解决。[逐单元笔记](knowledge/books/S04-top30-units.md)保留框架、拟例、叙事及限制；[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)有上下文摘要。
+- S04 TOP30共13/30条有来源定位的阅读记录：12条现有文字完成（含历史三条），另1条可辨文字完成但乱码未解决。[逐单元笔记](knowledge/books/S04-top30-units.md)保留框架、拟例、叙事及限制；[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)有上下文摘要。
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
 
 ## 准确的下一步
 
-**主断点：S04 TOP30 ZIP内 `2-4、搭讪时机..txt`，从解码字符0开始；当前未读。**
+**主断点：S04 TOP30 ZIP内 `幽默密码..txt`，从解码字符0开始；当前未读。**
 
-ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；条目原字节SHA-256：796bcafb528019e4b15106981f8e4dfd2f55f21b7e305eff6a23af1181f8791b。精确路径、编码和已读单元见[S04笔记](knowledge/books/S04-top30-units.md)。
+ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；条目原字节SHA-256：c32364b079e144b90ead3831f5eec295e1c6884733fdb15d528289abc854f2d1。精确路径、编码和已读单元见[S04笔记](knowledge/books/S04-top30-units.md)。
 
 S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验。
 
