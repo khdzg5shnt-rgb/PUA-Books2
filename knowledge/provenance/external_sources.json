@@ -760,10 +760,35 @@
           "entry": "史上最实用的约会锦囊..txt",
           "bytes": 24869,
           "sha256": "8de523da9098d6984870c71c533a4ada1853489fe6027f0c791500f0a848841f",
-          "reading_status": "unverified_historical_claim",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,9125), PAGE 1-19; original PDF/edition/other course contents not verified",
           "characters": 9125,
           "page_marker_count": 19,
-          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR/control characters retained",
+            "ranges": [
+              [
+                0,
+                9125
+              ]
+            ],
+            "page_markers": [
+              1,
+              19
+            ]
+          },
+          "notes": "knowledge/books/S04-date-tips.md",
+          "case_notes": [
+            "knowledge/cases/C18-date-tips-overcontact.md"
+          ],
+          "text_integrity": {
+            "NUL_count": 38,
+            "NUL_location": "19 page-footer lines, two each; no body NUL",
+            "replacement_characters": 0,
+            "overlapping_CJK_radical_glyphs": true,
+            "PDF_images_verified": false
+          },
+          "original_archive_permission": "explicit notice disallows unauthorized redistribution; original not archived; own research notes only"
         },
         {
           "entry": "史上最有型男士衣着指南..txt",
@@ -781,7 +806,10 @@
           "entry": "善解人意才会爱：共情.txt",
           "bytes": 46782,
           "sha256": "faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "unverified_historical_claim",
+          "characters": 16014,
+          "page_marker_count": 0,
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "女人最讨厌的聊天4大常见错误..txt",
@@ -938,21 +966,23 @@
         "knowledge/books/S04-adam-version.md",
         "knowledge/books/S04-tyler.md",
         "knowledge/cases/C16-tyler-phone-priorities.md",
-        "knowledge/cases/C17-tyler-group-number-only.md"
+        "knowledge/cases/C17-tyler-group-number-only.md",
+        "knowledge/books/S04-date-tips.md",
+        "knowledge/cases/C18-date-tips-overcontact.md"
       ],
       "next_bookmark": {
-        "entry": "史上最实用的约会锦囊..txt",
+        "entry": "善解人意才会爱：共情.txt",
         "decoded_character_offset": 0,
         "heading": "TXT开头，正文未读",
         "status": "unread from this bookmark",
-        "sha256": "8de523da9098d6984870c71c533a4ada1853489fe6027f0c791500f0a848841f"
+        "sha256": "faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 16,
+        "supplied_text_complete_entries": 17,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 13,
+        "remaining_without_verified_complete_reading": 12,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 13
+        "unread_or_unverified_historical_entries": 12
       }
     },
     {

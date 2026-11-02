@@ -9,14 +9,14 @@
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
 - 9个公开GitHub候选已检查类型、固定版本与许可；5个项目的9篇文档及5份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
-- S04共30条：16条现有提取文字已读完（含Mystery、Tyler英文合集及与B047重合的Adam版本），1条可辨文字读完但乱码未解，13条未核完整阅读。Mystery九章与文后资料、Tyler 33篇及词表均已读，见[长篇笔记](knowledge/books/S04-mystery-method.md)和[Tyler入口](knowledge/books/S04-tyler.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)、[C13](knowledge/cases/C13-humor-corrections.md)、[C14](knowledge/cases/C14-mystery-nextday.md)、[C15](knowledge/cases/C15-lovedrop-date-plans.md)保存理论、上下文和结果层级。
+- S04共30条：17条现有提取文字已读完（含Mystery、Tyler英文合集及与B047重合的Adam版本），1条可辨文字读完但乱码未解，12条未核完整阅读。Mystery九章与文后资料、Tyler 33篇及词表均已读，见[长篇笔记](knowledge/books/S04-mystery-method.md)和[Tyler入口](knowledge/books/S04-tyler.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)、[C13](knowledge/cases/C13-humor-corrections.md)、[C14](knowledge/cases/C14-mystery-nextday.md)、[C15](knowledge/cases/C15-lovedrop-date-plans.md)保存理论、上下文和结果层级。
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
 
 ## 准确的下一步
 
-**主断点：S04 ZIP内 `史上最实用的约会锦囊..txt`，原解码字符0，从TXT开头继续；本文件正文未读。**
+**主断点：S04 ZIP内 `善解人意才会爱：共情.txt`，原解码字符0，从TXT开头继续；本文件正文未读。**
 
-ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；新条目原字节SHA-256：8de523da9098d6984870c71c533a4ada1853489fe6027f0c791500f0a848841f。精确路径、编码和已读单元见[S04笔记](knowledge/books/S04-top30-units.md)。
+ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；新条目原字节SHA-256：faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9。精确路径、编码和已读单元见[S04笔记](knowledge/books/S04-top30-units.md)。
 
 S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验。
 

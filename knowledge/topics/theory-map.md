@@ -32,3 +32,5 @@ B092 P15–16已读Love Systems情感发展模型的摘要，保留接近、过�
 第九章9.3.2要求TimeBridge有具体时间地点，词表仅概括交换联系；不能用短定义消除正文条件。9.4、9.6明确摘自Lovedrop，身份和自报效果另记，见[C15](../cases/C15-lovedrop-date-plans.md)。Mystery现有TXT全读并不等于Tyler、B094、英文原版或附属DVD已读。
 
 Tyler词表PAGE 99的Frame现已核到解释事件/情境、赋予互动与人物角色意义的定义；与Mystery7.1相关但不完全同句。其Close含号码/亲吻/性结果多种，实际案例按明确结果层级记录，见[完整词表笔记](../books/S04-tyler/08-glossary.md)。
+
+《约会锦囊》40/60/80是无量表的作者教学设定，不计算实际好感分。其案例明确挂电话后应停止连拨，与Tyler电话篇有分歧；各自实际反馈和建议未执行结果见[C18](../cases/C18-date-tips-overcontact.md)及[C16](../cases/C16-tyler-phone-priorities.md)。
