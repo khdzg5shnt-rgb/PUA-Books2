@@ -10,7 +10,7 @@
 | 自我披露 | B072 U4先表达自己再邀请参与；B037 U4–7具体真实资料 | 不把自己的经历换成导师自传；提问仍可有作用 |
 | Qualification/筛选 | Mystery当前译本7.4–7.5/PAGE 78–79将真实标准、提问、个体特质及争取认可相连；7.8.9区分合格反馈、7.8.10定义SOI | 已核该版本，B094及英文原著仍未读；真实偏好与隐蔽控制动机分开 |
 | DHV、Neg、Preselection、Social Proof | Mystery译本第1章概览，3章孔雀与投入，4章预选开关 | 已有该版本定位；第6章Neg三类、DHV/DLV及群体关系已读，不作效果验证 |
-| Inner/Outer Game、Tyler合集 | Mystery词表PAGE 122将Inner Game定义为内在框架力量；Tyler英文合集已完整读10篇，含自我形象、身份/状态、说话比例 | 后文未读，见[S04分组](../books/S04-tyler.md)；不从旧摘要补齐 |
+| Inner/Outer Game、Tyler合集 | Mystery词表PAGE 122将Inner Game定义为内在框架力量；Tyler英文合集已完整读15篇，含自我形象、身份/状态、说话比例 | 后文未读，见[S04分组](../books/S04-tyler.md)；不从旧摘要补齐 |
 | Kino、CT及LMR等 | Mystery7.7定义接触及变化程度，7.8定义CT、门槛与动能；9章LMR内容已读并按批判研究保留 | 服从不等于同意，接触、活动、性意愿、关系承诺各自核实；不提供绕开拒绝的流程 |
 
 校准calibration在当前Mystery译本第4章译为“标准化”，指依据现场经验调整；内化internalization指练习后自动响应。前者不等于统一台词，二者不等于阅读后模型永久记忆。Move、Bounce、Time Bridge分别涉及同场移动、不同场地和跨时间衔接；详细定义只在上述精读笔记维护。

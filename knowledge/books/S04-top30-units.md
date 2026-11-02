@@ -299,10 +299,10 @@ ZIP内`a第一课-本吸引力原理【必修】(1)..txt`现有21426原解码字
 
 ## U14｜Tyler英文合集分组精读
 
-当前英文TXT共100页标、315142解码字符。已读[0,79212)，前部及10篇完整正文，包括女性心理/范式四篇、Inner game前六篇。具体观点、相反说法、作者自报与未核推断见[分组入口](S04-tyler.md)，不复制另一套正文。
+当前英文TXT共100页标、315142解码字符。已读[0,79212)，前部及15篇完整正文与Outer首篇前段，包括女性心理/范式四篇、Inner game前六篇。具体观点、相反说法、作者自报与未核推断见[分组入口](S04-tyler.md)，不复制另一套正文。
 
 ## 其他条目与下一步
 
 30条中15条现有文字完成，1条可辨文字完成但乱码未解决，1条Tyler长篇部分阅读，13条未核完整阅读。完成按文件范围，不是独立原著数量；历史三份连续记录与新增案例不重复计数。
 
-下一处为ZIP内`TylerDurdens-Classic-Posts-Collection..txt`原解码字符79212、PAGE 28中段《Implementing a Habit》标题；精确身份见[来源记录](../provenance/external_sources.json)和[CURRENT_STATE](../../CURRENT_STATE.md)。
+下一处为ZIP内`TylerDurdens-Classic-Posts-Collection..txt`原解码字符115019、PAGE 40《Natural Game, Being Higher Value and Humor》续文；精确身份见[来源记录](../provenance/external_sources.json)和[CURRENT_STATE](../../CURRENT_STATE.md)。
