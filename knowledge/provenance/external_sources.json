@@ -73,24 +73,33 @@
       "sha256": "2da7376e24482b522eeea5e46620df3235a8d7a75d46e45ded9f9607eddad8b5",
       "bytes": 812370,
       "pages": 207,
-      "reading_status": "partial; chapters 7 and 8 fully read, P110 chapter 7 heading through P131 before chapter 9; not continuous P1-131",
+      "reading_status": "partial; completed chapter IDs 7,8,9; not continuous P1-139",
       "notes": "knowledge/books/S02-chen-twelve.md",
       "completed_units": [
         {
           "chapter": "第七式：口才与发散性思维",
           "start": "PDF file P110 at 第七式 heading",
           "end": "PDF file P122 before 第八式 heading",
-          "images": "No embedded images on P110–121; chapter-tail text on P122 read"
+          "images": "No embedded images on P110–121; chapter-tail text on P122 read",
+          "chapter_id": 7
         },
         {
           "chapter": "第八式：讲故事",
           "start": "PDF file P122 at 第八式 heading",
           "end": "PDF file P131 before 第九式 heading",
           "images": "No embedded images on P122–131; current chapter text fully read",
-          "case_status": "ten teaching story variants; imagined listener replies, no full bilateral transcripts"
+          "case_status": "ten teaching story variants; imagined listener replies, no full bilateral transcripts",
+          "chapter_id": 8
+        },
+        {
+          "chapter_id": 9,
+          "chapter": "第九式：潜台词与测试框架",
+          "start": "PDF file P131 at current chapter heading",
+          "end": "PDF file P139 before next chapter heading",
+          "images": "No embedded images anywhere in this PDF; current provided text read"
         }
       ],
-      "next_bookmark": "PDF file P131 at 第九式：化骨绵掌，判断女生潜台词的两个方法＋破解女生废物测试",
+      "next_bookmark": "PDF file P139 at 第十式：千里传音，用电话来撩妹的技巧",
       "archive_policy": "Original not redistributed; original paraphrased research notes only"
     },
     {
