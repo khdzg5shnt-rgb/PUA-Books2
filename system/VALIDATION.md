@@ -1,6 +1,6 @@
 # 检查范围
 
-本系统有两类可执行检查：资料结构检查，以及50个虚构对话场景的路由检查。场景文件不含用户或女生的真实聊天。
+本系统有两类可执行检查：资料结构检查，以及54个虚构对话场景的路由检查。场景文件不含用户或女生的真实聊天。
 
 ```bash
 python scripts/validate_os.py
@@ -16,3 +16,5 @@ python scripts/search_knowledge.py 'Callback 共同话题'
 实际检查结果记录在[结构报告](../knowledge/provenance/os_validation.json)与[本轮记录](../knowledge/provenance/os_round_2026-11-02.md)。
 
 本轮增加逐文件阅读台账的身份、连续区间与计数一致性，以及方法卡与JSON同步检查。这些校验不能证明阅读行为，只防止来源状态和范围自相矛盾。最新实际结果见[核心精读检查](../knowledge/provenance/core_reading_validation.json)。
+
+2026-11-03追加一般活动意愿与具体约定的区分、拒绝优先级，以及公开归档计数和阅读范围一致性检查。当前实际检查与剩余断点见[续读验收](../knowledge/provenance/continuation_validation_2026-11-03.json)和[报告](../knowledge/provenance/continuation_2026-11-03.md)。

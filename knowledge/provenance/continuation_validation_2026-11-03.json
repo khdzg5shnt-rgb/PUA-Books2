@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-03",
+  "baseline_main": "ba4a533ddfa0452b2fea649f425bbf441193dba2",
+  "status": "passed",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "scripts/validate_os.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 30,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_integrity_and_references (test_routing.RoutingScenarios.test_integrity_and_references) ... ok\ntest_missing_identity_does_not_assume (test_routing.RoutingScenarios.test_missing_identity_does_not_assume) ... ok\ntest_reject_unknown_facts (test_routing.RoutingScenarios.test_reject_unknown_facts) ... ok\ntest_search_is_local_and_returns_usable_paths (test_routing.RoutingScenarios.test_search_is_local_and_returns_usable_paths) ... ok\ntest_synthetic_dialogues (test_routing.RoutingScenarios.test_synthetic_dialogues) ... ok\ntest_type_and_range_validation (test_routing.RoutingScenarios.test_type_and_range_validation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.060s\n\nOK\n"
+    }
+  ],
+  "synthetic_scenario_count": 54,
+  "uploads_read": {
+    "S07": {
+      "characters": 5414,
+      "read_ranges": [
+        [
+          0,
+          5414
+        ]
+      ],
+      "visually_reviewed_pages": [],
+      "notes": "knowledge/books/S07-stage-script.md"
+    },
+    "S11": {
+      "characters": 19448,
+      "read_ranges": [
+        [
+          0,
+          19448
+        ]
+      ],
+      "visually_reviewed_pages": [],
+      "notes": "knowledge/books/S11-mystery-notes.md"
+    },
+    "S12": {
+      "characters": 21368,
+      "read_ranges": [
+        [
+          0,
+          21368
+        ]
+      ],
+      "visually_reviewed_pages": [],
+      "notes": "knowledge/books/S12-social-scripts.md"
+    },
+    "S13": {
+      "characters": 33594,
+      "read_ranges": [
+        [
+          0,
+          33594
+        ]
+      ],
+      "visually_reviewed_pages": [],
+      "notes": "knowledge/books/S13-mystery-excerpts.md"
+    },
+    "S16": {
+      "characters": 4968,
+      "read_ranges": [
+        [
+          0,
+          4968
+        ]
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": "knowledge/books/S16-mystery-essence.md"
+    },
+    "S17": {
+      "characters": 3701,
+      "read_ranges": [
+        [
+          0,
+          3701
+        ]
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "notes": "knowledge/books/S17-six-techniques.md"
+    },
+    "S18": {
+      "characters": 3306,
+      "read_ranges": [
+        [
+          0,
+          3306
+        ]
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "knowledge/books/S18-peterjoy-upper.md"
+    }
+  },
+  "uploaded_text_characters": 91799,
+  "public_documents_read": 2,
+  "public_document_characters": 8017,
+  "pdf_pages_visually_reviewed": 19,
+  "original_book_blobs_checked": 119,
+  "original_book_mismatches": [],
+  "new_upload_exact_original_book_matches": 0,
+  "local_retrieval": [
+    {
+      "query": "PeterJOY 上部",
+      "expected_path_found": "knowledge/books/S18-peterjoy-upper.md"
+    },
+    {
+      "query": "Word媒体",
+      "expected_path_found": "knowledge/books/S13-mystery-excerpts.md"
+    },
+    {
+      "query": "open_to_activity",
+      "expected_path_found": "system/SCENARIO_ROUTER.md"
+    },
+    {
+      "query": "调用次数",
+      "expected_path_found": "knowledge/books/G04-daily-coach.md"
+    }
+  ],
+  "activity_interest_route": {
+    "route": "R09",
+    "method": "M15"
+  },
+  "methods_substantively_changed": [
+    {
+      "id": "M03",
+      "name": "接住具体内容",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M04",
+      "name": "回应问题并露出一点自己",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M06",
+      "name": "轻量夸张或曲解",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M07",
+      "name": "共同角色玩笑",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M08",
+      "name": "有依据的可纠正观察",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M09",
+      "name": "具体欣赏",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M10",
+      "name": "分享真实生活",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M11",
+      "name": "接住困扰",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M13",
+      "name": "回答她确实提出的求助",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M14",
+      "name": "一次具体邀约",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M15",
+      "name": "确认已答应的安排",
+      "changed_fields": [
+        "use_when",
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M18",
+      "name": "完整短答照常接",
+      "changed_fields": [
+        "operation"
+      ]
+    },
+    {
+      "id": "M19",
+      "name": "持续单边时停止加码",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    },
+    {
+      "id": "M20",
+      "name": "接住纠正或澄清",
+      "changed_fields": [
+        "operation"
+      ]
+    },
+    {
+      "id": "M21",
+      "name": "有依据的修复",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M23",
+      "name": "尊重拒绝的具体范围",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M25",
+      "name": "开场或自然重联",
+      "changed_fields": [
+        "avoid"
+      ]
+    },
+    {
+      "id": "M26",
+      "name": "压成一句自然的话",
+      "changed_fields": [
+        "operation",
+        "avoid"
+      ]
+    }
+  ],
+  "next_upload": {
+    "id": "S19",
+    "file_page": 1,
+    "sha256": "49090a28a0aa239a57d6dba2b98270ada1d5e0aea979b0225b7e80c56c9d87d9",
+    "body_read": false
+  },
+  "next_top30": {
+    "entry": "k第十一课-吸引不是选择..txt",
+    "decoded_character": 0
+  },
+  "limits": "Validates metadata, references, exact bytes, synthetic routing and recorded coverage; not proof of reading behavior, screenshot recognition, motives or dating outcomes. Final commit identity and readback are verified outside the self-contained report."
+}
