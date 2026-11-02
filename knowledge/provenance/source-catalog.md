@@ -39,7 +39,7 @@
 | S01 | 陈哥聊天5大神操作.docx | 161段正文及9张教学图已读；[笔记](../books/S01-chen-five.md) |
 | S02 | 《子阳陈哥恋爱12式》.pdf | 207页现有文字完成；11个正文单元，第四式与所指图片缺失；[逐章入口](../books/S02-chen-twelve.md) |
 | S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | 现有文字已读；[案例整理](../cases/C07-published-dialogues.md) |
-| S04 | TOP30_DEEP_READ.zip | 15条现有文字完成（含Mystery及Adam版本）＋1条可辨有乱码；Tyler前部/29篇及现场首篇前段；余13条未核；[入口](../books/S04-top30-units.md) |
+| S04 | TOP30_DEEP_READ.zip | 16条现有文字完成（Mystery/Adam/Tyler已读）＋1条可辨有乱码；余13条未核；[入口](../books/S04-top30-units.md) |
 | S05 | PUA_MASTER_CURRENT(2).md | 开头与选段；含私人内容，未复制；旧完成宣称待核 |
 | S06 | PUA_first_screening.xlsx | Summary及样例行导航检查；非全文阅读凭证 |
 | S07 | 认识→→私密完整流程.docx | 身份已核；本批未读正文、未归档 |
@@ -63,6 +63,6 @@
 
 pua-books的57项精确重复通过[59项映射](pua-books-dedup.json)直接使用books2既有路径及状态；2项不同blob仍未读，不按名称去重。
 
-主阅读断点：S04 ZIP内`TylerDurdens-Classic-Posts-Collection..txt`原解码248576、PAGE 81《AMOG Insanity》续文；S02现有文字完成，缺章、缺图仍待核。梵系f010其他未读段、完整原始字幕、其他附件和未选项目文档均保留缺口。
+主阅读断点：S04 ZIP内`史上最实用的约会锦囊..txt`原解码字符0，从开头未读；S02现有文字完成，缺章、缺图仍待核。梵系f010其他未读段、完整原始字幕、其他附件和未选项目文档均保留缺口。
 
 私有goutoujunshi不在收录范围；未读其正文。只更新books2，未修改来源仓库。

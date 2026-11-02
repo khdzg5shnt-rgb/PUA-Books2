@@ -581,7 +581,7 @@
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
           "bytes": 315266,
           "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-          "reading_status": "partial; decoded [0,248576) read: front matter and 29 complete essays, first field report partially read; next PAGE 81",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,315142), PAGE 1-100, front matter, 33 essays and glossary; original posts, dates, edition and PDF images unverified",
           "characters": 315142,
           "page_marker_count": 100,
           "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
@@ -652,31 +652,43 @@
                 69,
                 80
               ]
+            },
+            {
+              "unit": "Field Reports four essays",
+              "range": [
+                246250,
+                310119
+              ],
+              "page_markers": [
+                80,
+                99
+              ]
+            },
+            {
+              "unit": "acronyms and slang glossary",
+              "range": [
+                310119,
+                315142
+              ],
+              "page_markers": [
+                99,
+                100
+              ]
             }
           ],
-          "in_progress_unit": {
-            "title": "AMOG Insanity",
-            "range_read": [
-              246250,
-              248576
-            ],
-            "page_markers_read": [
-              80,
-              80
-            ]
-          },
-          "complete_essay_count": 29,
+          "complete_essay_count": 33,
           "read_coverage": {
             "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR retained",
             "ranges": [
               [
                 0,
-                248576
+                315142
               ]
             ]
           },
           "case_notes": [
-            "knowledge/cases/C16-tyler-phone-priorities.md"
+            "knowledge/cases/C16-tyler-phone-priorities.md",
+            "knowledge/cases/C17-tyler-group-number-only.md"
           ]
         },
         {
@@ -748,7 +760,10 @@
           "entry": "史上最实用的约会锦囊..txt",
           "bytes": 24869,
           "sha256": "8de523da9098d6984870c71c533a4ada1853489fe6027f0c791500f0a848841f",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "unverified_historical_claim",
+          "characters": 9125,
+          "page_marker_count": 19,
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "史上最有型男士衣着指南..txt",
@@ -922,21 +937,21 @@
         "knowledge/cases/C15-lovedrop-date-plans.md",
         "knowledge/books/S04-adam-version.md",
         "knowledge/books/S04-tyler.md",
-        "knowledge/cases/C16-tyler-phone-priorities.md"
+        "knowledge/cases/C16-tyler-phone-priorities.md",
+        "knowledge/cases/C17-tyler-group-number-only.md"
       ],
       "next_bookmark": {
-        "entry": "TylerDurdens-Classic-Posts-Collection..txt",
-        "decoded_character_offset": 248576,
-        "heading": "AMOG Insanity续文",
+        "entry": "史上最实用的约会锦囊..txt",
+        "decoded_character_offset": 0,
+        "heading": "TXT开头，正文未读",
         "status": "unread from this bookmark",
-        "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-        "page_marker": 81
+        "sha256": "8de523da9098d6984870c71c533a4ada1853489fe6027f0c791500f0a848841f"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 15,
+        "supplied_text_complete_entries": 16,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 14,
-        "partial_entries": 1,
+        "remaining_without_verified_complete_reading": 13,
+        "partial_entries": 0,
         "unread_or_unverified_historical_entries": 13
       }
     },
