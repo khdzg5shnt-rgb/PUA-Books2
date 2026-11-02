@@ -194,11 +194,11 @@
 
 适用：已连续两轮低投入，且双方没有待落实的现实安排；或长期只由用户维持
 
-动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。
+动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。
 
 避免：为了制造焦虑故意消失；归因用户不够有魅力；无限救场。 不用“所有情绪都是自己编故事”否认已发生的单边成本。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
 
 ## M20 接住纠正或澄清
 
@@ -226,19 +226,19 @@
 
 动作：平静说清不接受的具体行为或停止互动；可以同时表达真实感受与限制。拒绝、不喜欢、不接受及已确认的不公不因语气要求被取消；正常分歧不升级为攻击。 已发生的具体越界足以表达限制，不必先证明对方有恶意；理解处境不取消承诺和责任。
 
-避免：为了证明男人感互骂；默认要求用户讨好退让。
+避免：为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。
 
-依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)
+依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
 
 ## M23 尊重拒绝的具体范围
 
 适用：她明确拒绝联系、恋爱发展、某种身体行为或某个活动
 
-动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。
+动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
 
 避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)
 
 ## M24 见面后的真实反馈
 

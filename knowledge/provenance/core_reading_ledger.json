@@ -100,6 +100,34 @@
       "reading_status": "supplied_text_complete",
       "original_publication_completeness": "unverified",
       "raw_text_archived": false
+    },
+    {
+      "id": "E04",
+      "entry": "全然接受是真爱：允许.txt",
+      "sha256": "02b3b8c5f589bf59ae3f184f067c0dcad5fe34579b0723ef8d7f12571244fa1c",
+      "bytes": 39559,
+      "characters": 13449,
+      "lines": 192,
+      "encoding": "utf-8-sig",
+      "CR_count": 191,
+      "NUL_count": 0,
+      "replacement_count": 0,
+      "page_marker_count": 0,
+      "chunk_count": 3,
+      "notes": "knowledge/books/S04-allowing.md",
+      "read_ranges": [
+        [
+          0,
+          9000
+        ],
+        [
+          9000,
+          13449
+        ]
+      ],
+      "reading_status": "supplied_text_complete",
+      "original_publication_completeness": "unverified",
+      "raw_text_archived": false
     }
   ],
   "scope": "Supplied TXT only; not original book/PDF completeness or empirical validation"
