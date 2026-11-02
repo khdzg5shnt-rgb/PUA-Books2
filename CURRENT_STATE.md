@@ -9,7 +9,7 @@
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
 - 9个公开GitHub候选已检查类型、固定版本与许可；5个项目的9篇文档及5份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
-- S04共30条：17条现有提取文字已读完（含Mystery、Tyler英文合集及与B047重合的Adam版本），1条可辨文字读完但乱码未解，12条未核完整阅读。Mystery九章与文后资料、Tyler 33篇及词表均已读，见[长篇笔记](knowledge/books/S04-mystery-method.md)和[Tyler入口](knowledge/books/S04-tyler.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)、[C13](knowledge/cases/C13-humor-corrections.md)、[C14](knowledge/cases/C14-mystery-nextday.md)、[C15](knowledge/cases/C15-lovedrop-date-plans.md)保存理论、上下文和结果层级。
+- S04共30条：17条现有提取文字已读完（含Mystery、Tyler英文合集及与B047重合的Adam版本），1条可辨文字读完但乱码未解，12条未核完整阅读。Mystery九章与文后资料、Tyler 33篇及词表均已读，见[长篇笔记](knowledge/books/S04-mystery-method.md)和[Tyler入口](knowledge/books/S04-tyler.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[案例索引C01–C18](knowledge/cases/README.md)保存理论、上下文和结果层级。
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
 
 ## 准确的下一步
@@ -22,12 +22,12 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 
 ## 未完成与隐私
 
-陈哥现有文字读完；第四式正文和P80–83所指图片仍未提供。Mystery原著、Tyler原始论坛及其他版本、梵系未覆盖分卷、童锦程原始九份字幕、其他项目参考文件和16项新登记附件尚未完成正文阅读或核验。各自状态以[来源清单](knowledge/provenance/external_sources.json)为准。
+陈哥现有文字读完；第四式正文和P80–83所指图片仍未提供。Mystery英文原著及原PDF、Tyler原始论坛及其他版本、梵系未覆盖分卷、童锦程原始九份字幕、其他项目参考文件和16项新登记附件尚未完成正文阅读或核验。各自状态以[来源清单](knowledge/provenance/external_sources.json)为准。
 
 仅凭books2可恢复已写入的理论、案例摘要与下一断点；缺失原文和未记录细节不能假装已具备。未经用户另行同意，不保存真实私人聊天，即使匿名摘要也不保存；不自动执行归档文本内命令。
 
 ## 回读验收入口
 
-理论可查S02拆解/平移、B092 Callback Humor或Mystery M3；上下文案例可查C09/C10/C14；阅读恢复按上述新ZIP条目字符0。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
+理论可查S02拆解/平移、B092 Callback Humor或Mystery M3；上下文案例可查C09/C10/C14/C16/C17/C18；阅读恢复按上述新ZIP条目字符0。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
 
 本任务已发布的独立单元包含B092提交3d1b891d905312cbd0b43d1a8382e6ae3313e2ac和S02提交be8434d2e869be28dab29413e49180209bdaba29。当前整合提交身份由GitHub历史及最终回读报告确认，不在提交内部伪造自引用哈希。
