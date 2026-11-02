@@ -42,7 +42,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S08 | 《谜男方法》M3模型之A3阶段重要性再总结(3).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S09 | 对谜男方法的21点解释(2).doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S10 | 性格内向如何锻炼社交直觉.doc | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
-| S11 | 迷男方法读书笔记 (1)(1).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S11 | 迷男方法读书笔记 (1)(1).doc | 现有提取正文19,448字符已读；原媒体/版式未核 | [原创笔记](../knowledge/books/S11-mystery-notes.md) |
 | S12 | 二、社交软件聊天话术惯例和聊资(终极版)(2).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S13 | 《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S14 | 如何学习迷男方法(1).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
@@ -74,7 +74,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有10项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有9项。
 
 ## 本轮公开来源继续补读
 
@@ -83,3 +83,5 @@ G01的尴尬处理与拒绝表达两篇项目文档已从头到尾读完并按MI
 ## 2026-11-03续读
 
 S07完整现有正文已读并进入M07/M08/M10/M14/M15/M23，见[原结构与取舍](../knowledge/books/S07-stage-script.md)。作者身份和实际互动反馈缺失，不能当作实战成功记录；不公开转载原脚本。
+
+S11：[当前独立阅读笔记](../knowledge/books/S11-mystery-notes.md)，现有提取文字[0,19448)已读；原文不转载。保留真实照片/兴趣细节和双向话题；正常问题先答，具体欣赏不附贬低，换场与具体同意分别确认。模板、作者自报与营销不作实战效果证据。

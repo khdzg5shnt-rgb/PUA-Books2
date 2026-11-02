@@ -121,6 +121,41 @@
       "embedded_media_count": 0,
       "rendered_layout_verified": false,
       "limits": "Current DOCX body only; no media/table/other narrative parts; author and original course unverified; numbering gap and unspecified continuation preserved"
+    },
+    {
+      "id": "S11",
+      "sha256": "aa2fd53937f9a1af84a75c75aa28a7ea9833f10b2107cc4318c63f7bb59678d0",
+      "bytes": 150552,
+      "characters": 19448,
+      "text_sha256": "dac604cc5b9ec51fb19d52f2cc454a32eb7745860772ee957635b72878cded1e",
+      "encoding_or_extraction": "LibreOffice TXT UTF-8-sig, original extracted line endings retained",
+      "read_ranges": [
+        [
+          0,
+          19448
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          7000
+        ],
+        [
+          7000,
+          14000
+        ],
+        [
+          14000,
+          19448
+        ]
+      ],
+      "notes": "knowledge/books/S11-mystery-notes.md",
+      "original_media_verified": false,
+      "limits": "Extracted body only; Word media, text boxes and layout unverified; authorship and edition unverified; marketing claims unverified",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

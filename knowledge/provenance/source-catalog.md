@@ -76,3 +76,5 @@ pua-books的57项精确重复通过[59项映射](pua-books-dedup.json)直接使�
 ## 2026-11-03当前覆盖更新
 
 S07当前DOCX171段、字符[0,5414)已实际阅读；原先登记的未核状态保留为历史，当前采用[独立笔记](../books/S07-stage-script.md)与[附件台账](additional_reading_ledger.json)。原文不转载。
+
+S11最新覆盖为现有正文[0,19448)；早期未核登记为历史。见[独立笔记](../books/S11-mystery-notes.md)与[附件台账](additional_reading_ledger.json)。

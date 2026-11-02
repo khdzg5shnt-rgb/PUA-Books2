@@ -26,11 +26,11 @@
 
 适用：她提供一个日常事件、偏好或具体信息
 
-动作：挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；不是每轮都提问，必要时只留一个问题。
+动作：挑一个具体细节回应，加入一小点用户已确认的感受、偏好或经历；不是每轮都提问，必要时只留一个问题。 照片或兴趣分享可选一个已知细节回应，允许口味不同，不同时铺开多条追问。
 
 避免：连续问工作住址爱好；用另一个无关话题抢走分享。 不为填每个停顿反复添加新问题。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -40,9 +40,9 @@
 
 动作：先用已知事实回答，再视当前语境加一点真实态度；未知生活事实不代编。
 
-避免：把每个问题叫测试；故意卖关子、假装职业、无故反问。
+避免：把每个问题叫测试；故意卖关子、假装职业、无故反问。 不为框架或圈套标签忽视正常的姓名、年龄、职业询问。
 
-依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)
+依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 ## M05 回扣共同话题
 
@@ -92,9 +92,9 @@
 
 动作：说清哪个细节值得欣赏；强度不超过用户真实感受与关系基础。 对已经发生的具体好意可以道谢，表达收到这份好意，不以获得下一次配合为目的。
 
-避免：泛夸、贬低别人、编造她的努力过程或承诺。 秘密安排他人夸奖、假赞美、奖励撤回或以亲密换取服务。
+避免：泛夸、贬低别人、编造她的努力过程或承诺。 秘密安排他人夸奖、假赞美、奖励撤回或以亲密换取服务。 不机械在赞美后补贬低，或通过制造尴尬让人争取认可。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 ## M10 分享真实生活
 
@@ -102,9 +102,9 @@
 
 动作：用一个已知真实细节表达自己的经历、感受、偏好或需要，让对方有了解用户的素材；当前没有确认的素材时直接回应，不替用户写人生，也不要求对方猜需求。
 
-避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。 不只替换脚本姓名就移植所在地、行业、情史、梦境或未来承诺。
+避免：复制导师旅游、公司、情史；所有故事都故意停住等她追问。 不只替换脚本姓名就移植所在地、行业、情史、梦境或未来承诺。 不用虚假照片出处、杜撰配图故事或假装熟悉某作品制造共同点。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 ## M11 接住困扰
 
@@ -152,11 +152,11 @@
 
 适用：她对共同活动表示开放，或已答应具体邀请，正在确定可行性和安排
 
-动作：先区分一般活动意愿与具体约定；只有一般意愿时补一项影响安排的真实信息，不能当作已定约会。已有具体活动与日期时，优先确认尚缺的时间、地点或集合方式；信息全了就简短确认。
+动作：先区分一般活动意愿与具体约定；只有一般意愿时补一项影响安排的真实信息，不能当作已定约会。已有具体活动与日期时，优先确认尚缺的时间、地点或集合方式；信息全了就简短确认。 需要换场时明确真实去向，再确认双方愿意；不能把上一项活动的答应沿用到新去向。
 
 避免：把已答应后的短回复判冷淡；继续无目的撩到安排失焦。 不把一般活动意愿写成已确定日期，不编场次和空闲，也不反复索取同意。
 
-依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；[现实安排](../knowledge/cases/C09-b092-logistics.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 ## M16 承接替代时间或重约
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向；拒绝活动和拒绝关系分别判断，不能改写成隐性同意。 用户也可以因核心不兼容或不愿继续而退出；尊重差异不等于必须维持关系。
 
-避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。 表白、情侣身份和亲昵称呼不能替代对具体亲密行为的同意。
+避免：以LMR、矜持、七小时、绿灯数量覆盖原话；上门、反复测试。 不把拒绝或害怕称为需要穿越的情绪按钮。 不要求拒绝者必须解释、道歉或提供替代时间。 表白、情侣身份和亲昵称呼不能替代对具体亲密行为的同意。 不将含糊、未反抗、朋友许可或服从测试改写成本人的同意。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)
 
 ## M24 见面后的真实反馈
 

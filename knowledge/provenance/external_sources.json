@@ -1228,9 +1228,34 @@
       "title": "迷男方法读书笔记 (1)(1).doc",
       "sha256": "aa2fd53937f9a1af84a75c75aa28a7ea9833f10b2107cc4318c63f7bb59678d0",
       "bytes": 150552,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "current_provided_or_extracted_body_text_complete; decoded [0,19448); original media/layout unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+      "pending": "Extracted body only; Word media, text boxes and layout unverified; authorship and edition unverified; marketing claims unverified",
+      "notes": "knowledge/books/S11-mystery-notes.md",
+      "characters": 19448,
+      "read_coverage": {
+        "locator": "LibreOffice TXT UTF-8-sig, original extracted line endings retained; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            19448
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            7000
+          ],
+          [
+            7000,
+            14000
+          ],
+          [
+            14000,
+            19448
+          ]
+        ]
+      }
     },
     {
       "id": "S12",
@@ -2428,11 +2453,13 @@
     {
       "date": "2026-11-03",
       "upload_ids": [
-        "S07"
+        "S07",
+        "S11"
       ],
-      "decoded_characters": 5414,
+      "decoded_characters": 24862,
       "notes": [
-        "knowledge/books/S07-stage-script.md"
+        "knowledge/books/S07-stage-script.md",
+        "knowledge/books/S11-mystery-notes.md"
       ],
       "status": "independent reading unit integrated"
     }

@@ -35,3 +35,5 @@
 短篇附件S08/S09/S10/S14/S15新增全文范围与方法取舍，见[补读笔记](knowledge/books/S08-S15-calibration.md)及[台账](knowledge/provenance/additional_reading_ledger.json)。
 
 2026-11-03新增：[S07五段脚本的原结构与采用边界](knowledge/books/S07-stage-script.md)；同意范围、真实表达与一般意愿/具体安排已回填现有方法。
+
+2026-11-03续读[S11 迷男方法读书笔记 (1)(1).doc](knowledge/books/S11-mystery-notes.md)：保留真实照片/兴趣细节和双向话题；正常问题先答，具体欣赏不附贬低，换场与具体同意分别确认。模板、作者自报与营销不作实战效果证据。
