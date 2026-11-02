@@ -28,6 +28,6 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 
 ## 回读验收入口
 
-理论可查S02拆解/平移或B092 Callback Humor；上下文案例可查C09/C10；阅读恢复按上述ZIP条目字符88157。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
+理论可查S02拆解/平移、B092 Callback Humor或Mystery M3；上下文案例可查C09/C10/C14；阅读恢复按上述ZIP条目字符88157。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
 
 本任务已发布的独立单元包含B092提交3d1b891d905312cbd0b43d1a8382e6ae3313e2ac和S02提交be8434d2e869be28dab29413e49180209bdaba29。当前整合提交身份由GitHub历史及最终回读报告确认，不在提交内部伪造自引用哈希。
