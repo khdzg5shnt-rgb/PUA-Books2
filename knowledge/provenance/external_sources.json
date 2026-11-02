@@ -366,7 +366,7 @@
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "partial; decoded [0,106530) read: front matter and chapters one through 7; remaining text not counted",
+          "reading_status": "partial; decoded [0,120084) read: front matter and chapters one through 8; remaining text not counted",
           "characters": 141076,
           "page_marker_count": 125,
           "notes": "knowledge/books/S04-mystery-method.md",
@@ -486,6 +486,21 @@
               "printed_pages": [
                 68,
                 87
+              ]
+            },
+            {
+              "unit": "chapter 8",
+              "range": [
+                106530,
+                120084
+              ],
+              "page_markers": [
+                94,
+                105
+              ],
+              "printed_pages": [
+                88,
+                99
               ]
             }
           ],
@@ -746,10 +761,10 @@
       ],
       "next_bookmark": {
         "entry": "b第二课-迷男方法【必修】..txt",
-        "decoded_character_offset": 106530,
-        "page_marker": 94,
-        "printed_page": 88,
-        "heading": "第八章：交谈",
+        "decoded_character_offset": 120084,
+        "page_marker": 106,
+        "printed_page": 100,
+        "heading": "第九章：中场游戏与结尾游戏",
         "status": "unread from this bookmark",
         "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1"
       },
