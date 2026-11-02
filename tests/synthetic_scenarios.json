@@ -1,0 +1,602 @@
+[
+  {
+    "id": "T01",
+    "context": "截图两边身份不明；她似乎在调侃，仍不能猜谁说的",
+    "facts": {
+      "speaker_verified": false,
+      "text_legible": true,
+      "function": "banter",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R00",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T02",
+    "context": "关键末句被截断，不能补成答应见面",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": false,
+      "invitation": "accepted"
+    },
+    "expect_route": "R00",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T03",
+    "context": "她明确不要再联系，即使旧记录很热络",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "contact",
+      "reciprocity": "mutual",
+      "shared_callback_available": true
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T04",
+    "context": "她说不要这样碰我，过去牵手也不覆盖现在",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical",
+      "roleplay_shared": true
+    },
+    "expect_route": "R02",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T05",
+    "context": "她只想做朋友，此后仍客气回复",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "romance",
+      "function": "sharing"
+    },
+    "expect_route": "R03",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T06",
+    "context": "最后一句已经是用户发出，等她回",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "pending_reply": true,
+      "function": "unknown"
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T07",
+    "context": "最后一句已发，对方没有回复，不能再编我先去忙",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "pending_reply": true,
+      "shared_callback_available": true
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T08",
+    "context": "她说不喜欢这个称呼，角色玩笑立即停止",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "boundary_expressed": true,
+      "function": "banter",
+      "roleplay_shared": true,
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R05",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T09",
+    "context": "她明确持续羞辱，不为了推进而忍受",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "insult"
+    },
+    "expect_route": "R06",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T10",
+    "context": "原文能确认用户认错时间造成爽约，修复具体事项",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "repair_needed": true,
+      "function": "logistics"
+    },
+    "expect_route": "R07",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T11",
+    "context": "周六值班但主动给周日晚上",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "alternative",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T12",
+    "context": "临时取消但立刻提供新日期",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "cancelled_with_repair",
+      "reciprocity": "consistently_one_sided"
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T13",
+    "context": "已经约好周六，她只回好，先确认地点",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "closed_answer_complete": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T14",
+    "context": "本轮正在给集合点，不用尬撩",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "logistics",
+      "shared_callback_available": true
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T15",
+    "context": "最近忙下次吧，没给替代安排",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "goal": "invite",
+      "invite_ready": true,
+      "activity_verified": true,
+      "user_availability_known": true
+    },
+    "expect_route": "R10",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T16",
+    "context": "取消后没新方案，不用改问星期天",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "cancelled_without_repair"
+    },
+    "expect_route": "R10",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T17",
+    "context": "她只是不想玩密室，不因此判不想见人",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "activity",
+      "function": "sharing"
+    },
+    "expect_route": "R11",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T18",
+    "context": "她纠正我不是老师，不继续曲解",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "correction",
+      "shared_callback_available": true
+    },
+    "expect_route": "R12",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T19",
+    "context": "问猫还是狗，她回猫，问题已完整回答",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R13",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T20",
+    "context": "二选一她只回周六，属于完整信息",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true
+    },
+    "expect_route": "R13",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T21",
+    "context": "连续两个开放话题都嗯哦且没有新信息，收住",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R14",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T22",
+    "context": "长期只由用户启动且本轮仍低投入",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "current_turn_low": true,
+      "reciprocity": "consistently_one_sided"
+    },
+    "expect_route": "R14",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T23",
+    "context": "先前低投入，她现在主动讲委屈，有了新内容",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "distress",
+      "current_turn_low": false,
+      "consecutive_low_rounds": 4,
+      "reciprocity": "consistently_one_sided"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T24",
+    "context": "她说改了一天材料好累，先不抢着调情",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "distress",
+      "goal": "invite",
+      "invite_ready": true,
+      "activity_verified": true,
+      "user_availability_known": true
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T25",
+    "context": "她认真问论文排版怎么办，先给实际帮助",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "advice_request",
+      "shared_callback_available": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T26",
+    "context": "她分享考试通过，接住这件好事",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "good_news"
+    },
+    "expect_route": "R17",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T27",
+    "context": "她认真问你做什么工作，不默认废测",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "question",
+      "reciprocity": "unknown"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T28",
+    "context": "她问怎么这么晚才回，有真实事务，先回答",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "question",
+      "shared_callback_available": true
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T29",
+    "context": "见面后她说今天挺开心，回应真实共同经历",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "post_date"
+    },
+    "expect_route": "R19",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T30",
+    "context": "双向互动且用户明确周六可去真实店铺，直接邀约",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true,
+      "function": "sharing"
+    },
+    "expect_route": "R20",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T31",
+    "context": "想邀约却没有用户空闲，不能代编周末",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "goal": "invite",
+      "invite_ready": true,
+      "activity_verified": true
+    },
+    "expect_route": "R21",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T32",
+    "context": "她说我才是店长，双方正在玩角色",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "banter",
+      "reciprocity": "mutual",
+      "roleplay_shared": true
+    },
+    "expect_route": "R22",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T33",
+    "context": "她重新提起双方都参与过的共同梗",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "shared_callback_available": true,
+      "function": "sharing"
+    },
+    "expect_route": "R23",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T34",
+    "context": "她轻调侃，双方一直有来有回",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "banter",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R24",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T35",
+    "context": "刚在共同活动认识，用户想自然开口",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "opening"
+    },
+    "expect_route": "R25",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T36",
+    "context": "用户要夸她刚才具体帮忙的细节",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "goal": "appreciate"
+    },
+    "expect_route": "R26",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T37",
+    "context": "她说今天去骑车了，普通接内容",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "sharing"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T38",
+    "context": "单个哈哈且无前文，不能独立判喜欢",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "unknown"
+    },
+    "expect_route": "R28",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T39",
+    "context": "没有回复间隔等元数据也可以普通接话",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "sharing"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T40",
+    "context": "用户上一条之后有必须新增的集合事务",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "pending_reply": true,
+      "necessary_new_logistics": true,
+      "function": "logistics"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T41",
+    "context": "她拒绝了恋爱但表情友好，意愿仍有效",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "romance",
+      "invitation": "none",
+      "function": "banter",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R03",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T42",
+    "context": "她现在主动给时间，历史冷淡不覆盖新的安排",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "alternative",
+      "reciprocity": "consistently_one_sided",
+      "current_turn_low": false
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T43",
+    "context": "只有一次简短回应，不能立即收线判死刑",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 1
+    },
+    "expect_route": "R28",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T44",
+    "context": "旧共同梗存在但她正在认真问安排，先答安排",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "logistics",
+      "shared_callback_available": true,
+      "roleplay_shared": true
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T45",
+    "context": "短句今天拿到offer了仍是具体好消息，不能按字数把它判低投入",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "good_news",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R17",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  }
+]

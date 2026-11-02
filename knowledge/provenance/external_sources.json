@@ -1184,10 +1184,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "Four selected documents fully read; not all 67 blobs",
-      "pending": "Other reference documents unread; papers cited by project not independently verified here",
-      "archive_status": "selected_project_documents_archived_with_MIT_license",
-      "archived_document_count": 4,
+      "reading_coverage": "10 selected project documents fully read; 6 added in OS round; not all 67 blobs",
+      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
+      "archived_document_count": 10,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1243,8 +1243,77 @@
           "reading_status": "provided_file_text_fully_read",
           "archive_path": "sources/github/lianai/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md.txt",
           "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+          "bytes": 7013,
+          "sha256": "01864b3713a8b25bd310a3678b44d2e937ce3a2817c381090d8ba71ab534c4d5",
+          "git_blob_sha": "c31631916a1c754fdf7e594cf00d2316f1b9d72f",
+          "line_count": 122,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/实战话术编排器：从一句回复到后续分支.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/实战话术编排器：从一句回复到后续分支.md",
+          "bytes": 9239,
+          "sha256": "83014b57788a4d6cfe4cb82fe224d81ee5e9ac6d6e84f7ac67097d06828cb7fe",
+          "git_blob_sha": "393a2fe5a903929290960ee73ea51e5fb1b96136",
+          "line_count": 247,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/实战话术编排器：从一句回复到后续分支.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+          "bytes": 10732,
+          "sha256": "62c4a2e3d479e1e41fbeb34d7dda7d477c742bf172fd67567ea1af53ee5b71f5",
+          "git_blob_sha": "d32be229b6b7af93c379362e37a784bac8696efc",
+          "line_count": 103,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+          "bytes": 11278,
+          "sha256": "fca5a133a09588de697883792e8024d6effd7dd229d41956b0542101242f2d77",
+          "git_blob_sha": "eca39e353f4c6941d43b639ec9ba62e8d1fefb2f",
+          "line_count": 94,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+          "bytes": 6808,
+          "sha256": "4e724e9a5b272ad1a6833ddbb9d84eeb86c3b2e395e5f241d90f8655930c77c3",
+          "git_blob_sha": "fb83bf2c6fcc98d5f698467871d0d38f9cf5a65b",
+          "line_count": 77,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/practical/主动表达、第一次见面与自然接触.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/主动表达、第一次见面与自然接触.md",
+          "bytes": 6657,
+          "sha256": "bd52dec6e84d0e986b5c56edd1320e23254d48d00be5dc249a555063d071abff",
+          "git_blob_sha": "906713d0d7ca6aeb54c19b96c85f408498550cf9",
+          "line_count": 79,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/lianai/references/practical/主动表达、第一次见面与自然接触.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
         }
-      ]
+      ],
+      "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "os_snapshot_date": "2026-11-02",
+      "os_synthesis_note": "knowledge/books/G01-practical-expansion.md"
     },
     {
       "id": "G02",
@@ -1258,10 +1327,10 @@
       "source_type": "coaching_prompt_and_short_teaching_examples",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G02-qingsheng.md",
-      "reading_coverage": "Core, platform guide and all 41 scene examples read/rechecked; not full reference collection",
-      "pending": "stages/signals/advanced/recovery and other references remain unprocessed; historical examples may repeat or quote third-party sources",
-      "archive_status": "selected_project_documents_archived_with_MIT_license",
-      "archived_document_count": 2,
+      "reading_coverage": "Core, platform guide, 41 examples and 5 further reference documents read; remaining files not all read",
+      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
+      "archived_document_count": 4,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1306,8 +1375,66 @@
           "reading_status": "provided_file_text_fully_read",
           "archive_path": "sources/github/qingsheng-skill/skill/references/platform-guide.md.txt",
           "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "skill/references/advanced-techniques.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/advanced-techniques.md",
+          "bytes": 20073,
+          "sha256": "0af78c07fd78aeeb7925974d810f344462df0195e6f29a0e6fa032acf3f45a81",
+          "git_blob_sha": "d70ea432482f845bbbe247d882877ec63dc59371",
+          "line_count": 423,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": null,
+          "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
+        },
+        {
+          "original_path": "skill/references/stages.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/stages.md",
+          "bytes": 9616,
+          "sha256": "49ee4ce38a8b58e362881e6b1f2926574eb5dd9f95e14eb70d6a8934f05666aa",
+          "git_blob_sha": "6108d209a04bcdd2fe8772675e023e58260fa92d",
+          "line_count": 182,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": null,
+          "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
+        },
+        {
+          "original_path": "skill/references/signals-tools.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/signals-tools.md",
+          "bytes": 9506,
+          "sha256": "b863a32ac4036458b4a71f0cefa6aac6ee71315d2b4b9962f0c580b924eaebef",
+          "git_blob_sha": "617b64ae75b26c02ed14afc8ada92f9df0c3ba4b",
+          "line_count": 196,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/signals-tools.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "skill/references/profile-audit.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/profile-audit.md",
+          "bytes": 4794,
+          "sha256": "5228c45e592f5ee50777ef4e5020881d107354dd5d80b4d4b8a9b80d8fbc2d62",
+          "git_blob_sha": "8a991b0d161c55a4dd42dd798ef8879bda922272",
+          "line_count": 140,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/profile-audit.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "skill/references/recovery-playbook.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/recovery-playbook.md",
+          "bytes": 5335,
+          "sha256": "1489e05899b722e7a13138fdac6def2fea793fb50b2eb9ec9bc56b3feeddb264",
+          "git_blob_sha": "a11b36736c577287f3c7692471b860554210e98e",
+          "line_count": 128,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": null,
+          "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
         }
-      ]
+      ],
+      "os_snapshot_checked": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "os_snapshot_date": "2026-11-02",
+      "os_synthesis_note": "knowledge/books/G02-reference-expansion.md"
     },
     {
       "id": "G03",
@@ -1323,7 +1450,7 @@
       "notes": "knowledge/books/G03-fan.md",
       "reading_coverage": "public-skill fully read; f010 L1856-1979 rechecked; older selected ranges retained separately",
       "pending": "Remaining f010 passages and other course divisions not completed; underlying course redistribution permission unverified",
-      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
       "archived_document_count": 1,
       "files": [
         {
@@ -1359,7 +1486,9 @@
           "archive_path": null,
           "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
         }
-      ]
+      ],
+      "os_snapshot_checked": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "os_snapshot_date": "2026-11-02"
     },
     {
       "id": "G04",
@@ -1373,10 +1502,10 @@
       "source_type": "coaching_prompt",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G04-simp.md",
-      "reading_coverage": "Core SKILL fully read; prompts/tools not all read",
-      "pending": "No personal profiles created; examples not outcome-verified",
-      "archive_status": "selected_project_documents_archived_with_MIT_license",
-      "archived_document_count": 1,
+      "reading_coverage": "SKILL and 2 selected prompts fully read; not all prompts/tools",
+      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
+      "archived_document_count": 3,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1399,8 +1528,33 @@
           "reading_status": "provided_file_text_fully_read",
           "archive_path": "sources/github/simp-skill/SKILL.md.txt",
           "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "prompts/message_crafter.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/message_crafter.md",
+          "bytes": 8399,
+          "sha256": "0eaf0860ba360d5a06bfc0cdbd4ad8054afe490ec6d98a87e6acd5544aeb766a",
+          "git_blob_sha": "9e7b2e37997c20cc08bacb26fdee28724d6297ed",
+          "line_count": 261,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/simp-skill/prompts/message_crafter.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "prompts/quit_judge.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/quit_judge.md",
+          "bytes": 10599,
+          "sha256": "f190fa775a253bd755377317c563bc17353b196d6785e0d7b3f0e01a537638b4",
+          "git_blob_sha": "2fea58506ef4afd18a86da822c0c46ba58ba00a2",
+          "line_count": 291,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/simp-skill/prompts/quit_judge.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
         }
-      ]
+      ],
+      "os_snapshot_checked": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "os_snapshot_date": "2026-11-02",
+      "os_synthesis_note": "knowledge/books/G04-message-expansion.md"
     },
     {
       "id": "G05",
@@ -1416,7 +1570,7 @@
       "notes": "knowledge/books/G05-candlestick.md",
       "reading_coverage": "Scoring SKILL v3.1 fully read; no execution or whole-code audit",
       "pending": "Validity and calibration of scores not established by this document; code and data paths untested",
-      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
       "archived_document_count": 1,
       "files": [
         {
@@ -1441,7 +1595,9 @@
           "archive_path": "sources/github/relationship-candlestick-lab/skill/SKILL.md.txt",
           "archive_decision": "MIT project document, exact text and license retained"
         }
-      ]
+      ],
+      "os_snapshot_checked": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "os_snapshot_date": "2026-11-02"
     },
     {
       "id": "G06",
@@ -1455,8 +1611,8 @@
       "source_type": "secondary_creator_research_summary",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G06-tong.md",
-      "reading_coverage": "SKILL and 02-conversations summary fully read",
-      "pending": "Nine claimed original subtitle texts not supplied in tree; quotations, identity details and underlying source rights unverified",
+      "reading_coverage": "SKILL plus conversations, expression-dna and decisions secondary summaries read; original nine transcripts unavailable",
+      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
       "archive_status": "original_research_notes_only; no source content archived",
       "archived_document_count": 0,
       "files": [
@@ -1492,8 +1648,33 @@
           "reading_status": "provided_file_text_fully_read",
           "archive_path": null,
           "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
+        },
+        {
+          "original_path": "references/research/03-expression-dna.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/tong-jincheng-skill/blob/c9caaa9a6576f581c29d016c60bbe935908e20d5/references/research/03-expression-dna.md",
+          "bytes": 3263,
+          "sha256": "f856bd0031078c4b530a84e391e0326956f2125cd679f736c553b854a94cd646",
+          "git_blob_sha": "7d420a75c4f07c4267c097479ee20ef84025608a",
+          "line_count": 88,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": null,
+          "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
+        },
+        {
+          "original_path": "references/research/05-decisions.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/tong-jincheng-skill/blob/c9caaa9a6576f581c29d016c60bbe935908e20d5/references/research/05-decisions.md",
+          "bytes": 2573,
+          "sha256": "fd8362eb3319e1fb00c7aa7f588f7c4ec5a8e5f2b321e05b0024ab3e467e5f17",
+          "git_blob_sha": "02bb98a173cb7c1d5d9ed3e1fd54c6068862c24e",
+          "line_count": 61,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": null,
+          "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
         }
-      ]
+      ],
+      "os_snapshot_checked": "c9caaa9a6576f581c29d016c60bbe935908e20d5",
+      "os_snapshot_date": "2026-11-02",
+      "os_synthesis_note": "knowledge/books/G06-expression-expansion.md"
     },
     {
       "id": "G07",
@@ -1511,7 +1692,9 @@
       "pending": "Two unmatched files not downloaded/extracted/read; no explicit redistribution license found",
       "archive_status": "original_research_notes_only; no source content archived",
       "archived_document_count": 0,
-      "files": []
+      "files": [],
+      "os_snapshot_checked": "8b99cad1586589a46e82a8f328d0de845e86ab18",
+      "os_snapshot_date": "2026-11-02"
     },
     {
       "id": "G08",
@@ -1552,7 +1735,9 @@
           "archive_path": null,
           "archive_decision": "No original/code copy needed; original research notes and source identity only"
         }
-      ]
+      ],
+      "os_snapshot_checked": "e75bb1e556f2f725b07a49527c3e69160f8dda1b",
+      "os_snapshot_date": "2026-11-02"
     },
     {
       "id": "G09",
@@ -1566,10 +1751,10 @@
       "source_type": "software_ocr_and_draft_assistant",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G09-jev-chat.md",
-      "reading_coverage": "README and MIT license fully read; public fork tree checked",
-      "pending": "Not installed or tested; no screenshots, contact details or private repository content imported",
-      "archive_status": "original_research_notes_only; no source content archived",
-      "archived_document_count": 0,
+      "reading_coverage": "README, LICENSE and desktop OCR input document read; not full program/code",
+      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
+      "archived_document_count": 1,
       "files": [
         {
           "original_path": "README.md",
@@ -1590,10 +1775,24 @@
           "git_blob_sha": "bfc9d99fb47f85bc00ca9231383b4fe097a5a9e1",
           "line_count": 21,
           "reading_status": "provided_file_text_fully_read",
-          "archive_path": null,
+          "archive_path": "sources/github/goutoujunshi-jev-chat/LICENSE",
           "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        },
+        {
+          "original_path": "references/practical/桌面OCR对话接入.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/桌面OCR对话接入.md",
+          "bytes": 1913,
+          "sha256": "1a5b4cb11b238a20dbc69296de9165c2f30fbdd1c0774de260959da87bf708a4",
+          "git_blob_sha": "100595e6bae3c04ab98a36f58660059e7f348ad7",
+          "line_count": 27,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+          "archive_path": "sources/github/goutoujunshi-jev-chat/references/practical/桌面OCR对话接入.md.txt",
+          "archive_decision": "MIT project-authored document; exact text retained as inert data"
         }
-      ]
+      ],
+      "os_snapshot_checked": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "os_snapshot_date": "2026-11-02",
+      "os_synthesis_note": "knowledge/books/G09-ocr-input.md"
     }
   ],
   "archives": [
@@ -1764,6 +1963,150 @@
       "declared_license": "MIT",
       "license_archive": "sources/github/relationship-candlestick-lab/LICENSE",
       "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+      "archive_path": "sources/github/lianai/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md.txt",
+      "bytes": 7013,
+      "sha256": "01864b3713a8b25bd310a3678b44d2e937ce3a2817c381090d8ba71ab534c4d5",
+      "git_blob_sha": "c31631916a1c754fdf7e594cf00d2316f1b9d72f",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/实战话术编排器：从一句回复到后续分支.md",
+      "archive_path": "sources/github/lianai/references/practical/实战话术编排器：从一句回复到后续分支.md.txt",
+      "bytes": 9239,
+      "sha256": "83014b57788a4d6cfe4cb82fe224d81ee5e9ac6d6e84f7ac67097d06828cb7fe",
+      "git_blob_sha": "393a2fe5a903929290960ee73ea51e5fb1b96136",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md.txt",
+      "bytes": 10732,
+      "sha256": "62c4a2e3d479e1e41fbeb34d7dda7d477c742bf172fd67567ea1af53ee5b71f5",
+      "git_blob_sha": "d32be229b6b7af93c379362e37a784bac8696efc",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md.txt",
+      "bytes": 11278,
+      "sha256": "fca5a133a09588de697883792e8024d6effd7dd229d41956b0542101242f2d77",
+      "git_blob_sha": "eca39e353f4c6941d43b639ec9ba62e8d1fefb2f",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+      "archive_path": "sources/github/lianai/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md.txt",
+      "bytes": 6808,
+      "sha256": "4e724e9a5b272ad1a6833ddbb9d84eeb86c3b2e395e5f241d90f8655930c77c3",
+      "git_blob_sha": "fb83bf2c6fcc98d5f698467871d0d38f9cf5a65b",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/主动表达、第一次见面与自然接触.md",
+      "archive_path": "sources/github/lianai/references/practical/主动表达、第一次见面与自然接触.md.txt",
+      "bytes": 6657,
+      "sha256": "bd52dec6e84d0e986b5c56edd1320e23254d48d00be5dc249a555063d071abff",
+      "git_blob_sha": "906713d0d7ca6aeb54c19b96c85f408498550cf9",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/signals-tools.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/signals-tools.md.txt",
+      "bytes": 9506,
+      "sha256": "b863a32ac4036458b4a71f0cefa6aac6ee71315d2b4b9962f0c580b924eaebef",
+      "git_blob_sha": "617b64ae75b26c02ed14afc8ada92f9df0c3ba4b",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/profile-audit.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/profile-audit.md.txt",
+      "bytes": 4794,
+      "sha256": "5228c45e592f5ee50777ef4e5020881d107354dd5d80b4d4b8a9b80d8fbc2d62",
+      "git_blob_sha": "8a991b0d161c55a4dd42dd798ef8879bda922272",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/message_crafter.md",
+      "archive_path": "sources/github/simp-skill/prompts/message_crafter.md.txt",
+      "bytes": 8399,
+      "sha256": "0eaf0860ba360d5a06bfc0cdbd4ad8054afe490ec6d98a87e6acd5544aeb766a",
+      "git_blob_sha": "9e7b2e37997c20cc08bacb26fdee28724d6297ed",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/quit_judge.md",
+      "archive_path": "sources/github/simp-skill/prompts/quit_judge.md.txt",
+      "bytes": 10599,
+      "sha256": "f190fa775a253bd755377317c563bc17353b196d6785e0d7b3f0e01a537638b4",
+      "git_blob_sha": "2fea58506ef4afd18a86da822c0c46ba58ba00a2",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
+      "commit": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "source_path": "references/practical/桌面OCR对话接入.md",
+      "archive_path": "sources/github/goutoujunshi-jev-chat/references/practical/桌面OCR对话接入.md.txt",
+      "bytes": 1913,
+      "sha256": "1a5b4cb11b238a20dbc69296de9165c2f30fbdd1c0774de260959da87bf708a4",
+      "git_blob_sha": "100595e6bae3c04ab98a36f58660059e7f348ad7",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/goutoujunshi-jev-chat/LICENSE",
+      "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
+      "commit": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/goutoujunshi-jev-chat/LICENSE",
+      "bytes": 1065,
+      "sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367",
+      "git_blob_sha": "bfc9d99fb47f85bc00ca9231383b4fe097a5a9e1",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/goutoujunshi-jev-chat/LICENSE",
+      "transform": "none; exact UTF-8 bytes"
     }
   ],
   "privacy": {
@@ -1771,5 +2114,14 @@
     "screenshots_or_contacts_imported": false,
     "source_install_or_send_commands_executed": false,
     "source_repositories_modified": false
+  },
+  "os_round": {
+    "date": "2026-11-02",
+    "base_commit": "e55ab9159d69bb42726752b55b0d1fb583360710",
+    "public_repository_snapshots_checked": 9,
+    "new_documents_read": 16,
+    "new_archived_documents": 11,
+    "new_license_files": 1,
+    "full_library_reading_claim": false
   }
 }

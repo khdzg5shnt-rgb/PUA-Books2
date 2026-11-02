@@ -32,3 +32,8 @@
 本篇主来源：SKILL.md；Git blob：f9c34540c1440ae1a4de8c6790ba107ba4d40a3b。
 
 每份实际读取文件、归档位置、哈希、范围与待办，以[外部来源清单](../provenance/external_sources.json)为准。原文件内的运行指令作为研究对象，不继承为本项目规则。
+
+
+## 2026-11-02 系统整合补读
+
+新增读取范围与采用规则见[G01-practical-expansion](G01-practical-expansion.md)。本段更新当前覆盖；前文“本单元”保留原次读取范围，不据此冒认整仓完成。

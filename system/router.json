@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
+  "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
+  "defaults": {
+    "speaker_verified": false,
+    "text_legible": false,
+    "pending_reply": false,
+    "necessary_new_logistics": false,
+    "refusal_scope": "none",
+    "boundary_expressed": false,
+    "repair_needed": false,
+    "invitation": "none",
+    "function": "unknown",
+    "closed_answer_complete": false,
+    "consecutive_low_rounds": 0,
+    "current_turn_low": false,
+    "reciprocity": "unknown",
+    "goal": "reply",
+    "invite_ready": false,
+    "user_availability_known": false,
+    "activity_verified": false,
+    "shared_callback_available": false,
+    "roleplay_shared": false
+  },
+  "enums": {
+    "refusal_scope": [
+      "none",
+      "contact",
+      "physical",
+      "romance",
+      "activity"
+    ],
+    "invitation": [
+      "none",
+      "accepted",
+      "alternative",
+      "cancelled_with_repair",
+      "no_alternative",
+      "cancelled_without_repair"
+    ],
+    "function": [
+      "unknown",
+      "insult",
+      "logistics",
+      "correction",
+      "distress",
+      "advice_request",
+      "good_news",
+      "question",
+      "post_date",
+      "banter",
+      "opening",
+      "sharing"
+    ],
+    "reciprocity": [
+      "unknown",
+      "mutual",
+      "consistently_one_sided"
+    ],
+    "goal": [
+      "reply",
+      "invite",
+      "appreciate"
+    ]
+  },
+  "routing": "first_matching_rule",
+  "routes": [
+    {
+      "id": "R00",
+      "name": "输入核对",
+      "when": {
+        "any": [
+          {
+            "field": "speaker_verified",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "text_legible",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M01"
+      ],
+      "action": "clarify",
+      "purpose": "仅核对会改变回复的一项缺口",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R01",
+      "name": "拒绝联系",
+      "when": {
+        "field": "refusal_scope",
+        "op": "eq",
+        "value": "contact"
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "stop",
+      "purpose": "停止私人联系；已回应过就不再发结束消息",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "身体界限",
+      "when": {
+        "field": "refusal_scope",
+        "op": "eq",
+        "value": "physical"
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "stop",
+      "purpose": "立即停止该身体方向，不用其他信号抵消",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R03",
+      "name": "拒绝恋爱发展",
+      "when": {
+        "field": "refusal_scope",
+        "op": "eq",
+        "value": "romance"
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "stop",
+      "purpose": "接受当前关系意愿，不再换说法推进",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R04",
+      "name": "本轮已经发过",
+      "when": {
+        "all": [
+          {
+            "field": "pending_reply",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "necessary_new_logistics",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M02"
+      ],
+      "action": "hold",
+      "purpose": "最后是用户消息，不补发第二条",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R05",
+      "name": "明确不适与话题边界",
+      "when": {
+        "field": "boundary_expressed",
+        "op": "eq",
+        "value": true
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "draft",
+      "purpose": "停止她明确不接受的当前方向",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R06",
+      "name": "明确无礼",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "insult"
+      },
+      "method_ids": [
+        "M22"
+      ],
+      "action": "draft",
+      "purpose": "仅对已确认的具体无礼设边界",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R07",
+      "name": "具体行为修复",
+      "when": {
+        "field": "repair_needed",
+        "op": "eq",
+        "value": true
+      },
+      "method_ids": [
+        "M21"
+      ],
+      "action": "draft",
+      "purpose": "先修复已确认的影响",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R08",
+      "name": "替代时间",
+      "when": {
+        "any": [
+          {
+            "field": "invitation",
+            "op": "eq",
+            "value": "alternative"
+          },
+          {
+            "field": "invitation",
+            "op": "eq",
+            "value": "cancelled_with_repair"
+          }
+        ]
+      },
+      "method_ids": [
+        "M16"
+      ],
+      "action": "draft",
+      "purpose": "落实替代安排优先于判断文字热度",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "已经答应",
+      "when": {
+        "any": [
+          {
+            "field": "invitation",
+            "op": "eq",
+            "value": "accepted"
+          },
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "logistics"
+          }
+        ]
+      },
+      "method_ids": [
+        "M15"
+      ],
+      "action": "draft",
+      "purpose": "完成正在进行的具体安排",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "拒约无替代",
+      "when": {
+        "field": "invitation",
+        "op": "in",
+        "value": [
+          "no_alternative",
+          "cancelled_without_repair"
+        ]
+      },
+      "method_ids": [
+        "M17"
+      ],
+      "action": "draft",
+      "purpose": "本轮收住，不换日期追问",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "只拒绝活动",
+      "when": {
+        "field": "refusal_scope",
+        "op": "eq",
+        "value": "activity"
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "draft",
+      "purpose": "尊重活动偏好；是否见面仍依据其他事实",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "纠正事实",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "correction"
+      },
+      "method_ids": [
+        "M20"
+      ],
+      "action": "draft",
+      "purpose": "接受纠正，不强行曲解",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R13",
+      "name": "完整短答",
+      "when": {
+        "field": "closed_answer_complete",
+        "op": "eq",
+        "value": true
+      },
+      "method_ids": [
+        "M18"
+      ],
+      "action": "draft",
+      "purpose": "不把完整短答判成低投入",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R14",
+      "name": "连续低投入",
+      "when": {
+        "all": [
+          {
+            "field": "current_turn_low",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "any": [
+              {
+                "field": "consecutive_low_rounds",
+                "op": "gte",
+                "value": 2
+              },
+              {
+                "field": "reciprocity",
+                "op": "eq",
+                "value": "consistently_one_sided"
+              }
+            ]
+          }
+        ]
+      },
+      "method_ids": [
+        "M19"
+      ],
+      "action": "hold",
+      "purpose": "当前仍低投入且没有待落实安排时停止救场",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R15",
+      "name": "真实困扰",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "distress"
+      },
+      "method_ids": [
+        "M11"
+      ],
+      "action": "draft",
+      "purpose": "先回应事情与已表达的感受",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R16",
+      "name": "明确求建议",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "advice_request"
+      },
+      "method_ids": [
+        "M13"
+      ],
+      "action": "draft",
+      "purpose": "先回答所求，不强行调情",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R17",
+      "name": "好消息",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "good_news"
+      },
+      "method_ids": [
+        "M12"
+      ],
+      "action": "draft",
+      "purpose": "接住她分享的具体乐趣",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R18",
+      "name": "认真问题",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "question"
+      },
+      "method_ids": [
+        "M04"
+      ],
+      "action": "draft",
+      "purpose": "先用真实信息回答",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R19",
+      "name": "见面之后",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "post_date"
+      },
+      "method_ids": [
+        "M24"
+      ],
+      "action": "draft",
+      "purpose": "根据真实见面反馈回应",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R20",
+      "name": "明确邀约目标",
+      "when": {
+        "all": [
+          {
+            "field": "goal",
+            "op": "eq",
+            "value": "invite"
+          },
+          {
+            "field": "invite_ready",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "user_availability_known",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "activity_verified",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "method_ids": [
+        "M14"
+      ],
+      "action": "draft",
+      "purpose": "有事实与双向基础时提出具体邀请",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R21",
+      "name": "邀约缺信息",
+      "when": {
+        "field": "goal",
+        "op": "eq",
+        "value": "invite"
+      },
+      "method_ids": [
+        "M01"
+      ],
+      "action": "clarify",
+      "purpose": "只核对一项关键时间或活动信息，不能编造",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R22",
+      "name": "共同角色正在继续",
+      "when": {
+        "all": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "banter"
+          },
+          {
+            "field": "reciprocity",
+            "op": "eq",
+            "value": "mutual"
+          },
+          {
+            "field": "roleplay_shared",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "method_ids": [
+        "M07"
+      ],
+      "action": "draft",
+      "purpose": "只沿双方正在玩的角色",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R23",
+      "name": "真实共同回扣",
+      "when": {
+        "field": "shared_callback_available",
+        "op": "eq",
+        "value": true
+      },
+      "method_ids": [
+        "M05"
+      ],
+      "action": "draft",
+      "purpose": "优先双方已有共同素材",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R24",
+      "name": "双向接梗",
+      "when": {
+        "all": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "banter"
+          },
+          {
+            "field": "reciprocity",
+            "op": "eq",
+            "value": "mutual"
+          }
+        ]
+      },
+      "method_ids": [
+        "M06"
+      ],
+      "action": "draft",
+      "purpose": "轻量相近强度回应",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R25",
+      "name": "需要开场",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "opening"
+      },
+      "method_ids": [
+        "M25"
+      ],
+      "action": "draft",
+      "purpose": "从当前具体情境或共同经历开始",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R26",
+      "name": "明确想表达欣赏",
+      "when": {
+        "field": "goal",
+        "op": "eq",
+        "value": "appreciate"
+      },
+      "method_ids": [
+        "M09"
+      ],
+      "action": "draft",
+      "purpose": "欣赏具体已知细节，不编内心",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R27",
+      "name": "日常分享",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "sharing"
+      },
+      "method_ids": [
+        "M03"
+      ],
+      "action": "draft",
+      "purpose": "承接一项具体信息",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R28",
+      "name": "最简回应",
+      "when": {
+        "always": true
+      },
+      "method_ids": [
+        "M03"
+      ],
+      "action": "draft",
+      "purpose": "证据不足时普通回应，保留未知",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+# 唯一来源入口
+
+截至2026-11-02，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
+
+## 日常使用
+
+直接读[启动页](../START_HERE.md)和方法卡提供的内部笔记即可。已采用观点、适用条件、公开教学案例和来源限制都在books2。外部链接用于追溯、维护或补读；未知与未读材料不作为当前方法依据。
+
+## GitHub来源的具体整合
+
+本轮实际重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。总归档现为20篇项目文档、6份许可。其他仓库未修改。
+
+| 来源 | 固定版本 | 内部采用入口与方法 | 归档与范围 |
+| --- | --- | --- | --- |
+| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 10篇项目文档；其余按笔记范围 |
+| G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 4篇项目文档；其余按笔记范围 |
+| G03 fan-emotion-analysis-skill | `23f33bdd` | [M01、M19](../knowledge/books/G03-fan.md) | 1篇项目文档；其余按笔记范围 |
+| G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 3篇项目文档；其余按笔记范围 |
+| G05 relationship-candlestick-lab | `100f508e` | [M01](../knowledge/books/G05-candlestick.md) | 1篇项目文档；其余按笔记范围 |
+| G06 tong-jincheng-skill | `c9caaa9a` | [M06、M26](../knowledge/books/G06-expression-expansion.md) | 0篇项目文档；其余按笔记范围 |
+| G07 pua-books | `8b99cad1` | [身份去重与来源导航](../knowledge/books/G07-pua-books.md) | 0篇项目文档；其余按笔记范围 |
+| G08 ChatLab | `e75bb1e5` | [M01](../knowledge/books/G08-chatlab.md) | 0篇项目文档；其余按笔记范围 |
+| G09 goutoujunshi-jev-chat | `fa4bd308` | [M01、M26](../knowledge/books/G09-ocr-input.md) | 1篇项目文档；其余按笔记范围 |
+
+G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制或运行。G05只借用可观察行为标签，不采用恋爱价格/温度/成功率。G07的57项精确同blob已复用books2，另外2项不同blob不冒认同一版本。私有goutoujunshi继续排除。
+
+九个来源的相关路径、固定blob与逐文件覆盖见[文档目录](../knowledge/provenance/github_document_catalog.json)，它只是来源目录，不是通读凭证。
+
+## 22项上传材料
+
+全部文件已登记身份，可通过内部入口恢复；原文中的个人信息不发布。S01–S04已有的实际阅读成果进入相应方法和教学案例，其他文件按逐项状态保留，不因“整合”改写为全读。
+
+| 编号 | 上传材料 | 当前状态摘要 | 内部定位 |
+| --- | --- | --- | --- |
+| S01 | 陈哥聊天5大神操作.docx | current_provided_file_text_complete_and_all_nine_raster_images_reviewed | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S02 | 《子阳陈哥恋爱12式》.pdf | all supplied extractable text on PDF file P1–207 read; eleven body chapters (1–3,5–12); chapter four and referenced images not … | [仓库内入口](../knowledge/books/S02-chen-twelve.md) |
+| S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | current_existing_text_complete; no embedded media | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S04 | TOP30_DEEP_READ.zip | archive_directory_verified; individual entry statuses below; not all thirty read | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S07 | 认识→→私密完整流程.docx | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S08 | 《谜男方法》M3模型之A3阶段重要性再总结(3).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S09 | 对谜男方法的21点解释(2).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S10 | 性格内向如何锻炼社交直觉.doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S11 | 迷男方法读书笔记 (1)(1).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S12 | 二、社交软件聊天话术惯例和聊资(终极版)(2).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S13 | 《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S14 | 如何学习迷男方法(1).txt | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S15 | 龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S16 | 迷男方法的精髓(1).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S17 | 谜男聊天6大杀手锏.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S18 | 《迷男方法》整理(完美)(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S19 | 3个月(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S20 | 谜男团队-高级班 ct升级手册.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S21 | PUA话术惯例手册(3).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S22 | 加水印-去水印--36.《谜男方法》(2).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+
+## 原始书库与维护
+
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为17条现有文字完成、1条乱码未解、12条未核完整阅读。上述阅读计数本轮没有冒进更新。
+
+当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
+
+新增来源采用同一流程：核身份与许可→记录已读范围→写原创笔记→映射方法→更新目录与断点→检查并提交。网页或项目自称有效、含DOI、通过自测，均不等于本项目已经核验研究或恋爱效果。精确范围与归档哈希见[详细元数据](../knowledge/provenance/external_sources.json)。

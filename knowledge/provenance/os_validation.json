@@ -1,0 +1,29 @@
+{
+  "checked_date": "2026-11-02",
+  "base_commit": "e55ab9159d69bb42726752b55b0d1fb583360710",
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 29,
+    "source_records": 157,
+    "archived_files": 26,
+    "scope": "结构/链接/归档身份检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "exit_code": 0,
+    "test_methods": 6,
+    "synthetic_scenarios": 45,
+    "result": "passed",
+    "output": "test_integrity_and_references (test_routing.RoutingScenarios.test_integrity_and_references) ... ok\ntest_missing_identity_does_not_assume (test_routing.RoutingScenarios.test_missing_identity_does_not_assume) ... ok\ntest_reject_unknown_facts (test_routing.RoutingScenarios.test_reject_unknown_facts) ... ok\ntest_search_is_local_and_returns_usable_paths (test_routing.RoutingScenarios.test_search_is_local_and_returns_usable_paths) ... ok\ntest_synthetic_dialogues (test_routing.RoutingScenarios.test_synthetic_dialogues) ... ok\ntest_type_and_range_validation (test_routing.RoutingScenarios.test_type_and_range_validation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.058s\n\nOK"
+  },
+  "cli_smoke": {
+    "route_example": "R08 / M16",
+    "knowledge_search": "local paths and snippets returned"
+  },
+  "limitations": [
+    "没有执行图片OCR或真实截图识别验收",
+    "未验证具体回复的恋爱效果",
+    "119份书籍与其他附件的精读进度沿用已核状态"
+  ]
+}

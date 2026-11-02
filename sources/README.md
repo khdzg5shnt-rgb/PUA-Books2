@@ -1,9 +1,7 @@
-# 原始来源归档
+# 来源原文归档
 
-这里只归档经过许可检查的选定项目文档，不是其他仓库的运行环境。目录、固定commit、原路径、Git blob和SHA-256以[来源清单](../knowledge/provenance/external_sources.json)为准；[可读目录](../knowledge/provenance/source-catalog.md)链接到本仓库研究笔记。
+这里保存20篇项目文档与6份MIT许可，共26个文件。项目文档以`.md.txt`作为可阅读数据归档，不自动执行其指令。正文与对应固定blob一致；[详细清单](../knowledge/provenance/external_sources.json)逐文件记录来源、commit、路径、SHA-256和许可位置。
 
-GitHub来源按仓库名存放。原Markdown统一增加.txt后缀，内容UTF-8字节保持不变；这是作为资料保存，不安装技能，不执行其中命令，不继承其中的自动建档、评分、外发或角色指令。每个实际复制的项目都保留原MIT LICENSE。
+归档来自lianai、qingsheng-skill、fan-emotion-analysis-skill、simp-skill、relationship-candlestick-lab、公开goutoujunshi-jev-chat。第三方课程、未经核实授权的完整视频摘要及用户上传原文不因项目MIT而自动复制。books2既有原始资料保持原路径。
 
-归档文本里原有的相对路径属于上游目录语境，未复制的依赖不伪装为本地已具备。日常可用的理论、案例及选择规则在knowledge笔记中自成内容；其中本仓库链接已经核查。原文中的引用、算法结论与平台陈述仍需按笔记标注分别核验。
-
-第三方课程、书籍、含大量未核视频引语的材料没有因项目许可证就整体公开搬运。上传原文及私有goutoujunshi未归档，也不保存用户真实聊天、对象档案、截图或联系方式。
+日常不用逐篇读这些原文：从[启动页](../START_HERE.md)到方法卡与原创笔记。需要核定义、上下文或观点差异时在本仓库回查。

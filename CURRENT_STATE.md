@@ -1,13 +1,13 @@
 # 恢复入口
 
-更新：2026-11-02。仓库：khdzg5shnt-rgb/PUA-Books2。先实际读本文件与[指导入口](CHAT_GUIDANCE_PLAYBOOK.md)，再经[索引](KNOWLEDGE_INDEX.md)取本次相关主题与案例。保存文件不是永久模型训练。
+更新：2026-11-02。仓库：khdzg5shnt-rgb/PUA-Books2。先实际读[系统启动页](START_HERE.md)、本文件与[指导入口](CHAT_GUIDANCE_PLAYBOOK.md)，再经[索引](KNOWLEDGE_INDEX.md)取本次相关主题与案例。保存文件不是永久模型训练。
 
 ## 已完成
 
-- 原126项资料身份保持原快照bc6a5d103481dec6583f702f25f36fd4a28fdbae；119份书籍中9份现有正文读完，110份未通读。
+- 原126项资料身份清单保留原快照bc6a5d103481dec6583f702f25f36fd4a28fdbae；本轮仅将README改为系统首页，原README另存knowledge/provenance/README-original.md；119份书籍及其余原始文件保持原blob；119份书籍中9份现有正文读完，110份未通读。
 - B092现有90页已读完，目录九章而文件仅前三章，P1/13/32/50大幅图片已复核；[笔记](knowledge/books/B092.md)、[C09行程案例](knowledge/cases/C09-b092-logistics.md)可直接读取。
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
-- 9个公开GitHub候选已检查类型、固定版本与许可；5个项目的9篇文档及5份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
+- 9个公开GitHub候选已检查类型、固定版本与许可；系统整合轮重核9个公开快照、补读16篇项目文档，现6个项目共20篇文档及6份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
 - S04共30条：17条现有提取文字已读完（含Mystery、Tyler英文合集及与B047重合的Adam版本），1条可辨文字读完但乱码未解，12条未核完整阅读。Mystery九章与文后资料、Tyler 33篇及词表均已读，见[长篇笔记](knowledge/books/S04-mystery-method.md)和[Tyler入口](knowledge/books/S04-tyler.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[案例索引C01–C18](knowledge/cases/README.md)保存理论、上下文和结果层级。
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
@@ -31,3 +31,12 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 理论可查S02拆解/平移、B092 Callback Humor或Mystery M3；上下文案例可查C09/C10/C14/C16/C17/C18；阅读恢复按上述新ZIP条目字符0。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
 
 本任务已发布的独立单元包含B092提交3d1b891d905312cbd0b43d1a8382e6ae3313e2ac和S02提交be8434d2e869be28dab29413e49180209bdaba29。当前整合提交身份由GitHub历史及最终回读报告确认，不在提交内部伪造自引用哈希。
+
+
+## 本轮系统整合完成
+
+已建立[启动入口](START_HERE.md)、[29条场景路由](system/SCENARIO_ROUTER.md)、[26张方法卡](system/METHOD_CARDS.md)、[读图协议](system/SCREENSHOT_PROTOCOL.md)、[一句回复规则](system/REPLY_PROTOCOL.md)、[157条统一来源记录](system/sources.json)及本地路由/检索脚本。普通截图回复按一次判断、一个主方法、一个成品执行；不再默认附一句解释。
+
+9个公开外部仓库及22项上传材料统一到[来源入口](system/SOURCE_INTEGRATION.md)。日常已整理范围无需同时访问源仓库。原始长篇未读、图片缺失、TOP30乱码与字幕缺口仍按上文保留；本轮没有把索引、归档或方法可用性冒认为全库读完。
+
+下一维护任务仍从上述共情TXT字符0继续，同时按真实问题补读未核来源。系统校验与虚构场景测试见[检查说明](system/VALIDATION.md)。这些检查不证明实际截图识别正确或某句话有效。
