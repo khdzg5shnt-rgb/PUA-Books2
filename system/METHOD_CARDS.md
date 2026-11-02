@@ -58,11 +58,11 @@
 
 适用：双方正在互相接梗，语境清楚，不涉及严肃信息或不适
 
-动作：在对方原话里做一个小反转，强度与她相近，保留正常继续或退出的空间。
+动作：沿双方已接住的原话做一个轻量反转，强度相近；当前更需要认真回应时回到普通交流，不为凑比例继续调侃。
 
 避免：外貌、种族、月经或性方面的羞辱和压力；用曲解覆盖认真提问、休息、纠正、不适或拒绝。对方没接梗就回到原意，不继续解释成调情。
 
-依据：[夸张曲解](../knowledge/books/S01-chen-five.md)；[严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
+依据：[夸张曲解](../knowledge/books/S01-chen-five.md)；[严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
 
 虚构例：她说“我今天又睡到中午”；草稿：“你这早餐直接参加午餐组了。”
 
@@ -90,11 +90,11 @@
 
 适用：已有一个用户真实欣赏的行为、表达或偏好
 
-动作：说清哪个细节值得欣赏；强度不超过用户真实感受与关系基础。 对已经发生的具体好意可以道谢，表达收到这份好意，不以获得下一次配合为目的。
+动作：说清真实欣赏的一个具体细节，强度符合已知感受和关系。可直接感谢实际好意，不以通过筛选、服从或获得下一次配合为前提。
 
 避免：泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
 
 ## M10 分享真实生活
 
@@ -132,11 +132,11 @@
 
 适用：她明确在向用户请求意见或信息
 
-动作：先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。
+动作：先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。 普通且真实愿意提供的帮助，无需等到某个关系阶段。
 
 避免：为制造张力拒答、冒充专业结论、拿帮助交换亲密或顺从；已明确求办法却只追问感受，或故意不帮以逼迫成长。普通帮助不自动是控制。
 
-依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
+依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
 
 ## M14 一次具体邀约
 
@@ -194,11 +194,11 @@
 
 适用：已连续两轮低投入，且双方没有待落实的现实安排；或长期只由用户维持
 
-动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。
+动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。 减少投入是当前选择，不是假装冷漠来训练对方。
 
 避免：故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
 
 ## M20 接住纠正或澄清
 

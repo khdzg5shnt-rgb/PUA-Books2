@@ -234,6 +234,48 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S16",
+      "sha256": "b17db0de26c198c8ddec1e3baea3c0a451956270186713f804380e49bcab4f59",
+      "bytes": 132911,
+      "characters": 4968,
+      "text_sha256": "33f8378c3a08e6e96a07b47fbbaf659cd3ca7b16aa7739453075244ce28d8a7f",
+      "encoding_or_extraction": "pypdf page text; join U+000C; page sizes 1030,1216,1207,1156,355",
+      "read_ranges": [
+        [
+          0,
+          4968
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          4968
+        ]
+      ],
+      "notes": "knowledge/books/S16-mystery-essence.md",
+      "original_media_verified": true,
+      "rendered_layout_verified": true,
+      "page_count": 5,
+      "read_file_pages": [
+        1,
+        5
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status_detail": "provided_pdf_P1-P5_text_complete_and_all_five_pages_visually_reviewed; original publication unverified",
+      "status_short": "文件P1–5全部正文与五页图像已核；原版来源未核",
+      "limits": "Current five-page PDF fully read and visually reviewed; split English letters/whitespace checked against renders; page title missing first character as printed; authorship and original edition unverified",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

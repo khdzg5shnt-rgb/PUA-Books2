@@ -47,7 +47,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S13 | 《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc | 现有提取正文33,594字符已读；原媒体/版式未核 | [原创笔记](../knowledge/books/S13-mystery-excerpts.md) |
 | S14 | 如何学习迷男方法(1).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
 | S15 | 龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt | 当前提供/提取文字已读；原版媒体另计 | [补读笔记](../knowledge/books/S08-S15-calibration.md) |
-| S16 | 迷男方法的精髓(1).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S16 | 迷男方法的精髓(1).pdf | 文件P1–5全部正文与五页图像已核；原版来源未核 | [原创笔记](../knowledge/books/S16-mystery-essence.md) |
 | S17 | 谜男聊天6大杀手锏.pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S18 | 《迷男方法》整理(完美)(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S19 | 3个月(4).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
@@ -74,7 +74,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有7项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有6项。
 
 ## 本轮公开来源继续补读
 
@@ -89,3 +89,5 @@ S11：[当前独立阅读笔记](../knowledge/books/S11-mystery-notes.md)，现�
 S12：[当前独立阅读笔记](../knowledge/books/S12-social-scripts.md)，现有提取文字[0,21368)已读；原文不转载。开场不编误发与经历；严肃情绪和求助不强行调情，帮忙不交换亲密；纠正后更新理解，被不尊重不归为个人眼光问题。对话授权不明，不转存案例。
 
 S13：[当前独立阅读笔记](../knowledge/books/S13-mystery-excerpts.md)，现有提取文字[0,33594)已读；原文不转载。核对九章原结构及第六章标题冲突；保留真实表达、共享话题和具体安排，合并重复方法条款，不用阶段、沉没投入、固定时长或服从量表推断兴趣与同意。
+
+S16：[当前独立阅读笔记](../knowledge/books/S16-mystery-essence.md)，现有提取文字[0,4968)已读；原文不转载。现有五页PDF正文与全部页面已核；欣赏和普通帮忙无需通过测试，按当下交流调节玩笑，不套7:3等配比，也不将作者失败解释当对方真实动机。

@@ -1383,10 +1383,27 @@
       "title": "迷男方法的精髓(1).pdf",
       "sha256": "b17db0de26c198c8ddec1e3baea3c0a451956270186713f804380e49bcab4f59",
       "bytes": 132911,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "provided_pdf_P1-P5_text_complete_and_all_five_pages_visually_reviewed; original publication unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "pages": 5
+      "pending": "Current five-page PDF fully read and visually reviewed; split English letters/whitespace checked against renders; page title missing first character as printed; authorship and original edition unverified",
+      "pages": 5,
+      "notes": "knowledge/books/S16-mystery-essence.md",
+      "characters": 4968,
+      "read_coverage": {
+        "locator": "pypdf page text; join U+000C; page sizes 1030,1216,1207,1156,355; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            4968
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            4968
+          ]
+        ]
+      }
     },
     {
       "id": "S17",
@@ -2514,14 +2531,16 @@
         "S07",
         "S11",
         "S12",
-        "S13"
+        "S13",
+        "S16"
       ],
-      "decoded_characters": 79824,
+      "decoded_characters": 84792,
       "notes": [
         "knowledge/books/S07-stage-script.md",
         "knowledge/books/S11-mystery-notes.md",
         "knowledge/books/S12-social-scripts.md",
-        "knowledge/books/S13-mystery-excerpts.md"
+        "knowledge/books/S13-mystery-excerpts.md",
+        "knowledge/books/S16-mystery-essence.md"
       ],
       "status": "independent reading unit integrated"
     }
