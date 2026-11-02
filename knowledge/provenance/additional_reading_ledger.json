@@ -156,6 +156,41 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S12",
+      "sha256": "07e9fdbc26235d4cab533ce2fb7aed8bfd2d19ecbc686005ef67c4c05b36a607",
+      "bytes": 96792,
+      "characters": 21368,
+      "text_sha256": "b17a6e48cb719be6c52759bcc987c8d3fd22f7208c48c9b7b44f38e08eae2f8d",
+      "encoding_or_extraction": "LibreOffice TXT UTF-8-sig, original extracted line endings retained",
+      "read_ranges": [
+        [
+          0,
+          21368
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          7000
+        ],
+        [
+          7000,
+          14000
+        ],
+        [
+          14000,
+          21368
+        ]
+      ],
+      "notes": "knowledge/books/S12-social-scripts.md",
+      "original_media_verified": false,
+      "limits": "Extracted text only; Word media/text boxes/layout unverified; many fragments and repeated items; selected dialogue reality/publication permission and quotations unverified; no raw personal cases published",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

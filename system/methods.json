@@ -155,7 +155,7 @@
       "name": "轻量夸张或曲解",
       "use_when": "双方正在互相接梗，语境清楚，不涉及严肃信息或不适",
       "operation": "在对方原话里做一个小反转，强度与她相近，保留正常继续或退出的空间。",
-      "avoid": "外貌羞辱、敏感经历、凭空性化；把她的纠正继续解释成调情。",
+      "avoid": "外貌、种族、月经或性方面的羞辱和压力；用曲解覆盖认真提问、休息、纠正、不适或拒绝。对方没接梗就回到原意，不继续解释成调情。",
       "sources": [
         {
           "path": "knowledge/books/S01-chen-five.md",
@@ -165,6 +165,11 @@
         {
           "path": "knowledge/topics/humor-threading.md",
           "locator": "严肃话题与澄清界限",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -318,7 +323,7 @@
       "name": "接住困扰",
       "use_when": "她在表达委屈、疲惫、焦虑或难过，而非开玩笑",
       "operation": "回应她已表达的事情与感受，理解感受不等于判谁对错；未说清的情绪仅作可纠正推测。她不想谈或否认时不追问；明确求建议或有紧要事务时优先回应实际需要。",
-      "avoid": "先问她做错了什么；替第三方开脱或替她判案；用四步共情进行连续盘问、改造或隐性归责；把否认当压抑；趁脆弱升级暧昧。 不把负面感受当需要立即清除的错误，不凭一次反应解释童年或诊断心理问题。",
+      "avoid": "读心、诊断、替第三方开脱或先问她做错什么；强迫求证情绪、反省或完成咨询流程。不要否认感受、强行安排身体安慰或趁困扰升级暧昧；明确求办法时先回应实际需要。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -338,6 +343,11 @@
         {
           "path": "knowledge/books/S04-emotion-management.md",
           "locator": "事实与假设、暂停加码、对错与边界限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -385,7 +395,7 @@
       "name": "回答她确实提出的求助",
       "use_when": "她明确在向用户请求意见或信息",
       "operation": "先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。",
-      "avoid": "为了制造张力拒答；冒充专业结论；用帮忙交换关系；对方已求实际办法却只反复问感受；将不提供答案说成唯一有效帮助。 在她明确求助时故意不帮忙以逼迫成长；把普通帮助自动解释成控制欲。",
+      "avoid": "为制造张力拒答、冒充专业结论、拿帮助交换亲密或顺从；已明确求办法却只追问感受，或故意不帮以逼迫成长。普通帮助不自动是控制。",
       "sources": [
         {
           "path": "knowledge/topics/humor-threading.md",
@@ -405,6 +415,11 @@
         {
           "path": "knowledge/books/S04-influence.md",
           "locator": "环境影响、真实认可与自主协商的区别",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -586,7 +601,7 @@
       "id": "M20",
       "name": "接住纠正或澄清",
       "use_when": "她纠正一个事实、玩笑或称呼",
-      "operation": "承认具体误解并更新当前理解；涉及不舒服就停止那个表达。 小误解可以简短更正后继续，不必补夸奖、假理由或反复道歉。",
+      "operation": "承认具体误解并更新当前理解；涉及不舒服就停止那个表达。 小误解可以简短更正后继续，不必补夸奖、假理由或反复道歉。 接受事实更正不等于接受其中的辱骂；无礼有明确证据时仍可表达边界。",
       "avoid": "把纠正叫嘴硬；强行维持角色；没有证据就全面道歉。",
       "sources": [
         {
@@ -603,6 +618,11 @@
           "path": "knowledge/books/G01-awkwardness-and-refusal.md",
           "locator": "具体失误、自然停顿与无需借口的拒绝",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -614,7 +634,7 @@
       "name": "有依据的修复",
       "use_when": "截图明确显示某个具体言行造成误解或伤害，用户要修复",
       "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。",
-      "avoid": "没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。",
+      "avoid": "没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。 不把被不尊重或受伤害归为眼光差、个人价值低。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -634,6 +654,11 @@
         {
           "path": "knowledge/books/S04-expression.md",
           "locator": "两项基本功、六种句型与案例限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -762,7 +787,7 @@
       "name": "开场或自然重联",
       "use_when": "需要开启新一轮，且没有未回复消息或明确不联系的边界",
       "operation": "优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。",
-      "avoid": "反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。",
+      "avoid": "反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。 不假装误发消息或刚发生一件事来制造开场。",
       "sources": [
         {
           "path": "knowledge/books/B090.md",
@@ -777,6 +802,11 @@
         {
           "path": "knowledge/books/S08-S15-calibration.md",
           "locator": "S08/S09/S10/S14/S15原结构、读心与机械流程限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S12-social-scripts.md",
+          "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

@@ -60,9 +60,9 @@
 
 动作：在对方原话里做一个小反转，强度与她相近，保留正常继续或退出的空间。
 
-避免：外貌羞辱、敏感经历、凭空性化；把她的纠正继续解释成调情。
+避免：外貌、种族、月经或性方面的羞辱和压力；用曲解覆盖认真提问、休息、纠正、不适或拒绝。对方没接梗就回到原意，不继续解释成调情。
 
-依据：[夸张曲解](../knowledge/books/S01-chen-five.md)；[严肃话题与澄清界限](../knowledge/topics/humor-threading.md)
+依据：[夸张曲解](../knowledge/books/S01-chen-five.md)；[严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 虚构例：她说“我今天又睡到中午”；草稿：“你这早餐直接参加午餐组了。”
 
@@ -112,9 +112,9 @@
 
 动作：回应她已表达的事情与感受，理解感受不等于判谁对错；未说清的情绪仅作可纠正推测。她不想谈或否认时不追问；明确求建议或有紧要事务时优先回应实际需要。
 
-避免：先问她做错了什么；替第三方开脱或替她判案；用四步共情进行连续盘问、改造或隐性归责；把否认当压抑；趁脆弱升级暧昧。 不把负面感受当需要立即清除的错误，不凭一次反应解释童年或诊断心理问题。
+避免：读心、诊断、替第三方开脱或先问她做错什么；强迫求证情绪、反省或完成咨询流程。不要否认感受、强行安排身体安慰或趁困扰升级暧昧；明确求办法时先回应实际需要。
 
-依据：[情绪回应指南的细节](../knowledge/books/G01-lianai.md)；[状态、感受、关联](../knowledge/books/S04-top30-units.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)
+依据：[情绪回应指南的细节](../knowledge/books/G01-lianai.md)；[状态、感受、关联](../knowledge/books/S04-top30-units.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 虚构例：她说“今天改了一天材料，真的累”；草稿：“改了一天确实够累的，你先歇会儿，不用硬撑着聊天。”
 
@@ -134,9 +134,9 @@
 
 动作：先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。
 
-避免：为了制造张力拒答；冒充专业结论；用帮忙交换关系；对方已求实际办法却只反复问感受；将不提供答案说成唯一有效帮助。 在她明确求助时故意不帮忙以逼迫成长；把普通帮助自动解释成控制欲。
+避免：为制造张力拒答、冒充专业结论、拿帮助交换亲密或顺从；已明确求办法却只追问感受，或故意不帮以逼迫成长。普通帮助不自动是控制。
 
-依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)
+依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 ## M14 一次具体邀约
 
@@ -204,11 +204,11 @@
 
 适用：她纠正一个事实、玩笑或称呼
 
-动作：承认具体误解并更新当前理解；涉及不舒服就停止那个表达。 小误解可以简短更正后继续，不必补夸奖、假理由或反复道歉。
+动作：承认具体误解并更新当前理解；涉及不舒服就停止那个表达。 小误解可以简短更正后继续，不必补夸奖、假理由或反复道歉。 接受事实更正不等于接受其中的辱骂；无礼有明确证据时仍可表达边界。
 
 避免：把纠正叫嘴硬；强行维持角色；没有证据就全面道歉。
 
-依据：[角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；[原句优先](../knowledge/books/G09-ocr-input.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
+依据：[角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；[原句优先](../knowledge/books/G09-ocr-input.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 ## M21 有依据的修复
 
@@ -216,9 +216,9 @@
 
 动作：只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。
 
-避免：没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。
+避免：没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。 不把被不尊重或受伤害归为眼光差、个人价值低。
 
-依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)
+依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 ## M22 表达边界
 
@@ -256,9 +256,9 @@
 
 动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。
 
-避免：反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。
+避免：反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。 不假装误发消息或刚发生一件事来制造开场。
 
-依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)
+依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
 
 ## M26 压成一句自然的话
 
