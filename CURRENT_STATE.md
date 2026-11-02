@@ -9,12 +9,12 @@
 - S01陈哥DOCX的161段正文与9张教学图已核；S02陈哥207页现有文字已读完（11个正文单元；第四式正文及所指图片未提供），见[逐章入口](knowledge/books/S02-chen-twelve.md)。
 - 9个公开GitHub候选已检查类型、固定版本与许可；5个项目的9篇文档及5份MIT许可实际归档。其余来源及第三方课程保留原创笔记；[来源目录](knowledge/provenance/source-catalog.md)逐项列明，不是整仓全读。
 - pua-books共59项，57项与books2精确同blob，未重复搬运；2项不同blob未读。私有goutoujunshi未读正文、未导入。
-- S04 TOP30共14/30条已处理现有文字；另1条长篇部分精读：13条现有文字完成（含历史三条），另1条可辨文字完成但乱码未解决；长篇《谜男方法》已读前部及第1–3章，见[长篇笔记](knowledge/books/S04-mystery-method.md)。[逐单元笔记](knowledge/books/S04-top30-units.md)保留框架、拟例、叙事及限制；[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)、[C13](knowledge/cases/C13-humor-corrections.md)有上下文摘要。
+- S04共30条：13条现有提取文字已读完（含历史三条），1条可辨文字读完但乱码未解，1条长篇部分精读，15条未核完整阅读。《谜男方法》已读前部及第1–4章，见[长篇笔记](knowledge/books/S04-mystery-method.md)。[短篇笔记](knowledge/books/S04-top30-units.md)与[C11](knowledge/cases/C11-hair-advice.md)、[C12](knowledge/cases/C12-connection-story.md)、[C13](knowledge/cases/C13-humor-corrections.md)、[C14](knowledge/cases/C14-mystery-nextday.md)保存理论、上下文和结果层级。
 - 22项上传材料身份已登记；筛选表仅核导航结构、Summary和样例行，明确其依据是预览筛选。旧TOP30 30/30完成宣称未采纳。1589页OCR仍不计阅读，76页待视觉复核。
 
 ## 准确的下一步
 
-**主断点：S04 ZIP内 `b第二课-迷男方法【必修】..txt`，原解码字符42418、PAGE 30标记、第四章：游戏的规则与架构开始（页内印刷页24）。**
+**主断点：S04 ZIP内 `b第二课-迷男方法【必修】..txt`，原解码字符55904、PAGE 45标记、第五章：A1打开组合开始（页内印刷页39）。**
 
 ZIP SHA-256：032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7；条目原字节SHA-256：ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1。精确路径、编码和已读单元见[S04笔记](knowledge/books/S04-top30-units.md)。
 
@@ -28,6 +28,6 @@ S02不再从P1或已读章节重来；缺失第四式与图片待新来源核验
 
 ## 回读验收入口
 
-理论可查S02拆解/平移或B092 Callback Humor；上下文案例可查C09/C10；阅读恢复按上述ZIP条目字符42418。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
+理论可查S02拆解/平移或B092 Callback Humor；上下文案例可查C09/C10；阅读恢复按上述ZIP条目字符55904。具体已完成的远端检查见[验收记录](knowledge/provenance/recovery_validation.md)。
 
 本任务已发布的独立单元包含B092提交3d1b891d905312cbd0b43d1a8382e6ae3313e2ac和S02提交be8434d2e869be28dab29413e49180209bdaba29。当前整合提交身份由GitHub历史及最终回读报告确认，不在提交内部伪造自引用哈希。

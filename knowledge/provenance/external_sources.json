@@ -366,7 +366,7 @@
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "partial; decoded [0,42418) read: front matter and chapters one through 3; remaining text not counted",
+          "reading_status": "partial; decoded [0,55904) read: front matter and chapters one through 4; remaining text not counted",
           "characters": 141076,
           "page_marker_count": 125,
           "notes": "knowledge/books/S04-mystery-method.md",
@@ -427,8 +427,24 @@
                 16,
                 23
               ]
+            },
+            {
+              "unit": "chapter 4",
+              "range": [
+                42418,
+                55904
+              ],
+              "page_markers": [
+                30,
+                44
+              ],
+              "printed_pages": [
+                24,
+                38
+              ]
             }
-          ]
+          ],
+          "case_notes": "knowledge/cases/C14-mystery-nextday.md"
         },
         {
           "entry": "k第十一课-吸引不是选择..txt",
@@ -685,10 +701,10 @@
       ],
       "next_bookmark": {
         "entry": "b第二课-迷男方法【必修】..txt",
-        "decoded_character_offset": 42418,
-        "page_marker": 30,
-        "printed_page": 24,
-        "heading": "第四章：游戏的规则与架构",
+        "decoded_character_offset": 55904,
+        "page_marker": 45,
+        "printed_page": 39,
+        "heading": "第五章：A1打开组合",
         "status": "unread from this bookmark",
         "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1"
       },
