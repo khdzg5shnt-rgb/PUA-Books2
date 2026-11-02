@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "review_date": "2026-11-02",
-  "source_access": "Uploaded sources are external to this GitHub repo. Only paraphrased research notes and provenance metadata committed. A new window needs access to the corresponding uploaded source to reread it.",
+  "source_access": "Mixed external sources. Selected permissively licensed project documents are archived as inert text. Uploaded books/courses, third-party excerpts, tools and uncertain quoted sources are represented by original research notes plus fixed provenance; absent raw sources may still be needed for new source-detail checks.",
   "sources": [
     {
       "id": "S01",
@@ -140,7 +140,10 @@
           "entry": "2-8、聊天中的幽默..txt",
           "bytes": 9328,
           "sha256": "8b0de298416da757b333ba436a1a9b93f61ec89ec13b8c52d760d334889a1fa8",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; PAGE markers 1-7; original PDF not verified",
+          "characters": 3620,
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U01"
         },
         {
           "entry": "4-7、建立感情连接..txt",
@@ -232,7 +235,10 @@
           "entry": "冷场的五种应对方式..txt",
           "bytes": 7084,
           "sha256": "48c133bfefa3e6895953d278e309ef5dd1ab04f050a499c449911fb77621921a",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "all currently legible text read; PAGE markers 1-4; repeated NUL/garbled blocks unresolved; not original completeness",
+          "characters": 2830,
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U02"
         },
         {
           "entry": "史上最实用的约会锦囊..txt",
@@ -328,7 +334,17 @@
           "sha256": "feecd29a71fd9cb67c0907dbe7ae328e35e54d6afa0ca2ce520b63c9cabf9295",
           "reading_status": "unverified_historical_claim"
         }
-      ]
+      ],
+      "notes": [
+        "knowledge/books/S04-top30-units.md",
+        "knowledge/cases/C07-published-dialogues.md"
+      ],
+      "next_bookmark": {
+        "entry": "2-6、情感交流..txt",
+        "decoded_character_offset": 0,
+        "status": "unread",
+        "sha256": "5b10a495fda8577018af120053f770be6173ad4acf660acaad2de107847b1f88"
+      }
     },
     {
       "id": "S05",
@@ -342,7 +358,779 @@
       "title": "PUA_first_screening.xlsx",
       "sha256": "71c4d949ab7ba3e072f0c608a6c18a061153c24c5ee30adb3919a80744c48fb4",
       "bytes": 578308,
-      "reading_status": "not_read; navigation only; no reading counts inferred"
+      "reading_status": "navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previews or underlying sources read",
+      "sheet_row_counts": {
+        "Summary": 13,
+        "Deep Read 30": 31,
+        "Candidate 100": 101,
+        "All 571": 572
+      },
+      "navigation_evidence": {
+        "basis_cells": "Summary A4:E7",
+        "basis": "filenames + character counts + approximately first 4000 characters; explicitly says full texts not read",
+        "preview_error_observed": "All 571 I3 contains #NAME?; not a source paragraph"
+      },
+      "archive_policy": "Workbook not copied; navigation metadata only"
+    },
+    {
+      "id": "S07",
+      "title": "认识→→私密完整流程.docx",
+      "sha256": "c726d9554c8dca4a66071562eb8b4f8e8b09858dc38ab2125eef16762b4f07ab",
+      "bytes": 20086,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "embedded_media_count": 0
+    },
+    {
+      "id": "S08",
+      "title": "《谜男方法》M3模型之A3阶段重要性再总结(3).doc",
+      "sha256": "82d900df0e4e9a61aa145f47ab7512474a66a69762eb69869d5033a7278878bd",
+      "bytes": 43536,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S09",
+      "title": "对谜男方法的21点解释(2).doc",
+      "sha256": "ee7056f0e41319b9cb11709bcd23acf055cfa90edbfee3e812accd483f754c28",
+      "bytes": 27672,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S10",
+      "title": "性格内向如何锻炼社交直觉.doc",
+      "sha256": "28b340f2d76af89ffb548a153065e7882d987e4175c83040f77c02a4d17e7d7f",
+      "bytes": 22040,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S11",
+      "title": "迷男方法读书笔记 (1)(1).doc",
+      "sha256": "aa2fd53937f9a1af84a75c75aa28a7ea9833f10b2107cc4318c63f7bb59678d0",
+      "bytes": 150552,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S12",
+      "title": "二、社交软件聊天话术惯例和聊资(终极版)(2).doc",
+      "sha256": "07e9fdbc26235d4cab533ce2fb7aed8bfd2d19ecbc686005ef67c4c05b36a607",
+      "bytes": 96792,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S13",
+      "title": "《谜男方法》(Mystery-Method)详细摘抄笔记(3).doc",
+      "sha256": "1b664837fd7b9f0b2d94961a0ce4cbbacaf5d7ef9cbc0a6ffaef9ff3247ba508",
+      "bytes": 143384,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S14",
+      "title": "如何学习迷男方法(1).txt",
+      "sha256": "2c2cfdc1ccb3793f440c8faebf9785cb23fd15e925c1df4cb440add15edd70dc",
+      "bytes": 3063,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S15",
+      "title": "龙语明白学---龙语分享《迷男方法》九阶段学习与内化要领之A阶段含约会升高图(2).txt",
+      "sha256": "2773358b1d2e059d7b23c2fd1b73da83ff9306dffe419768b48fcfcdf51c9b12",
+      "bytes": 3038,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank"
+    },
+    {
+      "id": "S16",
+      "title": "迷男方法的精髓(1).pdf",
+      "sha256": "b17db0de26c198c8ddec1e3baea3c0a451956270186713f804380e49bcab4f59",
+      "bytes": 132911,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 5
+    },
+    {
+      "id": "S17",
+      "title": "谜男聊天6大杀手锏.pdf",
+      "sha256": "7969f636866b69b1313234a1260ffb1dce68df4c939d760ec2143f4eb9aa9bf6",
+      "bytes": 261279,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 6
+    },
+    {
+      "id": "S18",
+      "title": "《迷男方法》整理(完美)(4).pdf",
+      "sha256": "7d76d1188803ddd67bfb52a68d4ee4d4c6f83030008827c7e4e18032493a58fd",
+      "bytes": 422698,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 8
+    },
+    {
+      "id": "S19",
+      "title": "3个月(4).pdf",
+      "sha256": "49090a28a0aa239a57d6dba2b98270ada1d5e0aea979b0225b7e80c56c9d87d9",
+      "bytes": 329430,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 10
+    },
+    {
+      "id": "S20",
+      "title": "谜男团队-高级班 ct升级手册.pdf",
+      "sha256": "d9cfad82e0a17a34039d381be2af66573327e09cbf35318cf609257c16bbb661",
+      "bytes": 228387,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 8
+    },
+    {
+      "id": "S21",
+      "title": "PUA话术惯例手册(3).pdf",
+      "sha256": "ed75d68f3bcda13e1b9e555b6f7308fccf77bb975715b0c53fcd477e6d2abf52",
+      "bytes": 640693,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 39
+    },
+    {
+      "id": "S22",
+      "title": "加水印-去水印--36.《谜男方法》(2).pdf",
+      "sha256": "0d301304e48910a2aae361bd1da60296c86b93b3007f3c159401f029a4e21094",
+      "bytes": 10713118,
+      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "archive_policy": "No explicit redistribution permission; original not copied",
+      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
+      "pages": 125
     }
-  ]
+  ],
+  "github_discovery": {
+    "owned_repository_metadata_items_checked": 64,
+    "method": "Known candidate list plus repository-name/available-metadata screening; not all repository bodies read",
+    "checked_public_sources": 9,
+    "excluded_private_repository": "khdzg5shnt-rgb/goutoujunshi",
+    "private_repository_content_read_or_imported": false
+  },
+  "github_sources": [
+    {
+      "id": "G01",
+      "repository": "khdzg5shnt-rgb/lianai",
+      "public": true,
+      "upstream_parent_repository": "shengjidaguai-china/goutoujunshi",
+      "fixed_commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "tree_sha": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "tree_truncated": false,
+      "tree_blob_count": 67,
+      "source_type": "coaching_prompt_and_research_summaries",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G01-lianai.md",
+      "reading_coverage": "Four selected documents fully read; not all 67 blobs",
+      "pending": "Other reference documents unread; papers cited by project not independently verified here",
+      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archived_document_count": 4,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/LICENSE",
+          "bytes": 1065,
+          "sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367",
+          "git_blob_sha": "bfc9d99fb47f85bc00ca9231383b4fe097a5a9e1",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/lianai/LICENSE",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "SKILL.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/SKILL.md",
+          "bytes": 9518,
+          "sha256": "825edd66bed33ce514c12d0cd3f2f002417c7aa357b58a6aae658cad26f6e083",
+          "git_blob_sha": "f9c34540c1440ae1a4de8c6790ba107ba4d40a3b",
+          "line_count": 102,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/lianai/SKILL.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "references/knowledge/01-证据分级与内容边界.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/knowledge/01-%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7%E4%B8%8E%E5%86%85%E5%AE%B9%E8%BE%B9%E7%95%8C.md",
+          "bytes": 4203,
+          "sha256": "9b28d1598a253837f43ab133cdb936084a6d20818e5a5d9b27cfcfe14c4fdbeb",
+          "git_blob_sha": "1a15cca25dd65952d828555afc5cc6831e747015",
+          "line_count": 65,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/lianai/references/knowledge/01-证据分级与内容边界.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "references/knowledge/07-沟通冲突与修复.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/knowledge/07-%E6%B2%9F%E9%80%9A%E5%86%B2%E7%AA%81%E4%B8%8E%E4%BF%AE%E5%A4%8D.md",
+          "bytes": 4471,
+          "sha256": "440fadf71455dac36fbe291bffa2246e035f5dd0d9d7167cd9a129443375828b",
+          "git_blob_sha": "565b825180656a0385b651f4546ad2f810a38a10",
+          "line_count": 99,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "references/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E4%B8%BA%E4%BB%96%E4%BA%BA%E6%8F%90%E4%BE%9B%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC%EF%BC%9A%E6%B8%A9%E6%9A%96%E4%B8%94%E6%9C%89%E6%95%88%E7%9A%84%E5%9B%9E%E5%BA%94%E6%8C%87%E5%8D%97.md",
+          "bytes": 12247,
+          "sha256": "565c7b4b9e27993a92de6339e403f9f82ededa87dc1e205d4602742ad6693c8b",
+          "git_blob_sha": "0d52128312b2def237e675b92629eb79e3212758",
+          "line_count": 85,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/lianai/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        }
+      ]
+    },
+    {
+      "id": "G02",
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "public": true,
+      "upstream_parent_repository": "tomwong001/qingsheng-skill",
+      "fixed_commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "tree_sha": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "tree_truncated": false,
+      "tree_blob_count": 55,
+      "source_type": "coaching_prompt_and_short_teaching_examples",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G02-qingsheng.md",
+      "reading_coverage": "Core, platform guide and all 41 scene examples read/rechecked; not full reference collection",
+      "pending": "stages/signals/advanced/recovery and other references remain unprocessed; historical examples may repeat or quote third-party sources",
+      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archived_document_count": 2,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/LICENSE",
+          "bytes": 1100,
+          "sha256": "59b22840e87e0ae9cb4aa795da99e5d7701dc5823840c2796bcef8984d8bb6d9",
+          "git_blob_sha": "8a8a5d5546eb983ed42a9adc4b1998caa7212a6a",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/qingsheng-skill/LICENSE",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "skill/SKILL.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/SKILL.md",
+          "bytes": 24879,
+          "sha256": "9f9613bd6ba0fa2006f4d1b51730b2d56a07955dec43f9fb0ace70aebe46d7b1",
+          "git_blob_sha": "c7971ea229ee6ff427068c9d2cdb80c8ff2aa0e2",
+          "line_count": 330,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/qingsheng-skill/skill/SKILL.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "skill/references/examples-library.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/examples-library.md",
+          "bytes": 29134,
+          "sha256": "f24388a9c5a96a25d79bd480305758b408c394f2cf032f658155a05e9e06d03a",
+          "git_blob_sha": "bdd5a520077d8f2039824f5974a7fb8bc31b63ce",
+          "line_count": 267,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
+        },
+        {
+          "original_path": "skill/references/platform-guide.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/platform-guide.md",
+          "bytes": 10146,
+          "sha256": "a000943004e0ff3e87202cdb8964db3f99ec6757039ac38cdb8a931531be8b08",
+          "git_blob_sha": "728f8722bd6c1dec7c91f8c660fa5c18eed5b1ab",
+          "line_count": 196,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/platform-guide.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        }
+      ]
+    },
+    {
+      "id": "G03",
+      "repository": "khdzg5shnt-rgb/fan-emotion-analysis-skill",
+      "public": true,
+      "upstream_parent_repository": "abwoo/fan-emotion-analysis-skill",
+      "fixed_commit": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "tree_sha": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "tree_truncated": false,
+      "tree_blob_count": 54,
+      "source_type": "coaching_prompt_and_third_party_course_index",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G03-fan.md",
+      "reading_coverage": "public-skill fully read; f010 L1856-1979 rechecked; older selected ranges retained separately",
+      "pending": "Remaining f010 passages and other course divisions not completed; underlying course redistribution permission unverified",
+      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archived_document_count": 1,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/fan-emotion-analysis-skill/blob/23f33bdda9d66323c14c760e1960a557a2009052/LICENSE",
+          "bytes": 1062,
+          "sha256": "f1dc099c37425819080124cc18dce64056f7915e7b7de35d4c3186055e63ef42",
+          "git_blob_sha": "46cf1251eff695429f57668c42fa655f4e914764",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/fan-emotion-analysis-skill/LICENSE",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "public-skill.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/fan-emotion-analysis-skill/blob/23f33bdda9d66323c14c760e1960a557a2009052/public-skill.md",
+          "bytes": 28132,
+          "sha256": "b37ac170c60333fbfbdaf9b81f6870705c8f2139a39187afb3cce2eb0944929e",
+          "git_blob_sha": "47fa3ed8277eb653d41bb7950961dc006dcb230b",
+          "line_count": 670,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/fan-emotion-analysis-skill/public-skill.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "REFERENCE/f010.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/fan-emotion-analysis-skill/blob/23f33bdda9d66323c14c760e1960a557a2009052/REFERENCE/f010.md",
+          "bytes": 109140,
+          "sha256": "1d643072dc5addadd442273e5910a1ce90585da49e824e95dbdc22e1875520de",
+          "git_blob_sha": "fbea8946358a8e001a6b8453d47f63a64de64934",
+          "line_count": 2202,
+          "reading_status": "partial; L1856-1979 rechecked this batch; historical L1-24,L661-750,L946-1711 retained but not expanded",
+          "archive_path": null,
+          "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
+        }
+      ]
+    },
+    {
+      "id": "G04",
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "public": true,
+      "upstream_parent_repository": "BeamusWayne/simp-skill",
+      "fixed_commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "tree_sha": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "tree_truncated": false,
+      "tree_blob_count": 36,
+      "source_type": "coaching_prompt",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G04-simp.md",
+      "reading_coverage": "Core SKILL fully read; prompts/tools not all read",
+      "pending": "No personal profiles created; examples not outcome-verified",
+      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archived_document_count": 1,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/LICENSE",
+          "bytes": 1069,
+          "sha256": "227d33e4de3e06477e62cefdfaba2c3a79f13cb33fa20cc0059f8bbd885ff6c7",
+          "git_blob_sha": "67cd77dea90decf3f0110be84c537a117344635e",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/simp-skill/LICENSE",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "SKILL.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/SKILL.md",
+          "bytes": 16874,
+          "sha256": "8eb9069f44b51acf8fc5757167671e2f9db782bd3af003ac4ddb14ab87728497",
+          "git_blob_sha": "28a23cb7d4dd5f7cea2d3906d13c16c091740e9a",
+          "line_count": 416,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/simp-skill/SKILL.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        }
+      ]
+    },
+    {
+      "id": "G05",
+      "repository": "khdzg5shnt-rgb/relationship-candlestick-lab",
+      "public": true,
+      "upstream_parent_repository": "ZhenyuanPAN822/relationship-candlestick-lab",
+      "fixed_commit": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "tree_sha": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "tree_truncated": false,
+      "tree_blob_count": 49,
+      "source_type": "software_scoring_specification",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G05-candlestick.md",
+      "reading_coverage": "Scoring SKILL v3.1 fully read; no execution or whole-code audit",
+      "pending": "Validity and calibration of scores not established by this document; code and data paths untested",
+      "archive_status": "selected_project_documents_archived_with_MIT_license",
+      "archived_document_count": 1,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/relationship-candlestick-lab/blob/100f508ef504420506e853c8b72f16509d30ea3c/LICENSE",
+          "bytes": 1098,
+          "sha256": "a1e3597a7d86b53b229c19d20adade4c6bf3a616be57fd85b7823757d790fb59",
+          "git_blob_sha": "477ac29411ef5cb4ab0acfad0552c605909cf7ec",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/relationship-candlestick-lab/LICENSE",
+          "archive_decision": "MIT project document, exact text and license retained"
+        },
+        {
+          "original_path": "skill/SKILL.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/relationship-candlestick-lab/blob/100f508ef504420506e853c8b72f16509d30ea3c/skill/SKILL.md",
+          "bytes": 15980,
+          "sha256": "35183bd8c6ab1ffe72a89857a4f93f37f28773bc94eb6b5a05c46ec5b21b7809",
+          "git_blob_sha": "a848ce36d315ffa19de0c1527d4149a64930cefb",
+          "line_count": 396,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": "sources/github/relationship-candlestick-lab/skill/SKILL.md.txt",
+          "archive_decision": "MIT project document, exact text and license retained"
+        }
+      ]
+    },
+    {
+      "id": "G06",
+      "repository": "khdzg5shnt-rgb/tong-jincheng-skill",
+      "public": true,
+      "upstream_parent_repository": "hotcoffeeshake/tong-jincheng-skill",
+      "fixed_commit": "c9caaa9a6576f581c29d016c60bbe935908e20d5",
+      "tree_sha": "c9caaa9a6576f581c29d016c60bbe935908e20d5",
+      "tree_truncated": false,
+      "tree_blob_count": 12,
+      "source_type": "secondary_creator_research_summary",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G06-tong.md",
+      "reading_coverage": "SKILL and 02-conversations summary fully read",
+      "pending": "Nine claimed original subtitle texts not supplied in tree; quotations, identity details and underlying source rights unverified",
+      "archive_status": "original_research_notes_only; no source content archived",
+      "archived_document_count": 0,
+      "files": [
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/tong-jincheng-skill/blob/c9caaa9a6576f581c29d016c60bbe935908e20d5/LICENSE",
+          "bytes": 1071,
+          "sha256": "21db15ef124354f23c9dc62ece01d0f36f3675c3684da37b6e8a823586595860",
+          "git_blob_sha": "b29a22645c9f92d128e4e1d6ff8f1ee10cca0aea",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        },
+        {
+          "original_path": "SKILL.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/tong-jincheng-skill/blob/c9caaa9a6576f581c29d016c60bbe935908e20d5/SKILL.md",
+          "bytes": 12318,
+          "sha256": "7571149374faf9525848283e28ef050daee28f241a30ebf67a6d659ac48a4004",
+          "git_blob_sha": "b058d23397fd1f57a4df70b59b968dfdc6d15f9d",
+          "line_count": 275,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
+        },
+        {
+          "original_path": "references/research/02-conversations.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/tong-jincheng-skill/blob/c9caaa9a6576f581c29d016c60bbe935908e20d5/references/research/02-conversations.md",
+          "bytes": 3096,
+          "sha256": "4b94ad0ac07df0a5f7b08ee8ed785c83d03956e290a95d4aae101edf3f085891",
+          "git_blob_sha": "a97c2feb2477412e9c45c5bfa68ad4901941a8bb",
+          "line_count": 69,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "Third-party course/excerpt or quotation provenance unclear; original research notes only"
+        }
+      ]
+    },
+    {
+      "id": "G07",
+      "repository": "khdzg5shnt-rgb/pua-books",
+      "public": true,
+      "upstream_parent_repository": "LeonYanghaha/pua-books",
+      "fixed_commit": "8b99cad1586589a46e82a8f328d0de845e86ab18",
+      "tree_sha": "8b99cad1586589a46e82a8f328d0de845e86ab18",
+      "tree_truncated": false,
+      "tree_blob_count": 59,
+      "source_type": "book_collection",
+      "declared_repository_license": null,
+      "notes": "knowledge/books/G07-pua-books.md",
+      "reading_coverage": "59 blob identities checked; 57 exact matches with original books2 sources",
+      "pending": "Two unmatched files not downloaded/extracted/read; no explicit redistribution license found",
+      "archive_status": "original_research_notes_only; no source content archived",
+      "archived_document_count": 0,
+      "files": []
+    },
+    {
+      "id": "G08",
+      "repository": "khdzg5shnt-rgb/ChatLab",
+      "public": true,
+      "upstream_parent_repository": "ChatLab/ChatLab",
+      "fixed_commit": "e75bb1e556f2f725b07a49527c3e69160f8dda1b",
+      "tree_sha": "e75bb1e556f2f725b07a49527c3e69160f8dda1b",
+      "tree_truncated": false,
+      "tree_blob_count": 1839,
+      "source_type": "software_chat_analysis_tool",
+      "declared_repository_license": "AGPL-3.0",
+      "notes": "knowledge/books/G08-chatlab.md",
+      "reading_coverage": "Chinese README fully read; actual LICENSE identity/header/tail checked; not full legal-text analysis",
+      "pending": "Software not installed, tested or audited; no coaching case evidence",
+      "archive_status": "original_research_notes_only; no source content archived",
+      "archived_document_count": 0,
+      "files": [
+        {
+          "original_path": "README.zh-CN.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/ChatLab/blob/e75bb1e556f2f725b07a49527c3e69160f8dda1b/README.zh-CN.md",
+          "bytes": 5651,
+          "sha256": "0ece5b9cfb38854e0ec5ccaab24d2f95bcd700a7bad8a3fe1bf96827b20f0d44",
+          "git_blob_sha": "c3b4ad656bd126979b7f4babd5aabba2b9053ad3",
+          "line_count": 150,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        },
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/ChatLab/blob/e75bb1e556f2f725b07a49527c3e69160f8dda1b/LICENSE",
+          "bytes": 34523,
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "git_blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+          "line_count": 661,
+          "reading_status": "license identity/header/tail checked; full legal text not analyzed",
+          "archive_path": null,
+          "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        }
+      ]
+    },
+    {
+      "id": "G09",
+      "repository": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
+      "public": true,
+      "upstream_parent_repository": "shengjidaguai-china/goutoujunshi-jev-chat",
+      "fixed_commit": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "tree_sha": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "tree_truncated": false,
+      "tree_blob_count": 178,
+      "source_type": "software_ocr_and_draft_assistant",
+      "declared_repository_license": "MIT",
+      "notes": "knowledge/books/G09-jev-chat.md",
+      "reading_coverage": "README and MIT license fully read; public fork tree checked",
+      "pending": "Not installed or tested; no screenshots, contact details or private repository content imported",
+      "archive_status": "original_research_notes_only; no source content archived",
+      "archived_document_count": 0,
+      "files": [
+        {
+          "original_path": "README.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/README.md",
+          "bytes": 8749,
+          "sha256": "376bcf866cc71039f4ad34df0c1e93b125f6f114310b89a396f189cc0d233a8d",
+          "git_blob_sha": "b0c2d15c2c4ffcf0d20d529b7e527aef6dbc45e7",
+          "line_count": 108,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        },
+        {
+          "original_path": "LICENSE",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/LICENSE",
+          "bytes": 1065,
+          "sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367",
+          "git_blob_sha": "bfc9d99fb47f85bc00ca9231383b4fe097a5a9e1",
+          "line_count": 21,
+          "reading_status": "provided_file_text_fully_read",
+          "archive_path": null,
+          "archive_decision": "No original/code copy needed; original research notes and source identity only"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/lianai/LICENSE",
+      "bytes": 1065,
+      "sha256": "f336b7d0101d93b47ec1964aaf3c4ab12dc582638be9501fc883801a51ed0367",
+      "git_blob_sha": "bfc9d99fb47f85bc00ca9231383b4fe097a5a9e1",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "SKILL.md",
+      "archive_path": "sources/github/lianai/SKILL.md.txt",
+      "bytes": 9518,
+      "sha256": "825edd66bed33ce514c12d0cd3f2f002417c7aa357b58a6aae658cad26f6e083",
+      "git_blob_sha": "f9c34540c1440ae1a4de8c6790ba107ba4d40a3b",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/knowledge/01-证据分级与内容边界.md",
+      "archive_path": "sources/github/lianai/references/knowledge/01-证据分级与内容边界.md.txt",
+      "bytes": 4203,
+      "sha256": "9b28d1598a253837f43ab133cdb936084a6d20818e5a5d9b27cfcfe14c4fdbeb",
+      "git_blob_sha": "1a15cca25dd65952d828555afc5cc6831e747015",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/knowledge/07-沟通冲突与修复.md",
+      "archive_path": "sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt",
+      "bytes": 4471,
+      "sha256": "440fadf71455dac36fbe291bffa2246e035f5dd0d9d7167cd9a129443375828b",
+      "git_blob_sha": "565b825180656a0385b651f4546ad2f810a38a10",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+      "archive_path": "sources/github/lianai/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md.txt",
+      "bytes": 12247,
+      "sha256": "565c7b4b9e27993a92de6339e403f9f82ededa87dc1e205d4602742ad6693c8b",
+      "git_blob_sha": "0d52128312b2def237e675b92629eb79e3212758",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/qingsheng-skill/LICENSE",
+      "bytes": 1100,
+      "sha256": "59b22840e87e0ae9cb4aa795da99e5d7701dc5823840c2796bcef8984d8bb6d9",
+      "git_blob_sha": "8a8a5d5546eb983ed42a9adc4b1998caa7212a6a",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/SKILL.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/SKILL.md.txt",
+      "bytes": 24879,
+      "sha256": "9f9613bd6ba0fa2006f4d1b51730b2d56a07955dec43f9fb0ace70aebe46d7b1",
+      "git_blob_sha": "c7971ea229ee6ff427068c9d2cdb80c8ff2aa0e2",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/platform-guide.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/platform-guide.md.txt",
+      "bytes": 10146,
+      "sha256": "a000943004e0ff3e87202cdb8964db3f99ec6757039ac38cdb8a931531be8b08",
+      "git_blob_sha": "728f8722bd6c1dec7c91f8c660fa5c18eed5b1ab",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/fan-emotion-analysis-skill",
+      "commit": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/fan-emotion-analysis-skill/LICENSE",
+      "bytes": 1062,
+      "sha256": "f1dc099c37425819080124cc18dce64056f7915e7b7de35d4c3186055e63ef42",
+      "git_blob_sha": "46cf1251eff695429f57668c42fa655f4e914764",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/fan-emotion-analysis-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/fan-emotion-analysis-skill",
+      "commit": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "source_path": "public-skill.md",
+      "archive_path": "sources/github/fan-emotion-analysis-skill/public-skill.md.txt",
+      "bytes": 28132,
+      "sha256": "b37ac170c60333fbfbdaf9b81f6870705c8f2139a39187afb3cce2eb0944929e",
+      "git_blob_sha": "47fa3ed8277eb653d41bb7950961dc006dcb230b",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/fan-emotion-analysis-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/simp-skill/LICENSE",
+      "bytes": 1069,
+      "sha256": "227d33e4de3e06477e62cefdfaba2c3a79f13cb33fa20cc0059f8bbd885ff6c7",
+      "git_blob_sha": "67cd77dea90decf3f0110be84c537a117344635e",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "SKILL.md",
+      "archive_path": "sources/github/simp-skill/SKILL.md.txt",
+      "bytes": 16874,
+      "sha256": "8eb9069f44b51acf8fc5757167671e2f9db782bd3af003ac4ddb14ab87728497",
+      "git_blob_sha": "28a23cb7d4dd5f7cea2d3906d13c16c091740e9a",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/relationship-candlestick-lab",
+      "commit": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "source_path": "LICENSE",
+      "archive_path": "sources/github/relationship-candlestick-lab/LICENSE",
+      "bytes": 1098,
+      "sha256": "a1e3597a7d86b53b229c19d20adade4c6bf3a616be57fd85b7823757d790fb59",
+      "git_blob_sha": "477ac29411ef5cb4ab0acfad0552c605909cf7ec",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/relationship-candlestick-lab/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/relationship-candlestick-lab",
+      "commit": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "source_path": "skill/SKILL.md",
+      "archive_path": "sources/github/relationship-candlestick-lab/skill/SKILL.md.txt",
+      "bytes": 15980,
+      "sha256": "35183bd8c6ab1ffe72a89857a4f93f37f28773bc94eb6b5a05c46ec5b21b7809",
+      "git_blob_sha": "a848ce36d315ffa19de0c1527d4149a64930cefb",
+      "declared_license": "MIT",
+      "license_archive": "sources/github/relationship-candlestick-lab/LICENSE",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    }
+  ],
+  "privacy": {
+    "user_real_chat_cases_saved": false,
+    "screenshots_or_contacts_imported": false,
+    "source_install_or_send_commands_executed": false,
+    "source_repositories_modified": false
+  }
 }

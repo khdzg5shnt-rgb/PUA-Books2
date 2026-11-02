@@ -1,30 +1,22 @@
-# PUA知识体系入口
+# 理论体系与详细笔记入口
 
-这里保留已核实来源中的原始概念和作者分歧。它是导航，不宣称经典体系已经全部读完，也不是把所有作者合成一个已被科学证明的模型。
+保留各来源的术语、机制、上下文和分歧；不把导师观点、软件规则或案例自报变成经验证的统一心理模型。
 
-## 已有原文支持的部分
-
-| 主题 | 原书框架 | 详细入口 |
+| 主题 | 已读结构 | 详细入口 |
 | --- | --- | --- |
-| 开场与叙事 | Brad P的钩子、故事、张力、收尾，以及三类反馈分支 | [B090](knowledge/books/B090.md)、[C05](knowledge/cases/C05-opening-branches.md) |
-| 话题与幽默 | 横向关联、纵向深入、语义双关、铺垫与反转 | [B073](knowledge/books/B073.md)、[主题](knowledge/topics/humor-threading.md) |
-| 陈哥短技巧 | 冷读、自我夸张、角色扮演、推拉、夸张曲解及画面感 | [S01](knowledge/books/S01-chen-five.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
-| 陈哥发散思维 | 观察/提问/表达、关键词拆解与平移、依据关系选一条 | [S02第七式](knowledge/books/S02-chen-twelve.md) |
-| 阶段模型 | Adam Lyons四阶段与浪迹团队五阶段 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md) |
-| 自我表达与参与 | 杂耍人二次整理的自我、情绪、价值观、平衡；开放式陈述 | [B072](knowledge/books/B072.md) |
-| 线上呈现与邀约 | 真实具体资料、私信与现实安排衔接；Time Bridging与结果分层 | [B037](knowledge/books/B037.md)、[B092现有前三章](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
-| 现场复盘与结果 | 规则随场景调整、过程缺失不补造、收号不等于后续成功 | [B042](knowledge/books/B042.md)、[C04](knowledge/cases/C04-field-notes.md) |
+| 开场与叙事 | Brad P钩子、故事、张力、收尾及反馈分支 | [B090](knowledge/books/B090.md)、[C05](knowledge/cases/C05-opening-branches.md) |
+| 话题与幽默 | 横向/纵向、双关、铺垫、反转、严肃话题界限 | [B073](knowledge/books/B073.md)、[幽默主题](knowledge/topics/humor-threading.md)、[S04](knowledge/books/S04-top30-units.md) |
+| 陈哥技巧与发散 | 冷读、自我夸张、角色、推拉、曲解、画面感；拆解/平移与选择 | [S01](knowledge/books/S01-chen-five.md)、[S02第七式](knowledge/books/S02-chen-twelve.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
+| 阶段与自我表达 | Adam四阶段、浪迹五阶段、杂耍人整理；保留反固定步骤观点 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md)、[B072](knowledge/books/B072.md) |
+| 线上、邀约与结果 | 真实呈现、Time Bridging、Callback Humor、Investment；意愿与安排分开 | [B037](knowledge/books/B037.md)、[B092](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
+| 回应与修复 | 事件/感受/需要/请求，核对事实而不自动归责 | [G01](knowledge/books/G01-lianai.md)、[G04](knowledge/books/G04-simp.md) |
+| 导师/策划者框架 | 七阶段、梵系分类/当量、童锦程二次模型及其证据限制 | [G02](knowledge/books/G02-qingsheng.md)、[G03](knowledge/books/G03-fan.md)、[G06](knowledge/books/G06-tong.md) |
+| 数据整理与工具 | 原句核对、来源标准化、相对评分公式与局限 | [G05](knowledge/books/G05-candlestick.md)、[G08](knowledge/books/G08-chatlab.md)、[G09](knowledge/books/G09-jev-chat.md) |
 
-B092现有前三章已读，补入Callback Humor、Investment/投资限度及反复交替的吸引/舒适模型；其后六章当前文件未提供。
+## 分歧与缺口
 
-## 重要分歧
+有的作者强调按阶段推进，有的反对固定步骤；有的将短回和拒绝当兴趣不足或测试，有的强调上下文和明确意愿。实际指导依[工作规则](CHAT_GUIDANCE_PLAYBOOK.md)使用可见事实，不能用一套书里的标签压掉对方的原话。
 
-Adam将四阶段称为普遍过程，杂耍人整理则反对按固定步骤互动；陈哥讲义主张快速调动情绪，浪迹前言反思机械表演。保留每方说法和使用条件，见[理论关系与缺口](knowledge/topics/theory-map.md)。
+B092目录后六章未提供。Mystery原著、Tyler全本，以及IOI/IOD、Frame、Qualification、DHV、Neg、Inner/Outer Game的跨版本精确定义仍待系统核验。[理论地图](knowledge/topics/theory-map.md)保留细节与空缺；二次总纲不替代原文阅读。
 
-IOI/IOD、Frame、Qualification、DHV、Neg、Inner/Outer Game等词已在部分已读文件出现，但Mystery原著、Tyler完整原文及跨版本定义尚未完成核验。不能用上传总纲里的目录替代原书阅读。其待补位置在[索引](KNOWLEDGE_INDEX.md)与[历史来源记录](knowledge/provenance/legacy-and-external.md)。
-
-## 从这里如何指导
-
-先读[工作规则](CHAT_GUIDANCE_PLAYBOOK.md)，按现实任务选一个主题及相似案例。案例相似需要比较关系基础、双方目标、当前话题和结果层级，不能只找相同一句话。
-
-科学研究与导师自述分开；已核验研究及其迁移限制见[证据记录](knowledge/topics/evidence.md)。
+按当前问题选择来源见[主题选择表](knowledge/topics/source-synthesis.md)，科学研究与导师自述的界限见[证据记录](knowledge/topics/evidence.md)。新来源中的论文清单尚未因此自动核验。
