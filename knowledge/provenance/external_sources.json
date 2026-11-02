@@ -73,7 +73,7 @@
       "sha256": "2da7376e24482b522eeea5e46620df3235a8d7a75d46e45ded9f9607eddad8b5",
       "bytes": 812370,
       "pages": 207,
-      "reading_status": "partial; completed chapter IDs 1,2,3,5,7,8,9,10,11,12; remaining chapters not counted",
+      "reading_status": "all supplied extractable text on PDF file P1–207 read; eleven body chapters (1–3,5–12); chapter four and referenced images not supplied; not a complete original edition claim",
       "notes": "knowledge/books/S02-chen-twelve.md",
       "completed_units": [
         {
@@ -81,35 +81,48 @@
           "chapter": "第一式：三项核心与控制框架",
           "start": "PDF file P8 at current chapter heading",
           "end": "PDF file P30 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch01.md"
         },
         {
           "chapter_id": 2,
           "chapter": "第二式：九类吸引特质、六项气质和幽默",
           "start": "PDF file P30 at current chapter heading",
           "end": "PDF file P74 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch02.md"
         },
         {
           "chapter_id": 3,
           "chapter": "第三式：形象、展示面和身体训练",
           "start": "PDF file P74 at current chapter heading",
           "end": "PDF file P90 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch03.md"
         },
         {
           "chapter_id": 5,
           "chapter": "第五式：情绪调节、换位思考与目标",
           "start": "PDF file P90 at current chapter heading",
           "end": "PDF file P99 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch05.md"
+        },
+        {
+          "chapter_id": 6,
+          "chapter": "第六式：窗口指标与六步暧昧",
+          "start": "PDF file P99 at current chapter heading",
+          "end": "PDF file P110 before next chapter heading",
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch06.md"
         },
         {
           "chapter": "第七式：口才与发散性思维",
           "start": "PDF file P110 at 第七式 heading",
           "end": "PDF file P122 before 第八式 heading",
           "images": "No embedded images on P110–121; chapter-tail text on P122 read",
-          "chapter_id": 7
+          "chapter_id": 7,
+          "notes": "knowledge/books/S02-chen-twelve/ch07.md"
         },
         {
           "chapter": "第八式：讲故事",
@@ -117,44 +130,49 @@
           "end": "PDF file P131 before 第九式 heading",
           "images": "No embedded images on P122–131; current chapter text fully read",
           "case_status": "ten teaching story variants; imagined listener replies, no full bilateral transcripts",
-          "chapter_id": 8
+          "chapter_id": 8,
+          "notes": "knowledge/books/S02-chen-twelve/ch08.md"
         },
         {
           "chapter_id": 9,
           "chapter": "第九式：潜台词与测试框架",
           "start": "PDF file P131 at current chapter heading",
           "end": "PDF file P139 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch09.md"
         },
         {
           "chapter_id": 10,
           "chapter": "第十式：电话交流",
           "start": "PDF file P139 at current chapter heading",
           "end": "PDF file P149 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch10.md"
         },
         {
           "chapter_id": 11,
           "chapter": "第十一式：约会与身体接触",
           "start": "PDF file P149 at current chapter heading",
           "end": "PDF file P186 before next chapter heading",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch11.md"
         },
         {
           "chapter_id": 12,
           "chapter": "第十二式：一次见面成功的目标与争议",
           "start": "PDF file P186 at current chapter heading",
           "end": "PDF file P207 through EOF",
-          "images": "No embedded images anywhere in this PDF; current provided text read"
+          "images": "No embedded images anywhere in this PDF; current provided text read",
+          "notes": "knowledge/books/S02-chen-twelve/ch12.md"
         }
       ],
-      "next_bookmark": "PDF file P99 at 第六式：六脉神剑，6招暧昧攻心术",
+      "next_bookmark": "Current supplied text completed; missing chapter four and referenced images await a verified version. Project next: S04 4-7、建立感情连接..txt decoded character 0.",
       "archive_policy": "Original not redistributed; original paraphrased research notes only",
       "front_matter": {
         "start": "PDF file P1",
         "end": "PDF file P8 before first chapter body heading",
         "status": "provided text fully read",
-        "notes": "commercial claims and table-of-contents discrepancies recorded"
+        "notes": "knowledge/books/S02-chen-twelve/ch01.md"
       },
       "version_observations": [
         "TOC says eight traits; chapter two body heading says nine",
@@ -189,7 +207,9 @@
           90
         ],
         "missing": "Referenced photographs not supplied; placeholders are literal visible text"
-      }
+      },
+      "all_supplied_text_read": true,
+      "body_chapters_supplied": 11
     },
     {
       "id": "S03",
