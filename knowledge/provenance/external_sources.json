@@ -366,7 +366,54 @@
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "partial; decoded [0,33384) read: front matter and chapters one-two; remaining text not counted",
+          "characters": 141076,
+          "page_marker_count": 125,
+          "notes": "knowledge/books/S04-mystery-method.md",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "completed_units": [
+            {
+              "unit": "front matter",
+              "range": [
+                0,
+                20967
+              ],
+              "page_markers": [
+                1,
+                9
+              ]
+            },
+            {
+              "unit": "chapter one",
+              "range": [
+                20967,
+                26462
+              ],
+              "page_markers": [
+                10,
+                13
+              ],
+              "printed_pages": [
+                4,
+                7
+              ]
+            },
+            {
+              "unit": "chapter two",
+              "range": [
+                26462,
+                33384
+              ],
+              "page_markers": [
+                14,
+                21
+              ],
+              "printed_pages": [
+                8,
+                15
+              ]
+            }
+          ]
         },
         {
           "entry": "k第十一课-吸引不是选择..txt",
@@ -618,18 +665,24 @@
       ],
       "notes": [
         "knowledge/books/S04-top30-units.md",
-        "knowledge/cases/C07-published-dialogues.md"
+        "knowledge/cases/C07-published-dialogues.md",
+        "knowledge/books/S04-mystery-method.md"
       ],
       "next_bookmark": {
         "entry": "b第二课-迷男方法【必修】..txt",
-        "decoded_character_offset": 0,
-        "status": "unread",
+        "decoded_character_offset": 33384,
+        "page_marker": 22,
+        "printed_page": 16,
+        "heading": "第3章 改写她的恋爱电路",
+        "status": "unread from this bookmark",
         "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1"
       },
       "coverage_counts": {
         "supplied_text_complete_entries": 13,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 16
+        "remaining_without_verified_complete_reading": 16,
+        "partial_entries": 1,
+        "unread_or_unverified_historical_entries": 15
       }
     },
     {
