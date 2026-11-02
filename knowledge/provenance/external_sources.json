@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; individual entry statuses below; not all thirty read",
+      "reading_status": "archive_directory_verified; 18 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 11 without verified complete reading; original publications unverified",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -806,10 +806,30 @@
           "entry": "善解人意才会爱：共情.txt",
           "bytes": 46782,
           "sha256": "faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9",
-          "reading_status": "unverified_historical_claim",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,16014); CR retained; supplied TXT only; original book/PDF and images unverified",
           "characters": 16014,
           "page_marker_count": 0,
-          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "notes": "knowledge/books/S04-empathy.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open, CR and other original controls retained",
+            "ranges": [
+              [
+                0,
+                9000
+              ],
+              [
+                9000,
+                16014
+              ]
+            ]
+          },
+          "text_integrity": {
+            "CR_count": 294,
+            "NUL_count": 0,
+            "replacement_count": 0,
+            "page_marker_count": 0
+          }
         },
         {
           "entry": "女人最讨厌的聊天4大常见错误..txt",
@@ -968,21 +988,22 @@
         "knowledge/cases/C16-tyler-phone-priorities.md",
         "knowledge/cases/C17-tyler-group-number-only.md",
         "knowledge/books/S04-date-tips.md",
-        "knowledge/cases/C18-date-tips-overcontact.md"
+        "knowledge/cases/C18-date-tips-overcontact.md",
+        "knowledge/books/S04-empathy.md"
       ],
       "next_bookmark": {
-        "entry": "善解人意才会爱：共情.txt",
+        "entry": "说出感觉容易爱：述情.txt",
         "decoded_character_offset": 0,
         "heading": "TXT开头，正文未读",
         "status": "unread from this bookmark",
-        "sha256": "faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9"
+        "sha256": "feecd29a71fd9cb67c0907dbe7ae328e35e54d6afa0ca2ce520b63c9cabf9295"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 17,
+        "supplied_text_complete_entries": 18,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 12,
+        "remaining_without_verified_complete_reading": 11,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 12
+        "unread_or_unverified_historical_entries": 11
       }
     },
     {
@@ -2123,5 +2144,14 @@
     "new_archived_documents": 11,
     "new_license_files": 1,
     "full_library_reading_claim": false
+  },
+  "core_reading_round": {
+    "date": "2026-11-02",
+    "baseline": "06f5eb7e94c335387d3410455abf2f0e3b712aa8",
+    "units_completed": [
+      "E01"
+    ],
+    "decoded_characters_read": 16014,
+    "source_ledger": "knowledge/provenance/core_reading_ledger.json"
   }
 }

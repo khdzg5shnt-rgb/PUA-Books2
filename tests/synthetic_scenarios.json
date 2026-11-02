@@ -598,5 +598,43 @@
     "expect_route": "R17",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T46",
+    "context": "她表达难过同时明确问怎么办，应回应所求办法而非只反复确认心情",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "distress",
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T47",
+    "context": "她着急是因为车快开了，先处理时限内的现实问题",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "distress",
+      "urgent_practical_need": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T48",
+    "context": "她只说心情糟且未求方案，不默认需要被启发反省",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "distress"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
   }
 ]

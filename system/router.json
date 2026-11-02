@@ -23,7 +23,9 @@
     "user_availability_known": false,
     "activity_verified": false,
     "shared_callback_available": false,
-    "roleplay_shared": false
+    "roleplay_shared": false,
+    "advice_requested": false,
+    "urgent_practical_need": false
   },
   "enums": {
     "refusal_scope": [
@@ -384,9 +386,23 @@
       "id": "R15",
       "name": "真实困扰",
       "when": {
-        "field": "function",
-        "op": "eq",
-        "value": "distress"
+        "all": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "distress"
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
       },
       "method_ids": [
         "M11"
@@ -401,15 +417,29 @@
       "id": "R16",
       "name": "明确求建议",
       "when": {
-        "field": "function",
-        "op": "eq",
-        "value": "advice_request"
+        "any": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "advice_request"
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": true
+          }
+        ]
       },
       "method_ids": [
         "M13"
       ],
       "action": "draft",
-      "purpose": "先回答所求，不强行调情",
+      "purpose": "明确求办法或有紧要实际事务时先提供可行帮助，不机械套共情四步",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]

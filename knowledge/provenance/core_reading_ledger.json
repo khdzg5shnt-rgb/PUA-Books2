@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "source": "S04",
+  "zip_sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
+  "locator": "UTF-8-sig decoded codepoints, zero-based half-open, CR and other original controls retained",
+  "units": [
+    {
+      "id": "E01",
+      "entry": "善解人意才会爱：共情.txt",
+      "sha256": "faef3fa1357880d9a932e38d8148ce354ce4995de9fa6102d62605776c99dde9",
+      "bytes": 46782,
+      "characters": 16014,
+      "lines": 295,
+      "encoding": "utf-8-sig",
+      "CR_count": 294,
+      "NUL_count": 0,
+      "replacement_count": 0,
+      "page_marker_count": 0,
+      "chunk_count": 4,
+      "notes": "knowledge/books/S04-empathy.md",
+      "read_ranges": [
+        [
+          0,
+          9000
+        ],
+        [
+          9000,
+          16014
+        ]
+      ],
+      "reading_status": "supplied_text_complete",
+      "original_publication_completeness": "unverified",
+      "raw_text_archived": false
+    }
+  ],
+  "scope": "Supplied TXT only; not original book/PDF completeness or empirical validation"
+}

@@ -232,8 +232,8 @@
       "id": "M11",
       "name": "接住困扰",
       "use_when": "她在表达委屈、疲惫、焦虑或难过，而非开玩笑",
-      "operation": "回应她已表达的事与感受，留出倾诉或休息空间；求建议时再讨论办法。",
-      "avoid": "先问她做错了什么；趁脆弱升级暧昧；代承诺随时上门。",
+      "operation": "回应她已表达的事情与感受，理解感受不等于判谁对错；未说清的情绪仅作可纠正推测。她不想谈或否认时不追问；明确求建议或有紧要事务时优先回应实际需要。",
+      "avoid": "先问她做错了什么；替第三方开脱或替她判案；用四步共情进行连续盘问、改造或隐性归责；把否认当压抑；趁脆弱升级暧昧。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -243,6 +243,11 @@
         {
           "path": "knowledge/books/S04-top30-units.md",
           "locator": "状态、感受、关联",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-empathy.md",
+          "locator": "四步结构、案例证据与本项目采用边界",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -279,8 +284,8 @@
       "id": "M13",
       "name": "回答她确实提出的求助",
       "use_when": "她明确在向用户请求意见或信息",
-      "operation": "先回应她真正的问题，只给用户能真实提供的帮助；不知道就说明未知。",
-      "avoid": "为了制造张力拒答；冒充专业结论；用帮忙交换关系。",
+      "operation": "先回应她明确请求的意见或信息，给用户真实能提供的帮助；需要关键事实时只核一项，不知道就保留未知。可承接感受，但不强制等她情绪消失或先完成一套提问。",
+      "avoid": "为了制造张力拒答；冒充专业结论；用帮忙交换关系；对方已求实际办法却只反复问感受；将不提供答案说成唯一有效帮助。",
       "sources": [
         {
           "path": "knowledge/topics/humor-threading.md",
@@ -290,6 +295,11 @@
         {
           "path": "knowledge/books/G01-lianai.md",
           "locator": "倾听与方案区别",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-empathy.md",
+          "locator": "四步结构、案例证据与本项目采用边界",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -463,8 +473,8 @@
       "id": "M21",
       "name": "有依据的修复",
       "use_when": "截图明确显示某个具体言行造成误解或伤害，用户要修复",
-      "operation": "只承认能确认的那一部分影响，说明接下来怎么做；未知争议不揽成自己全错。",
-      "avoid": "没有事实就让用户自责；长篇辩白；用暧昧绕过真实问题。",
+      "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。",
+      "avoid": "没有事实就让用户自责；把被出轨或被不尊重归因共情不够；长篇辩白；用暧昧绕过真实问题。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -474,6 +484,11 @@
         {
           "path": "sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt",
           "locator": "事实、影响、需要、请求",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-empathy.md",
+          "locator": "四步结构、案例证据与本项目采用边界",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -573,8 +588,8 @@
       "id": "M26",
       "name": "压成一句自然的话",
       "use_when": "已经选定本轮目标与依据，需要生成给用户复制的消息",
-      "operation": "先满足她这句话的实际作用；默认一至两行、最多一个问题、零至一个表情，只给一个成品；普通回复不附理论。",
-      "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、给三档话术。",
+      "operation": "先满足这句话的实际作用；默认一至两行、最多一个问题、零至一个表情、一个成品。共情或述情结构只取当前需要的一步，普通回复不附理论。",
+      "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。",
       "sources": [
         {
           "path": "knowledge/books/G01-practical-expansion.md",
@@ -589,6 +604,11 @@
         {
           "path": "CHAT_GUIDANCE_PLAYBOOK.md",
           "locator": "当前项目输出规则",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-empathy.md",
+          "locator": "四步结构、案例证据与本项目采用边界",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
