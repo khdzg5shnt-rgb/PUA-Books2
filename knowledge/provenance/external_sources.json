@@ -280,7 +280,22 @@
           "entry": "2-8、搭讪流程..txt",
           "bytes": 11562,
           "sha256": "b9d46c959bbfefe3433b35980f0d876c553c6898b3346073bafc41c4a3455ba4",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing extracted text only; original PDF not verified",
+          "characters": 4588,
+          "page_markers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U07",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "2-8、聊天中的幽默..txt",
@@ -423,7 +438,37 @@
           "page_markers": [],
           "notes": "knowledge/books/S04-top30-units.md",
           "note_section": "U06",
-          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "bookmarks": [
+            {
+              "query": "错误一，连续提问",
+              "offset": 372
+            },
+            {
+              "query": "错误二，不说自己",
+              "offset": 1113
+            },
+            {
+              "query": "错误三，情感过度",
+              "offset": 1826
+            },
+            {
+              "query": "随意评价包括",
+              "offset": 2583
+            },
+            {
+              "query": "最后，针对聊天的四大常见错误",
+              "offset": 3359
+            },
+            {
+              "query": "心理测试",
+              "offset": 2865
+            }
+          ],
+          "unresolved_controls": {
+            "U+0001": 7,
+            "meaning": "unverified layout or omitted-media markers"
+          }
         },
         {
           "entry": "如何成为品味男人.txt",
@@ -495,15 +540,15 @@
         "knowledge/cases/C07-published-dialogues.md"
       ],
       "next_bookmark": {
-        "entry": "2-8、搭讪流程..txt",
+        "entry": "2-2、搭讪心态..txt",
         "decoded_character_offset": 0,
         "status": "unread",
-        "sha256": "b9d46c959bbfefe3433b35980f0d876c553c6898b3346073bafc41c4a3455ba4"
+        "sha256": "e56516c61bd9bba6d632c5469061cbc9740f3f4f7dd01c0699be98d10f5d9dce"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 8,
+        "supplied_text_complete_entries": 9,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 21
+        "remaining_without_verified_complete_reading": 20
       }
     },
     {
