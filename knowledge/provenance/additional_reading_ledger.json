@@ -411,6 +411,51 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S20",
+      "sha256": "d9cfad82e0a17a34039d381be2af66573327e09cbf35318cf609257c16bbb661",
+      "bytes": 228387,
+      "characters": 3469,
+      "text_sha256": "9953673e6c55306547890166a7f764b2220c9a92c2c8d594395b811208ba3612",
+      "encoding_or_extraction": "pypdf page text; join U+000C; page sizes 754,444,387,470,479,473,270,185",
+      "read_ranges": [
+        [
+          0,
+          3469
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          3469
+        ]
+      ],
+      "notes": "knowledge/books/S20-ghost-ct-manual.md",
+      "original_media_verified": true,
+      "rendered_layout_verified": true,
+      "page_count": 8,
+      "read_file_pages": [
+        1,
+        8
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status_detail": "provided_eight_page_Ghost_CT_manual_text_complete_and_all_pages_visually_reviewed; P7 diagram read visually; not independently attributed to Mystery",
+      "status_short": "现有P1–8全文与图像已核；署名幽灵，非据文件名归谜男",
+      "limits": "Current eight-page Ghost-attributed manual only; P7 curve illustrative and not data; attribution, thresholds and claimed outcomes unverified",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

@@ -236,6 +236,11 @@
           "path": "knowledge/books/S17-six-techniques.md",
           "locator": "P1–6六部分定义、标题/署名差异与未提供后续的候选回复",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S20-ghost-ct-manual.md",
+          "locator": "P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -496,6 +501,11 @@
           "path": "knowledge/books/S16-mystery-essence.md",
           "locator": "P1–5阶段、主动关心与调侃的内部冲突及自报结果限制",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S20-ghost-ct-manual.md",
+          "locator": "P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -507,7 +517,7 @@
       "name": "一次具体邀约",
       "use_when": "用户要邀约，已有双向互动、可行活动与用户确认的可用时间，且没有当前拒绝",
       "operation": "用真实活动与一个具体时间提出邀请；允许对方调整或拒绝，不强制先模糊邀约。",
-      "avoid": "虚构活动、空闲或顺路；以固定台词阶段为邀约前提；一轮反复换日期，或借最后机会施压。",
+      "avoid": "虚构活动、空闲或顺路；以固定台词阶段、信号数量或通过服从测试为邀约前提；一轮反复换日期，或借最后机会施压。",
       "sources": [
         {
           "path": "knowledge/topics/invitation-feedback.md",
@@ -532,6 +542,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S20-ghost-ct-manual.md",
+          "locator": "P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -828,7 +843,7 @@
       "name": "尊重拒绝的具体范围",
       "use_when": "她明确拒绝联系、恋爱发展、某种身体行为、活动或转移联系方式",
       "operation": "停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。",
-      "avoid": "用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。",
+      "avoid": "用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。",
       "sources": [
         {
           "path": "CHAT_GUIDANCE_PLAYBOOK.md",
@@ -883,6 +898,11 @@
         {
           "path": "knowledge/books/S19-three-months-contacts.md",
           "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S20-ghost-ct-manual.md",
+          "locator": "P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

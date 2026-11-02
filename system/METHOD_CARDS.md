@@ -74,7 +74,7 @@
 
 避免：强叫亲昵称呼或要求立即改口；把共享角色、昵称和仪式当成双方已确认现实关系、承诺或同意。
 
-依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)
+依据：[角色扮演](../knowledge/books/S01-chen-five.md)；[称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
 
 ## M08 有依据的可纠正观察
 
@@ -136,7 +136,7 @@
 
 避免：为制造张力拒答、冒充专业结论、拿帮助交换亲密或顺从；已明确求办法却只追问感受，或故意不帮以逼迫成长。普通帮助不自动是控制。
 
-依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
+依据：[认真回应资讯与求助](../knowledge/topics/humor-threading.md)；[倾听与方案区别](../knowledge/books/G01-lianai.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
 
 ## M14 一次具体邀约
 
@@ -144,9 +144,9 @@
 
 动作：用真实活动与一个具体时间提出邀请；允许对方调整或拒绝，不强制先模糊邀约。
 
-避免：虚构活动、空闲或顺路；以固定台词阶段为邀约前提；一轮反复换日期，或借最后机会施压。
+避免：虚构活动、空闲或顺路；以固定台词阶段、信号数量或通过服从测试为邀约前提；一轮反复换日期，或借最后机会施压。
 
-依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
 
 ## M15 确认已答应的安排
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。
 
-避免：用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
+避免：用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)
 
 ## M24 见面后的真实反馈
 
