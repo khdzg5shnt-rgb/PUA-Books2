@@ -73,7 +73,7 @@
       "sha256": "2da7376e24482b522eeea5e46620df3235a8d7a75d46e45ded9f9607eddad8b5",
       "bytes": 812370,
       "pages": 207,
-      "reading_status": "partial; completed chapter IDs 1,2,7,8,9,10,11,12; remaining chapters not counted",
+      "reading_status": "partial; completed chapter IDs 1,2,3,7,8,9,10,11,12; remaining chapters not counted",
       "notes": "knowledge/books/S02-chen-twelve.md",
       "completed_units": [
         {
@@ -88,6 +88,13 @@
           "chapter": "第二式：九类吸引特质、六项气质和幽默",
           "start": "PDF file P30 at current chapter heading",
           "end": "PDF file P74 before next chapter heading",
+          "images": "No embedded images anywhere in this PDF; current provided text read"
+        },
+        {
+          "chapter_id": 3,
+          "chapter": "第三式：形象、展示面和身体训练",
+          "start": "PDF file P74 at current chapter heading",
+          "end": "PDF file P90 before next chapter heading",
           "images": "No embedded images anywhere in this PDF; current provided text read"
         },
         {
@@ -134,7 +141,7 @@
           "images": "No embedded images anywhere in this PDF; current provided text read"
         }
       ],
-      "next_bookmark": "PDF file P74 at 第三式：脱胎换骨，工欲善其事必先利其器",
+      "next_bookmark": "PDF file P90 at 第五式：斗转星移，换位思考，快速提高你的情商",
       "archive_policy": "Original not redistributed; original paraphrased research notes only",
       "front_matter": {
         "start": "PDF file P1",
@@ -147,8 +154,35 @@
         "Chapter one repeats item 30: forty-one blocks labelled as forty",
         "Chapter ten says three steps but provides six",
         "Chapter eleven says three venue types but gives two",
-        "Reference to chapter thirteen on P147 has no body heading in supplied 207-page file"
-      ]
+        "Reference to chapter thirteen on P147 has no body heading in supplied 207-page file",
+        "Chapter four appears in TOC only; body jumps from chapter three to five",
+        "Eleven image placeholders on P80-83 have no supplied images"
+      ],
+      "missing_body_chapters": [
+        {
+          "chapter_id": 4,
+          "title": "获取美女资源的基本操作",
+          "evidence": "Only present in TOC P8; chapter three ends P90 immediately before chapter five; all page texts searched; P89-90 visually checked",
+          "status": "not supplied in this file; not counted as read"
+        }
+      ],
+      "visual_content_status": {
+        "embedded_images": 0,
+        "placeholder_pages": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "placeholder_markers": 11,
+        "rendered_pages_checked": [
+          80,
+          83,
+          89,
+          90
+        ],
+        "missing": "Referenced photographs not supplied; placeholders are literal visible text"
+      }
     },
     {
       "id": "S03",
