@@ -5,9 +5,10 @@
 | 当前需要 | 优先读取 | 能直接取得的内容 |
 | --- | --- | --- |
 | 回复一句话、自然接题 | [S02](../books/S02-chen-twelve.md)、[幽默主题](humor-threading.md) | 拆解/平移、真实经历叙事、共享梗、选择一条及不适用情境 |
-| 她在抱怨、认真求助或开心分享 | [G01](../books/G01-lianai.md)、[S04](../books/S04-top30-units.md) | 先回应具体事情与感受；不硬转调情，不虚构付出或自责 |
+| 她在抱怨、认真求助或开心分享 | [G01](../books/G01-lianai.md)、[S04](../books/S04-top30-units.md) | 状态/感受/关联；回应具体事情，不虚构感受或自动归责 |
 | 慢回、短回、纠正、拒约 | [邀约主题](invitation-feedback.md)、[G02](../books/G02-qingsheng.md)、[G04](../books/G04-simp.md) | 问句是否已被答完、环境/平台因素、明确意愿与当前未知 |
 | 有意愿但安排没成 | [C09](../cases/C09-b092-logistics.md)、[C10](../cases/C10-fan-reconnection.md) | 兴趣、可行安排、作者自报和实际结果分别记录 |
+| 咨询和提供照片能说明什么 | [C11](../cases/C11-hair-advice.md)、[S04](../books/S04-top30-units.md) | 任务用途、导师建议和实际发生的回应分开 |
 | 课件声称阶段、当量或温度分数 | [G03](../books/G03-fan.md)、[G05](../books/G05-candlestick.md) | 作者定义、算法默认值与未经验证的部分 |
 | 想研究直播式类比和反转 | [G06](../books/G06-tong.md) | 五模型和表达方式；逐字视频/完整案例缺口明确 |
 | 恢复或核对资料 | [来源目录](../provenance/source-catalog.md)、[G07](../books/G07-pua-books.md)、[G08](../books/G08-chatlab.md)、[G09](../books/G09-jev-chat.md) | 去重、固定版本、先核原句、工具与教学证据分开 |

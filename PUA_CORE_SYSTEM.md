@@ -9,7 +9,7 @@
 | 陈哥技巧与发散 | 冷读、自我夸张、角色、推拉、曲解、画面感；拆解/平移与选择、五段叙事结构 | [S01](knowledge/books/S01-chen-five.md)、[S02第七、八式](knowledge/books/S02-chen-twelve.md)、[C06](knowledge/cases/C06-chen-screenshots.md) |
 | 阶段与自我表达 | Adam四阶段、浪迹五阶段、杂耍人整理；保留反固定步骤观点 | [B047](knowledge/books/B047.md)、[B103](knowledge/books/B103.md)、[B072](knowledge/books/B072.md) |
 | 线上、邀约与结果 | 真实呈现、Time Bridging、Callback Humor、Investment；意愿与安排分开 | [B037](knowledge/books/B037.md)、[B092](knowledge/books/B092.md)、[邀约主题](knowledge/topics/invitation-feedback.md) |
-| 回应与修复 | 事件/感受/需要/请求，核对事实而不自动归责 | [G01](knowledge/books/G01-lianai.md)、[G04](knowledge/books/G04-simp.md) |
+| 回应与修复 | 事件/感受/需要/请求；魔卡状态/感受/关联及其限制 | [G01](knowledge/books/G01-lianai.md)、[G04](knowledge/books/G04-simp.md)、[S04](knowledge/books/S04-top30-units.md) |
 | 导师/策划者框架 | 七阶段、梵系分类/当量、童锦程二次模型及其证据限制 | [G02](knowledge/books/G02-qingsheng.md)、[G03](knowledge/books/G03-fan.md)、[G06](knowledge/books/G06-tong.md) |
 | 数据整理与工具 | 原句核对、来源标准化、相对评分公式与局限 | [G05](knowledge/books/G05-candlestick.md)、[G08](knowledge/books/G08-chatlab.md)、[G09](knowledge/books/G09-jev-chat.md) |
 
