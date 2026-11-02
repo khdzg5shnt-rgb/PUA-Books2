@@ -88,3 +88,5 @@ S16最新覆盖为现有正文[0,4968)；早期未核登记为历史。见[独�
 2026-11-03公开来源更新：G01新增聊天主动引导、G04新增Daily Coach，各自全文已读并按MIT归档；当前合计24篇项目文档、6份MIT许可、30个归档文件。逐文件身份与范围见[元数据](external_sources.json)。仍非九个整仓通读。
 
 S17最新覆盖为现有正文[0,3701)；早期未核登记为历史。见[独立笔记](../books/S17-six-techniques.md)与[附件台账](additional_reading_ledger.json)。
+
+S18最新覆盖为现有正文[0,3306)；早期未核登记为历史。见[独立笔记](../books/S18-peterjoy-upper.md)与[附件台账](additional_reading_ledger.json)。

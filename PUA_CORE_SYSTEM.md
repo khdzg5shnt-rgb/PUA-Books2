@@ -41,3 +41,5 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 公开指南续读：[G01主动聊天](knowledge/books/G01-passive-to-active.md)与[G04日常建议](knowledge/books/G04-daily-coach.md)保留一个当前目标与双向承接，不强制每轮开放式提问、不以求助次数推断状态，不计算未经验证的发送时间或兴趣分。
 
 [S17原结构与取舍](knowledge/books/S17-six-techniques.md)：现有六页PDF正文与全部页面已核；文件名与实际署名、五/六标题不一致。真实细节与想象分开，角色不当共同记忆，一轮不堆多种技巧或分支。
+
+[S18原结构与取舍](knowledge/books/S18-peterjoy-upper.md)：当前八页实际为PeterJOY上部笔记；P5嵌入的九阶段表与结构图已目读，不把提取空白当缺页，也不把文件名完美当原著完整。未增加重复方法。

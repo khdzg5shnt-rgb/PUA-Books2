@@ -104,7 +104,7 @@
 
 避免：移植导师身份、所在地、行业、情史、梦境、故事和未来承诺；虚构照片出处或假装熟悉作品；故意吊住每个故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)
 
 ## M11 接住困扰
 
@@ -188,7 +188,7 @@
 
 避免：从“周六”“猫”“好”单独推断冷淡或测试。
 
-依据：[短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；[信号表的限制](../knowledge/books/G02-reference-expansion.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)
+依据：[短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；[信号表的限制](../knowledge/books/G02-reference-expansion.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)
 
 ## M19 持续单边时停止加码
 
@@ -238,7 +238,7 @@
 
 避免：用阶段、LMR、所谓象征性抵抗、时长、积分、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)
 
 ## M24 见面后的真实反馈
 
@@ -268,4 +268,4 @@
 
 避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)

@@ -319,6 +319,51 @@
       "reading_status": "supplied_or_extracted_text_complete",
       "NUL_count": 0,
       "replacement_count": 0
+    },
+    {
+      "id": "S18",
+      "sha256": "7d76d1188803ddd67bfb52a68d4ee4d4c6f83030008827c7e4e18032493a58fd",
+      "bytes": 422698,
+      "characters": 3306,
+      "text_sha256": "6aff02a2194665b4c44a1d6ae9f4e38546750a0a0276f5735fcec5cba2b69beb",
+      "encoding_or_extraction": "pypdf page text; join U+000C; page sizes 80,419,739,675,39,545,402,400",
+      "read_ranges": [
+        [
+          0,
+          3306
+        ]
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          3306
+        ]
+      ],
+      "notes": "knowledge/books/S18-peterjoy-upper.md",
+      "original_media_verified": true,
+      "rendered_layout_verified": true,
+      "page_count": 8,
+      "read_file_pages": [
+        1,
+        8
+      ],
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status_detail": "provided_eight_page_upper_notes_text_complete_and_all_pages_visually_reviewed; P5 embedded diagrams read visually; original/lower volume unverified",
+      "status_short": "现有上部P1–8全文和图示已核；并非完整原著或下部",
+      "limits": "Current upper-volume notes only; all eight pages viewed; P5 raster diagram read visually but not transcribed into character count; absent lower volume and full original unverified",
+      "date": "2026-11-03",
+      "reading_status": "supplied_or_extracted_text_complete",
+      "NUL_count": 0,
+      "replacement_count": 0
     }
   ],
   "updated": "2026-11-03"

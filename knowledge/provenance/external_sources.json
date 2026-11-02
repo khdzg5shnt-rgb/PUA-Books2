@@ -1437,10 +1437,27 @@
       "title": "《迷男方法》整理(完美)(4).pdf",
       "sha256": "7d76d1188803ddd67bfb52a68d4ee4d4c6f83030008827c7e4e18032493a58fd",
       "bytes": 422698,
-      "reading_status": "available and identity checked; not read in this unit; prior extraction/read coverage not verified",
+      "reading_status": "provided_eight_page_upper_notes_text_complete_and_all_pages_visually_reviewed; P5 embedded diagrams read visually; original/lower volume unverified",
       "archive_policy": "No explicit redistribution permission; original not copied",
-      "pending": "Verify actual edition and source contents before using; embedded images/tables not assumed blank",
-      "pages": 8
+      "pending": "Current upper-volume notes only; all eight pages viewed; P5 raster diagram read visually but not transcribed into character count; absent lower volume and full original unverified",
+      "pages": 8,
+      "notes": "knowledge/books/S18-peterjoy-upper.md",
+      "characters": 3306,
+      "read_coverage": {
+        "locator": "pypdf page text; join U+000C; page sizes 80,419,739,675,39,545,402,400; zero-based half-open",
+        "ranges": [
+          [
+            0,
+            3306
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            3306
+          ]
+        ]
+      }
     },
     {
       "id": "S19",
@@ -2622,16 +2639,18 @@
         "S12",
         "S13",
         "S16",
-        "S17"
+        "S17",
+        "S18"
       ],
-      "decoded_characters": 88493,
+      "decoded_characters": 91799,
       "notes": [
         "knowledge/books/S07-stage-script.md",
         "knowledge/books/S11-mystery-notes.md",
         "knowledge/books/S12-social-scripts.md",
         "knowledge/books/S13-mystery-excerpts.md",
         "knowledge/books/S16-mystery-essence.md",
-        "knowledge/books/S17-six-techniques.md"
+        "knowledge/books/S17-six-techniques.md",
+        "knowledge/books/S18-peterjoy-upper.md"
       ],
       "status": "independent reading unit integrated",
       "github_documents": [

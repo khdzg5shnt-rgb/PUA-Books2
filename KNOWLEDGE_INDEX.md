@@ -47,3 +47,5 @@
 2026-11-03公开来源续读：[主动聊天的边界](knowledge/books/G01-passive-to-active.md)、[Daily Coach取舍](knowledge/books/G04-daily-coach.md)。两份全文与许可在库内可读，不导入其私人建档、固定日程或评分规则。
 
 2026-11-03续读[S17 谜男聊天6大杀手锏.pdf](knowledge/books/S17-six-techniques.md)：现有六页PDF正文与全部页面已核；文件名与实际署名、五/六标题不一致。真实细节与想象分开，角色不当共同记忆，一轮不堆多种技巧或分支。
+
+2026-11-03续读[S18 《迷男方法》整理(完美)(4).pdf](knowledge/books/S18-peterjoy-upper.md)：当前八页实际为PeterJOY上部笔记；P5嵌入的九阶段表与结构图已目读，不把提取空白当缺页，也不把文件名完美当原著完整。未增加重复方法。
