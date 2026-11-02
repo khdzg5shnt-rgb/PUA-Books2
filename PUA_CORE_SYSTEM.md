@@ -18,6 +18,6 @@
 
 有的作者强调按阶段推进，有的反对固定步骤；有的将短回和拒绝当兴趣不足或测试，有的强调上下文和明确意愿。实际指导依[工作规则](CHAT_GUIDANCE_PLAYBOOK.md)使用可见事实，不能用一套书里的标签压掉对方的原话。
 
-B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术语表已读完，M3九阶段、校准/内化、IOI/IOD、DHV/DLV、Neg三类、Frame、Qualification及A3术语已有该版本定位，见[长篇笔记](knowledge/books/S04-mystery-method.md)；Tyler英文合集已读前部及15篇完整正文与Outer首篇前段，见[分组笔记](knowledge/books/S04-tyler.md)，后续未读；Mystery原PDF、英文原版及跨版本术语仍待核验。[理论地图](knowledge/topics/theory-map.md)保留细节与空缺；二次总纲不替代原文阅读。
+B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术语表已读完，M3九阶段、校准/内化、IOI/IOD、DHV/DLV、Neg三类、Frame、Qualification及A3术语已有该版本定位，见[长篇笔记](knowledge/books/S04-mystery-method.md)；Tyler英文合集已读前部及25篇完整正文与Tug前段，见[分组笔记](knowledge/books/S04-tyler.md)，后续未读；Mystery原PDF、英文原版及跨版本术语仍待核验。[理论地图](knowledge/topics/theory-map.md)保留细节与空缺；二次总纲不替代原文阅读。
 
 按当前问题选择来源见[主题选择表](knowledge/topics/source-synthesis.md)，科学研究与导师自述的界限见[证据记录](knowledge/topics/evidence.md)。新来源中的论文清单尚未因此自动核验。

@@ -11,9 +11,11 @@
 | 封面、全部目录、女性心理分类及四篇正文 | [0,32249) | PAGE 1–14开头 | [四篇范式文章](S04-tyler/01-paradigms.md) |
 | Inner game标题及前六篇 | [32249,79212) | PAGE 14中段–28中段 | [内在思维前六篇](S04-tyler/02-inner-first-six.md) |
 | Inner game后五篇 | [79212,111986) | PAGE 28中段–39中段 | [习惯/专注/积极与练习](S04-tyler/03-inner-remaining.md) |
-| Outer game首篇前段 | [111986,115019) | PAGE 39中段至页末 | 同上末节，尚未读完该篇 |
+| Outer game前六篇 | [111986,161289) | PAGE 39中段–54中段 | [自然表达/融洽/25项](S04-tyler/04-outer-first-six.md) |
+| Outer game再四篇 | [161289,205597) | PAGE 54中段–69中段 | [冷读/测试/温度模型/短互动](S04-tyler/05-outer-models.md) |
+| Tug of War前段 | [205597,212040) | PAGE 69中段–70末 | 同上末节，尚未读完 |
 
-**当前实际已读[0,115019)，完整15篇正文及Outer首篇前段；不是100页全读。** 同一PAGE可能包含前篇结尾与后篇标题，因此不能以有某一页标就推称该页全部内容及跨页文章已读。封面/目录不算正文篇数。
+**当前实际已读[0,212040)，完整25篇正文及Tug of War前段；不是100页全读。** 同一PAGE可能包含前篇结尾与后篇标题，因此不能以有某一页标就推称该页全部内容及跨页文章已读。封面/目录不算正文篇数。
 
 Inner game所列11篇现已读完；目录另列Outer game后文、现场报告及缩略语表，尚未读到的内容不能因标题、旧摘要或中文版本相似而补齐。B112/B115及其他译本身份独立，不自动宣布读完。
 
@@ -25,6 +27,6 @@ Inner game所列11篇现已读完；目录另列Outer game后文、现场报告�
 
 ## 准确下一处
 
-ZIP同一条目原解码字符**115019**，PAGE **40**标记，**Natural Game, Being Higher Value and Humor**续文开始未读。SHA-256如上；此前Inner game全部11篇及Outer首篇PAGE 39前段已读。
+ZIP同一条目原解码字符**212040**，PAGE **71**标记，**Tug of War**续文开始未读。SHA-256如上；此前Inner game全部11篇、Outer前10篇与Tug前段至PAGE 70末已读。
 
 恢复由[CURRENT_STATE](../../CURRENT_STATE.md)进入；源清单见[external_sources.json](../provenance/external_sources.json)，短篇与相关来源见[S04总入口](S04-top30-units.md)。文件用于检索恢复，不是完成模型训练或永久记住。

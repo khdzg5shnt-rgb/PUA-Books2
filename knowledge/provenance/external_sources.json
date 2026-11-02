@@ -581,7 +581,7 @@
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
           "bytes": 315266,
           "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-          "reading_status": "partial; decoded [0,115019) read, front matter plus 15 complete essays; first Outer game essay partially read; next PAGE 40 continuation",
+          "reading_status": "partial; decoded [0,212040) read: front matter and 25 complete essays, Tug of War partially read; next PAGE 71",
           "characters": 315142,
           "page_marker_count": 100,
           "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
@@ -619,26 +619,48 @@
                 28,
                 39
               ]
+            },
+            {
+              "unit": "Outer game first six essays",
+              "range": [
+                111986,
+                161289
+              ],
+              "page_markers": [
+                39,
+                54
+              ]
+            },
+            {
+              "unit": "Outer game next four essays",
+              "range": [
+                161289,
+                205597
+              ],
+              "page_markers": [
+                54,
+                69
+              ]
             }
           ],
           "in_progress_unit": {
-            "title": "Natural Game, Being Higher Value and Humor",
+            "title": "Tug of War",
             "range_read": [
-              111986,
-              115019
+              205597,
+              212040
             ],
             "page_markers_read": [
-              39,
-              39
+              69,
+              70
             ]
           },
-          "complete_essay_count": 15,
+          "complete_essay_count": 25,
           "read_coverage": {
             "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR retained",
             "ranges": [
               [
                 0,
-                115019
+                212040
               ]
             ]
           }
@@ -889,11 +911,11 @@
       ],
       "next_bookmark": {
         "entry": "TylerDurdens-Classic-Posts-Collection..txt",
-        "decoded_character_offset": 115019,
-        "heading": "Natural Game, Being Higher Value and Humor续文",
+        "decoded_character_offset": 212040,
+        "heading": "Tug of War续文",
         "status": "unread from this bookmark",
         "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-        "page_marker": 40
+        "page_marker": 71
       },
       "coverage_counts": {
         "supplied_text_complete_entries": 15,
