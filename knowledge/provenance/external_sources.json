@@ -360,13 +360,16 @@
           "entry": "a第一课-本吸引力原理【必修】(1)..txt",
           "bytes": 52060,
           "sha256": "8568e419f7b037270d5776c3cf9a230f114218f166ced6eb9dc5c64c9af3a5f7",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "unverified_historical_claim",
+          "characters": 21426,
+          "page_marker_count": 39,
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "b第二课-迷男方法【必修】..txt",
           "bytes": 358297,
           "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1",
-          "reading_status": "partial; decoded [0,120084) read: front matter and chapters one through 8; remaining text not counted",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,141076), PAGE 1-125, including front matter, nine chapters, conclusion, letter, glossary; original PDF, English edition and corrupted small headings not verified",
           "characters": 141076,
           "page_marker_count": 125,
           "notes": "knowledge/books/S04-mystery-method.md",
@@ -502,9 +505,42 @@
                 88,
                 99
               ]
+            },
+            {
+              "unit": "chapter 9",
+              "range": [
+                120084,
+                133225
+              ],
+              "page_markers": [
+                106,
+                117
+              ],
+              "printed_pages": [
+                100,
+                111
+              ]
+            },
+            {
+              "unit": "conclusion, author letter, glossary",
+              "range": [
+                133225,
+                141076
+              ],
+              "page_markers": [
+                118,
+                125
+              ],
+              "printed_pages": [
+                112,
+                119
+              ]
             }
           ],
-          "case_notes": "knowledge/cases/C14-mystery-nextday.md"
+          "case_notes": "knowledge/cases/C14-mystery-nextday.md",
+          "additional_case_notes": [
+            "knowledge/cases/C15-lovedrop-date-plans.md"
+          ]
         },
         {
           "entry": "k第十一课-吸引不是选择..txt",
@@ -757,22 +793,21 @@
       "notes": [
         "knowledge/books/S04-top30-units.md",
         "knowledge/cases/C07-published-dialogues.md",
-        "knowledge/books/S04-mystery-method.md"
+        "knowledge/books/S04-mystery-method.md",
+        "knowledge/cases/C15-lovedrop-date-plans.md"
       ],
       "next_bookmark": {
-        "entry": "b第二课-迷男方法【必修】..txt",
-        "decoded_character_offset": 120084,
-        "page_marker": 106,
-        "printed_page": 100,
-        "heading": "第九章：中场游戏与结尾游戏",
+        "entry": "a第一课-本吸引力原理【必修】(1)..txt",
+        "decoded_character_offset": 0,
+        "heading": "当前TXT开头，封面/目录/正文均未读",
         "status": "unread from this bookmark",
-        "sha256": "ed0f819bd2d5130278222b1780e268e44bb96980b1561bd7bd9c885959ef0bb1"
+        "sha256": "8568e419f7b037270d5776c3cf9a230f114218f166ced6eb9dc5c64c9af3a5f7"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 13,
+        "supplied_text_complete_entries": 14,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 16,
-        "partial_entries": 1,
+        "remaining_without_verified_complete_reading": 15,
+        "partial_entries": 0,
         "unread_or_unverified_historical_entries": 15
       }
     },
