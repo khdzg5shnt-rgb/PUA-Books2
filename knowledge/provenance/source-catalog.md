@@ -94,3 +94,5 @@ S18最新覆盖为现有正文[0,3306)；早期未核登记为历史。见[独�
 S19最新覆盖为现有正文[0,6008)；早期未核登记为历史。见[独立笔记](../books/S19-three-months-contacts.md)与[附件台账](additional_reading_ledger.json)。
 
 S20最新覆盖为现有正文[0,3469)；早期未核登记为历史。见[独立笔记](../books/S20-ghost-ct-manual.md)与[附件台账](additional_reading_ledger.json)。
+
+S21最新覆盖为现有正文[0,25071)；早期未核登记为历史。见[独立笔记](../books/S21-connor-routines-excerpt.md)与[附件台账](additional_reading_ledger.json)。

@@ -120,7 +120,7 @@
       "id": "M04",
       "name": "回应问题并露出一点自己",
       "use_when": "她认真询问用户的信息或看法",
-      "operation": "先用已知事实回答，再视当前语境加一点真实态度；未知生活事实不代编。",
+      "operation": "先用已知事实回答，再视语境加一点真实态度；没听清时正常重述，不自动认定挑衅或测试。未知生活事实不代编。",
       "avoid": "把正常询问叫测试；为争框架故意不答、卖关子、编身份或无故反问。",
       "sources": [
         {
@@ -141,6 +141,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S21-connor-routines-excerpt.md",
+          "locator": "P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -195,6 +200,11 @@
         {
           "path": "knowledge/books/S16-mystery-essence.md",
           "locator": "P1–5阶段、主动关心与调侃的内部冲突及自报结果限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S21-connor-routines-excerpt.md",
+          "locator": "P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -252,7 +262,7 @@
       "name": "有依据的可纠正观察",
       "use_when": "她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助",
       "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。",
-      "avoid": "凭外貌、头像、星座或开朗程度推出人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。",
+      "avoid": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。",
       "sources": [
         {
           "path": "knowledge/books/S01-chen-five.md",
@@ -277,6 +287,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S21-connor-routines-excerpt.md",
+          "locator": "P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -336,7 +351,7 @@
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
       "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。",
-      "avoid": "移植导师身份、经历、照片出处和未来承诺，或凭照片断定人品；故意吊住故事等追问。",
+      "avoid": "移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。",
       "sources": [
         {
           "path": "knowledge/books/S02-chen-twelve/ch08.md",
@@ -386,6 +401,11 @@
         {
           "path": "knowledge/books/S19-three-months-contacts.md",
           "locator": "P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S21-connor-routines-excerpt.md",
+          "locator": "P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -1029,6 +1049,11 @@
         {
           "path": "knowledge/books/S18-peterjoy-upper.md",
           "locator": "P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S21-connor-routines-excerpt.md",
+          "locator": "P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

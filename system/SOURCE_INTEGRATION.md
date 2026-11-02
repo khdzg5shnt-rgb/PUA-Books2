@@ -52,7 +52,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S18 | 《迷男方法》整理(完美)(4).pdf | 现有上部P1–8全文和图示已核；并非完整原著或下部 | [原创笔记](../knowledge/books/S18-peterjoy-upper.md) |
 | S19 | 3个月(4).pdf | 现有P1–10全文与全部页面图像已核；数量/成功率无可核数据 | [原创笔记](../knowledge/books/S19-three-months-contacts.md) |
 | S20 | 谜男团队-高级班 ct升级手册.pdf | 现有P1–8全文与图像已核；署名幽灵，非据文件名归谜男 | [原创笔记](../knowledge/books/S20-ghost-ct-manual.md) |
-| S21 | PUA话术惯例手册(3).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
+| S21 | PUA话术惯例手册(3).pdf | 现有39页节选文字已读；8页视觉复核，非134页完整版 | [原创笔记](../knowledge/books/S21-connor-routines-excerpt.md) |
 | S22 | 加水印-去水印--36.《谜男方法》(2).pdf | available and identity checked; not read in this unit; prior extraction/read coverage not verified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 
 ## 原始书库与维护
@@ -74,7 +74,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有2项。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。其余尚未核全文的登记附件仍有1项。
 
 ## 本轮公开来源继续补读
 
@@ -101,3 +101,5 @@ S18：[当前独立阅读笔记](../knowledge/books/S18-peterjoy-upper.md)，现
 S19：[当前独立阅读笔记](../knowledge/books/S19-three-months-contacts.md)，现有提取文字[0,6008)已读；原文不转载。实际为三个月加500个微信的10页指南，未提供结果数据；补清拒绝换平台的范围、正常及时回复与未回补发的区别，不用假清单或平台限制换联系方式。
 
 S20：[当前独立阅读笔记](../knowledge/books/S20-ghost-ct-manual.md)，现有提取文字[0,3469)已读；原文不转载。内容实际署名幽灵而非谜男；P7曲线为示意，未给数据或完整反馈。具体邀约无需先做测试，单项配合不兑换下一项亲密许可。
+
+S21：[当前独立阅读笔记](../knowledge/books/S21-connor-routines-excerpt.md)，现有提取文字[0,25071)已读；原文不转载。39页文件末尾明确为节选，目录134页不转算已读；补强没听清时正常重述、不得用网图/他人事迹作本人证据，不采用自动归因和身体特征读心。
