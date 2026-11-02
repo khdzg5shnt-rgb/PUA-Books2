@@ -581,7 +581,7 @@
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
           "bytes": 315266,
           "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-          "reading_status": "partial; decoded [0,212040) read: front matter and 25 complete essays, Tug of War partially read; next PAGE 71",
+          "reading_status": "partial; decoded [0,248576) read: front matter and 29 complete essays, first field report partially read; next PAGE 81",
           "characters": 315142,
           "page_marker_count": 100,
           "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
@@ -641,29 +641,43 @@
                 54,
                 69
               ]
+            },
+            {
+              "unit": "Outer game last four essays",
+              "range": [
+                205597,
+                246250
+              ],
+              "page_markers": [
+                69,
+                80
+              ]
             }
           ],
           "in_progress_unit": {
-            "title": "Tug of War",
+            "title": "AMOG Insanity",
             "range_read": [
-              205597,
-              212040
+              246250,
+              248576
             ],
             "page_markers_read": [
-              69,
-              70
+              80,
+              80
             ]
           },
-          "complete_essay_count": 25,
+          "complete_essay_count": 29,
           "read_coverage": {
             "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR retained",
             "ranges": [
               [
                 0,
-                212040
+                248576
               ]
             ]
-          }
+          },
+          "case_notes": [
+            "knowledge/cases/C16-tyler-phone-priorities.md"
+          ]
         },
         {
           "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
@@ -907,15 +921,16 @@
         "knowledge/books/S04-mystery-method.md",
         "knowledge/cases/C15-lovedrop-date-plans.md",
         "knowledge/books/S04-adam-version.md",
-        "knowledge/books/S04-tyler.md"
+        "knowledge/books/S04-tyler.md",
+        "knowledge/cases/C16-tyler-phone-priorities.md"
       ],
       "next_bookmark": {
         "entry": "TylerDurdens-Classic-Posts-Collection..txt",
-        "decoded_character_offset": 212040,
-        "heading": "Tug of War续文",
+        "decoded_character_offset": 248576,
+        "heading": "AMOG Insanity续文",
         "status": "unread from this bookmark",
         "sha256": "2f978606c947ffa731255722256774bc7e32994e5b155fc48dfc6fd536aaf23b",
-        "page_marker": 71
+        "page_marker": 81
       },
       "coverage_counts": {
         "supplied_text_complete_entries": 15,
