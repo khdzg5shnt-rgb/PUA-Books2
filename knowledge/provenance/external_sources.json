@@ -252,13 +252,40 @@
           "entry": "2-2、搭讪心态..txt",
           "bytes": 9151,
           "sha256": "e56516c61bd9bba6d632c5469061cbc9740f3f4f7dd01c0699be98d10f5d9dce",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing extracted text only; original PDF not verified",
+          "characters": 3573,
+          "page_markers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U08",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained",
+          "completeness_note": "Provided text read to decoded character 3573; last sentence ends mid-sentence at 自如地; original continuation not supplied or verified."
         },
         {
           "entry": "2-3、搭讪焦虑..txt",
           "bytes": 8608,
           "sha256": "a98a2d36f5abe0e36d9b3a6ccdb557e7b174baf9b48db1277eb5048bbc41adf0",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing extracted text only; original PDF not verified",
+          "characters": 3384,
+          "page_markers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "notes": "knowledge/books/S04-top30-units.md",
+          "note_section": "U09",
+          "locator_convention": "UTF-8-sig decoded codepoints, zero-based half-open; CR and control characters retained"
         },
         {
           "entry": "2-4、搭讪时机..txt",
@@ -540,15 +567,15 @@
         "knowledge/cases/C07-published-dialogues.md"
       ],
       "next_bookmark": {
-        "entry": "2-2、搭讪心态..txt",
+        "entry": "2-4、搭讪时机..txt",
         "decoded_character_offset": 0,
         "status": "unread",
-        "sha256": "e56516c61bd9bba6d632c5469061cbc9740f3f4f7dd01c0699be98d10f5d9dce"
+        "sha256": "796bcafb528019e4b15106981f8e4dfd2f55f21b7e305eff6a23af1181f8791b"
       },
       "coverage_counts": {
-        "supplied_text_complete_entries": 9,
+        "supplied_text_complete_entries": 11,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 20
+        "remaining_without_verified_complete_reading": 18
       }
     },
     {
