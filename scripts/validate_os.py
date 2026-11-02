@@ -106,6 +106,16 @@ def validate(root=ROOT):
     for source in provenance['github_sources']:
         if source.get('core_round_synthesis_note'):
             extra_note_paths.add(source['core_round_synthesis_note'])
+        extra_note_paths.update(source.get('continuation_synthesis_notes', []))
+        archived_documents=sum(a['repository']==source['repository'] and a['source_path']!='LICENSE'
+                               for a in provenance['archives'])
+        if archived_documents != source['archived_document_count']:
+            errors.append('GitHub archive count mismatch: '+source['id'])
+        for item in source['files']:
+            if item.get('read_coverage'):
+                if item['read_coverage']['ranges'] != [[0,item['characters']]]:
+                    errors.append('GitHub reading coverage mismatch: '+item['original_path'])
+                extra_note_paths.add(item['notes'])
     cards=(root/'system/METHOD_CARDS.md').read_text(encoding='utf-8')
     for method in methods:
         heading='## '+method['id']+' '+method['name']

@@ -84,3 +84,5 @@ S12最新覆盖为现有正文[0,21368)；早期未核登记为历史。见[独�
 S13最新覆盖为现有正文[0,33594)；早期未核登记为历史。见[独立笔记](../books/S13-mystery-excerpts.md)与[附件台账](additional_reading_ledger.json)。
 
 S16最新覆盖为现有正文[0,4968)；早期未核登记为历史。见[独立笔记](../books/S16-mystery-essence.md)与[附件台账](additional_reading_ledger.json)。
+
+2026-11-03公开来源更新：G01新增聊天主动引导、G04新增Daily Coach，各自全文已读并按MIT归档；当前合计24篇项目文档、6份MIT许可、30个归档文件。逐文件身份与范围见[元数据](external_sources.json)。仍非九个整仓通读。

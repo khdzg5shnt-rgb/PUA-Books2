@@ -1486,10 +1486,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "12 selected project documents fully read; two further practical guides added in core-reading round; not all 67 blobs",
+      "reading_coverage": "13 selected project documents fully read and archived with MIT; not all 67 blobs",
       "pending": "Other unlisted reference documents and independent verification of empirical claims remain outside documented coverage.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 12,
+      "archived_document_count": 13,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1655,12 +1655,36 @@
           "archive_path": "sources/github/lianai/references/practical/高情商拒绝他人：体面护边界的实用指南.md.txt",
           "archive_decision": "MIT project-authored guide; exact inert text retained",
           "notes": "knowledge/books/G01-awkwardness-and-refusal.md"
+        },
+        {
+          "original_path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E8%81%8A%E5%A4%A9%E5%8C%96%E8%A2%AB%E5%8A%A8%E4%B8%BA%E4%B8%BB%E5%8A%A8%EF%BC%9A%E5%BC%95%E5%AF%BC%E4%BA%92%E5%8A%A8%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 12283,
+          "characters": 4529,
+          "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585",
+          "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
+          "reading_status": "provided_project_document_text_fully_read_2026_11_03_continuation",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newlines retained",
+            "ranges": [
+              [
+                0,
+                4529
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data",
+          "notes": "knowledge/books/G01-passive-to-active.md"
         }
       ],
       "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
       "os_snapshot_date": "2026-11-02",
       "os_synthesis_note": "knowledge/books/G01-practical-expansion.md",
-      "core_round_synthesis_note": "knowledge/books/G01-awkwardness-and-refusal.md"
+      "core_round_synthesis_note": "knowledge/books/G01-awkwardness-and-refusal.md",
+      "continuation_synthesis_notes": [
+        "knowledge/books/G01-passive-to-active.md"
+      ]
     },
     {
       "id": "G02",
@@ -1849,10 +1873,10 @@
       "source_type": "coaching_prompt",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G04-simp.md",
-      "reading_coverage": "SKILL and 2 selected prompts fully read; not all prompts/tools",
+      "reading_coverage": "4 selected project documents fully read and archived with MIT; not all 36 blobs",
       "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 3,
+      "archived_document_count": 4,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1897,11 +1921,35 @@
           "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
           "archive_path": "sources/github/simp-skill/prompts/quit_judge.md.txt",
           "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "prompts/daily_coach.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/daily_coach.md",
+          "bytes": 8013,
+          "characters": 3488,
+          "sha256": "ad20b0126ea7320c0c6770b6d35c8d1ad2f729666945bec6cbb3f9ce2b29f939",
+          "git_blob_sha": "0ecd8aef26d409135805f5a33b3cf599aab084cc",
+          "reading_status": "provided_project_document_text_fully_read_2026_11_03_continuation",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newlines retained",
+            "ranges": [
+              [
+                0,
+                3488
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/daily_coach.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data",
+          "notes": "knowledge/books/G04-daily-coach.md"
         }
       ],
       "os_snapshot_checked": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
       "os_snapshot_date": "2026-11-02",
-      "os_synthesis_note": "knowledge/books/G04-message-expansion.md"
+      "os_synthesis_note": "knowledge/books/G04-message-expansion.md",
+      "continuation_synthesis_notes": [
+        "knowledge/books/G04-daily-coach.md"
+      ]
     },
     {
       "id": "G05",
@@ -2478,6 +2526,30 @@
       "declared_license": "MIT",
       "license_archive": "sources/github/lianai/LICENSE",
       "transform": "none; exact UTF-8 bytes; inert .md.txt"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+      "bytes": 12283,
+      "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585",
+      "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/daily_coach.md",
+      "archive_path": "sources/github/simp-skill/prompts/daily_coach.md.txt",
+      "bytes": 8013,
+      "sha256": "ad20b0126ea7320c0c6770b6d35c8d1ad2f729666945bec6cbb3f9ce2b29f939",
+      "git_blob_sha": "0ecd8aef26d409135805f5a33b3cf599aab084cc",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
     }
   ],
   "privacy": {
@@ -2542,7 +2614,47 @@
         "knowledge/books/S13-mystery-excerpts.md",
         "knowledge/books/S16-mystery-essence.md"
       ],
-      "status": "independent reading unit integrated"
+      "status": "independent reading unit integrated",
+      "github_documents": [
+        {
+          "source_id": "G01",
+          "repository": "khdzg5shnt-rgb/lianai",
+          "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+          "source_path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
+          "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+          "bytes": 12283,
+          "characters": 4529,
+          "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585",
+          "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
+          "notes": "knowledge/books/G01-passive-to-active.md",
+          "license_archive": "sources/github/lianai/LICENSE",
+          "read_ranges": [
+            [
+              0,
+              4529
+            ]
+          ]
+        },
+        {
+          "source_id": "G04",
+          "repository": "khdzg5shnt-rgb/simp-skill",
+          "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+          "source_path": "prompts/daily_coach.md",
+          "archive_path": "sources/github/simp-skill/prompts/daily_coach.md.txt",
+          "bytes": 8013,
+          "characters": 3488,
+          "sha256": "ad20b0126ea7320c0c6770b6d35c8d1ad2f729666945bec6cbb3f9ce2b29f939",
+          "git_blob_sha": "0ecd8aef26d409135805f5a33b3cf599aab084cc",
+          "notes": "knowledge/books/G04-daily-coach.md",
+          "license_archive": "sources/github/simp-skill/LICENSE",
+          "read_ranges": [
+            [
+              0,
+              3488
+            ]
+          ]
+        }
+      ]
     }
   ]
 }

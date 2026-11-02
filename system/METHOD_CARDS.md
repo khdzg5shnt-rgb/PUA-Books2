@@ -26,11 +26,11 @@
 
 适用：她提供一个日常事件、偏好或具体信息
 
-动作：承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。不是每轮都问，必要时最多一个相关问题。
+动作：承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。简短肯定也可完成本轮，必要时最多一个相关问题。
 
 避免：连续查户口、同时铺开多条追问、抢走对方分享，或为填停顿不断另开话题。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -184,11 +184,11 @@
 
 适用：她的短回复已经回答了一个二选一或明确问题
 
-动作：按回答内容接下一项事务，或自然结束该话题；不因字少扣兴趣。
+动作：按回答内容接下一项事务，或自然结束；不因字少扣兴趣。问题形式取决于当前任务，核日期和选择时无需强改成开放式追问。
 
 避免：从“周六”“猫”“好”单独推断冷淡或测试。
 
-依据：[短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；[信号表的限制](../knowledge/books/G02-reference-expansion.md)
+依据：[短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；[信号表的限制](../knowledge/books/G02-reference-expansion.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)
 
 ## M19 持续单边时停止加码
 
@@ -196,9 +196,9 @@
 
 动作：本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。 减少投入是当前选择，不是假装冷漠来训练对方。
 
-避免：故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。
+避免：故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。 不凭求助次数或情绪词诊断耗尽、拒绝处理必要事项。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)
 
 ## M20 接住纠正或澄清
 
@@ -256,16 +256,16 @@
 
 动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。
 
-避免：反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。 不假装误发消息或刚发生一件事来制造开场。
+避免：反复考古、假偶遇、假误发、编梦境或近况；虚构问路、购物等理由，或按固定天数刷存在感。
 
-依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
+依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)
 
 ## M26 压成一句自然的话
 
 适用：已经选定本轮目标与依据，需要生成给用户复制的消息
 
-动作：先满足这句话的实际作用；默认一至两行、最多一个问题、零至一个表情、一个成品。共情或述情结构只取当前需要的一步，普通回复不附理论。
+动作：先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。
 
 避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)

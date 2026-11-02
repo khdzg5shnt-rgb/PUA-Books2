@@ -60,7 +60,7 @@
       "id": "M03",
       "name": "接住具体内容",
       "use_when": "她提供一个日常事件、偏好或具体信息",
-      "operation": "承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。不是每轮都问，必要时最多一个相关问题。",
+      "operation": "承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。简短肯定也可完成本轮，必要时最多一个相关问题。",
       "avoid": "连续查户口、同时铺开多条追问、抢走对方分享，或为填停顿不断另开话题。",
       "sources": [
         {
@@ -96,6 +96,11 @@
         {
           "path": "knowledge/books/S13-mystery-excerpts.md",
           "locator": "九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G01-passive-to-active.md",
+          "locator": "接话延伸、开放问题与救场的适用范围",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -597,7 +602,7 @@
       "id": "M18",
       "name": "完整短答照常接",
       "use_when": "她的短回复已经回答了一个二选一或明确问题",
-      "operation": "按回答内容接下一项事务，或自然结束该话题；不因字少扣兴趣。",
+      "operation": "按回答内容接下一项事务，或自然结束；不因字少扣兴趣。问题形式取决于当前任务，核日期和选择时无需强改成开放式追问。",
       "avoid": "从“周六”“猫”“好”单独推断冷淡或测试。",
       "sources": [
         {
@@ -608,6 +613,11 @@
         {
           "path": "knowledge/books/G02-reference-expansion.md",
           "locator": "信号表的限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G01-passive-to-active.md",
+          "locator": "接话延伸、开放问题与救场的适用范围",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -620,7 +630,7 @@
       "name": "持续单边时停止加码",
       "use_when": "已连续两轮低投入，且双方没有待落实的现实安排；或长期只由用户维持",
       "operation": "本轮停止追加话题，必要时正常收尾；只描述实际互动，不推断她的人格。 承认当前结果后可保留自己的选择，不以未来必定变好为前提继续投入。 减少投入是当前选择，不是假装冷漠来训练对方。",
-      "avoid": "故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。",
+      "avoid": "故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。 不凭求助次数或情绪词诊断耗尽、拒绝处理必要事项。",
       "sources": [
         {
           "path": "knowledge/books/G01-practical-expansion.md",
@@ -655,6 +665,11 @@
         {
           "path": "knowledge/books/S16-mystery-essence.md",
           "locator": "P1–5阶段、主动关心与调侃的内部冲突及自报结果限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G04-daily-coach.md",
+          "locator": "一个行动、调用次数/固定天数和黄金时段的证据限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -862,7 +877,7 @@
       "name": "开场或自然重联",
       "use_when": "需要开启新一轮，且没有未回复消息或明确不联系的边界",
       "operation": "优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。",
-      "avoid": "反复考古朋友圈；假装偶遇；编造梦、地点或近况。 不虚构问路、给家人买东西等理由。 不假装误发消息或刚发生一件事来制造开场。",
+      "avoid": "反复考古、假偶遇、假误发、编梦境或近况；虚构问路、购物等理由，或按固定天数刷存在感。",
       "sources": [
         {
           "path": "knowledge/books/B090.md",
@@ -883,6 +898,11 @@
           "path": "knowledge/books/S12-social-scripts.md",
           "locator": "十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G04-daily-coach.md",
+          "locator": "一个行动、调用次数/固定天数和黄金时段的证据限制",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -893,7 +913,7 @@
       "id": "M26",
       "name": "压成一句自然的话",
       "use_when": "已经选定本轮目标与依据，需要生成给用户复制的消息",
-      "operation": "先满足这句话的实际作用；默认一至两行、最多一个问题、零至一个表情、一个成品。共情或述情结构只取当前需要的一步，普通回复不附理论。",
+      "operation": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。",
       "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。",
       "sources": [
         {
@@ -924,6 +944,16 @@
         {
           "path": "knowledge/books/G01-awkwardness-and-refusal.md",
           "locator": "具体失误、自然停顿与无需借口的拒绝",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G01-passive-to-active.md",
+          "locator": "接话延伸、开放问题与救场的适用范围",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/G04-daily-coach.md",
+          "locator": "一个行动、调用次数/固定天数和黄金时段的证据限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

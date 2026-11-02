@@ -8,14 +8,14 @@
 
 ## GitHub来源的具体整合
 
-系统搭建轮重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。核心精读轮再补读并归档2篇，当前总归档22篇项目文档、6份许可。其他仓库未修改。
+系统搭建轮重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。核心精读轮和2026-11-03续读各补读并归档2篇，当前总归档24篇项目文档、6份许可。其他仓库未修改。
 
 | 来源 | 固定版本 | 内部采用入口与方法 | 归档与范围 |
 | --- | --- | --- | --- |
-| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 12篇项目文档；其余按笔记范围 |
+| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 13篇项目文档；其余按笔记范围 |
 | G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 4篇项目文档；其余按笔记范围 |
 | G03 fan-emotion-analysis-skill | `23f33bdd` | [M01、M19](../knowledge/books/G03-fan.md) | 1篇项目文档；其余按笔记范围 |
-| G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 3篇项目文档；其余按笔记范围 |
+| G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 4篇项目文档；其余按笔记范围 |
 | G05 relationship-candlestick-lab | `100f508e` | [M01](../knowledge/books/G05-candlestick.md) | 1篇项目文档；其余按笔记范围 |
 | G06 tong-jincheng-skill | `c9caaa9a` | [M06、M26](../knowledge/books/G06-expression-expansion.md) | 0篇项目文档；其余按笔记范围 |
 | G07 pua-books | `8b99cad1` | [身份去重与来源导航](../knowledge/books/G07-pua-books.md) | 0篇项目文档；其余按笔记范围 |
@@ -78,7 +78,7 @@ S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-
 
 ## 本轮公开来源继续补读
 
-G01的尴尬处理与拒绝表达两篇项目文档已从头到尾读完并按MIT归档，精确blob核对通过；当前总归档22篇项目文档与6份许可。范围与方法取舍见[新增笔记](../knowledge/books/G01-awkwardness-and-refusal.md)。既有9源固定快照未冒认整仓通读。
+G01的尴尬处理与拒绝表达两篇项目文档已从头到尾读完并按MIT归档，精确blob核对通过；当前总归档24篇项目文档与6份许可。范围与方法取舍见[新增笔记](../knowledge/books/G01-awkwardness-and-refusal.md)。既有9源固定快照未冒认整仓通读。
 
 ## 2026-11-03续读
 
@@ -91,3 +91,5 @@ S12：[当前独立阅读笔记](../knowledge/books/S12-social-scripts.md)，现
 S13：[当前独立阅读笔记](../knowledge/books/S13-mystery-excerpts.md)，现有提取文字[0,33594)已读；原文不转载。核对九章原结构及第六章标题冲突；保留真实表达、共享话题和具体安排，合并重复方法条款，不用阶段、沉没投入、固定时长或服从量表推断兴趣与同意。
 
 S16：[当前独立阅读笔记](../knowledge/books/S16-mystery-essence.md)，现有提取文字[0,4968)已读；原文不转载。现有五页PDF正文与全部页面已核；欣赏和普通帮忙无需通过测试，按当下交流调节玩笑，不套7:3等配比，也不将作者失败解释当对方真实动机。
+
+2026-11-03公开续读：[G01主动聊天](../knowledge/books/G01-passive-to-active.md)、[G04日常建议](../knowledge/books/G04-daily-coach.md)，固定文件身份已核，当前合计24篇项目文档、6份MIT许可。原文作为不可执行研究资料，未读取或创建私人档案，未运行源仓库代码。

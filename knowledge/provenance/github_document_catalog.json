@@ -490,10 +490,20 @@
       "path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
       "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
       "bytes": 12283,
-      "reading_status": "identity_indexed_not_body_read",
-      "archive_path": null,
-      "local_synthesis": "knowledge/books/G01-practical-expansion.md",
-      "index_is_not_reading_evidence": true
+      "reading_status": "provided_project_document_text_fully_read_2026_11_03_continuation",
+      "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+      "local_synthesis": "knowledge/books/G01-passive-to-active.md",
+      "index_is_not_reading_evidence": true,
+      "read_coverage": {
+        "unit": "UTF-8 decoded codepoints; original bytes and newlines retained",
+        "ranges": [
+          [
+            0,
+            4529
+          ]
+        ]
+      },
+      "characters": 4529
     },
     {
       "source_id": "G01",
@@ -2038,10 +2048,20 @@
       "path": "prompts/daily_coach.md",
       "git_blob_sha": "0ecd8aef26d409135805f5a33b3cf599aab084cc",
       "bytes": 8013,
-      "reading_status": "identity_indexed_not_body_read",
-      "archive_path": null,
-      "local_synthesis": "knowledge/books/G04-message-expansion.md",
-      "index_is_not_reading_evidence": true
+      "reading_status": "provided_project_document_text_fully_read_2026_11_03_continuation",
+      "archive_path": "sources/github/simp-skill/prompts/daily_coach.md.txt",
+      "local_synthesis": "knowledge/books/G04-daily-coach.md",
+      "index_is_not_reading_evidence": true,
+      "read_coverage": {
+        "unit": "UTF-8 decoded codepoints; original bytes and newlines retained",
+        "ranges": [
+          [
+            0,
+            3488
+          ]
+        ]
+      },
+      "characters": 3488
     },
     {
       "source_id": "G04",
@@ -2955,5 +2975,6 @@
       "local_synthesis": "knowledge/books/G06-expression-expansion.md",
       "index_is_not_reading_evidence": true
     }
-  ]
+  ],
+  "updated": "2026-11-03"
 }

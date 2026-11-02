@@ -37,3 +37,5 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 [S13原结构与取舍](knowledge/books/S13-mystery-excerpts.md)：核对九章原结构及第六章标题冲突；保留真实表达、共享话题和具体安排，合并重复方法条款，不用阶段、沉没投入、固定时长或服从量表推断兴趣与同意。
 
 [S16原结构与取舍](knowledge/books/S16-mystery-essence.md)：现有五页PDF正文与全部页面已核；欣赏和普通帮忙无需通过测试，按当下交流调节玩笑，不套7:3等配比，也不将作者失败解释当对方真实动机。
+
+公开指南续读：[G01主动聊天](knowledge/books/G01-passive-to-active.md)与[G04日常建议](knowledge/books/G04-daily-coach.md)保留一个当前目标与双向承接，不强制每轮开放式提问、不以求助次数推断状态，不计算未经验证的发送时间或兴趣分。
