@@ -28,7 +28,7 @@
 | G06 tong-jincheng-skill | `c9caaa9a` | [M06、M26](../knowledge/books/G06-expression-expansion.md) | 0篇项目文档；其余按笔记范围 |
 | G07 pua-books | `8b99cad1` | [身份去重与来源导航](../knowledge/books/G07-pua-books.md) | 0篇项目文档；其余按笔记范围 |
 | G08 ChatLab | `e75bb1e5` | [M01](../knowledge/books/G08-chatlab.md) | 0篇项目文档；其余按笔记范围 |
-| G09 goutoujunshi-jev-chat | `fa4bd308` | [M01、M26](../knowledge/books/G09-ocr-input.md) | 1篇项目文档；其余按笔记范围 |
+| G09 goutoujunshi-jev-chat | `fa4bd308` | [M01、M26](../knowledge/books/G09-ocr-input.md) | 1篇独立归档，另15篇同blob复用，不重复计阅读 |
 
 G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制或运行。G05只借用可观察行为标签，不采用恋爱价格/温度/成功率。G07的57项精确同blob已复用books2，另外2项不同blob不冒认同一版本。私有goutoujunshi继续排除。
 
@@ -115,3 +115,5 @@ S21：[当前独立阅读笔记](../knowledge/books/S21-connor-routines-excerpt.
 S22：[当前独立阅读笔记](../knowledge/books/S22-mystery-pdf-reconciliation.md)，当前PDF正文按已有全文阅读和逐页比对对应，本轮直接重读[0,19735)；原文不转载。先证明123页与已读TOP30正文逐字对应后沿用既有阅读，本轮直接重读P1–8与目读26页；141139字符不全计新增。补核M/B/T、阶段/地点图与无数据阈值；其他99页版式仍未核。
 
 S04/E06 [吸引不是选择局部](../knowledge/books/S04-attraction-not-choice.md)：字符[0,34905)、PAGE1–25，目录/引言/第一章；剩余从第二章字符34905继续，TOP30完整计数不增加。
+ 
+2026-11-06另核[G09共享文档](../knowledge/books/G09-shared-document-reuse.md)：15份固定blob与G01已有完整阅读完全相同，共用本库原文与笔记；不增加归档或本轮阅读数。

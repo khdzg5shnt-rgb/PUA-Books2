@@ -2485,7 +2485,7 @@
       "source_type": "software_ocr_and_draft_assistant",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G09-jev-chat.md",
-      "reading_coverage": "README, LICENSE and desktop OCR input document read; not full program/code",
+      "reading_coverage": "README, LICENSE and desktop OCR input document directly read in prior rounds; 15 additional fixed-version documents covered through exact-blob reuse of completed G01 readings, not new reading; not full program/code",
       "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
       "archived_document_count": 1,
@@ -2522,11 +2522,511 @@
           "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
           "archive_path": "sources/github/goutoujunshi-jev-chat/references/practical/桌面OCR对话接入.md.txt",
           "archive_decision": "MIT project-authored document; exact text retained as inert data"
+        },
+        {
+          "original_path": "references/knowledge/01-证据分级与内容边界.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/knowledge/01-%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7%E4%B8%8E%E5%86%85%E5%AE%B9%E8%BE%B9%E7%95%8C.md",
+          "bytes": 4203,
+          "characters": 1971,
+          "line_count": 65,
+          "git_blob_sha": "1a15cca25dd65952d828555afc5cc6831e747015",
+          "sha256": "9b28d1598a253837f43ab133cdb936084a6d20818e5a5d9b27cfcfe14c4fdbeb",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                1971
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/knowledge/01-证据分级与内容边界.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-lianai.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/knowledge/01-证据分级与内容边界.md",
+            "archive_path": "sources/github/lianai/references/knowledge/01-证据分级与内容边界.md.txt",
+            "git_blob_sha": "1a15cca25dd65952d828555afc5cc6831e747015",
+            "sha256": "9b28d1598a253837f43ab133cdb936084a6d20818e5a5d9b27cfcfe14c4fdbeb",
+            "reading_status": "provided_file_text_fully_read",
+            "notes": "knowledge/books/G01-lianai.md"
+          }
+        },
+        {
+          "original_path": "references/knowledge/07-沟通冲突与修复.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/knowledge/07-%E6%B2%9F%E9%80%9A%E5%86%B2%E7%AA%81%E4%B8%8E%E4%BF%AE%E5%A4%8D.md",
+          "bytes": 4471,
+          "characters": 1945,
+          "line_count": 99,
+          "git_blob_sha": "565b825180656a0385b651f4546ad2f810a38a10",
+          "sha256": "440fadf71455dac36fbe291bffa2246e035f5dd0d9d7167cd9a129443375828b",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                1945
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-lianai.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/knowledge/07-沟通冲突与修复.md",
+            "archive_path": "sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt",
+            "git_blob_sha": "565b825180656a0385b651f4546ad2f810a38a10",
+            "sha256": "440fadf71455dac36fbe291bffa2246e035f5dd0d9d7167cd9a129443375828b",
+            "reading_status": "provided_file_text_fully_read",
+            "notes": "knowledge/books/G01-lianai.md"
+          }
+        },
+        {
+          "original_path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E4%B8%87%E8%83%BD%E5%90%B5%E6%9E%B6%E6%8A%80%E5%B7%A7%EF%BC%9A%E7%90%86%E6%80%A7%E5%86%B2%E7%AA%81%E5%A4%84%E7%90%86%E6%8C%87%E5%8D%97.md",
+          "bytes": 6616,
+          "characters": 2460,
+          "line_count": 74,
+          "git_blob_sha": "920c33943a84827487e51c8a97367ba63a5e4e37",
+          "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2460
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-natural-flow-and-conflict.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+            "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+            "git_blob_sha": "920c33943a84827487e51c8a97367ba63a5e4e37",
+            "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+            "notes": "knowledge/books/G01-natural-flow-and-conflict.md"
+          }
+        },
+        {
+          "original_path": "references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E4%B8%87%E8%83%BD%E5%A4%B8%E4%BA%BA%E7%9A%84%E8%AF%9D%E6%9C%AF%E6%8A%80%E5%B7%A7%EF%BC%9A%E7%9C%9F%E8%AF%9A%E8%AE%A4%E5%8F%AF%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 11278,
+          "characters": 4134,
+          "line_count": 94,
+          "git_blob_sha": "eca39e353f4c6941d43b639ec9ba62e8d1fefb2f",
+          "sha256": "fca5a133a09588de697883792e8024d6effd7dd229d41956b0542101242f2d77",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4134
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-practical-expansion.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md.txt",
+            "git_blob_sha": "eca39e353f4c6941d43b639ec9ba62e8d1fefb2f",
+            "sha256": "fca5a133a09588de697883792e8024d6effd7dd229d41956b0542101242f2d77",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+            "notes": "knowledge/books/G01-practical-expansion.md"
+          }
+        },
+        {
+          "original_path": "references/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E4%B8%BA%E4%BB%96%E4%BA%BA%E6%8F%90%E4%BE%9B%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC%EF%BC%9A%E6%B8%A9%E6%9A%96%E4%B8%94%E6%9C%89%E6%95%88%E7%9A%84%E5%9B%9E%E5%BA%94%E6%8C%87%E5%8D%97.md",
+          "bytes": 12247,
+          "characters": 4385,
+          "line_count": 85,
+          "git_blob_sha": "0d52128312b2def237e675b92629eb79e3212758",
+          "sha256": "565c7b4b9e27993a92de6339e403f9f82ededa87dc1e205d4602742ad6693c8b",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4385
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-lianai.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+            "archive_path": "sources/github/lianai/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md.txt",
+            "git_blob_sha": "0d52128312b2def237e675b92629eb79e3212758",
+            "sha256": "565c7b4b9e27993a92de6339e403f9f82ededa87dc1e205d4602742ad6693c8b",
+            "reading_status": "provided_file_text_fully_read",
+            "notes": "knowledge/books/G01-lianai.md"
+          }
+        },
+        {
+          "original_path": "references/practical/主动表达、第一次见面与自然接触.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E4%B8%BB%E5%8A%A8%E8%A1%A8%E8%BE%BE%E3%80%81%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81%E9%9D%A2%E4%B8%8E%E8%87%AA%E7%84%B6%E6%8E%A5%E8%A7%A6.md",
+          "bytes": 6657,
+          "characters": 2413,
+          "line_count": 79,
+          "git_blob_sha": "906713d0d7ca6aeb54c19b96c85f408498550cf9",
+          "sha256": "bd52dec6e84d0e986b5c56edd1320e23254d48d00be5dc249a555063d071abff",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2413
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/主动表达、第一次见面与自然接触.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-practical-expansion.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/主动表达、第一次见面与自然接触.md",
+            "archive_path": "sources/github/lianai/references/practical/主动表达、第一次见面与自然接触.md.txt",
+            "git_blob_sha": "906713d0d7ca6aeb54c19b96c85f408498550cf9",
+            "sha256": "bd52dec6e84d0e986b5c56edd1320e23254d48d00be5dc249a555063d071abff",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+            "notes": "knowledge/books/G01-practical-expansion.md"
+          }
+        },
+        {
+          "original_path": "references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E5%85%B3%E7%B3%BB%E6%8A%95%E5%85%A5%E5%A4%B1%E8%A1%A1%EF%BC%9A%E4%BA%92%E6%83%A0%E5%88%A4%E6%96%AD%E3%80%81%E9%99%8D%E7%BA%A7%E6%8A%95%E5%85%A5%E4%B8%8E%E9%80%80%E5%87%BA%E5%86%B3%E7%AD%96.md",
+          "bytes": 6808,
+          "characters": 2618,
+          "line_count": 77,
+          "git_blob_sha": "fb83bf2c6fcc98d5f698467871d0d38f9cf5a65b",
+          "sha256": "4e724e9a5b272ad1a6833ddbb9d84eeb86c3b2e395e5f241d90f8655930c77c3",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2618
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-practical-expansion.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+            "archive_path": "sources/github/lianai/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md.txt",
+            "git_blob_sha": "fb83bf2c6fcc98d5f698467871d0d38f9cf5a65b",
+            "sha256": "4e724e9a5b272ad1a6833ddbb9d84eeb86c3b2e395e5f241d90f8655930c77c3",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+            "notes": "knowledge/books/G01-practical-expansion.md"
+          }
+        },
+        {
+          "original_path": "references/practical/化解尴尬：轻松救场的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E5%8C%96%E8%A7%A3%E5%B0%B4%E5%B0%AC%EF%BC%9A%E8%BD%BB%E6%9D%BE%E6%95%91%E5%9C%BA%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 10460,
+          "characters": 3820,
+          "line_count": 97,
+          "git_blob_sha": "6b408aa1945c737a6b98d229932e31e0b9618f3b",
+          "sha256": "e87b3e90c1c3fbe17708d1b7bcc43549f8d042d7653c7fd48d7dbb5b0b7c5fcb",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3820
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/化解尴尬：轻松救场的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-awkwardness-and-refusal.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/化解尴尬：轻松救场的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/化解尴尬：轻松救场的实用指南.md.txt",
+            "git_blob_sha": "6b408aa1945c737a6b98d229932e31e0b9618f3b",
+            "sha256": "e87b3e90c1c3fbe17708d1b7bcc43549f8d042d7653c7fd48d7dbb5b0b7c5fcb",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_core_round",
+            "notes": "knowledge/books/G01-awkwardness-and-refusal.md"
+          }
+        },
+        {
+          "original_path": "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E5%9C%BA%E6%99%AF%E6%84%9F%E3%80%81%E6%9D%BE%E5%BC%9B%E6%84%9F%E4%B8%8E%E7%A4%BE%E4%BA%A4%E6%A0%A1%E5%87%86%EF%BC%9A%E4%BB%8E%E6%8E%A5%E8%AF%9D%E5%88%B0%E5%85%B3%E7%B3%BB%E6%8E%A8%E8%BF%9B.md",
+          "bytes": 7013,
+          "characters": 2785,
+          "line_count": 122,
+          "git_blob_sha": "c31631916a1c754fdf7e594cf00d2316f1b9d72f",
+          "sha256": "01864b3713a8b25bd310a3678b44d2e937ce3a2817c381090d8ba71ab534c4d5",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2785
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-practical-expansion.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+            "archive_path": "sources/github/lianai/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md.txt",
+            "git_blob_sha": "c31631916a1c754fdf7e594cf00d2316f1b9d72f",
+            "sha256": "01864b3713a8b25bd310a3678b44d2e937ce3a2817c381090d8ba71ab534c4d5",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+            "notes": "knowledge/books/G01-practical-expansion.md"
+          }
+        },
+        {
+          "original_path": "references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E5%B7%A7%E5%A6%99%E6%8E%A5%E8%AF%9D%E6%8A%80%E5%B7%A7%EF%BC%9A%E8%AE%A9%E6%B2%9F%E9%80%9A%E6%9B%B4%E6%B5%81%E7%95%85%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 10732,
+          "characters": 3938,
+          "line_count": 103,
+          "git_blob_sha": "d32be229b6b7af93c379362e37a784bac8696efc",
+          "sha256": "62c4a2e3d479e1e41fbeb34d7dda7d477c742bf172fd67567ea1af53ee5b71f5",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3938
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-practical-expansion.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md.txt",
+            "git_blob_sha": "d32be229b6b7af93c379362e37a784bac8696efc",
+            "sha256": "62c4a2e3d479e1e41fbeb34d7dda7d477c742bf172fd67567ea1af53ee5b71f5",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
+            "notes": "knowledge/books/G01-practical-expansion.md"
+          }
+        },
+        {
+          "original_path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E5%BA%9F%E8%AF%9D%E6%96%87%E5%AD%A6%E5%9B%9E%E5%A4%8D%E6%8C%87%E5%8D%97%EF%BC%9A%E8%BD%BB%E6%9D%BE%E5%BA%94%E5%AF%B9%E5%90%84%E7%B1%BB%E5%9C%BA%E6%99%AF.md",
+          "bytes": 7602,
+          "characters": 2802,
+          "line_count": 75,
+          "git_blob_sha": "6c0138946b6b508987948c56f1903ff77fca33be",
+          "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2802
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-light-clear-expression.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+            "archive_path": "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+            "git_blob_sha": "6c0138946b6b508987948c56f1903ff77fca33be",
+            "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+            "notes": "knowledge/books/G01-light-clear-expression.md"
+          }
+        },
+        {
+          "original_path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E6%8F%90%E5%8D%87%E8%A1%A8%E8%BE%BE%E9%80%BB%E8%BE%91%E6%80%A7%EF%BC%9A%E4%BB%8E%E6%B7%B7%E4%B9%B1%E5%88%B0%E6%B8%85%E6%99%B0%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 13162,
+          "characters": 4810,
+          "line_count": 86,
+          "git_blob_sha": "93155c36766b7e1e513250044f91da77bab250d9",
+          "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4810
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-light-clear-expression.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+            "git_blob_sha": "93155c36766b7e1e513250044f91da77bab250d9",
+            "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+            "notes": "knowledge/books/G01-light-clear-expression.md"
+          }
+        },
+        {
+          "original_path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E8%81%8A%E5%A4%A9%E5%8C%96%E8%A2%AB%E5%8A%A8%E4%B8%BA%E4%B8%BB%E5%8A%A8%EF%BC%9A%E5%BC%95%E5%AF%BC%E4%BA%92%E5%8A%A8%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 12283,
+          "characters": 4529,
+          "line_count": 85,
+          "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
+          "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4529
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-passive-to-active.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/聊天化被动为主动：引导互动的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
+            "git_blob_sha": "a8201024cd229aacbb5779e14a2844ea9aa55483",
+            "sha256": "bf18a460fc97ac45d14abeaf6a84f92b7c8f9afaaee914f30bb1fd162f96a585",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_03_continuation",
+            "notes": "knowledge/books/G01-passive-to-active.md"
+          }
+        },
+        {
+          "original_path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E8%87%AA%E7%84%B6%E6%B5%81%E3%80%81%E5%86%85%E5%9C%A8%E7%8A%B6%E6%80%81%E4%B8%8E%E7%BB%93%E6%9E%84%E5%8C%96%E4%BA%92%E5%8A%A8%EF%BC%9A%E4%BC%A6%E7%90%86%E8%83%BD%E5%8A%9B%E8%BD%AC%E8%AF%91.md",
+          "bytes": 7055,
+          "characters": 2775,
+          "line_count": 147,
+          "git_blob_sha": "723426b28028c1b23c30f20f3007b9506a036e34",
+          "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2775
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-natural-flow-and-conflict.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+            "archive_path": "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+            "git_blob_sha": "723426b28028c1b23c30f20f3007b9506a036e34",
+            "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+            "notes": "knowledge/books/G01-natural-flow-and-conflict.md"
+          }
+        },
+        {
+          "original_path": "references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/goutoujunshi-jev-chat/blob/fa4bd3086b5f89889a942d8f8038f252c72e5a3a/references/practical/%E9%AB%98%E6%83%85%E5%95%86%E6%8B%92%E7%BB%9D%E4%BB%96%E4%BA%BA%EF%BC%9A%E4%BD%93%E9%9D%A2%E6%8A%A4%E8%BE%B9%E7%95%8C%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 13089,
+          "characters": 4715,
+          "line_count": 89,
+          "git_blob_sha": "4844f5aae83408e844facf5229be3b9b32e24acf",
+          "sha256": "d34c76a00cd07d8337065f327b154483882b7d1787297aa52fe791aab300872b",
+          "reading_status": "exact_blob_reuses_documented_completed_reading",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4715
+              ]
+            ]
+          },
+          "coverage_basis": "Exact Git blob and byte length in both fixed source trees match an archived document with previously documented completed reading; no new body reading counted",
+          "archive_path": "sources/github/lianai/references/practical/高情商拒绝他人：体面护边界的实用指南.md.txt",
+          "archive_decision": "Reuse exact existing MIT project document archive in books2; no additional copy and no additional reading counted",
+          "notes": "knowledge/books/G01-awkwardness-and-refusal.md",
+          "reused_reading_from": {
+            "source_id": "G01",
+            "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+            "original_path": "references/practical/高情商拒绝他人：体面护边界的实用指南.md",
+            "archive_path": "sources/github/lianai/references/practical/高情商拒绝他人：体面护边界的实用指南.md.txt",
+            "git_blob_sha": "4844f5aae83408e844facf5229be3b9b32e24acf",
+            "sha256": "d34c76a00cd07d8337065f327b154483882b7d1787297aa52fe791aab300872b",
+            "reading_status": "provided_project_document_text_fully_read_2026_11_02_core_round",
+            "notes": "knowledge/books/G01-awkwardness-and-refusal.md"
+          }
         }
       ],
       "os_snapshot_checked": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
       "os_snapshot_date": "2026-11-02",
-      "os_synthesis_note": "knowledge/books/G09-ocr-input.md"
+      "os_synthesis_note": "knowledge/books/G09-ocr-input.md",
+      "reused_document_count": 15,
+      "continuation_synthesis_notes": [
+        "knowledge/books/G09-shared-document-reuse.md"
+      ],
+      "public_round_checked": "2026-11-06"
     }
   ],
   "archives": [
@@ -3239,7 +3739,13 @@
         "M22",
         "M26"
       ],
-      "python_checks": "not_run_execution_environment_unavailable"
+      "python_checks": "not_run_execution_environment_unavailable",
+      "exact_blob_reuse": {
+        "documents": 15,
+        "new_read_characters_counted": 0,
+        "mapping": "knowledge/provenance/github_exact_blob_reuse_2026-11-06.json",
+        "note": "knowledge/books/G09-shared-document-reuse.md"
+      }
     }
   ]
 }

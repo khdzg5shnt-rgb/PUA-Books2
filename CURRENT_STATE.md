@@ -17,6 +17,8 @@
 - [G01-natural-flow-and-conflict](knowledge/books/G01-natural-flow-and-conflict.md)
 - [G04-observation-not-profiling](knowledge/books/G04-observation-not-profiling.md)
 
+另核[G09共享文档](knowledge/books/G09-shared-document-reuse.md)15份，与G01同blob共用本库原文和既有阅读，新增阅读字符计0。
+
 当前执行环境不可用，不能读取本地上传附件或运行两项规定Python检查；本轮未新增E06阅读，断点仍为字符34905。按单元提交并逐文件远端回读；本轮检查状态待最终审计记录。
 <!-- END_PUBLIC_2026_11_06 -->
 
@@ -38,7 +40,7 @@
 
 此前五份核心TXT共94400字符已读：共情16014、述情20563、情绪管理29360、允许13449、影响15014，均见[台账](knowledge/provenance/core_reading_ledger.json)。S08/S09/S10/S14/S15现有文字9675字符及前轮S07/S11/S12/S13/S16/S17/S18现有文字91799字符已核，媒体范围另计。前轮范围与提交见[报告](knowledge/provenance/continuation_2026-11-03.md)，更早五篇见[核心精读报告](knowledge/provenance/core_reading_round_2026-11-02.md)。
 
-126项原始资料、22项上传、9个公开GitHub来源共157条，不是独立作品数或已读数。公开归档当前为6项目26篇文档和6份MIT许可；pua-books的57项与books2同blob未重复搬运，2项不同blob未读，私有goutoujunshi未读未导入。日常检索入口为[KNOWLEDGE_INDEX](KNOWLEDGE_INDEX.md)与[来源整合表](system/SOURCE_INTEGRATION.md)。
+126项原始资料、22项上传、9个公开GitHub来源共157条，不是独立作品数或已读数。公开归档当前为6项目31篇文档和6份MIT许可；pua-books的57项与books2同blob未重复搬运，2项不同blob未读，私有goutoujunshi未读未导入。日常检索入口为[KNOWLEDGE_INDEX](KNOWLEDGE_INDEX.md)与[来源整合表](system/SOURCE_INTEGRATION.md)。
 
 ## 剩余缺口与隐私
 

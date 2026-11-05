@@ -1,6 +1,6 @@
 # 统一外部来源目录
 
-当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。系统搭建轮补读16篇项目文档，核心精读轮另补2篇项目文档，当前6个项目共22篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方保留系统整合前的明细，旧9篇/5份数值是历史范围，不能作为当前总计。
+当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。截至2026-11-06，当前6个项目共31篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方整合前明细及各日期记录保留为历史，旧数量和主阅读断点不能作为当前总计或恢复位置；最新断点以[CURRENT_STATE](../../CURRENT_STATE.md)为准。
 
 本轮还读完五份核心沟通TXT与S08/S09/S10/S14/S15的现有文字，逐项以[核心台账](core_reading_ledger.json)和[附件台账](additional_reading_ledger.json)为准。
 
@@ -100,3 +100,7 @@ S21最新覆盖为现有正文[0,25071)；早期未核登记为历史。见[独�
 S22当前提取范围[0,141139)；本轮直接重读[0,19735)，其他正文经123页精确规范化比对沿用S04既有全文阅读，不全部计新增。见[独立笔记](../books/S22-mystery-pdf-reconciliation.md)与[附件台账](additional_reading_ledger.json)。
 
 S04/E06《吸引不是选择》不再只有历史未核标记：[原创笔记](../books/S04-attraction-not-choice.md)覆盖目录、引言与第一章[0,34905)，全长121603；下一断点第二章PAGE26／字符34905，仍未完整。
+
+## 2026-11-06当前覆盖更新
+
+新增7份公开项目文档完整阅读、20403字符；见[G01轻松表达](../books/G01-light-clear-expression.md)、[G01自然与冲突](../books/G01-natural-flow-and-conflict.md)、[G04观察与评分限制](../books/G04-observation-not-profiling.md)。另有[G09的15份相同blob文件](../books/G09-shared-document-reuse.md)复用既有阅读，计0新增字符、0新增归档。书籍续读断点仍为E06第二章字符34905；本轮未新增书籍全文阅读。

@@ -1431,10 +1431,14 @@
       "group": "public_github_source",
       "title": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
       "commit": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
-      "reading_status": "README, LICENSE and desktop OCR input document read; not full program/code",
+      "reading_status": "README, LICENSE and desktop OCR input document directly read in prior rounds; 15 additional fixed-version documents covered through exact-blob reuse of completed G01 readings, not new reading; not full program/code",
       "local_entry": "knowledge/books/G09-ocr-input.md",
       "scope": "selected documents and original summaries; not full repository reading",
-      "local_archived_document_count": 1
+      "local_archived_document_count": 1,
+      "reused_document_count": 15,
+      "continuation_notes": [
+        "knowledge/books/G09-shared-document-reuse.md"
+      ]
     }
   ],
   "statistics": {
