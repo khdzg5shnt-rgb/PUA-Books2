@@ -2144,10 +2144,10 @@
       "source_type": "coaching_prompt",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G04-simp.md",
-      "reading_coverage": "4 selected project documents fully read and archived with MIT; not all 36 blobs",
-      "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
+      "reading_coverage": "7 selected project documents fully read and archived with MIT; not all 36 blobs",
+      "pending": "Other unlisted repository files and independent verification of empirical claims remain outside documented coverage; this round read fixed snapshots, not current upstream main.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 4,
+      "archived_document_count": 7,
       "files": [
         {
           "original_path": "LICENSE",
@@ -2213,14 +2213,82 @@
           "archive_path": "sources/github/simp-skill/prompts/daily_coach.md.txt",
           "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data",
           "notes": "knowledge/books/G04-daily-coach.md"
+        },
+        {
+          "original_path": "prompts/persona_builder.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/persona_builder.md",
+          "bytes": 4992,
+          "characters": 2473,
+          "sha256": "1586a3cb6cf06eae8583e33ccae4c501ef08d3295b9a6637b6526cdd4d8a40b7",
+          "git_blob_sha": "dc84512f526dfb24716958a44671b037ed62b960",
+          "line_count": 159,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2473
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/persona_builder.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G04-observation-not-profiling.md"
+        },
+        {
+          "original_path": "prompts/signal_reader.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/signal_reader.md",
+          "bytes": 7441,
+          "characters": 3393,
+          "sha256": "46b794e41f1f67fa2d89524081018c5849109d80ab038075c255507e703b73ee",
+          "git_blob_sha": "d24d3adb26a1202d561f5ab92079a62f42f21163",
+          "line_count": 225,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3393
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/signal_reader.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G04-observation-not-profiling.md"
+        },
+        {
+          "original_path": "prompts/timeline.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/timeline.md",
+          "bytes": 3140,
+          "characters": 1690,
+          "sha256": "e967a21e1aa8af91dd75001f7a12eadc686b3a6a13fc12641ae75053820480af",
+          "git_blob_sha": "f575263993b2457912c01e265a976f2d1b9eab01",
+          "line_count": 107,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                1690
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/timeline.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G04-observation-not-profiling.md"
         }
       ],
       "os_snapshot_checked": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
       "os_snapshot_date": "2026-11-02",
       "os_synthesis_note": "knowledge/books/G04-message-expansion.md",
       "continuation_synthesis_notes": [
-        "knowledge/books/G04-daily-coach.md"
-      ]
+        "knowledge/books/G04-daily-coach.md",
+        "knowledge/books/G04-observation-not-profiling.md"
+      ],
+      "public_round_checked": "2026-11-06"
     },
     {
       "id": "G05",
@@ -2869,6 +2937,42 @@
       "license_archive": "sources/github/lianai/LICENSE",
       "declared_license": "MIT",
       "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/persona_builder.md",
+      "archive_path": "sources/github/simp-skill/prompts/persona_builder.md.txt",
+      "bytes": 4992,
+      "sha256": "1586a3cb6cf06eae8583e33ccae4c501ef08d3295b9a6637b6526cdd4d8a40b7",
+      "git_blob_sha": "dc84512f526dfb24716958a44671b037ed62b960",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/signal_reader.md",
+      "archive_path": "sources/github/simp-skill/prompts/signal_reader.md.txt",
+      "bytes": 7441,
+      "sha256": "46b794e41f1f67fa2d89524081018c5849109d80ab038075c255507e703b73ee",
+      "git_blob_sha": "d24d3adb26a1202d561f5ab92079a62f42f21163",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/timeline.md",
+      "archive_path": "sources/github/simp-skill/prompts/timeline.md.txt",
+      "bytes": 3140,
+      "sha256": "e967a21e1aa8af91dd75001f7a12eadc686b3a6a13fc12641ae75053820480af",
+      "git_blob_sha": "f575263993b2457912c01e265a976f2d1b9eab01",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
     }
   ],
   "privacy": {
@@ -3095,13 +3199,32 @@
           "path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
           "characters": 2460,
           "note": "knowledge/books/G01-natural-flow-and-conflict.md"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/persona_builder.md",
+          "characters": 2473,
+          "note": "knowledge/books/G04-observation-not-profiling.md"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/signal_reader.md",
+          "characters": 3393,
+          "note": "knowledge/books/G04-observation-not-profiling.md"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/timeline.md",
+          "characters": 1690,
+          "note": "knowledge/books/G04-observation-not-profiling.md"
         }
       ],
       "notes": [
         "knowledge/books/G01-light-clear-expression.md",
-        "knowledge/books/G01-natural-flow-and-conflict.md"
+        "knowledge/books/G01-natural-flow-and-conflict.md",
+        "knowledge/books/G04-observation-not-profiling.md"
       ],
-      "decoded_characters": 12847,
+      "decoded_characters": 20403,
       "book_reading_added": 0,
       "next_top30": {
         "id": "E06",
@@ -3109,6 +3232,7 @@
         "heading": "===== PAGE 26 ===== / 印刷页21 / 第二章 为改变所做的准备"
       },
       "methods_substantively_changed": [
+        "M01",
         "M04",
         "M08",
         "M21",

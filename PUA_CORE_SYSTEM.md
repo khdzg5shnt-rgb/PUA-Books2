@@ -57,3 +57,5 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 2026-11-06：[轻松接话与清楚表达](knowledge/books/G01-light-clear-expression.md)。保留具体承接、真实边界和信息减法；纠正结论顺序与因果的混淆，不把总分总/PREP、借口或连续提问强塞进普通微信。
 
 2026-11-06：[自然表达与冲突边界](knowledge/books/G01-natural-flow-and-conflict.md)。纠正猜测后更新理解；相关重复失约可作为当前问题证据，不能以“别翻旧账”抹掉；没有双方过错证据时不写成共同责任。
+
+2026-11-06：[观察范围与画像评分的限制](knowledge/books/G04-observation-not-profiling.md)。核对截图观察窗口和缺口，不把未展示的主动当不存在；不采用MBTI话术预设、25分兴趣量表、回复分钟阈值或固定关系进度。
