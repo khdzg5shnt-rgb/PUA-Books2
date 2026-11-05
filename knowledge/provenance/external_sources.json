@@ -3674,7 +3674,7 @@
       "round_id": "public-source-integration-2026-11-06",
       "date": "2026-11-06",
       "scope": "Seven public project-authored documents at existing fixed commits; not new book reading",
-      "status": "in_progress",
+      "status": "seven_public_documents_complete_with_python_validation_blocked",
       "github_documents": [
         {
           "source_id": "G01",
@@ -3745,7 +3745,33 @@
         "new_read_characters_counted": 0,
         "mapping": "knowledge/provenance/github_exact_blob_reuse_2026-11-06.json",
         "note": "knowledge/books/G09-shared-document-reuse.md"
-      }
+      },
+      "summary_note": "knowledge/provenance/public_reading_2026-11-06.md",
+      "validation_record": "knowledge/provenance/public_reading_validation_2026-11-06.json",
+      "integrated_content_head": "f5c591b45cac81eb9cc83edbd931b9e230e6b3a0",
+      "unit_commits": [
+        {
+          "unit": "轻松接话与清楚表达",
+          "commit": "df525feaffa58cd07cca7e9b24bb0259706cf8b3",
+          "parent": "c9db4edf59a94e946ef1d20d2fca709320b8a1fe"
+        },
+        {
+          "unit": "自然表达与冲突边界",
+          "commit": "00bdd7631e2670786bc1b39c716af5f810fafcce",
+          "parent": "df525feaffa58cd07cca7e9b24bb0259706cf8b3"
+        },
+        {
+          "unit": "观察范围与画像评分的限制",
+          "commit": "f70c4512dc8483092ad9f027d9c23ad418c016d7",
+          "parent": "00bdd7631e2670786bc1b39c716af5f810fafcce"
+        },
+        {
+          "unit": "公开来源同blob去重与共用入口",
+          "commit": "f5c591b45cac81eb9cc83edbd931b9e230e6b3a0",
+          "parent": "f70c4512dc8483092ad9f027d9c23ad418c016d7"
+        }
+      ],
+      "remaining_blocker": "Execution environment unavailable: local attachment continuation and required Python checks not run; E06 bookmark unchanged at decoded character34905."
     }
   ]
 }

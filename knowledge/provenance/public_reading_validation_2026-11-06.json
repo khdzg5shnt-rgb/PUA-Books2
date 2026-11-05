@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "scope": "Public fixed-version document reading, method edits and exact-blob reuse; not additional book reading",
+  "baseline_main": "c9db4edf59a94e946ef1d20d2fca709320b8a1fe",
+  "integrated_content_head": "f5c591b45cac81eb9cc83edbd931b9e230e6b3a0",
+  "reading": {
+    "new_project_documents": 7,
+    "decoded_characters": 20403,
+    "new_book_reading_characters": 0,
+    "records": [
+      {
+        "id": "G01",
+        "repository": "khdzg5shnt-rgb/lianai",
+        "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+        "source_path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+        "bytes": 7602,
+        "characters": 2802,
+        "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d",
+        "git_blob_sha": "6c0138946b6b508987948c56f1903ff77fca33be",
+        "line_count": 75,
+        "read_range": [
+          0,
+          2802
+        ],
+        "note": "knowledge/books/G01-light-clear-expression.md",
+        "archive_path": "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt"
+      },
+      {
+        "id": "G01",
+        "repository": "khdzg5shnt-rgb/lianai",
+        "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+        "source_path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+        "bytes": 13162,
+        "characters": 4810,
+        "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a",
+        "git_blob_sha": "93155c36766b7e1e513250044f91da77bab250d9",
+        "line_count": 86,
+        "read_range": [
+          0,
+          4810
+        ],
+        "note": "knowledge/books/G01-light-clear-expression.md",
+        "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt"
+      },
+      {
+        "id": "G01",
+        "repository": "khdzg5shnt-rgb/lianai",
+        "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+        "source_path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+        "bytes": 7055,
+        "characters": 2775,
+        "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed",
+        "git_blob_sha": "723426b28028c1b23c30f20f3007b9506a036e34",
+        "line_count": 147,
+        "read_range": [
+          0,
+          2775
+        ],
+        "note": "knowledge/books/G01-natural-flow-and-conflict.md",
+        "archive_path": "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt"
+      },
+      {
+        "id": "G01",
+        "repository": "khdzg5shnt-rgb/lianai",
+        "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+        "source_path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+        "bytes": 6616,
+        "characters": 2460,
+        "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e",
+        "git_blob_sha": "920c33943a84827487e51c8a97367ba63a5e4e37",
+        "line_count": 74,
+        "read_range": [
+          0,
+          2460
+        ],
+        "note": "knowledge/books/G01-natural-flow-and-conflict.md",
+        "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt"
+      },
+      {
+        "id": "G04",
+        "repository": "khdzg5shnt-rgb/simp-skill",
+        "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+        "source_path": "prompts/persona_builder.md",
+        "bytes": 4992,
+        "characters": 2473,
+        "sha256": "1586a3cb6cf06eae8583e33ccae4c501ef08d3295b9a6637b6526cdd4d8a40b7",
+        "git_blob_sha": "dc84512f526dfb24716958a44671b037ed62b960",
+        "line_count": 159,
+        "read_range": [
+          0,
+          2473
+        ],
+        "note": "knowledge/books/G04-observation-not-profiling.md",
+        "archive_path": "sources/github/simp-skill/prompts/persona_builder.md.txt"
+      },
+      {
+        "id": "G04",
+        "repository": "khdzg5shnt-rgb/simp-skill",
+        "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+        "source_path": "prompts/signal_reader.md",
+        "bytes": 7441,
+        "characters": 3393,
+        "sha256": "46b794e41f1f67fa2d89524081018c5849109d80ab038075c255507e703b73ee",
+        "git_blob_sha": "d24d3adb26a1202d561f5ab92079a62f42f21163",
+        "line_count": 225,
+        "read_range": [
+          0,
+          3393
+        ],
+        "note": "knowledge/books/G04-observation-not-profiling.md",
+        "archive_path": "sources/github/simp-skill/prompts/signal_reader.md.txt"
+      },
+      {
+        "id": "G04",
+        "repository": "khdzg5shnt-rgb/simp-skill",
+        "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+        "source_path": "prompts/timeline.md",
+        "bytes": 3140,
+        "characters": 1690,
+        "sha256": "e967a21e1aa8af91dd75001f7a12eadc686b3a6a13fc12641ae75053820480af",
+        "git_blob_sha": "f575263993b2457912c01e265a976f2d1b9eab01",
+        "line_count": 107,
+        "read_range": [
+          0,
+          1690
+        ],
+        "note": "knowledge/books/G04-observation-not-profiling.md",
+        "archive_path": "sources/github/simp-skill/prompts/timeline.md.txt"
+      }
+    ],
+    "exact_blob_reuse": {
+      "documents": 15,
+      "new_reading_characters": 0,
+      "mapping": "knowledge/provenance/github_exact_blob_reuse_2026-11-06.json"
+    }
+  },
+  "checks": {
+    "ok": true,
+    "errors": [],
+    "implementation": "JavaScript metadata/link/hash checks and manual port of unchanged route.py normalize/matches; not Python script or unittest execution",
+    "counts": {
+      "methods": 26,
+      "routes": 29,
+      "source_records": 157,
+      "archived_files": 37,
+      "archived_documents": 31,
+      "licenses": 6,
+      "synthetic_scenarios": 56
+    },
+    "local_links_checked": 0,
+    "original_items_checked": 126,
+    "substantively_changed_methods": [
+      "M01",
+      "M04",
+      "M08",
+      "M21",
+      "M22",
+      "M26"
+    ],
+    "route_scenarios_passed": 56,
+    "python_checks": {
+      "validate_os": "not_run_execution_environment_unavailable",
+      "unittest": "not_run_execution_environment_unavailable"
+    },
+    "case_results": [
+      {
+        "id": "T01",
+        "route": "R00",
+        "action": "clarify",
+        "ok": true
+      },
+      {
+        "id": "T02",
+        "route": "R00",
+        "action": "clarify",
+        "ok": true
+      },
+      {
+        "id": "T03",
+        "route": "R01",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T04",
+        "route": "R02",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T05",
+        "route": "R03",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T06",
+        "route": "R04",
+        "action": "hold",
+        "ok": true
+      },
+      {
+        "id": "T07",
+        "route": "R04",
+        "action": "hold",
+        "ok": true
+      },
+      {
+        "id": "T08",
+        "route": "R05",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T09",
+        "route": "R06",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T10",
+        "route": "R07",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T11",
+        "route": "R08",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T12",
+        "route": "R08",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T13",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T14",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T15",
+        "route": "R10",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T16",
+        "route": "R10",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T17",
+        "route": "R11",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T18",
+        "route": "R12",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T19",
+        "route": "R13",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T20",
+        "route": "R13",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T21",
+        "route": "R14",
+        "action": "hold",
+        "ok": true
+      },
+      {
+        "id": "T22",
+        "route": "R14",
+        "action": "hold",
+        "ok": true
+      },
+      {
+        "id": "T23",
+        "route": "R15",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T24",
+        "route": "R15",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T25",
+        "route": "R16",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T26",
+        "route": "R17",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T27",
+        "route": "R18",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T28",
+        "route": "R18",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T29",
+        "route": "R19",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T30",
+        "route": "R20",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T31",
+        "route": "R21",
+        "action": "clarify",
+        "ok": true
+      },
+      {
+        "id": "T32",
+        "route": "R22",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T33",
+        "route": "R23",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T34",
+        "route": "R24",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T35",
+        "route": "R25",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T36",
+        "route": "R26",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T37",
+        "route": "R27",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T38",
+        "route": "R28",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T39",
+        "route": "R27",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T40",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T41",
+        "route": "R03",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T42",
+        "route": "R08",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T43",
+        "route": "R28",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T44",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T45",
+        "route": "R17",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T46",
+        "route": "R16",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T47",
+        "route": "R16",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T48",
+        "route": "R15",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T49",
+        "route": "R16",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T50",
+        "route": "R16",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T51",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T52",
+        "route": "R09",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T53",
+        "route": "R01",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T54",
+        "route": "R02",
+        "action": "stop",
+        "ok": true
+      },
+      {
+        "id": "T55",
+        "route": "R05",
+        "action": "draft",
+        "ok": true
+      },
+      {
+        "id": "T56",
+        "route": "R01",
+        "action": "stop",
+        "ok": true
+      }
+    ],
+    "remote_readback": {
+      "content_head": "f5c591b45cac81eb9cc83edbd931b9e230e6b3a0",
+      "exact_remote_text_readbacks": {
+        "count": 27,
+        "ok": true
+      },
+      "all_changed_paths": [
+        "knowledge/books/G01-light-clear-expression.md",
+        "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+        "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+        "knowledge/provenance/external_sources.json",
+        "knowledge/provenance/github_document_catalog.json",
+        "system/sources.json",
+        "system/methods.json",
+        "system/METHOD_CARDS.md",
+        "system/SOURCE_INTEGRATION.md",
+        "KNOWLEDGE_INDEX.md",
+        "PUA_CORE_SYSTEM.md",
+        "knowledge/books/G01-practical-expansion.md",
+        "sources/README.md",
+        "CURRENT_STATE.md",
+        "knowledge/books/G01-natural-flow-and-conflict.md",
+        "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+        "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+        "knowledge/books/G04-observation-not-profiling.md",
+        "sources/github/simp-skill/prompts/persona_builder.md.txt",
+        "sources/github/simp-skill/prompts/signal_reader.md.txt",
+        "sources/github/simp-skill/prompts/timeline.md.txt",
+        "knowledge/books/G04-message-expansion.md",
+        "system/SCREENSHOT_PROTOCOL.md",
+        "knowledge/provenance/github_exact_blob_reuse_2026-11-06.json",
+        "knowledge/books/G09-shared-document-reuse.md",
+        "knowledge/books/G09-ocr-input.md",
+        "knowledge/provenance/source-catalog.md"
+      ],
+      "untouched_original_session_blobs": {
+        "count": 281,
+        "ok": true
+      },
+      "original_books": {
+        "count": 119,
+        "ok": true
+      },
+      "exact_blob_reuse": {
+        "count": 15,
+        "ok": true,
+        "new_reading_count": 0
+      },
+      "errors": [],
+      "python_not_run": true,
+      "method_version": "1.0.0"
+    },
+    "source_identity_check": {
+      "new_documents": 7,
+      "source_tree_blob_and_size_match": true,
+      "UTF8_git_blob_and_SHA256_match": true
+    },
+    "privacy_scope": "Only public project-authored texts and editorial notes; no user private chat, screenshots or case summaries written"
+  },
+  "required_commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "status": "NOT_RUN",
+      "reason": "No usable execution environment is available."
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "status": "NOT_RUN",
+      "reason": "No usable execution environment is available."
+    }
+  ],
+  "implementation_note": "Checks above ran as JavaScript in the tool orchestrator against fetched or staged text. 56 existing synthetic cases were evaluated using a manual port of unchanged route.py normalize/matches; this is not Python execution and does not cover the seven unittest methods or their mutation checks.",
+  "method_changes": [
+    {
+      "id": "M01",
+      "name": "核对对象与原句",
+      "changes": [
+        {
+          "field": "operation",
+          "before": "只核对会改变当前回复的一项信息；不补不可见文字，不按同名合并对象。 可观察到的迟到、失约和成本与未知动机分开；未知不要求否认实际影响。",
+          "after": "只核对会改变当前回复的一项信息；不补不可见文字，不按同名合并对象。 可观察到的迟到、失约和成本与未知动机分开；未知不要求否认实际影响。 只就可见时间窗描述主动与投入；未展示的历史不当作从未发生。"
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "name": "回应问题并露出一点自己",
+      "changes": [
+        {
+          "field": "operation",
+          "before": "先用已知事实回答，再视语境加一点真实态度；没听清时正常重述，不自动认定挑衅或测试。未知生活事实不代编。",
+          "after": "先用已知事实回答，再视语境加一点真实态度；没听清时正常重述，不自动认定挑衅或测试。未知生活事实不代编。 不愿披露时简短说清边界，不编忘记或忙碌来回避。"
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "name": "有依据的可纠正观察",
+      "changes": [
+        {
+          "field": "operation",
+          "before": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。",
+          "after": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。"
+        },
+        {
+          "field": "avoid",
+          "before": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。",
+          "after": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。"
+        }
+      ]
+    },
+    {
+      "id": "M21",
+      "name": "有依据的修复",
+      "changes": [
+        {
+          "field": "avoid",
+          "before": "无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。",
+          "after": "无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。 不把相关重复失约或已确认责任一概当作翻旧账。"
+        }
+      ]
+    },
+    {
+      "id": "M22",
+      "name": "表达边界",
+      "changes": [
+        {
+          "field": "avoid",
+          "before": "为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。",
+          "after": "为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。 没有双方过错证据时，不写成双方都有问题。"
+        }
+      ]
+    },
+    {
+      "id": "M26",
+      "name": "压成一句自然的话",
+      "changes": [
+        {
+          "field": "operation",
+          "before": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。",
+          "after": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。 删去无关铺垫和重复结论，不强制总分总、PREP或结尾提问。"
+        }
+      ]
+    }
+  ],
+  "unit_receipts": [
+    {
+      "unit": "轻松接话与清楚表达",
+      "commit": "df525feaffa58cd07cca7e9b24bb0259706cf8b3",
+      "parent": "c9db4edf59a94e946ef1d20d2fca709320b8a1fe",
+      "message": "Read G01 light conversation and clear expression guides; refine M04/M26",
+      "files": [
+        "knowledge/books/G01-light-clear-expression.md",
+        "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+        "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+        "knowledge/provenance/external_sources.json",
+        "knowledge/provenance/github_document_catalog.json",
+        "system/sources.json",
+        "system/methods.json",
+        "system/METHOD_CARDS.md",
+        "system/SOURCE_INTEGRATION.md",
+        "KNOWLEDGE_INDEX.md",
+        "PUA_CORE_SYSTEM.md",
+        "knowledge/books/G01-practical-expansion.md",
+        "sources/README.md",
+        "CURRENT_STATE.md"
+      ],
+      "readback": {
+        "ok": true,
+        "errors": [],
+        "exact_text_files": 14,
+        "untouched_blobs_preserved": 285,
+        "tree_not_truncated": true
+      }
+    },
+    {
+      "unit": "自然表达与冲突边界",
+      "commit": "00bdd7631e2670786bc1b39c716af5f810fafcce",
+      "parent": "df525feaffa58cd07cca7e9b24bb0259706cf8b3",
+      "message": "Read G01 natural interaction and conflict guides; correct repair and boundary rules",
+      "files": [
+        "knowledge/books/G01-natural-flow-and-conflict.md",
+        "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+        "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+        "knowledge/provenance/external_sources.json",
+        "knowledge/provenance/github_document_catalog.json",
+        "system/sources.json",
+        "system/methods.json",
+        "system/METHOD_CARDS.md",
+        "system/SOURCE_INTEGRATION.md",
+        "KNOWLEDGE_INDEX.md",
+        "PUA_CORE_SYSTEM.md",
+        "knowledge/books/G01-practical-expansion.md",
+        "sources/README.md",
+        "CURRENT_STATE.md"
+      ],
+      "readback": {
+        "ok": true,
+        "errors": [],
+        "exact_text_files": 14,
+        "untouched_blobs_preserved": 288,
+        "tree_not_truncated": true
+      }
+    },
+    {
+      "unit": "观察范围与画像评分的限制",
+      "commit": "f70c4512dc8483092ad9f027d9c23ad418c016d7",
+      "parent": "00bdd7631e2670786bc1b39c716af5f810fafcce",
+      "message": "Read G04 persona, signal and timeline prompts; preserve observation scope without profiling",
+      "files": [
+        "knowledge/books/G04-observation-not-profiling.md",
+        "sources/github/simp-skill/prompts/persona_builder.md.txt",
+        "sources/github/simp-skill/prompts/signal_reader.md.txt",
+        "sources/github/simp-skill/prompts/timeline.md.txt",
+        "knowledge/provenance/external_sources.json",
+        "knowledge/provenance/github_document_catalog.json",
+        "system/sources.json",
+        "system/methods.json",
+        "system/METHOD_CARDS.md",
+        "system/SOURCE_INTEGRATION.md",
+        "KNOWLEDGE_INDEX.md",
+        "PUA_CORE_SYSTEM.md",
+        "knowledge/books/G04-message-expansion.md",
+        "sources/README.md",
+        "CURRENT_STATE.md",
+        "system/SCREENSHOT_PROTOCOL.md"
+      ],
+      "readback": {
+        "ok": true,
+        "errors": [],
+        "exact_text_files": 16,
+        "untouched_blobs_preserved": 290,
+        "tree_not_truncated": true
+      }
+    },
+    {
+      "unit": "公开来源同blob去重与共用入口",
+      "commit": "f5c591b45cac81eb9cc83edbd931b9e230e6b3a0",
+      "parent": "f70c4512dc8483092ad9f027d9c23ad418c016d7",
+      "message": "Reuse 15 exact-blob G09 documents through completed G01 readings and internal entries",
+      "files": [
+        "knowledge/provenance/github_exact_blob_reuse_2026-11-06.json",
+        "knowledge/books/G09-shared-document-reuse.md",
+        "knowledge/provenance/external_sources.json",
+        "knowledge/provenance/github_document_catalog.json",
+        "system/sources.json",
+        "knowledge/books/G09-ocr-input.md",
+        "system/SOURCE_INTEGRATION.md",
+        "KNOWLEDGE_INDEX.md",
+        "CURRENT_STATE.md",
+        "knowledge/provenance/source-catalog.md"
+      ],
+      "readback": {
+        "ok": true,
+        "errors": [],
+        "exact_text_files": 10,
+        "untouched_blobs_preserved": 298,
+        "tree_not_truncated": true
+      }
+    }
+  ],
+  "next": {
+    "source_id": "S04",
+    "unit_id": "E06",
+    "entry": "k第十一课-吸引不是选择..txt",
+    "decoded_character": 34905,
+    "page_marker": 26,
+    "printed_page": 21,
+    "section": "第二章 为改变所做的准备",
+    "read_range": [
+      0,
+      34905
+    ],
+    "remaining_range": [
+      34905,
+      121603
+    ],
+    "entry_sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7"
+  },
+  "limits": [
+    "No additional TOP30 or original-book completion counted.",
+    "No new empirical evidence or scientific reference verification performed.",
+    "No OCR recognition, message generation quality or dating outcome test performed.",
+    "Final audit commit contains this report and updated navigation; its own hash is read externally after publication to avoid a self-referential artifact."
+  ]
+}

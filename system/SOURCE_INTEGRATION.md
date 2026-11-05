@@ -117,3 +117,5 @@ S22：[当前独立阅读笔记](../knowledge/books/S22-mystery-pdf-reconciliati
 S04/E06 [吸引不是选择局部](../knowledge/books/S04-attraction-not-choice.md)：字符[0,34905)、PAGE1–25，目录/引言/第一章；剩余从第二章字符34905继续，TOP30完整计数不增加。
  
 2026-11-06另核[G09共享文档](../knowledge/books/G09-shared-document-reuse.md)：15份固定blob与G01已有完整阅读完全相同，共用本库原文与笔记；不增加归档或本轮阅读数。
+
+2026-11-06范围与验收见[本轮报告](../knowledge/provenance/public_reading_2026-11-06.md)；规定Python检查仍未运行，JavaScript哈希/链接/56场景核对不替代完整检查。

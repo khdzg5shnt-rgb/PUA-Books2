@@ -19,7 +19,7 @@
 
 另核[G09共享文档](knowledge/books/G09-shared-document-reuse.md)15份，与G01同blob共用本库原文和既有阅读，新增阅读字符计0。
 
-当前执行环境不可用，不能读取本地上传附件或运行两项规定Python检查；本轮未新增E06阅读，断点仍为字符34905。按单元提交并逐文件远端回读；本轮检查状态待最终审计记录。
+当前执行环境不可用，不能读取本地上传附件或运行两项规定Python检查；本轮未新增E06阅读，断点仍为字符34905。已完成4个内容单元提交及27条不同修改路径的远端全文回读；原始119份书籍blob保留。JavaScript元数据/哈希/链接核对和56个虚构路由场景通过，但规定Python检查仍未运行，不能报全验收。见[本轮报告](knowledge/provenance/public_reading_2026-11-06.md)与[检查记录](knowledge/provenance/public_reading_validation_2026-11-06.json)。
 <!-- END_PUBLIC_2026_11_06 -->
 
 ## 2026-11-03已有进展

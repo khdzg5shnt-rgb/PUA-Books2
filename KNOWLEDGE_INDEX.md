@@ -73,3 +73,5 @@
 <!-- END_PUBLIC_2026_11_06 -->
 
 2026-11-06：[G09的15份同blob文件](knowledge/books/G09-shared-document-reuse.md)复用G01已读原文与笔记，不重复搬运或计阅读。
+
+2026-11-06验收：[7份公开文档精读、15份复用及方法变更](knowledge/provenance/public_reading_2026-11-06.md)；两项Python检查因环境不可用未运行，详见[实际检查记录](knowledge/provenance/public_reading_validation_2026-11-06.json)。
