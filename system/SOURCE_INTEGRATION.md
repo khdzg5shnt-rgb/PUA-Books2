@@ -9,16 +9,17 @@
 ## GitHub来源的具体整合
 
 <!-- PUBLIC_2026_11_06 -->
-2026-11-06本轮实际读完2份固定版本项目文档、7612字符；当前总归档26篇项目文档和6份MIT许可。仅本仓库新增归档与原创笔记，未执行源提示词或创建私人档案。此前日期段落中的计数为当时快照。
+2026-11-06本轮实际读完4份固定版本项目文档、12847字符；当前总归档28篇项目文档和6份MIT许可。仅本仓库新增归档与原创笔记，未执行源提示词或创建私人档案。此前日期段落中的计数为当时快照。
 
 - [G01-light-clear-expression](../knowledge/books/G01-light-clear-expression.md)
+- [G01-natural-flow-and-conflict](../knowledge/books/G01-natural-flow-and-conflict.md)
 <!-- END_PUBLIC_2026_11_06 -->
 
 系统搭建轮重核9个公开来源固定快照，补读16篇项目文档；其中11篇项目自写文档连同一份新MIT许可加入归档，其余5篇只保存原创摘要和固定出处。核心精读轮和2026-11-03续读各补读并归档2篇，当时共归档24篇项目文档、6份许可。其他仓库未修改。
 
 | 来源 | 固定版本 | 内部采用入口与方法 | 归档与范围 |
 | --- | --- | --- | --- |
-| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 15篇项目文档；其余按笔记范围 |
+| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 17篇项目文档；其余按笔记范围 |
 | G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 4篇项目文档；其余按笔记范围 |
 | G03 fan-emotion-analysis-skill | `23f33bdd` | [M01、M19](../knowledge/books/G03-fan.md) | 1篇项目文档；其余按笔记范围 |
 | G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 4篇项目文档；其余按笔记范围 |

@@ -11,9 +11,10 @@
 <!-- PUBLIC_2026_11_06 -->
 ## 2026-11-06公开资料续读
 
-本轮已顺序读完2份公开项目文档、7612字符，固定blob与SHA-256已核；只新增所列公开项目文档阅读，不计书籍全文。实质修订M04、M26，沿用26张卡和29条路由。
+本轮已顺序读完4份公开项目文档、12847字符，固定blob与SHA-256已核；只新增所列公开项目文档阅读，不计书籍全文。实质修订M04、M08、M21、M22、M26，沿用26张卡和29条路由。
 
 - [G01-light-clear-expression](knowledge/books/G01-light-clear-expression.md)
+- [G01-natural-flow-and-conflict](knowledge/books/G01-natural-flow-and-conflict.md)
 
 当前执行环境不可用，不能读取本地上传附件或运行两项规定Python检查；本轮未新增E06阅读，断点仍为字符34905。按单元提交并逐文件远端回读；本轮检查状态待最终审计记录。
 <!-- END_PUBLIC_2026_11_06 -->

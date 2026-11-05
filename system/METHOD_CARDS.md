@@ -80,11 +80,11 @@
 
 适用：她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助
 
-动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。
+动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。
 
 避免：凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)
 
 ## M09 具体欣赏
 
@@ -114,7 +114,7 @@
 
 避免：读心、诊断、替第三方开脱或先问她做错什么；强迫求证情绪、反省或完成咨询流程。不要否认感受、强行安排身体安慰或趁困扰升级暧昧；明确求办法时先回应实际需要。
 
-依据：[情绪回应指南的细节](../knowledge/books/G01-lianai.md)；[状态、感受、关联](../knowledge/books/S04-top30-units.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)
+依据：[情绪回应指南的细节](../knowledge/books/G01-lianai.md)；[状态、感受、关联](../knowledge/books/S04-top30-units.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[按当前需要回应，不套观察表达邀请三件套](../knowledge/books/G01-natural-flow-and-conflict.md)
 
 虚构例：她说“今天改了一天材料，真的累”；草稿：“改了一天确实够累的，你先歇会儿，不用硬撑着聊天。”
 
@@ -216,9 +216,9 @@
 
 动作：只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。
 
-避免：无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。
+避免：无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。 不把相关重复失约或已确认责任一概当作翻旧账。
 
-依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)
+依据：[沟通冲突与修复](../knowledge/books/G01-lianai.md)；[事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[相关历史、具体修复与责任边界](../knowledge/books/G01-natural-flow-and-conflict.md)
 
 ## M22 表达边界
 
@@ -226,9 +226,9 @@
 
 动作：平静说清不接受的具体行为或一项真实限制，也可停止互动；可以保留真实感受。已发生的越界足以表达限制，不必先证明恶意。拒绝无需重大借口或补偿承诺；替代方案只在真实愿意且能做到时给。正常分歧不升级为攻击，理解处境不取消承诺与责任。
 
-避免：为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。
+避免：为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。 没有双方过错证据时，不写成双方都有问题。
 
-依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)
+依据：[具体请求与边界](../knowledge/books/G01-lianai.md)；[不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；[单方越界不改写成双方过错](../knowledge/books/G01-natural-flow-and-conflict.md)
 
 ## M23 尊重拒绝的具体范围
 
@@ -268,5 +268,5 @@
 
 避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[信息减法、结构模板与证据限制](../knowledge/books/G01-light-clear-expression.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[信息减法、结构模板与证据限制](../knowledge/books/G01-light-clear-expression.md)；[自然流多段输出只作训练参考](../knowledge/books/G01-natural-flow-and-conflict.md)
 

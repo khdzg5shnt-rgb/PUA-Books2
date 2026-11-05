@@ -1666,10 +1666,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "15 selected project documents fully read and archived with MIT; not all 67 blobs",
+      "reading_coverage": "17 selected project documents fully read and archived with MIT; not all 67 blobs",
       "pending": "Other unlisted repository files and independent verification of empirical claims remain outside documented coverage; this round read fixed snapshots, not current upstream main.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 15,
+      "archived_document_count": 17,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1900,6 +1900,50 @@
           "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
           "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
           "notes": "knowledge/books/G01-light-clear-expression.md"
+        },
+        {
+          "original_path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E8%87%AA%E7%84%B6%E6%B5%81%E3%80%81%E5%86%85%E5%9C%A8%E7%8A%B6%E6%80%81%E4%B8%8E%E7%BB%93%E6%9E%84%E5%8C%96%E4%BA%92%E5%8A%A8%EF%BC%9A%E4%BC%A6%E7%90%86%E8%83%BD%E5%8A%9B%E8%BD%AC%E8%AF%91.md",
+          "bytes": 7055,
+          "characters": 2775,
+          "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed",
+          "git_blob_sha": "723426b28028c1b23c30f20f3007b9506a036e34",
+          "line_count": 147,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2775
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G01-natural-flow-and-conflict.md"
+        },
+        {
+          "original_path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E4%B8%87%E8%83%BD%E5%90%B5%E6%9E%B6%E6%8A%80%E5%B7%A7%EF%BC%9A%E7%90%86%E6%80%A7%E5%86%B2%E7%AA%81%E5%A4%84%E7%90%86%E6%8C%87%E5%8D%97.md",
+          "bytes": 6616,
+          "characters": 2460,
+          "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e",
+          "git_blob_sha": "920c33943a84827487e51c8a97367ba63a5e4e37",
+          "line_count": 74,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2460
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G01-natural-flow-and-conflict.md"
         }
       ],
       "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
@@ -1908,7 +1952,8 @@
       "core_round_synthesis_note": "knowledge/books/G01-awkwardness-and-refusal.md",
       "continuation_synthesis_notes": [
         "knowledge/books/G01-passive-to-active.md",
-        "knowledge/books/G01-light-clear-expression.md"
+        "knowledge/books/G01-light-clear-expression.md",
+        "knowledge/books/G01-natural-flow-and-conflict.md"
       ],
       "public_round_checked": "2026-11-06"
     },
@@ -2800,6 +2845,30 @@
       "license_archive": "sources/github/lianai/LICENSE",
       "declared_license": "MIT",
       "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+      "archive_path": "sources/github/lianai/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md.txt",
+      "bytes": 7055,
+      "sha256": "9e5ed2c2cdef61de8ca62d8d04f4e4c2fb23854d31d8bba01afc136d30f228ed",
+      "git_blob_sha": "723426b28028c1b23c30f20f3007b9506a036e34",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+      "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
+      "bytes": 6616,
+      "sha256": "ea8305e07aa5a4c58b3e15ce28950a6cc8da4862704aae70a4483f4639fa0a5e",
+      "git_blob_sha": "920c33943a84827487e51c8a97367ba63a5e4e37",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
     }
   ],
   "privacy": {
@@ -3014,12 +3083,25 @@
           "path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
           "characters": 4810,
           "note": "knowledge/books/G01-light-clear-expression.md"
+        },
+        {
+          "source_id": "G01",
+          "path": "references/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+          "characters": 2775,
+          "note": "knowledge/books/G01-natural-flow-and-conflict.md"
+        },
+        {
+          "source_id": "G01",
+          "path": "references/practical/万能吵架技巧：理性冲突处理指南.md",
+          "characters": 2460,
+          "note": "knowledge/books/G01-natural-flow-and-conflict.md"
         }
       ],
       "notes": [
-        "knowledge/books/G01-light-clear-expression.md"
+        "knowledge/books/G01-light-clear-expression.md",
+        "knowledge/books/G01-natural-flow-and-conflict.md"
       ],
-      "decoded_characters": 7612,
+      "decoded_characters": 12847,
       "book_reading_added": 0,
       "next_top30": {
         "id": "E06",
@@ -3028,6 +3110,9 @@
       },
       "methods_substantively_changed": [
         "M04",
+        "M08",
+        "M21",
+        "M22",
         "M26"
       ],
       "python_checks": "not_run_execution_environment_unavailable"
