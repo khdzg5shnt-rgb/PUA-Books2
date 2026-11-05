@@ -30,7 +30,7 @@
 
 避免：连续查户口、同时铺开多条追问、抢走对方分享，或为填停顿不断另开话题。
 
-依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)
+依据：[关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；[作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[闲聊的具体承接与不强制追问](../knowledge/books/G01-light-clear-expression.md)
 
 虚构例：她说“终于把那盆多肉救活了”；草稿：“这盆多肉算是熬过你的新手期了。”
 
@@ -38,11 +38,11 @@
 
 适用：她认真询问用户的信息或看法
 
-动作：先用已知事实回答，再视语境加一点真实态度；没听清时正常重述，不自动认定挑衅或测试。未知生活事实不代编。
+动作：先用已知事实回答，再视语境加一点真实态度；没听清时正常重述，不自动认定挑衅或测试。未知生活事实不代编。 不愿披露时简短说清边界，不编忘记或忙碌来回避。
 
 避免：把正常询问叫测试；为争框架故意不答、卖关子、编身份或无故反问。
 
-依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)
+依据：[自我表达与反固定步骤](../knowledge/books/B072.md)；[正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[真实答复、不熟与隐私边界](../knowledge/books/G01-light-clear-expression.md)
 
 ## M05 回扣共同话题
 
@@ -104,7 +104,7 @@
 
 避免：移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[不熟的话题坦诚承接，不编经历](../knowledge/books/G01-light-clear-expression.md)
 
 ## M11 接住困扰
 
@@ -264,8 +264,9 @@
 
 适用：已经选定本轮目标与依据，需要生成给用户复制的消息
 
-动作：先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。
+动作：先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。 删去无关铺垫和重复结论，不强制总分总、PREP或结尾提问。
 
 避免：排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。
 
-依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)
+依据：[一个目标与口吻](../knowledge/books/G01-practical-expansion.md)；[自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；[当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；[四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[信息减法、结构模板与证据限制](../knowledge/books/G01-light-clear-expression.md)
+

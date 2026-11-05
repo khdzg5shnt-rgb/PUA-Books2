@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "review_date": "2026-11-03",
+  "review_date": "2026-11-06",
   "source_access": "Mixed external sources. Selected permissively licensed project documents are archived as inert text. Uploaded books/courses, third-party excerpts, tools and uncertain quoted sources are represented by original research notes plus fixed provenance; absent raw sources may still be needed for new source-detail checks.",
   "sources": [
     {
@@ -1666,10 +1666,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "13 selected project documents fully read and archived with MIT; not all 67 blobs",
-      "pending": "Other unlisted reference documents and independent verification of empirical claims remain outside documented coverage.",
+      "reading_coverage": "15 selected project documents fully read and archived with MIT; not all 67 blobs",
+      "pending": "Other unlisted repository files and independent verification of empirical claims remain outside documented coverage; this round read fixed snapshots, not current upstream main.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 13,
+      "archived_document_count": 15,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1856,6 +1856,50 @@
           "archive_path": "sources/github/lianai/references/practical/聊天化被动为主动：引导互动的实用指南.md.txt",
           "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data",
           "notes": "knowledge/books/G01-passive-to-active.md"
+        },
+        {
+          "original_path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E5%BA%9F%E8%AF%9D%E6%96%87%E5%AD%A6%E5%9B%9E%E5%A4%8D%E6%8C%87%E5%8D%97%EF%BC%9A%E8%BD%BB%E6%9D%BE%E5%BA%94%E5%AF%B9%E5%90%84%E7%B1%BB%E5%9C%BA%E6%99%AF.md",
+          "bytes": 7602,
+          "characters": 2802,
+          "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d",
+          "git_blob_sha": "6c0138946b6b508987948c56f1903ff77fca33be",
+          "line_count": 75,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2802
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G01-light-clear-expression.md"
+        },
+        {
+          "original_path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/practical/%E6%8F%90%E5%8D%87%E8%A1%A8%E8%BE%BE%E9%80%BB%E8%BE%91%E6%80%A7%EF%BC%9A%E4%BB%8E%E6%B7%B7%E4%B9%B1%E5%88%B0%E6%B8%85%E6%99%B0%E7%9A%84%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md",
+          "bytes": 13162,
+          "characters": 4810,
+          "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a",
+          "git_blob_sha": "93155c36766b7e1e513250044f91da77bab250d9",
+          "line_count": 86,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_06",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                4810
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+          "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
+          "notes": "knowledge/books/G01-light-clear-expression.md"
         }
       ],
       "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
@@ -1863,8 +1907,10 @@
       "os_synthesis_note": "knowledge/books/G01-practical-expansion.md",
       "core_round_synthesis_note": "knowledge/books/G01-awkwardness-and-refusal.md",
       "continuation_synthesis_notes": [
-        "knowledge/books/G01-passive-to-active.md"
-      ]
+        "knowledge/books/G01-passive-to-active.md",
+        "knowledge/books/G01-light-clear-expression.md"
+      ],
+      "public_round_checked": "2026-11-06"
     },
     {
       "id": "G02",
@@ -2730,6 +2776,30 @@
       "license_archive": "sources/github/simp-skill/LICENSE",
       "declared_license": "MIT",
       "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+      "archive_path": "sources/github/lianai/references/practical/废话文学回复指南：轻松应对各类场景.md.txt",
+      "bytes": 7602,
+      "sha256": "e3bffac19601217721aa2dec00c725a7b49240d71d95136c4e3ce6756d884b2d",
+      "git_blob_sha": "6c0138946b6b508987948c56f1903ff77fca33be",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+      "archive_path": "sources/github/lianai/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md.txt",
+      "bytes": 13162,
+      "sha256": "b373c5ce25a3759ffc80830bf7b4cd877a0dca01320fcaedfd54e364b17db67a",
+      "git_blob_sha": "93155c36766b7e1e513250044f91da77bab250d9",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
     }
   ],
   "privacy": {
@@ -2924,6 +2994,43 @@
           "sha": "af079eef0095112d6d73fc3d46f98e8f503268b6"
         }
       ]
+    }
+  ],
+  "public_reading_rounds": [
+    {
+      "round_id": "public-source-integration-2026-11-06",
+      "date": "2026-11-06",
+      "scope": "Seven public project-authored documents at existing fixed commits; not new book reading",
+      "status": "in_progress",
+      "github_documents": [
+        {
+          "source_id": "G01",
+          "path": "references/practical/废话文学回复指南：轻松应对各类场景.md",
+          "characters": 2802,
+          "note": "knowledge/books/G01-light-clear-expression.md"
+        },
+        {
+          "source_id": "G01",
+          "path": "references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+          "characters": 4810,
+          "note": "knowledge/books/G01-light-clear-expression.md"
+        }
+      ],
+      "notes": [
+        "knowledge/books/G01-light-clear-expression.md"
+      ],
+      "decoded_characters": 7612,
+      "book_reading_added": 0,
+      "next_top30": {
+        "id": "E06",
+        "decoded_character": 34905,
+        "heading": "===== PAGE 26 ===== / 印刷页21 / 第二章 为改变所做的准备"
+      },
+      "methods_substantively_changed": [
+        "M04",
+        "M26"
+      ],
+      "python_checks": "not_run_execution_environment_unavailable"
     }
   ]
 }
