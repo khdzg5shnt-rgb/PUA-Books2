@@ -1168,16 +1168,27 @@
       "group": "uploaded_material",
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
-      "reading_status": "archive_directory_verified; 22 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 7 without verified complete reading; original publications unverified; E06 partial [0,64559), next PAGE68 第四章 看不见的吸引语言",
+      "reading_status": "archive_directory_verified; 23 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 6 without verified complete reading; original publications unverified; E06 supplied TXT complete [0,121603)",
       "local_entry": "knowledge/books/S04-top30-units.md",
       "raw_publication": "not_added",
-      "partial_reading_notes": [
-        "knowledge/books/S04-attraction-not-choice.md"
-      ],
       "continuation_notes": [
         "knowledge/books/S04-attraction-ch02.md",
-        "knowledge/books/S04-attraction-ch03.md"
-      ]
+        "knowledge/books/S04-attraction-ch03.md",
+        "knowledge/books/S04-attraction-ch04.md",
+        "knowledge/books/S04-attraction-ch05-07.md",
+        "knowledge/books/S04-attraction-ch08-10.md"
+      ],
+      "completed_reading_notes": [
+        "knowledge/books/S04-attraction-not-choice.md"
+      ],
+      "next_reading_unit": {
+        "source": "S04",
+        "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
+        "decoded_character": 0,
+        "characters": 33594,
+        "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
+        "status": "unverified_historical_claim; next unit begins at character0; not read in this round"
+      }
     },
     {
       "id": "S05",
@@ -1346,14 +1357,15 @@
       "group": "public_github_source",
       "title": "khdzg5shnt-rgb/lianai",
       "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
-      "reading_status": "17 selected project documents fully read and archived with MIT; not all 67 blobs",
+      "reading_status": "18 selected project documents fully read and archived with MIT; not all 67 blobs",
       "local_entry": "knowledge/books/G01-practical-expansion.md",
       "scope": "selected documents and original summaries; not full repository reading",
-      "local_archived_document_count": 17,
+      "local_archived_document_count": 18,
       "continuation_notes": [
         "knowledge/books/G01-passive-to-active.md",
         "knowledge/books/G01-light-clear-expression.md",
-        "knowledge/books/G01-natural-flow-and-conflict.md"
+        "knowledge/books/G01-natural-flow-and-conflict.md",
+        "knowledge/books/G01-digital-evidence.md"
       ]
     },
     {
@@ -1361,10 +1373,13 @@
       "group": "public_github_source",
       "title": "khdzg5shnt-rgb/qingsheng-skill",
       "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
-      "reading_status": "Core, platform guide, 41 examples and 5 further reference documents read; remaining files not all read",
+      "reading_status": "Core, platform guide, 41 examples and 8 further reference documents read; remaining files not all read; 7 project documents archived",
       "local_entry": "knowledge/books/G02-reference-expansion.md",
       "scope": "selected documents and original summaries; not full repository reading",
-      "local_archived_document_count": 4
+      "local_archived_document_count": 7,
+      "continuation_notes": [
+        "knowledge/books/G02-context-and-rhythm.md"
+      ]
     },
     {
       "id": "G03",
@@ -1381,13 +1396,14 @@
       "group": "public_github_source",
       "title": "khdzg5shnt-rgb/simp-skill",
       "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
-      "reading_status": "7 selected project documents fully read and archived with MIT; not all 36 blobs",
+      "reading_status": "10 selected project documents fully read and archived with MIT; not all 36 blobs",
       "local_entry": "knowledge/books/G04-message-expansion.md",
       "scope": "selected documents and original summaries; not full repository reading",
-      "local_archived_document_count": 7,
+      "local_archived_document_count": 10,
       "continuation_notes": [
         "knowledge/books/G04-daily-coach.md",
-        "knowledge/books/G04-observation-not-profiling.md"
+        "knowledge/books/G04-observation-not-profiling.md",
+        "knowledge/books/G04-intent-and-follow-through.md"
       ]
     },
     {

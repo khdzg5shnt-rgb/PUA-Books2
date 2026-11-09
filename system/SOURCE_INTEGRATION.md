@@ -3,8 +3,10 @@
 截至2026-11-10，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-10最新：[《吸引不是选择》逐章精读](../knowledge/books/S04-attraction-not-choice.md)。已顺序读完原解码字符[0,64559)。下一断点字符64559，PAGE68、印刷63，第四章 看不见的吸引语言；余下[64559,121603)未读。 本轮新增29654字符；TOP30当前22条现有文字完整、1条可辨但乱码未解、7条未核完整。最新工作断点以[CURRENT_STATE](../CURRENT_STATE.md)为准，后文日期段落属于历史。
+2026-11-10最新：[《吸引不是选择》现有TXT完成](../knowledge/books/S04-attraction-not-choice.md)。已读[0,121603)、PAGE1–148，本轮新增57044字符。TOP30当前23条现有文字完整、1条可辨但乱码未解、6条未核完整。另补读并归档7份公开GitHub项目文档，当前38篇项目文档与6份MIT许可在库内；方法仍为26张、路由29条。新成果和准确下一断点见[CURRENT_STATE](../CURRENT_STATE.md)；后续历史段落保持其当时口径。
 <!-- END_E06_2026_11_10 -->
+
+本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
 
 ## 日常使用
 
@@ -24,10 +26,10 @@
 
 | 来源 | 固定版本 | 内部采用入口与方法 | 归档与范围 |
 | --- | --- | --- | --- |
-| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 17篇项目文档；其余按笔记范围 |
-| G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 4篇项目文档；其余按笔记范围 |
+| G01 lianai | `ab688794` | [M03、M09、M11、M14、M19、M21、M26](../knowledge/books/G01-practical-expansion.md) | 18篇项目文档；其余按笔记范围 |
+| G02 qingsheng-skill | `ea23b103` | [M04、M06、M07、M14、M17、M18、M23、M25](../knowledge/books/G02-reference-expansion.md) | 7篇项目文档；其余按笔记范围 |
 | G03 fan-emotion-analysis-skill | `23f33bdd` | [M01、M19](../knowledge/books/G03-fan.md) | 1篇项目文档；其余按笔记范围 |
-| G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 7篇项目文档；其余按笔记范围 |
+| G04 simp-skill | `2455f2fd` | [M09、M24、M26](../knowledge/books/G04-message-expansion.md) | 10篇项目文档；其余按笔记范围 |
 | G05 relationship-candlestick-lab | `100f508e` | [M01](../knowledge/books/G05-candlestick.md) | 1篇项目文档；其余按笔记范围 |
 | G06 tong-jincheng-skill | `c9caaa9a` | [M06、M26](../knowledge/books/G06-expression-expansion.md) | 0篇项目文档；其余按笔记范围 |
 | G07 pua-books | `8b99cad1` | [身份去重与来源导航](../knowledge/books/G07-pua-books.md) | 0篇项目文档；其余按笔记范围 |
@@ -47,7 +49,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S01 | 陈哥聊天5大神操作.docx | current_provided_file_text_complete_and_all_nine_raster_images_reviewed | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S02 | 《子阳陈哥恋爱12式》.pdf | all supplied extractable text on PDF file P1–207 read; eleven body chapters (1–3,5–12); chapter four and referenced images not … | [仓库内入口](../knowledge/books/S02-chen-twelve.md) |
 | S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | current_existing_text_complete; no embedded media | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S04 | TOP30_DEEP_READ.zip | 22条现有文字完成；1条乱码未解；7条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
+| S04 | TOP30_DEEP_READ.zip | 23条现有文字完成；1条乱码未解；6条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
 | S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S07 | 认识→→私密完整流程.docx | 当前DOCX正文171段、5,414字符已读；原始课程及版式未核 | [五段脚本笔记](../knowledge/books/S07-stage-script.md) |
@@ -69,7 +71,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为22条现有文字完成、1条乱码未解、7条未核完整阅读。阅读计数按逐文件实际覆盖更新，原始书库9/119的口径不因TOP30同作品版本读完而增加。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为23条现有文字完成、1条乱码未解、6条未核完整阅读。阅读计数按逐文件实际覆盖更新，原始书库9/119的口径不因TOP30同作品版本读完而增加。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

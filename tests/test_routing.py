@@ -53,7 +53,11 @@ class RoutingScenarios(unittest.TestCase):
             path=copied/'knowledge/provenance/core_reading_ledger.json'
             original=path.read_text(encoding='utf-8')
             ledger=json.loads(original)
-            next(u for u in ledger['units'] if u['id']=='E06')['next_character']+=1
+            unit=next(u for u in ledger['units'] if u['id']=='E06')
+            # Build a partial-reading fixture independently of the live book status.
+            unit['reading_status']='supplied_text_partial'
+            unit['read_ranges']=[[0,unit['characters']-1]]
+            unit['next_character']=unit['characters']
             path.write_text(json.dumps(ledger,ensure_ascii=False),encoding='utf-8')
             self.assertIn('Partial source has no accurate next breakpoint: E06',validate(copied)['errors'])
             path.write_text(original,encoding='utf-8')

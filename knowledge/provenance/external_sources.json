@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; 22 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 7 without verified complete reading; original publications unverified; E06 partial [0,34905), next PAGE26 chapter two",
+      "reading_status": "archive_directory_verified; 23 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 6 without verified complete reading; original publications unverified; E06 supplied TXT complete [0,121603)",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -613,26 +613,23 @@
           "entry": "k第十一课-吸引不是选择..txt",
           "bytes": 293999,
           "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
-          "reading_status": "current_provided_entry_text_partial; decoded [0,64559), PAGE1–67; next 第四章 看不见的吸引语言; original edition and PDF images unverified",
+          "reading_status": "current_provided_entry_text_complete; decoded [0,121603), PAGE1–148; original edition and PDF images unverified",
           "characters": 121603,
           "notes": "knowledge/books/S04-attraction-not-choice.md",
           "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open, CR and other original controls retained",
             "ranges": [
               [
                 0,
-                64559
+                121603
               ]
-            ],
-            "next_character": 64559,
-            "next_page_marker": 68,
-            "next_printed_page": 63,
-            "next_section": "第四章 看不见的吸引语言"
+            ]
           },
           "coverage_breakdown": {
             "contents_characters": 21216,
             "introduction_part_page_and_chapter_one_characters": 13689,
-            "continuation_after_chapter_one_characters": 29654,
-            "all_non_contents_characters_read": 43343
+            "continuation_after_chapter_one_characters": 86698,
+            "all_non_contents_characters_read": 100387
           },
           "NUL_count": 0,
           "replacement_count": 0,
@@ -662,8 +659,100 @@
                 67
               ],
               "notes": "knowledge/books/S04-attraction-ch03.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第四章：看不见的吸引语言",
+              "range": [
+                64559,
+                79793
+              ],
+              "page_markers": [
+                68,
+                88
+              ],
+              "notes": "knowledge/books/S04-attraction-ch04.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第五章：构建吸引力",
+              "range": [
+                79793,
+                86751
+              ],
+              "page_markers": [
+                89,
+                98
+              ],
+              "notes": "knowledge/books/S04-attraction-ch05-07.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第六章：心态与沉着",
+              "range": [
+                86751,
+                93776
+              ],
+              "page_markers": [
+                99,
+                108
+              ],
+              "notes": "knowledge/books/S04-attraction-ch05-07.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第七章：大多数男人约会漂亮女人都在犯错",
+              "range": [
+                93776,
+                104757
+              ],
+              "page_markers": [
+                109,
+                123
+              ],
+              "notes": "knowledge/books/S04-attraction-ch05-07.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第八章：不要让她感觉无聊",
+              "range": [
+                104757,
+                111280
+              ],
+              "page_markers": [
+                124,
+                132
+              ],
+              "notes": "knowledge/books/S04-attraction-ch08-10.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第九章：自大风趣详解",
+              "range": [
+                111280,
+                117754
+              ],
+              "page_markers": [
+                133,
+                142
+              ],
+              "notes": "knowledge/books/S04-attraction-ch08-10.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第十章：常见问题解答",
+              "range": [
+                117754,
+                121603
+              ],
+              "page_markers": [
+                143,
+                148
+              ],
+              "notes": "knowledge/books/S04-attraction-ch08-10.md"
             }
-          ]
+          ],
+          "completion_round": "E06-completion-and-public-integration-2026-11-10"
         },
         {
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
@@ -1182,15 +1271,26 @@
         "knowledge/books/S04-allowing.md",
         "knowledge/books/S04-influence.md",
         "knowledge/books/S04-attraction-ch02.md",
-        "knowledge/books/S04-attraction-ch03.md"
+        "knowledge/books/S04-attraction-ch03.md",
+        "knowledge/books/S04-attraction-ch04.md",
+        "knowledge/books/S04-attraction-ch05-07.md",
+        "knowledge/books/S04-attraction-ch08-10.md"
       ],
-      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character64559; PAGE68, printed63; 第四章 看不见的吸引语言",
+      "next_bookmark": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt decoded character0; verify identity and read current supplied version; historical same-title reading is not sufficient",
       "coverage_counts": {
-        "supplied_text_complete_entries": 22,
+        "supplied_text_complete_entries": 23,
         "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 7,
-        "partial_entries": 1,
+        "remaining_without_verified_complete_reading": 6,
+        "partial_entries": 0,
         "unread_or_unverified_historical_entries": 6
+      },
+      "next_reading_unit": {
+        "source": "S04",
+        "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
+        "decoded_character": 0,
+        "characters": 33594,
+        "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
+        "status": "unverified_historical_claim; next unit begins at character0; not read in this round"
       }
     },
     {
@@ -1698,10 +1798,10 @@
       "source_type": "coaching_prompt_and_research_summaries",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G01-lianai.md",
-      "reading_coverage": "17 selected project documents fully read and archived with MIT; not all 67 blobs",
+      "reading_coverage": "18 selected project documents fully read and archived with MIT; not all 67 blobs",
       "pending": "Other unlisted repository files and independent verification of empirical claims remain outside documented coverage; this round read fixed snapshots, not current upstream main.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 17,
+      "archived_document_count": 18,
       "files": [
         {
           "original_path": "LICENSE",
@@ -1976,6 +2076,28 @@
           "archive_path": "sources/github/lianai/references/practical/万能吵架技巧：理性冲突处理指南.md.txt",
           "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
           "notes": "knowledge/books/G01-natural-flow-and-conflict.md"
+        },
+        {
+          "original_path": "references/knowledge/09-在线约会与数字关系.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/lianai/blob/ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f/references/knowledge/09-%E5%9C%A8%E7%BA%BF%E7%BA%A6%E4%BC%9A%E4%B8%8E%E6%95%B0%E5%AD%97%E5%85%B3%E7%B3%BB.md",
+          "bytes": 6488,
+          "characters": 2824,
+          "sha256": "8c46faff08e601591e12c92df99a0d224b3440a2586660ce70f36ae79479d9d5",
+          "git_blob_sha": "e68b7bd2f1411a6584663831c0f344b6a624110c",
+          "line_count": 89,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2824
+              ]
+            ]
+          },
+          "archive_path": "sources/github/lianai/references/knowledge/09-在线约会与数字关系.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G01-digital-evidence.md"
         }
       ],
       "os_snapshot_checked": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
@@ -1985,9 +2107,10 @@
       "continuation_synthesis_notes": [
         "knowledge/books/G01-passive-to-active.md",
         "knowledge/books/G01-light-clear-expression.md",
-        "knowledge/books/G01-natural-flow-and-conflict.md"
+        "knowledge/books/G01-natural-flow-and-conflict.md",
+        "knowledge/books/G01-digital-evidence.md"
       ],
-      "public_round_checked": "2026-11-06"
+      "public_round_checked": "2026-11-10"
     },
     {
       "id": "G02",
@@ -2001,10 +2124,10 @@
       "source_type": "coaching_prompt_and_short_teaching_examples",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G02-qingsheng.md",
-      "reading_coverage": "Core, platform guide, 41 examples and 5 further reference documents read; remaining files not all read",
+      "reading_coverage": "Core, platform guide, 41 examples and 8 further reference documents read; remaining files not all read; 7 project documents archived",
       "pending": "Other unlisted repository documents, code execution and third-party source verification remain outside the documented coverage.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 4,
+      "archived_document_count": 7,
       "files": [
         {
           "original_path": "LICENSE",
@@ -2104,11 +2227,81 @@
           "reading_status": "provided_project_document_text_fully_read_2026_11_02_os_round",
           "archive_path": null,
           "archive_decision": "original synthesis only; third-party quotation/source provenance not resolved"
+        },
+        {
+          "original_path": "skill/references/autopilot-guide.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/autopilot-guide.md",
+          "bytes": 4027,
+          "characters": 1836,
+          "sha256": "7f8c4757162a4ba9659942869f707ecd2e6c5b0ef7999dbd08d225961ce2abea",
+          "git_blob_sha": "97e54344fc6c44d0bcf5df7dd0df2f46aacd39cb",
+          "line_count": 125,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                1836
+              ]
+            ]
+          },
+          "archive_path": "sources/github/qingsheng-skill/skill/references/autopilot-guide.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G02-context-and-rhythm.md"
+        },
+        {
+          "original_path": "skill/references/mindset-concepts.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/mindset-concepts.md",
+          "bytes": 6044,
+          "characters": 2188,
+          "sha256": "a4fc4cbbd228ba9141a734bfe4b36148e02fff6b139687e0e9cbd92eb16a91db",
+          "git_blob_sha": "da7743067257a2d97efb38650883be3ee93e21bc",
+          "line_count": 85,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2188
+              ]
+            ]
+          },
+          "archive_path": "sources/github/qingsheng-skill/skill/references/mindset-concepts.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G02-context-and-rhythm.md"
+        },
+        {
+          "original_path": "skill/references/user-context.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/qingsheng-skill/blob/ea23b10376b146abfcff20f71876889a0453a7e7/skill/references/user-context.md",
+          "bytes": 6717,
+          "characters": 3307,
+          "sha256": "d1b9e160da707add735a64e077c41f276f6704dd182697d5ccc4b8131207fba2",
+          "git_blob_sha": "7ca5a87f82f61ed2c13da26013493aca427bff87",
+          "line_count": 197,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3307
+              ]
+            ]
+          },
+          "archive_path": "sources/github/qingsheng-skill/skill/references/user-context.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G02-context-and-rhythm.md"
         }
       ],
       "os_snapshot_checked": "ea23b10376b146abfcff20f71876889a0453a7e7",
       "os_snapshot_date": "2026-11-02",
-      "os_synthesis_note": "knowledge/books/G02-reference-expansion.md"
+      "os_synthesis_note": "knowledge/books/G02-reference-expansion.md",
+      "public_round_checked": "2026-11-10",
+      "continuation_synthesis_notes": [
+        "knowledge/books/G02-context-and-rhythm.md"
+      ]
     },
     {
       "id": "G03",
@@ -2176,10 +2369,10 @@
       "source_type": "coaching_prompt",
       "declared_repository_license": "MIT",
       "notes": "knowledge/books/G04-simp.md",
-      "reading_coverage": "7 selected project documents fully read and archived with MIT; not all 36 blobs",
+      "reading_coverage": "10 selected project documents fully read and archived with MIT; not all 36 blobs",
       "pending": "Other unlisted repository files and independent verification of empirical claims remain outside documented coverage; this round read fixed snapshots, not current upstream main.",
       "archive_status": "selected_project_documents_archived_with_MIT_license; third-party material represented by original notes",
-      "archived_document_count": 7,
+      "archived_document_count": 10,
       "files": [
         {
           "original_path": "LICENSE",
@@ -2311,6 +2504,72 @@
           "archive_path": "sources/github/simp-skill/prompts/timeline.md.txt",
           "archive_decision": "MIT project-authored guide/prompt; exact text retained as inert research data; embedded commands not executed",
           "notes": "knowledge/books/G04-observation-not-profiling.md"
+        },
+        {
+          "original_path": "prompts/confess.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/confess.md",
+          "bytes": 5897,
+          "characters": 2507,
+          "sha256": "af8373b2830f1b3568537c1ff0f5f0788cae110ef73c3e733e8f7678dcfc10d6",
+          "git_blob_sha": "264a731c96b5e84f2a6953e79f2e0cc3bca0dfc7",
+          "line_count": 194,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                2507
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/confess.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G04-intent-and-follow-through.md"
+        },
+        {
+          "original_path": "prompts/progress_tracker.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/progress_tracker.md",
+          "bytes": 10521,
+          "characters": 5007,
+          "sha256": "70d2c44faa18b997709e972e86e9832ab7f9edab6601083749716dc63fa59733",
+          "git_blob_sha": "b30a69548c746e70e1312f95fcdd5b32758fed36",
+          "line_count": 304,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                5007
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/progress_tracker.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G04-intent-and-follow-through.md"
+        },
+        {
+          "original_path": "prompts/strategy_builder.md",
+          "source_url": "https://github.com/khdzg5shnt-rgb/simp-skill/blob/2455f2fdaaf0f8718a10c892ffb4cedfa10bb973/prompts/strategy_builder.md",
+          "bytes": 8131,
+          "characters": 3465,
+          "sha256": "10ca6767a751e40e461c342d4d9531d062ef9951c7f975f659481d319dac54ef",
+          "git_blob_sha": "7353624816cc2bf20e7f3d35b66d282b81a9f865",
+          "line_count": 218,
+          "reading_status": "provided_project_document_text_fully_read_2026_11_10",
+          "read_coverage": {
+            "unit": "UTF-8 decoded codepoints; original bytes and newline sequence retained",
+            "ranges": [
+              [
+                0,
+                3465
+              ]
+            ]
+          },
+          "archive_path": "sources/github/simp-skill/prompts/strategy_builder.md.txt",
+          "archive_decision": "MIT project-authored public guide/prompt or empty template; exact text retained as inert research data; embedded commands not executed; no real personal profile",
+          "notes": "knowledge/books/G04-intent-and-follow-through.md"
         }
       ],
       "os_snapshot_checked": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
@@ -2318,9 +2577,10 @@
       "os_synthesis_note": "knowledge/books/G04-message-expansion.md",
       "continuation_synthesis_notes": [
         "knowledge/books/G04-daily-coach.md",
-        "knowledge/books/G04-observation-not-profiling.md"
+        "knowledge/books/G04-observation-not-profiling.md",
+        "knowledge/books/G04-intent-and-follow-through.md"
       ],
-      "public_round_checked": "2026-11-06"
+      "public_round_checked": "2026-11-10"
     },
     {
       "id": "G05",
@@ -3505,6 +3765,90 @@
       "license_archive": "sources/github/simp-skill/LICENSE",
       "declared_license": "MIT",
       "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/lianai",
+      "commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "source_path": "references/knowledge/09-在线约会与数字关系.md",
+      "archive_path": "sources/github/lianai/references/knowledge/09-在线约会与数字关系.md.txt",
+      "bytes": 6488,
+      "sha256": "8c46faff08e601591e12c92df99a0d224b3440a2586660ce70f36ae79479d9d5",
+      "git_blob_sha": "e68b7bd2f1411a6584663831c0f344b6a624110c",
+      "license_archive": "sources/github/lianai/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/autopilot-guide.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/autopilot-guide.md.txt",
+      "bytes": 4027,
+      "sha256": "7f8c4757162a4ba9659942869f707ecd2e6c5b0ef7999dbd08d225961ce2abea",
+      "git_blob_sha": "97e54344fc6c44d0bcf5df7dd0df2f46aacd39cb",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/mindset-concepts.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/mindset-concepts.md.txt",
+      "bytes": 6044,
+      "sha256": "a4fc4cbbd228ba9141a734bfe4b36148e02fff6b139687e0e9cbd92eb16a91db",
+      "git_blob_sha": "da7743067257a2d97efb38650883be3ee93e21bc",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "source_path": "skill/references/user-context.md",
+      "archive_path": "sources/github/qingsheng-skill/skill/references/user-context.md.txt",
+      "bytes": 6717,
+      "sha256": "d1b9e160da707add735a64e077c41f276f6704dd182697d5ccc4b8131207fba2",
+      "git_blob_sha": "7ca5a87f82f61ed2c13da26013493aca427bff87",
+      "license_archive": "sources/github/qingsheng-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/confess.md",
+      "archive_path": "sources/github/simp-skill/prompts/confess.md.txt",
+      "bytes": 5897,
+      "sha256": "af8373b2830f1b3568537c1ff0f5f0788cae110ef73c3e733e8f7678dcfc10d6",
+      "git_blob_sha": "264a731c96b5e84f2a6953e79f2e0cc3bca0dfc7",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/progress_tracker.md",
+      "archive_path": "sources/github/simp-skill/prompts/progress_tracker.md.txt",
+      "bytes": 10521,
+      "sha256": "70d2c44faa18b997709e972e86e9832ab7f9edab6601083749716dc63fa59733",
+      "git_blob_sha": "b30a69548c746e70e1312f95fcdd5b32758fed36",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
+    },
+    {
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "source_path": "prompts/strategy_builder.md",
+      "archive_path": "sources/github/simp-skill/prompts/strategy_builder.md.txt",
+      "bytes": 8131,
+      "sha256": "10ca6767a751e40e461c342d4d9531d062ef9951c7f975f659481d319dac54ef",
+      "git_blob_sha": "7353624816cc2bf20e7f3d35b66d282b81a9f865",
+      "license_archive": "sources/github/simp-skill/LICENSE",
+      "declared_license": "MIT",
+      "transform": "none; exact UTF-8 bytes; markdown archived as .md.txt data"
     }
   ],
   "privacy": {
@@ -3741,6 +4085,153 @@
         "next_page_marker": 68,
         "section": "第四章 看不见的吸引语言"
       }
+    },
+    {
+      "round_id": "E06-completion-and-public-integration-2026-11-10",
+      "date": "2026-11-10",
+      "baseline_main": "6307cc312afeedcb7812c08294aa20b9d3910d4f",
+      "scope": "E06 current supplied TXT completion plus seven public project documents; not all original books or whole repositories",
+      "status": "content_integrated_and_required_python_checks_passed",
+      "top30_new_read_ranges": [
+        [
+          64559,
+          69740
+        ],
+        [
+          69740,
+          75206
+        ],
+        [
+          75206,
+          79793
+        ],
+        [
+          79793,
+          85441
+        ],
+        [
+          85441,
+          92350
+        ],
+        [
+          92350,
+          99500
+        ],
+        [
+          99500,
+          107000
+        ],
+        [
+          107000,
+          114500
+        ],
+        [
+          114500,
+          121603
+        ]
+      ],
+      "top30_new_read_characters": 57044,
+      "top30_total_supplied_characters_complete": 121603,
+      "github_documents": [
+        {
+          "source_id": "G01",
+          "path": "references/knowledge/09-在线约会与数字关系.md",
+          "characters": 2824,
+          "note": "knowledge/books/G01-digital-evidence.md",
+          "git_blob_sha": "e68b7bd2f1411a6584663831c0f344b6a624110c",
+          "archive_path": "sources/github/lianai/references/knowledge/09-在线约会与数字关系.md.txt"
+        },
+        {
+          "source_id": "G02",
+          "path": "skill/references/autopilot-guide.md",
+          "characters": 1836,
+          "note": "knowledge/books/G02-context-and-rhythm.md",
+          "git_blob_sha": "97e54344fc6c44d0bcf5df7dd0df2f46aacd39cb",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/autopilot-guide.md.txt"
+        },
+        {
+          "source_id": "G02",
+          "path": "skill/references/mindset-concepts.md",
+          "characters": 2188,
+          "note": "knowledge/books/G02-context-and-rhythm.md",
+          "git_blob_sha": "da7743067257a2d97efb38650883be3ee93e21bc",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/mindset-concepts.md.txt"
+        },
+        {
+          "source_id": "G02",
+          "path": "skill/references/user-context.md",
+          "characters": 3307,
+          "note": "knowledge/books/G02-context-and-rhythm.md",
+          "git_blob_sha": "7ca5a87f82f61ed2c13da26013493aca427bff87",
+          "archive_path": "sources/github/qingsheng-skill/skill/references/user-context.md.txt"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/confess.md",
+          "characters": 2507,
+          "note": "knowledge/books/G04-intent-and-follow-through.md",
+          "git_blob_sha": "264a731c96b5e84f2a6953e79f2e0cc3bca0dfc7",
+          "archive_path": "sources/github/simp-skill/prompts/confess.md.txt"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/progress_tracker.md",
+          "characters": 5007,
+          "note": "knowledge/books/G04-intent-and-follow-through.md",
+          "git_blob_sha": "b30a69548c746e70e1312f95fcdd5b32758fed36",
+          "archive_path": "sources/github/simp-skill/prompts/progress_tracker.md.txt"
+        },
+        {
+          "source_id": "G04",
+          "path": "prompts/strategy_builder.md",
+          "characters": 3465,
+          "note": "knowledge/books/G04-intent-and-follow-through.md",
+          "git_blob_sha": "7353624816cc2bf20e7f3d35b66d282b81a9f865",
+          "archive_path": "sources/github/simp-skill/prompts/strategy_builder.md.txt"
+        }
+      ],
+      "github_new_read_characters": 21134,
+      "notes": [
+        "knowledge/books/S04-attraction-ch04.md",
+        "knowledge/books/S04-attraction-ch05-07.md",
+        "knowledge/books/S04-attraction-ch08-10.md",
+        "knowledge/books/G01-digital-evidence.md",
+        "knowledge/books/G02-context-and-rhythm.md",
+        "knowledge/books/G04-intent-and-follow-through.md"
+      ],
+      "methods_substantively_changed": [
+        "M01",
+        "M04",
+        "M06",
+        "M15"
+      ],
+      "methods_source_mappings_extended": [
+        "M02",
+        "M07",
+        "M09",
+        "M10",
+        "M19",
+        "M20",
+        "M21",
+        "M23",
+        "M25",
+        "M26"
+      ],
+      "original_book_completions_added": 0,
+      "source_records": 157,
+      "archived_project_documents": 38,
+      "archived_licenses": 6,
+      "next_top30": {
+        "source": "S04",
+        "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
+        "decoded_character": 0,
+        "characters": 33594,
+        "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
+        "status": "unverified_historical_claim; next unit begins at character0; not read in this round"
+      },
+      "summary_note": "knowledge/provenance/E06_completion_and_integration_2026-11-10.md",
+      "validation_record": "knowledge/provenance/E06_completion_validation_2026-11-10.json",
+      "python_checks": "both actually run and passed; 7 tests, 56 synthetic route scenarios"
     }
   ],
   "public_reading_rounds": [

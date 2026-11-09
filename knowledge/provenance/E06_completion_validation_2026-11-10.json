@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "baseline_main": "6307cc312afeedcb7812c08294aa20b9d3910d4f",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "observed_output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 44,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "observed_output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.150s\n\nOK\n"
+    }
+  ],
+  "scope": "Structure, source byte identities, reading metadata, local links and synthetic routing; not proof of human/model reading, real screenshot interpretation, psychological validity or dating outcomes.",
+  "supplemental_integrity": {
+    "E06_complete": true,
+    "new_E06_characters": 57044,
+    "chapter_boundaries_verified": true,
+    "original_paths_changed": [],
+    "changed": [
+      "CURRENT_STATE.md",
+      "KNOWLEDGE_INDEX.md",
+      "PUA_CORE_SYSTEM.md",
+      "system/sources.json",
+      "system/REPLY_PROTOCOL.md",
+      "system/methods.json",
+      "system/SOURCE_INTEGRATION.md",
+      "system/METHOD_CARDS.md",
+      "tests/test_routing.py",
+      "knowledge/provenance/external_sources.json",
+      "knowledge/provenance/github_document_catalog.json",
+      "knowledge/provenance/core_reading_ledger.json",
+      "knowledge/books/S04-attraction-not-choice.md",
+      "knowledge/books/S04-top30-units.md"
+    ],
+    "new": [
+      "sources/github/lianai/references/knowledge/09-在线约会与数字关系.md.txt",
+      "sources/github/simp-skill/prompts/progress_tracker.md.txt",
+      "sources/github/simp-skill/prompts/strategy_builder.md.txt",
+      "sources/github/simp-skill/prompts/confess.md.txt",
+      "sources/github/qingsheng-skill/skill/references/autopilot-guide.md.txt",
+      "sources/github/qingsheng-skill/skill/references/user-context.md.txt",
+      "sources/github/qingsheng-skill/skill/references/mindset-concepts.md.txt",
+      "knowledge/provenance/E06_completion_validation_2026-11-10.json",
+      "knowledge/provenance/E06_completion_and_integration_2026-11-10.md",
+      "knowledge/books/S04-attraction-ch08-10.md",
+      "knowledge/books/G04-intent-and-follow-through.md",
+      "knowledge/books/S04-attraction-ch04.md",
+      "knowledge/books/G01-digital-evidence.md",
+      "knowledge/books/G02-context-and-rhythm.md",
+      "knowledge/books/S04-attraction-ch05-07.md"
+    ],
+    "synthetic_scenarios": 56
+  },
+  "source_discovery": {
+    "owned_repositories_returned": 69,
+    "scope": "Relationship-related names compared with existing public source catalog; not all-repository content audit",
+    "public_source_heads": [
+      {
+        "repository": "khdzg5shnt-rgb/lianai",
+        "status": "fulfilled",
+        "sha": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/pua-books",
+        "status": "fulfilled",
+        "sha": "8b99cad1586589a46e82a8f328d0de845e86ab18"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/qingsheng-skill",
+        "status": "fulfilled",
+        "sha": "ea23b10376b146abfcff20f71876889a0453a7e7"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/fan-emotion-analysis-skill",
+        "status": "fulfilled",
+        "sha": "23f33bdda9d66323c14c760e1960a557a2009052"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/simp-skill",
+        "status": "fulfilled",
+        "sha": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/relationship-candlestick-lab",
+        "status": "fulfilled",
+        "sha": "100f508ef504420506e853c8b72f16509d30ea3c"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/ChatLab",
+        "status": "fulfilled",
+        "sha": "e75bb1e556f2f725b07a49527c3e69160f8dda1b"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
+        "status": "fulfilled",
+        "sha": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a"
+      },
+      {
+        "repository": "khdzg5shnt-rgb/tong-jincheng-skill",
+        "status": "fulfilled",
+        "sha": "c9caaa9a6576f581c29d016c60bbe935908e20d5"
+      }
+    ]
+  },
+  "all_changed_markdown_links_checked": true,
+  "post_document_update_structure_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 29,
+    "source_records": 157,
+    "archived_files": 44,
+    "scope": "结构/链接/归档身份检查，不是截图识别或恋爱效果验证"
+  }
+}

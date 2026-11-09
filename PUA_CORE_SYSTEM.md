@@ -52,7 +52,9 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 
 [S22原结构与取舍](knowledge/books/S22-mystery-pdf-reconciliation.md)：先证明123页与已读TOP30正文逐字对应后沿用既有阅读，本轮直接重读P1–8与目读26页；141139字符不全计新增。补核M/B/T、阶段/地点图与无数据阈值；其他99页版式仍未核。
 
-[E06引言及第一章](knowledge/books/S04-attraction-not-choice.md)：保留真实欣赏、正常商议与双方边界，不以所谓吸引机制改写自述意愿；后文未读，不宣称全书完成。
+[E06当前TXT完整精读](knowledge/books/S04-attraction-not-choice.md)：121603字符、148页标已完成；[第四章](knowledge/books/S04-attraction-ch04.md)区分语气、文字证据和拒绝，[第五至七章](knowledge/books/S04-attraction-ch05-07.md)落实真实生活、平等投入与履约，[第八至十章](knowledge/books/S04-attraction-ch08-10.md)给出轻松自夸、共同角色和五类常用技巧的现有方法入口。原PDF、正式版次和原著完整性未核。
+
+2026-11-10外部补读：[数字聊天证据](knowledge/books/G01-digital-evidence.md)、[对象信息与回复节奏](knowledge/books/G02-context-and-rhythm.md)、[表达意愿和后续安排](knowledge/books/G04-intent-and-follow-through.md)。七份项目原文在本库可读，不继承自动发送、打分、私人建档、固定冷落和未核研究主张。
 
 2026-11-06：[轻松接话与清楚表达](knowledge/books/G01-light-clear-expression.md)。保留具体承接、真实边界和信息减法；纠正结论顺序与因果的混淆，不把总分总/PREP、借口或连续提问强塞进普通微信。
 

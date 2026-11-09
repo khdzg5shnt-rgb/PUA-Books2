@@ -209,19 +209,52 @@
         [
           58521,
           64559
+        ],
+        [
+          64559,
+          69740
+        ],
+        [
+          69740,
+          75206
+        ],
+        [
+          75206,
+          79793
+        ],
+        [
+          79793,
+          85441
+        ],
+        [
+          85441,
+          92350
+        ],
+        [
+          92350,
+          99500
+        ],
+        [
+          99500,
+          107000
+        ],
+        [
+          107000,
+          114500
+        ],
+        [
+          114500,
+          121603
         ]
       ],
-      "reading_status": "supplied_text_partial",
-      "next_character": 64559,
-      "next_page_marker": 68,
-      "next_section": "第四章 看不见的吸引语言",
+      "reading_status": "supplied_text_complete",
       "original_publication_completeness": "unverified",
       "raw_text_archived": false,
       "coverage_breakdown": {
         "contents_characters": 21216,
         "introduction_part_page_and_chapter_one_characters": 13689,
-        "continuation_after_chapter_one_characters": 29654,
-        "all_non_contents_characters_read": 43343
+        "continuation_after_chapter_one_characters": 86698,
+        "all_non_contents_characters_read": 100387
       },
       "completed_reading_units": [
         {
@@ -249,6 +282,97 @@
             67
           ],
           "notes": "knowledge/books/S04-attraction-ch03.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第四章：看不见的吸引语言",
+          "range": [
+            64559,
+            79793
+          ],
+          "page_markers": [
+            68,
+            88
+          ],
+          "notes": "knowledge/books/S04-attraction-ch04.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第五章：构建吸引力",
+          "range": [
+            79793,
+            86751
+          ],
+          "page_markers": [
+            89,
+            98
+          ],
+          "notes": "knowledge/books/S04-attraction-ch05-07.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第六章：心态与沉着",
+          "range": [
+            86751,
+            93776
+          ],
+          "page_markers": [
+            99,
+            108
+          ],
+          "notes": "knowledge/books/S04-attraction-ch05-07.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第七章：大多数男人约会漂亮女人都在犯错",
+          "range": [
+            93776,
+            104757
+          ],
+          "page_markers": [
+            109,
+            123
+          ],
+          "notes": "knowledge/books/S04-attraction-ch05-07.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第八章：不要让她感觉无聊",
+          "range": [
+            104757,
+            111280
+          ],
+          "page_markers": [
+            124,
+            132
+          ],
+          "notes": "knowledge/books/S04-attraction-ch08-10.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第九章：自大风趣详解",
+          "range": [
+            111280,
+            117754
+          ],
+          "page_markers": [
+            133,
+            142
+          ],
+          "notes": "knowledge/books/S04-attraction-ch08-10.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第十章：常见问题解答",
+          "range": [
+            117754,
+            121603
+          ],
+          "page_markers": [
+            143,
+            148
+          ],
+          "notes": "knowledge/books/S04-attraction-ch08-10.md"
         }
       ],
       "reading_chunks_2026_11_10": [
@@ -307,7 +431,101 @@
           "chunk_text_sha256": "b4604e4db300fdd846a725be7bb011c458514df4b1ad698bffc86cf4af0a8fef",
           "status": "actual_sequential_text_read_after_untruncated_output"
         }
-      ]
+      ],
+      "completion_round": "E06-completion-and-public-integration-2026-11-10",
+      "completion_chunks_2026_11_10": [
+        {
+          "source": "S04/E06",
+          "range": [
+            64559,
+            69740
+          ],
+          "characters": 5181,
+          "chunk_text_sha256": "97d8fa136218718cd68c85fb815414ebbc4eff666deb33f38fe3cdd81035d786",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            69740,
+            75206
+          ],
+          "characters": 5466,
+          "chunk_text_sha256": "15cf7c2e8697a7c253a13d58c318d4eae7938c710ec4150de7b599fa1d127e66",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            75206,
+            79793
+          ],
+          "characters": 4587,
+          "chunk_text_sha256": "cfc2113b028f14c06b234572bb19393e82df119948a432fa32d03f2ff598fb95",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            79793,
+            85441
+          ],
+          "characters": 5648,
+          "chunk_text_sha256": "5994ffa3fbdda71072ac8e8ec0b0971cfbb5313db2646392c7474dfd40177d6c",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            85441,
+            92350
+          ],
+          "characters": 6909,
+          "chunk_text_sha256": "115191dbf071a895b84073746e7dba2d856899021cda96cfba5f55b32aeda8dc",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            92350,
+            99500
+          ],
+          "characters": 7150,
+          "chunk_text_sha256": "fd2663e76e56f65ff66b94c2f9c21c8a54988b1f6a3587267821b0b545b798f8",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            99500,
+            107000
+          ],
+          "characters": 7500,
+          "chunk_text_sha256": "c4cf904044106a5554644687988f20688bcd81ec76db8a671362315003233353",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            107000,
+            114500
+          ],
+          "characters": 7500,
+          "chunk_text_sha256": "21091d328396ceade5818ced9149a2785fa7b22879cd01371bec1563110d06b9",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            114500,
+            121603
+          ],
+          "characters": 7103,
+          "chunk_text_sha256": "5c7ad3fcce8b5a462dffe927e642f57324922c46f2c2b7962394077ac3560783",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        }
+      ],
+      "completion_note": "Current supplied TXT only, through PAGE148/printed143; original edition and PDF not verified."
     }
   ],
   "scope": "Supplied TXT only; not original book/PDF completeness or empirical validation",
