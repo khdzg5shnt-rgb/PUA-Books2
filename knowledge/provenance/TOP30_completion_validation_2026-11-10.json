@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "baseline_main": "08a5a8a167a1cd3e5466266ff78e5ab73fa9cc7b",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "observed_output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 44,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "observed_output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.132s\n\nOK\n"
+    }
+  ],
+  "independent_integrity": {
+    "ok": true,
+    "top30_complete_entries": 30,
+    "raw_source_identities_verified": 30,
+    "new_top30_direct_characters": 84837,
+    "watermark_occurrences_restored": 60,
+    "watermark_roundtrip_exact": true,
+    "B046_body_pages_verified": 148,
+    "B043_spines_covered": 5,
+    "new_original_direct_characters": 22462,
+    "original_current_files_text_complete": 11,
+    "original_book_paths_changed": [],
+    "original_support_paths_changed": [
+      "README.md"
+    ],
+    "changed_markdown_links_ok": true,
+    "changed": [
+      "CURRENT_STATE.md",
+      "KNOWLEDGE_INDEX.md",
+      "README.md",
+      "PUA_CORE_SYSTEM.md",
+      "system/sources.json",
+      "system/REPLY_PROTOCOL.md",
+      "system/methods.json",
+      "system/SOURCE_INTEGRATION.md",
+      "system/METHOD_CARDS.md",
+      "knowledge/provenance/external_sources.json",
+      "knowledge/provenance/source_inventory.json",
+      "knowledge/provenance/core_reading_ledger.json",
+      "knowledge/provenance/original-library-catalog.md",
+      "knowledge/books/S04-attraction-not-choice.md",
+      "knowledge/books/S04-top30-units.md"
+    ],
+    "new": [
+      "knowledge/topics/profile-and-appearance.md",
+      "knowledge/provenance/S04_cold_watermark_recovery_2026-11-10.json",
+      "knowledge/provenance/TOP30_completion_2026-11-10.md",
+      "knowledge/provenance/B046_E06_equivalence_2026-11-10.json",
+      "knowledge/provenance/original_reading_2026-11-10.json",
+      "knowledge/provenance/TOP30_completion_validation_2026-11-10.json",
+      "knowledge/books/S04-mystery-excerpt-txt.md",
+      "knowledge/books/S04-style-guides.md",
+      "knowledge/books/B043.md",
+      "knowledge/books/S04-cold-silence-restored.md",
+      "knowledge/books/S04-belief-and-calibration.md",
+      "knowledge/books/B046.md"
+    ],
+    "scope": "Identity, coverage metadata, equivalence and links; not empirical effect or independent proof of reading."
+  },
+  "scope": "Structure, exact source identity, covered ranges, reversible watermark recovery, PDF page equivalence, EPUB spine coverage and local links. Synthetic routing is not proof of real screenshot interpretation or dating effectiveness.",
+  "original_scope": "Original book blobs unchanged. README is the permitted editable system home."
+}

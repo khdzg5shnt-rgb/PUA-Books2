@@ -80,11 +80,11 @@
 
 适用：她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助
 
-动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。
+动作：说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。 观察具体不等于有证据；猜错时接受更正，不要求她为猜测解释。
 
 避免：凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)；[画像字段、MBTI话术与证据边界](../knowledge/books/G04-observation-not-profiling.md)；[PAGE50–66：基因/性欲/不忠推断与研究缺口](../knowledge/books/S04-attraction-ch03.md)
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)；[画像字段、MBTI话术与证据边界](../knowledge/books/G04-observation-not-profiling.md)；[PAGE50–66：基因/性欲/不忠推断与研究缺口](../knowledge/books/S04-attraction-ch03.md)；[附加文章第9条：具体猜测与事实依据分开](../knowledge/books/B043.md)；[信念与人格推断不替代实际行为](../knowledge/books/S04-belief-and-calibration.md)
 
 ## M09 具体欣赏
 
@@ -92,9 +92,9 @@
 
 动作：说清真实欣赏的一个具体细节，强度符合已知感受和关系。可直接感谢实际好意，不以通过筛选、服从或获得下一次配合为前提。
 
-避免：泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。 不把正常礼貌、感谢或真实关照一概判成讨好。
+避免：泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。 不把正常礼貌、感谢或真实关照一概判成讨好。 不把对方只说谢谢认定为赞美失败或没有兴趣，也不为多要回复而追加改造建议。
 
-依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；[PAGE58–60：普通关照不作基因与价值等级](../knowledge/books/S04-attraction-ch03.md)；[PAGE109–118：普通关照、具体欣赏与不交换关系](../knowledge/books/S04-attraction-ch05-07.md)
+依据：[具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；[具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；[环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；[PAGE58–60：普通关照不作基因与价值等级](../knowledge/books/S04-attraction-ch03.md)；[PAGE109–118：普通关照、具体欣赏与不交换关系](../knowledge/books/S04-attraction-ch05-07.md)；[附加文章第2条：正常感谢、双向赞美与不追加贬低](../knowledge/books/B043.md)
 
 ## M10 分享真实生活
 
@@ -104,7 +104,7 @@
 
 避免：移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。
 
-依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[不熟的话题坦诚承接，不编经历](../knowledge/books/G01-light-clear-expression.md)；[PAGE89–92、99–102：真实生活与不编第三方竞争](../knowledge/books/S04-attraction-ch05-07.md)；[user-context不编故事、建议/执行/效果分别记录](../knowledge/books/G02-context-and-rhythm.md)
+依据：[关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；[真实展示](../knowledge/books/G01-practical-expansion.md)；[两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[不熟的话题坦诚承接，不编经历](../knowledge/books/G01-light-clear-expression.md)；[PAGE89–92、99–102：真实生活与不编第三方竞争](../knowledge/books/S04-attraction-ch05-07.md)；[user-context不编故事、建议/执行/效果分别记录](../knowledge/books/G02-context-and-rhythm.md)；[四份形象资料：真实生活素材与不编专家身份](../knowledge/books/S04-style-guides.md)
 
 ## M11 接住困扰
 

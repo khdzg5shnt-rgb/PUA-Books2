@@ -385,9 +385,12 @@
       "group": "books2_original_snapshot",
       "title": "十五步让你成为诱惑大师 - Kezia Noble.epub",
       "git_blob_sha": "7edecbd76e2fba243898c3b461a7ca917fe6b34c",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B043.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/original_reading_2026-11-10.json",
+      "original_publication_complete": false,
+      "coverage_mode": "direct_current_epub_body_read"
     },
     {
       "id": "B044",
@@ -412,9 +415,12 @@
       "group": "books2_original_snapshot",
       "title": "吸引不是选择 - 大卫D.pdf",
       "git_blob_sha": "39b19ea7d6fe6fa62856f935a001bfc17777afa5",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B046.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/original_reading_2026-11-10.json",
+      "original_publication_complete": false,
+      "coverage_mode": "verified_page_text_reuse_of_completed_S04_E06"
     },
     {
       "id": "B047",
@@ -1168,7 +1174,7 @@
       "group": "uploaded_material",
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
-      "reading_status": "archive_directory_verified; 23 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 6 without verified complete reading; original publications unverified; E06 supplied TXT complete [0,121603)",
+      "reading_status": "all 30 current supplied TXT entries complete; includes reversible restoration of repeated watermark in one file; original publications, images and missing chapters remain unverified",
       "local_entry": "knowledge/books/S04-top30-units.md",
       "raw_publication": "not_added",
       "continuation_notes": [
@@ -1179,16 +1185,12 @@
         "knowledge/books/S04-attraction-ch08-10.md"
       ],
       "completed_reading_notes": [
-        "knowledge/books/S04-attraction-not-choice.md"
-      ],
-      "next_reading_unit": {
-        "source": "S04",
-        "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
-        "decoded_character": 0,
-        "characters": 33594,
-        "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
-        "status": "unverified_historical_claim; next unit begins at character0; not read in this round"
-      }
+        "knowledge/books/S04-attraction-not-choice.md",
+        "knowledge/books/S04-belief-and-calibration.md",
+        "knowledge/books/S04-cold-silence-restored.md",
+        "knowledge/books/S04-mystery-excerpt-txt.md",
+        "knowledge/books/S04-style-guides.md"
+      ]
     },
     {
       "id": "S05",
@@ -1466,8 +1468,18 @@
     "book_files": 119,
     "uploads": 22,
     "public_github_sources": 9,
-    "source_records": 157
+    "source_records": 157,
+    "current_book_files_text_complete": 11
   },
   "private_source_policy": "excluded; no private content imported",
-  "every_record_has_internal_entry": true
+  "every_record_has_internal_entry": true,
+  "next_work_unit": {
+    "id": "B003",
+    "path": "4EG方法 - Rob Judge & Zack Bauer.epub",
+    "git_blob_sha": "45f67cbb973cf9590e9de0ade3e8a61c5d42e4e6",
+    "bytes": 329400,
+    "start": "first spine, decoded character0; href must be read from OPF before choosing it",
+    "already_read_characters": 0,
+    "reading_status": "unread; prior extraction is not reading"
+  }
 }

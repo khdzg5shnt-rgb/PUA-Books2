@@ -13,10 +13,11 @@
 | 原始126项文件的完整目录与逐书状态 | [原始资料目录](knowledge/provenance/original-library-catalog.md)、[机器清单](knowledge/provenance/source_inventory.json) |
 | 外部fork、22项上传材料、实际归档与缺口 | [统一来源目录](knowledge/provenance/source-catalog.md)、[来源元数据](knowledge/provenance/external_sources.json) |
 | 许可明确的项目文档原文 | [归档说明](sources/README.md) |
+| 资料页、形象与真实生活素材 | [长期入口](knowledge/topics/profile-and-appearance.md) |
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-10最新：[《吸引不是选择》现有TXT完成](knowledge/books/S04-attraction-not-choice.md)。已读[0,121603)、PAGE1–148，本轮新增57044字符。TOP30当前23条现有文字完整、1条可辨但乱码未解、6条未核完整。另补读并归档7份公开GitHub项目文档，当前38篇项目文档与6份MIT许可在库内；方法仍为26张、路由29条。新成果和准确下一断点见[CURRENT_STATE](CURRENT_STATE.md)；后续历史段落保持其当时口径。
+2026-11-10续读完成：TOP30全部30份现有文字覆盖完整；原来乱码项已用可逆编码恢复，未核完整与乱码未解均为0。六份新读共84837字符，另读完B043现有EPUB节选22462字符，并完成B046与已读E06的148页文字比对。原始书库当前11/119份现有文字覆盖完成、108份未通读；完整原著和图像缺口仍分别记录。[本轮报告](knowledge/provenance/TOP30_completion_2026-11-10.md)，最新断点转到B003，见[CURRENT_STATE](CURRENT_STATE.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -25,9 +26,9 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前9/119份现有正文读完，110份尚未通读。B092的90页仅含前三章，目录后六章缺失。其他节选、译本、二次整理、图像覆盖均见逐书笔记，不能把“现有正文完成”升级为原著全本掌握。
+当前11/119份现有文字覆盖完成，108份尚未通读。B043仅前言、第一步和附加文章，B046通过逐页文字比对复用已有阅读。B092的90页仅含前三章，目录后六章缺失。其他节选、译本、二次整理、图像覆盖均见逐书笔记，不能把“现有正文完成”升级为原著全本掌握。
 
-外部来源另计：S01现有正文和9张教学图已读；S02的207页现有文字读完，第四式正文和引用图缺失，见[逐章入口](knowledge/books/S02-chen-twelve.md)。S04有23条现有文字读完、1条可辨文字读完但乱码未解、6条未核完整阅读；其中Mystery当前TXT九章及文后资料、Tyler英文合集33篇及词表全部已读，Adam TXT与B047同作品有已核版本差异。原PDF及原始版本缺口分别保留。9个公开GitHub来源按文件记录，未通读九个整仓；6个项目38篇文档与6份许可证实际归档（系统轮补读16篇项目文档，其中11篇归档），其余保留原创研究笔记。
+外部来源另计：S01现有正文和9张教学图已读；S02的207页现有文字读完，第四式正文和引用图缺失，见[逐章入口](knowledge/books/S02-chen-twelve.md)。S04全部30条现有文字覆盖完整，原乱码水印已可逆恢复，原著和图像缺口另计；其中Mystery当前TXT九章及文后资料、Tyler英文合集33篇及词表全部已读，Adam TXT与B047同作品有已核版本差异。原PDF及原始版本缺口分别保留。9个公开GitHub来源按文件记录，未通读九个整仓；6个项目38篇文档与6份许可证实际归档（系统轮补读16篇项目文档，其中11篇归档），其余保留原创研究笔记。
 
 
 

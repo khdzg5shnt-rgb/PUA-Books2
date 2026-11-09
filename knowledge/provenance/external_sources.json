@@ -223,7 +223,7 @@
       "title": "TOP30_DEEP_READ.zip",
       "sha256": "032cc1b033a010cbb6a596df4cb871c7e1755c4f9503435725c5c1cf1c5c07c7",
       "bytes": 696559,
-      "reading_status": "archive_directory_verified; 23 supplied-text-complete entries; 1 legible text complete with unresolved garbling; 6 without verified complete reading; original publications unverified; E06 supplied TXT complete [0,121603)",
+      "reading_status": "all 30 current supplied TXT entries complete; includes reversible restoration of repeated watermark in one file; original publications, images and missing chapters remain unverified",
       "entries": [
         {
           "entry": "1-1、恋爱六阶段模型..txt",
@@ -872,7 +872,19 @@
           "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
           "bytes": 92492,
           "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 33594,
+          "notes": "knowledge/books/S04-mystery-excerpt-txt.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                33594
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10"
         },
         {
           "entry": "乌鸦和重庆白富美聊天记录..txt",
@@ -949,10 +961,21 @@
           "entry": "冷场的五种应对方式..txt",
           "bytes": 7084,
           "sha256": "48c133bfefa3e6895953d278e309ef5dd1ab04f050a499c449911fb77621921a",
-          "reading_status": "all currently legible text read; PAGE markers 1-4; repeated NUL/garbled blocks unresolved; not original completeness",
+          "reading_status": "current_provided_entry_text_complete; all 60 watermark lines reversibly recovered; raw and restored text re-read; original PDF/images unverified",
           "characters": 2830,
-          "notes": "knowledge/books/S04-top30-units.md",
-          "note_section": "U02"
+          "notes": "knowledge/books/S04-cold-silence-restored.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                2830
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10",
+          "recovery_proof": "knowledge/provenance/S04_cold_watermark_recovery_2026-11-10.json",
+          "restored_characters": 2650
         },
         {
           "entry": "史上最实用的约会锦囊..txt",
@@ -992,13 +1015,38 @@
           "entry": "史上最有型男士衣着指南..txt",
           "bytes": 24034,
           "sha256": "09ad57fb943ad24ced11c6e78deab4ce4da5d3c1b8750c55048bd721b1bb176e",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 9310,
+          "notes": "knowledge/books/S04-style-guides.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                9310
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10",
+          "NUL_scope": "40 NULs only in 20 printed-page footer lines; readable body unaffected; images not supplied"
         },
         {
           "entry": "哦耶情感男士形象指南..txt",
           "bytes": 25154,
           "sha256": "e8efe0705063f7dc2d55a26195795375afa427288ab7ab18dd7f111f33807442",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 12728,
+          "notes": "knowledge/books/S04-style-guides.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                12728
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10"
         },
         {
           "entry": "善解人意才会爱：共情.txt",
@@ -1074,7 +1122,19 @@
           "entry": "如何成为品味男人.txt",
           "bytes": 11907,
           "sha256": "cc96dfb75650ea968ff579026e15755c0d0054502629c364ac86c9f6b5a1c725",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 4718,
+          "notes": "knowledge/books/S04-style-guides.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                4718
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10"
         },
         {
           "entry": "帮助他成长，智慧的爱：影响.txt",
@@ -1177,13 +1237,37 @@
           "entry": "最有效的社交技巧--领袖学---信念疆域..txt",
           "bytes": 39202,
           "sha256": "4cfc76f5c05e31e29700e63fc8fe16ef46855c9721fe15284b856185fd2c872e",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 13250,
+          "notes": "knowledge/books/S04-belief-and-calibration.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                13250
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10"
         },
         {
           "entry": "泰阳团队外形改造手册..txt",
           "bytes": 31356,
           "sha256": "9e5e795e97065e0fa271d4dcaa9cd756bd7fbd5575ec1da1251c8810ac42ceef",
-          "reading_status": "unverified_historical_claim"
+          "reading_status": "current_provided_entry_text_complete; existing supplied TXT only; original publication and images not verified",
+          "characters": 11237,
+          "notes": "knowledge/books/S04-style-guides.md",
+          "read_coverage": {
+            "unit": "UTF-8-sig decoded codepoints, zero-based half-open; CR and original controls retained",
+            "ranges": [
+              [
+                0,
+                11237
+              ]
+            ]
+          },
+          "completion_round": "top30-complete-and-two-originals-2026-11-10"
         },
         {
           "entry": "管好情绪享受爱：情绪管理.txt",
@@ -1274,24 +1358,25 @@
         "knowledge/books/S04-attraction-ch03.md",
         "knowledge/books/S04-attraction-ch04.md",
         "knowledge/books/S04-attraction-ch05-07.md",
-        "knowledge/books/S04-attraction-ch08-10.md"
+        "knowledge/books/S04-attraction-ch08-10.md",
+        "knowledge/books/S04-mystery-excerpt-txt.md",
+        "knowledge/books/S04-style-guides.md",
+        "knowledge/books/S04-belief-and-calibration.md",
+        "knowledge/books/S04-cold-silence-restored.md"
       ],
-      "next_bookmark": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt decoded character0; verify identity and read current supplied version; historical same-title reading is not sufficient",
+      "next_bookmark": "TOP30 supplied-text queue complete; continue original library B003 from first spine after verifying package identity",
       "coverage_counts": {
-        "supplied_text_complete_entries": 23,
-        "legible_text_complete_with_unresolved_garbling": 1,
-        "remaining_without_verified_complete_reading": 6,
+        "supplied_text_complete_entries": 30,
+        "legible_text_complete_with_unresolved_garbling": 0,
+        "remaining_without_verified_complete_reading": 0,
         "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 6
+        "unread_or_unverified_historical_entries": 0
       },
-      "next_reading_unit": {
-        "source": "S04",
-        "entry": "《谜男方法》(Mystery-Method)详细摘抄笔记(1)..txt",
-        "decoded_character": 0,
-        "characters": 33594,
-        "sha256": "fa570a0727a8fa26288b7ccb775fc4aab1ebb105e3b2d65b00e519cf9fd2741c",
-        "status": "unverified_historical_claim; next unit begins at character0; not read in this round"
-      }
+      "completion_round": "top30-complete-and-two-originals-2026-11-10",
+      "media_limits_notes": [
+        "knowledge/books/S04-style-guides.md",
+        "knowledge/books/S04-cold-silence-restored.md"
+      ]
     },
     {
       "id": "S05",
@@ -4232,6 +4317,53 @@
       "summary_note": "knowledge/provenance/E06_completion_and_integration_2026-11-10.md",
       "validation_record": "knowledge/provenance/E06_completion_validation_2026-11-10.json",
       "python_checks": "both actually run and passed; 7 tests, 56 synthetic route scenarios"
+    },
+    {
+      "round_id": "top30-complete-and-two-originals-2026-11-10",
+      "date": "2026-11-10",
+      "baseline_main": "08a5a8a167a1cd3e5466266ff78e5ab73fa9cc7b",
+      "status": "content_integrated_and_all_required_checks_passed",
+      "summary_note": "knowledge/provenance/TOP30_completion_2026-11-10.md",
+      "validation_record": "knowledge/provenance/TOP30_completion_validation_2026-11-10.json",
+      "completed_top30_units": [
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "top30_new_direct_read_characters": 84837,
+      "top30_watermark_item_re_read": true,
+      "top30_watermark_item_counted_as_new_read_characters": 0,
+      "top30_complete_entries": 30,
+      "original_files_completed_this_round": [
+        "B043",
+        "B046"
+      ],
+      "original_file_completion_modes": {
+        "B043": "direct_read_existing_excerpt",
+        "B046": "proved_page_text_reuse"
+      },
+      "new_original_direct_read_characters": 22462,
+      "original_current_files_text_complete": 11,
+      "original_current_files_unread": 108,
+      "methods_substantively_changed": [
+        "M08",
+        "M09"
+      ],
+      "next_work_unit": {
+        "id": "B003",
+        "path": "4EG方法 - Rob Judge & Zack Bauer.epub",
+        "git_blob_sha": "45f67cbb973cf9590e9de0ade3e8a61c5d42e4e6",
+        "bytes": 329400,
+        "start": "first spine, decoded character0; href must be read from OPF before choosing it",
+        "already_read_characters": 0,
+        "reading_status": "unread; prior extraction is not reading"
+      },
+      "original_reading_ledger": "knowledge/provenance/original_reading_2026-11-10.json",
+      "python_checks": "both actually executed and passed; 7 tests, 56 synthetic route scenarios"
     }
   ],
   "public_reading_rounds": [

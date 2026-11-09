@@ -65,3 +65,9 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 2026-11-10 [第二章：为改变所做的准备](knowledge/books/S04-attraction-ch02.md)：得体开场不必等全部学完，工作礼貌不作私人兴趣；拒绝不评价人品，接吻测试不能代替具体同意。
 
 2026-11-10 [第三章及第二部分分部页](knowledge/books/S04-attraction-ch03.md)：生物类比与无出处比例不用于个体推断；不从请客、送礼或温柔判基因、性欲和不忠，当前具体意愿仍有效。
+
+## TOP30文字队列完成后的入口
+
+当前TOP30全部30份现有文字覆盖完成。[详细摘抄TXT](knowledge/books/S04-mystery-excerpt-txt.md)、[形象与生活资料](knowledge/books/S04-style-guides.md)、[领袖学](knowledge/books/S04-belief-and-calibration.md)、[冷场篇恢复](knowledge/books/S04-cold-silence-restored.md)保留实际范围与取舍。
+
+原始文件[B043](knowledge/books/B043.md)仅是前言、第一步和附加文章；[B046](knowledge/books/B046.md)按148页文字证明复用已读E06。当前文件文字完成与原著完整分别记录。头像、穿搭或长期社交问题按[资料页与形象入口](knowledge/topics/profile-and-appearance.md)处理，不能从一次聊天结果倒推出用户的外形责任。

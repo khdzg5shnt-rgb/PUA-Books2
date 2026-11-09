@@ -311,7 +311,7 @@
       "id": "M08",
       "name": "有依据的可纠正观察",
       "use_when": "她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助",
-      "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。",
+      "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。 观察具体不等于有证据；猜错时接受更正，不要求她为猜测解释。",
       "avoid": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。",
       "sources": [
         {
@@ -358,6 +358,16 @@
           "path": "knowledge/books/S04-attraction-ch03.md",
           "locator": "PAGE50–66：基因/性欲/不忠推断与研究缺口",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B043.md",
+          "locator": "附加文章第9条：具体猜测与事实依据分开",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-belief-and-calibration.md",
+          "locator": "信念与人格推断不替代实际行为",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -369,7 +379,7 @@
       "name": "具体欣赏",
       "use_when": "已有一个用户真实欣赏的行为、表达或偏好",
       "operation": "说清真实欣赏的一个具体细节，强度符合已知感受和关系。可直接感谢实际好意，不以通过筛选、服从或获得下一次配合为前提。",
-      "avoid": "泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。 不把正常礼貌、感谢或真实关照一概判成讨好。",
+      "avoid": "泛夸、编努力或承诺、贬低别人；机械赞美后补贬低，假赞美、制造尴尬、奖赏撤回或以亲密训练配合。 不把正常礼貌、感谢或真实关照一概判成讨好。 不把对方只说谢谢认定为赞美失败或没有兴趣，也不为多要回复而追加改造建议。",
       "sources": [
         {
           "path": "knowledge/books/G01-practical-expansion.md",
@@ -419,6 +429,11 @@
         {
           "path": "knowledge/books/S04-attraction-ch05-07.md",
           "locator": "PAGE109–118：普通关照、具体欣赏与不交换关系",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B043.md",
+          "locator": "附加文章第2条：正常感谢、双向赞美与不追加贬低",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -501,6 +516,11 @@
         {
           "path": "knowledge/books/G02-context-and-rhythm.md",
           "locator": "user-context不编故事、建议/执行/效果分别记录",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S04-style-guides.md",
+          "locator": "四份形象资料：真实生活素材与不编专家身份",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

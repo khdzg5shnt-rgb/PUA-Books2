@@ -3,7 +3,7 @@
 截至2026-11-10，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-10最新：[《吸引不是选择》现有TXT完成](../knowledge/books/S04-attraction-not-choice.md)。已读[0,121603)、PAGE1–148，本轮新增57044字符。TOP30当前23条现有文字完整、1条可辨但乱码未解、6条未核完整。另补读并归档7份公开GitHub项目文档，当前38篇项目文档与6份MIT许可在库内；方法仍为26张、路由29条。新成果和准确下一断点见[CURRENT_STATE](../CURRENT_STATE.md)；后续历史段落保持其当时口径。
+2026-11-10续读完成：TOP30全部30份现有文字覆盖完整；原来乱码项已用可逆编码恢复，未核完整与乱码未解均为0。六份新读共84837字符，另读完B043现有EPUB节选22462字符，并完成B046与已读E06的148页文字比对。原始书库当前11/119份现有文字覆盖完成、108份未通读；完整原著和图像缺口仍分别记录。[本轮报告](../knowledge/provenance/TOP30_completion_2026-11-10.md)，最新断点转到B003，见[CURRENT_STATE](../CURRENT_STATE.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -49,7 +49,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S01 | 陈哥聊天5大神操作.docx | current_provided_file_text_complete_and_all_nine_raster_images_reviewed | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S02 | 《子阳陈哥恋爱12式》.pdf | all supplied extractable text on PDF file P1–207 read; eleven body chapters (1–3,5–12); chapter four and referenced images not … | [仓库内入口](../knowledge/books/S02-chen-twelve.md) |
 | S03 | 20160626 谜男公开课 空姐聊天案例(2).docx | current_existing_text_complete; no embedded media | [仓库内入口](../knowledge/provenance/source-catalog.md) |
-| S04 | TOP30_DEEP_READ.zip | 23条现有文字完成；1条乱码未解；6条未核 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
+| S04 | TOP30_DEEP_READ.zip | 全部30条现有文字覆盖完整；原著/图像缺口另计 | [精读台账](../knowledge/provenance/core_reading_ledger.json) |
 | S05 | PUA_MASTER_CURRENT(2).md | header_and_selected_sections_inspected; not whole file; its 30/30 claim is unverified | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S06 | PUA_first_screening.xlsx | navigation structure checked; Summary populated cells A1:F15 read; first four rows of each other sheet inspected; not all previ… | [仓库内入口](../knowledge/provenance/source-catalog.md) |
 | S07 | 认识→→私密完整流程.docx | 当前DOCX正文171段、5,414字符已读；原始课程及版式未核 | [五段脚本笔记](../knowledge/books/S07-stage-script.md) |
@@ -71,7 +71,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中9份现有正文完成、110份未通读；TOP30为23条现有文字完成、1条乱码未解、6条未核完整阅读。阅读计数按逐文件实际覆盖更新，原始书库9/119的口径不因TOP30同作品版本读完而增加。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中11份现有文字覆盖完成、108份未通读；TOP30全部30条现有文字覆盖完成，原著和图像缺口另计。阅读计数按逐文件实际覆盖更新，原始书库11/119只增加实际读完或有逐页同文证明的当前文件。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 
@@ -88,7 +88,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 本轮短篇附件补读
 
-S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。本组S07–S22的现有正文队列已处理，S22采用经核对的既有正文阅读，非重新全文通读。S04仍局部、S05含私人内容仅局部检查、S06仅导航与样例，不能称22项附件全部完整；媒体缺口分别保留。
+S08/S09/S10/S14/S15现有提供或提取文字全部阅读，原文件已按SHA-256复核。逐项覆盖见[补读台账](../knowledge/provenance/additional_reading_ledger.json)；Word图像/文本框与S15标题所指升高图不因此视为已核。本组S07–S22的现有正文队列已处理，S22采用经核对的既有正文阅读，非重新全文通读。S04现有文字已全部核读、S05含私人内容仍仅局部检查、S06仍仅导航与样例，不能称22项附件全部完整；媒体缺口分别保留。
 
 ## 本轮公开来源继续补读
 

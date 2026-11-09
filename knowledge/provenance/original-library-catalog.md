@@ -4,9 +4,11 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件正文读完：9/119；B092为只含前三章的90页文件，110份尚未通读。完整原著版本、删节和二次整理见各笔记。
+当前现有书籍文件文字覆盖完成：11/119；B092只含前三章，B043仅前言/第一步/附加文章，B046按逐页同文证明复用已读；108份尚未通读。完整原著版本、删节和二次整理见各笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
+
+本轮新增覆盖与限制：[两份原始文件台账](original_reading_2026-11-10.json)。
 
 机器可读清单：[source_inventory.json](source_inventory.json)。[主题入口](../../PUA_CORE_SYSTEM.md)｜[案例目录](../cases/README.md)｜[外部与历史来源](legacy-and-external.md)。
 
@@ -53,10 +55,10 @@
 | B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 已提取/未读 | — |
 | B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 已提取/未读 | — |
 | B042 | [前线笔记 - 尼尔.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%89%8D%E7%BA%BF%E7%AC%94%E8%AE%B0%20-%20%E5%B0%BC%E5%B0%94.pdf) | 52 | 正文读完 | [精读](../books/B042.md) |
-| B043 | [十五步让你成为诱惑大师 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E4%BA%94%E6%AD%A5%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E8%AF%B1%E6%83%91%E5%A4%A7%E5%B8%88%20-%20Kezia%20Noble.epub) | 5 | 已提取/未读 | — |
+| B043 | [十五步让你成为诱惑大师 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E4%BA%94%E6%AD%A5%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E8%AF%B1%E6%83%91%E5%A4%A7%E5%B8%88%20-%20Kezia%20Noble.epub) | 5 | 现有节选正文读完 | [核读](../books/B043.md) |
 | B044 | [十月男人 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E6%9C%88%E7%94%B7%E4%BA%BA%20-%20IN10SE.pdf) | 52 | 已提取/未读 | — |
 | B045 | [叔叔教你护妹子 - 刘毓卿.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8F%94%E5%8F%94%E6%95%99%E4%BD%A0%E6%8A%A4%E5%A6%B9%E5%AD%90%20-%20%E5%88%98%E6%AF%93%E5%8D%BF.pdf) | 113 | 已提取/未读 | — |
-| B046 | [吸引不是选择 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 148 | 已提取/未读 | — |
+| B046 | [吸引不是选择 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 148 | 逐页核对后文字覆盖完成 | [核读](../books/B046.md) |
 | B047 | [吸引力原理 - Adam Lyons.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E5%8A%9B%E5%8E%9F%E7%90%86%20-%20Adam%20Lyons.epub) | 9 | 正文读完 | [精读](../books/B047.md) |
 | B048 | [坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E7%94%B7%E4%BA%BA%EF%BC%9A%E5%A5%B3%E4%BA%BA%E6%97%A0%E6%B3%95%E6%8A%B5%E5%BE%A1%E7%9A%84%E8%AF%B1%E6%83%91%E3%80%81%E5%8E%86%E7%BB%8F%E4%B8%8E%E5%86%92%E9%99%A9%20-%20%E8%8B%B1%E6%A0%BC.epub) | 11 | 已提取/未读 | — |
 | B049 | [坏蛋之道 - 约书亚·佩雷斯.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E8%9B%8B%E4%B9%8B%E9%81%93%20-%20%E7%BA%A6%E4%B9%A6%E4%BA%9A%C2%B7%E4%BD%A9%E9%9B%B7%E6%96%AF.pdf) | 130 | 已提取/未读 | — |

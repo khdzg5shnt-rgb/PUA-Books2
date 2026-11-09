@@ -1063,8 +1063,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E4%BA%94%E6%AD%A5%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E8%AF%B1%E6%83%91%E5%A4%A7%E5%B8%88%20-%20Kezia%20Noble.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B043.md",
       "pages": null,
       "spine_items": 5,
       "ocr": {
@@ -1072,7 +1072,13 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "latest_reading": {
+        "date": "2026-11-10",
+        "ledger": "knowledge/provenance/original_reading_2026-11-10.json",
+        "coverage_mode": "direct_current_epub_body_read",
+        "scope": "title/source, full contents, preface, step1, appended ten-tip article; original steps2–15 absent"
+      }
     },
     {
       "index": 44,
@@ -1135,8 +1141,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B046.md",
       "pages": 148,
       "spine_items": null,
       "ocr": {
@@ -1144,7 +1150,13 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "latest_reading": {
+        "date": "2026-11-10",
+        "ledger": "knowledge/provenance/original_reading_2026-11-10.json",
+        "coverage_mode": "verified_page_text_reuse_of_completed_S04_E06",
+        "scope": "All 148 current PDF pages text covered through proved prior reading; visual review partial"
+      }
     },
     {
       "index": 47,
@@ -3212,5 +3224,6 @@
       },
       "edition_status": "unverified_original_edition_completeness"
     }
-  ]
+  ],
+  "latest_reading_update": "2026-11-10"
 }

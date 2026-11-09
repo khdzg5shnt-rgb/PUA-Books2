@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "round_id": "top30-complete-and-two-originals-2026-11-10",
+  "baseline_main": "08a5a8a167a1cd3e5466266ff78e5ab73fa9cc7b",
+  "scope": "Current supplied file text only; reuse requires page proof; not whole original publication or empirical validation",
+  "records": [
+    {
+      "id": "B043",
+      "path": "十五步让你成为诱惑大师 - Kezia Noble.epub",
+      "git_blob_sha": "7edecbd76e2fba243898c3b461a7ca917fe6b34c",
+      "sha256": "09fa2dc11e1b69a24b3a9c73edaa8992435329eab83e0713b469e62e064205d9",
+      "bytes": 41844,
+      "reading_status": "provided_file_text_complete",
+      "notes": "knowledge/books/B043.md",
+      "coverage_mode": "direct_current_epub_body_read",
+      "extraction": {
+        "git_blob_sha": "7edecbd76e2fba243898c3b461a7ca917fe6b34c",
+        "sha256": "09fa2dc11e1b69a24b3a9c73edaa8992435329eab83e0713b469e62e064205d9",
+        "bytes": 41844,
+        "OPF": "OEBPS/content.opf",
+        "spine_items": [
+          {
+            "spine": 1,
+            "href": "Text/1.html",
+            "range": [
+              0,
+              77
+            ],
+            "characters": 43,
+            "images": []
+          },
+          {
+            "spine": 2,
+            "href": "Text/2.html",
+            "range": [
+              77,
+              859
+            ],
+            "characters": 748,
+            "images": []
+          },
+          {
+            "spine": 3,
+            "href": "Text/3.html",
+            "range": [
+              859,
+              13022
+            ],
+            "characters": 12129,
+            "images": []
+          },
+          {
+            "spine": 4,
+            "href": "Text/4.html",
+            "range": [
+              13022,
+              16310
+            ],
+            "characters": 3254,
+            "images": []
+          },
+          {
+            "spine": 5,
+            "href": "Text/5.html",
+            "range": [
+              16310,
+              22462
+            ],
+            "characters": 6118,
+            "images": []
+          }
+        ],
+        "text_characters": 22462,
+        "text_sha256": "f2c490ee572ca3cd756a9f8408693fd110d92ceaf6d861a9ca2fc002c683dd39",
+        "extraction": "stdlib HTMLParser, body text data stripped and separated by newline, explicit spine headers; source XHTML retained only in scratch"
+      },
+      "read_ranges": [
+        [
+          0,
+          6500
+        ],
+        [
+          6500,
+          13022
+        ],
+        [
+          13022,
+          22462
+        ]
+      ],
+      "characters": 22462,
+      "reading_chunks": [
+        {
+          "range": [
+            0,
+            6500
+          ],
+          "sha256": "17bca2a31747faf42fa8a501b69ad606b831af0f30d818a5afab798f4879ed17"
+        },
+        {
+          "range": [
+            6500,
+            13022
+          ],
+          "sha256": "b4c6731c4c74ba54137d5367d7d2d31963d63d331bdec8518c369daa462624c0"
+        },
+        {
+          "range": [
+            13022,
+            22462
+          ],
+          "sha256": "1ea5352011692b417a5c1cd271970572e95cea61168274c30cae35076024d14a"
+        }
+      ],
+      "supplied_body_scope": "title/source, full contents, preface, step1, appended ten-tip article; original steps2–15 absent",
+      "original_publication_complete": false,
+      "images_present": false,
+      "raw_or_extracted_text_archived": false
+    },
+    {
+      "id": "B046",
+      "path": "吸引不是选择 - 大卫D.pdf",
+      "git_blob_sha": "39b19ea7d6fe6fa62856f935a001bfc17777afa5",
+      "sha256": "cc41ffe93876b58d78ef3af60ef79de949c36cf8328d6149e6426d0062a7f890",
+      "bytes": 832129,
+      "reading_status": "provided_file_text_complete",
+      "notes": "knowledge/books/B046.md",
+      "coverage_mode": "verified_page_text_reuse_of_completed_S04_E06",
+      "file_pages": [
+        1,
+        148
+      ],
+      "proof": "knowledge/provenance/B046_E06_equivalence_2026-11-10.json",
+      "prior_source": "S04/E06",
+      "prior_entry_sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
+      "prior_range": [
+        0,
+        121603
+      ],
+      "new_full_read_characters_counted": 0,
+      "visual_review_pages": [
+        1,
+        75,
+        148
+      ],
+      "original_publication_complete": false,
+      "all_pages_visually_reviewed": false
+    }
+  ],
+  "new_direct_read_characters": 22462,
+  "completed_file_records_added": 2
+}
