@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "baseline_main": "250756817910ccbf7dc30b49fa4427d12b047e55",
+  "baseline_checks": "both required Python commands actually passed before this continuation",
+  "runs": [
+    {
+      "unit": "第二章：为改变所做的准备",
+      "range": [
+        34905,
+        52247
+      ],
+      "results": [
+        {
+          "command": [
+            "python",
+            "scripts/validate_os.py"
+          ],
+          "returncode": 0,
+          "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 37,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_*.py"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.146s\n\nOK\n"
+        }
+      ]
+    }
+  ],
+  "scope": "structure and synthetic routes, not reading or dating outcome proof",
+  "methods_substantively_changed": [
+    "M23",
+    "M25"
+  ],
+  "newly_read_characters": 17342
+}

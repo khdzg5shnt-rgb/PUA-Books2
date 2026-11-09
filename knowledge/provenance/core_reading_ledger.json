@@ -189,20 +189,84 @@
         [
           30169,
           34905
+        ],
+        [
+          34905,
+          40832
+        ],
+        [
+          40832,
+          46719
+        ],
+        [
+          46719,
+          52247
         ]
       ],
       "reading_status": "supplied_text_partial",
-      "next_character": 34905,
-      "next_page_marker": 26,
-      "next_section": "第二章 为改变所做的准备",
+      "next_character": 52247,
+      "next_page_marker": 50,
+      "next_section": "第三章 吸引力的进化及生物学原理",
       "original_publication_completeness": "unverified",
       "raw_text_archived": false,
       "coverage_breakdown": {
         "contents_characters": 21216,
-        "introduction_part_page_and_chapter_one_characters": 13689
-      }
+        "introduction_part_page_and_chapter_one_characters": 13689,
+        "continuation_after_chapter_one_characters": 17342,
+        "all_non_contents_characters_read": 31031
+      },
+      "completed_reading_units": [
+        {
+          "date": "2026-11-10",
+          "title": "第二章：为改变所做的准备",
+          "range": [
+            34905,
+            52247
+          ],
+          "page_markers": [
+            26,
+            49
+          ],
+          "notes": "knowledge/books/S04-attraction-ch02.md"
+        }
+      ],
+      "reading_chunks_2026_11_10": [
+        {
+          "source": "S04/E06",
+          "range": [
+            34905,
+            40832
+          ],
+          "characters": 5927,
+          "unit": "chapter2",
+          "chunk_text_sha256": "a1a44413a218e5f0d378b44d1455a4d590a6a6c9d3b8a45695c8f92b83e9f06d",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            40832,
+            46719
+          ],
+          "characters": 5887,
+          "unit": "chapter2",
+          "chunk_text_sha256": "5da4dfa3da7d278d1064afce5b47b214ca18b56745e02c19fdaa2466d96d9277",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            46719,
+            52247
+          ],
+          "characters": 5528,
+          "unit": "chapter2",
+          "chunk_text_sha256": "ddc5b5157daf7ffe4dcb67ccb89feb5fee0dd6c50aec2ae9f9739e2316006943",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        }
+      ]
     }
   ],
   "scope": "Supplied TXT only; not original book/PDF completeness or empirical validation",
-  "updated": "2026-11-03"
+  "updated": "2026-11-10"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "review_date": "2026-11-06",
+  "review_date": "2026-11-10",
   "source_access": "Mixed external sources. Selected permissively licensed project documents are archived as inert text. Uploaded books/courses, third-party excerpts, tools and uncertain quoted sources are represented by original research notes plus fixed provenance; absent raw sources may still be needed for new source-detail checks.",
   "sources": [
     {
@@ -613,27 +613,44 @@
           "entry": "k第十一课-吸引不是选择..txt",
           "bytes": 293999,
           "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
-          "reading_status": "current_provided_entry_text_partial; decoded [0,34905), PAGE 1–25, contents, introduction and chapter one only; remaining body unverified",
+          "reading_status": "current_provided_entry_text_partial; decoded [0,52247), PAGE1–49; next 第三章 吸引力的进化及生物学原理; original edition and PDF images unverified",
           "characters": 121603,
           "notes": "knowledge/books/S04-attraction-not-choice.md",
           "read_coverage": {
             "ranges": [
               [
                 0,
-                34905
+                52247
               ]
             ],
-            "next_character": 34905,
-            "next_page_marker": 26,
-            "next_printed_page": 21,
-            "next_section": "第二章 为改变所做的准备"
+            "next_character": 52247,
+            "next_page_marker": 50,
+            "next_printed_page": 45,
+            "next_section": "第三章 吸引力的进化及生物学原理"
           },
           "coverage_breakdown": {
             "contents_characters": 21216,
-            "introduction_part_page_and_chapter_one_characters": 13689
+            "introduction_part_page_and_chapter_one_characters": 13689,
+            "continuation_after_chapter_one_characters": 17342,
+            "all_non_contents_characters_read": 31031
           },
           "NUL_count": 0,
-          "replacement_count": 0
+          "replacement_count": 0,
+          "completed_reading_units": [
+            {
+              "date": "2026-11-10",
+              "title": "第二章：为改变所做的准备",
+              "range": [
+                34905,
+                52247
+              ],
+              "page_markers": [
+                26,
+                49
+              ],
+              "notes": "knowledge/books/S04-attraction-ch02.md"
+            }
+          ]
         },
         {
           "entry": "TylerDurdens-Classic-Posts-Collection..txt",
@@ -1150,15 +1167,16 @@
         "knowledge/books/S04-expression.md",
         "knowledge/books/S04-emotion-management.md",
         "knowledge/books/S04-allowing.md",
-        "knowledge/books/S04-influence.md"
+        "knowledge/books/S04-influence.md",
+        "knowledge/books/S04-attraction-ch02.md"
       ],
-      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character 34905; PAGE 26, printed 21, chapter two",
+      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character52247; PAGE50, printed45; 第三章 吸引力的进化及生物学原理",
       "coverage_counts": {
         "supplied_text_complete_entries": 22,
         "legible_text_complete_with_unresolved_garbling": 1,
         "remaining_without_verified_complete_reading": 7,
-        "partial_entries": 0,
-        "unread_or_unverified_historical_entries": 7
+        "partial_entries": 1,
+        "unread_or_unverified_historical_entries": 6
       }
     },
     {
@@ -3667,6 +3685,38 @@
           "sha": "af079eef0095112d6d73fc3d46f98e8f503268b6"
         }
       ]
+    },
+    {
+      "round_id": "E06-continuation-2026-11-10",
+      "date": "2026-11-10",
+      "upload_ids": [],
+      "status": "in_progress",
+      "baseline_main": "250756817910ccbf7dc30b49fa4427d12b047e55",
+      "units": [
+        {
+          "title": "第二章：为改变所做的准备",
+          "range": [
+            34905,
+            52247
+          ],
+          "characters": 17342,
+          "notes": "knowledge/books/S04-attraction-ch02.md"
+        }
+      ],
+      "summary_note": "knowledge/provenance/E06_continuation_2026-11-10.md",
+      "validation_record": "knowledge/provenance/E06_validation_2026-11-10.json",
+      "decoded_characters": 17342,
+      "methods_substantively_changed": [
+        "M23",
+        "M25"
+      ],
+      "synthetic_scenario_count": 56,
+      "next_top30": {
+        "entry": "k第十一课-吸引不是选择..txt",
+        "decoded_character": 52247,
+        "next_page_marker": 50,
+        "section": "第三章 吸引力的进化及生物学原理"
+      }
     }
   ],
   "public_reading_rounds": [

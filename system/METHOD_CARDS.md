@@ -146,7 +146,7 @@
 
 避免：虚构活动、空闲或顺路；以固定台词阶段、信号数量或通过服从测试为邀约前提；一轮反复换日期，或借最后机会施压。
 
-依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)
+依据：[实际动作的条件](../knowledge/topics/invitation-feedback.md)；[主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；[三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；[PAGE26–49：准备、一次行动与平等协商](../knowledge/books/S04-attraction-ch02.md)
 
 ## M15 确认已答应的安排
 
@@ -198,7 +198,7 @@
 
 避免：故意冷落制造焦虑、归因用户没有魅力或某性别应维持全场；无限救场、无限等慢热，或否认已发生的单边成本。 不凭求助次数或情绪词诊断耗尽、拒绝处理必要事项。
 
-依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[评分阈值不替代连续行为和具体意愿](../knowledge/books/G04-observation-not-profiling.md)
+依据：[互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；[投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[评分阈值不替代连续行为和具体意愿](../knowledge/books/G04-observation-not-profiling.md)；[PAGE37–49：拒绝未知、投入与无数据概率类比](../knowledge/books/S04-attraction-ch02.md)
 
 ## M20 接住纠正或澄清
 
@@ -236,9 +236,9 @@
 
 动作：停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。
 
-避免：用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。
+避免：用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。 不以接吻测验或识破社交面具为由先越界再等拒绝；不因拒绝联系方式贬低人品。
 
-依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)
+依据：[明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；[拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；[事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；[允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；[P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；[已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；[PAGE40–46：接吻测验、号码拒绝与具体同意](../knowledge/books/S04-attraction-ch02.md)
 
 ## M24 见面后的真实反馈
 
@@ -254,11 +254,11 @@
 
 适用：需要开启新一轮，且没有未回复消息或明确不联系的边界
 
-动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。需要转平台时直接征求意愿，不以帮忙作为交换条件。
+动作：优先真实共同经历或旧话题，再取她的具体分享或当前场景；没有共同细节也可直接自然认识。需要转平台时直接征求意愿，不以帮忙作为交换条件。 可先完成一次得体、可退出的招呼，不必等读完资料或背熟全套技巧；工作中的礼貌回应不作私人发展意愿的证据。
 
 避免：反复考古、假偶遇、假误发、编梦境或近况；虚构问路、购物、资源清单或平台限制等借口；按固定天数刷存在感。
 
-依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)
+依据：[现场素材与反馈分支](../knowledge/books/B090.md)；[重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；[一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；[P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；[PAGE34–46：小步开场、工作礼貌与训练量限制](../knowledge/books/S04-attraction-ch02.md)
 
 ## M26 压成一句自然的话
 
