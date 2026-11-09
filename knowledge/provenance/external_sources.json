@@ -4364,6 +4364,77 @@
       },
       "original_reading_ledger": "knowledge/provenance/original_reading_2026-11-10.json",
       "python_checks": "both actually executed and passed; 7 tests, 56 synthetic route scenarios"
+    },
+    {
+      "round_id": "B003-complete-and-B004-pages1-65-2026-11-10",
+      "date": "2026-11-10",
+      "baseline_main": "1ed88cee191ed9e026a7c059104745ac93e7dac8",
+      "status": "content_integrated_and_all_required_checks_passed",
+      "summary_note": "knowledge/provenance/B003_completion_2026-11-10.md",
+      "validation_record": "knowledge/provenance/B003_completion_validation_2026-11-10.json",
+      "original_reading_ledger": "knowledge/provenance/B003_B004_reading_2026-11-10.json",
+      "original_files_completed_this_round": [
+        "B003"
+      ],
+      "original_files_partially_read_this_round": {
+        "B004": {
+          "file_pages": [
+            1,
+            65
+          ],
+          "next_file_page": 66,
+          "next_character": 78416
+        }
+      },
+      "new_original_direct_read_characters": 173306,
+      "original_current_files_text_complete": 12,
+      "original_current_files_not_complete": 107,
+      "original_files_not_started": 106,
+      "methods_substantively_changed": [
+        "M03",
+        "M05",
+        "M10"
+      ],
+      "methods_source_mappings_extended": [
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M09",
+        "M10",
+        "M11",
+        "M14",
+        "M15",
+        "M19",
+        "M20",
+        "M21",
+        "M22",
+        "M23",
+        "M25",
+        "M26"
+      ],
+      "next_work_unit": {
+        "id": "B004",
+        "path": "Alpha Male Bible Become a Casanova Learn Charisma, Confidence, Self-Hypnosis, Dating Strategies, Psychology of Attraction.pdf",
+        "git_blob_sha": "7fd835ee01f75fdac1248137f03915f0771c893b",
+        "sha256": "59d6efa6135026e00b891c4660585e290be39967127237595d53e3045e5f6d00",
+        "bytes": 2134068,
+        "start": "physical page66, first decoded character of this page",
+        "current_extraction_characters": 675192,
+        "current_extraction_sha256": "07a73c83db3879a551ccc7af5ada878f1b3fd7cdb8e8bc7809677b86e9e21830",
+        "already_read_characters": 78416,
+        "next_character": 78416,
+        "read_file_pages": [
+          1,
+          65
+        ],
+        "file_pages": 545,
+        "reading_status": "provided_file_text_partial",
+        "ledger": "knowledge/provenance/B003_B004_reading_2026-11-10.json"
+      },
+      "reference_check": "Antonakis et al.2011 bibliographic identity and publisher abstract only; direct publisher open403; not full paper read",
+      "python_checks": "both actually executed and passed; 7 tests, 56 synthetic route scenarios"
     }
   ],
   "public_reading_rounds": [

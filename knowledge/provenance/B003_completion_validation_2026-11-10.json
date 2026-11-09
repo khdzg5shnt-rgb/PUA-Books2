@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-10",
+  "round_id": "B003-complete-and-B004-pages1-65-2026-11-10",
+  "baseline_main": "1ed88cee191ed9e026a7c059104745ac93e7dac8",
+  "status": "all_required_and_scope_checks_passed",
+  "required_checks": [
+    {
+      "name": "structure",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 44,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.148s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "raw_originals_unchanged_in_changeset": true,
+    "raw_source_identities_verified": [
+      "B003",
+      "B004"
+    ],
+    "B003_spine_order_and_ranges": 30,
+    "B003_images_hashes_and_review_records": 2,
+    "B004_page_records": 545,
+    "B004_text_pages_read": 65,
+    "B004_unread_pages": 480,
+    "B004_visual_pages_reviewed": [
+      1,
+      12
+    ],
+    "next_file_page": 66,
+    "next_character": 78416,
+    "new_direct_read_characters": 173306,
+    "original_book_counts": {
+      "provided_file_text_complete": 12,
+      "provided_file_text_partial": 1,
+      "unread": 106
+    },
+    "changed_markdown_links_checked": 19,
+    "checks_do_not_prove_reading_behavior_or_dating_effectiveness": true
+  },
+  "limitations": "Metadata checks cannot prove reading behavior, image understanding, psychological mechanisms or dating outcomes; original edition completeness remains unverified."
+}

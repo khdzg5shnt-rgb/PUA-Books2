@@ -80,7 +80,7 @@
       "id": "M03",
       "name": "接住具体内容",
       "use_when": "她提供一个日常事件、偏好或具体信息",
-      "operation": "承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。简短肯定也可完成本轮，必要时最多一个相关问题。",
+      "operation": "承接一个实际细节，可加一项已确认的真实感受、偏好或经历；允许口味不同。简短肯定也可完成本轮，必要时最多一个相关问题。 信息宽泛时只缩到一个已给出的具体点，不把一次承接扩成整套采访。",
       "avoid": "连续查户口、同时铺开多条追问、抢走对方分享，或为填停顿不断另开话题。",
       "sources": [
         {
@@ -126,6 +126,16 @@
         {
           "path": "knowledge/books/G01-light-clear-expression.md",
           "locator": "闲聊的具体承接与不强制追问",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "第10章：缩小焦点；第11–13章：当前内容与不过度表演",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B004.md",
+          "locator": "第一章文件页60–61：跟进具体内容与不无限提问",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -182,6 +192,11 @@
           "path": "knowledge/books/S04-attraction-ch08-10.md",
           "locator": "PAGE129–132、143–148：正常问题、关系意愿与固定节奏",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "认真问题优先于预设反转和强制转题",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -192,7 +207,7 @@
       "id": "M05",
       "name": "回扣共同话题",
       "use_when": "双方确实共同参与过一个话题或笑点，当前有自然关联，且没有更紧要的问题",
-      "operation": "只回扣一个双方记得的细节，接当前信息；已反复用完的梗不再使用。",
+      "operation": "只回扣一个双方记得的细节，接当前信息；已反复用完的梗不再使用。 旧梗只作当前内容的连接，不按固定分钟或次数轮换主题。",
       "avoid": "把只有用户知道的内容伪装为共同回忆；为了回扣忽略新问题。",
       "sources": [
         {
@@ -203,6 +218,11 @@
         {
           "path": "knowledge/topics/humor-threading.md",
           "locator": "回叫幽默的限制",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "第13章：共同主题回访与不采用固定间隔",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -250,6 +270,11 @@
         {
           "path": "knowledge/books/S04-attraction-ch08-10.md",
           "locator": "PAGE133–142：夸张自信、共同角色与反应不好时停止",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "第10–12章：轻量反转、荒诞与对方没接梗时停止",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -300,6 +325,11 @@
         {
           "path": "knowledge/books/S04-attraction-ch08-10.md",
           "locator": "PAGE141–142：角色示例与对方参与条件",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "第11章：观察到的举动、假拟后果与共同参与条件",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -435,6 +465,16 @@
           "path": "knowledge/books/B043.md",
           "locator": "附加文章第2条：正常感谢、双向赞美与不追加贬低",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch14-19.md",
+          "locator": "第18章：真实具体欣赏，不作为试用期或交换配合",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B004.md",
+          "locator": "第一章文件页60–61：欣赏需真实",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -445,7 +485,7 @@
       "id": "M10",
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
-      "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。",
+      "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。 社交分享可以只是一段真实小经历加一个相关细节或感受，不必编冲突、高潮或悬念。",
       "avoid": "移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。",
       "sources": [
         {
@@ -522,6 +562,16 @@
           "path": "knowledge/books/S04-style-guides.md",
           "locator": "四份形象资料：真实生活素材与不编专家身份",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch14-19.md",
+          "locator": "第16–17章：真实细节、感受与社交故事不必有完整剧情",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B004.md",
+          "locator": "第一章文件页31、53–59：表达已有生活和选择实际场景",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -563,6 +613,11 @@
         {
           "path": "knowledge/books/G01-natural-flow-and-conflict.md",
           "locator": "按当前需要回应，不套观察表达邀请三件套",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch14-19.md",
+          "locator": "第14、18–19章：已表达的感受与不强迫披露",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -703,6 +758,11 @@
           "path": "knowledge/books/S04-attraction-ch02.md",
           "locator": "PAGE26–49：准备、一次行动与平等协商",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch20-27.md",
+          "locator": "第24章：一次真实可行邀请与不采用固定夜晚",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -754,6 +814,11 @@
         {
           "path": "knowledge/books/G04-intent-and-follow-through.md",
           "locator": "落实安排、关系意愿与一次当前行动",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch20-27.md",
+          "locator": "第24–25章：承接实际替代时间、说明去向与确认安排",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -901,6 +966,11 @@
           "path": "knowledge/books/G04-intent-and-follow-through.md",
           "locator": "主动比例、打分趋势和求助次数不替代实际投入",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch20-27.md",
+          "locator": "低回应不能靠换电话或反复劝约突破",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -937,6 +1007,11 @@
         {
           "path": "knowledge/books/S04-attraction-ch08-10.md",
           "locator": "PAGE138–142：没接住玩笑不等于没有幽默感",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch14-19.md",
+          "locator": "第15章：普通小失误与确实需要修复的行为分开",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -990,6 +1065,11 @@
           "path": "knowledge/books/S04-attraction-ch05-07.md",
           "locator": "PAGE101–108：具体认错与不转嫁责任",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch14-19.md",
+          "locator": "第15、19章：具体责任不被一笑置之或测试标签覆盖",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1041,6 +1121,11 @@
         {
           "path": "knowledge/books/G01-natural-flow-and-conflict.md",
           "locator": "单方越界不改写成双方过错",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch01-08.md",
+          "locator": "第8章及本项目裁决：辱骂与不适不改写成喜欢",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -1139,6 +1224,11 @@
           "path": "knowledge/books/S04-attraction-ch04.md",
           "locator": "PAGE84–86：号码拒绝不是隐藏测试",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch20-27.md",
+          "locator": "第23–25章：不采用突然身体行为、拒绝后重试与隐瞒去向",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1217,6 +1307,11 @@
         {
           "path": "knowledge/books/G01-digital-evidence.md",
           "locator": "第2–5节：真实资料细节、渠道意愿与截图范围",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch01-08.md",
+          "locator": "第1、5、7章：一次自然可退出的招呼与现实限制",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -1304,6 +1399,11 @@
         {
           "path": "knowledge/books/S04-attraction-ch08-10.md",
           "locator": "术语到现有方法的入口，不机械生成五套",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B003-ch09-13.md",
+          "locator": "提示用于一个当前动作，不把四元素拼成多段表演",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

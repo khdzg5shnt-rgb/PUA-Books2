@@ -71,3 +71,7 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 当前TOP30全部30份现有文字覆盖完成。[详细摘抄TXT](knowledge/books/S04-mystery-excerpt-txt.md)、[形象与生活资料](knowledge/books/S04-style-guides.md)、[领袖学](knowledge/books/S04-belief-and-calibration.md)、[冷场篇恢复](knowledge/books/S04-cold-silence-restored.md)保留实际范围与取舍。
 
 原始文件[B043](knowledge/books/B043.md)仅是前言、第一步和附加文章；[B046](knowledge/books/B046.md)按148页文字证明复用已读E06。当前文件文字完成与原著完整分别记录。头像、穿搭或长期社交问题按[资料页与形象入口](knowledge/topics/profile-and-appearance.md)处理，不能从一次聊天结果倒推出用户的外形责任。
+
+## B003与B004的本轮接入
+
+[B003当前EPUB](knowledge/books/B003.md)已读完30个spine和两图，分章笔记定位接话、幽默、真实连接、邀约与拒绝的具体取舍；四元素不成为另一套运行流程。[B004](knowledge/books/B004.md)只读至物理页65，后续480页未读。即时指导仍用一个场景、一个主方法与一句成品。

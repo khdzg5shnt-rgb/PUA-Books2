@@ -1,0 +1,7298 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "round_id": "B003-complete-and-B004-pages1-65-2026-11-10",
+  "baseline_main": "1ed88cee191ed9e026a7c059104745ac93e7dac8",
+  "scope": "current source files only; body extraction counts include explicit separators; extraction is not reading",
+  "records": [
+    {
+      "id": "B003",
+      "path": "4EG方法 - Rob Judge & Zack Bauer.epub",
+      "bytes": 329400,
+      "git_blob_sha": "45f67cbb973cf9590e9de0ade3e8a61c5d42e4e6",
+      "sha256": "325d248053d4613136aa15aa19bde74c7b694cfc9d68fa273bff02e673b2bb6c",
+      "reading_status": "provided_file_text_complete",
+      "coverage_mode": "direct_ordered_current_epub_body_and_two_images",
+      "notes": "knowledge/books/B003.md",
+      "extraction": {
+        "id": "B003",
+        "git_blob_sha": "45f67cbb973cf9590e9de0ade3e8a61c5d42e4e6",
+        "sha256": "325d248053d4613136aa15aa19bde74c7b694cfc9d68fa273bff02e673b2bb6c",
+        "bytes": 329400,
+        "OPF": "OEBPS/content.opf",
+        "metadata": [
+          {
+            "tag": "creator",
+            "text": "da3f04db5097083dd2d3f9dc03532068.jpg"
+          },
+          {
+            "tag": "title",
+            "text": "​da3f04db5097083dd2d3f9dc03532068.jpg"
+          },
+          {
+            "tag": "identifier",
+            "text": "urn:uuid:C129D5AA-628B-4E72-984C-628EA7123FBF"
+          },
+          {
+            "tag": "language",
+            "text": "zh-CN"
+          }
+        ],
+        "extraction": "stdlib HTMLParser; body data stripped, joined with newline; explicit ordered spine headers",
+        "text_characters": 94890,
+        "text_sha256": "c59754758ade2cfd82d7712f6181bae765900abca203b4c812f895a3c3cd4fa2",
+        "spine_items": [
+          {
+            "spine": 1,
+            "href": "Text/1.html",
+            "package_path": "OEBPS/Text/1.html",
+            "range": [
+              0,
+              71
+            ],
+            "characters": 37,
+            "xhtml_sha256": "8ec1286fa33dc4ffcbe998baa8b4c99c82792435bf33a6f975365fcc1f92ad38",
+            "images": []
+          },
+          {
+            "spine": 2,
+            "href": "Text/2.html",
+            "package_path": "OEBPS/Text/2.html",
+            "range": [
+              71,
+              859
+            ],
+            "characters": 754,
+            "xhtml_sha256": "b44cead2317aeb45a167862a4fa16a039ae9b1640294abb0fd3865f9eccd9add",
+            "images": []
+          },
+          {
+            "spine": 3,
+            "href": "Text/3.html",
+            "package_path": "OEBPS/Text/3.html",
+            "range": [
+              859,
+              6751
+            ],
+            "characters": 5858,
+            "xhtml_sha256": "63571dc60f867fd429d69d10851f93fb0fdf56b467703d5952b8bab90d072f95",
+            "images": []
+          },
+          {
+            "spine": 4,
+            "href": "Text/4.html",
+            "package_path": "OEBPS/Text/4.html",
+            "range": [
+              6751,
+              9892
+            ],
+            "characters": 3107,
+            "xhtml_sha256": "f2c31493034b8df399d3947dce3a8b55e2d30c1587dd5e6f13affc51645c399e",
+            "images": []
+          },
+          {
+            "spine": 5,
+            "href": "Text/5.html",
+            "package_path": "OEBPS/Text/5.html",
+            "range": [
+              9892,
+              12612
+            ],
+            "characters": 2686,
+            "xhtml_sha256": "97d6d8d7ad2802391ef1ebbd0040ffc9ab29b62984924797a812a0acd86a1087",
+            "images": [
+              {
+                "src": "../Images/d6eb472c454f95462fbabaceafd69846.jpg",
+                "border": "0",
+                "class": "imagecontent"
+              }
+            ]
+          },
+          {
+            "spine": 6,
+            "href": "Text/6.html",
+            "package_path": "OEBPS/Text/6.html",
+            "range": [
+              12612,
+              16393
+            ],
+            "characters": 3747,
+            "xhtml_sha256": "ac9968cbb05d95839b8468c19cabbf534899b2da5c6508c96f853846fd7ea2db",
+            "images": []
+          },
+          {
+            "spine": 7,
+            "href": "Text/7.html",
+            "package_path": "OEBPS/Text/7.html",
+            "range": [
+              16393,
+              19088
+            ],
+            "characters": 2661,
+            "xhtml_sha256": "24838aff274804277657a52e6c4cd778debc1dc451111926b84c6ad0f8801032",
+            "images": []
+          },
+          {
+            "spine": 8,
+            "href": "Text/8.html",
+            "package_path": "OEBPS/Text/8.html",
+            "range": [
+              19088,
+              22374
+            ],
+            "characters": 3252,
+            "xhtml_sha256": "a00bcc12f88b1d0cd0f00eb314e3b41f6465b96faaad5ef1a7ff3ad050bf3478",
+            "images": []
+          },
+          {
+            "spine": 9,
+            "href": "Text/9.html",
+            "package_path": "OEBPS/Text/9.html",
+            "range": [
+              22374,
+              26106
+            ],
+            "characters": 3698,
+            "xhtml_sha256": "b25a2c862516e1e1f22dac658659eb7248bf8fe9ebaf166d28cd2deee1c7e5ff",
+            "images": []
+          },
+          {
+            "spine": 10,
+            "href": "Text/10.html",
+            "package_path": "OEBPS/Text/10.html",
+            "range": [
+              26106,
+              32723
+            ],
+            "characters": 6581,
+            "xhtml_sha256": "13df573e71f1932f55123ba4787b05ae2686f7a186ba7fca517f13341f97db7a",
+            "images": []
+          },
+          {
+            "spine": 11,
+            "href": "Text/11.html",
+            "package_path": "OEBPS/Text/11.html",
+            "range": [
+              32723,
+              35216
+            ],
+            "characters": 2457,
+            "xhtml_sha256": "c90a4f02290437eb98e5de5e057c113187bfdcd7a63dfcd019042d98a0c70233",
+            "images": []
+          },
+          {
+            "spine": 12,
+            "href": "Text/12.html",
+            "package_path": "OEBPS/Text/12.html",
+            "range": [
+              35216,
+              39536
+            ],
+            "characters": 4284,
+            "xhtml_sha256": "e3a2c95a6dee0d3732d9f25cb3eabf5f31496cbcea386765b87d7b14ed8aae89",
+            "images": []
+          },
+          {
+            "spine": 13,
+            "href": "Text/13.html",
+            "package_path": "OEBPS/Text/13.html",
+            "range": [
+              39536,
+              42729
+            ],
+            "characters": 3157,
+            "xhtml_sha256": "2f14f6c3487772a6f9b11f265a8442bf3587af960b2fb2969c62e98c8850e32f",
+            "images": []
+          },
+          {
+            "spine": 14,
+            "href": "Text/14.html",
+            "package_path": "OEBPS/Text/14.html",
+            "range": [
+              42729,
+              46419
+            ],
+            "characters": 3654,
+            "xhtml_sha256": "2332cef4a18cc8c29f9ae02d139b1d6b0a222c9eed74d8be9e1439ca9aec5093",
+            "images": []
+          },
+          {
+            "spine": 15,
+            "href": "Text/15.html",
+            "package_path": "OEBPS/Text/15.html",
+            "range": [
+              46419,
+              51978
+            ],
+            "characters": 5523,
+            "xhtml_sha256": "00d30da0c157ccd0f1103088b8e0c3db2222d8104eb910a884ec21dd9f31b87d",
+            "images": []
+          },
+          {
+            "spine": 16,
+            "href": "Text/16.html",
+            "package_path": "OEBPS/Text/16.html",
+            "range": [
+              51978,
+              55093
+            ],
+            "characters": 3079,
+            "xhtml_sha256": "42fc600b892a255d1e2ecf4a1105fb1a7620c36236a4f916949480a64de65ff5",
+            "images": []
+          },
+          {
+            "spine": 17,
+            "href": "Text/17.html",
+            "package_path": "OEBPS/Text/17.html",
+            "range": [
+              55093,
+              58167
+            ],
+            "characters": 3038,
+            "xhtml_sha256": "8dc52d7ae44ec5306fb27a448f879607fb2588a278e623a2807ef467794a0133",
+            "images": []
+          },
+          {
+            "spine": 18,
+            "href": "Text/18.html",
+            "package_path": "OEBPS/Text/18.html",
+            "range": [
+              58167,
+              61750
+            ],
+            "characters": 3547,
+            "xhtml_sha256": "1c5b39831c17f6b6ed0066ff69251b8cc8f04e371042cb820dd757c9a925262b",
+            "images": []
+          },
+          {
+            "spine": 19,
+            "href": "Text/19.html",
+            "package_path": "OEBPS/Text/19.html",
+            "range": [
+              61750,
+              64138
+            ],
+            "characters": 2352,
+            "xhtml_sha256": "7e56ee3322148973a2e97dff50b95208611341a7e93b43f477ea8cdcdd4c6f16",
+            "images": []
+          },
+          {
+            "spine": 20,
+            "href": "Text/20.html",
+            "package_path": "OEBPS/Text/20.html",
+            "range": [
+              64138,
+              66685
+            ],
+            "characters": 2511,
+            "xhtml_sha256": "8d9a82c1bb8ed6b57336eabe6bca6b27935efb047d626887f9537f23fd67af6e",
+            "images": []
+          },
+          {
+            "spine": 21,
+            "href": "Text/21.html",
+            "package_path": "OEBPS/Text/21.html",
+            "range": [
+              66685,
+              70351
+            ],
+            "characters": 3630,
+            "xhtml_sha256": "7f0bdf76599e66c96a4b5578298ecdd47d9d8c55a930815bb7460084ef975f40",
+            "images": []
+          },
+          {
+            "spine": 22,
+            "href": "Text/22.html",
+            "package_path": "OEBPS/Text/22.html",
+            "range": [
+              70351,
+              72701
+            ],
+            "characters": 2314,
+            "xhtml_sha256": "30d5f3257aad3cffd8b679d366b448f7b401467e7a37da6ea7bf523efc8a4cea",
+            "images": []
+          },
+          {
+            "spine": 23,
+            "href": "Text/23.html",
+            "package_path": "OEBPS/Text/23.html",
+            "range": [
+              72701,
+              75518
+            ],
+            "characters": 2781,
+            "xhtml_sha256": "8b42dcd656363d6c00b010ea227fcb15c3d8961ef672e3ef2fd678e2b6aadfb6",
+            "images": []
+          },
+          {
+            "spine": 24,
+            "href": "Text/24.html",
+            "package_path": "OEBPS/Text/24.html",
+            "range": [
+              75518,
+              78494
+            ],
+            "characters": 2940,
+            "xhtml_sha256": "370f3ca0a723e18ae5bbcac0ec73313f16b7446348c0decd06aaaab815ec10d7",
+            "images": []
+          },
+          {
+            "spine": 25,
+            "href": "Text/25.html",
+            "package_path": "OEBPS/Text/25.html",
+            "range": [
+              78494,
+              80841
+            ],
+            "characters": 2311,
+            "xhtml_sha256": "633d308e17d05f65b26d1a0a2027370824ec284b65fac6973732ccff63786d74",
+            "images": []
+          },
+          {
+            "spine": 26,
+            "href": "Text/26.html",
+            "package_path": "OEBPS/Text/26.html",
+            "range": [
+              80841,
+              84127
+            ],
+            "characters": 3250,
+            "xhtml_sha256": "b1e4969e1a1e4689ddc5964b266558cbfea1040ce23ce3422e49a0cc8106e1bd",
+            "images": []
+          },
+          {
+            "spine": 27,
+            "href": "Text/27.html",
+            "package_path": "OEBPS/Text/27.html",
+            "range": [
+              84127,
+              86867
+            ],
+            "characters": 2704,
+            "xhtml_sha256": "82f34de51392ce53411e7babc1068ed9883cf76d63a37d576dda835b8c23229c",
+            "images": []
+          },
+          {
+            "spine": 28,
+            "href": "Text/28.html",
+            "package_path": "OEBPS/Text/28.html",
+            "range": [
+              86867,
+              89829
+            ],
+            "characters": 2926,
+            "xhtml_sha256": "604494b5354de4d36135802e57b6c423d3e053d3600762bef2af937622d76713",
+            "images": [
+              {
+                "src": "../Images/da3f04db5097083dd2d3f9dc03532068.jpg",
+                "border": "0",
+                "class": "imagecontent"
+              }
+            ]
+          },
+          {
+            "spine": 29,
+            "href": "Text/29.html",
+            "package_path": "OEBPS/Text/29.html",
+            "range": [
+              89829,
+              92533
+            ],
+            "characters": 2668,
+            "xhtml_sha256": "f0f91412737272cefb40d4c2721f37bda9fcecd8786c126734ede5de1e70ef06",
+            "images": []
+          },
+          {
+            "spine": 30,
+            "href": "Text/30.html",
+            "package_path": "OEBPS/Text/30.html",
+            "range": [
+              92533,
+              94890
+            ],
+            "characters": 2321,
+            "xhtml_sha256": "9800a30ff256cfe06073060e0df9d42cb48ed440545e2a5ce65dfa60f4887cc9",
+            "images": []
+          }
+        ],
+        "html_resources": [
+          "OEBPS/Text/1.html",
+          "OEBPS/Text/2.html",
+          "OEBPS/Text/3.html",
+          "OEBPS/Text/4.html",
+          "OEBPS/Text/5.html",
+          "OEBPS/Text/6.html",
+          "OEBPS/Text/7.html",
+          "OEBPS/Text/8.html",
+          "OEBPS/Text/9.html",
+          "OEBPS/Text/10.html",
+          "OEBPS/Text/11.html",
+          "OEBPS/Text/12.html",
+          "OEBPS/Text/13.html",
+          "OEBPS/Text/14.html",
+          "OEBPS/Text/15.html",
+          "OEBPS/Text/16.html",
+          "OEBPS/Text/17.html",
+          "OEBPS/Text/18.html",
+          "OEBPS/Text/19.html",
+          "OEBPS/Text/20.html",
+          "OEBPS/Text/21.html",
+          "OEBPS/Text/22.html",
+          "OEBPS/Text/23.html",
+          "OEBPS/Text/24.html",
+          "OEBPS/Text/25.html",
+          "OEBPS/Text/26.html",
+          "OEBPS/Text/27.html",
+          "OEBPS/Text/28.html",
+          "OEBPS/Text/29.html",
+          "OEBPS/Text/30.html"
+        ],
+        "image_resources": [
+          "OEBPS/Images/d6eb472c454f95462fbabaceafd69846.jpg",
+          "OEBPS/Images/da3f04db5097083dd2d3f9dc03532068.jpg"
+        ],
+        "NUL_count": 0,
+        "replacement_count": 0
+      },
+      "spine_reading": [
+        {
+          "spine": 1,
+          "href": "Text/1.html",
+          "package_path": "OEBPS/Text/1.html",
+          "range": [
+            0,
+            71
+          ],
+          "characters": 37,
+          "xhtml_sha256": "8ec1286fa33dc4ffcbe998baa8b4c99c82792435bf33a6f975365fcc1f92ad38",
+          "images": [],
+          "observed_first_line": "4EG方法",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003.md"
+        },
+        {
+          "spine": 2,
+          "href": "Text/2.html",
+          "package_path": "OEBPS/Text/2.html",
+          "range": [
+            71,
+            859
+          ],
+          "characters": 754,
+          "xhtml_sha256": "b44cead2317aeb45a167862a4fa16a039ae9b1640294abb0fd3865f9eccd9add",
+          "images": [],
+          "observed_first_line": "致关心本书的人",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003.md"
+        },
+        {
+          "spine": 3,
+          "href": "Text/3.html",
+          "package_path": "OEBPS/Text/3.html",
+          "range": [
+            859,
+            6751
+          ],
+          "characters": 5858,
+          "xhtml_sha256": "63571dc60f867fd429d69d10851f93fb0fdf56b467703d5952b8bab90d072f95",
+          "images": [],
+          "observed_first_line": "第一章 更替旧心态",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 4,
+          "href": "Text/4.html",
+          "package_path": "OEBPS/Text/4.html",
+          "range": [
+            6751,
+            9892
+          ],
+          "characters": 3107,
+          "xhtml_sha256": "f2c31493034b8df399d3947dce3a8b55e2d30c1587dd5e6f13affc51645c399e",
+          "images": [],
+          "observed_first_line": "第二章 理解吸引力如何起作用",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 5,
+          "href": "Text/5.html",
+          "package_path": "OEBPS/Text/5.html",
+          "range": [
+            9892,
+            12612
+          ],
+          "characters": 2686,
+          "xhtml_sha256": "97d6d8d7ad2802391ef1ebbd0040ffc9ab29b62984924797a812a0acd86a1087",
+          "images": [
+            {
+              "src": "../Images/d6eb472c454f95462fbabaceafd69846.jpg",
+              "border": "0",
+              "class": "imagecontent"
+            }
+          ],
+          "observed_first_line": "第三章 新型游戏是怎么玩的",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 6,
+          "href": "Text/6.html",
+          "package_path": "OEBPS/Text/6.html",
+          "range": [
+            12612,
+            16393
+          ],
+          "characters": 3747,
+          "xhtml_sha256": "ac9968cbb05d95839b8468c19cabbf534899b2da5c6508c96f853846fd7ea2db",
+          "images": [],
+          "observed_first_line": "第四章 为什么推进是一件很性感的事",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 7,
+          "href": "Text/7.html",
+          "package_path": "OEBPS/Text/7.html",
+          "range": [
+            16393,
+            19088
+          ],
+          "characters": 2661,
+          "xhtml_sha256": "24838aff274804277657a52e6c4cd778debc1dc451111926b84c6ad0f8801032",
+          "images": [],
+          "observed_first_line": "第五章 碾碎那些阻止你成功的东西",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 8,
+          "href": "Text/8.html",
+          "package_path": "OEBPS/Text/8.html",
+          "range": [
+            19088,
+            22374
+          ],
+          "characters": 3252,
+          "xhtml_sha256": "a00bcc12f88b1d0cd0f00eb314e3b41f6465b96faaad5ef1a7ff3ad050bf3478",
+          "images": [],
+          "observed_first_line": "第六章 跟女人调情",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 9,
+          "href": "Text/9.html",
+          "package_path": "OEBPS/Text/9.html",
+          "range": [
+            22374,
+            26106
+          ],
+          "characters": 3698,
+          "xhtml_sha256": "b25a2c862516e1e1f22dac658659eb7248bf8fe9ebaf166d28cd2deee1c7e5ff",
+          "images": [],
+          "observed_first_line": "第七章 如何立即产生你所要的信心 展现驱动力就是展现信心（这很性感！）",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 10,
+          "href": "Text/10.html",
+          "package_path": "OEBPS/Text/10.html",
+          "range": [
+            26106,
+            32723
+          ],
+          "characters": 6581,
+          "xhtml_sha256": "13df573e71f1932f55123ba4787b05ae2686f7a186ba7fca517f13341f97db7a",
+          "images": [],
+          "observed_first_line": "第八章 如何让你的驱动力性感满满",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch01-08.md"
+        },
+        {
+          "spine": 11,
+          "href": "Text/11.html",
+          "package_path": "OEBPS/Text/11.html",
+          "range": [
+            32723,
+            35216
+          ],
+          "characters": 2457,
+          "xhtml_sha256": "c90a4f02290437eb98e5de5e057c113187bfdcd7a63dfcd019042d98a0c70233",
+          "images": [],
+          "observed_first_line": "第九章 如何靠灵感迷住女人",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch09-13.md"
+        },
+        {
+          "spine": 12,
+          "href": "Text/12.html",
+          "package_path": "OEBPS/Text/12.html",
+          "range": [
+            35216,
+            39536
+          ],
+          "characters": 4284,
+          "xhtml_sha256": "e3a2c95a6dee0d3732d9f25cb3eabf5f31496cbcea386765b87d7b14ed8aae89",
+          "images": [],
+          "observed_first_line": "第十章 如何在跟女人的谈话中让自己变的健谈又迷人",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch09-13.md"
+        },
+        {
+          "spine": 13,
+          "href": "Text/13.html",
+          "package_path": "OEBPS/Text/13.html",
+          "range": [
+            39536,
+            42729
+          ],
+          "characters": 3157,
+          "xhtml_sha256": "2f14f6c3487772a6f9b11f265a8442bf3587af960b2fb2969c62e98c8850e32f",
+          "images": [],
+          "observed_first_line": "第十一章 如何组织谈话好让女人迷上你",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch09-13.md"
+        },
+        {
+          "spine": 14,
+          "href": "Text/14.html",
+          "package_path": "OEBPS/Text/14.html",
+          "range": [
+            42729,
+            46419
+          ],
+          "characters": 3654,
+          "xhtml_sha256": "2332cef4a18cc8c29f9ae02d139b1d6b0a222c9eed74d8be9e1439ca9aec5093",
+          "images": [],
+          "observed_first_line": "第十二章 你所要知道的全部就是叫女人笑",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch09-13.md"
+        },
+        {
+          "spine": 15,
+          "href": "Text/15.html",
+          "package_path": "OEBPS/Text/15.html",
+          "range": [
+            46419,
+            51978
+          ],
+          "characters": 5523,
+          "xhtml_sha256": "00d30da0c157ccd0f1103088b8e0c3db2222d8104eb910a884ec21dd9f31b87d",
+          "images": [],
+          "observed_first_line": "第十三章 挑逗的用途",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch09-13.md"
+        },
+        {
+          "spine": 16,
+          "href": "Text/16.html",
+          "package_path": "OEBPS/Text/16.html",
+          "range": [
+            51978,
+            55093
+          ],
+          "characters": 3079,
+          "xhtml_sha256": "42fc600b892a255d1e2ecf4a1105fb1a7620c36236a4f916949480a64de65ff5",
+          "images": [],
+          "observed_first_line": "第十四章 关于连接感的新观点",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 17,
+          "href": "Text/17.html",
+          "package_path": "OEBPS/Text/17.html",
+          "range": [
+            55093,
+            58167
+          ],
+          "characters": 3038,
+          "xhtml_sha256": "8dc52d7ae44ec5306fb27a448f879607fb2588a278e623a2807ef467794a0133",
+          "images": [],
+          "observed_first_line": "第十五章 多数人会在不知不觉中犯下的最大失误",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 18,
+          "href": "Text/18.html",
+          "package_path": "OEBPS/Text/18.html",
+          "range": [
+            58167,
+            61750
+          ],
+          "characters": 3547,
+          "xhtml_sha256": "1c5b39831c17f6b6ed0066ff69251b8cc8f04e371042cb820dd757c9a925262b",
+          "images": [],
+          "observed_first_line": "第十六章 利用融洽感让调情状态过渡到连接感",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 19,
+          "href": "Text/19.html",
+          "package_path": "OEBPS/Text/19.html",
+          "range": [
+            61750,
+            64138
+          ],
+          "characters": 2352,
+          "xhtml_sha256": "7e56ee3322148973a2e97dff50b95208611341a7e93b43f477ea8cdcdd4c6f16",
+          "images": [],
+          "observed_first_line": "第十七章 如何利用你的生活故事来激发吸引力",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 20,
+          "href": "Text/20.html",
+          "package_path": "OEBPS/Text/20.html",
+          "range": [
+            64138,
+            66685
+          ],
+          "characters": 2511,
+          "xhtml_sha256": "8d9a82c1bb8ed6b57336eabe6bca6b27935efb047d626887f9537f23fd67af6e",
+          "images": [],
+          "observed_first_line": "第十八章 如何与女人建立真诚的连接感",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 21,
+          "href": "Text/21.html",
+          "package_path": "OEBPS/Text/21.html",
+          "range": [
+            66685,
+            70351
+          ],
+          "characters": 3630,
+          "xhtml_sha256": "7f0bdf76599e66c96a4b5578298ecdd47d9d8c55a930815bb7460084ef975f40",
+          "images": [],
+          "observed_first_line": "第十九章 保持连接感的活力",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch14-19.md"
+        },
+        {
+          "spine": 22,
+          "href": "Text/22.html",
+          "package_path": "OEBPS/Text/22.html",
+          "range": [
+            70351,
+            72701
+          ],
+          "characters": 2314,
+          "xhtml_sha256": "30d5f3257aad3cffd8b679d366b448f7b401467e7a37da6ea7bf523efc8a4cea",
+          "images": [],
+          "observed_first_line": "第二十章 如何平滑地将事情推向爱爱方向 最迷人的第一次约会",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 23,
+          "href": "Text/23.html",
+          "package_path": "OEBPS/Text/23.html",
+          "range": [
+            72701,
+            75518
+          ],
+          "characters": 2781,
+          "xhtml_sha256": "8b42dcd656363d6c00b010ea227fcb15c3d8961ef672e3ef2fd678e2b6aadfb6",
+          "images": [],
+          "observed_first_line": "第二十一章 利用你的强项创造即时吸引力",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 24,
+          "href": "Text/24.html",
+          "package_path": "OEBPS/Text/24.html",
+          "range": [
+            75518,
+            78494
+          ],
+          "characters": 2940,
+          "xhtml_sha256": "370f3ca0a723e18ae5bbcac0ec73313f16b7446348c0decd06aaaab815ec10d7",
+          "images": [],
+          "observed_first_line": "第二十二章 如何成功搭讪火辣女人",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 25,
+          "href": "Text/25.html",
+          "package_path": "OEBPS/Text/25.html",
+          "range": [
+            78494,
+            80841
+          ],
+          "characters": 2311,
+          "xhtml_sha256": "633d308e17d05f65b26d1a0a2027370824ec284b65fac6973732ccff63786d74",
+          "images": [],
+          "observed_first_line": "第二十三章 谈话中具体知道你要做什么",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 26,
+          "href": "Text/26.html",
+          "package_path": "OEBPS/Text/26.html",
+          "range": [
+            80841,
+            84127
+          ],
+          "characters": 3250,
+          "xhtml_sha256": "b1e4969e1a1e4689ddc5964b266558cbfea1040ce23ce3422e49a0cc8106e1bd",
+          "images": [],
+          "observed_first_line": "第二十四章 如何安排一场约会",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 27,
+          "href": "Text/27.html",
+          "package_path": "OEBPS/Text/27.html",
+          "range": [
+            84127,
+            86867
+          ],
+          "characters": 2704,
+          "xhtml_sha256": "82f34de51392ce53411e7babc1068ed9883cf76d63a37d576dda835b8c23229c",
+          "images": [],
+          "observed_first_line": "第二十五章 如何快速到达肢体接触阶段",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 28,
+          "href": "Text/28.html",
+          "package_path": "OEBPS/Text/28.html",
+          "range": [
+            86867,
+            89829
+          ],
+          "characters": 2926,
+          "xhtml_sha256": "604494b5354de4d36135802e57b6c423d3e053d3600762bef2af937622d76713",
+          "images": [
+            {
+              "src": "../Images/da3f04db5097083dd2d3f9dc03532068.jpg",
+              "border": "0",
+              "class": "imagecontent"
+            }
+          ],
+          "observed_first_line": "第二十六章 关于相貌",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 29,
+          "href": "Text/29.html",
+          "package_path": "OEBPS/Text/29.html",
+          "range": [
+            89829,
+            92533
+          ],
+          "characters": 2668,
+          "xhtml_sha256": "f0f91412737272cefb40d4c2721f37bda9fcecd8786c126734ede5de1e70ef06",
+          "images": [],
+          "observed_first_line": "第二十七章 最后的激励",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        },
+        {
+          "spine": 30,
+          "href": "Text/30.html",
+          "package_path": "OEBPS/Text/30.html",
+          "range": [
+            92533,
+            94890
+          ],
+          "characters": 2321,
+          "xhtml_sha256": "9800a30ff256cfe06073060e0df9d42cb48ed440545e2a5ce65dfa60f4887cc9",
+          "images": [],
+          "observed_first_line": "后记",
+          "reading_status": "current_body_text_complete",
+          "note": "knowledge/books/B003-ch20-27.md"
+        }
+      ],
+      "read_ranges": [
+        [
+          0,
+          6751
+        ],
+        [
+          6751,
+          12612
+        ],
+        [
+          12612,
+          19088
+        ],
+        [
+          19088,
+          26106
+        ],
+        [
+          26106,
+          32723
+        ],
+        [
+          32723,
+          39536
+        ],
+        [
+          39536,
+          46419
+        ],
+        [
+          46419,
+          51978
+        ],
+        [
+          51978,
+          58167
+        ],
+        [
+          58167,
+          64138
+        ],
+        [
+          64138,
+          70351
+        ],
+        [
+          70351,
+          75518
+        ],
+        [
+          75518,
+          80841
+        ],
+        [
+          80841,
+          86867
+        ],
+        [
+          86867,
+          92533
+        ],
+        [
+          92533,
+          94890
+        ]
+      ],
+      "reading_chunks": [
+        {
+          "range": [
+            0,
+            6751
+          ],
+          "sha256": "1efaf29b26c345e9193251c84b52f81856b9be0cd46d8ec49a5b1a57913f2ab3"
+        },
+        {
+          "range": [
+            6751,
+            12612
+          ],
+          "sha256": "7ec9215497f4d0817b9eed1a088a41becf27fbc50b0112812d18dddd42e0893b"
+        },
+        {
+          "range": [
+            12612,
+            19088
+          ],
+          "sha256": "367c4387a1651ca1e138a05bcd0bac481078b5fed247c45edccdb5171ff42e64"
+        },
+        {
+          "range": [
+            19088,
+            26106
+          ],
+          "sha256": "806e12fd10d0ac679969c874e39efc321dba610c92c45d665b6ba109a3963926"
+        },
+        {
+          "range": [
+            26106,
+            32723
+          ],
+          "sha256": "31b71d341484a086c6aae841224896bd821db1479ada3ca0284e726e71fcd81e"
+        },
+        {
+          "range": [
+            32723,
+            39536
+          ],
+          "sha256": "ab2755af155027cd1b9930cf151b7d67c3aa962bfe0a30c7a425e2fddb966539"
+        },
+        {
+          "range": [
+            39536,
+            46419
+          ],
+          "sha256": "74638a08c3a4a515ce0fa8cc9dd51435eeb6a0b38dfacd53705d3f9033dc67b1"
+        },
+        {
+          "range": [
+            46419,
+            51978
+          ],
+          "sha256": "355d3fe41005056234f170de6c80f62af577a366493d92decdfc6555295c71a9"
+        },
+        {
+          "range": [
+            51978,
+            58167
+          ],
+          "sha256": "47e484e1b2a028afa8d9e3b4439e6ee200cd711d9a507a8c7e71da5a493919ea"
+        },
+        {
+          "range": [
+            58167,
+            64138
+          ],
+          "sha256": "da0a488b2ca64a2b4272586b76e7c9e427bf05f21e4d65c07b215cc5f9b2fbfe"
+        },
+        {
+          "range": [
+            64138,
+            70351
+          ],
+          "sha256": "bd422f983b287bc962cd9cf65b9a479e1513adc67c1fbc9ad97bf4db02c21410"
+        },
+        {
+          "range": [
+            70351,
+            75518
+          ],
+          "sha256": "a5b0d66a5937c1fe7bc28dd5564169d7ed0e7670ab11687641662aeda932492c"
+        },
+        {
+          "range": [
+            75518,
+            80841
+          ],
+          "sha256": "2fd194076d81add4eeb85d74d79dceca44e1b264150143526d8e04e5f0a003b3"
+        },
+        {
+          "range": [
+            80841,
+            86867
+          ],
+          "sha256": "e2dc72d2c4d148ca6b35a028bbe41839d4fbaf367a7435acbe1b702aeee54e71"
+        },
+        {
+          "range": [
+            86867,
+            92533
+          ],
+          "sha256": "d3476c37ce3aa7c78e9a44f70b95c862a6ce4a72e87dfb466cb73d577b2ac90c"
+        },
+        {
+          "range": [
+            92533,
+            94890
+          ],
+          "sha256": "be8021aadae66992b6ca2f96795dab65494af7340214c04a7481cb2cb95c0805"
+        }
+      ],
+      "new_direct_read_characters": 94890,
+      "current_body_text_complete": true,
+      "original_publication_complete": false,
+      "original_edition_status": "unverified; malformed OPF title/creator; no matching coordinate graph",
+      "images": [
+        {
+          "spine": 5,
+          "package_path": "OEBPS/Images/d6eb472c454f95462fbabaceafd69846.jpg",
+          "bytes": 59930,
+          "sha256": "505dd9ccef9914bcc9d478ab6e56f3d25f140a10933fbb452c5349adee43862d",
+          "actual_visual_review": true,
+          "content": "four-element imbalance table",
+          "original_image_republished": false
+        },
+        {
+          "spine": 28,
+          "package_path": "OEBPS/Images/da3f04db5097083dd2d3f9dc03532068.jpg",
+          "bytes": 83470,
+          "sha256": "6f04ecedc8289b471ac4d16490c3baa36fec97cca1b6b183757f59801cd03fe2",
+          "actual_visual_review": true,
+          "content": "appearance advice table",
+          "original_image_republished": false
+        }
+      ],
+      "all_current_referenced_images_reviewed": true,
+      "raw_or_extracted_text_archived": false
+    },
+    {
+      "id": "B004",
+      "path": "Alpha Male Bible Become a Casanova Learn Charisma, Confidence, Self-Hypnosis, Dating Strategies, Psychology of Attraction.pdf",
+      "bytes": 2134068,
+      "git_blob_sha": "7fd835ee01f75fdac1248137f03915f0771c893b",
+      "sha256": "59d6efa6135026e00b891c4660585e290be39967127237595d53e3045e5f6d00",
+      "reading_status": "provided_file_text_partial",
+      "notes": "knowledge/books/B004.md",
+      "extraction": {
+        "id": "B004",
+        "bytes": 2134068,
+        "git_blob_sha": "7fd835ee01f75fdac1248137f03915f0771c893b",
+        "sha256": "59d6efa6135026e00b891c4660585e290be39967127237595d53e3045e5f6d00",
+        "file_pages": 545,
+        "metadata": {
+          "format": "PDF 1.4",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "pdftk-java 3.3.2",
+          "producer": "itext-paulo-155 (itextpdf.sf.net - lowagie.com)",
+          "creationDate": "D:20231108114621Z",
+          "modDate": "D:20231108114621Z",
+          "trapped": "",
+          "encryption": null
+        },
+        "text_characters": 675192,
+        "text_sha256": "07a73c83db3879a551ccc7af5ada878f1b3fd7cdb8e8bc7809677b86e9e21830",
+        "extraction": "PyMuPDF page.get_text(sort=True), explicit physical page markers"
+      },
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            24
+          ],
+          "body_characters": 0,
+          "images": 1,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "60115de57421e7d9f961fea00efd34d4a287eab3247f736329ffb63a13be599e",
+          "actual_visual_review": true
+        },
+        {
+          "page": 2,
+          "range": [
+            24,
+            306
+          ],
+          "body_characters": 258,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "4e17735860e7e3d50f9dfd8c5f47e4ef8cf017ee3a6ef99431baee6e18322acb",
+          "actual_visual_review": false
+        },
+        {
+          "page": 3,
+          "range": [
+            306,
+            1858
+          ],
+          "body_characters": 1528,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "efa336b6afa7213fbd7ae197f5b0088ade53d684caa38d54468d6a1a8b3bac35",
+          "actual_visual_review": false
+        },
+        {
+          "page": 4,
+          "range": [
+            1858,
+            2638
+          ],
+          "body_characters": 756,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "f8169bafc36086d20b466c84f4f37f213b673c65f7e3f2fd4d68d003fd19cc60",
+          "actual_visual_review": false
+        },
+        {
+          "page": 5,
+          "range": [
+            2638,
+            3882
+          ],
+          "body_characters": 1220,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "6af6c275b9571136bb19879b1a448a896cf0997851cf4bbc523c2ef0847088f1",
+          "actual_visual_review": false
+        },
+        {
+          "page": 6,
+          "range": [
+            3882,
+            5100
+          ],
+          "body_characters": 1194,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "3fcc9eaeb57d7205bf836de7b67402f579c12dca809eb4eeec6eb9ac12c2b48f",
+          "actual_visual_review": false
+        },
+        {
+          "page": 7,
+          "range": [
+            5100,
+            6386
+          ],
+          "body_characters": 1262,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "a48ed7ae1bd6cdc12abb730dae86762228496badb3cfefdbd1379976720a6111",
+          "actual_visual_review": false
+        },
+        {
+          "page": 8,
+          "range": [
+            6386,
+            7450
+          ],
+          "body_characters": 1040,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "6ca1877d11145f66cf12754d78374afce6c8c12f1eae6730b9913ce371ec7906",
+          "actual_visual_review": false
+        },
+        {
+          "page": 9,
+          "range": [
+            7450,
+            8540
+          ],
+          "body_characters": 1066,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "c8e4d42f8916f63213fe391d7dee59b8c52a996242377e6de61d6b9ba46070d4",
+          "actual_visual_review": false
+        },
+        {
+          "page": 10,
+          "range": [
+            8540,
+            9683
+          ],
+          "body_characters": 1118,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "c29eebb6099e3c91dc977121fcbbbbb0a9c265597f2d6b48b42fbde06eecee1e",
+          "actual_visual_review": false
+        },
+        {
+          "page": 11,
+          "range": [
+            9683,
+            9991
+          ],
+          "body_characters": 283,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "fbe88e9130b9815164524d7b56bc779779a0de3b03ca27c30f4c22bd134ee968",
+          "actual_visual_review": false
+        },
+        {
+          "page": 12,
+          "range": [
+            9991,
+            11019
+          ],
+          "body_characters": 1003,
+          "images": 1,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "24e33c2c1c09f2e7bec9424fc6bbcbd279acfdf23ad7bac2176616604d32895d",
+          "actual_visual_review": true
+        },
+        {
+          "page": 13,
+          "range": [
+            11019,
+            11186
+          ],
+          "body_characters": 142,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "4d1a8c0e9ff91b20ba409e532b44bc7c8c630595a322b7f7f59351a563a0a67a",
+          "actual_visual_review": false
+        },
+        {
+          "page": 14,
+          "range": [
+            11186,
+            12465
+          ],
+          "body_characters": 1254,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "ac94e5c85d182033e76f4472568104913383fadfc109accdbf5c34bb220724c7",
+          "actual_visual_review": false
+        },
+        {
+          "page": 15,
+          "range": [
+            12465,
+            13804
+          ],
+          "body_characters": 1314,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "0c2df8122730a2fdfc20e83a28bb66b74f5f7adb3ac09a5d892d23a133909e3f",
+          "actual_visual_review": false
+        },
+        {
+          "page": 16,
+          "range": [
+            13804,
+            15299
+          ],
+          "body_characters": 1470,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "2989b2872ae8d745cedd3e684d85dc764a944069175b49cb7c79805b6d207a00",
+          "actual_visual_review": false
+        },
+        {
+          "page": 17,
+          "range": [
+            15299,
+            16720
+          ],
+          "body_characters": 1396,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "d2398882fef558ca09fbef2e74a706f3006c0994cc112e09fbd21e288ed26922",
+          "actual_visual_review": false
+        },
+        {
+          "page": 18,
+          "range": [
+            16720,
+            16970
+          ],
+          "body_characters": 225,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "970b43ad535de18ae587bae8c8d580649017a46c03fefa7012783cd64737c31a",
+          "actual_visual_review": false
+        },
+        {
+          "page": 19,
+          "range": [
+            16970,
+            18442
+          ],
+          "body_characters": 1447,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "f76798b16773040b18a98afb18a3bcec3de869a81581a5cf31511dc6a2110940",
+          "actual_visual_review": false
+        },
+        {
+          "page": 20,
+          "range": [
+            18442,
+            19766
+          ],
+          "body_characters": 1299,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "ecc1004301a7408d1a6344a311a5939ed11a4174004ac97eec9282f9c3a2c34c",
+          "actual_visual_review": false
+        },
+        {
+          "page": 21,
+          "range": [
+            19766,
+            21130
+          ],
+          "body_characters": 1339,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "e4f15a25bf8f3fa523357b7baef6152493102d3b62c0cb3b58051263c1be9dce",
+          "actual_visual_review": false
+        },
+        {
+          "page": 22,
+          "range": [
+            21130,
+            21470
+          ],
+          "body_characters": 315,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "d597c05be127391f4b0f4389b9e02026fa81600a47af9e042cca65e20b22e1bd",
+          "actual_visual_review": false
+        },
+        {
+          "page": 23,
+          "range": [
+            21470,
+            22765
+          ],
+          "body_characters": 1270,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "88318e2fa3a321c89dc25d27a5a2b438c46c2d63fbac9367d8dd5f3a3c36160e",
+          "actual_visual_review": false
+        },
+        {
+          "page": 24,
+          "range": [
+            22765,
+            24311
+          ],
+          "body_characters": 1521,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "6630ede85633d4ad3b7d653451afd15a24d1dc7d58275950b1c097a923ec3b87",
+          "actual_visual_review": false
+        },
+        {
+          "page": 25,
+          "range": [
+            24311,
+            24936
+          ],
+          "body_characters": 600,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "840a8b4186a23a67685ea3c4ba024ac7eaf9c6b37efdf56cd26800589776f557",
+          "actual_visual_review": false
+        },
+        {
+          "page": 26,
+          "range": [
+            24936,
+            26246
+          ],
+          "body_characters": 1285,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "63fd57154dc8212e55fab2571ede9e482f0238b22126d767be7c808380aab7e5",
+          "actual_visual_review": false
+        },
+        {
+          "page": 27,
+          "range": [
+            26246,
+            27188
+          ],
+          "body_characters": 917,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "dcf7f20e00b1b3f93dcc2662abcc26e6bf16500bd443fd7ad9baf2311d6ed416",
+          "actual_visual_review": false
+        },
+        {
+          "page": 28,
+          "range": [
+            27188,
+            28242
+          ],
+          "body_characters": 1029,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "e9b98985bcc4a8abfc7cf694deb5eb76a2150adaabf11d50e193dfcf64944bb2",
+          "actual_visual_review": false
+        },
+        {
+          "page": 29,
+          "range": [
+            28242,
+            29759
+          ],
+          "body_characters": 1492,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "7d6bd1590cc4f145f1b9269064b6e4e5b5d817c58fb7aefb97470f24a08d91d7",
+          "actual_visual_review": false
+        },
+        {
+          "page": 30,
+          "range": [
+            29759,
+            30864
+          ],
+          "body_characters": 1080,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "14968c2b8be2a7a6dde6416795ab1a93f9fa622b6a3657956d221eba20afe2f9",
+          "actual_visual_review": false
+        },
+        {
+          "page": 31,
+          "range": [
+            30864,
+            32094
+          ],
+          "body_characters": 1205,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "18108b71a559d80ee72c2cbe71f5befbfafe8deeafb74205710e7a579e49f391",
+          "actual_visual_review": false
+        },
+        {
+          "page": 32,
+          "range": [
+            32094,
+            33376
+          ],
+          "body_characters": 1257,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "3a399e39cb2ac5f96196f9ec3e0857e2b9f82ee2019c77cbe2e27b1638a1658e",
+          "actual_visual_review": false
+        },
+        {
+          "page": 33,
+          "range": [
+            33376,
+            34439
+          ],
+          "body_characters": 1038,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "c8890191a323c7151843cb48f345aa6a2697cfbfd278b0f1a2881230d71fc688",
+          "actual_visual_review": false
+        },
+        {
+          "page": 34,
+          "range": [
+            34439,
+            35675
+          ],
+          "body_characters": 1211,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "5f350555016aac2d9671d4d8d1f520605429e43b71243ca9b99e74d39665a491",
+          "actual_visual_review": false
+        },
+        {
+          "page": 35,
+          "range": [
+            35675,
+            37064
+          ],
+          "body_characters": 1364,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "73188885f9c9b952e04b89ab8a2d3b82bfd9fe042a96bee0717285bd6f23d524",
+          "actual_visual_review": false
+        },
+        {
+          "page": 36,
+          "range": [
+            37064,
+            39000
+          ],
+          "body_characters": 1911,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "72a1e55f4bdc4f09472a6170ec21d4acd7141d6c42f3e350fa1ad99e8ad9e49a",
+          "actual_visual_review": false
+        },
+        {
+          "page": 37,
+          "range": [
+            39000,
+            40784
+          ],
+          "body_characters": 1759,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "016140d3f04dd72aec87f8cce95df94585d5f09e8a12089355730089a329b208",
+          "actual_visual_review": false
+        },
+        {
+          "page": 38,
+          "range": [
+            40784,
+            42621
+          ],
+          "body_characters": 1812,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "b42638aafba4736ff908b86e6f4f582e5185bd68ac30d063b05d7b63e05559ab",
+          "actual_visual_review": false
+        },
+        {
+          "page": 39,
+          "range": [
+            42621,
+            44018
+          ],
+          "body_characters": 1372,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "a12b53aa1d568cd1e28d01d2ffa4d86c3f82481952fad32c2dd2505901ce8969",
+          "actual_visual_review": false
+        },
+        {
+          "page": 40,
+          "range": [
+            44018,
+            45287
+          ],
+          "body_characters": 1244,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "b259103652bcd16f29562f57365bab75a9ed13b910de3aa3b1e72c14175052f2",
+          "actual_visual_review": false
+        },
+        {
+          "page": 41,
+          "range": [
+            45287,
+            46849
+          ],
+          "body_characters": 1537,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "79e536711f1b486f182c78dac2ce139ac5818d75e112f126c000c5de7d286448",
+          "actual_visual_review": false
+        },
+        {
+          "page": 42,
+          "range": [
+            46849,
+            48474
+          ],
+          "body_characters": 1600,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "3b420a1385fc70462f726498b9b46d1fd7fd9fd84a83ac6aa21b7dbaed71c24e",
+          "actual_visual_review": false
+        },
+        {
+          "page": 43,
+          "range": [
+            48474,
+            49700
+          ],
+          "body_characters": 1201,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "785485893f001793bebf08f5c514d2b62d643034e0a5cf0aef2cce88c910b8e3",
+          "actual_visual_review": false
+        },
+        {
+          "page": 44,
+          "range": [
+            49700,
+            51195
+          ],
+          "body_characters": 1470,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "8d1e97a7460561f70707921481ea85b39dc396ab02e22adcdc334a20b1582f5f",
+          "actual_visual_review": false
+        },
+        {
+          "page": 45,
+          "range": [
+            51195,
+            52542
+          ],
+          "body_characters": 1322,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "f7a18502c718812435db3a3514c232193b5ab8c8b38f690cf62ede46a9138f4f",
+          "actual_visual_review": false
+        },
+        {
+          "page": 46,
+          "range": [
+            52542,
+            53938
+          ],
+          "body_characters": 1371,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "c863e64eebc609bfa8a996ebbddda65e57d4765ea3fdea2519d2f9eac9457f20",
+          "actual_visual_review": false
+        },
+        {
+          "page": 47,
+          "range": [
+            53938,
+            55188
+          ],
+          "body_characters": 1225,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "050aaf1970222cf976d945ce59e512dc7e8f2bb0e1922be379404ec8b82a5d3d",
+          "actual_visual_review": false
+        },
+        {
+          "page": 48,
+          "range": [
+            55188,
+            56448
+          ],
+          "body_characters": 1235,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "8e58d202079b214d4f1da3240a859cef2dd26afdb6c7e835a21b1c4d9b7d5896",
+          "actual_visual_review": false
+        },
+        {
+          "page": 49,
+          "range": [
+            56448,
+            57626
+          ],
+          "body_characters": 1153,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "91eaab90fcf14f94f8713593e7eeb0a488176b31b3a2ac2b59338497adc5603f",
+          "actual_visual_review": false
+        },
+        {
+          "page": 50,
+          "range": [
+            57626,
+            59166
+          ],
+          "body_characters": 1515,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "12de8a47d2d82fe8b903bc1a9fab91289c817979283a47ead5b6f4c06a4f6039",
+          "actual_visual_review": false
+        },
+        {
+          "page": 51,
+          "range": [
+            59166,
+            60782
+          ],
+          "body_characters": 1591,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "b51a0ed75ef1767e053fd67ac9e17ce5532f40033b07ff82965461d2ead62fa4",
+          "actual_visual_review": false
+        },
+        {
+          "page": 52,
+          "range": [
+            60782,
+            62269
+          ],
+          "body_characters": 1462,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "6373d82226746ca48d99c0bcc77ea572d9d1934757225886a7c5341e74196811",
+          "actual_visual_review": false
+        },
+        {
+          "page": 53,
+          "range": [
+            62269,
+            63515
+          ],
+          "body_characters": 1221,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "4b27cc7df070ee3c5d6745f67a1047d52fa40a5fb4add328162118377059edc5",
+          "actual_visual_review": false
+        },
+        {
+          "page": 54,
+          "range": [
+            63515,
+            64870
+          ],
+          "body_characters": 1330,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "9583865cf8ff7dd5cec4859754224c3dbeed3cdd0ec006613fa7eb39cc20baf0",
+          "actual_visual_review": false
+        },
+        {
+          "page": 55,
+          "range": [
+            64870,
+            66292
+          ],
+          "body_characters": 1397,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "4c69b523e468328fcf25fd828cf4cdea2df0d94e734b6d8115e08b59ecb60593",
+          "actual_visual_review": false
+        },
+        {
+          "page": 56,
+          "range": [
+            66292,
+            67279
+          ],
+          "body_characters": 962,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "56eff7069010f011061a3eed36415a3e25c47ab7c04bbb885c7aff9f1329b03e",
+          "actual_visual_review": false
+        },
+        {
+          "page": 57,
+          "range": [
+            67279,
+            68562
+          ],
+          "body_characters": 1258,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "83fa479d71d120ff39e71f4d903270f99d6a590284b3ac50d67039174bd78cd0",
+          "actual_visual_review": false
+        },
+        {
+          "page": 58,
+          "range": [
+            68562,
+            70117
+          ],
+          "body_characters": 1530,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "f72903aae3104e06cd8d6ce4a3d987285dd531c64767722b7e5926dfe921be81",
+          "actual_visual_review": false
+        },
+        {
+          "page": 59,
+          "range": [
+            70117,
+            71470
+          ],
+          "body_characters": 1328,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "112fc0e007a70631b010b3227830f76152bc107c2223f2ff4093a9376ecc8f13",
+          "actual_visual_review": false
+        },
+        {
+          "page": 60,
+          "range": [
+            71470,
+            72827
+          ],
+          "body_characters": 1332,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "686d78ad8d5506b1271acfff8011e725330954b3e3e90cfe1178cb185b04e964",
+          "actual_visual_review": false
+        },
+        {
+          "page": 61,
+          "range": [
+            72827,
+            74099
+          ],
+          "body_characters": 1247,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "7bab5bd6ad933bc24f1abb8870ee12faba3685c4c209d6931d8577df2422c6a5",
+          "actual_visual_review": false
+        },
+        {
+          "page": 62,
+          "range": [
+            74099,
+            75352
+          ],
+          "body_characters": 1228,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "e656114d073e7f614e0dae32ec623999d73dcd401ef6138fdd0de9bedcb2e256",
+          "actual_visual_review": false
+        },
+        {
+          "page": 63,
+          "range": [
+            75352,
+            76937
+          ],
+          "body_characters": 1560,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "763d46df3e1de9406bedfb2d4dcaa8ac1aabaae5ecdbf17ff1ac612000ded430",
+          "actual_visual_review": false
+        },
+        {
+          "page": 64,
+          "range": [
+            76937,
+            77119
+          ],
+          "body_characters": 157,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "d101e98de0d91b933886fd6b148f91bc5b8d7d25baa001f9a74491e7c2fe0598",
+          "actual_visual_review": false
+        },
+        {
+          "page": 65,
+          "range": [
+            77119,
+            78416
+          ],
+          "body_characters": 1272,
+          "images": 0,
+          "reading_status": "page_text_complete",
+          "read_text_sha256": "bb206e038b90ab83736eaa42a3b365b9e19feda7a5baa576d75ef102c598cd31",
+          "actual_visual_review": false
+        },
+        {
+          "page": 66,
+          "range": [
+            78416,
+            79740
+          ],
+          "body_characters": 1299,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 67,
+          "range": [
+            79740,
+            80529
+          ],
+          "body_characters": 764,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 68,
+          "range": [
+            80529,
+            81888
+          ],
+          "body_characters": 1334,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 69,
+          "range": [
+            81888,
+            83662
+          ],
+          "body_characters": 1749,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 70,
+          "range": [
+            83662,
+            85338
+          ],
+          "body_characters": 1651,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 71,
+          "range": [
+            85338,
+            87083
+          ],
+          "body_characters": 1720,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 72,
+          "range": [
+            87083,
+            87768
+          ],
+          "body_characters": 660,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 73,
+          "range": [
+            87768,
+            89285
+          ],
+          "body_characters": 1492,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 74,
+          "range": [
+            89285,
+            90741
+          ],
+          "body_characters": 1431,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 75,
+          "range": [
+            90741,
+            91993
+          ],
+          "body_characters": 1227,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 76,
+          "range": [
+            91993,
+            93717
+          ],
+          "body_characters": 1699,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 77,
+          "range": [
+            93717,
+            95173
+          ],
+          "body_characters": 1431,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 78,
+          "range": [
+            95173,
+            96777
+          ],
+          "body_characters": 1579,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 79,
+          "range": [
+            96777,
+            98523
+          ],
+          "body_characters": 1721,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 80,
+          "range": [
+            98523,
+            100114
+          ],
+          "body_characters": 1566,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 81,
+          "range": [
+            100114,
+            101687
+          ],
+          "body_characters": 1548,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 82,
+          "range": [
+            101687,
+            103363
+          ],
+          "body_characters": 1651,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 83,
+          "range": [
+            103363,
+            104881
+          ],
+          "body_characters": 1493,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 84,
+          "range": [
+            104881,
+            104906
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 85,
+          "range": [
+            104906,
+            106667
+          ],
+          "body_characters": 1736,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 86,
+          "range": [
+            106667,
+            108158
+          ],
+          "body_characters": 1466,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 87,
+          "range": [
+            108158,
+            109751
+          ],
+          "body_characters": 1568,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 88,
+          "range": [
+            109751,
+            109858
+          ],
+          "body_characters": 82,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 89,
+          "range": [
+            109858,
+            111432
+          ],
+          "body_characters": 1549,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 90,
+          "range": [
+            111432,
+            111623
+          ],
+          "body_characters": 166,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 91,
+          "range": [
+            111623,
+            112382
+          ],
+          "body_characters": 734,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 92,
+          "range": [
+            112382,
+            113632
+          ],
+          "body_characters": 1225,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 93,
+          "range": [
+            113632,
+            115307
+          ],
+          "body_characters": 1650,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 94,
+          "range": [
+            115307,
+            116836
+          ],
+          "body_characters": 1504,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 95,
+          "range": [
+            116836,
+            118572
+          ],
+          "body_characters": 1711,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 96,
+          "range": [
+            118572,
+            120438
+          ],
+          "body_characters": 1841,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 97,
+          "range": [
+            120438,
+            122129
+          ],
+          "body_characters": 1666,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 98,
+          "range": [
+            122129,
+            123983
+          ],
+          "body_characters": 1829,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 99,
+          "range": [
+            123983,
+            125705
+          ],
+          "body_characters": 1697,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 100,
+          "range": [
+            125705,
+            127302
+          ],
+          "body_characters": 1571,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 101,
+          "range": [
+            127302,
+            129142
+          ],
+          "body_characters": 1814,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 102,
+          "range": [
+            129142,
+            130752
+          ],
+          "body_characters": 1584,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 103,
+          "range": [
+            130752,
+            132610
+          ],
+          "body_characters": 1832,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 104,
+          "range": [
+            132610,
+            134088
+          ],
+          "body_characters": 1452,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 105,
+          "range": [
+            134088,
+            135465
+          ],
+          "body_characters": 1351,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 106,
+          "range": [
+            135465,
+            136695
+          ],
+          "body_characters": 1204,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 107,
+          "range": [
+            136695,
+            138331
+          ],
+          "body_characters": 1610,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 108,
+          "range": [
+            138331,
+            139983
+          ],
+          "body_characters": 1626,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 109,
+          "range": [
+            139983,
+            141541
+          ],
+          "body_characters": 1532,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 110,
+          "range": [
+            141541,
+            143067
+          ],
+          "body_characters": 1500,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 111,
+          "range": [
+            143067,
+            143560
+          ],
+          "body_characters": 467,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 112,
+          "range": [
+            143560,
+            144641
+          ],
+          "body_characters": 1055,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 113,
+          "range": [
+            144641,
+            145982
+          ],
+          "body_characters": 1315,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 114,
+          "range": [
+            145982,
+            147419
+          ],
+          "body_characters": 1411,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 115,
+          "range": [
+            147419,
+            148803
+          ],
+          "body_characters": 1358,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 116,
+          "range": [
+            148803,
+            149093
+          ],
+          "body_characters": 264,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 117,
+          "range": [
+            149093,
+            150754
+          ],
+          "body_characters": 1635,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 118,
+          "range": [
+            150754,
+            150812
+          ],
+          "body_characters": 32,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 119,
+          "range": [
+            150812,
+            152164
+          ],
+          "body_characters": 1326,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 120,
+          "range": [
+            152164,
+            153051
+          ],
+          "body_characters": 861,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 121,
+          "range": [
+            153051,
+            154248
+          ],
+          "body_characters": 1171,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 122,
+          "range": [
+            154248,
+            154529
+          ],
+          "body_characters": 255,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 123,
+          "range": [
+            154529,
+            155701
+          ],
+          "body_characters": 1146,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 124,
+          "range": [
+            155701,
+            156847
+          ],
+          "body_characters": 1120,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 125,
+          "range": [
+            156847,
+            158245
+          ],
+          "body_characters": 1372,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 126,
+          "range": [
+            158245,
+            159720
+          ],
+          "body_characters": 1449,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 127,
+          "range": [
+            159720,
+            160871
+          ],
+          "body_characters": 1125,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 128,
+          "range": [
+            160871,
+            162097
+          ],
+          "body_characters": 1200,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 129,
+          "range": [
+            162097,
+            163381
+          ],
+          "body_characters": 1258,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 130,
+          "range": [
+            163381,
+            164970
+          ],
+          "body_characters": 1563,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 131,
+          "range": [
+            164970,
+            166162
+          ],
+          "body_characters": 1166,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 132,
+          "range": [
+            166162,
+            167342
+          ],
+          "body_characters": 1154,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 133,
+          "range": [
+            167342,
+            168491
+          ],
+          "body_characters": 1123,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 134,
+          "range": [
+            168491,
+            169635
+          ],
+          "body_characters": 1118,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 135,
+          "range": [
+            169635,
+            171140
+          ],
+          "body_characters": 1479,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 136,
+          "range": [
+            171140,
+            171793
+          ],
+          "body_characters": 627,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 137,
+          "range": [
+            171793,
+            173560
+          ],
+          "body_characters": 1741,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 138,
+          "range": [
+            173560,
+            173822
+          ],
+          "body_characters": 236,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 139,
+          "range": [
+            173822,
+            175182
+          ],
+          "body_characters": 1334,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 140,
+          "range": [
+            175182,
+            176748
+          ],
+          "body_characters": 1540,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 141,
+          "range": [
+            176748,
+            178064
+          ],
+          "body_characters": 1290,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 142,
+          "range": [
+            178064,
+            178747
+          ],
+          "body_characters": 657,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 143,
+          "range": [
+            178747,
+            180242
+          ],
+          "body_characters": 1469,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 144,
+          "range": [
+            180242,
+            181828
+          ],
+          "body_characters": 1560,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 145,
+          "range": [
+            181828,
+            182448
+          ],
+          "body_characters": 594,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 146,
+          "range": [
+            182448,
+            183683
+          ],
+          "body_characters": 1209,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 147,
+          "range": [
+            183683,
+            185176
+          ],
+          "body_characters": 1467,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 148,
+          "range": [
+            185176,
+            185329
+          ],
+          "body_characters": 127,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 149,
+          "range": [
+            185329,
+            186948
+          ],
+          "body_characters": 1593,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 150,
+          "range": [
+            186948,
+            188352
+          ],
+          "body_characters": 1378,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 151,
+          "range": [
+            188352,
+            188871
+          ],
+          "body_characters": 493,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 152,
+          "range": [
+            188871,
+            190304
+          ],
+          "body_characters": 1407,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 153,
+          "range": [
+            190304,
+            191817
+          ],
+          "body_characters": 1487,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 154,
+          "range": [
+            191817,
+            193408
+          ],
+          "body_characters": 1565,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 155,
+          "range": [
+            193408,
+            194386
+          ],
+          "body_characters": 952,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 156,
+          "range": [
+            194386,
+            195808
+          ],
+          "body_characters": 1396,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 157,
+          "range": [
+            195808,
+            197272
+          ],
+          "body_characters": 1438,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 158,
+          "range": [
+            197272,
+            198829
+          ],
+          "body_characters": 1531,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 159,
+          "range": [
+            198829,
+            199358
+          ],
+          "body_characters": 503,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 160,
+          "range": [
+            199358,
+            200924
+          ],
+          "body_characters": 1540,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 161,
+          "range": [
+            200924,
+            201266
+          ],
+          "body_characters": 316,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 162,
+          "range": [
+            201266,
+            202606
+          ],
+          "body_characters": 1314,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 163,
+          "range": [
+            202606,
+            203926
+          ],
+          "body_characters": 1294,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 164,
+          "range": [
+            203926,
+            204069
+          ],
+          "body_characters": 117,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 165,
+          "range": [
+            204069,
+            205540
+          ],
+          "body_characters": 1445,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 166,
+          "range": [
+            205540,
+            205795
+          ],
+          "body_characters": 229,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 167,
+          "range": [
+            205795,
+            206549
+          ],
+          "body_characters": 728,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 168,
+          "range": [
+            206549,
+            207621
+          ],
+          "body_characters": 1046,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 169,
+          "range": [
+            207621,
+            208720
+          ],
+          "body_characters": 1073,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 170,
+          "range": [
+            208720,
+            209700
+          ],
+          "body_characters": 954,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 171,
+          "range": [
+            209700,
+            211565
+          ],
+          "body_characters": 1839,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 172,
+          "range": [
+            211565,
+            213193
+          ],
+          "body_characters": 1602,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 173,
+          "range": [
+            213193,
+            215100
+          ],
+          "body_characters": 1881,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 174,
+          "range": [
+            215100,
+            216099
+          ],
+          "body_characters": 973,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 175,
+          "range": [
+            216099,
+            217519
+          ],
+          "body_characters": 1394,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 176,
+          "range": [
+            217519,
+            219257
+          ],
+          "body_characters": 1712,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 177,
+          "range": [
+            219257,
+            220767
+          ],
+          "body_characters": 1484,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 178,
+          "range": [
+            220767,
+            220887
+          ],
+          "body_characters": 94,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 179,
+          "range": [
+            220887,
+            221803
+          ],
+          "body_characters": 890,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 180,
+          "range": [
+            221803,
+            222435
+          ],
+          "body_characters": 606,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 181,
+          "range": [
+            222435,
+            223604
+          ],
+          "body_characters": 1143,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 182,
+          "range": [
+            223604,
+            224588
+          ],
+          "body_characters": 958,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 183,
+          "range": [
+            224588,
+            226161
+          ],
+          "body_characters": 1547,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 184,
+          "range": [
+            226161,
+            226269
+          ],
+          "body_characters": 82,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 185,
+          "range": [
+            226269,
+            227444
+          ],
+          "body_characters": 1149,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 186,
+          "range": [
+            227444,
+            228502
+          ],
+          "body_characters": 1032,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 187,
+          "range": [
+            228502,
+            229944
+          ],
+          "body_characters": 1416,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 188,
+          "range": [
+            229944,
+            231548
+          ],
+          "body_characters": 1578,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 189,
+          "range": [
+            231548,
+            232737
+          ],
+          "body_characters": 1163,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 190,
+          "range": [
+            232737,
+            233469
+          ],
+          "body_characters": 706,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 191,
+          "range": [
+            233469,
+            234688
+          ],
+          "body_characters": 1193,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 192,
+          "range": [
+            234688,
+            236209
+          ],
+          "body_characters": 1495,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 193,
+          "range": [
+            236209,
+            237477
+          ],
+          "body_characters": 1242,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 194,
+          "range": [
+            237477,
+            238864
+          ],
+          "body_characters": 1361,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 195,
+          "range": [
+            238864,
+            239072
+          ],
+          "body_characters": 182,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 196,
+          "range": [
+            239072,
+            240756
+          ],
+          "body_characters": 1658,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 197,
+          "range": [
+            240756,
+            242520
+          ],
+          "body_characters": 1738,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 198,
+          "range": [
+            242520,
+            244209
+          ],
+          "body_characters": 1663,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 199,
+          "range": [
+            244209,
+            245940
+          ],
+          "body_characters": 1705,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 200,
+          "range": [
+            245940,
+            247612
+          ],
+          "body_characters": 1646,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 201,
+          "range": [
+            247612,
+            249474
+          ],
+          "body_characters": 1836,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 202,
+          "range": [
+            249474,
+            251122
+          ],
+          "body_characters": 1622,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 203,
+          "range": [
+            251122,
+            252907
+          ],
+          "body_characters": 1759,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 204,
+          "range": [
+            252907,
+            254610
+          ],
+          "body_characters": 1677,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 205,
+          "range": [
+            254610,
+            256316
+          ],
+          "body_characters": 1680,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 206,
+          "range": [
+            256316,
+            257997
+          ],
+          "body_characters": 1655,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 207,
+          "range": [
+            257997,
+            259224
+          ],
+          "body_characters": 1201,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 208,
+          "range": [
+            259224,
+            260472
+          ],
+          "body_characters": 1222,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 209,
+          "range": [
+            260472,
+            262186
+          ],
+          "body_characters": 1688,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 210,
+          "range": [
+            262186,
+            263670
+          ],
+          "body_characters": 1458,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 211,
+          "range": [
+            263670,
+            265202
+          ],
+          "body_characters": 1506,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 212,
+          "range": [
+            265202,
+            266583
+          ],
+          "body_characters": 1355,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 213,
+          "range": [
+            266583,
+            268100
+          ],
+          "body_characters": 1491,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 214,
+          "range": [
+            268100,
+            269597
+          ],
+          "body_characters": 1471,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 215,
+          "range": [
+            269597,
+            270986
+          ],
+          "body_characters": 1363,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 216,
+          "range": [
+            270986,
+            272687
+          ],
+          "body_characters": 1675,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 217,
+          "range": [
+            272687,
+            274021
+          ],
+          "body_characters": 1308,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 218,
+          "range": [
+            274021,
+            275205
+          ],
+          "body_characters": 1158,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 219,
+          "range": [
+            275205,
+            276637
+          ],
+          "body_characters": 1406,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 220,
+          "range": [
+            276637,
+            277827
+          ],
+          "body_characters": 1164,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 221,
+          "range": [
+            277827,
+            279250
+          ],
+          "body_characters": 1397,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 222,
+          "range": [
+            279250,
+            280699
+          ],
+          "body_characters": 1423,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 223,
+          "range": [
+            280699,
+            281184
+          ],
+          "body_characters": 459,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 224,
+          "range": [
+            281184,
+            282443
+          ],
+          "body_characters": 1233,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 225,
+          "range": [
+            282443,
+            282550
+          ],
+          "body_characters": 81,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 226,
+          "range": [
+            282550,
+            283888
+          ],
+          "body_characters": 1312,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 227,
+          "range": [
+            283888,
+            285358
+          ],
+          "body_characters": 1444,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 228,
+          "range": [
+            285358,
+            286533
+          ],
+          "body_characters": 1149,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 229,
+          "range": [
+            286533,
+            287872
+          ],
+          "body_characters": 1313,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 230,
+          "range": [
+            287872,
+            288758
+          ],
+          "body_characters": 860,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 231,
+          "range": [
+            288758,
+            289986
+          ],
+          "body_characters": 1202,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 232,
+          "range": [
+            289986,
+            291373
+          ],
+          "body_characters": 1361,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 233,
+          "range": [
+            291373,
+            291856
+          ],
+          "body_characters": 457,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 234,
+          "range": [
+            291856,
+            292862
+          ],
+          "body_characters": 980,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 235,
+          "range": [
+            292862,
+            293870
+          ],
+          "body_characters": 982,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 236,
+          "range": [
+            293870,
+            294717
+          ],
+          "body_characters": 821,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 237,
+          "range": [
+            294717,
+            295917
+          ],
+          "body_characters": 1174,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 238,
+          "range": [
+            295917,
+            296049
+          ],
+          "body_characters": 106,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 239,
+          "range": [
+            296049,
+            297056
+          ],
+          "body_characters": 981,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 240,
+          "range": [
+            297056,
+            298008
+          ],
+          "body_characters": 926,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 241,
+          "range": [
+            298008,
+            298593
+          ],
+          "body_characters": 559,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 242,
+          "range": [
+            298593,
+            299516
+          ],
+          "body_characters": 897,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 243,
+          "range": [
+            299516,
+            300498
+          ],
+          "body_characters": 956,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 244,
+          "range": [
+            300498,
+            301167
+          ],
+          "body_characters": 643,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 245,
+          "range": [
+            301167,
+            302267
+          ],
+          "body_characters": 1074,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 246,
+          "range": [
+            302267,
+            302550
+          ],
+          "body_characters": 257,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 247,
+          "range": [
+            302550,
+            303691
+          ],
+          "body_characters": 1115,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 248,
+          "range": [
+            303691,
+            305336
+          ],
+          "body_characters": 1619,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 249,
+          "range": [
+            305336,
+            306126
+          ],
+          "body_characters": 764,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 250,
+          "range": [
+            306126,
+            307430
+          ],
+          "body_characters": 1278,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 251,
+          "range": [
+            307430,
+            307868
+          ],
+          "body_characters": 412,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 252,
+          "range": [
+            307868,
+            308866
+          ],
+          "body_characters": 972,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 253,
+          "range": [
+            308866,
+            310263
+          ],
+          "body_characters": 1371,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 254,
+          "range": [
+            310263,
+            312016
+          ],
+          "body_characters": 1727,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 255,
+          "range": [
+            312016,
+            313718
+          ],
+          "body_characters": 1676,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 256,
+          "range": [
+            313718,
+            315430
+          ],
+          "body_characters": 1686,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 257,
+          "range": [
+            315430,
+            317040
+          ],
+          "body_characters": 1584,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 258,
+          "range": [
+            317040,
+            317409
+          ],
+          "body_characters": 343,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 259,
+          "range": [
+            317409,
+            319049
+          ],
+          "body_characters": 1614,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 260,
+          "range": [
+            319049,
+            320738
+          ],
+          "body_characters": 1663,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 261,
+          "range": [
+            320738,
+            322181
+          ],
+          "body_characters": 1417,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 262,
+          "range": [
+            322181,
+            323653
+          ],
+          "body_characters": 1446,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 263,
+          "range": [
+            323653,
+            325054
+          ],
+          "body_characters": 1375,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 264,
+          "range": [
+            325054,
+            326603
+          ],
+          "body_characters": 1523,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 265,
+          "range": [
+            326603,
+            327981
+          ],
+          "body_characters": 1352,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 266,
+          "range": [
+            327981,
+            329178
+          ],
+          "body_characters": 1171,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 267,
+          "range": [
+            329178,
+            330472
+          ],
+          "body_characters": 1268,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 268,
+          "range": [
+            330472,
+            331135
+          ],
+          "body_characters": 637,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 269,
+          "range": [
+            331135,
+            332591
+          ],
+          "body_characters": 1430,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 270,
+          "range": [
+            332591,
+            333927
+          ],
+          "body_characters": 1310,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 271,
+          "range": [
+            333927,
+            334933
+          ],
+          "body_characters": 980,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 272,
+          "range": [
+            334933,
+            336241
+          ],
+          "body_characters": 1282,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 273,
+          "range": [
+            336241,
+            337528
+          ],
+          "body_characters": 1261,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 274,
+          "range": [
+            337528,
+            338944
+          ],
+          "body_characters": 1390,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 275,
+          "range": [
+            338944,
+            340488
+          ],
+          "body_characters": 1518,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 276,
+          "range": [
+            340488,
+            341879
+          ],
+          "body_characters": 1365,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 277,
+          "range": [
+            341879,
+            343276
+          ],
+          "body_characters": 1371,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 278,
+          "range": [
+            343276,
+            344562
+          ],
+          "body_characters": 1260,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 279,
+          "range": [
+            344562,
+            345915
+          ],
+          "body_characters": 1327,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 280,
+          "range": [
+            345915,
+            347015
+          ],
+          "body_characters": 1074,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 281,
+          "range": [
+            347015,
+            348652
+          ],
+          "body_characters": 1611,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 282,
+          "range": [
+            348652,
+            349994
+          ],
+          "body_characters": 1316,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 283,
+          "range": [
+            349994,
+            351262
+          ],
+          "body_characters": 1242,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 284,
+          "range": [
+            351262,
+            351760
+          ],
+          "body_characters": 472,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 285,
+          "range": [
+            351760,
+            352521
+          ],
+          "body_characters": 735,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 286,
+          "range": [
+            352521,
+            353853
+          ],
+          "body_characters": 1306,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 287,
+          "range": [
+            353853,
+            355366
+          ],
+          "body_characters": 1487,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 288,
+          "range": [
+            355366,
+            356917
+          ],
+          "body_characters": 1525,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 289,
+          "range": [
+            356917,
+            358308
+          ],
+          "body_characters": 1365,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 290,
+          "range": [
+            358308,
+            359654
+          ],
+          "body_characters": 1320,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 291,
+          "range": [
+            359654,
+            360810
+          ],
+          "body_characters": 1130,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 292,
+          "range": [
+            360810,
+            362115
+          ],
+          "body_characters": 1279,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 293,
+          "range": [
+            362115,
+            363317
+          ],
+          "body_characters": 1176,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 294,
+          "range": [
+            363317,
+            364356
+          ],
+          "body_characters": 1013,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 295,
+          "range": [
+            364356,
+            365576
+          ],
+          "body_characters": 1194,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 296,
+          "range": [
+            365576,
+            366603
+          ],
+          "body_characters": 1001,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 297,
+          "range": [
+            366603,
+            368118
+          ],
+          "body_characters": 1489,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 298,
+          "range": [
+            368118,
+            368144
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 299,
+          "range": [
+            368144,
+            369091
+          ],
+          "body_characters": 921,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 300,
+          "range": [
+            369091,
+            370058
+          ],
+          "body_characters": 941,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 301,
+          "range": [
+            370058,
+            370644
+          ],
+          "body_characters": 560,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 302,
+          "range": [
+            370644,
+            372300
+          ],
+          "body_characters": 1630,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 303,
+          "range": [
+            372300,
+            373800
+          ],
+          "body_characters": 1474,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 304,
+          "range": [
+            373800,
+            374957
+          ],
+          "body_characters": 1131,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 305,
+          "range": [
+            374957,
+            376123
+          ],
+          "body_characters": 1140,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 306,
+          "range": [
+            376123,
+            377033
+          ],
+          "body_characters": 884,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 307,
+          "range": [
+            377033,
+            378130
+          ],
+          "body_characters": 1071,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 308,
+          "range": [
+            378130,
+            379144
+          ],
+          "body_characters": 988,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 309,
+          "range": [
+            379144,
+            380410
+          ],
+          "body_characters": 1240,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 310,
+          "range": [
+            380410,
+            381123
+          ],
+          "body_characters": 687,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 311,
+          "range": [
+            381123,
+            382287
+          ],
+          "body_characters": 1138,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 312,
+          "range": [
+            382287,
+            383558
+          ],
+          "body_characters": 1245,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 313,
+          "range": [
+            383558,
+            384724
+          ],
+          "body_characters": 1140,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 314,
+          "range": [
+            384724,
+            386152
+          ],
+          "body_characters": 1402,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 315,
+          "range": [
+            386152,
+            387435
+          ],
+          "body_characters": 1257,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 316,
+          "range": [
+            387435,
+            388707
+          ],
+          "body_characters": 1246,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 317,
+          "range": [
+            388707,
+            389804
+          ],
+          "body_characters": 1071,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 318,
+          "range": [
+            389804,
+            391053
+          ],
+          "body_characters": 1223,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 319,
+          "range": [
+            391053,
+            392374
+          ],
+          "body_characters": 1295,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 320,
+          "range": [
+            392374,
+            393226
+          ],
+          "body_characters": 826,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 321,
+          "range": [
+            393226,
+            394391
+          ],
+          "body_characters": 1139,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 322,
+          "range": [
+            394391,
+            395766
+          ],
+          "body_characters": 1349,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 323,
+          "range": [
+            395766,
+            397033
+          ],
+          "body_characters": 1241,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 324,
+          "range": [
+            397033,
+            398572
+          ],
+          "body_characters": 1513,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 325,
+          "range": [
+            398572,
+            398806
+          ],
+          "body_characters": 208,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 326,
+          "range": [
+            398806,
+            400099
+          ],
+          "body_characters": 1267,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 327,
+          "range": [
+            400099,
+            400271
+          ],
+          "body_characters": 146,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 328,
+          "range": [
+            400271,
+            401487
+          ],
+          "body_characters": 1190,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 329,
+          "range": [
+            401487,
+            401642
+          ],
+          "body_characters": 129,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 330,
+          "range": [
+            401642,
+            402920
+          ],
+          "body_characters": 1252,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 331,
+          "range": [
+            402920,
+            403135
+          ],
+          "body_characters": 189,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 332,
+          "range": [
+            403135,
+            404570
+          ],
+          "body_characters": 1409,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 333,
+          "range": [
+            404570,
+            405052
+          ],
+          "body_characters": 456,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 334,
+          "range": [
+            405052,
+            406538
+          ],
+          "body_characters": 1460,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 335,
+          "range": [
+            406538,
+            406762
+          ],
+          "body_characters": 198,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 336,
+          "range": [
+            406762,
+            408201
+          ],
+          "body_characters": 1413,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 337,
+          "range": [
+            408201,
+            409878
+          ],
+          "body_characters": 1651,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 338,
+          "range": [
+            409878,
+            411184
+          ],
+          "body_characters": 1280,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 339,
+          "range": [
+            411184,
+            412880
+          ],
+          "body_characters": 1670,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 340,
+          "range": [
+            412880,
+            414602
+          ],
+          "body_characters": 1696,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 341,
+          "range": [
+            414602,
+            416409
+          ],
+          "body_characters": 1781,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 342,
+          "range": [
+            416409,
+            417369
+          ],
+          "body_characters": 934,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 343,
+          "range": [
+            417369,
+            418761
+          ],
+          "body_characters": 1366,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 344,
+          "range": [
+            418761,
+            419008
+          ],
+          "body_characters": 221,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 345,
+          "range": [
+            419008,
+            420404
+          ],
+          "body_characters": 1370,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 346,
+          "range": [
+            420404,
+            421853
+          ],
+          "body_characters": 1423,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 347,
+          "range": [
+            421853,
+            423528
+          ],
+          "body_characters": 1649,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 348,
+          "range": [
+            423528,
+            423776
+          ],
+          "body_characters": 222,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 349,
+          "range": [
+            423776,
+            425007
+          ],
+          "body_characters": 1205,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 350,
+          "range": [
+            425007,
+            426354
+          ],
+          "body_characters": 1321,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 351,
+          "range": [
+            426354,
+            426763
+          ],
+          "body_characters": 383,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 352,
+          "range": [
+            426763,
+            427899
+          ],
+          "body_characters": 1110,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 353,
+          "range": [
+            427899,
+            428973
+          ],
+          "body_characters": 1048,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 354,
+          "range": [
+            428973,
+            429295
+          ],
+          "body_characters": 296,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 355,
+          "range": [
+            429295,
+            430503
+          ],
+          "body_characters": 1182,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 356,
+          "range": [
+            430503,
+            431838
+          ],
+          "body_characters": 1309,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 357,
+          "range": [
+            431838,
+            432328
+          ],
+          "body_characters": 464,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 358,
+          "range": [
+            432328,
+            433625
+          ],
+          "body_characters": 1271,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 359,
+          "range": [
+            433625,
+            435125
+          ],
+          "body_characters": 1474,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 360,
+          "range": [
+            435125,
+            435210
+          ],
+          "body_characters": 59,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 361,
+          "range": [
+            435210,
+            436546
+          ],
+          "body_characters": 1310,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 362,
+          "range": [
+            436546,
+            437791
+          ],
+          "body_characters": 1219,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 363,
+          "range": [
+            437791,
+            439028
+          ],
+          "body_characters": 1211,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 364,
+          "range": [
+            439028,
+            440168
+          ],
+          "body_characters": 1114,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 365,
+          "range": [
+            440168,
+            440616
+          ],
+          "body_characters": 422,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 366,
+          "range": [
+            440616,
+            442115
+          ],
+          "body_characters": 1473,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 367,
+          "range": [
+            442115,
+            442469
+          ],
+          "body_characters": 328,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 368,
+          "range": [
+            442469,
+            443662
+          ],
+          "body_characters": 1167,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 369,
+          "range": [
+            443662,
+            445381
+          ],
+          "body_characters": 1693,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 370,
+          "range": [
+            445381,
+            446907
+          ],
+          "body_characters": 1500,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 371,
+          "range": [
+            446907,
+            448411
+          ],
+          "body_characters": 1478,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 372,
+          "range": [
+            448411,
+            449818
+          ],
+          "body_characters": 1381,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 373,
+          "range": [
+            449818,
+            451391
+          ],
+          "body_characters": 1547,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 374,
+          "range": [
+            451391,
+            453019
+          ],
+          "body_characters": 1602,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 375,
+          "range": [
+            453019,
+            454730
+          ],
+          "body_characters": 1685,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 376,
+          "range": [
+            454730,
+            455931
+          ],
+          "body_characters": 1175,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 377,
+          "range": [
+            455931,
+            457251
+          ],
+          "body_characters": 1294,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 378,
+          "range": [
+            457251,
+            458910
+          ],
+          "body_characters": 1633,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 379,
+          "range": [
+            458910,
+            460606
+          ],
+          "body_characters": 1670,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 380,
+          "range": [
+            460606,
+            462278
+          ],
+          "body_characters": 1646,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 381,
+          "range": [
+            462278,
+            463876
+          ],
+          "body_characters": 1572,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 382,
+          "range": [
+            463876,
+            464077
+          ],
+          "body_characters": 175,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 383,
+          "range": [
+            464077,
+            465581
+          ],
+          "body_characters": 1478,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 384,
+          "range": [
+            465581,
+            467093
+          ],
+          "body_characters": 1486,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 385,
+          "range": [
+            467093,
+            468687
+          ],
+          "body_characters": 1568,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 386,
+          "range": [
+            468687,
+            470095
+          ],
+          "body_characters": 1382,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 387,
+          "range": [
+            470095,
+            471746
+          ],
+          "body_characters": 1625,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 388,
+          "range": [
+            471746,
+            473429
+          ],
+          "body_characters": 1657,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 389,
+          "range": [
+            473429,
+            473455
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 390,
+          "range": [
+            473455,
+            475098
+          ],
+          "body_characters": 1617,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 391,
+          "range": [
+            475098,
+            476975
+          ],
+          "body_characters": 1851,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 392,
+          "range": [
+            476975,
+            478874
+          ],
+          "body_characters": 1873,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 393,
+          "range": [
+            478874,
+            480718
+          ],
+          "body_characters": 1818,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 394,
+          "range": [
+            480718,
+            482493
+          ],
+          "body_characters": 1749,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 395,
+          "range": [
+            482493,
+            484195
+          ],
+          "body_characters": 1676,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 396,
+          "range": [
+            484195,
+            486053
+          ],
+          "body_characters": 1832,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 397,
+          "range": [
+            486053,
+            486810
+          ],
+          "body_characters": 731,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 398,
+          "range": [
+            486810,
+            488538
+          ],
+          "body_characters": 1702,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 399,
+          "range": [
+            488538,
+            490427
+          ],
+          "body_characters": 1863,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 400,
+          "range": [
+            490427,
+            490573
+          ],
+          "body_characters": 120,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 401,
+          "range": [
+            490573,
+            492261
+          ],
+          "body_characters": 1662,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 402,
+          "range": [
+            492261,
+            493786
+          ],
+          "body_characters": 1499,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 403,
+          "range": [
+            493786,
+            495469
+          ],
+          "body_characters": 1657,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 404,
+          "range": [
+            495469,
+            497122
+          ],
+          "body_characters": 1627,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 405,
+          "range": [
+            497122,
+            498659
+          ],
+          "body_characters": 1511,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 406,
+          "range": [
+            498659,
+            500218
+          ],
+          "body_characters": 1533,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 407,
+          "range": [
+            500218,
+            501541
+          ],
+          "body_characters": 1297,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 408,
+          "range": [
+            501541,
+            502939
+          ],
+          "body_characters": 1372,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 409,
+          "range": [
+            502939,
+            504550
+          ],
+          "body_characters": 1585,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 410,
+          "range": [
+            504550,
+            506108
+          ],
+          "body_characters": 1532,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 411,
+          "range": [
+            506108,
+            507351
+          ],
+          "body_characters": 1217,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 412,
+          "range": [
+            507351,
+            508919
+          ],
+          "body_characters": 1542,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 413,
+          "range": [
+            508919,
+            510419
+          ],
+          "body_characters": 1474,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 414,
+          "range": [
+            510419,
+            512112
+          ],
+          "body_characters": 1667,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 415,
+          "range": [
+            512112,
+            513541
+          ],
+          "body_characters": 1403,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 416,
+          "range": [
+            513541,
+            515100
+          ],
+          "body_characters": 1533,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 417,
+          "range": [
+            515100,
+            515410
+          ],
+          "body_characters": 284,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 418,
+          "range": [
+            515410,
+            516529
+          ],
+          "body_characters": 1093,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 419,
+          "range": [
+            516529,
+            517733
+          ],
+          "body_characters": 1178,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 420,
+          "range": [
+            517733,
+            519135
+          ],
+          "body_characters": 1376,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 421,
+          "range": [
+            519135,
+            519908
+          ],
+          "body_characters": 747,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 422,
+          "range": [
+            519908,
+            521047
+          ],
+          "body_characters": 1113,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 423,
+          "range": [
+            521047,
+            522630
+          ],
+          "body_characters": 1557,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 424,
+          "range": [
+            522630,
+            523904
+          ],
+          "body_characters": 1248,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 425,
+          "range": [
+            523904,
+            525421
+          ],
+          "body_characters": 1491,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 426,
+          "range": [
+            525421,
+            527077
+          ],
+          "body_characters": 1630,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 427,
+          "range": [
+            527077,
+            528852
+          ],
+          "body_characters": 1749,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 428,
+          "range": [
+            528852,
+            530492
+          ],
+          "body_characters": 1614,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 429,
+          "range": [
+            530492,
+            531907
+          ],
+          "body_characters": 1389,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 430,
+          "range": [
+            531907,
+            533029
+          ],
+          "body_characters": 1096,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 431,
+          "range": [
+            533029,
+            534550
+          ],
+          "body_characters": 1495,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 432,
+          "range": [
+            534550,
+            536149
+          ],
+          "body_characters": 1573,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 433,
+          "range": [
+            536149,
+            537636
+          ],
+          "body_characters": 1461,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 434,
+          "range": [
+            537636,
+            539213
+          ],
+          "body_characters": 1551,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 435,
+          "range": [
+            539213,
+            540468
+          ],
+          "body_characters": 1229,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 436,
+          "range": [
+            540468,
+            542158
+          ],
+          "body_characters": 1664,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 437,
+          "range": [
+            542158,
+            543718
+          ],
+          "body_characters": 1534,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 438,
+          "range": [
+            543718,
+            545270
+          ],
+          "body_characters": 1526,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 439,
+          "range": [
+            545270,
+            545571
+          ],
+          "body_characters": 275,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 440,
+          "range": [
+            545571,
+            547059
+          ],
+          "body_characters": 1462,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 441,
+          "range": [
+            547059,
+            548554
+          ],
+          "body_characters": 1469,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 442,
+          "range": [
+            548554,
+            550033
+          ],
+          "body_characters": 1453,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 443,
+          "range": [
+            550033,
+            551505
+          ],
+          "body_characters": 1446,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 444,
+          "range": [
+            551505,
+            553121
+          ],
+          "body_characters": 1590,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 445,
+          "range": [
+            553121,
+            554597
+          ],
+          "body_characters": 1450,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 446,
+          "range": [
+            554597,
+            555162
+          ],
+          "body_characters": 539,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 447,
+          "range": [
+            555162,
+            556599
+          ],
+          "body_characters": 1411,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 448,
+          "range": [
+            556599,
+            557931
+          ],
+          "body_characters": 1306,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 449,
+          "range": [
+            557931,
+            559562
+          ],
+          "body_characters": 1605,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 450,
+          "range": [
+            559562,
+            561283
+          ],
+          "body_characters": 1695,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 451,
+          "range": [
+            561283,
+            562640
+          ],
+          "body_characters": 1331,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 452,
+          "range": [
+            562640,
+            564255
+          ],
+          "body_characters": 1589,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 453,
+          "range": [
+            564255,
+            565956
+          ],
+          "body_characters": 1675,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 454,
+          "range": [
+            565956,
+            567425
+          ],
+          "body_characters": 1443,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 455,
+          "range": [
+            567425,
+            569115
+          ],
+          "body_characters": 1664,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 456,
+          "range": [
+            569115,
+            569218
+          ],
+          "body_characters": 77,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 457,
+          "range": [
+            569218,
+            570568
+          ],
+          "body_characters": 1324,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 458,
+          "range": [
+            570568,
+            572037
+          ],
+          "body_characters": 1443,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 459,
+          "range": [
+            572037,
+            573672
+          ],
+          "body_characters": 1609,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 460,
+          "range": [
+            573672,
+            575333
+          ],
+          "body_characters": 1635,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 461,
+          "range": [
+            575333,
+            575992
+          ],
+          "body_characters": 633,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 462,
+          "range": [
+            575992,
+            577195
+          ],
+          "body_characters": 1177,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 463,
+          "range": [
+            577195,
+            578197
+          ],
+          "body_characters": 976,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 464,
+          "range": [
+            578197,
+            579425
+          ],
+          "body_characters": 1202,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 465,
+          "range": [
+            579425,
+            581160
+          ],
+          "body_characters": 1709,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 466,
+          "range": [
+            581160,
+            582622
+          ],
+          "body_characters": 1436,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 467,
+          "range": [
+            582622,
+            584109
+          ],
+          "body_characters": 1461,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 468,
+          "range": [
+            584109,
+            585767
+          ],
+          "body_characters": 1632,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 469,
+          "range": [
+            585767,
+            586536
+          ],
+          "body_characters": 743,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 470,
+          "range": [
+            586536,
+            587830
+          ],
+          "body_characters": 1268,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 471,
+          "range": [
+            587830,
+            587856
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 472,
+          "range": [
+            587856,
+            589291
+          ],
+          "body_characters": 1409,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 473,
+          "range": [
+            589291,
+            589452
+          ],
+          "body_characters": 135,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 474,
+          "range": [
+            589452,
+            590269
+          ],
+          "body_characters": 791,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 475,
+          "range": [
+            590269,
+            591526
+          ],
+          "body_characters": 1231,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 476,
+          "range": [
+            591526,
+            593034
+          ],
+          "body_characters": 1482,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 477,
+          "range": [
+            593034,
+            594665
+          ],
+          "body_characters": 1605,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 478,
+          "range": [
+            594665,
+            596313
+          ],
+          "body_characters": 1622,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 479,
+          "range": [
+            596313,
+            597837
+          ],
+          "body_characters": 1498,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 480,
+          "range": [
+            597837,
+            599521
+          ],
+          "body_characters": 1658,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 481,
+          "range": [
+            599521,
+            601108
+          ],
+          "body_characters": 1561,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 482,
+          "range": [
+            601108,
+            602211
+          ],
+          "body_characters": 1077,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 483,
+          "range": [
+            602211,
+            603627
+          ],
+          "body_characters": 1390,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 484,
+          "range": [
+            603627,
+            604891
+          ],
+          "body_characters": 1238,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 485,
+          "range": [
+            604891,
+            606516
+          ],
+          "body_characters": 1599,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 486,
+          "range": [
+            606516,
+            608197
+          ],
+          "body_characters": 1655,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 487,
+          "range": [
+            608197,
+            609039
+          ],
+          "body_characters": 816,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 488,
+          "range": [
+            609039,
+            610624
+          ],
+          "body_characters": 1559,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 489,
+          "range": [
+            610624,
+            612230
+          ],
+          "body_characters": 1580,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 490,
+          "range": [
+            612230,
+            613713
+          ],
+          "body_characters": 1457,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 491,
+          "range": [
+            613713,
+            614853
+          ],
+          "body_characters": 1114,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 492,
+          "range": [
+            614853,
+            615087
+          ],
+          "body_characters": 208,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 493,
+          "range": [
+            615087,
+            616384
+          ],
+          "body_characters": 1271,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 494,
+          "range": [
+            616384,
+            616410
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 495,
+          "range": [
+            616410,
+            617603
+          ],
+          "body_characters": 1167,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 496,
+          "range": [
+            617603,
+            618978
+          ],
+          "body_characters": 1349,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 497,
+          "range": [
+            618978,
+            619577
+          ],
+          "body_characters": 573,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 498,
+          "range": [
+            619577,
+            620754
+          ],
+          "body_characters": 1151,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 499,
+          "range": [
+            620754,
+            621174
+          ],
+          "body_characters": 394,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 500,
+          "range": [
+            621174,
+            622483
+          ],
+          "body_characters": 1283,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 501,
+          "range": [
+            622483,
+            622746
+          ],
+          "body_characters": 237,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 502,
+          "range": [
+            622746,
+            623912
+          ],
+          "body_characters": 1140,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 503,
+          "range": [
+            623912,
+            625240
+          ],
+          "body_characters": 1302,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 504,
+          "range": [
+            625240,
+            626784
+          ],
+          "body_characters": 1518,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 505,
+          "range": [
+            626784,
+            627996
+          ],
+          "body_characters": 1186,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 506,
+          "range": [
+            627996,
+            629563
+          ],
+          "body_characters": 1541,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 507,
+          "range": [
+            629563,
+            631070
+          ],
+          "body_characters": 1481,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 508,
+          "range": [
+            631070,
+            632731
+          ],
+          "body_characters": 1635,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 509,
+          "range": [
+            632731,
+            633939
+          ],
+          "body_characters": 1182,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 510,
+          "range": [
+            633939,
+            635758
+          ],
+          "body_characters": 1793,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 511,
+          "range": [
+            635758,
+            636468
+          ],
+          "body_characters": 684,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 512,
+          "range": [
+            636468,
+            637961
+          ],
+          "body_characters": 1467,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 513,
+          "range": [
+            637961,
+            639074
+          ],
+          "body_characters": 1087,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 514,
+          "range": [
+            639074,
+            640595
+          ],
+          "body_characters": 1495,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 515,
+          "range": [
+            640595,
+            642162
+          ],
+          "body_characters": 1541,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 516,
+          "range": [
+            642162,
+            643539
+          ],
+          "body_characters": 1351,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 517,
+          "range": [
+            643539,
+            645159
+          ],
+          "body_characters": 1594,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 518,
+          "range": [
+            645159,
+            645261
+          ],
+          "body_characters": 76,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 519,
+          "range": [
+            645261,
+            646701
+          ],
+          "body_characters": 1414,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 520,
+          "range": [
+            646701,
+            648128
+          ],
+          "body_characters": 1401,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 521,
+          "range": [
+            648128,
+            648753
+          ],
+          "body_characters": 599,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 522,
+          "range": [
+            648753,
+            650208
+          ],
+          "body_characters": 1429,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 523,
+          "range": [
+            650208,
+            650623
+          ],
+          "body_characters": 389,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 524,
+          "range": [
+            650623,
+            652054
+          ],
+          "body_characters": 1405,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 525,
+          "range": [
+            652054,
+            653448
+          ],
+          "body_characters": 1368,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 526,
+          "range": [
+            653448,
+            655059
+          ],
+          "body_characters": 1585,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 527,
+          "range": [
+            655059,
+            656493
+          ],
+          "body_characters": 1408,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 528,
+          "range": [
+            656493,
+            657971
+          ],
+          "body_characters": 1452,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 529,
+          "range": [
+            657971,
+            659051
+          ],
+          "body_characters": 1054,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 530,
+          "range": [
+            659051,
+            660556
+          ],
+          "body_characters": 1479,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 531,
+          "range": [
+            660556,
+            660936
+          ],
+          "body_characters": 354,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 532,
+          "range": [
+            660936,
+            662378
+          ],
+          "body_characters": 1416,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 533,
+          "range": [
+            662378,
+            662404
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 534,
+          "range": [
+            662404,
+            663698
+          ],
+          "body_characters": 1268,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 535,
+          "range": [
+            663698,
+            663874
+          ],
+          "body_characters": 150,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 536,
+          "range": [
+            663874,
+            665425
+          ],
+          "body_characters": 1525,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 537,
+          "range": [
+            665425,
+            667062
+          ],
+          "body_characters": 1611,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 538,
+          "range": [
+            667062,
+            668690
+          ],
+          "body_characters": 1602,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 539,
+          "range": [
+            668690,
+            670109
+          ],
+          "body_characters": 1393,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 540,
+          "range": [
+            670109,
+            671425
+          ],
+          "body_characters": 1290,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 541,
+          "range": [
+            671425,
+            671451
+          ],
+          "body_characters": 0,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 542,
+          "range": [
+            671451,
+            672812
+          ],
+          "body_characters": 1335,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 543,
+          "range": [
+            672812,
+            674493
+          ],
+          "body_characters": 1655,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 544,
+          "range": [
+            674493,
+            674808
+          ],
+          "body_characters": 289,
+          "images": 0,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        },
+        {
+          "page": 545,
+          "range": [
+            674808,
+            675192
+          ],
+          "body_characters": 358,
+          "images": 5,
+          "reading_status": "unread",
+          "actual_visual_review": false
+        }
+      ],
+      "read_file_pages": [
+        1,
+        65
+      ],
+      "unread_file_pages": [
+        66,
+        545
+      ],
+      "read_ranges": [
+        [
+          0,
+          19766
+        ],
+        [
+          19766,
+          45287
+        ],
+        [
+          45287,
+          66292
+        ],
+        [
+          66292,
+          78416
+        ]
+      ],
+      "reading_chunks": [
+        {
+          "range": [
+            0,
+            19766
+          ],
+          "sha256": "5cf057cc323a70101042c1572c16e2490206e18e159a2f6c9e478e8707ade21f"
+        },
+        {
+          "range": [
+            19766,
+            45287
+          ],
+          "sha256": "040c18c939441ebd15d80bf5c4d64305262431cf4892e2da8274c1e49e5f310c"
+        },
+        {
+          "range": [
+            45287,
+            66292
+          ],
+          "sha256": "197a0343707607d0895e385c2599b36f68faca5c15895e90fd730f7625fc8288"
+        },
+        {
+          "range": [
+            66292,
+            78416
+          ],
+          "sha256": "74e136bc305aa466af5f20d3e4f9a8c6107efa9b282aeb566e611bc056eedbdd"
+        }
+      ],
+      "new_direct_read_characters": 78416,
+      "next_character": 78416,
+      "next_file_page": 66,
+      "visual_review_pages": [
+        1,
+        12
+      ],
+      "all_pages_visually_reviewed": false,
+      "original_publication_complete": false,
+      "raw_or_extracted_text_archived": false,
+      "next_content": "continuation of chapter two physical features and early human evolution; start at page66 first character"
+    }
+  ],
+  "new_direct_read_characters": 173306,
+  "completed_file_records_added": 1,
+  "partial_file_records_added": 1,
+  "book_files_total": 119,
+  "current_file_text_complete": 12,
+  "current_file_text_partial": 1,
+  "book_files_not_started": 106,
+  "book_files_not_complete": 107
+}

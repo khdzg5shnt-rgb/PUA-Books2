@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：11/119；B092只含前三章，B043仅前言/第一步/附加文章，B046按逐页同文证明复用已读；108份尚未通读。完整原著版本、删节和二次整理见各笔记。
+当前现有书籍文件文字覆盖完成：12/119；B092只含前三章，B043仅前言/第一步/附加文章，B046按逐页同文证明复用已读；107份尚未通读（其中B004读至65/545页，另106份未开始通读）。完整原著版本、删节和二次整理见各笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -20,8 +20,8 @@
 
 | ID | 原始文件 | 页/单元 | 加工和阅读状态 | 笔记 |
 | --- | --- | ---: | --- | --- |
-| B003 | [4EG方法 - Rob Judge & Zack Bauer.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/4EG%E6%96%B9%E6%B3%95%20-%20Rob%20Judge%20%26%20Zack%20Bauer.epub) | 30 | 已提取/未读 | — |
-| B004 | [Alpha Male Bible Become a Casanova Learn Charisma, Confidence, Self-Hypnosis, Dating Strategies, Psychology of Attraction.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Alpha%20Male%20Bible%20Become%20a%20Casanova%20Learn%20Charisma%2C%20Confidence%2C%20Self-Hypnosis%2C%20Dating%20Strategies%2C%20Psychology%20of%20Attraction.pdf) | 545 | 已提取/未读 | — |
+| B003 | [4EG方法 - Rob Judge & Zack Bauer.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/4EG%E6%96%B9%E6%B3%95%20-%20Rob%20Judge%20%26%20Zack%20Bauer.epub) | 30 | 当前30个spine文字及两图已读；版次未核 | [笔记](../books/B003.md) |
+| B004 | [Alpha Male Bible Become a Casanova Learn Charisma, Confidence, Self-Hypnosis, Dating Strategies, Psychology of Attraction.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Alpha%20Male%20Bible%20Become%20a%20Casanova%20Learn%20Charisma%2C%20Confidence%2C%20Self-Hypnosis%2C%20Dating%20Strategies%2C%20Psychology%20of%20Attraction.pdf) | 545 | 局部已读：物理页1–65/545；下页66 | [笔记](../books/B004.md) |
 | B005 | [Banned Charisma Secrets Unleashed Learn The Secrets Of Personal Magnetism And How To Attract, Inspire, Impress, Influence(Smith, Daniel) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Banned%20Charisma%20Secrets%20Unleashed%20Learn%20The%20Secrets%20Of%20Personal%20Magnetism%20And%20How%20To%20Attract%2C%20Inspire%2C%20Impress%2C%20Influence%28Smith%2C%20Daniel%29%20.pdf) | 131 | 已提取/未读 | — |
 | B006 | [Brad P 时尚圣经.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Brad%20P%20%E6%97%B6%E5%B0%9A%E5%9C%A3%E7%BB%8F.pdf) | 55 | 已提取/未读 | — |
 | B007 | [Chris《红丸觉醒1.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%921.0%E3%80%8B.pdf) | 102 | 已提取/未读 | — |
@@ -153,3 +153,5 @@
 | A029 | [docs/index.md](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/docs/index.md) | same_notes_body_compared |
 
 `200多本…读书笔记`大部分为目录与简评，读过它不等于读过200本原书；docs/index.md与其正文近似同一内容，仅页头与末尾等有差异。无相同二进制blob不代表没有内容重复版本。
+
+2026-11-10后续：[B003全文件与B004局部阅读台账](B003_B004_reading_2026-11-10.json)。B003的两图均已看；B004未完成，不增加完整文件数。

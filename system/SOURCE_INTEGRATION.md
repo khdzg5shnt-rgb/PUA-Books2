@@ -3,7 +3,7 @@
 截至2026-11-10，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-10续读完成：TOP30全部30份现有文字覆盖完整；原来乱码项已用可逆编码恢复，未核完整与乱码未解均为0。六份新读共84837字符，另读完B043现有EPUB节选22462字符，并完成B046与已读E06的148页文字比对。原始书库当前11/119份现有文字覆盖完成、108份未通读；完整原著和图像缺口仍分别记录。[本轮报告](../knowledge/provenance/TOP30_completion_2026-11-10.md)，最新断点转到B003，见[CURRENT_STATE](../CURRENT_STATE.md)。
+2026-11-10：TOP30全部30份现有文字覆盖完整，原乱码水印已恢复；范围见[TOP30报告](../knowledge/provenance/TOP30_completion_2026-11-10.md)。后续独立读完[B003当前30个spine和两图](../knowledge/books/B003.md)，[B004](../knowledge/books/B004.md)读至物理页65/545。原始书库当前12/119份现有文字覆盖完成、107份未通读；正式原著与图像缺口另计。[本轮报告](../knowledge/provenance/B003_completion_2026-11-10.md)和[CURRENT_STATE](../CURRENT_STATE.md)给出最新范围及B004第66页断点。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -71,7 +71,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中11份现有文字覆盖完成、108份未通读；TOP30全部30条现有文字覆盖完成，原著和图像缺口另计。阅读计数按逐文件实际覆盖更新，原始书库11/119只增加实际读完或有逐页同文证明的当前文件。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中12份现有文字覆盖完成、107份未通读（B004局部已读，另106份未开始通读）；TOP30全部30条现有文字覆盖完成，原著和图像缺口另计。阅读计数按逐文件实际覆盖更新，原始书库12/119只增加实际读完或有逐页同文证明的当前文件。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 
@@ -125,3 +125,5 @@ S04/E06 [吸引不是选择局部](../knowledge/books/S04-attraction-not-choice.
 2026-11-06另核[G09共享文档](../knowledge/books/G09-shared-document-reuse.md)：15份固定blob与G01已有完整阅读完全相同，共用本库原文与笔记；不增加归档或本轮阅读数。
 
 2026-11-06范围与验收见[本轮报告](../knowledge/provenance/public_reading_2026-11-06.md)；规定Python检查仍未运行，JavaScript哈希/链接/56场景核对不替代完整检查。
+
+2026-11-10后续：独立读完[B003当前30个spine与两图](../knowledge/books/B003.md)，再读[B004物理页1–65](../knowledge/books/B004.md)。本轮新增173306提取字符（含分隔标记），B004仅局部，不计整本完成。原始文字和图片不重新归档；[本轮报告](../knowledge/provenance/B003_completion_2026-11-10.md)与[逐单元台账](../knowledge/provenance/B003_B004_reading_2026-11-10.json)保留全部断点。
