@@ -613,26 +613,26 @@
           "entry": "k第十一课-吸引不是选择..txt",
           "bytes": 293999,
           "sha256": "36dd787a7a52f5fc0378c69de0c6da17091adf97a8eb3cdb5599e9a54f78c1d7",
-          "reading_status": "current_provided_entry_text_partial; decoded [0,52247), PAGE1–49; next 第三章 吸引力的进化及生物学原理; original edition and PDF images unverified",
+          "reading_status": "current_provided_entry_text_partial; decoded [0,64559), PAGE1–67; next 第四章 看不见的吸引语言; original edition and PDF images unverified",
           "characters": 121603,
           "notes": "knowledge/books/S04-attraction-not-choice.md",
           "read_coverage": {
             "ranges": [
               [
                 0,
-                52247
+                64559
               ]
             ],
-            "next_character": 52247,
-            "next_page_marker": 50,
-            "next_printed_page": 45,
-            "next_section": "第三章 吸引力的进化及生物学原理"
+            "next_character": 64559,
+            "next_page_marker": 68,
+            "next_printed_page": 63,
+            "next_section": "第四章 看不见的吸引语言"
           },
           "coverage_breakdown": {
             "contents_characters": 21216,
             "introduction_part_page_and_chapter_one_characters": 13689,
-            "continuation_after_chapter_one_characters": 17342,
-            "all_non_contents_characters_read": 31031
+            "continuation_after_chapter_one_characters": 29654,
+            "all_non_contents_characters_read": 43343
           },
           "NUL_count": 0,
           "replacement_count": 0,
@@ -649,6 +649,19 @@
                 49
               ],
               "notes": "knowledge/books/S04-attraction-ch02.md"
+            },
+            {
+              "date": "2026-11-10",
+              "title": "第三章及第二部分分部页",
+              "range": [
+                52247,
+                64559
+              ],
+              "page_markers": [
+                50,
+                67
+              ],
+              "notes": "knowledge/books/S04-attraction-ch03.md"
             }
           ]
         },
@@ -1168,9 +1181,10 @@
         "knowledge/books/S04-emotion-management.md",
         "knowledge/books/S04-allowing.md",
         "knowledge/books/S04-influence.md",
-        "knowledge/books/S04-attraction-ch02.md"
+        "knowledge/books/S04-attraction-ch02.md",
+        "knowledge/books/S04-attraction-ch03.md"
       ],
-      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character52247; PAGE50, printed45; 第三章 吸引力的进化及生物学原理",
+      "next_bookmark": "k第十一课-吸引不是选择..txt decoded character64559; PAGE68, printed63; 第四章 看不见的吸引语言",
       "coverage_counts": {
         "supplied_text_complete_entries": 22,
         "legible_text_complete_with_unresolved_garbling": 1,
@@ -3701,21 +3715,31 @@
           ],
           "characters": 17342,
           "notes": "knowledge/books/S04-attraction-ch02.md"
+        },
+        {
+          "title": "第三章及第二部分分部页",
+          "range": [
+            52247,
+            64559
+          ],
+          "characters": 12312,
+          "notes": "knowledge/books/S04-attraction-ch03.md"
         }
       ],
       "summary_note": "knowledge/provenance/E06_continuation_2026-11-10.md",
       "validation_record": "knowledge/provenance/E06_validation_2026-11-10.json",
-      "decoded_characters": 17342,
+      "decoded_characters": 29654,
       "methods_substantively_changed": [
+        "M08",
         "M23",
         "M25"
       ],
       "synthetic_scenario_count": 56,
       "next_top30": {
         "entry": "k第十一课-吸引不是选择..txt",
-        "decoded_character": 52247,
-        "next_page_marker": 50,
-        "section": "第三章 吸引力的进化及生物学原理"
+        "decoded_character": 64559,
+        "next_page_marker": 68,
+        "section": "第四章 看不见的吸引语言"
       }
     }
   ],

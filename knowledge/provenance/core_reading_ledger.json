@@ -201,19 +201,27 @@
         [
           46719,
           52247
+        ],
+        [
+          52247,
+          58521
+        ],
+        [
+          58521,
+          64559
         ]
       ],
       "reading_status": "supplied_text_partial",
-      "next_character": 52247,
-      "next_page_marker": 50,
-      "next_section": "第三章 吸引力的进化及生物学原理",
+      "next_character": 64559,
+      "next_page_marker": 68,
+      "next_section": "第四章 看不见的吸引语言",
       "original_publication_completeness": "unverified",
       "raw_text_archived": false,
       "coverage_breakdown": {
         "contents_characters": 21216,
         "introduction_part_page_and_chapter_one_characters": 13689,
-        "continuation_after_chapter_one_characters": 17342,
-        "all_non_contents_characters_read": 31031
+        "continuation_after_chapter_one_characters": 29654,
+        "all_non_contents_characters_read": 43343
       },
       "completed_reading_units": [
         {
@@ -228,6 +236,19 @@
             49
           ],
           "notes": "knowledge/books/S04-attraction-ch02.md"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "第三章及第二部分分部页",
+          "range": [
+            52247,
+            64559
+          ],
+          "page_markers": [
+            50,
+            67
+          ],
+          "notes": "knowledge/books/S04-attraction-ch03.md"
         }
       ],
       "reading_chunks_2026_11_10": [
@@ -262,6 +283,28 @@
           "characters": 5528,
           "unit": "chapter2",
           "chunk_text_sha256": "ddc5b5157daf7ffe4dcb67ccb89feb5fee0dd6c50aec2ae9f9739e2316006943",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            52247,
+            58521
+          ],
+          "characters": 6274,
+          "unit": "chapter3",
+          "chunk_text_sha256": "47f68171a5a21a97077585e57c8328b2c0bca1bc549eda820f2ced17d65b9825",
+          "status": "actual_sequential_text_read_after_untruncated_output"
+        },
+        {
+          "source": "S04/E06",
+          "range": [
+            58521,
+            64559
+          ],
+          "characters": 6038,
+          "unit": "chapter3",
+          "chunk_text_sha256": "b4604e4db300fdd846a725be7bb011c458514df4b1ad698bffc86cf4af0a8fef",
           "status": "actual_sequential_text_read_after_untruncated_output"
         }
       ]

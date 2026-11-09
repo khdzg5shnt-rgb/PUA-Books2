@@ -36,12 +36,46 @@
           "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.146s\n\nOK\n"
         }
       ]
+    },
+    {
+      "unit": "第三章及第二部分分部页",
+      "range": [
+        52247,
+        64559
+      ],
+      "results": [
+        {
+          "command": [
+            "python",
+            "scripts/validate_os.py"
+          ],
+          "returncode": 0,
+          "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 37,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_*.py"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.148s\n\nOK\n"
+        }
+      ]
     }
   ],
   "scope": "structure and synthetic routes, not reading or dating outcome proof",
   "methods_substantively_changed": [
+    "M08",
     "M23",
     "M25"
   ],
-  "newly_read_characters": 17342
+  "newly_read_characters": 29654
 }
