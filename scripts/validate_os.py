@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
+from knowledge import method_reference
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -16,6 +18,10 @@ def validate(root=ROOT):
     methods = json.loads((root / 'system/methods.json').read_text(encoding='utf-8'))['methods']
     sources = json.loads((root / 'system/sources.json').read_text(encoding='utf-8'))
     provenance = json.loads((root / 'knowledge/provenance/external_sources.json').read_text(encoding='utf-8'))
+    historical = json.loads((root/'knowledge/provenance/source_inventory.json').read_text(encoding='utf-8'))
+    lookup = json.loads((root/'system/knowledge_map.json').read_text(encoding='utf-8'))['methods']
+    tasks = json.loads((root/'system/tasks.json').read_text(encoding='utf-8'))['tasks']
+    state = json.loads((root/'system/work_state.json').read_text(encoding='utf-8'))
     method_ids = [m['id'] for m in methods]
     route_ids = [r['id'] for r in routes['routes']]
     if len(method_ids) != len(set(method_ids)) or len(route_ids) != len(set(route_ids)):
@@ -24,24 +30,63 @@ def validate(root=ROOT):
         errors.append('No final fallback')
 
     def check_expr(e):
-        if e.get('always') is True:
+        if not isinstance(e, dict):
+            errors.append('Rule expression must be an object')
             return
-        if 'all' in e or 'any' in e:
-            for child in e.get('all', e.get('any')):
+        if e == {'always':True}:
+            return
+        if len(e) == 1 and ('all' in e or 'any' in e):
+            children=e.get('all', e.get('any'))
+            if not isinstance(children,list) or not children:
+                errors.append('Rule group must contain conditions')
+                return
+            for child in children:
                 check_expr(child)
-        elif e.get('field') not in routes['defaults'] or e.get('op') not in ['eq','in','gte']:
+        elif (set(e) != {'field','op','value'} or e.get('field') not in routes['defaults']
+              or e.get('op') not in ['eq','in','gte']):
             errors.append('Invalid rule expression: '+str(e))
+        else:
+            field,op=e['field'],e['op']
+            default=routes['defaults'][field]
+            operands=e['value'] if op=='in' else [e['value']]
+            if (not isinstance(operands,list) or not operands or
+                    any(type(value) is not type(default) or
+                        (field in routes['enums'] and value not in routes['enums'][field])
+                        for value in operands) or
+                    (op=='gte' and type(default) is not int)):
+                errors.append('Rule operand type mismatch: '+field)
+
+    if set(routes.get('field_help',{})) != set(routes['defaults']):
+        errors.append('Every fact field needs a current-scope description')
 
     for rule in routes['routes']:
         check_expr(rule['when'])
         if len(rule['method_ids']) != 1 or rule['method_ids'][0] not in method_ids:
             errors.append('Bad primary method for ' + rule['id'])
+        if rule['action'] not in {'draft','hold','stop','clarify'}:
+            errors.append('Unknown route action: '+rule['id'])
     for method in methods:
         if not method['sources'] or not method['avoid'] or not method['use_when']:
             errors.append('Incomplete card '+method['id'])
         for source in method['sources']:
             if not (root/source['path']).is_file():
                 errors.append('Missing method source: '+source['path'])
+    if set(lookup) != set(method_ids):
+        errors.append('Knowledge map must cover every method exactly')
+    for method_id,item in lookup.items():
+        aliases=item.get('aliases')
+        if not isinstance(aliases,list) or not aliases or any(
+                not isinstance(value,str) or not value.strip() for value in aliases):
+            errors.append('Invalid lookup aliases: '+method_id)
+        try:
+            method_reference(method_id,root)
+        except (ValueError,KeyError,OSError):
+            errors.append('Invalid preferred method section: '+method_id)
+    if set(tasks) != {'reply','meaning','analysis','review','training'}:
+        errors.append('Task modes must contain the five supported tasks')
+    if any(tasks.get('reply',{}).get(key) != value for key,value in
+           [('max_candidates',1),('max_lines',2),('max_questions',1)]):
+        errors.append('Reply contract must keep one short candidate')
     for source in sources['records']:
         if not (root/source['local_entry']).is_file():
             errors.append('Missing source entry: '+source['id'])
@@ -49,10 +94,41 @@ def validate(root=ROOT):
         errors.append('Duplicate source IDs')
     if sum(s.get('is_book', False) for s in sources['records']) != 119:
         errors.append('Original book classification must contain 119 book files')
-    for group, expected in [('books2_original_snapshot',126),('uploaded_material',23),('public_github_source',9)]:
-        if sum(s['group']==group for s in sources['records']) != expected:
-            errors.append('Incorrect source count for '+group)
-    historical = json.loads((root/'knowledge/provenance/source_inventory.json').read_text(encoding='utf-8'))
+    groups={'books2_original_snapshot':historical['records'],
+            'uploaded_material':provenance['sources'],
+            'public_github_source':provenance['github_sources']}
+    for group,items in groups.items():
+        actual={s['id'] for s in sources['records'] if s['group']==group}
+        if actual != {item['id'] for item in items}:
+            errors.append('Source IDs do not match provenance: '+group)
+    originals={item['id']:item for item in historical['records']}
+    for item in sources['records']:
+        if item['group']=='books2_original_snapshot':
+            prior=originals.get(item['id'],{})
+            if any(item[key] != prior.get(key) for key in ['git_blob_sha','reading_status']):
+                errors.append('Original source identity/status mismatch: '+item['id'])
+            if item.get('is_book') != (prior.get('kind')=='book_file'):
+                errors.append('Original book kind mismatch: '+item['id'])
+    books=[s for s in sources['records'] if s.get('is_book')]
+    complete=sum(s['reading_status']=='provided_file_text_complete' for s in books)
+    unread=sum(s['reading_status']=='unread' for s in books)
+    partial=len(books)-complete-unread
+    expected_stats={'original_items':len(historical['records']),'book_files':len(books),
+        'uploads':len(provenance['sources']),'public_github_sources':len(provenance['github_sources']),
+        'source_records':len(sources['records']),'current_book_files_text_complete':complete,
+        'current_book_files_text_partial':partial,'current_book_files_not_started':unread}
+    if sources['statistics'] != expected_stats:
+        errors.append('Source statistics do not match records')
+    if state['reading_bookmark'] != sources['next_work_unit']:
+        errors.append('Runtime reading bookmark does not match source state')
+    next_unit=sources['next_work_unit']
+    next_original=originals.get(next_unit['id'],{})
+    if (next_unit['git_blob_sha'] != next_original.get('git_blob_sha') or
+            next_unit['path'] != next_original.get('path')):
+        errors.append('Next reading unit identity mismatch')
+    for key in ['runtime_entry','request_example','report','validation']:
+        if not (root/state[key]).is_file():
+            errors.append('Missing runtime entry: '+key)
     old_readme = next(item for item in historical['records'] if item['path']=='README.md')
     data = (root/'knowledge/provenance/README-original.md').read_bytes()
     if hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest() != old_readme['git_blob_sha']:
@@ -89,10 +165,10 @@ def validate(root=ROOT):
             elif end != item['characters']:
                 errors.append('Incomplete stated range: '+item['id'])
             extra_note_paths.add(item['notes'])
-        complete=sum(e['reading_status'].startswith(('current_provided_entry_text_complete',
+        top30_complete=sum(e['reading_status'].startswith(('current_provided_entry_text_complete',
                      'historical_full_text_read_with_existing_notes')) for e in s04['entries'])
         counts=s04['coverage_counts']
-        if complete != counts['supplied_text_complete_entries']:
+        if top30_complete != counts['supplied_text_complete_entries']:
             errors.append('TOP30 completed count does not match entry statuses')
         if sum(counts[k] for k in ['supplied_text_complete_entries',
                 'legible_text_complete_with_unresolved_garbling',
@@ -176,8 +252,10 @@ def validate(root=ROOT):
             if target and not (doc.parent/target).resolve().is_file():
                 errors.append('Broken local link: '+str(doc.relative_to(root))+' -> '+link)
     return {'ok':not errors, 'errors':errors, 'methods':len(methods), 'routes':len(route_ids),
+            'task_modes':len(tasks),'preferred_sections':len(lookup),
             'source_records':len(sources['records']), 'archived_files':len(provenance['archives']),
-            'scope':'结构/链接/归档身份检查，不是截图识别或恋爱效果验证'}
+            'book_text_complete':complete,'book_not_started':unread,
+            'scope':'结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证'}
 
 
 if __name__ == '__main__':

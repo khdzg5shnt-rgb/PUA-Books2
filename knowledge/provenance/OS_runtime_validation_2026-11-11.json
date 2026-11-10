@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "d41c157952f93d853747e19eb5e52f3c6428fd05",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 16,\n  \"book_not_started\": 103,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_*.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.806s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 16,
+    "book_not_started": 103,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "protected_files_unchanged_from_base": [
+    "system/sources.json",
+    "knowledge/provenance/external_sources.json",
+    "knowledge/provenance/source_inventory.json",
+    "knowledge/provenance/core_reading_ledger.json",
+    "knowledge/provenance/additional_reading_ledger.json",
+    "knowledge/provenance/B007_S23_reading_2026-11-11.json",
+    "system/methods.json",
+    "system/METHOD_CARDS.md"
+  ],
+  "reading_increment": {
+    "new_complete_book_files": 0,
+    "new_videos": 0,
+    "original_book_text_complete": 16,
+    "original_book_not_started": 103,
+    "top30_current_text_complete": 30
+  },
+  "scope": "配置、来源身份、段落检索、单对象流程与输出约定的工程检查",
+  "not_verified": [
+    "真实截图识别",
+    "自然语言质量和事实正确性",
+    "心理机制或恋爱效果",
+    "新增书籍或原视频阅读"
+  ]
+}

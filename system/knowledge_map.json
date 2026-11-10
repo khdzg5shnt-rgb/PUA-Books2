@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-11",
+  "scope": "检索词只帮助定位已整理方法，不从词语自动推断动机、兴趣或同意",
+  "methods": {
+    "M01": {
+      "aliases": [
+        "看不清",
+        "谁说的",
+        "发言人",
+        "截图顺序",
+        "上下文不全",
+        "对象核对"
+      ],
+      "preferred": {
+        "path": "knowledge/books/G09-ocr-input.md",
+        "heading": "G09补充｜读图只是输入"
+      }
+    },
+    "M02": {
+      "aliases": [
+        "没回",
+        "未回复",
+        "已读不回",
+        "等她回",
+        "不要补发",
+        "不回消息",
+        "跨平台追问"
+      ],
+      "preferred": {
+        "path": "knowledge/cases/C18-date-tips-overcontact.md",
+        "heading": "已知结果和检索用途"
+      }
+    },
+    "M03": {
+      "aliases": [
+        "接话",
+        "怎么接",
+        "日常分享",
+        "关键词",
+        "承接内容"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S02-chen-twelve/ch07.md",
+        "heading": "两种话题操作的完整逻辑"
+      }
+    },
+    "M04": {
+      "aliases": [
+        "认真提问",
+        "她问我",
+        "怎么回答",
+        "几点到",
+        "正常问题",
+        "工作问题"
+      ],
+      "preferred": {
+        "path": "knowledge/books/B004-ch08.md",
+        "heading": "真正保留的交流动作"
+      }
+    },
+    "M05": {
+      "aliases": [
+        "回扣",
+        "共同话题",
+        "旧梗",
+        "callback"
+      ],
+      "preferred": {
+        "path": "knowledge/books/B092.md",
+        "heading": "第二章，P32–49：心态、Callback Humor与Investment"
+      }
+    },
+    "M06": {
+      "aliases": [
+        "幽默",
+        "推拉",
+        "调侃",
+        "曲解",
+        "臭不要脸",
+        "轻松自夸"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S01-chen-five.md",
+        "heading": "实际使用判断"
+      }
+    },
+    "M07": {
+      "aliases": [
+        "角色扮演",
+        "共同角色",
+        "角色玩笑",
+        "称呼玩笑"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S01-chen-five.md",
+        "heading": "实际使用判断"
+      }
+    },
+    "M08": {
+      "aliases": [
+        "冷读",
+        "猜错",
+        "观察状态",
+        "可纠正"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S01-chen-five.md",
+        "heading": "实际使用判断"
+      }
+    },
+    "M09": {
+      "aliases": [
+        "赞美",
+        "夸我",
+        "谢谢",
+        "感谢",
+        "欣赏",
+        "接受赞美"
+      ],
+      "preferred": {
+        "path": "knowledge/books/G01-practical-expansion.md",
+        "heading": "接题与具体欣赏"
+      }
+    },
+    "M10": {
+      "aliases": [
+        "分享自己",
+        "讲故事",
+        "自我披露",
+        "真实生活"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S02-chen-twelve/ch08.md",
+        "heading": "与既有方法的关系"
+      }
+    },
+    "M11": {
+      "aliases": [
+        "难过",
+        "委屈",
+        "安慰",
+        "共情",
+        "心情不好"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S04-empathy.md",
+        "heading": "回填到当前方法"
+      }
+    },
+    "M12": {
+      "aliases": [
+        "好消息",
+        "一起高兴",
+        "分享开心",
+        "考试通过"
+      ],
+      "preferred": {
+        "path": "knowledge/books/B004-ch08.md",
+        "heading": "真正保留的交流动作"
+      }
+    },
+    "M13": {
+      "aliases": [
+        "求帮助",
+        "求建议",
+        "怎么办",
+        "需要帮忙",
+        "紧急事务"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S04-empathy.md",
+        "heading": "回填到当前方法"
+      }
+    },
+    "M14": {
+      "aliases": [
+        "邀约",
+        "约见面",
+        "约会邀请",
+        "具体邀约"
+      ],
+      "preferred": {
+        "path": "knowledge/topics/invitation-feedback.md",
+        "heading": "提出一次具体邀请"
+      }
+    },
+    "M15": {
+      "aliases": [
+        "答应见面",
+        "确认安排",
+        "确认地点",
+        "集合点",
+        "活动意愿"
+      ],
+      "preferred": {
+        "path": "knowledge/topics/invitation-feedback.md",
+        "heading": "已接受后确认安排"
+      }
+    },
+    "M16": {
+      "aliases": [
+        "替代时间",
+        "另约时间",
+        "重约",
+        "取消后重约"
+      ],
+      "preferred": {
+        "path": "knowledge/topics/invitation-feedback.md",
+        "heading": "接住她给的替代时间"
+      }
+    },
+    "M17": {
+      "aliases": [
+        "没给替代时间",
+        "没空不提时间",
+        "拒约无替代",
+        "下次吧",
+        "拒约",
+        "下班晚"
+      ],
+      "preferred": {
+        "path": "knowledge/topics/invitation-feedback.md",
+        "heading": "没有替代安排时收住"
+      }
+    },
+    "M18": {
+      "aliases": [
+        "一个字",
+        "二选一",
+        "完整短答",
+        "只回好"
+      ],
+      "preferred": {
+        "path": "CHAT_GUIDANCE_PLAYBOOK.md",
+        "heading": "判断流程"
+      }
+    },
+    "M19": {
+      "aliases": [
+        "连续低投入",
+        "一直我主动",
+        "单边投入",
+        "不展开",
+        "停止加码"
+      ],
+      "preferred": {
+        "path": "knowledge/books/G01-practical-expansion.md",
+        "heading": "主动与互惠"
+      }
+    },
+    "M20": {
+      "aliases": [
+        "她纠正",
+        "纠正事实",
+        "听错",
+        "误解",
+        "澄清"
+      ],
+      "preferred": {
+        "path": "knowledge/cases/C06-chen-screenshots.md",
+        "heading": "片段一：状态猜测与纠正"
+      }
+    },
+    "M21": {
+      "aliases": [
+        "失约",
+        "道歉",
+        "修复",
+        "兑现",
+        "确有责任"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S04-expression.md",
+        "heading": "用于一句回复时"
+      }
+    },
+    "M22": {
+      "aliases": [
+        "无礼",
+        "不尊重",
+        "表达边界",
+        "被羞辱",
+        "不想答"
+      ],
+      "preferred": {
+        "path": "knowledge/books/S04-allowing.md",
+        "heading": "回填方法"
+      }
+    },
+    "M23": {
+      "aliases": [
+        "拒绝",
+        "别联系",
+        "不加微信",
+        "身体界限",
+        "不喝酒",
+        "停止联系",
+        "拒绝换平台"
+      ],
+      "preferred": {
+        "path": "CHAT_GUIDANCE_PLAYBOOK.md",
+        "heading": "判断流程"
+      }
+    },
+    "M24": {
+      "aliases": [
+        "见面后",
+        "约会后",
+        "线下降温",
+        "见完面"
+      ],
+      "preferred": {
+        "path": "knowledge/books/G01-practical-expansion.md",
+        "heading": "共享场景与身体反馈"
+      }
+    },
+    "M25": {
+      "aliases": [
+        "开场",
+        "破冰",
+        "重新联系",
+        "自然重联",
+        "刚认识"
+      ],
+      "preferred": {
+        "path": "knowledge/books/B090.md",
+        "heading": "证据及边界"
+      }
+    },
+    "M26": {
+      "aliases": [
+        "一句回复",
+        "短一点",
+        "太人机",
+        "怎么回",
+        "自然表达"
+      ],
+      "preferred": {
+        "path": "knowledge/books/G01-practical-expansion.md",
+        "heading": "一个目标与口吻"
+      }
+    }
+  }
+}

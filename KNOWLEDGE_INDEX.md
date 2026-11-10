@@ -2,6 +2,8 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
+2026-11-11系统维护：新增[统一日常流程](system/RUNBOOK.md)、[输入说明](system/INPUT_FACTS.md)、[26方法段落映射](system/knowledge_map.json)与[五种任务约定](system/tasks.json)，30条路由按当前内容定位。CLI统一入口为`coach.py`，人读恢复点仍在CURRENT_STATE。本轮新读书籍数0；[系统维护报告](knowledge/provenance/OS_runtime_2026-11-11.md)与下方历史阅读报告分开。
+
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
 | 找什么 | books2内入口 |

@@ -1,44 +1,78 @@
 #!/usr/bin/env python3
-"""Search the local curated knowledge, returning paths/snippets, not psychological scores."""
+"""Find local method sections; retrieval order is not a psychological score."""
 import argparse
 import json
 import re
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
+from knowledge import ROOT, load_lookup, load_methods, markdown_sections, method_reference
 
 
-def search(query, limit=8, root=ROOT):
+def search(query, limit=8, root=ROOT, method=None):
+    if not isinstance(query, str) or type(limit) is not int or limit < 0:
+        raise ValueError('Use a text query and a nonnegative integer limit')
+    methods, lookup = load_methods(root), load_lookup(root)
+    explicit = re.findall(r'\bM\d{2}\b', query.upper())
+    if method is None and len(set(explicit)) == 1:
+        method = explicit[0]
+    if method is not None and method not in methods:
+        raise ValueError('Unknown method ID')
     terms = [term.casefold() for term in re.split(r'\s+', query.strip()) if term]
-    if not terms:
+    if not terms and method is None:
         return []
-    candidates = [root / 'START_HERE.md', root / 'PUA_CORE_SYSTEM.md']
-    candidates += [root / 'system' / name for name in
-                   ['METHOD_CARDS.md', 'SCENARIO_ROUTER.md', 'REPLY_PROTOCOL.md']]
-    candidates += list((root / 'knowledge/books').rglob('*.md'))
-    candidates += list((root / 'knowledge/topics').glob('*.md'))
-    candidates += list((root / 'knowledge/cases').glob('*.md'))
+    selected = [method] if method else list(methods)
+    paths = set()
+    preferred = {}
+    for mid in selected:
+        item = method_reference(mid, root)
+        key = (item['path'], item['heading'])
+        preferred.setdefault(key, []).append(mid)
+        if method:
+            paths.update(source['path'] for source in methods[mid]['sources']
+                         if source['path'].endswith('.md'))
+    if not method:
+        paths.update(str(path.relative_to(root)) for folder in
+                     ['knowledge/books', 'knowledge/topics', 'knowledge/cases']
+                     for path in (root / folder).rglob('*.md'))
+    paths.update(path for path, _heading in preferred)
     hits = []
-    for path in sorted(set(candidates)):
-        content = path.read_text(encoding='utf-8')
-        lines = content.splitlines()
-        found = [(index, line) for index, line in enumerate(lines, 1)
-                 if any(term in line.casefold() for term in terms)]
-        if found:
-            matched = sum(term in content.casefold() for term in terms)
-            first = found[0]
-            hits.append((matched, len(found), str(path.relative_to(root)), first[0], first[1]))
-    hits.sort(key=lambda x: (-x[0], -x[1], x[2]))
-    return [{'path':path, 'line':line, 'snippet':snippet[:240]}
-            for _, _, path, line, snippet in hits[:max(0, limit)]]
+    for path in sorted(paths):
+        for section in markdown_sections(path, root):
+            body = section['text'].casefold()
+            heading = section['heading'].casefold()
+            mids = preferred.get((path, section['heading']), [])
+            aliases = [alias.casefold() for mid in mids
+                       for alias in lookup['methods'][mid]['aliases']
+                       if alias.casefold() in query.casefold()]
+            content_hits = sum(term in body for term in terms)
+            if not content_hits and not aliases and not (method and mids):
+                continue
+            # Direct methods and exact scene phrases beat incidental mentions.
+            # Frequencies are deliberately unused.
+            rank = (bool(method and mids), max(map(len, aliases), default=0),
+                    sum(term in heading for term in terms), content_hits,
+                    bool(mids), path.startswith('knowledge/topics/'))
+            lines = section['text'].splitlines()
+            matching = [line for line in lines
+                        if any(term in line.casefold() for term in terms)]
+            snippet = (matching[0] if matching else '\n'.join(lines[1:]))[:240]
+            hits.append((rank, section | {'snippet': snippet, 'method_ids': mids}))
+    hits.sort(key=lambda item: tuple(-int(x) for x in item[0]) +
+              (item[1]['path'], item[1]['line']))
+    return [{key: item[key] for key in
+             ['path', 'title', 'heading', 'line', 'end_line', 'snippet', 'method_ids']}
+            for _rank, item in hits[:min(limit, 20)]]
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('query')
+    parser.add_argument('query', nargs='?', default='')
+    parser.add_argument('--method', help='Read sources of one method, such as M14')
     parser.add_argument('--limit', type=int, default=8)
     args = parser.parse_args()
-    print(json.dumps(search(args.query, args.limit), ensure_ascii=False, indent=2))
+    try:
+        result = search(args.query, args.limit, method=args.method)
+    except (ValueError, OSError) as error:
+        parser.exit(2, str(error) + '\n')
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

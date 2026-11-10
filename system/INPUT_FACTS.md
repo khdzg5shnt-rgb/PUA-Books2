@@ -1,0 +1,57 @@
+# 路由事实字段
+
+这些字段由当前助手核对截图后使用，不是发给用户的问卷。未知的布尔值保持false，未知的分类用默认值；false不等于已证明相反。不要根据检索词、字数、回复速度或方法名自动填值。
+
+## 当前轮与历史分开
+
+收到新回复后，重核pending_reply、function、closed_answer_complete与当前低投入标记。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
+
+consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。
+
+## 字段表
+
+| 字段 | 默认值 | 核对含义 |
+| --- | --- | --- |
+| `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
+| `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
+| `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
+| `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
+| `refusal_scope` | `"none"` | 当前明确拒绝的具体范围；不由语气、单字或旧标签推断 |
+| `boundary_expressed` | `false` | 当前已确认具体话题/称呼等边界，不等于拒绝全部联系 |
+| `repair_needed` | `false` | 有证据确认具体行为及影响需要修复；不默认归责用户 |
+| `invitation` | `"none"` | 本轮仍有效的邀约回应或待落实安排；不是对象永久状态 |
+| `function` | `"unknown"` | 最新一轮最需要回应的作用；认真提问/求助优先于旧短答标签 |
+| `closed_answer_complete` | `false` | 她的简短回答已完成一个封闭问题；新认真内容不被该标记盖过 |
+| `consecutive_low_rounds` | `0` | 截至当前可见窗口连续低投入轮数；历史缺口不能当作从无主动 |
+| `current_turn_low` | `false` | 本轮是否仍无展开、无反问且无新信息；不能只按字数判断 |
+| `reciprocity` | `"unknown"` | 可见行为中的双向或持续单边状态，不是人格或兴趣概率 |
+| `goal` | `"reply"` | 用户本轮目标；不覆盖明确拒绝、认真提问或现实安排 |
+| `invite_ready` | `false` | 已核有适合提出邀请的事实基础；未知不自动满足 |
+| `user_availability_known` | `false` | 用户真实空闲已核实，不编日期 |
+| `activity_verified` | `false` | 拟提活动和安排真实已核实，不编顺路或假活动 |
+| `shared_callback_available` | `false` | 双方确实有这个共同经历/旧话题，不移植别人的故事 |
+| `roleplay_shared` | `false` | 双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可 |
+| `advice_requested` | `false` | 她明确求办法；不是看见情绪就假定要被指导 |
+| `urgent_practical_need` | `false` | 有已核的紧要现实事务，不是制造紧迫感 |
+
+## 分类可选值
+
+| 字段 | 可选值 |
+| --- | --- |
+| `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
+| `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity` |
+| `function` | `unknown`, `insult`, `logistics`, `correction`, `distress`, `advice_request`, `good_news`, `question`, `post_date`, `banter`, `opening`, `sharing`, `appreciation` |
+| `reciprocity` | `unknown`, `mutual`, `consistently_one_sided` |
+| `goal` | `reply`, `invite`, `appreciate` |
+
+`function=appreciation`表示她确实赞美或表达好意；`goal=appreciate`表示用户想表达欣赏，方向不同。普通礼貌可自然承接，不等于关系意愿。
+
+## 请求格式
+
+单对象：`{"task":"reply","facts":{"speaker_verified":true,"text_legible":true,"function":"question"}}`。没有核读的内容不能照抄true。
+
+临时多对象：`{"task":"analysis","cases":{"a":{},"b":{}},"case_key":"b"}`。每个facts对象独立、缺口用自身默认值；不能同时提供全局facts。`--case`和`--task`显式参数优先于请求中的选择。
+
+可选candidate是一条待核草稿，结果不回显草稿。不要加入原句、姓名、账号、截图、地址或对象身份字段；需要保留的上下文只在当前对话核对。stdin不会把请求保存到仓库；手动创建私人输入文件也不得提交。
+
+示例见[EXAMPLE_REQUEST.json](EXAMPLE_REQUEST.json)，完整流程见[RUNBOOK.md](RUNBOOK.md)。

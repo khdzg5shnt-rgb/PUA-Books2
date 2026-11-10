@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "1.1.0",
-  "updated": "2026-11-03",
+  "version": "1.2.0",
+  "updated": "2026-11-11",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
   "defaults": {
@@ -57,7 +57,8 @@
       "post_date",
       "banter",
       "opening",
-      "sharing"
+      "sharing",
+      "appreciation"
     ],
     "reciprocity": [
       "unknown",
@@ -239,16 +240,45 @@
       "id": "R08",
       "name": "替代时间",
       "when": {
-        "any": [
+        "all": [
           {
-            "field": "invitation",
-            "op": "eq",
-            "value": "alternative"
+            "any": [
+              {
+                "field": "invitation",
+                "op": "eq",
+                "value": "alternative"
+              },
+              {
+                "field": "invitation",
+                "op": "eq",
+                "value": "cancelled_with_repair"
+              }
+            ]
           },
           {
-            "field": "invitation",
-            "op": "eq",
-            "value": "cancelled_with_repair"
+            "all": [
+              {
+                "field": "function",
+                "op": "in",
+                "value": [
+                  "unknown",
+                  "logistics",
+                  "sharing",
+                  "banter",
+                  "opening"
+                ]
+              },
+              {
+                "field": "advice_requested",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "field": "urgent_practical_need",
+                "op": "eq",
+                "value": false
+              }
+            ]
           }
         ]
       },
@@ -262,50 +292,50 @@
       ]
     },
     {
-      "id": "R09",
-      "name": "活动意愿与安排",
+      "id": "R10",
+      "name": "拒约无替代",
       "when": {
-        "any": [
+        "all": [
           {
             "field": "invitation",
             "op": "in",
             "value": [
-              "accepted",
-              "open_to_activity"
+              "no_alternative",
+              "cancelled_without_repair"
             ]
           },
           {
-            "field": "function",
-            "op": "eq",
-            "value": "logistics"
+            "all": [
+              {
+                "field": "function",
+                "op": "in",
+                "value": [
+                  "unknown",
+                  "logistics",
+                  "sharing",
+                  "banter",
+                  "opening"
+                ]
+              },
+              {
+                "field": "advice_requested",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "field": "urgent_practical_need",
+                "op": "eq",
+                "value": false
+              }
+            ]
           }
-        ]
-      },
-      "method_ids": [
-        "M15"
-      ],
-      "action": "draft",
-      "purpose": "分清一般活动意愿和具体约定，只补当前关键的可行信息或安排",
-      "also_read": [
-        "system/REPLY_PROTOCOL.md"
-      ]
-    },
-    {
-      "id": "R10",
-      "name": "拒约无替代",
-      "when": {
-        "field": "invitation",
-        "op": "in",
-        "value": [
-          "no_alternative",
-          "cancelled_without_repair"
         ]
       },
       "method_ids": [
         "M17"
       ],
       "action": "draft",
-      "purpose": "本轮收住，不换日期追问",
+      "purpose": "没替代安排时不再追约；新增认真问题、求助或分享另按本轮作用回应",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -314,15 +344,102 @@
       "id": "R11",
       "name": "只拒绝活动",
       "when": {
-        "field": "refusal_scope",
-        "op": "eq",
-        "value": "activity"
+        "all": [
+          {
+            "field": "refusal_scope",
+            "op": "eq",
+            "value": "activity"
+          },
+          {
+            "all": [
+              {
+                "field": "function",
+                "op": "in",
+                "value": [
+                  "unknown",
+                  "logistics",
+                  "sharing",
+                  "banter",
+                  "opening"
+                ]
+              },
+              {
+                "field": "advice_requested",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "field": "urgent_practical_need",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          }
+        ]
       },
       "method_ids": [
         "M23"
       ],
       "action": "draft",
-      "purpose": "尊重活动偏好；是否见面仍依据其他事实",
+      "purpose": "停止被拒绝的活动方向；新增认真内容仍可正常回应",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "活动意愿与安排",
+      "when": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "invitation",
+                "op": "in",
+                "value": [
+                  "accepted",
+                  "open_to_activity"
+                ]
+              },
+              {
+                "field": "function",
+                "op": "eq",
+                "value": "logistics"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "field": "function",
+                "op": "in",
+                "value": [
+                  "unknown",
+                  "logistics",
+                  "sharing",
+                  "banter",
+                  "opening"
+                ]
+              },
+              {
+                "field": "advice_requested",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "field": "urgent_practical_need",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      "method_ids": [
+        "M15"
+      ],
+      "action": "draft",
+      "purpose": "分清一般活动意愿和具体约定，只补当前关键的可行信息或安排",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -348,15 +465,44 @@
       "id": "R13",
       "name": "完整短答",
       "when": {
-        "field": "closed_answer_complete",
-        "op": "eq",
-        "value": true
+        "all": [
+          {
+            "field": "closed_answer_complete",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "all": [
+              {
+                "field": "function",
+                "op": "in",
+                "value": [
+                  "unknown",
+                  "logistics",
+                  "sharing",
+                  "banter",
+                  "opening"
+                ]
+              },
+              {
+                "field": "advice_requested",
+                "op": "eq",
+                "value": false
+              },
+              {
+                "field": "urgent_practical_need",
+                "op": "eq",
+                "value": false
+              }
+            ]
+          }
+        ]
       },
       "method_ids": [
         "M18"
       ],
       "action": "draft",
-      "purpose": "不把完整短答判成低投入",
+      "purpose": "完整短答不算低投入；不覆盖同轮新增的认真问题、困扰或求助",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -488,6 +634,23 @@
       ],
       "action": "draft",
       "purpose": "先用真实信息回答",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R29",
+      "name": "真诚赞美或好意",
+      "when": {
+        "field": "function",
+        "op": "eq",
+        "value": "appreciation"
+      },
+      "method_ids": [
+        "M09"
+      ],
+      "action": "draft",
+      "purpose": "自然接下明确赞美或实际好意，不推成恋爱或性意愿",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -702,5 +865,28 @@
         "system/REPLY_PROTOCOL.md"
       ]
     }
-  ]
+  ],
+  "field_help": {
+    "speaker_verified": "已核对当前对象及每侧发言人；未知不能填true",
+    "text_legible": "已读清会改变本轮回复的最新原句与引用；未知不能填true",
+    "pending_reply": "当前最后一条是用户已发且对方未回；已有新回复时重置false",
+    "necessary_new_logistics": "未回期间确有独立必要的新事务，不能借机催问",
+    "refusal_scope": "当前明确拒绝的具体范围；不由语气、单字或旧标签推断",
+    "boundary_expressed": "当前已确认具体话题/称呼等边界，不等于拒绝全部联系",
+    "repair_needed": "有证据确认具体行为及影响需要修复；不默认归责用户",
+    "invitation": "本轮仍有效的邀约回应或待落实安排；不是对象永久状态",
+    "function": "最新一轮最需要回应的作用；认真提问/求助优先于旧短答标签",
+    "closed_answer_complete": "她的简短回答已完成一个封闭问题；新认真内容不被该标记盖过",
+    "consecutive_low_rounds": "截至当前可见窗口连续低投入轮数；历史缺口不能当作从无主动",
+    "current_turn_low": "本轮是否仍无展开、无反问且无新信息；不能只按字数判断",
+    "reciprocity": "可见行为中的双向或持续单边状态，不是人格或兴趣概率",
+    "goal": "用户本轮目标；不覆盖明确拒绝、认真提问或现实安排",
+    "invite_ready": "已核有适合提出邀请的事实基础；未知不自动满足",
+    "user_availability_known": "用户真实空闲已核实，不编日期",
+    "activity_verified": "拟提活动和安排真实已核实，不编顺路或假活动",
+    "shared_callback_available": "双方确实有这个共同经历/旧话题，不移植别人的故事",
+    "roleplay_shared": "双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可",
+    "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
+    "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感"
+  }
 }

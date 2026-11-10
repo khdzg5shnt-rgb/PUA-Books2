@@ -6,10 +6,12 @@
 
 1. 新窗口先读本页与[当前进度](CURRENT_STATE.md)。
 2. 实际读图，按[截图规则](system/SCREENSHOT_PROTOCOL.md)确认对象、说话人、顺序、最新一句和已确认安排。
-3. 按[场景路由](system/SCENARIO_ROUTER.md)选一个主方法，在[方法卡](system/METHOD_CARDS.md)核条件，再读卡上最相关的一份仓库内笔记；需要时读一条公开教学案例。
+3. 先区分本次是怎么回、什么意思、分析、复盘还是训练。按[场景路由](system/SCENARIO_ROUTER.md)选一个主方法，核卡上条件，用[段落映射](system/knowledge_map.json)直接读一处相关笔记；需要时才展开或读一条公开教学案例。
 4. 用[回复规则](system/REPLY_PROTOCOL.md)压成一句；不宜继续发时直说先不发。
 
 同一窗口已经有且未失效的规则无需反复整库阅读。缺上下文先补一项关键事实，不给用户一串问卷。
+
+完整执行说明见[日常流程](system/RUNBOOK.md)，字段含义见[事实说明](system/INPUT_FACTS.md)。统一命令`python scripts/coach.py --request system/EXAMPLE_REQUEST.json`可查看虚构示例的主方法、笔记段落与输出约定；真实请求可用stdin，不必生成聊天文件。用户直接发截图即可，助手负责这些核对。
 
 ## 必须带着使用的判断
 

@@ -44,6 +44,10 @@ class RoutingScenarios(unittest.TestCase):
     def test_integrity_and_references(self):
         result=validate()
         self.assertTrue(result['ok'],result['errors'])
+        # Original library and TOP30 are different populations, even when both
+        # are checked during the same validation run.
+        statistics=json.loads((ROOT/'system/sources.json').read_text())['statistics']
+        self.assertEqual(result['book_text_complete'],statistics['current_book_files_text_complete'])
 
     def test_reading_claims_reject_wrong_breakpoint_and_reused_page(self):
         # A reading claim must fail if its recovery point or reused content differs.

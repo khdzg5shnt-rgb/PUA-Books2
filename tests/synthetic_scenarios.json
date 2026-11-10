@@ -744,5 +744,373 @@
     "expect_route": "R01",
     "expect_action": "stop",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T57",
+    "context": "虚构教学场景：说当天没空且无替代，同时被标作安排话题，不能继续问时间",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "logistics",
+      "invitation": "no_alternative"
+    },
+    "expect_route": "R10",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T58",
+    "context": "虚构教学场景：取消且无替代，同时属于安排话题，不能当已答应",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "logistics",
+      "invitation": "cancelled_without_repair"
+    },
+    "expect_route": "R10",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T59",
+    "context": "虚构教学场景：只拒绝某活动，同时属于安排话题，先停止该活动方向",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "logistics",
+      "refusal_scope": "activity"
+    },
+    "expect_route": "R11",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T60",
+    "context": "虚构教学场景：先给封闭问题答案又认真反问，不能只处理旧短答",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T61",
+    "context": "虚构教学场景：短答后认真讲困扰，以当前困扰为主",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "function": "distress"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T62",
+    "context": "虚构教学场景：完整短答并明确求办法，回应实际求助",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T63",
+    "context": "虚构教学场景：对方明确夸奖实际帮忙，正常接下赞美",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T64",
+    "context": "虚构教学场景：用户想邀约但本轮收到真诚赞美，先自然承接",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation",
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T65",
+    "context": "虚构教学场景：历史低投入不能覆盖本轮具体赞美",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 4
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T66",
+    "context": "虚构教学场景：明确拒绝全部联系仍优先于赞美标签",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation",
+      "refusal_scope": "contact"
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T67",
+    "context": "虚构教学场景：拒绝换平台并表达好意，先尊重具体渠道边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation",
+      "refusal_scope": "channel"
+    },
+    "expect_route": "R05",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T68",
+    "context": "虚构教学场景：旧约定不覆盖当前明确赞美，仍按当前作用回应",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "appreciation",
+      "invitation": "accepted"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T69",
+    "context": "虚构教学场景：用户想欣赏但对方正在认真提问，先回答",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "question",
+      "goal": "appreciate"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T70",
+    "context": "虚构教学场景：拒绝该活动后语气轻松，不把轻松当作同意活动",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "banter",
+      "refusal_scope": "activity",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R11",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T71",
+    "context": "虚构教学场景：完整短答标签不盖过事实纠正",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "correction",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R12",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T72",
+    "context": "虚构教学场景：短答后有紧要实际事务，先回应事务",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "urgent_practical_need": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T73",
+    "context": "虚构教学场景：没空但同时分享具体好消息，不追约且可接住好消息",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "function": "good_news"
+    },
+    "expect_route": "R17",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T74",
+    "context": "虚构教学场景：拒绝活动但同时认真表达困扰，尊重活动边界并接困扰",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "activity",
+      "function": "distress"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T75",
+    "context": "虚构教学场景：没空无替代但认真反问一个问题，可以正常答而不追约",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T76",
+    "context": "虚构教学场景：未给新时间但当前明确求帮助，回应所求而不追约",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "function": "advice_request"
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T77",
+    "context": "虚构教学场景：没空无替代但本轮真诚感谢，接下感谢不重提日期",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T78",
+    "context": "虚构教学场景：拒绝某活动后认真询问别的信息，先答问题并保留活动边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "activity",
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T79",
+    "context": "虚构教学场景：拒绝某活动后明确求建议，回应所求不绕回该活动",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "activity",
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T80",
+    "context": "虚构教学场景：完整短答标签不覆盖本轮具体好消息",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "function": "good_news"
+    },
+    "expect_route": "R17",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T81",
+    "context": "虚构教学场景：旧约定仍在但本轮认真倾诉",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "function": "distress"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T82",
+    "context": "虚构教学场景：替代时间不覆盖本轮明确求助",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "alternative",
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T83",
+    "context": "虚构教学场景：旧约定不覆盖认真问题",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T84",
+    "context": "虚构教学场景：当前讨论她新给的替代时间",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "alternative",
+      "function": "logistics"
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
   }
 ]
