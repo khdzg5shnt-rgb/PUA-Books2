@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "0bf00789f0b41f412c388d40b1dec40c6fd542a3",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 17,\n  \"book_not_started\": 102,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.775s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 17,
+    "book_not_started": 102,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "reading_scope_checks": {
+    "ok": true,
+    "original_pdf_identity": true,
+    "extraction_identity": true,
+    "actual_read_chunks": 15,
+    "pages": 174,
+    "characters": 147127,
+    "visual_pages": 33,
+    "unreviewed_layout_pages": 141,
+    "new_or_changed_markdown_files": 16,
+    "local_links_checked": 555,
+    "original_raw_paths_modified": [],
+    "new_raw_sources_or_images": false,
+    "relationship_topic_retrieval": "knowledge/topics/relationship-clarity.md",
+    "changed_files": 23
+  },
+  "newly_text_complete": [
+    "B008"
+  ],
+  "new_direct_read_characters": 147127,
+  "new_original_videos_completed": 0,
+  "new_original_research_papers_completed": 0,
+  "original_book_text_complete": 17,
+  "original_book_not_started": 102,
+  "source_records": 158,
+  "scope": "配置、文件身份、逐页范围、卡片同步与链接的工程一致性；不以检查代替阅读或心理证据",
+  "not_verified": [
+    "英文原著对应和完整性",
+    "141页未逐页核的版式及全部截图逐字转录",
+    "原视频、TED、新闻与现行法条",
+    "实际聊天效果"
+  ]
+}

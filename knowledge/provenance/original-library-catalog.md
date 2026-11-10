@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：16/119。新增B007当前102页可提取文字，24页图像/标题/图表另核，剩余78页版式未逐页审阅；其封面与文件名署名不一致，原著对应未核。另103份尚未通读，下一份B008第1页。B043/B092缺章、B006删节译本及其他版次/图像限制见逐书笔记。
+当前现有书籍文件文字覆盖完成：17/119。新增B008当前174页可提取文字，33页视觉另核，剩余141页版式未逐页审阅；第二版封面与文件名署名对应未核。另102份尚未通读，下一份B009第1页。B007、B003版次、B004版式、B006删节译本及B043/B092缺章等限制见逐书笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -25,7 +25,7 @@
 | B005 | [Banned Charisma Secrets Unleashed Learn The Secrets Of Personal Magnetism And How To Attract, Inspire, Impress, Influence(Smith, Daniel) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Banned%20Charisma%20Secrets%20Unleashed%20Learn%20The%20Secrets%20Of%20Personal%20Magnetism%20And%20How%20To%20Attract%2C%20Inspire%2C%20Impress%2C%20Influence%28Smith%2C%20Daniel%29%20.pdf) | 131 | 当前131页文字及封面/末页图已读；版次未核 | [笔记](../books/B005.md) |
 | B006 | [Brad P 时尚圣经.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Brad%20P%20%E6%97%B6%E5%B0%9A%E5%9C%A3%E7%BB%8F.pdf) | 55 | 当前55页文字、37页图像区域已读；译者自述删节 | [笔记](../books/B006.md) |
 | B007 | [Chris《红丸觉醒1.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%921.0%E3%80%8B.pdf) | 102 | 当前102页可提取文字已读；24页视觉核对；版本对应未核 | [笔记](../books/B007.md) |
-| B008 | [Chris《红丸觉醒2.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%922.0%E3%80%8B.pdf) | 174 | 已提取/未读 | — |
+| B008 | [Chris《红丸觉醒2.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%922.0%E3%80%8B.pdf) | 174 | 当前174页可提取文字已读；33页视觉核对；原著对应未核 | [笔记](../books/B008.md) |
 | B009 | [Chris《红丸觉醒3.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%923.0%E3%80%8B.pdf) | 135 | 已提取/未读 | — |
 | B010 | [Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%207%20in%201%20The%20Art%20of%20Persuasion%2C%20How%20to%20influence%20people%2C%20Hypnosis%20Techniques%2C%20NLP%20secrets%2C%20Analyze%20Body...%20%28Robert%20Dale%20Goleman%2C%20Daniel%20Brandon%20Bradberry%20etc.%29.pdf) | 644 | 已提取/未读 | — |
 | B011 | [Dark Psychology Secrets Defense Manipulation, Emotional Influence, Persuasion, Deception, Mind Control, Covert Nlp,... (Susan Johnson) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%20Secrets%20Defense%20Manipulation%2C%20Emotional%20Influence%2C%20Persuasion%2C%20Deception%2C%20Mind%20Control%2C%20Covert%20Nlp%2C...%20%28Susan%20Johnson%29%20.pdf) | 114 | 已提取/未读 | — |
@@ -155,3 +155,5 @@
 `200多本…读书笔记`大部分为目录与简评，读过它不等于读过200本原书；docs/index.md与其正文近似同一内容，仅页头与末尾等有差异。无相同二进制blob不代表没有内容重复版本。
 
 前轮历史记录（不是当前断点）：[B003全文件与B004局部阅读台账](B003_B004_reading_2026-11-10.json)。当时B004仅局部；当前已由后续完成台账覆盖。
+
+2026-11-11新增范围与限制：[B008完成报告](B008_completion_2026-11-11.md)。

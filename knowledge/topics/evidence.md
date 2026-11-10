@@ -76,3 +76,18 @@ Hyde, J. S. (2014). Gender similarities and differences. *Annual Review of Psych
 - 本项目的判断要求是：关于群体差异的研究不能代替对某一个人当前言行的证据。这里是从研究范围作出的使用限制，不冒称该摘要已逐条反证B007的全部观点。
 
 这两篇用于核对具体来源主张，不能用题录数量把B007的社会循环、婚育数据、法律断言或本系统的回复效果认证为科学结论。
+## B008医学核对
+
+2026-11-11为核查B008物理页26–27而读取以下权威网页的相关段落与页面日期，未读临床研究全文，也不因此增加书籍完成数。它们不是聊天技巧有效性的证明。
+
+- NHS说明排卵通常在下次月经前约10–16天，时间存在个体差异，也可能在月经结束不久怀孕。不能用书中的固定“前七后八”保证避孕安全，更不能据此推算兴趣或同意。
+- ACOG孕期抑郁问答给出约十分之一的概括，而不是本书的98%。该问答不是对所有国家、全部妊娠的统一抽样估计；这里仅指出书中绝对数字缺乏支持，不替具体对象诊断。
+
+准确网页题录（无DOI）：
+
+American College of Obstetricians and Gynecologists. (2023). *Depression during pregnancy*. https://www.acog.org/womens-health/faqs/depression-during-pregnancy
+
+National Health Service. (2023, January 5). *Periods and fertility in the menstrual cycle*. https://www.nhs.uk/conditions/periods/fertility-in-the-menstrual-cycle/
+
+ACOG页面标注2023年5月更新、2024年11月复核；NHS页面标注2023年1月5日复核。访问核查日期均为2026-11-11；没有冒称2026年新研究。
+

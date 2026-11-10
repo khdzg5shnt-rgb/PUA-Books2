@@ -3,7 +3,7 @@
 截至2026-11-11，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B007](../knowledge/books/B007.md)当前102页可提取文字完成，24页关键图像已核；新增[S23摘要手册](../knowledge/books/S23-chen-summary-handbook.md)19页文字及版式已核，原视频与66/64去重未验证。原始书库16/119份文字完成、103份未通读，TOP30仍为30/30当前文字完成。[报告](../knowledge/provenance/B007_S23_completion_2026-11-11.md)和[CURRENT_STATE](../CURRENT_STATE.md)给出B008第1页断点与图像/原著限制。
+2026-11-11：[B008](../knowledge/books/B008.md)当前174页可提取文字完成，33页封面/图表/截图另核，141页版式未逐页审阅。原始书库现有文字17/119份完成、102份未通读；TOP30仍为30/30。23项上传、9个公开GitHub来源与158条来源总计不变。下一份B009第1页；[本轮报告](../knowledge/provenance/B008_completion_2026-11-11.md)保留版本、图像与证据限制。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。

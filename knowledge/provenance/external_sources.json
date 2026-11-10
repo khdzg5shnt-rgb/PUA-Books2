@@ -4636,6 +4636,44 @@
         "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
       },
       "python_checks": "both actually executed and passed;7 tests,56 synthetic route scenarios; identity,ranges,source counts,card sync and18 changed Markdown link checks passed"
+    },
+    {
+      "round_id": "B008-text-completion-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "0bf00789f0b41f412c388d40b1dec40c6fd542a3",
+      "status": "integrated_checks_passed",
+      "summary_note": "knowledge/provenance/B008_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B008_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B008_reading_2026-11-11.json",
+      "original_files_completed_this_round": [
+        "B008"
+      ],
+      "new_original_direct_read_characters": 147127,
+      "new_physical_file_pages_covered": 174,
+      "selected_visual_pages": 33,
+      "remaining_layout_pages_not_reviewed": 141,
+      "original_current_files_text_complete": 17,
+      "original_current_files_not_complete": 102,
+      "original_files_not_started": 102,
+      "upload_source_records": 23,
+      "all_source_records": 158,
+      "new_videos_or_original_papers_completed": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "next_work_unit": {
+        "id": "B009",
+        "path": "Chris《红丸觉醒3.0》.pdf",
+        "git_blob_sha": "d139d4669e8018b6480a759220bc2f97cc463701",
+        "bytes": 4048962,
+        "file_pages": 135,
+        "reading_status": "unread",
+        "start": "physical page1; verify original blob and current extraction identity before reading",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "not yet established as a published reading coordinate; verify or rebuild before first read",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "python_checks": "validate_os.py and20 unittest methods passed;84 synthetic routes; original identity and page coverage checked"
     }
   ],
   "public_reading_rounds": [

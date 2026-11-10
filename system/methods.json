@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.0.0",
+  "version": "1.3.0",
   "methods": [
     {
       "id": "M01",
@@ -252,6 +252,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页4、7–9：认真问题先答，意图未知不盖过字面",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/topics/relationship-clarity.md",
+          "locator": "关系问题先表达已确认意愿，不把接触当排他承诺",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -417,7 +422,7 @@
       "name": "有依据的可纠正观察",
       "use_when": "她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助",
       "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。 描述具体也不证明猜测正确；猜错时接受更正，不要求她为猜测解释。 没有足够事实时正常接话，不故意猜错来换取个人信息。",
-      "avoid": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。",
+      "avoid": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。 不按月经周期、外貌标签或SMV分数推断兴趣、人格或同意。",
       "sources": [
         {
           "path": "knowledge/books/S01-chen-five.md",
@@ -478,6 +483,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页8–9：观察和标签分开，不故意猜错换信息",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch01-06.md",
+          "locator": "物理页26–32取舍：周期与群体解释不能用于读心",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -585,7 +595,7 @@
       "id": "M10",
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
-      "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。 社交分享可以只是一段真实小经历加一个相关细节或感受，不必编冲突、高潮或悬念。",
+      "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。 社交分享可以只是一段真实小经历加一个相关细节或感受，不必编冲突、高潮或悬念。 可以说明一项真实压力、困难或需要，强度与关系和当前交流相符；不从一次反应推成永远不能表达脆弱，也不要求对方承担全部情绪。",
       "avoid": "移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。",
       "sources": [
         {
@@ -692,6 +702,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页6、11：真实素材、准备与自我表达，不伪造社交证明",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch07-13.md",
+          "locator": "物理页90–97取舍：真实自我表达，不接受单方因果归因的永久禁令",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -739,6 +754,11 @@
           "path": "knowledge/books/B003-ch14-19.md",
           "locator": "第14、18–19章：已表达的感受与不强迫披露",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch14-19-tail.md",
+          "locator": "物理页133–156取舍：理解感受与满足全部要求分开",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1136,6 +1156,11 @@
           "path": "knowledge/books/B007-ch06-07.md",
           "locator": "物理页42–47：观察连续实际投入，不从性别预设剥削动机",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch07-13.md",
+          "locator": "物理页55–85取舍：正常互助、真实停止加码与投入边界",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1250,6 +1275,11 @@
           "path": "knowledge/books/B005-ch09-13.md",
           "locator": "物理页116：关心的表象不能替代责任、修复和兑现",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch14-19-tail.md",
+          "locator": "物理页133–156取舍：不从单方复盘包揽错误或判所有沟通无效",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1260,7 +1290,7 @@
       "id": "M22",
       "name": "表达边界",
       "use_when": "她明确无礼、羞辱、施压，或用户需要表达一项真实限制",
-      "operation": "平静说清不接受的具体行为或一项真实限制，也可停止互动；可以保留真实感受。已发生的越界足以表达限制，不必先证明恶意。拒绝无需重大借口或补偿承诺；替代方案只在真实愿意且能做到时给。正常分歧不升级为攻击，理解处境不取消承诺与责任。",
+      "operation": "平静说清不接受的具体行为或一项真实限制，也可停止互动；可以保留真实感受。已发生的越界足以表达限制，不必先证明恶意。拒绝无需重大借口或补偿承诺；替代方案只在真实愿意且能做到时给。正常分歧不升级为攻击，理解处境不取消承诺与责任。 自己的界限管理自己的参与方式，不等于要求对方服从或接管她的选择。",
       "avoid": "为了证明男人感互骂；默认要求用户讨好退让。 不用“允许一切”取消履约、分工与具体边界，不要求忍耐羞辱证明自己强大。 没有双方过错证据时，不写成双方都有问题。",
       "sources": [
         {
@@ -1332,6 +1362,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页12、15：双方分工与选择，不预定男性单向主导",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/topics/relationship-clarity.md",
+          "locator": "自己的真实限制不等于控制伴侣",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1343,7 +1378,7 @@
       "name": "尊重拒绝的具体范围",
       "use_when": "她明确拒绝联系、恋爱发展、某种身体行为、活动或转移联系方式",
       "operation": "停止所拒绝的方向，不改写为隐性同意。拒绝活动、渠道和关系分别核对；拒绝换平台时不再索取新联系方式，是否继续原平台交流依据她的原话。用户也可因不兼容或不愿继续而退出。",
-      "avoid": "用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。 不以接吻测验或识破社交面具为由先越界再等拒绝；不因拒绝联系方式贬低人品。",
+      "avoid": "用阶段、LMR、所谓象征性抵抗、信号数、时长、服从百分比、恋爱身份、未反抗、朋友许可或服从测试覆盖本人当前意愿；上门、反复测试，或要求拒绝者解释、道歉、补偿。 不以接吻测验或识破社交面具为由先越界再等拒绝；不因拒绝联系方式贬低人品。 身体反应、过去亲近、恋爱身份与花费都不替代当前自愿；不单方控制生育或把性视为伴侣义务。",
       "sources": [
         {
           "path": "CHAT_GUIDANCE_PLAYBOOK.md",
@@ -1454,6 +1489,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页11、13、15、19：拒绝优先于假性抗拒命名",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B008-ch14-19-tail.md",
+          "locator": "物理页157–158逐条取舍：不以框架、关系或生育规则绕过本人意愿",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",

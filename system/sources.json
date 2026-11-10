@@ -85,9 +85,12 @@
       "group": "books2_original_snapshot",
       "title": "Chris《红丸觉醒2.0》.pdf",
       "git_blob_sha": "e04d50c9c958a19c8d5fa3cde5c502c3ad2b37e8",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B008.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B008_reading_2026-11-11.json",
+      "original_publication_complete": false,
+      "coverage_mode": "direct_ordered_all_current_pdf_extractable_text_and33_selected_visual_pages"
     },
     {
       "id": "B009",
@@ -1497,23 +1500,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 16,
+    "current_book_files_text_complete": 17,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 103
+    "current_book_files_not_started": 102
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B008",
-    "path": "Chris《红丸觉醒2.0》.pdf",
-    "git_blob_sha": "e04d50c9c958a19c8d5fa3cde5c502c3ad2b37e8",
-    "bytes": 23214234,
-    "file_pages": 174,
+    "id": "B009",
+    "path": "Chris《红丸觉醒3.0》.pdf",
+    "git_blob_sha": "d139d4669e8018b6480a759220bc2f97cc463701",
+    "bytes": 4048962,
+    "file_pages": 135,
     "reading_status": "unread",
-    "start": "physical page1; verify original blob, rebuild current extraction, then read from first character",
+    "start": "physical page1; verify original blob and current extraction identity before reading",
     "next_file_page": 1,
     "next_character": 0,
-    "current_extraction_identity": "not yet established in this round; old inventory coordinates do not establish reading",
+    "current_extraction_identity": "not yet established as a published reading coordinate; verify or rebuild before first read",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
   }
 }

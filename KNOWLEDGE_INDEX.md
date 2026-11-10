@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-11：原始书库当前16/119份现有文字完成、103份未通读；新增[B007](knowledge/books/B007.md)当前102页可提取文字，并核24页关键图像。新增上传[S23方法手册](knowledge/books/S23-chen-summary-handbook.md)19页已读，其原视频和66/64去重数字未核。TOP30仍为30/30当前文字完成。[本轮报告](knowledge/provenance/B007_S23_completion_2026-11-11.md)与[CURRENT_STATE](CURRENT_STATE.md)给出范围与B008第1页断点。
+2026-11-11：[B008](knowledge/books/B008.md)当前174页可提取文字完成，33页封面/图表/截图另核，141页版式未逐页审阅。原始书库现有文字17/119份完成、102份未通读；TOP30仍为30/30。23项上传、9个公开GitHub来源与158条来源总计不变。下一份B009第1页；[本轮报告](knowledge/provenance/B008_completion_2026-11-11.md)保留版本、图像与证据限制。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前16/119份现有文字覆盖完成，103份尚未通读。B007全部当前可提取文字已读，24页视觉核对，剩余78页版式仍未逐页审阅；文件名与封面署名不同，英文原著未核。此前B003版次、B004版式、B006删节、B043/B092缺章及B046复用范围保留，不能把当前文件完成升级为原著全本掌握。
+当前17/119份现有文字覆盖完成，102份尚未通读。B008当前174页可提取文字完成，33页视觉核对，剩余141页版式未逐页核；文件名与封面第二版署名不同，英文原著未核。B007、B003版次、B004版式、B006删节及B043/B092等缺口沿用逐书笔记。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

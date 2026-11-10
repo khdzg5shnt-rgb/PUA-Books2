@@ -25,3 +25,5 @@ python scripts/search_knowledge.py '没给替代时间'
 - [B007/S23检查](../knowledge/provenance/B007_S23_validation_2026-11-11.json)。
 
 历史报告里的测试数与阅读数属于其当时范围，不覆盖这次实际检查。
+
+2026-11-11续读B008：当前17/119份现有文字完成；结构与20项测试通过，84个虚构路由场景不增加。另核原始blob、新提取身份、174页和15段连续范围、33页视觉与141页未核版式、方法卡及新笔记链接。真实输出见[B008检查](../knowledge/provenance/B008_validation_2026-11-11.json)，范围见[完成报告](../knowledge/provenance/B008_completion_2026-11-11.md)。
