@@ -1,6 +1,6 @@
 # E01｜研究核验与导师主张的边界
 
-本页只收已核验论文。研究结论不证明整套PUA、不证明某位导师的成功率，也不证明某条代回消息。以下使用范围为研究发现与本项目取舍的对照，具体草稿本身没有实验验证。
+本页收录已核验的研究题录，以及明确标注的作者澄清资料。题录核验、摘要阅读与全文阅读分开。研究结论不证明整套PUA、不证明某位导师的成功率，也不证明某条代回消息。以下使用范围为研究发现与本项目取舍的对照，具体草稿本身没有实验验证。
 
 ## 幽默与吸引
 
@@ -31,3 +31,32 @@ Antonakis, J., Fenley, M., & Liechti, S. (2011). Can charisma be taught? Tests o
 - 卷期是2011年9月，网页在线日期另列2012年2月10日，不将在线页面年份误作卷期年份。
 - 摘要中的两项干预涉及34名中层经理、41名MBA演讲者，评价对象是领导魅力及相关领导评价；这里只依据摘要，不扩写未读的方法和结果。
 - 这不是微信对话或约会研究，不能推出魅力完全不是先天的、女生一定喜欢某种风格或某一句回复有效。B004把领导训练外推为一般吸引的部分不获得自动背书。
+
+## 身体姿势：自我感受不等于激素或约会吸引
+
+Körner, R., Röseler, L., Schütz, A., & Bushman, B. J. (2022). Dominance and prestige: Meta-analytic review of experimentally induced body position effects on behavioral, self-report, and physiological dependent variables. *Psychological Bulletin, 148*(1–2), 67–85. https://doi.org/10.1037/bul0000356
+
+- 2026-11-10核对作者机构题录与[出版商说明](https://www.apa.org/pubs/highlights/spotlight/issue-239)。DOI直开受robots限制，未读论文全文；不把出版商说明算成元分析全文阅读。
+- 姿势对自报感受的结果，与激素、生理指标及行为结果不能混同；出版商说明没有支持激素变化，并指出行为结果受偏倚等限制。
+- B004身体语言与自信章节不能据此宣称某姿势提高激素、让别人喜欢，或保证约会成功。可以舒适自然地表达，但不是经验证的恋爱按钮。
+
+## 7/38/55的原作者澄清
+
+核验资料：[Albert Mehrabian本人关于Silent Messages的说明](https://www.kaaj.com/psych/smorder.html)，2026-11-10实际读取。这是作者澄清网页，不冒称新同行评审论文；版本年份未完全统一，不编写已核实的图书版次引用。
+
+作者把该公式限定在表达感受、态度且线索不一致等研究情境，不适用于所有沟通。B004将93%或7/38/55写成普遍沟通占比的部分不采用；文字聊天、认真问题和明确拒绝不能被所谓身体语言权重覆盖。
+
+## 眼动方向与说谎：不能按简单规则识别
+
+Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don’t have it: Lie detection and neuro-linguistic programming. *PLOS ONE, 7*(7), e40259. https://doi.org/10.1371/journal.pone.0040259
+
+- 核验入口：[出版商原文](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040259)，2026-11-10实际核题录、摘要及部分正文，未逐节读完全文。
+- 摘要报告的三项研究不支持所测NLP眼动测谎说法；这不等于眼睛没有任何交流作用。
+- 因此不把B004的眼动、感官类型或单个动作当作读心方法，也不反过来用另一种眼神保证对方诚实。
+
+Vrij, A., Hartwig, M., & Granhag, P. A. (2019). Reading lies: Nonverbal communication and deception. *Annual Review of Psychology, 70*, 295–317. https://doi.org/10.1146/annurev-psych-010418-103135
+
+- 核验入口：[出版商题录与摘要](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-010418-103135)，2026-11-10实际读取；未读全文。
+- 摘要强调非语言欺骗线索弱且不可靠；不能凭一个动作判定撒谎，更不能把测谎综述改写成恋爱兴趣或同意研究。
+
+以上核验是对B004具体说法的有限校正，不构成对全书、全部NLP、所有非语言研究或本系统回复效果的穷尽判断。

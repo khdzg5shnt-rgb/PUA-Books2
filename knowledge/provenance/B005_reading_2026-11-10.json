@@ -1,0 +1,1609 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "baseline_main": "f8cd512cadabce803fc1bdf6733c892ec9267517",
+  "round_id": "B005-completion-2026-11-10",
+  "records": [
+    {
+      "id": "B005",
+      "bytes": 599036,
+      "git_blob_sha": "6b7a9ae7654650919b8f2d0f56670782531be5f0",
+      "sha256": "04b40eb1c95deaff870f61e1ceae45a4c5933885f4b3040d56720015a147a0af",
+      "file_pages": 131,
+      "path": "Banned Charisma Secrets Unleashed Learn The Secrets Of Personal Magnetism And How To Attract, Inspire, Impress, Influence(Smith, Daniel) .pdf",
+      "reading_status": "provided_file_text_complete",
+      "notes": [
+        "knowledge/books/B005.md",
+        "knowledge/books/B005-ch01-04.md",
+        "knowledge/books/B005-ch05-08.md",
+        "knowledge/books/B005-ch09-13.md"
+      ],
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True); explicit physical page markers; current coordinates distinct from old inventory",
+        "characters": 210465,
+        "sha256": "d734f8356bde638de0e35e0d9a0c2f963d1cef54fd06f77ccf24fcde6bf9b2f5",
+        "coordinates": "decoded Unicode code points including explicit physical page markers; half-open",
+        "old_inventory_characters_preserved": 210858
+      },
+      "read_file_pages": [
+        1,
+        131
+      ],
+      "read_range": [
+        0,
+        210465
+      ],
+      "new_direct_read_characters": 210465,
+      "unread_file_pages": [],
+      "next_file_page": null,
+      "next_character": null,
+      "visual_review_pages": [
+        1,
+        131
+      ],
+      "all_embedded_raster_image_pages_reviewed": true,
+      "all_pages_visually_reviewed": false,
+      "original_publication_complete": false,
+      "raw_or_extracted_text_archived": false,
+      "reading_chunks": [
+        {
+          "file_pages": [
+            1,
+            12
+          ],
+          "range": [
+            0,
+            18502
+          ],
+          "sha256": "035e3d8fb4b32e843037ef17d61ab94511a639995d46bc237a42cc29d644cfd3"
+        },
+        {
+          "file_pages": [
+            13,
+            25
+          ],
+          "range": [
+            18502,
+            40355
+          ],
+          "sha256": "f59d6f5066847bef96662eba3414b90d55658df1f0a97ba4b86f497dc7b5d909"
+        },
+        {
+          "file_pages": [
+            26,
+            39
+          ],
+          "range": [
+            40355,
+            62482
+          ],
+          "sha256": "5226bd903102c13392442e49f267959c4aaf4f7dd08a77faccd4a4b1a770a464"
+        },
+        {
+          "file_pages": [
+            40,
+            53
+          ],
+          "range": [
+            62482,
+            84337
+          ],
+          "sha256": "ff559bc225bc5de52a33af20010c8bfe41f1b4bf14ec837769314a4530f1cff4"
+        },
+        {
+          "file_pages": [
+            54,
+            67
+          ],
+          "range": [
+            84337,
+            107102
+          ],
+          "sha256": "29843f1058f3885a92b095117e05d883eb44b34dc2f7f5677088414345d691e5"
+        },
+        {
+          "file_pages": [
+            68,
+            81
+          ],
+          "range": [
+            107102,
+            128436
+          ],
+          "sha256": "0a6443a5bef8d1ff86e55854433cad2b407d2076d84d9aec568eee09c7b49e19"
+        },
+        {
+          "file_pages": [
+            82,
+            95
+          ],
+          "range": [
+            128436,
+            152427
+          ],
+          "sha256": "cde500abaf5d8dec9e68b3b3d2a8c34ee0047231b8dc604b9e5a0250b7127fc3"
+        },
+        {
+          "file_pages": [
+            96,
+            109
+          ],
+          "range": [
+            152427,
+            176674
+          ],
+          "sha256": "39b3eaf2d98afe7d6e00b2ff7411e04d19f6b48aab9ebbac701c691cb71099b3"
+        },
+        {
+          "file_pages": [
+            110,
+            123
+          ],
+          "range": [
+            176674,
+            199965
+          ],
+          "sha256": "20ff6a1d47fe3f25817dc56af433676428b5d5580fb704b54119a8abbbeb5d57"
+        },
+        {
+          "file_pages": [
+            124,
+            131
+          ],
+          "range": [
+            199965,
+            210465
+          ],
+          "sha256": "0fc568e1f4c79a885e258ad25772d3ddf9b66c0b74b6d470a70000c9dfdb3c11"
+        }
+      ],
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            24
+          ],
+          "body_characters": 0,
+          "images": 1,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": true
+        },
+        {
+          "page": 2,
+          "range": [
+            24,
+            370
+          ],
+          "body_characters": 322,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 3,
+          "range": [
+            370,
+            1068
+          ],
+          "body_characters": 674,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 4,
+          "range": [
+            1068,
+            2650
+          ],
+          "body_characters": 1558,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 5,
+          "range": [
+            2650,
+            4158
+          ],
+          "body_characters": 1484,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 6,
+          "range": [
+            4158,
+            6571
+          ],
+          "body_characters": 2389,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 7,
+          "range": [
+            6571,
+            9245
+          ],
+          "body_characters": 2650,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 8,
+          "range": [
+            9245,
+            11751
+          ],
+          "body_characters": 2482,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 9,
+          "range": [
+            11751,
+            14410
+          ],
+          "body_characters": 2635,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 10,
+          "range": [
+            14410,
+            15622
+          ],
+          "body_characters": 1187,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 11,
+          "range": [
+            15622,
+            17055
+          ],
+          "body_characters": 1408,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 12,
+          "range": [
+            17055,
+            18502
+          ],
+          "body_characters": 1422,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 13,
+          "range": [
+            18502,
+            20165
+          ],
+          "body_characters": 1638,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 14,
+          "range": [
+            20165,
+            21993
+          ],
+          "body_characters": 1803,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 15,
+          "range": [
+            21993,
+            23501
+          ],
+          "body_characters": 1483,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 16,
+          "range": [
+            23501,
+            25080
+          ],
+          "body_characters": 1554,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 17,
+          "range": [
+            25080,
+            26776
+          ],
+          "body_characters": 1671,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 18,
+          "range": [
+            26776,
+            28395
+          ],
+          "body_characters": 1594,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 19,
+          "range": [
+            28395,
+            30097
+          ],
+          "body_characters": 1677,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 20,
+          "range": [
+            30097,
+            31808
+          ],
+          "body_characters": 1686,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 21,
+          "range": [
+            31808,
+            33498
+          ],
+          "body_characters": 1665,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 22,
+          "range": [
+            33498,
+            35152
+          ],
+          "body_characters": 1629,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 23,
+          "range": [
+            35152,
+            36939
+          ],
+          "body_characters": 1762,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 24,
+          "range": [
+            36939,
+            38649
+          ],
+          "body_characters": 1685,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 25,
+          "range": [
+            38649,
+            40355
+          ],
+          "body_characters": 1681,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 26,
+          "range": [
+            40355,
+            41808
+          ],
+          "body_characters": 1428,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 27,
+          "range": [
+            41808,
+            43523
+          ],
+          "body_characters": 1690,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 28,
+          "range": [
+            43523,
+            45068
+          ],
+          "body_characters": 1520,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 29,
+          "range": [
+            45068,
+            46684
+          ],
+          "body_characters": 1591,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 30,
+          "range": [
+            46684,
+            47521
+          ],
+          "body_characters": 812,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 31,
+          "range": [
+            47521,
+            49052
+          ],
+          "body_characters": 1506,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 32,
+          "range": [
+            49052,
+            50822
+          ],
+          "body_characters": 1745,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 33,
+          "range": [
+            50822,
+            52614
+          ],
+          "body_characters": 1767,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 34,
+          "range": [
+            52614,
+            54354
+          ],
+          "body_characters": 1715,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 35,
+          "range": [
+            54354,
+            56019
+          ],
+          "body_characters": 1640,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 36,
+          "range": [
+            56019,
+            57884
+          ],
+          "body_characters": 1840,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 37,
+          "range": [
+            57884,
+            59412
+          ],
+          "body_characters": 1503,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 38,
+          "range": [
+            59412,
+            60913
+          ],
+          "body_characters": 1476,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 39,
+          "range": [
+            60913,
+            62482
+          ],
+          "body_characters": 1544,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 40,
+          "range": [
+            62482,
+            64164
+          ],
+          "body_characters": 1657,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 41,
+          "range": [
+            64164,
+            65757
+          ],
+          "body_characters": 1568,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 42,
+          "range": [
+            65757,
+            67198
+          ],
+          "body_characters": 1416,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 43,
+          "range": [
+            67198,
+            68833
+          ],
+          "body_characters": 1610,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 44,
+          "range": [
+            68833,
+            70161
+          ],
+          "body_characters": 1303,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 45,
+          "range": [
+            70161,
+            71828
+          ],
+          "body_characters": 1642,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 46,
+          "range": [
+            71828,
+            73350
+          ],
+          "body_characters": 1497,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 47,
+          "range": [
+            73350,
+            74863
+          ],
+          "body_characters": 1488,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 48,
+          "range": [
+            74863,
+            76531
+          ],
+          "body_characters": 1643,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 49,
+          "range": [
+            76531,
+            78264
+          ],
+          "body_characters": 1708,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 50,
+          "range": [
+            78264,
+            79762
+          ],
+          "body_characters": 1473,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 51,
+          "range": [
+            79762,
+            81128
+          ],
+          "body_characters": 1341,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 52,
+          "range": [
+            81128,
+            82588
+          ],
+          "body_characters": 1435,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 53,
+          "range": [
+            82588,
+            84337
+          ],
+          "body_characters": 1724,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 54,
+          "range": [
+            84337,
+            86014
+          ],
+          "body_characters": 1652,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 55,
+          "range": [
+            86014,
+            87484
+          ],
+          "body_characters": 1445,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 56,
+          "range": [
+            87484,
+            89259
+          ],
+          "body_characters": 1750,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 57,
+          "range": [
+            89259,
+            90871
+          ],
+          "body_characters": 1587,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 58,
+          "range": [
+            90871,
+            92470
+          ],
+          "body_characters": 1574,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 59,
+          "range": [
+            92470,
+            93966
+          ],
+          "body_characters": 1471,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 60,
+          "range": [
+            93966,
+            95667
+          ],
+          "body_characters": 1676,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 61,
+          "range": [
+            95667,
+            97081
+          ],
+          "body_characters": 1389,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 62,
+          "range": [
+            97081,
+            98662
+          ],
+          "body_characters": 1556,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 63,
+          "range": [
+            98662,
+            100291
+          ],
+          "body_characters": 1604,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 64,
+          "range": [
+            100291,
+            101964
+          ],
+          "body_characters": 1648,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 65,
+          "range": [
+            101964,
+            103693
+          ],
+          "body_characters": 1704,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 66,
+          "range": [
+            103693,
+            105536
+          ],
+          "body_characters": 1818,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 67,
+          "range": [
+            105536,
+            107102
+          ],
+          "body_characters": 1541,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 68,
+          "range": [
+            107102,
+            108713
+          ],
+          "body_characters": 1586,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 69,
+          "range": [
+            108713,
+            110602
+          ],
+          "body_characters": 1864,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 70,
+          "range": [
+            110602,
+            110801
+          ],
+          "body_characters": 174,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 71,
+          "range": [
+            110801,
+            112188
+          ],
+          "body_characters": 1362,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 72,
+          "range": [
+            112188,
+            113842
+          ],
+          "body_characters": 1629,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 73,
+          "range": [
+            113842,
+            115510
+          ],
+          "body_characters": 1643,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 74,
+          "range": [
+            115510,
+            117191
+          ],
+          "body_characters": 1656,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 75,
+          "range": [
+            117191,
+            118843
+          ],
+          "body_characters": 1627,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 76,
+          "range": [
+            118843,
+            120331
+          ],
+          "body_characters": 1463,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 77,
+          "range": [
+            120331,
+            122026
+          ],
+          "body_characters": 1670,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 78,
+          "range": [
+            122026,
+            123753
+          ],
+          "body_characters": 1702,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 79,
+          "range": [
+            123753,
+            125193
+          ],
+          "body_characters": 1415,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 80,
+          "range": [
+            125193,
+            126713
+          ],
+          "body_characters": 1495,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 81,
+          "range": [
+            126713,
+            128436
+          ],
+          "body_characters": 1698,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 82,
+          "range": [
+            128436,
+            130157
+          ],
+          "body_characters": 1696,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 83,
+          "range": [
+            130157,
+            131853
+          ],
+          "body_characters": 1671,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 84,
+          "range": [
+            131853,
+            133590
+          ],
+          "body_characters": 1712,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 85,
+          "range": [
+            133590,
+            135385
+          ],
+          "body_characters": 1770,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 86,
+          "range": [
+            135385,
+            137062
+          ],
+          "body_characters": 1652,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 87,
+          "range": [
+            137062,
+            138480
+          ],
+          "body_characters": 1393,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 88,
+          "range": [
+            138480,
+            140004
+          ],
+          "body_characters": 1499,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 89,
+          "range": [
+            140004,
+            141667
+          ],
+          "body_characters": 1638,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 90,
+          "range": [
+            141667,
+            143438
+          ],
+          "body_characters": 1746,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 91,
+          "range": [
+            143438,
+            145143
+          ],
+          "body_characters": 1680,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 92,
+          "range": [
+            145143,
+            147117
+          ],
+          "body_characters": 1949,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 93,
+          "range": [
+            147117,
+            148967
+          ],
+          "body_characters": 1825,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 94,
+          "range": [
+            148967,
+            150764
+          ],
+          "body_characters": 1772,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 95,
+          "range": [
+            150764,
+            152427
+          ],
+          "body_characters": 1638,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 96,
+          "range": [
+            152427,
+            154263
+          ],
+          "body_characters": 1811,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 97,
+          "range": [
+            154263,
+            155316
+          ],
+          "body_characters": 1028,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 98,
+          "range": [
+            155316,
+            156916
+          ],
+          "body_characters": 1575,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 99,
+          "range": [
+            156916,
+            158675
+          ],
+          "body_characters": 1734,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 100,
+          "range": [
+            158675,
+            160570
+          ],
+          "body_characters": 1869,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 101,
+          "range": [
+            160570,
+            162333
+          ],
+          "body_characters": 1737,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 102,
+          "range": [
+            162333,
+            164043
+          ],
+          "body_characters": 1684,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 103,
+          "range": [
+            164043,
+            165851
+          ],
+          "body_characters": 1782,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 104,
+          "range": [
+            165851,
+            167619
+          ],
+          "body_characters": 1742,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 105,
+          "range": [
+            167619,
+            169512
+          ],
+          "body_characters": 1867,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 106,
+          "range": [
+            169512,
+            171301
+          ],
+          "body_characters": 1763,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 107,
+          "range": [
+            171301,
+            173296
+          ],
+          "body_characters": 1969,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 108,
+          "range": [
+            173296,
+            174828
+          ],
+          "body_characters": 1506,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 109,
+          "range": [
+            174828,
+            176674
+          ],
+          "body_characters": 1820,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 110,
+          "range": [
+            176674,
+            178540
+          ],
+          "body_characters": 1840,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 111,
+          "range": [
+            178540,
+            180314
+          ],
+          "body_characters": 1748,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 112,
+          "range": [
+            180314,
+            182214
+          ],
+          "body_characters": 1874,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 113,
+          "range": [
+            182214,
+            184194
+          ],
+          "body_characters": 1954,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 114,
+          "range": [
+            184194,
+            185780
+          ],
+          "body_characters": 1560,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 115,
+          "range": [
+            185780,
+            187563
+          ],
+          "body_characters": 1757,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 116,
+          "range": [
+            187563,
+            189288
+          ],
+          "body_characters": 1699,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 117,
+          "range": [
+            189288,
+            191166
+          ],
+          "body_characters": 1852,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 118,
+          "range": [
+            191166,
+            192920
+          ],
+          "body_characters": 1728,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 119,
+          "range": [
+            192920,
+            193238
+          ],
+          "body_characters": 292,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 120,
+          "range": [
+            193238,
+            194807
+          ],
+          "body_characters": 1543,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 121,
+          "range": [
+            194807,
+            196624
+          ],
+          "body_characters": 1791,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 122,
+          "range": [
+            196624,
+            198251
+          ],
+          "body_characters": 1601,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 123,
+          "range": [
+            198251,
+            199965
+          ],
+          "body_characters": 1688,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 124,
+          "range": [
+            199965,
+            201543
+          ],
+          "body_characters": 1552,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 125,
+          "range": [
+            201543,
+            203146
+          ],
+          "body_characters": 1577,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 126,
+          "range": [
+            203146,
+            204867
+          ],
+          "body_characters": 1695,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 127,
+          "range": [
+            204867,
+            205410
+          ],
+          "body_characters": 517,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 128,
+          "range": [
+            205410,
+            207000
+          ],
+          "body_characters": 1564,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 129,
+          "range": [
+            207000,
+            208756
+          ],
+          "body_characters": 1730,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 130,
+          "range": [
+            208756,
+            210081
+          ],
+          "body_characters": 1299,
+          "images": 0,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": false
+        },
+        {
+          "page": 131,
+          "range": [
+            210081,
+            210465
+          ],
+          "body_characters": 358,
+          "images": 5,
+          "reading_status": "read_current_page_text",
+          "actual_visual_review": true
+        }
+      ],
+      "visual_scope": "actual cover and footer pages; not all131-page layout review",
+      "version_limit": "all13 current chapters present; original edition completeness unverified"
+    }
+  ],
+  "new_direct_read_characters": 210465,
+  "checks_cannot_prove_reading_behavior": true
+}

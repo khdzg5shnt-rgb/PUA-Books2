@@ -17,7 +17,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-10：TOP30全部30份现有文字覆盖完整；原乱码水印已恢复，原著与图像缺口另计。[TOP30报告](knowledge/provenance/TOP30_completion_2026-11-10.md)记录前次范围；后续已读完[B003当前EPUB与两图](knowledge/books/B003.md)，[B004](knowledge/books/B004.md)读至物理页65/545。原始书库当前12/119份现有文字覆盖完成、107份未通读；最新断点为B004第66页，见[CURRENT_STATE](CURRENT_STATE.md)。
+2026-11-10：TOP30全部30份现有文字覆盖完整；后续[B004](knowledge/books/B004.md)、[B005](knowledge/books/B005.md)、[B006](knowledge/books/B006.md)现有文件文字均已读完。原始书库当前15/119份完成、104份未通读；精确下一份B007第1页，见[CURRENT_STATE](CURRENT_STATE.md)。[本轮报告](knowledge/provenance/B004_B006_completion_2026-11-10.md)保留实际分段、译本和图像限制。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -26,9 +26,9 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前12/119份现有文字覆盖完成，107份尚未通读（B004局部已读至65页，另106份未开始通读）。B043仅前言、第一步和附加文章，B046通过逐页文字比对复用已有阅读。B092的90页仅含前三章，目录后六章缺失。B003当前27章和两图已读，正式版次未核。其他节选、译本、二次整理、图像覆盖均见逐书笔记，不能把“现有正文完成”升级为原著全本掌握。
+当前15/119份现有文字覆盖完成，104份尚未通读。B004当前545页、B005当前131页和B006当前55页全部提取文字已读；图像和版次限制分别保留。B043仅前言、第一步和附加文章，B046通过逐页文字比对复用已有阅读，B092的90页仅含前三章，B003正式版次未核，B006译者自述删节。不能把当前文件完成升级为原著全本掌握。
 
-本轮[B003分章笔记和B004局部笔记](knowledge/provenance/B003_completion_2026-11-10.md)已接入现有方法；[逐单元台账](knowledge/provenance/B003_B004_reading_2026-11-10.json)保存原文件身份、实际覆盖与下一断点。下方带日期条目是历史记录，遇到旧断点以CURRENT_STATE为准。
+本轮新增[B004分章](knowledge/books/B004.md)、[B005分组](knowledge/books/B005.md)、[B006形象笔记](knowledge/books/B006.md)与[日常回复动作](knowledge/topics/natural-response-actions.md)。[本轮报告](knowledge/provenance/B004_B006_completion_2026-11-10.md)链接三份逐页台账，保存文件身份、实际阅读区间与未认证部分；[研究记录](knowledge/topics/evidence.md)另标明题录、摘要与全文范围。下方带日期条目是历史记录，遇到旧断点以CURRENT_STATE为准。
 
 外部来源另计：S01现有正文和9张教学图已读；S02的207页现有文字读完，第四式正文和引用图缺失，见[逐章入口](knowledge/books/S02-chen-twelve.md)。S04全部30条现有文字覆盖完整，原乱码水印已可逆恢复，原著和图像缺口另计；其中Mystery当前TXT九章及文后资料、Tyler英文合集33篇及词表全部已读，Adam TXT与B047同作品有已核版本差异。原PDF及原始版本缺口分别保留。9个公开GitHub来源按文件记录，未通读九个整仓；6个项目38篇文档与6份许可证实际归档（系统轮补读16篇项目文档，其中11篇归档），其余保留原创研究笔记。
 

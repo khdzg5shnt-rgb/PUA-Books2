@@ -4435,6 +4435,71 @@
       },
       "reference_check": "Antonakis et al.2011 bibliographic identity and publisher abstract only; direct publisher open403; not full paper read",
       "python_checks": "both actually executed and passed; 7 tests, 56 synthetic route scenarios"
+    },
+    {
+      "round_id": "B004-B006-completion-2026-11-10",
+      "date": "2026-11-10",
+      "baseline_main": "f8cd512cadabce803fc1bdf6733c892ec9267517",
+      "status": "content_integrated_and_all_required_checks_passed",
+      "summary_note": "knowledge/provenance/B004_B006_completion_2026-11-10.md",
+      "validation_record": "knowledge/provenance/B004_B006_validation_2026-11-10.json",
+      "original_reading_ledgers": [
+        "knowledge/provenance/B004_completion_reading_2026-11-10.json",
+        "knowledge/provenance/B005_reading_2026-11-10.json",
+        "knowledge/provenance/B006_reading_2026-11-10.json"
+      ],
+      "original_files_completed_this_round": [
+        "B004",
+        "B005",
+        "B006"
+      ],
+      "original_files_partially_read_this_round": {},
+      "new_original_direct_read_characters": 830422,
+      "new_physical_file_pages_covered": 666,
+      "original_current_files_text_complete": 15,
+      "original_current_files_not_complete": 104,
+      "original_files_not_started": 104,
+      "methods_substantively_changed": [
+        "M04",
+        "M09",
+        "M12",
+        "M21"
+      ],
+      "methods_source_mappings_extended": [
+        "M01",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M09",
+        "M10",
+        "M12",
+        "M14",
+        "M15",
+        "M20",
+        "M21",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "new_editorial_examples": "knowledge/topics/natural-response-actions.md; six separate synthetic situations, not private chats or effectiveness evidence",
+      "next_work_unit": {
+        "id": "B007",
+        "path": "Chris《红丸觉醒1.0》.pdf",
+        "git_blob_sha": "c7bdad74828039af0b9237e433ad3210f1597e7f",
+        "bytes": 10509960,
+        "file_pages": 102,
+        "reading_status": "unread",
+        "start": "physical page1; verify raw identity, rebuild current extraction, then read from first character",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "not yet established in this round; do not reuse old inventory character coordinates",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "reference_checks": "Körner et al.2022, Wiseman et al.2012, Vrij et al.2019 bibliographic/publisher abstract or explanatory materials checked; none of these papers fully read; Mehrabian author clarification page read",
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "python_checks": "both actually executed and passed; 7 tests,56 synthetic route scenarios; raw identity,ranges,counts,card sync and28 changed Markdown link checks passed"
     }
   ],
   "public_reading_rounds": [

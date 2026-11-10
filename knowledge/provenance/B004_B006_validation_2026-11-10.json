@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-10",
+  "round_id": "B004-B006-completion-2026-11-10",
+  "baseline_main": "f8cd512cadabce803fc1bdf6733c892ec9267517",
+  "status": "all_required_and_scope_checks_passed",
+  "required_checks": [
+    {
+      "name": "structure",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 157,\n  \"archived_files\": 44,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.141s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "raw_originals_unchanged_in_changeset": true,
+    "raw_source_identities_verified": [
+      "B004",
+      "B005",
+      "B006"
+    ],
+    "books": {
+      "B004": {
+        "file_pages": 545,
+        "new_page_text_read": 480,
+        "new_direct_read_characters": 596776,
+        "raster_image_pages_reviewed": [
+          1,
+          12,
+          545
+        ],
+        "all_page_layout_review": false
+      },
+      "B005": {
+        "file_pages": 131,
+        "new_page_text_read": 131,
+        "new_direct_read_characters": 210465,
+        "raster_image_pages_reviewed": [
+          1,
+          131
+        ],
+        "all_page_layout_review": false
+      },
+      "B006": {
+        "file_pages": 55,
+        "new_page_text_read": 55,
+        "new_direct_read_characters": 23181,
+        "raster_image_pages_reviewed": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          37,
+          38,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50
+        ],
+        "all_page_layout_review": false
+      }
+    },
+    "new_direct_read_characters": 830422,
+    "new_file_page_ranges": 666,
+    "original_book_counts": {
+      "provided_file_text_complete": 15,
+      "unread": 104
+    },
+    "method_card_json_sync": 26,
+    "next_work_unit": "B007 physical page1",
+    "changed_markdown_files_links_checked": 28,
+    "checks_do_not_prove_reading_behavior_or_dating_effectiveness": true
+  },
+  "limitations": "Metadata and routing checks do not prove actual reading, all-page visual understanding, psychological mechanisms, screenshot recognition or dating outcomes; original publication completeness is not certified."
+}

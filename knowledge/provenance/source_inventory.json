@@ -95,7 +95,7 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Alpha%20Male%20Bible%20Become%20a%20Casanova%20Learn%20Charisma%2C%20Confidence%2C%20Self-Hypnosis%2C%20Dating%20Strategies%2C%20Psychology%20of%20Attraction.pdf",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "note": "knowledge/books/B004.md",
       "pages": 545,
       "spine_items": null,
@@ -107,11 +107,10 @@
       "edition_status": "unverified_original_edition_completeness",
       "latest_reading": {
         "date": "2026-11-10",
-        "ledger": "knowledge/provenance/B003_B004_reading_2026-11-10.json",
-        "coverage_mode": "direct_file_pages1-65_with_two_image_pages",
-        "scope": "physical pages1-65 of545; pages66-545 unread",
-        "next_file_page": 66,
-        "next_character": 78416
+        "ledger": "knowledge/provenance/B004_completion_reading_2026-11-10.json",
+        "coverage_mode": "direct_ordered_current_pdf_text_with_all_raster_image_page_regions_reviewed",
+        "scope": "all current physical pages1-545 extractable text; embedded-raster image pages reviewed; not all-page layout or original-edition certification",
+        "previous_scope": "pages1-65 read in prior ledger; this round reads66-545"
       }
     },
     {
@@ -127,8 +126,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Banned%20Charisma%20Secrets%20Unleashed%20Learn%20The%20Secrets%20Of%20Personal%20Magnetism%20And%20How%20To%20Attract%2C%20Inspire%2C%20Impress%2C%20Influence%28Smith%2C%20Daniel%29%20.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B005.md",
       "pages": 131,
       "spine_items": null,
       "ocr": {
@@ -136,7 +135,13 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "latest_reading": {
+        "date": "2026-11-10",
+        "ledger": "knowledge/provenance/B005_reading_2026-11-10.json",
+        "coverage_mode": "direct_ordered_current_pdf_text_with_all_raster_image_page_regions_reviewed",
+        "scope": "all current physical pages1-131 extractable text; embedded-raster image pages reviewed; not all-page layout or original-edition certification"
+      }
     },
     {
       "index": 6,
@@ -151,8 +156,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Brad%20P%20%E6%97%B6%E5%B0%9A%E5%9C%A3%E7%BB%8F.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B006.md",
       "pages": 55,
       "spine_items": null,
       "ocr": {
@@ -160,7 +165,13 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "translator_reports_abridged_paraphrase_original_completeness_not_certified",
+      "latest_reading": {
+        "date": "2026-11-10",
+        "ledger": "knowledge/provenance/B006_reading_2026-11-10.json",
+        "coverage_mode": "direct_ordered_current_pdf_text_with_all_raster_image_page_regions_reviewed",
+        "scope": "all current physical pages1-55 extractable text; embedded-raster image pages reviewed; not all-page layout or original-edition certification"
+      }
     },
     {
       "index": 7,

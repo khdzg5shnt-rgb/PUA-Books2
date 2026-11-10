@@ -72,6 +72,12 @@ B092目录后六章未提供。Mystery当前中文译本TXT前部、九章和术
 
 原始文件[B043](knowledge/books/B043.md)仅是前言、第一步和附加文章；[B046](knowledge/books/B046.md)按148页文字证明复用已读E06。当前文件文字完成与原著完整分别记录。头像、穿搭或长期社交问题按[资料页与形象入口](knowledge/topics/profile-and-appearance.md)处理，不能从一次聊天结果倒推出用户的外形责任。
 
-## B003与B004的本轮接入
+## 前轮B003与B004接入记录
 
-[B003当前EPUB](knowledge/books/B003.md)已读完30个spine和两图，分章笔记定位接话、幽默、真实连接、邀约与拒绝的具体取舍；四元素不成为另一套运行流程。[B004](knowledge/books/B004.md)只读至物理页65，后续480页未读。即时指导仍用一个场景、一个主方法与一句成品。
+[B003当前EPUB](knowledge/books/B003.md)已读完30个spine和两图，分章笔记定位接话、幽默、真实连接、邀约与拒绝的具体取舍；四元素不成为另一套运行流程。前轮[B004](knowledge/books/B004.md)只读至物理页65，现已在下述续读轮完成当前文件。即时指导仍用一个场景、一个主方法与一句成品。
+
+## B004–B006当前文件完成后的定位
+
+[B004十章与结语](knowledge/books/B004.md)、[B005十三章](knowledge/books/B005.md)、[B006删节译本与配图](knowledge/books/B006.md)均已完成现有文字。作者的魅力公式、身体分类与穿衣框架保留出处，不增加一套竞争分析或人格评分。具体承接、真实表达、自然感谢、玩笑反馈、具体安排和双方边界进入原有方法；正面表达示意见[日常回复动作](knowledge/topics/natural-response-actions.md)。
+
+本轮实际新增范围及尚未通读104份的下一断点见[当前进度](CURRENT_STATE.md)，研究校正见[证据记录](knowledge/topics/evidence.md)。公开库不新增真实私人事件，书中成功率和自报故事不作为验证结果。
