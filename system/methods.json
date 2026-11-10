@@ -38,6 +38,16 @@
           "path": "knowledge/books/B004-ch03.md",
           "locator": "物理页121–167：身体动作不是读心和吸引许可；研究范围另核",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B007.md",
+          "locator": "物理页1–102：版本署名、群体断言与当前个体证据分开",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页1–3、14–19：二次摘要不等于原课，案例和视频数未核",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -49,7 +59,7 @@
       "name": "等对方回这一轮",
       "use_when": "最后一条是用户已发的消息，对方尚未回复，且没有独立必要的新事务",
       "operation": "最后是用户消息且尚未回复时先不补发；对方已有新消息则按本轮事实处理，正常及时回复不等于连发。不设置冷落倒计时，可以保留失落或不满。",
-      "avoid": "再发第二个开场、追问为什么不回、虚构忙碌。",
+      "avoid": "再发第二个开场、追问为什么不回、虚构忙碌。 未回时，不把点赞、评论或换平台当作同一轮催问和追注意的替代办法；自然互动不自动触发补救流程。",
       "sources": [
         {
           "path": "knowledge/cases/C18-date-tips-overcontact.md",
@@ -74,6 +84,11 @@
         {
           "path": "knowledge/books/G02-context-and-rhythm.md",
           "locator": "autopilot固定延迟和自动补发不进入本轮节奏",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页13：未回不自动转点赞、评论或其他平台追注意",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -152,6 +167,11 @@
           "path": "knowledge/books/B005-ch01-04.md",
           "locator": "物理页40–41：倾听具体信息，必要时核对，不机械复述",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页8–9：具体关键词，未接梗不无限延展",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -226,6 +246,11 @@
         {
           "path": "knowledge/books/B005-ch09-13.md",
           "locator": "物理页83–86：认真询问时清楚短答，真实例子不过度简化",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页4、7–9：认真问题先答，意图未知不盖过字面",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -316,6 +341,11 @@
           "path": "knowledge/books/B005-ch05-08.md",
           "locator": "物理页66–69：笑话无回应时停止重复，回到普通交流",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页8–10、15：双向接梗与不接时收回，不机械推拉",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -371,6 +401,11 @@
           "path": "knowledge/books/B003-ch09-13.md",
           "locator": "第11章：观察到的举动、假拟后果与共同参与条件",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页9–10：角色和昵称不构成下一项意愿",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -381,7 +416,7 @@
       "id": "M08",
       "name": "有依据的可纠正观察",
       "use_when": "她提供的具体行为确实支持一个低风险观察，且她没有正在认真求助",
-      "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。 观察具体不等于有证据；猜错时接受更正，不要求她为猜测解释。",
+      "operation": "说观察到的偏好或状态，用可被纠正的口气；不推出情史、人格或内心。 被纠正后更新理解，不把猜错包装成早已猜中。 描述具体也不证明猜测正确；猜错时接受更正，不要求她为猜测解释。 没有足够事实时正常接话，不故意猜错来换取个人信息。",
       "avoid": "凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。",
       "sources": [
         {
@@ -437,6 +472,11 @@
         {
           "path": "knowledge/books/S04-belief-and-calibration.md",
           "locator": "信念与人格推断不替代实际行为",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页8–9：观察和标签分开，不故意猜错换信息",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -529,6 +569,11 @@
         {
           "path": "knowledge/books/B005-ch05-08.md",
           "locator": "物理页43–45：自然接受真诚赞美，不据一次反应诊断自尊",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B007-ch01-05.md",
+          "locator": "物理页15–28：正常礼貌和关照不预先判作受奴役",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -641,6 +686,11 @@
         {
           "path": "knowledge/books/B006.md",
           "locator": "物理页24、53：真实身份与个人兴趣，不移植服饰角色为本人经历",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页6、11：真实素材、准备与自我表达，不伪造社交证明",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -853,6 +903,11 @@
           "path": "knowledge/books/B005-ch09-13.md",
           "locator": "物理页100–101：提出具体偏好而允许协商，不单向决定",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页7、10–11：真实具体活动，不强制走完整阶段",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -914,6 +969,11 @@
         {
           "path": "knowledge/books/B004-ch10.md",
           "locator": "物理页488–503：双方同意后确认时间地点",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页11：双方愿意后确认时间与地点",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -994,6 +1054,11 @@
           "path": "knowledge/books/S18-peterjoy-upper.md",
           "locator": "P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页8：闭合回答可能已完整，不自动补无穷话题",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1065,6 +1130,11 @@
         {
           "path": "knowledge/books/B003-ch20-27.md",
           "locator": "低回应不能靠换电话或反复劝约突破",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B007-ch06-07.md",
+          "locator": "物理页42–47：观察连续实际投入，不从性别预设剥削动机",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],
@@ -1252,6 +1322,16 @@
           "path": "knowledge/books/B006.md",
           "locator": "物理页37–54：准备按本人选择、预算和实际活动，不由衣物给人分层",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B007-ch08-10.md",
+          "locator": "物理页48–84：具体责任和正常边界，不从群体理论取消承诺",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页12、15：双方分工与选择，不预定男性单向主导",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1364,6 +1444,16 @@
           "path": "knowledge/books/B006.md",
           "locator": "物理页19–36：穿着与性倒计时不构成同意，拒绝优先",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B007-ch06-07.md",
+          "locator": "物理页45：幻想与操控主张均不能代替当前许可",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页11、13、15、19：拒绝优先于假性抗拒命名",
+          "kind": "teaching_notes_or_editorial_rule"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -1463,7 +1553,7 @@
       "id": "M26",
       "name": "压成一句自然的话",
       "use_when": "已经选定本轮目标与依据，需要生成给用户复制的消息",
-      "operation": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。 删去无关铺垫和重复结论，不强制总分总、PREP或结尾提问。",
+      "operation": "先满足当前一个交流目标，默认一至两行、最多一个问题、零至一个表情、一个成品。可自然结束，不为续聊强加问题、理论或每日提醒。 删去无关铺垫和重复结论，不强制总分总、PREP或结尾提问。 本轮目标可以只是回答、自然分享、了解或确认，不要求每句推进关系，也不强行转暧昧或邀约。",
       "avoid": "排比情话、网络导师腔、强加口头禅、虚构事实、三档话术；把完整咨询流程塞进一条消息；机械要求每句以问号求证。 为圆场编造类似经历或替她认定最近忙。 不按来源的技巧清单把同一输入堆成多套话术或后续分支。",
       "sources": [
         {
@@ -1544,6 +1634,11 @@
         {
           "path": "knowledge/books/B003-ch09-13.md",
           "locator": "提示用于一个当前动作，不把四元素拼成多段表演",
+          "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/S23-chen-summary-handbook.md",
+          "locator": "物理页4、7–9：本轮可只自然回应，不把每句变成关系推进",
           "kind": "teaching_notes_or_editorial_rule"
         }
       ],

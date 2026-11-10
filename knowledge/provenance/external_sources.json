@@ -1861,6 +1861,77 @@
         },
         "newly_read_characters": 19735
       }
+    },
+    {
+      "id": "S23",
+      "title": "陈哥顶级聊天术_方法整合手册.pdf",
+      "sha256": "c27866f8cb372ff7b9ce3a9325fb98372177fd8a5ade67cb7b6b1309b18c1255",
+      "bytes": 415371,
+      "pages": 19,
+      "characters": 17385,
+      "reading_status": "provided_secondary_summary_text_complete;19_rendered_pages_reviewed;underlying_videos_unread",
+      "archive_policy": "No explicit redistribution permission; raw PDF, video, original abstract fields and private teaching cases not copied",
+      "pending": "underlying video identities/content/MD5 not verified;66/64 claims unresolved against72 appendix entries",
+      "notes": "knowledge/books/S23-chen-summary-handbook.md",
+      "reading_ledger": "knowledge/provenance/B007_S23_reading_2026-11-11.json",
+      "read_coverage": {
+        "locator": "PyMuPDF get_text(sort=True), explicit physical page markers; Unicode code-point half-open ranges",
+        "ranges": [
+          [
+            0,
+            17385
+          ]
+        ],
+        "actual_read_chunks": [
+          [
+            0,
+            5213
+          ],
+          [
+            5213,
+            10006
+          ],
+          [
+            10006,
+            17385
+          ]
+        ],
+        "visual_pages_reviewed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "newly_read_characters": 17385
+      },
+      "source_layer": "secondary_summary_of_platform_video_abstracts",
+      "claimed_video_files": 66,
+      "claimed_unique_files": 64,
+      "appendix_group_entry_counts": [
+        10,
+        16,
+        15,
+        16,
+        15
+      ],
+      "appendix_entries_total": 72,
+      "video_count_reconciliation": "unresolved_without_original_file_identity_and_MD5_table",
+      "underlying_videos_completed_this_round": 0
     }
   ],
   "github_discovery": {
@@ -4500,6 +4571,71 @@
       "raw_originals_modified": false,
       "private_material_imported": false,
       "python_checks": "both actually executed and passed; 7 tests,56 synthetic route scenarios; raw identity,ranges,counts,card sync and28 changed Markdown link checks passed"
+    },
+    {
+      "round_id": "B007-and-S23-completion-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "4109cafb339660dcc12f254fb90f31e5357512e2",
+      "status": "content_integrated_and_all_required_checks_passed",
+      "summary_note": "knowledge/provenance/B007_S23_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B007_S23_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B007_S23_reading_2026-11-11.json",
+      "original_files_completed_this_round": [
+        "B007"
+      ],
+      "new_uploaded_files_registered_and_read": [
+        "S23"
+      ],
+      "new_original_direct_read_characters": 72880,
+      "new_upload_direct_read_characters": 17385,
+      "new_total_direct_read_characters": 90265,
+      "new_physical_file_pages_covered": 121,
+      "original_current_files_text_complete": 16,
+      "original_current_files_not_complete": 103,
+      "original_files_not_started": 103,
+      "upload_source_records": 23,
+      "all_source_records": 158,
+      "methods_substantively_changed": [
+        "M02",
+        "M08",
+        "M26"
+      ],
+      "methods_source_mappings_extended": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M14",
+        "M15",
+        "M18",
+        "M19",
+        "M22",
+        "M23",
+        "M26"
+      ],
+      "reference_checks": "Cesario et al.2020: publisher bibliographic details,abstract and partial body; Hyde2014: publisher bibliographic details and abstract only; neither full paper claimed read",
+      "underlying_videos_completed_this_round": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "next_work_unit": {
+        "id": "B008",
+        "path": "Chris《红丸觉醒2.0》.pdf",
+        "git_blob_sha": "e04d50c9c958a19c8d5fa3cde5c502c3ad2b37e8",
+        "bytes": 23214234,
+        "file_pages": 174,
+        "reading_status": "unread",
+        "start": "physical page1; verify original blob, rebuild current extraction, then read from first character",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "not yet established in this round; old inventory coordinates do not establish reading",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "python_checks": "both actually executed and passed;7 tests,56 synthetic route scenarios; identity,ranges,source counts,card sync and18 changed Markdown link checks passed"
     }
   ],
   "public_reading_rounds": [

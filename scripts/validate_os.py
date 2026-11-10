@@ -49,7 +49,7 @@ def validate(root=ROOT):
         errors.append('Duplicate source IDs')
     if sum(s.get('is_book', False) for s in sources['records']) != 119:
         errors.append('Original book classification must contain 119 book files')
-    for group, expected in [('books2_original_snapshot',126),('uploaded_material',22),('public_github_source',9)]:
+    for group, expected in [('books2_original_snapshot',126),('uploaded_material',23),('public_github_source',9)]:
         if sum(s['group']==group for s in sources['records']) != expected:
             errors.append('Incorrect source count for '+group)
     historical = json.loads((root/'knowledge/provenance/source_inventory.json').read_text(encoding='utf-8'))

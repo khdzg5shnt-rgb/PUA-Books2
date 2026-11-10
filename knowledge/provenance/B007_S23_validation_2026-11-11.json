@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-11",
+  "round_id": "B007-and-S23-completion-2026-11-11",
+  "baseline_main": "4109cafb339660dcc12f254fb90f31e5357512e2",
+  "status": "all_required_and_scope_checks_passed",
+  "required_checks": [
+    {
+      "name": "structure",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 29,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"scope\": \"结构/链接/归档身份检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.167s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "raw_originals_unchanged_in_changeset": true,
+    "current_file_identities_verified": [
+      "B007",
+      "S23"
+    ],
+    "reading": {
+      "B007": {
+        "file_pages": 102,
+        "text_characters_read": 72880,
+        "visual_pages_reviewed": 24,
+        "all_layouts_reviewed": false
+      },
+      "S23": {
+        "file_pages": 19,
+        "text_characters_read": 17385,
+        "visual_pages_reviewed": 19,
+        "all_layouts_reviewed": true
+      }
+    },
+    "new_direct_read_characters": 90265,
+    "new_file_page_ranges": 121,
+    "original_book_counts": {
+      "provided_file_text_complete": 16,
+      "unread": 103
+    },
+    "upload_source_count": 23,
+    "all_source_records": 158,
+    "S23_appendix_entries": 72,
+    "S23_66_64_video_claims_certified": false,
+    "underlying_videos_completed": 0,
+    "method_card_json_sync": 26,
+    "next_work_unit": "B008 physical page1",
+    "changed_markdown_files_links_checked": 18,
+    "checks_do_not_prove_reading_behavior_or_dating_effectiveness": true
+  },
+  "limitations": "Metadata checks cannot prove actual reading, screenshot understanding, psychological mechanisms or dating effectiveness. B007 original edition/all102 layouts and S23 underlying videos/66-to64 deduplication remain unverified."
+}

@@ -1,6 +1,6 @@
 # 统一外部来源目录
 
-当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。截至2026-11-06，当前6个项目共31篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方整合前明细及各日期记录保留为历史，旧数量和主阅读断点不能作为当前总计或恢复位置；最新断点以[CURRENT_STATE](../../CURRENT_STATE.md)为准。
+当前统一入口：[系统整合清单](../../system/SOURCE_INTEGRATION.md)。截至2026-11-11，当前6个项目共38篇文档及6份MIT许可归档；精确覆盖以[元数据](external_sources.json)为准。下方整合前明细及各日期记录保留为历史，旧数量和主阅读断点不能作为当前总计或恢复位置；最新断点以[CURRENT_STATE](../../CURRENT_STATE.md)为准。
 
 本轮还读完五份核心沟通TXT与S08/S09/S10/S14/S15的现有文字，逐项以[核心台账](core_reading_ledger.json)和[附件台账](additional_reading_ledger.json)为准。
 
@@ -38,7 +38,7 @@
 | simp-skill / SKILL.md | [归档文字](../../sources/github/simp-skill/SKILL.md.txt) | 28a23cb7d4dd5f7cea2d3906d13c16c091740e9a |
 | relationship-candlestick-lab / skill/SKILL.md | [归档文字](../../sources/github/relationship-candlestick-lab/skill/SKILL.md.txt) | a848ce36d315ffa19de0c1527d4149a64930cefb |
 
-## 22项上传来源
+## 22项上传来源（整合前历史）
 
 | 编号 | 标题 | 当前覆盖 |
 | --- | --- | --- |
@@ -104,3 +104,7 @@ S04/E06《吸引不是选择》不再只有历史未核标记：[原创笔记](.
 ## 2026-11-06当前覆盖更新
 
 新增7份公开项目文档完整阅读、20403字符；见[G01轻松表达](../books/G01-light-clear-expression.md)、[G01自然与冲突](../books/G01-natural-flow-and-conflict.md)、[G04观察与评分限制](../books/G04-observation-not-profiling.md)。另有[G09的15份相同blob文件](../books/G09-shared-document-reuse.md)复用既有阅读，计0新增字符、0新增归档。书籍续读断点仍为E06第二章字符34905；本轮未新增书籍全文阅读。
+
+## 2026-11-11新增上传S23
+
+[陈哥方法摘要手册](../books/S23-chen-summary-handbook.md)已读当前19页，17385提取字符（含页标），19页版式另核。它来自平台视频摘要的二次整理，不是已看原课；66/64文件说法与附录72条尚未对齐。当前上传来源23项、全部来源158条，原PDF/视频不重新归档。[逐页台账](B007_S23_reading_2026-11-11.json)记录身份及范围；下方/此前历史清单不代替当前状态。

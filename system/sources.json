@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "records": [
     {
       "id": "A001",
@@ -73,9 +73,12 @@
       "group": "books2_original_snapshot",
       "title": "Chris《红丸觉醒1.0》.pdf",
       "git_blob_sha": "c7bdad74828039af0b9237e433ad3210f1597e7f",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B007.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B007_S23_reading_2026-11-11.json",
+      "original_publication_complete": false,
+      "coverage_mode": "direct_ordered_all_current_pdf_extractable_text_and24_selected_visual_pages"
     },
     {
       "id": "B008",
@@ -1473,31 +1476,44 @@
       "continuation_notes": [
         "knowledge/books/G09-shared-document-reuse.md"
       ]
+    },
+    {
+      "id": "S23",
+      "group": "uploaded_material",
+      "title": "陈哥顶级聊天术_方法整合手册.pdf",
+      "sha256": "c27866f8cb372ff7b9ce3a9325fb98372177fd8a5ade67cb7b6b1309b18c1255",
+      "bytes": 415371,
+      "reading_status": "provided_secondary_summary_text_complete;19_rendered_pages_reviewed;underlying_videos_unread",
+      "local_entry": "knowledge/books/S23-chen-summary-handbook.md",
+      "raw_publication": "not_added",
+      "reading_ledger": "knowledge/provenance/B007_S23_reading_2026-11-11.json",
+      "source_layer": "secondary_summary_of_platform_video_abstracts",
+      "underlying_videos_completed": 0
     }
   ],
   "statistics": {
     "original_items": 126,
     "book_files": 119,
-    "uploads": 22,
+    "uploads": 23,
     "public_github_sources": 9,
-    "source_records": 157,
-    "current_book_files_text_complete": 15,
+    "source_records": 158,
+    "current_book_files_text_complete": 16,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 104
+    "current_book_files_not_started": 103
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B007",
-    "path": "Chris《红丸觉醒1.0》.pdf",
-    "git_blob_sha": "c7bdad74828039af0b9237e433ad3210f1597e7f",
-    "bytes": 10509960,
-    "file_pages": 102,
+    "id": "B008",
+    "path": "Chris《红丸觉醒2.0》.pdf",
+    "git_blob_sha": "e04d50c9c958a19c8d5fa3cde5c502c3ad2b37e8",
+    "bytes": 23214234,
+    "file_pages": 174,
     "reading_status": "unread",
-    "start": "physical page1; verify raw identity, rebuild current extraction, then read from first character",
+    "start": "physical page1; verify original blob, rebuild current extraction, then read from first character",
     "next_file_page": 1,
     "next_character": 0,
-    "current_extraction_identity": "not yet established in this round; do not reuse old inventory character coordinates",
+    "current_extraction_identity": "not yet established in this round; old inventory coordinates do not establish reading",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
   }
 }

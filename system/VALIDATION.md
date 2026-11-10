@@ -22,3 +22,5 @@ python scripts/search_knowledge.py 'Callback 共同话题'
 2026-11-03后续验收增加拒绝渠道与全部联系的区分，以及局部阅读断点错误、复用页摘要不同的反例检查。实际输出见[剩余来源验收](../knowledge/provenance/remaining_sources_validation_2026-11-03.json)，范围与尚未阅读部分见[报告](../knowledge/provenance/remaining_sources_2026-11-03.md)。
 
 2026-11-10：B004–B006续读后的两项规定检查均实际运行通过；7项测试涉及56个虚构路由场景。原始PDF身份、三份逐页台账、连续分段、旧B004范围衔接、15/119计数与方法卡同步另核通过。实际输出及限制见[本轮检查记录](../knowledge/provenance/B004_B006_validation_2026-11-10.json)。
+
+2026-11-11：新增S23后，上传来源检查从22项改为23项；全部来源为158条。B007与S23的身份、连续范围、视觉限制、附录72条及未核66/64的区别另做本轮检查。规定两项命令的真实输出见[本轮检查记录](../knowledge/provenance/B007_S23_validation_2026-11-11.json)；不以元数据检查证明阅读或恋爱效果。

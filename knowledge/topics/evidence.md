@@ -60,3 +60,19 @@ Vrij, A., Hartwig, M., & Granhag, P. A. (2019). Reading lies: Nonverbal communic
 - 摘要强调非语言欺骗线索弱且不可靠；不能凭一个动作判定撒谎，更不能把测谎综述改写成恋爱兴趣或同意研究。
 
 以上核验是对B004具体说法的有限校正，不构成对全书、全部NLP、所有非语言研究或本系统回复效果的穷尽判断。
+
+## B007的三重脑解释与性别总括
+
+Cesario, J., Johnson, D. J., & Eisthen, H. L. (2020). Your brain is not an onion with a tiny reptile inside. *Current Directions in Psychological Science, 29*(3), 255–260. https://doi.org/10.1177/0963721420917687
+
+- 2026-11-11核对[学会摘要](https://www.psychologicalscience.org/journals/current-directions/0963721420917687/)及[出版商原文](https://journals.sagepub.com/doi/10.1177/0963721420917687)的作者、卷期、页码、年份和DOI；实际读取摘要、部分正文和出版信息，未逐节读完全文及引用论文。
+- 该文批评把大脑进化理解为新结构一层层覆盖旧结构，并据此分出动物本能与人类理性的普遍误解。B007的17页示意图不能当作已核准的神经机制。
+- 本项目只据此校正该种套层解释；不声称冲动不存在，也不拿这篇论文证明某条微信回复、择偶立场或完整情绪理论。
+
+Hyde, J. S. (2014). Gender similarities and differences. *Annual Review of Psychology, 65*, 373–398. https://doi.org/10.1146/annurev-psych-010213-115057
+
+- 2026-11-11核对[出版商题录与摘要](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-010213-115057)。卷期年份2014，在线先行2013；实际只读题录与完整摘要，未读论文全文。
+- 摘要说明综述多个解释框架、效应量与元分析，并讨论认知、行为及其他领域。不能仅由摘要推出所有领域完全相同或完全不同。
+- 本项目的判断要求是：关于群体差异的研究不能代替对某一个人当前言行的证据。这里是从研究范围作出的使用限制，不冒称该摘要已逐条反证B007的全部观点。
+
+这两篇用于核对具体来源主张，不能用题录数量把B007的社会循环、婚育数据、法律断言或本系统的回复效果认证为科学结论。

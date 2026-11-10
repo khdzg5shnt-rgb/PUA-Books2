@@ -1,9 +1,9 @@
 # 唯一来源入口
 
-截至2026-11-10，本仓库登记126项原始资料、22项上传材料、9个公开外部GitHub来源，共157条来源记录。书籍版本与上传文件可能重合，157不是独立著作数，也不是已读数。
+截至2026-11-11，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-10：TOP30全部30份现有文字覆盖完整，原著与图像缺口另计；后续[B004](../knowledge/books/B004.md)、[B005](../knowledge/books/B005.md)、[B006](../knowledge/books/B006.md)现有文件文字已完成。原始书库当前15/119份完成、104份未通读。[本轮报告](../knowledge/provenance/B004_B006_completion_2026-11-10.md)和[CURRENT_STATE](../CURRENT_STATE.md)给出实际范围、视觉及译本限制和B007第1页断点。
+2026-11-11：[B007](../knowledge/books/B007.md)当前102页可提取文字完成，24页关键图像已核；新增[S23摘要手册](../knowledge/books/S23-chen-summary-handbook.md)19页文字及版式已核，原视频与66/64去重未验证。原始书库16/119份文字完成、103份未通读，TOP30仍为30/30当前文字完成。[报告](../knowledge/provenance/B007_S23_completion_2026-11-11.md)和[CURRENT_STATE](../CURRENT_STATE.md)给出B008第1页断点与图像/原著限制。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -40,7 +40,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 九个来源的相关路径、固定blob与逐文件覆盖见[文档目录](../knowledge/provenance/github_document_catalog.json)，它只是来源目录，不是通读凭证。
 
-## 22项上传材料
+## 23项上传材料
 
 全部文件已登记身份，可通过内部入口恢复；原文中的个人信息不发布。S01–S04已有的实际阅读成果进入相应方法和教学案例，其他文件按逐项状态保留，不因“整合”改写为全读。
 
@@ -68,10 +68,11 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 | S20 | 谜男团队-高级班 ct升级手册.pdf | 现有P1–8全文与图像已核；署名幽灵，非据文件名归谜男 | [原创笔记](../knowledge/books/S20-ghost-ct-manual.md) |
 | S21 | PUA话术惯例手册(3).pdf | 现有39页节选文字已读；8页视觉复核，非134页完整版 | [原创笔记](../knowledge/books/S21-connor-routines-excerpt.md) |
 | S22 | 加水印-去水印--36.《谜男方法》(2).pdf | P3–125与已读TXT逐页一致；本轮重读P1–8并目读26页，非新增全文通读 | [原创笔记](../knowledge/books/S22-mystery-pdf-reconciliation.md) |
+| S23 | 陈哥顶级聊天术_方法整合手册.pdf | 19页二次摘要全文和版式已核；原视频未读，66/64与72条附录尚未对齐 | [原创笔记](../knowledge/books/S23-chen-summary-handbook.md) |
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中15份现有文字覆盖完成、104份未通读（B004–B006当前文字完成；译本/版次/图像限制另计）；TOP30全部30条现有文字覆盖完成，原著和图像缺口另计。阅读计数按逐文件实际覆盖更新，原始书库15/119只增加实际读完或有逐页同文证明的当前文件。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍和7项支持文件。119份中16份现有文字覆盖完成、103份未通读（新增B007可提取文字；译本/版次/图像限制另计）；TOP30全部30条现有文字覆盖完成，原著和图像缺口另计。阅读计数按逐文件实际覆盖更新，原始书库16/119只增加实际读完或有逐页同文证明的当前文件。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 
@@ -128,4 +129,6 @@ S04/E06 [吸引不是选择局部](../knowledge/books/S04-attraction-not-choice.
 
 前轮历史记录（不是当前断点）：独立读完[B003当前30个spine与两图](../knowledge/books/B003.md)，再读[B004物理页1–65](../knowledge/books/B004.md)。本轮新增173306提取字符（含分隔标记），B004仅局部，不计整本完成。原始文字和图片不重新归档；[本轮报告](../knowledge/provenance/B003_completion_2026-11-10.md)与[逐单元台账](../knowledge/provenance/B003_B004_reading_2026-11-10.json)保留全部断点。
 
-2026-11-10再续读完成：[B004–B006报告](../knowledge/provenance/B004_B006_completion_2026-11-10.md)。新增830422提取字符（含页标）、666个文件页范围，分别为B004页66–545、B005页1–131、B006页1–55；不重复计B004此前65页。原始资料未改动，当前15/119份文字完成，下一份B007。
+2026-11-10再续读完成：[B004–B006报告](../knowledge/provenance/B004_B006_completion_2026-11-10.md)。新增830422提取字符（含页标）、666个文件页范围，分别为B004页66–545、B005页1–131、B006页1–55；不重复计B004此前65页。原始资料未改动，该轮结束时15/119份文字完成，当时下一份B007。
+
+2026-11-11：[B007与S23报告](../knowledge/provenance/B007_S23_completion_2026-11-11.md)新增90265提取字符（含页标），其中B007为72880、S23为17385；当前158条来源、23项上传。S23不增加原始书籍分母或原视频阅读数，三项执行改动回填现有方法。

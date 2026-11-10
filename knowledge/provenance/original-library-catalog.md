@@ -4,11 +4,11 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：15/119；B004当前545页、B005当前131页、B006当前55页已读完。B092只含前三章，B043仅前言/第一步/附加文章，B046按逐页同文证明复用已读，B006译者自述删节。另104份尚未通读；下一份B007物理页1。完整原著版本、删节和二次整理见各笔记。
+当前现有书籍文件文字覆盖完成：16/119。新增B007当前102页可提取文字，24页图像/标题/图表另核，剩余78页版式未逐页审阅；其封面与文件名署名不一致，原著对应未核。另103份尚未通读，下一份B008第1页。B043/B092缺章、B006删节译本及其他版次/图像限制见逐书笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
-最新新增覆盖与限制：[B004–B006完成报告](B004_B006_completion_2026-11-10.md)；早期原始文件台账保留历史范围。
+最新新增覆盖与限制：[B007及S23报告](B007_S23_completion_2026-11-11.md)；S23是新增上传手册，不增加119份原始书籍分母。早期台账保留历史范围。
 
 机器可读清单：[source_inventory.json](source_inventory.json)。[主题入口](../../PUA_CORE_SYSTEM.md)｜[案例目录](../cases/README.md)｜[外部与历史来源](legacy-and-external.md)。
 
@@ -24,7 +24,7 @@
 | B004 | [Alpha Male Bible Become a Casanova Learn Charisma, Confidence, Self-Hypnosis, Dating Strategies, Psychology of Attraction.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Alpha%20Male%20Bible%20Become%20a%20Casanova%20Learn%20Charisma%2C%20Confidence%2C%20Self-Hypnosis%2C%20Dating%20Strategies%2C%20Psychology%20of%20Attraction.pdf) | 545 | 当前545页文字已读；全部栅格图页面已核；非545页版式审阅 | [笔记](../books/B004.md) |
 | B005 | [Banned Charisma Secrets Unleashed Learn The Secrets Of Personal Magnetism And How To Attract, Inspire, Impress, Influence(Smith, Daniel) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Banned%20Charisma%20Secrets%20Unleashed%20Learn%20The%20Secrets%20Of%20Personal%20Magnetism%20And%20How%20To%20Attract%2C%20Inspire%2C%20Impress%2C%20Influence%28Smith%2C%20Daniel%29%20.pdf) | 131 | 当前131页文字及封面/末页图已读；版次未核 | [笔记](../books/B005.md) |
 | B006 | [Brad P 时尚圣经.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Brad%20P%20%E6%97%B6%E5%B0%9A%E5%9C%A3%E7%BB%8F.pdf) | 55 | 当前55页文字、37页图像区域已读；译者自述删节 | [笔记](../books/B006.md) |
-| B007 | [Chris《红丸觉醒1.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%921.0%E3%80%8B.pdf) | 102 | 已提取/未读 | — |
+| B007 | [Chris《红丸觉醒1.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%921.0%E3%80%8B.pdf) | 102 | 当前102页可提取文字已读；24页视觉核对；版本对应未核 | [笔记](../books/B007.md) |
 | B008 | [Chris《红丸觉醒2.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%922.0%E3%80%8B.pdf) | 174 | 已提取/未读 | — |
 | B009 | [Chris《红丸觉醒3.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%923.0%E3%80%8B.pdf) | 135 | 已提取/未读 | — |
 | B010 | [Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%207%20in%201%20The%20Art%20of%20Persuasion%2C%20How%20to%20influence%20people%2C%20Hypnosis%20Techniques%2C%20NLP%20secrets%2C%20Analyze%20Body...%20%28Robert%20Dale%20Goleman%2C%20Daniel%20Brandon%20Bradberry%20etc.%29.pdf) | 644 | 已提取/未读 | — |
