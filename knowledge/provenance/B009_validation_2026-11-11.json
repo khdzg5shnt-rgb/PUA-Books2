@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "39d1dddf39afe1a64d52efbff657c3026468e47a",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 18,\n  \"book_not_started\": 101,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.805s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 18,
+    "book_not_started": 101,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "reading_scope_checks": {
+    "ok": true,
+    "original_pdf_identity": true,
+    "extraction_identity": true,
+    "actual_read_chunks": 11,
+    "pages": 135,
+    "characters": 117764,
+    "visual_pages": 38,
+    "unreviewed_layout_pages": 97,
+    "new_or_changed_markdown_files": 15,
+    "local_links_checked": 576,
+    "original_raw_paths_modified": [],
+    "new_raw_sources_or_images": false,
+    "profile_topic_retrieval": "knowledge/topics/profile-and-appearance.md",
+    "changed_files": 22
+  },
+  "newly_text_complete_this_unit": [
+    "B009"
+  ],
+  "current_session_text_complete": [
+    "B008",
+    "B009"
+  ],
+  "new_direct_read_characters_this_unit": 117764,
+  "new_direct_primary_characters_current_session": 264891,
+  "new_original_videos_completed": 0,
+  "new_original_research_papers_completed": 0,
+  "original_book_text_complete": 18,
+  "original_book_not_started": 101,
+  "source_records": 158,
+  "scope": "配置、源身份、连续范围、卡片和链接的工程一致性；不替代阅读或心理证据",
+  "not_verified": [
+    "英文原著对应与完整性",
+    "97页未逐页核版式、全部截图逐字内容及全部OCR恢复",
+    "被引原视频、新闻、司法文书与原始论文",
+    "实际聊天效果"
+  ]
+}

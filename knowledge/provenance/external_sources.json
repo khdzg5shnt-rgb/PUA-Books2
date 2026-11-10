@@ -4674,6 +4674,44 @@
         "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
       },
       "python_checks": "validate_os.py and20 unittest methods passed;84 synthetic routes; original identity and page coverage checked"
+    },
+    {
+      "round_id": "B009-text-completion-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "39d1dddf39afe1a64d52efbff657c3026468e47a",
+      "status": "integrated_checks_passed",
+      "summary_note": "knowledge/provenance/B009_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B009_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B009_reading_2026-11-11.json",
+      "original_files_completed_this_round": [
+        "B009"
+      ],
+      "new_original_direct_read_characters": 117764,
+      "new_physical_file_pages_covered": 135,
+      "selected_visual_pages": 38,
+      "remaining_layout_pages_not_reviewed": 97,
+      "original_current_files_text_complete": 18,
+      "original_current_files_not_complete": 101,
+      "original_files_not_started": 101,
+      "upload_source_records": 23,
+      "all_source_records": 158,
+      "new_videos_or_original_papers_completed": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "next_work_unit": {
+        "id": "B010",
+        "path": "Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf",
+        "git_blob_sha": "d6447822eb44ef4c01ad9308dd375f57b12b0e48",
+        "bytes": 5323023,
+        "file_pages": 644,
+        "reading_status": "unread",
+        "start": "physical page1; verify original blob then establish current extraction identity before ordered reading",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "not yet established; old inventory coordinates do not establish reading",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "python_checks": "validate_os.py and20 unittest methods passed;84 synthetic routes; identity/page/columns/links checked"
     }
   ],
   "public_reading_rounds": [

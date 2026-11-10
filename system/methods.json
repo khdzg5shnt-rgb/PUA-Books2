@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.3.0",
+  "version": "1.4.0",
   "methods": [
     {
       "id": "M01",
@@ -48,6 +48,11 @@
           "path": "knowledge/books/S23-chen-summary-handbook.md",
           "locator": "物理页1–3、14–19：二次摘要不等于原课，案例和视频数未核",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/books/B009-ch11-13.md",
+          "locator": "物理页66–75取舍：社交限制的已见事实与未知原因分开",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -488,6 +493,11 @@
           "path": "knowledge/books/B008-ch01-06.md",
           "locator": "物理页26–32取舍：周期与群体解释不能用于读心",
           "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B009-ch01-10.md",
+          "locator": "物理页25–41取舍：周期、分数和外貌不能替代当前事实",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -596,7 +606,7 @@
       "name": "分享真实生活",
       "use_when": "有相关的已知用户经历或看法，可让对话双向",
       "operation": "用一项已确认的真实经历、感受、偏好或需要表达自己，可选一个具体细节；素材未确认时直接回应，不编人生或要求对方猜需求。 社交分享可以只是一段真实小经历加一个相关细节或感受，不必编冲突、高潮或悬念。 可以说明一项真实压力、困难或需要，强度与关系和当前交流相符；不从一次反应推成永远不能表达脆弱，也不要求对方承担全部情绪。",
-      "avoid": "移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。",
+      "avoid": "移植导师身份、经历、照片出处和未来承诺，把网图或他人事迹当本人证据，或凭照片断定人品；故意吊住故事等追问。 不以超出真实承受的消费或虚报财物塑造身份，也不凭品牌诊断自卑。",
       "sources": [
         {
           "path": "knowledge/books/S02-chen-twelve/ch08.md",
@@ -706,6 +716,11 @@
         {
           "path": "knowledge/books/B008-ch07-13.md",
           "locator": "物理页90–97取舍：真实自我表达，不接受单方因果归因的永久禁令",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B009-ch11-13.md",
+          "locator": "物理页61–65取舍：真实生活素材与消费边界，不虚构地位",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1219,7 +1234,7 @@
       "name": "有依据的修复",
       "use_when": "截图明确显示某个具体言行造成误解或伤害，用户要修复",
       "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。 已确认失约或责任时，说清能够兑现的一项调整，后续按约做；不以信心、保证或转移话题替代兑现。",
-      "avoid": "无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。 不把相关重复失约或已确认责任一概当作翻旧账。",
+      "avoid": "无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。 不把相关重复失约或已确认责任一概当作翻旧账。 不把已确认施害责任转给受害者、父母或某性别，不凭家庭叙事诊断人格。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -1279,6 +1294,11 @@
         {
           "path": "knowledge/books/B008-ch14-19-tail.md",
           "locator": "物理页133–156取舍：不从单方复盘包揽错误或判所有沟通无效",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B009-ch11-13.md",
+          "locator": "物理页57–60取舍：具体责任与原生家庭/群体归因分开",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1366,6 +1386,11 @@
         {
           "path": "knowledge/topics/relationship-clarity.md",
           "locator": "自己的真实限制不等于控制伴侣",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B009-ch14-19.md",
+          "locator": "物理页113–126取舍：按具体行为和边界，不以群体立场裁责任",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1583,6 +1608,11 @@
           "path": "knowledge/books/B004-ch09.md",
           "locator": "物理页447–456：真实情境的一次普通交流，不编离场理由或凑人数",
           "kind": "teaching_notes_or_editorial_rule"
+        },
+        {
+          "path": "knowledge/topics/profile-and-appearance.md",
+          "locator": "B009续读：真实展示与社交筛选，不以品牌或配不上预先否定自己",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",

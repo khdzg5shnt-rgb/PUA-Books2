@@ -256,8 +256,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%923.0%E3%80%8B.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B009.md",
       "pages": 135,
       "spine_items": null,
       "ocr": {
@@ -265,7 +265,21 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "cover_third_edition_Chris_author;English_original_unverified",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B009_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_all_current_pdf_extractable_text_and38_selected_visual_pages_with_column_rereading",
+        "scope": "physical pages1-135 current text;38 rendered pages;97 remaining layouts; OCR and full screenshot transcription not certified",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True); explicit physical page markers; Unicode code-point half-open ranges",
+          "characters": 117764,
+          "sha256": "2aedef17cb059119f4b14d2db100bfa82535de08acefc80266a5ee48f0e4dd05",
+          "coordinates": "Unicode code points, half-open, physical page markers included"
+        },
+        "next_file_page": null,
+        "next_character": null
+      }
     },
     {
       "index": 10,

@@ -1,0 +1,1834 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B009-text-completion-2026-11-11",
+  "baseline_main": "39d1dddf39afe1a64d52efbff657c3026468e47a",
+  "scope": "direct ordered current extraction, selected visual pages and supplementary column-order reading; not full original-edition certification",
+  "records": [
+    {
+      "id": "B009",
+      "path": "Chris《红丸觉醒3.0》.pdf",
+      "bytes": 4048962,
+      "git_blob_sha": "d139d4669e8018b6480a759220bc2f97cc463701",
+      "sha256": "3a718b30e0416ca879a79ec7cd8e8d9fcef7262903540d8333174f6683382238",
+      "file_pages": 135,
+      "reading_status": "provided_file_text_complete",
+      "notes": [
+        "knowledge/books/B009.md",
+        "knowledge/books/B009-ch01-10.md",
+        "knowledge/books/B009-ch11-13.md",
+        "knowledge/books/B009-ch14-19.md",
+        "knowledge/topics/profile-and-appearance.md"
+      ],
+      "original_publication_complete": false,
+      "version_limit": "cover and titlepage say third edition; Chris author; not certified as English-original volume3 or complete original publication",
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True); explicit physical page markers; Unicode code-point half-open ranges",
+        "characters": 117764,
+        "sha256": "2aedef17cb059119f4b14d2db100bfa82535de08acefc80266a5ee48f0e4dd05",
+        "coordinates": "Unicode code points, half-open, physical page markers included"
+      },
+      "read_file_pages": [
+        1,
+        135
+      ],
+      "read_range": [
+        0,
+        117764
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          8532
+        ],
+        [
+          8532,
+          19821
+        ],
+        [
+          19821,
+          29842
+        ],
+        [
+          29842,
+          39603
+        ],
+        [
+          39603,
+          50624
+        ],
+        [
+          50624,
+          60865
+        ],
+        [
+          60865,
+          72750
+        ],
+        [
+          72750,
+          83399
+        ],
+        [
+          83399,
+          94205
+        ],
+        [
+          94205,
+          106041
+        ],
+        [
+          106041,
+          117764
+        ]
+      ],
+      "new_direct_read_characters": 117764,
+      "next_file_page": null,
+      "next_character": null,
+      "unread_file_pages": [],
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        19,
+        20,
+        25,
+        33,
+        38,
+        40,
+        41,
+        42,
+        43,
+        61,
+        66,
+        74,
+        76,
+        84,
+        93,
+        96,
+        103,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        115,
+        120,
+        127,
+        130,
+        132,
+        134,
+        135
+      ],
+      "all_pages_visually_reviewed": false,
+      "unreviewed_layout_pages": 97,
+      "remaining_ocr_and_screenshot_text_uncertainty": true,
+      "raw_or_extracted_text_archived": false,
+      "supplementary_reading": [
+        {
+          "file_pages": [
+            106,
+            113
+          ],
+          "method": "two-column clipping in reading order plus rendered page inspection",
+          "primary_ranges_unchanged": true,
+          "note": "read both columns to recover order; spanning headings and watermarks retain uncertainty; no additional primary characters counted"
+        },
+        {
+          "file_pages": [
+            132,
+            132
+          ],
+          "method": "three-column clipping with measured bounds50-160,160-266,266-370; y210-545, plus rendered page inspection",
+          "note": "initial equal-width clipping split characters; measured-bound reread recovered order; no new unique text count"
+        },
+        {
+          "file_pages": [
+            134,
+            134
+          ],
+          "method": "two-column clipping and rendered page inspection",
+          "primary_ranges_unchanged": true
+        }
+      ],
+      "supplementary_text_identities": [
+        {
+          "local_scratch_file": "B009_columns.txt",
+          "sha256": "0440dff748e3578622b63a0915e28fc6910ce1f05373aed178fd2d1cde4db1d3",
+          "redistributed": false
+        },
+        {
+          "local_scratch_file": "B009_p132_columns_corrected.txt",
+          "sha256": "dcb20dbdab1b1b417f1c70fa0ff1dd1725a816d74386ac5ce0ea7a284a268aed",
+          "redistributed": false
+        }
+      ],
+      "supplementary_characters_added_to_primary_count": 0,
+      "visual_findings": [
+        "封面、扉页都标第三版，署Chris撰写，不能当Rollo英文原著第三册；P2-3只是图形过渡页，不是缺失正文。",
+        "P5声明确实使用87%与觉醒/黑化叙事，P42正文有98%分类，均未给清晰调查基础。",
+        "P19-25婚离率/周期/98%孕期抑郁仍在，沿用已有核对，不算新研究。",
+        "P33/38/40/41/42图为年龄、压力、公式与分级等示意，未提供可核模型数据。",
+        "P43物理页和版面页脚43一致，文本提取的63是OCR问题，不能写成原书页码错误；本页仍有未逐字纠正的错字。",
+        "P61负债数字无原始调查口径；P66/74、93/96/103为教学私人与截图叙述，不新增个人档案或案例。",
+        "P76/84/120/130分别是周期/分组/社会地位/权责图，不当因果定理。",
+        "P106-113、132、134按栏重读并核版式，不把交织行当顺读原意；主提取坐标不变。",
+        "P115版面包含未经一手司法文件核实的二手事件，不按作者一面之词裁决；P127实验示意也不证明人类社会结局。",
+        "P135封底为作品与课程宣传及内部传阅声明，提取明显乱码；只核可见结构与署名，不声称全文恢复或获得转载许可。"
+      ],
+      "similar_B008_content": "directly reread current file; no assumed identity or inferred raw-text reuse",
+      "duplicate_materials": [
+        {
+          "file_pages": [
+            90,
+            91
+          ],
+          "type": "overlapping chapter16 prose; not a separate case"
+        }
+      ],
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            312
+          ],
+          "body_characters": 286,
+          "images": 3,
+          "text_sha256": "769a10c4d841943d02cd17d370df7463b9e8315834d7ec2d8bf92123f3623e2e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 2,
+          "range": [
+            312,
+            436
+          ],
+          "body_characters": 98,
+          "images": 2,
+          "text_sha256": "bca0ee5ff0252b13f83f8dc4e7f7fe5c393875d6046ff65c0b61ab6a40fc55be",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 3,
+          "range": [
+            436,
+            560
+          ],
+          "body_characters": 98,
+          "images": 2,
+          "text_sha256": "b7d45f7bd15d2d2f885f73269fd5451f92f186b30db68efe46c6547555a60049",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 4,
+          "range": [
+            560,
+            778
+          ],
+          "body_characters": 192,
+          "images": 3,
+          "text_sha256": "3eff1bb6f23b3cd8d3b93d23bfdf767f371d4bbb2c9b752476eb6315120a9ecb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 5,
+          "range": [
+            778,
+            1450
+          ],
+          "body_characters": 646,
+          "images": 1,
+          "text_sha256": "d82cccc231c051c82e797e100c3b02edb19681b17452b34ed3531811821368aa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 6,
+          "range": [
+            1450,
+            3414
+          ],
+          "body_characters": 1938,
+          "images": 0,
+          "text_sha256": "d479fadd33e6ca334a759d65b74fd60dfec960554d14d84128cd10cab2901d11",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 7,
+          "range": [
+            3414,
+            4166
+          ],
+          "body_characters": 726,
+          "images": 0,
+          "text_sha256": "615cb60b5e4b43624a8fd130e71f5649e272851813f58c112fc9d3187db28855",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 8,
+          "range": [
+            4166,
+            4837
+          ],
+          "body_characters": 645,
+          "images": 2,
+          "text_sha256": "f4cf90b50374d00966259ee583d1d50400f326d972ae710233cf476fdce689c1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 9,
+          "range": [
+            4837,
+            5027
+          ],
+          "body_characters": 164,
+          "images": 3,
+          "text_sha256": "1c109029faa852cbb0bd3c0f17bf20d8805a3aabe07b8ad8eecceabad3c73526",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 10,
+          "range": [
+            5027,
+            6228
+          ],
+          "body_characters": 1174,
+          "images": 1,
+          "text_sha256": "a6ac747b10cf16f142e395beb0ca2f5cf298453027e66c96c53bb3a9fcdfceff",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 11,
+          "range": [
+            6228,
+            7496
+          ],
+          "body_characters": 1241,
+          "images": 0,
+          "text_sha256": "676e25a7864db4c957b5e0d2de7ec1db6f81db6f6ac998e6af926ed3ef5a0c22",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 12,
+          "range": [
+            7496,
+            8532
+          ],
+          "body_characters": 1009,
+          "images": 0,
+          "text_sha256": "17227e2f9b773fae77165444b634e61fba6375e37c1c3b5e69622c77e94ddd38",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 13,
+          "range": [
+            8532,
+            9752
+          ],
+          "body_characters": 1193,
+          "images": 0,
+          "text_sha256": "3f2df0b5d4e7fa9235e585e5e9bb405f0dfcb50aa0188b1905e608fa07d65560",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 14,
+          "range": [
+            9752,
+            10874
+          ],
+          "body_characters": 1095,
+          "images": 1,
+          "text_sha256": "49956729bed9d3357e60aa817e879f646b047e2741ca4944fd0627065d7e8b02",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 15,
+          "range": [
+            10874,
+            11669
+          ],
+          "body_characters": 768,
+          "images": 2,
+          "text_sha256": "d469f338ab42a65e7ecdf39938539c59a234898f4e800d9bdbc04c1e875730a7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 16,
+          "range": [
+            11669,
+            12461
+          ],
+          "body_characters": 765,
+          "images": 2,
+          "text_sha256": "9171cd2d63412e236a1770d2e612342235d5d0f3e2a4eff02a3db59f77023b6e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 17,
+          "range": [
+            12461,
+            13368
+          ],
+          "body_characters": 880,
+          "images": 0,
+          "text_sha256": "64194ba67a039ed42fa1d4d0c22efd1a1c7f9ebd67711b18da50450ade1706ba",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 18,
+          "range": [
+            13368,
+            14387
+          ],
+          "body_characters": 992,
+          "images": 2,
+          "text_sha256": "0078ff9508cb2780fd203303df02da7aabbad132ecea6d8903aee0e18eb69ab3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 19,
+          "range": [
+            14387,
+            15042
+          ],
+          "body_characters": 628,
+          "images": 1,
+          "text_sha256": "c0a422ec3492f304ac1d1d506eac9fa1c394b198c3a9a6807907257430d46b9c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 20,
+          "range": [
+            15042,
+            16117
+          ],
+          "body_characters": 1048,
+          "images": 2,
+          "text_sha256": "175bd5bd5cc6cdac34b12a694598519262eac0571f34e9a3e7b0eafbd0683596",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 21,
+          "range": [
+            16117,
+            17064
+          ],
+          "body_characters": 920,
+          "images": 1,
+          "text_sha256": "4a7ea936dfe4d9bcc2e0d881f8a4d49cf9bb987d01386fe5c7c36500121f07a7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 22,
+          "range": [
+            17064,
+            18013
+          ],
+          "body_characters": 922,
+          "images": 1,
+          "text_sha256": "5c8c52f965e23fddb33dd83afb4219601851bc438aed0b0b959a5a5b26f08c91",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 23,
+          "range": [
+            18013,
+            19032
+          ],
+          "body_characters": 992,
+          "images": 1,
+          "text_sha256": "754c42bc592fc8ecdff9144fb589bda2dfa37045fa71311d4b754c0875a8b78e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 24,
+          "range": [
+            19032,
+            19821
+          ],
+          "body_characters": 762,
+          "images": 1,
+          "text_sha256": "b91858c705915108f1fc96805b17e814c87e0912c6902fe115b92794507549d6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 25,
+          "range": [
+            19821,
+            20556
+          ],
+          "body_characters": 708,
+          "images": 1,
+          "text_sha256": "4d25eee7d9d49dcd5a744fa7d372d3046cdc823ef5be713b1c734d0dfa20f1a2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 26,
+          "range": [
+            20556,
+            21623
+          ],
+          "body_characters": 1040,
+          "images": 1,
+          "text_sha256": "6328e68201d50d4772cb8c65fe3bcf328f6fd0768e33e9d41fba6a49a89ae8a7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 27,
+          "range": [
+            21623,
+            22533
+          ],
+          "body_characters": 883,
+          "images": 2,
+          "text_sha256": "a7f51f09939c770b2dbd0459d2567ab2b9f96d59e6e6e7fa52f866d845d70f84",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 28,
+          "range": [
+            22533,
+            23459
+          ],
+          "body_characters": 899,
+          "images": 0,
+          "text_sha256": "9553016507c0cc64bae17c968f6157236460b95c6a21dd2c212a185d2669a859",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 29,
+          "range": [
+            23459,
+            24357
+          ],
+          "body_characters": 871,
+          "images": 0,
+          "text_sha256": "bdefade293c9adb02440d2d5ad8ee5875cdd3080c4a953d47b72c91885395ad4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 30,
+          "range": [
+            24357,
+            25114
+          ],
+          "body_characters": 730,
+          "images": 1,
+          "text_sha256": "b996d9d120274911127cd966b829e60a789e9264f3af19f2beb046d405a19941",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 31,
+          "range": [
+            25114,
+            26044
+          ],
+          "body_characters": 903,
+          "images": 2,
+          "text_sha256": "825fd687b190cd8a116593e06d118a6aeb2409c5687c95964fb1d3593c21f322",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 32,
+          "range": [
+            26044,
+            26668
+          ],
+          "body_characters": 597,
+          "images": 4,
+          "text_sha256": "27be1d7d81b8c7f54124e384252f6ccc5b817b9bf3f06362da37e6ed02c4e3e2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 33,
+          "range": [
+            26668,
+            27605
+          ],
+          "body_characters": 910,
+          "images": 2,
+          "text_sha256": "ff3284624e9be4ae8fb4916f2fc6c7d5180c70a7ed378e9ebc46e8551c0871ed",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 34,
+          "range": [
+            27605,
+            28434
+          ],
+          "body_characters": 802,
+          "images": 2,
+          "text_sha256": "0a7787b6eb98a06ae237a2007a4c3704b7d6537bc79d7d89167344e827330444",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 35,
+          "range": [
+            28434,
+            29265
+          ],
+          "body_characters": 804,
+          "images": 2,
+          "text_sha256": "1211fedeb30a94dc01cea07f7ff39f6180b63397b720d92200e5aa9ef7241843",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 36,
+          "range": [
+            29265,
+            29842
+          ],
+          "body_characters": 550,
+          "images": 3,
+          "text_sha256": "30e4e035421ff248f5da8cd72438db5ed414768a45c090339af4f0fa6feadf84",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 37,
+          "range": [
+            29842,
+            30996
+          ],
+          "body_characters": 1127,
+          "images": 4,
+          "text_sha256": "49081302912262d2775cdb76cca2e001f655f4b5e7a3f5b38ac397547ad20b77",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 38,
+          "range": [
+            30996,
+            31625
+          ],
+          "body_characters": 602,
+          "images": 2,
+          "text_sha256": "0fde341f755a5ffa8c2a166d5b49d4ccbd5e3a30b641e51c077ba9fdcce4c9d6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 39,
+          "range": [
+            31625,
+            32602
+          ],
+          "body_characters": 950,
+          "images": 2,
+          "text_sha256": "830768740740d9998fd04e1082a1008b93b8c60c1394f1edb1584b5cd9039751",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 40,
+          "range": [
+            32602,
+            33299
+          ],
+          "body_characters": 670,
+          "images": 4,
+          "text_sha256": "0a2a14a4fe198aaa7a8eee299b0f94d00be5a89068dd5798ffbd9b9708fda6c2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 41,
+          "range": [
+            33299,
+            34187
+          ],
+          "body_characters": 861,
+          "images": 1,
+          "text_sha256": "77fe7b26d356b67c336c3fabc018da61a76237669361c0fe374923755bc08071",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 42,
+          "range": [
+            34187,
+            34672
+          ],
+          "body_characters": 458,
+          "images": 1,
+          "text_sha256": "31df0cc34d8577a9d4713778c104f35d63f90d6ed8a5945ad251386c4cf648f9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 43,
+          "range": [
+            34672,
+            35737
+          ],
+          "body_characters": 1038,
+          "images": 2,
+          "text_sha256": "aef887a612299726999133623f218afa5083625e3ec95683646c5215b576a0a0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 44,
+          "range": [
+            35737,
+            36359
+          ],
+          "body_characters": 595,
+          "images": 1,
+          "text_sha256": "ebb7f04b14d34643d80eb653784d3e3fb179b8bf43e3367038c9beb217ce11fa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 45,
+          "range": [
+            36359,
+            37203
+          ],
+          "body_characters": 817,
+          "images": 1,
+          "text_sha256": "34c8af5914e1d5c1b24329171d4476af2b7b8ec0696bcaa2e0e31d0641c748bc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 46,
+          "range": [
+            37203,
+            37965
+          ],
+          "body_characters": 735,
+          "images": 1,
+          "text_sha256": "e1c7a42bd9199aad8a1132e3eda1e374cb973fefe5772c8f55168a79beb02727",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 47,
+          "range": [
+            37965,
+            38898
+          ],
+          "body_characters": 906,
+          "images": 0,
+          "text_sha256": "13c1bd219ed80af3f43b8d322edb3d18fab6c2ecee0d21d777e60d30c4a4f2dc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 48,
+          "range": [
+            38898,
+            39603
+          ],
+          "body_characters": 678,
+          "images": 1,
+          "text_sha256": "0e692fd8b4c63493f29d6fea0dcbda886be9d3a0841e628daca006895baed665",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 49,
+          "range": [
+            39603,
+            40630
+          ],
+          "body_characters": 1000,
+          "images": 2,
+          "text_sha256": "8b194d88efa4ad9916845fd0bcd2ac30fd613f2e820858e3c2c68edc177fb2cd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 50,
+          "range": [
+            40630,
+            41597
+          ],
+          "body_characters": 940,
+          "images": 2,
+          "text_sha256": "2b1f6a8538aa9fc668d75f5147f051c23fbdb8bb3977c5ae0074e1029be4ee21",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 51,
+          "range": [
+            41597,
+            42799
+          ],
+          "body_characters": 1175,
+          "images": 1,
+          "text_sha256": "1c3a9ab648e7541cdaf034f4958ce8862cf535dfe7263c05fffc03ac937bde36",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 52,
+          "range": [
+            42799,
+            44532
+          ],
+          "body_characters": 1706,
+          "images": 0,
+          "text_sha256": "5d3a67c7e37108f0cf1b9338748dd3a9b8ba70319d29d75387657e82df2df4fc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 53,
+          "range": [
+            44532,
+            45469
+          ],
+          "body_characters": 910,
+          "images": 0,
+          "text_sha256": "d004951c86e96e880642d892a79917eb33079aae27621fb8b0a25537703378f8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 54,
+          "range": [
+            45469,
+            46429
+          ],
+          "body_characters": 933,
+          "images": 0,
+          "text_sha256": "8b4ca60e2d762f91412cf5f9bdeaae49ba0ca58a05f33d3e487de97c72d29aba",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 55,
+          "range": [
+            46429,
+            46967
+          ],
+          "body_characters": 511,
+          "images": 2,
+          "text_sha256": "cc8c882ef94d3673513492c0cfe5f96d5550e4921b2cf7ea15ecdbb2b31ddf75",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 56,
+          "range": [
+            46967,
+            47572
+          ],
+          "body_characters": 578,
+          "images": 0,
+          "text_sha256": "ccac8b14ed774c6b1f203528cc80e614e2301be4f5cfb42470a54df701dc6d94",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 57,
+          "range": [
+            47572,
+            48347
+          ],
+          "body_characters": 748,
+          "images": 1,
+          "text_sha256": "4e0329ad53eb84b18cf5552f1c7bfa66006fafb9e479b72b488520668be66b6f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 58,
+          "range": [
+            48347,
+            49077
+          ],
+          "body_characters": 703,
+          "images": 1,
+          "text_sha256": "f195f2a8e7fbe1cde3bfc6a3fdaff191fa117d87813fe332e58894eb77a5cc72",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 59,
+          "range": [
+            49077,
+            49983
+          ],
+          "body_characters": 879,
+          "images": 0,
+          "text_sha256": "9914a96472bff64854ac043af64ef9d79073a315921b912cf6e6203c0b1f485c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 60,
+          "range": [
+            49983,
+            50624
+          ],
+          "body_characters": 614,
+          "images": 0,
+          "text_sha256": "70f09b6dc0a730fa9a725d4970f6ef4ba6d2f112faf5c9cc6359bc83e3003725",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 61,
+          "range": [
+            50624,
+            51313
+          ],
+          "body_characters": 662,
+          "images": 1,
+          "text_sha256": "e5d8fb9ed39c5e77730da16e029a633798291146bf72d36f3a62c1fb09fccbaf",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 62,
+          "range": [
+            51313,
+            52131
+          ],
+          "body_characters": 791,
+          "images": 0,
+          "text_sha256": "f6900613d09bdfbe8aad6d569fcf94f4da8136b4101e2d06367f98ecace5224a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 63,
+          "range": [
+            52131,
+            53054
+          ],
+          "body_characters": 896,
+          "images": 0,
+          "text_sha256": "e816aec1cfb9c46f9fd72077a0d0dac1eb932d3d56c705c360e0110976818ffc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 64,
+          "range": [
+            53054,
+            53863
+          ],
+          "body_characters": 782,
+          "images": 0,
+          "text_sha256": "8f1317182fe1979c0bfb5651b157c1113c3af9cb5179957a15b168828cc23e46",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 65,
+          "range": [
+            53863,
+            54744
+          ],
+          "body_characters": 854,
+          "images": 0,
+          "text_sha256": "887dea1dfbea0c3bb26b77b9cb784eeaa0ffc664b4ad5922106abd33d6c7387d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 66,
+          "range": [
+            54744,
+            55496
+          ],
+          "body_characters": 725,
+          "images": 0,
+          "text_sha256": "93e3dd0ce172bb3edf12192ab4888f97ec1d9f7fb119acf388424e6b6958a868",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 67,
+          "range": [
+            55496,
+            56350
+          ],
+          "body_characters": 827,
+          "images": 0,
+          "text_sha256": "88f7b8b47161b54a52b4ebbea8f72c297519487414dc6c739220635b0998ec1d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 68,
+          "range": [
+            56350,
+            57200
+          ],
+          "body_characters": 823,
+          "images": 0,
+          "text_sha256": "4b2847dc42253bd173b79ccf82a183dea0f4df0c60368db4d14c26d0923bf74e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 69,
+          "range": [
+            57200,
+            58179
+          ],
+          "body_characters": 952,
+          "images": 0,
+          "text_sha256": "cf8d3741d1b227a10d5c930120f0ebd5ee440b1b834a47ab7960245369b2a8eb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 70,
+          "range": [
+            58179,
+            59023
+          ],
+          "body_characters": 817,
+          "images": 0,
+          "text_sha256": "601cdec7cfbdde9ea59b5b045fa3aa76566bbecd54397f3e7a74d756023caa45",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 71,
+          "range": [
+            59023,
+            59940
+          ],
+          "body_characters": 890,
+          "images": 0,
+          "text_sha256": "5e6ace6dd3ce6a1000f4030bff28ee338a29e441cb7aa38ec5d0bc2a791bdbf1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 72,
+          "range": [
+            59940,
+            60865
+          ],
+          "body_characters": 898,
+          "images": 1,
+          "text_sha256": "d20ebe6aaf20b38c401172fbd731e1ab61a944aeece1c0e538dd79ae2cc3af71",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 73,
+          "range": [
+            60865,
+            61743
+          ],
+          "body_characters": 851,
+          "images": 1,
+          "text_sha256": "9c17e9fb9444ee9b3cd6699729844dc9e27cdbed7533999d778147c01b0d1432",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 74,
+          "range": [
+            61743,
+            62247
+          ],
+          "body_characters": 477,
+          "images": 1,
+          "text_sha256": "8bd28f68b26a271e69cf4277fa69efd2aa6e3e01841c495374a83f13268b96fe",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 75,
+          "range": [
+            62247,
+            63113
+          ],
+          "body_characters": 839,
+          "images": 0,
+          "text_sha256": "4edea91c8e28c7c6ea62389ab5d15ecbfd3cffe670fef832868f336f46fb160d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 76,
+          "range": [
+            63113,
+            63524
+          ],
+          "body_characters": 384,
+          "images": 2,
+          "text_sha256": "bbb2f21b47ba2aa4cf9e5bc5bb140d9d6ccbc2384f3e2847eee31fff235d1896",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 77,
+          "range": [
+            63524,
+            64833
+          ],
+          "body_characters": 1282,
+          "images": 0,
+          "text_sha256": "c310909c59b74be884a312fc27c0d0491da37153317b4791b461978ecf565330",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 78,
+          "range": [
+            64833,
+            66033
+          ],
+          "body_characters": 1173,
+          "images": 0,
+          "text_sha256": "3cd780bf0039110d42fbb5b402d8c4a5f966ca10deef41349f91454b4e75dd93",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 79,
+          "range": [
+            66033,
+            67355
+          ],
+          "body_characters": 1295,
+          "images": 0,
+          "text_sha256": "7f7d2ef9edc97cdad5fc504bd728a49af5cfaa741bad4c2d16ce7d92cc7322d0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 80,
+          "range": [
+            67355,
+            68357
+          ],
+          "body_characters": 975,
+          "images": 0,
+          "text_sha256": "1f365f5fde7c12794d948579974be073d336dbd54b2d44d1bbf8def2abea7313",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 81,
+          "range": [
+            68357,
+            70112
+          ],
+          "body_characters": 1728,
+          "images": 0,
+          "text_sha256": "d81b57a00fbc99b9eaf6c7f7604e67be3d17156e324b6abde07056d1af8b4809",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 82,
+          "range": [
+            70112,
+            71289
+          ],
+          "body_characters": 1150,
+          "images": 0,
+          "text_sha256": "162271b13486094c0b659d08114b2ac36369c8055186d51c2530d449d162038d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 83,
+          "range": [
+            71289,
+            72008
+          ],
+          "body_characters": 692,
+          "images": 0,
+          "text_sha256": "711e15f5c2d6f6bc0cc9ee61d75cc60f23b55f4c338dc4475e483cd122538a7d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 84,
+          "range": [
+            72008,
+            72750
+          ],
+          "body_characters": 715,
+          "images": 1,
+          "text_sha256": "1b601647d39f765dbea784994cd246ba8786b02269c8efb1a4afbfa169965b19",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 85,
+          "range": [
+            72750,
+            74044
+          ],
+          "body_characters": 1267,
+          "images": 0,
+          "text_sha256": "d774059f9970ec1015632174f77e1167a7758aed716bf91af7569e1d7d6e4e37",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 86,
+          "range": [
+            74044,
+            75463
+          ],
+          "body_characters": 1392,
+          "images": 0,
+          "text_sha256": "bb3f9745be2943a61ab73622eb41cc34cbcd65ab75c31f62f4b7143595da0246",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 87,
+          "range": [
+            75463,
+            76764
+          ],
+          "body_characters": 1274,
+          "images": 0,
+          "text_sha256": "a9bca082e5edba04125f2de7b72b860351518a484ebf6fb09fdee2831626ae71",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 88,
+          "range": [
+            76764,
+            77927
+          ],
+          "body_characters": 1136,
+          "images": 0,
+          "text_sha256": "d09f6c5de70fea3ef8b4b31877a4909f8c3cb73805020a258e49acbaa3389e2f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 89,
+          "range": [
+            77927,
+            78962
+          ],
+          "body_characters": 1008,
+          "images": 0,
+          "text_sha256": "8946622ab8045db2b86341c0ea0c6b67ed927e3e1def448a99b26c6df88322e2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 90,
+          "range": [
+            78962,
+            79568
+          ],
+          "body_characters": 579,
+          "images": 1,
+          "text_sha256": "5cf36736da663da7bbeb90fdb9ff14ecd1f9a75b5774efca1943b3e818f70c6d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 91,
+          "range": [
+            79568,
+            80371
+          ],
+          "body_characters": 776,
+          "images": 0,
+          "text_sha256": "89f744d5087e675d7be2eabe6162caba4ac47157393101a91da34c8df26f17d4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 92,
+          "range": [
+            80371,
+            80958
+          ],
+          "body_characters": 560,
+          "images": 2,
+          "text_sha256": "3399d1617d96f696bb273cf8b19da963bf51d39342d9c15895c312e39be41acb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 93,
+          "range": [
+            80958,
+            81719
+          ],
+          "body_characters": 734,
+          "images": 2,
+          "text_sha256": "f68f9589cca0fa5c50113476256a523f272e229dff5239887c9b988796fc7a1c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 94,
+          "range": [
+            81719,
+            82250
+          ],
+          "body_characters": 504,
+          "images": 2,
+          "text_sha256": "fb7dd5f05f75651391fc726040e50397e5e978f25ba2d0bdee8857be2524f853",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 95,
+          "range": [
+            82250,
+            82779
+          ],
+          "body_characters": 502,
+          "images": 2,
+          "text_sha256": "ce7cc23aef7ed73779b1c8ad97f021a4026d82a85c2d53df2fee7a38afd98849",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 96,
+          "range": [
+            82779,
+            83399
+          ],
+          "body_characters": 593,
+          "images": 2,
+          "text_sha256": "8894f5cfd59424c53a38631e41b2c7a7e4509b83ca43a07697df95c84e791e5c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 97,
+          "range": [
+            83399,
+            84426
+          ],
+          "body_characters": 1000,
+          "images": 2,
+          "text_sha256": "41187fb12c56b5b76d7871cea45fb6ae4634416c25ba508f8d548073dcef9465",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 98,
+          "range": [
+            84426,
+            85085
+          ],
+          "body_characters": 632,
+          "images": 0,
+          "text_sha256": "c8f3bd29a939ab66475b9314248d4c750c761eb698aaa804e623e1f5ae7cbff1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 99,
+          "range": [
+            85085,
+            86106
+          ],
+          "body_characters": 994,
+          "images": 1,
+          "text_sha256": "5fafc76a34dd23d8c1533e6d274d42a05a4e9325066005c9b3b2e6c43ce9a9d7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 100,
+          "range": [
+            86106,
+            86835
+          ],
+          "body_characters": 701,
+          "images": 0,
+          "text_sha256": "5c7fc3094371ee38266c119633f6f81d7f0af03840a1d253e9340b11a69a5622",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 101,
+          "range": [
+            86835,
+            87794
+          ],
+          "body_characters": 931,
+          "images": 2,
+          "text_sha256": "05796c25d75c2121e19cae2bd19e3ba26a831fc0360380ade7d8ae59612df482",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 102,
+          "range": [
+            87794,
+            88599
+          ],
+          "body_characters": 777,
+          "images": 0,
+          "text_sha256": "36fd78813ae8750eb40258f2ef8d24ebfbdfbd2d819c5380236d9eddc929a5a5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 103,
+          "range": [
+            88599,
+            89189
+          ],
+          "body_characters": 562,
+          "images": 3,
+          "text_sha256": "4df2d076d485fd52e48b034eb5e0c826b7c66e4805337081625b340fd91466a4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 104,
+          "range": [
+            89189,
+            90017
+          ],
+          "body_characters": 800,
+          "images": 0,
+          "text_sha256": "d2141fb5c439ceee29f63d01521f6530433ab11952bffd34a91aa90b3e737a58",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 105,
+          "range": [
+            90017,
+            90551
+          ],
+          "body_characters": 506,
+          "images": 0,
+          "text_sha256": "4cce2a1e23a60b770d5c4ea08c57372a81cdf032335eb492deadda38643d7306",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 106,
+          "range": [
+            90551,
+            91776
+          ],
+          "body_characters": 1197,
+          "images": 0,
+          "text_sha256": "4ed24072cda267ebceef5d9285505941a1f2ea144fc122f3a9943de004f2587a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 107,
+          "range": [
+            91776,
+            93082
+          ],
+          "body_characters": 1278,
+          "images": 0,
+          "text_sha256": "a85750af2dad3e97d2101df8274749a0ec3a5d2784b7173de4e671b3348f6ef9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 108,
+          "range": [
+            93082,
+            94205
+          ],
+          "body_characters": 1095,
+          "images": 0,
+          "text_sha256": "7f57a891d80fc0b4c03abcf405fdd69c51e67f02fe770db68d77e7b74f954dcd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 109,
+          "range": [
+            94205,
+            95566
+          ],
+          "body_characters": 1333,
+          "images": 0,
+          "text_sha256": "b7c461aaad8708f11df8ae34e059f9b220320f104b82aedb973cda0ff060c598",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 110,
+          "range": [
+            95566,
+            96707
+          ],
+          "body_characters": 1113,
+          "images": 0,
+          "text_sha256": "cb118d24a115a486bc6864f7ab58d928a8393423da7c5483c6074bfb8a7c3cd6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 111,
+          "range": [
+            96707,
+            98441
+          ],
+          "body_characters": 1706,
+          "images": 0,
+          "text_sha256": "c2e0f760d75b8eef65d578a7a6754e62b4d3c67c1704b69fd8b657a34d1eb761",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 112,
+          "range": [
+            98441,
+            99184
+          ],
+          "body_characters": 715,
+          "images": 0,
+          "text_sha256": "895d688213a8b358f72f1d351cea3618ae76dfb0c30c3809cf2330832cba629c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 113,
+          "range": [
+            99184,
+            100346
+          ],
+          "body_characters": 1134,
+          "images": 1,
+          "text_sha256": "42bbe2e552f09dc514566259284d7b5a6901d1529d142212b98ad9cad274674e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 114,
+          "range": [
+            100346,
+            100981
+          ],
+          "body_characters": 607,
+          "images": 0,
+          "text_sha256": "5a966b74b47fb76435b6154349a23739e91be52c69b2052152286e3774b83ed1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 115,
+          "range": [
+            100981,
+            101993
+          ],
+          "body_characters": 984,
+          "images": 1,
+          "text_sha256": "5216007b925680e85b7e16f60f8c0af94b83655f1277acda8df095077a9f56c5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 116,
+          "range": [
+            101993,
+            102810
+          ],
+          "body_characters": 789,
+          "images": 2,
+          "text_sha256": "f2d5927190ad9294df2aea3d9b270cacc29be2a30d95499e7c0af897efece1fd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 117,
+          "range": [
+            102810,
+            103829
+          ],
+          "body_characters": 991,
+          "images": 0,
+          "text_sha256": "c27b2382e81f40d16311980efdc99c5a3d14150fe067c46c8e59cf96615983a5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 118,
+          "range": [
+            103829,
+            104555
+          ],
+          "body_characters": 698,
+          "images": 1,
+          "text_sha256": "df72ee5251f01309686312e796f326ace88655162a19cb593f98998279f9139b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 119,
+          "range": [
+            104555,
+            105401
+          ],
+          "body_characters": 818,
+          "images": 2,
+          "text_sha256": "05b5b044f4fcd7e8e0cf5b9139e8a5caf04e53546e7604ab86952d76ffa1e963",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 120,
+          "range": [
+            105401,
+            106041
+          ],
+          "body_characters": 612,
+          "images": 1,
+          "text_sha256": "2ff18ecb469d307e8f36ef7833dcb5fced6971bafc9c263ad3f617c26c74d96f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 121,
+          "range": [
+            106041,
+            107075
+          ],
+          "body_characters": 1006,
+          "images": 0,
+          "text_sha256": "794f0ea4cf2844d39e692e19196be7c3407fd3b2e0fbdfc0589e00a6ff2d6454",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 122,
+          "range": [
+            107075,
+            107506
+          ],
+          "body_characters": 403,
+          "images": 5,
+          "text_sha256": "e57b02a52d2ad92963847548c4f865eb81145b21af7e492834a5871f4abec256",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 123,
+          "range": [
+            107506,
+            108107
+          ],
+          "body_characters": 573,
+          "images": 2,
+          "text_sha256": "ae6102533c0a7331ea03e6f66743123b4cdac5c9b2a6d0657a182812b5015048",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 124,
+          "range": [
+            108107,
+            108833
+          ],
+          "body_characters": 698,
+          "images": 1,
+          "text_sha256": "76c0164ea0bb5ffcc71d1afd8dbf1350305b52989e974f453d234bd5be1a4a55",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 125,
+          "range": [
+            108833,
+            109933
+          ],
+          "body_characters": 1072,
+          "images": 1,
+          "text_sha256": "577b9d0bc8f6ff8790a73bbd76035771e7e4734687038976a90ab1fee7175a19",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 126,
+          "range": [
+            109933,
+            110579
+          ],
+          "body_characters": 618,
+          "images": 1,
+          "text_sha256": "fb0b950ef287b397c074c1720a4ec587890a801697892cd3c3e4a96392b83e84",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 127,
+          "range": [
+            110579,
+            111318
+          ],
+          "body_characters": 711,
+          "images": 2,
+          "text_sha256": "58db92cf434413aead72839198f12fd8b064783959196fb94656e75e83da7767",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 128,
+          "range": [
+            111318,
+            112045
+          ],
+          "body_characters": 699,
+          "images": 1,
+          "text_sha256": "e8e1c1e0816ab31a10de3124613d8b0d176cce23e426ae967ada57070529e285",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 129,
+          "range": [
+            112045,
+            112796
+          ],
+          "body_characters": 723,
+          "images": 2,
+          "text_sha256": "aebfcbf49fdb7104494f1669d01949bf9efeae626df4d4befa5f956073212072",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 130,
+          "range": [
+            112796,
+            113415
+          ],
+          "body_characters": 591,
+          "images": 1,
+          "text_sha256": "3d570323cf830fffc4b6a6e9d7379dc0328f8b1abcdabd3f6d60bc1365438549",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 131,
+          "range": [
+            113415,
+            114375
+          ],
+          "body_characters": 932,
+          "images": 0,
+          "text_sha256": "6cf521fc666dc898cb71f6e787d52fe1d2002a524374c178384e4b2d4ceb22e7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 132,
+          "range": [
+            114375,
+            115326
+          ],
+          "body_characters": 923,
+          "images": 1,
+          "text_sha256": "4c1191aeb630c8951f0fdc084d507a13163277643551a8690cfaad68c24446c7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 133,
+          "range": [
+            115326,
+            116161
+          ],
+          "body_characters": 807,
+          "images": 1,
+          "text_sha256": "a4e4b944406c65f1e823dc2517a1e8864fdd89dbe8db1a762ada48d5dd109cd5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 134,
+          "range": [
+            116161,
+            117208
+          ],
+          "body_characters": 1019,
+          "images": 2,
+          "text_sha256": "d1e9132572a35a1fe038ab75eb43200991c9d2c427046b07fbb7d1541f5effd7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 135,
+          "range": [
+            117208,
+            117764
+          ],
+          "body_characters": 528,
+          "images": 1,
+          "text_sha256": "8d32dd6c9ac58e3367ff72dda7f7b0bb30bb855f11444f63a441298a65cb0385",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ]
+    }
+  ],
+  "reference_checks": "NHS/ACOG correction reused from the immediately preceding B008 unit; no new original paper claimed read",
+  "next_work_unit": {
+    "id": "B010",
+    "path": "Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf",
+    "git_blob_sha": "d6447822eb44ef4c01ad9308dd375f57b12b0e48",
+    "bytes": 5323023,
+    "file_pages": 644,
+    "reading_status": "unread",
+    "start": "physical page1; verify original blob then establish current extraction identity before ordered reading",
+    "next_file_page": 1,
+    "next_character": 0,
+    "current_extraction_identity": "not yet established; old inventory coordinates do not establish reading",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+  }
+}
