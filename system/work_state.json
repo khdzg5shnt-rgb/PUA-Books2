@@ -1,40 +1,40 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B032_current_file_text_complete",
-  "status": "B032_current_file_text_complete_checks_passed",
-  "base_commit": "d2810976cbd291e986f56ec3bc250182f065629b",
+  "current_focus": "B033_current_file_text_complete",
+  "status": "B033_current_file_text_complete_checks_passed",
+  "base_commit": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B032_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B032_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B033_progress_2026-11-12.md",
+  "validation": "knowledge/provenance/B033_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B033",
-    "path": "五步陷阱 - 死囚漫步.epub",
-    "git_blob_sha": "5eadbb8671f28d753582e4635891b07049692923",
-    "bytes": 170974,
+    "id": "B034",
+    "path": "五步陷阱技术深度解剖 - Jacob.pdf",
+    "git_blob_sha": "ea47b7a3f3ccd2ce36159e0adaa7c8a3353dfd63",
+    "bytes": 1327630,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": null,
-    "spine_items": 11,
-    "next_spine_index": 1,
-    "start": "EPUB document beginning; verify binary,OPF reading order,current extraction and image/privacy scope before reading",
-    "next_file_page": null,
+    "file_pages": 104,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
     "next_character": 0,
     "current_extraction_identity": null,
-    "next_content_unit": "B033 first OPF spine item,not ZIP filename sort order; historical text extraction is not reading completion",
-    "ledger": "knowledge/provenance/B032_reading_2026-11-12.json",
-    "historical_extraction_characters": 126088,
+    "start": "PDF file page1; verify binary,current text extraction,page order and image/privacy scope before reading",
+    "next_content_unit": "B034 PDF first file page,not printed page or historical extraction completion",
+    "ledger": "knowledge/provenance/B033_reading_2026-11-12.json",
+    "historical_extraction_characters": 110095,
     "historical_ocr_processed_pages": 0
   },
-  "next_work": "Continue B033 first EPUB spine item after binary,OPF order,current extraction and image/privacy verification. Preserve33/119 current-file text scope,B032 unavailable illustration and B014/B015/B017 gaps,all previous reading and completed OS maintenance.",
+  "next_work": "Continue B034 PDF file page1 after binary,text extraction,page order and image/privacy verification. Preserve34/119 current-file text scope,B033 unavailable figures and all previous gaps,reading and completed OS maintenance.",
   "current_session_progress": {
-    "baseline": "d2810976cbd291e986f56ec3bc250182f065629b",
+    "baseline": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
     "work_type": "original_file_reading",
     "text_complete_file_ids": [
-      "B032"
+      "B033"
     ],
     "text_partial_file_ids": [
       "B014",
@@ -42,31 +42,29 @@
       "B017"
     ],
     "new_book_files_started": [
-      "B032"
+      "B033"
     ],
-    "direct_extractable_characters_read": 139547,
-    "main_body_characters_read": 136714,
-    "actual_read_chunks": 23,
-    "B032_spine_items_read": 58,
-    "B032_chapter_numbers": [
+    "direct_extractable_characters_read": 124366,
+    "main_body_characters_read": 123837,
+    "actual_read_chunks": 24,
+    "B033_spine_items_read": 11,
+    "B033_chapter_numbers": [
       1,
-      56
+      8
     ],
-    "B032_independent_body_coverage_checks": 58,
-    "B032_HTML_recovery_members": 57,
-    "B032_duplicate_chapter_bodies": [
-      1,
-      2
+    "reading_attribution": "three_disjoint_readers_then_one_integrated_review",
+    "readers": 3,
+    "B033_independent_body_coverage_checks": 11,
+    "B033_HTML_recovery_members": 0,
+    "B033_unprovided_figures": [
+      "2-1",
+      "2-2"
     ],
-    "B032_unprovided_figure_chapters": [
-      46
-    ],
-    "new_original_work_count_not_inferred_from_file_count": true,
     "methods": 26,
     "routes": 32,
     "task_modes": 5,
     "new_method_source_bindings": 10,
-    "new_original_review_groups": 7,
+    "new_original_review_groups": 5,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
     "new_whole_book_files_completed": 1,
@@ -77,24 +75,14 @@
       "structural": true,
       "unittest_methods": 39,
       "synthetic_routing_scenarios": 132,
-      "retrieval_methods": [
-        "M01",
-        "M25",
-        "M05",
-        "M10",
-        "M14",
-        "M15",
-        "M08",
-        "M19",
-        "M23",
-        "M24"
-      ],
       "all26_preferred_sections_complete": true,
-      "new_B032_focused_retrieval": true,
+      "new_B033_focused_retrieval": true,
       "scope": true,
-      "actual_read_chunks": 23,
-      "EPUB_spine_items": 58,
-      "independent_body_coverage_reconciliations": 58,
+      "independent_audit": true,
+      "actual_read_chunks": 24,
+      "EPUB_spine_items": 11,
+      "independent_body_coverage_reconciliations": 11,
+      "reading_attribution_verified": true,
       "blind_visual_tests": 0
     }
   },
@@ -1213,6 +1201,74 @@
         "EPUB_spine_items": 36,
         "blind_visual_tests": 0
       }
+    },
+    {
+      "baseline": "d2810976cbd291e986f56ec3bc250182f065629b",
+      "work_type": "original_file_reading",
+      "text_complete_file_ids": [
+        "B032"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B032"
+      ],
+      "direct_extractable_characters_read": 139547,
+      "main_body_characters_read": 136714,
+      "actual_read_chunks": 23,
+      "B032_spine_items_read": 58,
+      "B032_chapter_numbers": [
+        1,
+        56
+      ],
+      "B032_independent_body_coverage_checks": 58,
+      "B032_HTML_recovery_members": 57,
+      "B032_duplicate_chapter_bodies": [
+        1,
+        2
+      ],
+      "B032_unprovided_figure_chapters": [
+        46
+      ],
+      "new_original_work_count_not_inferred_from_file_count": true,
+      "methods": 26,
+      "routes": 32,
+      "task_modes": 5,
+      "new_method_source_bindings": 10,
+      "new_original_review_groups": 7,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_whole_book_files_completed": 1,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 39,
+        "synthetic_routing_scenarios": 132,
+        "retrieval_methods": [
+          "M01",
+          "M25",
+          "M05",
+          "M10",
+          "M14",
+          "M15",
+          "M08",
+          "M19",
+          "M23",
+          "M24"
+        ],
+        "all26_preferred_sections_complete": true,
+        "new_B032_focused_retrieval": true,
+        "scope": true,
+        "actual_read_chunks": 23,
+        "EPUB_spine_items": 58,
+        "independent_body_coverage_reconciliations": 58,
+        "blind_visual_tests": 0
+      }
     }
   ],
   "deferred_work_units": [
@@ -1276,10 +1332,10 @@
     }
   ],
   "last_completed_reading_session": {
-    "baseline": "d2810976cbd291e986f56ec3bc250182f065629b",
+    "baseline": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
     "work_type": "original_file_reading",
     "text_complete_file_ids": [
-      "B032"
+      "B033"
     ],
     "text_partial_file_ids": [
       "B014",
@@ -1287,31 +1343,29 @@
       "B017"
     ],
     "new_book_files_started": [
-      "B032"
+      "B033"
     ],
-    "direct_extractable_characters_read": 139547,
-    "main_body_characters_read": 136714,
-    "actual_read_chunks": 23,
-    "B032_spine_items_read": 58,
-    "B032_chapter_numbers": [
+    "direct_extractable_characters_read": 124366,
+    "main_body_characters_read": 123837,
+    "actual_read_chunks": 24,
+    "B033_spine_items_read": 11,
+    "B033_chapter_numbers": [
       1,
-      56
+      8
     ],
-    "B032_independent_body_coverage_checks": 58,
-    "B032_HTML_recovery_members": 57,
-    "B032_duplicate_chapter_bodies": [
-      1,
-      2
+    "reading_attribution": "three_disjoint_readers_then_one_integrated_review",
+    "readers": 3,
+    "B033_independent_body_coverage_checks": 11,
+    "B033_HTML_recovery_members": 0,
+    "B033_unprovided_figures": [
+      "2-1",
+      "2-2"
     ],
-    "B032_unprovided_figure_chapters": [
-      46
-    ],
-    "new_original_work_count_not_inferred_from_file_count": true,
     "methods": 26,
     "routes": 32,
     "task_modes": 5,
     "new_method_source_bindings": 10,
-    "new_original_review_groups": 7,
+    "new_original_review_groups": 5,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
     "new_whole_book_files_completed": 1,
@@ -1322,24 +1376,14 @@
       "structural": true,
       "unittest_methods": 39,
       "synthetic_routing_scenarios": 132,
-      "retrieval_methods": [
-        "M01",
-        "M25",
-        "M05",
-        "M10",
-        "M14",
-        "M15",
-        "M08",
-        "M19",
-        "M23",
-        "M24"
-      ],
       "all26_preferred_sections_complete": true,
-      "new_B032_focused_retrieval": true,
+      "new_B033_focused_retrieval": true,
       "scope": true,
-      "actual_read_chunks": 23,
-      "EPUB_spine_items": 58,
-      "independent_body_coverage_reconciliations": 58,
+      "independent_audit": true,
+      "actual_read_chunks": 24,
+      "EPUB_spine_items": 11,
+      "independent_body_coverage_reconciliations": 11,
+      "reading_attribution_verified": true,
       "blind_visual_tests": 0
     }
   }

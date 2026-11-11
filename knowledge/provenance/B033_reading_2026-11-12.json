@@ -1,0 +1,1026 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B033_current_file_text_complete",
+  "baseline_main": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+  "previous_reading_ledger": "knowledge/provenance/B032_reading_2026-11-12.json",
+  "system_maintenance_preserved": "knowledge/provenance/OS_current_content_2026-11-12.md",
+  "records": [
+    {
+      "id": "B033",
+      "path": "五步陷阱 - 死囚漫步.epub",
+      "bytes": 170974,
+      "git_blob_sha": "5eadbb8671f28d753582e4635891b07049692923",
+      "source_sha256": "0e265d89cd5a4b47443efcf6fe6f5b692fa4f0efe7ce383bad22e7fa28a6daab",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "download_ref": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+      "connector_binary_result": "base64 body available, transferred to scratch and source SHA/bytes verified",
+      "extraction": {
+        "method": "OPF spine order; literal body text with paragraph boundaries; malformed XML uses HTML recovery; independently reconciled with HTMLParser body data; spine/path markers",
+        "characters": 124366,
+        "sha256": "c9c143b93b69f8cf455966e08492cb716779d8d8d360cf07bd80ed375515e3dc",
+        "coordinates": "Unicode code points; half-open ranges; EPUB spine item IDs,not pages"
+      },
+      "spine_items": 11,
+      "units": [
+        {
+          "spine_index": 1,
+          "idref": "x0.html",
+          "path": "OEBPS/Text/0.html",
+          "linear": "yes",
+          "heading": "五步陷阱",
+          "range": [
+            0,
+            60
+          ],
+          "body_characters": 12,
+          "text_sha256": "4d49642e54b0b02e10bad3cb55aef6e26878b643c64f8ca4930a1246f727f0aa",
+          "member_bytes": 369,
+          "member_sha256": "2c6ef83a5b1f9c62a8f190e4a944997a02c3ca16263e395c496d145f15af8b5d",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 2,
+          "idref": "x1.html",
+          "path": "OEBPS/Text/1.html",
+          "linear": "yes",
+          "heading": "引言",
+          "range": [
+            60,
+            2515
+          ],
+          "body_characters": 2407,
+          "text_sha256": "f6cf1bb1f11611da2c3c7772e6d8f795598a5766e02c59ed21e6b4d4b5468e8e",
+          "member_bytes": 7656,
+          "member_sha256": "d88c479a7ad3ee3aaf621ef4a6a37d39680bc947b920535e1a47ee3b93af3c0e",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 3,
+          "idref": "x2.html",
+          "path": "OEBPS/Text/2.html",
+          "linear": "yes",
+          "heading": "第一章 游戏泡妞理论的核心思想",
+          "range": [
+            2515,
+            15051
+          ],
+          "body_characters": 12488,
+          "text_sha256": "163452e5bbf4af3e0dfcfafca971b351aab45296f5f5f988315c50b371a069b7",
+          "member_bytes": 38217,
+          "member_sha256": "d4ec29bb988722dff4b4c101a1fa56edb144932c41e68b2130d2d870f56b33cb",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 4,
+          "idref": "x3.html",
+          "path": "OEBPS/Text/3.html",
+          "linear": "yes",
+          "heading": "第二章 游戏泡妞理论的实践应用",
+          "range": [
+            15051,
+            25331
+          ],
+          "body_characters": 10232,
+          "text_sha256": "3993bd82915e1c537e99f2fab92cd382507eaede2da5f6fce0b255704aa4732d",
+          "member_bytes": 31451,
+          "member_sha256": "0e41695994c6d633d1d9839f591076984edfcae7be379c0c4814d140b2fbcf7e",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 5,
+          "idref": "x4.html",
+          "path": "OEBPS/Text/4.html",
+          "linear": "yes",
+          "heading": "第三章 以游戏为载体的团队作战",
+          "range": [
+            25331,
+            34920
+          ],
+          "body_characters": 9541,
+          "text_sha256": "4f1d4a068fa91ca489e45c858cf98f0c26f71b3d9e97ae8536112ef475abfdad",
+          "member_bytes": 29390,
+          "member_sha256": "e86c9a52f8fdcc548f1ac491ca39c366ccc374b8520ac88433bc9c4c21b05973",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 6,
+          "idref": "x5.html",
+          "path": "OEBPS/Text/5.html",
+          "linear": "yes",
+          "heading": "第四章 暗示话术的泡妞技巧使用",
+          "range": [
+            34920,
+            47834
+          ],
+          "body_characters": 12866,
+          "text_sha256": "2a86eda8d2c07dce14a2ea0ee43e4a7599e00baff5fcc8f23084d858cc9231ed",
+          "member_bytes": 39697,
+          "member_sha256": "c4e2b3078e95bc16a6a2f542d12fd1d56e63080f5bc60944808bc7f17110d3c3",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 7,
+          "idref": "x6.html",
+          "path": "OEBPS/Text/6.html",
+          "linear": "yes",
+          "heading": "第五章 具体情境下的泡妞实战案例",
+          "range": [
+            47834,
+            74691
+          ],
+          "body_characters": 26809,
+          "text_sha256": "251fb254bc01294a0997f8365ba44f500bd5b165062810e4172e1e506955ef58",
+          "member_bytes": 82998,
+          "member_sha256": "56f4d7c90f2651d15a79707e9ed79389d1db419d7aed03e336b5f877442bafed",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 8,
+          "idref": "x7.html",
+          "path": "OEBPS/Text/7.html",
+          "linear": "yes",
+          "heading": "第六章 用良好的心态征服女人",
+          "range": [
+            74691,
+            83216
+          ],
+          "body_characters": 8477,
+          "text_sha256": "af513e7a9fdb98f73f56195d553bbd8565e87daf34af779821f10ce4bb0168f6",
+          "member_bytes": 26760,
+          "member_sha256": "ec60e2839d59b88330d2503ab6e6093a99f0756f1ba639525c2bf99faef440c8",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 9,
+          "idref": "x8.html",
+          "path": "OEBPS/Text/8.html",
+          "linear": "yes",
+          "heading": "第七章 帮你瞬间征服女人的泡妞绝技",
+          "range": [
+            83216,
+            101262
+          ],
+          "body_characters": 17998,
+          "text_sha256": "0f8e3e70e997c245ba90701c89e214ffb29d008c585d2d76e577b6aa8a81fc53",
+          "member_bytes": 56021,
+          "member_sha256": "e613853a57e0f38103af4648d57c5ef0a8878d220db78cea06c485ec13b18a28",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 10,
+          "idref": "x9.html",
+          "path": "OEBPS/Text/9.html",
+          "linear": "yes",
+          "heading": "第八章 五步陷阱",
+          "range": [
+            101262,
+            124317
+          ],
+          "body_characters": 23007,
+          "text_sha256": "bc29967fcaef86d48ce89fedbab6bab83702a85e42a03b1c430786680211f4f4",
+          "member_bytes": 71227,
+          "member_sha256": "abc4ca8a93416e947e8e3d3f0e8d57cc708bddd6d0e5639cadcaa1fa4ee44d59",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        },
+        {
+          "spine_index": 11,
+          "idref": "x10.html",
+          "path": "OEBPS/Text/10.html",
+          "linear": "yes",
+          "heading": null,
+          "range": [
+            124317,
+            124366
+          ],
+          "body_characters": 0,
+          "text_sha256": "1dcb787b931cb5199103f9ca980834c240d452983d941a2da62bdfe963fc7e7d",
+          "member_bytes": 316,
+          "member_sha256": "5906e47d373246ee2c2304de88e963ab4857ac19f7b75564ff97db6ad000e028",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read_or_confirmed_empty"
+        }
+      ],
+      "current_body_characters": 123837,
+      "all_spine_bodies_whitespace_normalized_reconciled": true,
+      "image_members": [],
+      "nonspine_html_members": [],
+      "package_metadata_not_externally_verified": {
+        "creator": "死囚漫步",
+        "language": "zh-CN",
+        "title": "五步陷阱",
+        "date": "2018-08-26"
+      },
+      "opf_member": "OEBPS/content.opf",
+      "opf_sha256": "28ebd6bda26580ce8f12b8d8b1abfa5279aefe0700d62c08efd28ab8c76573c3",
+      "navigation": [
+        {
+          "label": "五步陷阱",
+          "target": "Text/0.html"
+        },
+        {
+          "label": "引言",
+          "target": "Text/1.html"
+        },
+        {
+          "label": "第一章 游戏泡妞理论的核心思想",
+          "target": "Text/2.html"
+        },
+        {
+          "label": "第二章 游戏泡妞理论的实践应用",
+          "target": "Text/3.html"
+        },
+        {
+          "label": "第三章 以游戏为载体的团队作战",
+          "target": "Text/4.html"
+        },
+        {
+          "label": "第四章 暗示话术的泡妞技巧使用",
+          "target": "Text/5.html"
+        },
+        {
+          "label": "第五章 具体情境下的泡妞实战案例",
+          "target": "Text/6.html"
+        },
+        {
+          "label": "第六章 用良好的心态征服女人",
+          "target": "Text/7.html"
+        },
+        {
+          "label": "第七章 帮你瞬间征服女人的泡妞绝技",
+          "target": "Text/8.html"
+        },
+        {
+          "label": "第八章 五步陷阱",
+          "target": "Text/9.html"
+        }
+      ],
+      "original_publication_complete": false,
+      "format": "EPUB",
+      "reading_status": "provided_file_text_complete",
+      "historical_inventory_extraction_characters": 126088,
+      "historical_inventory_body_characters": 125666,
+      "actual_read_chunks": [
+        [
+          0,
+          6000
+        ],
+        [
+          6000,
+          12000
+        ],
+        [
+          12000,
+          18000
+        ],
+        [
+          18000,
+          24000
+        ],
+        [
+          24000,
+          30000
+        ],
+        [
+          30000,
+          34920
+        ],
+        [
+          34920,
+          40920
+        ],
+        [
+          40920,
+          46920
+        ],
+        [
+          46920,
+          47834
+        ],
+        [
+          47834,
+          53834
+        ],
+        [
+          53834,
+          59834
+        ],
+        [
+          59834,
+          65834
+        ],
+        [
+          65834,
+          71834
+        ],
+        [
+          71834,
+          74691
+        ],
+        [
+          74691,
+          80200
+        ],
+        [
+          80200,
+          85650
+        ],
+        [
+          85650,
+          91100
+        ],
+        [
+          91100,
+          96550
+        ],
+        [
+          96550,
+          102000
+        ],
+        [
+          102000,
+          107450
+        ],
+        [
+          107450,
+          112900
+        ],
+        [
+          112900,
+          118350
+        ],
+        [
+          118350,
+          124317
+        ],
+        [
+          124317,
+          124366
+        ]
+      ],
+      "cumulative_actual_read_chunks": [
+        [
+          0,
+          6000
+        ],
+        [
+          6000,
+          12000
+        ],
+        [
+          12000,
+          18000
+        ],
+        [
+          18000,
+          24000
+        ],
+        [
+          24000,
+          30000
+        ],
+        [
+          30000,
+          34920
+        ],
+        [
+          34920,
+          40920
+        ],
+        [
+          40920,
+          46920
+        ],
+        [
+          46920,
+          47834
+        ],
+        [
+          47834,
+          53834
+        ],
+        [
+          53834,
+          59834
+        ],
+        [
+          59834,
+          65834
+        ],
+        [
+          65834,
+          71834
+        ],
+        [
+          71834,
+          74691
+        ],
+        [
+          74691,
+          80200
+        ],
+        [
+          80200,
+          85650
+        ],
+        [
+          85650,
+          91100
+        ],
+        [
+          91100,
+          96550
+        ],
+        [
+          96550,
+          102000
+        ],
+        [
+          102000,
+          107450
+        ],
+        [
+          107450,
+          112900
+        ],
+        [
+          112900,
+          118350
+        ],
+        [
+          118350,
+          124317
+        ],
+        [
+          124317,
+          124366
+        ]
+      ],
+      "new_direct_read_characters": 124366,
+      "cumulative_direct_read_characters": 124366,
+      "cumulative_read_range": [
+        0,
+        124366
+      ],
+      "read_chunk_text_sha256": [
+        {
+          "range": [
+            0,
+            6000
+          ],
+          "characters": 6000,
+          "sha256": "0c58709511241f861c37d108f7452508cf071a8f50a5ea7000defb80008a8ab2"
+        },
+        {
+          "range": [
+            6000,
+            12000
+          ],
+          "characters": 6000,
+          "sha256": "d82f7fb9dc7869e3f99d0aca7ef18495ae04e3c669735395c46aab5bf34c7ace"
+        },
+        {
+          "range": [
+            12000,
+            18000
+          ],
+          "characters": 6000,
+          "sha256": "e121553c31c777756a1b019401be2f13226f49475ef6e7a332b675c6f574995e"
+        },
+        {
+          "range": [
+            18000,
+            24000
+          ],
+          "characters": 6000,
+          "sha256": "b8b29ed3335c6d52822c4db26c4d99448c0f1ecfcc0663de9fed3f805afb7363"
+        },
+        {
+          "range": [
+            24000,
+            30000
+          ],
+          "characters": 6000,
+          "sha256": "03549fb0ba853f8d98a0198cb08c47bdb9a19f813131f59211c19b72d8e0ce53"
+        },
+        {
+          "range": [
+            30000,
+            34920
+          ],
+          "characters": 4920,
+          "sha256": "c67bea4016bf1b0c4d9297c7461b9332e5ae35b26f8ee64ad0181a720db728b0"
+        },
+        {
+          "range": [
+            34920,
+            40920
+          ],
+          "characters": 6000,
+          "sha256": "b23bc26f465a682af33b9ab546ce535ba6f604d2d4c3cb23e1be616374cfb9f4"
+        },
+        {
+          "range": [
+            40920,
+            46920
+          ],
+          "characters": 6000,
+          "sha256": "1f8336d0a89376b95e43b4e8fdd49504a0005f2c80c0f6185cbc5eb8a7b966b8"
+        },
+        {
+          "range": [
+            46920,
+            47834
+          ],
+          "characters": 914,
+          "sha256": "d3333f480dcd9ee87acc989e133540a56a3c798982297b06835eec8c967b508c"
+        },
+        {
+          "range": [
+            47834,
+            53834
+          ],
+          "characters": 6000,
+          "sha256": "82c2bea33de66cbecd5d88f84454c1e8367be3278d2197feed8e16c68ff534cd"
+        },
+        {
+          "range": [
+            53834,
+            59834
+          ],
+          "characters": 6000,
+          "sha256": "7e175bb528516ce06eb2e5717fc2331965147a8378ab4fa47d893468c1e4f83f"
+        },
+        {
+          "range": [
+            59834,
+            65834
+          ],
+          "characters": 6000,
+          "sha256": "58b92a1995a01b2d694511cfbe20c7bb815aaf042eb3defc23da0fe9e0efd2fe"
+        },
+        {
+          "range": [
+            65834,
+            71834
+          ],
+          "characters": 6000,
+          "sha256": "0afd1e58ae03f6719f0de4e65c843209411be7b7b6f4f9e522ec2161b960ddf4"
+        },
+        {
+          "range": [
+            71834,
+            74691
+          ],
+          "characters": 2857,
+          "sha256": "d61807dcc398ede431a1c89c7ec7c3c3295892a8ff5b291e4abb70d7b17222d4"
+        },
+        {
+          "range": [
+            74691,
+            80200
+          ],
+          "characters": 5509,
+          "sha256": "89376c3c9c0063fadf0ba748a06860cff02f009a13a06ca5018a93b40141e43e"
+        },
+        {
+          "range": [
+            80200,
+            85650
+          ],
+          "characters": 5450,
+          "sha256": "c8230147bdadee992072586c25627ea6e216f5855ec74f1e51e5bf9cf27c374a"
+        },
+        {
+          "range": [
+            85650,
+            91100
+          ],
+          "characters": 5450,
+          "sha256": "bd7e3a66045a46fca19a6985b1a2653fd90b3a9415a800d8c73489757bc10932"
+        },
+        {
+          "range": [
+            91100,
+            96550
+          ],
+          "characters": 5450,
+          "sha256": "8224159e6b8607e206ed58de181b991b7891868d5b59e820c6f4a33df6b6eb50"
+        },
+        {
+          "range": [
+            96550,
+            102000
+          ],
+          "characters": 5450,
+          "sha256": "65770cf76a9f4565c51352a8e1b460778b4296531ccf15c4a6b754a9a88c7fbd"
+        },
+        {
+          "range": [
+            102000,
+            107450
+          ],
+          "characters": 5450,
+          "sha256": "a762fb99457e2fdeacd021227a82df640d51cc6011dc33886d8f30e287cc8cfe"
+        },
+        {
+          "range": [
+            107450,
+            112900
+          ],
+          "characters": 5450,
+          "sha256": "43058c7daa385afd2606f66562437ac359829ef188338c0af7b61f249a578f4c"
+        },
+        {
+          "range": [
+            112900,
+            118350
+          ],
+          "characters": 5450,
+          "sha256": "8fcb23a14ef4bc8fc2d2ee71a6c3ad1634f0a74a3525642469e7260751106288"
+        },
+        {
+          "range": [
+            118350,
+            124317
+          ],
+          "characters": 5967,
+          "sha256": "800d20f6643357f15fd00e877bbe880ea6eedd92219a287132f87f0f5cc017fd"
+        },
+        {
+          "range": [
+            124317,
+            124366
+          ],
+          "characters": 49,
+          "sha256": "1dcb787b931cb5199103f9ca980834c240d452983d941a2da62bdfe963fc7e7d"
+        }
+      ],
+      "reading_attribution": {
+        "mode": "three_disjoint_reader_ranges_followed_by_one_integrated_review",
+        "readers": [
+          {
+            "reader": "reader_1",
+            "range": [
+              0,
+              34920
+            ],
+            "chunks": [
+              [
+                0,
+                6000
+              ],
+              [
+                6000,
+                12000
+              ],
+              [
+                12000,
+                18000
+              ],
+              [
+                18000,
+                24000
+              ],
+              [
+                24000,
+                30000
+              ],
+              [
+                30000,
+                34920
+              ]
+            ],
+            "read_characters": 34920,
+            "role": "source_reading_and_final_integration"
+          },
+          {
+            "reader": "reader_2",
+            "range": [
+              34920,
+              74691
+            ],
+            "chunks": [
+              [
+                34920,
+                40920
+              ],
+              [
+                40920,
+                46920
+              ],
+              [
+                46920,
+                47834
+              ],
+              [
+                47834,
+                53834
+              ],
+              [
+                53834,
+                59834
+              ],
+              [
+                59834,
+                65834
+              ],
+              [
+                65834,
+                71834
+              ],
+              [
+                71834,
+                74691
+              ]
+            ],
+            "read_characters": 39771,
+            "role": "source_reading_with_argument_review"
+          },
+          {
+            "reader": "reader_3",
+            "range": [
+              74691,
+              124366
+            ],
+            "chunks": [
+              [
+                74691,
+                80200
+              ],
+              [
+                80200,
+                85650
+              ],
+              [
+                85650,
+                91100
+              ],
+              [
+                91100,
+                96550
+              ],
+              [
+                96550,
+                102000
+              ],
+              [
+                102000,
+                107450
+              ],
+              [
+                107450,
+                112900
+              ],
+              [
+                112900,
+                118350
+              ],
+              [
+                118350,
+                124317
+              ],
+              [
+                124317,
+                124366
+              ]
+            ],
+            "read_characters": 49675,
+            "role": "source_reading_with_argument_review"
+          }
+        ],
+        "not_claimed_as_one_reader_directly_reading_all_text": true,
+        "argument_reviews_integrated": true
+      },
+      "entire_current_file_text_read": true,
+      "unread_characters": 0,
+      "next_file_page": null,
+      "next_character": null,
+      "read_spine_range": [
+        1,
+        11
+      ],
+      "chapter_numbers_read": [
+        1,
+        8
+      ],
+      "empty_spine_items": [
+        11
+      ],
+      "completed_content_units": [
+        "text title",
+        "preface",
+        "chapters1–8",
+        "empty final spine item"
+      ],
+      "strict_XML_members": 11,
+      "HTML_recovery_members": 0,
+      "unprovided_figure_references": [
+        {
+          "chapter": 2,
+          "figure": "2-1",
+          "text_occurrences": [
+            20114
+          ],
+          "image_provided": false
+        },
+        {
+          "chapter": 2,
+          "figure": "2-2",
+          "text_occurrences": [
+            22127,
+            22143
+          ],
+          "image_provided": false
+        }
+      ],
+      "source_internal_gaps": {
+        "two_figures_referenced_but_not_provided": true,
+        "last_spine_body_empty": true,
+        "original_edition_and_author_claims_not_externally_verified": true
+      },
+      "printed_bibliographic_information": {
+        "status": "package_only_not_externally_verified",
+        "author_as_printed": "死囚漫步",
+        "title": "五步陷阱",
+        "package_date": "2018-08-26",
+        "original_publication_date": null
+      },
+      "new_private_case_summaries": 0,
+      "marketing_contacts_republished": false,
+      "raw_or_extracted_text_archived": false,
+      "source_images_archived": false,
+      "new_external_research_or_video_reads": 0,
+      "technical_procedure_accuracy_safety_or_effectiveness_verified": false,
+      "image_ocr": {
+        "performed": false
+      },
+      "all_page_layouts_reviewed": false,
+      "narrative_archiving_policy": "Original non-graphic argument and structure reviews only; no private narrative retellings,dialogues,names,states,anonymous cases,contact data or harmful procedure scripts newly archived.",
+      "notes": [
+        "knowledge/books/B033-choice-and-social-pressure.md",
+        "knowledge/books/B033-classification-and-evidence.md",
+        "knowledge/books/B033-conversation-and-invitations.md",
+        "knowledge/books/B033-investment-and-exploitation.md",
+        "knowledge/books/B033-real-expression.md",
+        "knowledge/books/B033.md"
+      ]
+    }
+  ],
+  "new_direct_extractable_characters_read": 124366,
+  "new_main_body_characters_read": 123837,
+  "new_book_files_started": [
+    "B033"
+  ],
+  "new_book_files_completed": 1,
+  "new_book_file_ids_completed": [
+    "B033"
+  ],
+  "new_independent_original_works_not_counted": true,
+  "new_method_source_bindings": 10,
+  "new_original_review_groups": 5,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    }
+  ],
+  "unchanged_exclusions": {
+    "B015": {
+      "id": "B015",
+      "private_image_pages_excluded": 18,
+      "image_objects_excluded": 19,
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json"
+    },
+    "B017": [
+      {
+        "id": "B017",
+        "file_page": 69,
+        "image_objects": 1,
+        "screened_for_privacy_only": true,
+        "content_transcribed": false,
+        "case_summarized": false,
+        "case_or_person_state_created": false,
+        "temporary_render_deleted": true,
+        "original_source_preserved": true
+      }
+    ]
+  },
+  "new_privacy_exclusions": [],
+  "next_work_unit": {
+    "id": "B034",
+    "path": "五步陷阱技术深度解剖 - Jacob.pdf",
+    "git_blob_sha": "ea47b7a3f3ccd2ce36159e0adaa7c8a3353dfd63",
+    "bytes": 1327630,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": 104,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
+    "next_character": 0,
+    "current_extraction_identity": null,
+    "start": "PDF file page1; verify binary,current text extraction,page order and image/privacy scope before reading",
+    "next_content_unit": "B034 PDF first file page,not printed page or historical extraction completion",
+    "ledger": "knowledge/provenance/B033_reading_2026-11-12.json",
+    "historical_extraction_characters": 110095,
+    "historical_ocr_processed_pages": 0
+  },
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 34,
+    "current_file_text_partial": 3,
+    "not_started": 82
+  },
+  "scope": "Current EPUB text read in24 complete chunks by three readers with disjoint ranges,then integrated; full reading attribution retained. Two referenced figures not provided; original edition unverified. Five original non-graphic critical reviews and ten source bindings. Harmful core scheme rejected,not converted into a how-to. No source cases,private data,raw full text or source images newly archived."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/validate_os.py"
+      ],
+      "cwd": "/workspace/scratch/ed571cf3fc67/books2",
+      "started_utc": "2026-11-11T18:29:21.473901+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 32,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 34,\n  \"book_not_started\": 82,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "cwd": "/workspace/scratch/ed571cf3fc67/books2",
+      "started_utc": "2026-11-11T18:29:21.474542+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......................................\n----------------------------------------------------------------------\nRan 39 tests in 1.887s\n\nOK\n"
+    }
+  ],
+  "unittest_methods": 39,
+  "synthetic_routing_scenarios": 132,
+  "scope_checks": {
+    "ok": true,
+    "existing_modified": 11,
+    "new_files": 9,
+    "local_links": 273,
+    "all26_preferred_sections_complete": true,
+    "B033_focused_retrieval_without_method_change": true,
+    "prior_reading_and_OS_maintenance_preserved": true,
+    "next_book": "B034",
+    "next_file_page": 1,
+    "counts": [
+      34,
+      3,
+      82
+    ]
+  },
+  "independent_audit": {
+    "status": "passed",
+    "issues": [],
+    "original119_ids_and_all126_historical_fields_preserved": true,
+    "only_B033_inventory_and_source_record_changed": true,
+    "method_operations_runtime_and_config_unchanged": true,
+    "ten_critical_sources_appended": true,
+    "all24_chunk_hashes_match": true,
+    "three_disjoint_reader_ranges_exact": true,
+    "all11_bodies_checked_with_stdlib_ElementTree_and_separate_HTMLParser": true,
+    "ten_navigation_targets_match": true,
+    "two_figures_absent_and_empty_final_body_verified": true,
+    "six_current_notes_reviewed_without_observed_private_retellings_or_harmful_scripts": true
+  },
+  "content_QA_precision_change": "Clarified psychological dependency and autonomy criticism without implying physical restraint.",
+  "new_focused_retrieval_query": "想象与真实安排各有范围",
+  "new_raw_source_or_private_cases_archived": false,
+  "limitations": [
+    "Current file text only; unprovided illustrations and original edition not verified",
+    "Read by three readers and integrated; not one reader direct-reading all text",
+    "Fictional routing tests do not verify screenshot recognition,psychological mechanisms,health claims or dating outcomes"
+  ]
+}
