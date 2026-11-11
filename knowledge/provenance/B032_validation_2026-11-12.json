@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "d2810976cbd291e986f56ec3bc250182f065629b",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 32,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 33,\n  \"book_not_started\": 83,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "stdout": ".......................................\n----------------------------------------------------------------------\nRan 39 tests in 1.804s\n\nOK\n"
+    }
+  ],
+  "unittest_methods": 39,
+  "synthetic_routing_scenarios": 132,
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "d2810976cbd291e986f56ec3bc250182f065629b",
+    "changed_existing_files": 11,
+    "new_files": 11,
+    "local_markdown_links_checked": 279,
+    "new_file_text_complete": [
+      "B032"
+    ],
+    "current_extraction_characters_read": 139547,
+    "main_body_characters_read": 136714,
+    "actual_read_chunks": 23,
+    "EPUB_spine_items": 58,
+    "independent_body_coverage_reconciliations": 58,
+    "HTML_recovery_members": 57,
+    "duplicate_chapter_bodies_verified": [
+      1,
+      2
+    ],
+    "unprovided_figure_chapters_recorded": [
+      46
+    ],
+    "new_original_review_groups": 7,
+    "new_source_bindings": 10,
+    "retrieval_methods": [
+      "M01",
+      "M25",
+      "M05",
+      "M10",
+      "M14",
+      "M15",
+      "M08",
+      "M19",
+      "M23",
+      "M24"
+    ],
+    "all26_preferred_sections_complete": true,
+    "focused_new_B032_invitation_note_verified_without_changing_M14": true,
+    "book_text_complete": 33,
+    "book_text_partial": 3,
+    "book_not_started": 83,
+    "source_records": 158,
+    "next_book": "B033",
+    "next_spine_index": 1,
+    "next_file_page": null,
+    "next_character": 0,
+    "original126_identities_historical_extraction_and_old_ledgers_preserved": true,
+    "B014_B015_B017_gaps_and_support_item_states_preserved": true,
+    "OS_scripts_tests_routes_tasks_method_operations_and_preferred_mapping_unchanged": true,
+    "prior_completed_reading_session_appended_to_history": true,
+    "new_private_case_summaries": 0,
+    "new_raw_source_text_images_models_or_procedure_scripts_archived": false,
+    "new_original_research_full_texts": 0,
+    "new_original_videos": 0,
+    "new_source_head_checks": 0,
+    "new_blind_visual_tests": 0,
+    "scope": "Current EPUB text only; original edition,unprovided illustration,author narratives,mechanisms and dating outcomes not externally validated."
+  },
+  "new_B032_focused_retrieval_query": "服装要求与见面安排分别确认",
+  "new_source_notes_only_no_runtime_change": true,
+  "no_new_private_cases_or_raw_text_archived": true,
+  "limitations": [
+    "current file text coverage only; original edition and missing illustration not verified",
+    "unit tests use fictional facts; no screenshot recognition or dating outcome validation",
+    "author narratives and health or psychological claims not independently validated"
+  ]
+}

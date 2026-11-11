@@ -1,0 +1,2064 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B032_current_file_text_complete",
+  "baseline_main": "d2810976cbd291e986f56ec3bc250182f065629b",
+  "previous_reading_ledger": "knowledge/provenance/B030_B031_reading_2026-11-12.json",
+  "system_maintenance_preserved": "knowledge/provenance/OS_current_content_2026-11-12.md",
+  "records": [
+    {
+      "id": "B032",
+      "path": "中国把妹达人 - 浪迹.epub",
+      "bytes": 274473,
+      "git_blob_sha": "e9e0b1f6505fae6ff15579e6923da1e306be3663",
+      "source_sha256": "34684190162d407a98642821e7aaedb03b098ae83df661736f5ca925bd4612c4",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "download_ref": "d2810976cbd291e986f56ec3bc250182f065629b",
+      "connector_binary_result": "base64 body available, transferred to scratch and source SHA/bytes verified",
+      "extraction": {
+        "method": "OPF spine order; literal body text with paragraph boundaries; malformed XML uses HTML recovery; independently reconciled with HTMLParser body data; spine/path markers",
+        "characters": 139547,
+        "sha256": "dd3f2618d4e5325453c62070e0d9bb0e9c45b977677fb6074787da9ffb5a49be",
+        "coordinates": "Unicode code points; half-open ranges; EPUB spine item IDs,not pages"
+      },
+      "spine_items": 58,
+      "units": [
+        {
+          "spine_index": 1,
+          "idref": "x1.html",
+          "path": "OEBPS/Text/1.html",
+          "linear": "yes",
+          "heading": "中国把妹达人",
+          "range": [
+            0,
+            85
+          ],
+          "body_characters": 37,
+          "text_sha256": "ee6390d107e9954a089a6ffa1fc443a93d3de73fb23d57737d0117bf86e35de9",
+          "member_bytes": 454,
+          "member_sha256": "ffbca284cd78f9155d4a3a83383dc1a29ee5fd87eeffe3cef2f14c8f4e5e7da3",
+          "well_formed_xml": true,
+          "parser": "XML",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 2,
+          "idref": "x2.html",
+          "path": "OEBPS/Text/2.html",
+          "linear": "yes",
+          "heading": "序",
+          "range": [
+            85,
+            648
+          ],
+          "body_characters": 515,
+          "text_sha256": "cf42761f2dca6966f1afb2417183303c298c724a70b92a2850444e2476f7465c",
+          "member_bytes": 4557,
+          "member_sha256": "ef460acbdf7178a55b89dff43b1cec3cfd5b05f8818c69a36972db3baaa90b4b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 3,
+          "idref": "x3.html",
+          "path": "OEBPS/Text/3.html",
+          "linear": "yes",
+          "heading": "第一章",
+          "range": [
+            648,
+            1501
+          ],
+          "body_characters": 805,
+          "text_sha256": "d41d2c656ab2e9746db9a9f3d16d7ede2db273ca91781aea58359c92315d4a8d",
+          "member_bytes": 6925,
+          "member_sha256": "11caa1041cac92ceb20dce35c0c196ef282fde5a9ae061c19acaa30c9fa64a89",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 4,
+          "idref": "x4.html",
+          "path": "OEBPS/Text/4.html",
+          "linear": "yes",
+          "heading": "第二章",
+          "range": [
+            1501,
+            2354
+          ],
+          "body_characters": 805,
+          "text_sha256": "eeff011453f8d23c08f96d8272a112a6f2bab770b8392c638d8f39303ae81d22",
+          "member_bytes": 6925,
+          "member_sha256": "c383652b4ee1475e425ac45bbae6943182e4c9367f2d7d50a19e1da428c8393a",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 5,
+          "idref": "x5.html",
+          "path": "OEBPS/Text/5.html",
+          "linear": "yes",
+          "heading": "第三章",
+          "range": [
+            2354,
+            4386
+          ],
+          "body_characters": 1984,
+          "text_sha256": "c3a4abd587abae5714ecb3a786b10c4abc7b85fd2eaed8a14e28a166d77e6f82",
+          "member_bytes": 17978,
+          "member_sha256": "64cca03673bd033717931fcf1ad2adc63807913ae568164b5b297091565dbdde",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 6,
+          "idref": "x6.html",
+          "path": "OEBPS/Text/6.html",
+          "linear": "yes",
+          "heading": "第四章",
+          "range": [
+            4386,
+            5683
+          ],
+          "body_characters": 1249,
+          "text_sha256": "bcde558f1179a999d98e1f5eac1b092c3cf25b128187454a5bde0ff030d01e83",
+          "member_bytes": 10947,
+          "member_sha256": "88ae2347cc09f06dc59844f4206b7d7d397e4f78ffed8eff9f745cb9c472aa6f",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 7,
+          "idref": "x7.html",
+          "path": "OEBPS/Text/7.html",
+          "linear": "yes",
+          "heading": "第五章",
+          "range": [
+            5683,
+            8630
+          ],
+          "body_characters": 2899,
+          "text_sha256": "96f582f4a5e91363054ba9a6adc45106f449ba321a4cf1ce43fbdec03562fcee",
+          "member_bytes": 25609,
+          "member_sha256": "b767e32fb167d268152a22ce26209eb9ef48822ea7bc9e9eaa5f03387a6ba447",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 8,
+          "idref": "x8.html",
+          "path": "OEBPS/Text/8.html",
+          "linear": "yes",
+          "heading": "第六章",
+          "range": [
+            8630,
+            10765
+          ],
+          "body_characters": 2087,
+          "text_sha256": "6f2e46e2fdc7805aa9881dd577c3529713f7dc947734fbd330ace57f6cb035df",
+          "member_bytes": 18049,
+          "member_sha256": "ea997f30a7cfb67c206077d19a3e2346274f7c95a1dceb15f979e7bfb3915a0e",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 9,
+          "idref": "x9.html",
+          "path": "OEBPS/Text/9.html",
+          "linear": "yes",
+          "heading": "第七章",
+          "range": [
+            10765,
+            12225
+          ],
+          "body_characters": 1412,
+          "text_sha256": "81411fa9f1f3a9ca488316d68525a70692d6ecdd37a2e8f6da30c032d5a67f7a",
+          "member_bytes": 12453,
+          "member_sha256": "d719f29d525fd7ee7360d296b476022dc2e1726c8c1662491b29f5cb6c6b40fd",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 10,
+          "idref": "x10.html",
+          "path": "OEBPS/Text/10.html",
+          "linear": "yes",
+          "heading": "第八章",
+          "range": [
+            12225,
+            14071
+          ],
+          "body_characters": 1797,
+          "text_sha256": "7d7a4d5d9dc2ac18df82b73b55e89573a925021f3d302532157cb61a8739d00f",
+          "member_bytes": 16043,
+          "member_sha256": "d42c7b344980645b98e725b0b78dcf0a9349546a430ccbdee942174e93b360d2",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 11,
+          "idref": "x11.html",
+          "path": "OEBPS/Text/11.html",
+          "linear": "yes",
+          "heading": "第九章",
+          "range": [
+            14071,
+            15732
+          ],
+          "body_characters": 1612,
+          "text_sha256": "03275e7bc34b2f8f7c7b677f8d6a061607b59680dc022d68f66cca3c71b298ee",
+          "member_bytes": 14063,
+          "member_sha256": "3de6da65dfa6b2512ad131b1947c235d567e948a2c1739176138d1e4d1939330",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 12,
+          "idref": "x12.html",
+          "path": "OEBPS/Text/12.html",
+          "linear": "yes",
+          "heading": "第十章",
+          "range": [
+            15732,
+            17468
+          ],
+          "body_characters": 1687,
+          "text_sha256": "07ee932df8b414a523ba49059eb4361a34ee376e35ae512801b3411689908c4c",
+          "member_bytes": 14818,
+          "member_sha256": "026ed2248cb8bd9c8faa625b57158bb8915690f7d1a13503e5859145ba4adc88",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 13,
+          "idref": "x13.html",
+          "path": "OEBPS/Text/13.html",
+          "linear": "yes",
+          "heading": "第十一章",
+          "range": [
+            17468,
+            18656
+          ],
+          "body_characters": 1139,
+          "text_sha256": "1852f2225649e63885d79444df768373425e2e78622fc7edff974241cc544787",
+          "member_bytes": 10186,
+          "member_sha256": "cdab8a7232f6acfa977c2d6edba02df519e227b4bb133f861d99ae74d360fbdc",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 14,
+          "idref": "x14.html",
+          "path": "OEBPS/Text/14.html",
+          "linear": "yes",
+          "heading": "第十二章",
+          "range": [
+            18656,
+            22250
+          ],
+          "body_characters": 3545,
+          "text_sha256": "03fc20ff4efb7c3436f274d85815314d2e915e8443a333ba39c406fc358b18bd",
+          "member_bytes": 29747,
+          "member_sha256": "7dc59bb6cc0be1d67661d3a7629a7b09d62545641f5f4f4c3024975bbf9a3566",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 15,
+          "idref": "x15.html",
+          "path": "OEBPS/Text/15.html",
+          "linear": "yes",
+          "heading": "第十三章",
+          "range": [
+            22250,
+            25248
+          ],
+          "body_characters": 2949,
+          "text_sha256": "10396cf5b216f56fd689863cd207369287615bf9bef6a9a6d01e4b6091460479",
+          "member_bytes": 25547,
+          "member_sha256": "f7aec90717ce50ca9bd43021d03608bbbea685b4afab4631950e3d2c10ca6808",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 16,
+          "idref": "x16.html",
+          "path": "OEBPS/Text/16.html",
+          "linear": "yes",
+          "heading": "第十四章",
+          "range": [
+            25248,
+            28436
+          ],
+          "body_characters": 3139,
+          "text_sha256": "0b3af875499374dbc0790e6c5ffe875f91a04429769f137c8405635e86cd8c8b",
+          "member_bytes": 27154,
+          "member_sha256": "4121e274c8a144513976e5f514cee8b9343b2d3ff649c4af77ee14f516e657f0",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 17,
+          "idref": "x17.html",
+          "path": "OEBPS/Text/17.html",
+          "linear": "yes",
+          "heading": "第十五章",
+          "range": [
+            28436,
+            31162
+          ],
+          "body_characters": 2677,
+          "text_sha256": "eb4c647dc37a591537b40b97374c3eabedc3bc75aa3810ac8137428ab72128a1",
+          "member_bytes": 23456,
+          "member_sha256": "79df64f4310bc93ea7f582ab222282a7ea66951db65b515160397f9cd3006e4b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 18,
+          "idref": "x18.html",
+          "path": "OEBPS/Text/18.html",
+          "linear": "yes",
+          "heading": "第十六章",
+          "range": [
+            31162,
+            33925
+          ],
+          "body_characters": 2714,
+          "text_sha256": "b7bd419dd42c40846d41c438b250a1cdbca1d3000eac6af45be2850754b8a534",
+          "member_bytes": 23559,
+          "member_sha256": "9d0b82ee344b4fa4ea05760fdd96867a2563f09307849d91430364ac15c54207",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 19,
+          "idref": "x19.html",
+          "path": "OEBPS/Text/19.html",
+          "linear": "yes",
+          "heading": "第十七章",
+          "range": [
+            33925,
+            37313
+          ],
+          "body_characters": 3339,
+          "text_sha256": "53a0f0ff641dac3e36b7fdec50664f26920f0deda8dc137da009a2e9a53cb800",
+          "member_bytes": 29108,
+          "member_sha256": "481209064431947cf95c6d5c669c165783d492657db3159b7c03b752b01384e0",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 20,
+          "idref": "x20.html",
+          "path": "OEBPS/Text/20.html",
+          "linear": "yes",
+          "heading": "第十八章",
+          "range": [
+            37313,
+            39082
+          ],
+          "body_characters": 1720,
+          "text_sha256": "e9a35a8d82524517d09947ea23d1b042966ca2258d21bacff4ddb0eaca4decc7",
+          "member_bytes": 14979,
+          "member_sha256": "c791defe846f1c76639ccae84ce28d89d0a8c57a314c92809474814bd05f4e4d",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 21,
+          "idref": "x21.html",
+          "path": "OEBPS/Text/21.html",
+          "linear": "yes",
+          "heading": "第十九章",
+          "range": [
+            39082,
+            40964
+          ],
+          "body_characters": 1833,
+          "text_sha256": "50402f449512cad379311603eec53e9a8cc071959892c656717b88d3d92f7a33",
+          "member_bytes": 16043,
+          "member_sha256": "41f8528ff29c225cdf130284f7d0864e7e4a05c07957e628357492cb4da35d4b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 22,
+          "idref": "x22.html",
+          "path": "OEBPS/Text/22.html",
+          "linear": "yes",
+          "heading": "第二十章",
+          "range": [
+            40964,
+            44185
+          ],
+          "body_characters": 3172,
+          "text_sha256": "98590ad561b6401f9477e4e35b41b1677d07052b28bca25430118196b6cebe99",
+          "member_bytes": 27582,
+          "member_sha256": "23c9c279840b7bb1d7bf81865f53daf82d99af2894d739c6966483489eb41350",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 23,
+          "idref": "x23.html",
+          "path": "OEBPS/Text/23.html",
+          "linear": "yes",
+          "heading": "第二十一章",
+          "range": [
+            44185,
+            47081
+          ],
+          "body_characters": 2847,
+          "text_sha256": "32c43e036047007009be1286e832a5baf289951c6abab90793631c3917eb604a",
+          "member_bytes": 24765,
+          "member_sha256": "3a64fdd156287ff34f52b7cb77df3a63955ce26f58d293dd9d2c36e52e761e2e",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 24,
+          "idref": "x24.html",
+          "path": "OEBPS/Text/24.html",
+          "linear": "yes",
+          "heading": "第二十二章",
+          "range": [
+            47081,
+            51997
+          ],
+          "body_characters": 4867,
+          "text_sha256": "87cf98bc1dfc9df4d7e0f56157352714db98612e3ac9b00dc72a5a0a83152263",
+          "member_bytes": 41936,
+          "member_sha256": "c52f2e9dc5dde994af23b18ef32ae73f653e7cdd6479de3ef2a3860f407c0979",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 25,
+          "idref": "x25.html",
+          "path": "OEBPS/Text/25.html",
+          "linear": "yes",
+          "heading": "第二十三章",
+          "range": [
+            51997,
+            54190
+          ],
+          "body_characters": 2144,
+          "text_sha256": "f436c6e7c19a717b76278d673eb56d00a5aa34a20e34ed96053e4b634b901ae1",
+          "member_bytes": 18713,
+          "member_sha256": "fadf183ae6a341116943dc36f99e60d0ad4072e3a98932dd57297dd2c15a7746",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 26,
+          "idref": "x26.html",
+          "path": "OEBPS/Text/26.html",
+          "linear": "yes",
+          "heading": "第二十四章",
+          "range": [
+            54190,
+            56954
+          ],
+          "body_characters": 2715,
+          "text_sha256": "db7c8569595dbba18895382902195cebf8a4d0f450c43bf301f702c838c159bf",
+          "member_bytes": 23546,
+          "member_sha256": "93a42775231cb6aaf5f917a396e0baa84ae24fe6679acd6a1c553cf86112bc09",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 27,
+          "idref": "x27.html",
+          "path": "OEBPS/Text/27.html",
+          "linear": "yes",
+          "heading": "第二十五章",
+          "range": [
+            56954,
+            59704
+          ],
+          "body_characters": 2701,
+          "text_sha256": "71002006545d715e349135c5c3b1ada822f0a13ff22fdd6e81fe96a671011c5b",
+          "member_bytes": 23709,
+          "member_sha256": "74d7162662dcdee88b86d7741c0e91c52d3fa26d62d4d15dc4e8a16548eb3358",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 28,
+          "idref": "x28.html",
+          "path": "OEBPS/Text/28.html",
+          "linear": "yes",
+          "heading": "第二十六章",
+          "range": [
+            59704,
+            61305
+          ],
+          "body_characters": 1552,
+          "text_sha256": "acc6efe14f8e982fc853ed5c4e8f5b693cafcc9f907bb56a7a953bc8a2b72a90",
+          "member_bytes": 13522,
+          "member_sha256": "40124fde3e6704faf33c13b7c1006ebb2a55415ae8cf30e95fa6562c581a4b18",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 29,
+          "idref": "x29.html",
+          "path": "OEBPS/Text/29.html",
+          "linear": "yes",
+          "heading": "第二十七章",
+          "range": [
+            61305,
+            63308
+          ],
+          "body_characters": 1954,
+          "text_sha256": "19096fa65a561fea7f34b53650a85815b0d56e5561e54e66d6f401b796f5ddfe",
+          "member_bytes": 17275,
+          "member_sha256": "8679d94b3cc38d15236425f5c17c97ce985acf17391192bdc5099bf132a1a43f",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 30,
+          "idref": "x30.html",
+          "path": "OEBPS/Text/30.html",
+          "linear": "yes",
+          "heading": "第二十八章",
+          "range": [
+            63308,
+            65305
+          ],
+          "body_characters": 1948,
+          "text_sha256": "017591b7e334a711f8e76c295e5a2a2b8e00dec4097670d04347c3c649b0ba72",
+          "member_bytes": 17219,
+          "member_sha256": "27da9ecdf234a04d954c153aa57de0a29691b50aac7c5f34f84b9a16cae79cb4",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 31,
+          "idref": "x31.html",
+          "path": "OEBPS/Text/31.html",
+          "linear": "yes",
+          "heading": "第二十九章",
+          "range": [
+            65305,
+            67586
+          ],
+          "body_characters": 2232,
+          "text_sha256": "bd8545307ff84ef94a354765eaf926933d8a753a485907ec60d02b0addc3e02d",
+          "member_bytes": 19115,
+          "member_sha256": "dd6c7756651ec396ab60c3c5a3429a0983f910b31754cd783f76e2b1af0a6042",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 32,
+          "idref": "x32.html",
+          "path": "OEBPS/Text/32.html",
+          "linear": "yes",
+          "heading": "第三十章",
+          "range": [
+            67586,
+            69483
+          ],
+          "body_characters": 1848,
+          "text_sha256": "b375549cf74e03b3f68c7e74030e281c17a31ea012767886b9f8872c0631e4a3",
+          "member_bytes": 15802,
+          "member_sha256": "9649d2702a119433c11992419114e5d4abb672d7cb01bd447438e75fcadde66b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 33,
+          "idref": "x33.html",
+          "path": "OEBPS/Text/33.html",
+          "linear": "yes",
+          "heading": "第三十一章",
+          "range": [
+            69483,
+            71545
+          ],
+          "body_characters": 2013,
+          "text_sha256": "1e7137d68a614deb85af0974dce09b3e005f5fd09601626a51b6acbba50cef67",
+          "member_bytes": 17307,
+          "member_sha256": "16098f59aeb327872b85e9bc798eccdd6f8f148860869e441988f175c43782ef",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 34,
+          "idref": "x34.html",
+          "path": "OEBPS/Text/34.html",
+          "linear": "yes",
+          "heading": "第三十二章",
+          "range": [
+            71545,
+            73288
+          ],
+          "body_characters": 1694,
+          "text_sha256": "0f5a04992b9ac44dfe64f27d1ba32cd029bcb6769e51df0d88cb98cfe32c7897",
+          "member_bytes": 14714,
+          "member_sha256": "a5961156723bee9f03f87a1b945ddb72c609a8d5063dfb514b7b52c12a97c263",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 35,
+          "idref": "x35.html",
+          "path": "OEBPS/Text/35.html",
+          "linear": "yes",
+          "heading": "第三十三章",
+          "range": [
+            73288,
+            75739
+          ],
+          "body_characters": 2402,
+          "text_sha256": "a092a7d25f5adc05bd3483e6554b6665ce1a4b21bf814d6ab410dac9815ae53d",
+          "member_bytes": 20530,
+          "member_sha256": "3708358a71eae2dc177900920dfacf1976fbf1ee3fba9f209e6b455664733a1b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 36,
+          "idref": "x36.html",
+          "path": "OEBPS/Text/36.html",
+          "linear": "yes",
+          "heading": "第三十四章",
+          "range": [
+            75739,
+            77575
+          ],
+          "body_characters": 1787,
+          "text_sha256": "72d466647c2442df94bfd44bf5631aaccccb40c847b6224efbfd243f2408124c",
+          "member_bytes": 15243,
+          "member_sha256": "df1d769dc8312fc846b1af0f798997d3702443cf87c1ab1d046d856e4912faa2",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 37,
+          "idref": "x37.html",
+          "path": "OEBPS/Text/37.html",
+          "linear": "yes",
+          "heading": "第三十五章",
+          "range": [
+            77575,
+            79472
+          ],
+          "body_characters": 1848,
+          "text_sha256": "fd9c5c29356da72f0b2eaafe47482c1669b48f34b7267c39b08af199c9809b85",
+          "member_bytes": 15635,
+          "member_sha256": "4707bfb22c5c0e22d4c84258338f1b8cae4391d0a5059456288130098382954d",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 38,
+          "idref": "x38.html",
+          "path": "OEBPS/Text/38.html",
+          "linear": "yes",
+          "heading": "第三十六章",
+          "range": [
+            79472,
+            81638
+          ],
+          "body_characters": 2117,
+          "text_sha256": "e7810e9aee37680b72734503c5a61a3ca834029464f85a680ce06e35c0aa5cd7",
+          "member_bytes": 17889,
+          "member_sha256": "add62a871c13e4f8fe8ab1af036c74c0aab01af97a181845c3dfd579edaf7f8f",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 39,
+          "idref": "x39.html",
+          "path": "OEBPS/Text/39.html",
+          "linear": "yes",
+          "heading": "第三十七章",
+          "range": [
+            81638,
+            83724
+          ],
+          "body_characters": 2037,
+          "text_sha256": "67db5b939ec7a86113d8290e832a2c455fbc877b346f3e7ffd5f31e84dac2934",
+          "member_bytes": 17277,
+          "member_sha256": "4511b3f054601250898049a23e6325bd6106d25b4c2897ef397e1337fbb7cfea",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 40,
+          "idref": "x40.html",
+          "path": "OEBPS/Text/40.html",
+          "linear": "yes",
+          "heading": "第三十八章",
+          "range": [
+            83724,
+            89872
+          ],
+          "body_characters": 6099,
+          "text_sha256": "6677d0fcfaeb4095362d2ffd2f39f690dfdb5f040b1d69e3a221b10091cae0a7",
+          "member_bytes": 51002,
+          "member_sha256": "a4ceaf8cad6ebaedda5827ea15e0ec5da9c3740e3a5ad5fcbe02815cebd87c72",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 41,
+          "idref": "x41.html",
+          "path": "OEBPS/Text/41.html",
+          "linear": "yes",
+          "heading": "第三十九章",
+          "range": [
+            89872,
+            92770
+          ],
+          "body_characters": 2849,
+          "text_sha256": "ef00bfe872f07430232f401066d9c073bb685b11441f036f4601025d38216ee3",
+          "member_bytes": 24192,
+          "member_sha256": "2b9c13c7b813894e09f6225060f33e601c6e86b71de848897fa0f32ab118b16b",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 42,
+          "idref": "x42.html",
+          "path": "OEBPS/Text/42.html",
+          "linear": "yes",
+          "heading": "第四十章",
+          "range": [
+            92770,
+            96038
+          ],
+          "body_characters": 3219,
+          "text_sha256": "9648685d4a5655283d4e2f77a5a089d7e57c54b331ab08d872315d4e10bfc68f",
+          "member_bytes": 26976,
+          "member_sha256": "4aadabd0f0bd7f72a2b9a36d7c47405b9c078b13099a1f445d75bd7c4aacf3bd",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 43,
+          "idref": "x43.html",
+          "path": "OEBPS/Text/43.html",
+          "linear": "yes",
+          "heading": "第四十一章",
+          "range": [
+            96038,
+            97483
+          ],
+          "body_characters": 1396,
+          "text_sha256": "c4afac4b014203e80348dcc87902282ad166eff29ce83881885ceb6eb6b89c73",
+          "member_bytes": 12253,
+          "member_sha256": "592a88723b47e4d826cf5b3e1394fc9fbe215eeb17cbc3afe51535af2822665a",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 44,
+          "idref": "x44.html",
+          "path": "OEBPS/Text/44.html",
+          "linear": "yes",
+          "heading": "第四十二章",
+          "range": [
+            97483,
+            100076
+          ],
+          "body_characters": 2544,
+          "text_sha256": "82c2cc4589c104acf207160a7b37356a71480615991d89c6bc632f9a74ed77ad",
+          "member_bytes": 21767,
+          "member_sha256": "aa790beead87c09e268a5fbc0d526414fc01a8db6a432c98b8be920b9e50c021",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 45,
+          "idref": "x45.html",
+          "path": "OEBPS/Text/45.html",
+          "linear": "yes",
+          "heading": "第四十三章",
+          "range": [
+            100076,
+            102101
+          ],
+          "body_characters": 1976,
+          "text_sha256": "2e269e9a6c3fe2f37382c8649fb195dca0df06e3ba4b73961c4bc43944861ee8",
+          "member_bytes": 15999,
+          "member_sha256": "d35cbf37454f4289299562b772a590a30c8cebbbec72965d2d57d87b191d0009",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 46,
+          "idref": "x46.html",
+          "path": "OEBPS/Text/46.html",
+          "linear": "yes",
+          "heading": "第四十四章",
+          "range": [
+            102101,
+            104605
+          ],
+          "body_characters": 2455,
+          "text_sha256": "cb979ab50992e1e873740f8d492b78e4781956946cc5c4cc8cbc547b457b5180",
+          "member_bytes": 20386,
+          "member_sha256": "04e5951b1fc2d18f78a961163a8d3eefaef7b0b48d3ca9807b648536c545d037",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 47,
+          "idref": "x47.html",
+          "path": "OEBPS/Text/47.html",
+          "linear": "yes",
+          "heading": "第四十五章",
+          "range": [
+            104605,
+            108513
+          ],
+          "body_characters": 3859,
+          "text_sha256": "823318f953aa934948a99b1d039a3f45168baf19198269275ef985af529fb154",
+          "member_bytes": 33157,
+          "member_sha256": "de052f5d3fd6e2eb1728cc28df2ebd2272a4ee4b51a3e88b2327a2b4c1562d85",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 48,
+          "idref": "x48.html",
+          "path": "OEBPS/Text/48.html",
+          "linear": "yes",
+          "heading": "第四十六章",
+          "range": [
+            108513,
+            111073
+          ],
+          "body_characters": 2511,
+          "text_sha256": "5bc2fdc99a2a986126da9a63709d3f6f43ce1fd4b58f0f4717a36e9a23b3465a",
+          "member_bytes": 21815,
+          "member_sha256": "5e1c51d9843b8b48a7158ed384ef2b756eb5f0fb19a21925f4d145296de8b56d",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 49,
+          "idref": "x49.html",
+          "path": "OEBPS/Text/49.html",
+          "linear": "yes",
+          "heading": "第四十七章",
+          "range": [
+            111073,
+            113433
+          ],
+          "body_characters": 2311,
+          "text_sha256": "0a1288acc09838983742928b2daf49953ebe3ed1cafb9b2b0ef0c877b5a2677e",
+          "member_bytes": 19798,
+          "member_sha256": "42bbea0ef2068777f6bb2acdf03b102383387afa18b3b3da8a5e2c6d2d885ce4",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 50,
+          "idref": "x50.html",
+          "path": "OEBPS/Text/50.html",
+          "linear": "yes",
+          "heading": "第四十八章",
+          "range": [
+            113433,
+            116763
+          ],
+          "body_characters": 3281,
+          "text_sha256": "e89258d3756c3a7c033c8524ae32fc12d5e5e86275bf5519962baaa0270d85eb",
+          "member_bytes": 27801,
+          "member_sha256": "4732065b785f649a4a148b258397ef8a20b8a24fd78a34bec01a6beec917b6a8",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 51,
+          "idref": "x51.html",
+          "path": "OEBPS/Text/51.html",
+          "linear": "yes",
+          "heading": "第四十九章",
+          "range": [
+            116763,
+            118327
+          ],
+          "body_characters": 1515,
+          "text_sha256": "9104358b46ecd1574d5c5c9dc4dc1edd26e479517cb05f0a83980db31815a0d2",
+          "member_bytes": 12663,
+          "member_sha256": "4d83b9e1382a8fd56689d8c25d90cf0bd11f55c36a1c186afcc0f6f009663a94",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 52,
+          "idref": "x52.html",
+          "path": "OEBPS/Text/52.html",
+          "linear": "yes",
+          "heading": "第五十章",
+          "range": [
+            118327,
+            120399
+          ],
+          "body_characters": 2023,
+          "text_sha256": "ab71a7db30c5c81567d29de8059a499d17998970740a115c19ce9c53c5208f3e",
+          "member_bytes": 16345,
+          "member_sha256": "fdc26373fbe16dbb2d924af320db757c2604e396cfe14610471ff15bf8af8d9c",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 53,
+          "idref": "x53.html",
+          "path": "OEBPS/Text/53.html",
+          "linear": "yes",
+          "heading": "第五十一章",
+          "range": [
+            120399,
+            122563
+          ],
+          "body_characters": 2115,
+          "text_sha256": "9e69a29d2b10f925b9b84d5afcf50b1b6cb64ca99af9c17bc2be84196b9cdccf",
+          "member_bytes": 17593,
+          "member_sha256": "2fe720ff703fce938409953aad1a1ff043d8c3ed7f4524573ddf768fc00461b5",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 54,
+          "idref": "x54.html",
+          "path": "OEBPS/Text/54.html",
+          "linear": "yes",
+          "heading": "第五十二章",
+          "range": [
+            122563,
+            127624
+          ],
+          "body_characters": 5012,
+          "text_sha256": "de7631cadead2f1eb73dc5d18b991ae7b4567873ecc9272fd554621e1b22ec51",
+          "member_bytes": 41398,
+          "member_sha256": "bdb87ce399a1d9acc7e72965034ad898c4d174c711ff08fe3310a1eb3ee3d04c",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 55,
+          "idref": "x55.html",
+          "path": "OEBPS/Text/55.html",
+          "linear": "yes",
+          "heading": "第五十三章",
+          "range": [
+            127624,
+            133079
+          ],
+          "body_characters": 5406,
+          "text_sha256": "1354b5bc662e8dab3929cae6a2c40382f62ff917084dda24e7ce955290fb781e",
+          "member_bytes": 43437,
+          "member_sha256": "f3fef495f5c81f358988c28c3af0fd18dc9eef0d5e4b02ab8d81e9ca217a1b83",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 56,
+          "idref": "x56.html",
+          "path": "OEBPS/Text/56.html",
+          "linear": "yes",
+          "heading": "第五十四章",
+          "range": [
+            133079,
+            134617
+          ],
+          "body_characters": 1489,
+          "text_sha256": "a5b66ec60b0ca8ca08596acc84da2d21766e2819752252a2ef17bcc95897a53e",
+          "member_bytes": 12813,
+          "member_sha256": "e0c7ba36a28c8ee600b246c04dc4d309222e45a20dfe9195e5e3f11890b49fb8",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 57,
+          "idref": "x57.html",
+          "path": "OEBPS/Text/57.html",
+          "linear": "yes",
+          "heading": "第五十五章 新PUAMAP的雏形",
+          "range": [
+            134617,
+            137254
+          ],
+          "body_characters": 2588,
+          "text_sha256": "7bd95cfea75c7c6322443f39e713ddabdde92287bdfaaf5753c4b6ace7531268",
+          "member_bytes": 22087,
+          "member_sha256": "5cf13ed69526fa1f49849ec1e95c5a25366916180c8fef6ac089243eeae77bd2",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        },
+        {
+          "spine_index": 58,
+          "idref": "x58.html",
+          "path": "OEBPS/Text/58.html",
+          "linear": "yes",
+          "heading": "第五十六章 让时间说真话",
+          "range": [
+            137254,
+            139547
+          ],
+          "body_characters": 2244,
+          "text_sha256": "0ca16d94ebff180d53a670665b87eb96eacf0562f55e71c57cfc2c2bfeb91ab8",
+          "member_bytes": 18923,
+          "member_sha256": "970a01a7374c8215002f8d66d671fa1bba2816412f145a37be722b647ef7303d",
+          "well_formed_xml": false,
+          "parser": "HTML_recovery",
+          "independent_body_data_coverage_reconciled": true,
+          "images": 0,
+          "scripts": 0,
+          "reading_status": "current_spine_body_text_read"
+        }
+      ],
+      "current_body_characters": 136714,
+      "all_spine_bodies_whitespace_normalized_reconciled": true,
+      "image_members": [],
+      "nonspine_html_members": [],
+      "package_metadata_not_externally_verified": {
+        "creator": "中国把妹达人",
+        "title": "​中国把妹达人",
+        "language": "zh-CN",
+        "date": "2019-07-18"
+      },
+      "opf_member": "OEBPS/content.opf",
+      "opf_sha256": "4b3f5fe32b5e8064227af9d595888d6b9d0b1f771dd43fc6e8a24302f8588b54",
+      "navigation": [
+        {
+          "label": "中国把妹达人",
+          "target": "Text/1.html"
+        },
+        {
+          "label": " 序",
+          "target": "Text/2.html"
+        },
+        {
+          "label": " 第一章",
+          "target": "Text/3.html"
+        },
+        {
+          "label": " 第二章",
+          "target": "Text/4.html"
+        },
+        {
+          "label": " 第三章",
+          "target": "Text/5.html"
+        },
+        {
+          "label": " 第四章",
+          "target": "Text/6.html"
+        },
+        {
+          "label": " 第五章",
+          "target": "Text/7.html"
+        },
+        {
+          "label": " 第六章",
+          "target": "Text/8.html"
+        },
+        {
+          "label": " 第七章",
+          "target": "Text/9.html"
+        },
+        {
+          "label": " 第八章",
+          "target": "Text/10.html"
+        },
+        {
+          "label": " 第九章",
+          "target": "Text/11.html"
+        },
+        {
+          "label": " 第十章",
+          "target": "Text/12.html"
+        },
+        {
+          "label": " 第十一章",
+          "target": "Text/13.html"
+        },
+        {
+          "label": " 第十二章",
+          "target": "Text/14.html"
+        },
+        {
+          "label": " 第十三章",
+          "target": "Text/15.html"
+        },
+        {
+          "label": " 第十四章",
+          "target": "Text/16.html"
+        },
+        {
+          "label": " 第十五章",
+          "target": "Text/17.html"
+        },
+        {
+          "label": " 第十六章",
+          "target": "Text/18.html"
+        },
+        {
+          "label": " 第十七章",
+          "target": "Text/19.html"
+        },
+        {
+          "label": " 第十八章",
+          "target": "Text/20.html"
+        },
+        {
+          "label": " 第十九章",
+          "target": "Text/21.html"
+        },
+        {
+          "label": " 第二十章",
+          "target": "Text/22.html"
+        },
+        {
+          "label": " 第二十一章",
+          "target": "Text/23.html"
+        },
+        {
+          "label": " 第二十二章",
+          "target": "Text/24.html"
+        },
+        {
+          "label": " 第二十三章",
+          "target": "Text/25.html"
+        },
+        {
+          "label": " 第二十四章",
+          "target": "Text/26.html"
+        },
+        {
+          "label": " 第二十五章",
+          "target": "Text/27.html"
+        },
+        {
+          "label": " 第二十六章",
+          "target": "Text/28.html"
+        },
+        {
+          "label": " 第二十七章",
+          "target": "Text/29.html"
+        },
+        {
+          "label": " 第二十八章",
+          "target": "Text/30.html"
+        },
+        {
+          "label": " 第二十九章",
+          "target": "Text/31.html"
+        },
+        {
+          "label": " 第三十章",
+          "target": "Text/32.html"
+        },
+        {
+          "label": " 第三十一章",
+          "target": "Text/33.html"
+        },
+        {
+          "label": " 第三十二章",
+          "target": "Text/34.html"
+        },
+        {
+          "label": " 第三十三章",
+          "target": "Text/35.html"
+        },
+        {
+          "label": " 第三十四章",
+          "target": "Text/36.html"
+        },
+        {
+          "label": " 第三十五章",
+          "target": "Text/37.html"
+        },
+        {
+          "label": " 第三十六章",
+          "target": "Text/38.html"
+        },
+        {
+          "label": " 第三十七章",
+          "target": "Text/39.html"
+        },
+        {
+          "label": " 第三十八章",
+          "target": "Text/40.html"
+        },
+        {
+          "label": " 第三十九章",
+          "target": "Text/41.html"
+        },
+        {
+          "label": " 第四十章",
+          "target": "Text/42.html"
+        },
+        {
+          "label": " 第四十一章",
+          "target": "Text/43.html"
+        },
+        {
+          "label": " 第四十二章",
+          "target": "Text/44.html"
+        },
+        {
+          "label": " 第四十三章",
+          "target": "Text/45.html"
+        },
+        {
+          "label": " 第四十四章",
+          "target": "Text/46.html"
+        },
+        {
+          "label": " 第四十五章",
+          "target": "Text/47.html"
+        },
+        {
+          "label": " 第四十六章",
+          "target": "Text/48.html"
+        },
+        {
+          "label": " 第四十七章",
+          "target": "Text/49.html"
+        },
+        {
+          "label": " 第四十八章",
+          "target": "Text/50.html"
+        },
+        {
+          "label": " 第四十九章",
+          "target": "Text/51.html"
+        },
+        {
+          "label": " 第五十章",
+          "target": "Text/52.html"
+        },
+        {
+          "label": " 第五十一章",
+          "target": "Text/53.html"
+        },
+        {
+          "label": " 第五十二章",
+          "target": "Text/54.html"
+        },
+        {
+          "label": " 第五十三章",
+          "target": "Text/55.html"
+        },
+        {
+          "label": " 第五十四章",
+          "target": "Text/56.html"
+        },
+        {
+          "label": " 第五十五章 新PUAMAP的雏形",
+          "target": "Text/57.html"
+        },
+        {
+          "label": " 第五十六章 让时间说真话",
+          "target": "Text/58.html"
+        }
+      ],
+      "original_publication_complete": false,
+      "format": "EPUB",
+      "reading_status": "provided_file_text_complete",
+      "historical_inventory_extraction_characters": 154498,
+      "historical_inventory_body_characters": 152420,
+      "actual_read_chunks": [
+        [
+          0,
+          9000
+        ],
+        [
+          9000,
+          15000
+        ],
+        [
+          15000,
+          21000
+        ],
+        [
+          21000,
+          27000
+        ],
+        [
+          27000,
+          33000
+        ],
+        [
+          33000,
+          39000
+        ],
+        [
+          39000,
+          45000
+        ],
+        [
+          45000,
+          51000
+        ],
+        [
+          51000,
+          57000
+        ],
+        [
+          57000,
+          63000
+        ],
+        [
+          63000,
+          69000
+        ],
+        [
+          69000,
+          75000
+        ],
+        [
+          75000,
+          81000
+        ],
+        [
+          81000,
+          87000
+        ],
+        [
+          87000,
+          93000
+        ],
+        [
+          93000,
+          99000
+        ],
+        [
+          99000,
+          105000
+        ],
+        [
+          105000,
+          111000
+        ],
+        [
+          111000,
+          117000
+        ],
+        [
+          117000,
+          123000
+        ],
+        [
+          123000,
+          129000
+        ],
+        [
+          129000,
+          135000
+        ],
+        [
+          135000,
+          139547
+        ]
+      ],
+      "cumulative_actual_read_chunks": [
+        [
+          0,
+          9000
+        ],
+        [
+          9000,
+          15000
+        ],
+        [
+          15000,
+          21000
+        ],
+        [
+          21000,
+          27000
+        ],
+        [
+          27000,
+          33000
+        ],
+        [
+          33000,
+          39000
+        ],
+        [
+          39000,
+          45000
+        ],
+        [
+          45000,
+          51000
+        ],
+        [
+          51000,
+          57000
+        ],
+        [
+          57000,
+          63000
+        ],
+        [
+          63000,
+          69000
+        ],
+        [
+          69000,
+          75000
+        ],
+        [
+          75000,
+          81000
+        ],
+        [
+          81000,
+          87000
+        ],
+        [
+          87000,
+          93000
+        ],
+        [
+          93000,
+          99000
+        ],
+        [
+          99000,
+          105000
+        ],
+        [
+          105000,
+          111000
+        ],
+        [
+          111000,
+          117000
+        ],
+        [
+          117000,
+          123000
+        ],
+        [
+          123000,
+          129000
+        ],
+        [
+          129000,
+          135000
+        ],
+        [
+          135000,
+          139547
+        ]
+      ],
+      "new_direct_read_characters": 139547,
+      "cumulative_direct_read_characters": 139547,
+      "cumulative_read_range": [
+        0,
+        139547
+      ],
+      "read_chunk_text_sha256": [
+        {
+          "range": [
+            0,
+            9000
+          ],
+          "characters": 9000,
+          "sha256": "73a6b81eadd0f8b15f09d871197355797152a362a1ec9c9c6f3e34417bacf26e"
+        },
+        {
+          "range": [
+            9000,
+            15000
+          ],
+          "characters": 6000,
+          "sha256": "f6696532649c198a38ea9687d722e3954f0036d8c6979a54412cebfb831f6340"
+        },
+        {
+          "range": [
+            15000,
+            21000
+          ],
+          "characters": 6000,
+          "sha256": "e1f0f4e6b2636de3c6baac3e3c292640709f733c0f809eaf0f26621f95e81b31"
+        },
+        {
+          "range": [
+            21000,
+            27000
+          ],
+          "characters": 6000,
+          "sha256": "c4d5096353ea7cc36789e166645237edde02772b2488ca4095733bb77f3a1dde"
+        },
+        {
+          "range": [
+            27000,
+            33000
+          ],
+          "characters": 6000,
+          "sha256": "6fff396f01ad9bd2219747984cb26a5c787812f001ceb0e91089d64919188d73"
+        },
+        {
+          "range": [
+            33000,
+            39000
+          ],
+          "characters": 6000,
+          "sha256": "55590894842bd6bacfd04b7a002c8dff5537527f5f495cb647e3f08660a961a8"
+        },
+        {
+          "range": [
+            39000,
+            45000
+          ],
+          "characters": 6000,
+          "sha256": "d525336bf980f0feabe4668ba748e7e319ec36fc5555dd9eb501c3bf76a375a5"
+        },
+        {
+          "range": [
+            45000,
+            51000
+          ],
+          "characters": 6000,
+          "sha256": "d5ff3b4699de2c5b7b00cbedc836905cee9ec848d9fc9f8fff09fae05bf5bf58"
+        },
+        {
+          "range": [
+            51000,
+            57000
+          ],
+          "characters": 6000,
+          "sha256": "4896dd7678ec53e8a43358adcef4829ceec10e919e2fd604c0c271913f60b5d7"
+        },
+        {
+          "range": [
+            57000,
+            63000
+          ],
+          "characters": 6000,
+          "sha256": "b3116e04c6e077ff93c518d64a892d81f6904185fe4169cea982d5e289fa11c8"
+        },
+        {
+          "range": [
+            63000,
+            69000
+          ],
+          "characters": 6000,
+          "sha256": "bd293491fc0677151f5ef24732bbafe013bfc9b21a89c7e99c319fa50cf980c9"
+        },
+        {
+          "range": [
+            69000,
+            75000
+          ],
+          "characters": 6000,
+          "sha256": "41d619508805104f815df4550a4f5b8b833d01487aae95289d7e59f848968460"
+        },
+        {
+          "range": [
+            75000,
+            81000
+          ],
+          "characters": 6000,
+          "sha256": "69d4e1c4e7f2c41becf7509067c183a10c25993ddff07103e1120b3cbd442fa4"
+        },
+        {
+          "range": [
+            81000,
+            87000
+          ],
+          "characters": 6000,
+          "sha256": "d08f8b78c88ca0a733271845ac3340cac690b329fd7be172075a1c8c673d93da"
+        },
+        {
+          "range": [
+            87000,
+            93000
+          ],
+          "characters": 6000,
+          "sha256": "be5923161b348c7794c83b2a331ef621210f250582e8a13bf65587f91fce2d44"
+        },
+        {
+          "range": [
+            93000,
+            99000
+          ],
+          "characters": 6000,
+          "sha256": "b979f7595f644d8240a36c1a503a0d00caced6ab9552abbc4941109c3e17616b"
+        },
+        {
+          "range": [
+            99000,
+            105000
+          ],
+          "characters": 6000,
+          "sha256": "c8c09c560e19925171232ae9a5ef393b1856e4bf4f351de1f1e54a19b3e9c1d2"
+        },
+        {
+          "range": [
+            105000,
+            111000
+          ],
+          "characters": 6000,
+          "sha256": "1ab0d3e9d91f47c253a94d69d475d367ec57b2541cf51f2523476a72e65b4dde"
+        },
+        {
+          "range": [
+            111000,
+            117000
+          ],
+          "characters": 6000,
+          "sha256": "4a34cf9dc9c60bc39aab3e110636348a17c17017f3bcff03c6b38eb0e205ca0d"
+        },
+        {
+          "range": [
+            117000,
+            123000
+          ],
+          "characters": 6000,
+          "sha256": "4fdcc58906226708f2e1b3d24fbba6da6cc48cdb35655089a7aa8385936b44ec"
+        },
+        {
+          "range": [
+            123000,
+            129000
+          ],
+          "characters": 6000,
+          "sha256": "0c20d7a3d7bf1bff0e93b87f00d447f66dbb7286a76f1f9d1be155a60c40b34b"
+        },
+        {
+          "range": [
+            129000,
+            135000
+          ],
+          "characters": 6000,
+          "sha256": "509050aaa763b6ab3b9062131b36671295af0f80ee90fff929b2fb2a0dd4ae61"
+        },
+        {
+          "range": [
+            135000,
+            139547
+          ],
+          "characters": 4547,
+          "sha256": "1688fd3f252254bcda3d654b181b7edc9fb5866485a6be92c5e1f813f6254230"
+        }
+      ],
+      "entire_current_file_text_read": true,
+      "unread_characters": 0,
+      "next_file_page": null,
+      "next_character": null,
+      "read_spine_range": [
+        1,
+        58
+      ],
+      "chapter_numbers_read": [
+        1,
+        56
+      ],
+      "completed_content_units": [
+        "text title",
+        "preface",
+        "chapters1–56 including duplicated current chapter bodies"
+      ],
+      "strict_XML_members": 1,
+      "HTML_recovery_members": 57,
+      "body_text_coverage_verification": "Every current spine body reconciled against DOM itertext and independent stdlib HTMLParser data after whitespace removal; malformed markup not silently skipped.",
+      "duplicate_current_bodies": [
+        {
+          "spine_index": 3,
+          "path": "OEBPS/Text/3.html",
+          "normalization": "drop spine marker and chapter heading; remove whitespace",
+          "normalized_body_characters": 794,
+          "normalized_body_sha256": "84cb718d6548cc74d93a6b29fae52ce394f5544f08c85461d3f48f41d8e62b05"
+        },
+        {
+          "spine_index": 4,
+          "path": "OEBPS/Text/4.html",
+          "normalization": "drop spine marker and chapter heading; remove whitespace",
+          "normalized_body_characters": 794,
+          "normalized_body_sha256": "84cb718d6548cc74d93a6b29fae52ce394f5544f08c85461d3f48f41d8e62b05"
+        }
+      ],
+      "unprovided_figure_references": [
+        {
+          "range": [
+            109567,
+            109588
+          ],
+          "spine_index": 48,
+          "chapter_number": 46,
+          "status": "figure_name_placeholder_only_no_image_provided"
+        }
+      ],
+      "source_internal_gaps": {
+        "chapter1_and2_body_duplicate_but_both_read": true,
+        "chapter46_figure_reference_only_no_image_supplied": true,
+        "package_creator_is_title_not_filename_author": true,
+        "package_title_has_leading_zero_width_character": true,
+        "package_date_is_not_original_publication_verification": true,
+        "original_edition_illustrations_bibliography_and_author_claims_not_externally_verified": true
+      },
+      "printed_bibliographic_information": {
+        "status": "file_and_package_metadata_only_not_externally_verified",
+        "filename_author": "浪迹",
+        "package_creator": "中国把妹达人",
+        "package_date": "2019-07-18",
+        "original_publication_date": null,
+        "APA_not_invented": true
+      },
+      "new_private_case_summaries": 0,
+      "marketing_contacts_republished": false,
+      "raw_or_extracted_text_archived": false,
+      "source_images_archived": false,
+      "new_external_research_or_video_reads": 0,
+      "technical_procedure_accuracy_safety_or_effectiveness_verified": false,
+      "image_ocr": {
+        "performed": false
+      },
+      "all_page_layouts_reviewed": false,
+      "narrative_archiving_policy": "Original non-graphic structure and argument reviews only; no source plots,private dialogues,personal states,anonymous private cases,procedure scripts or contact data newly archived.",
+      "notes": [
+        "knowledge/books/B032-consent-and-boundaries.md",
+        "knowledge/books/B032-edition-and-evidence.md",
+        "knowledge/books/B032-invitations-and-confirmation.md",
+        "knowledge/books/B032-observation-and-classification.md",
+        "knowledge/books/B032-opening-and-contact.md",
+        "knowledge/books/B032-shared-conversation.md",
+        "knowledge/books/B032-training-and-relationships.md",
+        "knowledge/books/B032.md"
+      ]
+    }
+  ],
+  "new_direct_extractable_characters_read": 139547,
+  "new_main_body_characters_read": 136714,
+  "new_book_files_started": [
+    "B032"
+  ],
+  "new_book_files_completed": 1,
+  "new_book_file_ids_completed": [
+    "B032"
+  ],
+  "new_independent_original_works_not_counted": true,
+  "new_method_source_bindings": 10,
+  "new_original_review_groups": 7,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    }
+  ],
+  "unchanged_exclusions": {
+    "B015": {
+      "id": "B015",
+      "private_image_pages_excluded": 18,
+      "image_objects_excluded": 19,
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json"
+    },
+    "B017": [
+      {
+        "id": "B017",
+        "file_page": 69,
+        "image_objects": 1,
+        "screened_for_privacy_only": true,
+        "content_transcribed": false,
+        "case_summarized": false,
+        "case_or_person_state_created": false,
+        "temporary_render_deleted": true,
+        "original_source_preserved": true
+      }
+    ]
+  },
+  "new_privacy_exclusions": [],
+  "next_work_unit": {
+    "id": "B033",
+    "path": "五步陷阱 - 死囚漫步.epub",
+    "git_blob_sha": "5eadbb8671f28d753582e4635891b07049692923",
+    "bytes": 170974,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": null,
+    "spine_items": 11,
+    "next_spine_index": 1,
+    "start": "EPUB document beginning; verify binary,OPF reading order,current extraction and image/privacy scope before reading",
+    "next_file_page": null,
+    "next_character": 0,
+    "current_extraction_identity": null,
+    "next_content_unit": "B033 first OPF spine item,not ZIP filename sort order; historical text extraction is not reading completion",
+    "ledger": "knowledge/provenance/B032_reading_2026-11-12.json",
+    "historical_extraction_characters": 126088,
+    "historical_ocr_processed_pages": 0
+  },
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 33,
+    "current_file_text_partial": 3,
+    "not_started": 83
+  },
+  "scope": "All58 current EPUB spine bodies read in23 complete returned chunks; malformed HTML independently reconciled. Current text coverage only: chapter1/2 duplication retained,chapter46 absent illustration recorded,original edition unverified. Seven original non-graphic structure and argument reviews,ten critical citations; no source narrative retellings,private cases,full text,images or procedure scripts newly archived. Existing runtime and deferred gaps preserved."
+}

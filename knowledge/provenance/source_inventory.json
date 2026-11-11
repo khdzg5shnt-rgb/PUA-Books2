@@ -1544,8 +1544,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%AD%E5%9B%BD%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%20-%20%E6%B5%AA%E8%BF%B9.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B032.md",
       "pages": null,
       "spine_items": 58,
       "ocr": {
@@ -1553,7 +1553,39 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B032_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B032_reading_2026-11-12.json",
+        "source_sha256": "34684190162d407a98642821e7aaedb03b098ae83df661736f5ca925bd4612c4",
+        "current_extraction": {
+          "method": "OPF spine order; literal body text with paragraph boundaries; malformed XML uses HTML recovery; independently reconciled with HTMLParser body data; spine/path markers",
+          "characters": 139547,
+          "sha256": "dd3f2618d4e5325453c62070e0d9bb0e9c45b977677fb6074787da9ffb5a49be",
+          "coordinates": "Unicode code points; half-open ranges; EPUB spine item IDs,not pages"
+        },
+        "read_range": [
+          0,
+          139547
+        ],
+        "entire_current_file_text_read": true,
+        "coverage_mode": "current_EPUB58spine_text_complete_duplicate_chapter_bodies_and_unprovided_figure_retained_original_edition_unverified",
+        "all_page_layouts_reviewed": false,
+        "technical_procedures_validated": false,
+        "original_publication_complete": false,
+        "next_file_page": null,
+        "next_character": null,
+        "unread_characters": 0,
+        "spine_items_read": 58,
+        "chapter_body_duplicates": [
+          1,
+          2
+        ],
+        "unprovided_figure_chapters": [
+          46
+        ]
+      }
     },
     {
       "index": 33,
