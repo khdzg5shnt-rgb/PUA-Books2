@@ -1,40 +1,68 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B033_current_file_text_complete",
-  "status": "B033_current_file_text_complete_checks_passed",
-  "base_commit": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+  "current_focus": "six_files_current_coverage_40_of119",
+  "status": "six_files_current_coverage_40_of119_checks_passed",
+  "base_commit": "c31c8106542556b8e8845f109dc2251a7046e197",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 6,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B033_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B033_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B034_B052_batch_progress_2026-11-12.md",
+  "validation": "knowledge/provenance/B034_B052_batch_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B034",
-    "path": "五步陷阱技术深度解剖 - Jacob.pdf",
-    "git_blob_sha": "ea47b7a3f3ccd2ce36159e0adaa7c8a3353dfd63",
-    "bytes": 1327630,
+    "id": "B036",
+    "path": "人妻约会指南.pdf",
+    "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+    "bytes": 2994034,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 104,
+    "file_pages": 97,
     "spine_items": null,
     "next_spine_index": null,
     "next_file_page": 1,
     "next_character": 0,
-    "current_extraction_identity": null,
-    "start": "PDF file page1; verify binary,current text extraction,page order and image/privacy scope before reading",
-    "next_content_unit": "B034 PDF first file page,not printed page or historical extraction completion",
-    "ledger": "knowledge/provenance/B033_reading_2026-11-12.json",
-    "historical_extraction_characters": 110095,
-    "historical_ocr_processed_pages": 0
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+      "characters": 72537,
+      "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "pdf_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
+    "start": "File page1,character0; no substantive body read. Before continuation apply privacy exclusions to source images and private narratives.",
+    "next_content_unit": "B036 provided PDF body from file page1 under privacy-safe argument-only reading; images separately deferred",
+    "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json",
+    "preflight_only": true,
+    "substantive_body_characters_read": 0,
+    "image_material_deferred_file_pages": [
+      3,
+      8,
+      9,
+      10,
+      35,
+      40,
+      69,
+      70,
+      77,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "historical_extraction_characters": 72052
   },
-  "next_work": "Continue B034 PDF file page1 after binary,text extraction,page order and image/privacy verification. Preserve34/119 current-file text scope,B033 unavailable figures and all previous gaps,reading and completed OS maintenance.",
+  "next_work": "B036 file page1,character0 after applying privacy-safe scope; only preflight performed. B038 long EPUB and B039 scanned PDF remain separate unread bookmarks. Preserve40/119 current-file coverage,all earlier exclusions and completed OS maintenance.",
   "current_session_progress": {
-    "baseline": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+    "baseline": "c31c8106542556b8e8845f109dc2251a7046e197",
     "work_type": "original_file_reading",
     "text_complete_file_ids": [
-      "B033"
+      "B034",
+      "B035",
+      "B040",
+      "B041",
+      "B044",
+      "B052"
     ],
     "text_partial_file_ids": [
       "B014",
@@ -42,32 +70,39 @@
       "B017"
     ],
     "new_book_files_started": [
-      "B033"
+      "B034",
+      "B035",
+      "B040",
+      "B041",
+      "B044",
+      "B052"
     ],
-    "direct_extractable_characters_read": 124366,
-    "main_body_characters_read": 123837,
-    "actual_read_chunks": 24,
-    "B033_spine_items_read": 11,
-    "B033_chapter_numbers": [
-      1,
-      8
+    "direct_extractable_characters_read": 294421,
+    "main_body_characters_read": 282625,
+    "actual_direct_native_read_chunks": 26,
+    "direct_native_file_pages": 362,
+    "reused_file_ids": [
+      "B041"
     ],
-    "reading_attribution": "three_disjoint_readers_then_one_integrated_review",
-    "readers": 3,
-    "B033_independent_body_coverage_checks": 11,
-    "B033_HTML_recovery_members": 0,
-    "B033_unprovided_figures": [
-      "2-1",
-      "2-2"
+    "reused_current_extraction_characters": 76969,
+    "B041_page_comparisons": 119,
+    "visual_only_file_ids": [
+      "B052"
+    ],
+    "B052_visual_file_pages": 13,
+    "B052_garbled_characters_not_counted": 13558,
+    "preflight_only_file_ids": [
+      "B036"
     ],
     "methods": 26,
     "routes": 32,
     "task_modes": 5,
-    "new_method_source_bindings": 10,
-    "new_original_review_groups": 5,
+    "new_method_source_bindings": 22,
+    "new_original_review_groups": 13,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_whole_book_files_completed": 1,
+    "new_whole_book_files_completed": 6,
+    "new_independent_works_not_counted": true,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "new_source_head_checks": 0,
@@ -75,15 +110,11 @@
       "structural": true,
       "unittest_methods": 39,
       "synthetic_routing_scenarios": 132,
-      "all26_preferred_sections_complete": true,
-      "new_B033_focused_retrieval": true,
-      "scope": true,
-      "independent_audit": true,
-      "actual_read_chunks": 24,
-      "EPUB_spine_items": 11,
-      "independent_body_coverage_reconciliations": 11,
-      "reading_attribution_verified": true,
-      "blind_visual_tests": 0
+      "new_synthetic_scenarios": 0,
+      "preferred_sections_complete": 26,
+      "reading_metadata_scope": true,
+      "focused_retrieval_checks": 8,
+      "scope": true
     }
   },
   "last_reading_progress": {
@@ -1269,6 +1300,62 @@
         "independent_body_coverage_reconciliations": 58,
         "blind_visual_tests": 0
       }
+    },
+    {
+      "baseline": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+      "work_type": "original_file_reading",
+      "text_complete_file_ids": [
+        "B033"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B033"
+      ],
+      "direct_extractable_characters_read": 124366,
+      "main_body_characters_read": 123837,
+      "actual_read_chunks": 24,
+      "B033_spine_items_read": 11,
+      "B033_chapter_numbers": [
+        1,
+        8
+      ],
+      "reading_attribution": "three_disjoint_readers_then_one_integrated_review",
+      "readers": 3,
+      "B033_independent_body_coverage_checks": 11,
+      "B033_HTML_recovery_members": 0,
+      "B033_unprovided_figures": [
+        "2-1",
+        "2-2"
+      ],
+      "methods": 26,
+      "routes": 32,
+      "task_modes": 5,
+      "new_method_source_bindings": 10,
+      "new_original_review_groups": 5,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_whole_book_files_completed": 1,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 39,
+        "synthetic_routing_scenarios": 132,
+        "all26_preferred_sections_complete": true,
+        "new_B033_focused_retrieval": true,
+        "scope": true,
+        "independent_audit": true,
+        "actual_read_chunks": 24,
+        "EPUB_spine_items": 11,
+        "independent_body_coverage_reconciliations": 11,
+        "reading_attribution_verified": true,
+        "blind_visual_tests": 0
+      }
     }
   ],
   "deferred_work_units": [
@@ -1308,6 +1395,36 @@
       ],
       "unread_file_page_count": 138,
       "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    },
+    {
+      "id": "B038",
+      "path": "冷眼观爱 - 冷爱.epub",
+      "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+      "bytes": 3825636,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "unread",
+      "next_file_page": null,
+      "next_spine_index": 1,
+      "next_character": 0,
+      "file_pages": null,
+      "start": "Long EPUB not started this batch; restore from spine item1 after current binary and privacy checks.",
+      "substantive_body_characters_read_this_round": 0,
+      "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json"
+    },
+    {
+      "id": "B039",
+      "path": "冷眼观爱2 - 冷爱.pdf",
+      "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+      "bytes": 7795361,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "unread",
+      "next_file_page": 1,
+      "next_spine_index": null,
+      "next_character": 0,
+      "file_pages": 380,
+      "start": "380-page scanned PDF; native body historically empty; OCR processing in historical inventory is not reading. Start file page1 with OCR/visual review.",
+      "substantive_body_characters_read_this_round": 0,
+      "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json"
     }
   ],
   "reading_queue": "system/READING_QUEUE.md",
@@ -1332,10 +1449,15 @@
     }
   ],
   "last_completed_reading_session": {
-    "baseline": "0e4bb8a0c80f4a67ee348b78ad06d830f696c686",
+    "baseline": "c31c8106542556b8e8845f109dc2251a7046e197",
     "work_type": "original_file_reading",
     "text_complete_file_ids": [
-      "B033"
+      "B034",
+      "B035",
+      "B040",
+      "B041",
+      "B044",
+      "B052"
     ],
     "text_partial_file_ids": [
       "B014",
@@ -1343,32 +1465,39 @@
       "B017"
     ],
     "new_book_files_started": [
-      "B033"
+      "B034",
+      "B035",
+      "B040",
+      "B041",
+      "B044",
+      "B052"
     ],
-    "direct_extractable_characters_read": 124366,
-    "main_body_characters_read": 123837,
-    "actual_read_chunks": 24,
-    "B033_spine_items_read": 11,
-    "B033_chapter_numbers": [
-      1,
-      8
+    "direct_extractable_characters_read": 294421,
+    "main_body_characters_read": 282625,
+    "actual_direct_native_read_chunks": 26,
+    "direct_native_file_pages": 362,
+    "reused_file_ids": [
+      "B041"
     ],
-    "reading_attribution": "three_disjoint_readers_then_one_integrated_review",
-    "readers": 3,
-    "B033_independent_body_coverage_checks": 11,
-    "B033_HTML_recovery_members": 0,
-    "B033_unprovided_figures": [
-      "2-1",
-      "2-2"
+    "reused_current_extraction_characters": 76969,
+    "B041_page_comparisons": 119,
+    "visual_only_file_ids": [
+      "B052"
+    ],
+    "B052_visual_file_pages": 13,
+    "B052_garbled_characters_not_counted": 13558,
+    "preflight_only_file_ids": [
+      "B036"
     ],
     "methods": 26,
     "routes": 32,
     "task_modes": 5,
-    "new_method_source_bindings": 10,
-    "new_original_review_groups": 5,
+    "new_method_source_bindings": 22,
+    "new_original_review_groups": 13,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_whole_book_files_completed": 1,
+    "new_whole_book_files_completed": 6,
+    "new_independent_works_not_counted": true,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "new_source_head_checks": 0,
@@ -1376,15 +1505,11 @@
       "structural": true,
       "unittest_methods": 39,
       "synthetic_routing_scenarios": 132,
-      "all26_preferred_sections_complete": true,
-      "new_B033_focused_retrieval": true,
-      "scope": true,
-      "independent_audit": true,
-      "actual_read_chunks": 24,
-      "EPUB_spine_items": 11,
-      "independent_body_coverage_reconciliations": 11,
-      "reading_attribution_verified": true,
-      "blind_visual_tests": 0
+      "new_synthetic_scenarios": 0,
+      "preferred_sections_complete": 26,
+      "reading_metadata_scope": true,
+      "focused_retrieval_checks": 8,
+      "scope": true
     }
   }
 }

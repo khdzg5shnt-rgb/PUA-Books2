@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：34/119，3份部分、82份未开始。B033现有11顺序项文字已读，两幅引用图未提供；不当原版完整或效果验证。B030–B032版本限制、B014/B015/B017缺口和A026–A029状态保留。下一B034文件第1页。
+当前现有书籍文件文字覆盖完成：40/119，3份部分、76份正文未开始。本轮新增六份，B041与B040逐页核对后复用，B052为13页原页核读；不是六部新原著。B035空栏/结束语、B030–B033版本与缺图、B014/B015/B017缺口及A026–A029状态保留。下一B036正文第1页，先划隐私范围；B038/B039另留未读。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -46,17 +46,17 @@
 | B031 | [三十三条雄性领袖法诱惑美女法则 - 史蒂夫·斯科特.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%89%E5%8D%81%E4%B8%89%E6%9D%A1%E9%9B%84%E6%80%A7%E9%A2%86%E8%A2%96%E6%B3%95%E8%AF%B1%E6%83%91%E7%BE%8E%E5%A5%B3%E6%B3%95%E5%88%99%20-%20%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9.epub) | 36 | 当前36顺序项文字完成；与B025对应版本，非独立新理论 | [笔记](../books/B031.md) |
 | B032 | [中国把妹达人 - 浪迹.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%AD%E5%9B%BD%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%20-%20%E6%B5%AA%E8%BF%B9.epub) | 58 | 当前58顺序项文字完成；两章重复及一处未提供图保留 | [笔记](../books/B032.md) |
 | B033 | [五步陷阱 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 11 | 当前11顺序项文字完成；两幅引用图未提供 | [笔记](../books/B033.md) |
-| B034 | [五步陷阱技术深度解剖 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%89%96%20-%20Jacob.pdf) | 104 | 已提取/未读 | — |
-| B035 | [五步陷阱课件 - 死囚漫步.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E8%AF%BE%E4%BB%B6%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.pdf) | 87 | 已提取/未读 | — |
+| B034 | [五步陷阱技术深度解剖 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%89%96%20-%20Jacob.pdf) | 104 | 当前104页文字完成；两幅图已核 | [笔记](../books/B034.md) |
+| B035 | [五步陷阱课件 - 死囚漫步.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E8%AF%BE%E4%BB%B6%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.pdf) | 87 | 当前87页文字完成；9独立图已核；空栏/结束语留记 | [笔记](../books/B035.md) |
 | B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 已提取/未读 | — |
 | B037 | [决胜网络把妹 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B3%E8%83%9C%E7%BD%91%E7%BB%9C%E6%8A%8A%E5%A6%B9%20-%20Kezia%20Noble.epub) | 11 | 正文读完 | [精读](../books/B037.md) |
 | B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 已提取/未读 | — |
 | B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 已OCR/未读 | — |
-| B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 已提取/未读 | — |
-| B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 已提取/未读 | — |
+| B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 当前119页文字完成；27图已核；手打版限制 | [笔记](../books/B040.md) |
+| B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 与B040逐页比对复用；非独立新原著 | [笔记](../books/B041.md) |
 | B042 | [前线笔记 - 尼尔.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%89%8D%E7%BA%BF%E7%AC%94%E8%AE%B0%20-%20%E5%B0%BC%E5%B0%94.pdf) | 52 | 正文读完 | [精读](../books/B042.md) |
 | B043 | [十五步让你成为诱惑大师 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E4%BA%94%E6%AD%A5%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E8%AF%B1%E6%83%91%E5%A4%A7%E5%B8%88%20-%20Kezia%20Noble.epub) | 5 | 现有节选正文读完 | [核读](../books/B043.md) |
-| B044 | [十月男人 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E6%9C%88%E7%94%B7%E4%BA%BA%20-%20IN10SE.pdf) | 52 | 已提取/未读 | — |
+| B044 | [十月男人 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E6%9C%88%E7%94%B7%E4%BA%BA%20-%20IN10SE.pdf) | 52 | 当前52页文字完成；控制方案不采用 | [笔记](../books/B044.md) |
 | B045 | [叔叔教你护妹子 - 刘毓卿.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8F%94%E5%8F%94%E6%95%99%E4%BD%A0%E6%8A%A4%E5%A6%B9%E5%AD%90%20-%20%E5%88%98%E6%AF%93%E5%8D%BF.pdf) | 113 | 已提取/未读 | — |
 | B046 | [吸引不是选择 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 148 | 逐页核对后文字覆盖完成 | [核读](../books/B046.md) |
 | B047 | [吸引力原理 - Adam Lyons.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E5%8A%9B%E5%8E%9F%E7%90%86%20-%20Adam%20Lyons.epub) | 9 | 正文读完 | [精读](../books/B047.md) |
@@ -64,7 +64,7 @@
 | B049 | [坏蛋之道 - 约书亚·佩雷斯.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E8%9B%8B%E4%B9%8B%E9%81%93%20-%20%E7%BA%A6%E4%B9%A6%E4%BA%9A%C2%B7%E4%BD%A9%E9%9B%B7%E6%96%AF.pdf) | 130 | 已提取/未读 | — |
 | B050 | [墨攻 - 黑子.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A2%A8%E6%94%BB%20-%20%E9%BB%91%E5%AD%90.pdf) | 69 | 已提取/未读 | — |
 | B051 | [大卫X方法 - 大卫X.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A4%A7%E5%8D%ABX%E6%96%B9%E6%B3%95%20-%20%E5%A4%A7%E5%8D%ABX.pdf) | 70 | 已提取/未读 | — |
-| B052 | [女性分类课程笔记 - 但丁Law.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A5%B3%E6%80%A7%E5%88%86%E7%B1%BB%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%20-%20%E4%BD%86%E4%B8%81Law.pdf) | 13 | 已提取/未读 | — |
+| B052 | [女性分类课程笔记 - 但丁Law.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A5%B3%E6%80%A7%E5%88%86%E7%B1%BB%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%20-%20%E4%BD%86%E4%B8%81Law.pdf) | 13 | 13页原页全部目读；文字层乱码未恢复 | [笔记](../books/B052.md) |
 | B053 | [如何和女人见面与沟通 - 杂耍人.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A6%82%E4%BD%95%E5%92%8C%E5%A5%B3%E4%BA%BA%E8%A7%81%E9%9D%A2%E4%B8%8E%E6%B2%9F%E9%80%9A%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf) | 36 | 已提取/未读 | — |
 | B054 | [婚恋中男人不能犯的100个错误 - 廖康强.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A9%9A%E6%81%8B%E4%B8%AD%E7%94%B7%E4%BA%BA%E4%B8%8D%E8%83%BD%E7%8A%AF%E7%9A%84100%E4%B8%AA%E9%94%99%E8%AF%AF%20-%20%E5%BB%96%E5%BA%B7%E5%BC%BA.epub) | 54 | 已提取/未读 | — |
 | B055 | [完美约会计划 - Brad P.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%AE%8C%E7%BE%8E%E7%BA%A6%E4%BC%9A%E8%AE%A1%E5%88%92%20-%20Brad%20P.epub) | 8 | 已提取/未读 | — |
@@ -209,3 +209,5 @@
 2026-11-12续读：[B032报告](B032_progress_2026-11-12.md)。当前EPUB58项、23块139547字符读完；新增七组原创审阅、十条批判性出处。两章重复、图未提供与元数据限制另记。当前33/119，下一B033；旧阅读和系统维护不重复计数。
 
 2026-11-12续读：[B033报告](B033_progress_2026-11-12.md)。11项、24块124366字符分段实际阅读并统一审阅，五组原创笔记与十条批判性出处；两图未提供和原版限制保留。当前34/119，下一B034文件第1页。
+
+2026-11-12本批：[六份阅读报告](B034_B052_batch_progress_2026-11-12.md)。当前40/119；B041对应版本复用与B052视觉核读明确另记，旧成果保留，下一B036正文第1页先划隐私范围。

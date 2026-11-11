@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "status": "checks_passed",
+  "baseline_main": "c31c8106542556b8e8845f109dc2251a7046e197",
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 40,
+    "current_file_text_partial": 3,
+    "not_started": 76
+  },
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 32,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 40,
+    "book_not_started": 76,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_methods": 39,
+  "synthetic_scenarios": 132,
+  "runtime_outputs": [
+    {
+      "chunk_id": "00f11b",
+      "wall_time_seconds": 0.036871562,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 32,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 40,\n  \"book_not_started\": 76,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "chunk_id": "7b61eb",
+      "wall_time_seconds": 2.025904604,
+      "exit_code": 0,
+      "original_token_count": 35,
+      "output": ".......................................\n----------------------------------------------------------------------\nRan 39 tests in 2.024s\n\nOK\n"
+    }
+  ],
+  "source_scope": {
+    "changed_existing_files": [
+      "CURRENT_STATE.md",
+      "KNOWLEDGE_INDEX.md",
+      "README.md",
+      "knowledge/provenance/original-library-catalog.md",
+      "knowledge/provenance/source_inventory.json",
+      "system/READING_QUEUE.md",
+      "system/SOURCE_INTEGRATION.md",
+      "system/VALIDATION.md",
+      "system/methods.json",
+      "system/sources.json",
+      "system/work_state.json"
+    ],
+    "new_files": [
+      "knowledge/books/B034-choice-and-pressure.md",
+      "knowledge/books/B034-edition-and-figures.md",
+      "knowledge/books/B034-honest-expression.md",
+      "knowledge/books/B034.md",
+      "knowledge/books/B035-coercion-and-practice.md",
+      "knowledge/books/B035-course-and-scoring.md",
+      "knowledge/books/B035.md",
+      "knowledge/books/B040-classification-and-consent.md",
+      "knowledge/books/B040-reading-and-fallibility.md",
+      "knowledge/books/B040-words-and-format.md",
+      "knowledge/books/B040.md",
+      "knowledge/books/B041-version-comparison.md",
+      "knowledge/books/B041.md",
+      "knowledge/books/B044-autonomy-and-expression.md",
+      "knowledge/books/B044-claims-and-evidence.md",
+      "knowledge/books/B044.md",
+      "knowledge/books/B052-current-behavior.md",
+      "knowledge/books/B052-three-dimensions.md",
+      "knowledge/books/B052.md",
+      "knowledge/provenance/B034_B052_batch_progress_2026-11-12.md",
+      "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json",
+      "knowledge/provenance/B034_B052_batch_validation_2026-11-12.json",
+      "knowledge/provenance/B040_B041_equivalence_2026-11-12.json"
+    ],
+    "deleted_files": [],
+    "preserved_old_files_unchanged": 494,
+    "original_binary_blobs_unchanged": true,
+    "six_book_records_only_changed": [
+      "B034",
+      "B035",
+      "B040",
+      "B041",
+      "B044",
+      "B052"
+    ],
+    "all_other_source_records_preserved": true,
+    "prior_reading_and_system_maintenance_preserved": true
+  },
+  "reading_metadata_checks": {
+    "direct_characters": 294421,
+    "direct_body_characters": 282625,
+    "direct_chunks": 26,
+    "reused_file": "B041",
+    "page_comparisons": 119,
+    "all_footer_contexts_reviewed": true,
+    "identical_distinct_images": 27,
+    "visual_file": "B052",
+    "visual_pages": 13,
+    "garbled_native_text_not_counted": true,
+    "private_preflight_not_counted_as_reading": true,
+    "checks_do_not_prove_actual_reading_behavior": true
+  },
+  "new_source_bindings": 22,
+  "method_operations_unchanged": true,
+  "preferred_sections_unchanged": true,
+  "new_notes_and_live_links_checked": 318,
+  "focused_retrieval_checks": [
+    {
+      "method": "M08",
+      "query": "图2-1",
+      "path": "knowledge/books/B034-edition-and-figures.md",
+      "heading": "版本与图像",
+      "line": 5,
+      "end_line": 12,
+      "source_bound": true
+    },
+    {
+      "method": "M23",
+      "query": "自伤",
+      "path": "knowledge/books/B035-coercion-and-practice.md",
+      "heading": "整体不采用的目标",
+      "line": 5,
+      "end_line": 10,
+      "source_bound": true
+    },
+    {
+      "method": "M08",
+      "query": "Forer",
+      "path": "knowledge/books/B040-reading-and-fallibility.md",
+      "heading": "全文并不支持读心保证",
+      "line": 5,
+      "end_line": 10,
+      "source_bound": true
+    },
+    {
+      "method": "M03",
+      "query": "假装记得",
+      "path": "knowledge/books/B040-words-and-format.md",
+      "heading": "承接已经给出的信息",
+      "line": 5,
+      "end_line": 10,
+      "source_bound": true
+    },
+    {
+      "method": "M14",
+      "query": "二选一",
+      "path": "knowledge/books/B040-words-and-format.md",
+      "heading": "安排与修复",
+      "line": 11,
+      "end_line": 17,
+      "source_bound": true
+    },
+    {
+      "method": "M11",
+      "query": "创伤",
+      "path": "knowledge/books/B044-autonomy-and-expression.md",
+      "heading": "B044｜想象、参与与自主选择",
+      "line": 1,
+      "end_line": 4,
+      "source_bound": true
+    },
+    {
+      "method": "M08",
+      "query": "立方体",
+      "path": "knowledge/books/B052-three-dimensions.md",
+      "heading": "三条轴与八个组合",
+      "line": 9,
+      "end_line": 17,
+      "source_bound": true
+    },
+    {
+      "method": "M22",
+      "query": "类型攻略",
+      "path": "knowledge/books/B052-current-behavior.md",
+      "heading": "B052｜用实际互动替代固定类型攻略",
+      "line": 1,
+      "end_line": 4,
+      "source_bound": true
+    }
+  ],
+  "new_private_case_summaries": 0,
+  "new_full_source_texts_or_images": 0,
+  "new_research_or_videos_claimed": 0,
+  "limits": "Checks establish structure, source identity, scope, metadata consistency and synthetic routing/retrieval. They do not prove reading behavior, original-publication completeness, medical/legal/psychological mechanisms, real screenshot recognition or relationship outcomes."
+}

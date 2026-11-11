@@ -3,7 +3,7 @@
 截至2026-11-12，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-12续读[B033《五步陷阱》](../knowledge/books/B033.md)：11项、124366提取字符，三段实际阅读后统一审阅，24块覆盖当前全文。新增五组原创审阅、一个入口与十条批判性出处；有害方案整体不采用，第二章两图未提供。当前34份现有文字完成、3份部分、82份未开始，TOP30仍30/30、来源158条。26方法、32路由、五种任务和旧维护保留，下一B034文件第1页。[报告](../knowledge/provenance/B033_progress_2026-11-12.md)。
+2026-11-12当前40/119份内容覆盖完成、3份部分、76份正文未开始。本轮新增B034、B035、B040、B041、B044、B052六份当前覆盖；四份文字直读294421字符，B041逐页比对后复用，B052改为13页原页目读。新增13组原创审阅与22条批判性出处；旧方法操作和32路由保留。119为文件数，重复版本不作独立原著。TOP30仍30/30、来源158条。下一B036文件第1页，先核隐私范围；B038/B039另列未读。[报告](../knowledge/provenance/B034_B052_batch_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -72,7 +72,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍及7项支持材料。当前34份现有文字完成、3份部分、82份未开始；B033两图未提供及全部旧缺口保留，B034文件第1页断点见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；提取、OCR、目录和转引不计完整阅读，另一个文件不自动成为独立新理论。
+[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍及7项支持材料。当前40份内容覆盖完成、3份部分、76份正文未开始；B041复用和B052视觉核读分别记录，全部旧缺口保留。B036正文第1页与B038/B039未读任务见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；目录、提取、OCR和转引不计阅读完成。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

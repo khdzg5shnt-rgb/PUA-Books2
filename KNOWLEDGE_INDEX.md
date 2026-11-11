@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-12续读B033《五步陷阱》当前11项文字，34/119份文字覆盖完成；下一B034文件第1页。五组原创审阅与十条批判性出处接入，26方法、32路由与五种任务保持。[本轮报告](knowledge/provenance/B033_progress_2026-11-12.md)；[队列](system/READING_QUEUE.md)。
+2026-11-12本批达到40/119份当前文件内容覆盖；新增B034、B035、B040、B041、B044、B052。B041为已核对应版本复用，B052为原页目读，非六部新原著。下一B036文件第1页，先核隐私范围。[本轮报告](knowledge/provenance/B034_B052_batch_progress_2026-11-12.md)；[队列](system/READING_QUEUE.md)。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-12续读[B033《五步陷阱》](knowledge/books/B033.md)：11项、124366提取字符，三段实际阅读后统一审阅，24块覆盖当前全文。新增五组原创审阅、一个入口与十条批判性出处；有害方案整体不采用，第二章两图未提供。当前34份现有文字完成、3份部分、82份未开始，TOP30仍30/30、来源158条。26方法、32路由、五种任务和旧维护保留，下一B034文件第1页。[报告](knowledge/provenance/B033_progress_2026-11-12.md)。
+2026-11-12当前40/119份内容覆盖完成、3份部分、76份正文未开始。本轮新增B034、B035、B040、B041、B044、B052六份当前覆盖；四份文字直读294421字符，B041逐页比对后复用，B052改为13页原页目读。新增13组原创审阅与22条批判性出处；旧方法操作和32路由保留。119为文件数，重复版本不作独立原著。TOP30仍30/30、来源158条。下一B036文件第1页，先核隐私范围；B038/B039另列未读。[报告](knowledge/provenance/B034_B052_batch_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前34/119份现有文字覆盖完成，3份部分、82份未开始。B033两幅未提供图、B032重复章及缺图、B030摘编和B031对应版本限制保留；文件完成不等于原著完整或效果验证。B014/B015/B017既有缺口不改。
+当前40/119份现有文件内容覆盖完成，3份部分、76份正文未开始。B041经逐页比对复用B040，B052按13页原页核读；不混计直接文字阅读。B035空栏与结束语、B030–B033版本/缺图、B014/B015/B017缺口均保留。文件完成不等于原著完整或效果验证。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 
