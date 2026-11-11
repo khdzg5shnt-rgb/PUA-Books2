@@ -663,10 +663,10 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "supplied_file_only_original_publication_completeness_unverified",
-      "reading_ledger": "knowledge/provenance/B016_ch04_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
       "latest_reading": {
         "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B016_ch04_reading_2026-11-11.json",
+        "ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
         "current_extraction": {
           "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
           "characters": 172067,
@@ -675,26 +675,29 @@
         },
         "read_range": [
           0,
-          53019
+          90701
         ],
         "entire_current_file_text_read": false,
-        "coverage_mode": "title_preface_chapters1to4",
-        "next_character": 53019,
+        "coverage_mode": "title_preface_chapters1to7",
+        "next_character": 90701,
         "read_spine_items": [
           1,
-          6
+          9
         ],
         "read_body_chapters": [
           1,
-          4
+          7
         ],
-        "next_spine": 7,
-        "unread_characters": 119048,
+        "next_spine": 10,
+        "unread_characters": 81366,
         "read_body_chapter_numbers": [
           1,
           2,
           3,
-          4
+          4,
+          5,
+          6,
+          7
         ]
       }
     },

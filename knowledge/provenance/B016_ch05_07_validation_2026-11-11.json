@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "fa7778b9ab84ef2cdab8b95e2e7ff154ac6d27dd",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "e71cbf",
+      "wall_time_seconds": 0.092595351,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 94,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "3782f1",
+      "wall_time_seconds": 1.3016194589999999,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.218s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '正常问题' --method M04 --limit 1",
+      "chunk_id": "c541de",
+      "wall_time_seconds": 0.005499502,
+      "exit_code": 0,
+      "original_token_count": 70,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/normal-questions.md\",\n    \"title\": \"正常问题：先回答当前所问\",\n    \"heading\": \"先按正常问题回答\",\n    \"line\": 5,\n    \"end_line\": 10,\n    \"snippet\": \"## 先按正常问题回答\",\n    \"method_ids\": [\n      \"M04\"\n    ]\n  }\n]\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '共同假想' --method M07 --limit 1",
+      "chunk_id": "3e9920",
+      "wall_time_seconds": 0.000017836,
+      "exit_code": 0,
+      "original_token_count": 214,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/shared-imagination.md\",\n    \"title\": \"共同假想：双方都接住才继续\",\n    \"heading\": \"双方接住的假拟场景\",\n    \"line\": 5,\n    \"end_line\": 10,\n    \"snippet\": \"\\n沿她已接住、并实际添加过的轻松设定补一句，清楚保留它是假拟。不把角色、昵称、假想旅行或游戏答案写成共同经历、现实承诺或其他行为的同意；不靠强叫称呼、测试忠诚或给答案打分来推进。\\n\\n她没接梗时不继续加码；她否认、纠正、提出认真问题或表达困扰时，回应新的内容。她说不想聊某项就停止那项，不追问拒绝背后有什么阻碍，也不把否认改写成内心其实赞同。没有共享设定时照常回答或承接当前分享，不必先创造一个角色。\",\n    \"method_ids\": [\n      \"M07\"\n    ]\n  }\n]\n"
+    },
+    {
+      "command": "python run_state/r4_verify.py",
+      "chunk_id": "7968c6",
+      "wall_time_seconds": 0.249113793,
+      "exit_code": 0,
+      "original_token_count": 277,
+      "output": "{\n  \"ok\": true,\n  \"baseline_main\": \"fa7778b9ab84ef2cdab8b95e2e7ff154ac6d27dd\",\n  \"changed_existing_files\": 12,\n  \"new_files\": 8,\n  \"local_links_in_changed_markdown_checked\": 250,\n  \"new_direct_read_characters\": 37682,\n  \"new_chapter_character_counts\": {\n    \"5\": 20103,\n    \"6\": 5922,\n    \"7\": 11657\n  },\n  \"B016_cumulative_characters_read\": 90701,\n  \"B016_remaining_characters\": 81366,\n  \"B016_next_spine\": 10,\n  \"B016_next_character\": 90701,\n  \"source_records\": 158,\n  \"book_text_complete\": 22,\n  \"book_text_partial\": 3,\n  \"book_not_started\": 94,\n  \"new_whole_book_files_completed\": 0,\n  \"new_method_source_bindings\": 6,\n  \"changed_preferred_sections\": [\n    \"M04\",\n    \"M07\"\n  ],\n  \"existing_scripts_routes_task_contracts_tests_and_visual_examples_unchanged\": true,\n  \"original_file_identity_records_unchanged\": true,\n  \"B014_B015_gaps_and_exclusions_unchanged\": true,\n  \"new_source_head_checks\": 0,\n  \"prior_source_head_record_unchanged\": true,\n  \"controlled_synthetic_fact_to_route_examples\": 3,\n  \"new_image_reviews\": 0,\n  \"blind_visual_tests\": 0,\n  \"private_material_imported_or_summarized\": false\n}\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "fa7778b9ab84ef2cdab8b95e2e7ff154ac6d27dd",
+    "changed_existing_files": 12,
+    "new_files": 8,
+    "local_links_in_changed_markdown_checked": 250,
+    "new_direct_read_characters": 37682,
+    "new_chapter_character_counts": {
+      "5": 20103,
+      "6": 5922,
+      "7": 11657
+    },
+    "B016_cumulative_characters_read": 90701,
+    "B016_remaining_characters": 81366,
+    "B016_next_spine": 10,
+    "B016_next_character": 90701,
+    "source_records": 158,
+    "book_text_complete": 22,
+    "book_text_partial": 3,
+    "book_not_started": 94,
+    "new_whole_book_files_completed": 0,
+    "new_method_source_bindings": 6,
+    "changed_preferred_sections": [
+      "M04",
+      "M07"
+    ],
+    "existing_scripts_routes_task_contracts_tests_and_visual_examples_unchanged": true,
+    "original_file_identity_records_unchanged": true,
+    "B014_B015_gaps_and_exclusions_unchanged": true,
+    "new_source_head_checks": 0,
+    "prior_source_head_record_unchanged": true,
+    "controlled_synthetic_fact_to_route_examples": 3,
+    "new_image_reviews": 0,
+    "blind_visual_tests": 0,
+    "private_material_imported_or_summarized": false
+  },
+  "controlled_synthetic_fact_to_route_examples": [
+    {
+      "id": "Q01",
+      "scope": "synthetic adult teaching example, not user history",
+      "context": "Fictional user is an illustrator; both had a prior role joke. Latest other message seriously asks what work the user does.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "function": "question",
+        "roleplay_shared": true,
+        "reciprocity": "mutual",
+        "goal": "invite",
+        "invite_ready": true
+      },
+      "candidate": "我做插画，最近在画绘本。",
+      "expected": [
+        "R18",
+        "M04",
+        "draft"
+      ],
+      "observed": [
+        "R18",
+        "M04",
+        "draft"
+      ],
+      "passed": true,
+      "preferred_section": {
+        "path": "knowledge/topics/normal-questions.md",
+        "heading": "先按正常问题回答",
+        "line": 5,
+        "end_line": 10,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "limits": []
+    },
+    {
+      "id": "Q02",
+      "scope": "synthetic adult teaching example, not user history",
+      "context": "Both are voluntarily continuing an explicitly fictional team joke. Other says they will be captain; no actual appointment is being made.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "function": "banter",
+        "roleplay_shared": true,
+        "reciprocity": "mutual"
+      },
+      "candidate": "行，队长的头衔先给你留着。",
+      "expected": [
+        "R22",
+        "M07",
+        "draft"
+      ],
+      "observed": [
+        "R22",
+        "M07",
+        "draft"
+      ],
+      "passed": true,
+      "preferred_section": {
+        "path": "knowledge/topics/shared-imagination.md",
+        "heading": "双方接住的假拟场景",
+        "line": 5,
+        "end_line": 10,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "limits": []
+    },
+    {
+      "id": "Q03",
+      "scope": "synthetic adult teaching example, not user history",
+      "context": "A prior joke has ended. Other is now explicitly upset about being treated rudely and has not asked for advice.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "function": "distress",
+        "roleplay_shared": true,
+        "reciprocity": "mutual"
+      },
+      "candidate": "被这样对待确实让人难受。",
+      "expected": [
+        "R15",
+        "M11",
+        "draft"
+      ],
+      "observed": [
+        "R15",
+        "M11",
+        "draft"
+      ],
+      "passed": true,
+      "preferred_section": {
+        "path": "knowledge/books/S04-empathy.md",
+        "heading": "回填到当前方法",
+        "line": 29,
+        "end_line": 38,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "limits": []
+    }
+  ],
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "new_image_reviews": 0,
+  "blind_visual_tests": 0,
+  "limits": "Source identity, exact text ranges, original file preservation, links, preferred sections and known fictional fact-to-route examples were checked. Scripts do not read images or generate language. No new real screenshot recognition, research mechanism, personality classification, dating outcome or whole repository reading was verified."
+}
