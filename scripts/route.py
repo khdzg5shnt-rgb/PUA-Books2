@@ -5,7 +5,8 @@ import json
 from pathlib import Path
 
 from knowledge import method_reference
-from runtime_io import read_request
+from runtime_io import read_request, validate_fact_values
+from screen_window import BUBBLE_FIELDS, resolve_screens
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,34 +30,26 @@ def matches(expr, facts):
 
 
 def normalize(facts, config):
-    if not isinstance(facts, dict):
-        raise ValueError('facts must be an object')
-    defaults = config['defaults']
-    unknown = set(facts) - set(defaults)
-    if unknown:
-        raise ValueError('Unknown fact fields; use system/router.json defaults')
-    value = defaults | facts
-    for name, default in defaults.items():
-        if type(value[name]) is not type(default):
-            raise ValueError('Wrong type for ' + name)
-    for name, allowed in config['enums'].items():
-        if value[name] not in allowed:
-            raise ValueError('Unknown value for ' + name)
-    if value['consecutive_low_rounds'] < 0:
-        raise ValueError('consecutive_low_rounds must be nonnegative')
+    validate_fact_values(facts, config)
+    value = config['defaults'] | facts
     # Direction is explicitly verified by the reader, never guessed from wording.
-    if value['latest_sender'] != 'unknown':
+    if value['turn_gap'] != 'none':
+        # Only a proved outgoing direction makes waiting independent of the gap.
+        value['pending_reply'] = value['turn_gap'] == 'order' and value['latest_sender'] == 'user'
+    elif value['latest_sender'] != 'unknown':
         value['pending_reply'] = value['latest_sender'] == 'user'
     if not value['pending_reply']:
         value['necessary_new_logistics'] = False
     if (value['advice_requested'] or value['urgent_practical_need'] or
             value['closed_answer_complete'] or
+            (value['invitation'] in {'settled', 'will_update'} and
+             value['function'] in {'unknown', 'logistics', 'closing'}) or
             (value['function'] == 'banter' and value['reciprocity'] == 'mutual') or
             value['invitation'] in {'accepted', 'alternative', 'cancelled_with_repair',
                                     'open_to_activity'} or
             value['function'] in {'distress', 'advice_request', 'good_news', 'question',
                                   'post_date', 'logistics', 'correction', 'appreciation',
-                                  'sharing'}):
+                                  'sharing', 'closing'}):
         value['current_turn_low'] = False
     # Counts describe consecutive low-effort rounds through the latest round.
     # Do not let stale history erase fresh substantive contact.
@@ -77,10 +70,19 @@ def current_limits(facts):
     }.get(facts['refusal_scope'])
     if boundary:
         limits.append(boundary)
+    if facts['refusal_scope'] == 'contact':
+        return limits
     if facts['boundary_expressed']:
         limits.append('停止明确不接受的话题或称呼；不借玩笑再试一次')
     if facts['invitation'] in {'no_alternative', 'cancelled_without_repair'}:
         limits.append('原邀约没有替代安排，不换日期追问；可回应她新增的正常内容')
+    if facts['invitation'] == 'will_update':
+        limits.append('她已说会再告知安排；时间仍待定，先把确认留给她。')
+    if facts['invitation'] == 'settled':
+        if facts['refusal_scope'] == 'activity' and facts['current_scope_relation'] != 'different':
+            limits.append('这项安排与被拒活动的关系仍需核准，暂不确认赴约。')
+        else:
+            limits.append('双方已确认这项安排。照用已有信息，只处理这一轮真正新增的内容。')
     if facts['current_scope_relation'] == 'different' and (
             facts['refusal_scope'] not in {'none', 'contact'} or facts['boundary_expressed']):
         limits.append('本轮内容已核与被拒方向不同；只回应当前内容，不视为撤回原边界')
@@ -92,7 +94,23 @@ def current_limits(facts):
 def select_route(facts, root=ROOT, *, apply_action_goal=True):
     config = json.loads((root / 'system/router.json').read_text(encoding='utf-8'))
     methods = json.loads((root / 'system/methods.json').read_text(encoding='utf-8'))['methods']
-    observations = normalize(facts, config)
+    window = None
+    supplied = facts
+    if isinstance(facts, dict) and 'screens' in facts:
+        supplied = dict(facts)
+        screens = supplied.pop('screens')
+        links = supplied.pop('screen_links', [])
+        validate_fact_values(supplied, config)
+        if BUBBLE_FIELDS.intersection(supplied):
+            raise ValueError('With screens, put current-bubble observations on their sent bubble')
+        current, window = resolve_screens(screens, config, links)
+        # An explicitly cropped/missing tail is outside the annotated views.
+        reported_gap = supplied.get('turn_gap', 'none')
+        if reported_gap != 'none':
+            current = {'turn_gap': reported_gap, 'latest_sender': 'unknown', 'pending_reply': False}
+            window.update(last_id=None, turn_gap=reported_gap, latest_sender='unknown')
+        supplied.update(current)
+    observations = normalize(supplied, config)
     if type(apply_action_goal) is not bool:
         raise ValueError('apply_action_goal must be boolean')
     routing = dict(observations)
@@ -102,9 +120,11 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
         intent_adjustments.append('本次只解释、分析、复盘或训练；行动目标不触发邀约或欣赏草稿')
     if routing['goal'] == 'invite' and (
             observations['refusal_scope'] in {'romance', 'activity'} or
-            observations['invitation'] in {'no_alternative', 'cancelled_without_repair'}):
+            observations['invitation'] in {'accepted', 'alternative', 'cancelled_with_repair',
+                                           'no_alternative', 'cancelled_without_repair',
+                                           'will_update', 'settled'}):
         routing['goal'] = 'reply'
-        intent_adjustments.append('当前拒绝或无替代安排仍有效；回应新内容不重开本轮邀约')
+        intent_adjustments.append('按当前安排或边界处理；回应新内容时不重复邀约')
     for rule in config['routes']:
         if matches(rule['when'], routing):
             method = next(m for m in methods if m['id'] == rule['method_ids'][0])
@@ -114,10 +134,10 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
             elif rule['action'] == 'clarify':
                 output_policy = '只向用户核对一项会改变判断的缺口，不生成给对方的新消息'
             elif rule.get('acknowledgement_only', False):
-                output_policy = '必要时只简短承接具体边界，不追加问题，也可不另发'
+                output_policy = '如需回应只简短承接，不追加问题，也可不另发'
             else:
                 output_policy = '一个主目标；最多一个问题；普通怎么回只给一个成品'
-            return {
+            result = {
                 'route_id': rule['id'],
                 'scenario': rule['name'],
                 'action': rule['action'],
@@ -131,13 +151,21 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
                 'read': list(dict.fromkeys(['system/REPLY_PROTOCOL.md', source['path']])),
                 'references': method['sources'],
                 'fact_adjustments': [key for key in facts
-                                     if observations[key] != facts[key]],
+                                     if key in observations and observations[key] != facts[key]],
                 'intent_adjustments': intent_adjustments,
                 'current_limits': current_limits(observations),
-                'boundary_acknowledgement': rule.get('acknowledgement_only', False),
+                'acknowledgement_only': rule.get('acknowledgement_only', False),
+                'boundary_acknowledgement': rule.get('acknowledgement_only', False) and method['id'] == 'M23',
                 'output_policy': output_policy,
                 'limitation': '基于人工核对的事实路由；未识别截图、未生成草稿、未计算兴趣或成功率',
             }
+            if window is not None:
+                result['screen_window'] = window
+            if rule['id'] == 'R00T':
+                result['turn_gap'] = observations['turn_gap']
+            if rule['id'] == 'R00S':
+                result['current_scope_relation'] = observations['current_scope_relation']
+            return result
     raise ValueError('Missing fallback rule')
 
 

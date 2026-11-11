@@ -2,12 +2,13 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-12本批达到40/119份当前文件内容覆盖；新增B034、B035、B040、B041、B044、B052。B041为已核对应版本复用，B052为原页目读，非六部新原著。下一B036文件第1页，先核隐私范围。[本轮报告](knowledge/provenance/B034_B052_batch_progress_2026-11-12.md)；[队列](system/READING_QUEUE.md)。
+2026-11-12最近一次阅读达到40/119份当前文件内容覆盖；新增B034、B035、B040、B041、B044、B052。B041为已核对应版本复用，B052为原页目读，非六部新原著。下一B036文件第1页，先核隐私范围。[本轮报告](knowledge/provenance/B034_B052_batch_progress_2026-11-12.md)；[队列](system/READING_QUEUE.md)。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
 | 找什么 | books2内入口 |
 | --- | --- |
+| 多图末句、已确认的安排和自然收尾 | [截图协议](system/SCREENSHOT_PROTOCOL.md)、[本轮示例](system/CURRENT_TURN.md#安排聊到哪一步) |
 | 当前断点与未完成事项 | [CURRENT_STATE](CURRENT_STATE.md) |
 | 指导规则与一次回复流程 | [CHAT_GUIDANCE_PLAYBOOK](CHAT_GUIDANCE_PLAYBOOK.md) |
 | 理论结构与作者分歧 | [PUA_CORE_SYSTEM](PUA_CORE_SYSTEM.md)、[主题选择表](knowledge/topics/source-synthesis.md) |

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+  "status": "passed",
+  "scope": "人工读图后的本轮判断、方法定位和输出约定。图例内容已知。",
+  "checks": {
+    "structural": {
+      "ok": true,
+      "errors": [],
+      "methods": 26,
+      "routes": 36,
+      "task_modes": 5,
+      "preferred_sections": 26,
+      "source_records": 158,
+      "archived_files": 44,
+      "book_text_complete": 40,
+      "book_not_started": 76,
+      "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+    },
+    "unittest_methods": 48,
+    "synthetic_scenarios": 158,
+    "old_scenario_prefix_preserved": 132,
+    "new_scenarios_run_through_coach_stdin": {
+      "T133": "R04",
+      "T134": "R18",
+      "T135": "R00T",
+      "T136": "R18",
+      "T137": "R00T",
+      "T138": "R00T",
+      "T139": "R04",
+      "T140": "R00T",
+      "T141": "R00T",
+      "T142": "R01",
+      "T143": "R09C",
+      "T144": "R09C",
+      "T145": "R09",
+      "T146": "R18",
+      "T147": "R09",
+      "T148": "R10W",
+      "T149": "R10",
+      "T150": "R04",
+      "T151": "R27",
+      "T152": "R08",
+      "T153": "R13C",
+      "T154": "R16",
+      "T155": "R27",
+      "T156": "R27",
+      "T157": "R00S",
+      "T158": "R13C"
+    },
+    "method_lookup_by_phrase": {
+      "M01": "G09补充｜读图只是输入",
+      "M15": "已接受后确认安排",
+      "M17": "没有替代安排时收住",
+      "M18": "判断流程"
+    },
+    "local_markdown_link_targets_checked": 230,
+    "overlap_example_same_after_reversed_upload": true,
+    "route_and_coach_match": true,
+    "existing_synthetic_images_reviewed_and_routed": [
+      {
+        "fixture": "VS01",
+        "route": "R18",
+        "latest_sender": "other",
+        "last_id": 3,
+        "manual_review": true
+      },
+      {
+        "fixture": "VS02",
+        "route": "R04",
+        "latest_sender": "user",
+        "last_id": 2,
+        "manual_review": true
+      },
+      {
+        "fixture": "VS03",
+        "route": "R27",
+        "latest_sender": "other",
+        "last_id": 4,
+        "manual_review": true
+      }
+    ],
+    "blind_visual_tests": 0,
+    "ocr_benchmarks": 0,
+    "actual_private_messages_processed": 0
+  },
+  "sources": {
+    "book_files": 119,
+    "complete_files": 40,
+    "partial_files": 3,
+    "not_started_files": 76,
+    "new_book_files_read": 0,
+    "new_book_pages_read": 0,
+    "next_book": "B036",
+    "file_page": 1,
+    "character": 0,
+    "sources_git_blob_untouched": "99c93de3cebfe004fb58d3b9d5a268fd89361d0f",
+    "reading_queue_git_blob_untouched": "e4938e185d16205167fe99ab6e9f2d39461cdf19",
+    "last_completed_reading_session_and_bookmark_preserved": true,
+    "preferred_method_reference_targets_preserved": 26
+  }
+}

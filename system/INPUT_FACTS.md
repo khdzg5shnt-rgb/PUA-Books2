@@ -17,6 +17,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
 | `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
 | `latest_sender` | `"unknown"` | 最近一条已发送的双方消息：user、other或unknown；排除系统提示、引用与输入框草稿 |
+| `turn_gap` | `"none"` | 最近一条已发消息仍有具体缺口时使用。多图输入由图间顺序与发言人标记得出。 |
 | `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
 | `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
 | `refusal_scope` | `"none"` | 当前明确拒绝的具体范围；不由语气、单字或旧标签推断 |
@@ -43,10 +44,11 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | 字段 | 可选值 |
 | --- | --- |
 | `latest_sender` | `unknown`, `user`, `other` |
+| `turn_gap` | `none`, `order`, `sender`, `missing` |
 | `current_scope_relation` | `unknown`, `same`, `different` |
 | `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
-| `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity` |
-| `function` | `unknown`, `insult`, `logistics`, `correction`, `distress`, `advice_request`, `good_news`, `question`, `post_date`, `banter`, `opening`, `sharing`, `appreciation` |
+| `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity`, `settled`, `will_update` |
+| `function` | `unknown`, `insult`, `logistics`, `correction`, `distress`, `advice_request`, `good_news`, `question`, `post_date`, `banter`, `opening`, `sharing`, `appreciation`, `closing` |
 | `reciprocity` | `unknown`, `mutual`, `consistently_one_sided` |
 | `goal` | `reply`, `invite`, `appreciate` |
 
@@ -57,6 +59,20 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 `current_scope_relation=different`只在确有另一项允许范围的内容或安排时填。换日期再约被拒活动、拒绝理由或笑着说不都不算不同。若同一个活动后来由对方本人明确重新答应，先据原话更新当前事实，不让仍有效的拒绝与新同意同时冒充事实。关系不明且会影响落实安排时，R00S只向用户核一项；有可用上下文就先自行核准。详见[范围说明](CONTENT_SCOPE.md)。
 
 ## 请求格式
+
+### 多张图的临时输入
+
+在当前对象的 `facts` 中可附 `screens`。每个子列表按单张图里可见的先后排列。已发气泡使用正整数 `id` 和已核的 `sender`。编号大小没有时间含义。只给同一条已核气泡复用编号。草稿、旧引文、系统行可省略，也可仅记 `kind` 为 `draft`、`quote` 或 `notice`。不放原话、图片、昵称或账号。见[可运行的重叠截图示例](EXAMPLE_REQUEST.json)。
+
+当前对象、仍有效的边界和待处理安排放在外层。使用多图时，`function`、`closed_answer_complete`、`current_turn_low`、`advice_requested`、`urgent_practical_need`、`roleplay_shared`、`current_scope_relation` 写在所属已发气泡的 `facts` 中，可按需省略。执行时只取末条的这些字段。两张图里同一条气泡的补充标记可以合并；内容标注冲突时先回图复核。
+
+无重叠但有明确日期、时间或用户已说明的先后关系，可在同一 `facts` 中给 `screen_links`，例如 `[[8, 3]]` 表示编号8的已发消息早于编号3。只比较上传顺序不能填写这条关系。同一批图可能有多个可行排序，只要末条唯一就能采用。单图或上下文已清楚时直接走原有平面字段即可；直接填字段而末句不清时用 `turn_gap` 标明缺口。
+
+`settled` 表示活动以及此次所需的时间、集合方式已经过双方确认。`accepted` 仍可能缺一项实际信息。`will_update` 需要对方明确承担下一次确认，例如“我查好告诉你”。“改天吧”本身没有这个承诺。`closing` 只标已经相互收尾的末句，单个“好”、笑声或回复短不足以单独采用。她附了一个新问题或提出地点变更时按该项内容处理。见[虚构对照](CURRENT_TURN.md#安排聊到哪一步)。
+
+### 单对象与多对象
+
+若明确知道更晚的消息被整段裁掉，可同时填 `turn_gap`。程序会保留这个已知缺口，避免把可见片段的末条误当作整轮末条。
 
 单对象：`{"task":"reply","facts":{"speaker_verified":true,"text_legible":true,"latest_sender":"other","function":"question"}}`。没有核读的内容不能照抄true。
 

@@ -73,7 +73,7 @@ def validate(root=ROOT):
         if ('acknowledgement_only' in rule and
                 (type(rule['acknowledgement_only']) is not bool or
                  (rule['acknowledgement_only'] and
-                  (rule['action'] != 'draft' or rule['method_ids'] != ['M23'])))):
+                  (rule['action'] != 'draft' or rule['method_ids'] not in (['M17'], ['M23']))))):
             errors.append('Invalid boundary acknowledgement contract: '+rule['id'])
     for method in methods:
         if not method['sources'] or not method['avoid'] or not method['use_when']:

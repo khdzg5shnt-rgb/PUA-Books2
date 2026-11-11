@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "six_files_current_coverage_40_of119",
-  "status": "six_files_current_coverage_40_of119_checks_passed",
-  "base_commit": "c31c8106542556b8e8845f109dc2251a7046e197",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 6,
+  "current_focus": "screenshot_order_and_invitation_follow_up",
+  "status": "system_maintenance_checks_passed",
+  "base_commit": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B034_B052_batch_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B034_B052_batch_validation_2026-11-12.json",
+  "report": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+  "validation": "knowledge/provenance/OS_screens_and_plans_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B036",
     "path": "人妻约会指南.pdf",
@@ -54,68 +54,37 @@
   },
   "next_work": "B036 file page1,character0 after applying privacy-safe scope; only preflight performed. B038 long EPUB and B039 scanned PDF remain separate unread bookmarks. Preserve40/119 current-file coverage,all earlier exclusions and completed OS maintenance.",
   "current_session_progress": {
-    "baseline": "c31c8106542556b8e8845f109dc2251a7046e197",
-    "work_type": "original_file_reading",
-    "text_complete_file_ids": [
-      "B034",
-      "B035",
-      "B040",
-      "B041",
-      "B044",
-      "B052"
-    ],
-    "text_partial_file_ids": [
-      "B014",
-      "B015",
-      "B017"
-    ],
-    "new_book_files_started": [
-      "B034",
-      "B035",
-      "B040",
-      "B041",
-      "B044",
-      "B052"
-    ],
-    "direct_extractable_characters_read": 294421,
-    "main_body_characters_read": 282625,
-    "actual_direct_native_read_chunks": 26,
-    "direct_native_file_pages": 362,
-    "reused_file_ids": [
-      "B041"
-    ],
-    "reused_current_extraction_characters": 76969,
-    "B041_page_comparisons": 119,
-    "visual_only_file_ids": [
-      "B052"
-    ],
-    "B052_visual_file_pages": 13,
-    "B052_garbled_characters_not_counted": 13558,
-    "preflight_only_file_ids": [
-      "B036"
-    ],
+    "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+    "work_type": "system_maintenance",
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
     "methods": 26,
-    "routes": 32,
+    "routes": 36,
     "task_modes": 5,
-    "new_method_source_bindings": 22,
-    "new_original_review_groups": 13,
-    "changed_method_operations": [],
-    "changed_preferred_sections": [],
-    "new_whole_book_files_completed": 6,
-    "new_independent_works_not_counted": true,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
-    "new_source_head_checks": 0,
+    "changed_method_operations": [
+      "M15",
+      "M17"
+    ],
+    "changed_preferred_sections": [
+      "M15",
+      "M17",
+      "M18"
+    ],
+    "new_synthetic_scenarios": 26,
+    "total_synthetic_scenarios": 158,
+    "source_records_unchanged": 158,
+    "reading_bookmark_unchanged": true,
     "checks": {
       "structural": true,
-      "unittest_methods": 39,
-      "synthetic_routing_scenarios": 132,
-      "new_synthetic_scenarios": 0,
-      "preferred_sections_complete": 26,
-      "reading_metadata_scope": true,
-      "focused_retrieval_checks": 8,
-      "scope": true
-    }
+      "unittest_methods": 48,
+      "synthetic_routing_scenarios": 158,
+      "original_132_scenarios_preserved": true,
+      "new_scenarios_through_coach_cli": 26,
+      "manually_reviewed_existing_synthetic_images": 3,
+      "blind_visual_tests": 0
+    },
+    "changed_preferred_reference_targets": []
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -149,39 +118,41 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "5eb3a5be587f2be87bf709168d9d71346fa73757",
-    "report": "knowledge/provenance/OS_current_content_2026-11-12.md",
-    "validation": "knowledge/provenance/OS_current_content_validation_2026-11-12.json",
+    "base_commit": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+    "report": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+    "validation": "knowledge/provenance/OS_screens_and_plans_validation_2026-11-12.json",
     "current_session_progress": {
-      "baseline": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+      "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
       "work_type": "system_maintenance",
       "new_book_files_completed": [],
       "new_book_characters_read": 0,
       "new_book_pages_read": 0,
       "methods": 26,
-      "routes": 32,
+      "routes": 36,
       "task_modes": 5,
-      "new_synthetic_scenarios": 24,
-      "total_synthetic_scenarios": 132,
+      "changed_method_operations": [
+        "M15",
+        "M17"
+      ],
+      "changed_preferred_sections": [
+        "M15",
+        "M17",
+        "M18"
+      ],
+      "new_synthetic_scenarios": 26,
+      "total_synthetic_scenarios": 158,
       "source_records_unchanged": 158,
       "reading_bookmark_unchanged": true,
-      "changed_method_operations": [],
-      "changed_preferred_sections": [],
-      "new_source_head_checks": 0,
-      "new_research_full_texts": 0,
-      "new_original_videos": 0,
       "checks": {
         "structural": true,
-        "unittest_methods": 39,
-        "synthetic_routing_scenarios": 132,
-        "old108_scenarios_preserved": true,
-        "new_synthetic_scenarios": 24,
-        "preferred_sections_complete": 26,
-        "cli_checks": 4,
-        "scope": true,
-        "reading_unchanged": true,
+        "unittest_methods": 48,
+        "synthetic_routing_scenarios": 158,
+        "original_132_scenarios_preserved": true,
+        "new_scenarios_through_coach_cli": 26,
+        "manually_reviewed_existing_synthetic_images": 3,
         "blind_visual_tests": 0
-      }
+      },
+      "changed_preferred_reference_targets": []
     }
   },
   "earlier_reading_progress": {
@@ -1445,6 +1416,42 @@
         "total_synthetic_scenarios": 108,
         "source_records_unchanged": 158,
         "reading_bookmark_unchanged": true
+      }
+    },
+    {
+      "base_commit": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+      "report": "knowledge/provenance/OS_current_content_2026-11-12.md",
+      "validation": "knowledge/provenance/OS_current_content_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+        "work_type": "system_maintenance",
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "methods": 26,
+        "routes": 32,
+        "task_modes": 5,
+        "new_synthetic_scenarios": 24,
+        "total_synthetic_scenarios": 132,
+        "source_records_unchanged": 158,
+        "reading_bookmark_unchanged": true,
+        "changed_method_operations": [],
+        "changed_preferred_sections": [],
+        "new_source_head_checks": 0,
+        "new_research_full_texts": 0,
+        "new_original_videos": 0,
+        "checks": {
+          "structural": true,
+          "unittest_methods": 39,
+          "synthetic_routing_scenarios": 132,
+          "old108_scenarios_preserved": true,
+          "new_synthetic_scenarios": 24,
+          "preferred_sections_complete": 26,
+          "cli_checks": 4,
+          "scope": true,
+          "reading_unchanged": true,
+          "blind_visual_tests": 0
+        }
       }
     }
   ],

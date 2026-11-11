@@ -28,7 +28,7 @@ def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=Fal
         if len(candidate.strip().splitlines()) > 2:
             issues.append('默认回复最多两行')
         if len(re.findall(r'[?？]+', candidate)) > max_questions:
-            issues.append('本轮只需简短承接边界，不追加问题' if max_questions == 0
+            issues.append('本轮只需简短承接，不追加问题' if max_questions == 0
                           else '本轮最多一个问题')
         if re.search(r'\{[^{}\n]+\}|\[(?:时间|地点|姓名|待确认)\]', candidate):
             issues.append('草稿仍有未替换的事实占位符')
@@ -54,14 +54,22 @@ def _select_case(request, case_key):
     return request.get('facts', {}), 'single_case'
 
 
-def _clarification(facts, task, route_id):
+def _clarification(facts, decision):
+    route_id = decision['route_id']
+    if route_id == 'R00T':
+        question = {
+            'order': '这几条里，最后发出去的是哪一句？',
+            'sender': '最后一条已发消息是谁发的？',
+            'missing': '最近一条已经发出去的消息是什么？',
+        }[decision['turn_gap']]
+        return {'field': 'turn_gap', 'question': question}
     if route_id == 'R00S':
         question = ('同一个活动后来有她明确重新答应的原话吗？'
-                    if facts.get('current_scope_relation') == 'same' else
+                    if decision['current_scope_relation'] == 'same' else
                     '她现在答应的是之前拒绝的活动，还是另一个安排？')
         return {'field': 'current_scope_relation', 'question': question}
     choices = [('speaker_verified', '这句是谁发的？'),
-               ('text_legible', '她最后一句具体说了什么？'),
+               ('text_legible', '最近一条已发消息的原话是什么？'),
                ('invite_ready', '你们最近有过什么双向互动？'),
                ('user_availability_known', '你哪天确实有空？'),
                ('activity_verified', '你这次想约什么活动？')]
@@ -96,10 +104,10 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         contract['max_questions'] = 1
     if selected_task == 'reply' and decision['action'] != 'draft':
         contract['max_candidates'] = 0
-    if selected_task == 'reply' and decision['boundary_acknowledgement']:
+    if selected_task == 'reply' and decision['acknowledgement_only']:
         contract['max_questions'] = 0
         contract['allow_no_message'] = True
-        contract['deliver'] = '如确有必要，只简短承接这项边界；不重提、不试探，不追加问题'
+        contract['deliver'] = decision['purpose'] + '。可以不另发。若回应，最多一句，不追加问题。'
     result = {
         'task': selected_task,
         'case_context': context,
@@ -116,15 +124,22 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         'after_this_turn': '只依据实际新回复更新；不编后续，不自动补第二条或设置冷落倒计时',
         'scope': '仅生成一个处理提纲；读图、事实裁决与自然语言由当前助手完成；不存储、不发送',
     }
+    if 'screen_window' in decision:
+        result['screen_window'] = decision['screen_window']
     if decision['action'] == 'clarify':
-        result['clarification'] = _clarification(facts, selected_task, decision['route_id']) | {
-            'recipient': 'user'}
+        result['clarification'] = _clarification(facts, decision) | {'recipient': 'user'}
     if decision['action'] == 'hold' and selected_task == 'reply':
-        result['user_output'] = '先不发，等她回这一轮。'
-        if decision['route_id'] == 'R14':
-            result['user_output'] = '先不发，这轮不用继续找话题。'
+        result['user_output'] = {
+            'R04': '先不发，等她回这一轮。',
+            'R14': '先不发，这轮不用继续找话题。',
+            'R09C': '不用再回，按刚定好的安排就行。',
+            'R13C': '这轮已经聊完了，不用再回。',
+        }[decision['route_id']]
     if decision['action'] == 'stop' and selected_task == 'reply':
         result['user_output'] = '先不发，按她的原话停止私人联系。'
+    if 'user_output' in result:
+        contract['deliver'] = result['user_output']
+        contract['max_questions'] = 0
     if selected_task == 'reply' and decision['route_id'] in {'R04N', 'R08', 'R09'}:
         result['before_drafting'] = [
             '已知信息直接用；只有要确认赴约且真实空闲未知时才补缺口，不把对方给时间当作用户已答应',

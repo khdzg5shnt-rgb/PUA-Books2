@@ -3,8 +3,18 @@
   "facts": {
     "speaker_verified": true,
     "text_legible": true,
-    "invitation": "alternative",
-    "function": "logistics",
-    "latest_sender": "other"
+    "invitation": "settled",
+    "screens": [
+      [
+        {"id": 8, "sender": "user"},
+        {"kind": "quote"},
+        {"id": 3, "sender": "other", "facts": {"function": "question"}},
+        {"kind": "draft"}
+      ],
+      [
+        {"id": 9, "sender": "other"},
+        {"id": 8, "sender": "user"}
+      ]
+    ]
   }
 }

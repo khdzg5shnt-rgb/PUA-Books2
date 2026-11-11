@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.4.0",
+  "version": "1.5.0",
   "updated": "2026-11-12",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
@@ -27,7 +27,8 @@
     "advice_requested": false,
     "urgent_practical_need": false,
     "latest_sender": "unknown",
-    "current_scope_relation": "unknown"
+    "current_scope_relation": "unknown",
+    "turn_gap": "none"
   },
   "enums": {
     "refusal_scope": [
@@ -45,7 +46,9 @@
       "cancelled_with_repair",
       "no_alternative",
       "cancelled_without_repair",
-      "open_to_activity"
+      "open_to_activity",
+      "settled",
+      "will_update"
     ],
     "function": [
       "unknown",
@@ -60,7 +63,8 @@
       "banter",
       "opening",
       "sharing",
-      "appreciation"
+      "appreciation",
+      "closing"
     ],
     "reciprocity": [
       "unknown",
@@ -81,10 +85,42 @@
       "unknown",
       "same",
       "different"
+    ],
+    "turn_gap": [
+      "none",
+      "order",
+      "sender",
+      "missing"
     ]
   },
   "routing": "first_matching_rule",
   "routes": [
+    {
+      "id": "R01",
+      "name": "拒绝联系",
+      "when": {
+        "all": [
+          {
+            "field": "speaker_verified",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "refusal_scope",
+            "op": "eq",
+            "value": "contact"
+          }
+        ]
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "stop",
+      "purpose": "停止私人联系；已回应过就不再发结束消息",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
     {
       "id": "R00",
       "name": "输入核对",
@@ -107,23 +143,6 @@
       ],
       "action": "clarify",
       "purpose": "仅核对会改变回复的一项缺口",
-      "also_read": [
-        "system/REPLY_PROTOCOL.md"
-      ]
-    },
-    {
-      "id": "R01",
-      "name": "拒绝联系",
-      "when": {
-        "field": "refusal_scope",
-        "op": "eq",
-        "value": "contact"
-      },
-      "method_ids": [
-        "M23"
-      ],
-      "action": "stop",
-      "purpose": "停止私人联系；已回应过就不再发结束消息",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -181,6 +200,27 @@
       ]
     },
     {
+      "id": "R00T",
+      "name": "最新已发消息待核",
+      "when": {
+        "field": "turn_gap",
+        "op": "in",
+        "value": [
+          "order",
+          "sender",
+          "missing"
+        ]
+      },
+      "method_ids": [
+        "M01"
+      ],
+      "action": "clarify",
+      "purpose": "只向用户核对影响本轮的一项缺口",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
       "id": "R00S",
       "name": "安排与拒绝范围待核",
       "when": {
@@ -197,7 +237,8 @@
               "accepted",
               "alternative",
               "cancelled_with_repair",
-              "open_to_activity"
+              "open_to_activity",
+              "settled"
             ]
           },
           {
@@ -214,9 +255,9 @@
             "value": [
               "unknown",
               "logistics",
-              "sharing",
               "banter",
-              "opening"
+              "opening",
+              "closing"
             ]
           },
           {
@@ -463,9 +504,9 @@
                 "value": [
                   "unknown",
                   "logistics",
-                  "sharing",
                   "banter",
-                  "opening"
+                  "opening",
+                  "closing"
                 ]
               },
               {
@@ -545,7 +586,8 @@
       "purpose": "没替代安排时不再追约；新增认真问题、求助或分享另按本轮作用回应",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
-      ]
+      ],
+      "acknowledgement_only": true
     },
     {
       "id": "R11",
@@ -602,39 +644,163 @@
       "acknowledgement_only": true
     },
     {
-      "id": "R09",
-      "name": "活动意愿与安排",
+      "id": "R09C",
+      "name": "双方已确认安排",
       "when": {
         "all": [
           {
+            "field": "invitation",
+            "op": "eq",
+            "value": "settled"
+          },
+          {
             "any": [
               {
-                "field": "invitation",
+                "field": "function",
                 "op": "in",
                 "value": [
-                  "accepted",
-                  "open_to_activity"
+                  "unknown",
+                  "closing"
                 ]
               },
               {
-                "field": "function",
-                "op": "eq",
-                "value": "logistics"
+                "all": [
+                  {
+                    "field": "function",
+                    "op": "eq",
+                    "value": "logistics"
+                  },
+                  {
+                    "field": "closed_answer_complete",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M15"
+      ],
+      "action": "hold",
+      "purpose": "本轮只是双方对已定安排的收尾，按约履行",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R10W",
+      "name": "她说会再告知安排",
+      "when": {
+        "all": [
+          {
+            "field": "invitation",
+            "op": "eq",
+            "value": "will_update"
+          },
+          {
+            "field": "function",
+            "op": "in",
+            "value": [
+              "unknown",
+              "logistics"
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M17"
+      ],
+      "action": "draft",
+      "purpose": "由她确认后再告知。本轮可以简短承接，日期仍待定",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ],
+      "acknowledgement_only": true
+    },
+    {
+      "id": "R09",
+      "name": "活动意愿与安排",
+      "when": {
+        "any": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "field": "invitation",
+                    "op": "in",
+                    "value": [
+                      "accepted",
+                      "open_to_activity"
+                    ]
+                  },
+                  {
+                    "field": "function",
+                    "op": "eq",
+                    "value": "logistics"
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "field": "function",
+                    "op": "in",
+                    "value": [
+                      "unknown",
+                      "logistics",
+                      "banter",
+                      "opening"
+                    ]
+                  },
+                  {
+                    "field": "advice_requested",
+                    "op": "eq",
+                    "value": false
+                  },
+                  {
+                    "field": "urgent_practical_need",
+                    "op": "eq",
+                    "value": false
+                  }
+                ]
               }
             ]
           },
           {
             "all": [
               {
+                "field": "invitation",
+                "op": "eq",
+                "value": "accepted"
+              },
+              {
                 "field": "function",
-                "op": "in",
-                "value": [
-                  "unknown",
-                  "logistics",
-                  "sharing",
-                  "banter",
-                  "opening"
-                ]
+                "op": "eq",
+                "value": "closing"
               },
               {
                 "field": "advice_requested",
@@ -672,6 +838,37 @@
       ],
       "action": "draft",
       "purpose": "接受纠正，不强行曲解",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R13C",
+      "name": "双方已自然收尾",
+      "when": {
+        "all": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "closing"
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M18"
+      ],
+      "action": "hold",
+      "purpose": "双方已经结束这一轮，留到有新内容时再聊",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -1103,6 +1300,7 @@
     "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
     "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感",
     "latest_sender": "最近一条已核的双方消息由谁发送；排除系统提示和引用。已核方向可更新pending_reply，未知保留unknown",
-    "current_scope_relation": "已核当前内容或安排与已有被拒方向是否相同；unknown不猜，different必须有具体依据，不能当撤回边界或重邀许可"
+    "current_scope_relation": "已核当前内容或安排与已有被拒方向是否相同；unknown不猜，different必须有具体依据，不能当撤回边界或重邀许可",
+    "turn_gap": "已核的具体缺口。顺序不明、最新发言人不明或只见草稿等内容时使用；多图可由消息重叠核出。"
   }
 }

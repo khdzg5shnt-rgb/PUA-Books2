@@ -1830,5 +1830,530 @@
     "expect_route": "R14",
     "expect_action": "hold",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T133",
+    "context": "虚构场景：后半张先上传，重叠气泡相同，末尾只有输入框草稿",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          },
+          {
+            "id": 2,
+            "sender": "user"
+          },
+          {
+            "kind": "draft"
+          }
+        ],
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          },
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          }
+        ]
+      ],
+      "latest_sender": "other",
+      "pending_reply": false
+    },
+    "expect_route": "R04",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T134",
+    "context": "虚构场景：两张重叠图的最新正文是新问题，引用和系统提示在其后",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          },
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          }
+        ],
+        [
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          },
+          {
+            "id": 4,
+            "sender": "other",
+            "facts": {
+              "function": "question"
+            }
+          },
+          {
+            "kind": "quote"
+          },
+          {
+            "kind": "notice"
+          }
+        ]
+      ],
+      "pending_reply": true
+    },
+    "expect_route": "R18",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T135",
+    "context": "虚构场景：两张图各有独立的已发消息，未确定哪张更新",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "sender": "other",
+            "facts": {
+              "function": "question"
+            }
+          }
+        ]
+      ],
+      "pending_reply": true
+    },
+    "expect_route": "R00T",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T136",
+    "context": "虚构场景：两张的已核时间补足了顺序，不必再问用户",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 4,
+            "sender": "other",
+            "facts": {
+              "function": "question"
+            }
+          }
+        ],
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          }
+        ]
+      ],
+      "screen_links": [
+        [
+          8,
+          4
+        ]
+      ]
+    },
+    "expect_route": "R18",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T137",
+    "context": "虚构场景：末尾只见草稿、旧引文和系统提示，无一条已发正文",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "kind": "draft"
+          },
+          {
+            "kind": "quote"
+          }
+        ],
+        [
+          {
+            "kind": "notice"
+          }
+        ]
+      ]
+    },
+    "expect_route": "R00T",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T138",
+    "context": "虚构场景：最新气泡确实已发，裁切处缺少发言人",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          },
+          {
+            "id": 13,
+            "sender": "unknown"
+          }
+        ]
+      ]
+    },
+    "expect_route": "R00T",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T139",
+    "context": "虚构场景：两张的末条都由用户发出，哪一张较新不影响先等",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          }
+        ],
+        [
+          {
+            "id": 2,
+            "sender": "user"
+          }
+        ]
+      ]
+    },
+    "expect_route": "R04",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T140",
+    "context": "虚构场景：两张末条均来自对方但内容不同，选择会改变回复",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "sender": "other",
+            "facts": {
+              "function": "question"
+            }
+          }
+        ]
+      ]
+    },
+    "expect_route": "R00T",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T141",
+    "context": "虚构场景：两个独立的视图给同一对气泡相反顺序",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          },
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          }
+        ],
+        [
+          {
+            "id": 3,
+            "sender": "other",
+            "facts": {
+              "function": "sharing"
+            }
+          },
+          {
+            "id": 8,
+            "sender": "user"
+          }
+        ]
+      ]
+    },
+    "expect_route": "R00T",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T142",
+    "context": "虚构场景：对象已核且已明确拒绝私人联系，图片先后无从改变这一点",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": false,
+      "screens": [
+        [
+          {
+            "id": 8,
+            "sender": "user"
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "sender": "other",
+            "facts": {
+              "function": "question"
+            }
+          }
+        ]
+      ],
+      "refusal_scope": "contact"
+    },
+    "expect_route": "R01",
+    "expect_action": "stop"
+  },
+  {
+    "id": "T143",
+    "context": "虚构场景：双方已把参观时间和入口说定，对方回最后的确认",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "function": "closing",
+      "goal": "invite",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R09C",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T144",
+    "context": "虚构场景：已落实安排的封闭确认即使归在安排话题也不用再问",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "function": "logistics",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R09C",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T145",
+    "context": "虚构场景：只答应活动，集合入口确实没定",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "function": "logistics",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R09",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T146",
+    "context": "虚构场景：安排虽已定，她现在问展馆入口是否有台阶",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "function": "question",
+      "goal": "invite"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T147",
+    "context": "虚构场景：安排已定，现场集合位置有新信息需要回应",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "function": "logistics"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T148",
+    "context": "虚构场景：她明确说查过排班后会来告知，日期仍悬着",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "will_update",
+      "function": "logistics",
+      "goal": "invite"
+    },
+    "expect_route": "R10W",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T149",
+    "context": "虚构场景：推迟只说改天，没有承诺谁会来更新",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "goal": "invite"
+    },
+    "expect_route": "R10",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T150",
+    "context": "虚构场景：她说会来确认，用户已经应过，身后无新回复",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "invitation": "will_update",
+      "function": "logistics"
+    },
+    "expect_route": "R04",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T151",
+    "context": "虚构场景：她说过会来确认，今天先分享自己拼好的模型",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "will_update",
+      "function": "sharing",
+      "goal": "invite"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T152",
+    "context": "虚构场景：曾说会来确认，现在她主动给了具体的替代时间",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "alternative",
+      "function": "logistics"
+    },
+    "expect_route": "R08",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T153",
+    "context": "虚构场景：告别已经互相说过，最后一条纯属收尾",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "closing",
+      "goal": "invite",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R13C",
+    "expect_action": "hold"
+  },
+  {
+    "id": "T154",
+    "context": "虚构场景：对方在收尾时明确求一个办法，仍需回应所求",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "closing",
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T155",
+    "context": "虚构场景：曾答应活动，这轮分享自己的新作品，没有在确认集合",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "function": "sharing",
+      "goal": "invite"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T156",
+    "context": "虚构场景：有旧活动拒绝和新安排，眼下分享的内容与两者都无关",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "accepted",
+      "function": "sharing",
+      "refusal_scope": "activity"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft"
+  },
+  {
+    "id": "T157",
+    "context": "虚构场景：范围冲突会影响按约行动，不能把已定标记当作新同意",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "function": "logistics",
+      "refusal_scope": "activity",
+      "closed_answer_complete": true
+    },
+    "expect_route": "R00S",
+    "expect_action": "clarify"
+  },
+  {
+    "id": "T158",
+    "context": "虚构场景：先前说等她确定，双方随后都确认到此收尾",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "will_update",
+      "function": "closing"
+    },
+    "expect_route": "R13C",
+    "expect_action": "hold"
   }
 ]
