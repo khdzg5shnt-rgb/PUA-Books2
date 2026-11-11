@@ -160,9 +160,9 @@
       "reading_status": "provided_file_text_partial",
       "local_entry": "knowledge/books/B014.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B014_ch08_ch09_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B014_ch10_ch11_reading_2026-11-11.json",
       "original_publication_complete": false,
-      "coverage_mode": "direct_ordered_current_extractable_text_through_ch09_with_selected_visual_review"
+      "coverage_mode": "direct_ordered_current_extractable_text_through_ch11_with_selected_visual_review"
     },
     {
       "id": "B015",
@@ -1532,9 +1532,9 @@
     "file_pages": 1002,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage554start;Chapter10;continuecurrentextractionat1047759;notoldhistoricalcoordinates",
-    "next_file_page": 554,
-    "next_character": 1047759,
+    "start": "physicalpage678start;Chapter12;continuecurrentextractionat1289404;notoldhistoricalcoordinates",
+    "next_file_page": 678,
+    "next_character": 1289404,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
       "characters": 1991387,
@@ -1542,7 +1542,7 @@
       "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
     },
     "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
-    "ledger": "knowledge/provenance/B014_ch08_ch09_reading_2026-11-11.json",
-    "next_content_unit": "Chapter10: Aggression and Warfare"
+    "ledger": "knowledge/provenance/B014_ch10_ch11_reading_2026-11-11.json",
+    "next_content_unit": "Chapter12: Status, Prestige, and Social Dominance"
   }
 }

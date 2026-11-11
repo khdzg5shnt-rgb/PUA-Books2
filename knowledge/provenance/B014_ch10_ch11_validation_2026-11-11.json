@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "started_at": "2026-11-11T09:45:10.127969+00:00",
+      "finished_at": "2026-11-11T09:45:10.289528+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 96,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "started_at": "2026-11-11T09:45:23.017949+00:00",
+      "finished_at": "2026-11-11T09:45:24.392242+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.297s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
+    "source_records": 158,
+    "external_archived_files": 44,
+    "book_files_text_complete": 22,
+    "book_files_text_partial": 1,
+    "book_files_not_started": 96,
+    "new_whole_book_files_completed": 0,
+    "new_direct_text_characters": 241645,
+    "new_contiguous_read_chunks": 15,
+    "new_physical_pages": 124,
+    "B014_cumulative_pages": 677,
+    "new_visual_pages": 60,
+    "new_detailed_visual_pages": 18,
+    "cumulative_visual_pages": 264,
+    "cumulative_detailed_visual_pages": 74,
+    "new_unreviewed_layout_pages": 64,
+    "cumulative_unreviewed_read_text_layout_pages": 413,
+    "unread_pages": 325,
+    "new_embedded_image_pages": 15,
+    "cumulative_embedded_image_pages": 83,
+    "visual_elements": 13,
+    "specific_source_checks": 16,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "preferred_complete_sections": 26,
+    "new_source_bindings": 4,
+    "synthetic_scenarios": 108,
+    "changed_files": 19,
+    "new_files": 5,
+    "changed_markdown_files": 12,
+    "local_links_checked": 607,
+    "local_anchors_checked": 0,
+    "next_file_page": 678,
+    "next_character": 1289404,
+    "raw_sources_scripts_tests_routes_and_preferred_map_unchanged": true,
+    "private_material_imported": false
+  },
+  "test_count": 29,
+  "invocation_correction": {
+    "first_attempt": {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "started_at": "2026-11-11T09:45:10.121522+00:00",
+      "finished_at": "2026-11-11T09:45:10.205141+00:00",
+      "exit_code": 5,
+      "stdout": "",
+      "stderr": "\n----------------------------------------------------------------------\nRan 0 tests in 0.000s\n\nNO TESTS RAN\n"
+    },
+    "cause": "Wrapper split retained literal quote characters in test pattern, so no tests matched; corrected argv above ran29tests. Not counted as a passing test run."
+  },
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "Checks cover source identity, contiguous reading coordinates, selected visual inventory, internal links and synthetic routing; not complete edition authentication, current science/crime/clinical/legal review, real screenshot recognition or dating outcomes."
+}
