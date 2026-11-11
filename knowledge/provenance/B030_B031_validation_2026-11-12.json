@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "checks_passed",
+  "baseline_main": "7bc1d7afea263e0449d9b5db2e1b8516ed8047b2",
+  "required_checks": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "ok": true,
+      "methods": 26,
+      "routes": 32,
+      "task_modes": 5,
+      "preferred_sections": 26,
+      "source_records": 158,
+      "archived_files": 44,
+      "book_text_complete": 32,
+      "book_not_started": 84
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "unittest_methods": 39,
+      "synthetic_routing_scenarios": 132,
+      "result": "OK"
+    }
+  ],
+  "scope_check": {
+    "ok": true,
+    "baseline_main": "7bc1d7afea263e0449d9b5db2e1b8516ed8047b2",
+    "changed_existing_files": 11,
+    "new_files": 10,
+    "local_markdown_links_checked": 272,
+    "new_file_text_complete": [
+      "B030",
+      "B031"
+    ],
+    "current_extraction_characters_read": 54945,
+    "main_body_characters_read": 52354,
+    "separate_footer_cache_characters": 4,
+    "actual_read_chunks": 9,
+    "B030_main_paragraphs": 753,
+    "B030_footer_paragraphs": 1,
+    "B030_auxiliary_render_pages": 77,
+    "B030_selected_auxiliary_views": [
+      1,
+      39,
+      77
+    ],
+    "DOC_original_pagination_unverified": true,
+    "B031_spine_items": 36,
+    "B031_rule_chapters": 33,
+    "B031_empty_final_item_verified": true,
+    "B031_B025_chapter_structure_mapped": 33,
+    "new_independent_original_work_count_not_inferred_from_file_count": true,
+    "new_source_bindings": 9,
+    "retrieval_methods": [
+      "M25",
+      "M23",
+      "M21",
+      "M08",
+      "M11",
+      "M10",
+      "M14",
+      "M01"
+    ],
+    "preferred_sections_complete": true,
+    "preferred_excerpt_characters": {
+      "M25": 118,
+      "M23": 479,
+      "M21": 251,
+      "M08": 321,
+      "M11": 444,
+      "M10": 280,
+      "M14": 106,
+      "M01": 481
+    },
+    "focused_source_from_new_B030_note_verified_without_changing_M14": true,
+    "book_text_complete": 32,
+    "book_text_partial": 3,
+    "book_not_started": 84,
+    "source_records": 158,
+    "reading_resumed": true,
+    "next_book": "B032",
+    "next_spine_index": 1,
+    "next_file_page": null,
+    "next_character": 0,
+    "original126_identities_historical_extraction_and_old_ledgers_preserved": true,
+    "B014_B015_B017_gaps_and_support_item_states_preserved": true,
+    "OS_maintenance_scripts_tests_routes_tasks_methods_operations_and_preferred_mapping_unchanged": true,
+    "new_private_case_summaries": 0,
+    "new_raw_source_converted_files_render_images_or_models_archived": false,
+    "new_original_research_full_texts": 0,
+    "new_original_videos": 0,
+    "new_source_head_checks": 0,
+    "new_blind_visual_tests": 0,
+    "scope": "Current file text coverage via literal DOC conversion and OPF body text; auxiliary renders selected only. No claim of full original books,verbatim version equivalence,independent mechanism evidence,clinical validation or dating outcomes."
+  },
+  "limits": "Current-file DOC-converted and EPUB reading coordinates and source integration only; no original edition,verbatim version equivalence,medical mechanism,real screenshot or dating outcome validation."
+}

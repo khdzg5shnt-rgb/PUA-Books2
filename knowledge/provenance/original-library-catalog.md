@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：30/119，3份部分、86份未开始。B023–B025当前467页文字已读，18个独立图像及21个选定全页已核；全部版式、译文、原版与效果另计。B014文后138页、B015图像排除、B017私人图像与细标签缺口保留；此前完成项保留。下一B030《指男针》DOC开头，中间支持文件状态另计，历史记录继续保留。
+当前现有书籍文件文字覆盖完成：32/119，3份部分、84份未开始。B030摘编DOC与B031 EPUB当前文字已读；前者不等于36章原著，后者与B025高度对应，不增加独立理论数。B014/B015/B017缺口和A026–A029状态保留。下一B032第一阅读顺序项，历史记录继续保留。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -42,8 +42,8 @@
 | B023 | [Secrets of Speed Seduction Mastery (Ross Jeffries) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Secrets%20of%20Speed%20Seduction%20Mastery%20%28Ross%20Jeffries%29%20.pdf) | 207 | 当前207页文字完成；独立图像已核，原版与全部版式未验证 | [笔记](../books/B023.md) |
 | B024 | [The 4 Elements of Game - Rob Judge & Zack Bauer.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/The%204%20Elements%20of%20Game%20-%20Rob%20Judge%20%26%20Zack%20Bauer.pdf) | 174 | 当前174页文字完成；独立图像已核，原版与全部版式未验证 | [笔记](../books/B024.md) |
 | B025 | [alpha阿尔法吸引——把妹制胜的33条规则 - Steve Scott.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/alpha%E9%98%BF%E5%B0%94%E6%B3%95%E5%90%B8%E5%BC%95%E2%80%94%E2%80%94%E6%8A%8A%E5%A6%B9%E5%88%B6%E8%83%9C%E7%9A%8433%E6%9D%A1%E8%A7%84%E5%88%99%20-%20Steve%20Scott.pdf) | 86 | 当前86页文字完成；独立图像已核，原版与全部版式未验证 | [笔记](../books/B025.md) |
-| B030 | [《指男针》(根据国情而出的强书).doc](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E3%80%8A%E6%8C%87%E7%94%B7%E9%92%88%E3%80%8B%28%E6%A0%B9%E6%8D%AE%E5%9B%BD%E6%83%85%E8%80%8C%E5%87%BA%E7%9A%84%E5%BC%BA%E4%B9%A6%29.doc) | — | 已提取/未读 | — |
-| B031 | [三十三条雄性领袖法诱惑美女法则 - 史蒂夫·斯科特.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%89%E5%8D%81%E4%B8%89%E6%9D%A1%E9%9B%84%E6%80%A7%E9%A2%86%E8%A2%96%E6%B3%95%E8%AF%B1%E6%83%91%E7%BE%8E%E5%A5%B3%E6%B3%95%E5%88%99%20-%20%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9.epub) | 36 | 已提取/未读 | — |
+| B030 | [《指男针》(根据国情而出的强书).doc](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E3%80%8A%E6%8C%87%E7%94%B7%E9%92%88%E3%80%8B%28%E6%A0%B9%E6%8D%AE%E5%9B%BD%E6%83%85%E8%80%8C%E5%87%BA%E7%9A%84%E5%BC%BA%E4%B9%A6%29.doc) | [笔记](../books/B030.md) | 当前摘编DOC文字完成；36章目录不计原著全文 | [笔记](../books/B030.md) |
+| B031 | [三十三条雄性领袖法诱惑美女法则 - 史蒂夫·斯科特.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%89%E5%8D%81%E4%B8%89%E6%9D%A1%E9%9B%84%E6%80%A7%E9%A2%86%E8%A2%96%E6%B3%95%E8%AF%B1%E6%83%91%E7%BE%8E%E5%A5%B3%E6%B3%95%E5%88%99%20-%20%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9.epub) | 36 | 当前36顺序项文字完成；与B025对应版本，非独立新理论 | [笔记](../books/B031.md) |
 | B032 | [中国把妹达人 - 浪迹.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%AD%E5%9B%BD%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%20-%20%E6%B5%AA%E8%BF%B9.epub) | 58 | 已提取/未读 | — |
 | B033 | [五步陷阱 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 11 | 已提取/未读 | — |
 | B034 | [五步陷阱技术深度解剖 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%89%96%20-%20Jacob.pdf) | 104 | 已提取/未读 | — |
@@ -203,3 +203,5 @@
 2026-11-11新增：[B022报告](B022_progress_2026-11-11.md)。原生文字82784字符、七章与后记已读，图像OCR另行核读，全部短文字页全页目读；下一B023第1页。先前日期条目保留历史进度。
 
 2026-11-12新增：[B023–B025报告](B023_B025_progress_2026-11-12.md)。三份当前文件467页、722696提取字符、49块已读；12组审阅与16条方法出处已整理。书库30/119份现有文字完成；下一B030文档开头，A026–A029支持文件不算新读书。此前日期条目保留历史进度。
+
+2026-11-12恢复阅读：[B030–B031报告](B030_B031_progress_2026-11-12.md)。两份当前文件54945提取字符、九块读完；B030摘编和B031对应版本分别计范围。当前32/119，下一B032；旧阅读和系统维护不重复计数。

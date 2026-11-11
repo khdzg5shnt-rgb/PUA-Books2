@@ -1444,8 +1444,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E3%80%8A%E6%8C%87%E7%94%B7%E9%92%88%E3%80%8B%28%E6%A0%B9%E6%8D%AE%E5%9B%BD%E6%83%85%E8%80%8C%E5%87%BA%E7%9A%84%E5%BC%BA%E4%B9%A6%29.doc",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B030.md",
       "pages": null,
       "spine_items": null,
       "ocr": {
@@ -1453,7 +1453,33 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B030_B031_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B030_B031_reading_2026-11-12.json",
+        "source_sha256": "bc2d4e71067504cbd647f1ed503c02c0d4dd7fcf3338e473ad4b8e9da78023ab",
+        "current_extraction": {
+          "method": "LibreOffice headless DOC to DOCX; literal w:t,w:tab,w:br text in paragraph order; named part headers and paragraph newlines",
+          "characters": 26939,
+          "sha256": "2857cbe7ee088d695100f8b95c7ca09e599e3fd560b8174d9040afc1afe4e5ed",
+          "coordinates": "Unicode code points; half-open ranges; converted OOXML paragraph IDs, not original file pages"
+        },
+        "read_range": [
+          0,
+          26939
+        ],
+        "entire_current_file_text_read": true,
+        "coverage_mode": "current_DOC_converted_main_story_and_footer_text_complete_original_book_and_layout_limits_retained",
+        "all_page_layouts_reviewed": false,
+        "technical_procedures_validated": false,
+        "original_publication_complete": false,
+        "next_file_page": null,
+        "next_character": null,
+        "unread_characters": 0,
+        "paragraphs_read": 754,
+        "spine_items_read": null
+      }
     },
     {
       "index": 31,
@@ -1468,8 +1494,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%B8%89%E5%8D%81%E4%B8%89%E6%9D%A1%E9%9B%84%E6%80%A7%E9%A2%86%E8%A2%96%E6%B3%95%E8%AF%B1%E6%83%91%E7%BE%8E%E5%A5%B3%E6%B3%95%E5%88%99%20-%20%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B031.md",
       "pages": null,
       "spine_items": 36,
       "ocr": {
@@ -1477,7 +1503,33 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B030_B031_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B030_B031_reading_2026-11-12.json",
+        "source_sha256": "6186a648bf23d9957db7d41f69b444734982752725c2cb33b0cd3abade90a967",
+        "current_extraction": {
+          "method": "OPF spine order; literal XHTML body text blocks; explicit empty items; spine/path markers",
+          "characters": 28006,
+          "sha256": "deebe1bf6a9b9bd0b10f7472799645158f37d004c0d177cb385366ef32129bce",
+          "coordinates": "Unicode code points; half-open ranges; EPUB spine item IDs, not pages"
+        },
+        "read_range": [
+          0,
+          28006
+        ],
+        "entire_current_file_text_read": true,
+        "coverage_mode": "current_EPUB36spine_text_complete_related_B025_version_separately_reviewed_not_an_independent_new_work",
+        "all_page_layouts_reviewed": false,
+        "technical_procedures_validated": false,
+        "original_publication_complete": false,
+        "next_file_page": null,
+        "next_character": null,
+        "unread_characters": 0,
+        "paragraphs_read": null,
+        "spine_items_read": 36
+      }
     },
     {
       "index": 32,
