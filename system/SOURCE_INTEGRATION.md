@@ -1,9 +1,9 @@
 # 唯一来源入口
 
-截至2026-11-11，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
+截至2026-11-12，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B022](../knowledge/books/B022.md)134页原生文字82784字符读完，另核读图像OCR，88个含图页分型、31页全页目读覆盖全部短文字页。新增七章取舍与版本图像四组审阅；M08/M22/M23补来源，操作与首选段落保留。书库27份现有文字完成、3份部分、89份未开始；TOP30仍30/30，来源158条。下一B023第1页；B014/B015/B017缺口保留。[报告](../knowledge/provenance/B022_progress_2026-11-11.md)。
+2026-11-12：[B023](../knowledge/books/B023.md)、[B024](../knowledge/books/B024.md)、[B025](../knowledge/books/B025.md)三份当前文件共467页、722696提取字符读完，图像按18个独立资产与21个选定全页分别核读；不是全页版式或效果验证。新增12组原创审阅、16条批判性方法出处，操作和首选段落保留。书库30份现有文字完成、3份部分、86份未开始；TOP30仍30/30，来源158条。下一B030《指男针》DOC开头；A026–A029支持文件状态与B014/B015/B017缺口保留。[报告](../knowledge/provenance/B023_B025_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -72,7 +72,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍文件及7项支持材料。当前27份现有文字完成、3份部分、89份未开始；B014/B015/B017缺口和B023第1页断点见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；提取、OCR、目录和转引不计完整阅读。
+[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍文件及7项支持材料。当前30份现有文字完成、3份部分、86份未开始；B014/B015/B017缺口和B030文档开头断点见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；提取、OCR、目录和转引不计完整阅读。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

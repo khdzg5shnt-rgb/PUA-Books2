@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "records": [
     {
       "id": "A001",
@@ -262,27 +262,36 @@
       "group": "books2_original_snapshot",
       "title": "Secrets of Speed Seduction Mastery (Ross Jeffries) .pdf",
       "git_blob_sha": "77e95d76e57050671ccaabcff318a67e52f527ed",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B023.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B023_B025_reading_2026-11-12.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current_file_native_text_complete_unique_embedded_assets_reviewed_selected_layouts_only_original_edition_unverified"
     },
     {
       "id": "B024",
       "group": "books2_original_snapshot",
       "title": "The 4 Elements of Game - Rob Judge & Zack Bauer.pdf",
       "git_blob_sha": "a5d1e7b291d84a6910fa50d93f52a979b2fdba50",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B024.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B023_B025_reading_2026-11-12.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current_file_native_text_complete_unique_embedded_assets_reviewed_selected_layouts_only_original_edition_unverified"
     },
     {
       "id": "B025",
       "group": "books2_original_snapshot",
       "title": "alpha阿尔法吸引——把妹制胜的33条规则 - Steve Scott.pdf",
       "git_blob_sha": "0813ce17403d5dcfae242172408bde76401f44c7",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B025.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B023_B025_reading_2026-11-12.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current_file_native_text_complete_unique_embedded_assets_reviewed_selected_layouts_only_original_edition_unverified"
     },
     {
       "id": "A026",
@@ -1539,27 +1548,27 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 27,
+    "current_book_files_text_complete": 30,
     "current_book_files_text_partial": 3,
-    "current_book_files_not_started": 89
+    "current_book_files_not_started": 86
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B023",
-    "path": "Secrets of Speed Seduction Mastery (Ross Jeffries) .pdf",
-    "git_blob_sha": "77e95d76e57050671ccaabcff318a67e52f527ed",
-    "bytes": 1339890,
+    "id": "B030",
+    "path": "《指男针》(根据国情而出的强书).doc",
+    "git_blob_sha": "6cd1abb2bfecfc87d444937fd1cf2e783a0aa517",
+    "bytes": 137736,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 207,
-    "start": "physicalpage1; verify binary,current extraction and image/privacy scope before reading",
-    "next_file_page": 1,
+    "file_pages": null,
+    "start": "document_start; verify DOC binary,current extraction and image/privacy scope before reading",
+    "next_file_page": null,
     "next_character": 0,
     "current_extraction_identity": null,
-    "next_content_unit": "B023 current PDF from title and front matter; historical extraction is not reading completion",
-    "ledger": "knowledge/provenance/B022_reading_2026-11-11.json",
-    "historical_extraction_characters": 349855,
+    "next_content_unit": "B030 current DOC from document start; physical pagination is not yet established",
+    "ledger": "knowledge/provenance/B023_B025_reading_2026-11-12.json",
+    "historical_extraction_characters": 26880,
     "historical_ocr_processed_pages": 0
   },
   "deferred_work_units": [
