@@ -902,8 +902,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Mgtow%20Building%20Wealth%20and%20Power%20For%20Single%20Men%20Only%20%28Tim%20Patten%29.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B019.md",
       "pages": 150,
       "spine_items": null,
       "ocr": {
@@ -911,7 +911,45 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B019_reading_2026-11-11.json",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B019_reading_2026-11-11.json",
+        "pdf_sha256": "fd60797682bfccc5b6b0f478b8812858df606e223ad2c1a4cd20bfe95047d557",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+          "characters": 280293,
+          "sha256": "640f3f534afef39b6d61c68361f829584b5fa4cf223c96509b31c811437848fe",
+          "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+        },
+        "read_range": [
+          0,
+          280293
+        ],
+        "read_file_page_ranges": [
+          [
+            1,
+            150
+          ]
+        ],
+        "entire_current_file_text_read": true,
+        "coverage_mode": "all_current_extractable_text_with_selected_layout_reviews",
+        "selected_visual_pages_reviewed": [
+          1,
+          4,
+          67,
+          114,
+          115,
+          149,
+          150
+        ],
+        "embedded_image_objects": 0,
+        "original_publication_complete": false,
+        "next_file_page": null,
+        "next_character": null,
+        "unread_characters": 0
+      }
     },
     {
       "index": 20,

@@ -217,9 +217,12 @@
       "group": "books2_original_snapshot",
       "title": "Mgtow Building Wealth and Power For Single Men Only (Tim Patten).pdf",
       "git_blob_sha": "0c024f302304c733829890192ac7d20a9d2a84a4",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B019.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B019_reading_2026-11-11.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current_pdf150pages_all_extractable_text_read_7_selected_layouts_no_embedded_images_original_edition_and_citations_unverified"
     },
     {
       "id": "B020",
@@ -1530,26 +1533,26 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 24,
+    "current_book_files_text_complete": 25,
     "current_book_files_text_partial": 3,
-    "current_book_files_not_started": 92
+    "current_book_files_not_started": 91
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B019",
-    "path": "Mgtow Building Wealth and Power For Single Men Only (Tim Patten).pdf",
-    "git_blob_sha": "0c024f302304c733829890192ac7d20a9d2a84a4",
-    "bytes": 1137116,
+    "id": "B020",
+    "path": "PUA玩家手册（完整版）- 康纳.pdf",
+    "git_blob_sha": "8de2eb9126f62f2a9a4df28fac818d5cfa322058",
+    "bytes": 1187416,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 150,
-    "start": "physicalpage1; unread current file; verify binary and current extraction identity before reading",
+    "file_pages": 46,
+    "start": "physicalpage1; verify binary and current extraction identity before reading",
     "next_file_page": 1,
     "next_character": 0,
     "current_extraction_identity": null,
-    "next_content_unit": "B019 current PDF from title/front matter; no current extraction coordinates verified yet",
-    "ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json"
+    "next_content_unit": "B020 current provided PDF from title/front matter; filename completeness is not verified original completeness",
+    "ledger": "knowledge/provenance/B019_reading_2026-11-11.json"
   },
   "deferred_work_units": [
     {
