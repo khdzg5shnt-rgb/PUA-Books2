@@ -2,14 +2,14 @@
   "schema_version": 1,
   "updated": "2026-11-11",
   "current_focus": "original_book_reading",
-  "status": "B014_ch10_ch11_checks_passed",
-  "base_commit": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
+  "status": "B014_ch12_ch13_checks_passed",
+  "base_commit": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B014_ch10_ch11_completion_2026-11-11.md",
-  "validation": "knowledge/provenance/B014_ch10_ch11_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B014_ch12_ch13_completion_2026-11-11.md",
+  "validation": "knowledge/provenance/B014_ch12_ch13_validation_2026-11-11.json",
   "reading_bookmark": {
     "id": "B014",
     "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
@@ -18,9 +18,9 @@
     "file_pages": 1002,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage678start;Chapter12;continuecurrentextractionat1289404;notoldhistoricalcoordinates",
-    "next_file_page": 678,
-    "next_character": 1289404,
+    "start": "physicalpage813start;Bibliography;continuecurrentextractionat1575532;notoldhistoricalcoordinates",
+    "next_file_page": 813,
+    "next_character": 1575532,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
       "characters": 1991387,
@@ -28,11 +28,41 @@
       "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
     },
     "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
-    "ledger": "knowledge/provenance/B014_ch10_ch11_reading_2026-11-11.json",
-    "next_content_unit": "Chapter12: Status, Prestige, and Social Dominance"
+    "ledger": "knowledge/provenance/B014_ch12_ch13_reading_2026-11-11.json",
+    "next_content_unit": "Bibliography, followed by text/photo credits and index"
   },
-  "next_work": "Resume B014 Chapter12 at physicalpage678/currentextraction1289404;later325pagesunread;verify sameblobandhash.",
+  "next_work": "Resume B014 Bibliography at physicalpage813/currentextraction1575532;all13chaptertexts_read;later190backmatterpagesunread;verify sameblobandhash.",
   "current_session_progress": {
+    "baseline": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
+    "text_complete_file_ids": [],
+    "text_partial_file_ids": [
+      "B014"
+    ],
+    "direct_primary_extraction_characters": 286128,
+    "physical_file_pages": 135,
+    "selected_visual_page_reviews": 78,
+    "remaining_unreviewed_layout_pages_within_new_read_text": 57,
+    "B014_cumulative_read_file_pages": 812,
+    "B014_cumulative_direct_read_characters": 1575532,
+    "B014_cumulative_visual_pages": 342,
+    "B014_unread_file_pages": 190,
+    "B014_all13chapter_texts_and_chapter_end_materials_read": true,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "source_checks": 18,
+    "new_method_source_bindings": 4,
+    "external_authoritative_webpages_checked": 2,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "scope": true
+    }
+  },
+  "last_reading_progress": {
     "baseline": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
@@ -51,34 +81,6 @@
     "task_modes": 5,
     "source_checks": 16,
     "new_method_source_bindings": 4,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
-    "checks": {
-      "structural": true,
-      "unittest_methods": 29,
-      "synthetic_routing_scenarios": 108,
-      "scope": true
-    }
-  },
-  "last_reading_progress": {
-    "baseline": "0c597d21e6557d5f629a24c79a54da7c2106b4be",
-    "text_complete_file_ids": [],
-    "text_partial_file_ids": [
-      "B014"
-    ],
-    "direct_primary_extraction_characters": 222854,
-    "physical_file_pages": 109,
-    "selected_visual_page_reviews": 48,
-    "remaining_unreviewed_layout_pages_within_new_read_text": 61,
-    "B014_cumulative_read_file_pages": 553,
-    "B014_cumulative_direct_read_characters": 1047759,
-    "B014_cumulative_visual_pages": 204,
-    "B014_unread_file_pages": 449,
-    "methods": 26,
-    "routes": 31,
-    "task_modes": 5,
-    "source_checks": 12,
-    "new_method_source_bindings": 2,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "checks": {
@@ -107,24 +109,24 @@
     }
   },
   "earlier_reading_progress": {
-    "baseline": "30a76532ed31930781edc01b9223ec1a79918d3a",
+    "baseline": "0c597d21e6557d5f629a24c79a54da7c2106b4be",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
       "B014"
     ],
-    "direct_primary_extraction_characters": 214526,
-    "physical_file_pages": 112,
-    "selected_visual_page_reviews": 54,
-    "remaining_unreviewed_layout_pages_within_new_read_text": 58,
-    "B014_cumulative_read_file_pages": 444,
-    "B014_cumulative_direct_read_characters": 824905,
-    "B014_cumulative_visual_pages": 156,
-    "B014_unread_file_pages": 558,
+    "direct_primary_extraction_characters": 222854,
+    "physical_file_pages": 109,
+    "selected_visual_page_reviews": 48,
+    "remaining_unreviewed_layout_pages_within_new_read_text": 61,
+    "B014_cumulative_read_file_pages": 553,
+    "B014_cumulative_direct_read_characters": 1047759,
+    "B014_cumulative_visual_pages": 204,
+    "B014_unread_file_pages": 449,
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "source_checks": 10,
-    "new_method_source_bindings": 3,
+    "source_checks": 12,
+    "new_method_source_bindings": 2,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "checks": {
@@ -221,6 +223,34 @@
       "task_modes": 5,
       "source_checks": 8,
       "new_method_source_bindings": 4,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "scope": true
+      }
+    },
+    {
+      "baseline": "30a76532ed31930781edc01b9223ec1a79918d3a",
+      "text_complete_file_ids": [],
+      "text_partial_file_ids": [
+        "B014"
+      ],
+      "direct_primary_extraction_characters": 214526,
+      "physical_file_pages": 112,
+      "selected_visual_page_reviews": 54,
+      "remaining_unreviewed_layout_pages_within_new_read_text": 58,
+      "B014_cumulative_read_file_pages": 444,
+      "B014_cumulative_direct_read_characters": 824905,
+      "B014_cumulative_visual_pages": 156,
+      "B014_unread_file_pages": 558,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "source_checks": 10,
+      "new_method_source_bindings": 3,
       "new_full_original_research_papers_completed": 0,
       "new_original_videos_completed": 0,
       "checks": {
