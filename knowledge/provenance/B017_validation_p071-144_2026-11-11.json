@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "156f61f8d96687a740d06d65f89599c4cf2a2603",
+  "status": "checks_passed",
+  "reading_ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json",
+  "checks": [
+    {
+      "name": "structure",
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 23,\n  \"book_not_started\": 93,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "tests",
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.454s\n\nOK\n"
+    },
+    {
+      "name": "scope",
+      "command": "scratch scope verification against round7_before",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"baseline_main\": \"156f61f8d96687a740d06d65f89599c4cf2a2603\",\n  \"changed_existing_files\": 13,\n  \"new_files\": 6,\n  \"local_links_in_changed_markdown_checked\": 247,\n  \"new_direct_read_characters\": 91762,\n  \"B017_cumulative_characters_read\": 167534,\n  \"B017_remaining_characters\": 72903,\n  \"B017_read_file_pages\": 144,\n  \"B017_new_file_pages_read\": 74,\n  \"B017_unread_file_pages\": 77,\n  \"B017_next_page\": 145,\n  \"B017_next_character\": 167534,\n  \"new_selected_visual_page_reviews\": 9,\n  \"cumulative_selected_visual_page_reviews\": 13,\n  \"image_pages_with_retained_label_gaps\": [\n    68,\n    105,\n    112,\n    124\n  ],\n  \"unreviewed_image_pages_within_read_text\": 14,\n  \"other_image_pages_not_visually_reviewed\": 31,\n  \"source_records\": 158,\n  \"book_text_complete\": 23,\n  \"book_text_partial\": 3,\n  \"book_not_started\": 93,\n  \"new_book_files_started\": [],\n  \"new_whole_book_files_text_completed\": 0,\n  \"new_method_source_bindings\": 2,\n  \"changed_preferred_sections\": [],\n  \"updated_preferred_section_contents\": [\n    \"M08\"\n  ],\n  \"new_lookup_aliases\": [\n    \"宏观理论\",\n    \"性别宿命\",\n    \"心理标签\"\n  ],\n  \"preferred_excerpt_complete\": true,\n  \"preferred_excerpt_characters\": 321,\n  \"existing_scripts_routes_task_contracts_tests_visual_examples_and_prior_notes_unchanged\": true,\n  \"original_file_identity_records_unchanged\": true,\n  \"B014_B015_gaps_and_exclusions_unchanged\": true,\n  \"new_source_head_checks\": 0,\n  \"new_full_original_research_papers_completed\": 0,\n  \"new_original_videos_completed\": 0,\n  \"new_synthetic_scenarios\": 0,\n  \"blind_visual_tests\": 0,\n  \"private_material_imported_or_summarized\": false\n}\n"
+    },
+    {
+      "name": "search",
+      "command": "python scripts/search_knowledge.py '性别宿命'",
+      "exit_code": 0,
+      "output": "search exit 0\n[\n  {\n    \"path\": \"knowledge/topics/observations-and-explanations.md\",\n    \"title\": \"观察：事实与解释分开\",\n    \"heading\": \"先记行为，原因不足留未知\",\n    \"line\": 5,\n    \"end_line\": 12,\n    \"snippet\": \"\\n描述她实际说过或做过的具体偏好、行为与状态；需要推测时留出纠正空间，她否认就更新。看似具体不等于已经证实，不用性别、职业、头像或宏观理论补齐动机、人格、过去经历与同意。事实不足就正常承接或回答，不故意猜错来套取信息。\\n\\n原因未明时，先核对方行为、当时处境、平台规则与记录缺口，不自动归责用户，也不把未知改写成对方有恶意。已发生的具体越界足以表达限制，无需先证明其内心；同样，一次慢回、短答或拒绝不能解释整个人。\\n\\n先把“测试、控制、慕强”等标签还原为具体原话与行为；有几种解释时\",\n    \"method_ids\": [\n      \"M08\"\n    ]\n  },\n  {\n    \"path\": \"knowledge/books/B017.md\",\n    \"title\": \"B017｜MGTOW核心理论文集：文件页1–144文字已读\",\n    \"heading\": \"接入系统\",\n    \"line\": 28,\n    \"end_line\": 32,\n    \"snippet\": \"实际不公平可以直接表达边界，不必先证明对方内心；也不以性别宿命、信仰或政治标签替对象补动机。自己的自主不取消别人的自主，读过资料不等于采用其动员或行动要求。没有新增经验证的恋爱策略、整份书籍完成、研究全文或原视频完成。此前B016全文成果及B014/B015缺口保留。\",\n    \"method_ids\": []\n  }\n]\n\n\n"
+    }
+  ],
+  "scope_result": {
+    "ok": true,
+    "baseline_main": "156f61f8d96687a740d06d65f89599c4cf2a2603",
+    "changed_existing_files": 13,
+    "new_files": 6,
+    "local_links_in_changed_markdown_checked": 247,
+    "new_direct_read_characters": 91762,
+    "B017_cumulative_characters_read": 167534,
+    "B017_remaining_characters": 72903,
+    "B017_read_file_pages": 144,
+    "B017_new_file_pages_read": 74,
+    "B017_unread_file_pages": 77,
+    "B017_next_page": 145,
+    "B017_next_character": 167534,
+    "new_selected_visual_page_reviews": 9,
+    "cumulative_selected_visual_page_reviews": 13,
+    "image_pages_with_retained_label_gaps": [
+      68,
+      105,
+      112,
+      124
+    ],
+    "unreviewed_image_pages_within_read_text": 14,
+    "other_image_pages_not_visually_reviewed": 31,
+    "source_records": 158,
+    "book_text_complete": 23,
+    "book_text_partial": 3,
+    "book_not_started": 93,
+    "new_book_files_started": [],
+    "new_whole_book_files_text_completed": 0,
+    "new_method_source_bindings": 2,
+    "changed_preferred_sections": [],
+    "updated_preferred_section_contents": [
+      "M08"
+    ],
+    "new_lookup_aliases": [
+      "宏观理论",
+      "性别宿命",
+      "心理标签"
+    ],
+    "preferred_excerpt_complete": true,
+    "preferred_excerpt_characters": 321,
+    "existing_scripts_routes_task_contracts_tests_visual_examples_and_prior_notes_unchanged": true,
+    "original_file_identity_records_unchanged": true,
+    "B014_B015_gaps_and_exclusions_unchanged": true,
+    "new_source_head_checks": 0,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "new_synthetic_scenarios": 0,
+    "blind_visual_tests": 0,
+    "private_material_imported_or_summarized": false
+  },
+  "limits": [
+    "Tests validate repository structure and 108 synthetic routing scenarios, not real screenshot recognition, psychology, reply quality or relationship outcomes.",
+    "Nine source-page visual reviews are manual reading, not new blind tests. Small/obscured labels on pages68,105,112,124 and 31 unreviewed image pages remain.",
+    "No original research paper, video, additional whole book or third-party webpage was newly completed or independently verified.",
+    "Only books2 knowledge, retrieval aliases and reading metadata changed; method operations, routes, protocols and tests remain unchanged."
+  ]
+}

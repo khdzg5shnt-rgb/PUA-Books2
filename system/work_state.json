@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "B017_filepages1to70_and_observation_lookup",
-  "status": "B017_p001_070_checks_passed",
-  "base_commit": "8667597952cd5a67490a1c03d64fc3a52f403379",
+  "current_focus": "B017_filepages71to144_and_theory_evidence_lookup",
+  "status": "B017_p071_144_checks_passed",
+  "base_commit": "156f61f8d96687a740d06d65f89599c4cf2a2603",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B017_progress_2026-11-11.md",
-  "validation": "knowledge/provenance/B017_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B017_progress_p071-144_2026-11-11.md",
+  "validation": "knowledge/provenance/B017_validation_p071-144_2026-11-11.json",
   "reading_bookmark": {
     "id": "B017",
     "path": "MGTOW 核心理论文集 (米格道) .pdf",
@@ -19,45 +19,59 @@
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
-    "start": "physicalpage71start;sectionXI_red_pill_crisis_continuation;currentextraction75772",
-    "next_file_page": 71,
-    "next_character": 75772,
+    "start": "physicalpage145start;sectionXV_survival_preface_continuation;currentextraction167534",
+    "next_file_page": 145,
+    "next_character": 167534,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
       "characters": 240437,
       "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
       "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "next_content_unit": "第十一节《红丸危机》继续；第70页仅开头已读",
-    "ledger": "knowledge/provenance/B017_reading_2026-11-11.json"
+    "next_content_unit": "第十五节《求存》序言继续；第144页只读到开头",
+    "ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json"
   },
-  "next_work": "Continue B017 physical page71 / currentextraction75772; sectionXI continuation. Preserve unread151pages, figure gaps and B014/B015 exclusions.",
+  "next_work": "Continue B017 physical page145 / currentextraction167534; sectionXV preface continuation. Preserve unread77pages, remaining figure/label gaps and B014/B015 exclusions.",
   "current_session_progress": {
-    "baseline": "8667597952cd5a67490a1c03d64fc3a52f403379",
+    "baseline": "156f61f8d96687a740d06d65f89599c4cf2a2603",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
       "B014",
       "B015",
       "B017"
     ],
-    "new_book_files_started": [
-      "B017"
-    ],
-    "direct_extractable_characters": 75772,
-    "B017_new_direct_characters": 75772,
-    "B017_text_layer_pages_covered": 70,
-    "B017_unread_file_pages": 151,
-    "B017_cumulative_characters_read": 75772,
-    "B017_unread_characters": 164665,
-    "selected_visual_page_reviews": 4,
+    "new_book_files_started": [],
+    "direct_extractable_characters": 91762,
+    "B017_new_direct_characters": 91762,
+    "B017_new_text_layer_pages_covered": 74,
+    "B017_text_layer_pages_covered": 144,
+    "B017_unread_file_pages": 77,
+    "B017_cumulative_characters_read": 167534,
+    "B017_unread_characters": 72903,
+    "selected_visual_page_reviews": 9,
+    "B017_cumulative_selected_visual_pages": 13,
     "page68_small_labels_remain_unverified": true,
+    "image_pages_with_retained_label_gaps": [
+      68,
+      105,
+      112,
+      124
+    ],
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "new_method_source_bindings": 3,
-    "changed_preferred_sections": [
+    "new_method_source_bindings": 2,
+    "changed_preferred_sections": [],
+    "updated_preferred_section_contents": [
       "M08"
     ],
+    "new_lookup_aliases": {
+      "M08": [
+        "宏观理论",
+        "性别宿命",
+        "心理标签"
+      ]
+    },
     "new_whole_book_files_completed": 0,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
@@ -71,8 +85,14 @@
       ],
       "preferred_excerpt_complete": true,
       "scope": true,
-      "selected_pdf_visual_page_reviews": 4,
-      "page68_small_labels_remain_unverified": true,
+      "selected_pdf_visual_page_reviews": 9,
+      "cumulative_selected_pdf_visual_pages": 13,
+      "retained_label_gaps": [
+        68,
+        105,
+        112,
+        124
+      ],
       "blind_visual_tests": 0
     }
   },
@@ -570,6 +590,50 @@
         ],
         "scope": true,
         "controlled_synthetic_fact_to_route_examples": 3,
+        "blind_visual_tests": 0
+      }
+    },
+    {
+      "baseline": "8667597952cd5a67490a1c03d64fc3a52f403379",
+      "text_complete_file_ids": [],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B017"
+      ],
+      "direct_extractable_characters": 75772,
+      "B017_new_direct_characters": 75772,
+      "B017_text_layer_pages_covered": 70,
+      "B017_unread_file_pages": 151,
+      "B017_cumulative_characters_read": 75772,
+      "B017_unread_characters": 164665,
+      "selected_visual_page_reviews": 4,
+      "page68_small_labels_remain_unverified": true,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "new_method_source_bindings": 3,
+      "changed_preferred_sections": [
+        "M08"
+      ],
+      "new_whole_book_files_completed": 0,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "retrieval_methods": [
+          "M08"
+        ],
+        "preferred_excerpt_complete": true,
+        "scope": true,
+        "selected_pdf_visual_page_reviews": 4,
+        "page68_small_labels_remain_unverified": true,
         "blind_visual_tests": 0
       }
     }

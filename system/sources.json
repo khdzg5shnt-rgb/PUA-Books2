@@ -196,9 +196,9 @@
       "reading_status": "provided_file_text_partial",
       "local_entry": "knowledge/books/B017.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json",
       "original_publication_complete": false,
-      "coverage_mode": "current_pdf_filepages1to70_text_read_four_page_samples_with_figure_label_gaps"
+      "coverage_mode": "current_pdf_filepages1to144_text_read_13_selected_visual_reviews_with_label_gaps"
     },
     {
       "id": "B018",
@@ -1542,17 +1542,17 @@
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
-    "start": "physicalpage71start;sectionXI_red_pill_crisis_continuation;currentextraction75772",
-    "next_file_page": 71,
-    "next_character": 75772,
+    "start": "physicalpage145start;sectionXV_survival_preface_continuation;currentextraction167534",
+    "next_file_page": 145,
+    "next_character": 167534,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
       "characters": 240437,
       "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
       "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "next_content_unit": "第十一节《红丸危机》继续；第70页仅开头已读",
-    "ledger": "knowledge/provenance/B017_reading_2026-11-11.json"
+    "next_content_unit": "第十五节《求存》序言继续；第144页只读到开头",
+    "ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json"
   },
   "deferred_work_units": [
     {

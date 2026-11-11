@@ -3,7 +3,7 @@
 截至2026-11-11，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B017](../knowledge/books/B017.md)文件页1–70文字层75772字符已读，4页版面抽查，仍部分；下一第71页/字符75772。M08首选集中到[事实与解释](../knowledge/topics/observations-and-explanations.md)，M22/M24补来源，原动作和路由不变。B016全文与此前成果保留；书库23份文字完成、3份部分、93份未开始。没有新增整份文件、研究全文或原视频完成，未核观点不作当前事实。[本轮报告](../knowledge/provenance/B017_progress_2026-11-11.md)。
+2026-11-11：[B017](../knowledge/books/B017.md)新增文件页71–144文字层91762字符，累计前144页，仍部分；下一第145页/字符167534，剩77页。新增目读9个含图页面，累计13页，模糊小字与31个未目读图片页缺口保留。M08的[事实与解释](../knowledge/topics/observations-and-explanations.md)补术语、理论与证据约定，M08/M22补来源；方法操作和路由不变。书库23份文字完成、3份部分、93份未开始，来源158条。整份文件、研究全文和原视频新增完成均为0。[本轮报告](../knowledge/provenance/B017_progress_p071-144_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -72,7 +72,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍文件及7项支持材料。当前23份文字完成、3份部分、93份未开始；B014文后缺口、B015图片排除、B017第71页断点见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；目录、提取和论文摘要不计完整阅读。
+[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍文件及7项支持材料。当前23份文字完成、3份部分、93份未开始；B014文后缺口、B015图片排除、B017第145页断点见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；目录、提取和论文摘要不计完整阅读。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

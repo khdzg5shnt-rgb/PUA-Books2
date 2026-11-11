@@ -737,10 +737,10 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "unverified_original_edition_completeness",
-      "reading_ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json",
       "latest_reading": {
         "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+        "ledger": "knowledge/provenance/B017_reading_p071-144_2026-11-11.json",
         "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
         "current_extraction": {
           "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
@@ -750,26 +750,41 @@
         },
         "read_range": [
           0,
-          75772
+          167534
         ],
         "read_file_page_ranges": [
           [
             1,
-            70
+            144
           ]
         ],
         "entire_current_file_text_read": false,
         "coverage_mode": "text_layer_prefix_with_selected_visual_reviews",
-        "next_file_page": 71,
-        "next_character": 75772,
-        "unread_characters": 164665,
+        "next_file_page": 145,
+        "next_character": 167534,
+        "unread_characters": 72903,
         "selected_visual_pages_reviewed": [
           4,
           17,
           41,
-          68
+          68,
+          91,
+          103,
+          105,
+          112,
+          119,
+          124,
+          128,
+          131,
+          144
         ],
-        "page68_small_labels_remain_unverified": true
+        "page68_small_labels_remain_unverified": true,
+        "image_pages_with_retained_label_gaps": [
+          68,
+          105,
+          112,
+          124
+        ]
       }
     },
     {
