@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.6.1",
+  "version": "1.6.2",
   "methods": [
     {
       "id": "M01",
@@ -537,6 +537,11 @@
         {
           "path": "knowledge/books/B014-ch01.md",
           "locator": "不把不同层次的为什么混在一起；已读物理页38–39、49–53，不以群体解释当前动机",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B014-ch02.md",
+          "locator": "一般理论不能替具体假说作证；物理页92–104、122–138的层级、预测与证据范围",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],

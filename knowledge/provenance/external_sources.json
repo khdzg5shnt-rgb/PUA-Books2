@@ -4878,6 +4878,56 @@
         "ledger": "knowledge/provenance/B013_B014_reading_2026-11-11.json"
       },
       "python_checks": "both_required_commands_exit0;29tests;108syntheticcases"
+    },
+    {
+      "round_id": "B014-ch02-ch03-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "d2e20c6169bf28b3680e8eb1e051b6a2b99d9283",
+      "status": "integrated_checks_passed",
+      "summary_note": "knowledge/provenance/B014_ch02_ch03_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B014_ch02_ch03_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B014_ch02_ch03_reading_2026-11-11.json",
+      "original_files_completed_this_round": [],
+      "original_files_continued_this_round": [
+        "B014"
+      ],
+      "new_original_direct_read_characters": 248264,
+      "new_physical_file_pages_covered": 132,
+      "selected_visual_pages": 36,
+      "remaining_layout_pages_not_reviewed_within_new_read_text": 96,
+      "B014_cumulative_read_file_pages": 214,
+      "B014_cumulative_visual_pages": 60,
+      "B014_unread_file_pages": 788,
+      "original_current_files_text_complete": 22,
+      "original_current_files_text_partial": 1,
+      "original_files_not_started": 96,
+      "all_source_records": 158,
+      "new_videos_or_distinct_original_papers_completed": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "specific_source_checks": 4,
+      "next_work_unit": {
+        "id": "B014",
+        "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+        "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+        "bytes": 13323230,
+        "file_pages": 1002,
+        "reading_status": "provided_file_text_partial",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+        "start": "physicalpage215start;Chapter4;continuecurrentextractionat387760;notoldhistoricalcoordinates",
+        "next_file_page": 215,
+        "next_character": 387760,
+        "current_extraction_identity": {
+          "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+          "characters": 1991387,
+          "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+          "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+        },
+        "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+        "ledger": "knowledge/provenance/B014_ch02_ch03_reading_2026-11-11.json",
+        "next_content_unit": "Chapter4: Women’s Long-Term Mating Strategies"
+      },
+      "python_checks": "both_required_commands_exit0;29tests;108syntheticcases"
     }
   ],
   "public_reading_rounds": [

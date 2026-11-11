@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "d2e20c6169bf28b3680e8eb1e051b6a2b99d9283",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.17,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 96,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_*.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.623,
+      "stdout": "",
+      "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.491s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "d2e20c6169bf28b3680e8eb1e051b6a2b99d9283",
+    "source_records": 158,
+    "external_archived_files": 44,
+    "book_files_text_complete": 22,
+    "book_files_text_partial": 1,
+    "book_files_not_started": 96,
+    "new_whole_book_files_completed": 0,
+    "new_direct_text_characters": 248264,
+    "new_contiguous_read_chunks": 14,
+    "new_physical_pages": 132,
+    "B014_cumulative_pages": 214,
+    "new_visual_pages": 36,
+    "new_detailed_visual_pages": 13,
+    "cumulative_visual_pages": 60,
+    "new_unreviewed_layout_pages": 96,
+    "cumulative_unreviewed_read_text_layout_pages": 154,
+    "unread_B014_pages": 788,
+    "all22embedded_image_pages_within_read_prefix_viewed": true,
+    "source_checks": 4,
+    "visual_elements_checked": 9,
+    "next_bookmark": [
+      "B014",
+      215,
+      387760
+    ],
+    "original_raw_identity_records_preserved": 125,
+    "historical_extraction_fields_preserved": true,
+    "prior_reports_ledgers_and_ch01_note_preserved": true,
+    "runtime_scripts_tests_protocol_router_map_unchanged": true,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "all26preferred_sections_complete": true,
+    "new_method_source_bindings": 1,
+    "method_operations_unchanged": true,
+    "synthetic_scenarios": 108,
+    "private_case_files_added": false,
+    "raw_text_or_page_images_added": false,
+    "changed_markdown_files": 12,
+    "local_links_checked": 571,
+    "anchors_checked": 0,
+    "search_top_paths": [
+      "knowledge/topics/evidence.md",
+      "knowledge/books/B014-ch01.md",
+      "knowledge/books/B014-ch02.md",
+      "knowledge/books/B014-ch03.md",
+      "knowledge/books/B014.md",
+      "knowledge/books/B013-version-comparison.md"
+    ],
+    "changed_files": 19,
+    "limits": "Identity, coordinates, bookkeeping, links and synthetic runtime checks do not certify all layouts, source scientific claims, clinical advice, real screenshot recognition, or dating effects."
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "Checks cover source identity, contiguous reading coordinates, selected visual inventory, internal links and synthetic routing; not complete edition authentication, current science, clinical assessment, real screenshot recognition or dating outcomes."
+}

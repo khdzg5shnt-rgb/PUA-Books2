@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：22/119，1份部分、96份未开始。B013现有48页文字完成、18页视觉；B014仅卷前与第一章1–82页、24页视觉。下一B014第二章第83页，当前字符139496。原著、历史版次、缺图及未核版面限制另计。
+当前现有书籍文件文字覆盖完成：22/119，1份部分、96份未开始。B014现已读卷前、第一至三章及第三部分导言，物理页1–214；累计60页视觉，154页已读文字的版面未逐页核。下一第四章第215页、当前字符387760；后续788页未读。原著、版次、图像和研究核验另计。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -31,7 +31,7 @@
 | B011 | [Dark Psychology Secrets Defense Manipulation, Emotional Influence, Persuasion, Deception, Mind Control, Covert Nlp,... (Susan Johnson) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%20Secrets%20Defense%20Manipulation%2C%20Emotional%20Influence%2C%20Persuasion%2C%20Deception%2C%20Mind%20Control%2C%20Covert%20Nlp%2C...%20%28Susan%20Johnson%29%20.pdf) | 114 | 当前114页可提取文字已读；26页视觉；原著版次未认证 | [笔记](../books/B011.md) |
 | B012 | [David X方法【David X Method】.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David%20X%E6%96%B9%E6%B3%95%E3%80%90David%20X%20Method%E3%80%91.pdf) | 68 | 当前68页中英文字已读；26页视觉；九处对译单列 | [笔记](../books/B012.md) |
 | B013 | [David_X的方法.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David_X%E7%9A%84%E6%96%B9%E6%B3%95.pdf) | 48 | 当前48页文字已读；18页视觉；七项版本核对 | [笔记](../books/B013.md) |
-| B014 | [Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf) | 1002 | 部分：卷前/第一章1–82页；下一83页 | [笔记](../books/B014.md) |
+| B014 | [Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf) | 1002 | 部分：卷前/第一至三章及导言1–214页；下一215页 | [笔记](../books/B014.md) |
 | B015 | [K少追女经验-我是这样追你老婆的.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/K%E5%B0%91%E8%BF%BD%E5%A5%B3%E7%BB%8F%E9%AA%8C-%E6%88%91%E6%98%AF%E8%BF%99%E6%A0%B7%E8%BF%BD%E4%BD%A0%E8%80%81%E5%A9%86%E7%9A%84.pdf) | 24 | 已OCR/未读 | — |
 | B016 | [MACK把妹方法 - Dean Cortez.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MACK%E6%8A%8A%E5%A6%B9%E6%96%B9%E6%B3%95%20-%20Dean%20Cortez.epub) | 22 | 已提取/未读 | — |
 | B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 已提取/未读 | — |
@@ -167,3 +167,5 @@
 2026-11-11最新：[B012完成报告](B012_completion_2026-11-11.md)。
 
 2026-11-11续读：[B013完成与B014第一章报告](B013_B014_completion_2026-11-11.md)。
+
+2026-11-11续读：[B014第二、三章报告](B014_ch02_ch03_completion_2026-11-11.md)。
