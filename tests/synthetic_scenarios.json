@@ -48,20 +48,20 @@
       "roleplay_shared": true
     },
     "expect_route": "R02",
-    "expect_action": "stop",
+    "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
   {
     "id": "T05",
-    "context": "她只想做朋友，此后仍客气回复",
+    "context": "虚构教学场景：仍不考虑恋爱，当前分享普通生活信息；只接日常内容，不恢复恋爱推进",
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "romance",
       "function": "sharing"
     },
-    "expect_route": "R03",
-    "expect_action": "stop",
+    "expect_route": "R27",
+    "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
   {
@@ -215,14 +215,14 @@
   },
   {
     "id": "T17",
-    "context": "她只是不想玩密室，不因此判不想见人",
+    "context": "虚构教学场景：拒绝密室后分享另一项日常信息；接分享并保留不追该活动的限制",
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "activity",
       "function": "sharing"
     },
-    "expect_route": "R11",
+    "expect_route": "R27",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
@@ -525,7 +525,7 @@
       "necessary_new_logistics": true,
       "function": "logistics"
     },
-    "expect_route": "R09",
+    "expect_route": "R04N",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
@@ -541,7 +541,7 @@
       "reciprocity": "mutual"
     },
     "expect_route": "R03",
-    "expect_action": "stop",
+    "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
   {
@@ -714,7 +714,7 @@
       "refusal_scope": "physical"
     },
     "expect_route": "R02",
-    "expect_action": "stop",
+    "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   },
   {
@@ -1110,6 +1110,344 @@
       "function": "logistics"
     },
     "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T85",
+    "context": "虚构教学场景：身体边界后认真提问，回答问题但不恢复身体方向",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical",
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T86",
+    "context": "虚构教学场景：拒绝恋爱后问普通问题，只回答问题",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "romance",
+      "function": "question",
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T87",
+    "context": "虚构教学场景：拒绝换平台同时问普通问题，仍在原平台答复",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "channel",
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T88",
+    "context": "虚构教学场景：拒绝称呼同时求实际帮助，回应所求且不再用该称呼",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "boundary_expressed": true,
+      "advice_requested": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T89",
+    "context": "虚构教学场景：身体边界仍有效，当前讲具体困扰",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical",
+      "function": "distress"
+    },
+    "expect_route": "R15",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T90",
+    "context": "虚构教学场景：恋爱拒绝后有必要集合信息，只处理具体事务",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "romance",
+      "function": "logistics"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T91",
+    "context": "虚构教学场景：新回复方向已核，旧pending不能继续让人等",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "pending_reply": true,
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T92",
+    "context": "虚构教学场景：最后实际是用户发出，旧pending为false也不能补发",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "pending_reply": false,
+      "function": "question"
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T93",
+    "context": "虚构教学场景：未回期间有独立必要新事务，不被旧无替代标签盖住",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "necessary_new_logistics": true,
+      "invitation": "no_alternative"
+    },
+    "expect_route": "R04N",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T94",
+    "context": "虚构教学场景：未回期间必要新事务，不代表被拒活动重新答应",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "pending_reply": true,
+      "necessary_new_logistics": true,
+      "refusal_scope": "activity"
+    },
+    "expect_route": "R04N",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T95",
+    "context": "虚构教学场景：已拒绝全部联系，新问题也不能恢复私人联系",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "contact",
+      "latest_sender": "other",
+      "function": "question"
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T96",
+    "context": "虚构教学场景：全部联系拒绝优先于必要事务标记",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "contact",
+      "pending_reply": true,
+      "necessary_new_logistics": true
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T97",
+    "context": "虚构教学场景：无替代后新分享正常接，不因用户想邀约重开日期",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "no_alternative",
+      "function": "sharing",
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T98",
+    "context": "虚构教学场景：拒绝某活动后新分享，不绕回被拒绝活动",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "activity",
+      "function": "sharing",
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T99",
+    "context": "虚构教学场景：旧短答标签不盖过本轮新分享",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "closed_answer_complete": true,
+      "function": "sharing",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T100",
+    "context": "虚构教学场景：明确新分享与旧低投入冲突，保留历史但不拒绝本轮接话",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "function": "sharing",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 4,
+      "reciprocity": "consistently_one_sided"
+    },
+    "expect_route": "R27",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T101",
+    "context": "虚构教学场景：曾有身体边界，用户已承接且对方未回，不再补一条承接",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical",
+      "latest_sender": "user"
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T102",
+    "context": "虚构教学场景：拒绝恋爱后的玩笑不代表撤回边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "romance",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "roleplay_shared": true
+    },
+    "expect_route": "R03",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T103",
+    "context": "虚构教学场景：新回复让旧必要通知标记失效，按当前问题处理",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "pending_reply": true,
+      "necessary_new_logistics": true,
+      "function": "question"
+    },
+    "expect_route": "R18",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T104",
+    "context": "虚构教学场景：身体边界保留，现实紧要求助正常处理",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical",
+      "urgent_practical_need": true
+    },
+    "expect_route": "R16",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T105",
+    "context": "虚构教学场景：新的事实纠正不能被旧称呼边界盖住",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "boundary_expressed": true,
+      "function": "correction"
+    },
+    "expect_route": "R12",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T106",
+    "context": "虚构教学场景：拒绝渠道后分享具体好消息，接好消息但不再索要联系方式",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "channel",
+      "function": "good_news"
+    },
+    "expect_route": "R17",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T107",
+    "context": "虚构教学场景：用户最后发出且旧低投入存在，仍明确等待本轮",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T108",
+    "context": "虚构教学场景：只拒绝身体方向时，简短承接不等于停止全部联系",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "refusal_scope": "physical"
+    },
+    "expect_route": "R02",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
   }

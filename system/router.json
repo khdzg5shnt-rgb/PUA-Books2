@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "updated": "2026-11-11",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
@@ -25,7 +25,8 @@
     "shared_callback_available": false,
     "roleplay_shared": false,
     "advice_requested": false,
-    "urgent_practical_need": false
+    "urgent_practical_need": false,
+    "latest_sender": "unknown"
   },
   "enums": {
     "refusal_scope": [
@@ -69,6 +70,11 @@
       "reply",
       "invite",
       "appreciate"
+    ],
+    "latest_sender": [
+      "unknown",
+      "user",
+      "other"
     ]
   },
   "routing": "first_matching_rule",
@@ -117,40 +123,6 @@
       ]
     },
     {
-      "id": "R02",
-      "name": "身体界限",
-      "when": {
-        "field": "refusal_scope",
-        "op": "eq",
-        "value": "physical"
-      },
-      "method_ids": [
-        "M23"
-      ],
-      "action": "stop",
-      "purpose": "立即停止该身体方向，不用其他信号抵消",
-      "also_read": [
-        "system/REPLY_PROTOCOL.md"
-      ]
-    },
-    {
-      "id": "R03",
-      "name": "拒绝恋爱发展",
-      "when": {
-        "field": "refusal_scope",
-        "op": "eq",
-        "value": "romance"
-      },
-      "method_ids": [
-        "M23"
-      ],
-      "action": "stop",
-      "purpose": "接受当前关系意愿，不再换说法推进",
-      "also_read": [
-        "system/REPLY_PROTOCOL.md"
-      ]
-    },
-    {
       "id": "R04",
       "name": "本轮已经发过",
       "when": {
@@ -177,19 +149,61 @@
       ]
     },
     {
-      "id": "R05",
-      "name": "明确话题或渠道边界",
+      "id": "R04N",
+      "name": "未回时独立必要事务",
       "when": {
-        "any": [
+        "all": [
           {
-            "field": "boundary_expressed",
+            "field": "pending_reply",
             "op": "eq",
             "value": true
           },
           {
+            "field": "necessary_new_logistics",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "method_ids": [
+        "M15"
+      ],
+      "action": "draft",
+      "purpose": "只通知已核的独立必要新事务，不借机催回、重新邀约或假定对方已答应",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "身体界限",
+      "when": {
+        "all": [
+          {
             "field": "refusal_scope",
             "op": "eq",
-            "value": "channel"
+            "value": "physical"
+          },
+          {
+            "field": "function",
+            "op": "in",
+            "value": [
+              "unknown",
+              "insult",
+              "banter",
+              "opening",
+              "appreciation"
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
           }
         ]
       },
@@ -197,10 +211,106 @@
         "M23"
       ],
       "action": "draft",
-      "purpose": "停止不接受的话题或换平台请求，不扩大成全部联系意愿",
+      "purpose": "停止身体或性方向；如需回应仅简短承接，不将拒绝扩大成全部交流",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
-      ]
+      ],
+      "acknowledgement_only": true
+    },
+    {
+      "id": "R03",
+      "name": "拒绝恋爱发展",
+      "when": {
+        "all": [
+          {
+            "field": "refusal_scope",
+            "op": "eq",
+            "value": "romance"
+          },
+          {
+            "field": "function",
+            "op": "in",
+            "value": [
+              "unknown",
+              "insult",
+              "banter",
+              "opening",
+              "appreciation"
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "draft",
+      "purpose": "停止恋爱推进；普通交流不算撤回拒绝，如需回应只简短承接",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ],
+      "acknowledgement_only": true
+    },
+    {
+      "id": "R05",
+      "name": "明确话题或渠道边界",
+      "when": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "boundary_expressed",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "field": "refusal_scope",
+                "op": "eq",
+                "value": "channel"
+              }
+            ]
+          },
+          {
+            "field": "function",
+            "op": "in",
+            "value": [
+              "unknown",
+              "insult",
+              "banter",
+              "opening",
+              "appreciation"
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M23"
+      ],
+      "action": "draft",
+      "purpose": "停止已拒绝的话题或换平台请求；如需回应只简短承接",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ],
+      "acknowledgement_only": true
     },
     {
       "id": "R06",
@@ -312,7 +422,6 @@
                 "value": [
                   "unknown",
                   "logistics",
-                  "sharing",
                   "banter",
                   "opening"
                 ]
@@ -358,7 +467,6 @@
                 "value": [
                   "unknown",
                   "logistics",
-                  "sharing",
                   "banter",
                   "opening"
                 ]
@@ -384,7 +492,8 @@
       "purpose": "停止被拒绝的活动方向；新增认真内容仍可正常回应",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
-      ]
+      ],
+      "acknowledgement_only": true
     },
     {
       "id": "R09",
@@ -479,7 +588,6 @@
                 "value": [
                   "unknown",
                   "logistics",
-                  "sharing",
                   "banter",
                   "opening"
                 ]
@@ -887,6 +995,7 @@
     "shared_callback_available": "双方确实有这个共同经历/旧话题，不移植别人的故事",
     "roleplay_shared": "双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可",
     "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
-    "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感"
+    "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感",
+    "latest_sender": "最近一条已核的双方消息由谁发送；排除系统提示和引用。已核方向可更新pending_reply，未知保留unknown"
   }
 }

@@ -99,6 +99,113 @@ class RuntimeWorkflow(unittest.TestCase):
             self.assertNotIn('Traceback', result.stderr)
             self.assertNotIn('SYNTHETIC_PRIVATE_MARKER', result.stderr + result.stdout)
 
+    def test_new_sender_updates_waiting_without_changing_other_cases(self):
+        for sender, old_pending, expected, changed in [
+                ('other', True, 'R18', True), ('user', False, 'R04', True),
+                ('unknown', True, 'R04', False)]:
+            facts = VERIFIED | {'latest_sender': sender, 'pending_reply': old_pending,
+                                'function': 'question'}
+            original = dict(facts)
+            result = build_brief({'facts': facts})
+            self.assertEqual(result['decision']['route_id'], expected)
+            self.assertEqual('pending_reply' in result['fact_adjustments'], changed)
+            self.assertEqual(facts, original)
+        request = {'cases': {'a': VERIFIED | {'latest_sender': 'user'},
+                             'b': VERIFIED | {'latest_sender': 'other', 'function': 'question'}},
+                   'case_key': 'b'}
+        self.assertEqual(build_brief(request)['decision']['route_id'], 'R18')
+
+    def test_new_normal_content_keeps_each_scoped_boundary(self):
+        for scope, limit in [('physical', '身体'), ('romance', '恋爱'),
+                             ('channel', '联系方式'), ('activity', '活动')]:
+            with self.subTest(scope=scope):
+                result = build_brief({'facts': VERIFIED | {
+                    'refusal_scope': scope, 'function': 'question'}})
+                self.assertEqual(result['decision']['route_id'], 'R18')
+                self.assertTrue(any(limit in value for value in result['current_limits']))
+        result = build_brief({'facts': VERIFIED | {
+            'boundary_expressed': True, 'function': 'question'}})
+        self.assertEqual(result['decision']['route_id'], 'R18')
+        self.assertTrue(any('话题或称呼' in value for value in result['current_limits']))
+
+    def test_boundary_only_acknowledgement_has_no_extra_question(self):
+        for facts in [{'refusal_scope': 'physical'}, {'refusal_scope': 'romance'},
+                      {'refusal_scope': 'channel'}, {'refusal_scope': 'activity'},
+                      {'boundary_expressed': True}]:
+            with self.subTest(facts=facts):
+                result = build_brief({'facts': VERIFIED | facts, 'candidate': '明白，不再提这个。'})
+                self.assertEqual(result['decision']['action'], 'draft')
+                self.assertEqual(result['output_contract']['max_questions'], 0)
+                self.assertTrue(result['candidate_check']['ok'])
+                self.assertIn('不追加问题', select_route(VERIFIED | facts)['output_policy'])
+                result = build_brief({'facts': VERIFIED | facts, 'candidate': '那还能再问吗？'})
+                self.assertFalse(result['candidate_check']['ok'])
+                result = build_brief({'facts': VERIFIED | facts, 'candidate': ''})
+                self.assertTrue(result['output_contract']['allow_no_message'])
+                self.assertTrue(result['candidate_check']['ok'])
+        self.assertFalse(check_candidate('', 'reply', 'draft')['ok'])
+
+    def test_contact_refusal_stops_even_with_new_content_or_logistics(self):
+        for facts in [{'latest_sender': 'other', 'function': 'question'},
+                      {'latest_sender': 'user', 'necessary_new_logistics': True}]:
+            with self.subTest(facts=facts):
+                result = build_brief({'facts': VERIFIED | facts | {'refusal_scope': 'contact'},
+                                      'candidate': '再解释一下。'})
+                self.assertEqual(result['decision']['action'], 'stop')
+                self.assertIn('先不发', result['user_output'])
+                self.assertFalse(result['candidate_check']['ok'])
+
+    def test_explanatory_tasks_do_not_request_dates_or_make_action_drafts(self):
+        facts = VERIFIED | {'goal': 'invite', 'invite_ready': True}
+        for task in ['meaning', 'analysis', 'review', 'training']:
+            with self.subTest(task=task):
+                result = build_brief({'task': task, 'facts': facts})
+                self.assertNotIn('clarification', result)
+                self.assertNotIn('before_drafting', result)
+                self.assertNotIn(result['decision']['route_id'], {'R20', 'R21'})
+                self.assertTrue(result['intent_adjustments'])
+                self.assertEqual(result['task'], task)
+        self.assertEqual(build_brief({'facts': facts})['clarification']['field'],
+                         'user_availability_known')
+        with self.assertRaises(ValueError):
+            build_brief({'task': 'analysis', 'facts': VERIFIED | {'goal': 'INVALID'}})
+
+    def test_independent_logistics_survives_old_invitation_but_never_reopens_it(self):
+        facts = VERIFIED | {'latest_sender': 'user', 'necessary_new_logistics': True,
+                            'invitation': 'no_alternative', 'refusal_scope': 'activity'}
+        result = build_brief({'facts': facts})
+        self.assertEqual(result['decision']['route_id'], 'R04N')
+        self.assertEqual(result['primary_method']['id'], 'M15')
+        self.assertTrue(any('只通知' in value for value in result['current_limits']))
+        self.assertTrue(any('不换日期追问' in value for value in result['current_limits']))
+        self.assertIn('before_drafting', result)
+        facts['latest_sender'] = 'other'
+        facts['function'] = 'question'
+        result = build_brief({'facts': facts})
+        self.assertEqual(result['decision']['route_id'], 'R18')
+        self.assertIn('necessary_new_logistics', result['fact_adjustments'])
+
+    def test_fresh_sharing_does_not_reopen_refused_invitation_or_erase_history(self):
+        facts = VERIFIED | {'invitation': 'no_alternative', 'function': 'sharing',
+                            'goal': 'invite', 'invite_ready': True,
+                            'user_availability_known': True, 'activity_verified': True,
+                            'current_turn_low': True, 'consecutive_low_rounds': 4,
+                            'reciprocity': 'consistently_one_sided'}
+        result = build_brief({'facts': facts})
+        self.assertEqual(result['decision']['route_id'], 'R27')
+        self.assertEqual(set(result['fact_adjustments']), {'current_turn_low', 'consecutive_low_rounds'})
+        self.assertTrue(result['intent_adjustments'])
+        self.assertEqual(facts['reciprocity'], 'consistently_one_sided')
+
+    def test_sender_and_scope_contract_validate_inputs_without_echoing(self):
+        command = [sys.executable, str(ROOT / 'scripts/coach.py'), '--request', '-']
+        for marker in ['SYNTHETIC_PRIVATE_MARKER', 123]:
+            result = subprocess.run(command, input=json.dumps({'facts': VERIFIED | {
+                'latest_sender': marker}}), text=True, capture_output=True)
+            self.assertEqual(result.returncode, 2)
+            self.assertNotIn('Traceback', result.stderr)
+            self.assertNotIn('SYNTHETIC_PRIVATE_MARKER', result.stderr + result.stdout)
+
 
 class SectionRetrieval(unittest.TestCase):
     def test_each_method_resolves_one_real_cited_section(self):
@@ -157,6 +264,21 @@ class SectionRetrieval(unittest.TestCase):
                 path.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
                 self.assertIn(error, validate(copied)['errors'])
                 path.write_text(original, encoding='utf-8')
+
+    def test_maintenance_rejects_human_route_order_and_bad_acknowledgement(self):
+        with tempfile.TemporaryDirectory(prefix='books2-scope-check-') as folder:
+            copied = Path(folder) / 'repo'
+            shutil.copytree(ROOT, copied, ignore=shutil.ignore_patterns('__pycache__', '.git'))
+            path = copied / 'system/SCENARIO_ROUTER.md'
+            original = path.read_text(encoding='utf-8')
+            path.write_text(original.replace('| R01 |', '| MISSING |', 1), encoding='utf-8')
+            self.assertIn('Readable route order does not match configuration', validate(copied)['errors'])
+            path.write_text(original, encoding='utf-8')
+            path = copied / 'system/router.json'
+            cfg = json.loads(path.read_text(encoding='utf-8'))
+            next(rule for rule in cfg['routes'] if rule['id'] == 'R02')['acknowledgement_only'] = 'yes'
+            path.write_text(json.dumps(cfg, ensure_ascii=False), encoding='utf-8')
+            self.assertIn('Invalid boundary acknowledgement contract: R02', validate(copied)['errors'])
 
 
 if __name__ == '__main__':

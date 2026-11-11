@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+  "unit": "OS current-turn and scoped-boundary update",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 21,\n  \"book_not_started\": 98,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.139s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 21,
+    "book_not_started": 98,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 29,
+  "synthetic_route_scenarios": 108,
+  "new_synthetic_route_scenarios": 24,
+  "old_scenario_ids_preserved": 84,
+  "updated_old_scenario_expectations": [
+    "T04",
+    "T05",
+    "T17",
+    "T40",
+    "T41",
+    "T54"
+  ],
+  "smoke": {
+    "example": {
+      "command": [
+        "scripts/coach.py",
+        "--request",
+        "system/EXAMPLE_REQUEST.json"
+      ],
+      "exit_code": 0,
+      "route": "R08",
+      "primary_method": "M16"
+    },
+    "method_search": {
+      "command": [
+        "scripts/search_knowledge.py",
+        "--method",
+        "M23",
+        "--limit",
+        "1"
+      ],
+      "exit_code": 0,
+      "first_hit": {
+        "path": "knowledge/topics/refusal-scope.md",
+        "title": "拒绝范围与当前回复",
+        "heading": "按拒绝范围处理当前一轮",
+        "line": 5,
+        "end_line": 16,
+        "snippet": "\n| 已核的拒绝 | 始终保留的限制 | 当前可以做什么 |\n| --- | --- | --- |\n| 全部私人联系 | 停止联系，不换平台，不另发告别或解释 | 告诉用户先不发；不能因对方表情或普通内容自动重启联系 |\n| 身体或性方向 | 立即停止该方向，不用其他信号抵消 | 如需回应可简短承接；她新问普通问题时正常回答，不恢复该方向 |\n| 恋爱发展 | 不继续劝说或追求，礼貌不算改变态度 | 用户真实愿意普通交流时，可回应具体新内容；也可以退出 |\n| 某项活动 |",
+        "method_ids": [
+          "M23"
+        ]
+      }
+    },
+    "stdin_smoke": [
+      {
+        "synthetic_case": "scoped_question",
+        "route": "R18",
+        "action": "draft",
+        "task": "reply",
+        "limits": [
+          "停止已拒绝的身体或性方向；普通回复不表示撤回这个边界"
+        ],
+        "intent_adjustments": []
+      },
+      {
+        "synthetic_case": "meaning_only",
+        "route": "R28",
+        "action": "draft",
+        "task": "meaning",
+        "limits": [],
+        "intent_adjustments": [
+          "本次只解释、分析、复盘或训练；行动目标不触发邀约或欣赏草稿"
+        ]
+      },
+      {
+        "synthetic_case": "necessary_notice",
+        "route": "R04N",
+        "action": "draft",
+        "task": "reply",
+        "limits": [
+          "本轮没有替代安排，不换日期追问；可回应她新增的认真内容",
+          "只通知已核实的独立必要新事务，不顺带催回复、试探或重新邀约"
+        ],
+        "intent_adjustments": []
+      },
+      {
+        "synthetic_case": "contact_stop",
+        "route": "R01",
+        "action": "stop",
+        "task": "reply",
+        "limits": [
+          "停止私人联系，不另发结束消息，也不换平台继续联系"
+        ],
+        "intent_adjustments": []
+      }
+    ],
+    "scope": "synthetic CLI flow and retrieval only, not real screenshots or dating effects"
+  },
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "synthetic_scenarios": 108,
+    "new_synthetic_scenarios": 24,
+    "old_scenario_ids_preserved": 84,
+    "source_records": 158,
+    "external_archived_files": 44,
+    "book_text_complete": 21,
+    "book_not_started": 98,
+    "new_books_completed": 0,
+    "new_book_characters_read": 0,
+    "original_raw_identity_records_preserved": 125,
+    "source_registry_bytes_unchanged": true,
+    "book_notes_and_ledgers_unchanged": true,
+    "reading_bookmark_unchanged": true,
+    "last_reading_progress_preserved": true,
+    "reply_calibrations_preserved": true,
+    "reading_state_snapshot_preserved": true,
+    "reply_protocol_characters_before": 4322,
+    "reply_protocol_characters_after": 1837,
+    "all26preferred_sections_complete": true,
+    "M23_preferred": {
+      "path": "knowledge/topics/refusal-scope.md",
+      "heading": "按拒绝范围处理当前一轮",
+      "line": 5,
+      "end_line": 16
+    },
+    "new_or_changed_markdown_files": 18,
+    "local_links_checked": 515,
+    "anchors_checked": 38,
+    "changed_files": 29,
+    "new_private_case_files": false,
+    "scope": "source identity, metadata, links, archives, sections and synthetic runtime consistency; not real screenshot recognition or dating effects"
+  },
+  "new_books_completed": 0,
+  "new_book_characters_read": 0,
+  "new_original_videos_completed": 0,
+  "new_full_original_research_papers_completed": 0,
+  "reading_bookmark": {
+    "id": "B013",
+    "path": "David_X的方法.pdf",
+    "git_blob_sha": "bd51f3486dfa482fb4480293413f426b10f27e1f",
+    "bytes": 624594,
+    "file_pages": 48,
+    "reading_status": "unread",
+    "start": "physicalpage1;verifyoriginalblobthenestablishcurrentextractionbeforeorderedreading;donotassumeequivalenttoB012",
+    "next_file_page": 1,
+    "next_character": 0,
+    "current_extraction_identity": "notyetestablished;similarfilenameoroldinventorynotreadingproof",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+  },
+  "scope": "runtime flow, configuration, identities, references, archives and synthetic scenarios; not psychological effects or real image recognition",
+  "not_verified": [
+    "actual screenshot OCR and speaker attribution",
+    "facts, naturalness, consent compliance or effects of arbitrary candidate wording",
+    "psychological mechanisms or dating outcomes",
+    "remaining books and original source gaps"
+  ]
+}

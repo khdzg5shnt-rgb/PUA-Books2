@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.5.2",
+  "version": "1.6.0",
   "methods": [
     {
       "id": "M01",
@@ -1017,7 +1017,7 @@
     {
       "id": "M15",
       "name": "确认已答应的安排",
-      "use_when": "她对共同活动表示开放，或已答应具体邀请，正在确定可行性和安排",
+      "use_when": "她对共同活动表示开放，或已答应具体邀请，正在确定可行性和安排；或有已核实的独立必要新事务需要通知",
       "operation": "一般活动意愿先补一项关键可行信息；接受具体邀请后确认缺少的时间、地点或集合方式，齐全就简短确认。换场要说明真实去向并确认双方愿意。 已确认的时间地点按约履行；确需变更先商议，不为制造反差故意迟到或失联。",
       "avoid": "把一般意愿写成已定约会，编场次和空闲，反复索取同意；继续无目的调情，或把前一项活动的答应沿用到新去向。",
       "sources": [
@@ -1619,6 +1619,11 @@
           "path": "knowledge/books/B012-ch05.md",
           "locator": "信号不能覆盖选择；物理页40–48取舍：不以饮酒、穿着、地址或过去经历覆盖当前意愿",
           "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/topics/refusal-scope.md",
+          "locator": "按拒绝范围处理当前一轮；具体限制保留，不用普通新消息解除边界",
+          "kind": "workflow_rule_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",

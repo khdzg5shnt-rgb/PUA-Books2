@@ -9,7 +9,7 @@ from route import select_route
 from runtime_io import read_request
 
 
-def check_candidate(candidate, task, action):
+def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=False):
     """Check structure only; no claim to verify facts, tone or dating outcomes."""
     issues = []
     if task != 'reply':
@@ -21,12 +21,14 @@ def check_candidate(candidate, task, action):
         if candidate.strip():
             issues.append('本轮应等待、停止或核对，不生成给对方的新消息')
     elif not candidate.strip():
-        issues.append('本轮选择回复，但草稿为空')
+        if not allow_empty:
+            issues.append('本轮选择回复，但草稿为空')
     else:
         if len(candidate.strip().splitlines()) > 2:
             issues.append('默认回复最多两行')
-        if len(re.findall(r'[?？]+', candidate)) > 1:
-            issues.append('本轮最多一个问题')
+        if len(re.findall(r'[?？]+', candidate)) > max_questions:
+            issues.append('本轮只需简短承接边界，不追加问题' if max_questions == 0
+                          else '本轮最多一个问题')
         if re.search(r'\{[^{}\n]+\}|\[(?:时间|地点|姓名|待确认)\]', candidate):
             issues.append('草稿仍有未替换的事实占位符')
     return {'ok': not issues, 'issues': issues,
@@ -54,7 +56,7 @@ def _select_case(request, case_key):
 def _clarification(facts, task):
     choices = [('speaker_verified', '这句是谁发的？'),
                ('text_legible', '她最后一句具体说了什么？'),
-               ('invite_ready', '她最近有没有主动展开过话题？'),
+               ('invite_ready', '你们最近有过什么双向互动？'),
                ('user_availability_known', '你哪天确实有空？'),
                ('activity_verified', '你这次想约什么活动？')]
     for field, question in choices:
@@ -69,12 +71,12 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
     selected_task = task if task is not None else request.get('task', 'reply')
     if not isinstance(selected_task, str) or selected_task not in tasks:
         raise ValueError('Unknown task; use reply, meaning, analysis, review or training')
-    decision = select_route(facts, root)
-    limits = []
-    if facts.get('invitation') in {'no_alternative', 'cancelled_without_repair'}:
-        limits.append('本轮没有替代安排，不换日期追问；可回应她新增的认真内容')
-    if facts.get('refusal_scope') == 'activity':
-        limits.append('停止被拒绝的活动方向，不扩大成全部联系意愿')
+    decision = select_route(facts, root, apply_action_goal=selected_task == 'reply')
+    contract = dict(tasks[selected_task])
+    if selected_task == 'reply' and decision['boundary_acknowledgement']:
+        contract['max_questions'] = 0
+        contract['allow_no_message'] = True
+        contract['deliver'] = '如确有必要，只简短承接这项边界；不重提、不试探，不追加问题'
     result = {
         'task': selected_task,
         'case_context': context,
@@ -83,9 +85,10 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         'primary_method': decision['method_card'],
         'read_next': decision['source'],
         'read': decision['read'],
-        'output_contract': tasks[selected_task],
-        'current_limits': limits,
+        'output_contract': contract,
+        'current_limits': decision['current_limits'],
         'fact_adjustments': decision['fact_adjustments'],
+        'intent_adjustments': decision['intent_adjustments'],
         'after_this_turn': '只依据实际新回复更新；不编后续，不自动补第二条或设置冷落倒计时',
         'scope': '仅生成一个处理提纲；读图、事实裁决与自然语言由当前助手完成；不存储、不发送',
     }
@@ -95,9 +98,18 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         result['user_output'] = '先不发，等她回这一轮。'
         if decision['route_id'] == 'R14':
             result['user_output'] = '先不发，这轮不用继续找话题。'
+    if decision['action'] == 'stop' and selected_task == 'reply':
+        result['user_output'] = '先不发，按她的原话停止私人联系。'
+    if selected_task == 'reply' and decision['route_id'] in {'R04N', 'R08', 'R09'}:
+        result['before_drafting'] = [
+            '已知信息直接用；只有要确认赴约且真实空闲未知时才补缺口，不把对方给时间当作用户已答应',
+            '只用当前已确认的活动和安排；缺口可保留，不代编时间、地点或顺路',
+        ]
     if 'candidate' in request:
         result['candidate_check'] = check_candidate(
-            request['candidate'], selected_task, decision['action'])
+            request['candidate'], selected_task, decision['action'],
+            max_questions=contract.get('max_questions', 1),
+            allow_empty=contract.get('allow_no_message', False))
     return result
 
 

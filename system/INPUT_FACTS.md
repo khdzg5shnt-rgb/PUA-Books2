@@ -4,9 +4,9 @@
 
 ## 当前轮与历史分开
 
-收到新回复后，重核pending_reply、function、closed_answer_complete与当前低投入标记。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
+收到新回复后，重核latest_sender、pending_reply、function、closed_answer_complete与当前低投入标记。明确已核`latest_sender=other`会清除旧pending；明确为user则设为已发待回，unknown不猜方向。没有等待时necessary_new_logistics不再作为补发例外。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
 
-consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。
+consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排、具体新分享和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。
 
 ## 字段表
 
@@ -14,6 +14,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | --- | --- | --- |
 | `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
 | `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
+| `latest_sender` | `"unknown"` | 最近一条已发送的双方消息：user、other或unknown；排除系统提示、引用与输入框草稿 |
 | `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
 | `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
 | `refusal_scope` | `"none"` | 当前明确拒绝的具体范围；不由语气、单字或旧标签推断 |
@@ -38,17 +39,20 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 | 字段 | 可选值 |
 | --- | --- |
+| `latest_sender` | `unknown`, `user`, `other` |
 | `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
 | `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity` |
 | `function` | `unknown`, `insult`, `logistics`, `correction`, `distress`, `advice_request`, `good_news`, `question`, `post_date`, `banter`, `opening`, `sharing`, `appreciation` |
 | `reciprocity` | `unknown`, `mutual`, `consistently_one_sided` |
 | `goal` | `reply`, `invite`, `appreciate` |
 
+`function=sharing`必须是拒绝之外确实新增的内容；拒绝理由本身不算另一项新分享。只有拒绝本身时按拒绝处理；同轮还有问题或求助时用当前最需要回应的作用。具体边界仍由refusal_scope或boundary_expressed保留，不由正常回复自动清空。
+
 `function=appreciation`表示她确实赞美或表达好意；`goal=appreciate`表示用户想表达欣赏，方向不同。普通礼貌可自然承接，不等于关系意愿。
 
 ## 请求格式
 
-单对象：`{"task":"reply","facts":{"speaker_verified":true,"text_legible":true,"function":"question"}}`。没有核读的内容不能照抄true。
+单对象：`{"task":"reply","facts":{"speaker_verified":true,"text_legible":true,"latest_sender":"other","function":"question"}}`。没有核读的内容不能照抄true。
 
 临时多对象：`{"task":"analysis","cases":{"a":{},"b":{}},"case_key":"b"}`。每个facts对象独立、缺口用自身默认值；不能同时提供全局facts。`--case`和`--task`显式参数优先于请求中的选择。
 

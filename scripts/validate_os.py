@@ -58,6 +58,11 @@ def validate(root=ROOT):
 
     if set(routes.get('field_help',{})) != set(routes['defaults']):
         errors.append('Every fact field needs a current-scope description')
+    human_routes = re.findall(r'^\|\s*\d+\s*\|\s*(R[0-9A-Z]+)\s*\|',
+                             (root/'system/SCENARIO_ROUTER.md').read_text(encoding='utf-8'),
+                             flags=re.M)
+    if human_routes != route_ids:
+        errors.append('Readable route order does not match configuration')
 
     for rule in routes['routes']:
         check_expr(rule['when'])
@@ -65,6 +70,11 @@ def validate(root=ROOT):
             errors.append('Bad primary method for ' + rule['id'])
         if rule['action'] not in {'draft','hold','stop','clarify'}:
             errors.append('Unknown route action: '+rule['id'])
+        if ('acknowledgement_only' in rule and
+                (type(rule['acknowledgement_only']) is not bool or
+                 (rule['acknowledgement_only'] and
+                  (rule['action'] != 'draft' or rule['method_ids'] != ['M23'])))):
+            errors.append('Invalid boundary acknowledgement contract: '+rule['id'])
     for method in methods:
         if not method['sources'] or not method['avoid'] or not method['use_when']:
             errors.append('Incomplete card '+method['id'])
@@ -241,6 +251,7 @@ def validate(root=ROOT):
     docs += list((root/'knowledge/books').glob('*expansion.md'))
     docs += [root/'knowledge/books/G09-ocr-input.md']
     docs += [root/path for path in extra_note_paths]
+    docs += [root/item['preferred']['path'] for item in lookup.values()]
     for doc in docs:
         if not doc.is_file():
             errors.append('Missing required document '+str(doc.relative_to(root)))
