@@ -1,109 +1,78 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "B016_current_epub_text_completion",
-  "status": "B016_completion_checks_passed",
-  "base_commit": "a54989a3b8751280a6e3d9ea9ddab3e462865872",
+  "current_focus": "B017_filepages1to70_and_observation_lookup",
+  "status": "B017_p001_070_checks_passed",
+  "base_commit": "8667597952cd5a67490a1c03d64fc3a52f403379",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B016_completion_2026-11-11.md",
-  "validation": "knowledge/provenance/B016_completion_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B017_progress_2026-11-11.md",
+  "validation": "knowledge/provenance/B017_validation_2026-11-11.json",
   "reading_bookmark": {
     "id": "B017",
     "path": "MGTOW 核心理论文集 (米格道) .pdf",
     "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
     "bytes": 6989249,
     "file_pages": 221,
-    "reading_status": "unread",
+    "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage1start;current_file_and_extraction_reverification_required",
-    "next_file_page": 1,
-    "next_character": null,
-    "next_content_unit": "文件第1页；需先重核PDF与当前提取坐标",
-    "navigation_metadata_only": true,
-    "ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json"
+    "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+    "start": "physicalpage71start;sectionXI_red_pill_crisis_continuation;currentextraction75772",
+    "next_file_page": 71,
+    "next_character": 75772,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+      "characters": 240437,
+      "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "next_content_unit": "第十一节《红丸危机》继续；第70页仅开头已读",
+    "ledger": "knowledge/provenance/B017_reading_2026-11-11.json"
   },
-  "next_work": "Begin B017 physical page1 after verifying current PDF identity and extraction; no B017 body read yet. Retain B014 back-matter gaps and B015 image exclusions.",
+  "next_work": "Continue B017 physical page71 / currentextraction75772; sectionXI continuation. Preserve unread151pages, figure gaps and B014/B015 exclusions.",
   "current_session_progress": {
-    "baseline": "a54989a3b8751280a6e3d9ea9ddab3e462865872",
-    "text_complete_file_ids": [
-      "B016"
-    ],
+    "baseline": "8667597952cd5a67490a1c03d64fc3a52f403379",
+    "text_complete_file_ids": [],
     "text_partial_file_ids": [
       "B014",
-      "B015"
+      "B015",
+      "B017"
     ],
-    "new_book_files_started": [],
-    "direct_extractable_characters": 81366,
-    "B016_new_direct_characters": 81366,
-    "B016_new_body_chapters_read": [
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20
+    "new_book_files_started": [
+      "B017"
     ],
-    "B016_read_spines": 22,
-    "B016_total_spines": 22,
-    "B016_body_chapters_read": [
-      1,
-      20
-    ],
-    "B016_body_chapter_numbers_read": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20
-    ],
-    "B016_characters_read": 172067,
-    "B016_unread_characters": 0,
+    "direct_extractable_characters": 75772,
+    "B017_new_direct_characters": 75772,
+    "B017_text_layer_pages_covered": 70,
+    "B017_unread_file_pages": 151,
+    "B017_cumulative_characters_read": 75772,
+    "B017_unread_characters": 164665,
+    "selected_visual_page_reviews": 4,
+    "page68_small_labels_remain_unverified": true,
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "new_method_source_bindings": 8,
+    "new_method_source_bindings": 3,
     "changed_preferred_sections": [
-      "M02"
+      "M08"
     ],
-    "new_whole_book_files_completed": 1,
+    "new_whole_book_files_completed": 0,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "new_source_head_checks": 0,
-    "next_unit_not_started": "B017",
     "checks": {
       "structural": true,
       "unittest_methods": 29,
       "synthetic_routing_scenarios": 108,
       "retrieval_methods": [
-        "M02"
+        "M08"
       ],
+      "preferred_excerpt_complete": true,
       "scope": true,
-      "controlled_synthetic_fact_to_route_examples": 3,
+      "selected_pdf_visual_page_reviews": 4,
+      "page68_small_labels_remain_unverified": true,
       "blind_visual_tests": 0
     }
   },
@@ -517,6 +486,87 @@
         "retrieval_methods": [
           "M04",
           "M07"
+        ],
+        "scope": true,
+        "controlled_synthetic_fact_to_route_examples": 3,
+        "blind_visual_tests": 0
+      }
+    },
+    {
+      "baseline": "a54989a3b8751280a6e3d9ea9ddab3e462865872",
+      "text_complete_file_ids": [
+        "B016"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015"
+      ],
+      "new_book_files_started": [],
+      "direct_extractable_characters": 81366,
+      "B016_new_direct_characters": 81366,
+      "B016_new_body_chapters_read": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "B016_read_spines": 22,
+      "B016_total_spines": 22,
+      "B016_body_chapters_read": [
+        1,
+        20
+      ],
+      "B016_body_chapter_numbers_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "B016_characters_read": 172067,
+      "B016_unread_characters": 0,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "new_method_source_bindings": 8,
+      "changed_preferred_sections": [
+        "M02"
+      ],
+      "new_whole_book_files_completed": 1,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "next_unit_not_started": "B017",
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "retrieval_methods": [
+          "M02"
         ],
         "scope": true,
         "controlled_synthetic_fact_to_route_examples": 3,

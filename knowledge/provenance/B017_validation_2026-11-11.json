@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "8667597952cd5a67490a1c03d64fc3a52f403379",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "0b4b02",
+      "wall_time_seconds": 0.083866661,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 23,\n  \"book_not_started\": 93,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "74bfab",
+      "wall_time_seconds": 1.426651994,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.376s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '观察' --method M08 --limit 1",
+      "chunk_id": "56bc66",
+      "wall_time_seconds": 0.000020521,
+      "exit_code": 0,
+      "original_token_count": 222,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/observations-and-explanations.md\",\n    \"title\": \"观察：事实与解释分开\",\n    \"heading\": \"先记行为，原因不足留未知\",\n    \"line\": 5,\n    \"end_line\": 10,\n    \"snippet\": \"\\n描述她实际说过或做过的具体偏好、行为与状态；需要推测时留出纠正空间，她否认就更新。看似具体不等于已经证实，不用性别、职业、头像或宏观理论补齐动机、人格、过去经历与同意。事实不足就正常承接或回答，不故意猜错来套取信息。\\n\\n原因未明时，先核对方行为、当时处境、平台规则与记录缺口，不自动归责用户，也不把未知改写成对方有恶意。已发生的具体越界足以表达限制，无需先证明其内心；同样，一次慢回、短答或拒绝不能解释整个人。\",\n    \"method_ids\": [\n      \"M08\"\n    ]\n  }\n]\n"
+    },
+    {
+      "command": "python run_state/r6_verify.py",
+      "chunk_id": "80519a",
+      "wall_time_seconds": 0.297035372,
+      "exit_code": 0,
+      "original_token_count": 340,
+      "output": "{\n  \"ok\": true,\n  \"baseline_main\": \"8667597952cd5a67490a1c03d64fc3a52f403379\",\n  \"changed_existing_files\": 11,\n  \"new_files\": 8,\n  \"local_links_in_changed_markdown_checked\": 233,\n  \"new_direct_read_characters\": 75772,\n  \"B017_cumulative_characters_read\": 75772,\n  \"B017_remaining_characters\": 164665,\n  \"B017_read_file_pages\": 70,\n  \"B017_unread_file_pages\": 151,\n  \"B017_next_page\": 71,\n  \"B017_next_character\": 75772,\n  \"selected_visual_page_reviews\": 4,\n  \"page68_small_labels_remain_unverified\": true,\n  \"unreviewed_image_pages_within_read_text\": 14,\n  \"other_image_pages_not_visually_reviewed\": 40,\n  \"source_records\": 158,\n  \"book_text_complete\": 23,\n  \"book_text_partial\": 3,\n  \"book_not_started\": 93,\n  \"new_book_files_started\": [\n    \"B017\"\n  ],\n  \"new_whole_book_files_text_completed\": 0,\n  \"new_method_source_bindings\": 3,\n  \"changed_preferred_sections\": [\n    \"M08\"\n  ],\n  \"preferred_excerpt_complete\": true,\n  \"existing_scripts_routes_task_contracts_tests_visual_examples_and_prior_book_notes_unchanged\": true,\n  \"original_file_identity_records_unchanged\": true,\n  \"B014_B015_gaps_and_exclusions_unchanged\": true,\n  \"new_source_head_checks\": 0,\n  \"new_full_original_research_papers_completed\": 0,\n  \"new_original_videos_completed\": 0,\n  \"new_synthetic_scenarios\": 0,\n  \"blind_visual_tests\": 0,\n  \"private_material_imported_or_summarized\": false\n}\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "8667597952cd5a67490a1c03d64fc3a52f403379",
+    "changed_existing_files": 11,
+    "new_files": 8,
+    "local_links_in_changed_markdown_checked": 233,
+    "new_direct_read_characters": 75772,
+    "B017_cumulative_characters_read": 75772,
+    "B017_remaining_characters": 164665,
+    "B017_read_file_pages": 70,
+    "B017_unread_file_pages": 151,
+    "B017_next_page": 71,
+    "B017_next_character": 75772,
+    "selected_visual_page_reviews": 4,
+    "page68_small_labels_remain_unverified": true,
+    "unreviewed_image_pages_within_read_text": 14,
+    "other_image_pages_not_visually_reviewed": 40,
+    "source_records": 158,
+    "book_text_complete": 23,
+    "book_text_partial": 3,
+    "book_not_started": 93,
+    "new_book_files_started": [
+      "B017"
+    ],
+    "new_whole_book_files_text_completed": 0,
+    "new_method_source_bindings": 3,
+    "changed_preferred_sections": [
+      "M08"
+    ],
+    "preferred_excerpt_complete": true,
+    "existing_scripts_routes_task_contracts_tests_visual_examples_and_prior_book_notes_unchanged": true,
+    "original_file_identity_records_unchanged": true,
+    "B014_B015_gaps_and_exclusions_unchanged": true,
+    "new_source_head_checks": 0,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "new_synthetic_scenarios": 0,
+    "blind_visual_tests": 0,
+    "private_material_imported_or_summarized": false
+  },
+  "resolved_M08_reference": {
+    "path": "knowledge/topics/observations-and-explanations.md",
+    "title": "观察：事实与解释分开",
+    "heading": "先记行为，原因不足留未知",
+    "line": 5,
+    "end_line": 10,
+    "excerpt": "## 先记行为，原因不足留未知\n\n描述她实际说过或做过的具体偏好、行为与状态；需要推测时留出纠正空间，她否认就更新。看似具体不等于已经证实，不用性别、职业、头像或宏观理论补齐动机、人格、过去经历与同意。事实不足就正常承接或回答，不故意猜错来套取信息。\n\n原因未明时，先核对方行为、当时处境、平台规则与记录缺口，不自动归责用户，也不把未知改写成对方有恶意。已发生的具体越界足以表达限制，无需先证明其内心；同样，一次慢回、短答或拒绝不能解释整个人。",
+    "excerpt_complete": true
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "new_synthetic_examples": 0,
+  "selected_pdf_visual_page_reviews": 4,
+  "page68_small_labels_remain_unverified": true,
+  "blind_visual_tests": 0,
+  "limits": "Checks cover PDF and extraction identity, exact text ranges, partial reading status, source preservation, counts, links and one complete M08 section. Four PDF pages were individually viewed; other figures and some small labels remain unreviewed. No empirical verification of the source's ideological, historical, legal, medical, financial or psychological claims, original papers or romantic outcomes is asserted."
+}

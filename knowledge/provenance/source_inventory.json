@@ -727,8 +727,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_partial",
+      "note": "knowledge/books/B017.md",
       "pages": 221,
       "spine_items": null,
       "ocr": {
@@ -736,7 +736,41 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+        "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+          "characters": 240437,
+          "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+          "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+        },
+        "read_range": [
+          0,
+          75772
+        ],
+        "read_file_page_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "entire_current_file_text_read": false,
+        "coverage_mode": "text_layer_prefix_with_selected_visual_reviews",
+        "next_file_page": 71,
+        "next_character": 75772,
+        "unread_characters": 164665,
+        "selected_visual_pages_reviewed": [
+          4,
+          17,
+          41,
+          68
+        ],
+        "page68_small_labels_remain_unverified": true
+      }
     },
     {
       "index": 18,

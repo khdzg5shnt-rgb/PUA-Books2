@@ -193,9 +193,12 @@
       "group": "books2_original_snapshot",
       "title": "MGTOW 核心理论文集 (米格道) .pdf",
       "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_partial",
+      "local_entry": "knowledge/books/B017.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B017_reading_2026-11-11.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current_pdf_filepages1to70_text_read_four_page_samples_with_figure_label_gaps"
     },
     {
       "id": "B018",
@@ -1525,8 +1528,8 @@
     "public_github_sources": 9,
     "source_records": 158,
     "current_book_files_text_complete": 23,
-    "current_book_files_text_partial": 2,
-    "current_book_files_not_started": 94
+    "current_book_files_text_partial": 3,
+    "current_book_files_not_started": 93
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
@@ -1536,14 +1539,20 @@
     "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
     "bytes": 6989249,
     "file_pages": 221,
-    "reading_status": "unread",
+    "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage1start;current_file_and_extraction_reverification_required",
-    "next_file_page": 1,
-    "next_character": null,
-    "next_content_unit": "文件第1页；需先重核PDF与当前提取坐标",
-    "navigation_metadata_only": true,
-    "ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json"
+    "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+    "start": "physicalpage71start;sectionXI_red_pill_crisis_continuation;currentextraction75772",
+    "next_file_page": 71,
+    "next_character": 75772,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+      "characters": 240437,
+      "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "next_content_unit": "第十一节《红丸危机》继续；第70页仅开头已读",
+    "ledger": "knowledge/provenance/B017_reading_2026-11-11.json"
   },
   "deferred_work_units": [
     {
