@@ -1,0 +1,2184 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B014-ch06-ch07-2026-11-11",
+  "baseline_main": "30a76532ed31930781edc01b9223ec1a79918d3a",
+  "scope": "neworderedreadingofB014pages333to444;chapters6and7includingboxes/summaries/questions/recommendedreadingandPart4intro;nochapter8credit",
+  "records": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "bytes": 13323230,
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "notes": [
+        "knowledge/books/B014.md",
+        "knowledge/books/B014-ch06.md",
+        "knowledge/books/B014-ch07.md"
+      ],
+      "original_publication_complete": false,
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "previous_ledger": "knowledge/provenance/B014_ch04_ch05_reading_2026-11-11.json",
+      "read_file_pages": [
+        333,
+        444
+      ],
+      "read_range": [
+        610379,
+        824905
+      ],
+      "actual_read_chunks": [
+        [
+          610379,
+          628379
+        ],
+        [
+          628379,
+          646379
+        ],
+        [
+          646379,
+          664379
+        ],
+        [
+          664379,
+          682379
+        ],
+        [
+          682379,
+          700379
+        ],
+        [
+          700379,
+          713969
+        ],
+        [
+          713969,
+          731969
+        ],
+        [
+          731969,
+          749969
+        ],
+        [
+          749969,
+          767969
+        ],
+        [
+          767969,
+          785969
+        ],
+        [
+          785969,
+          803969
+        ],
+        [
+          803969,
+          821969
+        ],
+        [
+          821969,
+          824905
+        ]
+      ],
+      "new_direct_read_characters": 214526,
+      "cumulative_read_file_pages": [
+        1,
+        444
+      ],
+      "cumulative_read_range": [
+        0,
+        824905
+      ],
+      "cumulative_actual_read_chunks": [
+        [
+          0,
+          18000
+        ],
+        [
+          18000,
+          36000
+        ],
+        [
+          36000,
+          54000
+        ],
+        [
+          54000,
+          72000
+        ],
+        [
+          72000,
+          90000
+        ],
+        [
+          90000,
+          108000
+        ],
+        [
+          108000,
+          126000
+        ],
+        [
+          126000,
+          139496
+        ],
+        [
+          139496,
+          157496
+        ],
+        [
+          157496,
+          175496
+        ],
+        [
+          175496,
+          193496
+        ],
+        [
+          193496,
+          211496
+        ],
+        [
+          211496,
+          229496
+        ],
+        [
+          229496,
+          247496
+        ],
+        [
+          247496,
+          262754
+        ],
+        [
+          262754,
+          280754
+        ],
+        [
+          280754,
+          298754
+        ],
+        [
+          298754,
+          316754
+        ],
+        [
+          316754,
+          334754
+        ],
+        [
+          334754,
+          352754
+        ],
+        [
+          352754,
+          370754
+        ],
+        [
+          370754,
+          387760
+        ],
+        [
+          387760,
+          405760
+        ],
+        [
+          405760,
+          423760
+        ],
+        [
+          423760,
+          441760
+        ],
+        [
+          441760,
+          459760
+        ],
+        [
+          459760,
+          477760
+        ],
+        [
+          477760,
+          495760
+        ],
+        [
+          495760,
+          499561
+        ],
+        [
+          499561,
+          517561
+        ],
+        [
+          517561,
+          535561
+        ],
+        [
+          535561,
+          553561
+        ],
+        [
+          553561,
+          571561
+        ],
+        [
+          571561,
+          589561
+        ],
+        [
+          589561,
+          607561
+        ],
+        [
+          607561,
+          610379
+        ],
+        [
+          610379,
+          628379
+        ],
+        [
+          628379,
+          646379
+        ],
+        [
+          646379,
+          664379
+        ],
+        [
+          664379,
+          682379
+        ],
+        [
+          682379,
+          700379
+        ],
+        [
+          700379,
+          713969
+        ],
+        [
+          713969,
+          731969
+        ],
+        [
+          731969,
+          749969
+        ],
+        [
+          749969,
+          767969
+        ],
+        [
+          767969,
+          785969
+        ],
+        [
+          785969,
+          803969
+        ],
+        [
+          803969,
+          821969
+        ],
+        [
+          821969,
+          824905
+        ]
+      ],
+      "new_visual_review_pages": [
+        333,
+        334,
+        337,
+        338,
+        343,
+        346,
+        348,
+        349,
+        352,
+        355,
+        356,
+        359,
+        360,
+        364,
+        368,
+        369,
+        371,
+        373,
+        375,
+        380,
+        381,
+        384,
+        385,
+        386,
+        392,
+        397,
+        402,
+        403,
+        404,
+        405,
+        408,
+        409,
+        410,
+        413,
+        414,
+        416,
+        417,
+        418,
+        419,
+        421,
+        423,
+        424,
+        425,
+        426,
+        428,
+        431,
+        432,
+        433,
+        434,
+        436,
+        438,
+        439,
+        442,
+        444
+      ],
+      "new_detailed_visual_pages": [
+        343,
+        346,
+        348,
+        355,
+        356,
+        359,
+        360,
+        371,
+        373,
+        402,
+        408,
+        410,
+        418,
+        419,
+        423,
+        425
+      ],
+      "cumulative_visual_review_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        20,
+        21,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        45,
+        49,
+        50,
+        51,
+        54,
+        55,
+        56,
+        60,
+        63,
+        82,
+        83,
+        87,
+        88,
+        90,
+        94,
+        97,
+        101,
+        102,
+        106,
+        108,
+        114,
+        123,
+        137,
+        147,
+        148,
+        149,
+        153,
+        159,
+        166,
+        173,
+        177,
+        180,
+        185,
+        186,
+        187,
+        188,
+        191,
+        195,
+        196,
+        197,
+        201,
+        203,
+        206,
+        212,
+        213,
+        214,
+        215,
+        221,
+        222,
+        225,
+        226,
+        230,
+        234,
+        235,
+        236,
+        240,
+        242,
+        243,
+        244,
+        248,
+        250,
+        251,
+        252,
+        257,
+        265,
+        269,
+        270,
+        271,
+        275,
+        276,
+        278,
+        279,
+        281,
+        286,
+        287,
+        291,
+        294,
+        295,
+        296,
+        299,
+        301,
+        305,
+        307,
+        313,
+        316,
+        317,
+        318,
+        332,
+        333,
+        334,
+        337,
+        338,
+        343,
+        346,
+        348,
+        349,
+        352,
+        355,
+        356,
+        359,
+        360,
+        364,
+        368,
+        369,
+        371,
+        373,
+        375,
+        380,
+        381,
+        384,
+        385,
+        386,
+        392,
+        397,
+        402,
+        403,
+        404,
+        405,
+        408,
+        409,
+        410,
+        413,
+        414,
+        416,
+        417,
+        418,
+        419,
+        421,
+        423,
+        424,
+        425,
+        426,
+        428,
+        431,
+        432,
+        433,
+        434,
+        436,
+        438,
+        439,
+        442,
+        444
+      ],
+      "cumulative_detailed_visual_pages": [
+        42,
+        54,
+        55,
+        56,
+        87,
+        88,
+        94,
+        101,
+        102,
+        108,
+        123,
+        159,
+        185,
+        186,
+        187,
+        188,
+        195,
+        221,
+        222,
+        225,
+        230,
+        234,
+        281,
+        287,
+        291,
+        294,
+        299,
+        305,
+        317,
+        343,
+        346,
+        348,
+        355,
+        356,
+        359,
+        360,
+        371,
+        373,
+        402,
+        408,
+        410,
+        418,
+        419,
+        423,
+        425
+      ],
+      "unreviewed_layout_pages_within_new_read_text": 58,
+      "unreviewed_layout_pages_within_cumulative_read_text": 288,
+      "unreviewed_layout_pages_total": 846,
+      "all_pages_visually_reviewed": false,
+      "embedded_image_pages_within_new_read_text": [
+        343,
+        346,
+        348,
+        368,
+        392,
+        397,
+        402,
+        404,
+        408,
+        410,
+        414,
+        418,
+        419,
+        423,
+        425,
+        428
+      ],
+      "embedded_image_pages_within_cumulative_read_text": [
+        1,
+        3,
+        4,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        90,
+        94,
+        97,
+        106,
+        108,
+        114,
+        137,
+        153,
+        166,
+        173,
+        180,
+        191,
+        195,
+        225,
+        230,
+        234,
+        236,
+        243,
+        244,
+        248,
+        265,
+        281,
+        287,
+        291,
+        294,
+        299,
+        305,
+        313,
+        317,
+        318,
+        343,
+        346,
+        348,
+        368,
+        392,
+        397,
+        402,
+        404,
+        408,
+        410,
+        414,
+        418,
+        419,
+        423,
+        425,
+        428
+      ],
+      "embedded_image_inspection_scope": "filepages1to444only;all55embeddedimagepageswithinreadprefixactuallyviewed;later558pagesunread",
+      "blank_extracted_body_pages_within_new_read_text": [],
+      "visual_findings": [
+        "All nine six-page contact sheets were actually viewed separately, followed by all16 selected detailed pages. Rendering alone received no credit.",
+        "Figure6.1/page343 shows percentage reporting an ideal of more than one sex partner next month across regions, not a mean number of partners or actual behavior. Figure6.2/page346 has a probability title but a -3 to+3 likelihood-rating axis; elapsed-time categories run from5years to1hour and are not a linear time axis.",
+        "Figure6.3/page348 illustrates the forced choice of revealing face versus body information; its caption continues page349. It is not a result-frequency graph or an individual fertility test. Figure6.4/page368 shows paired edited face/limbal-ring illustrations, not individual medical evidence.",
+        "Table6.1/pages355-356 groups behavioral,physiological and psychological clues. Table6.2/pages359-360 lists five classes of hypothesized benefits, includes one1991 personal-communication attribution, and is not a table showing all hypotheses confirmed.",
+        "Page371 actually prints r=+51 in both extracted text and enlarged page; adjacent correlations are decimal values. This out-of-range correlation is recorded as an unresolved source numeric issue, not silently repaired to+.51. Page373 reports r=+.55 for ratings versus self-reported SOI in24women, not55percent classification accuracy; several commonly assumed cues are explicitly invalid in that task.",
+        "Selected pages369,375,380-381 retain failed-replication/context/genetic-alternative qualifications. Summary language must not erase the qualifications in the chapter body.",
+        "Figure7.1/page402 is a reproduced fMRI response-to-child-morphs image; not a paternity,affection or deception test. Photographs on392,397,404,414,428 are illustrations; the page404 broad caption does not replace the selected55-man sample described page403.",
+        "Figure7.2/page408 is registered abuse victims per1000children in Hamilton,Ontario1983. Figure7.3/page410 is homicide victims per million child-years of parent-child coresidence in Canada1974-1983; age bins differ from Figure7.2. Relative differences are not absolute probabilities.",
+        "Figures7.4/page418 and7.5/page419 use homicides per million children per year, with different vertical scales and nonmonotone small-age movements. Overall age patterns are not strict year-by-year laws; zero in the historical sample does not imply universal zero risk.",
+        "Figures7.6/page423 and7.7/page425 use infanticides per million births, not child-years or percentages. The older-age reversal and page424 very small older-case count remain visible; marital-status associations are not current individual causal diagnoses.",
+        "Pages413,416-417,421 preserve counterconditions, a seven-twin-pair sample, resource-dependent reversal, and inconclusive Trivers-Willard findings. Parent-offspring numerical example431-432 and Box7.1/pages438-439 were visually checked; toy payoffs and selected historical homicide cases are not a moral ranking of relatives.",
+        "No newly read page had an empty extracted body. The58 remaining newly read page layouts were not individually viewed; later558pages are unread."
+      ],
+      "next_file_page": 445,
+      "next_character": 824905,
+      "unread_file_page_ranges": [
+        [
+          445,
+          1002
+        ]
+      ],
+      "unread_file_page_count": 558,
+      "raw_or_extracted_text_archived": false,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "source_scope": "provided2019textbookchapters;underlyingresearchnotnewlyfullread;not2026consensusorclinicalreview;notcurrentindividualdiagnosis",
+      "observed_output_truncations_in_new_reading_ranges": false,
+      "observed_visual_output_truncation": false,
+      "page_reading": [
+        {
+          "page": 333,
+          "range": [
+            610379,
+            611916
+          ],
+          "body_characters": 1509,
+          "text_sha256": "54053ae0005f2ff3503757b55bd73adeb82961dd4d1e3d59d375d614dd245529",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 334,
+          "range": [
+            611916,
+            613605
+          ],
+          "body_characters": 1661,
+          "text_sha256": "363a662a421d25a32309d8f95459cdf26f2de5e118b5c8058f771889fb31d5ee",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 335,
+          "range": [
+            613605,
+            615268
+          ],
+          "body_characters": 1635,
+          "text_sha256": "d8ffa607fec13309af5cb01905eae52d274c7bf1f837c6b7fe0f65142499e98c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 336,
+          "range": [
+            615268,
+            617154
+          ],
+          "body_characters": 1858,
+          "text_sha256": "c4452540143f3662b9a2fab293616bc88b5449643254a9aab63cd7c85792a021",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 337,
+          "range": [
+            617154,
+            619204
+          ],
+          "body_characters": 2022,
+          "text_sha256": "f46e7f888e8415eacd40925b7aa2937dc05e7cfd86abebad152abee4f07f2d1b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 338,
+          "range": [
+            619204,
+            621242
+          ],
+          "body_characters": 2010,
+          "text_sha256": "317ad7699636721782fb10ed3aaa569035859138ae1682c35386388769394988",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 339,
+          "range": [
+            621242,
+            622813
+          ],
+          "body_characters": 1543,
+          "text_sha256": "98b2d929cfd87583d8d7b286d4d73b6aa243581be60145d45f2f18d9244d9e5a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 340,
+          "range": [
+            622813,
+            624413
+          ],
+          "body_characters": 1572,
+          "text_sha256": "2ea04e1fadaaa8712221585b26a38a70ec55ae34c75a2e451b731d305376d08c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 341,
+          "range": [
+            624413,
+            626736
+          ],
+          "body_characters": 2295,
+          "text_sha256": "cb81a8adbfdd174cd5c946d185aeb941d236f3817c4fa8dd9f6a894dd5f42a0c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 342,
+          "range": [
+            626736,
+            628781
+          ],
+          "body_characters": 2017,
+          "text_sha256": "14ce202a80f15625c4d8df0a9710cc0d8aaac4cac1dec32c56261f5a9c2d4e4c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 343,
+          "range": [
+            628781,
+            629444
+          ],
+          "body_characters": 635,
+          "text_sha256": "77526cbdd6f7d2251f53972749922ba6420dac11763ea6b10605e952ae8c2f3f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 344,
+          "range": [
+            629444,
+            632007
+          ],
+          "body_characters": 2535,
+          "text_sha256": "4516e9d94e2e9f85e068e37aca901df6136edd662386133b2e135b2cc73de0f2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 345,
+          "range": [
+            632007,
+            634112
+          ],
+          "body_characters": 2077,
+          "text_sha256": "47c14915f1bf52dcad49341536be651b2b687499a48c20c26e655d08322dd328",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 346,
+          "range": [
+            634112,
+            635543
+          ],
+          "body_characters": 1403,
+          "text_sha256": "a7090f59375845998e8ab5d1f4e628c4afcd7957a2d9baa7f0f04f4ea43a8b11",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 347,
+          "range": [
+            635543,
+            637794
+          ],
+          "body_characters": 2223,
+          "text_sha256": "839f6e958d685134033357eb763be1f7f22e862bb66abfb01882868b935eb39e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 348,
+          "range": [
+            637794,
+            639051
+          ],
+          "body_characters": 1229,
+          "text_sha256": "b5e4df43d58eb6e1d8c97ac2f6b44a39395570f789435a453ac1e424c2093dca",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 349,
+          "range": [
+            639051,
+            641738
+          ],
+          "body_characters": 2659,
+          "text_sha256": "ea54812a0e29f8399c34b360b845a30c2fea32bc0654e718e4950603edfc32e6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 350,
+          "range": [
+            641738,
+            644085
+          ],
+          "body_characters": 2319,
+          "text_sha256": "002f9866f29235166c82e769d74c4f53f79a415ed2ba99026b819a77dec60611",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 351,
+          "range": [
+            644085,
+            646766
+          ],
+          "body_characters": 2653,
+          "text_sha256": "f4a7b73751d15715fb1fdde0fee3455ce5180a772234f7e6c2a641d70377637d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 352,
+          "range": [
+            646766,
+            649138
+          ],
+          "body_characters": 2344,
+          "text_sha256": "7f34788b4082530c054a532f87ae9262de3cdf25c3c335385f534ece100cc915",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 353,
+          "range": [
+            649138,
+            651286
+          ],
+          "body_characters": 2120,
+          "text_sha256": "c57edd37419e24f5066cf7fb8a0bec599a16e9b291613ba1dae8e5965ce327cd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 354,
+          "range": [
+            651286,
+            653588
+          ],
+          "body_characters": 2274,
+          "text_sha256": "f058f2d3cb96b8c375c9521fb84c06608905d947dd97a9dc7848181db15222a0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 355,
+          "range": [
+            653588,
+            655662
+          ],
+          "body_characters": 2046,
+          "text_sha256": "c6177409b8060159a76ce210ae8bc455eaa411a5d92e3136f512de20ac6945b9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 356,
+          "range": [
+            655662,
+            657451
+          ],
+          "body_characters": 1761,
+          "text_sha256": "aad803dce0ac6b6684583ed1039886926afe0d17f4b2595c516993995238df78",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 357,
+          "range": [
+            657451,
+            659645
+          ],
+          "body_characters": 2166,
+          "text_sha256": "53eb14076d106a9781b15fe4b2ed2609853e336fbcdb79d336169bd310dd6c2e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 358,
+          "range": [
+            659645,
+            661675
+          ],
+          "body_characters": 2002,
+          "text_sha256": "aa53d03bc8d68de36806c8424db61ad3221fffe3f0746bea4248dcae54f60eb5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 359,
+          "range": [
+            661675,
+            663559
+          ],
+          "body_characters": 1856,
+          "text_sha256": "4a4769b558093f8a0952682b6edfbed03b8c25a77a2d220561b0ab56292bd5e6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 360,
+          "range": [
+            663559,
+            665306
+          ],
+          "body_characters": 1719,
+          "text_sha256": "3772cfec2ced69135b34330fe3955c577ab0a807b0a95749e5dddec1c6baeaa0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 361,
+          "range": [
+            665306,
+            667443
+          ],
+          "body_characters": 2109,
+          "text_sha256": "70173742f53ae6629531e6aff17f95dedccf380d57e9865bb256d907e1802b02",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 362,
+          "range": [
+            667443,
+            669539
+          ],
+          "body_characters": 2068,
+          "text_sha256": "46ed6462b849ad81147b266ec079cb529cd71770a11c5d993eece710e336c585",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 363,
+          "range": [
+            669539,
+            671875
+          ],
+          "body_characters": 2308,
+          "text_sha256": "ae300b2fcb28c90f3e97a4ae7587a50f7d1fa91377ca90786bbb5197523096b1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 364,
+          "range": [
+            671875,
+            674378
+          ],
+          "body_characters": 2475,
+          "text_sha256": "328539a0033588c083b3d03014d2482e60cffbd41739c1027b6373923074c5b4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 365,
+          "range": [
+            674378,
+            676747
+          ],
+          "body_characters": 2341,
+          "text_sha256": "772c0bec747896099c02c7824758ed0278b69aa8ad0634e5c725f4f96b63205b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 366,
+          "range": [
+            676747,
+            679031
+          ],
+          "body_characters": 2256,
+          "text_sha256": "34274f4c376cd0c4cba56622e98728d6871b8e38e5e818151805c99527d7b2e2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 367,
+          "range": [
+            679031,
+            681127
+          ],
+          "body_characters": 2068,
+          "text_sha256": "6c95cae930e5e0d19196ac0e3ae49407c62913145bc8c7b25e7bba92041f4180",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 368,
+          "range": [
+            681127,
+            682417
+          ],
+          "body_characters": 1262,
+          "text_sha256": "fb9b4f5bf132b11e8c67239e31f5a95831eff2377ff70b4d3514a38d1f94450c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 369,
+          "range": [
+            682417,
+            684978
+          ],
+          "body_characters": 2533,
+          "text_sha256": "592db6023fc310c1134048535ea9dbe8707887bf502604b7538699223e8143ac",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 370,
+          "range": [
+            684978,
+            685750
+          ],
+          "body_characters": 744,
+          "text_sha256": "1a18437a02fec1b378ad041bdb373ed95569b25557025bd738a9a8f5df606042",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 371,
+          "range": [
+            685750,
+            687597
+          ],
+          "body_characters": 1819,
+          "text_sha256": "c78d06e18831ce7836c2a72c52786570c7b04a18469e3fb21a07f43c3b0c3c7a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 372,
+          "range": [
+            687597,
+            689824
+          ],
+          "body_characters": 2199,
+          "text_sha256": "a58145e9b913359e402b3b4cc09c0bb62a44a481164558724910ed910d91ae3d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 373,
+          "range": [
+            689824,
+            692138
+          ],
+          "body_characters": 2286,
+          "text_sha256": "72a8c5bf13d3f11a1bd01210c44c230d153c1ae70c0669f12d254bfd56d117b4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 374,
+          "range": [
+            692138,
+            694258
+          ],
+          "body_characters": 2092,
+          "text_sha256": "d5760470499e96ee5197a02e1b34544e261ee2630c93281f974b8b8bc7e703fb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 375,
+          "range": [
+            694258,
+            696625
+          ],
+          "body_characters": 2339,
+          "text_sha256": "07b8b7b420f670a392da5c85b234442a74ed74bdaa7d2281b2059351985a8a66",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 376,
+          "range": [
+            696625,
+            698577
+          ],
+          "body_characters": 1924,
+          "text_sha256": "e63c66228dadb7148e6527e4cace426553d64a6f609bfb1114e835a8c7d61a6c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 377,
+          "range": [
+            698577,
+            700774
+          ],
+          "body_characters": 2169,
+          "text_sha256": "d38573ce4c2452f95d2625819c2ba065bf3c30014bb66ee0a834c0cbbca8da17",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 378,
+          "range": [
+            700774,
+            703190
+          ],
+          "body_characters": 2388,
+          "text_sha256": "a7838885363708f1cd1b8e7350158bac6c20ffcf8857afa7f1e045b10189eddc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 379,
+          "range": [
+            703190,
+            705729
+          ],
+          "body_characters": 2511,
+          "text_sha256": "61502b0294485b4dbb4fcecace70a985fe213ddb83b6194079d0a52dc6d70309",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 380,
+          "range": [
+            705729,
+            707746
+          ],
+          "body_characters": 1989,
+          "text_sha256": "f85a68ebd790b1736f821c7d7eb017097b64bc1f312181309e8ad3763b3084a8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 381,
+          "range": [
+            707746,
+            710376
+          ],
+          "body_characters": 2602,
+          "text_sha256": "5442c37200cb9d5afd8f7cc724232d31ef061e354031b87cb9424f8b21988f9b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 382,
+          "range": [
+            710376,
+            711780
+          ],
+          "body_characters": 1376,
+          "text_sha256": "1d87db51f5fe6bb493bbe92e6bb944748d078d62fe1ace7455163926a67a943e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 383,
+          "range": [
+            711780,
+            713670
+          ],
+          "body_characters": 1862,
+          "text_sha256": "975ce606f5ba1c709ee279c7e51dccb6c2645ad4fae52637d9862d2e4f1d65f0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 384,
+          "range": [
+            713670,
+            713969
+          ],
+          "body_characters": 271,
+          "text_sha256": "1aec98ea581be4feb9718d3b280192da6ecca4f12eecc32dcfc6457efce57c11",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 385,
+          "range": [
+            713969,
+            715780
+          ],
+          "body_characters": 1783,
+          "text_sha256": "b3baa350ca9b4d94c976326fa692b1bd49b88226a5e7bd8afe4da1ee1902d5b3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 386,
+          "range": [
+            715780,
+            717221
+          ],
+          "body_characters": 1413,
+          "text_sha256": "73ea395adbe10765ada9091f2f3796f8390e3c93c2ea9d2e970fdad53e6032f4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 387,
+          "range": [
+            717221,
+            719718
+          ],
+          "body_characters": 2469,
+          "text_sha256": "ab481fd24bed59899407100d6cc384a54484aa87c317f22600de706a2254a7a0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 388,
+          "range": [
+            719718,
+            722373
+          ],
+          "body_characters": 2627,
+          "text_sha256": "0a1338a56fc310d1bc007092a1665f23fbda6b618f093d942cb8c84df5cbca63",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 389,
+          "range": [
+            722373,
+            723214
+          ],
+          "body_characters": 813,
+          "text_sha256": "013ac28105b35c24e373e849d241cc26fbea3e3a3be4ba5fca2d59d8305a6c57",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 390,
+          "range": [
+            723214,
+            725129
+          ],
+          "body_characters": 1887,
+          "text_sha256": "a63c8017d02febdff517c74ce3bf2de28ea9e1c14e6da365008475b17005ebc0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 391,
+          "range": [
+            725129,
+            726885
+          ],
+          "body_characters": 1728,
+          "text_sha256": "27154c35457cf825b21b6bd88396a67615e1062982e70349aa985ac20809f3d8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 392,
+          "range": [
+            726885,
+            727991
+          ],
+          "body_characters": 1078,
+          "text_sha256": "be70d9200d746a72c59272363314b6399aa43a08c34c0ffe38bbd8f5372277f8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 393,
+          "range": [
+            727991,
+            730442
+          ],
+          "body_characters": 2423,
+          "text_sha256": "02479e9d8ca8da5ed26fb3bd7a6bcadf4fe1f3b51c18dda3e8974ee442a836cc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 394,
+          "range": [
+            730442,
+            731679
+          ],
+          "body_characters": 1209,
+          "text_sha256": "34ebbf616730e95413cc9764a06b39e1c3a6a1e46aead666ccf40687e5d08108",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 395,
+          "range": [
+            731679,
+            733654
+          ],
+          "body_characters": 1947,
+          "text_sha256": "0f025aa6899010274b10360cdd1498144cbd91816c793fc8cefbaf15141c2052",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 396,
+          "range": [
+            733654,
+            735901
+          ],
+          "body_characters": 2219,
+          "text_sha256": "57eb2e29832fd4b6a747c7a4f86e7f8907d3a17981e6962d223d0547e4078948",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 397,
+          "range": [
+            735901,
+            736534
+          ],
+          "body_characters": 605,
+          "text_sha256": "d088a9e695dfcc3939d965837343fd695c6eb0f6aedc54dedf672d8af82d9cea",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 398,
+          "range": [
+            736534,
+            738949
+          ],
+          "body_characters": 2387,
+          "text_sha256": "7c14e45f7e434b8d72205f5a47556325296ecdb06268d01aa0e8a08772dc5aab",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 399,
+          "range": [
+            738949,
+            741138
+          ],
+          "body_characters": 2161,
+          "text_sha256": "14cec892627688c9d64b7db5f3d43ef50d747e83a54d4be2222ce0e7a857018c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 400,
+          "range": [
+            741138,
+            743791
+          ],
+          "body_characters": 2625,
+          "text_sha256": "91c0c763d80f916eefadfd47a4bec8ab03947d8f0f72b7e7eef26b1fc2189003",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 401,
+          "range": [
+            743791,
+            745406
+          ],
+          "body_characters": 1587,
+          "text_sha256": "9e6ebac8c6de9f58c394e708b33df23cd1c0a7875ef37213ccfabf1a466922f2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 402,
+          "range": [
+            745406,
+            746055
+          ],
+          "body_characters": 621,
+          "text_sha256": "51e912829a0796f8a6e56fa95596ea1469e5fd4245b24a84243b32028cffdbe4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 403,
+          "range": [
+            746055,
+            747466
+          ],
+          "body_characters": 1383,
+          "text_sha256": "4f2d6852c512f5099b10826aad08ac96575851d4949561e58ad366120833960d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 404,
+          "range": [
+            747466,
+            747964
+          ],
+          "body_characters": 470,
+          "text_sha256": "79f06192737f429f9bd8858e66c2abf96c95eb5297b3638936a3fed1a481f6e6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 405,
+          "range": [
+            747964,
+            750304
+          ],
+          "body_characters": 2312,
+          "text_sha256": "f4bb3d2b369e7855ad73fccd5ebf80569fbee4ffb241beffc740c5bff9d513f4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 406,
+          "range": [
+            750304,
+            752916
+          ],
+          "body_characters": 2584,
+          "text_sha256": "3ad85f88515df53b8e2735f9579ebf316c9cf37dbec9d2fe14a3e32a417d3a39",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 407,
+          "range": [
+            752916,
+            755045
+          ],
+          "body_characters": 2101,
+          "text_sha256": "8e5accea87982bb1dab0b055083422364b513a51a4c7598bbe24e3eacb2e98a8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 408,
+          "range": [
+            755045,
+            756254
+          ],
+          "body_characters": 1181,
+          "text_sha256": "692c109cd9047cec28c09511937a61cec37135c74d07b95d4c70c49f862aff7e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 409,
+          "range": [
+            756254,
+            758275
+          ],
+          "body_characters": 1993,
+          "text_sha256": "28999c6303003f1f43f8eda42976bcf3b0bfb6eab143f0ec911035205877acb7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 410,
+          "range": [
+            758275,
+            759539
+          ],
+          "body_characters": 1236,
+          "text_sha256": "e4159fc299d37bc5ba000fff17c7f121ee215dba1c2d06b284c205b8a82c5753",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 411,
+          "range": [
+            759539,
+            761781
+          ],
+          "body_characters": 2214,
+          "text_sha256": "2e7b666f6f8cd5a9d2333696971a989d747b93b50d9b41a7e1361b4ea51aeca0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 412,
+          "range": [
+            761781,
+            764346
+          ],
+          "body_characters": 2537,
+          "text_sha256": "0b2f5a287df5dc49aef558c32669f8706ac2bc4f541f004ffa14ceca378db302",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 413,
+          "range": [
+            764346,
+            766464
+          ],
+          "body_characters": 2090,
+          "text_sha256": "21cd60e49dcabaa538715ef94df1a8a2f82ffcf2807ea2e22d7e8ac074168e93",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 414,
+          "range": [
+            766464,
+            767867
+          ],
+          "body_characters": 1375,
+          "text_sha256": "5f2baf0f6d14a3e43c501da8d0a68781e03b39ec2490d404ec6d9cbf39dee5bf",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 415,
+          "range": [
+            767867,
+            769871
+          ],
+          "body_characters": 1976,
+          "text_sha256": "85009c4555dd442beb442333330c4f1ac77adc820fe63ee7acf6000eba82cca8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 416,
+          "range": [
+            769871,
+            772142
+          ],
+          "body_characters": 2243,
+          "text_sha256": "13bd983816ff1e757260fe7d9a63171e4f0b35d73ae41c1f354658e0d33896e4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 417,
+          "range": [
+            772142,
+            774043
+          ],
+          "body_characters": 1873,
+          "text_sha256": "b564141604149980c784ad1c9ae387e4d82a6dd862cbda8938c7be64a4d99dcf",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 418,
+          "range": [
+            774043,
+            774329
+          ],
+          "body_characters": 258,
+          "text_sha256": "de183eb1a2ab3c8042805a490bbb8afa8e11132ef73716b204fbb565bb999a10",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 419,
+          "range": [
+            774329,
+            775642
+          ],
+          "body_characters": 1285,
+          "text_sha256": "c91e46fdcc15569f25030fbb40547b59714a479cf5a82b187e0a1717d64a3fd5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 420,
+          "range": [
+            775642,
+            777942
+          ],
+          "body_characters": 2272,
+          "text_sha256": "867b5b1e84c12b712659fe78949c941cc77a43b3e5c5803b8285e3bd7ba03916",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 421,
+          "range": [
+            777942,
+            780387
+          ],
+          "body_characters": 2417,
+          "text_sha256": "d45c46f6bf2425876c2abb42b3d6c920ef8c562b1f91f7e0957fbbb4074c328a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 422,
+          "range": [
+            780387,
+            782290
+          ],
+          "body_characters": 1875,
+          "text_sha256": "1397a1bcf53d3c1aed323e54bd0d238ecfe2e1b6e5bf9e86cf36220bb7730492",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 423,
+          "range": [
+            782290,
+            783146
+          ],
+          "body_characters": 828,
+          "text_sha256": "1cf0bc61d25c22613a81d488a66a8ddbc7ef0c7c624582b48898ce42bc8c1bbd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 424,
+          "range": [
+            783146,
+            785273
+          ],
+          "body_characters": 2099,
+          "text_sha256": "80ab7d495b878c5af5a490e08f97a8150ef7b01d887fac2021e19f0009eefbec",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 425,
+          "range": [
+            785273,
+            786506
+          ],
+          "body_characters": 1205,
+          "text_sha256": "580820958ef8a42863d0dff5df6d930f0baa5afce4c88f9878575340fd5ff5fd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 426,
+          "range": [
+            786506,
+            788770
+          ],
+          "body_characters": 2236,
+          "text_sha256": "fc6a998e118b8d816a8d06df941ba491553516a648b370e7dec4a8076fd2a8ef",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 427,
+          "range": [
+            788770,
+            791116
+          ],
+          "body_characters": 2318,
+          "text_sha256": "3138b65490715c68293a148216a12adf3d4fdf5ab3d046e9bfaec16c44ac760d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 428,
+          "range": [
+            791116,
+            792403
+          ],
+          "body_characters": 1259,
+          "text_sha256": "bc7f39991eb1d0316ae8c45d626a4d63a482a4caa26fe6030a9597127c7689ef",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 429,
+          "range": [
+            792403,
+            794370
+          ],
+          "body_characters": 1939,
+          "text_sha256": "54da8b18a4a902e27b61e9951daace7ce3fa62bf123b5f0c1379c9fb5e5889e6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 430,
+          "range": [
+            794370,
+            795479
+          ],
+          "body_characters": 1081,
+          "text_sha256": "e4340735a65bac4636ea84d028c68163df66313badf3bf68fed10898a37961c0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 431,
+          "range": [
+            795479,
+            797626
+          ],
+          "body_characters": 2119,
+          "text_sha256": "af384885633f4eb094234d9b5c513e0b4118f62399b031026524c69ce08e4422",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 432,
+          "range": [
+            797626,
+            800284
+          ],
+          "body_characters": 2630,
+          "text_sha256": "321371b3ff9322b002004535a1f5f041d441180ba84a3d5d86d9df061f6458eb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 433,
+          "range": [
+            800284,
+            802361
+          ],
+          "body_characters": 2049,
+          "text_sha256": "d14f0e42fb2db3e3f5a6a712a235c6869bf9ab465cb1ee0656807578a321351c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 434,
+          "range": [
+            802361,
+            805056
+          ],
+          "body_characters": 2667,
+          "text_sha256": "099fcb787e6a5ae9618c2c84211c5db3bd090afa91d8b3ecb559b19ad8ec8bf1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 435,
+          "range": [
+            805056,
+            807125
+          ],
+          "body_characters": 2041,
+          "text_sha256": "5526dc47a8d8e7b14c8324d39d63aac7c6bd1aff4a96a9a9e30a8d7a757e690b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 436,
+          "range": [
+            807125,
+            809340
+          ],
+          "body_characters": 2187,
+          "text_sha256": "fd3106fd93bd861329e27234af744b8d4d31b1ff306f4bc63c1b71bc65719244",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 437,
+          "range": [
+            809340,
+            811827
+          ],
+          "body_characters": 2459,
+          "text_sha256": "1ed2d4abdf6cd3e26fa45ae754b132106d58c72e24112ea10ba3a44f75ad0041",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 438,
+          "range": [
+            811827,
+            814056
+          ],
+          "body_characters": 2201,
+          "text_sha256": "ccc47fd921f7442b322d69d94a2bee44bb4d93fd304ca9da90030227e2e36308",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 439,
+          "range": [
+            814056,
+            816012
+          ],
+          "body_characters": 1928,
+          "text_sha256": "dba4ecd728d5d8220794ba025f4e0828408b82871477cbde45895423264d1bc0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 440,
+          "range": [
+            816012,
+            818065
+          ],
+          "body_characters": 2025,
+          "text_sha256": "5b84c4e4a32de003177ccb36e4dd2728fdf244040e1beccdfcafec7b4a5a0275",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 441,
+          "range": [
+            818065,
+            820609
+          ],
+          "body_characters": 2516,
+          "text_sha256": "3ff9178495ab4b89ba2649d64407bbe39ad8c3f21fdace9a43e0896283234c8e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 442,
+          "range": [
+            820609,
+            822940
+          ],
+          "body_characters": 2303,
+          "text_sha256": "71c2e858f868d18d18da4b259be118547761ed129739395860486264a556fb2b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 443,
+          "range": [
+            822940,
+            823145
+          ],
+          "body_characters": 177,
+          "text_sha256": "61e50c12073288673624a780b73034035428b3143071e0be126c81e595885fa6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 444,
+          "range": [
+            823145,
+            824905
+          ],
+          "body_characters": 1732,
+          "text_sha256": "0b2a428339ad5728a04d118657adace7bd6a10da012591cc954fddfa9ead96f1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ],
+      "read_content_units": [
+        {
+          "name": "Chapter6: Short-Term Sexual Strategies",
+          "file_pages": [
+            333,
+            384
+          ],
+          "range": [
+            610379,
+            713969
+          ],
+          "note": "knowledge/books/B014-ch06.md"
+        },
+        {
+          "name": "Part4 introduction only",
+          "file_pages": [
+            385,
+            385
+          ],
+          "range": [
+            713969,
+            715780
+          ],
+          "note": "knowledge/books/B014-ch07.md"
+        },
+        {
+          "name": "Chapter7: Problems of Parenting",
+          "file_pages": [
+            386,
+            444
+          ],
+          "range": [
+            715780,
+            824905
+          ],
+          "note": "knowledge/books/B014-ch07.md"
+        }
+      ],
+      "visual_elements_reviewed": [
+        {
+          "id": "Figure6.1",
+          "file_pages": [
+            343
+          ],
+          "kind": "percentage_desiring_more_than_one_partner_not_mean_or_actual_behavior"
+        },
+        {
+          "id": "Figure6.2",
+          "file_pages": [
+            346
+          ],
+          "kind": "title_probability_but_minus3to3_ratings_reverse_discrete_time_categories"
+        },
+        {
+          "id": "Figure6.3",
+          "file_pages": [
+            348,
+            349
+          ],
+          "kind": "face_body_reveal_forced_choice_illustration_not_outcome_plot"
+        },
+        {
+          "id": "Figure6.4",
+          "file_pages": [
+            368
+          ],
+          "kind": "paired_limbal_ring_face_illustrations_not_health_test"
+        },
+        {
+          "id": "Table6.1",
+          "file_pages": [
+            355,
+            356
+          ],
+          "kind": "three_groups_of_clues_not_all_confirmed_mechanisms"
+        },
+        {
+          "id": "Table6.2",
+          "file_pages": [
+            359,
+            360
+          ],
+          "kind": "five_hypothesis_classes_with_different_support_and_personal_communication"
+        },
+        {
+          "id": "Figure7.1",
+          "file_pages": [
+            402
+          ],
+          "kind": "fMRI_child_morph_response_not_paternity_or_affection_test"
+        },
+        {
+          "id": "Figure7.2",
+          "file_pages": [
+            408,
+            409
+          ],
+          "kind": "registered_abuse_victims_per1000children_Hamilton1983"
+        },
+        {
+          "id": "Figure7.3",
+          "file_pages": [
+            410
+          ],
+          "kind": "victims_per_million_childyears_of_parentchild_coresidence_Canada1974to1983"
+        },
+        {
+          "id": "Figure7.4",
+          "file_pages": [
+            418
+          ],
+          "kind": "homicides_per_million_children_per_year_natural_parent_historical"
+        },
+        {
+          "id": "Figure7.5",
+          "file_pages": [
+            419
+          ],
+          "kind": "homicides_per_million_children_per_year_nonrelative_different_vertical_scale"
+        },
+        {
+          "id": "Figure7.6",
+          "file_pages": [
+            423,
+            424
+          ],
+          "kind": "infanticides_per_million_births_maternal_age_small_older_case_count"
+        },
+        {
+          "id": "Figure7.7",
+          "file_pages": [
+            425,
+            426
+          ],
+          "kind": "infanticides_per_million_births_maternal_age_marital_status"
+        }
+      ],
+      "specific_source_checks": [
+        {
+          "id": "C1",
+          "file_pages": [
+            343,
+            346
+          ],
+          "finding": "Figure6.1percentagesnotmeans;Figure6.2minus3to3ratingsdespiteprobabilitytitle;reversediscretetimeaxis"
+        },
+        {
+          "id": "C2",
+          "file_pages": [
+            359,
+            360,
+            364,
+            366,
+            381
+          ],
+          "finding": "fiveclassesarehypothesesnotallconfirmed;1991and2018personalcommunicationsnotpeerreviewedexperiments;perceivedmodernbenefitsnotevolvedfunctions"
+        },
+        {
+          "id": "C3",
+          "file_pages": [
+            368,
+            369,
+            374,
+            381
+          ],
+          "finding": "goodgenes/ovulatoryshiftandmasculinityqualificationsandfailedreplicationsretaineddespitestrongersummary"
+        },
+        {
+          "id": "C4",
+          "file_pages": [
+            371
+          ],
+          "finding": "extractedtextandenlargedpagebothr=+51;outofordinarycorrelationrange;notrepairedto+.51withoutprimarysource"
+        },
+        {
+          "id": "C5",
+          "file_pages": [
+            373
+          ],
+          "finding": "24womenvideotask;r+.55not55percentclassificationaccuracy;smiling/laughter/closeness/dressinvalidcuesforthattask;tattoosperceptionnotconfirmedstrategy"
+        },
+        {
+          "id": "C6",
+          "file_pages": [
+            355,
+            356,
+            357
+          ],
+          "finding": "equalmeanencountercountsconditiononsameheterosexualpoolandequalpopulations;notidenticaldesiresordistributions"
+        },
+        {
+          "id": "C7",
+          "file_pages": [
+            401,
+            402,
+            403,
+            404
+          ],
+          "finding": "morph/fMRIresponsesnotpaternitytest;page404captionbroaderthanselected55-manviolencetreatmentstudydescribedpage403"
+        },
+        {
+          "id": "C8",
+          "file_pages": [
+            408,
+            410,
+            418,
+            419,
+            423,
+            424,
+            425
+          ],
+          "finding": "per1000childrenvspermillioncoresidentchildyearsvspermillionchildrenperyearvspermillionbirths;historicalregionsandsmalloldercasecountretained"
+        },
+        {
+          "id": "C9",
+          "file_pages": [
+            413,
+            416,
+            417
+          ],
+          "finding": "sevenpreterm_twinpairsnotuniversalparentalrule;resourceabundancecanreverseinvestmentpattern"
+        },
+        {
+          "id": "C10",
+          "file_pages": [
+            420,
+            421
+          ],
+          "finding": "TriversWillardhumanresultsinconclusiveandconditionsstated;sexofbirth/education/parentingtimeareseparateoutcomes"
+        }
+      ]
+    }
+  ],
+  "new_book_files_completed": 0,
+  "new_direct_primary_extraction_characters": 214526,
+  "new_physical_file_pages_covered": 112,
+  "selected_visual_page_reviews": 54,
+  "remaining_unreviewed_layout_pages_within_new_read_text": 58,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B014",
+    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+    "bytes": 13323230,
+    "file_pages": 1002,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "physicalpage445start;Chapter8;continuecurrentextractionat824905;notoldhistoricalcoordinates",
+    "next_file_page": 445,
+    "next_character": 824905,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+      "characters": 1991387,
+      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+    },
+    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+    "ledger": "knowledge/provenance/B014_ch06_ch07_reading_2026-11-11.json",
+    "next_content_unit": "Chapter8: Problems of Kinship"
+  }
+}

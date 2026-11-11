@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-11顺读推进到B014第五章末，当前断点为第六章第333页。最近[系统维护](knowledge/provenance/OS_scope_update_2026-11-11.md)已完成，26方法、31路由、五种任务和26处首选段落继续有效；本轮给M08/M10/M22补四条已读来源绑定。
+2026-11-11顺读推进到B014第七章末，当前断点为第八章第445页。最近[系统维护](knowledge/provenance/OS_scope_update_2026-11-11.md)已完成，26方法、31路由、五种任务和26处首选段落继续有效；本轮给M08/M22/M23补三条已读来源绑定。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B014](knowledge/books/B014.md)新增顺读第四、五章，物理页215–332、222619字符、14段连续范围；另核42页版面。累计读至332页，下一第六章333页、当前字符610379。当前22/119份文字完成、1份部分、96份未开始；TOP30仍30/30，没有新增整本完成。[本轮报告](knowledge/provenance/B014_ch04_ch05_completion_2026-11-11.md)。
+2026-11-11：[B014](knowledge/books/B014.md)新增顺读第六、七章和第四部分介绍，物理页333–444、214526字符、13段连续范围；另核54页版面。累计读至444页，下一第八章445页、当前字符824905。当前22/119份文字完成、1份部分、96份未开始；TOP30仍30/30，没有新增整本完成。[本轮报告](knowledge/provenance/B014_ch06_ch07_completion_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前22/119份现有文字覆盖完成，1份部分、96份未开始。B014已顺读物理页1–332，累计102页视觉，230页已读文字的版面未逐页核，后续670页未读。B013七项版本核对及其他书籍的原著、版式、缺图和研究缺口继续保留。
+当前22/119份现有文字覆盖完成，1份部分、96份未开始。B014已顺读物理页1–444，累计156页视觉，288页已读文字的版面未逐页核，后续558页未读。此前各书原著、版本、版式、缺图和研究核验范围继续保留。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

@@ -2,14 +2,14 @@
   "schema_version": 1,
   "updated": "2026-11-11",
   "current_focus": "original_book_reading",
-  "status": "B014_ch04_ch05_checks_passed",
-  "base_commit": "00619bcfbd4964c42188a9b766f4b00020e066ba",
+  "status": "B014_ch06_ch07_checks_passed",
+  "base_commit": "30a76532ed31930781edc01b9223ec1a79918d3a",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B014_ch04_ch05_completion_2026-11-11.md",
-  "validation": "knowledge/provenance/B014_ch04_ch05_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B014_ch06_ch07_completion_2026-11-11.md",
+  "validation": "knowledge/provenance/B014_ch06_ch07_validation_2026-11-11.json",
   "reading_bookmark": {
     "id": "B014",
     "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
@@ -18,9 +18,9 @@
     "file_pages": 1002,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage333start;Chapter6;continuecurrentextractionat610379;notoldhistoricalcoordinates",
-    "next_file_page": 333,
-    "next_character": 610379,
+    "start": "physicalpage445start;Chapter8;continuecurrentextractionat824905;notoldhistoricalcoordinates",
+    "next_file_page": 445,
+    "next_character": 824905,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
       "characters": 1991387,
@@ -28,11 +28,39 @@
       "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
     },
     "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
-    "ledger": "knowledge/provenance/B014_ch04_ch05_reading_2026-11-11.json",
-    "next_content_unit": "Chapter6: Short-Term Sexual Strategies"
+    "ledger": "knowledge/provenance/B014_ch06_ch07_reading_2026-11-11.json",
+    "next_content_unit": "Chapter8: Problems of Kinship"
   },
-  "next_work": "Resume B014 Chapter6 at physicalpage333/currentextraction610379;later670pagesunread;verify sameblobandhash.",
+  "next_work": "Resume B014 Chapter8 at physicalpage445/currentextraction824905;later558pagesunread;verify sameblobandhash.",
   "current_session_progress": {
+    "baseline": "30a76532ed31930781edc01b9223ec1a79918d3a",
+    "text_complete_file_ids": [],
+    "text_partial_file_ids": [
+      "B014"
+    ],
+    "direct_primary_extraction_characters": 214526,
+    "physical_file_pages": 112,
+    "selected_visual_page_reviews": 54,
+    "remaining_unreviewed_layout_pages_within_new_read_text": 58,
+    "B014_cumulative_read_file_pages": 444,
+    "B014_cumulative_direct_read_characters": 824905,
+    "B014_cumulative_visual_pages": 156,
+    "B014_unread_file_pages": 558,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "source_checks": 10,
+    "new_method_source_bindings": 3,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "scope": true
+    }
+  },
+  "last_reading_progress": {
     "baseline": "00619bcfbd4964c42188a9b766f4b00020e066ba",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
@@ -51,33 +79,6 @@
     "task_modes": 5,
     "source_checks": 8,
     "new_method_source_bindings": 4,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
-    "checks": {
-      "structural": true,
-      "unittest_methods": 29,
-      "synthetic_routing_scenarios": 108,
-      "scope": true
-    }
-  },
-  "last_reading_progress": {
-    "baseline": "d2e20c6169bf28b3680e8eb1e051b6a2b99d9283",
-    "text_complete_file_ids": [],
-    "text_partial_file_ids": [
-      "B014"
-    ],
-    "direct_primary_extraction_characters": 248264,
-    "physical_file_pages": 132,
-    "selected_visual_page_reviews": 36,
-    "remaining_unreviewed_layout_pages_within_new_read_text": 96,
-    "B014_cumulative_read_file_pages": 214,
-    "B014_cumulative_direct_read_characters": 387760,
-    "B014_cumulative_visual_pages": 60,
-    "B014_unread_file_pages": 788,
-    "methods": 26,
-    "routes": 31,
-    "task_modes": 5,
-    "source_checks": 4,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "checks": {
@@ -106,25 +107,25 @@
     }
   },
   "earlier_reading_progress": {
-    "baseline": "1f6657072b20b897d222214544a82f5a8f5a68bf",
-    "text_complete_file_ids": [
-      "B013"
-    ],
+    "baseline": "d2e20c6169bf28b3680e8eb1e051b6a2b99d9283",
+    "text_complete_file_ids": [],
     "text_partial_file_ids": [
       "B014"
     ],
-    "direct_primary_extraction_characters": 175227,
-    "physical_file_pages": 130,
-    "selected_visual_page_reviews": 42,
-    "remaining_unreviewed_layout_pages_within_read_text": 88,
-    "B014_later_unread_file_pages": 920,
+    "direct_primary_extraction_characters": 248264,
+    "physical_file_pages": 132,
+    "selected_visual_page_reviews": 36,
+    "remaining_unreviewed_layout_pages_within_new_read_text": 96,
+    "B014_cumulative_read_file_pages": 214,
+    "B014_cumulative_direct_read_characters": 387760,
+    "B014_cumulative_visual_pages": 60,
+    "B014_unread_file_pages": 788,
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "B013_comparison_items": 7,
+    "source_checks": 4,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
-    "distinct_original_works_or_success_cases_not_asserted": true,
     "checks": {
       "structural": true,
       "unittest_methods": 29,
@@ -145,6 +146,33 @@
       "remaining_unreviewed_layout_pages": 130,
       "latest_unit": "B012",
       "distinct_original_works_or_success_cases_not_asserted": true
+    },
+    {
+      "baseline": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+      "text_complete_file_ids": [
+        "B013"
+      ],
+      "text_partial_file_ids": [
+        "B014"
+      ],
+      "direct_primary_extraction_characters": 175227,
+      "physical_file_pages": 130,
+      "selected_visual_page_reviews": 42,
+      "remaining_unreviewed_layout_pages_within_read_text": 88,
+      "B014_later_unread_file_pages": 920,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "B013_comparison_items": 7,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "distinct_original_works_or_success_cases_not_asserted": true,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "scope": true
+      }
     }
   ]
 }
