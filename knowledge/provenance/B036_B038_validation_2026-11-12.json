@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+  "checks": {
+    "status": "passed",
+    "structural": true,
+    "unittest_methods": 48,
+    "synthetic_routing_scenarios": 158,
+    "new_tests": 0,
+    "direct_native_read_chunks": 19,
+    "direct_characters": 209837,
+    "direct_body_characters": 205797,
+    "reviewed_PDF_pure_text_pages": 3,
+    "reviewed_EPUB_image_assets": 4,
+    "deferred_EPUB_images": 77,
+    "method_source_bindings": 32,
+    "original_review_groups": 12,
+    "preferred_source_targets": 26,
+    "internal_link_targets": 312,
+    "targeted_retrievals": {
+      "M08": {
+        "path": "knowledge/books/B036-evidence-and-model.md",
+        "heading": "数学式不能补上缺少的依据"
+      },
+      "M01": {
+        "path": "knowledge/books/B038-profile-and-privacy.md",
+        "heading": "不把了解变成隐蔽调查"
+      },
+      "M14": {
+        "path": "knowledge/books/B038-part4-invitations.md",
+        "heading": "对齐实际安排"
+      },
+      "M17": {
+        "path": "knowledge/books/B038-part4-invitations.md",
+        "heading": "拒绝与新增内容"
+      },
+      "M11": {
+        "path": "knowledge/books/B038-part5-connection.md",
+        "heading": "真正可以回扣的内容"
+      },
+      "M23": {
+        "path": "knowledge/books/B038-part7-breakups.md",
+        "heading": "先听清本人说的是什么"
+      }
+    },
+    "scope": true,
+    "unrelated_source_records_unchanged": 156,
+    "historical_inventory_records_unchanged": 124,
+    "private_case_summaries_saved": 0,
+    "source_images_newly_archived": 0
+  },
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 40,
+    "current_file_text_partial": 5,
+    "not_started": 74
+  },
+  "next": {
+    "id": "B039",
+    "path": "冷眼观爱2 - 冷爱.pdf",
+    "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+    "bytes": 7795361,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": 380,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
+    "next_character": 0,
+    "start": "Unstarted scanned PDF. Start at physical page1. Historical380-page OCR processing is not verified reading.",
+    "next_content_unit": "B039 file page1; reconstruct readable OCR for required pages and verify against page images",
+    "current_extraction_identity": null,
+    "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+    "substantive_body_characters_read": 0
+  },
+  "test_execution": {
+    "command": "python -m unittest discover -s books2/tests -p 'test_*.py'",
+    "exit_code": 0,
+    "observed_output": "Ran48 tests in2.602s; OK",
+    "cases_all_synthetic": true
+  },
+  "verification_scope": "Coverage identities,local references and factual routing. No OCR benchmark,empirical relationship efficacy,clinical or legal validation.",
+  "structural_output": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 40,
+    "book_not_started": 74,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  }
+}

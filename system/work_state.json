@@ -1,90 +1,125 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "screenshot_order_and_invitation_follow_up",
-  "status": "system_maintenance_checks_passed",
-  "base_commit": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
-  "reading_paused_for_this_round": true,
+  "current_focus": "B036_B038_native_texts_complete_with_image_gaps",
+  "status": "B036_B038_native_reading_checks_passed",
+  "base_commit": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+  "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
-  "validation": "knowledge/provenance/OS_screens_and_plans_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B036_B038_progress_2026-11-12.md",
+  "validation": "knowledge/provenance/B036_B038_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B036",
-    "path": "人妻约会指南.pdf",
-    "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
-    "bytes": 2994034,
+    "id": "B039",
+    "path": "冷眼观爱2 - 冷爱.pdf",
+    "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+    "bytes": 7795361,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 97,
+    "file_pages": 380,
     "spine_items": null,
     "next_spine_index": null,
     "next_file_page": 1,
     "next_character": 0,
-    "current_extraction_identity": {
-      "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
-      "characters": 72537,
-      "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
-      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
-    },
-    "pdf_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
-    "start": "File page1,character0; no substantive body read. Before continuation apply privacy exclusions to source images and private narratives.",
-    "next_content_unit": "B036 provided PDF body from file page1 under privacy-safe argument-only reading; images separately deferred",
-    "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json",
-    "preflight_only": true,
-    "substantive_body_characters_read": 0,
-    "image_material_deferred_file_pages": [
-      3,
-      8,
-      9,
-      10,
-      35,
-      40,
-      69,
-      70,
-      77,
-      93,
-      94,
-      95,
-      96,
-      97
-    ],
-    "historical_extraction_characters": 72052
+    "start": "Unstarted scanned PDF. Start at physical page1. Historical380-page OCR processing is not verified reading.",
+    "next_content_unit": "B039 file page1; reconstruct readable OCR for required pages and verify against page images",
+    "current_extraction_identity": null,
+    "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+    "substantive_body_characters_read": 0
   },
-  "next_work": "B036 file page1,character0 after applying privacy-safe scope; only preflight performed. B038 long EPUB and B039 scanned PDF remain separate unread bookmarks. Preserve40/119 current-file coverage,all earlier exclusions and completed OS maintenance.",
+  "next_work": "B039 scanned PDF from physicalpage1 with readable OCR/visual checking. B036 and B038 native texts are read; retained image gaps are separately listed.",
   "current_session_progress": {
-    "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
-    "work_type": "system_maintenance",
+    "baseline": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+    "work_type": "original_file_reading",
+    "new_book_files_started": [
+      "B036",
+      "B038"
+    ],
     "new_book_files_completed": [],
-    "new_book_characters_read": 0,
-    "new_book_pages_read": 0,
+    "new_whole_book_files_completed": 0,
+    "text_complete_file_ids": [],
+    "new_native_text_complete_file_ids": [
+      "B036",
+      "B038"
+    ],
+    "text_partial_file_ids": [
+      "B014",
+      "B015",
+      "B017",
+      "B036",
+      "B038"
+    ],
+    "direct_extractable_characters_read": 209837,
+    "main_body_characters_read": 205797,
+    "actual_direct_native_read_chunks": 19,
+    "native_PDF_pages_read": 97,
+    "native_EPUB_spine_items_read": 17,
+    "selected_PDF_pure_text_pages_viewed": [
+      4,
+      33,
+      34
+    ],
+    "selected_EPUB_images_viewed": 4,
+    "new_OCR_pages": 0,
     "methods": 26,
     "routes": 36,
     "task_modes": 5,
-    "changed_method_operations": [
-      "M15",
-      "M17"
-    ],
-    "changed_preferred_sections": [
-      "M15",
-      "M17",
-      "M18"
-    ],
-    "new_synthetic_scenarios": 26,
-    "total_synthetic_scenarios": 158,
-    "source_records_unchanged": 158,
-    "reading_bookmark_unchanged": true,
+    "new_original_review_groups": 12,
+    "new_book_entry_files": 2,
+    "new_method_source_bindings": 32,
+    "changed_method_operations": [],
+    "changed_preferred_sections": [],
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
     "checks": {
+      "status": "passed",
       "structural": true,
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158,
-      "original_132_scenarios_preserved": true,
-      "new_scenarios_through_coach_cli": 26,
-      "manually_reviewed_existing_synthetic_images": 3,
-      "blind_visual_tests": 0
-    },
-    "changed_preferred_reference_targets": []
+      "new_tests": 0,
+      "direct_native_read_chunks": 19,
+      "direct_characters": 209837,
+      "direct_body_characters": 205797,
+      "reviewed_PDF_pure_text_pages": 3,
+      "reviewed_EPUB_image_assets": 4,
+      "deferred_EPUB_images": 77,
+      "method_source_bindings": 32,
+      "original_review_groups": 12,
+      "preferred_source_targets": 26,
+      "internal_link_targets": 312,
+      "targeted_retrievals": {
+        "M08": {
+          "path": "knowledge/books/B036-evidence-and-model.md",
+          "heading": "数学式不能补上缺少的依据"
+        },
+        "M01": {
+          "path": "knowledge/books/B038-profile-and-privacy.md",
+          "heading": "不把了解变成隐蔽调查"
+        },
+        "M14": {
+          "path": "knowledge/books/B038-part4-invitations.md",
+          "heading": "对齐实际安排"
+        },
+        "M17": {
+          "path": "knowledge/books/B038-part4-invitations.md",
+          "heading": "拒绝与新增内容"
+        },
+        "M11": {
+          "path": "knowledge/books/B038-part5-connection.md",
+          "heading": "真正可以回扣的内容"
+        },
+        "M23": {
+          "path": "knowledge/books/B038-part7-breakups.md",
+          "heading": "先听清本人说的是什么"
+        }
+      },
+      "scope": true,
+      "unrelated_source_records_unchanged": 156,
+      "historical_inventory_records_unchanged": 124,
+      "private_case_summaries_saved": 0,
+      "source_images_newly_archived": 0
+    }
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -1327,6 +1362,70 @@
         "reading_attribution_verified": true,
         "blind_visual_tests": 0
       }
+    },
+    {
+      "baseline": "c31c8106542556b8e8845f109dc2251a7046e197",
+      "work_type": "original_file_reading",
+      "text_complete_file_ids": [
+        "B034",
+        "B035",
+        "B040",
+        "B041",
+        "B044",
+        "B052"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B034",
+        "B035",
+        "B040",
+        "B041",
+        "B044",
+        "B052"
+      ],
+      "direct_extractable_characters_read": 294421,
+      "main_body_characters_read": 282625,
+      "actual_direct_native_read_chunks": 26,
+      "direct_native_file_pages": 362,
+      "reused_file_ids": [
+        "B041"
+      ],
+      "reused_current_extraction_characters": 76969,
+      "B041_page_comparisons": 119,
+      "visual_only_file_ids": [
+        "B052"
+      ],
+      "B052_visual_file_pages": 13,
+      "B052_garbled_characters_not_counted": 13558,
+      "preflight_only_file_ids": [
+        "B036"
+      ],
+      "methods": 26,
+      "routes": 32,
+      "task_modes": 5,
+      "new_method_source_bindings": 22,
+      "new_original_review_groups": 13,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_whole_book_files_completed": 6,
+      "new_independent_works_not_counted": true,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 39,
+        "synthetic_routing_scenarios": 132,
+        "new_synthetic_scenarios": 0,
+        "preferred_sections_complete": 26,
+        "reading_metadata_scope": true,
+        "focused_retrieval_checks": 8,
+        "scope": true
+      }
     }
   ],
   "deferred_work_units": [
@@ -1368,34 +1467,142 @@
       "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
     },
     {
+      "id": "B036",
+      "path": "人妻约会指南.pdf",
+      "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+      "bytes": 2994034,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+        "characters": 72537,
+        "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Only the retained private or unverified source-image gap; native text fully read",
+      "next_file_page": null,
+      "image_pages_excluded": [
+        3,
+        8,
+        9,
+        10,
+        35,
+        40,
+        69,
+        70,
+        77,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
       "id": "B038",
       "path": "冷眼观爱 - 冷爱.epub",
       "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
       "bytes": 3825636,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-      "reading_status": "unread",
-      "next_file_page": null,
-      "next_spine_index": 1,
-      "next_character": 0,
-      "file_pages": null,
-      "start": "Long EPUB not started this batch; restore from spine item1 after current binary and privacy checks.",
-      "substantive_body_characters_read_this_round": 0,
-      "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json"
-    },
-    {
-      "id": "B039",
-      "path": "冷眼观爱2 - 冷爱.pdf",
-      "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
-      "bytes": 7795361,
-      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-      "reading_status": "unread",
-      "next_file_page": 1,
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+        "characters": 137300,
+        "body_characters": 136355,
+        "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "historical_count": 400288,
+        "historical_count_not_used_for_current_offsets": true
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Native text fully read.77 image assets still unread; no re-start at spine1",
       "next_spine_index": null,
-      "next_character": 0,
-      "file_pages": 380,
-      "start": "380-page scanned PDF; native body historically empty; OCR processing in historical inventory is not reading. Start file page1 with OCR/visual review.",
-      "substantive_body_characters_read_this_round": 0,
-      "ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json"
+      "unread_image_asset_paths": [
+        "OEBPS/Images/image00113.jpeg",
+        "OEBPS/Images/image00114.jpeg",
+        "OEBPS/Images/image00115.jpeg",
+        "OEBPS/Images/image00116.jpeg",
+        "OEBPS/Images/image00117.jpeg",
+        "OEBPS/Images/image00118.jpeg",
+        "OEBPS/Images/image00119.jpeg",
+        "OEBPS/Images/image00120.jpeg",
+        "OEBPS/Images/image00121.jpeg",
+        "OEBPS/Images/image00122.jpeg",
+        "OEBPS/Images/image00123.jpeg",
+        "OEBPS/Images/image00124.jpeg",
+        "OEBPS/Images/image00125.jpeg",
+        "OEBPS/Images/image00126.jpeg",
+        "OEBPS/Images/image00127.jpeg",
+        "OEBPS/Images/image00128.jpeg",
+        "OEBPS/Images/image00129.jpeg",
+        "OEBPS/Images/image00130.jpeg",
+        "OEBPS/Images/image00131.jpeg",
+        "OEBPS/Images/image00132.jpeg",
+        "OEBPS/Images/image00133.jpeg",
+        "OEBPS/Images/image00134.jpeg",
+        "OEBPS/Images/image00135.jpeg",
+        "OEBPS/Images/image00136.jpeg",
+        "OEBPS/Images/image00137.jpeg",
+        "OEBPS/Images/image00138.jpeg",
+        "OEBPS/Images/image00139.jpeg",
+        "OEBPS/Images/image00140.jpeg",
+        "OEBPS/Images/image00141.jpeg",
+        "OEBPS/Images/image00142.jpeg",
+        "OEBPS/Images/image00143.jpeg",
+        "OEBPS/Images/image00144.jpeg",
+        "OEBPS/Images/image00145.jpeg",
+        "OEBPS/Images/image00146.jpeg",
+        "OEBPS/Images/image00147.jpeg",
+        "OEBPS/Images/image00148.jpeg",
+        "OEBPS/Images/image00149.jpeg",
+        "OEBPS/Images/image00150.jpeg",
+        "OEBPS/Images/image00151.jpeg",
+        "OEBPS/Images/image00152.jpeg",
+        "OEBPS/Images/image00153.jpeg",
+        "OEBPS/Images/image00154.jpeg",
+        "OEBPS/Images/image00155.jpeg",
+        "OEBPS/Images/image00156.jpeg",
+        "OEBPS/Images/image00157.jpeg",
+        "OEBPS/Images/image00158.jpeg",
+        "OEBPS/Images/image00159.jpeg",
+        "OEBPS/Images/image00160.jpeg",
+        "OEBPS/Images/image00161.jpeg",
+        "OEBPS/Images/image00162.jpeg",
+        "OEBPS/Images/image00165.jpeg",
+        "OEBPS/Images/image00166.jpeg",
+        "OEBPS/Images/image00167.jpeg",
+        "OEBPS/Images/image00168.jpeg",
+        "OEBPS/Images/image00169.jpeg",
+        "OEBPS/Images/image00170.jpeg",
+        "OEBPS/Images/image00171.jpeg",
+        "OEBPS/Images/image00172.jpeg",
+        "OEBPS/Images/image00173.jpeg",
+        "OEBPS/Images/image00174.jpeg",
+        "OEBPS/Images/image00175.jpeg",
+        "OEBPS/Images/image00176.jpeg",
+        "OEBPS/Images/image00177.jpeg",
+        "OEBPS/Images/image00178.jpeg",
+        "OEBPS/Images/image00179.jpeg",
+        "OEBPS/Images/image00180.jpeg",
+        "OEBPS/Images/image00181.jpeg",
+        "OEBPS/Images/image00182.jpeg",
+        "OEBPS/Images/image00183.jpeg",
+        "OEBPS/Images/image00184.jpeg",
+        "OEBPS/Images/image00185.jpeg",
+        "OEBPS/Images/image00186.jpeg",
+        "OEBPS/Images/image00187.jpeg",
+        "OEBPS/Images/image00188.jpeg",
+        "OEBPS/Images/image00189.jpeg",
+        "OEBPS/Images/image00190.jpeg",
+        "OEBPS/Images/image00191.jpeg"
+      ]
     }
   ],
   "reading_queue": "system/READING_QUEUE.md",
@@ -1456,67 +1663,95 @@
     }
   ],
   "last_completed_reading_session": {
-    "baseline": "c31c8106542556b8e8845f109dc2251a7046e197",
+    "baseline": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
     "work_type": "original_file_reading",
-    "text_complete_file_ids": [
-      "B034",
-      "B035",
-      "B040",
-      "B041",
-      "B044",
-      "B052"
+    "new_book_files_started": [
+      "B036",
+      "B038"
+    ],
+    "new_book_files_completed": [],
+    "new_whole_book_files_completed": 0,
+    "text_complete_file_ids": [],
+    "new_native_text_complete_file_ids": [
+      "B036",
+      "B038"
     ],
     "text_partial_file_ids": [
       "B014",
       "B015",
-      "B017"
+      "B017",
+      "B036",
+      "B038"
     ],
-    "new_book_files_started": [
-      "B034",
-      "B035",
-      "B040",
-      "B041",
-      "B044",
-      "B052"
+    "direct_extractable_characters_read": 209837,
+    "main_body_characters_read": 205797,
+    "actual_direct_native_read_chunks": 19,
+    "native_PDF_pages_read": 97,
+    "native_EPUB_spine_items_read": 17,
+    "selected_PDF_pure_text_pages_viewed": [
+      4,
+      33,
+      34
     ],
-    "direct_extractable_characters_read": 294421,
-    "main_body_characters_read": 282625,
-    "actual_direct_native_read_chunks": 26,
-    "direct_native_file_pages": 362,
-    "reused_file_ids": [
-      "B041"
-    ],
-    "reused_current_extraction_characters": 76969,
-    "B041_page_comparisons": 119,
-    "visual_only_file_ids": [
-      "B052"
-    ],
-    "B052_visual_file_pages": 13,
-    "B052_garbled_characters_not_counted": 13558,
-    "preflight_only_file_ids": [
-      "B036"
-    ],
+    "selected_EPUB_images_viewed": 4,
+    "new_OCR_pages": 0,
     "methods": 26,
-    "routes": 32,
+    "routes": 36,
     "task_modes": 5,
-    "new_method_source_bindings": 22,
-    "new_original_review_groups": 13,
+    "new_original_review_groups": 12,
+    "new_book_entry_files": 2,
+    "new_method_source_bindings": 32,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_whole_book_files_completed": 6,
-    "new_independent_works_not_counted": true,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
-    "new_source_head_checks": 0,
     "checks": {
+      "status": "passed",
       "structural": true,
-      "unittest_methods": 39,
-      "synthetic_routing_scenarios": 132,
-      "new_synthetic_scenarios": 0,
-      "preferred_sections_complete": 26,
-      "reading_metadata_scope": true,
-      "focused_retrieval_checks": 8,
-      "scope": true
+      "unittest_methods": 48,
+      "synthetic_routing_scenarios": 158,
+      "new_tests": 0,
+      "direct_native_read_chunks": 19,
+      "direct_characters": 209837,
+      "direct_body_characters": 205797,
+      "reviewed_PDF_pure_text_pages": 3,
+      "reviewed_EPUB_image_assets": 4,
+      "deferred_EPUB_images": 77,
+      "method_source_bindings": 32,
+      "original_review_groups": 12,
+      "preferred_source_targets": 26,
+      "internal_link_targets": 312,
+      "targeted_retrievals": {
+        "M08": {
+          "path": "knowledge/books/B036-evidence-and-model.md",
+          "heading": "数学式不能补上缺少的依据"
+        },
+        "M01": {
+          "path": "knowledge/books/B038-profile-and-privacy.md",
+          "heading": "不把了解变成隐蔽调查"
+        },
+        "M14": {
+          "path": "knowledge/books/B038-part4-invitations.md",
+          "heading": "对齐实际安排"
+        },
+        "M17": {
+          "path": "knowledge/books/B038-part4-invitations.md",
+          "heading": "拒绝与新增内容"
+        },
+        "M11": {
+          "path": "knowledge/books/B038-part5-connection.md",
+          "heading": "真正可以回扣的内容"
+        },
+        "M23": {
+          "path": "knowledge/books/B038-part7-breakups.md",
+          "heading": "先听清本人说的是什么"
+        }
+      },
+      "scope": true,
+      "unrelated_source_records_unchanged": 156,
+      "historical_inventory_records_unchanged": 124,
+      "private_case_summaries_saved": 0,
+      "source_images_newly_archived": 0
     }
   }
 }

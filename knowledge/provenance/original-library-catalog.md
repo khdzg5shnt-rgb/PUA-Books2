@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：40/119，3份部分、76份正文未开始。本轮新增六份，B041与B040逐页核对后复用，B052为13页原页核读；不是六部新原著。B035空栏/结束语、B030–B033版本与缺图、B014/B015/B017缺口及A026–A029状态保留。下一B036正文第1页，先划隐私范围；B038/B039另留未读。
+2026年11月12日继续阅读B036和B038。两份可提取文字共209837字符、19块已读，封面与三表另核；图像缺口单列，当前40/119份内容覆盖完成、5份部分、74份正文未开始。12组原创审阅与32条方法出处已接入。下一B039扫描PDF第1页。TOP30为30/30、来源158条。[报告](B036_B038_progress_2026-11-12.md)。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -48,9 +48,9 @@
 | B033 | [五步陷阱 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 11 | 当前11顺序项文字完成；两幅引用图未提供 | [笔记](../books/B033.md) |
 | B034 | [五步陷阱技术深度解剖 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%89%96%20-%20Jacob.pdf) | 104 | 当前104页文字完成；两幅图已核 | [笔记](../books/B034.md) |
 | B035 | [五步陷阱课件 - 死囚漫步.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E8%AF%BE%E4%BB%B6%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.pdf) | 87 | 当前87页文字完成；9独立图已核；空栏/结束语留记 | [笔记](../books/B035.md) |
-| B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 已提取/未读 | — |
+| B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 文字层读完，14含图页排除；部分阅读 | [笔记](../books/B036.md) |
 | B037 | [决胜网络把妹 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B3%E8%83%9C%E7%BD%91%E7%BB%9C%E6%8A%8A%E5%A6%B9%20-%20Kezia%20Noble.epub) | 11 | 正文读完 | [精读](../books/B037.md) |
-| B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 已提取/未读 | — |
+| B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 文字层读完，77图像未读；部分阅读 | [笔记](../books/B038.md) |
 | B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 已OCR/未读 | — |
 | B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 当前119页文字完成；27图已核；手打版限制 | [笔记](../books/B040.md) |
 | B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 与B040逐页比对复用；非独立新原著 | [笔记](../books/B041.md) |
@@ -210,4 +210,6 @@
 
 2026-11-12续读：[B033报告](B033_progress_2026-11-12.md)。11项、24块124366字符分段实际阅读并统一审阅，五组原创笔记与十条批判性出处；两图未提供和原版限制保留。当前34/119，下一B034文件第1页。
 
-2026-11-12本批：[六份阅读报告](B034_B052_batch_progress_2026-11-12.md)。当前40/119；B041对应版本复用与B052视觉核读明确另记，旧成果保留，下一B036正文第1页先划隐私范围。
+此前六份批次：[六份阅读报告](B034_B052_batch_progress_2026-11-12.md)。当前40/119；B041对应版本复用与B052视觉核读明确另记，旧成果保留，下一B036正文第1页先划隐私范围。
+
+2026年11月12日接续B036与B038，文字层209837字符读完，整份保持部分阅读。当前40份完成、5份部分、74份未开始，下一B039扫描PDF第1页。[本轮范围](B036_B038_progress_2026-11-12.md)。

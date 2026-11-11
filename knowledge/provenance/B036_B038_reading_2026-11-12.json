@@ -1,0 +1,2992 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+  "previous_reading_ledger": "knowledge/provenance/B034_B052_batch_reading_2026-11-12.json",
+  "system_maintenance_preserved": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+  "records": [
+    {
+      "id": "B036",
+      "path": "人妻约会指南.pdf",
+      "bytes": 2994034,
+      "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+      "pdf_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+        "characters": 72537,
+        "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "file_pages": 97,
+      "pages": [
+        {
+          "file_page": 1,
+          "range": [
+            0,
+            178
+          ],
+          "body_characters": 147,
+          "text_sha256": "daa4cf27d222ee9f68c66603c05690dafcb6ff467c31a89fc115266b65987a53",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 2,
+          "range": [
+            178,
+            291
+          ],
+          "body_characters": 82,
+          "text_sha256": "c48736be8455cd90f3a83951a60a1b333a0f3f2c8ac5b19612be3bfdf7b34746",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 3,
+          "range": [
+            291,
+            619
+          ],
+          "body_characters": 297,
+          "text_sha256": "d73e29e170703dfc84217dd0fa861d92c53549c355b4423178f266fff94ba217",
+          "image_objects": 1,
+          "image_xrefs": [
+            25
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 4,
+          "range": [
+            619,
+            2037
+          ],
+          "body_characters": 1387,
+          "text_sha256": "368843a843986226eb126280473b567c6c52ae85165eb122d50801997bebf3db",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 5,
+          "range": [
+            2037,
+            4165
+          ],
+          "body_characters": 2097,
+          "text_sha256": "13cf9e0dcd5c6d69386d7293f61d4aa11d226d6d854905e753e866bf2947e979",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 6,
+          "range": [
+            4165,
+            5060
+          ],
+          "body_characters": 864,
+          "text_sha256": "d69ab04e486b64fff254befb8f67df19e5bf228a09f1afbebec983361de47608",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 7,
+          "range": [
+            5060,
+            5716
+          ],
+          "body_characters": 625,
+          "text_sha256": "d333408bf6d6f9a1aada22cd70329cd183dfb460106c1930541472217237ca4e",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 8,
+          "range": [
+            5716,
+            5913
+          ],
+          "body_characters": 166,
+          "text_sha256": "bc0661488bbf01cfdb5f547d9de4138bbf1836a2438894312b56376070782222",
+          "image_objects": 2,
+          "image_xrefs": [
+            107,
+            108
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 9,
+          "range": [
+            5913,
+            6057
+          ],
+          "body_characters": 113,
+          "text_sha256": "ab8dc6ee3b76281e0c6f2ba63f948560a2e6c87bb99f3545c369276daa343d71",
+          "image_objects": 2,
+          "image_xrefs": [
+            112,
+            113
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 10,
+          "range": [
+            6057,
+            6190
+          ],
+          "body_characters": 101,
+          "text_sha256": "a7e304f1c0bd1a892e090fdfc2e0932e9e0507431a6ddd2cd59eabc0d479e06d",
+          "image_objects": 2,
+          "image_xrefs": [
+            117,
+            118
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 11,
+          "range": [
+            6190,
+            6901
+          ],
+          "body_characters": 679,
+          "text_sha256": "deb0b4dcde6231946d1c689568284feafb172db4c68e1edce4b482fcf08a4783",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 12,
+          "range": [
+            6901,
+            7797
+          ],
+          "body_characters": 864,
+          "text_sha256": "2d596cc6457dfe39c0c8e94558c5c33c777c4ab7566ee86ea18fa731c06f7f1b",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 13,
+          "range": [
+            7797,
+            8653
+          ],
+          "body_characters": 824,
+          "text_sha256": "38d0ccba29e33cd9fb58f3f8c4907006038dd017fd4f65c3fb260799cd0e2879",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 14,
+          "range": [
+            8653,
+            9470
+          ],
+          "body_characters": 785,
+          "text_sha256": "a9e309f603dd47a1b3477cc868d77dfd61f30d24eb2d8e605f0ebb56abfb4781",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 15,
+          "range": [
+            9470,
+            10393
+          ],
+          "body_characters": 891,
+          "text_sha256": "2e05857056c220ed2af05852af6867959f1c6db7d70cfcb442d1bd5481946542",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 16,
+          "range": [
+            10393,
+            11359
+          ],
+          "body_characters": 934,
+          "text_sha256": "43c341ccd925a3783cbf27bd7e98ed175cb404ba57040ae3945a81278b9bfbd0",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 17,
+          "range": [
+            11359,
+            12109
+          ],
+          "body_characters": 718,
+          "text_sha256": "21b5d6af3151bce0be1ad8d1c5de3ae95d578947b698252d8196448aa3f43fcd",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 18,
+          "range": [
+            12109,
+            13013
+          ],
+          "body_characters": 872,
+          "text_sha256": "acf63f74bc8ea1630725e68c9c1300edb459cf5838c71d9db265716cf43f4336",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 19,
+          "range": [
+            13013,
+            14077
+          ],
+          "body_characters": 1032,
+          "text_sha256": "06d6b9514d13c9ff37481f9b3d678562f7a30b1b9e58e5a127c28efe4c920131",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 20,
+          "range": [
+            14077,
+            14157
+          ],
+          "body_characters": 48,
+          "text_sha256": "1785bb07542dfb67a76fd5697efa50318dd0e7ca64104dcacd35c2b92d833843",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 21,
+          "range": [
+            14157,
+            14843
+          ],
+          "body_characters": 654,
+          "text_sha256": "8eb224d01e47b8581967dd5b267006793f2dd3c78313ca9d9be83145c880ec5b",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 22,
+          "range": [
+            14843,
+            15666
+          ],
+          "body_characters": 791,
+          "text_sha256": "005362f4c58f55e65430ff69d32de3e43579e022254391e3935d986037d8176c",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 23,
+          "range": [
+            15666,
+            16665
+          ],
+          "body_characters": 967,
+          "text_sha256": "d237bada368f5ce73ce45ee08cdd0fb629fcef0786751ece75fe956080951bf2",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 24,
+          "range": [
+            16665,
+            17550
+          ],
+          "body_characters": 853,
+          "text_sha256": "562ec5dfa0ef82c6ea20f01f0a94a20e7f049c5140b0a31eb2a1f9ec0687cb9d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 25,
+          "range": [
+            17550,
+            18406
+          ],
+          "body_characters": 824,
+          "text_sha256": "55ee7e67720abec4948cbee70c0a0962109f873a4e339d5de5b0ccff9b5a27e3",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 26,
+          "range": [
+            18406,
+            19198
+          ],
+          "body_characters": 760,
+          "text_sha256": "de591f9a6b1bb1deadf0c53280680699ecdb9638a21005bf24ec0eac6bb4cf79",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 27,
+          "range": [
+            19198,
+            20149
+          ],
+          "body_characters": 919,
+          "text_sha256": "25b45763f42fff8f43383bb4bec9cd5ea818c9a74ed448f512c275174ffce2c2",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 28,
+          "range": [
+            20149,
+            21047
+          ],
+          "body_characters": 866,
+          "text_sha256": "5d5ad5e78e0040b6fcd5287b4307013037dfe6229342562e4d32eac1e078f0b0",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 29,
+          "range": [
+            21047,
+            22010
+          ],
+          "body_characters": 931,
+          "text_sha256": "f768243ed8883c17a50996198d1416a09f3175a4093f261d0c85deac10e82f6a",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 30,
+          "range": [
+            22010,
+            22903
+          ],
+          "body_characters": 861,
+          "text_sha256": "4cf242394a79d2050c12c3f6df276bb349aff82444fb229657c9fd22b1e10874",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 31,
+          "range": [
+            22903,
+            23760
+          ],
+          "body_characters": 825,
+          "text_sha256": "960c29bdae6f480907c503817ad390ed09e4bbba203c444a924fe9195ffb3029",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 32,
+          "range": [
+            23760,
+            24769
+          ],
+          "body_characters": 977,
+          "text_sha256": "d6144c366d51e2b46eba22c079a496e7298ca4f91a56178d4efd758bc037ecc1",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 33,
+          "range": [
+            24769,
+            25807
+          ],
+          "body_characters": 1006,
+          "text_sha256": "f017024245d06557a630ff6733b9c60e54d05ec3daa606ab55a51857be6bc4ad",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 34,
+          "range": [
+            25807,
+            26717
+          ],
+          "body_characters": 878,
+          "text_sha256": "cd9b2f5d95414a1595f139e12099e503440b821c1a956a9d618c9d7dfb7c57ee",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 35,
+          "range": [
+            26717,
+            27107
+          ],
+          "body_characters": 358,
+          "text_sha256": "fedee8c9093a8315512030e696227e36ee2f67c7c95ba0241e99193fd43ac385",
+          "image_objects": 2,
+          "image_xrefs": [
+            229,
+            230
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 36,
+          "range": [
+            27107,
+            28026
+          ],
+          "body_characters": 887,
+          "text_sha256": "3a61dacd26bd66c83712c3b6da7d250e2e1d7056218ef7a1a73eb152574854b7",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 37,
+          "range": [
+            28026,
+            28940
+          ],
+          "body_characters": 882,
+          "text_sha256": "98a2a06b6cf21a941d0fb1055733817f03cf812b3b2f7bd90ed07ee2bf1b9c04",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 38,
+          "range": [
+            28940,
+            29765
+          ],
+          "body_characters": 793,
+          "text_sha256": "9849593e9719c37f069926d5c49cb8f8f72ee46c158cb25351d5912b0a2faaf2",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 39,
+          "range": [
+            29765,
+            30693
+          ],
+          "body_characters": 896,
+          "text_sha256": "b22e7db7743b4463fc4d6fe3948b3ac022d7b803959c7bfd97cabde8baeffb5f",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 40,
+          "range": [
+            30693,
+            30855
+          ],
+          "body_characters": 130,
+          "text_sha256": "016e92e76891a4818982df2db1bfaf1800b13a610f8e331dcc5d5b955156cbd1",
+          "image_objects": 1,
+          "image_xrefs": [
+            251
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 41,
+          "range": [
+            30855,
+            31500
+          ],
+          "body_characters": 613,
+          "text_sha256": "75cb95643d26b15de86e6312a2d2ca17b730bedea66a5af8b70c85532b1223c4",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 42,
+          "range": [
+            31500,
+            32454
+          ],
+          "body_characters": 922,
+          "text_sha256": "76ae0a49eb5b7c139a52c231e83870364a403c1166c6204b454988f6888eda62",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 43,
+          "range": [
+            32454,
+            33389
+          ],
+          "body_characters": 903,
+          "text_sha256": "125504d6817597d81244d3535dca533335552f8e805b9b969a666dcefa7ba0f0",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 44,
+          "range": [
+            33389,
+            34265
+          ],
+          "body_characters": 844,
+          "text_sha256": "36f7b5efcb35f2d40ad04fe6c650d83f1aa6940bb72afcb0c312f2549fef4d4d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 45,
+          "range": [
+            34265,
+            35183
+          ],
+          "body_characters": 886,
+          "text_sha256": "f05bf60ed4c8cd1fb3f3b0c3b73fe16b628c1a1ee86b1f4402eb329d06d0bbfb",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 46,
+          "range": [
+            35183,
+            36132
+          ],
+          "body_characters": 917,
+          "text_sha256": "80397999642bc6f53655778e636574e1707e819975efc228a6364cc48244ca96",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 47,
+          "range": [
+            36132,
+            36321
+          ],
+          "body_characters": 157,
+          "text_sha256": "eed45a64598dd1ce3720953874b5e84da768fadab47680e16c40d561632ed49a",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 48,
+          "range": [
+            36321,
+            37002
+          ],
+          "body_characters": 649,
+          "text_sha256": "df279dc19258b7cf971d4fc7741e4398c831306e4f1b942530f9940803cb2053",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 49,
+          "range": [
+            37002,
+            38004
+          ],
+          "body_characters": 970,
+          "text_sha256": "9fa5083b2186a920ae8667a032ea7d73c170a8592a2840239852e36b9c98bebd",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 50,
+          "range": [
+            38004,
+            38806
+          ],
+          "body_characters": 770,
+          "text_sha256": "3d8ef1fdb53db2069d1b39ea37a533a5ee4d08adcf487bc9d05ab042e849cf35",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 51,
+          "range": [
+            38806,
+            39747
+          ],
+          "body_characters": 909,
+          "text_sha256": "87e7d28696db0eed718183f68f4934d2c093bcaeafd5daba85bb34875eb2bcda",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 52,
+          "range": [
+            39747,
+            40633
+          ],
+          "body_characters": 854,
+          "text_sha256": "45819ca1c9dabba73f8d5533dd4f411216fe93f552ffff17b55f72c8acdba01d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 53,
+          "range": [
+            40633,
+            41543
+          ],
+          "body_characters": 878,
+          "text_sha256": "9ddf2cca4869e5ca6312ab4c6c03bc53e1c4a818914fe2dccb2030906c2572ba",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 54,
+          "range": [
+            41543,
+            42374
+          ],
+          "body_characters": 799,
+          "text_sha256": "a7e08189ef28d37221202dc193c2097c861bad14414979cdc68ef151da29e448",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 55,
+          "range": [
+            42374,
+            43209
+          ],
+          "body_characters": 803,
+          "text_sha256": "3837ebaf73dc4cf0307608fad37b027aad7c6e8193e2a53b9889de77dd572876",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 56,
+          "range": [
+            43209,
+            44173
+          ],
+          "body_characters": 932,
+          "text_sha256": "c518b03e40c6a212f369815e32c2b4f77a3b784251b87af330997d8ed468aef0",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 57,
+          "range": [
+            44173,
+            44656
+          ],
+          "body_characters": 451,
+          "text_sha256": "c2782f8d005670f3eca85bc7dbb973b480bcf9eba222026459d16674278a7191",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 58,
+          "range": [
+            44656,
+            45319
+          ],
+          "body_characters": 631,
+          "text_sha256": "0785bbb72a307174a3dca3d1c37610def388e4e407067e43ed621cd0458f30ed",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 59,
+          "range": [
+            45319,
+            46203
+          ],
+          "body_characters": 852,
+          "text_sha256": "1f0ef23a9be0f0a9444e87b573061ff0927f67c0504dfe847170160220003454",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 60,
+          "range": [
+            46203,
+            47129
+          ],
+          "body_characters": 894,
+          "text_sha256": "ed67aa9f1f8d80c22cc7a8eaf3be3c0dd66d96a3e69878f802a34e48e62c8d14",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 61,
+          "range": [
+            47129,
+            48105
+          ],
+          "body_characters": 944,
+          "text_sha256": "0f7f9c43b08ba2722fdcb50fcd32b49afe9a1a98dbc31e849a5006a690870eb7",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 62,
+          "range": [
+            48105,
+            48965
+          ],
+          "body_characters": 828,
+          "text_sha256": "ad4892e4b2cacfc39be3335bab7420a6598b39eaac4da8c24a8790f8b80c9792",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 63,
+          "range": [
+            48965,
+            49979
+          ],
+          "body_characters": 982,
+          "text_sha256": "eff3bcf2302bca73611e2b97f67c129817828e593cb47cdc76ca9131e73a2ccb",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 64,
+          "range": [
+            49979,
+            50913
+          ],
+          "body_characters": 902,
+          "text_sha256": "8ba9a69f9f2499207912856fe6ad82f092410acf3eb18f72f9bf1678929ae0ed",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 65,
+          "range": [
+            50913,
+            51745
+          ],
+          "body_characters": 800,
+          "text_sha256": "24cf736b5d3271014c12d57de801d235d1dd5239e4f02adab0164f920d1eb141",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 66,
+          "range": [
+            51745,
+            52742
+          ],
+          "body_characters": 965,
+          "text_sha256": "00a6fc34092afe2a36f0a4a1682666664bb2b22fd54569d1b08d9ce3bd44049d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 67,
+          "range": [
+            52742,
+            53737
+          ],
+          "body_characters": 963,
+          "text_sha256": "4e849fdcdeb2cad674dcec527afd60ef700e428ac240c245787e32f718d111a7",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 68,
+          "range": [
+            53737,
+            54779
+          ],
+          "body_characters": 1010,
+          "text_sha256": "c74f29eff076e330474c1bd25532f8611c5042095c7a4e65f63529fc45044458",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 69,
+          "range": [
+            54779,
+            55237
+          ],
+          "body_characters": 426,
+          "text_sha256": "26158d7184ac7dfea5e75370cda6b0740e33cca921b345b44fa081bb6bc46cc4",
+          "image_objects": 1,
+          "image_xrefs": [
+            361
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 70,
+          "range": [
+            55237,
+            55681
+          ],
+          "body_characters": 412,
+          "text_sha256": "58eada1c2be1a5bdcb7ad18b6d6b5b174c4529f8cd04fce96cefebb14a7a4187",
+          "image_objects": 1,
+          "image_xrefs": [
+            366
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 71,
+          "range": [
+            55681,
+            56674
+          ],
+          "body_characters": 961,
+          "text_sha256": "c41776ae203295d66173728720ccbdf9c8273820d95239f5251c53f626bd158a",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 72,
+          "range": [
+            56674,
+            57578
+          ],
+          "body_characters": 872,
+          "text_sha256": "7b9259fca36729234af18168e0df95339e9af98fb3af4571d298f6a6dde4fb16",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 73,
+          "range": [
+            57578,
+            57762
+          ],
+          "body_characters": 152,
+          "text_sha256": "12593fe1412c09f2bee5abc9fc4a06f277cba74a819b9a48d9be273c19ee3182",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 74,
+          "range": [
+            57762,
+            58505
+          ],
+          "body_characters": 711,
+          "text_sha256": "f06f9509106e350cedcf08c568358867535318e27f5fe5b5bdbdbdeea07cbd1f",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 75,
+          "range": [
+            58505,
+            59427
+          ],
+          "body_characters": 890,
+          "text_sha256": "e728df286506de63c000ab90dddceeb3fcb1ac4b0fa82d03860ac167ee053b74",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 76,
+          "range": [
+            59427,
+            60387
+          ],
+          "body_characters": 928,
+          "text_sha256": "86b75d2eb94eefe37c1b1793121e7a7dfd4c68ba67ec93f68a7285bde216928d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 77,
+          "range": [
+            60387,
+            60810
+          ],
+          "body_characters": 391,
+          "text_sha256": "ed8940824fbe8a4a112e55d7b7f142e11acbbbd8d717074da5cc961329227c0c",
+          "image_objects": 1,
+          "image_xrefs": [
+            399
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 78,
+          "range": [
+            60810,
+            61074
+          ],
+          "body_characters": 232,
+          "text_sha256": "b324044ff51eefe38375bb4bdbf85a58e8a0eb38ce1e93cfd780aa4913ae3bd5",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 79,
+          "range": [
+            61074,
+            61956
+          ],
+          "body_characters": 850,
+          "text_sha256": "5c48d041bb6781eb8ba73dd7c73e5c6e7c5bf942a54db718d0a08b459fb9996c",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 80,
+          "range": [
+            61956,
+            62862
+          ],
+          "body_characters": 874,
+          "text_sha256": "4829a16c2cc059cc64e6aa2ce1ec92fbbfabf0ed8725fe78073fb70da27202e6",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 81,
+          "range": [
+            62862,
+            63149
+          ],
+          "body_characters": 255,
+          "text_sha256": "3d1d5a259540b0861e2c480e9d3126802280647ebf648682e97fca3acc270168",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 82,
+          "range": [
+            63149,
+            64063
+          ],
+          "body_characters": 882,
+          "text_sha256": "f4438c047a5098d2bfd18a45f779154ff3de5d695fd237c40527047c409fdc06",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 83,
+          "range": [
+            64063,
+            64531
+          ],
+          "body_characters": 436,
+          "text_sha256": "aa2fe8faa68f3735d2c3207d6957d8c3c29987096afb59073d3197c531fe00a7",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 84,
+          "range": [
+            64531,
+            65367
+          ],
+          "body_characters": 804,
+          "text_sha256": "8e4e42569a5cb65cd7e3179cf3dbbea180491b1bb47a44cff3d3d43b30be7e3e",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 85,
+          "range": [
+            65367,
+            66354
+          ],
+          "body_characters": 955,
+          "text_sha256": "9028fecef40d9ec582e1c35afe6ec82ce32a2e1e0eeb14f63407f6ada3a2f7cf",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 86,
+          "range": [
+            66354,
+            67234
+          ],
+          "body_characters": 848,
+          "text_sha256": "a75a92f0e9457fc05706c318c0273562254bbfd4fde7162eb9acf2c4e78b3335",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 87,
+          "range": [
+            67234,
+            67427
+          ],
+          "body_characters": 161,
+          "text_sha256": "6ba82663eaadaa1d8ec191ab9b64040508c956d02b86864be318d7fe4fca5099",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 88,
+          "range": [
+            67427,
+            68272
+          ],
+          "body_characters": 813,
+          "text_sha256": "0c7a5ca57fc9f899532235452306cc5a28345c6747fdc65a28e956ab34e5504c",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 89,
+          "range": [
+            68272,
+            69228
+          ],
+          "body_characters": 924,
+          "text_sha256": "8444597b6087fe761e050da370b72c04d9870302b164cf2a9b4e2ed715dd3f3d",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 90,
+          "range": [
+            69228,
+            70148
+          ],
+          "body_characters": 888,
+          "text_sha256": "90ba7da3102a868810dcffcab26fffb63bb77e82e4417c861127584cdce9de54",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 91,
+          "range": [
+            70148,
+            70736
+          ],
+          "body_characters": 556,
+          "text_sha256": "00c484ec0870e04667921966c8c5ba5da30288714f51423e9c169c590cea72bc",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 92,
+          "range": [
+            70736,
+            70887
+          ],
+          "body_characters": 119,
+          "text_sha256": "3a912fc3d89c61b3f8ff6335591b97644f52db72748d089b9c57f48f130d083f",
+          "image_objects": 0,
+          "image_xrefs": [],
+          "native_text_read": true,
+          "image_contents_read": null
+        },
+        {
+          "file_page": 93,
+          "range": [
+            70887,
+            71280
+          ],
+          "body_characters": 361,
+          "text_sha256": "71cc01691533b476d7859ba2679fde88d02058be39ce193cc6e3e7c0659250b1",
+          "image_objects": 1,
+          "image_xrefs": [
+            454
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 94,
+          "range": [
+            71280,
+            71532
+          ],
+          "body_characters": 220,
+          "text_sha256": "f0d82a7fe09cff8e2b225cfe34053321abf9bcbf70fe7c23cf4882f6a9c399be",
+          "image_objects": 1,
+          "image_xrefs": [
+            458
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 95,
+          "range": [
+            71532,
+            71999
+          ],
+          "body_characters": 435,
+          "text_sha256": "816ea9bac69b3e294cb1b745b5507936a2c264df70d9bde090cffc5262941857",
+          "image_objects": 1,
+          "image_xrefs": [
+            462
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 96,
+          "range": [
+            71999,
+            72282
+          ],
+          "body_characters": 251,
+          "text_sha256": "10979133dffe1f940ead0eaab0ef0c3bff329d509523ae80942185b1db6140b3",
+          "image_objects": 1,
+          "image_xrefs": [
+            466
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        },
+        {
+          "file_page": 97,
+          "range": [
+            72282,
+            72537
+          ],
+          "body_characters": 223,
+          "text_sha256": "619c5fd76d661ac1adfa2420a09080c6b671df978fbfd180dff8d8572dcbed12",
+          "image_objects": 1,
+          "image_xrefs": [
+            470
+          ],
+          "native_text_read": true,
+          "image_contents_read": false
+        }
+      ],
+      "download_ref": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "entire_native_text_layer_read_private_or_unverified_images_excluded",
+      "read_ranges": [
+        [
+          0,
+          10500
+        ],
+        [
+          10500,
+          21000
+        ],
+        [
+          21000,
+          31500
+        ],
+        [
+          31500,
+          42000
+        ],
+        [
+          42000,
+          52500
+        ],
+        [
+          52500,
+          63000
+        ],
+        [
+          63000,
+          72537
+        ]
+      ],
+      "native_text_directly_read": true,
+      "all_native_text_read": true,
+      "original_publication_complete": false,
+      "all_image_content_read": false,
+      "all_page_layouts_reviewed": false,
+      "selected_visual_pages": [
+        {
+          "file_page": 4,
+          "render_sha256": "cc9ada5a428486219e49e2b713fe4441aa362df5ee12d263bfe9725bcf28d795"
+        },
+        {
+          "file_page": 33,
+          "render_sha256": "a51941d43a20be7abb59578127b7228381ea3917f90c6ea342d33f2a6a701055"
+        },
+        {
+          "file_page": 34,
+          "render_sha256": "9a5115bc3df185054fde8c6e95897606b76133b5a27f96fa0b2797aee5c14420"
+        }
+      ],
+      "image_page_numbers_excluded": [
+        3,
+        8,
+        9,
+        10,
+        35,
+        40,
+        69,
+        70,
+        77,
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "new_OCR_pages": 0,
+      "private_case_summaries_saved": 0
+    },
+    {
+      "id": "B038",
+      "path": "冷眼观爱 - 冷爱.epub",
+      "bytes": 3825636,
+      "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+      "epub_sha256": "43a1b7c1acccc5997c8696e43fcfa64377dd5195520e6573833ef2a52ec83740",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "package_path": "OEBPS/content.opf",
+      "extraction": {
+        "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+        "characters": 137300,
+        "body_characters": 136355,
+        "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "historical_count": 400288,
+        "historical_count_not_used_for_current_offsets": true
+      },
+      "spine": [
+        {
+          "index": 1,
+          "path": "OEBPS/Text/cover_page.xhtml",
+          "linear": "no",
+          "range": [
+            0,
+            57
+          ],
+          "body_characters": 0,
+          "sha256": "5020909b53c00a92b8c86f633c1bf2b1f6fe4be485d1bb121bd68111a2a310ea",
+          "text_sha256": "aa36f3e8e48549aa9c0a93d9c103b300459385af185f3fefa5c4d11290d9c8cb",
+          "headings": [],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "complete_xml_text_nonwhitespace_characters": 0
+        },
+        {
+          "index": 2,
+          "path": "OEBPS/Text/part0000.xhtml",
+          "linear": "yes",
+          "range": [
+            57,
+            1365
+          ],
+          "body_characters": 1253,
+          "sha256": "15626c7ce313893f5faa1d5e982976ea944aaef3e5b40cc1fd0a8b749c088fb6",
+          "text_sha256": "2bd372925e5184cb2f748306b0ea6b7e391ba39e0b607c35945949b7b3419a08",
+          "headings": [],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "9ad2534641bff5074eafb506466dbc03238a469674d504847230d44380eeb2dc",
+          "complete_xml_text_nonwhitespace_characters": 1038
+        },
+        {
+          "index": 3,
+          "path": "OEBPS/Text/part0001.xhtml",
+          "linear": "yes",
+          "range": [
+            1365,
+            1448
+          ],
+          "body_characters": 28,
+          "sha256": "57c0b9499dce9ff97f27d49754889b5e87e79f64f18a4bbbcca6e3320603738d",
+          "text_sha256": "db066aff0d176af44803880bcbab84442551afa5f974d65c4b4c1259826a042a",
+          "headings": [],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "b0d680324c1cb5cc042f34b5c4d6681239627ac0bbc4e934d707b98388f67799",
+          "complete_xml_text_nonwhitespace_characters": 24
+        },
+        {
+          "index": 4,
+          "path": "OEBPS/Text/part0002.xhtml",
+          "linear": "yes",
+          "range": [
+            1448,
+            1892
+          ],
+          "body_characters": 389,
+          "sha256": "2e12b012cd27c872277e01c8bb3b7e427aa894841dd4eb8ccf6e69b8f66ac1a6",
+          "text_sha256": "4bf5efe01bfd27cb8d7fa410dbc2e344259c7df810bf48a3de8ffdc847e5fb39",
+          "headings": [],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "79ffd56cad99617998c4501ec551a433314e98137e845b2a73a15cc05fa93b9a",
+          "complete_xml_text_nonwhitespace_characters": 351
+        },
+        {
+          "index": 5,
+          "path": "OEBPS/Text/part0003.xhtml",
+          "linear": "yes",
+          "range": [
+            1892,
+            2083
+          ],
+          "body_characters": 136,
+          "sha256": "23aa41513a0989bcb06e53fd4034c375133508a14bbfd4aa05be34ef336a2953",
+          "text_sha256": "10b831a5eb1d7c663b4e344491cd679d2eff84f2cc931c2e82be1a0f3f1d5a72",
+          "headings": [
+            "内容提要"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "247d15a8897a3cb3fc7b0db79dc3733378372f8e6eb7316c5ce6b33fb6c77c9f",
+          "complete_xml_text_nonwhitespace_characters": 135
+        },
+        {
+          "index": 6,
+          "path": "OEBPS/Text/part0004.xhtml",
+          "linear": "yes",
+          "range": [
+            2083,
+            2206
+          ],
+          "body_characters": 68,
+          "sha256": "cb2d17d1088c17844f1120e56bfbad7b5b2e693adf9c9669aefad315cf239661",
+          "text_sha256": "a56156c4012db2056ff4ec90f9b4923c53fd333a9deb0b9a26ca6f129b122e8d",
+          "headings": [
+            "其他"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "558fb03253b72598598d9a3c2752b19c7391db8989841081081db6bfdcbe7719",
+          "complete_xml_text_nonwhitespace_characters": 65
+        },
+        {
+          "index": 7,
+          "path": "OEBPS/Text/part0005.xhtml",
+          "linear": "yes",
+          "range": [
+            2206,
+            2632
+          ],
+          "body_characters": 371,
+          "sha256": "3788afa3f98c460f5dc8f50eb9e60c0fc9cb483bbfde746c20f82c3e5f0a6482",
+          "text_sha256": "289dcb1938ba112767bb9878a5bb915607c83ea398c89a645e963423ebddb6f8",
+          "headings": [
+            "给你的信"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "1f3e33973a0e9537839eb488bb64e716566d84c6ef04f18ed55a15cc07f7b672",
+          "complete_xml_text_nonwhitespace_characters": 364
+        },
+        {
+          "index": 8,
+          "path": "OEBPS/Text/part0006.xhtml",
+          "linear": "yes",
+          "range": [
+            2632,
+            2806
+          ],
+          "body_characters": 119,
+          "sha256": "4c0df6c4836ca0d9239346bb0d6f2154fe2fcb6e5a3e7129ed8977a17a0bb048",
+          "text_sha256": "099249817777f9b7b48ee9b961b20f1a42631e353a4cb8017821a7626f1bb8af",
+          "headings": [
+            "承诺书"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "40378e350b6d7fe1840431abb26f0cb5b776e23de8b01d52108d4cc32deff102",
+          "complete_xml_text_nonwhitespace_characters": 115
+        },
+        {
+          "index": 9,
+          "path": "OEBPS/Text/part0007.xhtml",
+          "linear": "yes",
+          "range": [
+            2806,
+            21202
+          ],
+          "body_characters": 18341,
+          "sha256": "2a59c0784d980edf8d1baad647f5f1c36a24aaac8e8ead9dc2915c0fd500497f",
+          "text_sha256": "765b17563c8ec849cb43d0b381bb555ba2d73128b74808bf1727230af7ef690e",
+          "headings": [
+            "Part1 追女孩的致命错误",
+            "1 致命错误",
+            "1.1 第一印象类问题",
+            "1.2 超越阶段类问题",
+            "1.3 性格缺陷类问题",
+            "1.4 三观差异类问题",
+            "1.5 生存价值类问题",
+            "2 结果导向",
+            "3 情感规划",
+            "3.1 吸引、价值、优势和劣势",
+            "3.2 性偏好与情感生活的期望",
+            "3.3 实战问题",
+            "4 本章作业：你真正喜欢过的人"
+          ],
+          "image_references": [
+            "../Images/image00112.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "9e3ff47768acbc5ac396e5520f750b41addaa717647456665dcebc4ae146e821",
+          "complete_xml_text_nonwhitespace_characters": 18011
+        },
+        {
+          "index": 10,
+          "path": "OEBPS/Text/part0008.xhtml",
+          "linear": "yes",
+          "range": [
+            21202,
+            32068
+          ],
+          "body_characters": 10810,
+          "sha256": "86c3fd4a8dd15fd098d9357570f5f104afb6c7fdb11f86fb701512d296f6d560",
+          "text_sha256": "794124b59ebbfbb2076c591d37ef5240e5b97600e3a0f1865fe1bfa1651c679f",
+          "headings": [
+            "Part2 论男孩的自我修养",
+            "1 个人卫生",
+            "1.1 胡须和面部毛发",
+            "1.2 鼻毛",
+            "1.3 指甲",
+            "1.4 口腔",
+            "1.5 洗头洗澡",
+            "2 护肤、形象及礼仪",
+            "2.1 发型",
+            "2.2 饮食与异味",
+            "2.3 洗脸与护肤",
+            "2.4 基本身材保持",
+            "3 表达能力",
+            "3.1 消灭噪音",
+            "3.2 消灭小动作",
+            "3.3 其他注意事项",
+            "4 本章作业"
+          ],
+          "image_references": [
+            "../Images/image00113.jpeg",
+            "../Images/image00114.jpeg",
+            "../Images/image00115.jpeg",
+            "../Images/image00116.jpeg",
+            "../Images/image00117.jpeg",
+            "../Images/image00118.jpeg",
+            "../Images/image00119.jpeg",
+            "../Images/image00120.jpeg",
+            "../Images/image00121.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "c75a3a859351e0bbc2e4a082228689d142c2eddabe26940b0d804ebe4aeb24e5",
+          "complete_xml_text_nonwhitespace_characters": 10602
+        },
+        {
+          "index": 11,
+          "path": "OEBPS/Text/part0009.xhtml",
+          "linear": "yes",
+          "range": [
+            32068,
+            48585
+          ],
+          "body_characters": 16461,
+          "sha256": "631ded2aad52d033ec8b431dbdcd954bdd1d24efff2f2589699d6c8a4cb8dc0c",
+          "text_sha256": "f493e4e30e168565f03aa183acf6081a9d970dee607264daf1a11709de52c5bf",
+          "headings": [
+            "Part3 为什么你身边没有妹子",
+            "1 在现实生活中认识女孩",
+            "1.1 搭讪",
+            "1.2 社交生活圈",
+            "1.3 平台",
+            "2 通过网络认识女孩",
+            "“点对面”和“点对点”",
+            "3 展示面",
+            "构建优秀的网络形象展示面",
+            "4 本章作业"
+          ],
+          "image_references": [
+            "../Images/image00122.jpeg",
+            "../Images/image00123.jpeg",
+            "../Images/image00124.jpeg",
+            "../Images/image00125.jpeg",
+            "../Images/image00126.jpeg",
+            "../Images/image00127.jpeg",
+            "../Images/image00128.jpeg",
+            "../Images/image00129.jpeg",
+            "../Images/image00130.jpeg",
+            "../Images/image00131.jpeg",
+            "../Images/image00132.jpeg",
+            "../Images/image00133.jpeg",
+            "../Images/image00134.jpeg",
+            "../Images/image00135.jpeg",
+            "../Images/image00136.jpeg",
+            "../Images/image00137.jpeg",
+            "../Images/image00138.jpeg",
+            "../Images/image00139.jpeg",
+            "../Images/image00140.jpeg",
+            "../Images/image00141.jpeg",
+            "../Images/image00142.jpeg",
+            "../Images/image00143.jpeg",
+            "../Images/image00144.jpeg",
+            "../Images/image00145.jpeg",
+            "../Images/image00146.jpeg",
+            "../Images/image00147.jpeg",
+            "../Images/image00148.jpeg",
+            "../Images/image00149.jpeg",
+            "../Images/image00150.jpeg",
+            "../Images/image00151.jpeg",
+            "../Images/image00152.jpeg",
+            "../Images/image00153.jpeg",
+            "../Images/image00154.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "21b3995c5d73b04019b6b6e3899283aa3a2b1b111621afd1ff188a56f1e9a7af",
+          "complete_xml_text_nonwhitespace_characters": 16110
+        },
+        {
+          "index": 12,
+          "path": "OEBPS/Text/part0010.xhtml",
+          "linear": "yes",
+          "range": [
+            48585,
+            75038
+          ],
+          "body_characters": 26397,
+          "sha256": "52884d2c17dcd83e9907fbc3d8eb54b328f2801436c8827ce532081330a2f7d6",
+          "text_sha256": "70ac7e3d096e005df67dbb3cd6b9ef4ce79bba530f3982b56e817c34d82d2432",
+          "headings": [
+            "Part4 为什么你约不出来她",
+            "1 点对面沟通技巧",
+            "1.1 信息流",
+            "1.2 社交网络/婚恋网站",
+            "2 点对点沟通技巧",
+            "2.1 打招呼",
+            "2.2 朋友圈的权限问题",
+            "2.3 转场与邀约",
+            "3 分析需求",
+            "3.1 2种需求",
+            "3.2 4个角度",
+            "3.3 3条心得",
+            "4 约会设计",
+            "4.1 约会形式",
+            "4.2 聪明邀约",
+            "5 怎样防范酒托",
+            "5.1 微信、陌陌女骗子常用骗术",
+            "5.2 酒托账号的常见特征",
+            "5.3 怎样应对酒托",
+            "6 本章作业"
+          ],
+          "image_references": [
+            "../Images/image00155.jpeg",
+            "../Images/image00156.jpeg",
+            "../Images/image00157.jpeg",
+            "../Images/image00158.jpeg",
+            "../Images/image00159.jpeg",
+            "../Images/image00160.jpeg",
+            "../Images/image00161.jpeg",
+            "../Images/image00162.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "a4f02109cffe4ed0011195e95c04902bf95f3309bf68cb46728dfe7b6f008ff5",
+          "complete_xml_text_nonwhitespace_characters": 26026
+        },
+        {
+          "index": 13,
+          "path": "OEBPS/Text/part0011.xhtml",
+          "linear": "yes",
+          "range": [
+            75038,
+            102790
+          ],
+          "body_characters": 27696,
+          "sha256": "73cde9c95cf506f729834adaeb26df2b2b4e6f6991bdabb1ce12126d4c8b3f00",
+          "text_sha256": "81ceec3f5ee8c71cc72e1958f5925d6a600bec20e47d97761690a8fb0540103b",
+          "headings": [
+            "Part5 如何打造完美约会",
+            "1 天人合一",
+            "2 阴阳平衡",
+            "3 约会时的实战技术",
+            "3.1 反撇",
+            "3.2 约会的礼仪",
+            "3.3 建立连接",
+            "4 把握火候，适时推进",
+            "5 本章作业"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "7ccbe9aff0ee17af9d6c1649560e0eaeab2514051610fc81f8fea1368c448a4b",
+          "complete_xml_text_nonwhitespace_characters": 27334
+        },
+        {
+          "index": 14,
+          "path": "OEBPS/Text/part0012.xhtml",
+          "linear": "yes",
+          "range": [
+            102790,
+            119109
+          ],
+          "body_characters": 16263,
+          "sha256": "0793e8355de2659ffaf84a5c7059053ec80758b6285454995715a970e6b81891",
+          "text_sha256": "563c45d8f27ef16eaf4d9aefc20764fa88e1423ed1a742b70f6c25a4b5ee8a47",
+          "headings": [
+            "Part6 怎样征服美丽少女",
+            "1 关于表白那件事",
+            "1.1 错误的表白方式",
+            "1.2 正确的表白方式",
+            "2 恋人未满，进击的友人",
+            "2.1 朋友升级成恋人",
+            "2.2 打破友谊区的常见误区",
+            "2.3 甄别友人的情意",
+            "3 情侣间那件羞羞事",
+            "3.1 性机会的相关需求因子",
+            "3.2 “定位”与“反定位”",
+            "3.3 黄金和谐线",
+            "3.4 上偏与地面转移",
+            "3.5 下偏与用户体验",
+            "3.6 温和检测与精细检测",
+            "4 本章作业"
+          ],
+          "image_references": [
+            "../Images/image00163.jpeg",
+            "../Images/image00164.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "8d8411d7acc6bcbcc53a56f3b4c3ddb595e1c4354db61e5586d5c91f5a0ab9ed",
+          "complete_xml_text_nonwhitespace_characters": 16061
+        },
+        {
+          "index": 15,
+          "path": "OEBPS/Text/part0013.xhtml",
+          "linear": "yes",
+          "range": [
+            119109,
+            135671
+          ],
+          "body_characters": 16506,
+          "sha256": "49141d209e60ed52c97d96bade1bc2112dfcb8135438b8ec3880fa625cd6dc25",
+          "text_sha256": "fd2c017573bf2cec32153b317ed6e5ba392780714ee2fe726f05c99a5228a8c2",
+          "headings": [
+            "Part7 单身会有时，终有逆袭日",
+            "1 肯定存在适合你的心仪对象",
+            "2 每个人都可以找到自己的爱情",
+            "3 长久稳定的关系是一种精确的价值匹配",
+            "4 给一个单身的理由",
+            "5 关于维护长期关系的若干心得",
+            "5.1 爱情“高利贷”",
+            "5.2 关于自卑",
+            "5.3 关于吵架",
+            "5.4 关于分手",
+            "5.5 关于挽回",
+            "5.6 关于给予",
+            "6 本章作业"
+          ],
+          "image_references": [
+            "../Images/image00165.jpeg",
+            "../Images/image00166.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "42548016cdd5b5730a286938b22837c1044ab7e68eacab37e5113b2456cf6853",
+          "complete_xml_text_nonwhitespace_characters": 16315
+        },
+        {
+          "index": 16,
+          "path": "OEBPS/Text/part0014.xhtml",
+          "linear": "yes",
+          "range": [
+            135671,
+            135774
+          ],
+          "body_characters": 47,
+          "sha256": "191a5024a45d03143ebf653f43dbd0898564f84ce2c6ca93bb5aef7f8e37382a",
+          "text_sha256": "3a4cb074b8c569c865bc09f0d7c4ab70c882a10b8d6c63ade529865898b60581",
+          "headings": [
+            "鸣谢"
+          ],
+          "image_references": [],
+          "complete_xml_text_nonwhitespace_sha256": "c1dd88f892c42063c673575e2d2a0137e82d76609e75ea2945c518ed237628a1",
+          "complete_xml_text_nonwhitespace_characters": 46
+        },
+        {
+          "index": 17,
+          "path": "OEBPS/Text/part0015.xhtml",
+          "linear": "yes",
+          "range": [
+            135774,
+            137300
+          ],
+          "body_characters": 1470,
+          "sha256": "10aa43f34497db30a99e7ff75930bfdc9be81686c897aa2f95c5d16c75b3c9ea",
+          "text_sha256": "e2397734f23694300b6b69086062a3b29d91eec9306d356a5dfd86e0d15bac1d",
+          "headings": [
+            "冷爱简介"
+          ],
+          "image_references": [
+            "../Images/image00167.jpeg",
+            "../Images/image00168.jpeg",
+            "../Images/image00169.jpeg",
+            "../Images/image00170.jpeg",
+            "../Images/image00171.jpeg",
+            "../Images/image00172.jpeg",
+            "../Images/image00173.jpeg",
+            "../Images/image00174.jpeg",
+            "../Images/image00175.jpeg",
+            "../Images/image00176.jpeg",
+            "../Images/image00177.jpeg",
+            "../Images/image00178.jpeg",
+            "../Images/image00179.jpeg",
+            "../Images/image00180.jpeg",
+            "../Images/image00181.jpeg",
+            "../Images/image00182.jpeg",
+            "../Images/image00183.jpeg",
+            "../Images/image00184.jpeg",
+            "../Images/image00185.jpeg",
+            "../Images/image00186.jpeg",
+            "../Images/image00187.jpeg",
+            "../Images/image00188.jpeg",
+            "../Images/image00189.jpeg",
+            "../Images/image00190.jpeg",
+            "../Images/image00191.jpeg"
+          ],
+          "complete_xml_text_nonwhitespace_sha256": "125ebbb376c45fdd41a9ef6836c0a84f5decf46e73e4b58be87af25fe24e2bd6",
+          "complete_xml_text_nonwhitespace_characters": 1405
+        }
+      ],
+      "package_images": [
+        {
+          "id": "cover_img",
+          "href": "Images/cover00110.jpeg",
+          "bytes": 121299,
+          "sha256": "493871135936e991d69a2b6398eb552a375787324a4d3213748a1e57fa8d137e",
+          "package_path": "OEBPS/Images/cover00110.jpeg",
+          "review_status": "visually_read"
+        },
+        {
+          "id": "item19",
+          "href": "Images/image00112.jpeg",
+          "bytes": 112023,
+          "sha256": "13e327026491bb051dda11450ddc4c89880891f5aee2defe48125f0d4bbf9a9b",
+          "package_path": "OEBPS/Images/image00112.jpeg",
+          "review_status": "visually_read"
+        },
+        {
+          "id": "item20",
+          "href": "Images/image00113.jpeg",
+          "bytes": 53556,
+          "sha256": "3e146796694f4e83fad6024ff0c12e01fa76551dfc275bfb5b99600bf32d431a",
+          "package_path": "OEBPS/Images/image00113.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item21",
+          "href": "Images/image00114.jpeg",
+          "bytes": 36174,
+          "sha256": "950afc9c1e7e30261ff419849925c13282c23f3c20a92dda7cd533e264809a26",
+          "package_path": "OEBPS/Images/image00114.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item22",
+          "href": "Images/image00115.jpeg",
+          "bytes": 32062,
+          "sha256": "decaad0914f5fd643679cab8f96f4d0831ab49c17e6c70fe100b5870fe7ccebd",
+          "package_path": "OEBPS/Images/image00115.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item23",
+          "href": "Images/image00116.jpeg",
+          "bytes": 39213,
+          "sha256": "e825429c49c3953a0eb427b0a6693a35e51a8e87348b8c2b9f817e7486a73752",
+          "package_path": "OEBPS/Images/image00116.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item24",
+          "href": "Images/image00117.jpeg",
+          "bytes": 32031,
+          "sha256": "aeba1a4c7bbd6cc8642fe86bb65008d83c2d687d29b8b0d36217c2a4e04ce1c5",
+          "package_path": "OEBPS/Images/image00117.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item25",
+          "href": "Images/image00118.jpeg",
+          "bytes": 47656,
+          "sha256": "a06815474511dcb773fe45ce2113afe2dd7d6b4314ea230a100cb90379b88154",
+          "package_path": "OEBPS/Images/image00118.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item26",
+          "href": "Images/image00119.jpeg",
+          "bytes": 20408,
+          "sha256": "765143a4ca7a679ce0faca61346056dbf8f78670421811f055b2de17551bfee4",
+          "package_path": "OEBPS/Images/image00119.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item27",
+          "href": "Images/image00120.jpeg",
+          "bytes": 43012,
+          "sha256": "e1d5b3469ccab8ded427bf96aad433c0ff6ce979cd3f6e1775067fa27f8a1fc8",
+          "package_path": "OEBPS/Images/image00120.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item28",
+          "href": "Images/image00121.jpeg",
+          "bytes": 33278,
+          "sha256": "e8eec7c5cf8a95321a594da215ffd15ff1f573926de7ac2e0fc7c333a79e9d43",
+          "package_path": "OEBPS/Images/image00121.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item29",
+          "href": "Images/image00122.jpeg",
+          "bytes": 75002,
+          "sha256": "cde4fdd37768e8f48aaaea336495dc7a91b841f8533c862a480de1c4a099cb72",
+          "package_path": "OEBPS/Images/image00122.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item30",
+          "href": "Images/image00123.jpeg",
+          "bytes": 103363,
+          "sha256": "eabce954d3a0610d53828f6d0eb56bbf8fcb6aabd4e4a196bbc27c4b6e273107",
+          "package_path": "OEBPS/Images/image00123.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item31",
+          "href": "Images/image00124.jpeg",
+          "bytes": 117761,
+          "sha256": "6b309e7583430ae65a11621e66bfc850507ee2d9ec2177efca4f3d1b3b9420e8",
+          "package_path": "OEBPS/Images/image00124.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item32",
+          "href": "Images/image00125.jpeg",
+          "bytes": 17692,
+          "sha256": "afea5b0e9382dfa0a1d10173e0dc6fb702f554534ecc0ddda0ba1de0504cc89a",
+          "package_path": "OEBPS/Images/image00125.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item33",
+          "href": "Images/image00126.jpeg",
+          "bytes": 18125,
+          "sha256": "8377ce637e0f5c176ac18f405a0917b0dba4dbd9937a92ddfdbcbb6d0888bc33",
+          "package_path": "OEBPS/Images/image00126.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item34",
+          "href": "Images/image00127.jpeg",
+          "bytes": 18334,
+          "sha256": "f72d781ac1dc22250f5e3497de520caf3bd9d0b1fd5caa26a08afc13df2ff7b9",
+          "package_path": "OEBPS/Images/image00127.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item35",
+          "href": "Images/image00128.jpeg",
+          "bytes": 76465,
+          "sha256": "8551dbd90e3312ee70533e8fb6e42a9041e76e3c7e63da8a16a76167e65eb6eb",
+          "package_path": "OEBPS/Images/image00128.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item36",
+          "href": "Images/image00129.jpeg",
+          "bytes": 37921,
+          "sha256": "f5cff58b2ffd6aa3932272e1a3139fd03866f81ec87415fe03729ceb79eb2778",
+          "package_path": "OEBPS/Images/image00129.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item37",
+          "href": "Images/image00130.jpeg",
+          "bytes": 35340,
+          "sha256": "3789fdf9aabbc44a5623074fa30d872d7959cac0fa96a8e25e775946d4d95195",
+          "package_path": "OEBPS/Images/image00130.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item38",
+          "href": "Images/image00131.jpeg",
+          "bytes": 31522,
+          "sha256": "ef63cfba22f52aa65e10199bbc6603c8cfba7863c8c6af891e173bc57ff35ffd",
+          "package_path": "OEBPS/Images/image00131.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item39",
+          "href": "Images/image00132.jpeg",
+          "bytes": 35980,
+          "sha256": "9084f6a1080f8c683088dcba78bea7da12118bfb1ea000869e3cd304dae06cac",
+          "package_path": "OEBPS/Images/image00132.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item40",
+          "href": "Images/image00133.jpeg",
+          "bytes": 36527,
+          "sha256": "8ca86a8d62060a37951d85b3424a944a430e969d7285c19ff4bc79ba4e93fe18",
+          "package_path": "OEBPS/Images/image00133.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item41",
+          "href": "Images/image00134.jpeg",
+          "bytes": 29252,
+          "sha256": "d747d510aacfb0d8caf94b38e98c968cb809b09ff749f8608821c14c0c5d7a84",
+          "package_path": "OEBPS/Images/image00134.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item42",
+          "href": "Images/image00135.jpeg",
+          "bytes": 35839,
+          "sha256": "66111fb2ec41e04404f2c3fff028f2192cdc06abd4baacfa3a1db3f40d121558",
+          "package_path": "OEBPS/Images/image00135.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item43",
+          "href": "Images/image00136.jpeg",
+          "bytes": 27587,
+          "sha256": "b6079713cf1c61b80eae55a718a10bc81b81beadc073416ebb3876333026932c",
+          "package_path": "OEBPS/Images/image00136.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item44",
+          "href": "Images/image00137.jpeg",
+          "bytes": 36485,
+          "sha256": "ab5100f2c51aabb94345a1c47914abebd935bd7c46c78b50c46347c567676c67",
+          "package_path": "OEBPS/Images/image00137.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item45",
+          "href": "Images/image00138.jpeg",
+          "bytes": 39401,
+          "sha256": "f55578a68fe3f349ff21a442bf37cfcf4192d1742ec1198232625d35d019d7de",
+          "package_path": "OEBPS/Images/image00138.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item46",
+          "href": "Images/image00139.jpeg",
+          "bytes": 30748,
+          "sha256": "2b9621f05e4beb48c26c28ec75130edfe802a65c8a1a13cdc858d026264a1cff",
+          "package_path": "OEBPS/Images/image00139.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item47",
+          "href": "Images/image00140.jpeg",
+          "bytes": 35955,
+          "sha256": "1b944b8c404d73f2eb3460d794d8e6300a91886406eff869ab4ec40f6bacc326",
+          "package_path": "OEBPS/Images/image00140.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item48",
+          "href": "Images/image00141.jpeg",
+          "bytes": 36366,
+          "sha256": "517be7c5e80e804089d982cf62a6521bf49fcf87e0f4eb1b1904ea831dc8a990",
+          "package_path": "OEBPS/Images/image00141.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item49",
+          "href": "Images/image00142.jpeg",
+          "bytes": 33938,
+          "sha256": "77e72a5bf104354b0aa315fea583ba869a209176ee39f6721df9f6322dc9c494",
+          "package_path": "OEBPS/Images/image00142.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item50",
+          "href": "Images/image00143.jpeg",
+          "bytes": 34326,
+          "sha256": "c79bc5a1d795aec890c441a9d4b156b15dcd5d5be6f09bab4a6a5100a1297880",
+          "package_path": "OEBPS/Images/image00143.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item51",
+          "href": "Images/image00144.jpeg",
+          "bytes": 32221,
+          "sha256": "05d9b2c8449ba84cb1dcc86b706c51188afaac4f216d960ff81df01e112ea749",
+          "package_path": "OEBPS/Images/image00144.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item52",
+          "href": "Images/image00145.jpeg",
+          "bytes": 44820,
+          "sha256": "a91c5866a87396f1afa07d5be112a4c03e4648e181b47308a5d76ef59466c5bd",
+          "package_path": "OEBPS/Images/image00145.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item53",
+          "href": "Images/image00146.jpeg",
+          "bytes": 24733,
+          "sha256": "40f8850720022ac7e719e812d6a461d5de8ffb9347b35f18dd0e452a311d2611",
+          "package_path": "OEBPS/Images/image00146.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item54",
+          "href": "Images/image00147.jpeg",
+          "bytes": 52313,
+          "sha256": "95e8a17c13c0204b5e7e409dc6073c72f1e378ae151963bcbfbacbff31e5578b",
+          "package_path": "OEBPS/Images/image00147.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item55",
+          "href": "Images/image00148.jpeg",
+          "bytes": 22182,
+          "sha256": "c6f7686275953ed7e4ca441b7ffac4aef29c620b41ee7d14e404d65a817e1c7d",
+          "package_path": "OEBPS/Images/image00148.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item56",
+          "href": "Images/image00149.jpeg",
+          "bytes": 37760,
+          "sha256": "c3c8a15b99f0e5a7547557901e0b78c883aa307d75b5c66a5af738af0e94d94b",
+          "package_path": "OEBPS/Images/image00149.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item57",
+          "href": "Images/image00150.jpeg",
+          "bytes": 41614,
+          "sha256": "98b8ef75142132ad6fbcd785545e12cd9924c91051551a0c1ed79143e674073e",
+          "package_path": "OEBPS/Images/image00150.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item58",
+          "href": "Images/image00151.jpeg",
+          "bytes": 17708,
+          "sha256": "a928d57af8d63788c01fa706d16cb4498159396429cf29e2eb39761f84236bbc",
+          "package_path": "OEBPS/Images/image00151.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item59",
+          "href": "Images/image00152.jpeg",
+          "bytes": 19857,
+          "sha256": "c5ad77fa140ac069c5e744f4272710cd557f405802292a128d502a0a5fba9de9",
+          "package_path": "OEBPS/Images/image00152.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item60",
+          "href": "Images/image00153.jpeg",
+          "bytes": 20429,
+          "sha256": "c22302561df6911faced4db0dec28e68fb42a52091434840649abf2c1daad40f",
+          "package_path": "OEBPS/Images/image00153.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item61",
+          "href": "Images/image00154.jpeg",
+          "bytes": 30507,
+          "sha256": "d220cd8abebaba54938ad59d804fd45407684075c22645a68ccb50484e6b6acd",
+          "package_path": "OEBPS/Images/image00154.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item62",
+          "href": "Images/image00155.jpeg",
+          "bytes": 28537,
+          "sha256": "9b73688d8b33bd06ff2f5455e38b7076feb737e2d52c4357edd4df93c93ec2d1",
+          "package_path": "OEBPS/Images/image00155.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item63",
+          "href": "Images/image00156.jpeg",
+          "bytes": 26840,
+          "sha256": "877525f3897f899874bf341809b5efed70d70b17f9f1ded14fc1c3954f761963",
+          "package_path": "OEBPS/Images/image00156.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item64",
+          "href": "Images/image00157.jpeg",
+          "bytes": 27128,
+          "sha256": "a87a29f126e1c90e8caa101a66fca973deee224dec419b7637c8e72e155cb4c7",
+          "package_path": "OEBPS/Images/image00157.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item65",
+          "href": "Images/image00158.jpeg",
+          "bytes": 102125,
+          "sha256": "1aba0aeda12d79f5dc35917459ae76ab96a587522b2df49df285d31b9402c497",
+          "package_path": "OEBPS/Images/image00158.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item66",
+          "href": "Images/image00159.jpeg",
+          "bytes": 65005,
+          "sha256": "3b092856612aebc44bd1cfbfaa4f9a60a7ca6333af7ccf8b66e38dd901603a84",
+          "package_path": "OEBPS/Images/image00159.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item67",
+          "href": "Images/image00160.jpeg",
+          "bytes": 121508,
+          "sha256": "c8515ea8ad9dd506f9010953a40d1599f00b52ab7280c39caacc15de3df5db69",
+          "package_path": "OEBPS/Images/image00160.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item68",
+          "href": "Images/image00161.jpeg",
+          "bytes": 36585,
+          "sha256": "8984fdfca4d334d5441dda146649d3fa550bdd2d47f4085e3051f198daf32133",
+          "package_path": "OEBPS/Images/image00161.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item69",
+          "href": "Images/image00162.jpeg",
+          "bytes": 30805,
+          "sha256": "be24907dda494b4fbbb24353bc08705f731aa4ce28866df2468e21bee0e3177c",
+          "package_path": "OEBPS/Images/image00162.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item70",
+          "href": "Images/image00163.jpeg",
+          "bytes": 44940,
+          "sha256": "ba06111faf37691ddd64048c94442ab706c634d712373c1729569c6cc42d6712",
+          "package_path": "OEBPS/Images/image00163.jpeg",
+          "review_status": "visually_read"
+        },
+        {
+          "id": "item71",
+          "href": "Images/image00164.jpeg",
+          "bytes": 50976,
+          "sha256": "9fddde2b7d919d31f848b7d90f6d119779afc542b795467037c795e4048ee2b8",
+          "package_path": "OEBPS/Images/image00164.jpeg",
+          "review_status": "visually_read"
+        },
+        {
+          "id": "item72",
+          "href": "Images/image00165.jpeg",
+          "bytes": 49534,
+          "sha256": "6282c9608d7d8548cd3a73c7f088b5c03a31e20350cbf09c5435588384be55c3",
+          "package_path": "OEBPS/Images/image00165.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item73",
+          "href": "Images/image00166.jpeg",
+          "bytes": 53717,
+          "sha256": "f6821f4d591029f86c8d1b70e3e67f5fb9e4eb97257258f86449872b90c35464",
+          "package_path": "OEBPS/Images/image00166.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item74",
+          "href": "Images/image00167.jpeg",
+          "bytes": 35791,
+          "sha256": "5e685b8a9a24ece66d0b1d721e0bad867dc914bd956f35fef8168665c238a59a",
+          "package_path": "OEBPS/Images/image00167.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item75",
+          "href": "Images/image00168.jpeg",
+          "bytes": 48798,
+          "sha256": "a81fe20fec058144a78de40b7fd188113e6a83006e3c838410f51332c7d698f3",
+          "package_path": "OEBPS/Images/image00168.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item76",
+          "href": "Images/image00169.jpeg",
+          "bytes": 75687,
+          "sha256": "c83460328815acfe674560e6bcdc47c1dcf29addeb507ebfe936630287d223ca",
+          "package_path": "OEBPS/Images/image00169.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item77",
+          "href": "Images/image00170.jpeg",
+          "bytes": 125694,
+          "sha256": "384d33fa1470d1f5db0b482dd5ffbb029fa5df04918f5569eea69b059bc64f63",
+          "package_path": "OEBPS/Images/image00170.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item78",
+          "href": "Images/image00171.jpeg",
+          "bytes": 53971,
+          "sha256": "242de53d3f3358e6a47d5644039b4da61bc9c0dd57d4f095e9ae3f049dcad84e",
+          "package_path": "OEBPS/Images/image00171.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item79",
+          "href": "Images/image00172.jpeg",
+          "bytes": 93983,
+          "sha256": "397368352f24aee85f655be94ae10abdd277e4ba53ff4655aefec3b7e1146261",
+          "package_path": "OEBPS/Images/image00172.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item80",
+          "href": "Images/image00173.jpeg",
+          "bytes": 35796,
+          "sha256": "dca81256b979cc2e4ef19affd6513c4b6aa9270228e80f2b9dcde1e01722e9e2",
+          "package_path": "OEBPS/Images/image00173.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item81",
+          "href": "Images/image00174.jpeg",
+          "bytes": 94274,
+          "sha256": "f498b1a8d74a13070499ad6ef3f27c0fc9018e09fb43c9f6bc1075a1c4f3ad14",
+          "package_path": "OEBPS/Images/image00174.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item82",
+          "href": "Images/image00175.jpeg",
+          "bytes": 37191,
+          "sha256": "35e8061aafe84442fa8fce1a820071a11537b9e251e5eecb9509f86cb2d05fed",
+          "package_path": "OEBPS/Images/image00175.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item83",
+          "href": "Images/image00176.jpeg",
+          "bytes": 41893,
+          "sha256": "20cfacbd76be5ce4a61e5211f970abb9e4f52fe07ac9e6296c08599442c5c4c7",
+          "package_path": "OEBPS/Images/image00176.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item84",
+          "href": "Images/image00177.jpeg",
+          "bytes": 66569,
+          "sha256": "1d52f7cb27aa23dc10576ba0ff02a5431f8f1c35ccfe5b08aa53266753634f8c",
+          "package_path": "OEBPS/Images/image00177.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item85",
+          "href": "Images/image00178.jpeg",
+          "bytes": 29239,
+          "sha256": "499537db79d40123e591e2043f01a2cee1ad776ea40b94802bb37760e0e05543",
+          "package_path": "OEBPS/Images/image00178.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item86",
+          "href": "Images/image00179.jpeg",
+          "bytes": 123311,
+          "sha256": "d0d812223abaf33f2dad00215254082422615a67688a7d2f75e136d9b6fe5d6a",
+          "package_path": "OEBPS/Images/image00179.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item87",
+          "href": "Images/image00180.jpeg",
+          "bytes": 115978,
+          "sha256": "11cb3cb528a8901b3946224a7c71bac8de4c0bf2cebb5ab0843242bc3881b26a",
+          "package_path": "OEBPS/Images/image00180.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item88",
+          "href": "Images/image00181.jpeg",
+          "bytes": 105933,
+          "sha256": "e75f9e86fcc697dab47633b2ee8851b4a9db497b02aa0c7ac65d4c201e3ea0c9",
+          "package_path": "OEBPS/Images/image00181.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item89",
+          "href": "Images/image00182.jpeg",
+          "bytes": 106523,
+          "sha256": "d62c2966f917e93cd5bc68da900fbfdea38627bd3eb281f7c50d70b74ed84313",
+          "package_path": "OEBPS/Images/image00182.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item90",
+          "href": "Images/image00183.jpeg",
+          "bytes": 27099,
+          "sha256": "f9a209409c0b02dc08561a5c18a73d54ca5540b8a925d071113a20c6a2ccfc2f",
+          "package_path": "OEBPS/Images/image00183.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item91",
+          "href": "Images/image00184.jpeg",
+          "bytes": 29342,
+          "sha256": "0f31b30245363536f33fe72a63adae6c8317a188349556113d16a73e86a93d3c",
+          "package_path": "OEBPS/Images/image00184.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item92",
+          "href": "Images/image00185.jpeg",
+          "bytes": 20158,
+          "sha256": "2e14cc00a53209513cdf1996b5124b7b6e54e4ae44b32638b0790ecc4c584acb",
+          "package_path": "OEBPS/Images/image00185.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item93",
+          "href": "Images/image00186.jpeg",
+          "bytes": 31786,
+          "sha256": "4a249f1cf917d459bc43f8f018ebaf1cb983c279f33fc0357cb5e75a99e3757d",
+          "package_path": "OEBPS/Images/image00186.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item94",
+          "href": "Images/image00187.jpeg",
+          "bytes": 26329,
+          "sha256": "16913e7b50bb7914deea3f6610517229183d3303f25cc455c28eefc19950eb08",
+          "package_path": "OEBPS/Images/image00187.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item95",
+          "href": "Images/image00188.jpeg",
+          "bytes": 27164,
+          "sha256": "a39f3f783511a1904e5719a885a312039a67a7f9619d852ac1d3c9860f3236ef",
+          "package_path": "OEBPS/Images/image00188.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item96",
+          "href": "Images/image00189.jpeg",
+          "bytes": 29208,
+          "sha256": "f4b00173e6b366c5cd58c0a92c16a4827bbd29f4bd3405a7f64fdbf1ad98ebdf",
+          "package_path": "OEBPS/Images/image00189.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item97",
+          "href": "Images/image00190.jpeg",
+          "bytes": 22994,
+          "sha256": "c6cb6722c1f1f40dc5eb4ea1b33db4d3a09c702c7692b041a4d8c8a0a043ab2a",
+          "package_path": "OEBPS/Images/image00190.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        },
+        {
+          "id": "item98",
+          "href": "Images/image00191.jpeg",
+          "bytes": 26269,
+          "sha256": "804fd1311f7495dd4f052f4fc32bb4a8b28bb5da8547a583a4ae9028690d1731",
+          "package_path": "OEBPS/Images/image00191.jpeg",
+          "review_status": "unread_deferred_no_private_case_summary"
+        }
+      ],
+      "cover_svg_image_reference": "../Images/cover00110.jpeg",
+      "download_ref": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all17_spine_native_texts_read_cover_and_three_tables_reviewed_77_images_unread",
+      "read_ranges": [
+        [
+          0,
+          12000
+        ],
+        [
+          12000,
+          24000
+        ],
+        [
+          24000,
+          36000
+        ],
+        [
+          36000,
+          48000
+        ],
+        [
+          48000,
+          60000
+        ],
+        [
+          60000,
+          72000
+        ],
+        [
+          72000,
+          84000
+        ],
+        [
+          84000,
+          96000
+        ],
+        [
+          96000,
+          108000
+        ],
+        [
+          108000,
+          120000
+        ],
+        [
+          120000,
+          132000
+        ],
+        [
+          132000,
+          137300
+        ]
+      ],
+      "all_native_text_read": true,
+      "native_text_directly_read": true,
+      "original_publication_complete": false,
+      "all_image_content_read": false,
+      "visual_images_read": [
+        "cover00110.jpeg",
+        "image00112.jpeg",
+        "image00163.jpeg",
+        "image00164.jpeg"
+      ],
+      "image_assets_unread_count": 77,
+      "new_OCR_pages": 0,
+      "source_connector": {
+        "requested_ref": "1bc521f27164d2ebcc757f5f51b9eba48cf2d257",
+        "sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+        "encoding": "base64",
+        "returned_content_characters": 0,
+        "fixed_raw_binary_fallback_verified": true
+      },
+      "external_bibliographic_verification": false,
+      "private_case_summaries_saved": 0
+    }
+  ],
+  "actual_direct_read_chunks": 19,
+  "new_direct_extractable_characters_read": 209837,
+  "new_direct_body_characters_read": 205797,
+  "new_native_text_complete_file_ids": [
+    "B036",
+    "B038"
+  ],
+  "new_book_file_ids_completed": [],
+  "new_whole_book_files_completed": 0,
+  "new_original_review_groups": 12,
+  "new_book_entry_files": 2,
+  "new_method_source_bindings": 32,
+  "method_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B036-evidence-and-model.md",
+      "locator": "对应当前PDF物理页21–40；相关总体结论见58–77页。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B036-evidence-and-model.md",
+      "locator": "对应当前PDF物理页21–40；相关总体结论见58–77页。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B036-autonomy-and-boundaries.md",
+      "locator": "对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B036-autonomy-and-boundaries.md",
+      "locator": "对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B036-autonomy-and-boundaries.md",
+      "locator": "对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B036-source-scope.md",
+      "locator": "对应当前PDF物理页1–20、45–57、78–97。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B038-part1-planning.md",
+      "locator": "对应EPUB顺序项7–9，Part1及前置说明。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B038-part1-planning.md",
+      "locator": "对应EPUB顺序项7–9，Part1及前置说明。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B038-part2-presentation.md",
+      "locator": "对应EPUB顺序项10，Part2。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B038-part2-presentation.md",
+      "locator": "对应EPUB顺序项10，Part2。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B038-part3-opening.md",
+      "locator": "对应EPUB顺序项11，Part3。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B038-part3-opening.md",
+      "locator": "对应EPUB顺序项11，Part3。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B038-profile-and-privacy.md",
+      "locator": "对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B038-profile-and-privacy.md",
+      "locator": "对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B038-profile-and-privacy.md",
+      "locator": "对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B038-part4-invitations.md",
+      "locator": "对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B038-part4-invitations.md",
+      "locator": "对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B038-part4-invitations.md",
+      "locator": "对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B038-part4-invitations.md",
+      "locator": "对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B038-part5-connection.md",
+      "locator": "对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B038-part5-connection.md",
+      "locator": "对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B038-part5-connection.md",
+      "locator": "对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B038-part5-connection.md",
+      "locator": "对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B038-part6-expectations.md",
+      "locator": "对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B038-part6-expectations.md",
+      "locator": "对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B038-part6-expectations.md",
+      "locator": "对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B038-part7-agency.md",
+      "locator": "对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B038-part7-agency.md",
+      "locator": "对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B038-part7-agency.md",
+      "locator": "对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B038-part7-breakups.md",
+      "locator": "对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B038-part7-breakups.md",
+      "locator": "对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B038-part7-breakups.md",
+      "locator": "对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。"
+    }
+  ],
+  "reading_attribution": "Single reader; complete native streams directly read in19 returned chunks.3 pure-text PDF pages,one cover and three EPUB tables visually reviewed.",
+  "case_summaries_saved": 0,
+  "private_source_images_OCRed": 0,
+  "raw_source_text_newly_archived": false,
+  "raw_source_images_newly_archived": false,
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 40,
+    "current_file_text_partial": 5,
+    "not_started": 74
+  },
+  "next_work_unit": {
+    "id": "B039",
+    "path": "冷眼观爱2 - 冷爱.pdf",
+    "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+    "bytes": 7795361,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": 380,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
+    "next_character": 0,
+    "start": "Unstarted scanned PDF. Start at physical page1. Historical380-page OCR processing is not verified reading.",
+    "next_content_unit": "B039 file page1; reconstruct readable OCR for required pages and verify against page images",
+    "current_extraction_identity": null,
+    "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+    "substantive_body_characters_read": 0
+  },
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    },
+    {
+      "id": "B036",
+      "path": "人妻约会指南.pdf",
+      "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+      "bytes": 2994034,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+        "characters": 72537,
+        "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Only the retained private or unverified source-image gap; native text fully read",
+      "next_file_page": null,
+      "image_pages_excluded": [
+        3,
+        8,
+        9,
+        10,
+        35,
+        40,
+        69,
+        70,
+        77,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "id": "B038",
+      "path": "冷眼观爱 - 冷爱.epub",
+      "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+      "bytes": 3825636,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+        "characters": 137300,
+        "body_characters": 136355,
+        "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "historical_count": 400288,
+        "historical_count_not_used_for_current_offsets": true
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Native text fully read.77 image assets still unread; no re-start at spine1",
+      "next_spine_index": null,
+      "unread_image_asset_paths": [
+        "OEBPS/Images/image00113.jpeg",
+        "OEBPS/Images/image00114.jpeg",
+        "OEBPS/Images/image00115.jpeg",
+        "OEBPS/Images/image00116.jpeg",
+        "OEBPS/Images/image00117.jpeg",
+        "OEBPS/Images/image00118.jpeg",
+        "OEBPS/Images/image00119.jpeg",
+        "OEBPS/Images/image00120.jpeg",
+        "OEBPS/Images/image00121.jpeg",
+        "OEBPS/Images/image00122.jpeg",
+        "OEBPS/Images/image00123.jpeg",
+        "OEBPS/Images/image00124.jpeg",
+        "OEBPS/Images/image00125.jpeg",
+        "OEBPS/Images/image00126.jpeg",
+        "OEBPS/Images/image00127.jpeg",
+        "OEBPS/Images/image00128.jpeg",
+        "OEBPS/Images/image00129.jpeg",
+        "OEBPS/Images/image00130.jpeg",
+        "OEBPS/Images/image00131.jpeg",
+        "OEBPS/Images/image00132.jpeg",
+        "OEBPS/Images/image00133.jpeg",
+        "OEBPS/Images/image00134.jpeg",
+        "OEBPS/Images/image00135.jpeg",
+        "OEBPS/Images/image00136.jpeg",
+        "OEBPS/Images/image00137.jpeg",
+        "OEBPS/Images/image00138.jpeg",
+        "OEBPS/Images/image00139.jpeg",
+        "OEBPS/Images/image00140.jpeg",
+        "OEBPS/Images/image00141.jpeg",
+        "OEBPS/Images/image00142.jpeg",
+        "OEBPS/Images/image00143.jpeg",
+        "OEBPS/Images/image00144.jpeg",
+        "OEBPS/Images/image00145.jpeg",
+        "OEBPS/Images/image00146.jpeg",
+        "OEBPS/Images/image00147.jpeg",
+        "OEBPS/Images/image00148.jpeg",
+        "OEBPS/Images/image00149.jpeg",
+        "OEBPS/Images/image00150.jpeg",
+        "OEBPS/Images/image00151.jpeg",
+        "OEBPS/Images/image00152.jpeg",
+        "OEBPS/Images/image00153.jpeg",
+        "OEBPS/Images/image00154.jpeg",
+        "OEBPS/Images/image00155.jpeg",
+        "OEBPS/Images/image00156.jpeg",
+        "OEBPS/Images/image00157.jpeg",
+        "OEBPS/Images/image00158.jpeg",
+        "OEBPS/Images/image00159.jpeg",
+        "OEBPS/Images/image00160.jpeg",
+        "OEBPS/Images/image00161.jpeg",
+        "OEBPS/Images/image00162.jpeg",
+        "OEBPS/Images/image00165.jpeg",
+        "OEBPS/Images/image00166.jpeg",
+        "OEBPS/Images/image00167.jpeg",
+        "OEBPS/Images/image00168.jpeg",
+        "OEBPS/Images/image00169.jpeg",
+        "OEBPS/Images/image00170.jpeg",
+        "OEBPS/Images/image00171.jpeg",
+        "OEBPS/Images/image00172.jpeg",
+        "OEBPS/Images/image00173.jpeg",
+        "OEBPS/Images/image00174.jpeg",
+        "OEBPS/Images/image00175.jpeg",
+        "OEBPS/Images/image00176.jpeg",
+        "OEBPS/Images/image00177.jpeg",
+        "OEBPS/Images/image00178.jpeg",
+        "OEBPS/Images/image00179.jpeg",
+        "OEBPS/Images/image00180.jpeg",
+        "OEBPS/Images/image00181.jpeg",
+        "OEBPS/Images/image00182.jpeg",
+        "OEBPS/Images/image00183.jpeg",
+        "OEBPS/Images/image00184.jpeg",
+        "OEBPS/Images/image00185.jpeg",
+        "OEBPS/Images/image00186.jpeg",
+        "OEBPS/Images/image00187.jpeg",
+        "OEBPS/Images/image00188.jpeg",
+        "OEBPS/Images/image00189.jpeg",
+        "OEBPS/Images/image00190.jpeg",
+        "OEBPS/Images/image00191.jpeg"
+      ]
+    }
+  ],
+  "scope": "Original non-graphic argument review only. Neither new source is counted fully complete because image gaps remain. Source identity,raw extraction,read chunks and reviewed images are distinguished. No new empirical efficacy,clinical,legal or bibliographic verification claimed."
+}
