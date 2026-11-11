@@ -1,0 +1,2936 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B013-complete-B014-ch01-2026-11-11",
+  "baseline_main": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+  "scope": "B013allcurrenttext;B014frontmatterandchapter1only;selectedvisualreview;notallbooksoralllayoutsorunderlyingresearchcertification",
+  "records": [
+    {
+      "id": "B013",
+      "path": "David_X的方法.pdf",
+      "bytes": 624594,
+      "git_blob_sha": "bd51f3486dfa482fb4480293413f426b10f27e1f",
+      "sha256": "fca3de93cebf859b132093a69425db051ba9e5c79cdfd8b8e609679767bf67e9",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "file_pages": 48,
+      "reading_status": "provided_file_text_complete",
+      "notes": [
+        "knowledge/books/B013.md",
+        "knowledge/books/B013-ch01-03.md",
+        "knowledge/books/B013-ch04-06.md",
+        "knowledge/books/B013-version-comparison.md"
+      ],
+      "original_publication_complete": false,
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 35731,
+        "sha256": "5d777f888897d065332ba73574d567cbe51f3b1f6b413198b2da2ecc60375910",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "read_file_pages": [
+        1,
+        48
+      ],
+      "read_range": [
+        0,
+        35731
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          6000
+        ],
+        [
+          6000,
+          12000
+        ],
+        [
+          12000,
+          18000
+        ],
+        [
+          18000,
+          24000
+        ],
+        [
+          24000,
+          30000
+        ],
+        [
+          30000,
+          35731
+        ]
+      ],
+      "new_direct_read_characters": 35731,
+      "next_file_page": null,
+      "next_character": null,
+      "unread_file_pages": [],
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        13,
+        17,
+        23,
+        25,
+        28,
+        29,
+        34,
+        35,
+        41,
+        45,
+        46,
+        47,
+        48
+      ],
+      "detailed_visual_pages": [
+        13,
+        28,
+        41,
+        46
+      ],
+      "all_pages_visually_reviewed": false,
+      "unreviewed_layout_pages_within_read_text": 30,
+      "unreviewed_layout_pages_total": 30,
+      "visual_findings": [
+        "18selectedpagesactuallyviewed;coverisembeddedimage;pages13,28,41,46enlarged;30otherlayoutsnotreviewed"
+      ],
+      "raw_or_extracted_text_archived": false,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            125
+          ],
+          "body_characters": 99,
+          "images": 1,
+          "drawings": 0,
+          "text_sha256": "4bd92a0ee0abd36fb11d1a9e7b14f0cd12884eed4692ba4a626d42f62719b6da",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 2,
+          "range": [
+            125,
+            469
+          ],
+          "body_characters": 318,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8e2a22b4eb098bc906538e5461955b7696455e52290b7564053eb83cc90cd152",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 3,
+          "range": [
+            469,
+            847
+          ],
+          "body_characters": 352,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "967615cf664f49d5ac6fbd8c22e2c228b81bc5e2d0d2b94dcbf83131b5f1ae2d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 4,
+          "range": [
+            847,
+            1352
+          ],
+          "body_characters": 479,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "445236183126c6a8b1a4ead08b2dcfe25231e01fa6338a56651e0de2e3df14b7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 5,
+          "range": [
+            1352,
+            2087
+          ],
+          "body_characters": 709,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "2752ef7be77e79ca38b0c71320490d63da9b91f305e91868502d40b80f151c06",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 6,
+          "range": [
+            2087,
+            2888
+          ],
+          "body_characters": 775,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5b9769f17e3323c9bb37106b571bcea4332125de766400e74711072d1e1a16bb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 7,
+          "range": [
+            2888,
+            3747
+          ],
+          "body_characters": 833,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8d330ae3c032fe2fcfde45ab7992f817bcd4b548a2fd68adb103cfecc060904e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 8,
+          "range": [
+            3747,
+            4410
+          ],
+          "body_characters": 637,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a8f509f94ec39c70212b7afcc46472712706cd2807d16fa122db85c6b0a2aed9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 9,
+          "range": [
+            4410,
+            5000
+          ],
+          "body_characters": 564,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d582a02dc2030a47b792d59dc29d9730ccc0e14cac378e0c74606b8a0b8e5566",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 10,
+          "range": [
+            5000,
+            5688
+          ],
+          "body_characters": 661,
+          "images": 0,
+          "drawings": 3,
+          "text_sha256": "1ff03f9ea87c5a392e5348299932e4de3345cb76bc3dfd3b45e3e4bd9d242899",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 11,
+          "range": [
+            5688,
+            6514
+          ],
+          "body_characters": 799,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "65d3f2ad019fa425aa3e236e13b77b5bdf4d38c7d072d0ed48fee247d270b2be",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 12,
+          "range": [
+            6514,
+            7294
+          ],
+          "body_characters": 753,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "650d49050c218778a6bdfc13d2c7dd6582ff3b754f470e5ffb2d17b2d5b78f91",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 13,
+          "range": [
+            7294,
+            8075
+          ],
+          "body_characters": 754,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "405ecaa13751388bc6cb7382943893e8d8d3265b971f725bbcee3eb57965c627",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 14,
+          "range": [
+            8075,
+            8782
+          ],
+          "body_characters": 680,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "63c9f116531be0677b78d962470b68ddec86c9b64719f64af25eab4269de799e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 15,
+          "range": [
+            8782,
+            9490
+          ],
+          "body_characters": 681,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "6b14681ba4080d153a31be630be870cb8c23c2a287925145a9a92ec507958f54",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 16,
+          "range": [
+            9490,
+            10317
+          ],
+          "body_characters": 800,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "eff3e9293cb9d0e08e9f32223a730471abc19f697f69b5b0d887774c2be276ed",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 17,
+          "range": [
+            10317,
+            11128
+          ],
+          "body_characters": 784,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9b2f3369d9c5569bba996532b51f7884e859374c84a8d7bdc5a33eaf05e14347",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 18,
+          "range": [
+            11128,
+            11960
+          ],
+          "body_characters": 805,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "26681c3ed09a4bdcea408c3a96388e556c168ede4a21c222e2507e2bbeea1e2d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 19,
+          "range": [
+            11960,
+            12694
+          ],
+          "body_characters": 707,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "20213aa0b4c2deebc1eead2f845fb6e76f1e9da686a666775a8ca6206c8409e1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 20,
+          "range": [
+            12694,
+            13473
+          ],
+          "body_characters": 752,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "4d8c064e199a15770a328a638625fb9300e87392b1c635cf656f89f10b727614",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 21,
+          "range": [
+            13473,
+            14292
+          ],
+          "body_characters": 792,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "ea26777336049d2c65f689006727d55eec24d636c419bdaa57b2713b43ef68f6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 22,
+          "range": [
+            14292,
+            15184
+          ],
+          "body_characters": 865,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "c342a1c9d65688e3f13024b7ad620f9b173ed3a84e9e2c0b74594a93d49989c4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 23,
+          "range": [
+            15184,
+            16032
+          ],
+          "body_characters": 821,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8e7789523d7611160af7f298dfd34d795fe99eb13a02dee677d813b737e44b8f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 24,
+          "range": [
+            16032,
+            16453
+          ],
+          "body_characters": 394,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "b13bc745fa193f94f5ef6e316cae89faa7f2acfcc4a8eb2713ac78a1bfaead03",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 25,
+          "range": [
+            16453,
+            17200
+          ],
+          "body_characters": 720,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "555d5b19e70311b338500566fbaaf373e9ef7127626629977aadb034a2eee317",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 26,
+          "range": [
+            17200,
+            18060
+          ],
+          "body_characters": 833,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "65a57dce30a722f21b106e5cdb032655be3e79253e51e7576bf9eac723a13e22",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 27,
+          "range": [
+            18060,
+            18949
+          ],
+          "body_characters": 862,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "2fde73ec3175f3a3661da23c8e1e273a9735a8fe9023d879e132f58bd7da5796",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 28,
+          "range": [
+            18949,
+            19768
+          ],
+          "body_characters": 792,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "2800b7c78ae6dc8c480b11e1098e8c142dab42a562952ae4706c8d1a16d294b9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 29,
+          "range": [
+            19768,
+            20416
+          ],
+          "body_characters": 621,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "4858b75ab8a1813b71e69d4b040d0890db24a60201db6d006fb8069674121ea5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 30,
+          "range": [
+            20416,
+            21235
+          ],
+          "body_characters": 792,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "814c3a4ec50c4f5f0f98cb5a588eb6977129748f0c09405de7909966c9fb5838",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 31,
+          "range": [
+            21235,
+            22105
+          ],
+          "body_characters": 843,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "ebdd40e7c6fa32815a5fc6b5e70fc3ce824b765016da4d254d087f03bc9a7a20",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 32,
+          "range": [
+            22105,
+            22971
+          ],
+          "body_characters": 839,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "44e591f41bdf9069a52643400e0010f55d7f92734f6102fcee6accce44a314e9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 33,
+          "range": [
+            22971,
+            23771
+          ],
+          "body_characters": 773,
+          "images": 0,
+          "drawings": 3,
+          "text_sha256": "7943f4433fad73de220331acfc68b7545fa96aa4dc1d184b34391d9e9d225d4e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 34,
+          "range": [
+            23771,
+            24570
+          ],
+          "body_characters": 772,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "662d99a2e0526d2137b7d2d828ea34a7f6fa946d891d82b53ec5d2302020d307",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 35,
+          "range": [
+            24570,
+            25408
+          ],
+          "body_characters": 811,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "c339a7dd4ae546f7d96d356e69bb9e3cddf0e3815bb093104740d15793316ecb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 36,
+          "range": [
+            25408,
+            26280
+          ],
+          "body_characters": 845,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "afef24a80cdbdf23591d873c709d3a87d4a0db216102dcd3e212a4ce4aef2349",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 37,
+          "range": [
+            26280,
+            27191
+          ],
+          "body_characters": 884,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "1a99985e9fc6af11b984297ca6ef027de48346f88e61e510458f9267ede212c5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 38,
+          "range": [
+            27191,
+            28075
+          ],
+          "body_characters": 857,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "0c3a56cf2870b3e9e15bf0fcc42346362fd1be6ded44b2df0ffedceab202fe77",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 39,
+          "range": [
+            28075,
+            28869
+          ],
+          "body_characters": 767,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "41ab4d0107676bdd53298d09cd5b6658d3c5cb131ee244e9728ab016ddd71a6a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 40,
+          "range": [
+            28869,
+            29661
+          ],
+          "body_characters": 765,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d7adbd8a181f6fb21ae386b423e6f0c4f1f0a3b87e6b497b8d416cdf96f8ef84",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 41,
+          "range": [
+            29661,
+            30522
+          ],
+          "body_characters": 834,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "383e98ac3cedfc9f4b1064b161e6df18016c299665b0ea86d438150a862145c4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 42,
+          "range": [
+            30522,
+            31380
+          ],
+          "body_characters": 831,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "62d8dfbe1dae651d8c065d0476da2538648e1b1523d9e47f982878ab09805c55",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 43,
+          "range": [
+            31380,
+            32209
+          ],
+          "body_characters": 802,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "20691d9f0f7b4f688506811046f1be74b96e8c3a90319964de97b69de101b4f0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 44,
+          "range": [
+            32209,
+            32626
+          ],
+          "body_characters": 390,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "95e042bc275cc530a48f5ade8deee7dd20939c2911ad2ebbfc11e3bcbb46e3fe",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 45,
+          "range": [
+            32626,
+            33406
+          ],
+          "body_characters": 753,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "dff09186314bb6b183c22e536a78806ab099429553dd3a2032d908be0cd87d29",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 46,
+          "range": [
+            33406,
+            34240
+          ],
+          "body_characters": 807,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "2947422869d0aa0f0d4d8be4ddebc1088c26df3922742220e422f918dd88d399",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 47,
+          "range": [
+            34240,
+            35091
+          ],
+          "body_characters": 824,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5ad2f22b3a25115b9caad4d20a5706efaf4392322a6f6e421ac38698d7e821ff",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 48,
+          "range": [
+            35091,
+            35731
+          ],
+          "body_characters": 613,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5c7e77b092ff58ffa0befb979e3ecee7df39154bdd39a31abff3f1f3e88af316",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ],
+      "chapter_locators": [
+        {
+          "chapter": 1,
+          "heading_as_file": "第一章",
+          "start_file_page": 5,
+          "content_locator_file_pages": [
+            5,
+            9
+          ],
+          "start_character": 1424,
+          "note": "knowledge/books/B013-ch01-03.md",
+          "current_extraction_range": [
+            1424,
+            5073
+          ]
+        },
+        {
+          "chapter": 2,
+          "heading_as_file": "第二章",
+          "start_file_page": 10,
+          "content_locator_file_pages": [
+            10,
+            12
+          ],
+          "start_character": 5073,
+          "note": "knowledge/books/B013-ch01-03.md",
+          "current_extraction_range": [
+            5073,
+            7367
+          ]
+        },
+        {
+          "chapter": 3,
+          "heading_as_file": "第三章",
+          "start_file_page": 13,
+          "content_locator_file_pages": [
+            13,
+            24
+          ],
+          "start_character": 7367,
+          "note": "knowledge/books/B013-ch01-03.md",
+          "current_extraction_range": [
+            7367,
+            16526
+          ]
+        },
+        {
+          "chapter": 4,
+          "heading_as_file": "第四章",
+          "start_file_page": 25,
+          "content_locator_file_pages": [
+            25,
+            28
+          ],
+          "start_character": 16526,
+          "note": "knowledge/books/B013-ch04-06.md",
+          "current_extraction_range": [
+            16526,
+            19841
+          ]
+        },
+        {
+          "chapter": 5,
+          "heading_as_file": "第五章",
+          "start_file_page": 29,
+          "content_locator_file_pages": [
+            29,
+            44
+          ],
+          "start_character": 19841,
+          "note": "knowledge/books/B013-ch04-06.md",
+          "current_extraction_range": [
+            19841,
+            32699
+          ]
+        },
+        {
+          "chapter": 6,
+          "heading_as_file": "第六章",
+          "start_file_page": 45,
+          "content_locator_file_pages": [
+            45,
+            48
+          ],
+          "start_character": 32699,
+          "note": "knowledge/books/B013-ch04-06.md",
+          "current_extraction_range": [
+            32699,
+            35731
+          ]
+        }
+      ],
+      "front_matter_range": [
+        0,
+        1424
+      ],
+      "embedded_image_pages": [
+        1
+      ],
+      "embedded_image_inspection_scope": "all48pages;onlycoverrasterimagedetectedandviewed",
+      "version_limit": "communityChinese-onlyfile;southerncrosssttranslator;azysandtranslatorproofreading;formaloriginaleditionandunabridgednessuncertified",
+      "comparison_note": "knowledge/books/B013-version-comparison.md",
+      "comparison_items": 7,
+      "comparison_scope": "specificcomparisonswithB012providedEnglish;notcompletecollationorformaloriginalcertification",
+      "truncation_recovery": "range[12000,18000)wasreprintedandactuallyobservedaftertruncatedattempt;creditedonceonly"
+    },
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "bytes": 13323230,
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "notes": [
+        "knowledge/books/B014.md",
+        "knowledge/books/B014-ch01.md"
+      ],
+      "original_publication_complete": false,
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "read_file_pages": [
+        1,
+        82
+      ],
+      "read_range": [
+        0,
+        139496
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          18000
+        ],
+        [
+          18000,
+          36000
+        ],
+        [
+          36000,
+          54000
+        ],
+        [
+          54000,
+          72000
+        ],
+        [
+          72000,
+          90000
+        ],
+        [
+          90000,
+          108000
+        ],
+        [
+          108000,
+          126000
+        ],
+        [
+          126000,
+          139496
+        ]
+      ],
+      "new_direct_read_characters": 139496,
+      "next_file_page": 83,
+      "next_character": 139496,
+      "unread_file_pages": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002
+      ],
+      "visual_review_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        20,
+        21,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        45,
+        49,
+        50,
+        51,
+        54,
+        55,
+        56,
+        60,
+        63,
+        82
+      ],
+      "detailed_visual_pages": [
+        42,
+        54,
+        55,
+        56
+      ],
+      "all_pages_visually_reviewed": false,
+      "unreviewed_layout_pages_within_read_text": 58,
+      "unreviewed_layout_pages_total": 978,
+      "visual_findings": [
+        "24selectedpagesactuallyviewed;all9embeddedimagepageswithin1to82viewed;blankpage8confirmed;Figure1.1andTable1.1pages42,54,55,56enlarged;58otherreadtextlayoutsnotreviewed;later920pagesunread"
+      ],
+      "raw_or_extracted_text_archived": false,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            26
+          ],
+          "body_characters": 0,
+          "text_sha256": "33ae7f42280000fd67ba425861a3f6bd217da44e5b587b8f7c760e9043e59d0c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 2,
+          "range": [
+            26,
+            1550
+          ],
+          "body_characters": 1498,
+          "text_sha256": "15a3dd2e4077a71f9460b6e8e0c4f5d12b6df3d53804f20b8797c67dfdcec150",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 3,
+          "range": [
+            1550,
+            2904
+          ],
+          "body_characters": 1328,
+          "text_sha256": "c4ce7219f34a8701ddcc783ac880beb9fb9865de430910f12364dc73acb6f1cc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 4,
+          "range": [
+            2904,
+            3019
+          ],
+          "body_characters": 89,
+          "text_sha256": "bad2fb1a12a31ef97cfdcd48fafc57c486f44f3dd8d72ffde8214821236e27fa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 5,
+          "range": [
+            3019,
+            4817
+          ],
+          "body_characters": 1772,
+          "text_sha256": "7c3406846c5cc9ec212ce12438de2999e172bbba70e76da051990878f829d001",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 6,
+          "range": [
+            4817,
+            5163
+          ],
+          "body_characters": 320,
+          "text_sha256": "a5e50ef5f1eb92a4d84d26a29b2595bb7c9778a220c6280a4eafc68a6908a20b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 7,
+          "range": [
+            5163,
+            5977
+          ],
+          "body_characters": 788,
+          "text_sha256": "657db0a0688e91dd67e5602ed23c72faebaa01373aad0f5081ce01508e38136f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 8,
+          "range": [
+            5977,
+            6003
+          ],
+          "body_characters": 0,
+          "text_sha256": "323c878c6325382343f180de2cdd0ee46be65b7baf2be015617a1980d5db8be7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 9,
+          "range": [
+            6003,
+            8090
+          ],
+          "body_characters": 2061,
+          "text_sha256": "1457780a4a336197032b336c11efa78e0f4721ddde6e86bc377606a0283d122c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 10,
+          "range": [
+            8090,
+            9864
+          ],
+          "body_characters": 1747,
+          "text_sha256": "573a340d3aba227c5263862c4629527e24fa95719e3429a54116c814adaa9f4e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 11,
+          "range": [
+            9864,
+            11672
+          ],
+          "body_characters": 1781,
+          "text_sha256": "b005916d5fe094ea09925bd64483386ce8b90078b4d4b0545b20a19bb7148774",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 12,
+          "range": [
+            11672,
+            13728
+          ],
+          "body_characters": 2029,
+          "text_sha256": "9656f95ca3ebca71021d3f047be6850f9ce951499ce4686b3cc9d50dd9840857",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 13,
+          "range": [
+            13728,
+            14205
+          ],
+          "body_characters": 450,
+          "text_sha256": "c9ebcf6ed314fe5af319d9672ddb37e68a0d1eb8e84fe4f49f58f064468fdaa2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 14,
+          "range": [
+            14205,
+            14312
+          ],
+          "body_characters": 80,
+          "text_sha256": "6af4fa029adf34909013da04709a18e83230fb51c9aa76f93119fc319f85757a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 15,
+          "range": [
+            14312,
+            16396
+          ],
+          "body_characters": 2057,
+          "text_sha256": "845f038353eb7a193766f476842d4c46b4ec03291176e4cc41cfa11297b8b215",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 16,
+          "range": [
+            16396,
+            18992
+          ],
+          "body_characters": 2569,
+          "text_sha256": "c2636de9b01d034dbe2d20d518404bfead17df2b6cb190fdd961b39c247a2b8c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 17,
+          "range": [
+            18992,
+            21500
+          ],
+          "body_characters": 2481,
+          "text_sha256": "31776733e6ff663d3df13eaa95012552a3ec6e55fd8b70cefb04ced34cd907e9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 18,
+          "range": [
+            21500,
+            22832
+          ],
+          "body_characters": 1305,
+          "text_sha256": "daa135c81e616131408be6657630a72cb1e5da4794331feee8e84a5930bb0ca3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 19,
+          "range": [
+            22832,
+            24140
+          ],
+          "body_characters": 1281,
+          "text_sha256": "24b3fb75af81b3376267a8a5fa22990acae433fbf2db70192ccca13f4272e400",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 20,
+          "range": [
+            24140,
+            25706
+          ],
+          "body_characters": 1539,
+          "text_sha256": "d62b2cf56438fff3464803a11e79b21cc6666ac2b7b633623983168141dca707",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 21,
+          "range": [
+            25706,
+            27157
+          ],
+          "body_characters": 1424,
+          "text_sha256": "c81b6f6c9cd57cfd588b71436739ff1533893fdfb7d96ce8ef982b995880c222",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 22,
+          "range": [
+            27157,
+            29635
+          ],
+          "body_characters": 2451,
+          "text_sha256": "ccfb4bb78285ac259cf43573bf566dadb2b5c0e1b183313751f1e8b407526d30",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 23,
+          "range": [
+            29635,
+            30078
+          ],
+          "body_characters": 416,
+          "text_sha256": "59d222cbf0ab459e4f8853f109e1cb35795e230d06a390a352b61bac71dacd18",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 24,
+          "range": [
+            30078,
+            31752
+          ],
+          "body_characters": 1647,
+          "text_sha256": "3384ba4be81e7c92b9e9cc2d9a413f0204b840413e053b3bd275b4667dfe5404",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 25,
+          "range": [
+            31752,
+            34223
+          ],
+          "body_characters": 2444,
+          "text_sha256": "4c780b5716a3ce2383943d25ae0bf1ee6097f5bc36e593318a9599f77d8993a5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 26,
+          "range": [
+            34223,
+            36260
+          ],
+          "body_characters": 2010,
+          "text_sha256": "1147fe9c88107d5d9d24a8b2b3033587ee405c8d57c7992fd156b86e434ff54f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 27,
+          "range": [
+            36260,
+            36555
+          ],
+          "body_characters": 268,
+          "text_sha256": "4fa846b0a734a5bba2e971c8d76931b1117b4795ad6b5493825c85a35c6c0ae4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 28,
+          "range": [
+            36555,
+            39330
+          ],
+          "body_characters": 2748,
+          "text_sha256": "c9c50819bc86bfbbf20aa7cdbe7c743798de0291b9570a1ae8939b0c8b148602",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 29,
+          "range": [
+            39330,
+            41095
+          ],
+          "body_characters": 1738,
+          "text_sha256": "a65d8f2c8b51e990e20931c213e476fe3ca76dfe9fbad0054726a239f8e6fb24",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 30,
+          "range": [
+            41095,
+            42578
+          ],
+          "body_characters": 1456,
+          "text_sha256": "eaa1c17d668bee02307d29af259ba3a0cb44c1235044086c4c7f81cca2308f99",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 31,
+          "range": [
+            42578,
+            43909
+          ],
+          "body_characters": 1304,
+          "text_sha256": "1e6161d3442993b8bb874b31879ebff54ec2476b6a965385552cd7fd0450cb9b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 32,
+          "range": [
+            43909,
+            45841
+          ],
+          "body_characters": 1905,
+          "text_sha256": "e20469fc6ca4266ac74a745b69eaeba0d799556b2eb1d7e020a12bc24a6b6030",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 33,
+          "range": [
+            45841,
+            48460
+          ],
+          "body_characters": 2592,
+          "text_sha256": "2dcd2b8325f4ac502553e7eb210e30c1f5bfeb881e51e82b0520d728dcffc959",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 34,
+          "range": [
+            48460,
+            51048
+          ],
+          "body_characters": 2561,
+          "text_sha256": "9bf8ba4fff44f6a6cba9dcf20da3edc877f9de28ebe4311260ef9c528645fb35",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 35,
+          "range": [
+            51048,
+            53381
+          ],
+          "body_characters": 2306,
+          "text_sha256": "a3c84552da9e2ded7c39ddb529d4c624ae86417a24cddedfb209b1dde03690f0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 36,
+          "range": [
+            53381,
+            55601
+          ],
+          "body_characters": 2193,
+          "text_sha256": "29ea7378d5a1b17b933da64fd221dffd7a2ca75462e762c22476ec87841a2f69",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 37,
+          "range": [
+            55601,
+            58264
+          ],
+          "body_characters": 2636,
+          "text_sha256": "82d86ada7a134d248adbfc1cbdf72240f199d38aaf71750657ce21c7c443f769",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 38,
+          "range": [
+            58264,
+            59527
+          ],
+          "body_characters": 1236,
+          "text_sha256": "449b05e9b998dd8a906c7b342478440ba9cd2e26fe8e4978cfc5d0bc5e37fd9c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 39,
+          "range": [
+            59527,
+            61710
+          ],
+          "body_characters": 2156,
+          "text_sha256": "192c0c843c68ee7e078e01fca2e9fd1c53d49217ab1c430e5481146846fee146",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 40,
+          "range": [
+            61710,
+            64272
+          ],
+          "body_characters": 2535,
+          "text_sha256": "9d0d26875c4a08670edad62e3fdb21509e644fb4385affd420f94092f67d0cbd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 41,
+          "range": [
+            64272,
+            64572
+          ],
+          "body_characters": 273,
+          "text_sha256": "adbd49e0c1a4f3c6235cb32f5644884193f239d780f92b75a4d23474c2b67dee",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 42,
+          "range": [
+            64572,
+            65480
+          ],
+          "body_characters": 881,
+          "text_sha256": "90de3995469865fd3603aff99fe661171e15e558cf04a95e3441df6c7c4d3f68",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 43,
+          "range": [
+            65480,
+            67440
+          ],
+          "body_characters": 1933,
+          "text_sha256": "32d6d20bb81f2e9788a67edecde7b62cfdb8e9201ef398891412aeb2ce007c31",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 44,
+          "range": [
+            67440,
+            70174
+          ],
+          "body_characters": 2707,
+          "text_sha256": "a53df0eea892b34dedfe83a4d0f6babf1977e5f353a4ed185d1391349d9516a4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 45,
+          "range": [
+            70174,
+            72891
+          ],
+          "body_characters": 2690,
+          "text_sha256": "cb907f3a272f3632544e4db233a629d882893a941c9afb4022f5a7e7f917496c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 46,
+          "range": [
+            72891,
+            74945
+          ],
+          "body_characters": 2027,
+          "text_sha256": "2a8f4b41b6daba37ca0df924c98d1a9d9bff1206e16a814f9fbcfb5c44d1c4c2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 47,
+          "range": [
+            74945,
+            77355
+          ],
+          "body_characters": 2383,
+          "text_sha256": "fbcacf503ab7a600c946606ce5515a9cfe91eee5836718fb56ffb02c1d62342a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 48,
+          "range": [
+            77355,
+            77739
+          ],
+          "body_characters": 357,
+          "text_sha256": "048587e2ce5bc874b65568e2176d1c27e5dbcc4b21e9ba5d5534b915686081c4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 49,
+          "range": [
+            77739,
+            79416
+          ],
+          "body_characters": 1650,
+          "text_sha256": "6862f2db74f455897782e614efe9544dfee977e7ae124735100378c089dca133",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 50,
+          "range": [
+            79416,
+            81350
+          ],
+          "body_characters": 1907,
+          "text_sha256": "357e40a27e00921de6856f30f32673ca1a1230d1b8e8ac6089f70228b5022c91",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 51,
+          "range": [
+            81350,
+            83442
+          ],
+          "body_characters": 2065,
+          "text_sha256": "a8830d33f5ef56c957cc14a83ccc238013e189c698f6c092588ad47d2066b41f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 52,
+          "range": [
+            83442,
+            85837
+          ],
+          "body_characters": 2368,
+          "text_sha256": "ce35dfd5adf387f7ad7e6122ece09259c10ca2ad1d1ccb5aaeb00f355fd8a9c1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 53,
+          "range": [
+            85837,
+            86505
+          ],
+          "body_characters": 641,
+          "text_sha256": "a0ef91074ef0e7a7a9355b28343debeb878367bff768ce86dd586216bd6b23e7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 54,
+          "range": [
+            86505,
+            87757
+          ],
+          "body_characters": 1225,
+          "text_sha256": "3c0778e0b232bc94de11a1b8ba7cd4744ad6e675082690c807fbca2c54067c50",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 55,
+          "range": [
+            87757,
+            89515
+          ],
+          "body_characters": 1731,
+          "text_sha256": "9d5da5733e8938b0110c4bd1fc8bc64d55ca50902a4b1f22b43ee77df80f4d14",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 56,
+          "range": [
+            89515,
+            91755
+          ],
+          "body_characters": 2213,
+          "text_sha256": "c0f526a7a94e3d0ec12527156955058fa9b8211384e0ed17ceb174bf9ba585ca",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 57,
+          "range": [
+            91755,
+            94178
+          ],
+          "body_characters": 2396,
+          "text_sha256": "2943444fa506daf35c985556df9137cd0d6f6b7ce6f4aad77e967c04ff160380",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 58,
+          "range": [
+            94178,
+            96610
+          ],
+          "body_characters": 2405,
+          "text_sha256": "1d38db9dc04b5aaee9746acb4ddf845f5a867136e987dde5539fa79cf4394fd9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 59,
+          "range": [
+            96610,
+            97764
+          ],
+          "body_characters": 1127,
+          "text_sha256": "f32b58dcf66a281b8a144b51eebf88bc98917adf7d9a149c387336fc60c39159",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 60,
+          "range": [
+            97764,
+            99519
+          ],
+          "body_characters": 1728,
+          "text_sha256": "9f345b012bfe14a318658546daeb864f6865d4cde53d009e77286db5ebfda82d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 61,
+          "range": [
+            99519,
+            101885
+          ],
+          "body_characters": 2339,
+          "text_sha256": "b93fecce824190cf9b21024ea19f7c607048e45c6dabd8347ea5fc3cf0f7b501",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 62,
+          "range": [
+            101885,
+            104351
+          ],
+          "body_characters": 2439,
+          "text_sha256": "9f3a91685816cdad96083e1a2a3a4d1065db890bc0531b11170515aa732043a9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 63,
+          "range": [
+            104351,
+            106738
+          ],
+          "body_characters": 2360,
+          "text_sha256": "4bed75f76d06430748b000f3757e8000e34549276d2f1e0aa5eae266a8ba2418",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 64,
+          "range": [
+            106738,
+            108656
+          ],
+          "body_characters": 1891,
+          "text_sha256": "94c0d77a3b823022c425773453494ecc3429c1495998d3482770054721916b07",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 65,
+          "range": [
+            108656,
+            110958
+          ],
+          "body_characters": 2275,
+          "text_sha256": "0a52a66109b19fe9cf53eb063daacbf46e90ad513fb378b367708bbd1fb7fb41",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 66,
+          "range": [
+            110958,
+            112899
+          ],
+          "body_characters": 1914,
+          "text_sha256": "615b16ddee9727092d7dcbf1648f0681ba05460ce34903d7c8071139b5450f58",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 67,
+          "range": [
+            112899,
+            113792
+          ],
+          "body_characters": 866,
+          "text_sha256": "128c8d346aeb3060804225adf86469554d4faad45ffc3db38aa1000f4b264e54",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 68,
+          "range": [
+            113792,
+            115801
+          ],
+          "body_characters": 1982,
+          "text_sha256": "1a10b67624d150259678c4407f5adf8be7bd5bc15d4842beffefdde9e3c45e3f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 69,
+          "range": [
+            115801,
+            117916
+          ],
+          "body_characters": 2088,
+          "text_sha256": "62e44bbd4365866538619bd8c280ea44f24a93b6b7a80a18d9a19c1fda267c6a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 70,
+          "range": [
+            117916,
+            119826
+          ],
+          "body_characters": 1883,
+          "text_sha256": "2cfe00ba4483f926142bcfa6755cec8ae50c058da88f1b4b8baf641681937c99",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 71,
+          "range": [
+            119826,
+            120746
+          ],
+          "body_characters": 893,
+          "text_sha256": "4cbb38d959a2ee3e59886b9b8c91ad41e9bec3ccdc7266abde77c6ea5c2026c3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 72,
+          "range": [
+            120746,
+            122644
+          ],
+          "body_characters": 1871,
+          "text_sha256": "e0d99c296f80fc2ece903ebbdbb49f679aae8ab490f851735206fbe58d615b62",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 73,
+          "range": [
+            122644,
+            125236
+          ],
+          "body_characters": 2565,
+          "text_sha256": "4eaf7196958248a250bd051c86c2b11cd90dfe16a3dc40988a912f21ea1e44a8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 74,
+          "range": [
+            125236,
+            127732
+          ],
+          "body_characters": 2469,
+          "text_sha256": "d858e2d9b0d20b49bf2f1e0e9281de66d526868bd61d4eadcc5c4aed185b73f3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 75,
+          "range": [
+            127732,
+            128361
+          ],
+          "body_characters": 602,
+          "text_sha256": "99898dbbc1dd4ac03899830458bf71efefb5f2494af5e1969dea9f8f621d3287",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 76,
+          "range": [
+            128361,
+            130442
+          ],
+          "body_characters": 2054,
+          "text_sha256": "1caf05db01e0cd251af2719a59227e35e7cc7a478ce2eb7f27dc3864b7338d29",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 77,
+          "range": [
+            130442,
+            133014
+          ],
+          "body_characters": 2545,
+          "text_sha256": "21f408c28c3bed0c290c0f7321be9f28aaace369ac3e34f0d443fc9b318fce14",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 78,
+          "range": [
+            133014,
+            135363
+          ],
+          "body_characters": 2322,
+          "text_sha256": "5cc532a8e542f0cf543da0c8ed6762f85f76b7515f0aab907f22eeb547ad814f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 79,
+          "range": [
+            135363,
+            137274
+          ],
+          "body_characters": 1884,
+          "text_sha256": "894cc7d3e34960aa0f4025609cd0c6859fc581eaf23382174e0e5d5135ae0e6e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 80,
+          "range": [
+            137274,
+            137496
+          ],
+          "body_characters": 195,
+          "text_sha256": "7cd62149e9cbda58c0c2e7bb5bdf46793c3f1d41f5e0134c705ccdbdd69ab8c3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 81,
+          "range": [
+            137496,
+            139328
+          ],
+          "body_characters": 1805,
+          "text_sha256": "09c80e222f999eccdddd501f4151901d946c05b590bc0843a5bbe7e47d295e79",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 82,
+          "range": [
+            139328,
+            139496
+          ],
+          "body_characters": 141,
+          "text_sha256": "8a7dee9d1a4e284c94ff0b4eeda3d6fea986601274abab13804687573b4d9a7f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ],
+      "embedded_image_pages_within_read_text": [
+        1,
+        3,
+        4,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42
+      ],
+      "embedded_image_inspection_scope": "pages1to82only;embeddedimagesinlater920pagesnotinspected",
+      "cover_image_read": true,
+      "blank_body_pages_within_read_text": [
+        1,
+        8
+      ],
+      "current_extraction_vs_historical_inventory": "current1991387characters;historical1993391;coordinatesandhashesnotinterchangeable;nooldreadingcredit",
+      "identified_file_edition": {
+        "author": "David M. Buss",
+        "title": "Evolutionary Psychology: The New Science of the Mind",
+        "edition": 6,
+        "year": 2019,
+        "publisher": "Routledge",
+        "ebook_isbn": "9780429061417",
+        "identity_file_pages": [
+          1,
+          4,
+          5
+        ],
+        "formal_ebook_layout_completeness_certified": false
+      },
+      "read_content_units": [
+        {
+          "name": "front matter and Part1 introduction",
+          "file_pages": [
+            1,
+            20
+          ],
+          "range": [
+            0,
+            25706
+          ]
+        },
+        {
+          "name": "Chapter1 including summary, questions, note and suggested readings",
+          "file_pages": [
+            21,
+            82
+          ],
+          "range": [
+            25706,
+            139496
+          ]
+        }
+      ],
+      "next_content_unit": "Chapter2: The New Science of Evolutionary Psychology",
+      "chapter2_and_later_text_unread": true,
+      "visual_elements_reviewed": [
+        {
+          "name": "Figure1.1",
+          "physical_pages": [
+            42
+          ],
+          "kind": "illustrative_relatedness_coefficients_not_relationship_or_survey_data"
+        },
+        {
+          "name": "Table1.1",
+          "physical_pages": [
+            54,
+            55,
+            56
+          ],
+          "kind": "book_historical_timeline_not_current_fact_check"
+        },
+        {
+          "name": "Box1.1",
+          "physical_pages": [
+            60,
+            61,
+            62,
+            63
+          ],
+          "scope": "textreadallfourpages;selectedlayoutpages60and63"
+        }
+      ],
+      "reference_verification": {
+        "verified_url": "https://api.crossref.org/works/10.4324/9780429061417",
+        "metadata": {
+          "DOI": "10.4324/9780429061417",
+          "type": "book",
+          "title": [
+            "Evolutionary Psychology"
+          ],
+          "subtitle": [
+            "The New Science of the Mind"
+          ],
+          "author": [
+            {
+              "given": "David M.",
+              "family": "Buss",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "publisher": "Routledge",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                2,
+                22
+              ]
+            ]
+          },
+          "published-print": null,
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                2,
+                22
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780429061417"
+          ],
+          "URL": "https://doi.org/10.4324/9780429061417"
+        }
+      },
+      "research_scope": "chapter1textread;underlyingpapersandbooksnotseparatelyfullread;no2026literatureupdateornovelchatinterventionvalidation"
+    }
+  ],
+  "new_book_files_completed": 1,
+  "new_book_files_partially_read": 1,
+  "new_direct_primary_extraction_characters": 175227,
+  "physical_file_pages_covered": 130,
+  "selected_visual_page_reviews": 42,
+  "remaining_unreviewed_layout_pages_within_read_text": 88,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B014",
+    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+    "bytes": 13323230,
+    "file_pages": 1002,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "physicalpage83start;Chapter2;continuecurrentextractionat139496;donotusehistorical1993391coordinates",
+    "next_file_page": 83,
+    "next_character": 139496,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+      "characters": 1991387,
+      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+    },
+    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+    "ledger": "knowledge/provenance/B013_B014_reading_2026-11-11.json"
+  }
+}

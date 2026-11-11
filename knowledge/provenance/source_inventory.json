@@ -408,8 +408,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David_X%E7%9A%84%E6%96%B9%E6%B3%95.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B013.md",
       "pages": 48,
       "spine_items": null,
       "ocr": {
@@ -417,7 +417,30 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "community_translation_original_uncertified",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B013_B014_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_current_extractable_text_with_selected_visual_review",
+        "read_file_pages": [
+          1,
+          48
+        ],
+        "read_range": [
+          0,
+          35731
+        ],
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+          "characters": 35731,
+          "sha256": "5d777f888897d065332ba73574d567cbe51f3b1f6b413198b2da2ecc60375910",
+          "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+        },
+        "next_file_page": null,
+        "next_character": null,
+        "selected_visual_pages": 18,
+        "unreviewed_read_text_layout_pages": 30
+      }
     },
     {
       "index": 14,
@@ -432,8 +455,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_partial",
+      "note": "knowledge/books/B014.md",
       "pages": 1002,
       "spine_items": null,
       "ocr": {
@@ -441,7 +464,30 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "file_title_and_copyright_identify_sixth_edition_2019;only_ch01_read",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B013_B014_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_current_extractable_text_with_selected_visual_review",
+        "read_file_pages": [
+          1,
+          82
+        ],
+        "read_range": [
+          0,
+          139496
+        ],
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+          "characters": 1991387,
+          "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+          "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+        },
+        "next_file_page": 83,
+        "next_character": 139496,
+        "selected_visual_pages": 24,
+        "unreviewed_read_text_layout_pages": 58
+      }
     },
     {
       "index": 15,

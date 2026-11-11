@@ -1,41 +1,62 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "system_maintenance",
-  "status": "scope_update_checks_passed_ready_to_resume_B013",
-  "base_commit": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
-  "reading_paused_for_this_round": true,
-  "new_book_files_completed_this_round": 0,
+  "current_focus": "original_book_reading",
+  "status": "B013_complete_B014_ch01_checks_passed",
+  "base_commit": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+  "reading_paused_for_this_round": false,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/OS_scope_update_2026-11-11.md",
-  "validation": "knowledge/provenance/OS_scope_update_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B013_B014_completion_2026-11-11.md",
+  "validation": "knowledge/provenance/B013_B014_validation_2026-11-11.json",
   "reading_bookmark": {
-    "id": "B013",
-    "path": "David_X的方法.pdf",
-    "git_blob_sha": "bd51f3486dfa482fb4480293413f426b10f27e1f",
-    "bytes": 624594,
-    "file_pages": 48,
-    "reading_status": "unread",
-    "start": "physicalpage1;verifyoriginalblobthenestablishcurrentextractionbeforeorderedreading;donotassumeequivalenttoB012",
-    "next_file_page": 1,
-    "next_character": 0,
-    "current_extraction_identity": "notyetestablished;similarfilenameoroldinventorynotreadingproof",
-    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+    "id": "B014",
+    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+    "bytes": 13323230,
+    "file_pages": 1002,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "physicalpage83start;Chapter2;continuecurrentextractionat139496;donotusehistorical1993391coordinates",
+    "next_file_page": 83,
+    "next_character": 139496,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+      "characters": 1991387,
+      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+    },
+    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+    "ledger": "knowledge/provenance/B013_B014_reading_2026-11-11.json"
   },
-  "next_work": "Scope update complete. Resume B013 from physical page 1 when continuing reading; verify the original blob and establish current extraction first. No reading advanced in this maintenance unit.",
+  "next_work": "Resume B014 Chapter2 physicalpage83 at currentextraction character139496; verify samePDFblob andextractionhash. Later920pagesunread.",
   "current_session_progress": {
-    "baseline": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
-    "new_book_files_completed": [],
-    "new_book_characters_read": 0,
-    "new_book_pages_read": 0,
+    "baseline": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+    "text_complete_file_ids": [
+      "B013"
+    ],
+    "text_partial_file_ids": [
+      "B014"
+    ],
+    "direct_primary_extraction_characters": 175227,
+    "physical_file_pages": 130,
+    "selected_visual_page_reviews": 42,
+    "remaining_unreviewed_layout_pages_within_read_text": 88,
+    "B014_later_unread_file_pages": 920,
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "new_synthetic_scenarios": 24,
-    "total_synthetic_scenarios": 108,
-    "source_records_unchanged": 158,
-    "reading_bookmark_unchanged": true
+    "B013_comparison_items": 7,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "distinct_original_works_or_success_cases_not_asserted": true,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "scope": true
+    }
   },
   "last_reading_progress": {
     "baseline": "8fb0004f665558972a52d65e5337b778369bfc8e",
@@ -49,5 +70,23 @@
     "remaining_unreviewed_layout_pages": 130,
     "latest_unit": "B012",
     "distinct_original_works_or_success_cases_not_asserted": true
+  },
+  "last_system_maintenance": {
+    "base_commit": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+    "report": "knowledge/provenance/OS_scope_update_2026-11-11.md",
+    "validation": "knowledge/provenance/OS_scope_update_validation_2026-11-11.json",
+    "current_session_progress": {
+      "baseline": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+      "new_book_files_completed": [],
+      "new_book_characters_read": 0,
+      "new_book_pages_read": 0,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "new_synthetic_scenarios": 24,
+      "total_synthetic_scenarios": 108,
+      "source_records_unchanged": 158,
+      "reading_bookmark_unchanged": true
+    }
   }
 }

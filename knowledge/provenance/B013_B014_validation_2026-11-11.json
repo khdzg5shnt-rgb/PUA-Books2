@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.132,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 96,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_*.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.24,
+      "stdout": "",
+      "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.139s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "1f6657072b20b897d222214544a82f5a8f5a68bf",
+    "source_records": 158,
+    "external_archived_files": 44,
+    "book_files_text_complete": 22,
+    "book_files_text_partial": 1,
+    "book_files_not_started": 96,
+    "new_completed_files": [
+      "B013"
+    ],
+    "new_partial_files": [
+      "B014"
+    ],
+    "new_character_ranges": 14,
+    "new_direct_text_characters": 175227,
+    "physical_pages_covered": 130,
+    "selected_visual_pages": 42,
+    "unreviewed_layout_pages_within_read_text": 88,
+    "B014_unread_pages": 920,
+    "next_bookmark": [
+      "B014",
+      83,
+      139496
+    ],
+    "original_raw_identity_records_preserved": 125,
+    "historical_extraction_fields_preserved": true,
+    "runtime_scripts_tests_router_protocol_map_unchanged": true,
+    "protocol_characters": 1837,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "all26preferred_sections_complete": true,
+    "M23_preferred": {
+      "path": "knowledge/topics/refusal-scope.md",
+      "heading": "按拒绝范围处理当前一轮",
+      "line": 5,
+      "end_line": 16
+    },
+    "method_operations_unchanged": true,
+    "new_method_source_bindings": 5,
+    "synthetic_scenarios": 108,
+    "private_case_files_added": false,
+    "raw_text_or_page_images_added": false,
+    "changed_markdown_files": 15,
+    "local_links_checked": 577,
+    "anchors_checked": 0,
+    "book_search_top_paths": {
+      "B013": [
+        "knowledge/books/B013-ch01-03.md",
+        "knowledge/books/B013-ch04-06.md",
+        "knowledge/books/B013-version-comparison.md",
+        "knowledge/books/B013.md",
+        "knowledge/books/B012.md"
+      ],
+      "B014": [
+        "knowledge/topics/evidence.md",
+        "knowledge/books/B014-ch01.md",
+        "knowledge/books/B014.md",
+        "knowledge/books/B013-version-comparison.md",
+        "knowledge/books/B013.md"
+      ]
+    },
+    "changed_files": 22,
+    "limits": "Source/range/link/runtime checks do not certify reading comprehension, formal edition completeness, current scientific consensus, real screenshot recognition, or dating outcomes."
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "File identities, contiguous read coordinates, source bookkeeping, links, selected sections and synthetic routing are checked. No claim of all layouts, underlying research, actual screenshot recognition or dating outcome validation."
+}
