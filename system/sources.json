@@ -184,9 +184,9 @@
       "reading_status": "provided_file_text_partial",
       "local_entry": "knowledge/books/B016.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B016_ch04_reading_2026-11-11.json",
       "original_publication_complete": false,
-      "coverage_mode": "ordered_current_epub_title_preface_chapters1to3_read_remainingchapters_unread"
+      "coverage_mode": "ordered_current_epub_title_preface_chapters1to4_read_remainingchapters_unread"
     },
     {
       "id": "B017",
@@ -1538,9 +1538,9 @@
     "spine_items": 22,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "spine6start;chapter4;currentextraction31961;not_historical_174035_coordinates",
-    "next_spine": 6,
-    "next_character": 31961,
+    "start": "spine7start;chapter5;currentextraction53019;not_historical_174035_coordinates",
+    "next_spine": 7,
+    "next_character": 53019,
     "current_extraction_identity": {
       "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
       "characters": 172067,
@@ -1548,8 +1548,8 @@
       "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
     },
     "file_sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
-    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
-    "next_content_unit": "第四章 Mack风格Mack范儿（从时尚到激情）"
+    "ledger": "knowledge/provenance/B016_ch04_reading_2026-11-11.json",
+    "next_content_unit": "第五章 谈话控制技术"
   },
   "deferred_work_units": [
     {

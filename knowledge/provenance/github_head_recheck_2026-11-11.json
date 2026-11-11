@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_books2_main": "2045b6e0dca5e8d279ca48519ee8eabc3669fa9c",
+  "discovery": {
+    "repository_metadata_entries_returned": 69,
+    "method": "repository names and returned metadata, then default branch head checks for the nine already registered public relationship sources",
+    "new_public_relationship_source_identified_by_this_scan": 0,
+    "exhaustive_repository_content_search": false,
+    "private_source_contents_read": false,
+    "unrelated_repository_metadata_archived": false
+  },
+  "head_checks": [
+    {
+      "id": "G01",
+      "repository": "khdzg5shnt-rgb/lianai",
+      "fixed_commit": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "default_branch": "main",
+      "current_head": "ab688794e1000f2ddc7e9e15ff54c6ac5e920d2f",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G02",
+      "repository": "khdzg5shnt-rgb/qingsheng-skill",
+      "fixed_commit": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "default_branch": "main",
+      "current_head": "ea23b10376b146abfcff20f71876889a0453a7e7",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G03",
+      "repository": "khdzg5shnt-rgb/fan-emotion-analysis-skill",
+      "fixed_commit": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "default_branch": "main",
+      "current_head": "23f33bdda9d66323c14c760e1960a557a2009052",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G04",
+      "repository": "khdzg5shnt-rgb/simp-skill",
+      "fixed_commit": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "default_branch": "main",
+      "current_head": "2455f2fdaaf0f8718a10c892ffb4cedfa10bb973",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G05",
+      "repository": "khdzg5shnt-rgb/relationship-candlestick-lab",
+      "fixed_commit": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "default_branch": "main",
+      "current_head": "100f508ef504420506e853c8b72f16509d30ea3c",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G06",
+      "repository": "khdzg5shnt-rgb/tong-jincheng-skill",
+      "fixed_commit": "c9caaa9a6576f581c29d016c60bbe935908e20d5",
+      "default_branch": "main",
+      "current_head": "c9caaa9a6576f581c29d016c60bbe935908e20d5",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G07",
+      "repository": "khdzg5shnt-rgb/pua-books",
+      "fixed_commit": "8b99cad1586589a46e82a8f328d0de845e86ab18",
+      "default_branch": "master",
+      "current_head": "8b99cad1586589a46e82a8f328d0de845e86ab18",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G08",
+      "repository": "khdzg5shnt-rgb/ChatLab",
+      "fixed_commit": "e75bb1e556f2f725b07a49527c3e69160f8dda1b",
+      "default_branch": "main",
+      "current_head": "e75bb1e556f2f725b07a49527c3e69160f8dda1b",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    },
+    {
+      "id": "G09",
+      "repository": "khdzg5shnt-rgb/goutoujunshi-jev-chat",
+      "fixed_commit": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "default_branch": "main",
+      "current_head": "fa4bd3086b5f89889a942d8f8038f252c72e5a3a",
+      "changed_since_fixed_snapshot": false,
+      "status": "branch_head_checked"
+    }
+  ],
+  "source_repositories_modified": false,
+  "new_whole_repositories_read": 0,
+  "scope": "All nine default branch heads match their registered snapshots at check time. This metadata recheck is not a full reading of nine repositories or a claim that every relationship source anywhere has been found."
+}

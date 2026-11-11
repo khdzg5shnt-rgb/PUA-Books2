@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "2045b6e0dca5e8d279ca48519ee8eabc3669fa9c",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "d442dc",
+      "wall_time_seconds": 0.076094262,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 94,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "156812",
+      "wall_time_seconds": 1.289034124,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.251s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '接话' --method M03 --limit 1",
+      "chunk_id": "26da5f",
+      "wall_time_seconds": 0.000025297,
+      "exit_code": 0,
+      "original_token_count": 146,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/one-detail.md\",\n    \"title\": \"接话：承接一个真实细节\",\n    \"heading\": \"承接一个真实细节\",\n    \"line\": 5,\n    \"end_line\": 10,\n    \"snippet\": \"优先承接已有共同内容，信息宽泛时只取她已给出的一个点；不补造店名、口味、经历或共同安排。旧邀约被拒后，她另有普通分享，可以接新内容；这不等于旧邀约重新有效。若最后已发的是用户且没有必要新事务，先等待，不为使用接话技巧补第二条。\",\n    \"method_ids\": [\n      \"M03\"\n    ]\n  }\n]\n"
+    },
+    {
+      "command": "python run_state/r3_verify.py",
+      "chunk_id": "9b102f",
+      "wall_time_seconds": 0.177865363,
+      "exit_code": 0,
+      "original_token_count": 249,
+      "output": "{\n  \"ok\": true,\n  \"baseline_main\": \"2045b6e0dca5e8d279ca48519ee8eabc3669fa9c\",\n  \"changed_existing_files\": 13,\n  \"new_files\": 11,\n  \"local_links_in_changed_markdown_checked\": 238,\n  \"new_direct_read_characters\": 21058,\n  \"B016_cumulative_characters_read\": 53019,\n  \"B016_remaining_characters\": 119048,\n  \"B016_next_spine\": 7,\n  \"B016_next_character\": 53019,\n  \"source_records\": 158,\n  \"book_text_complete\": 22,\n  \"book_text_partial\": 3,\n  \"book_not_started\": 94,\n  \"new_whole_book_files_completed\": 0,\n  \"new_method_source_bindings\": 3,\n  \"changed_preferred_sections\": [\n    \"M03\"\n  ],\n  \"public_upstream_branch_heads_rechecked\": 9,\n  \"upstream_changes\": 0,\n  \"existing_scripts_routes_task_contracts_and_test_files_unchanged\": true,\n  \"original_file_identity_records_unchanged\": true,\n  \"B014_B015_gaps_and_exclusions_unchanged\": true,\n  \"new_visual_examples_are_synthetic\": true,\n  \"controlled_demonstrations\": 3,\n  \"blind_visual_tests\": 0,\n  \"private_material_imported_or_summarized\": false\n}\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "2045b6e0dca5e8d279ca48519ee8eabc3669fa9c",
+    "changed_existing_files": 13,
+    "new_files": 11,
+    "local_links_in_changed_markdown_checked": 238,
+    "new_direct_read_characters": 21058,
+    "B016_cumulative_characters_read": 53019,
+    "B016_remaining_characters": 119048,
+    "B016_next_spine": 7,
+    "B016_next_character": 53019,
+    "source_records": 158,
+    "book_text_complete": 22,
+    "book_text_partial": 3,
+    "book_not_started": 94,
+    "new_whole_book_files_completed": 0,
+    "new_method_source_bindings": 3,
+    "changed_preferred_sections": [
+      "M03"
+    ],
+    "public_upstream_branch_heads_rechecked": 9,
+    "upstream_changes": 0,
+    "existing_scripts_routes_task_contracts_and_test_files_unchanged": true,
+    "original_file_identity_records_unchanged": true,
+    "B014_B015_gaps_and_exclusions_unchanged": true,
+    "new_visual_examples_are_synthetic": true,
+    "controlled_demonstrations": 3,
+    "blind_visual_tests": 0,
+    "private_material_imported_or_summarized": false
+  },
+  "controlled_synthetic_screenshot_demonstrations": [
+    {
+      "id": "VS01",
+      "expected": {
+        "route_id": "R18",
+        "method_id": "M04",
+        "action": "draft"
+      },
+      "observed": {
+        "route_id": "R18",
+        "method_id": "M04",
+        "action": "draft"
+      },
+      "fact_adjustments": [
+        "pending_reply"
+      ],
+      "intent_adjustments": [],
+      "limits": [],
+      "candidate": "只会煮面，其他还在理论阶段。",
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "preferred_section": {
+        "path": "knowledge/books/B004-ch08.md",
+        "heading": "真正保留的交流动作",
+        "line": 11,
+        "end_line": 17,
+        "excerpt_complete": true
+      },
+      "passed": true
+    },
+    {
+      "id": "VS02",
+      "expected": {
+        "route_id": "R04",
+        "method_id": "M02",
+        "action": "hold"
+      },
+      "observed": {
+        "route_id": "R04",
+        "method_id": "M02",
+        "action": "hold"
+      },
+      "fact_adjustments": [
+        "pending_reply"
+      ],
+      "intent_adjustments": [],
+      "limits": [],
+      "candidate": "",
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "preferred_section": {
+        "path": "knowledge/cases/C18-date-tips-overcontact.md",
+        "heading": "已知结果和检索用途",
+        "line": 25,
+        "end_line": 29,
+        "excerpt_complete": true
+      },
+      "passed": true
+    },
+    {
+      "id": "VS03",
+      "expected": {
+        "route_id": "R27",
+        "method_id": "M03",
+        "action": "draft"
+      },
+      "observed": {
+        "route_id": "R27",
+        "method_id": "M03",
+        "action": "draft"
+      },
+      "fact_adjustments": [
+        "current_turn_low",
+        "consecutive_low_rounds"
+      ],
+      "intent_adjustments": [
+        "当前拒绝或无替代安排仍有效；回应新内容不重开本轮邀约"
+      ],
+      "limits": [
+        "停止被拒绝的活动方向；不换日期追问，也不扩大成拒绝全部联系",
+        "本轮没有替代安排，不换日期追问；可回应她新增的认真内容"
+      ],
+      "candidate": "总算能踏踏实实吃顿饭了。",
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      },
+      "preferred_section": {
+        "path": "knowledge/topics/one-detail.md",
+        "heading": "承接一个真实细节",
+        "line": 5,
+        "end_line": 10,
+        "excerpt_complete": true
+      },
+      "passed": true
+    }
+  ],
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "blind_visual_tests": 0,
+  "limits": "Three controlled known-answer examples were created and individually viewed, then verified fictional facts were passed to the existing runtime. The code does not read images or generate replies. No real screenshot/OCR accuracy, psychological mechanism, dating outcome or whole-repository reading was verified."
+}

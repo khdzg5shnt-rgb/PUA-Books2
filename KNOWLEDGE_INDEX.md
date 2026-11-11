@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-11继续正文阅读至B016第三章末；下一第四章。26方法、31路由和五种任务有效；M10首选定位到[一句真实表达](knowledge/topics/real-self-expression.md)，阅读主线与保留缺口见[队列](system/READING_QUEUE.md)。
+2026-11-11继续正文阅读至B016第四章末；下一第五章。26方法、31路由和五种任务有效；M03首选定位到[承接一个真实细节](knowledge/topics/one-detail.md)，M10保留[一句真实表达](knowledge/topics/real-self-expression.md)。[虚构截图示例](tests/visual/README.md)用于维护核对，阅读主线与保留缺口见[队列](system/READING_QUEUE.md)。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-11：B014正文完成，文后资料增加[定位与缺口](knowledge/books/B014-backmatter-guide.md)；[B015](knowledge/books/B015.md)全部6280字符文字层已审阅，18个图片页排除，仍部分；[B016](knowledge/books/B016.md)题名、前言及前三章31961字符已读，下一第四章/spine 6、字符31961。新增[真实表达](knowledge/topics/real-self-expression.md)并接入M04/M08/M10，核两篇研究的题录与摘要，未计全文完成。书库仍22份完成，现3份部分、94份未开始。[本轮报告](knowledge/provenance/B015_B016_completion_2026-11-11.md)。
+2026-11-11：[B016第四章](knowledge/books/B016-ch04.md)新增21058字符，累计前言及前四章53019字符；下一第五章/spine 7、字符53019。M03首选集中到[承接一个真实细节](knowledge/topics/one-detail.md)，M07/M25补来源。[三个虚构截图示例](tests/visual/README.md)已逐张核对显示，不是盲测或OCR能力认证。九个公开来源[分支头复核](knowledge/provenance/github_head_recheck_2026-11-11.json)均未变化。书库仍22份完成、3份部分、94份未开始；B014/B015缺口与此前研究访问范围保留。[本轮报告](knowledge/provenance/B016_ch04_completion_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前22/119份现有文字覆盖完成，3份部分、94份未开始。B014正文已读，余138页文后文字未读；B015图片部分排除；B016已读前言和前三章，均按范围记录。此前原著、版本、版式和研究核验限制继续保留。
+当前22/119份现有文字覆盖完成，3份部分、94份未开始。B014正文已读，余138页文后文字未读；B015图片部分排除；B016已读前言和前四章，均按范围记录。此前原著、版本、版式和研究核验限制继续保留。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

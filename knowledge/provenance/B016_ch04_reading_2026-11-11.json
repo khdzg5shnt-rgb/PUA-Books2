@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B016_ch04_and_synthetic_screenshot_bridge",
+  "baseline_main": "2045b6e0dca5e8d279ca48519ee8eabc3669fa9c",
+  "records": [
+    {
+      "id": "B016",
+      "path": "MACK把妹方法 - Dean Cortez.epub",
+      "bytes": 283166,
+      "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
+      "sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "spine_items": 22,
+      "notes": [
+        "knowledge/books/B016.md",
+        "knowledge/topics/real-self-expression.md",
+        "knowledge/books/B016-ch04.md",
+        "knowledge/topics/one-detail.md"
+      ],
+      "extraction": {
+        "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+        "characters": 172067,
+        "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+        "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
+      },
+      "actual_read_chunks": [
+        [
+          31961,
+          38961
+        ],
+        [
+          38961,
+          45961
+        ],
+        [
+          45961,
+          53019
+        ]
+      ],
+      "new_direct_read_characters": 21058,
+      "read_spine_items": [
+        1,
+        6
+      ],
+      "read_body_chapters": [
+        1,
+        4
+      ],
+      "front_matter_read": true,
+      "next_spine": 7,
+      "next_character": 53019,
+      "unread_characters": 119048,
+      "unread_spine_items": [
+        7,
+        22
+      ],
+      "entire_current_file_text_read": false,
+      "original_publication_complete": false,
+      "manifest_image_count": 0,
+      "spine_img_elements": 0,
+      "units": [
+        {
+          "spine": 1,
+          "path": "OEBPS/Text/1.html",
+          "range": [
+            0,
+            90
+          ],
+          "body_characters": 48,
+          "text_sha256": "5503ea3251da24f15ddfee3d7869c220e6a7fceadb2f209c7f882f35230f76d2",
+          "reading_status": "read"
+        },
+        {
+          "spine": 2,
+          "path": "OEBPS/Text/2.html",
+          "range": [
+            90,
+            4774
+          ],
+          "body_characters": 4642,
+          "text_sha256": "268f942162d2eed7a2ae1cca20a05cb2b50660a42ad588e381a1e08ae84eba24",
+          "reading_status": "read"
+        },
+        {
+          "spine": 3,
+          "path": "OEBPS/Text/3.html",
+          "range": [
+            4774,
+            12267
+          ],
+          "body_characters": 7451,
+          "text_sha256": "2f1b10a77f58b426b33ecf585b5ac1980eca3ff82037f7f9e19241474e43fb2c",
+          "reading_status": "read"
+        },
+        {
+          "spine": 4,
+          "path": "OEBPS/Text/4.html",
+          "range": [
+            12267,
+            15991
+          ],
+          "body_characters": 3682,
+          "text_sha256": "67b040aafb2ca9f2fd7fe7b01b7d874ff690c0f49d9ab66eb7ce7d96b6c7e504",
+          "reading_status": "read"
+        },
+        {
+          "spine": 5,
+          "path": "OEBPS/Text/5.html",
+          "range": [
+            15991,
+            31961
+          ],
+          "body_characters": 15928,
+          "text_sha256": "00380a0d0d4c85581734d4b07296f24d49c2ab15c4a86b51572485e4ab5a24cc",
+          "reading_status": "read"
+        },
+        {
+          "spine": 6,
+          "path": "OEBPS/Text/6.html",
+          "range": [
+            31961,
+            53019
+          ],
+          "body_characters": 21016,
+          "text_sha256": "e4b3e05f9bb7f03102f2862af0946aabeb788a405c8dc9129548e9a4039bd927",
+          "reading_status": "read"
+        },
+        {
+          "spine": 7,
+          "path": "OEBPS/Text/7.html",
+          "range": [
+            53019,
+            73122
+          ],
+          "body_characters": 20061,
+          "text_sha256": "e6caeadee0f5fa38a3ddc4536ba6ad76fa69f948713deb02b98dd8e7bb2a9288",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 8,
+          "path": "OEBPS/Text/8.html",
+          "range": [
+            73122,
+            79044
+          ],
+          "body_characters": 5880,
+          "text_sha256": "b934049009216ca712f152b1c06f23713a99d7a1b2fe0fc145459cbd7e13a347",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 9,
+          "path": "OEBPS/Text/9.html",
+          "range": [
+            79044,
+            90701
+          ],
+          "body_characters": 11615,
+          "text_sha256": "9be055e99879f5e4a6b7176942acf72e1bddf1dd63fdfff26900c79a39700202",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 10,
+          "path": "OEBPS/Text/10.html",
+          "range": [
+            90701,
+            101563
+          ],
+          "body_characters": 10818,
+          "text_sha256": "6051228dae3813f0fd005d3ca573e5de4c9a3f2eda57615efd2513afb1fcc255",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 11,
+          "path": "OEBPS/Text/11.html",
+          "range": [
+            101563,
+            105231
+          ],
+          "body_characters": 3624,
+          "text_sha256": "10b38b5e8edfd813da04bf287697fa7d17059bb0599efe46e9797f3ac5f17ffe",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 12,
+          "path": "OEBPS/Text/12.html",
+          "range": [
+            105231,
+            112928
+          ],
+          "body_characters": 7653,
+          "text_sha256": "52596dc926557fd257bddd0251a07155f659c839e4edccab4bf542b3b2c6977a",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 13,
+          "path": "OEBPS/Text/13.html",
+          "range": [
+            112928,
+            118677
+          ],
+          "body_characters": 5705,
+          "text_sha256": "7428c85f3d20d8c405bba7a892317016fba31dd12afbfcfc488e419c02bca66c",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 14,
+          "path": "OEBPS/Text/14.html",
+          "range": [
+            118677,
+            123429
+          ],
+          "body_characters": 4708,
+          "text_sha256": "bb1c94697f47a64db8fafbf94c9bf795e5a34fd7ce206bcea7ada251452cf0c6",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 15,
+          "path": "OEBPS/Text/15.html",
+          "range": [
+            123429,
+            127369
+          ],
+          "body_characters": 3896,
+          "text_sha256": "adfc89b7e894cfb608ae466d1a73a68793de0511fe66c002023de0b6ab005891",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 16,
+          "path": "OEBPS/Text/16.html",
+          "range": [
+            127369,
+            131370
+          ],
+          "body_characters": 3957,
+          "text_sha256": "ebdc47da7ea4821a91df5dbda23d6544de03e356a9a72511a607597e94320da6",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 17,
+          "path": "OEBPS/Text/17.html",
+          "range": [
+            131370,
+            140381
+          ],
+          "body_characters": 8967,
+          "text_sha256": "a5bea143b629c7c5efdf6522d3ca58bb13bb005393882e82c879b7761ec8c2b9",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 18,
+          "path": "OEBPS/Text/18.html",
+          "range": [
+            140381,
+            144889
+          ],
+          "body_characters": 4464,
+          "text_sha256": "947644521d1635761f8d7ec0a1d0759b4a347c3bdf62c272a26610e3f1dbde65",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 19,
+          "path": "OEBPS/Text/19.html",
+          "range": [
+            144889,
+            152665
+          ],
+          "body_characters": 7732,
+          "text_sha256": "ce2e2e6c1d44e3e91a42a1d32edf58d30d2c6691ebb882c20efcc783f88c10f5",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 20,
+          "path": "OEBPS/Text/20.html",
+          "range": [
+            152665,
+            156594
+          ],
+          "body_characters": 3885,
+          "text_sha256": "ecf0b528201bcae0880770a6e4c54dd8a6b39c41601597ec45bfdf4cafbef12c",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 21,
+          "path": "OEBPS/Text/21.html",
+          "range": [
+            156594,
+            170729
+          ],
+          "body_characters": 14091,
+          "text_sha256": "e768766948664b79dbab16e65fd4373554aa1448c7873d280551b814b2d93360",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 22,
+          "path": "OEBPS/Text/22.html",
+          "range": [
+            170729,
+            172067
+          ],
+          "body_characters": 1294,
+          "text_sha256": "5acad2bae840df22350066551650cb2888d9c33d38eaae2ad16db2521b343ae4",
+          "reading_status": "navigation_only_unread"
+        }
+      ],
+      "raw_or_extracted_text_archived": false,
+      "previous_reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "cumulative_read_range": [
+        0,
+        53019
+      ],
+      "cumulative_direct_read_characters": 53019,
+      "read_body_chapter_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "range_semantics": "spine/chapter pairs are inclusive ranges; character pairs are half-open Unicode code-point ranges",
+      "new_original_videos_completed": 0
+    }
+  ],
+  "new_direct_extractable_characters": 21058,
+  "new_book_files_completed": 0,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B016",
+    "path": "MACK把妹方法 - Dean Cortez.epub",
+    "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
+    "bytes": 283166,
+    "spine_items": 22,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "spine7start;chapter5;currentextraction53019;not_historical_174035_coordinates",
+    "next_spine": 7,
+    "next_character": 53019,
+    "current_extraction_identity": {
+      "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+      "characters": 172067,
+      "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+      "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
+    },
+    "file_sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
+    "ledger": "knowledge/provenance/B016_ch04_reading_2026-11-11.json",
+    "next_content_unit": "第五章 谈话控制技术"
+  },
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    }
+  ],
+  "unchanged_exclusion": {
+    "id": "B015",
+    "private_image_pages_excluded": 18,
+    "image_objects_excluded": 19,
+    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json"
+  },
+  "scope": "Only B016 spine6/chapter4 newly read; earlier ranges reused with provenance, not counted again. No source full text or real private material published."
+}

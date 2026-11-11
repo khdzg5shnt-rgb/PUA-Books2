@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "synthetic": true,
+  "not_private_history": true,
+  "scope": "Controlled examples known to the reviewer, not blind vision tests, OCR benchmarks or evidence of dating outcomes",
+  "cases": [
+    {
+      "id": "VS01",
+      "file": "VS01-new-question.png",
+      "title": "新问题与未发送草稿",
+      "user_side": "right",
+      "context": "虚构设定：我只会煮面。",
+      "messages": [
+        {
+          "sender": "other",
+          "time": "10:00",
+          "text": "这家面馆看起来不错"
+        },
+        {
+          "sender": "user",
+          "time": "10:01",
+          "text": "有空可以去尝尝"
+        },
+        {
+          "sender": "other",
+          "time": "10:03",
+          "text": "你平时会自己做饭吗？"
+        }
+      ],
+      "unsent_draft": "我看看怎么说……",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "pending_reply": true,
+        "function": "question"
+      },
+      "expected": {
+        "route_id": "R18",
+        "method_id": "M04",
+        "action": "draft"
+      },
+      "candidate": "只会煮面，其他还在理论阶段。",
+      "reading_points": [
+        "输入框草稿不算已发消息",
+        "对方新问题解除旧等待",
+        "根据已给虚构设定回答，不补造经历"
+      ],
+      "png_sha256": "b890365297aac79df4760894c60da267084c69d58427010fb45be2bdb45a12ee",
+      "png_bytes": 66564,
+      "stale_state_injected": {
+        "pending_reply": true
+      },
+      "input_basis": "facts combines verified fictional current-message fields and explicitly injected stale history; stale fields are not newly observed image facts",
+      "visual_review": {
+        "status": "individually_viewed",
+        "date": "2026-11-11",
+        "content_known_to_reviewer": true,
+        "text_and_layout_readable": true,
+        "automated_image_reading_run": false
+      }
+    },
+    {
+      "id": "VS02",
+      "file": "VS02-waiting-draft.png",
+      "title": "反向布局与等待",
+      "user_side": "left",
+      "context": "虚构设定：没有独立必要的新事务。",
+      "messages": [
+        {
+          "sender": "other",
+          "time": "18:00",
+          "text": "今天加班，晚饭也没顾上"
+        },
+        {
+          "sender": "user",
+          "time": "18:03",
+          "text": "先吃点东西，忙完再聊"
+        }
+      ],
+      "unsent_draft": "你忙完了吗？",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "user",
+        "pending_reply": false,
+        "function": "unknown"
+      },
+      "expected": {
+        "route_id": "R04",
+        "method_id": "M02",
+        "action": "hold"
+      },
+      "candidate": "",
+      "user_output": "先不发，等她回这一轮。",
+      "reading_points": [
+        "按图中角色说明认左右，不按颜色猜",
+        "最后已发的是我",
+        "不把输入框草稿算成新一轮，不补发"
+      ],
+      "png_sha256": "ebac767d328ce728db9f6ac896908d63935c95fecbd8b5553a1a2d35fa6db95b",
+      "png_bytes": 61484,
+      "stale_state_injected": {
+        "pending_reply": false
+      },
+      "input_basis": "facts combines verified fictional current-message fields and explicitly injected stale history; stale fields are not newly observed image facts",
+      "visual_review": {
+        "status": "individually_viewed",
+        "date": "2026-11-11",
+        "content_known_to_reviewer": true,
+        "text_and_layout_readable": true,
+        "automated_image_reading_run": false
+      }
+    },
+    {
+      "id": "VS03",
+      "file": "VS03-quote-sharing.png",
+      "title": "引用旧邀约与新的分享",
+      "user_side": "right",
+      "context": "虚构设定：旧活动拒绝仍有效。",
+      "messages": [
+        {
+          "separator": "前一天"
+        },
+        {
+          "sender": "user",
+          "time": "20:00",
+          "text": "周六去爬山？"
+        },
+        {
+          "sender": "other",
+          "time": "20:05",
+          "text": "这次不去了，最近太累"
+        },
+        {
+          "sender": "user",
+          "time": "20:06",
+          "text": "好，那你先休息"
+        },
+        {
+          "separator": "今天"
+        },
+        {
+          "sender": "other",
+          "time": "09:20",
+          "quote": "周六去爬山？",
+          "text": "对了，今天总算下早班了，准备去吃碗面"
+        }
+      ],
+      "unsent_draft": "",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "function": "sharing",
+        "refusal_scope": "activity",
+        "invitation": "no_alternative",
+        "goal": "invite",
+        "invite_ready": true,
+        "current_turn_low": true,
+        "consecutive_low_rounds": 2
+      },
+      "expected": {
+        "route_id": "R27",
+        "method_id": "M03",
+        "action": "draft"
+      },
+      "candidate": "总算能踏踏实实吃顿饭了。",
+      "reading_points": [
+        "引用块不是重新邀请",
+        "回应新的具体分享",
+        "保留旧活动限制，既不追约也不整场停聊"
+      ],
+      "png_sha256": "cd2bb24d24bd7d93cddd67296cb04f57c4e08666adcc687936172a6038661803",
+      "png_bytes": 83396,
+      "stale_state_injected": {
+        "goal": "invite",
+        "invite_ready": true,
+        "current_turn_low": true,
+        "consecutive_low_rounds": 2
+      },
+      "input_basis": "facts combines verified fictional current-message fields and explicitly injected stale history; stale fields are not newly observed image facts",
+      "visual_review": {
+        "status": "individually_viewed",
+        "date": "2026-11-11",
+        "content_known_to_reviewer": true,
+        "text_and_layout_readable": true,
+        "automated_image_reading_run": false
+      }
+    }
+  ]
+}
