@@ -1,35 +1,46 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "B019_current_text_complete_and_request_boundary_lookup",
-  "status": "B019_checks_passed",
-  "base_commit": "9c32e33ccdd3b6901c345b0499e6ac66db26528a",
+  "current_focus": "B020_current_text_complete_and_source_choices",
+  "status": "B020_checks_passed",
+  "base_commit": "514d60101a537981bfca3c819da7cd20dd7b8e0f",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B019_progress_2026-11-11.md",
-  "validation": "knowledge/provenance/B019_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B020_progress_2026-11-11.md",
+  "validation": "knowledge/provenance/B020_validation_2026-11-11.json",
   "reading_bookmark": {
-    "id": "B020",
-    "path": "PUA玩家手册（完整版）- 康纳.pdf",
-    "git_blob_sha": "8de2eb9126f62f2a9a4df28fac818d5cfa322058",
-    "bytes": 1187416,
+    "id": "B022",
+    "path": "SM秘籍.pdf",
+    "git_blob_sha": "b4f6950c18970a4dd269f4b46544d9693ed75f30",
+    "bytes": 7800182,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 46,
-    "start": "physicalpage1; verify binary and current extraction identity before reading",
+    "file_pages": 134,
+    "start": "physicalpage1; verify binary,current text and any needed OCR/visual scope before reading",
     "next_file_page": 1,
     "next_character": 0,
     "current_extraction_identity": null,
-    "next_content_unit": "B020 current provided PDF from title/front matter; filename completeness is not verified original completeness",
-    "ledger": "knowledge/provenance/B019_reading_2026-11-11.json"
+    "next_content_unit": "B022 current PDF from title/front matter; old OCR is processing history,not reading completion",
+    "ledger": "knowledge/provenance/B020_reading_2026-11-11.json",
+    "historical_ocr_processed_pages": 28,
+    "historical_ocr_short_output_pages": [
+      2,
+      10,
+      20,
+      22,
+      51,
+      62,
+      74,
+      126
+    ]
   },
-  "next_work": "Start B020 current46-page PDF at physicalpage1 after binary/extraction verification; preserve B014 backmatter and B015/B017 image exclusions and label gaps.",
+  "next_work": "Start B022 current134-page PDF at physicalpage1 after binary,text and OCR/visual verification. A021 is supporting README,not a skipped unread book. Preserve B014 backmatter and B015/B017 image exclusions.",
   "current_session_progress": {
-    "baseline": "9c32e33ccdd3b6901c345b0499e6ac66db26528a",
+    "baseline": "514d60101a537981bfca3c819da7cd20dd7b8e0f",
     "text_complete_file_ids": [
-      "B019"
+      "B020"
     ],
     "text_partial_file_ids": [
       "B014",
@@ -37,44 +48,31 @@
       "B017"
     ],
     "new_book_files_started": [
-      "B019"
+      "B020"
     ],
-    "direct_extractable_characters": 280293,
-    "B019_text_layer_pages_covered": 150,
-    "B019_body_characters": 275301,
-    "B019_selected_visual_pages": [
+    "direct_extractable_characters": 46875,
+    "B020_body_characters": 45412,
+    "B020_text_layer_pages_covered": 46,
+    "B020_actual_read_chunks": 8,
+    "B020_selected_visual_pages": [
       1,
-      4,
-      67,
-      114,
-      115,
-      149,
-      150
-    ],
-    "B019_embedded_image_objects": 0,
-    "B019_endnote_gaps": [
+      2,
+      13,
       22,
-      23
+      26,
+      35,
+      45,
+      46
     ],
-    "B019_repeated_endnote_news_url_numbers": [
-      14,
-      15,
-      16
-    ],
+    "B020_embedded_image_objects": 0,
+    "B020_source_level7_explanation_blank": true,
+    "related_existing_note_reread": "S21",
     "methods": 26,
     "routes": 31,
     "task_modes": 5,
-    "new_method_source_bindings": 3,
-    "changed_preferred_sections": [
-      "M22"
-    ],
-    "new_lookup_aliases": {
-      "M22": [
-        "正常请求",
-        "共同约定",
-        "无条件付出"
-      ]
-    },
+    "new_method_source_bindings": 4,
+    "changed_preferred_sections": [],
+    "new_lookup_aliases": {},
     "new_whole_book_files_completed": 1,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
@@ -84,22 +82,24 @@
       "unittest_methods": 29,
       "synthetic_routing_scenarios": 108,
       "retrieval_methods": [
-        "M10",
-        "M22",
-        "M23"
+        "M11",
+        "M19",
+        "M23",
+        "M26"
       ],
       "preferred_excerpt_complete": true,
       "scope": true,
-      "current_text_read_file_pages": 150,
-      "actual_read_chunks": 20,
+      "current_text_read_file_pages": 46,
+      "actual_read_chunks": 8,
       "selected_layout_pages": [
         1,
-        4,
-        67,
-        114,
-        115,
-        149,
-        150
+        2,
+        13,
+        22,
+        26,
+        35,
+        45,
+        46
       ],
       "blind_visual_tests": 0
     }
@@ -796,6 +796,84 @@
           1,
           11,
           24
+        ],
+        "blind_visual_tests": 0
+      }
+    },
+    {
+      "baseline": "9c32e33ccdd3b6901c345b0499e6ac66db26528a",
+      "text_complete_file_ids": [
+        "B019"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B019"
+      ],
+      "direct_extractable_characters": 280293,
+      "B019_text_layer_pages_covered": 150,
+      "B019_body_characters": 275301,
+      "B019_selected_visual_pages": [
+        1,
+        4,
+        67,
+        114,
+        115,
+        149,
+        150
+      ],
+      "B019_embedded_image_objects": 0,
+      "B019_endnote_gaps": [
+        22,
+        23
+      ],
+      "B019_repeated_endnote_news_url_numbers": [
+        14,
+        15,
+        16
+      ],
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "new_method_source_bindings": 3,
+      "changed_preferred_sections": [
+        "M22"
+      ],
+      "new_lookup_aliases": {
+        "M22": [
+          "正常请求",
+          "共同约定",
+          "无条件付出"
+        ]
+      },
+      "new_whole_book_files_completed": 1,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "retrieval_methods": [
+          "M10",
+          "M22",
+          "M23"
+        ],
+        "preferred_excerpt_complete": true,
+        "scope": true,
+        "current_text_read_file_pages": 150,
+        "actual_read_chunks": 20,
+        "selected_layout_pages": [
+          1,
+          4,
+          67,
+          114,
+          115,
+          149,
+          150
         ],
         "blind_visual_tests": 0
       }

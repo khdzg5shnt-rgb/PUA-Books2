@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "status": "checks_passed",
+  "baseline_main": "514d60101a537981bfca3c819da7cd20dd7b8e0f",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "methods": 26,
+        "routes": 31,
+        "task_modes": 5,
+        "preferred_sections": 26,
+        "source_records": 158,
+        "archived_files": 44,
+        "book_text_complete": 26,
+        "book_not_started": 90
+      }
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "result": "Ran 29 tests; OK",
+      "synthetic_routing_scenarios": 108
+    },
+    {
+      "command": "scope, file identities, reading chunks and link review against pre-edit snapshot",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "baseline_main": "514d60101a537981bfca3c819da7cd20dd7b8e0f",
+        "changed_existing_files": 10,
+        "new_files": 8,
+        "local_links_in_changed_markdown_checked": 227,
+        "new_direct_extractable_characters": 46875,
+        "current_body_characters": 45412,
+        "B020_read_file_pages": 46,
+        "actual_read_chunks": 8,
+        "selected_layout_pages": [
+          1,
+          2,
+          13,
+          22,
+          26,
+          35,
+          45,
+          46
+        ],
+        "embedded_image_objects": 0,
+        "book_text_complete": 26,
+        "book_text_partial": 3,
+        "book_not_started": 90,
+        "source_records": 158,
+        "new_book_files_text_completed": [
+          "B020"
+        ],
+        "new_method_source_bindings": 4,
+        "changed_preferred_sections": [],
+        "preferred_excerpt_complete": true,
+        "preferred_excerpt_characters": {
+          "M11": 444,
+          "M19": 233,
+          "M23": 479,
+          "M26": 111
+        },
+        "next_book": "B022",
+        "next_file_page": 1,
+        "A021_is_read_supporting_file_not_skipped_book": true,
+        "original126_identities_and_historical_extraction_preserved": true,
+        "B014_B015_B017_gaps_and_prior_books_and_ledgers_preserved": true,
+        "existing_scripts_routes_tasks_tests_method_operations_and_preferred_sections_unchanged": true,
+        "raw_or_extracted_text_or_images_added": false,
+        "new_private_case_summaries": 0,
+        "marketing_contacts_added": false,
+        "privacy_scope": "Manual review of new original notes for private narratives and contact information; not an automated proof.",
+        "new_source_head_checks": 0,
+        "new_research_full_texts": 0,
+        "new_original_videos": 0,
+        "blind_visual_tests": 0
+      }
+    }
+  ],
+  "checks": {
+    "structural": true,
+    "unittest_methods": 29,
+    "synthetic_routing_scenarios": 108,
+    "retrieval_methods": [
+      "M11",
+      "M19",
+      "M23",
+      "M26"
+    ],
+    "preferred_excerpt_complete": true,
+    "scope": true,
+    "current_text_read_file_pages": 46,
+    "actual_read_chunks": 8,
+    "selected_layout_pages": [
+      1,
+      2,
+      13,
+      22,
+      26,
+      35,
+      45,
+      46
+    ],
+    "blind_visual_tests": 0
+  },
+  "limits": [
+    "Tests cover rules and108 synthetic routing scenarios; no new blind screenshot or relationship outcome test.",
+    "B020 completion is current provided PDF extractable text only; eight selected layouts reviewed,other layouts and original publication completeness unverified.",
+    "Source psychology,evolution,gender,level scoring and claimed course effectiveness not empirically validated here.",
+    "No new private narratives,marketing contacts,raw or extracted source text,images,research full texts or original videos imported."
+  ]
+}

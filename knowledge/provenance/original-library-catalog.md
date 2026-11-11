@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：25/119，3份部分、91份未开始。B014文后138页文字未读；B015的18个图片页排除；B017全部文字已读但一页私人图像排除及细标签未核。B016/B018成果保留，B019当前150页文字280293字符完成；下一B020第1页。原版与转引资料完整性另计。
+当前现有书籍文件文字覆盖完成：26/119，3份部分、90份未开始。B014文后138页未读，B015的18个图片页排除，B017全文字已读但一页私人图像及细标签限制保留；B016/B018/B019成果保留，B020当前46页文字46875字符完成。下一B022第1页；A021为已读README支持文件。原版与转引完整性另计。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -37,7 +37,7 @@
 | B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 部分：221页文字已读；1页私人图像排除及细标签缺口保留 | [笔记](../books/B017.md) |
 | B018 | [MGTOW解读进化心理学.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%E8%A7%A3%E8%AF%BB%E8%BF%9B%E5%8C%96%E5%BF%83%E7%90%86%E5%AD%A6.pdf) | 24 | 当前24页文字层完成；原版与转引配图完整性未核 | [笔记](../books/B018.md) |
 | B019 | [Mgtow Building Wealth and Power For Single Men Only (Tim Patten).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Mgtow%20Building%20Wealth%20and%20Power%20For%20Single%20Men%20Only%20%28Tim%20Patten%29.pdf) | 150 | 当前150页文字层完成；原版与引用未核 | [笔记](../books/B019.md) |
-| B020 | [PUA玩家手册（完整版）- 康纳.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/PUA%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C%EF%BC%88%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%89-%20%E5%BA%B7%E7%BA%B3.pdf) | 46 | 已提取/未读 | — |
+| B020 | [PUA玩家手册（完整版）- 康纳.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/PUA%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C%EF%BC%88%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%89-%20%E5%BA%B7%E7%BA%B3.pdf) | 46 | 当前46页文字层完成；第七层说明空白，原版与引文未核 | [笔记](../books/B020.md) |
 | B022 | [SM秘籍.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/SM%E7%A7%98%E7%B1%8D.pdf) | 134 | 已OCR/未读 | — |
 | B023 | [Secrets of Speed Seduction Mastery (Ross Jeffries) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Secrets%20of%20Speed%20Seduction%20Mastery%20%28Ross%20Jeffries%29%20.pdf) | 207 | 已提取/未读 | — |
 | B024 | [The 4 Elements of Game - Rob Judge & Zack Bauer.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/The%204%20Elements%20of%20Game%20-%20Rob%20Judge%20%26%20Zack%20Bauer.pdf) | 174 | 已提取/未读 | — |
@@ -197,3 +197,5 @@
 2026-11-11续读：[B017余文与B018报告](B017_B018_progress_2026-11-11.md)。本轮新增103810个提取字符；B017文字至末页但保留图像限制，B018当前文字层完成，下一B019第1页。前次日期条目是历史进度。
 
 2026-11-11新增：[B019报告](B019_progress_2026-11-11.md)。当前150页280293字符、24章、跋及尾注文字已读，七个版面目读，原版与转引研究未核；下一B020第1页。旧日期条目保留历史进度。
+
+2026-11-11新增：[B020报告](B020_progress_2026-11-11.md)。46页46875字符、18讲及附录已读，八个版面目读，下一B022第1页；旧日期条目保留历史进度。
