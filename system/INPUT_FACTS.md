@@ -8,6 +8,8 @@
 
 consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排、具体新分享和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。
 
+`function=banter`且`reciprocity=mutual`应有当前确实双向接梗的依据，不能只用“哈哈”或表情填写；已核成立时，旧连续低投入计数不覆盖本轮。事实原输入与其他对象不被改写。
+
 ## 字段表
 
 | 字段 | 默认值 | 核对含义 |
@@ -19,6 +21,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
 | `refusal_scope` | `"none"` | 当前明确拒绝的具体范围；不由语气、单字或旧标签推断 |
 | `boundary_expressed` | `false` | 当前已确认具体话题/称呼等边界，不等于拒绝全部联系 |
+| `current_scope_relation` | `"unknown"` | 已核当前内容与已有被拒方向的关系：同一、不同或尚不清楚；不同不表示边界撤回 |
 | `repair_needed` | `false` | 有证据确认具体行为及影响需要修复；不默认归责用户 |
 | `invitation` | `"none"` | 本轮仍有效的邀约回应或待落实安排；不是对象永久状态 |
 | `function` | `"unknown"` | 最新一轮最需要回应的作用；认真提问/求助优先于旧短答标签 |
@@ -40,6 +43,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | 字段 | 可选值 |
 | --- | --- |
 | `latest_sender` | `unknown`, `user`, `other` |
+| `current_scope_relation` | `unknown`, `same`, `different` |
 | `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
 | `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity` |
 | `function` | `unknown`, `insult`, `logistics`, `correction`, `distress`, `advice_request`, `good_news`, `question`, `post_date`, `banter`, `opening`, `sharing`, `appreciation` |
@@ -50,6 +54,8 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 `function=appreciation`表示她确实赞美或表达好意；`goal=appreciate`表示用户想表达欣赏，方向不同。普通礼貌可自然承接，不等于关系意愿。
 
+`current_scope_relation=different`只在确有另一项允许范围的内容或安排时填。换日期再约被拒活动、拒绝理由或笑着说不都不算不同。若同一个活动后来由对方本人明确重新答应，先据原话更新当前事实，不让仍有效的拒绝与新同意同时冒充事实。关系不明且会影响落实安排时，R00S只向用户核一项；有可用上下文就先自行核准。详见[范围说明](CONTENT_SCOPE.md)。
+
 ## 请求格式
 
 单对象：`{"task":"reply","facts":{"speaker_verified":true,"text_legible":true,"latest_sender":"other","function":"question"}}`。没有核读的内容不能照抄true。
@@ -57,5 +63,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 临时多对象：`{"task":"analysis","cases":{"a":{},"b":{}},"case_key":"b"}`。每个facts对象独立、缺口用自身默认值；不能同时提供全局facts。`--case`和`--task`显式参数优先于请求中的选择。
 
 可选candidate是一条待核草稿，结果不回显草稿。不要加入原句、姓名、账号、截图、地址或对象身份字段；需要保留的上下文只在当前对话核对。stdin不会把请求保存到仓库；手动创建私人输入文件也不得提交。
+
+可选`focus`是至多160字符的检索短词组，由助手按当前内容需要使用，不是另一个事实字段。它只在已选主方法的引用文件里缩小到一个段落；不改变主方法或行动。无需检索时省略或给空字符串，不填null；未命中保留首选，结果不回显词组。不要用它放聊天原文或个人信息。
 
 示例见[EXAMPLE_REQUEST.json](EXAMPLE_REQUEST.json)，完整流程见[RUNBOOK.md](RUNBOOK.md)。

@@ -4,9 +4,10 @@ import argparse
 import json
 import re
 
-from knowledge import ROOT
+from knowledge import ROOT, resolve_reference
 from route import select_route
 from runtime_io import read_request
+from search_knowledge import search
 
 
 def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=False):
@@ -36,7 +37,7 @@ def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=Fal
 
 
 def _select_case(request, case_key):
-    allowed = {'task', 'facts', 'cases', 'case_key', 'candidate'}
+    allowed = {'task', 'facts', 'cases', 'case_key', 'candidate', 'focus'}
     if not isinstance(request, dict) or set(request) - allowed:
         raise ValueError('Use task, facts, or one explicitly selected case')
     if 'cases' in request:
@@ -53,7 +54,12 @@ def _select_case(request, case_key):
     return request.get('facts', {}), 'single_case'
 
 
-def _clarification(facts, task):
+def _clarification(facts, task, route_id):
+    if route_id == 'R00S':
+        question = ('同一个活动后来有她明确重新答应的原话吗？'
+                    if facts.get('current_scope_relation') == 'same' else
+                    '她现在答应的是之前拒绝的活动，还是另一个安排？')
+        return {'field': 'current_scope_relation', 'question': question}
     choices = [('speaker_verified', '这句是谁发的？'),
                ('text_legible', '她最后一句具体说了什么？'),
                ('invite_ready', '你们最近有过什么双向互动？'),
@@ -67,12 +73,29 @@ def _clarification(facts, task):
 
 def build_brief(request, root=ROOT, task=None, case_key=None):
     facts, context = _select_case(request, case_key)
+    focus = request.get('focus', '')
+    if not isinstance(focus, str) or len(focus) > 160:
+        raise ValueError('focus must be a short retrieval phrase of at most 160 characters')
     tasks = json.loads((root / 'system/tasks.json').read_text(encoding='utf-8'))['tasks']
     selected_task = task if task is not None else request.get('task', 'reply')
     if not isinstance(selected_task, str) or selected_task not in tasks:
         raise ValueError('Unknown task; use reply, meaning, analysis, review or training')
     decision = select_route(facts, root, apply_action_goal=selected_task == 'reply')
+    source = decision['source']
+    retrieval = {'mode': 'preferred', 'scope': '只定位本主方法的资料，不改变事实、动作或输出任务'}
+    if focus.strip() and decision['action'] == 'draft':
+        hits = search(focus, method=decision['primary_method']['id'], limit=1, root=root)
+        if hits and hits[0]['query_matched']:
+            source = resolve_reference(hits[0], root)
+            retrieval['mode'] = 'focused_cited_source'
     contract = dict(tasks[selected_task])
+    contract['recipient'] = ('other' if selected_task == 'reply' and
+                             decision['action'] == 'draft' else 'user')
+    if decision['action'] == 'clarify':
+        contract['deliver'] = '只向用户核对一项会改变判断的缺口；不生成给对方的新消息'
+        contract['max_questions'] = 1
+    if selected_task == 'reply' and decision['action'] != 'draft':
+        contract['max_candidates'] = 0
     if selected_task == 'reply' and decision['boundary_acknowledgement']:
         contract['max_questions'] = 0
         contract['allow_no_message'] = True
@@ -83,8 +106,9 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         'decision': {key: decision[key] for key in
                      ['route_id', 'scenario', 'action', 'purpose']},
         'primary_method': decision['method_card'],
-        'read_next': decision['source'],
-        'read': decision['read'],
+        'read_next': source,
+        'read': list(dict.fromkeys(['system/REPLY_PROTOCOL.md', source['path']])),
+        'retrieval': retrieval,
         'output_contract': contract,
         'current_limits': decision['current_limits'],
         'fact_adjustments': decision['fact_adjustments'],
@@ -93,7 +117,8 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         'scope': '仅生成一个处理提纲；读图、事实裁决与自然语言由当前助手完成；不存储、不发送',
     }
     if decision['action'] == 'clarify':
-        result['clarification'] = _clarification(facts, selected_task)
+        result['clarification'] = _clarification(facts, selected_task, decision['route_id']) | {
+            'recipient': 'user'}
     if decision['action'] == 'hold' and selected_task == 'reply':
         result['user_output'] = '先不发，等她回这一轮。'
         if decision['route_id'] == 'R14':

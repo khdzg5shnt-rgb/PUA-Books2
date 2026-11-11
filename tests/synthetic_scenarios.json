@@ -1450,5 +1450,385 @@
     "expect_route": "R02",
     "expect_action": "draft",
     "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T109",
+    "context": "虚构教学场景：身体边界后的另一项正常赞美，只接赞美",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "physical",
+      "current_scope_relation": "different",
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T110",
+    "context": "虚构教学场景：恋爱拒绝后的普通赞美不当撤回",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "romance",
+      "current_scope_relation": "different",
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T111",
+    "context": "虚构教学场景：渠道边界后的普通赞美仍在原渠道接",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "channel",
+      "current_scope_relation": "different",
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T112",
+    "context": "虚构教学场景：活动边界不抹掉另一项赞美",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "function": "appreciation"
+    },
+    "expect_route": "R29",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T113",
+    "context": "虚构教学场景：称呼边界后另一项双向玩笑",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "boundary_expressed": true,
+      "current_scope_relation": "different",
+      "function": "banter",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R24",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T114",
+    "context": "虚构教学场景：身体边界之外双方正在玩的普通角色",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "physical",
+      "current_scope_relation": "different",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "roleplay_shared": true
+    },
+    "expect_route": "R22",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T115",
+    "context": "虚构教学场景：拒绝恋爱后另一项普通玩笑不自动恋爱化",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "romance",
+      "current_scope_relation": "different",
+      "function": "banter",
+      "reciprocity": "mutual"
+    },
+    "expect_route": "R24",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T116",
+    "context": "虚构教学场景：旧邀约无替代后的新玩笑不重开邀约",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "invitation": "no_alternative",
+      "current_scope_relation": "different",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "goal": "invite",
+      "invite_ready": true,
+      "user_availability_known": true,
+      "activity_verified": true
+    },
+    "expect_route": "R24",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T117",
+    "context": "虚构教学场景：同一身体方向不能借接梗再试",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "physical",
+      "current_scope_relation": "same",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "roleplay_shared": true
+    },
+    "expect_route": "R02",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T118",
+    "context": "虚构教学场景：不明范围的赞美不自行撤掉称呼边界",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "boundary_expressed": true,
+      "function": "appreciation"
+    },
+    "expect_route": "R05",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T119",
+    "context": "虚构教学场景：拒绝与答应若都是同一活动先核原话",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "same",
+      "invitation": "accepted",
+      "function": "logistics"
+    },
+    "expect_route": "R00S",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T120",
+    "context": "虚构教学场景：拒绝活动与答应安排关系未知先核一项",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "invitation": "accepted",
+      "function": "logistics"
+    },
+    "expect_route": "R00S",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T121",
+    "context": "虚构教学场景：明确答应另一项安排可以落实",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "invitation": "accepted",
+      "function": "logistics"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T122",
+    "context": "虚构教学场景：不明范围替代时间不直接落实",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "invitation": "alternative",
+      "function": "logistics"
+    },
+    "expect_route": "R00S",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T123",
+    "context": "虚构教学场景：另一项安排的替代时间正常承接",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "invitation": "alternative",
+      "function": "logistics"
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T124",
+    "context": "虚构教学场景：一般活动意愿与旧拒绝范围待核",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "invitation": "open_to_activity",
+      "function": "logistics"
+    },
+    "expect_route": "R00S",
+    "expect_action": "clarify",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T125",
+    "context": "虚构教学场景：另一项一般活动意愿不冒称具体约定",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "invitation": "open_to_activity",
+      "function": "logistics"
+    },
+    "expect_route": "R09",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T126",
+    "context": "虚构教学场景：另一安排取消并主动补替代正常承接",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "invitation": "cancelled_with_repair",
+      "function": "logistics"
+    },
+    "expect_route": "R08",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T127",
+    "context": "虚构教学场景：不要私人联系优先于所谓不同话题",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "refusal_scope": "contact",
+      "current_scope_relation": "different",
+      "function": "appreciation"
+    },
+    "expect_route": "R01",
+    "expect_action": "stop",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T128",
+    "context": "虚构教学场景：用户已经发出则先等而非核另一个安排",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "refusal_scope": "activity",
+      "current_scope_relation": "different",
+      "invitation": "accepted",
+      "function": "logistics"
+    },
+    "expect_route": "R04",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T129",
+    "context": "虚构教学场景：独立必要通知不变成安排范围追问",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "user",
+      "necessary_new_logistics": true,
+      "refusal_scope": "activity",
+      "invitation": "accepted",
+      "function": "logistics"
+    },
+    "expect_route": "R04N",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T130",
+    "context": "虚构教学场景：当前确实双向接梗清除旧低投入计数",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R24",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T131",
+    "context": "虚构教学场景：当前共同角色也不被旧低投入盖掉",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "function": "banter",
+      "reciprocity": "mutual",
+      "roleplay_shared": true,
+      "current_turn_low": true,
+      "consecutive_low_rounds": 3
+    },
+    "expect_route": "R22",
+    "expect_action": "draft",
+    "kind": "synthetic_not_user_chat"
+  },
+  {
+    "id": "T132",
+    "context": "虚构教学场景：未核双向的短反应不自动当热络接梗",
+    "facts": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "latest_sender": "other",
+      "function": "banter",
+      "current_turn_low": true,
+      "consecutive_low_rounds": 2
+    },
+    "expect_route": "R14",
+    "expect_action": "hold",
+    "kind": "synthetic_not_user_chat"
   }
 ]

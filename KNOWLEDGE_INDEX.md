@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-12读完B023–B025三份当前文件文字，共467页；下一B030《指男针》DOC开头。新增12组原创审阅和16条批判性方法出处，26方法、31路由、五种任务及首选段落保留；阅读主线与独立缺口见[队列](system/READING_QUEUE.md)。
+2026-11-12本轮暂停阅读，维护当前内容范围、方法内关键词检索和核对输出。26方法、32路由、五种任务；阅读保持30/119，下一B030《指男针》DOC开头不变。见[维护报告](knowledge/provenance/OS_current_content_2026-11-12.md)和[阅读队列](system/READING_QUEUE.md)。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-12：[B023](knowledge/books/B023.md)、[B024](knowledge/books/B024.md)、[B025](knowledge/books/B025.md)三份当前文件共467页、722696提取字符读完，图像按18个独立资产与21个选定全页分别核读；不是全页版式或效果验证。新增12组原创审阅、16条批判性方法出处，操作和首选段落保留。书库30份现有文字完成、3份部分、86份未开始；TOP30仍30/30，来源158条。下一B030《指男针》DOC开头；A026–A029支持文件状态与B014/B015/B017缺口保留。[报告](knowledge/provenance/B023_B025_progress_2026-11-12.md)。
+2026-11-12本轮系统维护：[当前内容与边界](system/CONTENT_SCOPE.md)区分同一方向与另一项正常内容；方法内关键词定位一处贴题笔记，检索不改变主方法。26方法、32路由、五种任务，新增24个虚构场景至132个。原始书库保持30份现有文字完成、3份部分、86份未开始；TOP30仍30/30、来源158条。阅读本轮暂停，B030文档开头及既有缺口不变。[维护报告](knowledge/provenance/OS_current_content_2026-11-12.md)；[上一轮三份阅读](knowledge/provenance/B023_B025_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。

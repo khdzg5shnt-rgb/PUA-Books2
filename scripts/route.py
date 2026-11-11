@@ -51,6 +51,7 @@ def normalize(facts, config):
         value['necessary_new_logistics'] = False
     if (value['advice_requested'] or value['urgent_practical_need'] or
             value['closed_answer_complete'] or
+            (value['function'] == 'banter' and value['reciprocity'] == 'mutual') or
             value['invitation'] in {'accepted', 'alternative', 'cancelled_with_repair',
                                     'open_to_activity'} or
             value['function'] in {'distress', 'advice_request', 'good_news', 'question',
@@ -79,7 +80,10 @@ def current_limits(facts):
     if facts['boundary_expressed']:
         limits.append('停止明确不接受的话题或称呼；不借玩笑再试一次')
     if facts['invitation'] in {'no_alternative', 'cancelled_without_repair'}:
-        limits.append('本轮没有替代安排，不换日期追问；可回应她新增的认真内容')
+        limits.append('原邀约没有替代安排，不换日期追问；可回应她新增的正常内容')
+    if facts['current_scope_relation'] == 'different' and (
+            facts['refusal_scope'] not in {'none', 'contact'} or facts['boundary_expressed']):
+        limits.append('本轮内容已核与被拒方向不同；只回应当前内容，不视为撤回原边界')
     if facts['pending_reply'] and facts['necessary_new_logistics']:
         limits.append('只通知已核实的独立必要新事务，不顺带催回复、试探或重新邀约')
     return limits
@@ -107,6 +111,8 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
             source = method_reference(method['id'], root)
             if rule['action'] in {'hold', 'stop'}:
                 output_policy = '不生成给对方的新消息，只向用户说明等待或停止'
+            elif rule['action'] == 'clarify':
+                output_policy = '只向用户核对一项会改变判断的缺口，不生成给对方的新消息'
             elif rule.get('acknowledgement_only', False):
                 output_policy = '必要时只简短承接具体边界，不追加问题，也可不另发'
             else:

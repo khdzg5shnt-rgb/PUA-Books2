@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "1.3.0",
-  "updated": "2026-11-11",
+  "version": "1.4.0",
+  "updated": "2026-11-12",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
   "defaults": {
@@ -26,7 +26,8 @@
     "roleplay_shared": false,
     "advice_requested": false,
     "urgent_practical_need": false,
-    "latest_sender": "unknown"
+    "latest_sender": "unknown",
+    "current_scope_relation": "unknown"
   },
   "enums": {
     "refusal_scope": [
@@ -75,6 +76,11 @@
       "unknown",
       "user",
       "other"
+    ],
+    "current_scope_relation": [
+      "unknown",
+      "same",
+      "different"
     ]
   },
   "routing": "first_matching_rule",
@@ -175,6 +181,66 @@
       ]
     },
     {
+      "id": "R00S",
+      "name": "安排与拒绝范围待核",
+      "when": {
+        "all": [
+          {
+            "field": "refusal_scope",
+            "op": "eq",
+            "value": "activity"
+          },
+          {
+            "field": "invitation",
+            "op": "in",
+            "value": [
+              "accepted",
+              "alternative",
+              "cancelled_with_repair",
+              "open_to_activity"
+            ]
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
+            ]
+          },
+          {
+            "field": "function",
+            "op": "in",
+            "value": [
+              "unknown",
+              "logistics",
+              "sharing",
+              "banter",
+              "opening"
+            ]
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": false
+          }
+        ]
+      },
+      "method_ids": [
+        "M01"
+      ],
+      "action": "clarify",
+      "purpose": "只核当前安排与被拒活动是否同项；已有明确新同意则先更新事实，不擅自确认或重复拒绝",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
       "id": "R02",
       "name": "身体界限",
       "when": {
@@ -204,6 +270,14 @@
             "field": "urgent_practical_need",
             "op": "eq",
             "value": false
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
+            ]
           }
         ]
       },
@@ -247,6 +321,14 @@
             "field": "urgent_practical_need",
             "op": "eq",
             "value": false
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
+            ]
           }
         ]
       },
@@ -299,6 +381,14 @@
             "field": "urgent_practical_need",
             "op": "eq",
             "value": false
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
+            ]
           }
         ]
       },
@@ -437,6 +527,14 @@
                 "value": false
               }
             ]
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
+            ]
           }
         ]
       },
@@ -481,6 +579,14 @@
                 "op": "eq",
                 "value": false
               }
+            ]
+          },
+          {
+            "field": "current_scope_relation",
+            "op": "in",
+            "value": [
+              "unknown",
+              "same"
             ]
           }
         ]
@@ -996,6 +1102,7 @@
     "roleplay_shared": "双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可",
     "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
     "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感",
-    "latest_sender": "最近一条已核的双方消息由谁发送；排除系统提示和引用。已核方向可更新pending_reply，未知保留unknown"
+    "latest_sender": "最近一条已核的双方消息由谁发送；排除系统提示和引用。已核方向可更新pending_reply，未知保留unknown",
+    "current_scope_relation": "已核当前内容或安排与已有被拒方向是否相同；unknown不猜，different必须有具体依据，不能当撤回边界或重邀许可"
   }
 }

@@ -9,6 +9,8 @@
 3. 按[当前一轮规则](system/CURRENT_TURN.md)核最近一条已发消息、当前内容与仍有效的具体边界。再区分本次是怎么回、什么意思、分析、复盘还是训练。按[场景路由](system/SCENARIO_ROUTER.md)选一个主方法，核卡上条件，用[段落映射](system/knowledge_map.json)直接读一处相关笔记；需要时才展开或读一条公开教学案例。
 4. 用[回复规则](system/REPLY_PROTOCOL.md)压成一句；不宜继续发时直说先不发。
 
+旧边界与当前内容的范围按[此页](system/CONTENT_SCOPE.md)核：正常新赞美、另一个双方接的玩笑或明确不同的安排，不需要反复回应旧拒绝；同一被拒方向仍停止。方法已定但需要更贴题的资料时，只在该方法的出处里缩小到一段。缺口确认只问用户一项，不作为发给对方的消息。
+
 同一窗口已经有且未失效的规则无需反复整库阅读。缺上下文先补一项关键事实，不给用户一串问卷。
 
 完整执行说明见[日常流程](system/RUNBOOK.md)，字段含义见[事实说明](system/INPUT_FACTS.md)。统一命令`python scripts/coach.py --request system/EXAMPLE_REQUEST.json`可查看虚构示例的主方法、笔记段落与输出约定；真实请求可用stdin，不必生成聊天文件。用户直接发截图即可，助手负责这些核对。

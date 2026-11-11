@@ -1,6 +1,12 @@
 # 检查范围
 
-当前系统维护已实际通过结构检查与29项测试、108个虚构路由场景；新增24个，旧84个ID保留。示例入口、M23检索及四项stdin流程另跑通；身份、来源清单、书签、旧校准与阅读快照、链接和26处首选段落另核。真实输出见[本轮检查](../knowledge/provenance/OS_scope_update_validation_2026-11-11.json)，内容见[维护报告](../knowledge/provenance/OS_scope_update_2026-11-11.md)。此前[B012续读记录](../knowledge/provenance/B012_validation_2026-11-11.json)保留，历史数字不覆盖本轮。
+2026-11-12本轮暂停阅读，维护当前内容范围与方法内检索。两项规定检查已通过：39项测试覆盖132个虚构路由场景；旧29项测试与108个场景保留，新增10项与24个场景。最终范围核对通过。实际结果见[本轮验证](../knowledge/provenance/OS_current_content_validation_2026-11-12.json)，改动见[维护报告](../knowledge/provenance/OS_current_content_2026-11-12.md)。阅读30/119、3份部分、86份未开始；B030文档开头书签与来源登记不变。
+
+新增核对范围：旧边界与新正常内容分开，活动拒绝与答应安排是否同项、当前双向接梗与旧低投入、核对问题的接收方、关键词命中优先、来源文件反向方法指向，以及focus只换资料段落、不换主方法或动作。原首选段落、方法操作、其他对象与真实输入不被改写。
+
+以下为历史维护与检查记录，其数字属于各自当时范围。
+
+上轮（2026-11-11）系统维护已实际通过结构检查与29项测试、108个虚构路由场景；新增24个，旧84个ID保留。示例入口、M23检索及四项stdin流程另跑通；身份、来源清单、书签、旧校准与阅读快照、链接和26处首选段落另核。真实输出见[当轮检查](../knowledge/provenance/OS_scope_update_validation_2026-11-11.json)，内容见[维护报告](../knowledge/provenance/OS_scope_update_2026-11-11.md)。此前[B012续读记录](../knowledge/provenance/B012_validation_2026-11-11.json)保留，历史数字不覆盖本轮。
 
 ```bash
 python scripts/validate_os.py

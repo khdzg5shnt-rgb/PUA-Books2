@@ -13,14 +13,20 @@ def search(query, limit=8, root=ROOT, method=None):
     explicit = re.findall(r'\bM\d{2}\b', query.upper())
     if method is None and len(set(explicit)) == 1:
         method = explicit[0]
-    if method is not None and method not in methods:
+    if method is not None and (not isinstance(method, str) or method not in methods):
         raise ValueError('Unknown method ID')
-    terms = [term.casefold() for term in re.split(r'\s+', query.strip()) if term]
+    # An explicit method selects the source collection, not a content keyword.
+    content_query = re.sub(r'\bM\d{2}\b', ' ', query, flags=re.I)
+    terms = [term.casefold() for term in re.split(r'\s+', content_query.strip()) if term]
     if not terms and method is None:
         return []
     selected = [method] if method else list(methods)
     paths = set()
     preferred = {}
+    cited = {}
+    for mid, card in methods.items():
+        for source in card['sources']:
+            cited.setdefault(source['path'], set()).add(mid)
     for mid in selected:
         item = method_reference(mid, root)
         key = (item['path'], item['heading'])
@@ -43,22 +49,28 @@ def search(query, limit=8, root=ROOT, method=None):
                        for alias in lookup['methods'][mid]['aliases']
                        if alias.casefold() in query.casefold()]
             content_hits = sum(term in body for term in terms)
-            if not content_hits and not aliases and not (method and mids):
+            query_matched = bool(content_hits or aliases)
+            if not query_matched and not (method and mids):
                 continue
-            # Direct methods and exact scene phrases beat incidental mentions.
-            # Frequencies are deliberately unused.
-            rank = (bool(method and mids), max(map(len, aliases), default=0),
+            # Keep a preferred-section fallback, but let a matching cited section
+            # answer a focused query before an unrelated generic paragraph.
+            rank = (query_matched, max(map(len, aliases), default=0),
                     sum(term in heading for term in terms), content_hits,
                     bool(mids), path.startswith('knowledge/topics/'))
             lines = section['text'].splitlines()
             matching = [line for line in lines
                         if any(term in line.casefold() for term in terms)]
             snippet = (matching[0] if matching else '\n'.join(lines[1:]))[:240]
-            hits.append((rank, section | {'snippet': snippet, 'method_ids': mids}))
+            kind = ('preferred_section' if mids else
+                    'cited_source_section' if path in cited else 'related_note')
+            hits.append((rank, section | {'snippet': snippet, 'method_ids': mids,
+                'source_method_ids': sorted(cited.get(path, set())),
+                'match_kind': kind, 'query_matched': query_matched}))
     hits.sort(key=lambda item: tuple(-int(x) for x in item[0]) +
               (item[1]['path'], item[1]['line']))
     return [{key: item[key] for key in
-             ['path', 'title', 'heading', 'line', 'end_line', 'snippet', 'method_ids']}
+             ['path', 'title', 'heading', 'line', 'end_line', 'snippet', 'method_ids',
+              'source_method_ids', 'match_kind', 'query_matched']}
             for _rank, item in hits[:min(limit, 20)]]
 
 

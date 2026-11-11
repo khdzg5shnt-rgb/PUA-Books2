@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "checks_passed",
+  "baseline_main": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+  "required_checks": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "ok": true,
+      "methods": 26,
+      "routes": 32,
+      "task_modes": 5,
+      "preferred_sections": 26,
+      "source_records": 158,
+      "archived_files": 44,
+      "book_text_complete": 30,
+      "book_not_started": 86
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "unittest_methods": 39,
+      "synthetic_routing_scenarios": 132,
+      "result": "OK"
+    }
+  ],
+  "scope_check": {
+    "ok": true,
+    "baseline_main": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+    "changed_existing_files": 19,
+    "new_files": 4,
+    "local_markdown_links_checked": 267,
+    "methods": 26,
+    "routes": 32,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "all26_preferred_excerpts_complete": true,
+    "preferred_excerpt_characters": {
+      "M01": 481,
+      "M02": 230,
+      "M03": 231,
+      "M04": 221,
+      "M05": 464,
+      "M06": 230,
+      "M07": 212,
+      "M08": 321,
+      "M09": 285,
+      "M10": 280,
+      "M11": 444,
+      "M12": 261,
+      "M13": 444,
+      "M14": 106,
+      "M15": 218,
+      "M16": 89,
+      "M17": 163,
+      "M18": 340,
+      "M19": 233,
+      "M20": 123,
+      "M21": 251,
+      "M22": 276,
+      "M23": 479,
+      "M24": 345,
+      "M25": 118,
+      "M26": 111
+    },
+    "new_synthetic_scenarios": 24,
+    "old108_scenarios_preserved": true,
+    "total_synthetic_scenarios": 132,
+    "old29_tests_preserved": true,
+    "new_test_methods": 10,
+    "total_test_methods": 39,
+    "cli_entrypoints_checked": 4,
+    "protected_notes_and_source_files_byte_identical": 300,
+    "all_prior_ledgers_source_registrations_method_operations_tasks_and_preferred_mappings_byte_identical": true,
+    "new_book_files_read": 0,
+    "new_original_characters_read": 0,
+    "book_text_complete": 30,
+    "book_text_partial": 3,
+    "book_not_started": 86,
+    "reading_paused_for_this_round": true,
+    "reading_bookmark_unchanged": true,
+    "next_book": "B030",
+    "next_file_page": null,
+    "next_character": 0,
+    "B014_B015_B017_gaps_and_support_file_states_preserved": true,
+    "previous_reading_and_system_maintenance_sessions_preserved": true,
+    "new_private_case_records": 0,
+    "new_source_head_checks": 0,
+    "new_original_research_full_texts": 0,
+    "new_original_videos": 0,
+    "new_raw_source_or_image_archives": false,
+    "other_repositories_modified": false,
+    "scope": "Structural facts and retrieval behavior only; all new scenarios invented. No real screenshot-recognition,dating outcome,clinical,source-edition or mechanism validation."
+  },
+  "cli_smoke_checks": {
+    "ok": true,
+    "runs": [
+      {
+        "command": "coach --request system/EXAMPLE_REQUEST.json",
+        "route": "R08"
+      },
+      {
+        "command": "coach stdin focus",
+        "route": "R25",
+        "method": "M25",
+        "read_next": {
+          "path": "knowledge/books/B025-intent-and-follow-up.md",
+          "heading": "有自己的安排不等于编造稀缺"
+        },
+        "single_source": true
+      },
+      {
+        "command": "route stdin conflicting scope",
+        "route": "R00S",
+        "clarification_recipient": "user"
+      },
+      {
+        "command": "method plus query search",
+        "matched_one_cited_section": true,
+        "file_level_citations_distinguished": true
+      }
+    ]
+  },
+  "regression_before_fix": {
+    "tested_new_test_file_against_old_implementation": true,
+    "old_behavior_reproduced": [
+      "fresh mutual banter blocked by old low-effort count",
+      "method-plus-content query returned unrelated preferred paragraph"
+    ],
+    "new_scope_and_focus_not_supported_in_old_implementation": true
+  },
+  "limits": "Verified fact routing,local retrieval,request structure and source preservation only; no real screenshot-recognition,psychological mechanism or dating outcome validation."
+}

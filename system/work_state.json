@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B023_B025_current_text_complete_30_of119",
-  "status": "B023_B025_checks_passed",
-  "base_commit": "dd48ce290051061d46af6acb40ede6f5deb1a9ed",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 3,
+  "current_focus": "system_current_content_and_focused_method_retrieval",
+  "status": "OS_current_content_checks_passed",
+  "base_commit": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B023_B025_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B023_B025_validation_2026-11-12.json",
+  "report": "knowledge/provenance/OS_current_content_2026-11-12.md",
+  "validation": "knowledge/provenance/OS_current_content_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B030",
     "path": "《指男针》(根据国情而出的强书).doc",
@@ -27,112 +27,35 @@
     "historical_extraction_characters": 26880,
     "historical_ocr_processed_pages": 0
   },
-  "next_work": "Start B030 DOC at document beginning after binary,current extraction and image/privacy checks. A026–A029 supporting items retain their separate states; preserve B014/B015/B017 gaps.",
+  "next_work": "Reading paused for this maintenance round. Resume B030 DOC from document start only when requested; reading bookmark,30/119 count,and B014/B015/B017 gaps unchanged.",
   "current_session_progress": {
-    "baseline": "dd48ce290051061d46af6acb40ede6f5deb1a9ed",
-    "text_complete_file_ids": [
-      "B023",
-      "B024",
-      "B025"
-    ],
-    "text_partial_file_ids": [
-      "B014",
-      "B015",
-      "B017"
-    ],
-    "new_book_files_started": [
-      "B023",
-      "B024",
-      "B025"
-    ],
-    "direct_extractable_characters": 722696,
-    "body_characters": 707215,
-    "text_layer_file_pages": 467,
-    "native_read_chunks": 49,
-    "per_file": {
-      "B023": {
-        "characters": 350890,
-        "body_characters": 343960,
-        "native_read_chunks": 22,
-        "file_pages": 207,
-        "unique_embedded_images_reviewed": 2,
-        "selected_visual_pages": [
-          1,
-          2,
-          204
-        ],
-        "all_page_layouts_reviewed": false
-      },
-      "B024": {
-        "characters": 332281,
-        "body_characters": 326473,
-        "native_read_chunks": 21,
-        "file_pages": 174,
-        "unique_embedded_images_reviewed": 14,
-        "selected_visual_pages": [
-          1,
-          2,
-          25,
-          40,
-          57,
-          76,
-          81,
-          103,
-          110,
-          147,
-          156,
-          157
-        ],
-        "all_page_layouts_reviewed": false
-      },
-      "B025": {
-        "characters": 39525,
-        "body_characters": 36782,
-        "native_read_chunks": 6,
-        "file_pages": 86,
-        "unique_embedded_images_reviewed": 2,
-        "selected_visual_pages": [
-          1,
-          2,
-          4,
-          10,
-          53,
-          86
-        ],
-        "all_page_layouts_reviewed": false
-      }
-    },
+    "baseline": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+    "work_type": "system_maintenance",
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
     "methods": 26,
-    "routes": 31,
+    "routes": 32,
     "task_modes": 5,
-    "new_method_source_bindings": 16,
+    "new_synthetic_scenarios": 24,
+    "total_synthetic_scenarios": 132,
+    "source_records_unchanged": 158,
+    "reading_bookmark_unchanged": true,
+    "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_lookup_aliases": {},
-    "new_whole_book_files_completed": 3,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
     "new_source_head_checks": 0,
+    "new_research_full_texts": 0,
+    "new_original_videos": 0,
     "checks": {
       "structural": true,
-      "unittest_methods": 29,
-      "synthetic_routing_scenarios": 108,
-      "retrieval_methods": [
-        "M03",
-        "M25",
-        "M26",
-        "M23",
-        "M04",
-        "M06",
-        "M10",
-        "M22",
-        "M14",
-        "M08"
-      ],
-      "preferred_excerpt_complete": true,
+      "unittest_methods": 39,
+      "synthetic_routing_scenarios": 132,
+      "old108_scenarios_preserved": true,
+      "new_synthetic_scenarios": 24,
+      "preferred_sections_complete": 26,
+      "cli_checks": 4,
       "scope": true,
-      "native_read_chunks": 49,
-      "unique_embedded_images_reviewed": 18,
-      "selected_full_page_views": 21,
+      "reading_unchanged": true,
       "blind_visual_tests": 0
     }
   },
@@ -168,21 +91,39 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
-    "report": "knowledge/provenance/OS_scope_update_2026-11-11.md",
-    "validation": "knowledge/provenance/OS_scope_update_validation_2026-11-11.json",
+    "base_commit": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+    "report": "knowledge/provenance/OS_current_content_2026-11-12.md",
+    "validation": "knowledge/provenance/OS_current_content_validation_2026-11-12.json",
     "current_session_progress": {
-      "baseline": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+      "baseline": "5eb3a5be587f2be87bf709168d9d71346fa73757",
+      "work_type": "system_maintenance",
       "new_book_files_completed": [],
       "new_book_characters_read": 0,
       "new_book_pages_read": 0,
       "methods": 26,
-      "routes": 31,
+      "routes": 32,
       "task_modes": 5,
       "new_synthetic_scenarios": 24,
-      "total_synthetic_scenarios": 108,
+      "total_synthetic_scenarios": 132,
       "source_records_unchanged": 158,
-      "reading_bookmark_unchanged": true
+      "reading_bookmark_unchanged": true,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_source_head_checks": 0,
+      "new_research_full_texts": 0,
+      "new_original_videos": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 39,
+        "synthetic_routing_scenarios": 132,
+        "old108_scenarios_preserved": true,
+        "new_synthetic_scenarios": 24,
+        "preferred_sections_complete": 26,
+        "cli_checks": 4,
+        "scope": true,
+        "reading_unchanged": true,
+        "blind_visual_tests": 0
+      }
     }
   },
   "earlier_reading_progress": {
@@ -1059,6 +1000,114 @@
         "short_native_pages_full_viewed": 29,
         "blind_visual_tests": 0
       }
+    },
+    {
+      "baseline": "dd48ce290051061d46af6acb40ede6f5deb1a9ed",
+      "text_complete_file_ids": [
+        "B023",
+        "B024",
+        "B025"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017"
+      ],
+      "new_book_files_started": [
+        "B023",
+        "B024",
+        "B025"
+      ],
+      "direct_extractable_characters": 722696,
+      "body_characters": 707215,
+      "text_layer_file_pages": 467,
+      "native_read_chunks": 49,
+      "per_file": {
+        "B023": {
+          "characters": 350890,
+          "body_characters": 343960,
+          "native_read_chunks": 22,
+          "file_pages": 207,
+          "unique_embedded_images_reviewed": 2,
+          "selected_visual_pages": [
+            1,
+            2,
+            204
+          ],
+          "all_page_layouts_reviewed": false
+        },
+        "B024": {
+          "characters": 332281,
+          "body_characters": 326473,
+          "native_read_chunks": 21,
+          "file_pages": 174,
+          "unique_embedded_images_reviewed": 14,
+          "selected_visual_pages": [
+            1,
+            2,
+            25,
+            40,
+            57,
+            76,
+            81,
+            103,
+            110,
+            147,
+            156,
+            157
+          ],
+          "all_page_layouts_reviewed": false
+        },
+        "B025": {
+          "characters": 39525,
+          "body_characters": 36782,
+          "native_read_chunks": 6,
+          "file_pages": 86,
+          "unique_embedded_images_reviewed": 2,
+          "selected_visual_pages": [
+            1,
+            2,
+            4,
+            10,
+            53,
+            86
+          ],
+          "all_page_layouts_reviewed": false
+        }
+      },
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "new_method_source_bindings": 16,
+      "changed_preferred_sections": [],
+      "new_lookup_aliases": {},
+      "new_whole_book_files_completed": 3,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "new_source_head_checks": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "retrieval_methods": [
+          "M03",
+          "M25",
+          "M26",
+          "M23",
+          "M04",
+          "M06",
+          "M10",
+          "M22",
+          "M14",
+          "M08"
+        ],
+        "preferred_excerpt_complete": true,
+        "scope": true,
+        "native_read_chunks": 49,
+        "unique_embedded_images_reviewed": 18,
+        "selected_full_page_views": 21,
+        "blind_visual_tests": 0
+      }
     }
   ],
   "deferred_work_units": [
@@ -1100,5 +1149,133 @@
       "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
     }
   ],
-  "reading_queue": "system/READING_QUEUE.md"
+  "reading_queue": "system/READING_QUEUE.md",
+  "system_maintenance_history": [
+    {
+      "base_commit": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+      "report": "knowledge/provenance/OS_scope_update_2026-11-11.md",
+      "validation": "knowledge/provenance/OS_scope_update_validation_2026-11-11.json",
+      "current_session_progress": {
+        "baseline": "360905b2418dafe4bc2ff661ee7e1873ab96080c",
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "methods": 26,
+        "routes": 31,
+        "task_modes": 5,
+        "new_synthetic_scenarios": 24,
+        "total_synthetic_scenarios": 108,
+        "source_records_unchanged": 158,
+        "reading_bookmark_unchanged": true
+      }
+    }
+  ],
+  "last_completed_reading_session": {
+    "baseline": "dd48ce290051061d46af6acb40ede6f5deb1a9ed",
+    "text_complete_file_ids": [
+      "B023",
+      "B024",
+      "B025"
+    ],
+    "text_partial_file_ids": [
+      "B014",
+      "B015",
+      "B017"
+    ],
+    "new_book_files_started": [
+      "B023",
+      "B024",
+      "B025"
+    ],
+    "direct_extractable_characters": 722696,
+    "body_characters": 707215,
+    "text_layer_file_pages": 467,
+    "native_read_chunks": 49,
+    "per_file": {
+      "B023": {
+        "characters": 350890,
+        "body_characters": 343960,
+        "native_read_chunks": 22,
+        "file_pages": 207,
+        "unique_embedded_images_reviewed": 2,
+        "selected_visual_pages": [
+          1,
+          2,
+          204
+        ],
+        "all_page_layouts_reviewed": false
+      },
+      "B024": {
+        "characters": 332281,
+        "body_characters": 326473,
+        "native_read_chunks": 21,
+        "file_pages": 174,
+        "unique_embedded_images_reviewed": 14,
+        "selected_visual_pages": [
+          1,
+          2,
+          25,
+          40,
+          57,
+          76,
+          81,
+          103,
+          110,
+          147,
+          156,
+          157
+        ],
+        "all_page_layouts_reviewed": false
+      },
+      "B025": {
+        "characters": 39525,
+        "body_characters": 36782,
+        "native_read_chunks": 6,
+        "file_pages": 86,
+        "unique_embedded_images_reviewed": 2,
+        "selected_visual_pages": [
+          1,
+          2,
+          4,
+          10,
+          53,
+          86
+        ],
+        "all_page_layouts_reviewed": false
+      }
+    },
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "new_method_source_bindings": 16,
+    "changed_preferred_sections": [],
+    "new_lookup_aliases": {},
+    "new_whole_book_files_completed": 3,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "new_source_head_checks": 0,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "retrieval_methods": [
+        "M03",
+        "M25",
+        "M26",
+        "M23",
+        "M04",
+        "M06",
+        "M10",
+        "M22",
+        "M14",
+        "M08"
+      ],
+      "preferred_excerpt_complete": true,
+      "scope": true,
+      "native_read_chunks": 49,
+      "unique_embedded_images_reviewed": 18,
+      "selected_full_page_views": 21,
+      "blind_visual_tests": 0
+    }
+  }
 }
