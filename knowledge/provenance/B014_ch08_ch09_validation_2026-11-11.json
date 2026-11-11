@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "0c597d21e6557d5f629a24c79a54da7c2106b4be",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/validate_os.py"
+      ],
+      "cwd": "books2",
+      "started_at_utc": "2026-11-11T09:21:56.401290+00:00",
+      "duration_seconds": 0.17164,
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 96,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "cwd": "books2",
+      "started_at_utc": "2026-11-11T09:21:56.396770+00:00",
+      "duration_seconds": 1.38813,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.279s\n\nOK\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "0c597d21e6557d5f629a24c79a54da7c2106b4be",
+    "source_records": 158,
+    "external_archived_files": 44,
+    "book_files_text_complete": 22,
+    "book_files_text_partial": 1,
+    "book_files_not_started": 96,
+    "new_whole_book_files_completed": 0,
+    "new_direct_text_characters": 222854,
+    "new_contiguous_read_chunks": 14,
+    "new_physical_pages": 109,
+    "B014_cumulative_pages": 553,
+    "new_visual_pages": 48,
+    "new_detailed_visual_pages": 11,
+    "cumulative_visual_pages": 204,
+    "cumulative_detailed_visual_pages": 56,
+    "new_unreviewed_layout_pages": 61,
+    "cumulative_unreviewed_read_text_layout_pages": 349,
+    "unread_B014_pages": 449,
+    "all68embedded_image_pages_within_read_prefix_viewed": true,
+    "source_checks": 12,
+    "visual_elements_checked": 11,
+    "next_bookmark": [
+      "B014",
+      554,
+      1047759
+    ],
+    "original_raw_identity_records_preserved": 125,
+    "historical_extraction_fields_preserved": true,
+    "prior_reports_ledgers_and_ch01to07_notes_preserved": true,
+    "all_previous_reading_progress_preserved": true,
+    "runtime_scripts_tests_protocol_router_map_unchanged": true,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "all26preferred_sections_complete": true,
+    "new_method_source_bindings": 2,
+    "method_operations_unchanged": true,
+    "synthetic_scenarios": 108,
+    "private_case_files_added": false,
+    "raw_text_or_page_images_added": false,
+    "changed_markdown_files": 12,
+    "local_links_checked": 599,
+    "anchors_checked": 0,
+    "new_notes_retrievable": true,
+    "changed_files": 19,
+    "limits": "Identity, coordinates, bookkeeping, links and synthetic runtime checks do not certify every layout, source scientific claim, clinical advice, real screenshot recognition, or dating effects."
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "Checks cover source identity, contiguous reading coordinates, selected visual inventory, internal links and synthetic routing; not complete edition authentication, current science, clinical assessment, real screenshot recognition or dating outcomes."
+}

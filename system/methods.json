@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.6.4",
+  "version": "1.6.5",
   "methods": [
     {
       "id": "M01",
@@ -557,6 +557,11 @@
         {
           "path": "knowledge/books/B014-ch06.md",
           "locator": "物理页343–346、369–375：意愿评分、SOI与相关、未复现和无效线索的范围",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B014-ch08.md",
+          "locator": "物理页448–449、467：演化条件不等于个体心理预测，框8.1具体假说被否定",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1280,6 +1285,11 @@
         {
           "path": "knowledge/books/B008-ch07-13.md",
           "locator": "物理页55–85取舍：正常互助、真实停止加码与投入边界",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B014-ch09.md",
+          "locator": "物理页506–509、524–534取舍：长期互惠与即时算账不同，不用博弈或所谓不可替代训练对方",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
