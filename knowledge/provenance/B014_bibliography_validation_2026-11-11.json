@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "90d16c445ea95e8d420573301a92c9fafc2755ff",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "b483ff",
+      "wall_time_seconds": 0.039994022,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 96,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "d3ba22",
+      "wall_time_seconds": 1.258391698,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.245s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '见面后' --method M24 --limit 1",
+      "chunk_id": "ad142e",
+      "wall_time_seconds": 2.6469e-05,
+      "exit_code": 0,
+      "original_token_count": 73,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/interest-evidence.md\",\n    \"title\": \"兴趣判断：偏好、实际互动与见面后反馈\",\n    \"heading\": \"见面后的下一步\",\n    \"line\": 5,\n    \"end_line\": 12,\n    \"snippet\": \"## 见面后的下一步\",\n    \"method_ids\": [\n      \"M24\"\n    ]\n  }\n]\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "90d16c445ea95e8d420573301a92c9fafc2755ff",
+    "changed_files": 18,
+    "new_files": 5,
+    "new_direct_characters": 86093,
+    "new_physical_pages": 38,
+    "cumulative_pages": 850,
+    "cumulative_read_chunks": 99,
+    "next_file_page": 851,
+    "next_character": 1661625,
+    "unread_file_pages": 152,
+    "selected_visual_pages_new": 8,
+    "selected_visual_pages_cumulative": 350,
+    "unreviewed_read_text_layout_pages": 500,
+    "method_source_bindings_added": 3,
+    "preferred_sections_changed": [
+      "M24"
+    ],
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "preferred_complete_sections": 26,
+    "source_records": 158,
+    "book_text_complete": 22,
+    "book_text_partial": 1,
+    "book_not_started": 96,
+    "research_metadata_records": 4,
+    "new_whole_files_completed": 0,
+    "new_full_research_papers_completed": 0,
+    "local_links_checked": 552,
+    "raw_sources_scripts_routes_tests_and_operational_rules_unchanged": true,
+    "private_material_imported": false
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "Structural, existing routing tests, local lookup, source identity and reading-range consistency only; no test of real screenshots or dating outcomes; four checked citations are not four fully read papers."
+}

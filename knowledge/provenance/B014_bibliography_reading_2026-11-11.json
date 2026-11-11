@@ -1,0 +1,1525 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B014-bibliography-integration-2026-11-11",
+  "baseline_main": "90d16c445ea95e8d420573301a92c9fafc2755ff",
+  "scope": "ordered_bibliography_pages813to850_and_selected_research_integration",
+  "records": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "bytes": 13323230,
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "file_pages": 1002,
+      "sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "reading_status": "provided_file_text_partial",
+      "original_publication_complete": false,
+      "notes": [
+        "knowledge/books/B014.md",
+        "knowledge/books/B014-bibliography.md",
+        "knowledge/topics/interest-evidence.md"
+      ],
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "previous_ledger": "knowledge/provenance/B014_ch12_ch13_reading_2026-11-11.json",
+      "read_file_pages": [
+        813,
+        850
+      ],
+      "read_range": [
+        1575532,
+        1661625
+      ],
+      "actual_read_chunks": [
+        [
+          1575532,
+          1604714
+        ],
+        [
+          1604714,
+          1634370
+        ],
+        [
+          1634370,
+          1652560
+        ],
+        [
+          1652560,
+          1661625
+        ]
+      ],
+      "new_direct_read_characters": 86093,
+      "cumulative_read_file_pages": [
+        1,
+        850
+      ],
+      "cumulative_read_range": [
+        0,
+        1661625
+      ],
+      "cumulative_actual_read_chunks": [
+        [
+          0,
+          18000
+        ],
+        [
+          18000,
+          36000
+        ],
+        [
+          36000,
+          54000
+        ],
+        [
+          54000,
+          72000
+        ],
+        [
+          72000,
+          90000
+        ],
+        [
+          90000,
+          108000
+        ],
+        [
+          108000,
+          126000
+        ],
+        [
+          126000,
+          139496
+        ],
+        [
+          139496,
+          157496
+        ],
+        [
+          157496,
+          175496
+        ],
+        [
+          175496,
+          193496
+        ],
+        [
+          193496,
+          211496
+        ],
+        [
+          211496,
+          229496
+        ],
+        [
+          229496,
+          247496
+        ],
+        [
+          247496,
+          262754
+        ],
+        [
+          262754,
+          280754
+        ],
+        [
+          280754,
+          298754
+        ],
+        [
+          298754,
+          316754
+        ],
+        [
+          316754,
+          334754
+        ],
+        [
+          334754,
+          352754
+        ],
+        [
+          352754,
+          370754
+        ],
+        [
+          370754,
+          387760
+        ],
+        [
+          387760,
+          405760
+        ],
+        [
+          405760,
+          423760
+        ],
+        [
+          423760,
+          441760
+        ],
+        [
+          441760,
+          459760
+        ],
+        [
+          459760,
+          477760
+        ],
+        [
+          477760,
+          495760
+        ],
+        [
+          495760,
+          499561
+        ],
+        [
+          499561,
+          517561
+        ],
+        [
+          517561,
+          535561
+        ],
+        [
+          535561,
+          553561
+        ],
+        [
+          553561,
+          571561
+        ],
+        [
+          571561,
+          589561
+        ],
+        [
+          589561,
+          607561
+        ],
+        [
+          607561,
+          610379
+        ],
+        [
+          610379,
+          628379
+        ],
+        [
+          628379,
+          646379
+        ],
+        [
+          646379,
+          664379
+        ],
+        [
+          664379,
+          682379
+        ],
+        [
+          682379,
+          700379
+        ],
+        [
+          700379,
+          713969
+        ],
+        [
+          713969,
+          731969
+        ],
+        [
+          731969,
+          749969
+        ],
+        [
+          749969,
+          767969
+        ],
+        [
+          767969,
+          785969
+        ],
+        [
+          785969,
+          803969
+        ],
+        [
+          803969,
+          821969
+        ],
+        [
+          821969,
+          824905
+        ],
+        [
+          824905,
+          842905
+        ],
+        [
+          842905,
+          860905
+        ],
+        [
+          860905,
+          878905
+        ],
+        [
+          878905,
+          896905
+        ],
+        [
+          896905,
+          914905
+        ],
+        [
+          914905,
+          932905
+        ],
+        [
+          932905,
+          935425
+        ],
+        [
+          935425,
+          953425
+        ],
+        [
+          953425,
+          971425
+        ],
+        [
+          971425,
+          989425
+        ],
+        [
+          989425,
+          1007425
+        ],
+        [
+          1007425,
+          1025425
+        ],
+        [
+          1025425,
+          1043425
+        ],
+        [
+          1043425,
+          1047759
+        ],
+        [
+          1047759,
+          1065759
+        ],
+        [
+          1065759,
+          1083759
+        ],
+        [
+          1083759,
+          1101759
+        ],
+        [
+          1101759,
+          1119759
+        ],
+        [
+          1119759,
+          1137759
+        ],
+        [
+          1137759,
+          1155759
+        ],
+        [
+          1155759,
+          1161931
+        ],
+        [
+          1161931,
+          1179931
+        ],
+        [
+          1179931,
+          1197931
+        ],
+        [
+          1197931,
+          1215931
+        ],
+        [
+          1215931,
+          1233931
+        ],
+        [
+          1233931,
+          1251931
+        ],
+        [
+          1251931,
+          1269931
+        ],
+        [
+          1269931,
+          1287931
+        ],
+        [
+          1287931,
+          1289404
+        ],
+        [
+          1289404,
+          1307404
+        ],
+        [
+          1307404,
+          1325404
+        ],
+        [
+          1325404,
+          1343404
+        ],
+        [
+          1343404,
+          1361404
+        ],
+        [
+          1361404,
+          1379404
+        ],
+        [
+          1379404,
+          1397404
+        ],
+        [
+          1397404,
+          1401736
+        ],
+        [
+          1401736,
+          1419736
+        ],
+        [
+          1419736,
+          1437736
+        ],
+        [
+          1437736,
+          1455736
+        ],
+        [
+          1455736,
+          1473736
+        ],
+        [
+          1473736,
+          1491736
+        ],
+        [
+          1491736,
+          1509736
+        ],
+        [
+          1509736,
+          1527736
+        ],
+        [
+          1527736,
+          1545736
+        ],
+        [
+          1545736,
+          1563736
+        ],
+        [
+          1563736,
+          1575532
+        ],
+        [
+          1575532,
+          1604714
+        ],
+        [
+          1604714,
+          1634370
+        ],
+        [
+          1634370,
+          1652560
+        ],
+        [
+          1652560,
+          1661625
+        ]
+      ],
+      "new_visual_review_pages": [
+        813,
+        817,
+        818,
+        824,
+        830,
+        838,
+        847,
+        850
+      ],
+      "new_detailed_visual_pages": [],
+      "cumulative_visual_review_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        20,
+        21,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        45,
+        49,
+        50,
+        51,
+        54,
+        55,
+        56,
+        60,
+        63,
+        82,
+        83,
+        87,
+        88,
+        90,
+        94,
+        97,
+        101,
+        102,
+        106,
+        108,
+        114,
+        123,
+        137,
+        147,
+        148,
+        149,
+        153,
+        159,
+        166,
+        173,
+        177,
+        180,
+        185,
+        186,
+        187,
+        188,
+        191,
+        195,
+        196,
+        197,
+        201,
+        203,
+        206,
+        212,
+        213,
+        214,
+        215,
+        221,
+        222,
+        225,
+        226,
+        230,
+        234,
+        235,
+        236,
+        240,
+        242,
+        243,
+        244,
+        248,
+        250,
+        251,
+        252,
+        257,
+        265,
+        269,
+        270,
+        271,
+        275,
+        276,
+        278,
+        279,
+        281,
+        286,
+        287,
+        291,
+        294,
+        295,
+        296,
+        299,
+        301,
+        305,
+        307,
+        313,
+        316,
+        317,
+        318,
+        332,
+        333,
+        334,
+        337,
+        338,
+        343,
+        346,
+        348,
+        349,
+        352,
+        355,
+        356,
+        359,
+        360,
+        364,
+        368,
+        369,
+        371,
+        373,
+        375,
+        380,
+        381,
+        384,
+        385,
+        386,
+        392,
+        397,
+        402,
+        403,
+        404,
+        405,
+        408,
+        409,
+        410,
+        413,
+        414,
+        416,
+        417,
+        418,
+        419,
+        421,
+        423,
+        424,
+        425,
+        426,
+        428,
+        431,
+        432,
+        433,
+        434,
+        436,
+        438,
+        439,
+        442,
+        444,
+        445,
+        448,
+        449,
+        455,
+        460,
+        461,
+        462,
+        463,
+        467,
+        473,
+        475,
+        476,
+        477,
+        479,
+        480,
+        481,
+        482,
+        487,
+        488,
+        492,
+        495,
+        497,
+        498,
+        499,
+        500,
+        506,
+        507,
+        508,
+        509,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        527,
+        528,
+        529,
+        533,
+        535,
+        539,
+        540,
+        543,
+        545,
+        549,
+        551,
+        553,
+        554,
+        557,
+        558,
+        560,
+        562,
+        564,
+        565,
+        567,
+        568,
+        569,
+        571,
+        573,
+        574,
+        575,
+        576,
+        579,
+        580,
+        583,
+        584,
+        585,
+        586,
+        590,
+        591,
+        592,
+        594,
+        599,
+        600,
+        604,
+        606,
+        607,
+        610,
+        613,
+        614,
+        617,
+        618,
+        619,
+        620,
+        622,
+        624,
+        626,
+        630,
+        634,
+        636,
+        637,
+        641,
+        646,
+        649,
+        650,
+        651,
+        654,
+        655,
+        658,
+        661,
+        663,
+        664,
+        665,
+        669,
+        670,
+        675,
+        677,
+        678,
+        680,
+        681,
+        684,
+        686,
+        687,
+        689,
+        690,
+        691,
+        692,
+        695,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        705,
+        706,
+        708,
+        710,
+        711,
+        713,
+        714,
+        715,
+        717,
+        718,
+        719,
+        721,
+        723,
+        724,
+        726,
+        729,
+        730,
+        732,
+        733,
+        735,
+        738,
+        740,
+        741,
+        742,
+        743,
+        745,
+        746,
+        747,
+        748,
+        752,
+        753,
+        756,
+        757,
+        764,
+        766,
+        768,
+        772,
+        773,
+        777,
+        780,
+        782,
+        783,
+        786,
+        787,
+        788,
+        789,
+        790,
+        792,
+        794,
+        797,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        809,
+        810,
+        811,
+        812,
+        813,
+        817,
+        818,
+        824,
+        830,
+        838,
+        847,
+        850
+      ],
+      "cumulative_detailed_visual_pages": [
+        42,
+        54,
+        55,
+        56,
+        87,
+        88,
+        94,
+        101,
+        102,
+        108,
+        123,
+        159,
+        185,
+        186,
+        187,
+        188,
+        195,
+        221,
+        222,
+        225,
+        230,
+        234,
+        281,
+        287,
+        291,
+        294,
+        299,
+        305,
+        317,
+        343,
+        346,
+        348,
+        355,
+        356,
+        359,
+        360,
+        371,
+        373,
+        402,
+        408,
+        410,
+        418,
+        419,
+        423,
+        425,
+        463,
+        476,
+        482,
+        488,
+        507,
+        517,
+        520,
+        522,
+        529,
+        539,
+        545,
+        573,
+        574,
+        576,
+        580,
+        594,
+        606,
+        619,
+        620,
+        622,
+        636,
+        646,
+        649,
+        650,
+        651,
+        654,
+        655,
+        658,
+        661,
+        689,
+        702,
+        710,
+        717,
+        723,
+        741,
+        742,
+        743,
+        745,
+        746,
+        747,
+        748,
+        773,
+        794,
+        802,
+        805,
+        806
+      ],
+      "unreviewed_layout_pages_within_new_read_text": 30,
+      "unreviewed_layout_pages_within_cumulative_read_text": 500,
+      "unread_file_page_ranges": [
+        [
+          851,
+          1002
+        ]
+      ],
+      "unread_file_page_count": 152,
+      "embedded_image_pages_within_new_read_text": [],
+      "embedded_image_objects_within_new_read_text": 0,
+      "embedded_image_pages_within_cumulative_read_text": [
+        1,
+        3,
+        4,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        90,
+        94,
+        97,
+        106,
+        108,
+        114,
+        137,
+        153,
+        166,
+        173,
+        180,
+        191,
+        195,
+        225,
+        230,
+        234,
+        236,
+        243,
+        244,
+        248,
+        265,
+        281,
+        287,
+        291,
+        294,
+        299,
+        305,
+        313,
+        317,
+        318,
+        343,
+        346,
+        348,
+        368,
+        392,
+        397,
+        402,
+        404,
+        408,
+        410,
+        414,
+        418,
+        419,
+        423,
+        425,
+        428,
+        463,
+        473,
+        476,
+        482,
+        488,
+        507,
+        517,
+        520,
+        522,
+        529,
+        535,
+        539,
+        545,
+        558,
+        565,
+        576,
+        580,
+        586,
+        592,
+        594,
+        606,
+        619,
+        622,
+        636,
+        646,
+        658,
+        661,
+        663,
+        684,
+        689,
+        697,
+        708,
+        743,
+        748,
+        794,
+        806
+      ],
+      "next_file_page": 851,
+      "next_character": 1661625,
+      "all_thirteen_chapter_texts_and_chapter_end_materials_read": true,
+      "entire_current_file_text_read": false,
+      "raw_or_extracted_text_archived": false,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "output_truncation_recovery": {
+        "combined_output_for_839_850_was_truncated": true,
+        "recovered_file_pages": [
+          847,
+          850
+        ],
+        "remaining_unread_due_to_truncation": false
+      },
+      "page_reading": [
+        {
+          "page": 813,
+          "range": [
+            1575532,
+            1577328
+          ],
+          "body_characters": 1768,
+          "text_sha256": "908b8822e0392edddc272171f356568c9ed5d599e9f67059554a387fbdaf58c6"
+        },
+        {
+          "page": 814,
+          "range": [
+            1577328,
+            1579546
+          ],
+          "body_characters": 2190,
+          "text_sha256": "cb6d2bd42da5651cd69c22c7d0b07bca907ddc4b43c530df2d84dc49ca975ef8"
+        },
+        {
+          "page": 815,
+          "range": [
+            1579546,
+            1581788
+          ],
+          "body_characters": 2214,
+          "text_sha256": "0a6b5ca448f5a08cab091fa51bc0f580dd27ff853de01ad2646fa7bf39de3ee0"
+        },
+        {
+          "page": 816,
+          "range": [
+            1581788,
+            1584116
+          ],
+          "body_characters": 2300,
+          "text_sha256": "669e67370629e48e260bd1847509fc77a1d5e55fc7cf58286764647c06ebf388"
+        },
+        {
+          "page": 817,
+          "range": [
+            1584116,
+            1586325
+          ],
+          "body_characters": 2181,
+          "text_sha256": "d6d87f9af1e74cc5e794ad3937e696118bbb1cbfbad337db4bfa0e3cfecf26a8"
+        },
+        {
+          "page": 818,
+          "range": [
+            1586325,
+            1588518
+          ],
+          "body_characters": 2165,
+          "text_sha256": "dddecb46bb4afcc2f93f20b7b03e2d60928f6d49d41ba090e5d8bd4ab8e22faa"
+        },
+        {
+          "page": 819,
+          "range": [
+            1588518,
+            1590918
+          ],
+          "body_characters": 2372,
+          "text_sha256": "c2c8cd9fe3d4cf2c4b2b2d7eb029dac9a244dcb2fe595c0265bd3a5533bdda73"
+        },
+        {
+          "page": 820,
+          "range": [
+            1590918,
+            1593142
+          ],
+          "body_characters": 2196,
+          "text_sha256": "ecdbcd575520c92d29c2670240e2fb25ce4688af419e9f275e483dffef4f43e1"
+        },
+        {
+          "page": 821,
+          "range": [
+            1593142,
+            1595524
+          ],
+          "body_characters": 2354,
+          "text_sha256": "ae0502d575f82ed5c02c37bc7fe5be3580a0d30946eafb2381ea45b4331fc52e"
+        },
+        {
+          "page": 822,
+          "range": [
+            1595524,
+            1597706
+          ],
+          "body_characters": 2154,
+          "text_sha256": "ca5eeaf49834b942900b4ee8434866d3a16166a7d58765dcd0547d9abfc8959c"
+        },
+        {
+          "page": 823,
+          "range": [
+            1597706,
+            1600007
+          ],
+          "body_characters": 2273,
+          "text_sha256": "fc150386358be152c2cbbe554b61a05fd77e0adfb1a6661aaf2e08634fa45555"
+        },
+        {
+          "page": 824,
+          "range": [
+            1600007,
+            1602386
+          ],
+          "body_characters": 2351,
+          "text_sha256": "6dec5c6827a847d87571df67a33266d21b33b27f09781355fa65cafa363346f3"
+        },
+        {
+          "page": 825,
+          "range": [
+            1602386,
+            1604714
+          ],
+          "body_characters": 2300,
+          "text_sha256": "68211fc155a2a84bd12a3739c28e87fe5475f33648848a753e911d3eaeada7ca"
+        },
+        {
+          "page": 826,
+          "range": [
+            1604714,
+            1607024
+          ],
+          "body_characters": 2282,
+          "text_sha256": "d94b11fcb38ef106ed6678532c0bbd26bdcebef84e7bdb3de28b77b061827714"
+        },
+        {
+          "page": 827,
+          "range": [
+            1607024,
+            1609277
+          ],
+          "body_characters": 2225,
+          "text_sha256": "6a30309f7c2f93999f820e79044e63fdf3b740bfe62bb6e6d3948b5191718015"
+        },
+        {
+          "page": 828,
+          "range": [
+            1609277,
+            1611549
+          ],
+          "body_characters": 2244,
+          "text_sha256": "3e44550f4b5bf36c6eeade61845f370e3bee9ddcb6e5a1ff8fe9635fb77b9da0"
+        },
+        {
+          "page": 829,
+          "range": [
+            1611549,
+            1613863
+          ],
+          "body_characters": 2286,
+          "text_sha256": "0573ae83b14769d25fef959a01bded55729e7ce2e396bc7d244216719f5efa03"
+        },
+        {
+          "page": 830,
+          "range": [
+            1613863,
+            1616052
+          ],
+          "body_characters": 2161,
+          "text_sha256": "d972533833f550dc137e30b6992f7e07779967c4341a6215c21e6a5f4b4074ab"
+        },
+        {
+          "page": 831,
+          "range": [
+            1616052,
+            1618275
+          ],
+          "body_characters": 2195,
+          "text_sha256": "c922d6ff65ee9167b7ec8ddbb50fd1cc39b17fe7866ed5ce620a80c3a0ea98bd"
+        },
+        {
+          "page": 832,
+          "range": [
+            1618275,
+            1620673
+          ],
+          "body_characters": 2370,
+          "text_sha256": "3a714f84d8ed18db9aa4f2776601441cbe1345c06ea1ea380af84d7c4a697c78"
+        },
+        {
+          "page": 833,
+          "range": [
+            1620673,
+            1622963
+          ],
+          "body_characters": 2262,
+          "text_sha256": "ca7f92e5ab82aeb239d9a7afdc7512f7be2e2e4fcc41f790cd539f64d8961674"
+        },
+        {
+          "page": 834,
+          "range": [
+            1622963,
+            1625342
+          ],
+          "body_characters": 2351,
+          "text_sha256": "29bea0f37b0351391ca7f3fcce8c1c56b110bdb78728adc748a83c6986f514a7"
+        },
+        {
+          "page": 835,
+          "range": [
+            1625342,
+            1627463
+          ],
+          "body_characters": 2093,
+          "text_sha256": "9761afc252d783eb5f2b363c7c84fc318d914d115140535190536a5a774a8934"
+        },
+        {
+          "page": 836,
+          "range": [
+            1627463,
+            1629644
+          ],
+          "body_characters": 2153,
+          "text_sha256": "fd4ad3680242a229ae8c5a439f8395c7b47df9c32e1f19fbe589bf32937084ed"
+        },
+        {
+          "page": 837,
+          "range": [
+            1629644,
+            1631940
+          ],
+          "body_characters": 2268,
+          "text_sha256": "f6ef1f1400dfb14b7e47778e9b188bdd33c8ed8e458643feb98137053432bc62"
+        },
+        {
+          "page": 838,
+          "range": [
+            1631940,
+            1634370
+          ],
+          "body_characters": 2402,
+          "text_sha256": "f333ca456a2597b0366f964fbdcce835492eb31134e431b4e099e53a7b7cec95"
+        },
+        {
+          "page": 839,
+          "range": [
+            1634370,
+            1636534
+          ],
+          "body_characters": 2136,
+          "text_sha256": "bc36576599861646fa2df78ef371948db0ff6eb7869f4f96064fb04bfbd13cf7"
+        },
+        {
+          "page": 840,
+          "range": [
+            1636534,
+            1638832
+          ],
+          "body_characters": 2270,
+          "text_sha256": "c02a297947e9bca9563275df20cbed5e74401275e784a16caebe941aec26ed42"
+        },
+        {
+          "page": 841,
+          "range": [
+            1638832,
+            1641139
+          ],
+          "body_characters": 2279,
+          "text_sha256": "5bb93f5dab29547c7f2e5112f0f9865ef83fe9ec3236ac87dcb8f5749eac90b3"
+        },
+        {
+          "page": 842,
+          "range": [
+            1641139,
+            1643431
+          ],
+          "body_characters": 2264,
+          "text_sha256": "76d7f79e946a4c32344817008bea963cfd7250b22fda74a58ef02ffe8ac7c5a0"
+        },
+        {
+          "page": 843,
+          "range": [
+            1643431,
+            1645738
+          ],
+          "body_characters": 2279,
+          "text_sha256": "69a19e85b7e71bf6b73130e77e725eb7c6a24da99023cbef7b46b716f1b99914"
+        },
+        {
+          "page": 844,
+          "range": [
+            1645738,
+            1647985
+          ],
+          "body_characters": 2219,
+          "text_sha256": "e0a831383756e7a9ce378d1b42a24f3ef60f96fa7905bdb0ae502ef4fc50d054"
+        },
+        {
+          "page": 845,
+          "range": [
+            1647985,
+            1650283
+          ],
+          "body_characters": 2270,
+          "text_sha256": "24c045e204145b65f875ca08da5528531b25ba7081ef43ce1ccbd6420cc109d7"
+        },
+        {
+          "page": 846,
+          "range": [
+            1650283,
+            1652560
+          ],
+          "body_characters": 2249,
+          "text_sha256": "53341598e39900c5421bad711b72fd937cf574391bd2d3652340a15f6672df8a"
+        },
+        {
+          "page": 847,
+          "range": [
+            1652560,
+            1654784
+          ],
+          "body_characters": 2196,
+          "text_sha256": "5675c784a428fd03a8de9223b461b6bd5647d1602fac925fcca43d0130c56b93"
+        },
+        {
+          "page": 848,
+          "range": [
+            1654784,
+            1657148
+          ],
+          "body_characters": 2336,
+          "text_sha256": "65d1e9ed69bfbe8538999f8bd36a09909c9c89149cc7ea0cf7c10ed0d571b37c"
+        },
+        {
+          "page": 849,
+          "range": [
+            1657148,
+            1659354
+          ],
+          "body_characters": 2178,
+          "text_sha256": "20fe84f2f0983c9f25dff6e6de5b77f33249ba9152d46f6e0b99bcbaeae1a41b"
+        },
+        {
+          "page": 850,
+          "range": [
+            1659354,
+            1661625
+          ],
+          "body_characters": 2243,
+          "text_sha256": "f5393b08aeb8301b3accda828433271b19131db8d35a34fc1b207b6c20ab974e"
+        }
+      ],
+      "source_scope": "partial_bibliography_reading_not_full_reading_of_cited_papers;two_additional_comparison_papers_not_claimed_as_textbook_citations"
+    }
+  ],
+  "research_checks": [
+    {
+      "id": "R01",
+      "doi": "10.1037/0022-3514.42.5.830",
+      "title": "Sex differences in attributions for friendly behavior: Do males misperceive females' friendliness?",
+      "authors": [
+        "Abbey, A."
+      ],
+      "year": 1982,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "42",
+      "issue": "5",
+      "pages": "830–838",
+      "relation_to_B014": "bibliography_physical_page_813",
+      "verified_at": [
+        "https://openurl.ebsco.com/contentitem/pdh%3A1982-32628-001?crl=f&id=ebsco%3Apdh%3A1982-32628-001&jrnl=19391315&sid=ebsco%3Aplink%3Acrawler-pdh"
+      ],
+      "read_scope": "APA PsycInfo licensed metadata and search-returned original article title-page text; no full text read",
+      "used_for": "bibliographic correction only: source PDF prints volume 32; verified record gives 42",
+      "access_limits": [
+        "APA DOI and record URLs restricted",
+        "CiteSeerX original PDF direct open returned 403",
+        "Crossref API URL not accessible via web tool"
+      ],
+      "full_text_read": false
+    },
+    {
+      "id": "R02",
+      "doi": "10.1177/1948550618769880",
+      "title": "Rejecting unwanted romantic advances is more difficult than suitors realize",
+      "authors": [
+        "Bohns, V. K.",
+        "DeVincent, L. A."
+      ],
+      "year": 2019,
+      "journal": "Social Psychological and Personality Science",
+      "volume": "10",
+      "issue": "8",
+      "pages": "1102–1110",
+      "online_first": "2018-05-23",
+      "issue_date": "2019-11",
+      "relation_to_B014": "bibliography_physical_page_824_online_first_2018",
+      "verified_at": [
+        "https://journals.sagepub.com/doi/10.1177/1948550618769880"
+      ],
+      "read_scope": "publisher abstract; Study 1 participants/procedure; selected results; Discussion limitations; publication information",
+      "sample_scope": {
+        "study1_respondents": 942,
+        "study1_core_with_direct_experience": 277,
+        "study2_abstract_N": 385
+      },
+      "transfer_limit": "both studies involve academic/workplace contexts; not a causal test of WeChat reply templates, invitation counts or low-investment thresholds",
+      "full_text_read": false
+    },
+    {
+      "id": "R03",
+      "doi": "10.1037/a0032432",
+      "title": "The predictive validity of ideal partner preferences: A review and meta-analysis",
+      "authors": [
+        "Eastwick, P. W.",
+        "Luchies, L. B.",
+        "Finkel, E. J.",
+        "Hunt, L. L."
+      ],
+      "year": 2014,
+      "journal": "Psychological Bulletin",
+      "volume": "140",
+      "issue": "3",
+      "pages": "623–665",
+      "online_first": "2013-04-15",
+      "relation_to_B014": "additional_comparison_not_claimed_as_citation_in_read_bibliography",
+      "verified_at": [
+        "https://pubmed.ncbi.nlm.nih.gov/23586697/",
+        "https://faculty.wcas.northwestern.edu/eli-finkel/documents/2014_EastwickLuchiesFinkelHunt_PsychBull_1_000.pdf"
+      ],
+      "read_scope": "PubMed metadata/abstract; author-university-hosted article first-page abstract and front matter",
+      "transfer_limit": "abstract distinguishes hypothetical and live-interaction tasks; does not imply appearance or all partner preferences are irrelevant",
+      "full_text_read": false
+    },
+    {
+      "id": "R04",
+      "doi": "10.1073/pnas.2206925119",
+      "title": "Initial impressions of compatibility and mate value predict later dating and romantic interest",
+      "authors": [
+        "Baxter, A.",
+        "Maxwell, J. A.",
+        "Bales, K. L.",
+        "Finkel, E. J.",
+        "Impett, E. A.",
+        "Eastwick, P. W."
+      ],
+      "year": 2022,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "volume": "119",
+      "issue": "45",
+      "article_number": "e2206925119",
+      "relation_to_B014": "additional_comparison_published_after_textbook",
+      "verified_at": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9659375/",
+        "https://pubmed.ncbi.nlm.nih.gov/36322750/"
+      ],
+      "read_scope": "abstract; SRM definitions/current research; Discussion; selected participant/procedure and outcome-measure sections",
+      "sample_scope": {
+        "studies": 3,
+        "total_N": 559,
+        "initial_dates_reported": "6600+"
+      },
+      "transfer_limit": "directed unique liking is not mutual compatibility; follow-ups concern matched pairs; prospective association does not identify the cause of one date outcome",
+      "full_text_read": false
+    }
+  ],
+  "new_book_files_completed": 0,
+  "new_direct_primary_extraction_characters": 86093,
+  "new_physical_file_pages_covered": 38,
+  "selected_visual_page_reviews": 8,
+  "remaining_unreviewed_layout_pages_within_new_read_text": 30,
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B014",
+    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+    "bytes": 13323230,
+    "file_pages": 1002,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "physicalpage851start;Bibliography;Feather1994entrycontinuesfrom850;currentextraction1661625",
+    "next_file_page": 851,
+    "next_character": 1661625,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+      "characters": 1991387,
+      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+    },
+    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+    "ledger": "knowledge/provenance/B014_bibliography_reading_2026-11-11.json",
+    "next_content_unit": "Bibliography continuation including the end of Feather (1994), followed by credits and index"
+  }
+}

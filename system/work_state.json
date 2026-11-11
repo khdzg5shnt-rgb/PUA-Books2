@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "original_book_reading",
-  "status": "B014_ch12_ch13_checks_passed",
-  "base_commit": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
+  "current_focus": "source_evidence_integration_with_continued_reading",
+  "status": "B014_bibliography_integration_checks_passed",
+  "base_commit": "90d16c445ea95e8d420573301a92c9fafc2755ff",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B014_ch12_ch13_completion_2026-11-11.md",
-  "validation": "knowledge/provenance/B014_ch12_ch13_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B014_bibliography_completion_2026-11-11.md",
+  "validation": "knowledge/provenance/B014_bibliography_validation_2026-11-11.json",
   "reading_bookmark": {
     "id": "B014",
     "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
@@ -18,9 +18,9 @@
     "file_pages": 1002,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage813start;Bibliography;continuecurrentextractionat1575532;notoldhistoricalcoordinates",
-    "next_file_page": 813,
-    "next_character": 1575532,
+    "start": "physicalpage851start;Bibliography;Feather1994entrycontinuesfrom850;currentextraction1661625",
+    "next_file_page": 851,
+    "next_character": 1661625,
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
       "characters": 1991387,
@@ -28,11 +28,42 @@
       "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
     },
     "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
-    "ledger": "knowledge/provenance/B014_ch12_ch13_reading_2026-11-11.json",
-    "next_content_unit": "Bibliography, followed by text/photo credits and index"
+    "ledger": "knowledge/provenance/B014_bibliography_reading_2026-11-11.json",
+    "next_content_unit": "Bibliography continuation including the end of Feather (1994), followed by credits and index"
   },
-  "next_work": "Resume B014 Bibliography at physicalpage813/currentextraction1575532;all13chaptertexts_read;later190backmatterpagesunread;verify sameblobandhash.",
+  "next_work": "Resume B014 physical page851/currentextraction1661625, including continuation of Feather1994; remaining152pages unread; use the same blob/hash.",
   "current_session_progress": {
+    "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
+    "text_complete_file_ids": [],
+    "text_partial_file_ids": [
+      "B014"
+    ],
+    "direct_primary_extraction_characters": 86093,
+    "physical_file_pages": 38,
+    "selected_visual_page_reviews": 8,
+    "remaining_unreviewed_layout_pages_within_new_read_text": 30,
+    "B014_cumulative_read_file_pages": 850,
+    "B014_cumulative_direct_read_characters": 1661625,
+    "B014_cumulative_visual_pages": 350,
+    "B014_unread_file_pages": 152,
+    "B014_all13chapter_texts_and_chapter_end_materials_read": true,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "research_metadata_records_checked": 4,
+    "new_method_source_bindings": 3,
+    "changed_preferred_sections": 1,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "retrieval": true,
+      "scope": true
+    }
+  },
+  "last_reading_progress": {
     "baseline": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
@@ -53,34 +84,6 @@
     "source_checks": 18,
     "new_method_source_bindings": 4,
     "external_authoritative_webpages_checked": 2,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
-    "checks": {
-      "structural": true,
-      "unittest_methods": 29,
-      "synthetic_routing_scenarios": 108,
-      "scope": true
-    }
-  },
-  "last_reading_progress": {
-    "baseline": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
-    "text_complete_file_ids": [],
-    "text_partial_file_ids": [
-      "B014"
-    ],
-    "direct_primary_extraction_characters": 241645,
-    "physical_file_pages": 124,
-    "selected_visual_page_reviews": 60,
-    "remaining_unreviewed_layout_pages_within_new_read_text": 64,
-    "B014_cumulative_read_file_pages": 677,
-    "B014_cumulative_direct_read_characters": 1289404,
-    "B014_cumulative_visual_pages": 264,
-    "B014_unread_file_pages": 325,
-    "methods": 26,
-    "routes": 31,
-    "task_modes": 5,
-    "source_checks": 16,
-    "new_method_source_bindings": 4,
     "new_full_original_research_papers_completed": 0,
     "new_original_videos_completed": 0,
     "checks": {
@@ -251,6 +254,34 @@
       "task_modes": 5,
       "source_checks": 10,
       "new_method_source_bindings": 3,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "scope": true
+      }
+    },
+    {
+      "baseline": "515fdd622b1a7b7eb47fa4d5d55369e00827af58",
+      "text_complete_file_ids": [],
+      "text_partial_file_ids": [
+        "B014"
+      ],
+      "direct_primary_extraction_characters": 241645,
+      "physical_file_pages": 124,
+      "selected_visual_page_reviews": 60,
+      "remaining_unreviewed_layout_pages_within_new_read_text": 64,
+      "B014_cumulative_read_file_pages": 677,
+      "B014_cumulative_direct_read_characters": 1289404,
+      "B014_cumulative_visual_pages": 264,
+      "B014_unread_file_pages": 325,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "source_checks": 16,
+      "new_method_source_bindings": 4,
       "new_full_original_research_papers_completed": 0,
       "new_original_videos_completed": 0,
       "checks": {

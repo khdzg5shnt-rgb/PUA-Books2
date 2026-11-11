@@ -84,7 +84,7 @@
 
 避免：凭外貌、身体特征、握手、眼动或星座推出激素水平、人格、依恋、情史、创伤、家庭或安全感；用通稿算命，把否认解释成嘴硬。 不按MBTI或职业预设情感需求与话术。 不从请客、送礼或温柔推断基因优劣、性欲或不忠。 不按月经周期、外貌标签或SMV分数推断兴趣、人格或同意。 不由一个玩笑、常见否认或一次情绪波动反推出自卑、撒谎或人格障碍。
 
-依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)；[画像字段、MBTI话术与证据边界](../knowledge/books/G04-observation-not-profiling.md)；[PAGE50–66：基因/性欲/不忠推断与研究缺口](../knowledge/books/S04-attraction-ch03.md)；[附加文章第9条：具体猜测与事实依据分开](../knowledge/books/B043.md)；[信念与人格推断不替代实际行为](../knowledge/books/S04-belief-and-calibration.md)；[物理页8–9：观察和标签分开，不故意猜错换信息](../knowledge/books/S23-chen-summary-handbook.md)；[物理页26–32取舍：周期与群体解释不能用于读心](../knowledge/books/B008-ch01-06.md)；[物理页25–41取舍：周期、分数和外貌不能替代当前事实](../knowledge/books/B009-ch01-10.md)；[接回截图与约会判断；物理页170、236–241、252–259：眼动、玩笑、距离与情境限制](../knowledge/books/B010-influence.md)；[物理页43、59–61取舍：感官/性别标签、眼神与紧张不单独证明心理或撒谎](../knowledge/books/B011-persuasion-deception.md)；[信号不能覆盖选择；物理页42、44–48：身体线索、问题与具体意愿分开](../knowledge/books/B012-ch05.md)；[不把不同层次的为什么混在一起；已读物理页38–39、49–53，不以群体解释当前动机](../knowledge/books/B014-ch01.md)；[一般理论不能替具体假说作证；物理页92–104、122–138的层级、预测与证据范围](../knowledge/books/B014-ch02.md)；[物理页221–251：评分、年龄差、不同排序任务与健康假说的范围](../knowledge/books/B014-ch04.md)；[物理页281–301、315–317：人口学曲线、评价相关、WHR/周期限制与激素因果方向](../knowledge/books/B014-ch05.md)；[物理页343–346、369–375：意愿评分、SOI与相关、未复现和无效线索的范围](../knowledge/books/B014-ch06.md)；[物理页448–449、467：演化条件不等于个体心理预测，框8.1具体假说被否定](../knowledge/books/B014-ch08.md)；[物理页620–626：友好、兴趣判断与当前意愿分开，不以群体偏差诊断个人](../knowledge/books/B014-ch11.md)；[物理页738、742–748、772–773：解释不替代检验，不由群体、家庭或鲜明故事诊断个人](../knowledge/books/B014-ch13.md)。
+依据：[冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；[冷读](../knowledge/topics/theory-map.md)；[S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；[五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；[九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；[P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；[开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)；[画像字段、MBTI话术与证据边界](../knowledge/books/G04-observation-not-profiling.md)；[PAGE50–66：基因/性欲/不忠推断与研究缺口](../knowledge/books/S04-attraction-ch03.md)；[附加文章第9条：具体猜测与事实依据分开](../knowledge/books/B043.md)；[信念与人格推断不替代实际行为](../knowledge/books/S04-belief-and-calibration.md)；[物理页8–9：观察和标签分开，不故意猜错换信息](../knowledge/books/S23-chen-summary-handbook.md)；[物理页26–32取舍：周期与群体解释不能用于读心](../knowledge/books/B008-ch01-06.md)；[物理页25–41取舍：周期、分数和外貌不能替代当前事实](../knowledge/books/B009-ch01-10.md)；[接回截图与约会判断；物理页170、236–241、252–259：眼动、玩笑、距离与情境限制](../knowledge/books/B010-influence.md)；[物理页43、59–61取舍：感官/性别标签、眼神与紧张不单独证明心理或撒谎](../knowledge/books/B011-persuasion-deception.md)；[信号不能覆盖选择；物理页42、44–48：身体线索、问题与具体意愿分开](../knowledge/books/B012-ch05.md)；[不把不同层次的为什么混在一起；已读物理页38–39、49–53，不以群体解释当前动机](../knowledge/books/B014-ch01.md)；[一般理论不能替具体假说作证；物理页92–104、122–138的层级、预测与证据范围](../knowledge/books/B014-ch02.md)；[物理页221–251：评分、年龄差、不同排序任务与健康假说的范围](../knowledge/books/B014-ch04.md)；[物理页281–301、315–317：人口学曲线、评价相关、WHR/周期限制与激素因果方向](../knowledge/books/B014-ch05.md)；[物理页343–346、369–375：意愿评分、SOI与相关、未复现和无效线索的范围](../knowledge/books/B014-ch06.md)；[物理页448–449、467：演化条件不等于个体心理预测，框8.1具体假说被否定](../knowledge/books/B014-ch08.md)；[物理页620–626：友好、兴趣判断与当前意愿分开，不以群体偏差诊断个人](../knowledge/books/B014-ch11.md)；[物理页738、742–748、772–773：解释不替代检验，不由群体、家庭或鲜明故事诊断个人](../knowledge/books/B014-ch13.md)；[偏好和具体兴趣分开；R03摘要与迁移范围](../knowledge/topics/interest-evidence.md)。
 
 ## M09 具体欣赏
 
@@ -176,7 +176,7 @@
 
 避免：永久判死刑；无限解释只是慢热；要求她证明忙。
 
-依据：[持续劝约反例](../knowledge/cases/C02-online-invitation.md)；[尚未形成具体安排](../knowledge/topics/invitation-feedback.md)
+依据：[持续劝约反例](../knowledge/cases/C02-online-invitation.md)；[尚未形成具体安排](../knowledge/topics/invitation-feedback.md)；[未拒绝不等于接受；R02工作情境与微信迁移限制](../knowledge/topics/interest-evidence.md)。
 
 虚构例：她说“最近忙，下次吧”；草稿：“好，你先忙，时间合适了再说。”
 
@@ -248,7 +248,7 @@
 
 避免：把笑很多、牵手或赴约等同于后续亲密与关系承诺。
 
-依据：[第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；[实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；[回复时长与固定关系进度无验证](../knowledge/books/G04-observation-not-profiling.md)
+依据：[第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；[实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；[回复时长与固定关系进度无验证](../knowledge/books/G04-observation-not-profiling.md)；[见面后的下一步；R04共同评价、独特好感与实际后续分开](../knowledge/topics/interest-evidence.md)。
 
 ## M25 开场或自然重联
 
