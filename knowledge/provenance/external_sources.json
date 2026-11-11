@@ -4789,6 +4789,46 @@
         "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
       },
       "python_checks": "structure check and20unit tests actually passed;84synthetic route scenarios;identity,7ranges,114pages,26/88visual,cards,links,anchorsand2preferredparagraphs separately checked"
+    },
+    {
+      "round_id": "B012-bilingual-text-completion-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "1423ad96b6903f2c157f38fbcb0d261d461d971a",
+      "current_user_turn_baseline": "8fb0004f665558972a52d65e5337b778369bfc8e",
+      "status": "integrated_checks_passed",
+      "summary_note": "knowledge/provenance/B012_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B012_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B012_reading_2026-11-11.json",
+      "original_files_completed_this_round": [
+        "B012"
+      ],
+      "new_original_direct_read_characters": 149225,
+      "new_physical_file_pages_covered": 68,
+      "selected_visual_pages": 26,
+      "remaining_layout_pages_not_reviewed": 42,
+      "original_current_files_text_complete": 21,
+      "original_current_files_not_complete": 98,
+      "original_files_not_started": 98,
+      "upload_source_records": 23,
+      "all_source_records": 158,
+      "new_videos_or_distinct_original_papers_completed": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "translation_comparison_items": 9,
+      "next_work_unit": {
+        "id": "B013",
+        "path": "David_X的方法.pdf",
+        "git_blob_sha": "bd51f3486dfa482fb4480293413f426b10f27e1f",
+        "bytes": 624594,
+        "file_pages": 48,
+        "reading_status": "unread",
+        "start": "physicalpage1;verifyoriginalblobthenestablishcurrentextractionbeforeorderedreading;donotassumeequivalenttoB012",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "notyetestablished;similarfilenameoroldinventorynotreadingproof",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "python_checks": "structureand20unit tests actuallypassed;84syntheticroutes;identity,11ranges,68pages,26/42visual,9comparisonitems,6chapterlocators,cards,links,anchorsandM10realparagraph separatelychecked"
     }
   ],
   "public_reading_rounds": [

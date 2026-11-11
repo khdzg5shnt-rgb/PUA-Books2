@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B012-bilingual-text-completion-2026-11-11",
+  "base_commit": "1423ad96b6903f2c157f38fbcb0d261d461d971a",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 21,\n  \"book_not_started\": 98,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.824s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 21,
+    "book_not_started": 98,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "reading_scope_checks": {
+    "ok": true,
+    "baseline_main": "1423ad96b6903f2c157f38fbcb0d261d461d971a",
+    "original_pdf_identity": true,
+    "extraction_identity": true,
+    "actual_read_chunks": 11,
+    "pages": 68,
+    "characters": 149225,
+    "chapter_locators": 6,
+    "chapter_characters_contiguous_not_double_counted": true,
+    "whole_original_file_count_increment": 1,
+    "bilingual_comparison_items": 9,
+    "visual_pages": 26,
+    "unreviewed_layout_pages": 42,
+    "embedded_raster_image_pages_detected": 0,
+    "detailed_visual_pages": [
+      13,
+      27,
+      33,
+      51,
+      53,
+      57
+    ],
+    "historical_inventory_characters_preserved": 149225,
+    "prior_B011_notes_and_provenance_preserved": true,
+    "original_raw_identity_records_preserved": 125,
+    "original_raw_paths_modified": [],
+    "new_raw_sources_images_or_private_case_files": false,
+    "new_or_changed_markdown_files": 18,
+    "local_links_checked": 618,
+    "markdown_anchors_checked": 7,
+    "resolved_method_references": {
+      "M10": {
+        "path": "knowledge/books/B012-ch06.md",
+        "heading": "一句话的真实表达",
+        "line": 11,
+        "end_line": 18,
+        "excerpt_complete": true
+      },
+      "M21": {
+        "path": "knowledge/books/B011-origins-apology.md",
+        "heading": "用于当前修复",
+        "line": 17,
+        "end_line": 26,
+        "excerpt_complete": true
+      },
+      "M22": {
+        "path": "knowledge/books/B011-defense-empathy.md",
+        "heading": "用于当前边界",
+        "line": 11,
+        "end_line": 18,
+        "excerpt_complete": true
+      }
+    },
+    "translation_search_top_paths": [
+      "knowledge/books/B012-translation-check.md"
+    ],
+    "current_user_turn_files": [
+      "B011",
+      "B012"
+    ],
+    "current_user_turn_pages": 182,
+    "current_user_turn_characters": 304550,
+    "changed_files": 26,
+    "limits": "Identity/range checks do not prove reading behavior, complete translation accuracy, psychological truth, screenshot interpretation or dating effect."
+  },
+  "newly_text_complete_this_unit": [
+    "B012"
+  ],
+  "new_direct_read_characters_this_unit": 149225,
+  "new_original_videos_completed": 0,
+  "new_full_original_research_papers_completed": 0,
+  "reference_checks": "9infileEnglishChinesecomparisonitems;notfulleditorialretranslationorexhaustiveaudit",
+  "original_book_text_complete": 21,
+  "original_book_text_partial": 0,
+  "original_book_not_started": 98,
+  "source_records": 158,
+  "current_user_turn_files": [
+    "B011",
+    "B012"
+  ],
+  "current_user_turn_pages": 182,
+  "current_user_turn_characters": 304550,
+  "scope": "configuration,identity,orderedranges,cards,preferredparagraphs,links,anchorsandsearch;notproofreadingbehaviororpsychologicaleffects",
+  "not_verified": [
+    "independentoriginalEnglishpublicationidentity,editionandcompleteness",
+    "42pagesnotindividuallylayoutchecked;allvectorobjectsnotcertified",
+    "fulltranslationaccuracyandalloriginalauthorclaims",
+    "actualscreenshotinterpretationordatingeffects"
+  ]
+}

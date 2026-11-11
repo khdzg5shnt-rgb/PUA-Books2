@@ -370,8 +370,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David%20X%E6%96%B9%E6%B3%95%E3%80%90David%20X%20Method%E3%80%91.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B012.md",
       "pages": 68,
       "spine_items": null,
       "ocr": {
@@ -379,7 +379,21 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "community_bilingual_file;original_edition_uncertified;9infile_translation_issues_checked",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B012_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_all_current_bilingual_pdf_extractable_text_and26_selected_visual_pages",
+        "scope": "EnglishandChineseread,68pages,11ranges,26selectedvisual,6detailed,42remaininglayouts,9translationcomparisonitems;notoriginaleditioncertification",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+          "characters": 149225,
+          "sha256": "7ed8d8134a11d77eac7f97b8c6b64c0e13d2b2ed62234bc06cb890b053e689c1",
+          "coordinates": "Unicode code points, half-open, physicalfilepage markers included; currentnumberhappenstoequalhistoricalinventorybutisnotpriorreadingproof"
+        },
+        "next_file_page": null,
+        "next_character": null
+      }
     },
     {
       "index": 13,

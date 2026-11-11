@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B012-bilingual-text-completion-2026-11-11",
+  "baseline_main": "1423ad96b6903f2c157f38fbcb0d261d461d971a",
+  "current_user_turn_baseline": "8fb0004f665558972a52d65e5337b778369bfc8e",
+  "scope": "allcurrentEnglishandChinesetextreadin11ranges;26selectedvisualpages;notoriginaledition/alllayout/allclaims/fullretranslationcertification",
+  "records": [
+    {
+      "id": "B012",
+      "path": "David X方法【David X Method】.pdf",
+      "bytes": 569674,
+      "git_blob_sha": "d3c79d6c24bf9127658517d3f7f49f329459ffa7",
+      "sha256": "88a285c780b0e8e851efdcb55e2f68013fc9b0aede4fe9bd5f532f71f1617a2f",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "file_pages": 68,
+      "reading_status": "provided_file_text_complete",
+      "notes": [
+        "knowledge/books/B012.md",
+        "knowledge/books/B012-ch01-02.md",
+        "knowledge/books/B012-ch03.md",
+        "knowledge/books/B012-ch04.md",
+        "knowledge/books/B012-ch05.md",
+        "knowledge/books/B012-ch06.md",
+        "knowledge/books/B012-translation-check.md"
+      ],
+      "original_publication_complete": false,
+      "version_limit": "communityEnglish/Chineseinterleavedfile;creditsDavidX,天下下天,Tango;independentoriginaledition/authenticity/completenessnotcertified",
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 149225,
+        "sha256": "7ed8d8134a11d77eac7f97b8c6b64c0e13d2b2ed62234bc06cb890b053e689c1",
+        "coordinates": "Unicode code points, half-open, physicalfilepage markers included; currentnumberhappenstoequalhistoricalinventorybutisnotpriorreadingproof"
+      },
+      "read_file_pages": [
+        1,
+        68
+      ],
+      "read_range": [
+        0,
+        149225
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          14000
+        ],
+        [
+          14000,
+          28000
+        ],
+        [
+          28000,
+          42000
+        ],
+        [
+          42000,
+          56000
+        ],
+        [
+          56000,
+          70000
+        ],
+        [
+          70000,
+          84000
+        ],
+        [
+          84000,
+          98000
+        ],
+        [
+          98000,
+          112000
+        ],
+        [
+          112000,
+          126000
+        ],
+        [
+          126000,
+          140000
+        ],
+        [
+          140000,
+          149225
+        ]
+      ],
+      "new_direct_read_characters": 149225,
+      "next_file_page": null,
+      "next_character": null,
+      "unread_file_pages": [],
+      "visual_review_pages": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        12,
+        13,
+        21,
+        27,
+        28,
+        29,
+        33,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        51,
+        53,
+        56,
+        57,
+        61,
+        64,
+        67,
+        68
+      ],
+      "detailed_visual_pages": [
+        13,
+        27,
+        33,
+        51,
+        53,
+        57
+      ],
+      "all_pages_visually_reviewed": false,
+      "unreviewed_layout_pages": 42,
+      "embedded_image_pages": [],
+      "no_embedded_raster_images_detected": true,
+      "all_vector_objects_or_layouts_not_certified": true,
+      "visual_findings": [
+        "p1 attributes originalDavidX,translation天下下天,typesettingTango andforumthread;currentfileiscommunitybilingualedition,notindependentoriginaleditioncertification",
+        "p2 contents chapterstarts4,8,13,28,33,56 matchcurrentphysicalpages;somechapterboundariessharepages",
+        "all26selectedpages observed asEnglishandChinese alternating blocks plusheaders/footers;noembeddedrasterimages detected;42remaininglayoutsnotindividuallyreviewed",
+        "13,27,33,51,53,57 enlarged;self-control contrast,negation,clean-slate,psychic,passes,competence translationdifferencesvisuallyconfirmed",
+        "p12swear/wear andp21ownapartment/purchase wording presentincontactpages;ownershipnotdeterminedbyEnglishalone",
+        "promotionalforumaddresses notfollowedorimportedasinstructions"
+      ],
+      "raw_or_extracted_text_archived": false,
+      "front_matter_range": [
+        0,
+        5254
+      ],
+      "chapter_locators": [
+        {
+          "chapter": 1,
+          "heading_as_file": "CHAPTER 1：BAD BOYS",
+          "start_file_page": 4,
+          "content_locator_file_pages": [
+            4,
+            8
+          ],
+          "start_character": 5254,
+          "note": "knowledge/books/B012-ch01-02.md",
+          "current_extraction_range": [
+            5254,
+            15213
+          ],
+          "characters": 9959
+        },
+        {
+          "chapter": 2,
+          "heading_as_file": "CHAPTER 2: CONTROL",
+          "start_file_page": 8,
+          "content_locator_file_pages": [
+            8,
+            13
+          ],
+          "start_character": 15213,
+          "note": "knowledge/books/B012-ch01-02.md",
+          "current_extraction_range": [
+            15213,
+            24560
+          ],
+          "characters": 9347
+        },
+        {
+          "chapter": 3,
+          "heading_as_file": "CHAPTER 3: MY WAY OR THE HIGHWAY",
+          "start_file_page": 13,
+          "content_locator_file_pages": [
+            13,
+            28
+          ],
+          "start_character": 24560,
+          "note": "knowledge/books/B012-ch03.md",
+          "current_extraction_range": [
+            24560,
+            58777
+          ],
+          "characters": 34217
+        },
+        {
+          "chapter": 4,
+          "heading_as_file": "CHAPTER 4: HONESTY, TRUST AND RESPECT",
+          "start_file_page": 28,
+          "content_locator_file_pages": [
+            28,
+            33
+          ],
+          "start_character": 58777,
+          "note": "knowledge/books/B012-ch04.md",
+          "current_extraction_range": [
+            58777,
+            70543
+          ],
+          "characters": 11766
+        },
+        {
+          "chapter": 5,
+          "heading_as_file": "CHAPTER 5: TWO RULES, NOT TWO HUNDRED",
+          "start_file_page": 33,
+          "content_locator_file_pages": [
+            33,
+            55
+          ],
+          "start_character": 70543,
+          "note": "knowledge/books/B012-ch05.md",
+          "current_extraction_range": [
+            70543,
+            121134
+          ],
+          "characters": 50591
+        },
+        {
+          "chapter": 6,
+          "heading_as_file": "CHAPTER 6: THINKING OUT LOUD",
+          "start_file_page": 56,
+          "content_locator_file_pages": [
+            56,
+            68
+          ],
+          "start_character": 121134,
+          "note": "knowledge/books/B012-ch06.md",
+          "current_extraction_range": [
+            121134,
+            149225
+          ],
+          "characters": 28091
+        }
+      ],
+      "shared_physical_page_boundaries": "chapters sharepages4,8,13,28,33;characterpartitionscontinuous,physicalchapterlocatorsnotadditive",
+      "translation_checks": [
+        {
+          "file_pages": [
+            9,
+            13
+          ],
+          "issue": "self-control versus controlling-others contrast lost in firstChineseclause;followingChinese selfcontrolclause preserved"
+        },
+        {
+          "file_pages": [
+            12
+          ],
+          "issue": "swearing translated as clothing"
+        },
+        {
+          "file_pages": [
+            21
+          ],
+          "issue": "havingonesapartment doesnotestablishpurchaseorownership"
+        },
+        {
+          "file_pages": [
+            27
+          ],
+          "issue": "localnegative translatedasaffirmative;laternegativeinparagraphstillpresent"
+        },
+        {
+          "file_pages": [
+            33
+          ],
+          "issue": "clean-slateidiom translatedasbedlinen despitefairchancecontext"
+        },
+        {
+          "file_pages": [
+            40
+          ],
+          "issue": "investigator translatedasinvestor;notjobidentityevidence"
+        },
+        {
+          "file_pages": [
+            51
+          ],
+          "issue": "psychic translatedaspsychologicaldoctor;notclinicalauthorityandnotlaterpsychiatriststory"
+        },
+        {
+          "file_pages": [
+            53
+          ],
+          "issue": "claimedpasses/flirting translatedashypnosis;neitheractualflirtingnorhypnosisindependentlyproven"
+        },
+        {
+          "file_pages": [
+            57
+          ],
+          "issue": "competence translatedascompetition;skillcontextnotrivalry"
+        }
+      ],
+      "translation_scope": "nineinfilecomparisonitems;EnglishandChineseactuallyread;notfulleditorialretranslationorexhaustiveerroraudit",
+      "input_output_truncation_recovery": "all11readingrangesreturnedcompletelyandreadbeforeacknowledgement",
+      "similar_materials": "repeatedattitudeparagraphs/authorclaimsreadinplace;notnewtheoriesorindependentverifiedcases;B013notassumedequivalent",
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            720
+          ],
+          "body_characters": 694,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "894f82dc77a595ec3f7190c3349d1048e717d755de7a58f8d8127c9b14a98fd0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 2,
+          "range": [
+            720,
+            2453
+          ],
+          "body_characters": 1707,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "ddabffc0198f712bb0c54f95d9311ca6eddfedb238ca6c5d818bfff16683a902",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 3,
+          "range": [
+            2453,
+            4673
+          ],
+          "body_characters": 2194,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "af20341f2810023bb124bcadd2dfa895612c5218ed3af372064a7100ea7296bc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 4,
+          "range": [
+            4673,
+            6948
+          ],
+          "body_characters": 2249,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "44b10b9c1f974609395fd1ef615a01b326e4489739170ce8aba3576ed7d4ff1b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 5,
+          "range": [
+            6948,
+            9382
+          ],
+          "body_characters": 2408,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "4a71e9d2f2fe7bc8a08e962817a72c3ee781b66ad357fd9366da7b52990e62c4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 6,
+          "range": [
+            9382,
+            11649
+          ],
+          "body_characters": 2241,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "7f38d650851a6f373c961f02c58479e584a7bdda7befbc43f0f8f64c6149a8a2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 7,
+          "range": [
+            11649,
+            13670
+          ],
+          "body_characters": 1995,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "879fe993517ad951534e3a72cd5f1bb19f6fb26353c44ea965e3917dcda82ce2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 8,
+          "range": [
+            13670,
+            15793
+          ],
+          "body_characters": 2097,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "769039b75df7e761f91869f236778b57aaa84a8378d738a7968d4d302c36e379",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 9,
+          "range": [
+            15793,
+            17946
+          ],
+          "body_characters": 2127,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "296555f0d33a9f6fabc0194de3a48445c443f996b431c98049b52f9cb25d63bb",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 10,
+          "range": [
+            17946,
+            20247
+          ],
+          "body_characters": 2274,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "544da72624943884913d0961af3f707fef8253c46ff883cd696167ca861490f8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 11,
+          "range": [
+            20247,
+            22627
+          ],
+          "body_characters": 2353,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "998221999670c0fb1a8bc9984e20720257782edeb96b88f313cd3fad47ccfb72",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 12,
+          "range": [
+            22627,
+            24488
+          ],
+          "body_characters": 1834,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "49e481ff76d57d5504eb65cd8ffea8608952e57d70d22a6fa4789845a653ca80",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 13,
+          "range": [
+            24488,
+            26731
+          ],
+          "body_characters": 2216,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "ab3da14fd9737556e6233010568293e723375e42d1144e9994528118c8717863",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 14,
+          "range": [
+            26731,
+            29166
+          ],
+          "body_characters": 2408,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "6cd988ed9b0d04046be45e9f6daa9efc368aeb5abd613fc73d4c4811950cbb15",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 15,
+          "range": [
+            29166,
+            31231
+          ],
+          "body_characters": 2038,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "f2fe058fafa8a4d05f39726ab8ee95569f97c4a80c60068340acf75ed0e8adbe",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 16,
+          "range": [
+            31231,
+            33413
+          ],
+          "body_characters": 2155,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "e77830941309252dae7444480d068d9740d816d7fc6acea9d7e47464b0d6684d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 17,
+          "range": [
+            33413,
+            35450
+          ],
+          "body_characters": 2010,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "03d600cb7e1c068dc6182eb6ea6d0af3cd69c01dbfafd1e08e38b2f07418b9ff",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 18,
+          "range": [
+            35450,
+            37756
+          ],
+          "body_characters": 2279,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "4bd5c29cc0c4f5f2966410d8af4b540f3713f8a9d0f77d0f38f91ef50f4bd377",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 19,
+          "range": [
+            37756,
+            40076
+          ],
+          "body_characters": 2293,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "b22dd919c2717eb4476139eb3deefe4641f3b4bbda265fc087c2421145bcfcb0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 20,
+          "range": [
+            40076,
+            42052
+          ],
+          "body_characters": 1949,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "a42fdc33d6ed44ae924ac900576526a67d6e8c07f28cd01e0ed9dfb7d22cd769",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 21,
+          "range": [
+            42052,
+            44046
+          ],
+          "body_characters": 1967,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "006734084cd3500716109538a9dbf79535b2d6a6d7f70b89ad16b23be23d7895",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 22,
+          "range": [
+            44046,
+            46258
+          ],
+          "body_characters": 2185,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "da903ab228690a09f13334db0d21e49ae4bcccfdfb0776c4548ad2c939fdb512",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 23,
+          "range": [
+            46258,
+            48646
+          ],
+          "body_characters": 2361,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "f109fd01cecca5c485ddd4503b0c517d170344f77d4b757a8d8edc94305e7682",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 24,
+          "range": [
+            48646,
+            50835
+          ],
+          "body_characters": 2162,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "127c636e029be3ee49b70babca4e82b7082eec8e14abf69e98e77a51ce66a2a4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 25,
+          "range": [
+            50835,
+            52865
+          ],
+          "body_characters": 2003,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "29803540efac334fb2921d72b2ad95fdcabb6d4c868400120624797742c75be5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 26,
+          "range": [
+            52865,
+            55146
+          ],
+          "body_characters": 2254,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "a4ef971bf14c4bd4b35a5526903b0b18a63a105f6a563d89108c6e594b345cce",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 27,
+          "range": [
+            55146,
+            57670
+          ],
+          "body_characters": 2497,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "6eaa47f25776edce7d087b85543f7b606364d49211c612cbf0734dcf65fd1864",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 28,
+          "range": [
+            57670,
+            59756
+          ],
+          "body_characters": 2059,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "f2e855259c067e49428c7dd3d6c714df79977c839975a1b7e027839b136fa3b5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 29,
+          "range": [
+            59756,
+            62009
+          ],
+          "body_characters": 2226,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "5dbc0f54a64f01d042db4e78c5489a887f4e0e6d9a61f6e201a7e6df4d4ce1f2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 30,
+          "range": [
+            62009,
+            64252
+          ],
+          "body_characters": 2216,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "bdefaf1f0ebba6addbecdbaf1417cb6199311b70037f29827d02bbfca25e0072",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 31,
+          "range": [
+            64252,
+            66515
+          ],
+          "body_characters": 2236,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "5a1b6ecfc28b7ddeb778c1e681b87e4e1a883c533df3e12446f97c41c7b60d5e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 32,
+          "range": [
+            66515,
+            68818
+          ],
+          "body_characters": 2276,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "011c16fe05fce8e66380feab29a2748b4ea594496e54fed8f9e23f285e52112f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 33,
+          "range": [
+            68818,
+            70838
+          ],
+          "body_characters": 1993,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "cb37d5ba6148fb8ace85f40c969a96d71dbe98bd31ffa7c964e9646b05c8e000",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 34,
+          "range": [
+            70838,
+            73140
+          ],
+          "body_characters": 2275,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "31d691fdc424d15054a47d5001602dfe4bb3f13e79577e7a0bf872c447eff60d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 35,
+          "range": [
+            73140,
+            75513
+          ],
+          "body_characters": 2346,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "ab5a7e89abf04a9b1dfd9be75c6b3f5a442c73ed156e682826db38ffc0a8aa87",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 36,
+          "range": [
+            75513,
+            77858
+          ],
+          "body_characters": 2318,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "f1db0df7bebd15e4a4c9ef6a4ebb73dc29b2fce38b476b96a937210d7880ef12",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 37,
+          "range": [
+            77858,
+            80184
+          ],
+          "body_characters": 2299,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "9a2c073245cf3e2ad61fb52eb93b6ae529d741f14269c5dfa965356d62fcf3fe",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 38,
+          "range": [
+            80184,
+            82576
+          ],
+          "body_characters": 2365,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "fe8b17ee38f2223bfe2eff9cd69e61050840842a164547633cbcc76cf8e78858",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 39,
+          "range": [
+            82576,
+            84723
+          ],
+          "body_characters": 2120,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "e181015f6bc23f650817767c2f1da36dd0209bf4283b451461ef5b6fabf4370e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 40,
+          "range": [
+            84723,
+            87032
+          ],
+          "body_characters": 2282,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "bf9fbacc71e94ac7de8a3d0971ef5c6a2e9aa4fb5f49a5c9757b7320aba7c985",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 41,
+          "range": [
+            87032,
+            89239
+          ],
+          "body_characters": 2180,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "3ceaf288b31873ab96fbe7b5567b0a0d6825d7d7083bb97d3b21f92bedeaa189",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 42,
+          "range": [
+            89239,
+            91503
+          ],
+          "body_characters": 2237,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "7ffc81f0a6b737c8e1115deb1e393d77077751da9a0fefb7d738fea89a42bd12",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 43,
+          "range": [
+            91503,
+            93867
+          ],
+          "body_characters": 2337,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "d02a427d6888ae0c327c2a53398dd13ae9e0439e3d0a643244dc2f27b485edf4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 44,
+          "range": [
+            93867,
+            96095
+          ],
+          "body_characters": 2201,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "406f47148049e0113be6cc5b2bf1431b3ccfaff1b67c1a34ee42085fcaf59dd8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 45,
+          "range": [
+            96095,
+            98479
+          ],
+          "body_characters": 2357,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "bbef78a7f9d7b725c1a633c09f62d813ef121aa2b5b33538348805d977282e79",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 46,
+          "range": [
+            98479,
+            100851
+          ],
+          "body_characters": 2345,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "e76244aaa01b204c51e01d38cd832ed696df1eb4846f7d43dbf53097d9c25b3b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 47,
+          "range": [
+            100851,
+            103145
+          ],
+          "body_characters": 2267,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "0da610cce7ab91253149043660e4385df20cf928e2fcb158a00026e488cc7fc7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 48,
+          "range": [
+            103145,
+            105387
+          ],
+          "body_characters": 2215,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "e712567067cfeba5f31988b2395c14f2f34742c32c1c88355c00d71fd856a670",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 49,
+          "range": [
+            105387,
+            107928
+          ],
+          "body_characters": 2514,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "3fead0399157e4c537dc287f75c66a858a6c8ed02c3aa498d55969746ce54f71",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 50,
+          "range": [
+            107928,
+            109961
+          ],
+          "body_characters": 2006,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "9230730ff5ff75392473eb6f5f284e64066b1ba72651ade043562255f5351121",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 51,
+          "range": [
+            109961,
+            112121
+          ],
+          "body_characters": 2133,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "54d96f059dd5ddeef3328f10d61df2d1d79ac5bc0eb825abeeccf2fdcf723229",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 52,
+          "range": [
+            112121,
+            114467
+          ],
+          "body_characters": 2319,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "91ef31e1c8a9df6ebe70fdc89f7769f8169dd71545164675e9c338634a57c998",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 53,
+          "range": [
+            114467,
+            116808
+          ],
+          "body_characters": 2314,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "952cf77bc794355758ac2e71f6d78e1a3bd59507f0fd6a556a7a572daaa44985",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 54,
+          "range": [
+            116808,
+            119006
+          ],
+          "body_characters": 2171,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "7c8887ad8eb7d49df253f752440ec5cd79dff05f11f7516a7bda02cbcd986bbc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 55,
+          "range": [
+            119006,
+            121062
+          ],
+          "body_characters": 2029,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "93619e675dc12b7c1a659e49683b1cba57aaf240e48251faa14ce111027e440c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 56,
+          "range": [
+            121062,
+            123511
+          ],
+          "body_characters": 2422,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "3b999aa1811891ae4e629050011fd3e0a6dc6b781733bc5c07e9d75d3531d1d6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 57,
+          "range": [
+            123511,
+            125893
+          ],
+          "body_characters": 2355,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "05651c3449bfa8e4f91865fde1f0f8ec41d143c4e7922bb01d1b4aeb8405f3cd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 58,
+          "range": [
+            125893,
+            128210
+          ],
+          "body_characters": 2290,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "48a323180ef232656914f95602ba774aac647e3b8c94e8285d321ee2d4a5ce94",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 59,
+          "range": [
+            128210,
+            130542
+          ],
+          "body_characters": 2305,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "84deac23a8c826c7f451895c9da292a368a05e1e872d47642bb4d7c7a2051439",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 60,
+          "range": [
+            130542,
+            132986
+          ],
+          "body_characters": 2417,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "f536bf4754b6707a74b7884fe13894ed780d876c5ce14940176c9171f7fe91e7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 61,
+          "range": [
+            132986,
+            135250
+          ],
+          "body_characters": 2237,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "628691d6c7fe58d592bf986b94129c0a6eaf1247b1ec129e7eb74a45d24ba639",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 62,
+          "range": [
+            135250,
+            137413
+          ],
+          "body_characters": 2136,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "4067b43bfed43c1723ecebac80733d738e0166310a935a8de31531c75c2f8736",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 63,
+          "range": [
+            137413,
+            139436
+          ],
+          "body_characters": 1996,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "4d8a0ce91d5134bf750900715d05a3a1d10b0f51c164d564af447dfa955f5567",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 64,
+          "range": [
+            139436,
+            141761
+          ],
+          "body_characters": 2298,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "898d7cd7b25a7ef2b2d7256312558f58722b38e1d076ce62c24e49fbd54493ac",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 65,
+          "range": [
+            141761,
+            144062
+          ],
+          "body_characters": 2274,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "79863b5d975d148ec469a439f2c03c97894eb7d326f77c9288ebd1798e50d852",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 66,
+          "range": [
+            144062,
+            146230
+          ],
+          "body_characters": 2141,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "ed69fac6911760cc3b1549062fe0ae10112bd3c75dca3a2eaa361a3bc642a545",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 67,
+          "range": [
+            146230,
+            148593
+          ],
+          "body_characters": 2336,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "19d2174b1c66aa0ce206ecca78b7027d39c820f9e0b5e1932d769ecf28eb086f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 68,
+          "range": [
+            148593,
+            149225
+          ],
+          "body_characters": 605,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "979a35e6706aa0aee3994e83f7733224abf1197ad20ee483c2892cd2f0b6992d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ]
+    }
+  ],
+  "reference_checks": "infile bilingual comparisons only; no new external research fullread or originalvideo",
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B013",
+    "path": "David_X的方法.pdf",
+    "git_blob_sha": "bd51f3486dfa482fb4480293413f426b10f27e1f",
+    "bytes": 624594,
+    "file_pages": 48,
+    "reading_status": "unread",
+    "start": "physicalpage1;verifyoriginalblobthenestablishcurrentextractionbeforeorderedreading;donotassumeequivalenttoB012",
+    "next_file_page": 1,
+    "next_character": 0,
+    "current_extraction_identity": "notyetestablished;similarfilenameoroldinventorynotreadingproof",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+  }
+}

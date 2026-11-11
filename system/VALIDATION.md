@@ -1,6 +1,6 @@
 # 检查范围
 
-当前已通过结构检查与20项单元测试，覆盖资料身份、配置、笔记段落、输出约定和84个虚构对话场景；不含用户或女生的真实聊天。上轮续读真实结果见[B010检查记录](../knowledge/provenance/B010_validation_2026-11-11.json)，先前系统维护结果见[维护记录](../knowledge/provenance/OS_runtime_validation_2026-11-11.json)。
+当前已通过结构检查与20项单元测试，覆盖资料身份、配置、笔记段落、输出约定和84个虚构场景；不含真实聊天。最新续读结果见[B012检查记录](../knowledge/provenance/B012_validation_2026-11-11.json)，此前[B011记录](../knowledge/provenance/B011_validation_2026-11-11.json)与[系统维护记录](../knowledge/provenance/OS_runtime_validation_2026-11-11.json)保留。
 
 ```bash
 python scripts/validate_os.py
@@ -16,6 +16,8 @@ python scripts/search_knowledge.py '没给替代时间'
 检查通过不能证明元数据对应的阅读行为，也不能证明真实截图识别、心理机制或恋爱效果。统一入口接受人工核对的事实，只返回一个处理提纲，不调用模型、不读图、不生成或发送语言。草稿检查不判断事实、语气、问句含义或效果。
 
 2026-11-11续读B011：当前20/119份现有文字完成、0份部分、99份未开始。结构检查与20项测试通过，84个虚构场景不增加；另核114页/7段、26页视觉/88页未逐页核版面、身份与逐页哈希、卡片、锚点及M21/M22段落。真实输出见[B011检查记录](../knowledge/provenance/B011_validation_2026-11-11.json)，限制见[完成报告](../knowledge/provenance/B011_completion_2026-11-11.md)。
+
+2026-11-11继续完成B012：当前21/119份现有文字完成、0份部分、98份未开始；本次B011/B012共两份182页。结构与20项测试通过，84个虚构场景不增加；另核68页/11段、26页视觉/42页未核版面、九项对照定位、六章字符范围、身份、卡片、链接、锚点及M10段落。真实输出见[B012检查记录](../knowledge/provenance/B012_validation_2026-11-11.json)，范围见[完成报告](../knowledge/provenance/B012_completion_2026-11-11.md)。
 
 ## 历史记录
 
