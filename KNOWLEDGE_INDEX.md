@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-2026-11-11续读B014文后书目至850页，下一851页；整份文件仍部分。26方法、31路由和五种任务有效；本轮补M08/M17/M24依据，M24直接定位[见面后的下一步](knowledge/topics/interest-evidence.md)。
+2026-11-11继续正文阅读至B016第三章末；下一第四章。26方法、31路由和五种任务有效；M10首选定位到[一句真实表达](knowledge/topics/real-self-expression.md)，阅读主线与保留缺口见[队列](system/READING_QUEUE.md)。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -16,10 +16,10 @@
 | 外部fork、23项上传材料、实际归档与缺口 | [统一来源目录](knowledge/provenance/source-catalog.md)、[来源元数据](knowledge/provenance/external_sources.json) |
 | 许可明确的项目文档原文 | [归档说明](sources/README.md) |
 | 资料页、形象与真实生活素材 | [长期入口](knowledge/topics/profile-and-appearance.md) |
-| 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md) |
+| 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B014](knowledge/books/B014.md)新增总参考文献813–850页、86093字符，另核8页版面；累计1–850页。下一851页、当前字符1661625，后续152页未读。补核四项题录并接入M08/M17/M24，M24首选改为[见面后的下一步](knowledge/topics/interest-evidence.md)；未增加整份文件或论文全文完成数。仍22/119份文字完成、1份部分、96份未开始，TOP30仍30/30。[本轮报告](knowledge/provenance/B014_bibliography_completion_2026-11-11.md)。
+2026-11-11：B014正文完成，文后资料增加[定位与缺口](knowledge/books/B014-backmatter-guide.md)；[B015](knowledge/books/B015.md)全部6280字符文字层已审阅，18个图片页排除，仍部分；[B016](knowledge/books/B016.md)题名、前言及前三章31961字符已读，下一第四章/spine 6、字符31961。新增[真实表达](knowledge/topics/real-self-expression.md)并接入M04/M08/M10，核两篇研究的题录与摘要，未计全文完成。书库仍22份完成，现3份部分、94份未开始。[本轮报告](knowledge/provenance/B015_B016_completion_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前22/119份现有文字覆盖完成，1份部分、96份未开始。B014已顺读物理页1–850，累计350页视觉，500页已读文字的版面未逐页核，后续152页参考文献、出处、索引等未读。此前各书原著、版本、版式、缺图和研究核验范围继续保留。
+当前22/119份现有文字覆盖完成，3份部分、94份未开始。B014正文已读，余138页文后文字未读；B015图片部分排除；B016已读前言和前三章，均按范围记录。此前原著、版本、版式和研究核验限制继续保留。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "8a493f74e0e6d670167fde559e1cd9f400252d07",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "8dc079",
+      "wall_time_seconds": 0.114047427,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 22,\n  \"book_not_started\": 94,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "6d01a9",
+      "wall_time_seconds": 1.38385163,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.323s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '分享自己' --method M10 --limit 1",
+      "chunk_id": "30cd55",
+      "wall_time_seconds": 0.02362287,
+      "exit_code": 0,
+      "original_token_count": 244,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/real-self-expression.md\",\n    \"title\": \"真实表达：从具体生活到一句回复\",\n    \"heading\": \"一句真实表达\",\n    \"line\": 5,\n    \"end_line\": 12,\n    \"snippet\": \"\\n承接她当前内容，从用户已经确认的经历、偏好或看法里选一项相关的东西，说清一件事或一点真实感受。她在认真问问题时先答；已有共同话题可以回扣。不必每轮结尾再问一句，也不要求刻意制造悬念。\\n\\n没有明确偏好可以如实说，确实喜欢多种类型也可以直接表达；想到一个真实例子时再补具体。不把未读的书、没去过的店、别人的经历或未确认的空闲说成自己的。事实不够就正常承接，本轮不强行增加自我展示。\\n\\n若要训练，只选一件近期真实小事练习说清，不同时写十个版本；需要时在当前对话完成。这个选择与长度是本\",\n    \"method_ids\": [\n      \"M10\"\n    ]\n  }\n]\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "8a493f74e0e6d670167fde559e1cd9f400252d07",
+    "changed_files": 22,
+    "new_files": 8,
+    "new_direct_characters": 55695,
+    "B014_new_characters": 17454,
+    "B015_new_characters": 6280,
+    "B016_new_characters": 31961,
+    "B014_remaining_text_layer_pages": 138,
+    "B015_image_pages_excluded": 18,
+    "B016_next_spine": 6,
+    "B016_next_character": 31961,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "preferred_complete_sections": 26,
+    "new_method_source_bindings": 3,
+    "preferred_sections_changed": [
+      "M10"
+    ],
+    "source_records": 158,
+    "book_text_complete": 22,
+    "book_text_partial": 3,
+    "book_not_started": 94,
+    "new_whole_files_completed": 0,
+    "new_full_research_papers_completed": 0,
+    "research_metadata_and_abstract_checks": 2,
+    "local_links_checked": 588,
+    "raw_sources_existing_scripts_routes_tests_operations_and_runtime_rules_unchanged": true,
+    "private_material_imported_or_case_summaries_written": false
+  },
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "limits": "File identities, reading-range consistency, source/method links, metadata counts and synthetic routing only. B015 image content was excluded, B014 back-matter gaps remain, B016 later chapters and both research articles remain not fully read. No verification of real screenshot interpretation or romantic outcomes."
+}

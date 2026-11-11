@@ -1,38 +1,88 @@
 {
   "schema_version": 1,
   "updated": "2026-11-11",
-  "current_focus": "source_evidence_integration_with_continued_reading",
-  "status": "B014_bibliography_integration_checks_passed",
-  "base_commit": "90d16c445ea95e8d420573301a92c9fafc2755ff",
+  "current_focus": "original_body_reading_and_self_expression_integration",
+  "status": "B015_B016_integration_checks_passed",
+  "base_commit": "8a493f74e0e6d670167fde559e1cd9f400252d07",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B014_bibliography_completion_2026-11-11.md",
-  "validation": "knowledge/provenance/B014_bibliography_validation_2026-11-11.json",
+  "report": "knowledge/provenance/B015_B016_completion_2026-11-11.md",
+  "validation": "knowledge/provenance/B015_B016_validation_2026-11-11.json",
   "reading_bookmark": {
-    "id": "B014",
-    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
-    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
-    "bytes": 13323230,
-    "file_pages": 1002,
+    "id": "B016",
+    "path": "MACK把妹方法 - Dean Cortez.epub",
+    "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
+    "bytes": 283166,
+    "spine_items": 22,
     "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "physicalpage851start;Bibliography;Feather1994entrycontinuesfrom850;currentextraction1661625",
-    "next_file_page": 851,
-    "next_character": 1661625,
+    "start": "spine6start;chapter4;currentextraction31961;not_historical_174035_coordinates",
+    "next_spine": 6,
+    "next_character": 31961,
     "current_extraction_identity": {
-      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
-      "characters": 1991387,
-      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
-      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+      "characters": 172067,
+      "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+      "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
     },
-    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
-    "ledger": "knowledge/provenance/B014_bibliography_reading_2026-11-11.json",
-    "next_content_unit": "Bibliography continuation including the end of Feather (1994), followed by credits and index"
+    "file_sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
+    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+    "next_content_unit": "第四章 Mack风格Mack范儿（从时尚到激情）"
   },
-  "next_work": "Resume B014 physical page851/currentextraction1661625, including continuation of Feather1994; remaining152pages unread; use the same blob/hash.",
+  "next_work": "Resume B016 spine6, chapter4, currentextraction31961. B014 back-matter gaps and B015 private image exclusion remain explicit.",
   "current_session_progress": {
+    "baseline": "8a493f74e0e6d670167fde559e1cd9f400252d07",
+    "text_complete_file_ids": [],
+    "text_partial_file_ids": [
+      "B014",
+      "B015",
+      "B016"
+    ],
+    "new_book_files_started": [
+      "B015",
+      "B016"
+    ],
+    "direct_extractable_characters": 55695,
+    "B014_new_direct_characters": 17454,
+    "B014_new_text_layer_pages_covered": 14,
+    "B014_contiguous_prefix_last_page": 853,
+    "B014_cumulative_text_layer_pages_covered": 864,
+    "B014_cumulative_direct_characters": 1679079,
+    "B014_unread_text_layer_pages": 138,
+    "B014_cumulative_visual_pages": 358,
+    "B015_extractable_text_layer_characters": 6280,
+    "B015_private_image_pages_excluded": 18,
+    "B015_image_objects_excluded": 19,
+    "B016_read_spines": 5,
+    "B016_total_spines": 22,
+    "B016_body_chapters_read": [
+      1,
+      3
+    ],
+    "B016_characters_read": 31961,
+    "B016_unread_characters": 140106,
+    "methods": 26,
+    "routes": 31,
+    "task_modes": 5,
+    "new_method_source_bindings": 3,
+    "changed_preferred_sections": [
+      "M10"
+    ],
+    "research_metadata_and_abstract_checks": 2,
+    "new_whole_book_files_completed": 0,
+    "new_full_original_research_papers_completed": 0,
+    "new_original_videos_completed": 0,
+    "checks": {
+      "structural": true,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "retrieval": true,
+      "scope": true
+    }
+  },
+  "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
     "text_complete_file_ids": [],
     "text_partial_file_ids": [
@@ -60,36 +110,6 @@
       "unittest_methods": 29,
       "synthetic_routing_scenarios": 108,
       "retrieval": true,
-      "scope": true
-    }
-  },
-  "last_reading_progress": {
-    "baseline": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
-    "text_complete_file_ids": [],
-    "text_partial_file_ids": [
-      "B014"
-    ],
-    "direct_primary_extraction_characters": 286128,
-    "physical_file_pages": 135,
-    "selected_visual_page_reviews": 78,
-    "remaining_unreviewed_layout_pages_within_new_read_text": 57,
-    "B014_cumulative_read_file_pages": 812,
-    "B014_cumulative_direct_read_characters": 1575532,
-    "B014_cumulative_visual_pages": 342,
-    "B014_unread_file_pages": 190,
-    "B014_all13chapter_texts_and_chapter_end_materials_read": true,
-    "methods": 26,
-    "routes": 31,
-    "task_modes": 5,
-    "source_checks": 18,
-    "new_method_source_bindings": 4,
-    "external_authoritative_webpages_checked": 2,
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
-    "checks": {
-      "structural": true,
-      "unittest_methods": 29,
-      "synthetic_routing_scenarios": 108,
       "scope": true
     }
   },
@@ -290,6 +310,76 @@
         "synthetic_routing_scenarios": 108,
         "scope": true
       }
+    },
+    {
+      "baseline": "5cb05a45a7172b8985a1fc042ecec9dbb606d4b9",
+      "text_complete_file_ids": [],
+      "text_partial_file_ids": [
+        "B014"
+      ],
+      "direct_primary_extraction_characters": 286128,
+      "physical_file_pages": 135,
+      "selected_visual_page_reviews": 78,
+      "remaining_unreviewed_layout_pages_within_new_read_text": 57,
+      "B014_cumulative_read_file_pages": 812,
+      "B014_cumulative_direct_read_characters": 1575532,
+      "B014_cumulative_visual_pages": 342,
+      "B014_unread_file_pages": 190,
+      "B014_all13chapter_texts_and_chapter_end_materials_read": true,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "source_checks": 18,
+      "new_method_source_bindings": 4,
+      "external_authoritative_webpages_checked": 2,
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "checks": {
+        "structural": true,
+        "unittest_methods": 29,
+        "synthetic_routing_scenarios": 108,
+        "scope": true
+      }
     }
-  ]
+  ],
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    }
+  ],
+  "reading_queue": "system/READING_QUEUE.md"
 }

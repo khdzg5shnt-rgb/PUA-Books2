@@ -464,26 +464,26 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "file_title_copyright_identify_sixth_edition_2019;all13chapters_and_bibliography813to850_read;rest_backmatterunread;formal_layout_correspondence_uncertified",
+      "edition_status": "file_title_identifies2019sixth_edition;all13chapters_read;backmatter_partial_with_noncontiguous_coverage;formal_edition_correspondence_uncertified",
       "latest_reading": {
         "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B014_bibliography_reading_2026-11-11.json",
-        "coverage_mode": "direct_ordered_current_text_through_page850_including_partial_bibliography_with_selected_visual_review",
+        "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+        "coverage_mode": "main_text_complete_partial_backmatter",
         "read_file_pages": [
           1,
-          850
+          853
         ],
         "read_range": [
           0,
-          1661625
+          1668537
         ],
         "new_read_file_pages": [
-          813,
-          850
+          851,
+          853
         ],
         "new_read_range": [
-          1575532,
-          1661625
+          1661625,
+          1668537
         ],
         "current_extraction": {
           "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
@@ -491,15 +491,83 @@
           "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
           "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
         },
-        "next_file_page": 851,
-        "next_character": 1661625,
-        "selected_visual_pages_cumulative": 350,
+        "next_file_page": 854,
+        "next_character": 1668537,
+        "selected_visual_pages_cumulative": 358,
         "selected_visual_pages_new": 8,
-        "unreviewed_read_text_layout_pages": 500,
-        "unread_file_pages": 152,
+        "unreviewed_read_text_layout_pages": 506,
+        "unread_file_pages": 138,
         "all_thirteen_chapter_texts_and_chapter_end_materials_read": true,
-        "entire_current_file_text_read": false
-      }
+        "entire_current_file_text_read": false,
+        "additional_read_file_page_ranges": [
+          [
+            944,
+            945
+          ],
+          [
+            959,
+            963
+          ],
+          [
+            999,
+            1002
+          ]
+        ],
+        "cumulative_text_layer_pages_covered": 864,
+        "cumulative_direct_read_characters": 1679079,
+        "new_read_ranges": [
+          [
+            1661625,
+            1668537
+          ],
+          [
+            1873097,
+            1875277
+          ],
+          [
+            1906796,
+            1913967
+          ],
+          [
+            1990196,
+            1991387
+          ]
+        ],
+        "unread_file_page_ranges": [
+          [
+            854,
+            943
+          ],
+          [
+            946,
+            958
+          ],
+          [
+            964,
+            998
+          ]
+        ],
+        "additional_unreviewed_image_layer_pages": [
+          1001
+        ],
+        "newly_covered_file_pages": [
+          851,
+          852,
+          853,
+          944,
+          945,
+          959,
+          960,
+          961,
+          962,
+          963,
+          999,
+          1000,
+          1001,
+          1002
+        ]
+      },
+      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json"
     },
     {
       "index": 15,
@@ -514,8 +582,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/K%E5%B0%91%E8%BF%BD%E5%A5%B3%E7%BB%8F%E9%AA%8C-%E6%88%91%E6%98%AF%E8%BF%99%E6%A0%B7%E8%BF%BD%E4%BD%A0%E8%80%81%E5%A9%86%E7%9A%84.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_partial",
+      "note": "knowledge/books/B015.md",
       "pages": 24,
       "spine_items": null,
       "ocr": {
@@ -523,7 +591,54 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "supplied_file_only_original_publication_completeness_unverified",
+      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), physical file-page markers",
+          "characters": 6280,
+          "sha256": "220e6923e8f4be4b9c281bd421dd6d8d870e570e69bb1fb4c2ae5daf75275940",
+          "coordinates": "Unicode code points, half-open ranges, file-page markers included; excludes image text"
+        },
+        "read_range": [
+          0,
+          6280
+        ],
+        "entire_current_file_text_read": false,
+        "coverage_mode": "extractable_text_layer_only_private_media_excluded",
+        "next_character": null,
+        "read_text_layer_file_pages": [
+          1,
+          24
+        ],
+        "private_image_pages_excluded": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          18,
+          19,
+          21,
+          22
+        ],
+        "selected_visual_pages": [
+          1,
+          23
+        ],
+        "new_ocr_pages": 0
+      }
     },
     {
       "index": 16,
@@ -538,8 +653,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MACK%E6%8A%8A%E5%A6%B9%E6%96%B9%E6%B3%95%20-%20Dean%20Cortez.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_partial",
+      "note": "knowledge/books/B016.md",
       "pages": null,
       "spine_items": 22,
       "ocr": {
@@ -547,7 +662,35 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "supplied_file_only_original_publication_completeness_unverified",
+      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+        "current_extraction": {
+          "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+          "characters": 172067,
+          "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+          "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
+        },
+        "read_range": [
+          0,
+          31961
+        ],
+        "entire_current_file_text_read": false,
+        "coverage_mode": "title_preface_chapters1to3",
+        "next_character": 31961,
+        "read_spine_items": [
+          1,
+          5
+        ],
+        "read_body_chapters": [
+          1,
+          3
+        ],
+        "next_spine": 6,
+        "unread_characters": 140106
+      }
     },
     {
       "index": 17,

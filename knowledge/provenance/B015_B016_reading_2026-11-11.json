@@ -1,0 +1,1383 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B015-B016-body-reading-2026-11-11",
+  "baseline_main": "8a493f74e0e6d670167fde559e1cd9f400252d07",
+  "records": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "bytes": 13323230,
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "file_pages": 1002,
+      "notes": [
+        "knowledge/books/B014.md",
+        "knowledge/books/B014-backmatter-guide.md"
+      ],
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "previous_ledger": "knowledge/provenance/B014_bibliography_reading_2026-11-11.json",
+      "new_read_file_pages": [
+        851,
+        852,
+        853,
+        944,
+        945,
+        959,
+        960,
+        961,
+        962,
+        963,
+        999,
+        1000,
+        1001,
+        1002
+      ],
+      "new_read_ranges": [
+        [
+          1661625,
+          1668537
+        ],
+        [
+          1873097,
+          1875277
+        ],
+        [
+          1906796,
+          1913967
+        ],
+        [
+          1990196,
+          1991387
+        ]
+      ],
+      "new_direct_read_characters": 17454,
+      "cumulative_contiguous_prefix_file_pages": [
+        1,
+        853
+      ],
+      "cumulative_contiguous_prefix_range": [
+        0,
+        1668537
+      ],
+      "cumulative_read_ranges": [
+        [
+          0,
+          1668537
+        ],
+        [
+          1873097,
+          1875277
+        ],
+        [
+          1906796,
+          1913967
+        ],
+        [
+          1990196,
+          1991387
+        ]
+      ],
+      "cumulative_direct_read_characters": 1679079,
+      "cumulative_text_layer_pages_covered": 864,
+      "new_visual_review_pages": [
+        851,
+        944,
+        945,
+        960,
+        963,
+        999,
+        1000,
+        1002
+      ],
+      "cumulative_visual_review_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        20,
+        21,
+        27,
+        30,
+        31,
+        38,
+        41,
+        42,
+        45,
+        49,
+        50,
+        51,
+        54,
+        55,
+        56,
+        60,
+        63,
+        82,
+        83,
+        87,
+        88,
+        90,
+        94,
+        97,
+        101,
+        102,
+        106,
+        108,
+        114,
+        123,
+        137,
+        147,
+        148,
+        149,
+        153,
+        159,
+        166,
+        173,
+        177,
+        180,
+        185,
+        186,
+        187,
+        188,
+        191,
+        195,
+        196,
+        197,
+        201,
+        203,
+        206,
+        212,
+        213,
+        214,
+        215,
+        221,
+        222,
+        225,
+        226,
+        230,
+        234,
+        235,
+        236,
+        240,
+        242,
+        243,
+        244,
+        248,
+        250,
+        251,
+        252,
+        257,
+        265,
+        269,
+        270,
+        271,
+        275,
+        276,
+        278,
+        279,
+        281,
+        286,
+        287,
+        291,
+        294,
+        295,
+        296,
+        299,
+        301,
+        305,
+        307,
+        313,
+        316,
+        317,
+        318,
+        332,
+        333,
+        334,
+        337,
+        338,
+        343,
+        346,
+        348,
+        349,
+        352,
+        355,
+        356,
+        359,
+        360,
+        364,
+        368,
+        369,
+        371,
+        373,
+        375,
+        380,
+        381,
+        384,
+        385,
+        386,
+        392,
+        397,
+        402,
+        403,
+        404,
+        405,
+        408,
+        409,
+        410,
+        413,
+        414,
+        416,
+        417,
+        418,
+        419,
+        421,
+        423,
+        424,
+        425,
+        426,
+        428,
+        431,
+        432,
+        433,
+        434,
+        436,
+        438,
+        439,
+        442,
+        444,
+        445,
+        448,
+        449,
+        455,
+        460,
+        461,
+        462,
+        463,
+        467,
+        473,
+        475,
+        476,
+        477,
+        479,
+        480,
+        481,
+        482,
+        487,
+        488,
+        492,
+        495,
+        497,
+        498,
+        499,
+        500,
+        506,
+        507,
+        508,
+        509,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        527,
+        528,
+        529,
+        533,
+        535,
+        539,
+        540,
+        543,
+        545,
+        549,
+        551,
+        553,
+        554,
+        557,
+        558,
+        560,
+        562,
+        564,
+        565,
+        567,
+        568,
+        569,
+        571,
+        573,
+        574,
+        575,
+        576,
+        579,
+        580,
+        583,
+        584,
+        585,
+        586,
+        590,
+        591,
+        592,
+        594,
+        599,
+        600,
+        604,
+        606,
+        607,
+        610,
+        613,
+        614,
+        617,
+        618,
+        619,
+        620,
+        622,
+        624,
+        626,
+        630,
+        634,
+        636,
+        637,
+        641,
+        646,
+        649,
+        650,
+        651,
+        654,
+        655,
+        658,
+        661,
+        663,
+        664,
+        665,
+        669,
+        670,
+        675,
+        677,
+        678,
+        680,
+        681,
+        684,
+        686,
+        687,
+        689,
+        690,
+        691,
+        692,
+        695,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        705,
+        706,
+        708,
+        710,
+        711,
+        713,
+        714,
+        715,
+        717,
+        718,
+        719,
+        721,
+        723,
+        724,
+        726,
+        729,
+        730,
+        732,
+        733,
+        735,
+        738,
+        740,
+        741,
+        742,
+        743,
+        745,
+        746,
+        747,
+        748,
+        752,
+        753,
+        756,
+        757,
+        764,
+        766,
+        768,
+        772,
+        773,
+        777,
+        780,
+        782,
+        783,
+        786,
+        787,
+        788,
+        789,
+        790,
+        792,
+        794,
+        797,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        809,
+        810,
+        811,
+        812,
+        813,
+        817,
+        818,
+        824,
+        830,
+        838,
+        847,
+        850,
+        851,
+        944,
+        945,
+        960,
+        963,
+        999,
+        1000,
+        1002
+      ],
+      "unreviewed_text_layer_layout_pages": 506,
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "additional_unreviewed_image_layer_pages": [
+        1001
+      ],
+      "page1000_visual_only_advertisement_text_read": true,
+      "page1000_visual_text_not_counted_as_extracted_characters": true,
+      "all_thirteen_chapter_texts_and_chapter_end_materials_read": true,
+      "entire_current_file_text_read": false,
+      "reading_queue_decision": "Continue other body texts while retaining explicit back-matter gaps",
+      "page_reading": [
+        {
+          "page": 851,
+          "range": [
+            1661625,
+            1663913
+          ],
+          "body_characters": 2260,
+          "text_sha256": "1f232b88bf3dfc9f6a1600bd71d71a8fb6cec176052d917f93956460d55d869d"
+        },
+        {
+          "page": 852,
+          "range": [
+            1663913,
+            1666129
+          ],
+          "body_characters": 2188,
+          "text_sha256": "393194a8057a9b25ac17de3451369fbd8577be715bd9c9f1f60d94c9468544fa"
+        },
+        {
+          "page": 853,
+          "range": [
+            1666129,
+            1668537
+          ],
+          "body_characters": 2380,
+          "text_sha256": "758c159116a421fcbc9a37c27dcf6a4a9cd7b860ce0bfb3ce30a4c4f944b43c3"
+        },
+        {
+          "page": 944,
+          "range": [
+            1873097,
+            1873132
+          ],
+          "body_characters": 7,
+          "text_sha256": "72a82ba3a99c6cc27d6b269b548a87fb6b15607d57daf3394ed4bcf61360f1cd"
+        },
+        {
+          "page": 945,
+          "range": [
+            1873132,
+            1875277
+          ],
+          "body_characters": 2117,
+          "text_sha256": "03d874102047245def7f2538784d7ccf1726bbc38e8116fec2084c7e682b9c5b"
+        },
+        {
+          "page": 959,
+          "range": [
+            1906796,
+            1909205
+          ],
+          "body_characters": 2381,
+          "text_sha256": "4ef123148f3f4404748ebc36d2c65c80430ec7c5c867592a7c0ed603e8654a44"
+        },
+        {
+          "page": 960,
+          "range": [
+            1909205,
+            1910145
+          ],
+          "body_characters": 912,
+          "text_sha256": "a89cfaa3634f2c969f864ada5ab0c446b300ebc11e2474a074c6a4c814059329"
+        },
+        {
+          "page": 961,
+          "range": [
+            1910145,
+            1910976
+          ],
+          "body_characters": 803,
+          "text_sha256": "c9f3bdd1598dc14305c2f4896b6a9ec297dca75119e3f36c1d77b4283c2f447d"
+        },
+        {
+          "page": 962,
+          "range": [
+            1910976,
+            1911245
+          ],
+          "body_characters": 241,
+          "text_sha256": "7991ca23bf46ea1fa12fd28481d21c641dce673f5f88bd239cf0b17513db020a"
+        },
+        {
+          "page": 963,
+          "range": [
+            1911245,
+            1913967
+          ],
+          "body_characters": 2694,
+          "text_sha256": "b5c0c8023dbe09cbb26b0a44e01ef4735644b1078c6563f54c3b16010611096a"
+        },
+        {
+          "page": 999,
+          "range": [
+            1990196,
+            1990942
+          ],
+          "body_characters": 718,
+          "text_sha256": "52d5ddd8f5d8455c9cf1166f51321f07ce5f9b29d1dc4bbaeae32d46eaa7f3e4"
+        },
+        {
+          "page": 1000,
+          "range": [
+            1990942,
+            1990971
+          ],
+          "body_characters": 0,
+          "text_sha256": "dedae16a61c60001060ba1d8606e4a03820f1efb5781daf3208b2db1c9dc9e33"
+        },
+        {
+          "page": 1001,
+          "range": [
+            1990971,
+            1991000
+          ],
+          "body_characters": 0,
+          "text_sha256": "ed2d303152458e06ebb2d94c9650147d12dbc5dc75943ee7a0d7f1ec28094a65"
+        },
+        {
+          "page": 1002,
+          "range": [
+            1991000,
+            1991387
+          ],
+          "body_characters": 358,
+          "text_sha256": "6552ca72ac8bb75c83ed8dad2ce0b0c65fd78ac27ef2cb45f2190fd49e0e719c"
+        }
+      ],
+      "raw_or_extracted_text_archived": false
+    },
+    {
+      "id": "B015",
+      "path": "K少追女经验-我是这样追你老婆的.pdf",
+      "bytes": 4070188,
+      "git_blob_sha": "9d2fb4b94462ddd725c7f642e1d27b920ea5a66e",
+      "sha256": "457377f14e0cc25de7aa192fc90e115a44f8db96e0d2617457a52f04b1409106",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "file_pages": 24,
+      "notes": [
+        "knowledge/books/B015.md"
+      ],
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), physical file-page markers",
+        "characters": 6280,
+        "sha256": "220e6923e8f4be4b9c281bd421dd6d8d870e570e69bb1fb4c2ae5daf75275940",
+        "coordinates": "Unicode code points, half-open ranges, file-page markers included; excludes image text"
+      },
+      "actual_text_layer_read_chunks": [
+        [
+          0,
+          6280
+        ]
+      ],
+      "read_text_layer_file_pages": [
+        1,
+        24
+      ],
+      "new_direct_read_characters": 6280,
+      "new_visual_review_pages": [
+        1,
+        23
+      ],
+      "image_pages_excluded_from_reading": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        21,
+        22
+      ],
+      "image_objects_excluded": 19,
+      "image_exclusion_scope": "Private screenshot/photo content and underage-associated photo material are not read, OCRed, copied or summarized as cases; no factual private incidents published",
+      "new_ocr_pages": 0,
+      "entire_current_file_text_read": false,
+      "all_extractable_text_layer_read": true,
+      "original_publication_complete": false,
+      "adopted_new_daily_methods": 0,
+      "review_completed_for_supplied_text_layer": true,
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            868
+          ],
+          "body_characters": 842,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "24e7dda93948512f403b8c450b8844f0806f10dd7ac4f36d1d5672696302ad9b"
+        },
+        {
+          "page": 2,
+          "range": [
+            868,
+            1141
+          ],
+          "body_characters": 247,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "1fce749b1a496cfdd2432abe9a2d2353e6b80a8ccfd39b750eca9b80fb4f9eb7"
+        },
+        {
+          "page": 3,
+          "range": [
+            1141,
+            1253
+          ],
+          "body_characters": 86,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "9158dcce89ed66aa9219e09087ba0be9c5d7e5898d8973b9db3723a61dc544a4"
+        },
+        {
+          "page": 4,
+          "range": [
+            1253,
+            1286
+          ],
+          "body_characters": 7,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "979d5bff1adc5612d9f18b5311f02bdf87f15a5e66079974e3f3369ea146588f"
+        },
+        {
+          "page": 5,
+          "range": [
+            1286,
+            1379
+          ],
+          "body_characters": 67,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "3b3eee87f08b4301957796b577380983efa21b7005ca3d2c189334d7d86dbda9"
+        },
+        {
+          "page": 6,
+          "range": [
+            1379,
+            1484
+          ],
+          "body_characters": 79,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "f8d5a483a46c2aab64619c0437552191b680135a17069853c81444c208b654a7"
+        },
+        {
+          "page": 7,
+          "range": [
+            1484,
+            1531
+          ],
+          "body_characters": 21,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "ec3173939a41746aa9e131398b7625ad4668e2eb5655933687f08f2b9eb26ba5"
+        },
+        {
+          "page": 8,
+          "range": [
+            1531,
+            1646
+          ],
+          "body_characters": 89,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "2027558a6aba58c1337668a0c604d682f552316d55b2c95e8beb552ba89b09d8"
+        },
+        {
+          "page": 9,
+          "range": [
+            1646,
+            1672
+          ],
+          "body_characters": 0,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "fbb091d9d26123dbf2b2dbce0684d3eaa2f5cd6e7fdcd703d994e307be1e6790"
+        },
+        {
+          "page": 10,
+          "range": [
+            1672,
+            1699
+          ],
+          "body_characters": 0,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "ca68accefa71a36eb174b7d394d9de4be6de1f6babc05d89902eef9fad0423c8"
+        },
+        {
+          "page": 11,
+          "range": [
+            1699,
+            1837
+          ],
+          "body_characters": 111,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "4aa5e45ee44141d7794d8f0a9e9b560a086b947c423544641001e22568a96f7e"
+        },
+        {
+          "page": 12,
+          "range": [
+            1837,
+            1902
+          ],
+          "body_characters": 38,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "07b64a6a1baa248392510282b578426c85f4d2a02c118a0bfea227e4e5e9aa35"
+        },
+        {
+          "page": 13,
+          "range": [
+            1902,
+            1954
+          ],
+          "body_characters": 25,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "05ea75b83683aa7d74b4a9b8fded36a2834dd642ef22247ffd7210974115fd96"
+        },
+        {
+          "page": 14,
+          "range": [
+            1954,
+            1981
+          ],
+          "body_characters": 0,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "7af24ba1f7282852289b2d74ace27e8d80487fab6cc31e5775766f9a2a3d03c5"
+        },
+        {
+          "page": 15,
+          "range": [
+            1981,
+            2433
+          ],
+          "body_characters": 425,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "ec71dad2e6177809fd8e3927598ff2f939e9e75e7dfb45a617f04b62cfca68bc"
+        },
+        {
+          "page": 16,
+          "range": [
+            2433,
+            3531
+          ],
+          "body_characters": 1071,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "401a0cb8ce12ac388a70e1f661a21deede24803502570372e32bc974a814b341"
+        },
+        {
+          "page": 17,
+          "range": [
+            3531,
+            4217
+          ],
+          "body_characters": 659,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "204489995b8e1564a3c176e15e11e5806a9d33ec3d5409f09b5d2856ea521b76"
+        },
+        {
+          "page": 18,
+          "range": [
+            4217,
+            4286
+          ],
+          "body_characters": 42,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "3d45075b3e8bfd58c6fb783a3d5d29758c017113dfd46de578c4cbbce0e2b7cc"
+        },
+        {
+          "page": 19,
+          "range": [
+            4286,
+            4625
+          ],
+          "body_characters": 312,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "89390da1d16066474a2097d6a4d0ae451c5b05f4de50df64e17756762442f0ed"
+        },
+        {
+          "page": 20,
+          "range": [
+            4625,
+            5042
+          ],
+          "body_characters": 390,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "1e58d52ca048fe7a4008da1fb9c816a71a1750191a62f630ace915d7f8c28121"
+        },
+        {
+          "page": 21,
+          "range": [
+            5042,
+            5069
+          ],
+          "body_characters": 0,
+          "embedded_images": 1,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "5631f04e52fd02b26198abfd936ef7b16f97986244c2bf406e6d081afb08f804"
+        },
+        {
+          "page": 22,
+          "range": [
+            5069,
+            5096
+          ],
+          "body_characters": 0,
+          "embedded_images": 2,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "6d62d87ed5e85e38b697f357712392da43db032bd97cd9572826f60a3e76af24"
+        },
+        {
+          "page": 23,
+          "range": [
+            5096,
+            6091
+          ],
+          "body_characters": 968,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "059de8c76cc165b2e44074c61336c4826a982d3097c9ead7b609026d1a4fc2f9"
+        },
+        {
+          "page": 24,
+          "range": [
+            6091,
+            6280
+          ],
+          "body_characters": 162,
+          "embedded_images": 0,
+          "width": 612.0,
+          "height": 792.0,
+          "text_sha256": "58612c71c2ae049605eead9258bce031ff11fc382105ee4205032f51d349354f"
+        }
+      ],
+      "raw_or_extracted_text_archived": false
+    },
+    {
+      "id": "B016",
+      "path": "MACK把妹方法 - Dean Cortez.epub",
+      "bytes": 283166,
+      "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
+      "sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "spine_items": 22,
+      "notes": [
+        "knowledge/books/B016.md",
+        "knowledge/topics/real-self-expression.md"
+      ],
+      "extraction": {
+        "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+        "characters": 172067,
+        "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+        "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
+      },
+      "actual_read_chunks": [
+        [
+          0,
+          12267
+        ],
+        [
+          12267,
+          23791
+        ],
+        [
+          23791,
+          31961
+        ]
+      ],
+      "new_direct_read_characters": 31961,
+      "read_spine_items": [
+        1,
+        5
+      ],
+      "read_body_chapters": [
+        1,
+        3
+      ],
+      "front_matter_read": true,
+      "next_spine": 6,
+      "next_character": 31961,
+      "unread_characters": 140106,
+      "unread_spine_items": [
+        6,
+        22
+      ],
+      "entire_current_file_text_read": false,
+      "original_publication_complete": false,
+      "manifest_image_count": 0,
+      "spine_img_elements": 0,
+      "units": [
+        {
+          "spine": 1,
+          "path": "OEBPS/Text/1.html",
+          "range": [
+            0,
+            90
+          ],
+          "body_characters": 48,
+          "text_sha256": "5503ea3251da24f15ddfee3d7869c220e6a7fceadb2f209c7f882f35230f76d2",
+          "reading_status": "read"
+        },
+        {
+          "spine": 2,
+          "path": "OEBPS/Text/2.html",
+          "range": [
+            90,
+            4774
+          ],
+          "body_characters": 4642,
+          "text_sha256": "268f942162d2eed7a2ae1cca20a05cb2b50660a42ad588e381a1e08ae84eba24",
+          "reading_status": "read"
+        },
+        {
+          "spine": 3,
+          "path": "OEBPS/Text/3.html",
+          "range": [
+            4774,
+            12267
+          ],
+          "body_characters": 7451,
+          "text_sha256": "2f1b10a77f58b426b33ecf585b5ac1980eca3ff82037f7f9e19241474e43fb2c",
+          "reading_status": "read"
+        },
+        {
+          "spine": 4,
+          "path": "OEBPS/Text/4.html",
+          "range": [
+            12267,
+            15991
+          ],
+          "body_characters": 3682,
+          "text_sha256": "67b040aafb2ca9f2fd7fe7b01b7d874ff690c0f49d9ab66eb7ce7d96b6c7e504",
+          "reading_status": "read"
+        },
+        {
+          "spine": 5,
+          "path": "OEBPS/Text/5.html",
+          "range": [
+            15991,
+            31961
+          ],
+          "body_characters": 15928,
+          "text_sha256": "00380a0d0d4c85581734d4b07296f24d49c2ab15c4a86b51572485e4ab5a24cc",
+          "reading_status": "read"
+        },
+        {
+          "spine": 6,
+          "path": "OEBPS/Text/6.html",
+          "range": [
+            31961,
+            53019
+          ],
+          "body_characters": 21016,
+          "text_sha256": "e4b3e05f9bb7f03102f2862af0946aabeb788a405c8dc9129548e9a4039bd927",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 7,
+          "path": "OEBPS/Text/7.html",
+          "range": [
+            53019,
+            73122
+          ],
+          "body_characters": 20061,
+          "text_sha256": "e6caeadee0f5fa38a3ddc4536ba6ad76fa69f948713deb02b98dd8e7bb2a9288",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 8,
+          "path": "OEBPS/Text/8.html",
+          "range": [
+            73122,
+            79044
+          ],
+          "body_characters": 5880,
+          "text_sha256": "b934049009216ca712f152b1c06f23713a99d7a1b2fe0fc145459cbd7e13a347",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 9,
+          "path": "OEBPS/Text/9.html",
+          "range": [
+            79044,
+            90701
+          ],
+          "body_characters": 11615,
+          "text_sha256": "9be055e99879f5e4a6b7176942acf72e1bddf1dd63fdfff26900c79a39700202",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 10,
+          "path": "OEBPS/Text/10.html",
+          "range": [
+            90701,
+            101563
+          ],
+          "body_characters": 10818,
+          "text_sha256": "6051228dae3813f0fd005d3ca573e5de4c9a3f2eda57615efd2513afb1fcc255",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 11,
+          "path": "OEBPS/Text/11.html",
+          "range": [
+            101563,
+            105231
+          ],
+          "body_characters": 3624,
+          "text_sha256": "10b38b5e8edfd813da04bf287697fa7d17059bb0599efe46e9797f3ac5f17ffe",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 12,
+          "path": "OEBPS/Text/12.html",
+          "range": [
+            105231,
+            112928
+          ],
+          "body_characters": 7653,
+          "text_sha256": "52596dc926557fd257bddd0251a07155f659c839e4edccab4bf542b3b2c6977a",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 13,
+          "path": "OEBPS/Text/13.html",
+          "range": [
+            112928,
+            118677
+          ],
+          "body_characters": 5705,
+          "text_sha256": "7428c85f3d20d8c405bba7a892317016fba31dd12afbfcfc488e419c02bca66c",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 14,
+          "path": "OEBPS/Text/14.html",
+          "range": [
+            118677,
+            123429
+          ],
+          "body_characters": 4708,
+          "text_sha256": "bb1c94697f47a64db8fafbf94c9bf795e5a34fd7ce206bcea7ada251452cf0c6",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 15,
+          "path": "OEBPS/Text/15.html",
+          "range": [
+            123429,
+            127369
+          ],
+          "body_characters": 3896,
+          "text_sha256": "adfc89b7e894cfb608ae466d1a73a68793de0511fe66c002023de0b6ab005891",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 16,
+          "path": "OEBPS/Text/16.html",
+          "range": [
+            127369,
+            131370
+          ],
+          "body_characters": 3957,
+          "text_sha256": "ebdc47da7ea4821a91df5dbda23d6544de03e356a9a72511a607597e94320da6",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 17,
+          "path": "OEBPS/Text/17.html",
+          "range": [
+            131370,
+            140381
+          ],
+          "body_characters": 8967,
+          "text_sha256": "a5bea143b629c7c5efdf6522d3ca58bb13bb005393882e82c879b7761ec8c2b9",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 18,
+          "path": "OEBPS/Text/18.html",
+          "range": [
+            140381,
+            144889
+          ],
+          "body_characters": 4464,
+          "text_sha256": "947644521d1635761f8d7ec0a1d0759b4a347c3bdf62c272a26610e3f1dbde65",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 19,
+          "path": "OEBPS/Text/19.html",
+          "range": [
+            144889,
+            152665
+          ],
+          "body_characters": 7732,
+          "text_sha256": "ce2e2e6c1d44e3e91a42a1d32edf58d30d2c6691ebb882c20efcc783f88c10f5",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 20,
+          "path": "OEBPS/Text/20.html",
+          "range": [
+            152665,
+            156594
+          ],
+          "body_characters": 3885,
+          "text_sha256": "ecf0b528201bcae0880770a6e4c54dd8a6b39c41601597ec45bfdf4cafbef12c",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 21,
+          "path": "OEBPS/Text/21.html",
+          "range": [
+            156594,
+            170729
+          ],
+          "body_characters": 14091,
+          "text_sha256": "e768766948664b79dbab16e65fd4373554aa1448c7873d280551b814b2d93360",
+          "reading_status": "navigation_only_unread"
+        },
+        {
+          "spine": 22,
+          "path": "OEBPS/Text/22.html",
+          "range": [
+            170729,
+            172067
+          ],
+          "body_characters": 1294,
+          "text_sha256": "5acad2bae840df22350066551650cb2888d9c33d38eaae2ad16db2521b343ae4",
+          "reading_status": "navigation_only_unread"
+        }
+      ],
+      "raw_or_extracted_text_archived": false
+    }
+  ],
+  "research_checks": [
+    {
+      "doi": "10.1016/j.jesp.2013.03.017",
+      "title": "Taking turns: Reciprocal self-disclosure promotes liking in initial interactions",
+      "authors": [
+        "Sprecher, S.",
+        "Treger, S.",
+        "Wondra, J. D.",
+        "Hilaire, N.",
+        "Wallpe, K."
+      ],
+      "year": 2013,
+      "journal": "Journal of Experimental Social Psychology",
+      "volume": "49",
+      "issue": "5",
+      "pages": "860–866",
+      "metadata_checked_at": "https://api.crossref.org/works/10.1016%2Fj.jesp.2013.03.017",
+      "content_checked_at": "https://www.sciencedirect.com/science/article/abs/pii/S002210311300070X",
+      "read_scope": "publisher search-returned abstract; direct article page returned403; full text not read",
+      "full_text_read": false
+    },
+    {
+      "doi": "10.1002/ijop.12957",
+      "title": "Trusting strangers: The benefits of reciprocal self-disclosure during online computer-mediated communication and mediating role of interpersonal liking",
+      "authors": [
+        "Chen, Q.",
+        "Zhang, Q.",
+        "Zhao, S.",
+        "Li, C."
+      ],
+      "year": 2024,
+      "online_first": "2023-11-06",
+      "journal": "International Journal of Psychology",
+      "volume": "59",
+      "issue": "1",
+      "pages": "143–154",
+      "metadata_checked_at": [
+        "https://api.crossref.org/works/10.1002%2Fijop.12957",
+        "https://pubmed.ncbi.nlm.nih.gov/37931920/"
+      ],
+      "content_checked_at": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ijop.12957",
+      "read_scope": "publisher and PubMed metadata and abstract only; full URL redirected to abstract",
+      "full_text_read": false
+    }
+  ],
+  "new_direct_extractable_characters": 55695,
+  "new_book_files_completed": 0,
+  "new_book_files_started": [
+    "B015",
+    "B016"
+  ],
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B016",
+    "path": "MACK把妹方法 - Dean Cortez.epub",
+    "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
+    "bytes": 283166,
+    "spine_items": 22,
+    "reading_status": "provided_file_text_partial",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "start": "spine6start;chapter4;currentextraction31961;not_historical_174035_coordinates",
+    "next_spine": 6,
+    "next_character": 31961,
+    "current_extraction_identity": {
+      "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
+      "characters": 172067,
+      "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
+      "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
+    },
+    "file_sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
+    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+    "next_content_unit": "第四章 Mack风格Mack范儿（从时尚到激情）"
+  },
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    }
+  ],
+  "scope": "B014 bibliography continuation and separated back-matter samples; B015 available text layer with private images excluded; B016 title/preface/ch1-3; no full text or private media published"
+}
