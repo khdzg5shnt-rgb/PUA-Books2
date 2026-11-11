@@ -3,7 +3,7 @@
 截至2026-11-11，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B010七分册合订本](../knowledge/books/B010.md)644页现有可提取文字完成，共1164270字符、40段连续范围；48页视觉核对，另596页版面未逐页核。原始书库19/119份现有文字完成、0份部分、100份未开始；七分册仍只算一份文件，TOP30仍30/30。下一B011第1页；[最新报告](../knowledge/provenance/B010_completion_2026-11-11.md)。
+2026-11-11：[B011当前文件](../knowledge/books/B011.md)114页可提取文字顺读完成，155325字符、7段连续范围；26页视觉，另88页版面未逐页核。原始书库20/119份现有文字完成、0份部分、99份未开始；TOP30仍30/30。下一B012第1页；[最新报告](../knowledge/provenance/B011_completion_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -72,7 +72,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍文件和7项支持资料。当前19份现有文字覆盖完成、0份部分、100份未开始；B010七分册合订本按一份文件增加，独立原著和版式缺口另计。TOP30仍30条现有文字完成。下载、提取、建索引与内部有几分册均不能替代实际阅读范围。
+[原始目录](../knowledge/provenance/original-library-catalog.md)及[原始身份清单](../knowledge/provenance/source_inventory.json)记录119份书籍文件和7项支持资料。当前20份现有文字覆盖完成、0份部分、99份未开始；B011按一份原始文件增加，原著、版式与研究缺口另计。TOP30仍30条现有文字完成。下载、提取和建索引不能替代阅读。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

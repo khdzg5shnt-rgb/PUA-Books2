@@ -19,7 +19,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md) |
 
 <!-- E06_2026_11_10 -->
-2026-11-11：[B010七分册合订本](knowledge/books/B010.md)644页现有可提取文字完成，共1164270字符、40段连续范围；48页视觉核对，另596页版面未逐页核。原始书库19/119份现有文字完成、0份部分、100份未开始；七分册仍只算一份文件，TOP30仍30/30。下一B011第1页；[最新报告](knowledge/provenance/B010_completion_2026-11-11.md)。
+2026-11-11：[B011当前文件](knowledge/books/B011.md)114页可提取文字顺读完成，155325字符、7段连续范围；26页视觉，另88页版面未逐页核。原始书库20/119份现有文字完成、0份部分、99份未开始；TOP30仍30/30。下一B012第1页；[最新报告](knowledge/provenance/B011_completion_2026-11-11.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -28,7 +28,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前19/119份现有文字覆盖完成，0份部分、100份尚未开始。B010的644页文字顺读完成，另核48页版面，剩596页未逐页核；独立原著身份与版次未认证。B008/B009的版次与版面、B007、B003、B004、B006与B043/B092等既有限制保留。
+当前20/119份现有文字覆盖完成，0份部分、99份未开始。B011的114页文字顺读完成，26页视觉另核，剩88页版面未逐页核；原著身份与版次未认证。B010七分册仍按一份文件计，596页未核版式与缺图保留；B008/B009及其余已记录限制沿用。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

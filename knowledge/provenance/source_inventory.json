@@ -332,8 +332,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%20Secrets%20Defense%20Manipulation%2C%20Emotional%20Influence%2C%20Persuasion%2C%20Deception%2C%20Mind%20Control%2C%20Covert%20Nlp%2C...%20%28Susan%20Johnson%29%20.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B011.md",
       "pages": 114,
       "spine_items": null,
       "ocr": {
@@ -341,7 +341,21 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "cover_and_titlepage_checked;independent_author_identity_original_edition_unverified",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B011_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_all_current_pdf_extractable_text_and26_selected_visual_pages",
+        "scope": "physicalpages1-114;7 contiguous ranges;26renderedpages includingall21raster-imagepages;4detailedpages;88remaininglayouts;originaleditionuncertified",
+        "current_extraction": {
+          "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+          "characters": 155325,
+          "sha256": "6894a5eee1711c6bdc3e0330bee62347bcbc94ff02dd16f3261facb7507cb749",
+          "coordinates": "Unicode code points, half-open, physical file-page markers included; not old inventory coordinates"
+        },
+        "next_file_page": null,
+        "next_character": null
+      }
     },
     {
       "index": 12,

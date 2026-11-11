@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.5.0",
+  "version": "1.5.1",
   "methods": [
     {
       "id": "M01",
@@ -508,6 +508,11 @@
           "path": "knowledge/books/B010-influence.md",
           "locator": "接回截图与约会判断；物理页170、236–241、252–259：眼动、玩笑、距离与情境限制",
           "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B011-persuasion-deception.md",
+          "locator": "物理页43、59–61取舍：感官/性别标签、眼神与紧张不单独证明心理或撒谎",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -737,6 +742,11 @@
           "path": "knowledge/books/B010-emotions.md",
           "locator": "物理页531–537、565取舍：真实分享、边界与不强加支持",
           "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B011-control-brainwashing.md",
+          "locator": "物理页78–86取舍：真实分享，不编经历或以吸引等同隐蔽控制",
+          "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",
@@ -748,7 +758,7 @@
       "name": "接住困扰",
       "use_when": "她在表达委屈、疲惫、焦虑或难过，而非开玩笑",
       "operation": "回应她已表达的事情与感受，理解感受不等于判谁对错；未说清的情绪仅作可纠正推测。她不想谈或否认时不追问；明确求建议或有紧要事务时优先回应实际需要。 优先承接她已说出的具体内容，不用固定“我懂你”替代倾听，也不擅自加重她的情绪。",
-      "avoid": "读心、诊断、替第三方开脱或先问她做错什么；强迫求证情绪、反省或完成咨询流程。不要否认感受、强行安排身体安慰或趁困扰升级暧昧；明确求办法时先回应实际需要。",
+      "avoid": "读心、诊断、替第三方开脱或先问她做错什么；强迫求证情绪、反省或完成咨询流程。不要否认感受、强行安排身体安慰或趁困扰升级暧昧；明确求办法时先回应实际需要。 不通过超过她的情绪强度或强行积极来证明理解。",
       "sources": [
         {
           "path": "knowledge/books/G01-lianai.md",
@@ -793,6 +803,11 @@
         {
           "path": "knowledge/books/B010-difficult-people.md",
           "locator": "接回当前一轮；物理页632–640：承接已说出的具体困难，不凭套话或加重情绪",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B011-defense-empathy.md",
+          "locator": "用于承接困扰；物理页33–37取舍：具体倾听，不以更强情绪或强行积极证明理解",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1253,7 +1268,7 @@
       "id": "M21",
       "name": "有依据的修复",
       "use_when": "截图明确显示某个具体言行造成误解或伤害，用户要修复",
-      "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。 已确认失约或责任时，说清能够兑现的一项调整，后续按约做；不以信心、保证或转移话题替代兑现。",
+      "operation": "只承认能确认的具体言行与影响，说明可执行的改法；理解、陪伴与认错分开。事实不清不揽成自己全错，也不以提问暗示用户或对方一定有错。 需要澄清时可说具体事件、自己真实感受/需要与一项可执行请求；“我感觉你不在乎我”仍是解释，不能当已核事实。 已确认失约或责任时，说清能够兑现的一项调整，后续按约做；不以信心、保证或转移话题替代兑现。 道歉后看具体行动；原谅与继续关系由本人决定。",
       "avoid": "无事实让用户自责；把被不尊重、出轨或受伤归为共情不足、眼光差、个人价值低；长篇自证或用暧昧绕过真实问题。 不把相关重复失约或已确认责任一概当作翻旧账。 不把已确认施害责任转给受害者、父母或某性别，不凭家庭叙事诊断人格。",
       "sources": [
         {
@@ -1324,6 +1339,11 @@
         {
           "path": "knowledge/books/B010-gaslighting.md",
           "locator": "物理页429–438、459–460取舍：具体责任、不自动归责、不强制原谅",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B011-origins-apology.md",
+          "locator": "用于当前修复；物理页21–24取舍：具体责任、后续行动和本人选择，不强制原谅",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],
@@ -1421,6 +1441,11 @@
         {
           "path": "knowledge/books/B010-v1.md",
           "locator": "物理页86–89及日常取舍：可拒绝与自己的参与，非让别人服从",
+          "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "knowledge/books/B011-defense-empathy.md",
+          "locator": "用于当前边界；物理页25–32取舍：真实拒绝、参与范围与单次措辞的证据边界",
           "kind": "critical_source_notes_not_empirical_validation"
         }
       ],

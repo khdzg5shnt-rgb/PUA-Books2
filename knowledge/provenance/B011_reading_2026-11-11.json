@@ -1,0 +1,1811 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B011-text-completion-2026-11-11",
+  "baseline_main": "8fb0004f665558972a52d65e5337b778369bfc8e",
+  "scope": "current extractable filetext read in7 ordered ranges,26selectedvisualpages;notindependent-originaledition/all-layout/all-claims-certification",
+  "records": [
+    {
+      "id": "B011",
+      "path": "Dark Psychology Secrets Defense Manipulation, Emotional Influence, Persuasion, Deception, Mind Control, Covert Nlp,... (Susan Johnson) .pdf",
+      "bytes": 1974564,
+      "git_blob_sha": "584fcdbc346268c2c0170ef35a9b8d2acc93e8d7",
+      "sha256": "bcfb5a7aaf6170065eee5a79aff96ae837ab55e35e8defe94bf76c0bc1aafb4d",
+      "file_pages": 114,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_complete",
+      "notes": [
+        "knowledge/books/B011.md",
+        "knowledge/books/B011-origins-apology.md",
+        "knowledge/books/B011-defense-empathy.md",
+        "knowledge/books/B011-persuasion-deception.md",
+        "knowledge/books/B011-control-brainwashing.md",
+        "knowledge/books/B011-hypnosis-tail.md",
+        "knowledge/books/B011-evidence.md"
+      ],
+      "original_publication_complete": false,
+      "version_limit": "cover Secrets, titlepage Secret, file names Susan Johnson and2019; independent author identity/publisher/ISBN/original-edition completeness not certified",
+      "extraction": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 155325,
+        "sha256": "6894a5eee1711c6bdc3e0330bee62347bcbc94ff02dd16f3261facb7507cb749",
+        "coordinates": "Unicode code points, half-open, physical file-page markers included; not old inventory coordinates"
+      },
+      "read_file_pages": [
+        1,
+        114
+      ],
+      "read_range": [
+        0,
+        155325
+      ],
+      "actual_read_chunks": [
+        [
+          0,
+          22000
+        ],
+        [
+          22000,
+          44000
+        ],
+        [
+          44000,
+          66000
+        ],
+        [
+          66000,
+          88000
+        ],
+        [
+          88000,
+          110000
+        ],
+        [
+          110000,
+          132000
+        ],
+        [
+          132000,
+          155325
+        ]
+      ],
+      "new_direct_read_characters": 155325,
+      "next_file_page": null,
+      "next_character": null,
+      "unread_file_pages": [],
+      "visual_review_pages": [
+        1,
+        2,
+        4,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        24,
+        25,
+        33,
+        38,
+        41,
+        52,
+        59,
+        67,
+        70,
+        80,
+        87,
+        91,
+        100,
+        104,
+        106,
+        109,
+        114
+      ],
+      "detailed_visual_pages": [
+        13,
+        24,
+        25,
+        104
+      ],
+      "all_pages_visually_reviewed": false,
+      "unreviewed_layout_pages": 88,
+      "embedded_image_pages": [
+        1,
+        9,
+        11,
+        15,
+        17,
+        19,
+        25,
+        33,
+        38,
+        41,
+        52,
+        59,
+        67,
+        70,
+        80,
+        87,
+        91,
+        100,
+        106,
+        109,
+        114
+      ],
+      "all_embedded_raster_image_pages_reviewed": true,
+      "visual_findings": [
+        "p1 cover plural Secrets; p2 title singular Secret and2019 Susan Johnson; original author identity/edition not externally certified",
+        "all21 raster-image pages inspected; covers and illustrative photos/stock-style images, NLP letters, lie-detection prompt, publisher/source footer; not experimental evidence",
+        "p13 extraY/high-testosterone assertion confirmed in actual page, not silently repaired",
+        "p24 innocent-or-guilty apology and always-forgive demands confirmed in page",
+        "p25 offender not to let you go wording visually confirmed as supplied; not corrected into advice",
+        "p104 direct tissue/organ enlargement claims confirmed in page; no clinical evidence supplied",
+        "p114 source/promotion marks not followed, executed or treated as authority;26pages visual,88remaininglayouts not individually inspected"
+      ],
+      "raw_or_extracted_text_archived": false,
+      "editorial_units": [
+        {
+          "id": "Front",
+          "topic": "卷前与目录",
+          "file_pages": [
+            1,
+            5
+          ],
+          "current_extraction_range": [
+            0,
+            2670
+          ],
+          "characters": 2670,
+          "note": "knowledge/books/B011.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        },
+        {
+          "id": "Origins",
+          "topic": "概念、恐惧与道歉",
+          "file_pages": [
+            6,
+            24
+          ],
+          "current_extraction_range": [
+            2670,
+            28077
+          ],
+          "characters": 25407,
+          "note": "knowledge/books/B011-origins-apology.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        },
+        {
+          "id": "Defense",
+          "topic": "边界与承接困扰",
+          "file_pages": [
+            25,
+            37
+          ],
+          "current_extraction_range": [
+            28077,
+            46578
+          ],
+          "characters": 18501,
+          "note": "knowledge/books/B011-defense-empathy.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        },
+        {
+          "id": "Persuasion",
+          "topic": "说服、研究欺瞒与识谎",
+          "file_pages": [
+            38,
+            66
+          ],
+          "current_extraction_range": [
+            46578,
+            88059
+          ],
+          "characters": 41481,
+          "note": "knowledge/books/B011-persuasion-deception.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        },
+        {
+          "id": "Control",
+          "topic": "控制、NLP与洗脑叙述",
+          "file_pages": [
+            67,
+            99
+          ],
+          "current_extraction_range": [
+            88059,
+            136635
+          ],
+          "characters": 48576,
+          "note": "knowledge/books/B011-control-brainwashing.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        },
+        {
+          "id": "Hypnosis",
+          "topic": "催眠、结尾与来源尾页",
+          "file_pages": [
+            100,
+            114
+          ],
+          "current_extraction_range": [
+            136635,
+            155325
+          ],
+          "characters": 18690,
+          "note": "knowledge/books/B011-hypnosis-tail.md",
+          "current_extractable_text_read": true,
+          "editorial_partition_not_author_numbered_chapters": true
+        }
+      ],
+      "unique_original_theories_or_cases_not_asserted": true,
+      "display_normalization": {
+        "kind": "readability-only one-codepoint visual homoglyph map; primary raw extracted text and coordinates preserved",
+        "script": "scratch helper read_b011.py",
+        "raw_primary_characters": 155325,
+        "not_silent_spelling_or_grammar_repair": true,
+        "one_codepoint_map": {
+          "а": "a",
+          "с": "c",
+          "е": "e",
+          "і": "i",
+          "о": "o",
+          "р": "p",
+          "ѕ": "s",
+          "у": "y",
+          "х": "x",
+          "А": "A",
+          "В": "B",
+          "Е": "E",
+          "К": "K",
+          "М": "M",
+          "Н": "H",
+          "О": "O",
+          "Р": "P",
+          "С": "C",
+          "Т": "T",
+          "Х": "X",
+          "ј": "j",
+          "Ј": "J",
+          "ԛ": "q",
+          "Ԛ": "Q",
+          "Ь": "b",
+          "Ѕ": "S",
+          "У": "Y"
+        },
+        "scope": "first range0-22000 observed raw; remaining ranges observed through one-codepoint visual map; original characters/hashes unchanged; origin or intent of mixed codepoints unknown"
+      },
+      "input_output_truncation_recovery": "all7 sequential book ranges returned completely and read before acknowledgement; later combined metadata/search output truncation was outside book reading and relevant definitions/method fields were separately recovered",
+      "page_reading": [
+        {
+          "page": 1,
+          "range": [
+            0,
+            26
+          ],
+          "body_characters": 0,
+          "images": 1,
+          "drawings": 0,
+          "text_sha256": "33ae7f42280000fd67ba425861a3f6bd217da44e5b587b8f7c760e9043e59d0c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 2,
+          "range": [
+            26,
+            347
+          ],
+          "body_characters": 295,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8a9ab05370ec13fc80336510b109a6b391ce4590635710185a2ee7ba4e8b77e8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 3,
+          "range": [
+            347,
+            1933
+          ],
+          "body_characters": 1560,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9eb226c4e36b37e5b52e7c89df6e96ba5e4daf3f13966456a0c21f49cf330e3f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 4,
+          "range": [
+            1933,
+            2634
+          ],
+          "body_characters": 675,
+          "images": 0,
+          "drawings": 43,
+          "text_sha256": "572800d3498129d26fef85b1dae42c27d9179b4960e960d035b16a56fa7a6d2b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 5,
+          "range": [
+            2634,
+            2670
+          ],
+          "body_characters": 10,
+          "images": 0,
+          "drawings": 3,
+          "text_sha256": "4583d4d4b1683656e923179d28c7914928d4f33e3193a84b9d2d14a953dee780",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 6,
+          "range": [
+            2670,
+            4310
+          ],
+          "body_characters": 1614,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "4c33e6f1343cc44637b2f12f578ab618ed5594266bc5ece368491c688a71162e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 7,
+          "range": [
+            4310,
+            6004
+          ],
+          "body_characters": 1668,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "bfe584700217b5f4296347ae02c5e4fbeb5c796e8022e38cfb9d70a98286a1c1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 8,
+          "range": [
+            6004,
+            7489
+          ],
+          "body_characters": 1459,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a1de4158697fb814b1bbc572b8314d02553064d9977aace36746f257756d117f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 9,
+          "range": [
+            7489,
+            8211
+          ],
+          "body_characters": 696,
+          "images": 1,
+          "drawings": 2,
+          "text_sha256": "c32e4ce662430a8f535361af639e8edb713719a2d2fded72879eaf242a30cf6a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 10,
+          "range": [
+            8211,
+            9278
+          ],
+          "body_characters": 1040,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "e405b8475e377cdb86242902b4bcc52b9a228f27a20935409421670da429cf81",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 11,
+          "range": [
+            9278,
+            10285
+          ],
+          "body_characters": 980,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "465e25c6330c12b52939ae4c15bce37a3b59cd7a87b72b52472bbb647532acb3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 12,
+          "range": [
+            10285,
+            12138
+          ],
+          "body_characters": 1826,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "96e4268399e0f2424dbc2dcd20e1f993985f85fe75cffa256bcea98ad56d87e6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 13,
+          "range": [
+            12138,
+            14072
+          ],
+          "body_characters": 1907,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "01a0b2006efff3190bc4f990b0f1bf9ea4f29abe8387021bae8e417b6122e903",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 14,
+          "range": [
+            14072,
+            14303
+          ],
+          "body_characters": 204,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "197494a263eb59507ebed4395b048a8d717e7800c369f8509476613192f6888f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 15,
+          "range": [
+            14303,
+            15223
+          ],
+          "body_characters": 893,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "5b23b690377f6065fd77ad1bb1309e2898b6332aa4de67458f560e6d5694b124",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 16,
+          "range": [
+            15223,
+            16390
+          ],
+          "body_characters": 1140,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d7ec9123dba82b3d31852e1fc2758c02a6d8ccd39bf0924431b4c17c789e089d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 17,
+          "range": [
+            16390,
+            17323
+          ],
+          "body_characters": 906,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "37d8935026069d27f968922d8910264a86cfc882d343ca5dda0ae5b547f0df5e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 18,
+          "range": [
+            17323,
+            18463
+          ],
+          "body_characters": 1113,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "807abe0bc3b82f853df93ce24229d36ed34d929f3870b1d18293476ff1a98b8c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 19,
+          "range": [
+            18463,
+            19325
+          ],
+          "body_characters": 835,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "1d1c24203ab279934bef97e09954d020b21d59e5a98a44ca7fe63f84c8a8b176",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 20,
+          "range": [
+            19325,
+            20982
+          ],
+          "body_characters": 1630,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5edbfcd2c853dc6cb861e0c0ae3e561ae683d40212b83783017f5c1db90103f6",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 21,
+          "range": [
+            20982,
+            22874
+          ],
+          "body_characters": 1865,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a0d15a49b61ab6c6c72fbd68ff5035f0465d207cb29f4587912edbbcf58cf98a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 22,
+          "range": [
+            22874,
+            24720
+          ],
+          "body_characters": 1819,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "78cc59642a23ffdaacece5c2be38c5c56e690c0f93d918c85567b6c9251ed848",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 23,
+          "range": [
+            24720,
+            26571
+          ],
+          "body_characters": 1824,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "21f56504f31886bda63ef00cbadfb87fdc90f9f009c5bf9591571fb231c39c08",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 24,
+          "range": [
+            26571,
+            28077
+          ],
+          "body_characters": 1479,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "172b2ac7f5678da4147b4de7a79d310c15a40eee632777e83c5f72285c11bd72",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 25,
+          "range": [
+            28077,
+            28957
+          ],
+          "body_characters": 853,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "11f60404c7155a8803f70f0f573c549d80dd76b899d2becafcb2bda256bac8f4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 26,
+          "range": [
+            28957,
+            30799
+          ],
+          "body_characters": 1815,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "faf24595918ddb5de5af7cf8dc59475ff2aed166f6f0564114ad27a13a733729",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 27,
+          "range": [
+            30799,
+            32552
+          ],
+          "body_characters": 1726,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "bab5cf2a23758312733bd50260f51ad4e07e194b4e84389b542bd14347aa5f1f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 28,
+          "range": [
+            32552,
+            34482
+          ],
+          "body_characters": 1903,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a77e0dac75700263992f62a78cf6b2deffafbf27ca8bc340058d81c4a7fcfa60",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 29,
+          "range": [
+            34482,
+            36051
+          ],
+          "body_characters": 1542,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "75001acbeaae53ac8565fbd4b6cf38f8ee78c6221d437d759059ce856f7e0def",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 30,
+          "range": [
+            36051,
+            37411
+          ],
+          "body_characters": 1333,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8103f775f47d4a5bad9db6f9842415ba9c54db17c0cea9bf98fcf4188b85da2d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 31,
+          "range": [
+            37411,
+            39046
+          ],
+          "body_characters": 1608,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a2730e57b9cea03ae8c2b5cfe7e569140fce877071fe7df2aece39ed7de5b1c1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 32,
+          "range": [
+            39046,
+            39349
+          ],
+          "body_characters": 276,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "688e3605a866ae9c354dd88027860d98d06633dbe106622229021b5a33101366",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 33,
+          "range": [
+            39349,
+            40237
+          ],
+          "body_characters": 861,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "3bdc5209dfbd70d06b11d599357d6ad555609c49b7aa897834586c6e7cf85628",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 34,
+          "range": [
+            40237,
+            42029
+          ],
+          "body_characters": 1765,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "83cc5895eb427990116581611dbb87d12ae52fc123a598c88b1bf9d6f3e4c832",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 35,
+          "range": [
+            42029,
+            43933
+          ],
+          "body_characters": 1877,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "23f3876ea3d8361c2a83252823745d4d834bb76b84a61c581997746c025eaddc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 36,
+          "range": [
+            43933,
+            45716
+          ],
+          "body_characters": 1756,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8dc7d0b903504651fd55ee5bdab47210e273bcf1d9b596cf9150322f65f608aa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 37,
+          "range": [
+            45716,
+            46578
+          ],
+          "body_characters": 835,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "36969c2a590b518a098f8f3582c67d431c957000b742d7f48a3f003ee95950a5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 38,
+          "range": [
+            46578,
+            47418
+          ],
+          "body_characters": 813,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "83cd23f8fd966c52f1ffd0307eeedd6651a960e8772089470d26d4ea77b38aef",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 39,
+          "range": [
+            47418,
+            49348
+          ],
+          "body_characters": 1903,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d88c95d8e8a2bd63dbe2539ed82cd8746637ec53840d2ae60cf1b6ad3f25fc32",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 40,
+          "range": [
+            49348,
+            49941
+          ],
+          "body_characters": 566,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "f6e7b82d3d87bd4ecac72ebf9ae272f524cf581e86e93895fd24949f2d0c100a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 41,
+          "range": [
+            49941,
+            50867
+          ],
+          "body_characters": 899,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "dccb9552277d087a2954c639400d80b0c8abcd403bb55bd0c6a3b34b420ff2e4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 42,
+          "range": [
+            50867,
+            52301
+          ],
+          "body_characters": 1407,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a763d59e9893710f26e460107ce505cff14aad926ac5c40c54fc08e36dff7de7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 43,
+          "range": [
+            52301,
+            54042
+          ],
+          "body_characters": 1714,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "7fa3cde12fcd400193973f70013acd279901232af2d3e26ba300101ecfa95616",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 44,
+          "range": [
+            54042,
+            55634
+          ],
+          "body_characters": 1565,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "49853c0f0486d788e94109a9a914526833e26c5fef52cb203c43f069beb4d774",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 45,
+          "range": [
+            55634,
+            57257
+          ],
+          "body_characters": 1596,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9a227e248b77e198d137bfa9670ffbfe610acc08d4a8869d7e9b9195a7944eed",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 46,
+          "range": [
+            57257,
+            58937
+          ],
+          "body_characters": 1653,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d0e7a8a3a1b752e2ad4d407a0cbacf504bcf92f0a9cdcce6e21159e952670db0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 47,
+          "range": [
+            58937,
+            60839
+          ],
+          "body_characters": 1875,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "0b023a53254fc0384c72beb3ba9322cff84756ad6469e9c30c70d213460de264",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 48,
+          "range": [
+            60839,
+            62717
+          ],
+          "body_characters": 1851,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8f15410ebd639fd583f616958566deedd052f866bd4e213ff4e7f2217ba953a1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 49,
+          "range": [
+            62717,
+            64442
+          ],
+          "body_characters": 1698,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "6cc5342b5f381ccd726f254fade717b6011f1cb5b1cc53f0614373500e9dea7a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 50,
+          "range": [
+            64442,
+            65991
+          ],
+          "body_characters": 1522,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "c0c05bcb39ff856ebba09dcc85d91f7ce6ce2544ddaaa245a9c4536cf6efb271",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 51,
+          "range": [
+            65991,
+            66365
+          ],
+          "body_characters": 347,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a8b61480887c7eaa04c8ee7ad424433b0cd2d6fabbb2f052a6edf3eed020e23f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 52,
+          "range": [
+            66365,
+            67395
+          ],
+          "body_characters": 1003,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "22800af1c4cfafaa8ece647c6092bb9d040abe96a7b88c50b26a23886b146b73",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 53,
+          "range": [
+            67395,
+            69133
+          ],
+          "body_characters": 1711,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "7dd228422c46f45dadaa0cdc132ef3c745fe1de46b6ad8fb4ade03cd646e49e2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 54,
+          "range": [
+            69133,
+            70851
+          ],
+          "body_characters": 1691,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "aeccf002a002f75673ab2b6d4143f8715dcf8b5d0ac0409e573478c255dc023f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 55,
+          "range": [
+            70851,
+            72544
+          ],
+          "body_characters": 1666,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "0e842313dbbc387dfa774c73b99dace2e5535132062b59af5c82050bc4c8cd4e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 56,
+          "range": [
+            72544,
+            74297
+          ],
+          "body_characters": 1726,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "519147db051e91cf2869aed6204a6d37a1537603d0a2fa3319b93cf686bbe9e8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 57,
+          "range": [
+            74297,
+            75630
+          ],
+          "body_characters": 1306,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "ae2dff7ced867f125aca7c807b7a7be92aa1db4ef2ed5cec534a827c61fdd95c",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 58,
+          "range": [
+            75630,
+            76167
+          ],
+          "body_characters": 510,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5a71c713cf4aa4e674144633c5c922fc9d521352671c6b685266ea22dc370b46",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 59,
+          "range": [
+            76167,
+            77295
+          ],
+          "body_characters": 1101,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "8abec09ae2a53334adcecfe2ecb2222e54f68445c37e6efd6d62954073f114c2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 60,
+          "range": [
+            77295,
+            79168
+          ],
+          "body_characters": 1846,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "fab97eff0118a4d9b8a5c3180adc2929a5e9bf6d9ac5b251e593ca69a82394fa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 61,
+          "range": [
+            79168,
+            80909
+          ],
+          "body_characters": 1714,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "29c55c54d8b665856cea4fbb0baea4e97b29f4db1938ee2ab7cec2775ca7d6c7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 62,
+          "range": [
+            80909,
+            82594
+          ],
+          "body_characters": 1658,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a9d2234edd8411116a7e3d0cfa6016335ca6d84fea6a36aee6909133c3a9efa0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 63,
+          "range": [
+            82594,
+            84478
+          ],
+          "body_characters": 1857,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9ec4b9dad7c865aeea1fd368ad79ed76de1648f8c6236afa86f0bce13b0491d2",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 64,
+          "range": [
+            84478,
+            86011
+          ],
+          "body_characters": 1506,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "22dfa87f3e5d2d53f4fdce2c8ffd94cef5eb7c845613d3618112c2f4cef15e61",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 65,
+          "range": [
+            86011,
+            87615
+          ],
+          "body_characters": 1577,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "bb6053ad5c3587692e9c995720ebdffca5f26aa1a7122f37a49442c993bd0d79",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 66,
+          "range": [
+            87615,
+            88059
+          ],
+          "body_characters": 417,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9eadb9ae8f27a256b59f11e35ff1b92421f5d49db2eb541b23c6226d2847762d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 67,
+          "range": [
+            88059,
+            88957
+          ],
+          "body_characters": 871,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "ef1603d9843e4c6a78d68c838c5ff1f2376bcd4a195dfce9d9762ff4e6e917d8",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 68,
+          "range": [
+            88957,
+            90656
+          ],
+          "body_characters": 1672,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "3b69dd57afdc20b11081b2a0f6bfacbfcbcc907d68db7454a5fe8b1546367902",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 69,
+          "range": [
+            90656,
+            91270
+          ],
+          "body_characters": 587,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "9840c270806720f41d94e6259c6778da93095331932c5b9038c38f66d072c236",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 70,
+          "range": [
+            91270,
+            92297
+          ],
+          "body_characters": 1000,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "c4643a178bcb8f6e83cdb51d2ef04e63d3e86b75edc529b5416f429525b265a0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 71,
+          "range": [
+            92297,
+            94103
+          ],
+          "body_characters": 1779,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "33afcb2456f7baa1381c449bbd1bb6760ee2caac191df2141b0a029d9f55d873",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 72,
+          "range": [
+            94103,
+            95884
+          ],
+          "body_characters": 1754,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "eeb14dc3f830a0e15c67169fd0e2d25abdb5b24572d62b9119807b443cefa736",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 73,
+          "range": [
+            95884,
+            97753
+          ],
+          "body_characters": 1842,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "169603083a809e7976677725a6b2df9e0a6abc159946c5d06c0afc545c97958e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 74,
+          "range": [
+            97753,
+            99153
+          ],
+          "body_characters": 1373,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "705bdb69d7a91ed0bb416fed9a05386292d918f38fe5675b2e50383a07d45e26",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 75,
+          "range": [
+            99153,
+            100600
+          ],
+          "body_characters": 1420,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a2c0846138d44263a6b156dd38208eeef007ec2bf84885fa166c0a019b045330",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 76,
+          "range": [
+            100600,
+            102358
+          ],
+          "body_characters": 1731,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "807836c4f16be9d60ecebefc5a9922583bc37d3a3b1bd2ee1e055eb8a08d7345",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 77,
+          "range": [
+            102358,
+            103928
+          ],
+          "body_characters": 1543,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "21d5f6348e5b82fe0bf2be2c0884a3d92313483645b6e7f0411bc4cb24addca5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 78,
+          "range": [
+            103928,
+            105620
+          ],
+          "body_characters": 1665,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "8ffa3c1bea9aa97c008d793ef33815ee2d0c3f512f1e196b7a8d98ecc58b57a7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 79,
+          "range": [
+            105620,
+            106732
+          ],
+          "body_characters": 1085,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "026d98e2d398ff66100996b530e87000e5a1f4f00d6d23db340638e5c4937d73",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 80,
+          "range": [
+            106732,
+            107763
+          ],
+          "body_characters": 1004,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "0cfb210fe8c81898844f53021b32126f7cd5e7f341a1d22818a9241c4686b94f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 81,
+          "range": [
+            107763,
+            109610
+          ],
+          "body_characters": 1820,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "ce00dd331c0bb096ea86d54c406618f2431c25f8075e75d9e2a9650b677ee2c3",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 82,
+          "range": [
+            109610,
+            111392
+          ],
+          "body_characters": 1755,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "788592abec4e0720c9c28ffd057166a00c744d82fbbbd9181426283b07ec7bc7",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 83,
+          "range": [
+            111392,
+            113213
+          ],
+          "body_characters": 1794,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "d23bd1fdc8076f97f9ffd9e55b6b094f6eb3f7667aa22276ea17545e821669bf",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 84,
+          "range": [
+            113213,
+            114787
+          ],
+          "body_characters": 1547,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5a7cf07dfbf148151bf6dfca531c9740c1add1240197ace5943cda81d2803d96",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 85,
+          "range": [
+            114787,
+            116649
+          ],
+          "body_characters": 1835,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5dd2b80fae134c40814d1a7c23586a8d307f099d5251a5e2e6d9ad4ddf2d7d8a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 86,
+          "range": [
+            116649,
+            117005
+          ],
+          "body_characters": 329,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "1ad711ac2f5fb9045383d3976df23ee49f46223e7651d2b379bd8899d7561bca",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 87,
+          "range": [
+            117005,
+            117744
+          ],
+          "body_characters": 712,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "7fa8dff2cce648a3a8af6c075074bcb2c900b6136edd47513ee816ebb72204e0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 88,
+          "range": [
+            117744,
+            119478
+          ],
+          "body_characters": 1707,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "14c54899b5fa701551afb5989cd74ade1f21b63b6416043b8ae883775967983b",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 89,
+          "range": [
+            119478,
+            121273
+          ],
+          "body_characters": 1768,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "1773d5bda1614fae7bfb2e930326fbfa90406508bd1063ac7aa1eb4238752a9d",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 90,
+          "range": [
+            121273,
+            122585
+          ],
+          "body_characters": 1285,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "04e1652595c5e2cf068a317f5fef080f389625f102d2547de2e477785cb0de70",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 91,
+          "range": [
+            122585,
+            123664
+          ],
+          "body_characters": 1052,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "adcced906a67708f735c4ceaec101042819db78f26e14bda944efc79a6ce93cc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 92,
+          "range": [
+            123664,
+            125460
+          ],
+          "body_characters": 1769,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a3af0bac85870b6ffaa13e4a398cd176b61b4f90d32d1b4d9d4515cf6f7b7465",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 93,
+          "range": [
+            125460,
+            126973
+          ],
+          "body_characters": 1486,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "5026b40cda67cae2316f88f1b88d14323ced33fd9ee08cce9ec1b89e6d8a713a",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 94,
+          "range": [
+            126973,
+            128674
+          ],
+          "body_characters": 1674,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "fb2e737fbbacdb697ca130cfe35544d4a5488959032b8d1fc91635302309c031",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 95,
+          "range": [
+            128674,
+            130385
+          ],
+          "body_characters": 1684,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "f9681f771b98ee78eb6d6d4aa10f9bc1fffc00e2785de8f722870aed2d503a26",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 96,
+          "range": [
+            130385,
+            132219
+          ],
+          "body_characters": 1807,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a6e18952c40e609af2bede396372ce33da5e97717788992ecc6d1f8c808fc4c5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 97,
+          "range": [
+            132219,
+            133980
+          ],
+          "body_characters": 1734,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "125854477ad6ca4c6ebfa1d0410da645c3e0d7fc5dfb6d9d120ad70a2a1c6ec5",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 98,
+          "range": [
+            133980,
+            135743
+          ],
+          "body_characters": 1736,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "eac0a311f514e7d2bb55b74733db4a425e24c9695bf5a2d97388d7d606ded7f1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 99,
+          "range": [
+            135743,
+            136635
+          ],
+          "body_characters": 865,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "bb43daf546c47481edb5e2574c74974f32cbed1787f9a684d8f22d5cf942ac77",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 100,
+          "range": [
+            136635,
+            137569
+          ],
+          "body_characters": 906,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "9fdae0777902c657ef8476510f368e8f6a1a0ea65f360892987ad38e678c73aa",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 101,
+          "range": [
+            137569,
+            139228
+          ],
+          "body_characters": 1631,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "4f946230f0fe28845fc119fef22b5c42f9b6601eff2a386f89b8eb42030c5169",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 102,
+          "range": [
+            139228,
+            141111
+          ],
+          "body_characters": 1855,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "1625052dd74f47564518070e42f0d7acd93533ea752cff3f446842db786012d9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 103,
+          "range": [
+            141111,
+            142600
+          ],
+          "body_characters": 1461,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "a7e28ae12056433fcae3d08d9d26f03d66de30a3f3d12cffa4cccecf8c73aee1",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 104,
+          "range": [
+            142600,
+            144303
+          ],
+          "body_characters": 1675,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "3ed562b0180ca880a48658fd573f97e89ab70689932f8068858a4a74ed5dfee0",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 105,
+          "range": [
+            144303,
+            145744
+          ],
+          "body_characters": 1413,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "6eb315f2ab306d6c667d4b190c06d140738e98b467a5b8f1170101297b43c8dc",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 106,
+          "range": [
+            145744,
+            146654
+          ],
+          "body_characters": 882,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "45e8fae333b75fc46fb72c88e33dbcceb11685dca86cffa5f252e84fe6c8e070",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 107,
+          "range": [
+            146654,
+            148304
+          ],
+          "body_characters": 1622,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "21bc74c969003b0fa9cb64cb3fc26a1c5f46fc8afd222e95fb0275150ed0ecff",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 108,
+          "range": [
+            148304,
+            149821
+          ],
+          "body_characters": 1489,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "f5dc5b6ffe074b12b5ddde6a3546fafbc8a27088ab5378481cd0c8784e41e69e",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 109,
+          "range": [
+            149821,
+            150677
+          ],
+          "body_characters": 828,
+          "images": 1,
+          "drawings": 1,
+          "text_sha256": "4e9754f0bdb9889fd9400892dfd5e7e0f3c6e895fbeedb67bb463c82336f97c4",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        },
+        {
+          "page": 110,
+          "range": [
+            150677,
+            151588
+          ],
+          "body_characters": 883,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "344b924cb3d0a1bbcce215b4ab92e88b11eea835a1eed7ff2d2e799736cb99fd",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 111,
+          "range": [
+            151588,
+            153358
+          ],
+          "body_characters": 1742,
+          "images": 0,
+          "drawings": 2,
+          "text_sha256": "29bf3b5ae042d699df23f0ca6e28cb933f49e13c7689a345691b7ea445f54e9f",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 112,
+          "range": [
+            153358,
+            154873
+          ],
+          "body_characters": 1487,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "aaad4143933977d1c80afa945d3f79a3d9d35f772d8d2a8c5f7401891fecbeb9",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 113,
+          "range": [
+            154873,
+            154939
+          ],
+          "body_characters": 38,
+          "images": 0,
+          "drawings": 1,
+          "text_sha256": "1e32cf4ed3fc37c46c4b763e5299df7668d610f80bb18e3798a42e39cb329744",
+          "current_extractable_text_read": true,
+          "layout_reviewed": false
+        },
+        {
+          "page": 114,
+          "range": [
+            154939,
+            155325
+          ],
+          "body_characters": 358,
+          "images": 5,
+          "drawings": 14,
+          "text_sha256": "79cce34f687427b9dcc3b94984cad85d57df0ff050d370c757fff30a4456a130",
+          "current_extractable_text_read": true,
+          "layout_reviewed": true
+        }
+      ]
+    }
+  ],
+  "reference_checks": [
+    {
+      "source": "MedlinePlus Genetics47,XYY syndrome",
+      "url": "https://medlineplus.gov/genetics/condition/47xyy-syndrome/",
+      "scope": "official webpage body,date2022-03-02 andreference list read; citedstudies notindividuallyread;mosttestosteroneproductionnormal",
+      "kind": "official_health_information_not_new_full_research_paper"
+    },
+    {
+      "source": "NIMH Eatingdisorders",
+      "url": "https://www.nimh.nih.gov/health/publications/eating-disorders",
+      "scope": "officialwebpage bodyand2024revisionread;notchoice,multifactorrisks;noallclinicaltrialreview",
+      "kind": "official_health_information_not_new_full_research_paper"
+    },
+    {
+      "source": "APA Division30 About",
+      "url": "https://www.apadivisions.org/division-30/about",
+      "scope": "officialpage body,definitionand2014creationread;brochurenotcountedasread",
+      "kind": "official_definition_not_effectiveness_trial"
+    },
+    {
+      "source": "Elkins etal2015",
+      "doi": "10.1080/00207144.2014.961870",
+      "scope": "searchretrievalofPubMedandpublisher metadataandabstract;directPubMedfetchonlyfooter,publisher403;fulltextnotread",
+      "kind": "metadata_and_abstract_only",
+      "new_full_research_papers_completed": 0
+    }
+  ],
+  "new_full_original_research_papers_completed": 0,
+  "new_original_videos_completed": 0,
+  "next_work_unit": {
+    "id": "B012",
+    "path": "David X方法【David X Method】.pdf",
+    "git_blob_sha": "d3c79d6c24bf9127658517d3f7f49f329459ffa7",
+    "bytes": 569674,
+    "file_pages": 68,
+    "reading_status": "unread",
+    "start": "physical page1; verify original blob then establish current extraction identity before ordered reading",
+    "next_file_page": 1,
+    "next_character": 0,
+    "current_extraction_identity": "not yet established; old inventory coordinates do not establish reading",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+  }
+}

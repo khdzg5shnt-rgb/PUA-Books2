@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B011-text-completion-2026-11-11",
+  "base_commit": "8fb0004f665558972a52d65e5337b778369bfc8e",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 20,\n  \"book_not_started\": 99,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.859s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 20,
+    "book_not_started": 99,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "reading_scope_checks": {
+    "ok": true,
+    "baseline_main": "8fb0004f665558972a52d65e5337b778369bfc8e",
+    "original_pdf_identity": true,
+    "extraction_identity": true,
+    "actual_read_chunks": 7,
+    "pages": 114,
+    "characters": 155325,
+    "editorial_partitions": 6,
+    "whole_original_file_count_increment": 1,
+    "visual_pages": 26,
+    "unreviewed_layout_pages": 88,
+    "embedded_raster_image_pages_reviewed": 21,
+    "detailed_visual_pages": [
+      13,
+      24,
+      25,
+      104
+    ],
+    "homoglyph_display_map_preserves_codepoint_coordinates": true,
+    "historical_inventory_characters_preserved": 155439,
+    "original_raw_identity_records_preserved": 125,
+    "original_raw_paths_modified": [],
+    "new_raw_sources_images_or_private_case_files": false,
+    "new_or_changed_markdown_files": 19,
+    "local_links_checked": 604,
+    "markdown_anchors_checked": 8,
+    "resolved_method_references": {
+      "M21": {
+        "path": "knowledge/books/B011-origins-apology.md",
+        "heading": "用于当前修复",
+        "line": 17,
+        "end_line": 26,
+        "excerpt_complete": true
+      },
+      "M22": {
+        "path": "knowledge/books/B011-defense-empathy.md",
+        "heading": "用于当前边界",
+        "line": 11,
+        "end_line": 18,
+        "excerpt_complete": true
+      }
+    },
+    "emotion_intensity_search_top_paths": [
+      "knowledge/topics/natural-response-actions.md",
+      "knowledge/books/B011-defense-empathy.md",
+      "knowledge/books/B011-evidence.md",
+      "knowledge/books/B011.md",
+      "knowledge/books/S13-mystery-excerpts.md"
+    ],
+    "changed_files": 27,
+    "limits": "Identity/range checks do not prove reading behavior, scientific truth, screenshot interpretation or dating effect."
+  },
+  "newly_text_complete_this_unit": [
+    "B011"
+  ],
+  "new_direct_read_characters_this_unit": 155325,
+  "new_original_videos_completed": 0,
+  "new_full_original_research_papers_completed": 0,
+  "new_reference_checks": "3 official pages;1 definitionpaper metadata/abstract only,notfulltext",
+  "original_book_text_complete": 20,
+  "original_book_text_partial": 0,
+  "original_book_not_started": 99,
+  "source_records": 158,
+  "scope": "configuration,identity,orderedranges,cards,preferredparagraphs,linksandsearch;notproofreadingbehaviororpsychologicaleffects",
+  "not_verified": [
+    "independent author identity,publisher,ISBN,originaleditioncompleteness",
+    "88pages notindividuallylayoutchecked;allvectorobjectsnotcertified",
+    "majorityoriginal clinical,genetic,neurological,economicandhistoricalclaims",
+    "actual screenshot interpretation or dating effects"
+  ]
+}

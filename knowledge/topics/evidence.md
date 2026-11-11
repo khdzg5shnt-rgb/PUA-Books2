@@ -91,3 +91,6 @@ National Health Service. (2023, January 5). *Periods and fertility in the menstr
 
 ACOG页面标注2023年5月更新、2024年11月复核；NHS页面标注2023年1月5日复核。访问核查日期均为2026-11-11；没有冒称2026年新研究。
 
+## B011的有限外部核对
+
+2026-11-11另核MedlinePlus的47,XYY说明、NIMH进食障碍说明及APA第30分会定义页；准确日期、题录与适用限制见[B011证据记录](../books/B011-evidence.md)。一篇2015定义论文仅核题录和摘要，全文访问受限，不增加原始研究全文完成数；三份官方页面不为整本书或微信回复效果背书。
