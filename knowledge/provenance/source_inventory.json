@@ -653,7 +653,7 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MACK%E6%8A%8A%E5%A6%B9%E6%96%B9%E6%B3%95%20-%20Dean%20Cortez.epub",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "note": "knowledge/books/B016.md",
       "pages": null,
       "spine_items": 22,
@@ -663,10 +663,10 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "supplied_file_only_original_publication_completeness_unverified",
-      "reading_ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json",
       "latest_reading": {
         "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
+        "ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json",
         "current_extraction": {
           "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
           "characters": 172067,
@@ -675,21 +675,21 @@
         },
         "read_range": [
           0,
-          90701
+          172067
         ],
-        "entire_current_file_text_read": false,
-        "coverage_mode": "title_preface_chapters1to7",
-        "next_character": 90701,
+        "entire_current_file_text_read": true,
+        "coverage_mode": "title_preface_all20chapters",
+        "next_character": null,
         "read_spine_items": [
           1,
-          9
+          22
         ],
         "read_body_chapters": [
           1,
-          7
+          20
         ],
-        "next_spine": 10,
-        "unread_characters": 81366,
+        "next_spine": null,
+        "unread_characters": 0,
         "read_body_chapter_numbers": [
           1,
           2,
@@ -697,7 +697,20 @@
           4,
           5,
           6,
-          7
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
         ]
       }
     },

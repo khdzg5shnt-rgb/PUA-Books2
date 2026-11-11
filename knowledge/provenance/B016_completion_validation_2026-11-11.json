@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "a54989a3b8751280a6e3d9ea9ddab3e462865872",
+  "status": "actual_checks_passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "chunk_id": "df4cfc",
+      "wall_time_seconds": 0.041696849,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 31,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 23,\n  \"book_not_started\": 94,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "chunk_id": "ddc88c",
+      "wall_time_seconds": 1.181954997,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 1.148s\n\nOK\n"
+    },
+    {
+      "command": "python scripts/search_knowledge.py '等待' --method M02 --limit 1",
+      "chunk_id": "c1598f",
+      "wall_time_seconds": 0.000028221,
+      "exit_code": 0,
+      "original_token_count": 75,
+      "output": "[\n  {\n    \"path\": \"knowledge/topics/contact-and-waiting.md\",\n    \"title\": \"联系：本轮等待与已经约好的安排\",\n    \"heading\": \"本轮等待与联系安排\",\n    \"line\": 5,\n    \"end_line\": 10,\n    \"snippet\": \"## 本轮等待与联系安排\",\n    \"method_ids\": [\n      \"M02\"\n    ]\n  }\n]\n"
+    },
+    {
+      "command": "python run_state/r5_verify.py",
+      "chunk_id": "c998eb",
+      "wall_time_seconds": 0.057363298,
+      "exit_code": 0,
+      "original_token_count": 292,
+      "output": "{\n  \"ok\": true,\n  \"baseline_main\": \"a54989a3b8751280a6e3d9ea9ddab3e462865872\",\n  \"changed_existing_files\": 12,\n  \"new_files\": 8,\n  \"local_links_in_changed_markdown_checked\": 248,\n  \"new_direct_read_characters\": 81366,\n  \"new_body_chapters_read\": [\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19,\n    20\n  ],\n  \"B016_cumulative_characters_read\": 172067,\n  \"B016_remaining_characters\": 0,\n  \"B016_read_spines\": 22,\n  \"B016_current_file_text_complete\": true,\n  \"source_records\": 158,\n  \"book_text_complete\": 23,\n  \"book_text_partial\": 2,\n  \"book_not_started\": 94,\n  \"new_whole_book_files_text_completed\": 1,\n  \"new_method_source_bindings\": 8,\n  \"changed_preferred_sections\": [\n    \"M02\"\n  ],\n  \"next_unit\": \"B017\",\n  \"next_unit_body_read\": false,\n  \"existing_scripts_routes_task_contracts_tests_and_visual_examples_unchanged\": true,\n  \"original_file_identity_records_unchanged\": true,\n  \"B014_B015_gaps_and_exclusions_unchanged\": true,\n  \"new_source_head_checks\": 0,\n  \"controlled_synthetic_fact_to_route_examples\": 3,\n  \"new_image_reviews\": 0,\n  \"blind_visual_tests\": 0,\n  \"private_material_imported_or_summarized\": false\n}\n"
+    }
+  ],
+  "scope_checks": {
+    "ok": true,
+    "baseline_main": "a54989a3b8751280a6e3d9ea9ddab3e462865872",
+    "changed_existing_files": 12,
+    "new_files": 8,
+    "local_links_in_changed_markdown_checked": 248,
+    "new_direct_read_characters": 81366,
+    "new_body_chapters_read": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "B016_cumulative_characters_read": 172067,
+    "B016_remaining_characters": 0,
+    "B016_read_spines": 22,
+    "B016_current_file_text_complete": true,
+    "source_records": 158,
+    "book_text_complete": 23,
+    "book_text_partial": 2,
+    "book_not_started": 94,
+    "new_whole_book_files_text_completed": 1,
+    "new_method_source_bindings": 8,
+    "changed_preferred_sections": [
+      "M02"
+    ],
+    "next_unit": "B017",
+    "next_unit_body_read": false,
+    "existing_scripts_routes_task_contracts_tests_and_visual_examples_unchanged": true,
+    "original_file_identity_records_unchanged": true,
+    "B014_B015_gaps_and_exclusions_unchanged": true,
+    "new_source_head_checks": 0,
+    "controlled_synthetic_fact_to_route_examples": 3,
+    "new_image_reviews": 0,
+    "blind_visual_tests": 0,
+    "private_material_imported_or_summarized": false
+  },
+  "controlled_synthetic_fact_to_route_examples": [
+    {
+      "id": "W01",
+      "synthetic": true,
+      "context": "Fictional adult exchange. User already sent the last message; no independent necessary new logistics.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "user",
+        "pending_reply": false
+      },
+      "candidate": "",
+      "expected": [
+        "R04",
+        "M02",
+        "hold"
+      ],
+      "observed": [
+        "R04",
+        "M02",
+        "hold"
+      ],
+      "passed": true,
+      "fact_adjustments": [
+        "pending_reply"
+      ],
+      "preferred_section": {
+        "path": "knowledge/topics/contact-and-waiting.md",
+        "heading": "本轮等待与联系安排",
+        "line": 5,
+        "end_line": 10,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      }
+    },
+    {
+      "id": "W02",
+      "synthetic": true,
+      "context": "Fictional user works in graphic design. Other has now seriously asked about work; prior waiting is stale.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "pending_reply": true,
+        "function": "question"
+      },
+      "candidate": "我做平面设计。",
+      "expected": [
+        "R18",
+        "M04",
+        "draft"
+      ],
+      "observed": [
+        "R18",
+        "M04",
+        "draft"
+      ],
+      "passed": true,
+      "fact_adjustments": [
+        "pending_reply"
+      ],
+      "preferred_section": {
+        "path": "knowledge/topics/normal-questions.md",
+        "heading": "先按正常问题回答",
+        "line": 5,
+        "end_line": 10,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      }
+    },
+    {
+      "id": "W03",
+      "synthetic": true,
+      "context": "Fictional adults already agreed to meet Saturday at3pm at the exhibition entrance; arrangements are complete.",
+      "facts": {
+        "speaker_verified": true,
+        "text_legible": true,
+        "latest_sender": "other",
+        "function": "logistics",
+        "invitation": "accepted",
+        "goal": "invite",
+        "user_availability_known": true,
+        "activity_verified": true
+      },
+      "candidate": "好，周六三点在展馆门口见。",
+      "expected": [
+        "R09",
+        "M15",
+        "draft"
+      ],
+      "observed": [
+        "R09",
+        "M15",
+        "draft"
+      ],
+      "passed": true,
+      "fact_adjustments": [],
+      "preferred_section": {
+        "path": "knowledge/topics/invitation-feedback.md",
+        "heading": "已接受后确认安排",
+        "line": 32,
+        "end_line": 37,
+        "excerpt_complete": true
+      },
+      "candidate_structure_check": {
+        "ok": true,
+        "issues": [],
+        "scope": "仅检查单条、行数、问号和占位符；事实与口吻仍须核对"
+      }
+    }
+  ],
+  "test_count": 29,
+  "synthetic_routing_scenarios_exercised_by_existing_tests": 108,
+  "new_tests_or_runtime_rules_added": false,
+  "new_image_reviews": 0,
+  "blind_visual_tests": 0,
+  "limits": "Checks cover current file/extraction identity, exact reading ranges, source preservation, counts, links, preferred lookup and known fictional fact-to-route examples. They do not certify an original publication, research mechanisms, real screenshot interpretation, personality classification or romantic outcomes. B017 is an unread metadata-only next bookmark."
+}

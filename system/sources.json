@@ -181,12 +181,12 @@
       "group": "books2_original_snapshot",
       "title": "MACK把妹方法 - Dean Cortez.epub",
       "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "local_entry": "knowledge/books/B016.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json",
       "original_publication_complete": false,
-      "coverage_mode": "ordered_current_epub_title_preface_chapters1to7_read_remainingchapters_unread"
+      "coverage_mode": "ordered_current_epub_title_preface_all20chapters_text_complete"
     },
     {
       "id": "B017",
@@ -1524,32 +1524,26 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 22,
-    "current_book_files_text_partial": 3,
+    "current_book_files_text_complete": 23,
+    "current_book_files_text_partial": 2,
     "current_book_files_not_started": 94
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B016",
-    "path": "MACK把妹方法 - Dean Cortez.epub",
-    "git_blob_sha": "bfba433e02b5af4c808bd9530d5cb0ab478d22f6",
-    "bytes": 283166,
-    "spine_items": 22,
-    "reading_status": "provided_file_text_partial",
+    "id": "B017",
+    "path": "MGTOW 核心理论文集 (米格道) .pdf",
+    "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
+    "bytes": 6989249,
+    "file_pages": 221,
+    "reading_status": "unread",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "spine10start;chapter8;currentextraction90701;not_historical_174035_coordinates",
-    "next_spine": 10,
-    "next_character": 90701,
-    "current_extraction_identity": {
-      "method": "stdlib HTMLParser ordered OPF spine, normalized line endings/blank lines with spine markers",
-      "characters": 172067,
-      "sha256": "17929bb8f60da743f76b489d357b326003c7e5a0940607c9f725cac119d01b1a",
-      "coordinates": "Unicode code points, half-open ranges, normalized LF endings and spine markers included"
-    },
-    "file_sha256": "08f4164aaa99438e55979b03af2a2d24c5e0e66d665a08afdbbc9d7a6a17f36a",
-    "ledger": "knowledge/provenance/B016_ch05_07_reading_2026-11-11.json",
-    "next_content_unit": "第八章 扰乱她的雷达"
+    "start": "physicalpage1start;current_file_and_extraction_reverification_required",
+    "next_file_page": 1,
+    "next_character": null,
+    "next_content_unit": "文件第1页；需先重核PDF与当前提取坐标",
+    "navigation_metadata_only": true,
+    "ledger": "knowledge/provenance/B016_completion_reading_2026-11-11.json"
   },
   "deferred_work_units": [
     {
