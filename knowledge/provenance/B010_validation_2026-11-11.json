@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "round_id": "B010-seven-part-text-completion-2026-11-11",
+  "base_commit": "fe2e61453533b0afdc09772d00cbeb5de36002f1",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 30,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 19,\n  \"book_not_started\": 100,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.970s\n\nOK\n"
+    }
+  ],
+  "structure": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 30,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 19,
+    "book_not_started": 100,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_test_methods": 20,
+  "synthetic_route_scenarios": 84,
+  "reading_scope_checks": {
+    "ok": true,
+    "baseline_main": "fe2e61453533b0afdc09772d00cbeb5de36002f1",
+    "original_pdf_identity": true,
+    "extraction_identity": true,
+    "actual_read_chunks": 40,
+    "pages": 644,
+    "characters": 1164270,
+    "internal_units": 7,
+    "whole_original_file_count_increment": 1,
+    "visual_pages": 48,
+    "unreviewed_layout_pages": 596,
+    "embedded_raster_image_pages_reviewed": 8,
+    "referenced_missing_figure_preserved": true,
+    "original_raw_identity_records_preserved": 125,
+    "original_raw_paths_modified": [],
+    "new_raw_sources_images_or_private_case_files": false,
+    "new_or_changed_markdown_files": 21,
+    "local_links_checked": 602,
+    "M08_resolved_reference": {
+      "path": "knowledge/books/B010-influence.md",
+      "heading": "接回截图与约会判断",
+      "line": 21,
+      "end_line": 28,
+      "excerpt_complete": true
+    },
+    "height_joke_search_top_paths": [
+      "knowledge/books/B010-influence.md",
+      "knowledge/books/B010-influence.md"
+    ],
+    "changed_files": 29,
+    "limits": "Identity and range checks do not prove reading behavior, clinical truth, screenshot interpretation or dating effect."
+  },
+  "newly_text_complete_this_unit": [
+    "B010"
+  ],
+  "internal_anthology_units": 7,
+  "new_direct_read_characters_this_unit": 1164270,
+  "new_original_videos_completed": 0,
+  "new_distinct_original_research_papers_completed": 0,
+  "existing_paper_expanded_reading": "Wiseman et al.2012; methods/results prose of all3 studies and discussion, not all tableimages/sourcevideos/references",
+  "original_book_text_complete": 19,
+  "original_book_text_partial": 0,
+  "original_book_not_started": 100,
+  "source_records": 158,
+  "scope": "配置、源身份、连续范围、卡片、检索和链接的工程一致性；不替代阅读或心理证据",
+  "not_verified": [
+    "七分册独立原始出版身份、版次与原著完整性",
+    "596页未逐页核版面及全部向量对象",
+    "第503页引用图在当前503–504页渲染未见，不声称恢复",
+    "书中大量原始医学、人格、神经、遗传、调查与效果研究",
+    "实际截图识别与恋爱效果"
+  ]
+}

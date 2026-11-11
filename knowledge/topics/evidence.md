@@ -50,7 +50,7 @@ Körner, R., Röseler, L., Schütz, A., & Bushman, B. J. (2022). Dominance and p
 
 Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don’t have it: Lie detection and neuro-linguistic programming. *PLOS ONE, 7*(7), e40259. https://doi.org/10.1371/journal.pone.0040259
 
-- 核验入口：[出版商原文](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040259)，2026-11-10实际核题录、摘要及部分正文，未逐节读完全文。
+- 核验入口：[出版商原文](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040259)，2026-11-10实际核题录、摘要及部分正文，未逐节读完全文。 2026-11-11续读时已补读引言、三项实验的方法/结果文字与讨论；表格图像、原视频和引用文献未逐一核，见[B010记录](../books/B010-evidence.md)。
 - 摘要报告的三项研究不支持所测NLP眼动测谎说法；这不等于眼睛没有任何交流作用。
 - 因此不把B004的眼动、感官类型或单个动作当作读心方法，也不反过来用另一种眼神保证对方诚实。
 

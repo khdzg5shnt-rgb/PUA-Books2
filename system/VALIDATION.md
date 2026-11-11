@@ -1,6 +1,6 @@
 # 检查范围
 
-当前已通过结构检查与20项单元测试，覆盖资料身份、配置、笔记段落、输出约定和84个虚构对话场景；不含用户或女生的真实聊天。最新真实结果见[系统维护检查记录](../knowledge/provenance/OS_runtime_validation_2026-11-11.json)。
+当前已通过结构检查与20项单元测试，覆盖资料身份、配置、笔记段落、输出约定和84个虚构对话场景；不含用户或女生的真实聊天。本次续读的真实结果见[B010检查记录](../knowledge/provenance/B010_validation_2026-11-11.json)，先前系统维护结果见[维护记录](../knowledge/provenance/OS_runtime_validation_2026-11-11.json)。
 
 ```bash
 python scripts/validate_os.py
@@ -29,3 +29,5 @@ python scripts/search_knowledge.py '没给替代时间'
 2026-11-11续读B008：当前17/119份现有文字完成；结构与20项测试通过，84个虚构路由场景不增加。另核原始blob、新提取身份、174页和15段连续范围、33页视觉与141页未核版式、方法卡及新笔记链接。真实输出见[B008检查](../knowledge/provenance/B008_validation_2026-11-11.json)，范围见[完成报告](../knowledge/provenance/B008_completion_2026-11-11.md)。
 
 2026-11-11继续完成B009：当前18/119份现有文字完成，101份未通读；结构与20项测试通过，84个虚构场景不增加。另核135页/11段、38页视觉/97页未核版式、多栏补读身份、卡片与本轮链接。实际输出见[B009检查](../knowledge/provenance/B009_validation_2026-11-11.json)，阅读范围与同次指令两文件进度见[报告](../knowledge/provenance/B009_completion_2026-11-11.md)。
+
+2026-11-11继续完成B010七分册合订本：当前19/119份现有文字完成、0份部分、100份未开始，七分册只增加一份原始文件。结构与20项测试通过，84个虚构场景不增加；另核644页/40段、48页视觉/596页未核版面、七分册连续范围、原始与提取身份、卡片和M08真实段落检索。实际输出见[B010检查](../knowledge/provenance/B010_validation_2026-11-11.json)，限制见[完成报告](../knowledge/provenance/B010_completion_2026-11-11.md)。

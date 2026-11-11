@@ -4712,6 +4712,45 @@
         "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
       },
       "python_checks": "validate_os.py and20 unittest methods passed;84 synthetic routes; identity/page/columns/links checked"
+    },
+    {
+      "round_id": "B010-seven-part-text-completion-2026-11-11",
+      "date": "2026-11-11",
+      "baseline_main": "fe2e61453533b0afdc09772d00cbeb5de36002f1",
+      "status": "integrated_checks_passed",
+      "summary_note": "knowledge/provenance/B010_completion_2026-11-11.md",
+      "validation_record": "knowledge/provenance/B010_validation_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B010_reading_2026-11-11.json",
+      "original_files_completed_this_round": [
+        "B010"
+      ],
+      "internal_anthology_units_completed": 7,
+      "new_original_direct_read_characters": 1164270,
+      "new_physical_file_pages_covered": 644,
+      "selected_visual_pages": 48,
+      "remaining_layout_pages_not_reviewed": 596,
+      "original_current_files_text_complete": 19,
+      "original_current_files_not_complete": 100,
+      "original_files_not_started": 100,
+      "upload_source_records": 23,
+      "all_source_records": 158,
+      "new_videos_or_distinct_original_papers_completed": 0,
+      "raw_originals_modified": false,
+      "private_material_imported": false,
+      "next_work_unit": {
+        "id": "B011",
+        "path": "Dark Psychology Secrets Defense Manipulation, Emotional Influence, Persuasion, Deception, Mind Control, Covert Nlp,... (Susan Johnson) .pdf",
+        "git_blob_sha": "584fcdbc346268c2c0170ef35a9b8d2acc93e8d7",
+        "bytes": 1974564,
+        "file_pages": 114,
+        "reading_status": "unread",
+        "start": "physical page1; verify original blob then establish current extraction identity before ordered reading",
+        "next_file_page": 1,
+        "next_character": 0,
+        "current_extraction_identity": "not yet established; old inventory coordinates do not establish reading",
+        "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae"
+      },
+      "python_checks": "structure validator passed;20 unittest methods passed;84 synthetic route scenarios;manual B010 identity/range/visual-scope/link/retrieval checks passed"
     }
   ],
   "public_reading_rounds": [

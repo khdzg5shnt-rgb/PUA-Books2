@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前现有书籍文件文字覆盖完成：18/119。新增B008/B009当前可提取文字174/135页，视觉33/38页，剩余141/97页版式未逐页核；版本原著对应未认证。另101份未通读，下一B010第1页。既有B007、B003版次、B004版式、B006删节与B043/B092缺章等限制沿用。
+当前现有书籍文件文字覆盖完成：19/119，0份部分、100份未开始。B010七分册合订本644页可提取文字顺读完成，另核48页视觉、596页版面未逐页核，仍按一份文件计；下一B011第1页。原著身份、缺图及既有版次/缺章/版面限制见逐书笔记。
 
 九份PDF共1589页完成OCR处理，76页识别输出不足40字符，仍待按页视觉核查。完成OCR不计为阅读；缓存未提交到仓库，未来只对所需页面重新处理。所有PDF文件页总计11165页。
 
@@ -27,7 +27,7 @@
 | B007 | [Chris《红丸觉醒1.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%921.0%E3%80%8B.pdf) | 102 | 当前102页可提取文字已读；24页视觉核对；版本对应未核 | [笔记](../books/B007.md) |
 | B008 | [Chris《红丸觉醒2.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%922.0%E3%80%8B.pdf) | 174 | 当前174页可提取文字已读；33页视觉核对；原著对应未核 | [笔记](../books/B008.md) |
 | B009 | [Chris《红丸觉醒3.0》.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Chris%E3%80%8A%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%923.0%E3%80%8B.pdf) | 135 | 当前135页可提取文字已读；38页视觉核对；多栏补读；原著对应未核 | [笔记](../books/B009.md) |
-| B010 | [Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%207%20in%201%20The%20Art%20of%20Persuasion%2C%20How%20to%20influence%20people%2C%20Hypnosis%20Techniques%2C%20NLP%20secrets%2C%20Analyze%20Body...%20%28Robert%20Dale%20Goleman%2C%20Daniel%20Brandon%20Bradberry%20etc.%29.pdf) | 644 | 已提取/未读 | — |
+| B010 | [Dark Psychology 7 in 1 The Art of Persuasion, How to influence people, Hypnosis Techniques, NLP secrets, Analyze Body... (Robert Dale Goleman, Daniel Brandon Bradberry etc.).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%207%20in%201%20The%20Art%20of%20Persuasion%2C%20How%20to%20influence%20people%2C%20Hypnosis%20Techniques%2C%20NLP%20secrets%2C%20Analyze%20Body...%20%28Robert%20Dale%20Goleman%2C%20Daniel%20Brandon%20Bradberry%20etc.%29.pdf) | 644 | 当前644页可提取文字已读；48页视觉；原著版次未认证 | [笔记](../books/B010.md) |
 | B011 | [Dark Psychology Secrets Defense Manipulation, Emotional Influence, Persuasion, Deception, Mind Control, Covert Nlp,... (Susan Johnson) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%20Secrets%20Defense%20Manipulation%2C%20Emotional%20Influence%2C%20Persuasion%2C%20Deception%2C%20Mind%20Control%2C%20Covert%20Nlp%2C...%20%28Susan%20Johnson%29%20.pdf) | 114 | 已提取/未读 | — |
 | B012 | [David X方法【David X Method】.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David%20X%E6%96%B9%E6%B3%95%E3%80%90David%20X%20Method%E3%80%91.pdf) | 68 | 已提取/未读 | — |
 | B013 | [David_X的方法.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/David_X%E7%9A%84%E6%96%B9%E6%B3%95.pdf) | 48 | 已提取/未读 | — |
@@ -159,3 +159,5 @@
 2026-11-11新增范围与限制：[B008完成报告](B008_completion_2026-11-11.md)。
 
 2026-11-11最新：[B009完成报告](B009_completion_2026-11-11.md)。
+
+2026-11-11最新：[B010完成报告](B010_completion_2026-11-11.md)。

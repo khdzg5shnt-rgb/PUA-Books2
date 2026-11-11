@@ -294,8 +294,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Dark%20Psychology%207%20in%201%20The%20Art%20of%20Persuasion%2C%20How%20to%20influence%20people%2C%20Hypnosis%20Techniques%2C%20NLP%20secrets%2C%20Analyze%20Body...%20%28Robert%20Dale%20Goleman%2C%20Daniel%20Brandon%20Bradberry%20etc.%29.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B010.md",
       "pages": 644,
       "spine_items": null,
       "ocr": {
@@ -303,7 +303,21 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "seven_internal_titlepages_checked;independent_original_editions_unverified",
+      "latest_reading": {
+        "date": "2026-11-11",
+        "ledger": "knowledge/provenance/B010_reading_2026-11-11.json",
+        "coverage_mode": "direct_ordered_all_current_pdf_extractable_text_and48_selected_visual_pages",
+        "scope": "physical pages1-644 current text;40 ordered ranges;48 rendered pages including all8 embedded raster-image pages;596 remaining layouts; missing referenced diagram and original-edition limits retained",
+        "current_extraction": {
+          "method": "PyMuPDF page.get_text(sort=True), physical page markers, Unicode codepoint coordinates",
+          "characters": 1164270,
+          "sha256": "7cc601447b5984c56eb47bc5d80ce5501f34e3a69fb517f2b763283f8539b823",
+          "coordinates": "Unicode code points, half-open, physical page markers included; not old inventory coordinates"
+        },
+        "next_file_page": null,
+        "next_character": null
+      }
     },
     {
       "index": 11,
