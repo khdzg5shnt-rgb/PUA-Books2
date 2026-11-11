@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "status": "checks_passed",
+  "baseline_main": "bba9e67fc20d5c5763af7ff6129623e897264a98",
+  "required_checks": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "ok": true,
+      "methods": 26,
+      "routes": 31,
+      "task_modes": 5,
+      "preferred_sections": 26,
+      "source_records": 158,
+      "archived_files": 44,
+      "book_text_complete": 27,
+      "book_not_started": 89
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "unittest_methods": 29,
+      "synthetic_routing_scenarios": 108,
+      "result": "OK"
+    }
+  ],
+  "scope_check": {
+    "ok": true,
+    "baseline_main": "bba9e67fc20d5c5763af7ff6129623e897264a98",
+    "changed_existing_files": 10,
+    "new_files": 8,
+    "local_links_in_changed_markdown_checked": 227,
+    "new_direct_extractable_characters": 82784,
+    "current_body_characters": 78336,
+    "B022_file_pages_text_covered": 134,
+    "native_read_chunks": 14,
+    "ocr_output_read_chunks": 3,
+    "ocr_output_characters_including_noise": 16308,
+    "ocr_not_counted_as_additional_unique_original_text": true,
+    "image_pages_screened": 88,
+    "unique_image_objects_processed": 150,
+    "selected_full_page_views": 31,
+    "short_native_pages_all_full_page_viewed": 29,
+    "book_text_complete": 27,
+    "book_text_partial": 3,
+    "book_not_started": 89,
+    "source_records": 158,
+    "new_book_files_text_completed": [
+      "B022"
+    ],
+    "new_method_source_bindings": 3,
+    "changed_preferred_sections": [],
+    "preferred_excerpt_complete": true,
+    "preferred_excerpt_characters": {
+      "M08": 321,
+      "M22": 276,
+      "M23": 479
+    },
+    "next_book": "B023",
+    "next_file_page": 1,
+    "next_character": 0,
+    "original126_identities_and_historical_extraction_preserved": true,
+    "B014_B015_B017_gaps_and_prior_books_and_ledgers_preserved": true,
+    "existing_scripts_routes_tasks_tests_method_operations_and_preferred_sections_unchanged": true,
+    "raw_or_extracted_text_images_or_models_added": false,
+    "new_private_case_summaries": 0,
+    "marketing_contacts_added": false,
+    "privacy_scope": "Manual review of new original non-graphic notes for private narratives,procedure instructions and contact information; not an automated proof.",
+    "new_source_head_checks": 0,
+    "new_research_full_texts": 0,
+    "new_original_videos": 0,
+    "blind_visual_tests": 0
+  },
+  "retrieval_check": {
+    "M08": {
+      "path": "knowledge/topics/observations-and-explanations.md",
+      "heading": "先记行为，原因不足留未知",
+      "excerpt_complete": true
+    },
+    "M22": {
+      "path": "knowledge/topics/boundaries-and-requests.md",
+      "heading": "一项请求与边界分开",
+      "excerpt_complete": true
+    },
+    "M23": {
+      "path": "knowledge/topics/refusal-scope.md",
+      "heading": "按拒绝范围处理当前一轮",
+      "excerpt_complete": true
+    }
+  },
+  "claims_limit": "Structural,routing,source identity,range hashes and retrieval checks; not blind OCR recognition,clinical safety,psychological mechanism,original edition collation or dating-outcome validation.",
+  "new_research_full_texts": 0,
+  "new_original_videos": 0,
+  "new_blind_visual_tests": 0
+}

@@ -250,9 +250,12 @@
       "group": "books2_original_snapshot",
       "title": "SM秘籍.pdf",
       "git_blob_sha": "b4f6950c18970a4dd269f4b46544d9693ed75f30",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B022.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B022_reading_2026-11-11.json",
+      "original_publication_complete": false,
+      "coverage_mode": "current134page_native_text_complete_image_OCR_read_with_short_text_pages_full_viewed_technical_and_original_edition_limits_retained"
     },
     {
       "id": "B023",
@@ -1536,37 +1539,28 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 26,
+    "current_book_files_text_complete": 27,
     "current_book_files_text_partial": 3,
-    "current_book_files_not_started": 90
+    "current_book_files_not_started": 89
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B022",
-    "path": "SM秘籍.pdf",
-    "git_blob_sha": "b4f6950c18970a4dd269f4b46544d9693ed75f30",
-    "bytes": 7800182,
+    "id": "B023",
+    "path": "Secrets of Speed Seduction Mastery (Ross Jeffries) .pdf",
+    "git_blob_sha": "77e95d76e57050671ccaabcff318a67e52f527ed",
+    "bytes": 1339890,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 134,
-    "start": "physicalpage1; verify binary,current text and any needed OCR/visual scope before reading",
+    "file_pages": 207,
+    "start": "physicalpage1; verify binary,current extraction and image/privacy scope before reading",
     "next_file_page": 1,
     "next_character": 0,
     "current_extraction_identity": null,
-    "next_content_unit": "B022 current PDF from title/front matter; old OCR is processing history,not reading completion",
-    "ledger": "knowledge/provenance/B020_reading_2026-11-11.json",
-    "historical_ocr_processed_pages": 28,
-    "historical_ocr_short_output_pages": [
-      2,
-      10,
-      20,
-      22,
-      51,
-      62,
-      74,
-      126
-    ]
+    "next_content_unit": "B023 current PDF from title and front matter; historical extraction is not reading completion",
+    "ledger": "knowledge/provenance/B022_reading_2026-11-11.json",
+    "historical_extraction_characters": 349855,
+    "historical_ocr_processed_pages": 0
   },
   "deferred_work_units": [
     {
