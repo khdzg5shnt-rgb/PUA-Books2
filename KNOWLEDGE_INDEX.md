@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-本轮新增[B036的三组审阅](knowledge/books/B036.md)与[B038的九组审阅](knowledge/books/B038.md)。
+本轮新增[B039的14组审阅](knowledge/books/B039.md)。此前[B036](knowledge/books/B036.md)与[B038](knowledge/books/B038.md)的文字阅读成果保留。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -20,7 +20,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026年11月12日继续阅读B036和B038。两份可提取文字共209837字符、19块已读，封面与三表另核；图像缺口单列，当前40/119份内容覆盖完成、5份部分、74份正文未开始。12组原创审阅与32条方法出处已接入。下一B039扫描PDF第1页。TOP30为30/30、来源158条。[报告](knowledge/provenance/B036_B038_progress_2026-11-12.md)。
+2026年11月12日继续B039《冷眼观爱2》。380页OCR输出200223字符分21块已读，另核41页原图；错识、图像和末尾工具缺口保留，整份仍为部分阅读。当前40/119份内容覆盖完成、6份部分、73份正文未开始。14组原创审阅、48条方法出处已接入，下一B045第1页。TOP30为30/30、来源158条。[报告](knowledge/provenance/B039_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -29,7 +29,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前40/119份内容覆盖完成，5份部分、74份正文未开始。本轮B036与B038文字层读完，图像缺口保留。B041对应版本复用、B052原页核读及其他既有缺口见各自台账。
+当前40/119份内容覆盖完成，6份部分、73份正文未开始。本轮B039的380页OCR输出读完，错识、图像和缺失工具保留。B041对应版本复用、B052原页核读及其他既有缺口见各自台账。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 
