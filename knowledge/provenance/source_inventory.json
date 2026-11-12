@@ -455,7 +455,7 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "note": "knowledge/books/B014.md",
       "pages": 1002,
       "spine_items": null,
@@ -466,74 +466,24 @@
       },
       "edition_status": "file_title_identifies2019sixth_edition;all13chapters_read;backmatter_partial_with_noncontiguous_coverage;formal_edition_correspondence_uncertified",
       "latest_reading": {
-        "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
-        "coverage_mode": "main_text_complete_partial_backmatter",
-        "read_file_pages": [
-          1,
-          853
-        ],
-        "read_range": [
-          0,
-          1668537
-        ],
-        "new_read_file_pages": [
-          851,
-          853
-        ],
-        "new_read_range": [
-          1661625,
-          1668537
-        ],
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B014_finished_2026-11-12.json",
+        "coverage_mode": "all_current_native_text_and_previous_content_images_read_known_last_gap_resolved",
         "current_extraction": {
           "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
           "characters": 1991387,
           "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
           "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
         },
-        "next_file_page": 854,
-        "next_character": 1668537,
-        "selected_visual_pages_cumulative": 358,
-        "selected_visual_pages_new": 8,
-        "unreviewed_read_text_layout_pages": 506,
-        "unread_file_pages": 138,
+        "source_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+        "read_range": [
+          0,
+          1991387
+        ],
         "all_thirteen_chapter_texts_and_chapter_end_materials_read": true,
-        "entire_current_file_text_read": false,
-        "additional_read_file_page_ranges": [
-          [
-            944,
-            945
-          ],
-          [
-            959,
-            963
-          ],
-          [
-            999,
-            1002
-          ]
-        ],
-        "cumulative_text_layer_pages_covered": 864,
-        "cumulative_direct_read_characters": 1679079,
-        "new_read_ranges": [
-          [
-            1661625,
-            1668537
-          ],
-          [
-            1873097,
-            1875277
-          ],
-          [
-            1906796,
-            1913967
-          ],
-          [
-            1990196,
-            1991387
-          ]
-        ],
-        "unread_file_page_ranges": [
+        "entire_current_file_text_read": true,
+        "current_file_provided_text_complete": true,
+        "new_read_file_page_ranges": [
           [
             854,
             943
@@ -547,27 +497,125 @@
             998
           ]
         ],
-        "additional_unreviewed_image_layer_pages": [
-          1001
-        ],
-        "newly_covered_file_pages": [
-          851,
-          852,
-          853,
-          944,
-          945,
-          959,
-          960,
-          961,
-          962,
-          963,
-          999,
-          1000,
-          1001,
-          1002
-        ]
+        "new_native_characters_read": 312308,
+        "cumulative_text_layer_pages_covered": 1002,
+        "cumulative_direct_read_characters": 1991387,
+        "unread_file_pages": 0,
+        "unread_file_page_ranges": [],
+        "additional_unreviewed_image_layer_pages": [],
+        "page1001_visual_result": "blank_page",
+        "selected_visual_pages_cumulative": 365,
+        "unreviewed_read_text_layout_pages": 637,
+        "next_file_page": null,
+        "next_character": null,
+        "original_publisher_edition_correspondence_verified": false
       },
-      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json"
+      "reading_ledger": "knowledge/provenance/B014_finished_2026-11-12.json",
+      "reading_history": [
+        {
+          "date": "2026-11-11",
+          "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+          "coverage_mode": "main_text_complete_partial_backmatter",
+          "read_file_pages": [
+            1,
+            853
+          ],
+          "read_range": [
+            0,
+            1668537
+          ],
+          "new_read_file_pages": [
+            851,
+            853
+          ],
+          "new_read_range": [
+            1661625,
+            1668537
+          ],
+          "current_extraction": {
+            "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+            "characters": 1991387,
+            "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+            "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+          },
+          "next_file_page": 854,
+          "next_character": 1668537,
+          "selected_visual_pages_cumulative": 358,
+          "selected_visual_pages_new": 8,
+          "unreviewed_read_text_layout_pages": 506,
+          "unread_file_pages": 138,
+          "all_thirteen_chapter_texts_and_chapter_end_materials_read": true,
+          "entire_current_file_text_read": false,
+          "additional_read_file_page_ranges": [
+            [
+              944,
+              945
+            ],
+            [
+              959,
+              963
+            ],
+            [
+              999,
+              1002
+            ]
+          ],
+          "cumulative_text_layer_pages_covered": 864,
+          "cumulative_direct_read_characters": 1679079,
+          "new_read_ranges": [
+            [
+              1661625,
+              1668537
+            ],
+            [
+              1873097,
+              1875277
+            ],
+            [
+              1906796,
+              1913967
+            ],
+            [
+              1990196,
+              1991387
+            ]
+          ],
+          "unread_file_page_ranges": [
+            [
+              854,
+              943
+            ],
+            [
+              946,
+              958
+            ],
+            [
+              964,
+              998
+            ]
+          ],
+          "additional_unreviewed_image_layer_pages": [
+            1001
+          ],
+          "newly_covered_file_pages": [
+            851,
+            852,
+            853,
+            944,
+            945,
+            959,
+            960,
+            961,
+            962,
+            963,
+            999,
+            1000,
+            1001,
+            1002
+          ]
+        }
+      ],
+      "coverage_mode": "all_current_native_text_and_previous_content_images_read_known_last_gap_resolved"
     },
     {
       "index": 15,

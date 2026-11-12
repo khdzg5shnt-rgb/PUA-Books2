@@ -157,12 +157,12 @@
       "group": "books2_original_snapshot",
       "title": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
       "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "local_entry": "knowledge/books/B014.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B014_finished_2026-11-12.json",
       "original_publication_complete": false,
-      "coverage_mode": "main_text_complete_partial_backmatter_with_explicit_noncontiguous_coverage"
+      "coverage_mode": "all_current_native_text_and_previous_content_images_read_known_last_gap_resolved"
     },
     {
       "id": "B015",
@@ -1596,48 +1596,32 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 45,
-    "current_book_files_text_partial": 7,
+    "current_book_files_text_complete": 46,
+    "current_book_files_text_partial": 6,
     "current_book_files_not_started": 67
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B014",
-    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
-    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
-    "bytes": 13323230,
-    "file_pages": 1002,
-    "reading_status": "provided_file_text_partial",
+    "id": "B015",
+    "path": "K少追女经验-我是这样追你老婆的.pdf",
+    "bytes": 4070188,
+    "git_blob_sha": "9d2fb4b94462ddd725c7f642e1d27b920ea5a66e",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "start": "用户最新要求：先补最早未完成文件B014；第854页继续。未收尾不换下一份，不启动B054。",
-    "next_file_page": 854,
-    "next_character": 1668537,
+    "reading_status": "provided_file_text_partial",
+    "file_pages": 24,
+    "next_file_page": 2,
+    "next_character": null,
+    "next_gap_review_file_page": 2,
+    "start": "B014已收尾；下一只处理B015第2页起的图像内容，不重计已经读完的原生文字，不开新书。",
     "current_extraction_identity": {
-      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
-      "characters": 1991387,
-      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
-      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      "method": "PyMuPDF get_text(sort=True), physical file-page markers",
+      "characters": 6280,
+      "sha256": "220e6923e8f4be4b9c281bd421dd6d8d870e570e69bb1fb4c2ae5daf75275940",
+      "coordinates": "Unicode code points, half-open ranges, file-page markers included; excludes image text"
     },
-    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
     "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
-    "next_content_unit": "B014 bibliography pages854–943, credits946–958, index964–998, and provided image page1001; resume exact existing extraction.",
-    "unread_file_page_ranges": [
-      [
-        854,
-        943
-      ],
-      [
-        946,
-        958
-      ],
-      [
-        964,
-        998
-      ]
-    ],
-    "unread_file_page_count": 138,
-    "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    "next_content_unit": "Review remaining B015 supplied image content in file-page order. Do not save private transcriptions or case narratives to public repository. Stop on an actual unreadable/unavailable gap rather than switch books."
   },
   "deferred_work_units": [
     {
