@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "d3be7853f4338c20f9b790cd979b0badd45c537a",
+  "books": [
+    {
+      "id": "B057",
+      "file_pages": 132,
+      "native_characters_actually_read": 52921,
+      "reading_cards": 22,
+      "note_groups": 18,
+      "critical_source_bindings": 31,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "5576032637913f62e067e1eafcf463021e22781f41d139b44f25aa7854c724f4"
+    },
+    {
+      "id": "B058",
+      "file_pages": 109,
+      "native_characters_actually_read": 93299,
+      "reading_cards": 19,
+      "note_groups": 15,
+      "critical_source_bindings": 30,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "d76667e694e06feed12010e2dd1375137859a7f06d86c510bb142b082dc3394d"
+    }
+  ],
+  "serial_order_preserved": true,
+  "B057_checkpoint_saved_before_B058_body_opened": true,
+  "new_actual_supplied_files_read": 2,
+  "native_characters_read": 146220,
+  "unique_original_page_views": 241,
+  "reading_cards": 41,
+  "new_note_groups": 33,
+  "new_critical_source_bindings": 61,
+  "source_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B057.md",
+      "locator": "聊天呈现与实际关系结果",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B057.md",
+      "locator": "转发评论与点赞的证据限度",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B058.md",
+      "locator": "责任与外界事实分别判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B057.md",
+      "locator": "节奏和付出不用于控制对方",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B057.md",
+      "locator": "可接的话题与共同角色场景",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B058.md",
+      "locator": "双向话题与认真回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B057.md",
+      "locator": "标准和价值观须双向了解",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B057.md",
+      "locator": "认真问题要回答真实内容",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B058.md",
+      "locator": "双向话题与认真回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B058.md",
+      "locator": "表达意愿和确认关系",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B057.md",
+      "locator": "幽默以双方接梗为条件",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B058.md",
+      "locator": "幽默不承担服从训练",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B057.md",
+      "locator": "可接的话题与共同角色场景",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B058.md",
+      "locator": "假拟角色与现实关系有区别",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B057.md",
+      "locator": "欣赏与观察须有实际依据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B058.md",
+      "locator": "观察和欣赏需要可核依据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B057.md",
+      "locator": "欣赏与观察须有实际依据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B058.md",
+      "locator": "观察和欣赏需要可核依据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B057.md",
+      "locator": "资料呈现清楚且真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B057.md",
+      "locator": "朋友圈保留真实生活和普通日常",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B057.md",
+      "locator": "关心困扰与真实自我披露",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B058.md",
+      "locator": "自然开场与真实生活素材",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B058.md",
+      "locator": "关心与脆弱可以直接且真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B057.md",
+      "locator": "关心困扰与真实自我披露",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B058.md",
+      "locator": "关心与脆弱可以直接且真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B057.md",
+      "locator": "关心困扰与真实自我披露",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B058.md",
+      "locator": "幽默不承担服从训练",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B057.md",
+      "locator": "邀约与后续连接落实到双方安排",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B058.md",
+      "locator": "共同活动和转场落实真实意愿",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B057.md",
+      "locator": "邀约与后续连接落实到双方安排",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B058.md",
+      "locator": "承诺与共同计划应当能兑现",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B058.md",
+      "locator": "共同活动和转场落实真实意愿",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B057.md",
+      "locator": "邀约与后续连接落实到双方安排",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B058.md",
+      "locator": "共同活动和转场落实真实意愿",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B057.md",
+      "locator": "邀约与后续连接落实到双方安排",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B058.md",
+      "locator": "共同活动和转场落实真实意愿",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B057.md",
+      "locator": "兴趣观察依靠连续实际投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B058.md",
+      "locator": "兴趣信号不能累计成许可",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B057.md",
+      "locator": "兴趣观察依靠连续实际投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B057.md",
+      "locator": "节奏和付出不用于控制对方",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B058.md",
+      "locator": "兴趣信号不能累计成许可",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B057.md",
+      "locator": "幽默以双方接梗为条件",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B058.md",
+      "locator": "观察和欣赏需要可核依据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B057.md",
+      "locator": "平等自尊与可表达的不满",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B058.md",
+      "locator": "责任与外界事实分别判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B058.md",
+      "locator": "承诺与共同计划应当能兑现",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B057.md",
+      "locator": "见面信息与成本边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B057.md",
+      "locator": "平等自尊与可表达的不满",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B058.md",
+      "locator": "幽默不承担服从训练",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B058.md",
+      "locator": "择偶标准不等于人格判决",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B057.md",
+      "locator": "关系意向与身体同意分别确认",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B058.md",
+      "locator": "兴趣信号不能累计成许可",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B058.md",
+      "locator": "信息交换保留不想说的空间",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B058.md",
+      "locator": "表达意愿和确认关系",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B058.md",
+      "locator": "当下意愿不由称呼和场所替代",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B057.md",
+      "locator": "邀约与后续连接落实到双方安排",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B057.md",
+      "locator": "联系人管理与私人信息边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B057.md",
+      "locator": "转发评论与点赞的证据限度",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B058.md",
+      "locator": "自然开场与真实生活素材",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B057.md",
+      "locator": "可接的话题与共同角色场景",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B058.md",
+      "locator": "双向话题与认真回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    }
+  ],
+  "source_page_text_and_review_card_hashes_match": true,
+  "contiguous_page_units_match": true,
+  "B058_truncated_output_replayed_pages": [
+    19,
+    20
+  ],
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 57,
+    "book_not_started": 62,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "exit_code": 0,
+    "methods": 63,
+    "synthetic_routing_scenarios": 158,
+    "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.813s\n\nOK\n"
+  },
+  "synthetic_routing_scenarios": 158,
+  "original_source_identities_preserved": 126,
+  "other_source_records_unchanged": true,
+  "existing_method_operations_and_avoid_conditions_unchanged": true,
+  "preferred_sections_bytes_unchanged": true,
+  "last_system_maintenance_and_reading_policy_preserved": true,
+  "B057_checkpoint_note_and_ledger_bytes_preserved": true,
+  "completed_current_tasks": 57,
+  "actually_read_current_supplied_files": 55,
+  "user_accepted_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial": 0,
+  "unread": 62,
+  "next_unread": "B059",
+  "next_book_body_opened": false,
+  "new_private_raw_text_or_source_images_archived": 0,
+  "original_publication_completeness_not_asserted": true,
+  "limits": "Checks verify file identity,metadata,source-text/page-card hashes,contiguous ranges,links,and existing63 tests including158 synthetic routing scenarios. They do not independently prove comprehension,transcription accuracy,psychological mechanisms,real screenshot recognition,or dating effects."
+}

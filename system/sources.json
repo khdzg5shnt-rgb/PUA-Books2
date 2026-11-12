@@ -646,18 +646,24 @@
       "group": "books2_original_snapshot",
       "title": "微信撩妹72招 - PUANEY.pdf",
       "git_blob_sha": "f28d76a46fb5c33074b9f61f321beba9242209a2",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B057.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B057_reading_2026-11-13.json",
+      "coverage_mode": "all132_current_PDF_native_page_outputs_and_all132_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read"
     },
     {
       "id": "B058",
       "group": "books2_original_snapshot",
       "title": "恋爱指南——play 连招 - 乌鸦救赎.pdf",
       "git_blob_sha": "16a10fd0ef17598f190c3177aefd5ea9592461cd",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B058.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B058_reading_2026-11-13.json",
+      "coverage_mode": "all109_current_PDF_native_page_outputs_and_all109_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read"
     },
     {
       "id": "B059",
@@ -1611,23 +1617,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 55,
+    "current_book_files_text_complete": 57,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 64
+    "current_book_files_not_started": 62
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B057",
-    "path": "微信撩妹72招 - PUANEY.pdf",
-    "bytes": 1391098,
-    "git_blob_sha": "f28d76a46fb5c33074b9f61f321beba9242209a2",
+    "id": "B059",
+    "path": "情狼日记 - 海兵.pdf",
+    "bytes": 934784,
+    "git_blob_sha": "7881391f49a4add819ef7052d9ea820c56429c03",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B056当前117页已读完，原创笔记、原版第三版未提供范围与断点已保存。下一唯一主读B057，从文件第一页开始；尚未打开其正文。",
-    "next_content_unit": "Read B057 only next: verify original132-page PDF, inspect actual native text and images, then read from file page1. Unprovided original-edition expansions are recorded as absent and do not block the next file. Finish and save this provided file before B058."
+    "start": "B057当前132页完成并保存后，才开始并完成B058当前109页；两份笔记、提供范围与断点均已保存。下一唯一主读B059，从文件第一页开始，尚未打开其正文。",
+    "next_content_unit": "Read B059 only next: verify74-page original PDF,inspect actual text and images,and read from file page1. Finish actual provided content and save notes,scope,and checkpoint before B060. Unprovided originals,hidden maps,or courses are recorded as absent and do not block the next provided file."
   },
   "deferred_work_units": []
 }

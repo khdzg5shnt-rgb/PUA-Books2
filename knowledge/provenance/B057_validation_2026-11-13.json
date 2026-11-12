@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "d3be7853f4338c20f9b790cd979b0badd45c537a",
+  "book": "B057",
+  "book_validation": {
+    "id": "B057",
+    "file_pages": 132,
+    "native_characters_actually_read": 52921,
+    "reading_cards": 22,
+    "note_groups": 18,
+    "critical_source_bindings": 31,
+    "provided_scope_read_to_end": true,
+    "source_sha256": "5576032637913f62e067e1eafcf463021e22781f41d139b44f25aa7854c724f4"
+  },
+  "checked_with_later_same_turn_B058_completion": true,
+  "checkpoint_scope_counts": {
+    "complete": 56,
+    "actual_supplied_files_read": 54,
+    "partial": 0,
+    "unread": 63
+  },
+  "next_at_checkpoint": "B058",
+  "next_book_body_opened_at_checkpoint": false,
+  "full_checks": "knowledge/provenance/B057_B058_validation_2026-11-13.json",
+  "limits": "Checks verify file identity,metadata,source-text/page-card hashes,contiguous ranges,links,and existing63 tests including158 synthetic routing scenarios. They do not independently prove comprehension,transcription accuracy,psychological mechanisms,real screenshot recognition,or dating effects."
+}
