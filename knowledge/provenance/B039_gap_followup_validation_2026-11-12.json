@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "status": "passed",
+  "baseline_main": "df1140c3648d927cc354143abcac53687e219de9",
+  "completion_ratio": "50/119",
+  "B039_counted_complete": false,
+  "new_book_files_completed": 0,
+  "new_original_page_layouts": 0,
+  "new_OCR_character_credit": 0,
+  "additional_detail_views": 12,
+  "cumulative_original_layouts": 380,
+  "same_blob_alternative_copies": 2,
+  "unread_source_quality_regions_retained": true,
+  "all_glyphs_restored": false,
+  "other_source_records_and_all_reading_statuses_unchanged": true,
+  "progress_and_queued_file_order_unchanged": true,
+  "bookmarks_equal": true,
+  "last_system_maintenance_preserved": true,
+  "source_images_private_transcripts_or_private_event_narratives_added": false,
+  "unittest_methods": 63,
+  "synthetic_routing_scenarios": 158,
+  "actual_check_outputs": [
+    {
+      "name": "structural",
+      "chunk_id": "16cfef",
+      "wall_time_seconds": 0.146054428,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 36,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 50,\n  \"book_not_started\": 67,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "unittest",
+      "chunk_id": "984392",
+      "wall_time_seconds": 3.697629601,
+      "exit_code": 0,
+      "original_token_count": 41,
+      "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.652s\n\nOK\n"
+    }
+  ],
+  "limitation": "Checks verify data identities and routing contracts, not recovered glyphs, psychological effects, or original-publication completeness."
+}

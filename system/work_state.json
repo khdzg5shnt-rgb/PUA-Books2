@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B039_source_quality_recovery_after_all380_layouts",
-  "status": "reading_source_quality_gap",
-  "base_commit": "df05278cf4373f22e824c20c13fede8e2a11b121",
+  "current_focus": "B039_clear_source_required_for_unread_glyphs",
+  "status": "blocked_on_clearer_same_source_regions",
+  "base_commit": "df1140c3648d927cc354143abcac53687e219de9",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B039_remaining_scans_2026-11-12.md",
-  "validation": "knowledge/provenance/B039_remaining_scans_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B039_gap_followup_2026-11-12.md",
+  "validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B039",
     "path": "冷眼观爱2 - 冷爱.pdf",
@@ -66,9 +66,9 @@
     "next_file_page": null,
     "next_gap_review_file_page": 85,
     "remaining_image_review_file_pages": [],
-    "start": "B039已核到文件末尾：本轮237个新原页、累计380/380版面；OCR不重计。仍有浅字和损坏嵌图未实读，不计整份完成。先找同源清晰材料核第85页等缺口，不从132页重读，不开B045。",
-    "next_content_unit": "All380 original page layouts inspected. Do not restart at132 or credit old OCR. Recover a clear same-source version of the unread lettering/insets; first targeted text gap is file page85, then147/149/150, with earlier inset degradation retained. B039 remains partial; B045/new books wait.",
-    "reading_phase": "source_quality_recovery_after_end_of_file",
+    "start": "380页版面此前已全部审阅；本次复核12个旧目标页/局部，两份外部副本同blob，未恢复未读字形。下一需要清晰同源材料，不重复相同扫描、不从132页重读、不先开B045。",
+    "next_content_unit": "Need a genuinely clearer version of the same target regions, or a new explicit user instruction accepting closure with known unread gaps. Do not repeat identical-copy downloads, count this as completion, restart page132, or open B045 under the unchanged scope.",
+    "reading_phase": "clear_source_required_after_same_blob_recovery_checks",
     "remaining_source_quality_regions": [
       {
         "file_pages": [
@@ -111,32 +111,33 @@
         "reconstructed_text_claimed": false,
         "examples_not_exhaustive": true
       }
-    ]
+    ],
+    "last_gap_recovery_ledger": "knowledge/provenance/B039_gap_followup_2026-11-12.json"
   },
-  "next_work": "All380 original page layouts inspected. Do not restart at132 or credit old OCR. Recover a clear same-source version of the unread lettering/insets; first targeted text gap is file page85, then147/149/150, with earlier inset degradation retained. B039 remains partial; B045/new books wait.",
+  "next_work": "Need a genuinely clearer version of the same target regions, or a new explicit user instruction accepting closure with known unread gaps. Do not repeat identical-copy downloads, count this as completion, restart page132, or open B045 under the unchanged scope.",
   "current_session_progress": {
-    "baseline": "df05278cf4373f22e824c20c13fede8e2a11b121",
-    "work_type": "serial_reading_current_B039_remaining_scans",
+    "baseline": "df1140c3648d927cc354143abcac53687e219de9",
+    "work_type": "targeted_source_quality_recheck_and_same_copy_deduplication",
     "new_book_files_started": [],
     "new_book_files_completed": [],
     "new_native_or_OCR_characters_read_credited": 0,
-    "new_unique_original_visual_pages": 237,
+    "new_unique_original_visual_pages": 0,
     "cumulative_B039_original_visual_pages": 380,
-    "additional_detail_view_count": 14,
-    "all_original_page_layouts_reviewed": true,
+    "additional_detail_view_count": 12,
+    "identical_blob_alternative_sources_checked": 2,
     "unread_source_quality_fragments_remain": true,
     "B039_counted_complete": false,
     "B045_or_new_book_body_opened": false,
     "new_method_operations": [],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B039_remaining_scans_validation_2026-11-12.json",
+      "reading_metadata_validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
       "structural": true,
       "unittest_methods": 63,
       "synthetic_routing_scenarios": 158,
-      "original_identity_and_render_hashes": true,
-      "new_and_old_page_sets_cover380": true,
-      "reading_ratio_unchanged_due_to_source_quality_gaps": true
+      "view_image_hashes_match": true,
+      "other_source_records_preserved": true,
+      "reported_ratio_unchanged": true
     }
   },
   "last_reading_progress": {
@@ -4119,6 +4120,36 @@
         "next_file_page": 132,
         "book_completed": false,
         "new_OCR_characters_credited": 0
+      }
+    },
+    {
+      "baseline": "df05278cf4373f22e824c20c13fede8e2a11b121",
+      "report": "knowledge/provenance/B039_remaining_scans_2026-11-12.md",
+      "validation": "knowledge/provenance/B039_remaining_scans_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "df05278cf4373f22e824c20c13fede8e2a11b121",
+        "work_type": "serial_reading_current_B039_remaining_scans",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_native_or_OCR_characters_read_credited": 0,
+        "new_unique_original_visual_pages": 237,
+        "cumulative_B039_original_visual_pages": 380,
+        "additional_detail_view_count": 14,
+        "all_original_page_layouts_reviewed": true,
+        "unread_source_quality_fragments_remain": true,
+        "B039_counted_complete": false,
+        "B045_or_new_book_body_opened": false,
+        "new_method_operations": [],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B039_remaining_scans_validation_2026-11-12.json",
+          "structural": true,
+          "unittest_methods": 63,
+          "synthetic_routing_scenarios": 158,
+          "original_identity_and_render_hashes": true,
+          "new_and_old_page_sets_cover380": true,
+          "reading_ratio_unchanged_due_to_source_quality_gaps": true
+        }
       }
     }
   ]
