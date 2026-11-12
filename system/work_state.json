@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B017_source_resolution_gaps_after_B015_complete",
-  "status": "blocked_on_source_image_resolution",
-  "base_commit": "dff26011404fa7930283881f2aea0ff617102cc6",
+  "current_focus": "B017_matching_source_recovery_with_retained_resolution_and_occlusion_gaps",
+  "status": "blocked_on_source_image_resolution_and_occlusion",
+  "base_commit": "138016b912c96804f21f374f5f786866fff03d25",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B017_image_review_2026-11-12.md",
-  "validation": "knowledge/provenance/B017_image_review_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B017_source_recovery_2026-11-12.md",
+  "validation": "knowledge/provenance/B017_source_recovery_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B017",
     "path": "MGTOW 核心理论文集 (米格道) .pdf",
@@ -18,23 +18,20 @@
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "provided_file_text_partial",
     "file_pages": 221,
-    "next_file_page": 21,
+    "next_file_page": 60,
     "next_character": null,
-    "next_gap_review_file_page": 21,
-    "start": "B017第69页及42、44、59、105页图像已补齐。其余11页仍有细标签无法辨认，先补最早第21页；全书继续部分状态，不换下一本。",
+    "next_gap_review_file_page": 60,
+    "start": "B017原生文字及44个含图页既有阅读保留。本轮补齐21、63、112页；另五页可见细字已补读但源水印遮挡仍未读。60、68、124页低清与156、159、176、177、182页遮挡保留，先处理第60页；不换下一本。",
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
       "characters": 240437,
       "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
       "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+    "ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
     "remaining_image_review_file_pages": [
-      21,
       60,
-      63,
       68,
-      112,
       124,
       156,
       159,
@@ -42,45 +39,35 @@
       177,
       182
     ],
-    "next_content_unit": "Current B017 native text is already read and all 44 image-containing pages have now been inspected. Readability gaps remain on 11 pages, earliest21. Obtain a demonstrably matching higher-resolution source; merely rerendering existing low-resolution pixels or substituting a different chart version does not close the gap. Do not open B036 or new books.",
-    "reading_blocker": "source_image_resolution",
-    "source_recovery_attempts_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json"
-  },
-  "next_work": "Continue only B017 by recovering matching readable source images; earliest unresolved file page21. B036 and all later/new books remain paused.",
-  "current_session_progress": {
-    "work_type": "close_oldest_unfinished_file",
-    "new_book_files_started": [],
-    "new_book_files_completed": [
-      "B015"
+    "next_content_unit": "Only B017. The earliest retained gap is file page60. Existing public original posts have been checked for all 11 former gap pages. Low-resolution labels remain on60/68/124; source-watermarked portions remain on156/159/176/177/182. Obtain a clearer demonstrably matching source or an unobscured matching version. Repeating the same enlargement or using a wording-different chart is not new reading. No B036 or new book body until the current file is finished.",
+    "reading_blocker": "source_image_resolution_and_source_occlusion",
+    "source_recovery_attempts_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+    "remaining_low_resolution_label_file_pages": [
+      60,
+      68,
+      124
     ],
-    "new_whole_book_files_completed": 1,
+    "remaining_source_occlusion_file_pages": [
+      156,
+      159,
+      176,
+      177,
+      182
+    ]
+  },
+  "next_work": "Only B017: earliest unresolved file page60. Matching original public sources reviewed;3 low-resolution pages and5 source-occluded page occurrences remain. A clearer or unobscured matching source is required; no repeat-pixel reading credit, no B036 or new books.",
+  "current_session_progress": {
+    "baseline": "138016b912c96804f21f374f5f786866fff03d25",
+    "work_type": "matching_source_image_recovery_for_current_partial_only",
+    "new_book_files_started": [],
+    "new_book_files_completed": [],
+    "new_whole_book_files_completed": 0,
     "new_native_characters_read": 0,
-    "new_visual_page_reviews": 24,
-    "new_unique_visual_pages": 22,
-    "newly_read_image_file_pages": 18,
-    "image_objects_reviewed": 19,
-    "next_existing_partial": "B017",
-    "new_research_paper_fulltexts_read": 0,
-    "checks": {
-      "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B017_image_review_validation_2026-11-12.json",
-      "structural": true,
-      "unittest_methods": 48,
-      "synthetic_routing_scenarios": 158
-    },
+    "new_unique_original_pdf_visual_pages": 0,
     "existing_partial_reviewed_ids": [
       "B017"
     ],
-    "B017_targeted_image_page_reviews": 16,
-    "B017_new_unique_visual_pages": 1,
-    "B017_resolved_image_gap_pages": [
-      42,
-      44,
-      59,
-      69,
-      105
-    ],
-    "B017_remaining_label_gap_pages": [
+    "source_recovery_page_occurrences_reviewed": [
       21,
       60,
       63,
@@ -93,7 +80,57 @@
       177,
       182
     ],
-    "B017_remains_partial": true
+    "source_image_occurrences_reviewed": 13,
+    "source_images_unique_bytes_reviewed": 10,
+    "visible_fine_text_gap_pages_resolved": [
+      21,
+      63,
+      112,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "fully_closed_old_gap_pages": [
+      21,
+      63,
+      112
+    ],
+    "remaining_low_resolution_label_file_pages": [
+      60,
+      68,
+      124
+    ],
+    "remaining_source_occlusion_file_pages": [
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "remaining_unread_content_file_pages": [
+      60,
+      68,
+      124,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "B017_remains_partial": true,
+    "new_research_paper_fulltexts_read": 0,
+    "new_method_operations": 0,
+    "checks": {
+      "status": "passed",
+      "reading_metadata_validation": "knowledge/provenance/B017_source_recovery_validation_2026-11-12.json",
+      "structural": true,
+      "unittest_methods": 48,
+      "synthetic_routing_scenarios": 158,
+      "source_image_hashes": true,
+      "metadata_scope": true
+    }
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -3176,6 +3213,54 @@
         "synthetic_routing_scenarios": 158,
         "reading_metadata_validation": "knowledge/provenance/B014_finished_validation_2026-11-12.json"
       }
+    },
+    {
+      "work_type": "close_oldest_unfinished_file",
+      "new_book_files_started": [],
+      "new_book_files_completed": [
+        "B015"
+      ],
+      "new_whole_book_files_completed": 1,
+      "new_native_characters_read": 0,
+      "new_visual_page_reviews": 24,
+      "new_unique_visual_pages": 22,
+      "newly_read_image_file_pages": 18,
+      "image_objects_reviewed": 19,
+      "next_existing_partial": "B017",
+      "new_research_paper_fulltexts_read": 0,
+      "checks": {
+        "status": "passed",
+        "reading_metadata_validation": "knowledge/provenance/B017_image_review_validation_2026-11-12.json",
+        "structural": true,
+        "unittest_methods": 48,
+        "synthetic_routing_scenarios": 158
+      },
+      "existing_partial_reviewed_ids": [
+        "B017"
+      ],
+      "B017_targeted_image_page_reviews": 16,
+      "B017_new_unique_visual_pages": 1,
+      "B017_resolved_image_gap_pages": [
+        42,
+        44,
+        59,
+        69,
+        105
+      ],
+      "B017_remaining_label_gap_pages": [
+        21,
+        60,
+        63,
+        68,
+        112,
+        124,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "B017_remains_partial": true
     }
   ]
 }

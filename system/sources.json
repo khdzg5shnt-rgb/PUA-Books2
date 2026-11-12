@@ -196,9 +196,9 @@
       "reading_status": "provided_file_text_partial",
       "local_entry": "knowledge/books/B017.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+      "reading_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
       "original_publication_complete": false,
-      "coverage_mode": "all_native_text_read_all44_image_pages_inspected_11_pages_with_unreadable_fine_labels_still_partial"
+      "coverage_mode": "all_native_text_read_all44_image_pages_inspected_matching_sources_reviewed_3_low_resolution_and5_source_occluded_page_occurrences_still_partial"
     },
     {
       "id": "B018",
@@ -1610,23 +1610,20 @@
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "provided_file_text_partial",
     "file_pages": 221,
-    "next_file_page": 21,
+    "next_file_page": 60,
     "next_character": null,
-    "next_gap_review_file_page": 21,
-    "start": "B017第69页及42、44、59、105页图像已补齐。其余11页仍有细标签无法辨认，先补最早第21页；全书继续部分状态，不换下一本。",
+    "next_gap_review_file_page": 60,
+    "start": "B017原生文字及44个含图页既有阅读保留。本轮补齐21、63、112页；另五页可见细字已补读但源水印遮挡仍未读。60、68、124页低清与156、159、176、177、182页遮挡保留，先处理第60页；不换下一本。",
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
       "characters": 240437,
       "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
       "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+    "ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
     "remaining_image_review_file_pages": [
-      21,
       60,
-      63,
       68,
-      112,
       124,
       156,
       159,
@@ -1634,9 +1631,21 @@
       177,
       182
     ],
-    "next_content_unit": "Current B017 native text is already read and all 44 image-containing pages have now been inspected. Readability gaps remain on 11 pages, earliest21. Obtain a demonstrably matching higher-resolution source; merely rerendering existing low-resolution pixels or substituting a different chart version does not close the gap. Do not open B036 or new books.",
-    "reading_blocker": "source_image_resolution",
-    "source_recovery_attempts_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json"
+    "next_content_unit": "Only B017. The earliest retained gap is file page60. Existing public original posts have been checked for all 11 former gap pages. Low-resolution labels remain on60/68/124; source-watermarked portions remain on156/159/176/177/182. Obtain a clearer demonstrably matching source or an unobscured matching version. Repeating the same enlargement or using a wording-different chart is not new reading. No B036 or new book body until the current file is finished.",
+    "reading_blocker": "source_image_resolution_and_source_occlusion",
+    "source_recovery_attempts_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+    "remaining_low_resolution_label_file_pages": [
+      60,
+      68,
+      124
+    ],
+    "remaining_source_occlusion_file_pages": [
+      156,
+      159,
+      176,
+      177,
+      182
+    ]
   },
   "deferred_work_units": [
     {

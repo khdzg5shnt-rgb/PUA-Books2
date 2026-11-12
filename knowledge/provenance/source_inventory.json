@@ -863,10 +863,10 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "unverified_original_edition_completeness",
-      "reading_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+      "reading_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
       "latest_reading": {
         "date": "2026-11-12",
-        "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+        "ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
         "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
         "current_extraction": {
           "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
@@ -885,7 +885,7 @@
           ]
         ],
         "entire_current_file_text_read": true,
-        "coverage_mode": "all_native_text_read_all44_image_pages_inspected_11_pages_with_unreadable_fine_labels_still_partial",
+        "coverage_mode": "all_native_text_read_all44_image_pages_inspected_matching_sources_reviewed_3_low_resolution_and5_source_occluded_page_occurrences_still_partial",
         "next_file_page": null,
         "next_character": null,
         "unread_characters": 0,
@@ -938,74 +938,83 @@
         "image_pages_screened_count": 44,
         "image_pages_excluded_for_privacy": [],
         "image_pages_with_retained_label_gaps": [
-          21,
           60,
-          63,
           68,
-          112,
-          124,
+          124
+        ],
+        "page68_small_labels_remain_unverified": true,
+        "all_current_file_content_read": false,
+        "new_native_characters_read": 0,
+        "new_targeted_visual_reviews": 11,
+        "new_unique_visual_pages": [],
+        "next_gap_review_file_page": 60,
+        "current_file_unread_content_gaps": [
+          {
+            "file_page": 60,
+            "kind": "low_resolution",
+            "reason": "公开汇编源PNG仍为488×530；外圈部分权责比较符号和细字不能可靠辨认。旋转、对比和普通放大未补齐这些位置。"
+          },
+          {
+            "file_page": 68,
+            "kind": "low_resolution",
+            "reason": "原帖源图640×254；四主分支和多数标签已读，财务与准备分支仍有少量中文末端标签不清。对比局部已查看，不凭上下文补字。"
+          },
+          {
+            "file_page": 124,
+            "kind": "low_resolution",
+            "reason": "原帖上传图仅248×330；手写图的标题和分支已读，部分中文手写句子仍无法确认。"
+          },
+          {
+            "file_page": 156,
+            "kind": "source_occlusion",
+            "reason": "1080×1359原帖阶段表的可见细字和黄色行已读；底部实例中被源水印覆盖的部分仍未读。"
+          },
+          {
+            "file_page": 159,
+            "kind": "source_occlusion",
+            "reason": "1080×723 AQAL阶段描述及640×286配表的可见文字已读；右下源水印覆盖的标签或单元格仍未读。"
+          },
+          {
+            "file_page": 176,
+            "kind": "source_occlusion",
+            "reason": "与156页对应的原帖源PNG字节相同；复用同一源图的目读，不重复计唯一图。底部源水印覆盖部分仍未读。"
+          },
+          {
+            "file_page": 177,
+            "kind": "source_occlusion",
+            "reason": "两张原帖源图分别与159页源PNG字节相同；可见细字已读，源水印覆盖的标签或单元格仍未读。"
+          },
+          {
+            "file_page": 182,
+            "kind": "source_occlusion",
+            "reason": "1080×581原帖分类导图的可见右侧细标签已读；底部源水印覆盖的部分仍未读。"
+          }
+        ],
+        "reading_blocker": "source_image_resolution_and_source_occlusion",
+        "new_unread_books_started": 0,
+        "image_pages_with_retained_source_occlusions": [
           156,
           159,
           176,
           177,
           182
         ],
-        "page68_small_labels_remain_unverified": true,
-        "all_current_file_content_read": false,
-        "new_native_characters_read": 0,
-        "new_targeted_visual_reviews": 16,
-        "new_unique_visual_pages": [
-          69
+        "fully_closed_old_gap_pages": [
+          21,
+          63,
+          112
         ],
-        "next_gap_review_file_page": 21,
-        "current_file_unread_content_gaps": [
-          {
-            "file_page": 21,
-            "reason": "Dense bilingual political chart at 478x478; multiple small labels remain unreadable after direct source extraction and four enlarged crops."
-          },
-          {
-            "file_page": 60,
-            "reason": "Low-resolution wheel: category structure visible, some tiny diagonal outer labels remain uncertain after source extraction and rotation."
-          },
-          {
-            "file_page": 63,
-            "reason": "Long diagram main chain and clock reviewed; fine annotations in inset historical triangle still not fully legible."
-          },
-          {
-            "file_page": 68,
-            "reason": "PFSM mind map main branches reviewed; several small Chinese end-node labels remain uncertain."
-          },
-          {
-            "file_page": 112,
-            "reason": "Bilingual classification diagram reviewed; a subset of tiny Chinese labels remains uncertain."
-          },
-          {
-            "file_page": 124,
-            "reason": "244x325 handwritten concept map: headings visible, several Chinese handwritten clauses remain unreadable."
-          },
-          {
-            "file_page": 156,
-            "reason": "Chinese stage table reviewed outside page overlays; low-contrast yellow-row fine print remains uncertain."
-          },
-          {
-            "file_page": 159,
-            "reason": "AQAL table pair reviewed from both source images; dense ego-stage descriptions and some end labels remain uncertain."
-          },
-          {
-            "file_page": 176,
-            "reason": "Repeated Chinese stage table reviewed outside page overlays; small low-contrast text still not fully legible."
-          },
-          {
-            "file_page": 177,
-            "reason": "Repeated AQAL table pair reviewed outside page overlays; fine descriptions and source-watermarked cells remain unresolved."
-          },
-          {
-            "file_page": 182,
-            "reason": "Response-type mind map reviewed; some tiny right-side Chinese labels remain uncertain or covered by source watermark."
-          }
+        "new_visible_fine_text_gap_pages_resolved": [
+          21,
+          63,
+          112,
+          156,
+          159,
+          176,
+          177,
+          182
         ],
-        "reading_blocker": "source_image_resolution",
-        "new_unread_books_started": 0
+        "source_recovery_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json"
       },
       "reading_history": [
         {
@@ -1100,6 +1109,149 @@
             182
           ],
           "page68_small_labels_remain_unverified": true
+        },
+        {
+          "date": "2026-11-12",
+          "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+          "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+          "current_extraction": {
+            "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+            "characters": 240437,
+            "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+            "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+          },
+          "read_range": [
+            0,
+            240437
+          ],
+          "read_file_page_ranges": [
+            [
+              1,
+              221
+            ]
+          ],
+          "entire_current_file_text_read": true,
+          "coverage_mode": "all_native_text_read_all44_image_pages_inspected_11_pages_with_unreadable_fine_labels_still_partial",
+          "next_file_page": null,
+          "next_character": null,
+          "unread_characters": 0,
+          "selected_visual_pages_reviewed": [
+            4,
+            17,
+            21,
+            22,
+            33,
+            41,
+            42,
+            43,
+            44,
+            48,
+            49,
+            51,
+            55,
+            59,
+            60,
+            63,
+            68,
+            69,
+            91,
+            103,
+            105,
+            112,
+            119,
+            124,
+            128,
+            131,
+            144,
+            156,
+            159,
+            173,
+            176,
+            177,
+            182,
+            183,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221
+          ],
+          "image_pages_screened_count": 44,
+          "image_pages_excluded_for_privacy": [],
+          "image_pages_with_retained_label_gaps": [
+            21,
+            60,
+            63,
+            68,
+            112,
+            124,
+            156,
+            159,
+            176,
+            177,
+            182
+          ],
+          "page68_small_labels_remain_unverified": true,
+          "all_current_file_content_read": false,
+          "new_native_characters_read": 0,
+          "new_targeted_visual_reviews": 16,
+          "new_unique_visual_pages": [
+            69
+          ],
+          "next_gap_review_file_page": 21,
+          "current_file_unread_content_gaps": [
+            {
+              "file_page": 21,
+              "reason": "Dense bilingual political chart at 478x478; multiple small labels remain unreadable after direct source extraction and four enlarged crops."
+            },
+            {
+              "file_page": 60,
+              "reason": "Low-resolution wheel: category structure visible, some tiny diagonal outer labels remain uncertain after source extraction and rotation."
+            },
+            {
+              "file_page": 63,
+              "reason": "Long diagram main chain and clock reviewed; fine annotations in inset historical triangle still not fully legible."
+            },
+            {
+              "file_page": 68,
+              "reason": "PFSM mind map main branches reviewed; several small Chinese end-node labels remain uncertain."
+            },
+            {
+              "file_page": 112,
+              "reason": "Bilingual classification diagram reviewed; a subset of tiny Chinese labels remains uncertain."
+            },
+            {
+              "file_page": 124,
+              "reason": "244x325 handwritten concept map: headings visible, several Chinese handwritten clauses remain unreadable."
+            },
+            {
+              "file_page": 156,
+              "reason": "Chinese stage table reviewed outside page overlays; low-contrast yellow-row fine print remains uncertain."
+            },
+            {
+              "file_page": 159,
+              "reason": "AQAL table pair reviewed from both source images; dense ego-stage descriptions and some end labels remain uncertain."
+            },
+            {
+              "file_page": 176,
+              "reason": "Repeated Chinese stage table reviewed outside page overlays; small low-contrast text still not fully legible."
+            },
+            {
+              "file_page": 177,
+              "reason": "Repeated AQAL table pair reviewed outside page overlays; fine descriptions and source-watermarked cells remain unresolved."
+            },
+            {
+              "file_page": 182,
+              "reason": "Response-type mind map reviewed; some tiny right-side Chinese labels remain uncertain or covered by source watermark."
+            }
+          ],
+          "reading_blocker": "source_image_resolution",
+          "new_unread_books_started": 0
         }
       ]
     },
@@ -5543,5 +5695,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-12 B015 complete; B017 remaining 16 image pages inspected, source-resolution gaps remain. Completion stays47/119; no next book opened."
+  "latest_reading_update": "2026-11-12 B017 matching public figures recovered and fine text reviewed. Three former gap pages closed; five other pages now retain only source occlusion, three remain low-resolution. Completion stays47/119; no next book opened."
 }

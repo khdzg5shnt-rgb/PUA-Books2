@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "138016b912c96804f21f374f5f786866fff03d25",
+  "status": "passed",
+  "completion_ratio": "47/119",
+  "B017_counted_as_complete": false,
+  "new_native_text_credit": 0,
+  "new_original_pdf_page_credit": 0,
+  "next_book_opened": false,
+  "next_work_id": "B017",
+  "next_file_page": 60,
+  "source_image_recovery_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+  "limits": "Checks cannot independently prove reading, source authenticity, original edition completeness, scientific validity or dating effects. Low-resolution and source-occluded content remains incomplete.",
+  "structural": true,
+  "unittest_methods": 48,
+  "synthetic_routing_scenarios": 158,
+  "source_identity_and_blob_verified": true,
+  "original_native_extraction_identity_verified": true,
+  "recovered_source_image_hashes_verified": true,
+  "source_image_occurrences_reviewed": 13,
+  "unique_recovered_source_image_bytes": 10,
+  "same_source_image_repeat_pairs_verified": 3,
+  "fully_closed_old_gap_pages": [
+    21,
+    63,
+    112
+  ],
+  "new_visible_fine_text_gap_pages_resolved": [
+    21,
+    63,
+    112,
+    156,
+    159,
+    176,
+    177,
+    182
+  ],
+  "remaining_low_resolution_label_file_pages": [
+    60,
+    68,
+    124
+  ],
+  "remaining_source_occlusion_file_pages": [
+    156,
+    159,
+    176,
+    177,
+    182
+  ],
+  "remaining_unread_content_file_pages": [
+    60,
+    68,
+    124,
+    156,
+    159,
+    176,
+    177,
+    182
+  ],
+  "other_source_records_preserved": true,
+  "completed_file_count_change": 0,
+  "B017_reading_status": "provided_file_text_partial",
+  "bookmarks_equal": true,
+  "private_transcription_or_source_image_uploads": 0,
+  "source_different_wording_preview_not_substituted": true,
+  "method_operations_routes_and_task_modes_preserved": true,
+  "source_record_count": 158,
+  "changed_file_scope_verified": 15
+}

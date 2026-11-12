@@ -1,0 +1,912 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "138016b912c96804f21f374f5f786866fff03d25",
+  "work_type": "recover_matching_B017_figures_and_read_remaining_visible_fine_text",
+  "reading_order": "Only B017. No B036 or later/new book body opened. B015 completion is prior work and not credited again.",
+  "records": [
+    {
+      "id": "B017",
+      "path": "MGTOW 核心理论文集 (米格道) .pdf",
+      "bytes": 6989249,
+      "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "source_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+      "file_pages": 221,
+      "current_extraction": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+        "characters": 240437,
+        "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "all_image_containing_pages": [
+        4,
+        17,
+        21,
+        22,
+        33,
+        41,
+        42,
+        43,
+        44,
+        48,
+        49,
+        51,
+        55,
+        59,
+        60,
+        63,
+        68,
+        69,
+        91,
+        103,
+        105,
+        112,
+        119,
+        124,
+        128,
+        131,
+        144,
+        156,
+        159,
+        173,
+        176,
+        177,
+        182,
+        183,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "image_page_count": 44,
+      "image_object_count_whole_pdf": 51,
+      "previous_reading_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+      "previous_native_read_range": [
+        0,
+        240437
+      ],
+      "new_native_characters_read": 0,
+      "new_unique_original_pdf_pages_viewed": 0,
+      "former_gap_file_pages": [
+        21,
+        60,
+        63,
+        68,
+        112,
+        124,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "source_recovery_page_occurrences_reviewed": [
+        21,
+        60,
+        63,
+        68,
+        112,
+        124,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "new_visible_fine_text_gap_pages_resolved": [
+        21,
+        63,
+        112,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "fully_closed_old_gap_pages": [
+        21,
+        63,
+        112
+      ],
+      "remaining_low_resolution_label_file_pages": [
+        60,
+        68,
+        124
+      ],
+      "remaining_source_occlusion_file_pages": [
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "remaining_unread_content_file_pages": [
+        60,
+        68,
+        124,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "remaining_gaps": [
+        {
+          "file_page": 60,
+          "kind": "low_resolution",
+          "reason": "公开汇编源PNG仍为488×530；外圈部分权责比较符号和细字不能可靠辨认。旋转、对比和普通放大未补齐这些位置。"
+        },
+        {
+          "file_page": 68,
+          "kind": "low_resolution",
+          "reason": "原帖源图640×254；四主分支和多数标签已读，财务与准备分支仍有少量中文末端标签不清。对比局部已查看，不凭上下文补字。"
+        },
+        {
+          "file_page": 124,
+          "kind": "low_resolution",
+          "reason": "原帖上传图仅248×330；手写图的标题和分支已读，部分中文手写句子仍无法确认。"
+        },
+        {
+          "file_page": 156,
+          "kind": "source_occlusion",
+          "reason": "1080×1359原帖阶段表的可见细字和黄色行已读；底部实例中被源水印覆盖的部分仍未读。"
+        },
+        {
+          "file_page": 159,
+          "kind": "source_occlusion",
+          "reason": "1080×723 AQAL阶段描述及640×286配表的可见文字已读；右下源水印覆盖的标签或单元格仍未读。"
+        },
+        {
+          "file_page": 176,
+          "kind": "source_occlusion",
+          "reason": "与156页对应的原帖源PNG字节相同；复用同一源图的目读，不重复计唯一图。底部源水印覆盖部分仍未读。"
+        },
+        {
+          "file_page": 177,
+          "kind": "source_occlusion",
+          "reason": "两张原帖源图分别与159页源PNG字节相同；可见细字已读，源水印覆盖的标签或单元格仍未读。"
+        },
+        {
+          "file_page": 182,
+          "kind": "source_occlusion",
+          "reason": "1080×581原帖分类导图的可见右侧细标签已读；底部源水印覆盖的部分仍未读。"
+        }
+      ],
+      "source_images_reviewed": [
+        {
+          "key": "p063",
+          "post_id": "6501478146196161073",
+          "post_url": "https://imagine310.blogspot.com/2022/12/mgtow_45.html",
+          "post_image_index": 0,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvSKgo__JZS7dpX0xgKH_2TlADvRrcZ-1qqeZc2-giSlowAdcx0etDYYeAbH_bnQEGAuMHYJZffyXWMMf17ps-SUgjJzYuRBUteZTJHAtIwPb2DdoLQ0ayuxRaFRtmtc6e6_puIkRK1RRa5-NysQyt2wE2wTtMvHS7hunhU9arW49rqg2Qa5s_3Co/s5063/640%20(7).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvSKgo__JZS7dpX0xgKH_2TlADvRrcZ-1qqeZc2-giSlowAdcx0etDYYeAbH_bnQEGAuMHYJZffyXWMMf17ps-SUgjJzYuRBUteZTJHAtIwPb2DdoLQ0ayuxRaFRtmtc6e6_puIkRK1RRa5-NysQyt2wE2wTtMvHS7hunhU9arW49rqg2Qa5s_3Co/s0/640%20(7).png",
+          "file_pages": [
+            63
+          ],
+          "width": 1080,
+          "height": 5063,
+          "bytes": 1340079,
+          "sha256": "91ddea66f7c93c432acefe9ab2c318618ed7e74cac67d8acf9e0f544cf0f0097",
+          "retrieved_file_name_for_hash": "p063_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": true,
+          "remaining_gap": null,
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p063_historical_inset.png",
+              "sha256": "238818772cf3134a955a92cd23e5b755072c7ac214541efa04dc10fa77ae61c2",
+              "width": 1080,
+              "height": 1295,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "Remaining historical-triangle inset labels; main long diagram already read."
+        },
+        {
+          "key": "p068",
+          "post_id": "6501478146196161073",
+          "post_url": "https://imagine310.blogspot.com/2022/12/mgtow_45.html",
+          "post_image_index": 1,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYXCvYC8IgcCWIOfGAtAYMT-4iyyTMejcT_6EsSmnc7TKrioNtIdC3lLBW8srfOrKyNen9XCspmy2ETyeW1BHgloNT2bGrwaX3SCR8k69iERvConpeBCjcsr3tuvSxpFJIK1BgHzMJg9ncIGac9gg36DkY5turb2Km4ANFlaIToaxrw1YXVEyidNA/s640/94cad1c8a786c9178040005350ceccc93ac75717.webp",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYXCvYC8IgcCWIOfGAtAYMT-4iyyTMejcT_6EsSmnc7TKrioNtIdC3lLBW8srfOrKyNen9XCspmy2ETyeW1BHgloNT2bGrwaX3SCR8k69iERvConpeBCjcsr3tuvSxpFJIK1BgHzMJg9ncIGac9gg36DkY5turb2Km4ANFlaIToaxrw1YXVEyidNA/s0/94cad1c8a786c9178040005350ceccc93ac75717.webp",
+          "file_pages": [
+            68
+          ],
+          "width": 640,
+          "height": 254,
+          "bytes": 24172,
+          "sha256": "4e9bc78c37e7bee30405b1e7e390207ef51aec2f852a6acabebdba91f86ff055",
+          "retrieved_file_name_for_hash": "p068_original_post.jpg",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": false,
+          "all_current_page_content_read": false,
+          "remaining_gap": "原帖源图640×254；四主分支和多数标签已读，财务与准备分支仍有少量中文末端标签不清。对比局部已查看，不凭上下文补字。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p068_original_read.png",
+              "sha256": "f2f642faf1fd438df6635d589673ad923ea2f7b7228a751acbd55e364785cab9",
+              "width": 1920,
+              "height": 762,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p068_finance_detail.png",
+              "sha256": "92841e7fb8f9ac1d69a8a127e884d0a104a877a10a66938cb90b41cfcdb89076",
+              "width": 1200,
+              "height": 630,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p068_mental_detail.png",
+              "sha256": "98e85799e764a94e8f4f33a311e744edb826ca17a6c217a6be476a85fa6f49bd",
+              "width": 1225,
+              "height": 670,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "Reviewed existing source and listed crops; uncertain labels remain."
+        },
+        {
+          "key": "p124",
+          "post_id": "6911734380111135301",
+          "post_url": "https://imagine310.blogspot.com/2022/12/mgtow.html",
+          "post_image_index": 2,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv63U0H_TgNPhUvyJpTtgWJcNopTZn6X9VD06GvOmirWaY0k_sXpTrWhn_biyPeX0OUGAleKesoCCeglYWWsWWT583i-3jFE6nMxngcFs168DscfVGw5uqQ7rUBevZ4CMn4j4H4SOwWWEjyzczFU8q1Ptj4-7EZa-5SyvvPn-wJ7LGKKx6FM3vks/s330/%E5%9B%BE%E7%89%873.png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv63U0H_TgNPhUvyJpTtgWJcNopTZn6X9VD06GvOmirWaY0k_sXpTrWhn_biyPeX0OUGAleKesoCCeglYWWsWWT583i-3jFE6nMxngcFs168DscfVGw5uqQ7rUBevZ4CMn4j4H4SOwWWEjyzczFU8q1Ptj4-7EZa-5SyvvPn-wJ7LGKKx6FM3vks/s0/%E5%9B%BE%E7%89%873.png",
+          "file_pages": [
+            124
+          ],
+          "width": 248,
+          "height": 330,
+          "bytes": 116907,
+          "sha256": "ed8e18634f539658801e1e16d29e47366ebaa5f3ffae7f87f99b87ea9fb3e3e8",
+          "retrieved_file_name_for_hash": "p124_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": false,
+          "all_current_page_content_read": false,
+          "remaining_gap": "原帖上传图仅248×330；手写图的标题和分支已读，部分中文手写句子仍无法确认。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p124_source_read.png",
+              "sha256": "bd0ef62d4b3286a2175b4d5a8584db7825fe9f32cbb749bce5cdd5cbc77fa901",
+              "width": 744,
+              "height": 990,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "Reviewed existing source and listed crops; uncertain labels remain."
+        },
+        {
+          "key": "p156",
+          "post_id": "7534086551809036105",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post.html",
+          "post_image_index": 0,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSgeEtxUs2Q8R7XAcBKb6uH7WcaRwX-7wjo2SJxia7iQAQRYlWEdmoarW1zsQUlzl2G9fLTBw5KdxLwRmHZ4yex4_vX-JdI9r5Rmzk9o1XGT1BnVtTyIREs8PCyL5Hn4gYoEdrt1LlVjx4AeyG-EzrFwNOVpQ-1OZg6aF2h2d5qJt-gk7xeH4WEc4/s1359/640%20(1).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSgeEtxUs2Q8R7XAcBKb6uH7WcaRwX-7wjo2SJxia7iQAQRYlWEdmoarW1zsQUlzl2G9fLTBw5KdxLwRmHZ4yex4_vX-JdI9r5Rmzk9o1XGT1BnVtTyIREs8PCyL5Hn4gYoEdrt1LlVjx4AeyG-EzrFwNOVpQ-1OZg6aF2h2d5qJt-gk7xeH4WEc4/s0/640%20(1).png",
+          "file_pages": [
+            156
+          ],
+          "width": 1080,
+          "height": 1359,
+          "bytes": 680048,
+          "sha256": "53df12c0e57e8df9a541425dbb451ce76fa4cd6cc39576b73c1f87e4ba29d334",
+          "retrieved_file_name_for_hash": "p156_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "1080×1359原帖阶段表的可见细字和黄色行已读；底部实例中被源水印覆盖的部分仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p156_original_post.png",
+              "sha256": "53df12c0e57e8df9a541425dbb451ce76fa4cd6cc39576b73c1f87e4ba29d334",
+              "width": 1080,
+              "height": 1359,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread."
+        },
+        {
+          "key": "p159_aqal",
+          "post_id": "7534086551809036105",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post.html",
+          "post_image_index": 1,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMQJ5AAkL5nxDQKzR6D-eMX6I708NNEfQWTnMfQaLilV3KagmHKJJdbHMli6WtUgSGlK-VHauaxpINE3TFmUo4XJ2APJEmKq51l1_V4fawCWaNfsS1US_Vyc76Pz3ia2gHgfW0jN72C6HREWHIecXj-dx_AX6ifZ-s53Tj8k2n0iMR51JBKhgvIhA/s1080/640%20(2).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMQJ5AAkL5nxDQKzR6D-eMX6I708NNEfQWTnMfQaLilV3KagmHKJJdbHMli6WtUgSGlK-VHauaxpINE3TFmUo4XJ2APJEmKq51l1_V4fawCWaNfsS1US_Vyc76Pz3ia2gHgfW0jN72C6HREWHIecXj-dx_AX6ifZ-s53Tj8k2n0iMR51JBKhgvIhA/s0/640%20(2).png",
+          "file_pages": [
+            159
+          ],
+          "width": 1080,
+          "height": 723,
+          "bytes": 848786,
+          "sha256": "2ffd0edc7c8c918afa17d8ea01dd48219154867ad9a1f23f98fc6e5b40d5aa25",
+          "retrieved_file_name_for_hash": "p159_aqal_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "1080×723 AQAL阶段描述及640×286配表的可见文字已读；右下源水印覆盖的标签或单元格仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p159_aqal_original_post.png",
+              "sha256": "2ffd0edc7c8c918afa17d8ea01dd48219154867ad9a1f23f98fc6e5b40d5aa25",
+              "width": 1080,
+              "height": 723,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p159_original_upper.png",
+              "sha256": "969b26207b3dffd906a330e887ae886b4278f5461f9f71568dd54d033d8fd4cb",
+              "width": 1560,
+              "height": 780,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p159_original_lower.png",
+              "sha256": "a06b824ec766fd7e96e2eae16ce31d9d53301a1a8ca97d33c959856014c0adec",
+              "width": 1560,
+              "height": 676,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread."
+        },
+        {
+          "key": "p159_table",
+          "post_id": "7534086551809036105",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post.html",
+          "post_image_index": 2,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_JKh_kKlxdfnSsSbCrZ1MTPQvlhpw1S89eVB1F1pcA35EwJXlSPTMLVOws9gOMHhG_nRIV3Qd-yRUV91A89MysPHmhrTbtqIfudeVn3Z-ZzZ6rIhfUMkYhMI7DBio-ur8ms5r60RtftO-kNwyclvASGKGqkr-ZFZyL10IXG7uLMNpGXdb426Q0I/s640/640%20(3).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ_JKh_kKlxdfnSsSbCrZ1MTPQvlhpw1S89eVB1F1pcA35EwJXlSPTMLVOws9gOMHhG_nRIV3Qd-yRUV91A89MysPHmhrTbtqIfudeVn3Z-ZzZ6rIhfUMkYhMI7DBio-ur8ms5r60RtftO-kNwyclvASGKGqkr-ZFZyL10IXG7uLMNpGXdb426Q0I/s0/640%20(3).png",
+          "file_pages": [
+            159
+          ],
+          "width": 640,
+          "height": 286,
+          "bytes": 250021,
+          "sha256": "ff08a1d58b6fb2d32565f9c121258335c231673891349e5ef36e0db93458509e",
+          "retrieved_file_name_for_hash": "p159_table_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "1080×723 AQAL阶段描述及640×286配表的可见文字已读；右下源水印覆盖的标签或单元格仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p159_original_table_read.png",
+              "sha256": "690eb0256c1e41451be59e9dcd2b4de2e7037ce98e1151b5a4d21b34865cb48f",
+              "width": 1920,
+              "height": 858,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread."
+        },
+        {
+          "key": "p176",
+          "post_id": "5034092397736618700",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post_20.html",
+          "post_image_index": 0,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEielyR_6gHUhXLlr9mCbM3cs94lAf63s9fn9BngNIMQGLoFhzF1ELgyhy-BMVnxXt2ErxNuPSHhzx4GhmlWV1pvQLjTt3SsXRDAZ_HXrLcgvW2zMMvt6Fmx0YSg5v8jOz5pVLxr79ug2fE68ExFyVCNMmH-gcPz4fpWM9Zxu2cb-70W-2CpqwYdM-U/s1359/640%20(1).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEielyR_6gHUhXLlr9mCbM3cs94lAf63s9fn9BngNIMQGLoFhzF1ELgyhy-BMVnxXt2ErxNuPSHhzx4GhmlWV1pvQLjTt3SsXRDAZ_HXrLcgvW2zMMvt6Fmx0YSg5v8jOz5pVLxr79ug2fE68ExFyVCNMmH-gcPz4fpWM9Zxu2cb-70W-2CpqwYdM-U/s0/640%20(1).png",
+          "file_pages": [
+            176
+          ],
+          "width": 1080,
+          "height": 1359,
+          "bytes": 680048,
+          "sha256": "53df12c0e57e8df9a541425dbb451ce76fa4cd6cc39576b73c1f87e4ba29d334",
+          "retrieved_file_name_for_hash": "p176_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "与156页对应的原帖源PNG字节相同；复用同一源图的目读，不重复计唯一图。底部源水印覆盖部分仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p156_original_post.png",
+              "sha256": "53df12c0e57e8df9a541425dbb451ce76fa4cd6cc39576b73c1f87e4ba29d334",
+              "width": 1080,
+              "height": 1359,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread.",
+          "same_source_bytes_as": "p156"
+        },
+        {
+          "key": "p177_aqal",
+          "post_id": "5034092397736618700",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post_20.html",
+          "post_image_index": 1,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP4YFUFeHdoVr-zHlYK_WNB4WVX4wlCWbnEKbHalaxAU4EDYBYTo2uq1HC8Ako_pKO4nPwF6IX75ebSTUWOZQt25b_e0xCnLGNqzoL9cz9MCtkciL8CQWhAenDltRbNfjVsuxFUO43Cn2HYlozYxvBtQCQejV4xRsuPMtduqZXvo1FozMPiII-2mQ/s1080/640%20(2).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP4YFUFeHdoVr-zHlYK_WNB4WVX4wlCWbnEKbHalaxAU4EDYBYTo2uq1HC8Ako_pKO4nPwF6IX75ebSTUWOZQt25b_e0xCnLGNqzoL9cz9MCtkciL8CQWhAenDltRbNfjVsuxFUO43Cn2HYlozYxvBtQCQejV4xRsuPMtduqZXvo1FozMPiII-2mQ/s0/640%20(2).png",
+          "file_pages": [
+            177
+          ],
+          "width": 1080,
+          "height": 723,
+          "bytes": 848786,
+          "sha256": "2ffd0edc7c8c918afa17d8ea01dd48219154867ad9a1f23f98fc6e5b40d5aa25",
+          "retrieved_file_name_for_hash": "p177_aqal_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "两张原帖源图分别与159页源PNG字节相同；可见细字已读，源水印覆盖的标签或单元格仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p159_aqal_original_post.png",
+              "sha256": "2ffd0edc7c8c918afa17d8ea01dd48219154867ad9a1f23f98fc6e5b40d5aa25",
+              "width": 1080,
+              "height": 723,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p159_original_upper.png",
+              "sha256": "969b26207b3dffd906a330e887ae886b4278f5461f9f71568dd54d033d8fd4cb",
+              "width": 1560,
+              "height": 780,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p159_original_lower.png",
+              "sha256": "a06b824ec766fd7e96e2eae16ce31d9d53301a1a8ca97d33c959856014c0adec",
+              "width": 1560,
+              "height": 676,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread.",
+          "same_source_bytes_as": "p159_aqal"
+        },
+        {
+          "key": "p177_table",
+          "post_id": "5034092397736618700",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post_20.html",
+          "post_image_index": 2,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7QlT0rwEfboQdoxXxtxjl5QFXsoHEk3sM1n5vSZZbGFYb8eGg_2M5redFfjqbF8YrghfxnLBmNgpr6HkwpjMiJyxBGiwC4nlX4DE8GMx7PKZSBvqubP6Wj8MdOuGX5xdMJlcxdhatbEXmco7d-9Z1H0OJNXfAXsZqLV9otE7nApJwMmyfvzGRJw/s640/640%20(3).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7QlT0rwEfboQdoxXxtxjl5QFXsoHEk3sM1n5vSZZbGFYb8eGg_2M5redFfjqbF8YrghfxnLBmNgpr6HkwpjMiJyxBGiwC4nlX4DE8GMx7PKZSBvqubP6Wj8MdOuGX5xdMJlcxdhatbEXmco7d-9Z1H0OJNXfAXsZqLV9otE7nApJwMmyfvzGRJw/s0/640%20(3).png",
+          "file_pages": [
+            177
+          ],
+          "width": 640,
+          "height": 286,
+          "bytes": 250021,
+          "sha256": "ff08a1d58b6fb2d32565f9c121258335c231673891349e5ef36e0db93458509e",
+          "retrieved_file_name_for_hash": "p177_table_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "两张原帖源图分别与159页源PNG字节相同；可见细字已读，源水印覆盖的标签或单元格仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p159_original_table_read.png",
+              "sha256": "690eb0256c1e41451be59e9dcd2b4de2e7037ce98e1151b5a4d21b34865cb48f",
+              "width": 1920,
+              "height": 858,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread.",
+          "same_source_bytes_as": "p159_table"
+        },
+        {
+          "key": "p182",
+          "post_id": "5034092397736618700",
+          "post_url": "https://imagine310.blogspot.com/2022/12/blog-post_20.html",
+          "post_image_index": 3,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQqFMj7t_OJCtQ8IhiR2BwPOh_zeJpS7y02CXVoOEnUOkM7agTRGkLLmI_txxb8B2sDtCOXOwCk6-TtvLqZhModk2gvkvqqjP7C8hZUp71tcSWidXAHbN5TQxLdXYf1W1FmXm5Z9JL8oD_m26NRt3IhgRe6U7CzAcfhA_qOCbkP3Xvif9PbbWwfOw/s1080/640%20(5).png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQqFMj7t_OJCtQ8IhiR2BwPOh_zeJpS7y02CXVoOEnUOkM7agTRGkLLmI_txxb8B2sDtCOXOwCk6-TtvLqZhModk2gvkvqqjP7C8hZUp71tcSWidXAHbN5TQxLdXYf1W1FmXm5Z9JL8oD_m26NRt3IhgRe6U7CzAcfhA_qOCbkP3Xvif9PbbWwfOw/s0/640%20(5).png",
+          "file_pages": [
+            182
+          ],
+          "width": 1080,
+          "height": 581,
+          "bytes": 85718,
+          "sha256": "319bbf6e4516b0659bb5ab2201a926fe742db23d2cf6b0bcce5598de6644975f",
+          "retrieved_file_name_for_hash": "p182_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": false,
+          "remaining_gap": "1080×581原帖分类导图的可见右侧细标签已读；底部源水印覆盖的部分仍未读。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p182_original_post.png",
+              "sha256": "319bbf6e4516b0659bb5ab2201a926fe742db23d2cf6b0bcce5598de6644975f",
+              "width": 1080,
+              "height": 581,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible fine text outside source watermark; covered areas remain unread."
+        },
+        {
+          "key": "p060",
+          "file_pages": [
+            60
+          ],
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLz7KDyDBWDy6tIuJWbjIhAt0jbioQalgW4xK3UQcbFRAJW3Mh8pC6e6V12p1OwfJKIXRZ4LRhLkRc3Nx-LW-jlxWt1_-b9qBIEPr7YKIu95NrRCVJs1Bgfi2Q-U4Y2oM_Sbq6PfG9NxkLgcaH8LEi0rHEGSCDMdR035zDWwulxt-PphJvhJG2h5w/s530/%E5%9B%BE%E7%89%8717.png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLz7KDyDBWDy6tIuJWbjIhAt0jbioQalgW4xK3UQcbFRAJW3Mh8pC6e6V12p1OwfJKIXRZ4LRhLkRc3Nx-LW-jlxWt1_-b9qBIEPr7YKIu95NrRCVJs1Bgfi2Q-U4Y2oM_Sbq6PfG9NxkLgcaH8LEi0rHEGSCDMdR035zDWwulxt-PphJvhJG2h5w/s0/%E5%9B%BE%E7%89%8717.png",
+          "post_image_index": 16,
+          "bytes": 119968,
+          "width": 488,
+          "height": 530,
+          "sha256": "b3d47e82a27b4c7f07e9971988c34c9f8ed765de78618004f12ef647fb51d3f2",
+          "post_id": "3840601510732645408",
+          "post_url": "https://imagine310.blogspot.com/2023/03/mgtow.html",
+          "retrieved_file_name_for_hash": "p060_public_original.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": false,
+          "all_current_page_content_read": false,
+          "remaining_gap": "公开汇编源PNG仍为488×530；外圈部分权责比较符号和细字不能可靠辨认。旋转、对比和普通放大未补齐这些位置。",
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p060_minRGB_rotated.png",
+              "sha256": "3a492a1a1aac5af187caabda92dcc91c9b8da09aa97682f0e0e00d11abd2b16e",
+              "width": 2160,
+              "height": 2160,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p060_source_read.png",
+              "sha256": "e943ced06f57f8651d51dbd3e97b705c9999123364ebd2ba459013b8c04caffa",
+              "width": 976,
+              "height": 1060,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p060_symbol_tl.png",
+              "sha256": "a1826559646b579c066561f3c883f6504eb3023a93f8a69b277cc908cad8c20b",
+              "width": 624,
+              "height": 624,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p060_symbol_tr.png",
+              "sha256": "6ccd18b2f790a9fed7cf8556795d47e9728ff544123e2441a62a0c433f9f4d1e",
+              "width": 456,
+              "height": 456,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "Ring headings and existing visible content reviewed; some outer comparisons remain uncertain."
+        },
+        {
+          "post_id": "5716787694287940221",
+          "post_url": "https://imagine310.blogspot.com/2022/12/mgtowmgtow.html",
+          "post_image_index": 3,
+          "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDHYSaEomFc1V-P8LF1zp7edIakYHh0J-KVagMeUGc9_S1ZmTLv-ZZuSK92I98MzZ2h81YTYiOQMN73Vpg1TayM8rrKly9HFbh1sL5K2M9ObqcXI2F5gKB93UUIoUchgT25OPk75g-vJVMZtcIDdnvYbPYMQ6CPuqa6BMV67rNjicdER0xdJGv330/s483/%E5%9B%BE%E7%89%874.png",
+          "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDHYSaEomFc1V-P8LF1zp7edIakYHh0J-KVagMeUGc9_S1ZmTLv-ZZuSK92I98MzZ2h81YTYiOQMN73Vpg1TayM8rrKly9HFbh1sL5K2M9ObqcXI2F5gKB93UUIoUchgT25OPk75g-vJVMZtcIDdnvYbPYMQ6CPuqa6BMV67rNjicdER0xdJGv330/s0/%E5%9B%BE%E7%89%874.png",
+          "width": 483,
+          "height": 291,
+          "bytes": 207195,
+          "sha256": "140273b7a2f9844bc777a0f1d3d14853bfb56acaba6350d95612c2f4ff7ec457",
+          "key": "p112",
+          "file_pages": [
+            112
+          ],
+          "retrieved_file_name_for_hash": "p112_original_post.png",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": true,
+          "remaining_gap": null,
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p112_original_post_read.png",
+              "sha256": "86f076bbcab14c87fb64ce9d33b73ca62028e6aec3065e987cc39ecdaaf70f60",
+              "width": 1449,
+              "height": 873,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "All visible bilingual classification labels in matching source image."
+        },
+        {
+          "key": "p021_high_resolution_repost",
+          "file_pages": [
+            21
+          ],
+          "post_url": "https://bu2021.xyz/t/topic/24586",
+          "requested_original_url": "https://bu2021.xyz/uploads/default/original/2X/a/a377090782704ecf092567579f10126b89190892.jpeg",
+          "source_type": "Public repost of chart; same visible v0.04b7b1 layout and bilingual labels as supplied file, manually compared. Original authorship not independently authenticated.",
+          "retrieved_file_name_for_hash": "political_chinese1920.jpeg",
+          "bytes": 466623,
+          "width": 1920,
+          "height": 1920,
+          "sha256": "414251e19f4dfd6bab11352011137c15dc40b3426e03bb8939ebfd220f03960b",
+          "actually_viewed": true,
+          "visible_fine_text_gap_resolved": true,
+          "all_current_page_content_read": true,
+          "remaining_gap": null,
+          "reading_evidence": [
+            {
+              "local_evidence_name": "p021_1920_tl.png",
+              "sha256": "f4b6d69f46860ede8dc5c78d7e6e104776bc9614ce20edebe6389755a4c5cc41",
+              "width": 1000,
+              "height": 1000,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p021_1920_tr.png",
+              "sha256": "6840efd5ff5ff23a920eef543320852b13ca3f0d1dba43d81956df6dc9bc439e",
+              "width": 1000,
+              "height": 1000,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p021_1920_bl.png",
+              "sha256": "7905b876f7e26707f55a52908e761ad51c8b82a85b485eb1ea10cd5f81d587e9",
+              "width": 1000,
+              "height": 1000,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            },
+            {
+              "local_evidence_name": "p021_1920_br.png",
+              "sha256": "d230b9ec4b37675c9205b1d0a3afe88d99c7569c2ff3f82b8d92a80768e98ca1",
+              "width": 1000,
+              "height": 1000,
+              "actually_viewed": true,
+              "repository_image_uploaded": false
+            }
+          ],
+          "read_scope": "Four overlapping quadrants cover the entire chart; small bilingual labels read. Intrinsic label overlap is not invented or treated as a validated classification."
+        }
+      ],
+      "source_images_reviewed_count_including_repeat_occurrences": 13,
+      "source_images_reviewed_unique_bytes": 10,
+      "supporting_smaller_source": {
+        "key": "p021",
+        "file_pages": [
+          21
+        ],
+        "public_parent_href": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaiJ5NsenobczvTvgnUgOUwYty2Bj4K3CCbHkumgGjX1jLCZMjUoshib8Oa7O6LCkNHwt9MKi7vyahV6EAXnGuzxmFu__3yNDH8OACEsi7mM_9Lyt9mWxdIywz7Pds1HTXH3PbTB6VSyaPjgzz6gvusyd2mbx-CqmsPm5lEX4wwGdRJspuqlQ827E/s720/777.png",
+        "requested_original_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaiJ5NsenobczvTvgnUgOUwYty2Bj4K3CCbHkumgGjX1jLCZMjUoshib8Oa7O6LCkNHwt9MKi7vyahV6EAXnGuzxmFu__3yNDH8OACEsi7mM_9Lyt9mWxdIywz7Pds1HTXH3PbTB6VSyaPjgzz6gvusyd2mbx-CqmsPm5lEX4wwGdRJspuqlQ827E/s0/777.png",
+        "post_image_index": 2,
+        "bytes": 956245,
+        "width": 720,
+        "height": 720,
+        "sha256": "c720684123e97b9f87d4c965a6041332875cff94da2bfc38c3d4e5efcf8dc338",
+        "post_id": "8790814744611683269",
+        "post_url": "https://imagine310.blogspot.com/2022/12/mgtow_61.html",
+        "actually_viewed": true,
+        "gap_closed_by_this_image_alone": false,
+        "role": "720x720 source and four enlarged crops viewed; smallest cells still uncertain, then recovered1920 source read."
+      },
+      "same_image_reuse_not_new_independent_content": [
+        {
+          "occurrences": [
+            156,
+            176
+          ],
+          "keys": [
+            "p156",
+            "p176"
+          ],
+          "sha256": "53df12c0e57e8df9a541425dbb451ce76fa4cd6cc39576b73c1f87e4ba29d334"
+        },
+        {
+          "occurrences": [
+            159,
+            177
+          ],
+          "keys": [
+            "p159_aqal",
+            "p177_aqal"
+          ],
+          "sha256": "2ffd0edc7c8c918afa17d8ea01dd48219154867ad9a1f23f98fc6e5b40d5aa25"
+        },
+        {
+          "occurrences": [
+            159,
+            177
+          ],
+          "keys": [
+            "p159_table",
+            "p177_table"
+          ],
+          "sha256": "ff08a1d58b6fb2d32565f9c121258335c231673891349e5ef36e0db93458509e"
+        }
+      ],
+      "reading_status": "provided_file_text_partial",
+      "all_current_file_content_read": false,
+      "original_publication_complete": false,
+      "new_method_operations": 0,
+      "new_unread_books_started": 0,
+      "private_source_text_or_image_uploads": 0
+    }
+  ],
+  "source_recovery": {
+    "public_feed_access": {
+      "blog_id": "3171680465841584131",
+      "feed_url": "https://www.blogger.com/feeds/3171680465841584131/posts/default?alt=json&max-results=100",
+      "per_post_feed_url_pattern": "https://www.blogger.com/feeds/3171680465841584131/posts/default/{observed_post_id}?alt=json",
+      "method": "Unauthenticated public RSS/JSON and publicly linked images; only known B017 figure recovery. No editor URLs opened, authentication or account state used.",
+      "full_posts_not_credited_as_new_books": true
+    },
+    "layout_checks": [
+      {
+        "file_page": 21,
+        "pdf_xref": 47,
+        "recovered_file": "political_chinese1920.jpeg",
+        "full_image_gray_resize_correlation": 0.911747,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 60,
+        "pdf_xref": 149,
+        "recovered_file": "p060_public_original.png",
+        "full_image_gray_resize_correlation": 0.997342,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 63,
+        "pdf_xref": 158,
+        "recovered_file": "p063_original_post.png",
+        "full_image_gray_resize_correlation": 0.998075,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 68,
+        "pdf_xref": 170,
+        "recovered_file": "p068_original_post.jpg",
+        "full_image_gray_resize_correlation": 0.981962,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 112,
+        "pdf_xref": 270,
+        "recovered_file": "p112_original_post.png",
+        "full_image_gray_resize_correlation": 0.980732,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 124,
+        "pdf_xref": 301,
+        "recovered_file": "p124_original_post.png",
+        "full_image_gray_resize_correlation": 0.983849,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 156,
+        "pdf_xref": 375,
+        "recovered_file": "p156_original_post.png",
+        "full_image_gray_resize_correlation": 0.989069,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 159,
+        "pdf_xref": 383,
+        "recovered_file": "p159_aqal_original_post.png",
+        "full_image_gray_resize_correlation": 0.986789,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 159,
+        "pdf_xref": 384,
+        "recovered_file": "p159_table_original_post.png",
+        "full_image_gray_resize_correlation": 0.987771,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 176,
+        "pdf_xref": 422,
+        "recovered_file": "p176_original_post.png",
+        "full_image_gray_resize_correlation": 0.988147,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 177,
+        "pdf_xref": 426,
+        "recovered_file": "p177_aqal_original_post.png",
+        "full_image_gray_resize_correlation": 0.987441,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 177,
+        "pdf_xref": 427,
+        "recovered_file": "p177_table_original_post.png",
+        "full_image_gray_resize_correlation": 0.988164,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      },
+      {
+        "file_page": 182,
+        "pdf_xref": 439,
+        "recovered_file": "p182_original_post.png",
+        "full_image_gray_resize_correlation": 0.977978,
+        "note": "Auxiliary layout comparison; not proof of reading or exact word identity."
+      }
+    ],
+    "excluded_substitutions": [
+      {
+        "url": "https://www.formlessmountain.com/images/AQALchartED1.jpg",
+        "reason": "Public author preview actually viewed, but Expert/Achiever/Individualist stage wording differs from supplied B017. Not substituted. The subsequently recovered matching original-post1080x723 source is used instead."
+      },
+      {
+        "url": "https://live.staticflickr.com/190/485868017_9ede7968f7.jpg",
+        "reason": "500x336 attributed preview viewed; insufficient resolution, not completion evidence."
+      }
+    ],
+    "no_generated_or_guessed_text": true,
+    "no_source_image_or_raw_html_uploads": true,
+    "layout_correlation_is_not_reading_or_word_identity_proof": true
+  },
+  "completed_current_files": 47,
+  "partial_current_files": 5,
+  "unread_current_files": 67,
+  "new_completed_current_file_ids": [],
+  "next_work_unit": {
+    "id": "B017",
+    "path": "MGTOW 核心理论文集 (米格道) .pdf",
+    "bytes": 6989249,
+    "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "provided_file_text_partial",
+    "file_pages": 221,
+    "next_file_page": 60,
+    "next_character": null,
+    "next_gap_review_file_page": 60,
+    "start": "B017原生文字及44个含图页既有阅读保留。本轮补齐21、63、112页；另五页可见细字已补读但源水印遮挡仍未读。60、68、124页低清与156、159、176、177、182页遮挡保留，先处理第60页；不换下一本。",
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+      "characters": 240437,
+      "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+    "remaining_image_review_file_pages": [
+      60,
+      68,
+      124,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "next_content_unit": "Only B017. The earliest retained gap is file page60. Existing public original posts have been checked for all 11 former gap pages. Low-resolution labels remain on60/68/124; source-watermarked portions remain on156/159/176/177/182. Obtain a clearer demonstrably matching source or an unobscured matching version. Repeating the same enlargement or using a wording-different chart is not new reading. No B036 or new book body until the current file is finished.",
+    "reading_blocker": "source_image_resolution_and_source_occlusion",
+    "source_recovery_attempts_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+    "remaining_low_resolution_label_file_pages": [
+      60,
+      68,
+      124
+    ],
+    "remaining_source_occlusion_file_pages": [
+      156,
+      159,
+      176,
+      177,
+      182
+    ]
+  },
+  "limits": "Source recovery and structural checks do not validate these diagrams as scientific, diagnostic, causal, or effective dating models. Source-watermarked and unreadable content remains incomplete."
+}
