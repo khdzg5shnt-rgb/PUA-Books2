@@ -129,6 +129,20 @@ def validate(root=ROOT):
         'current_book_files_text_partial':partial,'current_book_files_not_started':unread}
     if sources['statistics'] != expected_stats:
         errors.append('Source statistics do not match records')
+    # An unfinished file cannot be bypassed by opening an unread one. The user-
+    # facing ratio counts completed supplied files, never completed + partial.
+    unfinished_ids = [s['id'] for s in books if s['reading_status'] not in
+                      {'provided_file_text_complete', 'unread'}]
+    if state.get('unfinished_file_queue') != unfinished_ids:
+        errors.append('Unfinished-file queue does not match source records')
+    if unfinished_ids and sources['next_work_unit']['id'] != unfinished_ids[0]:
+        errors.append('Finish the current unfinished file before opening another book')
+    display = state.get('progress_display', {})
+    if (display.get('reported_numerator') != complete or
+            display.get('reported_denominator') != len(books) or
+            display.get('ratio_basis') != 'current_file_text_complete_only' or
+            display.get('partial_excluded_from_numerator') is not True):
+        errors.append('Reported reading ratio must count completed files only')
     if state['reading_bookmark'] != sources['next_work_unit']:
         errors.append('Runtime reading bookmark does not match source state')
     next_unit=sources['next_work_unit']

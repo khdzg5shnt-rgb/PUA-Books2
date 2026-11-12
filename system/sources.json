@@ -1603,22 +1603,41 @@
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B054",
-    "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
-    "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
-    "bytes": 179318,
+    "id": "B014",
+    "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+    "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+    "bytes": 13323230,
+    "file_pages": 1002,
+    "reading_status": "provided_file_text_partial",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "unread",
-    "file_pages": null,
-    "spine_items": null,
-    "next_spine_index": 0,
-    "next_file_page": null,
-    "next_character": 0,
-    "start": "B053 current supplied PDF closed; B054 EPUB first spine item, character0 after identity and extraction verification.",
-    "next_content_unit": "Verify B054 package and reading order, then read its supplied text serially to its end before opening another book.",
-    "current_extraction_identity": null,
-    "ledger": "knowledge/provenance/B053_reading_2026-11-12.json",
-    "substantive_body_characters_read": 0
+    "start": "用户最新要求：先补最早未完成文件B014；第854页继续。未收尾不换下一份，不启动B054。",
+    "next_file_page": 854,
+    "next_character": 1668537,
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+      "characters": 1991387,
+      "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+      "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+    },
+    "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+    "next_content_unit": "B014 bibliography pages854–943, credits946–958, index964–998, and provided image page1001; resume exact existing extraction.",
+    "unread_file_page_ranges": [
+      [
+        854,
+        943
+      ],
+      [
+        946,
+        958
+      ],
+      [
+        964,
+        998
+      ]
+    ],
+    "unread_file_page_count": 138,
+    "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
   },
   "deferred_work_units": [
     {

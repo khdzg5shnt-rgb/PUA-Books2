@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "a8fb5154e6424e4682383e849f37694d712b4e73",
+  "status": "passed",
+  "structural": true,
+  "unittest_methods": 48,
+  "synthetic_routing_scenarios": 158,
+  "completion_plus_partial_ratio_rejected": true,
+  "opening_new_book_before_B014_complete_rejected": true,
+  "reported_completion_ratio": "45/119",
+  "unfinished_file_queue": [
+    "B014",
+    "B015",
+    "B017",
+    "B036",
+    "B038",
+    "B039",
+    "B045"
+  ],
+  "new_book_files_read": 0,
+  "original_source_blobs_changed": false,
+  "limits": "Checks enforce queue consistency and reporting. No additional source reading or efficacy is asserted by this policy change."
+}
