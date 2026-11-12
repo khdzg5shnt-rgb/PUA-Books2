@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成50/119份任务，另2份未完成、67份未开始。B017按用户要求结束，实际缺口保留。本轮只续B039，新增核读237个原页，累计380/380版面已查看；浅字和损坏嵌图仍有未读片段，暂不计完成。下一仅补同源清晰材料，不从132页重读，B045及新文件等待。[本轮补核](B039_remaining_scans_2026-11-12.md)。
+当前完成52/119份任务，无遗留部分阅读文件、67份未开始。50份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮B045已补读当前113页全部提供内容，下一只读B054，本轮未打开其正文。[最近收尾](B045_finished_2026-11-12.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -51,13 +51,13 @@
 | B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B036.md) |
 | B037 | [决胜网络把妹 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B3%E8%83%9C%E7%BD%91%E7%BB%9C%E6%8A%8A%E5%A6%B9%20-%20Kezia%20Noble.epub) | 11 | 正文读完 | [精读](../books/B037.md) |
 | B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B038.md) |
-| B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 部分：全部OCR及380页版面已核，浅字与损坏嵌图仍有未读片段；不计完成 | [笔记](../books/B039.md) |
+| B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 用户认可结束：380页版面和OCR已核，损坏字形保留，不冒充实际全读 | [笔记](../books/B039.md) |
 | B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 当前119页文字完成；27图已核；手打版限制 | [笔记](../books/B040.md) |
 | B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 与B040逐页比对复用；非独立新原著 | [笔记](../books/B041.md) |
 | B042 | [前线笔记 - 尼尔.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%89%8D%E7%BA%BF%E7%AC%94%E8%AE%B0%20-%20%E5%B0%BC%E5%B0%94.pdf) | 52 | 正文读完 | [精读](../books/B042.md) |
 | B043 | [十五步让你成为诱惑大师 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E4%BA%94%E6%AD%A5%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E8%AF%B1%E6%83%91%E5%A4%A7%E5%B8%88%20-%20Kezia%20Noble.epub) | 5 | 现有节选正文读完 | [核读](../books/B043.md) |
 | B044 | [十月男人 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8D%81%E6%9C%88%E7%94%B7%E4%BA%BA%20-%20IN10SE.pdf) | 52 | 当前52页文字完成；控制方案不采用 | [笔记](../books/B044.md) |
-| B045 | [叔叔教你护妹子 - 刘毓卿.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8F%94%E5%8F%94%E6%95%99%E4%BD%A0%E6%8A%A4%E5%A6%B9%E5%AD%90%20-%20%E5%88%98%E6%AF%93%E5%8D%BF.pdf) | 113 | 部分：113页原生文字已读；三张理论图与11页原图核对；19页正文图像及原始系列范围缺口保留 | [笔记](../books/B045.md) |
+| B045 | [叔叔教你护妹子 - 刘毓卿.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%8F%94%E5%8F%94%E6%95%99%E4%BD%A0%E6%8A%A4%E5%A6%B9%E5%AD%90%20-%20%E5%88%98%E6%AF%93%E5%8D%BF.pdf) | 113 | 当前113页原生文字、全部版面与正文图像已读；原始系列完整性未核 | [笔记](../books/B045.md) |
 | B046 | [吸引不是选择 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 148 | 逐页核对后文字覆盖完成 | [核读](../books/B046.md) |
 | B047 | [吸引力原理 - Adam Lyons.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E5%8A%9B%E5%8E%9F%E7%90%86%20-%20Adam%20Lyons.epub) | 9 | 正文读完 | [精读](../books/B047.md) |
 | B048 | [坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E7%94%B7%E4%BA%BA%EF%BC%9A%E5%A5%B3%E4%BA%BA%E6%97%A0%E6%B3%95%E6%8A%B5%E5%BE%A1%E7%9A%84%E8%AF%B1%E6%83%91%E3%80%81%E5%8E%86%E7%BB%8F%E4%B8%8E%E5%86%92%E9%99%A9%20-%20%E8%8B%B1%E6%A0%BC.epub) | 11 | 当前文件覆盖完成：11项、九章和延伸阅读已读，无图像缺口；原版与引文未独立核查 | [笔记](../books/B048.md) |

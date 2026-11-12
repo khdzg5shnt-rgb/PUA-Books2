@@ -1,144 +1,62 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B039_clear_source_required_for_unread_glyphs",
-  "status": "blocked_on_clearer_same_source_regions",
-  "base_commit": "df1140c3648d927cc354143abcac53687e219de9",
+  "current_focus": "B054_next_unread_after_B045_finished",
+  "status": "ready_for_next_file",
+  "base_commit": "47d7e558a7c154fec962050e9516e5aa2a510a00",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 0,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B039_gap_followup_2026-11-12.md",
-  "validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B045_finished_2026-11-12.md",
+  "validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B039",
-    "path": "冷眼观爱2 - 冷爱.pdf",
-    "bytes": 7795361,
-    "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+    "id": "B054",
+    "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
+    "bytes": 179318,
+    "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "provided_file_text_partial",
-    "ledger": "knowledge/provenance/B039_remaining_scans_2026-11-12.json",
-    "next_character": null,
-    "current_extraction_identity": {
-      "id": "B039",
-      "engine": "Tesseract tesseract 5.5.0",
-      "languages": "chi_sim+eng",
-      "psm": 3,
-      "render_matrix": [
-        3,
-        3
-      ],
-      "line_ending": "LF",
-      "characters": 200223,
-      "body_characters": 183991,
-      "text_sha256": "01a8ca0e44fb4b7572eede306ee39d9dad5c804dd370597e51a44588e9781fcb",
-      "processed_pages": 380,
-      "short_output_pages": [
-        1,
-        12,
-        13,
-        83,
-        130,
-        131,
-        217,
-        218,
-        219,
-        288,
-        289,
-        348,
-        349
-      ],
-      "models": [
-        {
-          "language": "chi_sim",
-          "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/chi_sim.traineddata",
-          "bytes": 2469156,
-          "sha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730"
-        }
-      ],
-      "eng_model_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
-      "kind": "full_page_scanned_PDF_OCR",
-      "quality": "uncorrected_OCR_with_garbled_and_missing_strings_not_a_verified_transcription",
-      "cache_persisted_in_repository": false,
-      "raw_OCR_text_newly_archived": false
-    },
-    "file_pages": 380,
-    "next_file_page": null,
-    "next_gap_review_file_page": 85,
-    "remaining_image_review_file_pages": [],
-    "start": "380页版面此前已全部审阅；本次复核12个旧目标页/局部，两份外部副本同blob，未恢复未读字形。下一需要清晰同源材料，不重复相同扫描、不从132页重读、不先开B045。",
-    "next_content_unit": "Need a genuinely clearer version of the same target regions, or a new explicit user instruction accepting closure with known unread gaps. Do not repeat identical-copy downloads, count this as completion, restart page132, or open B045 under the unchanged scope.",
-    "reading_phase": "clear_source_required_after_same_blob_recovery_checks",
-    "remaining_source_quality_regions": [
-      {
-        "file_pages": [
-          85
-        ],
-        "region": "Faint question-list lettering, especially its final item; native enlargement and ordinary ink dilation inspected.",
-        "unread_fragments_remain": true,
-        "reconstructed_text_claimed": false
-      },
-      {
-        "file_pages": [
-          147
-        ],
-        "region": "Some wording in the faint three-item list; enlarged render and native crop inspected.",
-        "unread_fragments_remain": true,
-        "reconstructed_text_claimed": false
-      },
-      {
-        "file_pages": [
-          149,
-          150
-        ],
-        "region": "Thresholded screenshot insets retain damaged/clipped glyph regions; readable portions inspected at native resolution.",
-        "unread_fragments_remain": true,
-        "reconstructed_text_claimed": false
-      },
-      {
-        "file_pages": [
-          23,
-          25,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32
-        ],
-        "region": "Previous first-chapter photo/profile inset degradation remains as previously documented; these pages are not reread or recredited this round.",
-        "unread_fragments_remain": true,
-        "reconstructed_text_claimed": false,
-        "examples_not_exhaustive": true
-      }
-    ],
-    "last_gap_recovery_ledger": "knowledge/provenance/B039_gap_followup_2026-11-12.json"
+    "reading_status": "unread",
+    "next_character": 0,
+    "next_spine_item": 1,
+    "start": "既有未完成队列已清空。下一唯一主读B054，从EPUB首个OPF项开始；先核原文件身份与阅读顺序。本轮未打开B054正文，未计新开展或完成。",
+    "next_content_unit": "B054 first unread file only. Verify original EPUB blob and extraction order, read from its first supplied item, and finish notes and scope before B055. B054 body has not been opened in this round."
   },
-  "next_work": "Need a genuinely clearer version of the same target regions, or a new explicit user instruction accepting closure with known unread gaps. Do not repeat identical-copy downloads, count this as completion, restart page132, or open B045 under the unchanged scope.",
+  "next_work": "B054 first unread file only. Verify original EPUB blob and extraction order, read from its first supplied item, and finish notes and scope before B055. B054 body has not been opened in this round.",
   "current_session_progress": {
-    "baseline": "df1140c3648d927cc354143abcac53687e219de9",
-    "work_type": "targeted_source_quality_recheck_and_same_copy_deduplication",
+    "baseline": "47d7e558a7c154fec962050e9516e5aa2a510a00",
+    "work_type": "user_closed_B039_then_finish_B045_serially",
     "new_book_files_started": [],
-    "new_book_files_completed": [],
+    "new_book_files_completed": [
+      "B039",
+      "B045"
+    ],
+    "actually_completed_file_ids": [
+      "B045"
+    ],
+    "new_whole_book_files_actually_read": 1,
+    "user_accepted_scope_closure_ids": [
+      "B039"
+    ],
     "new_native_or_OCR_characters_read_credited": 0,
-    "new_unique_original_visual_pages": 0,
-    "cumulative_B039_original_visual_pages": 380,
-    "additional_detail_view_count": 12,
-    "identical_blob_alternative_sources_checked": 2,
-    "unread_source_quality_fragments_remain": true,
-    "B039_counted_complete": false,
-    "B045_or_new_book_body_opened": false,
-    "new_method_operations": [],
+    "new_unique_original_visual_pages": 102,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
+      "reading_metadata_validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
       "structural": true,
       "unittest_methods": 63,
       "synthetic_routing_scenarios": 158,
-      "view_image_hashes_match": true,
-      "other_source_records_preserved": true,
-      "reported_ratio_unchanged": true
-    }
+      "reading_scope_hashes_and_counts": true,
+      "other_source_records_preserved": true
+    },
+    "body_image_resources_read": 34,
+    "body_image_pages_read": 19,
+    "reading_cards_viewed": 17,
+    "cumulative_B045_original_visual_pages": 113,
+    "all_current_B045_supplied_content_read": true,
+    "original_full_series_completeness_verified": false,
+    "B054_or_later_body_opened": false,
+    "new_method_operations": []
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -2221,58 +2139,7 @@
       }
     }
   ],
-  "deferred_work_units": [
-    {
-      "id": "B045",
-      "path": "叔叔教你护妹子 - 刘毓卿.pdf",
-      "bytes": 4031069,
-      "git_blob_sha": "16f8a97b44b4afa8740434bb0af647ecb2b89918",
-      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-      "reading_status": "provided_file_text_partial",
-      "ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
-      "next_character": null,
-      "current_extraction_identity": {
-        "method": "Poppler pdftotext -layout -enc UTF-8; split form feeds into113physicalpages; LF; explicit page markers",
-        "engine": "pdftotext version 25.03.0",
-        "characters": 161665,
-        "body_characters": 156914,
-        "sha256": "c00c7d56dffc93fbb3329d0c656699390b531926e3eefeb8b64d0c57dad43bb0",
-        "coordinates": "Unicode codepoints; half-open; page markers included",
-        "native_not_OCR": true,
-        "raw_text_newly_archived": false,
-        "cache_persisted_in_repository": false,
-        "body_characters_include_whitespace_headers_and_advertising": true,
-        "character_count_not_unique_ideas_or_verified_transcription": true,
-        "page_marker_template": "\n\n===== B045 PDF FILE PAGE {n} / 113 =====\n"
-      },
-      "file_pages": 113,
-      "next_file_page": 13,
-      "next_gap_review_file_page": 13,
-      "remaining_image_review_file_pages": [
-        13,
-        14,
-        20,
-        21,
-        22,
-        23,
-        24,
-        32,
-        33,
-        34,
-        35,
-        36,
-        65,
-        66,
-        67,
-        105,
-        106,
-        107,
-        108
-      ],
-      "start": "只读B045。113页原生文字已读；按页序补读19个正文图像页，不重复计算文字。",
-      "next_content_unit": "B045 remaining19 supplied body-image pages only. Preserve original series limitations and read privately; do not upload private narratives."
-    }
-  ],
+  "deferred_work_units": [],
   "reading_queue": "system/READING_QUEUE.md",
   "system_maintenance_history": [
     {
@@ -2369,13 +2236,16 @@
     }
   ],
   "last_completed_reading_session": {
-    "id": "B038",
-    "ledger": "knowledge/provenance/B038_finished_2026-11-12.json",
-    "report": "knowledge/provenance/B038_finished_2026-11-12.md",
-    "new_native_characters_read": 0,
+    "id": "B045",
+    "ledger": "knowledge/provenance/B045_finished_2026-11-12.json",
+    "report": "knowledge/provenance/B045_finished_2026-11-12.md",
+    "completion_kind": "actual_supplied_content_read_across_recorded_sessions",
     "all_current_provided_content_read": true,
-    "completion_kind": "actual_remaining_supplied_image_content_read",
-    "next_existing_partial": "B039"
+    "new_native_characters_read": 0,
+    "new_unique_visual_pages": 102,
+    "new_body_image_resources_read": 34,
+    "original_publication_complete": false,
+    "next_unread": "B054"
   },
   "reading_policy": {
     "mode": "finish_unfinished_files_before_new_books",
@@ -2408,25 +2278,79 @@
           182
         ],
         "additional_reading_credit": 0
+      },
+      {
+        "id": "B039",
+        "date": "2026-11-12",
+        "basis": "User said 下一本吧 after the explicit proposal to close B039 with known unread gaps, in the same manner as B017, and continue B045.",
+        "scope": "B039 only; no automatic exception for B045 or later files",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "remaining_source_quality_regions": [
+          {
+            "file_pages": [
+              85
+            ],
+            "region": "Faint question-list lettering, especially its final item; native enlargement and ordinary ink dilation inspected.",
+            "unread_fragments_remain": true,
+            "reconstructed_text_claimed": false
+          },
+          {
+            "file_pages": [
+              147
+            ],
+            "region": "Some wording in the faint three-item list; enlarged render and native crop inspected.",
+            "unread_fragments_remain": true,
+            "reconstructed_text_claimed": false
+          },
+          {
+            "file_pages": [
+              149,
+              150
+            ],
+            "region": "Thresholded screenshot insets retain damaged/clipped glyph regions; readable portions inspected at native resolution.",
+            "unread_fragments_remain": true,
+            "reconstructed_text_claimed": false
+          },
+          {
+            "file_pages": [
+              23,
+              25,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32
+            ],
+            "region": "Previous first-chapter photo/profile inset degradation remains as previously documented; these pages are not reread or recredited this round.",
+            "unread_fragments_remain": true,
+            "reconstructed_text_claimed": false,
+            "examples_not_exhaustive": true
+          }
+        ],
+        "additional_reading_credit": 0
       }
     ]
   },
   "progress_display": {
     "book_file_denominator": 119,
     "started": 52,
-    "current_file_text_complete": 50,
-    "partial": 2,
+    "current_file_text_complete": 52,
+    "partial": 0,
     "unread": 67,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 50,
+    "reported_numerator": 52,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
     "user_accepted_scope_closure_ids": [
-      "B017"
+      "B017",
+      "B039"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
-      "B017"
+      "B017",
+      "B039"
     ]
   },
   "reading_policy_history": [
@@ -2442,10 +2366,7 @@
       "report_started_complete_partial_unread_together": true
     }
   ],
-  "unfinished_file_queue": [
-    "B039",
-    "B045"
-  ],
+  "unfinished_file_queue": [],
   "reading_session_history": [
     {
       "work_type": "close_oldest_unfinished_file",
@@ -4149,6 +4070,35 @@
           "original_identity_and_render_hashes": true,
           "new_and_old_page_sets_cover380": true,
           "reading_ratio_unchanged_due_to_source_quality_gaps": true
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B039_gap_followup_2026-11-12.md",
+      "validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "df1140c3648d927cc354143abcac53687e219de9",
+        "work_type": "targeted_source_quality_recheck_and_same_copy_deduplication",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_native_or_OCR_characters_read_credited": 0,
+        "new_unique_original_visual_pages": 0,
+        "cumulative_B039_original_visual_pages": 380,
+        "additional_detail_view_count": 12,
+        "identical_blob_alternative_sources_checked": 2,
+        "unread_source_quality_fragments_remain": true,
+        "B039_counted_complete": false,
+        "B045_or_new_book_body_opened": false,
+        "new_method_operations": [],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B039_gap_followup_validation_2026-11-12.json",
+          "structural": true,
+          "unittest_methods": 63,
+          "synthetic_routing_scenarios": 158,
+          "view_image_hashes_match": true,
+          "other_source_records_preserved": true,
+          "reported_ratio_unchanged": true
         }
       }
     }

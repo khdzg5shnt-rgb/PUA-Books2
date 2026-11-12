@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "status": "passed",
+  "baseline_main": "47d7e558a7c154fec962050e9516e5aa2a510a00",
+  "completed_ratio": "52/119",
+  "actually_read_current_files": 50,
+  "user_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial_files": 0,
+  "unread_files": 67,
+  "B039_known_unread_gaps_preserved": true,
+  "B039_additional_reading_credit": 0,
+  "B045_current_supplied_content_read": true,
+  "new_original_page_layouts": 102,
+  "cumulative_B045_original_layouts": 113,
+  "body_image_resources_viewed": 34,
+  "body_image_pages": 19,
+  "reading_cards_viewed": 17,
+  "new_native_or_OCR_character_credit": 0,
+  "source_and_view_hashes_match": true,
+  "all_other_source_records_and_blob_identities_preserved": true,
+  "runtime_methods_routes_tasks_scripts_and_tests_unchanged": true,
+  "no_new_source_images_private_transcripts_or_case_narratives": true,
+  "next_book": "B054",
+  "next_book_body_opened": false,
+  "unittest_methods": 63,
+  "synthetic_routing_scenarios": 158,
+  "actual_check_outputs": [
+    {
+      "name": "structural",
+      "chunk_id": "e34434",
+      "wall_time_seconds": 0.153921486,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 36,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 52,\n  \"book_not_started\": 67,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "unittest",
+      "chunk_id": "f6d112",
+      "wall_time_seconds": 3.840182355,
+      "exit_code": 0,
+      "original_token_count": 41,
+      "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.783s\n\nOK\n"
+    }
+  ],
+  "limitations": "Metadata and routing checks do not independently prove reading, source truth, full-series completeness or dating effects."
+}
