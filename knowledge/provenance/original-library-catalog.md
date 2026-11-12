@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成47/119份文件，另有5份未完成、67份未开始。当前只补B017：匹配源图已补齐21、63、112页，另五页可见细字已读但保留源水印覆盖；60、68、124页仍低清。主断点第60页，整份不计完成；补齐后才依次B036、B038、B039、B045。B054及所有新文件仍暂停。[本次补读报告](B017_source_recovery_2026-11-12.md)。
+当前完成50/119份任务，另2份未完成、67份未开始。B017按用户明确要求视为完成，图字缺口保留；本轮实读收尾为B036、B038。当前只补B039，后续依次等待，B054及新文件暂停。[最近收尾](B038_finished_2026-11-12.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -34,7 +34,7 @@
 | B014 | [Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf) | 1002 | 当前1002页现有文字读完；文后138页补齐、1001页空白已核；原版未认证 | [笔记](../books/B014.md) |
 | B015 | [K少追女经验-我是这样追你老婆的.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/K%E5%B0%91%E8%BF%BD%E5%A5%B3%E7%BB%8F%E9%AA%8C-%E6%88%91%E6%98%AF%E8%BF%99%E6%A0%B7%E8%BF%BD%E4%BD%A0%E8%80%81%E5%A9%86%E7%9A%84.pdf) | 24 | 当前24页图文已读；18个含图页、19个对象补齐；原遮挡和未附媒体不推测 | [笔记](../books/B015.md) |
 | B016 | [MACK把妹方法 - Dean Cortez.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MACK%E6%8A%8A%E5%A6%B9%E6%96%B9%E6%B3%95%20-%20Dean%20Cortez.epub) | 22 | 文字完成：题名/前言/二十章；原版完整性未核 | [笔记](../books/B016.md) |
-| B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 部分：原生文字及44个含图页已查看；匹配源图补读后，3页低清和5页水印遮挡局部保留，不计完成 | [笔记](../books/B017.md) |
+| B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 用户认可结束：原生文字已读，已知低清及水印图字缺口保留，不再补读 | [笔记](../books/B017.md) |
 | B018 | [MGTOW解读进化心理学.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%E8%A7%A3%E8%AF%BB%E8%BF%9B%E5%8C%96%E5%BF%83%E7%90%86%E5%AD%A6.pdf) | 24 | 当前24页文字层完成；原版与转引配图完整性未核 | [笔记](../books/B018.md) |
 | B019 | [Mgtow Building Wealth and Power For Single Men Only (Tim Patten).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Mgtow%20Building%20Wealth%20and%20Power%20For%20Single%20Men%20Only%20%28Tim%20Patten%29.pdf) | 150 | 当前150页文字层完成；原版与引用未核 | [笔记](../books/B019.md) |
 | B020 | [PUA玩家手册（完整版）- 康纳.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/PUA%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C%EF%BC%88%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%89-%20%E5%BA%B7%E7%BA%B3.pdf) | 46 | 当前46页文字层完成；第七层说明空白，原版与引文未核 | [笔记](../books/B020.md) |
@@ -48,9 +48,9 @@
 | B033 | [五步陷阱 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 11 | 当前11顺序项文字完成；两幅引用图未提供 | [笔记](../books/B033.md) |
 | B034 | [五步陷阱技术深度解剖 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%89%96%20-%20Jacob.pdf) | 104 | 当前104页文字完成；两幅图已核 | [笔记](../books/B034.md) |
 | B035 | [五步陷阱课件 - 死囚漫步.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%94%E6%AD%A5%E9%99%B7%E9%98%B1%E8%AF%BE%E4%BB%B6%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.pdf) | 87 | 当前87页文字完成；9独立图已核；空栏/结束语留记 | [笔记](../books/B035.md) |
-| B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 文字层读完，14含图页排除；部分阅读 | [笔记](../books/B036.md) |
+| B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B036.md) |
 | B037 | [决胜网络把妹 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B3%E8%83%9C%E7%BD%91%E7%BB%9C%E6%8A%8A%E5%A6%B9%20-%20Kezia%20Noble.epub) | 11 | 正文读完 | [精读](../books/B037.md) |
-| B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 文字层读完，77图像未读；部分阅读 | [笔记](../books/B038.md) |
+| B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B038.md) |
 | B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 部分：380页OCR输出已读；41页原图核对；错识、图像与末尾工具缺口保留 | [笔记](../books/B039.md) |
 | B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 当前119页文字完成；27图已核；手打版限制 | [笔记](../books/B040.md) |
 | B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 与B040逐页比对复用；非独立新原著 | [笔记](../books/B041.md) |

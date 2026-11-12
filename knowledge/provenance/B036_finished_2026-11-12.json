@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "f79323df956a8b4fe56233283ac97bcfcc7f8717",
+  "id": "B036",
+  "path": "人妻约会指南.pdf",
+  "bytes": 2994034,
+  "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "previous_reading_ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+  "previous_native_extraction": {
+    "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+    "characters": 72537,
+    "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+    "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+  },
+  "previous_native_text_read": true,
+  "new_native_characters_read": 0,
+  "image_completion": {
+    "id": "B036",
+    "path": "人妻约会指南.pdf",
+    "source_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
+    "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+    "bytes": 2994034,
+    "file_pages": 97,
+    "target_pages": [
+      3,
+      8,
+      9,
+      10,
+      35,
+      40,
+      69,
+      70,
+      77,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "page_reviews": [
+      {
+        "file_page": 3,
+        "render_file": "p003.png",
+        "render_sha256": "807c63a4f28fb5ca6795ab4eaf56614f53be021ed2bb786d788da84df1fb674f",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 25,
+            "width": 505,
+            "height": 637,
+            "source_image_sha256": "d11cb2347092170222dba905c1622d977924385faea9effe18284576f1d69456"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 8,
+        "render_file": "p008.png",
+        "render_sha256": "7bbbabfdc8f14792b567a259422d5c42a0fc3f2eb3ef9e40f3f031631f663efb",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 107,
+            "width": 504,
+            "height": 468,
+            "source_image_sha256": "56c63597bfaccd7b8c9b364a0f222abaa07bf7cdbfd4977c226f05936664d40d"
+          },
+          {
+            "xref": 108,
+            "width": 720,
+            "height": 960,
+            "source_image_sha256": "6ed1d2d785e6246f999f83c5d56ced6eb482aadfb905891fb459968215f66eda"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 9,
+        "render_file": "p009.png",
+        "render_sha256": "82f14f7441819e7597bd9fcd02c29d190b93f8fdabed74bfae16319dcacd50cc",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 112,
+            "width": 1448,
+            "height": 896,
+            "source_image_sha256": "c1debf23b92b95d77c9c8a77fa85660c6b028702e0d91f7f9a436cbdb8426bb7"
+          },
+          {
+            "xref": 113,
+            "width": 1170,
+            "height": 691,
+            "source_image_sha256": "4d0e7c25b5d126ff6ba12a0cd93cf27764bffd98cd9811b1773d9789bb6e08e4"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 10,
+        "render_file": "p010.png",
+        "render_sha256": "28b78b3e197f967a225ef2e47d21542d4a1c1874d3be4573de39eae80303864c",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 117,
+            "width": 540,
+            "height": 719,
+            "source_image_sha256": "387e243c4051bbf35317bdaa31cece009c88b44a28095ae13415e842d198526b"
+          },
+          {
+            "xref": 118,
+            "width": 960,
+            "height": 1280,
+            "source_image_sha256": "58a23e94b3148cf9b60c58b82f1eb1bd3b39323c385513faae4811610c1dcd9a"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 35,
+        "render_file": "p035.png",
+        "render_sha256": "9f1e30bd461738e583d697f493dc703fbe20bbe51db907b221dff764f09dfe70",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 229,
+            "width": 575,
+            "height": 202,
+            "source_image_sha256": "bd6bd0d8081f4d8d0bc111db8fb5c58067d460f5357d01c689451eede4ff5877"
+          },
+          {
+            "xref": 230,
+            "width": 1154,
+            "height": 821,
+            "source_image_sha256": "55d075d05e22dfc0403a1c96db4adcbe27f774344072b6ffd932fc55c61763a1"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 40,
+        "render_file": "p040.png",
+        "render_sha256": "6274d9fdf1de15b0fe4f320a3294e659b1a3b14481bf1dd9a0e483264d3e3819",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 251,
+            "width": 460,
+            "height": 552,
+            "source_image_sha256": "df32a2b63c91edb5999e976f9d50c9c3bfa50618e9612bd22cf2e1c9aebbdcc5"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 69,
+        "render_file": "p069.png",
+        "render_sha256": "80ab8ccc87a6106830ba2c3eb2cb762e4601c0306efe5e77691cae1308821ba1",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 361,
+            "width": 531,
+            "height": 800,
+            "source_image_sha256": "f71ec4df57eee1a4e48c53ac65793efa81016f625fc6056b6c1052984bb8e692"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 70,
+        "render_file": "p070.png",
+        "render_sha256": "250b5d0f8b09a73e9dc2071ebec6b005debbc36912889446696d10a3531d41d2",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 366,
+            "width": 434,
+            "height": 507,
+            "source_image_sha256": "76ffa4ddd0c7f29917ab2277e92f841f31505cddd06c7e508ee01b65b50a7555"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 77,
+        "render_file": "p077.png",
+        "render_sha256": "ea61c88f4383017cd985da92e15342f9424110de19fd739eb9a39a86f58ca310",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 399,
+            "width": 1406,
+            "height": 1275,
+            "source_image_sha256": "1a32c2d46254c27903286462a1395f84178aec2b2ef2489fdc832e98af038ce7"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 93,
+        "render_file": "p093.png",
+        "render_sha256": "c8ef0be7bdcfc830dec864d3f59ff7f8d846580ece4b42e29ae6bb4931b22856",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 454,
+            "width": 440,
+            "height": 330,
+            "source_image_sha256": "9275369835ce5d2aea717741e00183c21be9964ea21d2933fd66a7c0069e7448"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 94,
+        "render_file": "p094.png",
+        "render_sha256": "2a97edbdd38017140f2f26d68220ce1baf147e6554cd9514b5c65aac8145a73c",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 458,
+            "width": 299,
+            "height": 168,
+            "source_image_sha256": "7d59aa69919cc4891cae2e8df44901cc680110e5f2bb4c2ab0dfc7da9771f2d0"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 95,
+        "render_file": "p095.png",
+        "render_sha256": "50d4f2b047662e77458ca2fb9cc2a7e6f881ce5eae5d9526ceda74c5c9f31dc6",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 462,
+            "width": 275,
+            "height": 183,
+            "source_image_sha256": "ada17c44e29d4a6b4cdf377603831e5f94024a1ecbb6b22fee042e610269842b"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 96,
+        "render_file": "p096.png",
+        "render_sha256": "0c039394ca49c6c2fb1d3cc885292e29e3e85cd2cdfba7c983c405a50b2615d8",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 466,
+            "width": 225,
+            "height": 225,
+            "source_image_sha256": "84b763a9b7cf92b676ca97d1e82dc492c8467b665e6bc4f6245258621d9580f6"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      },
+      {
+        "file_page": 97,
+        "render_file": "p097.png",
+        "render_sha256": "8211cc3b9a6ff1ec57ee5f5133f962cee27cb1e9bde1ab0db480cd6d415f1f2b",
+        "width": 360,
+        "image_objects": [
+          {
+            "xref": 470,
+            "width": 197,
+            "height": 256,
+            "source_image_sha256": "fc671e9f3afa1dcaace3d03253b8a2f46a1950cad2f88598ba3c65e3b1ed8901"
+          }
+        ],
+        "actually_read": true,
+        "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+      }
+    ],
+    "new_native_characters_read": 0,
+    "all_target_images_actually_read": true,
+    "image_page_count": 14,
+    "image_object_occurrences": 18,
+    "source_images_uploaded": 0,
+    "private_case_summaries_saved": 0
+  },
+  "all_current_provided_content_read": true,
+  "original_publication_complete": false,
+  "source_images_private_text_or_cases_uploaded": 0,
+  "new_method_operations": 0,
+  "completed_current_files": 49,
+  "partial_current_files": 3,
+  "unread_current_files": 67,
+  "user_scope_exception_in_completed_count": [
+    "B017"
+  ],
+  "next_work_unit": {
+    "id": "B038",
+    "path": "冷眼观爱 - 冷爱.epub",
+    "bytes": 3825636,
+    "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "provided_file_text_partial",
+    "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+    "next_character": null,
+    "current_extraction_identity": {
+      "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+      "characters": 137300,
+      "body_characters": 136355,
+      "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+      "coordinates": "Unicode code points; half-open offsets; spine markers included",
+      "historical_count": 400288,
+      "historical_count_not_used_for_current_offsets": true
+    },
+    "next_file_page": null,
+    "next_gap_review_file_page": null,
+    "next_image_resource": "OEBPS/Images/image00113.jpeg",
+    "remaining_image_resources": [
+      "OEBPS/Images/image00113.jpeg",
+      "OEBPS/Images/image00114.jpeg",
+      "OEBPS/Images/image00115.jpeg",
+      "OEBPS/Images/image00116.jpeg",
+      "OEBPS/Images/image00117.jpeg",
+      "OEBPS/Images/image00118.jpeg",
+      "OEBPS/Images/image00119.jpeg",
+      "OEBPS/Images/image00120.jpeg",
+      "OEBPS/Images/image00121.jpeg",
+      "OEBPS/Images/image00122.jpeg",
+      "OEBPS/Images/image00123.jpeg",
+      "OEBPS/Images/image00124.jpeg",
+      "OEBPS/Images/image00125.jpeg",
+      "OEBPS/Images/image00126.jpeg",
+      "OEBPS/Images/image00127.jpeg",
+      "OEBPS/Images/image00128.jpeg",
+      "OEBPS/Images/image00129.jpeg",
+      "OEBPS/Images/image00130.jpeg",
+      "OEBPS/Images/image00131.jpeg",
+      "OEBPS/Images/image00132.jpeg",
+      "OEBPS/Images/image00133.jpeg",
+      "OEBPS/Images/image00134.jpeg",
+      "OEBPS/Images/image00135.jpeg",
+      "OEBPS/Images/image00136.jpeg",
+      "OEBPS/Images/image00137.jpeg",
+      "OEBPS/Images/image00138.jpeg",
+      "OEBPS/Images/image00139.jpeg",
+      "OEBPS/Images/image00140.jpeg",
+      "OEBPS/Images/image00141.jpeg",
+      "OEBPS/Images/image00142.jpeg",
+      "OEBPS/Images/image00143.jpeg",
+      "OEBPS/Images/image00144.jpeg",
+      "OEBPS/Images/image00145.jpeg",
+      "OEBPS/Images/image00146.jpeg",
+      "OEBPS/Images/image00147.jpeg",
+      "OEBPS/Images/image00148.jpeg",
+      "OEBPS/Images/image00149.jpeg",
+      "OEBPS/Images/image00150.jpeg",
+      "OEBPS/Images/image00151.jpeg",
+      "OEBPS/Images/image00152.jpeg",
+      "OEBPS/Images/image00153.jpeg",
+      "OEBPS/Images/image00154.jpeg",
+      "OEBPS/Images/image00155.jpeg",
+      "OEBPS/Images/image00156.jpeg",
+      "OEBPS/Images/image00157.jpeg",
+      "OEBPS/Images/image00158.jpeg",
+      "OEBPS/Images/image00159.jpeg",
+      "OEBPS/Images/image00160.jpeg",
+      "OEBPS/Images/image00161.jpeg",
+      "OEBPS/Images/image00162.jpeg",
+      "OEBPS/Images/image00165.jpeg",
+      "OEBPS/Images/image00166.jpeg",
+      "OEBPS/Images/image00167.jpeg",
+      "OEBPS/Images/image00168.jpeg",
+      "OEBPS/Images/image00169.jpeg",
+      "OEBPS/Images/image00170.jpeg",
+      "OEBPS/Images/image00171.jpeg",
+      "OEBPS/Images/image00172.jpeg",
+      "OEBPS/Images/image00173.jpeg",
+      "OEBPS/Images/image00174.jpeg",
+      "OEBPS/Images/image00175.jpeg",
+      "OEBPS/Images/image00176.jpeg",
+      "OEBPS/Images/image00177.jpeg",
+      "OEBPS/Images/image00178.jpeg",
+      "OEBPS/Images/image00179.jpeg",
+      "OEBPS/Images/image00180.jpeg",
+      "OEBPS/Images/image00181.jpeg",
+      "OEBPS/Images/image00182.jpeg",
+      "OEBPS/Images/image00183.jpeg",
+      "OEBPS/Images/image00184.jpeg",
+      "OEBPS/Images/image00185.jpeg",
+      "OEBPS/Images/image00186.jpeg",
+      "OEBPS/Images/image00187.jpeg",
+      "OEBPS/Images/image00188.jpeg",
+      "OEBPS/Images/image00189.jpeg",
+      "OEBPS/Images/image00190.jpeg",
+      "OEBPS/Images/image00191.jpeg"
+    ],
+    "start": "只读B038。17个OPF项原生文字已读；按正文资源顺序补读77个剩余图像，保存笔记与范围后再下一本。",
+    "next_content_unit": "B038 supplied image resources only. Read every remaining image privately; archive no private cases, profiles, photos, contacts, or screenshot text."
+  },
+  "checks": {
+    "status": "passed",
+    "structural": true,
+    "unittest_methods": 48,
+    "synthetic_routing_scenarios": 158,
+    "validation_run_completion_ratio": "50/119",
+    "bookmarks_equal": true,
+    "source_and_image_hashes_verified": true,
+    "B017_is_explicit_user_scope_exception": true,
+    "raw_images_or_private_case_uploads": 0
+  }
+}

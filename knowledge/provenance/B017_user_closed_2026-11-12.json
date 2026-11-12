@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "f79323df956a8b4fe56233283ac97bcfcc7f8717",
+  "record": {
+    "id": "B017",
+    "date": "2026-11-12",
+    "basis": "explicit_user_instruction_to_stop_B017_count_it_as_finished_and_continue_next_files",
+    "scope": "B017 only; do not apply automatically to any later file",
+    "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+    "all_current_file_content_actually_read": false,
+    "unread_low_resolution_pages": [
+      60,
+      68,
+      124
+    ],
+    "unread_source_occlusion_pages": [
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "additional_reading_credit": 0
+  },
+  "previous_reading_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+  "completed_current_files": 48,
+  "partial_current_files": 4,
+  "unread_current_files": 67,
+  "new_actually_read_files": [],
+  "new_native_characters_read": 0,
+  "new_source_images_read": 0,
+  "next_work_unit": {
+    "id": "B036",
+    "path": "人妻约会指南.pdf",
+    "bytes": 2994034,
+    "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "provided_file_text_partial",
+    "file_pages": 97,
+    "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+      "characters": 72537,
+      "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "next_file_page": 3,
+    "next_gap_review_file_page": 3,
+    "next_character": null,
+    "remaining_image_review_file_pages": [
+      3,
+      8,
+      9,
+      10,
+      35,
+      40,
+      69,
+      70,
+      77,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "start": "B017按用户明确要求结束并计入完成；只继续B036。全部原生文字已读，按文件顺序补读14个含图页。",
+    "next_content_unit": "B036 only: read remaining supplied images on physical pages3,8,9,10,35,40,69,70,77,93–97. Read privately; no screenshots, transcription, identifiable or anonymized private case narratives uploaded. Save notes and coverage before moving to B038."
+  },
+  "checks": {
+    "status": "passed",
+    "structural": true,
+    "unittest_methods": 48,
+    "synthetic_routing_scenarios": 158,
+    "validation_run_completion_ratio": "50/119",
+    "bookmarks_equal": true,
+    "source_and_image_hashes_verified": true,
+    "B017_is_explicit_user_scope_exception": true,
+    "raw_images_or_private_case_uploads": 0
+  }
+}
