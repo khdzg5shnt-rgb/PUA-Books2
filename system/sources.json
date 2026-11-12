@@ -169,12 +169,12 @@
       "group": "books2_original_snapshot",
       "title": "K少追女经验-我是这样追你老婆的.pdf",
       "git_blob_sha": "9d2fb4b94462ddd725c7f642e1d27b920ea5a66e",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "local_entry": "knowledge/books/B015.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B015_finished_2026-11-12.json",
       "original_publication_complete": false,
-      "coverage_mode": "extractable_text_layer_complete_private_image_content_excluded_not_file_text_complete"
+      "coverage_mode": "all_supplied_native_text_and_all_24_page_images_reviewed_original_redactions_and_unprovided_media_not_inferred"
     },
     {
       "id": "B016",
@@ -1596,32 +1596,50 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 46,
-    "current_book_files_text_partial": 6,
+    "current_book_files_text_complete": 47,
+    "current_book_files_text_partial": 5,
     "current_book_files_not_started": 67
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B015",
-    "path": "K少追女经验-我是这样追你老婆的.pdf",
-    "bytes": 4070188,
-    "git_blob_sha": "9d2fb4b94462ddd725c7f642e1d27b920ea5a66e",
+    "id": "B017",
+    "path": "MGTOW 核心理论文集 (米格道) .pdf",
+    "bytes": 6989249,
+    "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "provided_file_text_partial",
-    "file_pages": 24,
-    "next_file_page": 2,
+    "file_pages": 221,
+    "next_file_page": 21,
     "next_character": null,
-    "next_gap_review_file_page": 2,
-    "start": "B014已收尾；下一只处理B015第2页起的图像内容，不重计已经读完的原生文字，不开新书。",
+    "next_gap_review_file_page": 21,
+    "start": "B015图文已收尾。只补B017的15页细标签及第69页图像；原生文字已读，不重计。",
     "current_extraction_identity": {
-      "method": "PyMuPDF get_text(sort=True), physical file-page markers",
-      "characters": 6280,
-      "sha256": "220e6923e8f4be4b9c281bd421dd6d8d870e570e69bb1fb4c2ae5daf75275940",
-      "coordinates": "Unicode code points, half-open ranges, file-page markers included; excludes image text"
+      "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+      "characters": 240437,
+      "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
-    "next_content_unit": "Review remaining B015 supplied image content in file-page order. Do not save private transcriptions or case narratives to public repository. Stop on an actual unreadable/unavailable gap rather than switch books."
+    "ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+    "remaining_image_review_file_pages": [
+      21,
+      42,
+      44,
+      59,
+      60,
+      63,
+      68,
+      69,
+      105,
+      112,
+      124,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "next_content_unit": "Review remaining B017 supplied image content in physical page order, then save its notes and reading checkpoint before moving to B036. Do not publish source images, private transcriptions or case narratives."
   },
   "deferred_work_units": [
     {

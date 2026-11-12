@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "0b5bd28f7177d5e302bdac3a13cbfb004c150cee",
+  "records": [
+    {
+      "id": "B015",
+      "path": "K少追女经验-我是这样追你老婆的.pdf",
+      "bytes": 4070188,
+      "git_blob_sha": "9d2fb4b94462ddd725c7f642e1d27b920ea5a66e",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "source_sha256": "457377f14e0cc25de7aa192fc90e115a44f8db96e0d2617457a52f04b1409106",
+      "previous_reading_ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "previous_native_read_range": [
+        0,
+        6280
+      ],
+      "current_extraction": {
+        "method": "PyMuPDF get_text(sort=True), physical file-page markers",
+        "characters": 6280,
+        "sha256": "220e6923e8f4be4b9c281bd421dd6d8d870e570e69bb1fb4c2ae5daf75275940",
+        "coordinates": "Unicode code points, half-open ranges, file-page markers included; excludes image text"
+      },
+      "new_native_characters_read": 0,
+      "all_supplied_pages_reviewed": true,
+      "file_page_count": 24,
+      "image_page_count": 18,
+      "image_object_count": 19,
+      "visual_file_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "previous_visual_file_pages": [
+        1,
+        23
+      ],
+      "new_unique_visual_file_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24
+      ],
+      "page_reviews": [
+        {
+          "file_page": 1,
+          "native_characters": 842,
+          "native_sha256": "91985c5b2e37708cf1726093b9eaa651ee1f8b34183eab0fa64ee9e81e9c0c16",
+          "render_sha256": "7b8fe79e48dc7b2826e05c7b883e9b942d2b341e2ddb583be60a2b9d400f08bc",
+          "image_xrefs": [],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 2,
+          "native_characters": 247,
+          "native_sha256": "747fa64f1b7dc4fdda0465b4c8df0745f531f773c5d3362df32b86666c7b338f",
+          "render_sha256": "a85e3fd0b78e0cf350416d9564ffcb2c4184d54a03a2926859c1e859cc3d3278",
+          "image_xrefs": [
+            159
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 3,
+          "native_characters": 86,
+          "native_sha256": "3aa00adcacf7a2daa9e93370f097604db2adac94c2a71c429a9e73db491ca1d8",
+          "render_sha256": "1b1b72855cecd35b56198478c9411e66dd67440952893250dfc26e2e3478ec27",
+          "image_xrefs": [
+            163
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 4,
+          "native_characters": 7,
+          "native_sha256": "035a850da497624c294c96d952e49edd895b12dc3d2fbf328f72fbdf618a8cf4",
+          "render_sha256": "3a58bebf03d5b58ae4a8e4d7e8fecf2473e9bfde629fb1b5f4f910506d4c4d6f",
+          "image_xrefs": [
+            167
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 5,
+          "native_characters": 67,
+          "native_sha256": "6320ac2a71ab8cfe6c7389827bdf92baeb792f41ca05929c700fd272eadf36e8",
+          "render_sha256": "5c5569f90cf8281c826b0f93d9c0059d4112b38625235c8855a7b4df73fe9953",
+          "image_xrefs": [
+            170
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 6,
+          "native_characters": 79,
+          "native_sha256": "88d04524291bd3d2226bdab1faf0d978f5dcad7b026b60bbe4ed44fa39e62f66",
+          "render_sha256": "330bee41c9eebb27945aaf768fe5aeeb0e537cb54ac19d46258fe5deaab96077",
+          "image_xrefs": [
+            181
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 7,
+          "native_characters": 21,
+          "native_sha256": "fec776d43558fe8b41d54770fc0847be246519e244f4ebc2eaa4a4e262ea4bbe",
+          "render_sha256": "6b0271d93d2c47e5228a14bae225963e51064b1d9614abe2f48439dbae43723c",
+          "image_xrefs": [
+            191
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 8,
+          "native_characters": 89,
+          "native_sha256": "f511cda90444a136c8ea38784206b9bf0198398054cce582c36cf72c1c6d2b31",
+          "render_sha256": "7be161ac63adb43b8c9d7909360c9592e408bf065970c1ba14d3ca160802a81b",
+          "image_xrefs": [
+            196
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 9,
+          "native_characters": 0,
+          "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "render_sha256": "df936c4573e077f55e343c803b577c54fb16edee1605f74609f1d6bb327e23bb",
+          "image_xrefs": [
+            200
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 10,
+          "native_characters": 0,
+          "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "render_sha256": "90c642abb6dae84433cd307ea87e3208263f4e5b44f8305eef31bd39b89fe4f5",
+          "image_xrefs": [
+            203
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 11,
+          "native_characters": 111,
+          "native_sha256": "fb29fb03a01110336a873b0ab44181099083d15ac781a9e5ce2a83ae06aba9a6",
+          "render_sha256": "92d9bed53223ab2c847f28097fa6124013afef4ada11af0de75f043b90a4468a",
+          "image_xrefs": [
+            206
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 12,
+          "native_characters": 38,
+          "native_sha256": "be2a5eee4b5e9b0c917a787a006eba0b2b757bfb694e68c40c955578aff1c1ab",
+          "render_sha256": "20c13269424c0f5097bdd48011ec8d2fdb14a6b842f3e4a401401f14db64f30f",
+          "image_xrefs": [
+            215
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 13,
+          "native_characters": 25,
+          "native_sha256": "92b9b54560b9d1b72fb46ea1b28a6aeb7aaa026e6d28e04bdcf7707c1ed86367",
+          "render_sha256": "dd00d0ac3e5865931bc8340dde89d8a2d1ec79fea2221eb41b8ef38cf630d3d6",
+          "image_xrefs": [
+            218
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 14,
+          "native_characters": 0,
+          "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "render_sha256": "f2f9ae852cf479dff1ddc29ff91bf0247806d336cc5fecee3ce6850cec419757",
+          "image_xrefs": [
+            221
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 15,
+          "native_characters": 425,
+          "native_sha256": "c318622dac88d335dc3255de0bd3609f27518d37f8fbaa9113c1e8da789ba066",
+          "render_sha256": "3e2a16fd399a172aa393da27f0ca3dfdcb5e88954e1b9bc630b91b3884a8ddf1",
+          "image_xrefs": [
+            224
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 16,
+          "native_characters": 1071,
+          "native_sha256": "5912ec624791f699a3d7a423dac07c1d84826eb1a51e65e26353a51b935dc0b6",
+          "render_sha256": "c4e6e8c30144663aa10f53d9b78fecc416c6955aefe3ada817c0770ff306fe0c",
+          "image_xrefs": [],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 17,
+          "native_characters": 659,
+          "native_sha256": "c981587ea6c02ab9f8b0509aa7dc9bc217dc62bcf63715005fdae358e6fc20da",
+          "render_sha256": "c823e8be8f4f6d053fb80466e2459afc85723be1e698c8ea8ade36b7c0a98527",
+          "image_xrefs": [],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 18,
+          "native_characters": 42,
+          "native_sha256": "01a88192629e6c1bd4cd603bc664ff53a37dced1dd86e945fec5e60d7061ed9c",
+          "render_sha256": "2e6006bd64e09c109fb4acf6587547f333a04d918e88c43204643ab74c337e91",
+          "image_xrefs": [
+            255
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 19,
+          "native_characters": 312,
+          "native_sha256": "876920691108ba9adbb8b0b77c3a4da481ac96f17a557a08ba025d8c72d442bf",
+          "render_sha256": "66a069d223ad15ee371b74dbbe03fb58187067c3c4fc8109556a5d34cbda6cf1",
+          "image_xrefs": [
+            262
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 20,
+          "native_characters": 390,
+          "native_sha256": "3fc196477c57ab38920ef32963cdd340c74f3755046bbf2e8533427f74c4a567",
+          "render_sha256": "04fb2aa20996a497c5865916587a3b61a0bb6cb1f71cbd907db992bae79e2912",
+          "image_xrefs": [],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 21,
+          "native_characters": 0,
+          "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "render_sha256": "20540cdbbde223db7f3c3208794f2262ba20a4b6f5787c61fd58b37916e01721",
+          "image_xrefs": [
+            333
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 22,
+          "native_characters": 0,
+          "native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "render_sha256": "328d1e6768b2520ef79ca2b8ece15acdc0faf1858abc9387e2d72b0996bf4cae",
+          "image_xrefs": [
+            336,
+            337
+          ],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 23,
+          "native_characters": 968,
+          "native_sha256": "bb8c56aef53b92b3d21f46fc2411a90c9822aabb90067a8ad130f6e5cf385421",
+          "render_sha256": "4dc494172c6de95173df65c72dc619e0b1e3c0fce39ebee4b59bd360c0ca3b97",
+          "image_xrefs": [],
+          "directly_viewed": true
+        },
+        {
+          "file_page": 24,
+          "native_characters": 162,
+          "native_sha256": "6b105e84e479496327f321f798e9a7fadfbc812ea4b82063ceddeb9c1104072f",
+          "render_sha256": "ca434cc775edb197590d7ae9b037e75dc13679ebe6fb499c3a73f9fdbaee0fab",
+          "image_xrefs": [],
+          "directly_viewed": true
+        }
+      ],
+      "image_object_reviews": [
+        {
+          "xref": 159,
+          "pages": [
+            2
+          ],
+          "width": 201,
+          "height": 536,
+          "sha256": "afc1d869d8753981d97e8b9b61bfc0ca2d718f600290eb13531623ae652cb516"
+        },
+        {
+          "xref": 163,
+          "pages": [
+            3
+          ],
+          "width": 202,
+          "height": 528,
+          "sha256": "6f357e97082b36e070268c145e8919aa30c72914da44279401ce37622936898c"
+        },
+        {
+          "xref": 167,
+          "pages": [
+            4
+          ],
+          "width": 203,
+          "height": 532,
+          "sha256": "1d969359e326d9ffe642f6d813ffc16c0c8e34670b5b541bd394a34d9470dc15"
+        },
+        {
+          "xref": 170,
+          "pages": [
+            5
+          ],
+          "width": 217,
+          "height": 580,
+          "sha256": "59187c482d260bb5323affc44a43e203fbb8d656914bccaaf2256850f7b6f2a3"
+        },
+        {
+          "xref": 181,
+          "pages": [
+            6
+          ],
+          "width": 200,
+          "height": 522,
+          "sha256": "917f51899fefa8a1e6ff74f25ad9dfa36dfebfa4ed3ad39f7e7d2479d2a7e355"
+        },
+        {
+          "xref": 191,
+          "pages": [
+            7
+          ],
+          "width": 196,
+          "height": 537,
+          "sha256": "13b5964e3f7cd5e8629ebf5c2aef7f3d0d70f606a2392969587fb118ba6f1f6d"
+        },
+        {
+          "xref": 196,
+          "pages": [
+            8
+          ],
+          "width": 203,
+          "height": 523,
+          "sha256": "0dfb6c7fb8c2ee82fd26166123bec2887830f2d3da8fe5aca37ee7fc6d027429"
+        },
+        {
+          "xref": 200,
+          "pages": [
+            9
+          ],
+          "width": 296,
+          "height": 781,
+          "sha256": "475344e492328027136411c4f7b92ea041b4db443b931d1eca6d62c479dc4ff8"
+        },
+        {
+          "xref": 203,
+          "pages": [
+            10
+          ],
+          "width": 291,
+          "height": 763,
+          "sha256": "c0c8534a8107cc0e2980c53b7bbc483e46e1dfaf814a4b408eba0211acafd6d3"
+        },
+        {
+          "xref": 206,
+          "pages": [
+            11
+          ],
+          "width": 293,
+          "height": 773,
+          "sha256": "8a4f3e263a98172837863680cd96af605b92734883b5682fdd66e83ce2be2410"
+        },
+        {
+          "xref": 215,
+          "pages": [
+            12
+          ],
+          "width": 292,
+          "height": 782,
+          "sha256": "0d344f44ce20ce8d6f32ba65c9c2177501bd37e9db2d500b7447bbdd128aac1c"
+        },
+        {
+          "xref": 218,
+          "pages": [
+            13
+          ],
+          "width": 298,
+          "height": 744,
+          "sha256": "845e247970875dd235f7ba1ba3e2c9f826ee081d31683451b496b38f08f35e1c"
+        },
+        {
+          "xref": 221,
+          "pages": [
+            14
+          ],
+          "width": 292,
+          "height": 779,
+          "sha256": "001c7bac047ec7f3e480dd6f4498e45fd77aaf78d704a958dc3d654fae6de3e4"
+        },
+        {
+          "xref": 224,
+          "pages": [
+            15
+          ],
+          "width": 229,
+          "height": 611,
+          "sha256": "15cd1aaff6c6f846729906cca447bfc03fcf9a8f5e3b23277691f637274de61f"
+        },
+        {
+          "xref": 255,
+          "pages": [
+            18
+          ],
+          "width": 640,
+          "height": 426,
+          "sha256": "b9386808833735d825b74098364bb2caa844ada31792126ba183eaa78c3b9654"
+        },
+        {
+          "xref": 262,
+          "pages": [
+            19
+          ],
+          "width": 474,
+          "height": 638,
+          "sha256": "ff30f5fbff025ce56dc622603bb1ebdce9cb7a56d663822bfeea647b3177f81e"
+        },
+        {
+          "xref": 333,
+          "pages": [
+            21
+          ],
+          "width": 293,
+          "height": 714,
+          "sha256": "523a3a684d71d4952b6791089afc9e55bdcf9a0df059d3b014fa08b5fa76fbd6"
+        },
+        {
+          "xref": 336,
+          "pages": [
+            22
+          ],
+          "width": 311,
+          "height": 597,
+          "sha256": "8b7b67689d7544bafb87c03b500e47d8515be5444836b24464b4171b33935d1e"
+        },
+        {
+          "xref": 337,
+          "pages": [
+            22
+          ],
+          "width": 279,
+          "height": 344,
+          "sha256": "b8b158138665b8bce29e5ea2b89719d51f8b3dea7e287d9ef160276b29b0a284"
+        }
+      ],
+      "reading_status": "provided_file_text_complete",
+      "current_file_unread_content_gaps": [],
+      "limits": [
+        "Speech bubbles and video thumbnails are not supplied audio or video.",
+        "Original masking, redaction and cropping remain unavailable; no hidden content inferred.",
+        "Current provided PDF reviewed; neither full forum-thread recovery nor authenticity verification."
+      ],
+      "original_publication_complete": false,
+      "source_authenticity_verified": false,
+      "new_method_operations": 0,
+      "private_source_text_or_image_uploads": 0
+    }
+  ],
+  "completed_current_files": 47,
+  "partial_current_files": 5,
+  "unread_current_files": 67,
+  "next_existing_partial": "B017",
+  "new_unread_books_started": 0
+}
