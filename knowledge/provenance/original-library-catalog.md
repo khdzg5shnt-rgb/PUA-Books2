@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成54/119份任务，无部分阅读文件、65份未开始。52份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮B054、B055已逐本读完并保存；两份原版完整性未核。下一只读B056，本轮未打开其正文。[本轮记录](B054_B055_progress_2026-11-13.md)。
+当前完成55/119份任务，无部分阅读文件、64份未开始。53份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮B056当前117页已读完并保存；未提供的第三版只记缺口、不等待。下一只读B057，本轮未打开其正文。[本轮记录](B056_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -68,7 +68,7 @@
 | B053 | [如何和女人见面与沟通 - 杂耍人.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A6%82%E4%BD%95%E5%92%8C%E5%A5%B3%E4%BA%BA%E8%A7%81%E9%9D%A2%E4%B8%8E%E6%B2%9F%E9%80%9A%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf) | 36 | 当前36页覆盖完成；七页目读；目录未提供章节和缺失图表另记 | [笔记](../books/B053.md) |
 | B054 | [婚恋中男人不能犯的100个错误 - 廖康强.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A9%9A%E6%81%8B%E4%B8%AD%E7%94%B7%E4%BA%BA%E4%B8%8D%E8%83%BD%E7%8A%AF%E7%9A%84100%E4%B8%AA%E9%94%99%E8%AF%AF%20-%20%E5%BB%96%E5%BA%B7%E5%BC%BA.epub) | 54 | 当前54个OPF项及两图已读；包内只有1—50节，非原版100节 | [九组笔记](../books/B054.md) |
 | B055 | [完美约会计划 - Brad P.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%AE%8C%E7%BE%8E%E7%BA%A6%E4%BC%9A%E8%AE%A1%E5%88%92%20-%20Brad%20P.epub) | 8 | 当前题名页及七章已读，无图；末尾预告的下一章未提供 | [十组笔记](../books/B055.md) |
-| B056 | [属性 - PUANEY.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%B1%9E%E6%80%A7%20-%20PUANEY.pdf) | 117 | 已OCR/未读 | — |
+| B056 | [属性 - PUANEY.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%B1%9E%E6%80%A7%20-%20PUANEY.pdf) | 117 | 当前117页OCR正文与原页已读；末页第三版预告未提供后续 | [十五组笔记](../books/B056.md) |
 | B057 | [微信撩妹72招 - PUANEY.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%BE%AE%E4%BF%A1%E6%92%A9%E5%A6%B972%E6%8B%9B%20-%20PUANEY.pdf) | 132 | 已提取/未读 | — |
 | B058 | [恋爱指南——play 连招 - 乌鸦救赎.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%81%8B%E7%88%B1%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94play%20%E8%BF%9E%E6%8B%9B%20-%20%E4%B9%8C%E9%B8%A6%E6%95%91%E8%B5%8E.pdf) | 109 | 已提取/未读 | — |
 | B059 | [情狼日记 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%8B%BC%E6%97%A5%E8%AE%B0%20-%20%E6%B5%B7%E5%85%B5.pdf) | 74 | 已提取/未读 | — |

@@ -634,9 +634,12 @@
       "group": "books2_original_snapshot",
       "title": "属性 - PUANEY.pdf",
       "git_blob_sha": "3b3f906e8d7a3f4c9ca4c9ab778f2b9b5f515185",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B056.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B056_reading_2026-11-13.json",
+      "coverage_mode": "all117_current_pdf_page_OCR_outputs_and_all117_page_views_read",
+      "completion_kind": "actual_supplied_OCR_text_and_visible_page_images_read"
     },
     {
       "id": "B057",
@@ -1608,24 +1611,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 54,
+    "current_book_files_text_complete": 55,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 65
+    "current_book_files_not_started": 64
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B056",
-    "path": "属性 - PUANEY.pdf",
-    "bytes": 8079984,
-    "git_blob_sha": "3b3f906e8d7a3f4c9ca4c9ab778f2b9b5f515185",
+    "id": "B057",
+    "path": "微信撩妹72招 - PUANEY.pdf",
+    "bytes": 1391098,
+    "git_blob_sha": "f28d76a46fb5c33074b9f61f321beba9242209a2",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_character": 0,
-    "next_spine_item": null,
     "next_file_page": 1,
-    "start": "B055提供文件的正文、附图、原创笔记和范围已保存。下一唯一主读B056，从当前文件首项开始；此断点保存时尚未打开下一份正文。",
-    "next_content_unit": "Read only B056 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved."
+    "next_character": 0,
+    "start": "B056当前117页已读完，原创笔记、原版第三版未提供范围与断点已保存。下一唯一主读B057，从文件第一页开始；尚未打开其正文。",
+    "next_content_unit": "Read B057 only next: verify original132-page PDF, inspect actual native text and images, then read from file page1. Unprovided original-edition expansions are recorded as absent and do not block the next file. Finish and save this provided file before B058."
   },
   "deferred_work_units": []
 }

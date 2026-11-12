@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "48eaed5911dc4c0996146fc0b55158b3f714f984",
+  "book": "B056",
+  "current_PDF_pages": 117,
+  "OCR_body_output_characters_read": 61952,
+  "OCR_stream_with_markers": 66407,
+  "unique_original_page_views": 117,
+  "reading_cards": 20,
+  "full_page_details_at3x": [
+    4,
+    5,
+    6,
+    111,
+    117,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "provided_scope_read_to_end": true,
+  "original_publication_completeness_not_asserted": true,
+  "unprovided_third_edition_does_not_block_next_book": true,
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 55,
+    "book_not_started": 64,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "command": "python -m unittest discover -s tests -p 'test_*.py'",
+    "exit_code": 0,
+    "tests": 63,
+    "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.536s\n\nOK\n"
+  },
+  "synthetic_routing_scenarios": 158,
+  "original_source_identities_preserved": 126,
+  "other_source_records_unchanged": true,
+  "existing_method_operations_and_avoid_conditions_unchanged": true,
+  "new_critical_source_bindings": 22,
+  "source_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B056.md",
+      "locator": "一手自述与可核事实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B056.md",
+      "locator": "不纠缠与实际关系约定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B056.md",
+      "locator": "朋友圈中的真实生活素材",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B056.md",
+      "locator": "真实表达与正常询问",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B056.md",
+      "locator": "朋友圈中的真实生活素材",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B056.md",
+      "locator": "真实表达与正常询问",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B056.md",
+      "locator": "外形资源与兴趣解释",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B056.md",
+      "locator": "共同体验与本人偏好",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B056.md",
+      "locator": "朋友圈中的真实生活素材",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B056.md",
+      "locator": "善意付出与单边投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B056.md",
+      "locator": "善意付出与单边投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B056.md",
+      "locator": "一次具体邀请与拒绝后收住",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B056.md",
+      "locator": "一次具体邀请与拒绝后收住",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B056.md",
+      "locator": "一次具体邀请与拒绝后收住",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B056.md",
+      "locator": "善意付出与单边投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B056.md",
+      "locator": "真实表达与正常询问",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B056.md",
+      "locator": "承担责任与保护隐私",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B056.md",
+      "locator": "平等信任与双方边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B056.md",
+      "locator": "经验与当下同意",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B056.md",
+      "locator": "不纠缠与实际关系约定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B056.md",
+      "locator": "生活与呈现保持真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B056.md",
+      "locator": "一次具体邀请与拒绝后收住",
+      "kind": "critical_source_notes_not_empirical_validation"
+    }
+  ],
+  "preferred_sections_bytes_unchanged": true,
+  "last_system_maintenance_preserved": true,
+  "source_page_OCR_and_review_card_hashes_match": true,
+  "contiguous_page_units_match": true,
+  "user_source_scope_clarification_saved": true,
+  "completed_current_tasks": 55,
+  "actually_read_current_supplied_files": 53,
+  "user_accepted_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial": 0,
+  "unread": 64,
+  "next_unread": "B057",
+  "next_book_body_opened": false,
+  "new_private_raw_text_or_source_images_archived": 0,
+  "limits": "Checks verify source identity,metadata,page ranges,hashes,links,existing63 tests and158 synthetic routes; they do not independently prove comprehension,OCR transcription accuracy,psychological mechanisms or dating effects."
+}
