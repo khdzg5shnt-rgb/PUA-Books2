@@ -3,7 +3,8 @@
 import argparse
 import json
 import re
-from knowledge import ROOT, load_lookup, load_methods, markdown_sections, method_reference
+from knowledge import (ROOT, citation_headings, load_lookup, load_methods,
+                       markdown_sections, method_reference)
 
 
 def search(query, limit=8, root=ROOT, method=None):
@@ -24,16 +25,30 @@ def search(query, limit=8, root=ROOT, method=None):
     paths = set()
     preferred = {}
     cited = {}
+    section_cited = {}
+    sections_cache = {}
+
+    def sections_at(path):
+        if path not in sections_cache:
+            sections_cache[path] = markdown_sections(path, root)
+        return sections_cache[path]
+
     for mid, card in methods.items():
         for source in card['sources']:
             cited.setdefault(source['path'], set()).add(mid)
+            if source['path'].endswith('.md'):
+                for heading in citation_headings(source, sections_at(source['path'])):
+                    section_cited.setdefault((source['path'], heading), set()).add(mid)
+        # The curated preferred reference is also an explicit section binding.
+        ref = method_reference(mid, root)
+        section_cited.setdefault((ref['path'], ref['heading']), set()).add(mid)
     for mid in selected:
         item = method_reference(mid, root)
         key = (item['path'], item['heading'])
         preferred.setdefault(key, []).append(mid)
         if method:
-            paths.update(source['path'] for source in methods[mid]['sources']
-                         if source['path'].endswith('.md'))
+            paths.update(path for (path, _heading), mids in section_cited.items()
+                         if mid in mids)
     if not method:
         paths.update(str(path.relative_to(root)) for folder in
                      ['knowledge/books', 'knowledge/topics', 'knowledge/cases']
@@ -41,7 +56,10 @@ def search(query, limit=8, root=ROOT, method=None):
     paths.update(path for path, _heading in preferred)
     hits = []
     for path in sorted(paths):
-        for section in markdown_sections(path, root):
+        for section in sections_at(path):
+            bound_methods = section_cited.get((path, section['heading']), set())
+            if method and method not in bound_methods:
+                continue
             body = section['text'].casefold()
             heading = section['heading'].casefold()
             mids = preferred.get((path, section['heading']), [])
@@ -57,20 +75,26 @@ def search(query, limit=8, root=ROOT, method=None):
             rank = (query_matched, max(map(len, aliases), default=0),
                     sum(term in heading for term in terms), content_hits,
                     bool(mids), path.startswith('knowledge/topics/'))
+            if method and terms:
+                # Once the method is fixed, an actual phrase in a bound section
+                # is more useful than a shorter alias on the generic fallback.
+                rank = (bool(content_hits),) + rank
             lines = section['text'].splitlines()
             matching = [line for line in lines
                         if any(term in line.casefold() for term in terms)]
             snippet = (matching[0] if matching else '\n'.join(lines[1:]))[:240]
             kind = ('preferred_section' if mids else
-                    'cited_source_section' if path in cited else 'related_note')
+                    'cited_source_section' if bound_methods else
+                    'cited_file_section' if path in cited else 'related_note')
             hits.append((rank, section | {'snippet': snippet, 'method_ids': mids,
+                'section_method_ids': sorted(bound_methods),
                 'source_method_ids': sorted(cited.get(path, set())),
                 'match_kind': kind, 'query_matched': query_matched}))
     hits.sort(key=lambda item: tuple(-int(x) for x in item[0]) +
               (item[1]['path'], item[1]['line']))
     return [{key: item[key] for key in
              ['path', 'title', 'heading', 'line', 'end_line', 'snippet', 'method_ids',
-              'source_method_ids', 'match_kind', 'query_matched']}
+              'section_method_ids', 'source_method_ids', 'match_kind', 'query_matched']}
             for _rank, item in hits[:min(limit, 20)]]
 
 

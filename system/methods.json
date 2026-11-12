@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.6.7",
+  "version": "1.7.0",
   "methods": [
     {
       "id": "M01",
@@ -4787,7 +4787,11 @@
         {
           "path": "knowledge/books/B025-intent-and-follow-up.md",
           "locator": "文件页23–25取舍：诚实后续与知道何时收住并行，不套故意拖延或固定时限",
-          "kind": "critical_source_notes_not_empirical_validation"
+          "kind": "critical_source_notes_not_empirical_validation",
+          "section_headings": [
+            "主动与收住可以同时成立",
+            "有自己的安排不等于编造稀缺"
+          ]
         },
         {
           "path": "knowledge/books/B030-opening-and-contact.md",
@@ -5140,6 +5144,11 @@
           "path": "knowledge/books/B060.md",
           "locator": "复盘练一处不制造羞耻依赖",
           "kind": "critical_source_notes_not_empirical_validation"
+        },
+        {
+          "path": "system/REPLY_PROTOCOL.md",
+          "locator": "一句自然话的取舍",
+          "kind": "project_rule_not_empirical_validation"
         }
       ],
       "evidence_level": "写作与决策规则；教学来源不是该条回复有效性的实证证明",

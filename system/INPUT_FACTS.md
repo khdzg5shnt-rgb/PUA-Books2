@@ -4,7 +4,7 @@
 
 ## 当前轮与历史分开
 
-收到新回复后，重核latest_sender、pending_reply、function、closed_answer_complete与当前低投入标记。明确已核`latest_sender=other`会清除旧pending；明确为user则设为已发待回，unknown不猜方向。没有等待时necessary_new_logistics不再作为补发例外。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
+收到新回复后，重核latest_sender、pending_reply、function、closed_answer_complete与当前低投入标记。明确已核`latest_sender=other`会清除旧pending；明确为user则设为已发待回，unknown不猜方向。unknown或省略且无已核待回时，入口先给方向核对；默认pending_reply=false不能授权新草稿。已核尚无任何已发消息的首次开场可用none，不需要虚构一条对方消息。没有等待时necessary_new_logistics不再作为补发例外。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
 
 consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排、具体新分享和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。
 
@@ -16,7 +16,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | --- | --- | --- |
 | `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
 | `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
-| `latest_sender` | `"unknown"` | 最近一条已发送的双方消息：user、other或unknown；排除系统提示、引用与输入框草稿 |
+| `latest_sender` | `"unknown"` | 最近已发方向：user、other或unknown；none仅表示已核尚无已发消息的首次开场；排除系统提示、引用与输入框草稿 |
 | `turn_gap` | `"none"` | 已发消息的时序、方向、缺失内容或本轮待答内容仍待核；优先由助手读已有上下文解决。 |
 | `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
 | `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
@@ -43,7 +43,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 | 字段 | 可选值 |
 | --- | --- |
-| `latest_sender` | `unknown`, `user`, `other` |
+| `latest_sender` | `unknown`, `user`, `other`, `none` |
 | `turn_gap` | `none`, `order`, `sender`, `missing`, `content` |
 | `current_scope_relation` | `unknown`, `same`, `different` |
 | `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
@@ -84,7 +84,9 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 可选candidate是一条待核草稿，结果不回显草稿。不要加入原句、姓名、账号、截图、地址或对象身份字段；需要保留的上下文只在当前对话核对。stdin不会把请求保存到仓库；手动创建私人输入文件也不得提交。
 
-可选`focus`是至多160字符的检索短词组，由助手按当前内容需要使用，不是另一个事实字段。它只在已选主方法的引用文件里缩小到一个段落；不改变主方法或行动。无需检索时省略或给空字符串，不填null；未命中保留首选，结果不回显词组。不要用它放聊天原文或个人信息。
+可选`focus`是至多160字符的检索短词组，由助手按当前内容需要使用，不是另一个事实字段。它只在已选主方法的精确绑定段落里缩小到一处；不改变主方法或行动。一份笔记被引用不代表其所有段落自动适用，未对齐标题的旧页码定位只保留追溯。无需检索时省略或给空字符串，不填null；未命中保留首选，结果不回显词组。不要用它放聊天原文或个人信息。
+
+维护来源时，`locator`若与唯一现有Markdown标题完全相同，自动作为该段绑定；旧页码式描述可另附非空、无重复的`section_headings`标题列表。首选段落也属于精确绑定。不存在或重复的显式标题会使检查失败，不退化为整本检索。全库检索仍可发现未绑定笔记，但不能据文件级引用直接执行其中任一段。
 
 ### 修改同一条未发草稿
 

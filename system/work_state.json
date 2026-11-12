@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B061_next_after_B059_B060_finished_in_order",
-  "status": "ready_for_next_file",
-  "base_commit": "dda9deb5d8d1b1ee6de0239b4babd9573fe73c6d",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 2,
+  "current_focus": "system_sender_and_source_sections_after_B060",
+  "status": "system_maintenance_complete_reading_paused",
+  "base_commit": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B059_B060_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B059_B060_validation_2026-11-13.json",
+  "report": "knowledge/provenance/OS_sender_and_sources_2026-11-13.md",
+  "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
   "reading_bookmark": {
     "id": "B061",
     "path": "惯例军火库.pdf",
@@ -22,76 +22,40 @@
     "start": "B060当前44页已读完，16组原创笔记、提供范围与断点已保存。下一唯一主读B061，从文件第一页开始；此断点保存时尚未打开其正文。",
     "next_content_unit": "Read B061 only next: verify the original 93 page file, inspect actual text and page images, and start at file page1. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
   },
-  "next_work": "Read B061 only next: verify the original 93 page file, inspect actual text and page images, and start at file page1. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file.",
+  "next_work": "本轮系统维护完成，未读后续书。按用户下一条具体任务继续；恢复阅读时才从原B061第1页开始，不自动跨到后面的书。",
   "current_session_progress": {
-    "baseline": "dda9deb5d8d1b1ee6de0239b4babd9573fe73c6d",
-    "work_type": "read_whole_supplied_PDFs_in_serial_order",
-    "new_book_files_started": [
-      "B059",
-      "B060"
+    "baseline": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+    "work_type": "system_maintenance",
+    "new_book_files_started": [],
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "source_records_unchanged": 158,
+    "reading_bookmark_unchanged": true,
+    "reading_statuses_unchanged": true,
+    "changes": [
+      "require_verified_flat_input_direction_before_new_draft",
+      "distinguish_verified_empty_conversation_from_unknown_tail",
+      "limit_method_focus_to_exact_bound_sections",
+      "prefer_actual_focus_phrase_over_generic_alias_within_fixed_method",
+      "make_current_reply_style_part_of_M26_preferred_protocol_section"
     ],
-    "new_book_files_completed": [
-      "B059",
-      "B060"
-    ],
-    "actually_completed_file_ids": [
-      "B059",
-      "B060"
-    ],
-    "new_whole_book_files_actually_read": 2,
-    "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 104018,
-    "new_OCR_characters_read": 0,
-    "native_stream_characters_including_page_markers": 108366,
-    "new_unique_original_visual_pages": 118,
-    "reading_cards_viewed": 21,
-    "original_note_groups": 32,
-    "new_method_source_bindings": 83,
-    "new_method_operations": [],
-    "serial_order": [
-      "B059",
-      "save_B059_notes_scope_and_next_checkpoint",
-      "B060",
-      "save_B060_notes_scope_and_next_checkpoint"
-    ],
-    "next_book_body_opened": false,
-    "original_edition_completeness_not_asserted": true,
-    "books": [
-      {
-        "id": "B059",
-        "title": "情狼日记",
-        "pages": 74,
-        "native_characters": 53695,
-        "stream_characters": 56424,
-        "reading_cards": 13,
-        "note_groups": 16,
-        "bindings": 42,
-        "ledger": "knowledge/provenance/B059_reading_2026-11-13.json",
-        "scope_summary": "当前74页已读至第74页“未完，待续”；第3页前言亦明说作品未完成。初中卷、高中卷及大学卷现有开头已读完，续作未提供，不计实读、不等待补齐。封面署名与文件名分别保留，原版出版完整性及叙事真实性未独立核实。"
-      },
-      {
-        "id": "B060",
-        "title": "情绪流方法论",
-        "pages": 44,
-        "native_characters": 50323,
-        "stream_characters": 51942,
-        "reading_cards": 8,
-        "note_groups": 16,
-        "bindings": 41,
-        "ledger": "knowledge/provenance/B060_reading_2026-11-13.json",
-        "scope_summary": "当前44页已读完正文六章与第43—44页终篇。第1页目录漏列第五章，但第33—38页第五章四节确已提供并读完；不是正文缺章。终篇提及的十二章设想与书外收费课程未提供，不计实读、不等待补齐。个人经验和自报效果未冒认科学证据。"
-      }
-    ],
+    "legacy_synthetic_fixtures_with_explicit_direction_added": 116,
+    "existing_synthetic_expected_routes_and_actions_changed": 0,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B059_B060_validation_2026-11-13.json",
+      "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
       "structural": true,
-      "unittest_methods": 63,
+      "unittest_methods": 72,
+      "new_unittest_methods": 9,
       "synthetic_routing_scenarios": 158,
-      "source_page_text_and_card_hashes": true,
-      "other_source_records_preserved": true,
-      "method_operations_and_preferred_sections_preserved": true,
-      "serial_checkpoint_preserved": true
+      "stdin_scenarios": 7,
+      "old_fixture_expected_outcomes_unchanged": true,
+      "reading_and_source_preservation": true,
+      "local_links": true
     }
   },
   "last_reading_progress": {
@@ -126,11 +90,11 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "a96fc829d15a7b40f3070085e29f373c01cb3985",
-    "report": "knowledge/provenance/OS_turn_and_revision_2026-11-12.md",
-    "validation": "knowledge/provenance/OS_turn_and_revision_validation_2026-11-12.json",
+    "base_commit": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+    "report": "knowledge/provenance/OS_sender_and_sources_2026-11-13.md",
+    "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
     "current_session_progress": {
-      "baseline": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+      "baseline": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
       "work_type": "system_maintenance",
       "new_book_files_started": [],
       "new_book_files_completed": [],
@@ -143,16 +107,25 @@
       "reading_bookmark_unchanged": true,
       "reading_statuses_unchanged": true,
       "changes": [
-        "separate_last_sent_bubble_from_current_reply_target",
-        "retain_expression_constraints_for_one_unsent_draft",
-        "allow_review_without_unproved_user_adjustment"
+        "require_verified_flat_input_direction_before_new_draft",
+        "distinguish_verified_empty_conversation_from_unknown_tail",
+        "limit_method_focus_to_exact_bound_sections",
+        "prefer_actual_focus_phrase_over_generic_alias_within_fixed_method",
+        "make_current_reply_style_part_of_M26_preferred_protocol_section"
       ],
+      "legacy_synthetic_fixtures_with_explicit_direction_added": 116,
+      "existing_synthetic_expected_routes_and_actions_changed": 0,
       "checks": {
+        "status": "passed",
+        "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
         "structural": true,
-        "unittest_methods": 63,
-        "new_unittest_methods": 15,
+        "unittest_methods": 72,
+        "new_unittest_methods": 9,
         "synthetic_routing_scenarios": 158,
-        "original_158_scenarios_bytes_unchanged": true
+        "stdin_scenarios": 7,
+        "old_fixture_expected_outcomes_unchanged": true,
+        "reading_and_source_preservation": true,
+        "local_links": true
       }
     }
   },
@@ -2268,6 +2241,37 @@
           "blind_visual_tests": 0
         },
         "changed_preferred_reference_targets": []
+      }
+    },
+    {
+      "base_commit": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+      "report": "knowledge/provenance/OS_turn_and_revision_2026-11-12.md",
+      "validation": "knowledge/provenance/OS_turn_and_revision_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+        "work_type": "system_maintenance",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "methods": 26,
+        "routes": 36,
+        "task_modes": 5,
+        "source_records_unchanged": 158,
+        "reading_bookmark_unchanged": true,
+        "reading_statuses_unchanged": true,
+        "changes": [
+          "separate_last_sent_bubble_from_current_reply_target",
+          "retain_expression_constraints_for_one_unsent_draft",
+          "allow_review_without_unproved_user_adjustment"
+        ],
+        "checks": {
+          "structural": true,
+          "unittest_methods": 63,
+          "new_unittest_methods": 15,
+          "synthetic_routing_scenarios": 158,
+          "original_158_scenarios_bytes_unchanged": true
+        }
       }
     }
   ],
@@ -4429,6 +4433,81 @@
         "checks": {
           "status": "pending",
           "reading_metadata_validation": "knowledge/provenance/B059_validation_2026-11-13.json"
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B059_B060_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B059_B060_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "dda9deb5d8d1b1ee6de0239b4babd9573fe73c6d",
+        "work_type": "read_whole_supplied_PDFs_in_serial_order",
+        "new_book_files_started": [
+          "B059",
+          "B060"
+        ],
+        "new_book_files_completed": [
+          "B059",
+          "B060"
+        ],
+        "actually_completed_file_ids": [
+          "B059",
+          "B060"
+        ],
+        "new_whole_book_files_actually_read": 2,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 104018,
+        "new_OCR_characters_read": 0,
+        "native_stream_characters_including_page_markers": 108366,
+        "new_unique_original_visual_pages": 118,
+        "reading_cards_viewed": 21,
+        "original_note_groups": 32,
+        "new_method_source_bindings": 83,
+        "new_method_operations": [],
+        "serial_order": [
+          "B059",
+          "save_B059_notes_scope_and_next_checkpoint",
+          "B060",
+          "save_B060_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B059",
+            "title": "情狼日记",
+            "pages": 74,
+            "native_characters": 53695,
+            "stream_characters": 56424,
+            "reading_cards": 13,
+            "note_groups": 16,
+            "bindings": 42,
+            "ledger": "knowledge/provenance/B059_reading_2026-11-13.json",
+            "scope_summary": "当前74页已读至第74页“未完，待续”；第3页前言亦明说作品未完成。初中卷、高中卷及大学卷现有开头已读完，续作未提供，不计实读、不等待补齐。封面署名与文件名分别保留，原版出版完整性及叙事真实性未独立核实。"
+          },
+          {
+            "id": "B060",
+            "title": "情绪流方法论",
+            "pages": 44,
+            "native_characters": 50323,
+            "stream_characters": 51942,
+            "reading_cards": 8,
+            "note_groups": 16,
+            "bindings": 41,
+            "ledger": "knowledge/provenance/B060_reading_2026-11-13.json",
+            "scope_summary": "当前44页已读完正文六章与第43—44页终篇。第1页目录漏列第五章，但第33—38页第五章四节确已提供并读完；不是正文缺章。终篇提及的十二章设想与书外收费课程未提供，不计实读、不等待补齐。个人经验和自报效果未冒认科学证据。"
+          }
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B059_B060_validation_2026-11-13.json",
+          "structural": true,
+          "unittest_methods": 63,
+          "synthetic_routing_scenarios": 158,
+          "source_page_text_and_card_hashes": true,
+          "other_source_records_preserved": true,
+          "method_operations_and_preferred_sections_preserved": true,
+          "serial_checkpoint_preserved": true
         }
       }
     }

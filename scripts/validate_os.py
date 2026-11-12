@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
-from knowledge import method_reference
+from knowledge import citation_headings, markdown_sections, method_reference
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -81,6 +81,13 @@ def validate(root=ROOT):
         for source in method['sources']:
             if not (root/source['path']).is_file():
                 errors.append('Missing method source: '+source['path'])
+            elif 'section_headings' in source:
+                try:
+                    if not source['path'].endswith('.md'):
+                        raise ValueError('Explicit headings require a Markdown source')
+                    citation_headings(source, markdown_sections(source['path'], root))
+                except (ValueError, OSError):
+                    errors.append('Invalid method source section binding: '+method['id'])
     if set(lookup) != set(method_ids):
         errors.append('Knowledge map must cover every method exactly')
     for method_id,item in lookup.items():

@@ -15,7 +15,7 @@ from route import select_route
 from search_knowledge import search
 from validate_os import validate
 
-VERIFIED = {'speaker_verified': True, 'text_legible': True}
+VERIFIED = {'speaker_verified': True, 'text_legible': True, 'latest_sender': 'other'}
 
 
 class RuntimeWorkflow(unittest.TestCase):
@@ -63,7 +63,7 @@ class RuntimeWorkflow(unittest.TestCase):
         result = build_brief(request)
         self.assertTrue(result['candidate_check']['ok'])
         self.assertNotIn('SYNTHETIC_SECRET_DRAFT', json.dumps(result))
-        result = build_brief({'facts': VERIFIED | {'pending_reply': True},
+        result = build_brief({'facts': VERIFIED | {'latest_sender': 'user', 'pending_reply': True},
                               'candidate': '还要追问吗？'})
         self.assertEqual(result['decision']['action'], 'hold')
         self.assertFalse(result['candidate_check']['ok'])

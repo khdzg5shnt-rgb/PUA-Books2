@@ -32,12 +32,20 @@ def matches(expr, facts):
 def normalize(facts, config):
     validate_fact_values(facts, config)
     value = config['defaults'] | facts
+    if value['latest_sender'] == 'none' and value['function'] not in {'unknown', 'opening'}:
+        raise ValueError('A verified empty conversation cannot contain an incoming message function')
     # Direction is explicitly verified by the reader, never guessed from wording.
     if value['turn_gap'] != 'none':
         # Only a proved outgoing direction makes waiting independent of the gap.
         value['pending_reply'] = value['turn_gap'] == 'order' and value['latest_sender'] == 'user'
     elif value['latest_sender'] != 'unknown':
         value['pending_reply'] = value['latest_sender'] == 'user'
+    elif not value['pending_reply'] or value['necessary_new_logistics']:
+        # A default false is not evidence that there is an incoming turn.
+        # A verified pending flag may conservatively keep waiting, but cannot
+        # authorize a new logistics message without a known latest direction.
+        value['turn_gap'] = 'sender'
+        value['pending_reply'] = False
     if not value['pending_reply']:
         value['necessary_new_logistics'] = False
     if (value['advice_requested'] or value['urgent_practical_need'] or

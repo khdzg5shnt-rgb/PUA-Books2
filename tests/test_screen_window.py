@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from coach import build_brief
 
-VERIFIED = {'speaker_verified': True, 'text_legible': True}
+VERIFIED = {'speaker_verified': True, 'text_legible': True, 'latest_sender': 'other'}
 
 
 def bubble(number, sender, **facts):

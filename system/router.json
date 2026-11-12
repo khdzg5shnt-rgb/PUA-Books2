@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "1.5.0",
-  "updated": "2026-11-12",
+  "version": "1.5.1",
+  "updated": "2026-11-13",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
   "defaults": {
@@ -79,7 +79,8 @@
     "latest_sender": [
       "unknown",
       "user",
-      "other"
+      "other",
+      "none"
     ],
     "current_scope_relation": [
       "unknown",
@@ -1301,7 +1302,7 @@
     "roleplay_shared": "双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可",
     "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
     "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感",
-    "latest_sender": "最近一条已核的双方消息由谁发送；排除系统提示和引用。已核方向可更新pending_reply，未知保留unknown",
+    "latest_sender": "最近一条已核的双方已发消息由谁发送；未知或省略不能授权发新消息；已核待回可先等，独立必要事务仍须核方向；none只表示已核当前对话尚无已发消息的首次开场",
     "current_scope_relation": "已核当前内容或安排与已有被拒方向是否相同；unknown不猜，different必须有具体依据，不能当撤回边界或重邀许可",
     "turn_gap": "已核的具体缺口。顺序、最新发言人、已发正文或本轮待答内容不明时使用；助手先从可用上下文核准，多图可由消息重叠核出。"
   }

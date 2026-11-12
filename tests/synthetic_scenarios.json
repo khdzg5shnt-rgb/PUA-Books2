@@ -6,7 +6,8 @@
       "speaker_verified": false,
       "text_legible": true,
       "function": "banter",
-      "reciprocity": "mutual"
+      "reciprocity": "mutual",
+      "latest_sender": "other"
     },
     "expect_route": "R00",
     "expect_action": "clarify",
@@ -18,7 +19,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": false,
-      "invitation": "accepted"
+      "invitation": "accepted",
+      "latest_sender": "other"
     },
     "expect_route": "R00",
     "expect_action": "clarify",
@@ -32,7 +34,8 @@
       "text_legible": true,
       "refusal_scope": "contact",
       "reciprocity": "mutual",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R01",
     "expect_action": "stop",
@@ -45,7 +48,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "physical",
-      "roleplay_shared": true
+      "roleplay_shared": true,
+      "latest_sender": "other"
     },
     "expect_route": "R02",
     "expect_action": "draft",
@@ -58,7 +62,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "romance",
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -71,7 +76,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "pending_reply": true,
-      "function": "unknown"
+      "function": "unknown",
+      "latest_sender": "user"
     },
     "expect_route": "R04",
     "expect_action": "hold",
@@ -84,7 +90,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "pending_reply": true,
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "user"
     },
     "expect_route": "R04",
     "expect_action": "hold",
@@ -99,7 +106,8 @@
       "boundary_expressed": true,
       "function": "banter",
       "roleplay_shared": true,
-      "reciprocity": "mutual"
+      "reciprocity": "mutual",
+      "latest_sender": "other"
     },
     "expect_route": "R05",
     "expect_action": "draft",
@@ -111,7 +119,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "insult"
+      "function": "insult",
+      "latest_sender": "other"
     },
     "expect_route": "R06",
     "expect_action": "draft",
@@ -124,7 +133,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "repair_needed": true,
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "other"
     },
     "expect_route": "R07",
     "expect_action": "draft",
@@ -138,7 +148,8 @@
       "text_legible": true,
       "invitation": "alternative",
       "current_turn_low": true,
-      "consecutive_low_rounds": 3
+      "consecutive_low_rounds": 3,
+      "latest_sender": "other"
     },
     "expect_route": "R08",
     "expect_action": "draft",
@@ -151,7 +162,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "cancelled_with_repair",
-      "reciprocity": "consistently_one_sided"
+      "reciprocity": "consistently_one_sided",
+      "latest_sender": "other"
     },
     "expect_route": "R08",
     "expect_action": "draft",
@@ -166,7 +178,8 @@
       "invitation": "accepted",
       "closed_answer_complete": true,
       "current_turn_low": true,
-      "consecutive_low_rounds": 2
+      "consecutive_low_rounds": 2,
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -179,7 +192,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "logistics",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -195,7 +209,8 @@
       "goal": "invite",
       "invite_ready": true,
       "activity_verified": true,
-      "user_availability_known": true
+      "user_availability_known": true,
+      "latest_sender": "other"
     },
     "expect_route": "R10",
     "expect_action": "draft",
@@ -207,7 +222,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "invitation": "cancelled_without_repair"
+      "invitation": "cancelled_without_repair",
+      "latest_sender": "other"
     },
     "expect_route": "R10",
     "expect_action": "draft",
@@ -220,7 +236,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "activity",
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -233,7 +250,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "correction",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R12",
     "expect_action": "draft",
@@ -247,7 +265,8 @@
       "text_legible": true,
       "closed_answer_complete": true,
       "current_turn_low": true,
-      "consecutive_low_rounds": 2
+      "consecutive_low_rounds": 2,
+      "latest_sender": "other"
     },
     "expect_route": "R13",
     "expect_action": "draft",
@@ -259,7 +278,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R13",
     "expect_action": "draft",
@@ -272,7 +292,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "current_turn_low": true,
-      "consecutive_low_rounds": 2
+      "consecutive_low_rounds": 2,
+      "latest_sender": "other"
     },
     "expect_route": "R14",
     "expect_action": "hold",
@@ -285,7 +306,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "current_turn_low": true,
-      "reciprocity": "consistently_one_sided"
+      "reciprocity": "consistently_one_sided",
+      "latest_sender": "other"
     },
     "expect_route": "R14",
     "expect_action": "hold",
@@ -300,7 +322,8 @@
       "function": "distress",
       "current_turn_low": false,
       "consecutive_low_rounds": 4,
-      "reciprocity": "consistently_one_sided"
+      "reciprocity": "consistently_one_sided",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -316,7 +339,8 @@
       "goal": "invite",
       "invite_ready": true,
       "activity_verified": true,
-      "user_availability_known": true
+      "user_availability_known": true,
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -329,7 +353,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "advice_request",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -341,7 +366,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "good_news"
+      "function": "good_news",
+      "latest_sender": "other"
     },
     "expect_route": "R17",
     "expect_action": "draft",
@@ -354,7 +380,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "question",
-      "reciprocity": "unknown"
+      "reciprocity": "unknown",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -367,7 +394,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "question",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -379,7 +407,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "post_date"
+      "function": "post_date",
+      "latest_sender": "other"
     },
     "expect_route": "R19",
     "expect_action": "draft",
@@ -395,7 +424,8 @@
       "invite_ready": true,
       "user_availability_known": true,
       "activity_verified": true,
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R20",
     "expect_action": "draft",
@@ -409,7 +439,8 @@
       "text_legible": true,
       "goal": "invite",
       "invite_ready": true,
-      "activity_verified": true
+      "activity_verified": true,
+      "latest_sender": "other"
     },
     "expect_route": "R21",
     "expect_action": "clarify",
@@ -423,7 +454,8 @@
       "text_legible": true,
       "function": "banter",
       "reciprocity": "mutual",
-      "roleplay_shared": true
+      "roleplay_shared": true,
+      "latest_sender": "other"
     },
     "expect_route": "R22",
     "expect_action": "draft",
@@ -436,7 +468,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "shared_callback_available": true,
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R23",
     "expect_action": "draft",
@@ -449,7 +482,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "banter",
-      "reciprocity": "mutual"
+      "reciprocity": "mutual",
+      "latest_sender": "other"
     },
     "expect_route": "R24",
     "expect_action": "draft",
@@ -461,7 +495,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "opening"
+      "function": "opening",
+      "latest_sender": "other"
     },
     "expect_route": "R25",
     "expect_action": "draft",
@@ -473,7 +508,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "goal": "appreciate"
+      "goal": "appreciate",
+      "latest_sender": "other"
     },
     "expect_route": "R26",
     "expect_action": "draft",
@@ -485,7 +521,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -497,7 +534,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "unknown"
+      "function": "unknown",
+      "latest_sender": "other"
     },
     "expect_route": "R28",
     "expect_action": "draft",
@@ -509,7 +547,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "sharing"
+      "function": "sharing",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -523,7 +562,8 @@
       "text_legible": true,
       "pending_reply": true,
       "necessary_new_logistics": true,
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "user"
     },
     "expect_route": "R04N",
     "expect_action": "draft",
@@ -538,7 +578,8 @@
       "refusal_scope": "romance",
       "invitation": "none",
       "function": "banter",
-      "reciprocity": "mutual"
+      "reciprocity": "mutual",
+      "latest_sender": "other"
     },
     "expect_route": "R03",
     "expect_action": "draft",
@@ -552,7 +593,8 @@
       "text_legible": true,
       "invitation": "alternative",
       "reciprocity": "consistently_one_sided",
-      "current_turn_low": false
+      "current_turn_low": false,
+      "latest_sender": "other"
     },
     "expect_route": "R08",
     "expect_action": "draft",
@@ -565,7 +607,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "current_turn_low": true,
-      "consecutive_low_rounds": 1
+      "consecutive_low_rounds": 1,
+      "latest_sender": "other"
     },
     "expect_route": "R28",
     "expect_action": "draft",
@@ -579,7 +622,8 @@
       "text_legible": true,
       "function": "logistics",
       "shared_callback_available": true,
-      "roleplay_shared": true
+      "roleplay_shared": true,
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -593,7 +637,8 @@
       "text_legible": true,
       "function": "good_news",
       "current_turn_low": true,
-      "consecutive_low_rounds": 3
+      "consecutive_low_rounds": 3,
+      "latest_sender": "other"
     },
     "expect_route": "R17",
     "expect_action": "draft",
@@ -606,7 +651,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "distress",
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -619,7 +665,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "distress",
-      "urgent_practical_need": true
+      "urgent_practical_need": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -631,7 +678,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "distress"
+      "function": "distress",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -646,7 +694,8 @@
       "advice_requested": true,
       "current_turn_low": true,
       "consecutive_low_rounds": 4,
-      "reciprocity": "consistently_one_sided"
+      "reciprocity": "consistently_one_sided",
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -660,7 +709,8 @@
       "text_legible": true,
       "urgent_practical_need": true,
       "current_turn_low": true,
-      "consecutive_low_rounds": 2
+      "consecutive_low_rounds": 2,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -672,7 +722,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "invitation": "open_to_activity"
+      "invitation": "open_to_activity",
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -685,7 +736,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "accepted",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -698,7 +750,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "open_to_activity",
-      "refusal_scope": "contact"
+      "refusal_scope": "contact",
+      "latest_sender": "other"
     },
     "expect_route": "R01",
     "expect_action": "stop",
@@ -711,7 +764,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "roleplay_shared": true,
-      "refusal_scope": "physical"
+      "refusal_scope": "physical",
+      "latest_sender": "other"
     },
     "expect_route": "R02",
     "expect_action": "draft",
@@ -725,7 +779,8 @@
       "text_legible": true,
       "refusal_scope": "channel",
       "invitation": "accepted",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R05",
     "expect_action": "draft",
@@ -739,7 +794,8 @@
       "text_legible": true,
       "refusal_scope": "contact",
       "function": "opening",
-      "shared_callback_available": true
+      "shared_callback_available": true,
+      "latest_sender": "other"
     },
     "expect_route": "R01",
     "expect_action": "stop",
@@ -752,7 +808,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "logistics",
-      "invitation": "no_alternative"
+      "invitation": "no_alternative",
+      "latest_sender": "other"
     },
     "expect_route": "R10",
     "expect_action": "draft",
@@ -765,7 +822,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "logistics",
-      "invitation": "cancelled_without_repair"
+      "invitation": "cancelled_without_repair",
+      "latest_sender": "other"
     },
     "expect_route": "R10",
     "expect_action": "draft",
@@ -778,7 +836,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "logistics",
-      "refusal_scope": "activity"
+      "refusal_scope": "activity",
+      "latest_sender": "other"
     },
     "expect_route": "R11",
     "expect_action": "draft",
@@ -791,7 +850,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "closed_answer_complete": true,
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -804,7 +864,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "closed_answer_complete": true,
-      "function": "distress"
+      "function": "distress",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -817,7 +878,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "closed_answer_complete": true,
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -829,7 +891,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "function": "appreciation"
+      "function": "appreciation",
+      "latest_sender": "other"
     },
     "expect_route": "R29",
     "expect_action": "draft",
@@ -845,7 +908,8 @@
       "goal": "invite",
       "invite_ready": true,
       "user_availability_known": true,
-      "activity_verified": true
+      "activity_verified": true,
+      "latest_sender": "other"
     },
     "expect_route": "R29",
     "expect_action": "draft",
@@ -859,7 +923,8 @@
       "text_legible": true,
       "function": "appreciation",
       "current_turn_low": true,
-      "consecutive_low_rounds": 4
+      "consecutive_low_rounds": 4,
+      "latest_sender": "other"
     },
     "expect_route": "R29",
     "expect_action": "draft",
@@ -872,7 +937,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "appreciation",
-      "refusal_scope": "contact"
+      "refusal_scope": "contact",
+      "latest_sender": "other"
     },
     "expect_route": "R01",
     "expect_action": "stop",
@@ -885,7 +951,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "appreciation",
-      "refusal_scope": "channel"
+      "refusal_scope": "channel",
+      "latest_sender": "other"
     },
     "expect_route": "R05",
     "expect_action": "draft",
@@ -898,7 +965,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "appreciation",
-      "invitation": "accepted"
+      "invitation": "accepted",
+      "latest_sender": "other"
     },
     "expect_route": "R29",
     "expect_action": "draft",
@@ -911,7 +979,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "question",
-      "goal": "appreciate"
+      "goal": "appreciate",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -925,7 +994,8 @@
       "text_legible": true,
       "function": "banter",
       "refusal_scope": "activity",
-      "reciprocity": "mutual"
+      "reciprocity": "mutual",
+      "latest_sender": "other"
     },
     "expect_route": "R11",
     "expect_action": "draft",
@@ -938,7 +1008,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "correction",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R12",
     "expect_action": "draft",
@@ -951,7 +1022,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "closed_answer_complete": true,
-      "urgent_practical_need": true
+      "urgent_practical_need": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -964,7 +1036,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "no_alternative",
-      "function": "good_news"
+      "function": "good_news",
+      "latest_sender": "other"
     },
     "expect_route": "R17",
     "expect_action": "draft",
@@ -977,7 +1050,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "activity",
-      "function": "distress"
+      "function": "distress",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -990,7 +1064,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "no_alternative",
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1003,7 +1078,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "no_alternative",
-      "function": "advice_request"
+      "function": "advice_request",
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -1016,7 +1092,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "no_alternative",
-      "function": "appreciation"
+      "function": "appreciation",
+      "latest_sender": "other"
     },
     "expect_route": "R29",
     "expect_action": "draft",
@@ -1029,7 +1106,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "activity",
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1042,7 +1120,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "activity",
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -1055,7 +1134,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "closed_answer_complete": true,
-      "function": "good_news"
+      "function": "good_news",
+      "latest_sender": "other"
     },
     "expect_route": "R17",
     "expect_action": "draft",
@@ -1068,7 +1148,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "accepted",
-      "function": "distress"
+      "function": "distress",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -1081,7 +1162,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "alternative",
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -1094,7 +1176,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "accepted",
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1107,7 +1190,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "alternative",
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "other"
     },
     "expect_route": "R08",
     "expect_action": "draft",
@@ -1120,7 +1204,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "physical",
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1137,7 +1222,8 @@
       "goal": "invite",
       "invite_ready": true,
       "user_availability_known": true,
-      "activity_verified": true
+      "activity_verified": true,
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1150,7 +1236,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "channel",
-      "function": "question"
+      "function": "question",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft",
@@ -1163,7 +1250,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "boundary_expressed": true,
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -1176,7 +1264,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "physical",
-      "function": "distress"
+      "function": "distress",
+      "latest_sender": "other"
     },
     "expect_route": "R15",
     "expect_action": "draft",
@@ -1189,7 +1278,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "romance",
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft",
@@ -1245,7 +1335,8 @@
       "text_legible": true,
       "pending_reply": true,
       "necessary_new_logistics": true,
-      "refusal_scope": "activity"
+      "refusal_scope": "activity",
+      "latest_sender": "user"
     },
     "expect_route": "R04N",
     "expect_action": "draft",
@@ -1273,7 +1364,8 @@
       "text_legible": true,
       "refusal_scope": "contact",
       "pending_reply": true,
-      "necessary_new_logistics": true
+      "necessary_new_logistics": true,
+      "latest_sender": "user"
     },
     "expect_route": "R01",
     "expect_action": "stop",
@@ -1290,7 +1382,8 @@
       "goal": "invite",
       "invite_ready": true,
       "user_availability_known": true,
-      "activity_verified": true
+      "activity_verified": true,
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -1307,7 +1400,8 @@
       "goal": "invite",
       "invite_ready": true,
       "user_availability_known": true,
-      "activity_verified": true
+      "activity_verified": true,
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -1322,7 +1416,8 @@
       "closed_answer_complete": true,
       "function": "sharing",
       "current_turn_low": true,
-      "consecutive_low_rounds": 3
+      "consecutive_low_rounds": 3,
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -1337,7 +1432,8 @@
       "function": "sharing",
       "current_turn_low": true,
       "consecutive_low_rounds": 4,
-      "reciprocity": "consistently_one_sided"
+      "reciprocity": "consistently_one_sided",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft",
@@ -1365,7 +1461,8 @@
       "refusal_scope": "romance",
       "function": "banter",
       "reciprocity": "mutual",
-      "roleplay_shared": true
+      "roleplay_shared": true,
+      "latest_sender": "other"
     },
     "expect_route": "R03",
     "expect_action": "draft",
@@ -1393,7 +1490,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "physical",
-      "urgent_practical_need": true
+      "urgent_practical_need": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft",
@@ -1406,7 +1504,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "boundary_expressed": true,
-      "function": "correction"
+      "function": "correction",
+      "latest_sender": "other"
     },
     "expect_route": "R12",
     "expect_action": "draft",
@@ -1419,7 +1518,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "refusal_scope": "channel",
-      "function": "good_news"
+      "function": "good_news",
+      "latest_sender": "other"
     },
     "expect_route": "R17",
     "expect_action": "draft",
@@ -1445,7 +1545,8 @@
     "facts": {
       "speaker_verified": true,
       "text_legible": true,
-      "refusal_scope": "physical"
+      "refusal_scope": "physical",
+      "latest_sender": "other"
     },
     "expect_route": "R02",
     "expect_action": "draft",
@@ -2160,7 +2261,8 @@
       "function": "closing",
       "goal": "invite",
       "current_turn_low": true,
-      "consecutive_low_rounds": 2
+      "consecutive_low_rounds": 2,
+      "latest_sender": "other"
     },
     "expect_route": "R09C",
     "expect_action": "hold"
@@ -2173,7 +2275,8 @@
       "text_legible": true,
       "invitation": "settled",
       "function": "logistics",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R09C",
     "expect_action": "hold"
@@ -2186,7 +2289,8 @@
       "text_legible": true,
       "invitation": "accepted",
       "function": "logistics",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft"
@@ -2199,7 +2303,8 @@
       "text_legible": true,
       "invitation": "settled",
       "function": "question",
-      "goal": "invite"
+      "goal": "invite",
+      "latest_sender": "other"
     },
     "expect_route": "R18",
     "expect_action": "draft"
@@ -2211,7 +2316,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "settled",
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "other"
     },
     "expect_route": "R09",
     "expect_action": "draft"
@@ -2224,7 +2330,8 @@
       "text_legible": true,
       "invitation": "will_update",
       "function": "logistics",
-      "goal": "invite"
+      "goal": "invite",
+      "latest_sender": "other"
     },
     "expect_route": "R10W",
     "expect_action": "draft"
@@ -2236,7 +2343,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "no_alternative",
-      "goal": "invite"
+      "goal": "invite",
+      "latest_sender": "other"
     },
     "expect_route": "R10",
     "expect_action": "draft"
@@ -2262,7 +2370,8 @@
       "text_legible": true,
       "invitation": "will_update",
       "function": "sharing",
-      "goal": "invite"
+      "goal": "invite",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft"
@@ -2274,7 +2383,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "alternative",
-      "function": "logistics"
+      "function": "logistics",
+      "latest_sender": "other"
     },
     "expect_route": "R08",
     "expect_action": "draft"
@@ -2287,7 +2397,8 @@
       "text_legible": true,
       "function": "closing",
       "goal": "invite",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R13C",
     "expect_action": "hold"
@@ -2299,7 +2410,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "function": "closing",
-      "advice_requested": true
+      "advice_requested": true,
+      "latest_sender": "other"
     },
     "expect_route": "R16",
     "expect_action": "draft"
@@ -2312,7 +2424,8 @@
       "text_legible": true,
       "invitation": "accepted",
       "function": "sharing",
-      "goal": "invite"
+      "goal": "invite",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft"
@@ -2325,7 +2438,8 @@
       "text_legible": true,
       "invitation": "accepted",
       "function": "sharing",
-      "refusal_scope": "activity"
+      "refusal_scope": "activity",
+      "latest_sender": "other"
     },
     "expect_route": "R27",
     "expect_action": "draft"
@@ -2339,7 +2453,8 @@
       "invitation": "settled",
       "function": "logistics",
       "refusal_scope": "activity",
-      "closed_answer_complete": true
+      "closed_answer_complete": true,
+      "latest_sender": "other"
     },
     "expect_route": "R00S",
     "expect_action": "clarify"
@@ -2351,7 +2466,8 @@
       "speaker_verified": true,
       "text_legible": true,
       "invitation": "will_update",
-      "function": "closing"
+      "function": "closing",
+      "latest_sender": "other"
     },
     "expect_route": "R13C",
     "expect_action": "hold"

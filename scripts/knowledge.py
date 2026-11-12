@@ -1,6 +1,7 @@
 """Resolve curated method references to actual Markdown sections, locally."""
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +40,21 @@ def markdown_sections(path, root=ROOT):
         result.append({'path': str(path), 'title': title, 'heading': heading,
                        'line': start + 1, 'end_line': stop, 'text': content})
     return result
+
+
+def citation_headings(reference, sections):
+    """Resolve only exact headings; a page locator does not bind an entire file."""
+    counts = Counter(item['heading'] for item in sections)
+    if 'section_headings' in reference:
+        headings = reference['section_headings']
+        if (not isinstance(headings, list) or not headings or
+                any(not isinstance(item, str) or not item.strip() for item in headings) or
+                len(headings) != len(set(headings)) or
+                any(counts[item] != 1 for item in headings)):
+            raise ValueError('Source section bindings must identify unique existing headings')
+        return list(headings)
+    locator = reference.get('locator')
+    return [locator] if isinstance(locator, str) and counts[locator] == 1 else []
 
 
 def resolve_reference(reference, root=ROOT, excerpt_limit=1600):
