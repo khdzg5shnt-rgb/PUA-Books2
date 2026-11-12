@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+  "books": [
+    {
+      "id": "B054",
+      "characters": 74420,
+      "spine_items": 54,
+      "image_resources": 2,
+      "contiguous_chunk_hashes_match": true,
+      "provided_scope_complete": true,
+      "original_edition_complete_not_asserted": true
+    },
+    {
+      "id": "B055",
+      "characters": 41563,
+      "spine_items": 8,
+      "image_resources": 0,
+      "contiguous_chunk_hashes_match": true,
+      "provided_scope_complete": true,
+      "original_edition_complete_not_asserted": true
+    }
+  ],
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 54,
+    "book_not_started": 65,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "command": "python -m unittest discover -s tests -p 'test_*.py'",
+    "exit_code": 0,
+    "tests": 63,
+    "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.634s\n\nOK\n"
+  },
+  "synthetic_routing_scenarios": 158,
+  "synthetic_scenario_bytes_unchanged": true,
+  "original_126_source_identities_preserved": true,
+  "other_source_records_unchanged": true,
+  "existing_method_operations_and_avoid_conditions_unchanged": true,
+  "new_critical_source_bindings": 42,
+  "source_bindings": [
+    {
+      "method": "M02",
+      "path": "knowledge/books/B054.md",
+      "locator": "金钱、帮助与正常边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B054.md",
+      "locator": "第一印象和真实自我表达",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B055.md",
+      "locator": "接话、提问与安静",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B054.md",
+      "locator": "第一印象和真实自我表达",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B055.md",
+      "locator": "接话、提问与安静",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B055.md",
+      "locator": "轻松幽默和双方接得住的角色",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B055.md",
+      "locator": "轻松幽默和双方接得住的角色",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B055.md",
+      "locator": "轻松幽默和双方接得住的角色",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B054.md",
+      "locator": "友好、好感与明确意愿分开",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B055.md",
+      "locator": "五种分类不代替个人事实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B054.md",
+      "locator": "第一印象和真实自我表达",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B054.md",
+      "locator": "第一印象和真实自我表达",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B055.md",
+      "locator": "真实生活与共同活动",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B054.md",
+      "locator": "不满、让步与倾听",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B055.md",
+      "locator": "接话、提问与安静",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B054.md",
+      "locator": "不满、让步与倾听",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B055.md",
+      "locator": "帮忙、花费与单边投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B054.md",
+      "locator": "主动表达与一次具体邀请",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B055.md",
+      "locator": "活动选择与见面长度",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B054.md",
+      "locator": "婚姻选择、距离与相处差异",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B055.md",
+      "locator": "准备行程与共同决定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B055.md",
+      "locator": "活动选择与见面长度",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B054.md",
+      "locator": "主动表达与一次具体邀请",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B055.md",
+      "locator": "准备行程与共同决定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B054.md",
+      "locator": "友好、好感与明确意愿分开",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B055.md",
+      "locator": "接话、提问与安静",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B054.md",
+      "locator": "友好、好感与明确意愿分开",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B055.md",
+      "locator": "接话、提问与安静",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B054.md",
+      "locator": "不满、让步与倾听",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B055.md",
+      "locator": "调侃、无礼与具体边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B054.md",
+      "locator": "分手、恢复生活与复合",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B055.md",
+      "locator": "调侃、无礼与具体边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B054.md",
+      "locator": "金钱、帮助与正常边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B055.md",
+      "locator": "帮忙、花费与单边投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B054.md",
+      "locator": "身体接触与拒绝的范围",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B055.md",
+      "locator": "准备行程与共同决定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B054.md",
+      "locator": "分手、恢复生活与复合",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B055.md",
+      "locator": "活动选择与见面长度",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B054.md",
+      "locator": "主动表达与一次具体邀请",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B055.md",
+      "locator": "真实生活与共同活动",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B054.md",
+      "locator": "第一印象和真实自我表达",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B055.md",
+      "locator": "轻松幽默和双方接得住的角色",
+      "kind": "critical_source_notes_not_empirical_validation"
+    }
+  ],
+  "preferred_sections_bytes_unchanged": true,
+  "last_system_maintenance_preserved": true,
+  "reading_order": [
+    "B054",
+    "B055"
+  ],
+  "first_book_notes_and_scope_saved_before_second_body": true,
+  "completed_current_tasks": 54,
+  "actually_read_current_supplied_files": 52,
+  "user_accepted_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial": 0,
+  "unread": 65,
+  "next_unread": "B056",
+  "next_book_body_opened": false,
+  "new_raw_source_or_private_chat_material_archived": 0,
+  "limits": "Metadata/hash/link consistency, existing63 unit tests and158 synthetic routes; not independent proof of reading comprehension, psychological mechanisms, real screenshots or dating effectiveness."
+}

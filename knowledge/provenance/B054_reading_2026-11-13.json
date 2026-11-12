@@ -1,0 +1,1067 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "baseline_main": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+  "id": "B054",
+  "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
+  "bytes": 179318,
+  "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
+  "source_sha256": "f3e2754f4bbdaf8c5ac516e334afa094b3972b404c95af2a0190b92398160ec6",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "download_ref": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+  "package_path": "content.opf",
+  "package_metadata": [
+    {
+      "tag": "title",
+      "value": "婚恋中男人不能犯的100个错误"
+    },
+    {
+      "tag": "creator",
+      "value": "廖康强"
+    },
+    {
+      "tag": "description",
+      "value": "婚恋中男人不能犯的100个错误"
+    },
+    {
+      "tag": "language",
+      "value": "zh-cn"
+    },
+    {
+      "tag": "date",
+      "value": null
+    },
+    {
+      "tag": "contributor",
+      "value": "COAY.COM [http://www.coay.com]"
+    },
+    {
+      "tag": "publisher",
+      "value": "COAY.COM"
+    },
+    {
+      "tag": "identifier",
+      "value": "705"
+    },
+    {
+      "tag": "subject",
+      "value": "婚恋中男人不能犯的100个错误"
+    }
+  ],
+  "extraction": {
+    "method": "EPUB OPF spine order; lxml body itertext stripped nonempty nodes joined by LF; script/style excluded; explicit spine markers",
+    "characters": 74420,
+    "body_characters": 71488,
+    "sha256": "e56242ed53ff1508efa985b037cc846c50fb167ab03217e79b6f7e02cf76ef73",
+    "coordinates": "Unicode codepoints; half-open offsets; markers included",
+    "native_not_OCR": true,
+    "raw_text_newly_archived": false
+  },
+  "spine": [
+    {
+      "index": 1,
+      "path": "titlepage.xhtml",
+      "linear": "yes",
+      "range": [
+        0,
+        50
+      ],
+      "body_characters": 0,
+      "file_sha256": "ab581df56bd9c34566859ac5da03af7d54c75328fbe1ba11b604a61c8cc20f2c",
+      "text_sha256": "89b4c23617a3b7780c44e0040143d29f328c8c1381f6f5446ddd04bf7774c67f",
+      "headings": [],
+      "images": [
+        "cover.jpg"
+      ]
+    },
+    {
+      "index": 2,
+      "path": "page.xhtml",
+      "linear": "yes",
+      "range": [
+        50,
+        95
+      ],
+      "body_characters": 0,
+      "file_sha256": "86a3eb4e47bc3d107f03c603034fefd87aa6b55850032c541e5a185ca865fdae",
+      "text_sha256": "39a48144e20866d662114740cbb609b1a599f3163058087baa80d53699807c3a",
+      "headings": [],
+      "images": [
+        "coay.jpg"
+      ]
+    },
+    {
+      "index": 3,
+      "path": "catalog.html",
+      "linear": "yes",
+      "range": [
+        95,
+        773
+      ],
+      "body_characters": 631,
+      "file_sha256": "deb591f6b0be6025ee35c87d9edeef3498d7179d8bd5c11333d222656d16a197",
+      "text_sha256": "631c92904349f3667c5d463797b5e42669b9100ad28baa3ffb1714a22d868f36",
+      "headings": [
+        "目录 Content"
+      ],
+      "images": []
+    },
+    {
+      "index": 4,
+      "path": "article_393921.html",
+      "linear": "yes",
+      "range": [
+        773,
+        2538
+      ],
+      "body_characters": 1711,
+      "file_sha256": "4192a166f1b4fbfc6281988986a33cff218e386a49a493e4622844e0184f6575",
+      "text_sha256": "c7162e89ee43c1512fad8679a7e8b14a5ddd20fb5c99b2e4024d4618a98c6e69",
+      "headings": [
+        "1想爱却不敢说出口"
+      ],
+      "images": []
+    },
+    {
+      "index": 5,
+      "path": "article_393922.html",
+      "linear": "yes",
+      "range": [
+        2538,
+        3657
+      ],
+      "body_characters": 1065,
+      "file_sha256": "7a4a7207535f10621fc893c914bdf88d7e94b22eb2f36c36c119ef4468fd87d2",
+      "text_sha256": "c59ff2b6de4e12338acced7050a7ed696e4a41e4f381916591fe133fefb72162",
+      "headings": [
+        "2情陷爱情“错觉”"
+      ],
+      "images": []
+    },
+    {
+      "index": 6,
+      "path": "article_393923.html",
+      "linear": "yes",
+      "range": [
+        3657,
+        4664
+      ],
+      "body_characters": 953,
+      "file_sha256": "c7b5cce6e8feeab0d51d9f64a73c6cf2daf3884adecd14a6f4304053bfa3a512",
+      "text_sha256": "afd905177ca6670fc3478d09adeaf1eaaa94557af5fb40f1a7f4dca26a2edf51",
+      "headings": [
+        "3邀请对方时表现得过于绵软"
+      ],
+      "images": []
+    },
+    {
+      "index": 7,
+      "path": "article_393924.html",
+      "linear": "yes",
+      "range": [
+        4664,
+        7064
+      ],
+      "body_characters": 2346,
+      "file_sha256": "28cb099fe1ff749284ee32a564b39a86554ffe829e1abcd7fb136cf5ff6115d4",
+      "text_sha256": "28272cee93ddedf2aad5b1cb016110ad203c38280100b8d6c4c71b50f2408b5c",
+      "headings": [
+        "4给女孩留下糟糕的第一印象"
+      ],
+      "images": []
+    },
+    {
+      "index": 8,
+      "path": "article_393925.html",
+      "linear": "yes",
+      "range": [
+        7064,
+        8411
+      ],
+      "body_characters": 1293,
+      "file_sha256": "d0bff6f01754fecd8c9cc754e7540380f26c28d916685a1bf75b57f94a8cd7f9",
+      "text_sha256": "c9c047764d416e908498e9406a2bdc00eda48f3e3655599f484b94d39bef3b60",
+      "headings": [
+        "5用伪装来获得爱情"
+      ],
+      "images": []
+    },
+    {
+      "index": 9,
+      "path": "article_393926.html",
+      "linear": "yes",
+      "range": [
+        8411,
+        9828
+      ],
+      "body_characters": 1363,
+      "file_sha256": "61031f8fa2674d1a49dc920f8ce5217421fa97d4776d8f41f08652bbe2e45fdb",
+      "text_sha256": "07f00eae2cd2638fe7237ba4f31fcafc025f573488dcc951f54a66467144975d",
+      "headings": [
+        "6约会时过于紧张"
+      ],
+      "images": []
+    },
+    {
+      "index": 10,
+      "path": "article_393927.html",
+      "linear": "yes",
+      "range": [
+        9828,
+        11572
+      ],
+      "body_characters": 1689,
+      "file_sha256": "b587c47a14a239076620a84979cffe67c70130ddb4b03081ce0a4fc14ec22b03",
+      "text_sha256": "27f35c545622c40977184958efb5f291e7e43baec3d4d3404a13c8194e8c2545",
+      "headings": [
+        "7约会时谈吐失当"
+      ],
+      "images": []
+    },
+    {
+      "index": 11,
+      "path": "article_393928.html",
+      "linear": "yes",
+      "range": [
+        11572,
+        12991
+      ],
+      "body_characters": 1364,
+      "file_sha256": "42b7ff7511034f9809eb0f16f2b3d1339f8fb99a129e12039c39fedab7219ef8",
+      "text_sha256": "368c1d2ec70bdd7282fc982bada144c9cb3256960c2c05385d12aa0abb725067",
+      "headings": [
+        "8恋爱时急于求成"
+      ],
+      "images": []
+    },
+    {
+      "index": 12,
+      "path": "article_393929.html",
+      "linear": "yes",
+      "range": [
+        12991,
+        14356
+      ],
+      "body_characters": 1310,
+      "file_sha256": "a11a0b6eeabbc590e993e0781f303b646ffe7868dd10e72f88d5cdaff89fec89",
+      "text_sha256": "1d65afaf90831a7635fe6e17358249fc5ae1a7176e27c99fc66828c271743a0a",
+      "headings": [
+        "9用错误的方式拒绝"
+      ],
+      "images": []
+    },
+    {
+      "index": 13,
+      "path": "article_393930.html",
+      "linear": "yes",
+      "range": [
+        14356,
+        16121
+      ],
+      "body_characters": 1710,
+      "file_sha256": "85b00100a4ce8b3a71d77c05361323dfdf229410e33a2ed68c70443578232ee8",
+      "text_sha256": "ce20e93520d7d1e2ea7e26d971769ed5e6a3c6e358be2507045874ffeba4dd9a",
+      "headings": [
+        "10错误的分手方式"
+      ],
+      "images": []
+    },
+    {
+      "index": 14,
+      "path": "article_393931.html",
+      "linear": "yes",
+      "range": [
+        16121,
+        17655
+      ],
+      "body_characters": 1479,
+      "file_sha256": "ea4c3907e063d3dab46380e50558394cbc3c8e076c0632017bbde997609787e2",
+      "text_sha256": "7cf3b2730943259c7b00792e1bd9b23098768e86c73f6f4c9f45e7c7a6141869",
+      "headings": [
+        "11因为自卑不敢去爱"
+      ],
+      "images": []
+    },
+    {
+      "index": 15,
+      "path": "article_393932.html",
+      "linear": "yes",
+      "range": [
+        17655,
+        18970
+      ],
+      "body_characters": 1260,
+      "file_sha256": "27010411b132d63026d06bfa02b960435976d0856d7663466fbf886ce65f24aa",
+      "text_sha256": "14680474591f56c8a5cf9d78c2b6586a1886d96b48212f69835d9e408405c67f",
+      "headings": [
+        "12失去理智的嫉妒"
+      ],
+      "images": []
+    },
+    {
+      "index": 16,
+      "path": "article_393933.html",
+      "linear": "yes",
+      "range": [
+        18970,
+        19965
+      ],
+      "body_characters": 940,
+      "file_sha256": "d52428961eab349da07e6e608fe7cb9c99d969c4ddab041bae8e7796e65dce1e",
+      "text_sha256": "0622cc04ab28d0e994eea13e9dfcab2e4d7e92aea11ba64769c36c818e3ee4e1",
+      "headings": [
+        "13脚踏几条船"
+      ],
+      "images": []
+    },
+    {
+      "index": 17,
+      "path": "article_393934.html",
+      "linear": "yes",
+      "range": [
+        19965,
+        21428
+      ],
+      "body_characters": 1408,
+      "file_sha256": "a229e50c7821d9adf04e039ae0ac51b2d4714ae8a23a75753dfbb60f055c14f6",
+      "text_sha256": "9105d1de9ff3443622885fa63e09eef97be34646649ac013a0329f8d48746e37",
+      "headings": [
+        "14狗熊掰玉米"
+      ],
+      "images": []
+    },
+    {
+      "index": 18,
+      "path": "article_393935.html",
+      "linear": "yes",
+      "range": [
+        21428,
+        22842
+      ],
+      "body_characters": 1359,
+      "file_sha256": "ad38c2901153475cbc82ee63e97830403ff7a31e974dcb2d3c5839b99640f535",
+      "text_sha256": "12b29606940bacddb322757b4bc2b4e24a93579992c8ede68b1f7d52800dca69",
+      "headings": [
+        "15误会女友的“身体暗示”"
+      ],
+      "images": []
+    },
+    {
+      "index": 19,
+      "path": "article_393936.html",
+      "linear": "yes",
+      "range": [
+        22842,
+        24549
+      ],
+      "body_characters": 1652,
+      "file_sha256": "204fc2834df9acc7a4a03e19095667003a3eb511ba93ccedc62425ef2e109d26",
+      "text_sha256": "860eeb8738adedbc5f191a5b987d430dcde7512ff10a3e0f6c85a4a687b12853",
+      "headings": [
+        "16不敢主动亲昵"
+      ],
+      "images": []
+    },
+    {
+      "index": 20,
+      "path": "article_393937.html",
+      "linear": "yes",
+      "range": [
+        24549,
+        25934
+      ],
+      "body_characters": 1330,
+      "file_sha256": "fa3e295a5edeea9babd9de791bccd323060fb16a5cd6baf8ea583f553ef10f6c",
+      "text_sha256": "c5de56ea70a131ad38832847eef24884d8fba4c36734d1824cbfc8630debc364",
+      "headings": [
+        "17贬低恋人的亲友"
+      ],
+      "images": []
+    },
+    {
+      "index": 21,
+      "path": "article_393938.html",
+      "linear": "yes",
+      "range": [
+        25934,
+        27702
+      ],
+      "body_characters": 1713,
+      "file_sha256": "573b8a68c140233196c05349743035748e45c874f71d7e032adf79cc925c6643",
+      "text_sha256": "bfe09b97bc37a8a3cb266c96be68dbe8f6f8b8bc60b461d3932cb76f003235a3",
+      "headings": [
+        "18有了爱情丢了亲情"
+      ],
+      "images": []
+    },
+    {
+      "index": 22,
+      "path": "article_393939.html",
+      "linear": "yes",
+      "range": [
+        27702,
+        29554
+      ],
+      "body_characters": 1797,
+      "file_sha256": "f32bbe6ff7cedf98f5f3e7e8b2304ef10cb96311d9bb6761b0ab5e6ce6f5eb6e",
+      "text_sha256": "4f7a8667168c3ef0b937f11d359341ac828875814e3c98a24fccf147e40a8e9a",
+      "headings": [
+        "19女孩的心事猜不透"
+      ],
+      "images": []
+    },
+    {
+      "index": 23,
+      "path": "article_393940.html",
+      "linear": "yes",
+      "range": [
+        29554,
+        31401
+      ],
+      "body_characters": 1792,
+      "file_sha256": "0b8c48ccca0471d582bc96512db01a07d52f3013af780ab8fc2fa3a22c26de20",
+      "text_sha256": "76d2ec1a25d5a3e47d89986e57eeee3c4ae20a41e255b1251a2bb42de118a95b",
+      "headings": [
+        "20只相信一见钟情"
+      ],
+      "images": []
+    },
+    {
+      "index": 24,
+      "path": "article_393941.html",
+      "linear": "yes",
+      "range": [
+        31401,
+        32713
+      ],
+      "body_characters": 1257,
+      "file_sha256": "7390a821a4373978e7e3c85b707c2b14e28a5cd9b4394cb9edf140a9d0d8ddd3",
+      "text_sha256": "11b4163614fbbff385c8a7b770dded359dd74de1f1f65672583dbbd1069c9312",
+      "headings": [
+        "21不懂女人心"
+      ],
+      "images": []
+    },
+    {
+      "index": 25,
+      "path": "article_393942.html",
+      "linear": "yes",
+      "range": [
+        32713,
+        34269
+      ],
+      "body_characters": 1501,
+      "file_sha256": "ec691c3c957982086f84d0096aa5841758a2f1a2161b35597c1246fe130965cd",
+      "text_sha256": "c28a48a9537561d7c971a788cf023c231b3f165114f02450ab14ce1dfc6608fb",
+      "headings": [
+        "22爱得密不透风"
+      ],
+      "images": []
+    },
+    {
+      "index": 26,
+      "path": "article_393943.html",
+      "linear": "yes",
+      "range": [
+        34269,
+        36194
+      ],
+      "body_characters": 1870,
+      "file_sha256": "031a9c0b3b5927ffaf9913b6a5590973a52ea45ea7bd022ff722dd1a2628873f",
+      "text_sha256": "a56dfe4fcfefc5c19f128f6f6eb40e1bb4f4d82e80c736c56bc12e197f6013ef",
+      "headings": [
+        "23用金钱来衡量爱情"
+      ],
+      "images": []
+    },
+    {
+      "index": 27,
+      "path": "article_393944.html",
+      "linear": "yes",
+      "range": [
+        36194,
+        37395
+      ],
+      "body_characters": 1146,
+      "file_sha256": "27b3d1c125cd79dfe0c31c05bca666e6986e49b6e5288ca14fa990b667cee88d",
+      "text_sha256": "3f01a4cb619ef462ce4c44df273c569019d70fce782d0768feafabc25c4d173a",
+      "headings": [
+        "24求爱不成的疯狂"
+      ],
+      "images": []
+    },
+    {
+      "index": 28,
+      "path": "article_393945.html",
+      "linear": "yes",
+      "range": [
+        37395,
+        39280
+      ],
+      "body_characters": 1830,
+      "file_sha256": "0b281710a1cc3a0a5ff8f76378e92e8c59e07547ccd236140c824a61005a9f30",
+      "text_sha256": "39f7509b031d060c4b1ce3ffd8ff4a71f91b7ff862ec6f656da1e1963f28cbc5",
+      "headings": [
+        "25失恋后陷入绝望"
+      ],
+      "images": []
+    },
+    {
+      "index": 29,
+      "path": "article_393946.html",
+      "linear": "yes",
+      "range": [
+        39280,
+        41031
+      ],
+      "body_characters": 1696,
+      "file_sha256": "716fa97ef21f4c93254af4a8e6febdc0530fca876c97937515e496e501e43e6a",
+      "text_sha256": "723adf83266f905ebf17407e2f014de66ba8f8e9372c5c0787891851453d1856",
+      "headings": [
+        "26只要努力就一定追得到"
+      ],
+      "images": []
+    },
+    {
+      "index": 30,
+      "path": "article_393947.html",
+      "linear": "yes",
+      "range": [
+        41031,
+        42401
+      ],
+      "body_characters": 1315,
+      "file_sha256": "2e5c645af2a132d80ac5ab3a43651c65248db0d2c20cc8c595bf8bc955d6b0fd",
+      "text_sha256": "91eaff0c41f5faeadff81da0f72f4269d0b3d1dd0b5e4f19ff9ec2d239c13734",
+      "headings": [
+        "27爱上已婚女人"
+      ],
+      "images": []
+    },
+    {
+      "index": 31,
+      "path": "article_393948.html",
+      "linear": "yes",
+      "range": [
+        42401,
+        43766
+      ],
+      "body_characters": 1310,
+      "file_sha256": "b20d4514551eb695f80b18f0f159dc1044f43fffa790bb21534bdd1f598e0b66",
+      "text_sha256": "546acbba04ea398ccc80f502baf3b0d24f98d1172654a49abd895058feddff79",
+      "headings": [
+        "28害怕失去自由而拒绝婚姻"
+      ],
+      "images": []
+    },
+    {
+      "index": 32,
+      "path": "article_393949.html",
+      "linear": "yes",
+      "range": [
+        43766,
+        45055
+      ],
+      "body_characters": 1234,
+      "file_sha256": "8c8908a6f74b6c339b416592286a7ed6e08ee7fd62c22bc26c44c2f48d93fb73",
+      "text_sha256": "524803bad98c36c35d527e427a11e082354dc99a04c05ffc8a1116b8255b84b3",
+      "headings": [
+        "29距离不是爱情的障碍"
+      ],
+      "images": []
+    },
+    {
+      "index": 33,
+      "path": "article_393950.html",
+      "linear": "yes",
+      "range": [
+        45055,
+        45969
+      ],
+      "body_characters": 859,
+      "file_sha256": "23438bf06a9f26355100b48a3573e1d81c16c157b5e01da31113b33c913e1a71",
+      "text_sha256": "0a3ba85d6e2fc92ac8c03260707a40241cf606928925f256060e198f73b991a5",
+      "headings": [
+        "30“迷信”思想作祟"
+      ],
+      "images": []
+    },
+    {
+      "index": 34,
+      "path": "article_393951.html",
+      "linear": "yes",
+      "range": [
+        45969,
+        47010
+      ],
+      "body_characters": 986,
+      "file_sha256": "21a944429bd2b8ca3b05a6ab59ec27d9664096322faffeafc8868cb849ce4bd9",
+      "text_sha256": "d97c16df458e5ec4cdd994642b12db8ad46decb3d431a21d7189f1c3cd7f49b8",
+      "headings": [
+        "31为“利益”结婚"
+      ],
+      "images": []
+    },
+    {
+      "index": 35,
+      "path": "article_393952.html",
+      "linear": "yes",
+      "range": [
+        47010,
+        48497
+      ],
+      "body_characters": 1432,
+      "file_sha256": "07d4c71743986d761b4b8726d060ddef7f6a3406aae216ab496a1d208893149b",
+      "text_sha256": "90f3f501b29389952e39c75a62c3dd28e424f11f71da372ca771bfae7af1beb1",
+      "headings": [
+        "32拖泥带水的爱情"
+      ],
+      "images": []
+    },
+    {
+      "index": 36,
+      "path": "article_393953.html",
+      "linear": "yes",
+      "range": [
+        48497,
+        49707
+      ],
+      "body_characters": 1155,
+      "file_sha256": "e5e7dd8fce3904dd4c1c8307f590418fd63a32a76bb970c58c56cb714e74cc4b",
+      "text_sha256": "bd81819038c967a4479c7c3bc816a76d3d3e793da7c72f83a2d65919e9e88456",
+      "headings": [
+        "33为报恩而选择婚姻"
+      ],
+      "images": []
+    },
+    {
+      "index": 37,
+      "path": "article_393954.html",
+      "linear": "yes",
+      "range": [
+        49707,
+        51259
+      ],
+      "body_characters": 1497,
+      "file_sha256": "3dbbbcd3f3610144a3ccf8e220c319c2458e33de5762dfeea7365661e2c70474",
+      "text_sha256": "89412cf9560e26508bd87131b0fd5c8df6c2c67333331113199d110df2aa52b8",
+      "headings": [
+        "34结婚仅仅因为外在吸引"
+      ],
+      "images": []
+    },
+    {
+      "index": 38,
+      "path": "article_393955.html",
+      "linear": "yes",
+      "range": [
+        51259,
+        52856
+      ],
+      "body_characters": 1542,
+      "file_sha256": "e7214b5046d82866c3130165ee458e18b1f312483a5e402ac6fa14e9945636bc",
+      "text_sha256": "a884cf47ee79782b1656710cde678102a9244c8d4889165e41eb6a089edd25d9",
+      "headings": [
+        "35无谓的“处女”情结"
+      ],
+      "images": []
+    },
+    {
+      "index": 39,
+      "path": "article_393956.html",
+      "linear": "yes",
+      "range": [
+        52856,
+        54117
+      ],
+      "body_characters": 1206,
+      "file_sha256": "6c8ae2ece9449fc80e2dd7a4ea34e2dd3d19279bad2328aee2c284ed82c5d994",
+      "text_sha256": "bada040787b3bafb733863fd1d0c3984df31e91ae625ccbae02a047b74414ce5",
+      "headings": [
+        "36不顾原则地讨好恋人"
+      ],
+      "images": []
+    },
+    {
+      "index": 40,
+      "path": "article_393957.html",
+      "linear": "yes",
+      "range": [
+        54117,
+        55527
+      ],
+      "body_characters": 1355,
+      "file_sha256": "437f66727cdcc40eb93b4a0b183184215cf55e4978598e345458fdce90adc1a8",
+      "text_sha256": "f088612f43093135664258cd5f2d454e38c77d24cfda589a579c859cf9091e16",
+      "headings": [
+        "37好马不吃回头草"
+      ],
+      "images": []
+    },
+    {
+      "index": 41,
+      "path": "article_393958.html",
+      "linear": "yes",
+      "range": [
+        55527,
+        56749
+      ],
+      "body_characters": 1167,
+      "file_sha256": "745a3bdbfe8f119f044c0dc5a67428de654ed45cd9dbb5b57b1c0dcf6b1a7920",
+      "text_sha256": "bd7fbf291f37c4808e8188a771dba0f1b4342d1eaee475278e4a7b004c60ad7e",
+      "headings": [
+        "38弄巧成拙的求婚方式"
+      ],
+      "images": []
+    },
+    {
+      "index": 42,
+      "path": "article_393959.html",
+      "linear": "yes",
+      "range": [
+        56749,
+        57886
+      ],
+      "body_characters": 1082,
+      "file_sha256": "84d73b0c8647c15110f6b932878fdd3c7eb6a05e12eb29f67bf39329af3e08ce",
+      "text_sha256": "9c8562c48c379f92ede1392e0953dcfcbb2be61bff4486551270338e4eb99faf",
+      "headings": [
+        "39填补爱情“空白”仓促结婚"
+      ],
+      "images": []
+    },
+    {
+      "index": 43,
+      "path": "article_393960.html",
+      "linear": "yes",
+      "range": [
+        57886,
+        59907
+      ],
+      "body_characters": 1966,
+      "file_sha256": "b25d542ee690fa39ca0633d66080af9f961477a8acd9adb71a63843a89a3b3b2",
+      "text_sha256": "2a0cfc67520474ea4c6d5afbd89c6c13cbf5dc722662911c5bff5ece6cc6ec82",
+      "headings": [
+        "40忽视生活习惯的差异"
+      ],
+      "images": []
+    },
+    {
+      "index": 44,
+      "path": "article_393961.html",
+      "linear": "yes",
+      "range": [
+        59907,
+        60907
+      ],
+      "body_characters": 945,
+      "file_sha256": "4e37f6bd0a6083e5a757fa174241daed8a5a0631ed92875d786dc5acaea96757",
+      "text_sha256": "db76d118c6072efc0764054d8e912ca31797827a3de67b240201a856ddcb3af2",
+      "headings": [
+        "41只谈恋爱不结婚"
+      ],
+      "images": []
+    },
+    {
+      "index": 45,
+      "path": "article_393962.html",
+      "linear": "yes",
+      "range": [
+        60907,
+        62578
+      ],
+      "body_characters": 1616,
+      "file_sha256": "31449bd27ca6ac872c3800687423dc8c5438f50e3f2285827b488cd26c5ee6ec",
+      "text_sha256": "2cd3626c50f27ec79dcc7afea421c3db543b395d44955361480921382693c6e1",
+      "headings": [
+        "42婚姻是一种拖累"
+      ],
+      "images": []
+    },
+    {
+      "index": 46,
+      "path": "article_393963.html",
+      "linear": "yes",
+      "range": [
+        62578,
+        63829
+      ],
+      "body_characters": 1196,
+      "file_sha256": "517d5157f85565f9f3eaa6cad0397aac6624cc0cabcf97e82df187d3accb7fe9",
+      "text_sha256": "85361e3b98f834fe0dc4ca62cc76381e5f4fa28b1c076b72ed1cf7a2c58108a5",
+      "headings": [
+        "43老婆一定要是最好的"
+      ],
+      "images": []
+    },
+    {
+      "index": 47,
+      "path": "article_393964.html",
+      "linear": "yes",
+      "range": [
+        63829,
+        65064
+      ],
+      "body_characters": 1180,
+      "file_sha256": "423e14e5c2f3f6e5a0914a0830b7b21aa65b23ef3668bddebacf7493a04d4e84",
+      "text_sha256": "36238d1cebf40d3a16f8035108fd25a05b9dbd845a73e3d8b04fe27fe7047188",
+      "headings": [
+        "44忽视婚前体检"
+      ],
+      "images": []
+    },
+    {
+      "index": 48,
+      "path": "article_393965.html",
+      "linear": "yes",
+      "range": [
+        65064,
+        66720
+      ],
+      "body_characters": 1601,
+      "file_sha256": "c589d8e8b3a20d314303cc3465b5dc3aef8cfc0f0cf35db3c74f86c4f31f7289",
+      "text_sha256": "e715383b873d426910418358ef9b51f4327781a2559e6f8bd0050f474e852c6c",
+      "headings": [
+        "45忙于事业冷淡爱人"
+      ],
+      "images": []
+    },
+    {
+      "index": 49,
+      "path": "article_393966.html",
+      "linear": "yes",
+      "range": [
+        66720,
+        68596
+      ],
+      "body_characters": 1821,
+      "file_sha256": "47284ee5b9c5eb6642d0dfa9b1603e133e41ab60e2c009df370edcaaba0b804c",
+      "text_sha256": "4d84327496f2ff303c79e95ea8a851c5f679c729c44fc9b07e96b1d1e0a6db63",
+      "headings": [
+        "46在家庭中不愿做出让步"
+      ],
+      "images": []
+    },
+    {
+      "index": 50,
+      "path": "article_393967.html",
+      "linear": "yes",
+      "range": [
+        68596,
+        69787
+      ],
+      "body_characters": 1136,
+      "file_sha256": "5182b203da563bbc2fb637474c674a78e2885dd70d6e2a0c61299d4c9e658ddb",
+      "text_sha256": "8f51c81268f18660b3aeea1b99a1ed7ad72c37f73cdca2ea6a58ad491d8673aa",
+      "headings": [
+        "47以被动的方式来表达不满"
+      ],
+      "images": []
+    },
+    {
+      "index": 51,
+      "path": "article_393968.html",
+      "linear": "yes",
+      "range": [
+        69787,
+        70966
+      ],
+      "body_characters": 1124,
+      "file_sha256": "95264060fb729902ea09bc397dd55481929b614ab4dc8b71d93b2765f4672570",
+      "text_sha256": "c26a5aa5e1c0c741df054f64be69e5cc478e257b17847c534938cbc9c4cc37bf",
+      "headings": [
+        "48禁止妻子与异性交往"
+      ],
+      "images": []
+    },
+    {
+      "index": 52,
+      "path": "article_393969.html",
+      "linear": "yes",
+      "range": [
+        70966,
+        72376
+      ],
+      "body_characters": 1355,
+      "file_sha256": "dd92a711f77058b83f43fddaa04959cc9a6a018661e4deeba03678b25460c609",
+      "text_sha256": "e536582d81dd18b52d1daea90ba1b21069ff2fd1e8f737d24ea32c822279bec4",
+      "headings": [
+        "49把工作中的不快带回家"
+      ],
+      "images": []
+    },
+    {
+      "index": 53,
+      "path": "article_393970.html",
+      "linear": "yes",
+      "range": [
+        72376,
+        74374
+      ],
+      "body_characters": 1943,
+      "file_sha256": "927c4ed5cbb5e05862f47a545d838dc4686afd4f09ed8f99d935c883032bfc6e",
+      "text_sha256": "ca52f3a6d26974b4c7638789d16ac1ff0c2d11f6ccd176857e407ab346226cc1",
+      "headings": [
+        "50不愿倾听妻子的唠叨"
+      ],
+      "images": []
+    },
+    {
+      "index": 54,
+      "path": "page.xhtml",
+      "linear": "yes",
+      "range": [
+        74374,
+        74420
+      ],
+      "body_characters": 0,
+      "file_sha256": "86a3eb4e47bc3d107f03c603034fefd87aa6b55850032c541e5a185ca865fdae",
+      "text_sha256": "aa69576a781f2c162c29c11d43e4bc6e6fd4d99498160e3a77f216f22e932386",
+      "headings": [],
+      "images": [
+        "coay.jpg"
+      ]
+    }
+  ],
+  "actually_read_chunks": [
+    {
+      "range": [
+        0,
+        11000
+      ],
+      "characters": 11000,
+      "sha256": "b3adde921afcd7d8c36e0fc967517cbfba2eb4e594f97075097745397e12c1b9",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        11000,
+        22000
+      ],
+      "characters": 11000,
+      "sha256": "700752910236e095a3a7689a85fa31c83e9bfc8db4f402b519db3e85c8f158ce",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        22000,
+        33000
+      ],
+      "characters": 11000,
+      "sha256": "e8d644a96354c2431b5eadf1ad3ecb1e7646aad78da02d4a358d4509a8d59412",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        33000,
+        44000
+      ],
+      "characters": 11000,
+      "sha256": "c0cf25f50df7d6ad0ed6704501cfc89370d41e0a65c5838154a50031cdd80854",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        44000,
+        55000
+      ],
+      "characters": 11000,
+      "sha256": "d81213d1be042e18ed52ff0df572a80e30fae08dcd96ef199859ac9cd7cec375",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        55000,
+        66000
+      ],
+      "characters": 11000,
+      "sha256": "e6d6e7e3360d2efae22c4ab5d28c6f503d9d2c710e006329566a527e9ea9a5d5",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        66000,
+        74420
+      ],
+      "characters": 8420,
+      "sha256": "153d8716fec852653ff7db68b3a8a8c4ee0d0f75944506f1f84ea3938275ed9d",
+      "output_actually_read": true
+    }
+  ],
+  "package_images": [
+    {
+      "id": "cover",
+      "path": "cover.jpg",
+      "bytes": 7969,
+      "sha256": "20cd31efa35de49dbfa5915c32b40f36f6cdea1c40a41b564b1cd169dff60986",
+      "spine_references": [
+        1
+      ],
+      "actually_viewed": true
+    },
+    {
+      "id": "ad",
+      "path": "coay.jpg",
+      "bytes": 14840,
+      "sha256": "6c163c537f2a254ea46682a3fe4fa73a1f578e6a16cc79e43a3fe31d4a796804",
+      "spine_references": [
+        2,
+        54
+      ],
+      "actually_viewed": true
+    }
+  ],
+  "non_spine_html": [],
+  "unmanifested_html_or_images": [],
+  "source_scope": {
+    "supplied_numbered_sections": [
+      1,
+      50
+    ],
+    "title_claimed_section_count": 100,
+    "provided_numbered_section_count": 50,
+    "OPF_spine_items": 54,
+    "NCX_entries": 50,
+    "original_sections_51_to_100_supplied": false,
+    "unread_supplied_body_items": [],
+    "all_supplied_native_text_and_images_read": true,
+    "original_edition_completeness_verified": false,
+    "small_source_replacement_or_private_use_glyphs_not_silently_reconstructed": true,
+    "note": "Only the current provided EPUB is complete. Its title says100, but its TOC,NCX and body supply1–50. No unreferenced HTML or image assets occur in the ZIP. This is not the same kind of user-accepted unread-image exception as B017 or B039."
+  },
+  "all_current_provided_content_read": true,
+  "original_edition_completeness_verified": false,
+  "completion_kind": "actual_supplied_native_text_and_package_images_read",
+  "source_case_transcriptions_or_anonymous_private_narratives_newly_archived": 0,
+  "raw_extracted_text_newly_archived": false,
+  "OCR_run": false,
+  "notes": "knowledge/books/B054.md",
+  "checkpoint_saved_before_next_book_body": true,
+  "next_book_body_opened_at_checkpoint": false,
+  "next_work_unit_at_checkpoint": {
+    "id": "B055",
+    "path": "完美约会计划 - Brad P.epub",
+    "bytes": 72538,
+    "git_blob_sha": "d19782bc3787e6b690c77bd6d51fbe5e2a1a5537",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "next_character": 0,
+    "next_spine_item": 1,
+    "next_file_page": null,
+    "start": "B054提供文件的正文、附图、原创笔记和范围已保存。下一唯一主读B055，从当前文件首项开始；此断点保存时尚未打开下一份正文。",
+    "next_content_unit": "Read only B055 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved."
+  },
+  "coverage_assertions_are_not_independent_proof_of_semantic_comprehension": true,
+  "scope_counts_at_checkpoint": {
+    "complete": 53,
+    "actual_supplied_files_read": 51,
+    "exceptions": [
+      "B017",
+      "B039"
+    ],
+    "partial": 0,
+    "unread": 66
+  },
+  "date_timezone": "Asia/Shanghai",
+  "validation": "knowledge/provenance/B054_B055_validation_2026-11-13.json"
+}

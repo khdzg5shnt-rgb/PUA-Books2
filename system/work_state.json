@@ -1,62 +1,81 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-12",
-  "current_focus": "B054_next_unread_after_B045_finished",
+  "updated": "2026-11-13",
+  "current_focus": "B056_next_after_B055_complete",
   "status": "ready_for_next_file",
-  "base_commit": "47d7e558a7c154fec962050e9516e5aa2a510a00",
+  "base_commit": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B045_finished_2026-11-12.md",
-  "validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B054_B055_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B054_B055_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B054",
-    "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
-    "bytes": 179318,
-    "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
+    "id": "B056",
+    "path": "属性 - PUANEY.pdf",
+    "bytes": 8079984,
+    "git_blob_sha": "3b3f906e8d7a3f4c9ca4c9ab778f2b9b5f515185",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_character": 0,
-    "next_spine_item": 1,
-    "start": "既有未完成队列已清空。下一唯一主读B054，从EPUB首个OPF项开始；先核原文件身份与阅读顺序。本轮未打开B054正文，未计新开展或完成。",
-    "next_content_unit": "B054 first unread file only. Verify original EPUB blob and extraction order, read from its first supplied item, and finish notes and scope before B055. B054 body has not been opened in this round."
+    "next_spine_item": null,
+    "next_file_page": 1,
+    "start": "B055提供文件的正文、附图、原创笔记和范围已保存。下一唯一主读B056，从当前文件首项开始；此断点保存时尚未打开下一份正文。",
+    "next_content_unit": "Read only B056 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved."
   },
-  "next_work": "B054 first unread file only. Verify original EPUB blob and extraction order, read from its first supplied item, and finish notes and scope before B055. B054 body has not been opened in this round.",
+  "next_work": "Read only B056 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved.",
   "current_session_progress": {
-    "baseline": "47d7e558a7c154fec962050e9516e5aa2a510a00",
-    "work_type": "user_closed_B039_then_finish_B045_serially",
-    "new_book_files_started": [],
+    "baseline": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+    "work_type": "whole_epubs_read_and_saved_serially",
+    "new_book_files_started": [
+      "B054",
+      "B055"
+    ],
     "new_book_files_completed": [
-      "B039",
-      "B045"
+      "B054",
+      "B055"
     ],
     "actually_completed_file_ids": [
-      "B045"
+      "B054",
+      "B055"
     ],
-    "new_whole_book_files_actually_read": 1,
-    "user_accepted_scope_closure_ids": [
-      "B039"
-    ],
-    "new_native_or_OCR_characters_read_credited": 0,
-    "new_unique_original_visual_pages": 102,
+    "new_whole_book_files_actually_read": 2,
+    "user_accepted_scope_closure_ids": [],
+    "new_native_characters_read": 115983,
+    "new_OCR_character_credit": 0,
+    "new_package_image_resources_viewed": 2,
+    "new_method_operations": [],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
+      "reading_metadata_validation": "knowledge/provenance/B054_B055_validation_2026-11-13.json",
       "structural": true,
       "unittest_methods": 63,
       "synthetic_routing_scenarios": 158,
-      "reading_scope_hashes_and_counts": true,
-      "other_source_records_preserved": true
+      "source_and_contiguous_chunk_hashes": true,
+      "other_source_records_preserved": true,
+      "method_operations_and_preferred_sections_preserved": true
     },
-    "body_image_resources_read": 34,
-    "body_image_pages_read": 19,
-    "reading_cards_viewed": 17,
-    "cumulative_B045_original_visual_pages": 113,
-    "all_current_B045_supplied_content_read": true,
-    "original_full_series_completeness_verified": false,
-    "B054_or_later_body_opened": false,
-    "new_method_operations": []
+    "original_note_groups": {
+      "B054": 9,
+      "B055": 10
+    },
+    "new_method_source_bindings": 42,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "source_records": 158,
+    "unique_package_images_viewed": 2,
+    "total_spine_items_read": 62,
+    "chronological_book_order": [
+      "B054",
+      "B055"
+    ],
+    "B054_notes_scope_checkpoint_saved_before_B055_body": true,
+    "B056_or_later_body_opened": false,
+    "original_edition_completeness_not_asserted_for": [
+      "B054",
+      "B055"
+    ]
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -2236,16 +2255,15 @@
     }
   ],
   "last_completed_reading_session": {
-    "id": "B045",
-    "ledger": "knowledge/provenance/B045_finished_2026-11-12.json",
-    "report": "knowledge/provenance/B045_finished_2026-11-12.md",
-    "completion_kind": "actual_supplied_content_read_across_recorded_sessions",
+    "id": "B055",
+    "ledger": "knowledge/provenance/B055_reading_2026-11-13.json",
     "all_current_provided_content_read": true,
-    "new_native_characters_read": 0,
-    "new_unique_visual_pages": 102,
-    "new_body_image_resources_read": 34,
+    "completion_kind": "actual_supplied_native_text_and_package_images_read",
+    "new_native_characters_read": 41563,
+    "new_package_image_resources_viewed": 0,
     "original_publication_complete": false,
-    "next_unread": "B054"
+    "next_unread": "B056",
+    "report": "knowledge/provenance/B054_B055_progress_2026-11-13.md"
   },
   "reading_policy": {
     "mode": "finish_unfinished_files_before_new_books",
@@ -2335,12 +2353,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 52,
-    "current_file_text_complete": 52,
+    "started": 54,
+    "current_file_text_complete": 54,
     "partial": 0,
-    "unread": 67,
+    "unread": 65,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 52,
+    "reported_numerator": 54,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -4100,6 +4118,45 @@
           "other_source_records_preserved": true,
           "reported_ratio_unchanged": true
         }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B045_finished_2026-11-12.md",
+      "validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "47d7e558a7c154fec962050e9516e5aa2a510a00",
+        "work_type": "user_closed_B039_then_finish_B045_serially",
+        "new_book_files_started": [],
+        "new_book_files_completed": [
+          "B039",
+          "B045"
+        ],
+        "actually_completed_file_ids": [
+          "B045"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [
+          "B039"
+        ],
+        "new_native_or_OCR_characters_read_credited": 0,
+        "new_unique_original_visual_pages": 102,
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B045_finished_validation_2026-11-12.json",
+          "structural": true,
+          "unittest_methods": 63,
+          "synthetic_routing_scenarios": 158,
+          "reading_scope_hashes_and_counts": true,
+          "other_source_records_preserved": true
+        },
+        "body_image_resources_read": 34,
+        "body_image_pages_read": 19,
+        "reading_cards_viewed": 17,
+        "cumulative_B045_original_visual_pages": 113,
+        "all_current_B045_supplied_content_read": true,
+        "original_full_series_completeness_verified": false,
+        "B054_or_later_body_opened": false,
+        "new_method_operations": []
       }
     }
   ]

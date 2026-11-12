@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "baseline_main": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+  "id": "B055",
+  "path": "完美约会计划 - Brad P.epub",
+  "bytes": 72538,
+  "git_blob_sha": "d19782bc3787e6b690c77bd6d51fbe5e2a1a5537",
+  "source_sha256": "23e17134c7fe3ab8996a8e6b3171bd33787b402df080033270a957d6816efa7f",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "download_ref": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+  "package_path": "OEBPS/content.opf",
+  "package_metadata": [
+    {
+      "tag": "creator",
+      "value": "完美约会计划"
+    },
+    {
+      "tag": "title",
+      "value": "​完美约会计划"
+    },
+    {
+      "tag": "identifier",
+      "value": "urn:uuid:41A8FA53-0402-481C-92BA-18BA7FD3FB21"
+    },
+    {
+      "tag": "meta",
+      "value": null
+    },
+    {
+      "tag": "language",
+      "value": "zh-CN"
+    },
+    {
+      "tag": "date",
+      "value": "2019-07-18"
+    }
+  ],
+  "extraction": {
+    "method": "EPUB OPF spine order; lxml body itertext stripped nonempty nodes joined by LF; script/style excluded; explicit spine markers; strict XML failures for unclosed br use lxml HTMLParser UTF-8; all eight items cross-checked against independent stdlib streaming HTMLParser, ignoring whitespace only",
+    "characters": 41563,
+    "body_characters": 41155,
+    "sha256": "ac7a663eeadfa74b6c79703565f8c58479fb4ff544c5515d6cf354d5a308f96d",
+    "coordinates": "Unicode codepoints; half-open offsets; markers included",
+    "native_not_OCR": true,
+    "raw_text_newly_archived": false
+  },
+  "spine": [
+    {
+      "index": 1,
+      "path": "OEBPS/Text/1.html",
+      "linear": "yes",
+      "range": [
+        0,
+        89
+      ],
+      "body_characters": 38,
+      "file_sha256": "ba38cd2de1562eb07f81bbe681705c4123625a39b08ac12fe85880cbc2fa25b7",
+      "text_sha256": "2a874578d058d4e7bdf4bcc1d763521f176304fad7d5040f277e2394fdff0afd",
+      "headings": [
+        "完美约会计划"
+      ],
+      "images": []
+    },
+    {
+      "index": 2,
+      "path": "OEBPS/Text/2.html",
+      "linear": "yes",
+      "range": [
+        89,
+        2565
+      ],
+      "body_characters": 2425,
+      "file_sha256": "584ad56007b1e3f7c0a6a5844a16d0d5c9bc18db977d475421f04437d319ccdf",
+      "text_sha256": "335a1a9e6bf64f5991e9ee9824ffaf3cd274e576210665646ecf85589d54bf01",
+      "headings": [
+        "第一章 介绍"
+      ],
+      "images": []
+    },
+    {
+      "index": 3,
+      "path": "OEBPS/Text/3.html",
+      "linear": "yes",
+      "range": [
+        2565,
+        2963
+      ],
+      "body_characters": 347,
+      "file_sha256": "3f959036302e91bad596a8b121c4b8d676462356488f6596bcd05c99aad09735",
+      "text_sha256": "137417d97b886bf848a688a42c5ea0dbc60c3a19664fe4b1e87517222b567ac9",
+      "headings": [
+        "第二章 女性心理"
+      ],
+      "images": []
+    },
+    {
+      "index": 4,
+      "path": "OEBPS/Text/4.html",
+      "linear": "yes",
+      "range": [
+        2963,
+        7471
+      ],
+      "body_characters": 4457,
+      "file_sha256": "845b3f986d553f17ddb41f2f32a54cc4de2ac451c302b671bdc1339725ca2d48",
+      "text_sha256": "776ca626542df308c7c10b9eb943c187f8363e4cfb5d587c66b3a3914efd1fa2",
+      "headings": [
+        "第三章 荡妇因素"
+      ],
+      "images": []
+    },
+    {
+      "index": 5,
+      "path": "OEBPS/Text/5.html",
+      "linear": "yes",
+      "range": [
+        7471,
+        18877
+      ],
+      "body_characters": 11355,
+      "file_sha256": "5f35cbab3ce983b15c4b55113af4f8dcd65e19e5e93f65459055ea8b2a0bb84c",
+      "text_sha256": "580f889cad12fca84896830f29372414fffc04ff282f2fb4f2ee57a7ac0e3206",
+      "headings": [
+        "第四章 5种男人分类"
+      ],
+      "images": []
+    },
+    {
+      "index": 6,
+      "path": "OEBPS/Text/6.html",
+      "linear": "yes",
+      "range": [
+        18877,
+        21498
+      ],
+      "body_characters": 2570,
+      "file_sha256": "ba358cef65d353ab0c45767ae54b8f1f5f355869fed3548b24c0faf35f5ee57d",
+      "text_sha256": "f492a1c27b8f423c9d728d9025d083ccf793e041324d3b2a3b80702f3a27f97d",
+      "headings": [
+        "第五章 游戏前的准备工作"
+      ],
+      "images": []
+    },
+    {
+      "index": 7,
+      "path": "OEBPS/Text/7.html",
+      "linear": "yes",
+      "range": [
+        21498,
+        33506
+      ],
+      "body_characters": 11957,
+      "file_sha256": "7716f03a9001fddefe4a1335d03f9595bd6dbe26900a649585aabb1a5921cd7d",
+      "text_sha256": "349d3dcd62bc563ba700f48ab67e1fa8482ecba2065c0e7ddd204906ab5256a0",
+      "headings": [
+        "第六章 约会技巧"
+      ],
+      "images": []
+    },
+    {
+      "index": 8,
+      "path": "OEBPS/Text/8.html",
+      "linear": "yes",
+      "range": [
+        33506,
+        41563
+      ],
+      "body_characters": 8006,
+      "file_sha256": "cc92b5258c5e6bd534b2ed2ae9cf69a382a9f89156ccbda0c1e11c4e0c692c91",
+      "text_sha256": "a9928313f38e6fe34d4021bcaeed850bd723489115f1bdd6206c4d8a0144c499",
+      "headings": [
+        "第七章 交流与幽默"
+      ],
+      "images": []
+    }
+  ],
+  "actually_read_chunks": [
+    {
+      "range": [
+        0,
+        11000
+      ],
+      "characters": 11000,
+      "sha256": "6a386560b47872b39687dc56ffe27987edd636932d146ca07d319b4139a4ea94",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        11000,
+        22000
+      ],
+      "characters": 11000,
+      "sha256": "3b48f8ddc11406885ccb881c7b03d513b0a7c107c4d5c5b22aa6b9a98095ff0c",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        22000,
+        33000
+      ],
+      "characters": 11000,
+      "sha256": "fbd6f5ab9ecb7706c9d8d580933191e402acfce333ec88446d7fb2811b65fc3b",
+      "output_actually_read": true
+    },
+    {
+      "range": [
+        33000,
+        41563
+      ],
+      "characters": 8563,
+      "sha256": "36de37bb6e86ffcd128e81b7d0fa763e53581f6ef0806674600b8fde5812b7ee",
+      "output_actually_read": true
+    }
+  ],
+  "package_images": [],
+  "parse_fallbacks": [
+    {
+      "path": "OEBPS/Text/2.html",
+      "xml_error": "Opening and ending tag mismatch: br line 57 and body, line 59, column 8 (<string>, line 59)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/3.html",
+      "xml_error": "Opening and ending tag mismatch: br line 23 and body, line 25, column 8 (<string>, line 25)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/4.html",
+      "xml_error": "Opening and ending tag mismatch: br line 113 and body, line 115, column 8 (<string>, line 115)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/5.html",
+      "xml_error": "Excessive depth in document: 256, use XML_PARSE_HUGE option, line 266, column 1365 (<string>, line 266)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/6.html",
+      "xml_error": "Opening and ending tag mismatch: br line 97 and body, line 99, column 8 (<string>, line 99)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/7.html",
+      "xml_error": "Opening and ending tag mismatch: br line 225 and body, line 227, column 8 (<string>, line 227)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    },
+    {
+      "path": "OEBPS/Text/8.html",
+      "xml_error": "Opening and ending tag mismatch: br line 231 and body, line 233, column 8 (<string>, line 233)",
+      "fallback": "lxml HTMLParser UTF-8; original bytes unchanged"
+    }
+  ],
+  "extraction_crosscheck": [
+    {
+      "path": "OEBPS/Text/1.html",
+      "nonwhitespace_characters": 36,
+      "normalized_sha256": "5a080452f5847cad1a4fec73e3ee91335d518aae8ad33aa3f2c1a3541340c29a",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/2.html",
+      "nonwhitespace_characters": 2380,
+      "normalized_sha256": "bc312414601d00fcef871eccbfde5086857bdb1685e92bd5ff552ec15411f438",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/3.html",
+      "nonwhitespace_characters": 333,
+      "normalized_sha256": "60202196ef02007599b59b53f0156f12aa902a8eeda151a71e52461534337874",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/4.html",
+      "nonwhitespace_characters": 4296,
+      "normalized_sha256": "8e2c32ca16aac8b181d809de703fb025f3d9ee5e464a28e26d85eaa7b5fb9239",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/5.html",
+      "nonwhitespace_characters": 11059,
+      "normalized_sha256": "edb65c649291a57b02602ca8acf54188b3870d0aecf422464e0867b540302e05",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/6.html",
+      "nonwhitespace_characters": 2497,
+      "normalized_sha256": "d75a6af03e1635a206bb71b6768e6f20701949d4c62cc871203ba007679bdf31",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/7.html",
+      "nonwhitespace_characters": 11848,
+      "normalized_sha256": "eaa4ad6309562aefea3d178e6666d0ccc9bdfb6268deda8cd9cc1ef5c1f494fa",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    },
+    {
+      "path": "OEBPS/Text/8.html",
+      "nonwhitespace_characters": 7769,
+      "normalized_sha256": "0c808345f923c73248638fc49c64c2fbdb9f163a649cbab0dd1486e1f22da106",
+      "independent_streaming_HTMLParser_text_matches": true,
+      "HTML_fallback_parse_error_count": 0
+    }
+  ],
+  "non_spine_html": [],
+  "unmanifested_html_or_images": [],
+  "source_scope": {
+    "OPF_spine_items": 8,
+    "NCX_entries": 8,
+    "supplied_body_chapters": [
+      1,
+      7
+    ],
+    "provided_numbered_chapter_count": 7,
+    "ending": "Chapter7 recap and preview of a next chapter addressing cancellations,multiple-person dates and dinner fallback; next chapter body absent.",
+    "previewed_next_chapter_supplied": false,
+    "package_images": 0,
+    "unread_supplied_body_items": [],
+    "all_supplied_native_text_and_images_read": true,
+    "original_edition_completeness_verified": false,
+    "author_translator_publisher_original_edition_verified": false,
+    "package_creator_is_book_title_not_verified_author": true,
+    "note": "Current provided seven-chapter EPUB read to file end, including title/source and chapter recaps. Not an assertion that its unsupplied next chapter or original edition has been read."
+  },
+  "all_current_provided_content_read": true,
+  "original_edition_completeness_verified": false,
+  "completion_kind": "actual_supplied_native_text_and_package_images_read",
+  "source_case_transcriptions_or_anonymous_private_narratives_newly_archived": 0,
+  "raw_extracted_text_newly_archived": false,
+  "OCR_run": false,
+  "notes": "knowledge/books/B055.md",
+  "checkpoint_saved_before_next_book_body": true,
+  "next_book_body_opened_at_checkpoint": false,
+  "next_work_unit_at_checkpoint": {
+    "id": "B056",
+    "path": "属性 - PUANEY.pdf",
+    "bytes": 8079984,
+    "git_blob_sha": "3b3f906e8d7a3f4c9ca4c9ab778f2b9b5f515185",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "next_character": 0,
+    "next_spine_item": null,
+    "next_file_page": 1,
+    "start": "B055提供文件的正文、附图、原创笔记和范围已保存。下一唯一主读B056，从当前文件首项开始；此断点保存时尚未打开下一份正文。",
+    "next_content_unit": "Read only B056 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved."
+  },
+  "coverage_assertions_are_not_independent_proof_of_semantic_comprehension": true,
+  "scope_counts_at_checkpoint": {
+    "complete": 54,
+    "actual_supplied_files_read": 52,
+    "exceptions": [
+      "B017",
+      "B039"
+    ],
+    "partial": 0,
+    "unread": 65
+  },
+  "date_timezone": "Asia/Shanghai",
+  "validation": "knowledge/provenance/B054_B055_validation_2026-11-13.json"
+}

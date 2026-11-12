@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "records": [
     {
       "id": "A001",
@@ -610,18 +610,24 @@
       "group": "books2_original_snapshot",
       "title": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
       "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B054.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B054_reading_2026-11-13.json",
+      "completion_kind": "actual_supplied_native_text_and_package_images_read",
+      "coverage_mode": "whole_current_epub_native_text_and_all_packaged_images_read"
     },
     {
       "id": "B055",
       "group": "books2_original_snapshot",
       "title": "完美约会计划 - Brad P.epub",
       "git_blob_sha": "d19782bc3787e6b690c77bd6d51fbe5e2a1a5537",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B055.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B055_reading_2026-11-13.json",
+      "completion_kind": "actual_supplied_native_text_and_package_images_read",
+      "coverage_mode": "whole_current_epub_native_text_and_all_packaged_images_read"
     },
     {
       "id": "B056",
@@ -1602,23 +1608,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 52,
+    "current_book_files_text_complete": 54,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 67
+    "current_book_files_not_started": 65
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B054",
-    "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
-    "bytes": 179318,
-    "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
+    "id": "B056",
+    "path": "属性 - PUANEY.pdf",
+    "bytes": 8079984,
+    "git_blob_sha": "3b3f906e8d7a3f4c9ca4c9ab778f2b9b5f515185",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_character": 0,
-    "next_spine_item": 1,
-    "start": "既有未完成队列已清空。下一唯一主读B054，从EPUB首个OPF项开始；先核原文件身份与阅读顺序。本轮未打开B054正文，未计新开展或完成。",
-    "next_content_unit": "B054 first unread file only. Verify original EPUB blob and extraction order, read from its first supplied item, and finish notes and scope before B055. B054 body has not been opened in this round."
+    "next_spine_item": null,
+    "next_file_page": 1,
+    "start": "B055提供文件的正文、附图、原创笔记和范围已保存。下一唯一主读B056，从当前文件首项开始；此断点保存时尚未打开下一份正文。",
+    "next_content_unit": "Read only B056 next, after identity and order verification. Start at its first supplied item; do not open a later book before notes, scope and checkpoint are saved."
   },
   "deferred_work_units": []
 }

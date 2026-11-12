@@ -11572,8 +11572,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A9%9A%E6%81%8B%E4%B8%AD%E7%94%B7%E4%BA%BA%E4%B8%8D%E8%83%BD%E7%8A%AF%E7%9A%84100%E4%B8%AA%E9%94%99%E8%AF%AF%20-%20%E5%BB%96%E5%BA%B7%E5%BC%BA.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B054.md",
       "pages": null,
       "spine_items": 54,
       "ocr": {
@@ -11581,7 +11581,61 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B054_reading_2026-11-13.json",
+      "source_sha256": "f3e2754f4bbdaf8c5ac516e334afa094b3972b404c95af2a0190b92398160ec6",
+      "completion_kind": "actual_supplied_native_text_and_package_images_read",
+      "coverage_mode": "whole_current_epub_native_text_and_all_packaged_images_read",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B054_reading_2026-11-13.json",
+        "source_sha256": "f3e2754f4bbdaf8c5ac516e334afa094b3972b404c95af2a0190b92398160ec6",
+        "download_ref": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+        "current_extraction": {
+          "method": "EPUB OPF spine order; lxml body itertext stripped nonempty nodes joined by LF; script/style excluded; explicit spine markers",
+          "characters": 74420,
+          "body_characters": 71488,
+          "sha256": "e56242ed53ff1508efa985b037cc846c50fb167ab03217e79b6f7e02cf76ef73",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true,
+          "raw_text_newly_archived": false
+        },
+        "spine_items_read": 54,
+        "spine_items_total": 54,
+        "all_native_text_output_read": true,
+        "all_extractable_native_text_read": true,
+        "all_image_content_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "completion_kind": "actual_supplied_native_text_and_package_images_read",
+        "original_publication_complete": false,
+        "original_edition_completeness_verified": false,
+        "OCR_run": false,
+        "new_OCR_character_credit": 0,
+        "new_native_characters_read": 74420,
+        "image_resources_read": 2,
+        "source_scope": {
+          "supplied_numbered_sections": [
+            1,
+            50
+          ],
+          "title_claimed_section_count": 100,
+          "provided_numbered_section_count": 50,
+          "OPF_spine_items": 54,
+          "NCX_entries": 50,
+          "original_sections_51_to_100_supplied": false,
+          "unread_supplied_body_items": [],
+          "all_supplied_native_text_and_images_read": true,
+          "original_edition_completeness_verified": false,
+          "small_source_replacement_or_private_use_glyphs_not_silently_reconstructed": true,
+          "note": "Only the current provided EPUB is complete. Its title says100, but its TOC,NCX and body supply1–50. No unreferenced HTML or image assets occur in the ZIP. This is not the same kind of user-accepted unread-image exception as B017 or B039."
+        },
+        "initial_screening_coordinates_not_reused": true,
+        "notes": "knowledge/books/B054.md",
+        "raw_source_newly_archived": false,
+        "next_character": null,
+        "next_spine_item": null
+      }
     },
     {
       "index": 55,
@@ -11596,8 +11650,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%AE%8C%E7%BE%8E%E7%BA%A6%E4%BC%9A%E8%AE%A1%E5%88%92%20-%20Brad%20P.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B055.md",
       "pages": null,
       "spine_items": 8,
       "ocr": {
@@ -11605,7 +11659,63 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B055_reading_2026-11-13.json",
+      "source_sha256": "23e17134c7fe3ab8996a8e6b3171bd33787b402df080033270a957d6816efa7f",
+      "completion_kind": "actual_supplied_native_text_and_package_images_read",
+      "coverage_mode": "whole_current_epub_native_text_and_all_packaged_images_read",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B055_reading_2026-11-13.json",
+        "source_sha256": "23e17134c7fe3ab8996a8e6b3171bd33787b402df080033270a957d6816efa7f",
+        "download_ref": "6c07cd32d8c376eb0e016fc47aa4f1296ff927f2",
+        "current_extraction": {
+          "method": "EPUB OPF spine order; lxml body itertext stripped nonempty nodes joined by LF; script/style excluded; explicit spine markers; strict XML failures for unclosed br use lxml HTMLParser UTF-8; all eight items cross-checked against independent stdlib streaming HTMLParser, ignoring whitespace only",
+          "characters": 41563,
+          "body_characters": 41155,
+          "sha256": "ac7a663eeadfa74b6c79703565f8c58479fb4ff544c5515d6cf354d5a308f96d",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true,
+          "raw_text_newly_archived": false
+        },
+        "spine_items_read": 8,
+        "spine_items_total": 8,
+        "all_native_text_output_read": true,
+        "all_extractable_native_text_read": true,
+        "all_image_content_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "completion_kind": "actual_supplied_native_text_and_package_images_read",
+        "original_publication_complete": false,
+        "original_edition_completeness_verified": false,
+        "OCR_run": false,
+        "new_OCR_character_credit": 0,
+        "new_native_characters_read": 41563,
+        "image_resources_read": 0,
+        "source_scope": {
+          "OPF_spine_items": 8,
+          "NCX_entries": 8,
+          "supplied_body_chapters": [
+            1,
+            7
+          ],
+          "provided_numbered_chapter_count": 7,
+          "ending": "Chapter7 recap and preview of a next chapter addressing cancellations,multiple-person dates and dinner fallback; next chapter body absent.",
+          "previewed_next_chapter_supplied": false,
+          "package_images": 0,
+          "unread_supplied_body_items": [],
+          "all_supplied_native_text_and_images_read": true,
+          "original_edition_completeness_verified": false,
+          "author_translator_publisher_original_edition_verified": false,
+          "package_creator_is_book_title_not_verified_author": true,
+          "note": "Current provided seven-chapter EPUB read to file end, including title/source and chapter recaps. Not an assertion that its unsupplied next chapter or original edition has been read."
+        },
+        "initial_screening_coordinates_not_reused": true,
+        "notes": "knowledge/books/B055.md",
+        "raw_source_newly_archived": false,
+        "next_character": null,
+        "next_spine_item": null
+      }
     },
     {
       "index": 56,
@@ -13448,5 +13558,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-12 B039 closed by explicit user acceptance with known gaps, then B045 actual supplied image/layout reading finished.52/119 consists of50 actually read supplied files plus B017/B039 scope closures;67 unread. Next B054, body not yet opened."
+  "latest_reading_update": "2026-11-13: serial whole-file completion through B055; 54/119 completed tasks = 52 actually read supplied files plus B017/B039 explicit scope closures; 65 unread. Original edition completeness is not asserted. Next B056."
 }
