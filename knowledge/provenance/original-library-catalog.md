@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成57/119份任务，无部分阅读文件、62份未开始。55份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮先读完B057当前132页并保存，再读完B058当前109页并保存；未提供内容不等待、不补算。下一只读B059，本轮未打开其正文。[本轮记录](B057_B058_progress_2026-11-13.md)。
+当前完成59/119份任务，无部分阅读文件、60份未开始。57份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B059、B060，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B061，保存断点时正文未打开。[本轮记录](B059_B060_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -71,8 +71,8 @@
 | B056 | [属性 - PUANEY.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%B1%9E%E6%80%A7%20-%20PUANEY.pdf) | 117 | 当前117页OCR正文与原页已读；末页第三版预告未提供后续 | [十五组笔记](../books/B056.md) |
 | B057 | [微信撩妹72招 - PUANEY.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%BE%AE%E4%BF%A1%E6%92%A9%E5%A6%B972%E6%8B%9B%20-%20PUANEY.pdf) | 132 | 当前132页原生正文、图像与结语已读；编号12未见 | [18组笔记](../books/B057.md) |
 | B058 | [恋爱指南——play 连招 - 乌鸦救赎.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%81%8B%E7%88%B1%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94play%20%E8%BF%9E%E6%8B%9B%20-%20%E4%B9%8C%E9%B8%A6%E6%95%91%E8%B5%8E.pdf) | 109 | 当前109页九招、悬记和原页已读；书外模式与附图未提供 | [15组笔记](../books/B058.md) |
-| B059 | [情狼日记 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%8B%BC%E6%97%A5%E8%AE%B0%20-%20%E6%B5%B7%E5%85%B5.pdf) | 74 | 已提取/未读 | — |
-| B060 | [情绪流方法论 - 损友.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%BB%AA%E6%B5%81%E6%96%B9%E6%B3%95%E8%AE%BA%20-%20%E6%8D%9F%E5%8F%8B.pdf) | 44 | 已提取/未读 | — |
+| B059 | [情狼日记 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%8B%BC%E6%97%A5%E8%AE%B0%20-%20%E6%B5%B7%E5%85%B5.pdf) | 74 | 当前74页原生正文与原页已读；末尾未完待续，续作未提供 | [16组笔记](../books/B059.md) |
+| B060 | [情绪流方法论 - 损友.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%BB%AA%E6%B5%81%E6%96%B9%E6%B3%95%E8%AE%BA%20-%20%E6%8D%9F%E5%8F%8B.pdf) | 44 | 当前44页正文六章与终篇已读；目录漏列第五章，正文已读全 | [16组笔记](../books/B060.md) |
 | B061 | [惯例军火库.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E5%86%9B%E7%81%AB%E5%BA%93.pdf) | 93 | 已提取/未读 | — |
 | B062 | [惯例手册 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E6%89%8B%E5%86%8C%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 18 | 已提取/未读 | — |
 | B063 | [懒汉把妹 - 大卫X.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%87%92%E6%B1%89%E6%8A%8A%E5%A6%B9%20-%20%E5%A4%A7%E5%8D%ABX.epub) | 20 | 已提取/未读 | — |

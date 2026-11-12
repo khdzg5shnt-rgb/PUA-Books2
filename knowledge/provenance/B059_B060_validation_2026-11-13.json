@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "dda9deb5d8d1b1ee6de0239b4babd9573fe73c6d",
+  "books": [
+    {
+      "id": "B059",
+      "file_pages": 74,
+      "native_characters_actually_read": 53695,
+      "reading_cards": 13,
+      "note_groups": 16,
+      "critical_source_bindings": 42,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "cc4c224e6c648859a271702ae55fe4508c41d34e9f91c5827d327ae9ddf03a1f"
+    },
+    {
+      "id": "B060",
+      "file_pages": 44,
+      "native_characters_actually_read": 50323,
+      "reading_cards": 8,
+      "note_groups": 16,
+      "critical_source_bindings": 41,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "4872346fe38868af51cff32e5d56f602b716e1e809a0e90194cf5f81e094f3a3"
+    }
+  ],
+  "serial_order_preserved": true,
+  "B059_checkpoint_saved_before_B060_body_opened": true,
+  "new_actual_supplied_files_read": 2,
+  "native_characters_read": 104018,
+  "unique_original_page_views": 118,
+  "reading_cards": 21,
+  "new_note_groups": 32,
+  "new_critical_source_bindings": 83,
+  "source_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "叙事身份与证据边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "从普通暖意到关系仍需确认",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "关系事实与重要误会及时澄清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "个人拒绝不归结身高人格",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "不从酒量或身体反应推断同意",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B059.md",
+      "locator": "遭遇威胁不以冒险证明价值",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "当下状态与弱信号分开判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "观察可校正不能读心",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "换位考虑不替越界开脱",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "实际同意不靠场所借口",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "熟悉曝光不等于双向兴趣",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B060.md",
+      "locator": "复盘练一处不制造羞耻依赖",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B059.md",
+      "locator": "联系习惯需要说清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B060.md",
+      "locator": "给表达空间也分享真实自己",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B059.md",
+      "locator": "玩笑不能伪装严肃关系意图",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B059.md",
+      "locator": "关系事实与重要误会及时澄清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B059.md",
+      "locator": "长期关系要谈现实计划",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B060.md",
+      "locator": "给表达空间也分享真实自己",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实计划与兑现不以甜话替代",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B059.md",
+      "locator": "共同体验不保证长期相容",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B060.md",
+      "locator": "共同话题回扣先于查户口",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B060.md",
+      "locator": "轻量幽默由语境与接梗支持",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B059.md",
+      "locator": "玩笑不能伪装严肃关系意图",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B060.md",
+      "locator": "轻量幽默由语境与接梗支持",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B059.md",
+      "locator": "叙事身份与证据边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B059.md",
+      "locator": "个人拒绝不归结身高人格",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B060.md",
+      "locator": "观察可校正不能读心",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B060.md",
+      "locator": "具体欣赏不猜妆容原因",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B059.md",
+      "locator": "从普通暖意到关系仍需确认",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B060.md",
+      "locator": "具体欣赏不猜妆容原因",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B059.md",
+      "locator": "真实生活展示不靠人设反差",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B059.md",
+      "locator": "联系习惯需要说清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B059.md",
+      "locator": "长期关系要谈现实计划",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B059.md",
+      "locator": "保留正常社交与自主边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B060.md",
+      "locator": "给表达空间也分享真实自己",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实脆弱不交换感情",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B060.md",
+      "locator": "熟悉曝光不等于双向兴趣",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B059.md",
+      "locator": "关心不附带恋爱承诺",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B059.md",
+      "locator": "有矛盾先听问题与承担已核影响",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B060.md",
+      "locator": "情绪支持不强迫倾诉",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B059.md",
+      "locator": "关心不附带恋爱承诺",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B060.md",
+      "locator": "情绪支持不强迫倾诉",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B059.md",
+      "locator": "真实意愿与具体邀约",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B059.md",
+      "locator": "真实意愿与具体邀约",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B059.md",
+      "locator": "长期关系要谈现实计划",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实计划与兑现不以甜话替代",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实计划与兑现不以甜话替代",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B059.md",
+      "locator": "需要空间与拒绝具体范围",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B060.md",
+      "locator": "不把拒绝改译成试探",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B060.md",
+      "locator": "当下状态与弱信号分开判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B059.md",
+      "locator": "个人拒绝不归结身高人格",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B060.md",
+      "locator": "当下状态与弱信号分开判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B060.md",
+      "locator": "不把拒绝改译成试探",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B059.md",
+      "locator": "玩笑不能伪装严肃关系意图",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B059.md",
+      "locator": "关系事实与重要误会及时澄清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B059.md",
+      "locator": "有矛盾先听问题与承担已核影响",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B060.md",
+      "locator": "观察可校正不能读心",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B059.md",
+      "locator": "关系事实与重要误会及时澄清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B059.md",
+      "locator": "有矛盾先听问题与承担已核影响",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B060.md",
+      "locator": "换位考虑不替越界开脱",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B060.md",
+      "locator": "生气可以表达不以训斥控制",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B059.md",
+      "locator": "关心不附带恋爱承诺",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B059.md",
+      "locator": "联系习惯需要说清",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B059.md",
+      "locator": "需要空间与拒绝具体范围",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B059.md",
+      "locator": "遭遇威胁不以冒险证明价值",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B059.md",
+      "locator": "保留正常社交与自主边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B060.md",
+      "locator": "普通尊重与边界不会随熟悉减少",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B060.md",
+      "locator": "换位考虑不替越界开脱",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实脆弱不交换感情",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B060.md",
+      "locator": "生气可以表达不以训斥控制",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B059.md",
+      "locator": "需要空间与拒绝具体范围",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B059.md",
+      "locator": "不从酒量或身体反应推断同意",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B060.md",
+      "locator": "普通尊重与边界不会随熟悉减少",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B060.md",
+      "locator": "真实脆弱不交换感情",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B060.md",
+      "locator": "不把拒绝改译成试探",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B060.md",
+      "locator": "实际同意不靠场所借口",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B059.md",
+      "locator": "共同体验不保证长期相容",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B059.md",
+      "locator": "真实生活展示不靠人设反差",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B060.md",
+      "locator": "共同话题回扣先于查户口",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B060.md",
+      "locator": "熟悉曝光不等于双向兴趣",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B059.md",
+      "locator": "保留正常社交与自主边界",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B060.md",
+      "locator": "轻量幽默由语境与接梗支持",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B060.md",
+      "locator": "复盘练一处不制造羞耻依赖",
+      "kind": "critical_source_notes_not_empirical_validation"
+    }
+  ],
+  "source_page_text_and_review_card_hashes_match": true,
+  "contiguous_page_units_match": true,
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 59,
+    "book_not_started": 60,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "exit_code": 0,
+    "tests": 63,
+    "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.862s\n\nOK\n"
+  },
+  "synthetic_routing_scenarios": 158,
+  "original_source_identities_preserved": 126,
+  "other_source_records_unchanged": true,
+  "existing_method_operations_and_avoid_conditions_unchanged": true,
+  "preferred_sections_bytes_unchanged": true,
+  "last_system_maintenance_and_reading_policy_preserved": true,
+  "B059_checkpoint_note_and_ledger_bytes_preserved": true,
+  "completed_current_tasks": 59,
+  "actually_read_current_supplied_files": 57,
+  "user_accepted_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial": 0,
+  "unread": 60,
+  "next_unread": "B061",
+  "next_book_body_opened": false,
+  "new_private_raw_text_or_source_images_archived": 0,
+  "original_publication_completeness_not_asserted": true,
+  "limits": "Checks verify file identity, metadata, source-text and page-card hashes, contiguous ranges, links, and existing63 tests including158 synthetic routing scenarios. They do not independently prove comprehension, transcription accuracy, psychological mechanisms, real screenshot recognition, or dating effects."
+}
