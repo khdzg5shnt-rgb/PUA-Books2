@@ -3,7 +3,7 @@
 截至2026-11-12，本仓库登记126项原始资料、23项上传材料、9个公开外部GitHub来源，共158条来源记录。书籍版本与上传文件可能重合，158不是独立著作数，也不是已读数。
 
 <!-- E06_2026_11_10 -->
-2026年11月12日继续B045《叔叔教你护妹子》。113页原生文字161665字符分15块已读，另核11页原图及三张理论图；19页正文图像与原始系列范围仍有缺口，整份保持部分阅读。当前40/119份内容覆盖完成、7份部分、72份正文未开始。14组原创审阅、41条方法出处已接入，下一B048首项字符0。TOP30为30/30、来源158条。[报告](../knowledge/provenance/B045_progress_2026-11-12.md)。
+2026年11月12日按逐本要求读完B048《坏男人》当前EPUB：11项、九章及延伸阅读，112552字符分11块已读，无图像或额外正文缺口。新增13组原创审阅、42条方法出处。已开展48/119份，其中41份当前文件覆盖完成、7份部分、71份正文未开始。下一B049第1页，本轮未开始。TOP30为30/30，来源158条。[报告](../knowledge/provenance/B048_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮7份公开文档的内部采用入口：[G01数字聊天证据](../knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](../knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](../knowledge/books/G04-intent-and-follow-through.md)。七份固定原文都可由这些笔记在books2内打开；既有来源表的入口仍有效。
@@ -72,7 +72,7 @@ G03的第三方课程、G06原始视频字幕、G08程序等没有整份复制�
 
 ## 原始书库与维护
 
-[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍及7项支持材料。当前40份内容覆盖完成、7份部分、72份正文未开始。本轮B045的113页原生文字已读，图像与原始系列范围缺口单列。下一B048的OPF首项字符0，先核原文件与提取，详见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；目录、提取、OCR和转引不计阅读完成。
+[原始目录](../knowledge/provenance/original-library-catalog.md)和[身份清单](../knowledge/provenance/source_inventory.json)登记119份书籍及7项支持材料。已开展48份，其中41份当前文件覆盖完成、7份部分、71份正文未开始。本轮B048全部11项已读，无附带图像；旧缺口保留。下一B049第1页，先核原文件与提取，详见[阅读队列](READING_QUEUE.md)。TOP30仍30/30；目录、提取、OCR和转引不计阅读完成。
 
 当前README改为系统首页，其历史原文另存[README-original](../knowledge/provenance/README-original.md)。119份书籍与其余原始支持文件维持原blob；既有有效成果保留。
 

@@ -1,70 +1,62 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B045_all_native_text_outputs_read_with_unread_image_and_original_series_gaps",
-  "status": "B045_reading_checks_passed",
-  "base_commit": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+  "current_focus": "B048_single_book_current_file_text_complete",
+  "status": "B048_reading_checks_passed",
+  "base_commit": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 0,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B045_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B045_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B048_progress_2026-11-12.md",
+  "validation": "knowledge/provenance/B048_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B048",
-    "path": "坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub",
-    "git_blob_sha": "d604343820be705da90774526948a9f3f08aad25",
-    "bytes": 200658,
+    "id": "B049",
+    "path": "坏蛋之道 - 约书亚·佩雷斯.pdf",
+    "git_blob_sha": "861066419ee87898a825289bad8fe4741d1293e4",
+    "bytes": 1665965,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": null,
-    "spine_items": 11,
-    "next_spine_index": 1,
-    "next_file_page": null,
+    "file_pages": 130,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B048 EPUB not started. Historical inventory lists11spine items; reverify binary and actual OPF order before reading.",
-    "next_content_unit": "B048 first OPF reading-order item (1-based), character0.",
+    "start": "B049 not started; next-book bookmark only. Single-book B048 is closed for current provided file.",
+    "next_content_unit": "B049 physicalpage1 character0 after binary/extraction verification.",
     "current_extraction_identity": null,
-    "ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
+    "ledger": "knowledge/provenance/B048_reading_2026-11-12.json",
     "substantive_body_characters_read": 0
   },
-  "next_work": "Continue B048 first OPF spine item, character0, after identity/extraction verification. B045 all113page native outputs already read; no OCR and no recredit of failed garbled text. Its19body-image pages and unverified original-series scope remain separate.",
+  "next_work": "B048 current provided file is fully read and closed. Next turn read only B049 fromphysicalpage1 after identity/extraction verification; no second book was started this turn.",
   "current_session_progress": {
-    "baseline": "8b20565d40dce32feb47db2194202d6a16a1af7e",
-    "work_type": "original_native_PDF_reading",
+    "baseline": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
+    "work_type": "single_book_EPUB_reading",
     "new_book_files_started": [
-      "B045"
+      "B048"
     ],
-    "new_book_files_completed": [],
-    "new_whole_book_files_completed": 0,
-    "text_complete_file_ids": [],
-    "new_native_text_output_complete_file_ids": [
-      "B045"
+    "new_book_files_completed": [
+      "B048"
     ],
-    "text_partial_file_ids": [
-      "B014",
-      "B015",
-      "B017",
-      "B036",
-      "B038",
-      "B039",
-      "B045"
+    "new_whole_book_files_completed": 1,
+    "complete_means": "current_provided_file_text_coverage_not_verified_original_edition",
+    "text_complete_file_ids": [
+      "B048"
     ],
-    "direct_native_characters_read": 161665,
-    "native_body_characters_read": 156914,
-    "actual_direct_native_read_chunks": 15,
+    "direct_native_characters_read": 112552,
+    "native_body_characters_read": 111976,
+    "actual_direct_native_read_chunks": 11,
+    "OPF_items_read": 11,
+    "chapters_read": 9,
+    "end_bibliography_read": true,
     "new_OCR_pages": 0,
-    "failed_extraction_characters_credited": 0,
-    "selected_original_pages_viewed": 11,
-    "theory_images_read": 3,
-    "unread_body_image_pages": 19,
-    "unread_body_image_resources": 34,
+    "package_images": 0,
+    "new_original_review_groups": 13,
+    "new_book_entry_files": 1,
+    "new_method_source_bindings": 42,
     "methods": 26,
     "routes": 36,
     "task_modes": 5,
-    "new_original_review_groups": 14,
-    "new_book_entry_files": 1,
-    "new_method_source_bindings": 41,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
     "new_full_original_research_papers_completed": 0,
@@ -75,80 +67,93 @@
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158,
       "new_tests": 0,
+      "single_book_mode": true,
+      "book_read_this_turn": "B048",
+      "next_book_body_started": false,
       "source_identity_verified": true,
       "byte_and_blob_verified": true,
-      "native_page_hashes_checked": 113,
-      "contiguous_read_chunks_checked": 15,
-      "marked_native_characters_checked": 161665,
-      "native_body_characters_checked": 156914,
-      "failed_extraction_characters_credited": 0,
+      "OPF_items_checked": 11,
+      "contiguous_read_chunks_checked": 11,
+      "native_marked_characters_checked": 112552,
+      "native_body_characters_checked": 111976,
+      "two_parser_item_text_crosschecks": 11,
+      "navigation_items_checked": 11,
+      "media_gaps": 0,
+      "HTML_items_outside_spine": 0,
       "OCR_run": false,
-      "selected_visual_pages_checked": 11,
-      "theory_images_checked": 3,
-      "original_page_layouts_not_individually_reviewed": 102,
-      "unread_body_image_pages": 19,
-      "unread_body_image_resources": 34,
-      "unread_images_not_all_individually_classified": true,
-      "retained_partial_status": true,
-      "new_whole_files_completed": 0,
+      "new_current_file_text_complete": 1,
+      "original_edition_complete_not_claimed": true,
+      "bibliography_not_counted_as_independent_reading": true,
       "unchanged_other_source_records": 157,
       "unchanged_other_inventory_records": 125,
-      "new_original_review_groups": 14,
-      "new_method_source_bindings": 41,
+      "older_partial_records_preserved": 7,
+      "new_original_review_groups": 13,
+      "new_method_source_bindings": 42,
       "targeted_retrievals": [
         {
           "method": "M01",
-          "query": "PyMuPDF提取大量乱码",
-          "path": "knowledge/books/B045-source-and-evidence.md",
-          "heading": "先固定文件，再解释论点"
+          "query": "OPF的作者字段重复填了题名",
+          "path": "knowledge/books/B048-scope-and-evidence.md",
+          "heading": "当前文件与原始出版物分开"
         },
         {
-          "method": "M18",
-          "query": "没有展示的过去不当成从未主动",
-          "path": "knowledge/books/B045-interest-and-meaning.md",
-          "heading": "行为能说明的范围"
+          "method": "M04",
+          "query": "善意和趣味互不相容",
+          "path": "knowledge/books/B048-kindness-and-vitality.md",
+          "heading": "不把伤害当作魅力的必要组成"
         },
         {
-          "method": "M14",
-          "query": "只要步骤齐全",
-          "path": "knowledge/books/B045-confession-and-investment.md",
-          "heading": "表白形式不能制造双方共识"
+          "method": "M08",
+          "query": "基因、环境和文化共同影响",
+          "path": "knowledge/books/B048-biology-and-agreements.md",
+          "heading": "从动物叙述不能直接得到聊天规则"
+        },
+        {
+          "method": "M03",
+          "query": "自述愿望、假设选择和实际交往",
+          "path": "knowledge/books/B048-preferences-and-interviews.md",
+          "heading": "分清问的是什么"
+        },
+        {
+          "method": "M17",
+          "query": "反复取消恰好证明对方很感兴趣",
+          "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+          "heading": "观察模式，不宣布隐藏的爱"
         },
         {
           "method": "M21",
-          "query": "给出的概率没有统计基础",
-          "path": "knowledge/books/B045-humor-and-repair.md",
-          "heading": "道歉不等于失去立场"
-        },
-        {
-          "method": "M10",
-          "query": "身高不同会有特定数量",
-          "path": "knowledge/books/B045-confidence-and-height.md",
-          "heading": "不从一个条件推出整个人"
+          "query": "真正可核的变化",
+          "path": "knowledge/books/B048-teasing-and-devaluation.md",
+          "heading": "有责任时修复，没有证据不自认全责"
         },
         {
           "method": "M13",
-          "query": "也不因善意没有换来喜欢",
-          "path": "knowledge/books/B045-care-and-help.md",
-          "heading": "关心要回应真实需要"
+          "query": "虚构身世",
+          "path": "knowledge/books/B048-listening-and-disclosure.md",
+          "heading": "倾听不是搜集可利用的弱点"
+        },
+        {
+          "method": "M22",
+          "query": "衣着、爱好、朋友和时间安排",
+          "path": "knowledge/books/B048-independence-and-support.md",
+          "heading": "普通差异与实际伤害不能混为一谈"
+        },
+        {
+          "method": "M11",
+          "query": "某个人在装病",
+          "path": "knowledge/books/B048-fame-health-and-constraints.md",
+          "heading": "疾病与受困处境不能随意归因"
         },
         {
           "method": "M23",
-          "query": "先定为装纯",
-          "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
-          "heading": "不预设每个人都在装"
-        },
-        {
-          "method": "M25",
-          "query": "不设群发配额",
-          "path": "knowledge/books/B045-practice-and-opportunities.md",
-          "heading": "实践不等于重复纠缠"
+          "query": "不拿危险关系做练习",
+          "path": "knowledge/books/B048-ending-and-boundaries.md",
+          "heading": "不拿危险关系做练习"
         }
       ],
-      "internal_links_checked": 319,
-      "new_files": 18,
-      "modified_files": 11,
-      "original_source_blobs_not_modified": true,
+      "internal_links_checked": 331,
+      "new_files": 17,
+      "modified_files": 12,
       "raw_source_text_or_images_newly_archived": false,
       "private_case_summaries_saved": 0,
       "preferred_sections_preserved": 26,
@@ -156,12 +161,13 @@
       "routes_preserved": 36,
       "tasks_preserved": 5,
       "reading_counts": {
-        "complete": 40,
+        "started": 48,
+        "current_file_text_complete": 41,
         "partial": 7,
-        "unread": 72
+        "unread": 71
       },
-      "next": "B048 first OPF spine item, character0; identity and order to verify",
-      "limits": "Metadata,source identity,coverage,links,retrieval and synthetic fact routing only. Not independent proof of actual reading,real screenshot recognition,psychological validity or dating efficacy."
+      "next": "B049 physicalpage1 character0 after identity/extraction check",
+      "limits": "Checks cover source identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
     }
   },
   "last_reading_progress": {
@@ -1690,6 +1696,141 @@
         "next": "B045 filepage1 character0",
         "limits": "Metadata,links,source identity and synthetic fact routing only. Not evidence of real screenshot recognition,psychological validity,professional advice or dating efficacy."
       }
+    },
+    {
+      "baseline": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+      "work_type": "original_native_PDF_reading",
+      "new_book_files_started": [
+        "B045"
+      ],
+      "new_book_files_completed": [],
+      "new_whole_book_files_completed": 0,
+      "text_complete_file_ids": [],
+      "new_native_text_output_complete_file_ids": [
+        "B045"
+      ],
+      "text_partial_file_ids": [
+        "B014",
+        "B015",
+        "B017",
+        "B036",
+        "B038",
+        "B039",
+        "B045"
+      ],
+      "direct_native_characters_read": 161665,
+      "native_body_characters_read": 156914,
+      "actual_direct_native_read_chunks": 15,
+      "new_OCR_pages": 0,
+      "failed_extraction_characters_credited": 0,
+      "selected_original_pages_viewed": 11,
+      "theory_images_read": 3,
+      "unread_body_image_pages": 19,
+      "unread_body_image_resources": 34,
+      "methods": 26,
+      "routes": 36,
+      "task_modes": 5,
+      "new_original_review_groups": 14,
+      "new_book_entry_files": 1,
+      "new_method_source_bindings": 41,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "checks": {
+        "status": "passed",
+        "structural": true,
+        "unittest_methods": 48,
+        "synthetic_routing_scenarios": 158,
+        "new_tests": 0,
+        "source_identity_verified": true,
+        "byte_and_blob_verified": true,
+        "native_page_hashes_checked": 113,
+        "contiguous_read_chunks_checked": 15,
+        "marked_native_characters_checked": 161665,
+        "native_body_characters_checked": 156914,
+        "failed_extraction_characters_credited": 0,
+        "OCR_run": false,
+        "selected_visual_pages_checked": 11,
+        "theory_images_checked": 3,
+        "original_page_layouts_not_individually_reviewed": 102,
+        "unread_body_image_pages": 19,
+        "unread_body_image_resources": 34,
+        "unread_images_not_all_individually_classified": true,
+        "retained_partial_status": true,
+        "new_whole_files_completed": 0,
+        "unchanged_other_source_records": 157,
+        "unchanged_other_inventory_records": 125,
+        "new_original_review_groups": 14,
+        "new_method_source_bindings": 41,
+        "targeted_retrievals": [
+          {
+            "method": "M01",
+            "query": "PyMuPDF提取大量乱码",
+            "path": "knowledge/books/B045-source-and-evidence.md",
+            "heading": "先固定文件，再解释论点"
+          },
+          {
+            "method": "M18",
+            "query": "没有展示的过去不当成从未主动",
+            "path": "knowledge/books/B045-interest-and-meaning.md",
+            "heading": "行为能说明的范围"
+          },
+          {
+            "method": "M14",
+            "query": "只要步骤齐全",
+            "path": "knowledge/books/B045-confession-and-investment.md",
+            "heading": "表白形式不能制造双方共识"
+          },
+          {
+            "method": "M21",
+            "query": "给出的概率没有统计基础",
+            "path": "knowledge/books/B045-humor-and-repair.md",
+            "heading": "道歉不等于失去立场"
+          },
+          {
+            "method": "M10",
+            "query": "身高不同会有特定数量",
+            "path": "knowledge/books/B045-confidence-and-height.md",
+            "heading": "不从一个条件推出整个人"
+          },
+          {
+            "method": "M13",
+            "query": "也不因善意没有换来喜欢",
+            "path": "knowledge/books/B045-care-and-help.md",
+            "heading": "关心要回应真实需要"
+          },
+          {
+            "method": "M23",
+            "query": "先定为装纯",
+            "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
+            "heading": "不预设每个人都在装"
+          },
+          {
+            "method": "M25",
+            "query": "不设群发配额",
+            "path": "knowledge/books/B045-practice-and-opportunities.md",
+            "heading": "实践不等于重复纠缠"
+          }
+        ],
+        "internal_links_checked": 319,
+        "new_files": 18,
+        "modified_files": 11,
+        "original_source_blobs_not_modified": true,
+        "raw_source_text_or_images_newly_archived": false,
+        "private_case_summaries_saved": 0,
+        "preferred_sections_preserved": 26,
+        "method_operations_preserved": 26,
+        "routes_preserved": 36,
+        "tasks_preserved": 5,
+        "reading_counts": {
+          "complete": 40,
+          "partial": 7,
+          "unread": 72
+        },
+        "next": "B048 first OPF spine item, character0; identity and order to verify",
+        "limits": "Metadata,source identity,coverage,links,retrieval and synthetic fact routing only. Not independent proof of actual reading,real screenshot recognition,psychological validity or dating efficacy."
+      }
     }
   ],
   "deferred_work_units": [
@@ -2637,41 +2778,33 @@
     }
   ],
   "last_completed_reading_session": {
-    "baseline": "8b20565d40dce32feb47db2194202d6a16a1af7e",
-    "work_type": "original_native_PDF_reading",
+    "baseline": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
+    "work_type": "single_book_EPUB_reading",
     "new_book_files_started": [
-      "B045"
+      "B048"
     ],
-    "new_book_files_completed": [],
-    "new_whole_book_files_completed": 0,
-    "text_complete_file_ids": [],
-    "new_native_text_output_complete_file_ids": [
-      "B045"
+    "new_book_files_completed": [
+      "B048"
     ],
-    "text_partial_file_ids": [
-      "B014",
-      "B015",
-      "B017",
-      "B036",
-      "B038",
-      "B039",
-      "B045"
+    "new_whole_book_files_completed": 1,
+    "complete_means": "current_provided_file_text_coverage_not_verified_original_edition",
+    "text_complete_file_ids": [
+      "B048"
     ],
-    "direct_native_characters_read": 161665,
-    "native_body_characters_read": 156914,
-    "actual_direct_native_read_chunks": 15,
+    "direct_native_characters_read": 112552,
+    "native_body_characters_read": 111976,
+    "actual_direct_native_read_chunks": 11,
+    "OPF_items_read": 11,
+    "chapters_read": 9,
+    "end_bibliography_read": true,
     "new_OCR_pages": 0,
-    "failed_extraction_characters_credited": 0,
-    "selected_original_pages_viewed": 11,
-    "theory_images_read": 3,
-    "unread_body_image_pages": 19,
-    "unread_body_image_resources": 34,
+    "package_images": 0,
+    "new_original_review_groups": 13,
+    "new_book_entry_files": 1,
+    "new_method_source_bindings": 42,
     "methods": 26,
     "routes": 36,
     "task_modes": 5,
-    "new_original_review_groups": 14,
-    "new_book_entry_files": 1,
-    "new_method_source_bindings": 41,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
     "new_full_original_research_papers_completed": 0,
@@ -2682,80 +2815,93 @@
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158,
       "new_tests": 0,
+      "single_book_mode": true,
+      "book_read_this_turn": "B048",
+      "next_book_body_started": false,
       "source_identity_verified": true,
       "byte_and_blob_verified": true,
-      "native_page_hashes_checked": 113,
-      "contiguous_read_chunks_checked": 15,
-      "marked_native_characters_checked": 161665,
-      "native_body_characters_checked": 156914,
-      "failed_extraction_characters_credited": 0,
+      "OPF_items_checked": 11,
+      "contiguous_read_chunks_checked": 11,
+      "native_marked_characters_checked": 112552,
+      "native_body_characters_checked": 111976,
+      "two_parser_item_text_crosschecks": 11,
+      "navigation_items_checked": 11,
+      "media_gaps": 0,
+      "HTML_items_outside_spine": 0,
       "OCR_run": false,
-      "selected_visual_pages_checked": 11,
-      "theory_images_checked": 3,
-      "original_page_layouts_not_individually_reviewed": 102,
-      "unread_body_image_pages": 19,
-      "unread_body_image_resources": 34,
-      "unread_images_not_all_individually_classified": true,
-      "retained_partial_status": true,
-      "new_whole_files_completed": 0,
+      "new_current_file_text_complete": 1,
+      "original_edition_complete_not_claimed": true,
+      "bibliography_not_counted_as_independent_reading": true,
       "unchanged_other_source_records": 157,
       "unchanged_other_inventory_records": 125,
-      "new_original_review_groups": 14,
-      "new_method_source_bindings": 41,
+      "older_partial_records_preserved": 7,
+      "new_original_review_groups": 13,
+      "new_method_source_bindings": 42,
       "targeted_retrievals": [
         {
           "method": "M01",
-          "query": "PyMuPDF提取大量乱码",
-          "path": "knowledge/books/B045-source-and-evidence.md",
-          "heading": "先固定文件，再解释论点"
+          "query": "OPF的作者字段重复填了题名",
+          "path": "knowledge/books/B048-scope-and-evidence.md",
+          "heading": "当前文件与原始出版物分开"
         },
         {
-          "method": "M18",
-          "query": "没有展示的过去不当成从未主动",
-          "path": "knowledge/books/B045-interest-and-meaning.md",
-          "heading": "行为能说明的范围"
+          "method": "M04",
+          "query": "善意和趣味互不相容",
+          "path": "knowledge/books/B048-kindness-and-vitality.md",
+          "heading": "不把伤害当作魅力的必要组成"
         },
         {
-          "method": "M14",
-          "query": "只要步骤齐全",
-          "path": "knowledge/books/B045-confession-and-investment.md",
-          "heading": "表白形式不能制造双方共识"
+          "method": "M08",
+          "query": "基因、环境和文化共同影响",
+          "path": "knowledge/books/B048-biology-and-agreements.md",
+          "heading": "从动物叙述不能直接得到聊天规则"
+        },
+        {
+          "method": "M03",
+          "query": "自述愿望、假设选择和实际交往",
+          "path": "knowledge/books/B048-preferences-and-interviews.md",
+          "heading": "分清问的是什么"
+        },
+        {
+          "method": "M17",
+          "query": "反复取消恰好证明对方很感兴趣",
+          "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+          "heading": "观察模式，不宣布隐藏的爱"
         },
         {
           "method": "M21",
-          "query": "给出的概率没有统计基础",
-          "path": "knowledge/books/B045-humor-and-repair.md",
-          "heading": "道歉不等于失去立场"
-        },
-        {
-          "method": "M10",
-          "query": "身高不同会有特定数量",
-          "path": "knowledge/books/B045-confidence-and-height.md",
-          "heading": "不从一个条件推出整个人"
+          "query": "真正可核的变化",
+          "path": "knowledge/books/B048-teasing-and-devaluation.md",
+          "heading": "有责任时修复，没有证据不自认全责"
         },
         {
           "method": "M13",
-          "query": "也不因善意没有换来喜欢",
-          "path": "knowledge/books/B045-care-and-help.md",
-          "heading": "关心要回应真实需要"
+          "query": "虚构身世",
+          "path": "knowledge/books/B048-listening-and-disclosure.md",
+          "heading": "倾听不是搜集可利用的弱点"
+        },
+        {
+          "method": "M22",
+          "query": "衣着、爱好、朋友和时间安排",
+          "path": "knowledge/books/B048-independence-and-support.md",
+          "heading": "普通差异与实际伤害不能混为一谈"
+        },
+        {
+          "method": "M11",
+          "query": "某个人在装病",
+          "path": "knowledge/books/B048-fame-health-and-constraints.md",
+          "heading": "疾病与受困处境不能随意归因"
         },
         {
           "method": "M23",
-          "query": "先定为装纯",
-          "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
-          "heading": "不预设每个人都在装"
-        },
-        {
-          "method": "M25",
-          "query": "不设群发配额",
-          "path": "knowledge/books/B045-practice-and-opportunities.md",
-          "heading": "实践不等于重复纠缠"
+          "query": "不拿危险关系做练习",
+          "path": "knowledge/books/B048-ending-and-boundaries.md",
+          "heading": "不拿危险关系做练习"
         }
       ],
-      "internal_links_checked": 319,
-      "new_files": 18,
-      "modified_files": 11,
-      "original_source_blobs_not_modified": true,
+      "internal_links_checked": 331,
+      "new_files": 17,
+      "modified_files": 12,
       "raw_source_text_or_images_newly_archived": false,
       "private_case_summaries_saved": 0,
       "preferred_sections_preserved": 26,
@@ -2763,12 +2909,30 @@
       "routes_preserved": 36,
       "tasks_preserved": 5,
       "reading_counts": {
-        "complete": 40,
+        "started": 48,
+        "current_file_text_complete": 41,
         "partial": 7,
-        "unread": 72
+        "unread": 71
       },
-      "next": "B048 first OPF spine item, character0; identity and order to verify",
-      "limits": "Metadata,source identity,coverage,links,retrieval and synthetic fact routing only. Not independent proof of actual reading,real screenshot recognition,psychological validity or dating efficacy."
+      "next": "B049 physicalpage1 character0 after identity/extraction check",
+      "limits": "Checks cover source identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
     }
+  },
+  "reading_policy": {
+    "mode": "one_book_at_a_time",
+    "source": "user_instruction_2026-11-12",
+    "per_turn_book_limit": 1,
+    "resume_same_book_if_accessible_text_unfinished": true,
+    "next_book_only_after_current_scope_notes_and_commit": true,
+    "unavailable_or_private_gaps_separately_retained": true,
+    "report_started_complete_partial_unread_together": true
+  },
+  "progress_display": {
+    "book_file_denominator": 119,
+    "started": 48,
+    "current_file_text_complete": 41,
+    "partial": 7,
+    "unread": 71,
+    "not_unique_original_works_or_training_completion": true
   }
 }

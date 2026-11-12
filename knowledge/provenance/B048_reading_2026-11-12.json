@@ -1,0 +1,1638 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
+  "previous_reading_ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
+  "system_maintenance_preserved": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+  "records": [
+    {
+      "id": "B048",
+      "path": "坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub",
+      "bytes": 200658,
+      "git_blob_sha": "d604343820be705da90774526948a9f3f08aad25",
+      "epub_sha256": "5a0ba1a1de4e38babf2d8fda8849c5d956a9d5f3af1d97035c8b9587a358f0d6",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "download_ref": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
+      "connector_encoding": "base64",
+      "connector_returned_nonempty_binary": true,
+      "package_path": "OEBPS/content.opf",
+      "metadata": [
+        {
+          "tag": "creator",
+          "value": "坏男人：女人无法抵御的诱惑、历经与冒险"
+        },
+        {
+          "tag": "title",
+          "value": "​坏男人：女人无法抵御的诱惑、历经与冒险"
+        },
+        {
+          "tag": "identifier",
+          "value": "urn:uuid:D11125D0-5F29-4D64-80B4-21C5BF482045"
+        },
+        {
+          "tag": "meta",
+          "value": null
+        },
+        {
+          "tag": "language",
+          "value": "zh-CN"
+        },
+        {
+          "tag": "date",
+          "value": "2019-07-18"
+        }
+      ],
+      "spine": [
+        {
+          "index": 1,
+          "path": "OEBPS/Text/1.html",
+          "linear": "yes",
+          "range": [
+            0,
+            103
+          ],
+          "body_characters": 51,
+          "html_bytes_sha256": "a05f4c9949185ca80db902bf075e3dacae45772fe05fcde69569c5ca1d8c5181",
+          "marked_text_sha256": "be88fc41a4b6f869e268e09f77e2726e275dac0e2672f605b4442dfc26a0a957",
+          "body_text_sha256": "4ebd7cd370d58b9d0235e4b412ca67c566aa2a9bd3e2788e2044441da2bcdef1",
+          "headings": [
+            "坏男人：女人无法抵御的诱惑、历经与冒险"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 2,
+          "path": "OEBPS/Text/2.html",
+          "linear": "yes",
+          "range": [
+            103,
+            824
+          ],
+          "body_characters": 669,
+          "html_bytes_sha256": "21234251e5e7f67f881d33415487ca5f2dffba7a99fd4a36b302e40cc3072068",
+          "marked_text_sha256": "d272bc5a48c63e623667ef2872bf177ad8dab39abb9b89331572f2622e9a61d9",
+          "body_text_sha256": "206221dabcf2ff56251269b5f721cf61849a8dbcdd249eede1c6fba58c7d99f2",
+          "headings": [
+            "前言"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 3,
+          "path": "OEBPS/Text/3.html",
+          "linear": "yes",
+          "range": [
+            824,
+            11182
+          ],
+          "body_characters": 10306,
+          "html_bytes_sha256": "c581fc00fad0e33169942599f9910cb7257c2eac4ba7148218ab36ceacbacabe",
+          "marked_text_sha256": "47821ac3f39e5d271a22c38c31d90e295564bac6062bbb3767839c8c272c6f7d",
+          "body_text_sha256": "cd177c37f12a1132b99c1e752af4a5e18b07bf83cd797820ed5bea2fea116898",
+          "headings": [
+            "第一章 坏男人的心理模式"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 4,
+          "path": "OEBPS/Text/4.html",
+          "linear": "yes",
+          "range": [
+            11182,
+            28636
+          ],
+          "body_characters": 17402,
+          "html_bytes_sha256": "ef137a868dc8836fc90fc686e0a01abebc43bb5e1c3aee7494679b9a215455d8",
+          "marked_text_sha256": "02a7794402d0077a80099ce2a8e4ece66e36332d04f2162ea3256bd2a2c4c548",
+          "body_text_sha256": "85e2d0f4b57787df192c68905048ba272ed7e9570b1414106fc55dd147e68184",
+          "headings": [
+            "第二章 我为君狂"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 5,
+          "path": "OEBPS/Text/5.html",
+          "linear": "yes",
+          "range": [
+            28636,
+            39819
+          ],
+          "body_characters": 11131,
+          "html_bytes_sha256": "137b90d5a6aca9146f19b3044a5339cb99d5101a72ee6c247806b606c320c669",
+          "marked_text_sha256": "c1eccca63c84bf6a7812f7fcda730834785cf8144b823b1d60ae807539006631",
+          "body_text_sha256": "95071e2358137df7c190bfb653224911b2d3446d7d454eddbd39cc3d01fbf0c7",
+          "headings": [
+            "第三章 总有一种力量让他如此迷人"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 6,
+          "path": "OEBPS/Text/6.html",
+          "linear": "yes",
+          "range": [
+            39819,
+            52711
+          ],
+          "body_characters": 12840,
+          "html_bytes_sha256": "158766994e584caa59818bef368fa03b21c73ac45b2824f8c41a8065715cb142",
+          "marked_text_sha256": "96bb68db04efc0951da65449ed3ca0f23a462ab6309d88e0d5e26fc7067e6a85",
+          "body_text_sha256": "aa8c1eb5f2f86d28b3c18723bf0a6ee4cf2809712a68c8e292dafea0ee1bfb37",
+          "headings": [
+            "第四章 坏男人和那隐藏的欲望"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 7,
+          "path": "OEBPS/Text/7.html",
+          "linear": "yes",
+          "range": [
+            52711,
+            64603
+          ],
+          "body_characters": 11840,
+          "html_bytes_sha256": "7f223a30b4dadb96c8989f6e8cb5c6cc67f27296922bbf027a29b164d50c7380",
+          "marked_text_sha256": "51a70a20f84bf8b30c813a0e82e7d0c8e4ac7037da6b01f12c22de66f6219170",
+          "body_text_sha256": "1e0663d040329e47603d55851e0b29c59179acaa3354a5187a0e52d774c6d8c6",
+          "headings": [
+            "第五章 无赖的仪式"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 8,
+          "path": "OEBPS/Text/8.html",
+          "linear": "yes",
+          "range": [
+            64603,
+            66683
+          ],
+          "body_characters": 2028,
+          "html_bytes_sha256": "557461f19e98c51b370f20baab5340dcb01fe75ada82722fe8870d04454711b6",
+          "marked_text_sha256": "6ce046757ffc673fbb00a0a23e3a33e5e96108b94ddaaed305dd4fa00924d242",
+          "body_text_sha256": "7f5e5eae27fccec22410f4add27ab6de0613e45fd89f6e66ed51ab707d1ca0c0",
+          "headings": [
+            "第六章 坏男人的性准则"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 9,
+          "path": "OEBPS/Text/9.html",
+          "linear": "yes",
+          "range": [
+            66683,
+            74843
+          ],
+          "body_characters": 8108,
+          "html_bytes_sha256": "2e251e3f4b7772330b7f8474447ebbe5c3ad0b82e99a3c087b308c392aa8c524",
+          "marked_text_sha256": "225b743987800cd16ddba7705bf13c2d20f8b6e1aff283d11d798d5aaa6dc874",
+          "body_text_sha256": "ae189b9ba72768ed38a82fa8db7e9d303c33fcebaf6e17c5865d67d8f76bc326",
+          "headings": [
+            "第七章 女人强制改变坏男人"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 10,
+          "path": "OEBPS/Text/10.html",
+          "linear": "yes",
+          "range": [
+            74843,
+            108668
+          ],
+          "body_characters": 33771,
+          "html_bytes_sha256": "dfe09260dbb3bc0cfe2fb0229a3f86b9132a42f40b91dd5be028534f9cd58631",
+          "marked_text_sha256": "c2587db77b5858ca3829ec8c2746821eb8b4c00bd45bb53c92812bf128ede0e4",
+          "body_text_sha256": "4b9e62220a52aee578db1351a7f0698267b8a628553c33234acb8ab806083388",
+          "headings": [
+            "第八章 严酷的现实"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        },
+        {
+          "index": 11,
+          "path": "OEBPS/Text/11.html",
+          "linear": "yes",
+          "range": [
+            108668,
+            112552
+          ],
+          "body_characters": 3830,
+          "html_bytes_sha256": "7a2337b24fe08e8db2d7c3dd4284c2b54fa57f05d86838725ff02a4407167f34",
+          "marked_text_sha256": "d0e37a8b59da2d352a8d749de27adc86caceba2ff8f7a4a59f61a43993691d0e",
+          "body_text_sha256": "afe50c35d9cd3f854b2e0d65f010442e68737b369b7bc57a6fc5b0d0b10c1beb",
+          "headings": [
+            "第九章 幸福的结局"
+          ],
+          "media_references": [],
+          "provided_text_read": true
+        }
+      ],
+      "navigation": [
+        {
+          "label": "坏男人：女人无法抵御的诱惑、历经与冒险",
+          "src": "Text/1.html"
+        },
+        {
+          "label": " 前言",
+          "src": "Text/2.html"
+        },
+        {
+          "label": " 第一章 坏男人的心理模式",
+          "src": "Text/3.html"
+        },
+        {
+          "label": " 第二章 我为君狂",
+          "src": "Text/4.html"
+        },
+        {
+          "label": " 第三章 总有一种力量让他如此迷人",
+          "src": "Text/5.html"
+        },
+        {
+          "label": " 第四章 坏男人和那隐藏的欲望",
+          "src": "Text/6.html"
+        },
+        {
+          "label": " 第五章 无赖的仪式",
+          "src": "Text/7.html"
+        },
+        {
+          "label": " 第六章 坏男人的性准则",
+          "src": "Text/8.html"
+        },
+        {
+          "label": " 第七章 女人强制改变坏男人",
+          "src": "Text/9.html"
+        },
+        {
+          "label": " 第八章 严酷的现实",
+          "src": "Text/10.html"
+        },
+        {
+          "label": " 第九章 幸福的结局",
+          "src": "Text/11.html"
+        }
+      ],
+      "navigation_files": [
+        {
+          "path": "OEBPS/toc.ncx",
+          "sha256": "b4efde3734f640962b8c77a2f119eb06a68fa40759f73e8c38c8815bb2e3d9b4"
+        }
+      ],
+      "package_image_members": [],
+      "manifest_image_items": [],
+      "html_members_outside_spine": [],
+      "css_url_references": [],
+      "extraction": {
+        "method": "EPUB OPF spine order, lxml HTML body itertext stripped nonempty nodes joined by newline, scripts/styles removed; UTF-8 LF, explicit spine markers",
+        "HTML_recovery_used_for_unclosed_br_tags": true,
+        "engine": "lxml 6.1.1.0",
+        "characters": 112552,
+        "body_characters": 111976,
+        "sha256": "dafb0d105e999354b33e2753146fc82cdd97b508365b1c9ebf61b226336fb10c",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "native_not_OCR": true
+      },
+      "reading_status": "provided_file_text_complete",
+      "coverage_mode": "all11_OPF_items_current_file_text_read_nine_chapters_and_end_bibliography_no_media_gaps",
+      "read_chunks": [
+        {
+          "range": [
+            0,
+            11000
+          ],
+          "characters": 11000,
+          "sha256": "e9f8a133b1bc47244d8ed7af37dd8e6efc8080a0dce587160aa79d1e05009bbe"
+        },
+        {
+          "range": [
+            11000,
+            22000
+          ],
+          "characters": 11000,
+          "sha256": "389b05cc1ccb9030c95bba52448abf3db28dc97f4d8210b96bd2cd6cce4e6590"
+        },
+        {
+          "range": [
+            22000,
+            33000
+          ],
+          "characters": 11000,
+          "sha256": "a505aafa9a8df5c75ece092d25a6bf5cec03387987ec8757d27ae5492027fe5b"
+        },
+        {
+          "range": [
+            33000,
+            44000
+          ],
+          "characters": 11000,
+          "sha256": "1a8fdccdab66fdb2e5f3f7fa665fa68e63e0cf45f911f45c0c09e4cd3ebf1c89"
+        },
+        {
+          "range": [
+            44000,
+            55000
+          ],
+          "characters": 11000,
+          "sha256": "22cf8db198631e9dc754b1b1c2908d0b3a25994af1eb2a02b1b1ec08462022e8"
+        },
+        {
+          "range": [
+            55000,
+            66000
+          ],
+          "characters": 11000,
+          "sha256": "9a69644d4898ea0f097cf88691d373c6289a8f8d72cd79b616f6e7c1dabe2f24"
+        },
+        {
+          "range": [
+            66000,
+            77000
+          ],
+          "characters": 11000,
+          "sha256": "0b360095fd782b17c793f17b033295d50f01e3c4d205950f2410401dfab9002f"
+        },
+        {
+          "range": [
+            77000,
+            88000
+          ],
+          "characters": 11000,
+          "sha256": "6f6d8a8e1ff7d47478b729041f7668abb025258e2f3466f150a1c50aec123431"
+        },
+        {
+          "range": [
+            88000,
+            99000
+          ],
+          "characters": 11000,
+          "sha256": "71a77e9b1b58332c182281c121f16090e04d20aeb4255c263d5dca10f8ec2575"
+        },
+        {
+          "range": [
+            99000,
+            110000
+          ],
+          "characters": 11000,
+          "sha256": "5c200d63c7578a85a927d3f67baae468996608f56265d3cd1fd4210b5b29a8b5"
+        },
+        {
+          "range": [
+            110000,
+            112552
+          ],
+          "characters": 2552,
+          "sha256": "c19164288f58b321dec8c2545e1321f8dd7484e588691bb2ca9af85822938cc8"
+        }
+      ],
+      "all_spine_native_text_read": true,
+      "current_file_provided_text_complete": true,
+      "unread_current_file_text_characters": 0,
+      "original_publication_complete": null,
+      "all_original_words_verified": false,
+      "package_image_count": 0,
+      "HTML_items_outside_spine_count": 0,
+      "OCR_run": false,
+      "parser_crosscheck": [
+        {
+          "index": 1,
+          "lxml_characters": 51,
+          "stdlib_characters": 51,
+          "same_text": true
+        },
+        {
+          "index": 2,
+          "lxml_characters": 669,
+          "stdlib_characters": 669,
+          "same_text": true
+        },
+        {
+          "index": 3,
+          "lxml_characters": 10306,
+          "stdlib_characters": 10306,
+          "same_text": true
+        },
+        {
+          "index": 4,
+          "lxml_characters": 17402,
+          "stdlib_characters": 17402,
+          "same_text": true
+        },
+        {
+          "index": 5,
+          "lxml_characters": 11131,
+          "stdlib_characters": 11131,
+          "same_text": true
+        },
+        {
+          "index": 6,
+          "lxml_characters": 12840,
+          "stdlib_characters": 12840,
+          "same_text": true
+        },
+        {
+          "index": 7,
+          "lxml_characters": 11840,
+          "stdlib_characters": 11840,
+          "same_text": true
+        },
+        {
+          "index": 8,
+          "lxml_characters": 2028,
+          "stdlib_characters": 2028,
+          "same_text": true
+        },
+        {
+          "index": 9,
+          "lxml_characters": 8108,
+          "stdlib_characters": 8108,
+          "same_text": true
+        },
+        {
+          "index": 10,
+          "lxml_characters": 33771,
+          "stdlib_characters": 33771,
+          "same_text": true
+        },
+        {
+          "index": 11,
+          "lxml_characters": 3830,
+          "stdlib_characters": 3830,
+          "same_text": true
+        }
+      ],
+      "historical_inventory_extraction_retained": {
+        "characters": 121447,
+        "body_characters": 121061,
+        "same_coordinate_stream_as_current": false
+      },
+      "source_quality_notes": [
+        "Unclosed br tags require HTML rather than strict XML parsing.",
+        "Existing text includes typos,digit corruption and printed-page remnants; not silently reconstructed.",
+        "OPF creator repeats title; file-name author attribution,publication date,ISBN and original edition not externally verified."
+      ],
+      "bibliography_read_as_book_section_only": true,
+      "bibliography_items_independently_read_or_verified": false,
+      "current_file_unread_gaps": [],
+      "raw_source_text_newly_archived": false,
+      "raw_source_images_newly_archived": false,
+      "private_case_summaries_saved": 0
+    }
+  ],
+  "reading_attribution": "One reader directly read11returned untruncated continuous chunks covering all11OPF items,frontmatter,ninechapters and end bibliography. Extraction and parser crosscheck alone were not credited as reading. No subagents.",
+  "single_book_mode": true,
+  "new_book_file_ids_completed": [
+    "B048"
+  ],
+  "new_whole_book_files_completed": 1,
+  "complete_means": "current_provided_file_text_coverage_not_verified_original_edition",
+  "new_direct_native_characters_read": 112552,
+  "new_direct_native_body_characters_read": 111976,
+  "actual_direct_read_chunks": 11,
+  "new_original_review_groups": 13,
+  "new_method_source_bindings": 42,
+  "method_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B048-scope-and-evidence.md",
+      "locator": "顺序项1–2、5–6、11；全文件质量；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B048-scope-and-evidence.md",
+      "locator": "顺序项1–2、5–6、11；全文件质量；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B048-kindness-and-vitality.md",
+      "locator": "顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B048-kindness-and-vitality.md",
+      "locator": "顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M12",
+      "path": "knowledge/books/B048-kindness-and-vitality.md",
+      "locator": "顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B048-childhood-and-responsibility.md",
+      "locator": "顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B048-childhood-and-responsibility.md",
+      "locator": "顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B048-childhood-and-responsibility.md",
+      "locator": "顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B048-approval-and-self-blame.md",
+      "locator": "顺序项4、9–10，对应第二、七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B048-approval-and-self-blame.md",
+      "locator": "顺序项4、9–10，对应第二、七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B048-biology-and-agreements.md",
+      "locator": "顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B048-biology-and-agreements.md",
+      "locator": "顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B048-biology-and-agreements.md",
+      "locator": "顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B048-preferences-and-interviews.md",
+      "locator": "顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B048-preferences-and-interviews.md",
+      "locator": "顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B048-preferences-and-interviews.md",
+      "locator": "顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B048-teasing-and-devaluation.md",
+      "locator": "顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B048-teasing-and-devaluation.md",
+      "locator": "顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B048-teasing-and-devaluation.md",
+      "locator": "顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B048-teasing-and-devaluation.md",
+      "locator": "顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B048-listening-and-disclosure.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B048-listening-and-disclosure.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B048-listening-and-disclosure.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B048-listening-and-disclosure.md",
+      "locator": "顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B048-independence-and-support.md",
+      "locator": "顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B048-independence-and-support.md",
+      "locator": "顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B048-independence-and-support.md",
+      "locator": "顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B048-independence-and-support.md",
+      "locator": "顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B048-expectations-and-repair.md",
+      "locator": "顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B048-expectations-and-repair.md",
+      "locator": "顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B048-expectations-and-repair.md",
+      "locator": "顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B048-fame-health-and-constraints.md",
+      "locator": "顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B048-fame-health-and-constraints.md",
+      "locator": "顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B048-fame-health-and-constraints.md",
+      "locator": "顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B048-ending-and-boundaries.md",
+      "locator": "顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B048-ending-and-boundaries.md",
+      "locator": "顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B048-ending-and-boundaries.md",
+      "locator": "顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B048-ending-and-boundaries.md",
+      "locator": "顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。"
+    }
+  ],
+  "counts": {
+    "book_files": 119,
+    "started": 48,
+    "current_file_text_complete": 41,
+    "current_file_text_partial": 7,
+    "not_started": 71
+  },
+  "next_work_unit": {
+    "id": "B049",
+    "path": "坏蛋之道 - 约书亚·佩雷斯.pdf",
+    "git_blob_sha": "861066419ee87898a825289bad8fe4741d1293e4",
+    "bytes": 1665965,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": 130,
+    "spine_items": null,
+    "next_spine_index": null,
+    "next_file_page": 1,
+    "next_character": 0,
+    "start": "B049 not started; next-book bookmark only. Single-book B048 is closed for current provided file.",
+    "next_content_unit": "B049 physicalpage1 character0 after binary/extraction verification.",
+    "current_extraction_identity": null,
+    "ledger": "knowledge/provenance/B048_reading_2026-11-12.json",
+    "substantive_body_characters_read": 0
+  },
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    },
+    {
+      "id": "B036",
+      "path": "人妻约会指南.pdf",
+      "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+      "bytes": 2994034,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+        "characters": 72537,
+        "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Only the retained private or unverified source-image gap; native text fully read",
+      "next_file_page": null,
+      "image_pages_excluded": [
+        3,
+        8,
+        9,
+        10,
+        35,
+        40,
+        69,
+        70,
+        77,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "id": "B038",
+      "path": "冷眼观爱 - 冷爱.epub",
+      "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+      "bytes": 3825636,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+        "characters": 137300,
+        "body_characters": 136355,
+        "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "historical_count": 400288,
+        "historical_count_not_used_for_current_offsets": true
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Native text fully read.77 image assets still unread; no re-start at spine1",
+      "next_spine_index": null,
+      "unread_image_asset_paths": [
+        "OEBPS/Images/image00113.jpeg",
+        "OEBPS/Images/image00114.jpeg",
+        "OEBPS/Images/image00115.jpeg",
+        "OEBPS/Images/image00116.jpeg",
+        "OEBPS/Images/image00117.jpeg",
+        "OEBPS/Images/image00118.jpeg",
+        "OEBPS/Images/image00119.jpeg",
+        "OEBPS/Images/image00120.jpeg",
+        "OEBPS/Images/image00121.jpeg",
+        "OEBPS/Images/image00122.jpeg",
+        "OEBPS/Images/image00123.jpeg",
+        "OEBPS/Images/image00124.jpeg",
+        "OEBPS/Images/image00125.jpeg",
+        "OEBPS/Images/image00126.jpeg",
+        "OEBPS/Images/image00127.jpeg",
+        "OEBPS/Images/image00128.jpeg",
+        "OEBPS/Images/image00129.jpeg",
+        "OEBPS/Images/image00130.jpeg",
+        "OEBPS/Images/image00131.jpeg",
+        "OEBPS/Images/image00132.jpeg",
+        "OEBPS/Images/image00133.jpeg",
+        "OEBPS/Images/image00134.jpeg",
+        "OEBPS/Images/image00135.jpeg",
+        "OEBPS/Images/image00136.jpeg",
+        "OEBPS/Images/image00137.jpeg",
+        "OEBPS/Images/image00138.jpeg",
+        "OEBPS/Images/image00139.jpeg",
+        "OEBPS/Images/image00140.jpeg",
+        "OEBPS/Images/image00141.jpeg",
+        "OEBPS/Images/image00142.jpeg",
+        "OEBPS/Images/image00143.jpeg",
+        "OEBPS/Images/image00144.jpeg",
+        "OEBPS/Images/image00145.jpeg",
+        "OEBPS/Images/image00146.jpeg",
+        "OEBPS/Images/image00147.jpeg",
+        "OEBPS/Images/image00148.jpeg",
+        "OEBPS/Images/image00149.jpeg",
+        "OEBPS/Images/image00150.jpeg",
+        "OEBPS/Images/image00151.jpeg",
+        "OEBPS/Images/image00152.jpeg",
+        "OEBPS/Images/image00153.jpeg",
+        "OEBPS/Images/image00154.jpeg",
+        "OEBPS/Images/image00155.jpeg",
+        "OEBPS/Images/image00156.jpeg",
+        "OEBPS/Images/image00157.jpeg",
+        "OEBPS/Images/image00158.jpeg",
+        "OEBPS/Images/image00159.jpeg",
+        "OEBPS/Images/image00160.jpeg",
+        "OEBPS/Images/image00161.jpeg",
+        "OEBPS/Images/image00162.jpeg",
+        "OEBPS/Images/image00165.jpeg",
+        "OEBPS/Images/image00166.jpeg",
+        "OEBPS/Images/image00167.jpeg",
+        "OEBPS/Images/image00168.jpeg",
+        "OEBPS/Images/image00169.jpeg",
+        "OEBPS/Images/image00170.jpeg",
+        "OEBPS/Images/image00171.jpeg",
+        "OEBPS/Images/image00172.jpeg",
+        "OEBPS/Images/image00173.jpeg",
+        "OEBPS/Images/image00174.jpeg",
+        "OEBPS/Images/image00175.jpeg",
+        "OEBPS/Images/image00176.jpeg",
+        "OEBPS/Images/image00177.jpeg",
+        "OEBPS/Images/image00178.jpeg",
+        "OEBPS/Images/image00179.jpeg",
+        "OEBPS/Images/image00180.jpeg",
+        "OEBPS/Images/image00181.jpeg",
+        "OEBPS/Images/image00182.jpeg",
+        "OEBPS/Images/image00183.jpeg",
+        "OEBPS/Images/image00184.jpeg",
+        "OEBPS/Images/image00185.jpeg",
+        "OEBPS/Images/image00186.jpeg",
+        "OEBPS/Images/image00187.jpeg",
+        "OEBPS/Images/image00188.jpeg",
+        "OEBPS/Images/image00189.jpeg",
+        "OEBPS/Images/image00190.jpeg",
+        "OEBPS/Images/image00191.jpeg"
+      ]
+    },
+    {
+      "id": "B039",
+      "path": "冷眼观爱2 - 冷爱.pdf",
+      "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+      "bytes": 7795361,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all380_OCR_outputs_read_41_original_pages_checked_with_OCR_image_and_missing_tool_gaps",
+      "ledger": "knowledge/provenance/B039_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "id": "B039",
+        "engine": "Tesseract tesseract 5.5.0",
+        "languages": "chi_sim+eng",
+        "psm": 3,
+        "render_matrix": [
+          3,
+          3
+        ],
+        "line_ending": "LF",
+        "characters": 200223,
+        "body_characters": 183991,
+        "text_sha256": "01a8ca0e44fb4b7572eede306ee39d9dad5c804dd370597e51a44588e9781fcb",
+        "processed_pages": 380,
+        "short_output_pages": [
+          1,
+          12,
+          13,
+          83,
+          130,
+          131,
+          217,
+          218,
+          219,
+          288,
+          289,
+          348,
+          349
+        ],
+        "models": [
+          {
+            "language": "chi_sim",
+            "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/chi_sim.traineddata",
+            "bytes": 2469156,
+            "sha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730"
+          }
+        ],
+        "eng_model_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+        "kind": "full_page_scanned_PDF_OCR",
+        "quality": "uncorrected_OCR_with_garbled_and_missing_strings_not_a_verified_transcription",
+        "cache_persisted_in_repository": false,
+        "raw_OCR_text_newly_archived": false
+      },
+      "all_ocr_output_read": true,
+      "next_character": null,
+      "next_file_page": null,
+      "next_gap_review_file_page": 15,
+      "start": "Quality review starts at physicalpage15, the earliest non-visual page after checked front matter; other selected pages are listed. Page217 is the remaining short-output page without visual review. Private illustration regions remain excluded; missing tool requires another legitimate source.",
+      "gaps": {
+        "unreviewed_original_page_layouts": [
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          63,
+          66,
+          67,
+          68,
+          69,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          200,
+          201,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "OCR_quality_unresolved": true,
+        "garbled_fragment_count": null,
+        "no_claim_all_words_restored": true,
+        "short_OCR_pages_without_visual_review": [
+          217
+        ],
+        "known_private_illustration_regions_unreviewed_not_exhaustive": [
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          149,
+          150
+        ],
+        "all_picture_regions_reviewed": false,
+        "source_anomalies": [
+          {
+            "kind": "upside_down_scan",
+            "file_page": 318,
+            "printed_page": 307,
+            "reading_rotation_degrees": 180,
+            "visually_read_after_rotation": true,
+            "original_blob_changed": false
+          },
+          {
+            "kind": "out_of_printed_page_order",
+            "file_pages": [
+              362,
+              363
+            ],
+            "printed_pages": [
+              352,
+              351
+            ],
+            "both_visually_read": true,
+            "original_blob_changed": false
+          },
+          {
+            "kind": "TOC_item_not_supplied",
+            "TOC_file_page": 11,
+            "TOC_printed_page": 370,
+            "item": "自我提升日记",
+            "last_supplied_file_page": 380,
+            "last_supplied_printed_page": 369,
+            "original_edition_complete": false
+          }
+        ],
+        "next_gap_review": "Quality review starts at physicalpage15, the earliest non-visual page after checked front matter; other selected pages are listed. Page217 is the remaining short-output page without visual review. Private illustration regions remain excluded; missing tool requires another legitimate source."
+      }
+    },
+    {
+      "id": "B045",
+      "path": "叔叔教你护妹子 - 刘毓卿.pdf",
+      "git_blob_sha": "16f8a97b44b4afa8740434bb0af647ecb2b89918",
+      "bytes": 4031069,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all113_native_text_outputs_read_three_theory_images_and11_pages_checked_19_body_image_pages_unread",
+      "ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "Poppler pdftotext -layout -enc UTF-8; split form feeds into113physicalpages; LF; explicit page markers",
+        "engine": "pdftotext version 25.03.0",
+        "characters": 161665,
+        "body_characters": 156914,
+        "sha256": "c00c7d56dffc93fbb3329d0c656699390b531926e3eefeb8b64d0c57dad43bb0",
+        "coordinates": "Unicode codepoints; half-open; page markers included",
+        "native_not_OCR": true,
+        "raw_text_newly_archived": false,
+        "cache_persisted_in_repository": false,
+        "body_characters_include_whitespace_headers_and_advertising": true,
+        "character_count_not_unique_ideas_or_verified_transcription": true,
+        "page_marker_template": "\n\n===== B045 PDF FILE PAGE {n} / 113 =====\n"
+      },
+      "all_native_text_output_read": true,
+      "next_character": null,
+      "next_file_page": null,
+      "next_gap_review_file_page": 4,
+      "start": "No unread native-text character remains. Optional non-private extraction/layout verification begins at physicalpage4; 19 body-image pages remain separate and private regions excluded. Obtain another legitimate version before claiming promised material is present.",
+      "gaps": {
+        "unread_body_image_pages": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "unread_body_image_xrefs": [
+          253,
+          254,
+          258,
+          277,
+          278,
+          282,
+          283,
+          287,
+          288,
+          292,
+          293,
+          297,
+          323,
+          327,
+          328,
+          332,
+          333,
+          334,
+          338,
+          339,
+          343,
+          431,
+          435,
+          436,
+          440,
+          441,
+          442,
+          558,
+          559,
+          563,
+          564,
+          568,
+          569,
+          573
+        ],
+        "unread_body_image_resource_count": 34,
+        "image_scope": "Non-theory body images remain unread; includes private chat screenshot regions identified from surrounding introductions. No claim that every unread image was individually classified as private.",
+        "known_private_chat_image_pages_from_textual_introductions": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "private_images_not_OCRed": true,
+        "private_images_not_newly_archived": true,
+        "private_chat_transcriptions_and_narratives_not_republished_or_retold": true,
+        "unreviewed_original_page_layouts": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "all_words_individually_verified": false,
+        "source_anomalies": [
+          {
+            "kind": "duplicate_paragraph_in_original_page",
+            "file_page": 26,
+            "printed_page": 25,
+            "visually_verified": true,
+            "scope": "One paragraph visibly repeats twice; original source retained."
+          },
+          {
+            "kind": "irregular_section_numbering_not_proof_of_missing_physical_pages",
+            "TOC_file_pages": [
+              2,
+              3
+            ],
+            "example_heading_file_page": 75,
+            "example_printed_page": 74,
+            "missing_material_extent_unknown": true
+          },
+          {
+            "kind": "promised_expansions_not_supplied_as_full_chapters",
+            "file_pages": [
+              31,
+              62,
+              112,
+              113
+            ],
+            "scope": "P5 details deferred to later sharing, later channel chapters promised, and last section introduces a new distinction. Completeness of original series or publication unverified."
+          }
+        ],
+        "checked_non_gap": {
+          "file_pages": [
+            40,
+            41
+          ],
+          "result": "A sentence continues across the page boundary. Do not record this boundary as a proven missing page or missing text."
+        },
+        "next_gap_review": "No unread native-text character remains. Optional non-private extraction/layout verification begins at physicalpage4; 19 body-image pages remain separate and private regions excluded. Obtain another legitimate version before claiming promised material is present."
+      }
+    }
+  ],
+  "case_summaries_saved": 0,
+  "raw_source_text_newly_archived": false,
+  "raw_source_images_newly_archived": false,
+  "scope": "Original argument review only. No verification of cited biographies,individual motives,empirical efficacy,medical/legal claims or original publication completeness. No second book read this turn."
+}

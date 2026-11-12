@@ -2,7 +2,7 @@
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-本轮新增[B045的14组审阅](knowledge/books/B045.md)。此前[B039](knowledge/books/B039.md)、[B036](knowledge/books/B036.md)与[B038](knowledge/books/B038.md)的阅读成果和独立缺口保留。
+本轮新增[B048的13组审阅](knowledge/books/B048.md)。[B045的14组审阅](knowledge/books/B045.md)保留。此前[B039](knowledge/books/B039.md)、[B036](knowledge/books/B036.md)与[B038](knowledge/books/B038.md)的阅读成果和独立缺口保留。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -20,7 +20,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-2026年11月12日继续B045《叔叔教你护妹子》。113页原生文字161665字符分15块已读，另核11页原图及三张理论图；19页正文图像与原始系列范围仍有缺口，整份保持部分阅读。当前40/119份内容覆盖完成、7份部分、72份正文未开始。14组原创审阅、41条方法出处已接入，下一B048首项字符0。TOP30为30/30、来源158条。[报告](knowledge/provenance/B045_progress_2026-11-12.md)。
+2026年11月12日按逐本要求读完B048《坏男人》当前EPUB：11项、九章及延伸阅读，112552字符分11块已读，无图像或额外正文缺口。新增13组原创审阅、42条方法出处。已开展48/119份，其中41份当前文件覆盖完成、7份部分、71份正文未开始。下一B049第1页，本轮未开始。TOP30为30/30，来源158条。[报告](knowledge/provenance/B048_progress_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -29,7 +29,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前40/119份内容覆盖完成，7份部分、72份正文未开始。本轮B045的113页原生文字读完，19页图像与未核的原始系列范围另记。B041对应版本复用、B052原页核读及其他既有缺口见各自台账。
+已开展48/119份，其中41份当前文件覆盖完成、7份部分、71份正文未开始。本轮B048九章和文后材料读到末尾；B045图像与原始系列范围缺口另记。B041对应版本复用、B052原页核读及其他既有缺口见各自台账。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

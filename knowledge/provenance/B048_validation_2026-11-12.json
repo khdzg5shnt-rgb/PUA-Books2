@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "5ea8233b71d7721c21262e558290e0bee3a48bf8",
+  "status": "passed",
+  "structural": true,
+  "unittest_methods": 48,
+  "synthetic_routing_scenarios": 158,
+  "new_tests": 0,
+  "single_book_mode": true,
+  "book_read_this_turn": "B048",
+  "next_book_body_started": false,
+  "source_identity_verified": true,
+  "byte_and_blob_verified": true,
+  "OPF_items_checked": 11,
+  "contiguous_read_chunks_checked": 11,
+  "native_marked_characters_checked": 112552,
+  "native_body_characters_checked": 111976,
+  "two_parser_item_text_crosschecks": 11,
+  "navigation_items_checked": 11,
+  "media_gaps": 0,
+  "HTML_items_outside_spine": 0,
+  "OCR_run": false,
+  "new_current_file_text_complete": 1,
+  "original_edition_complete_not_claimed": true,
+  "bibliography_not_counted_as_independent_reading": true,
+  "unchanged_other_source_records": 157,
+  "unchanged_other_inventory_records": 125,
+  "older_partial_records_preserved": 7,
+  "new_original_review_groups": 13,
+  "new_method_source_bindings": 42,
+  "targeted_retrievals": [
+    {
+      "method": "M01",
+      "query": "OPF的作者字段重复填了题名",
+      "path": "knowledge/books/B048-scope-and-evidence.md",
+      "heading": "当前文件与原始出版物分开"
+    },
+    {
+      "method": "M04",
+      "query": "善意和趣味互不相容",
+      "path": "knowledge/books/B048-kindness-and-vitality.md",
+      "heading": "不把伤害当作魅力的必要组成"
+    },
+    {
+      "method": "M08",
+      "query": "基因、环境和文化共同影响",
+      "path": "knowledge/books/B048-biology-and-agreements.md",
+      "heading": "从动物叙述不能直接得到聊天规则"
+    },
+    {
+      "method": "M03",
+      "query": "自述愿望、假设选择和实际交往",
+      "path": "knowledge/books/B048-preferences-and-interviews.md",
+      "heading": "分清问的是什么"
+    },
+    {
+      "method": "M17",
+      "query": "反复取消恰好证明对方很感兴趣",
+      "path": "knowledge/books/B048-inconsistency-and-cancellations.md",
+      "heading": "观察模式，不宣布隐藏的爱"
+    },
+    {
+      "method": "M21",
+      "query": "真正可核的变化",
+      "path": "knowledge/books/B048-teasing-and-devaluation.md",
+      "heading": "有责任时修复，没有证据不自认全责"
+    },
+    {
+      "method": "M13",
+      "query": "虚构身世",
+      "path": "knowledge/books/B048-listening-and-disclosure.md",
+      "heading": "倾听不是搜集可利用的弱点"
+    },
+    {
+      "method": "M22",
+      "query": "衣着、爱好、朋友和时间安排",
+      "path": "knowledge/books/B048-independence-and-support.md",
+      "heading": "普通差异与实际伤害不能混为一谈"
+    },
+    {
+      "method": "M11",
+      "query": "某个人在装病",
+      "path": "knowledge/books/B048-fame-health-and-constraints.md",
+      "heading": "疾病与受困处境不能随意归因"
+    },
+    {
+      "method": "M23",
+      "query": "不拿危险关系做练习",
+      "path": "knowledge/books/B048-ending-and-boundaries.md",
+      "heading": "不拿危险关系做练习"
+    }
+  ],
+  "internal_links_checked": 331,
+  "new_files": 17,
+  "modified_files": 12,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_case_summaries_saved": 0,
+  "preferred_sections_preserved": 26,
+  "method_operations_preserved": 26,
+  "routes_preserved": 36,
+  "tasks_preserved": 5,
+  "reading_counts": {
+    "started": 48,
+    "current_file_text_complete": 41,
+    "partial": 7,
+    "unread": 71
+  },
+  "next": "B049 physicalpage1 character0 after identity/extraction check",
+  "limits": "Checks cover source identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
+}

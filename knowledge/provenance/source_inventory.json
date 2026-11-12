@@ -3075,8 +3075,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E7%94%B7%E4%BA%BA%EF%BC%9A%E5%A5%B3%E4%BA%BA%E6%97%A0%E6%B3%95%E6%8A%B5%E5%BE%A1%E7%9A%84%E8%AF%B1%E6%83%91%E3%80%81%E5%8E%86%E7%BB%8F%E4%B8%8E%E5%86%92%E9%99%A9%20-%20%E8%8B%B1%E6%A0%BC.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B048.md",
       "pages": null,
       "spine_items": 11,
       "ocr": {
@@ -3084,7 +3084,33 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "coverage_mode": "all11_OPF_items_current_file_text_read_nine_chapters_and_end_bibliography_no_media_gaps",
+      "reading_ledger": "knowledge/provenance/B048_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B048_reading_2026-11-12.json",
+        "current_extraction": {
+          "method": "EPUB OPF spine order, lxml HTML body itertext stripped nonempty nodes joined by newline, scripts/styles removed; UTF-8 LF, explicit spine markers",
+          "HTML_recovery_used_for_unclosed_br_tags": true,
+          "engine": "lxml 6.1.1.0",
+          "characters": 112552,
+          "body_characters": 111976,
+          "sha256": "dafb0d105e999354b33e2753146fc82cdd97b508365b1c9ebf61b226336fb10c",
+          "coordinates": "Unicode code points; half-open offsets; spine markers included",
+          "native_not_OCR": true
+        },
+        "source_sha256": "5a0ba1a1de4e38babf2d8fda8849c5d956a9d5f3af1d97035c8b9587a358f0d6",
+        "all11_spine_native_texts_read": true,
+        "current_file_provided_text_complete": true,
+        "original_publication_complete": null,
+        "OCR_run": false,
+        "image_assets_count": 0,
+        "unread_current_file_text_characters": 0,
+        "next_spine_index": null,
+        "next_character": null,
+        "end_bibliography_read_only_not_independent_sources": true
+      }
     },
     {
       "index": 49,
