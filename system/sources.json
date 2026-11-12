@@ -548,27 +548,33 @@
       "group": "books2_original_snapshot",
       "title": "坏蛋之道 - 约书亚·佩雷斯.pdf",
       "git_blob_sha": "861066419ee87898a825289bad8fe4741d1293e4",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B049.md",
+      "is_book": true,
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json"
     },
     {
       "id": "B050",
       "group": "books2_original_snapshot",
       "title": "墨攻 - 黑子.pdf",
       "git_blob_sha": "ae7249a9c262f42069eeeee26095a308ff61466a",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B050.md",
+      "is_book": true,
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json"
     },
     {
       "id": "B051",
       "group": "books2_original_snapshot",
       "title": "大卫X方法 - 大卫X.pdf",
       "git_blob_sha": "ca9e191294211e4aa982c509ad4bf354606c488f",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B051.md",
+      "is_book": true,
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json"
     },
     {
       "id": "B052",
@@ -1588,28 +1594,28 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 41,
+    "current_book_files_text_complete": 44,
     "current_book_files_text_partial": 7,
-    "current_book_files_not_started": 71
+    "current_book_files_not_started": 68
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B049",
-    "path": "坏蛋之道 - 约书亚·佩雷斯.pdf",
-    "git_blob_sha": "861066419ee87898a825289bad8fe4741d1293e4",
-    "bytes": 1665965,
+    "id": "B053",
+    "path": "如何和女人见面与沟通 - 杂耍人.pdf",
+    "git_blob_sha": "7b8cb7632ad1d249a10ab9d23b1eebf6bd0fd1af",
+    "bytes": 1723629,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 130,
+    "file_pages": 36,
     "spine_items": null,
     "next_spine_index": null,
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B049 not started; next-book bookmark only. Single-book B048 is closed for current provided file.",
-    "next_content_unit": "B049 physicalpage1 character0 after binary/extraction verification.",
+    "start": "B049,B050,B051 closed serially; B052 previously completed and not recounted. B053 is next unread file.",
+    "next_content_unit": "B053 physicalpage1 character0 after binary/extraction verification. Finish its current readable scope before opening the next unread book; multiple serial books may be read in the same turn.",
     "current_extraction_identity": null,
-    "ledger": "knowledge/provenance/B048_reading_2026-11-12.json",
+    "ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
     "substantive_body_characters_read": 0
   },
   "deferred_work_units": [

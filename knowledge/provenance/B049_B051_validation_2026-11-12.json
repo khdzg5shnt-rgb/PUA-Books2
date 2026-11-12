@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "1e639665b0fa6413b30d0ce5d5f514881966cb14",
+  "status": "passed",
+  "structural": true,
+  "unittest_methods": 48,
+  "synthetic_routing_scenarios": 158,
+  "new_tests": 0,
+  "serial_books_same_turn": [
+    "B049",
+    "B050",
+    "B051"
+  ],
+  "one_book_closed_before_next_started": true,
+  "one_book_per_turn_limit": false,
+  "source_identity_verified": true,
+  "byte_and_blob_verified": true,
+  "physical_pages_native_text_verified": 269,
+  "contiguous_read_chunks_checked": 20,
+  "native_marked_characters_checked": 201477,
+  "native_body_characters_checked": 190314,
+  "visually_read_page_render_hashes_checked": 34,
+  "all_distinct_content_images_reviewed": true,
+  "OCR_run": false,
+  "new_current_file_text_complete": 3,
+  "original_edition_and_full_course_complete_not_claimed": true,
+  "unchanged_other_source_records": 155,
+  "unchanged_other_inventory_records": 123,
+  "older_partial_records_preserved": 7,
+  "new_original_review_groups": 34,
+  "new_method_source_bindings": 129,
+  "targeted_retrievals": [
+    {
+      "method": "M25",
+      "query": "几秒内必须行动",
+      "path": "knowledge/books/B049-practice-and-context.md",
+      "heading": "练习一项行为，不要求一种结果"
+    },
+    {
+      "method": "M20",
+      "query": "我感觉如此",
+      "path": "knowledge/books/B049-humor-and-reality.md",
+      "heading": "幽默有具体语境"
+    },
+    {
+      "method": "M23",
+      "query": "三角凝视",
+      "path": "knowledge/books/B049-body-language-limits.md",
+      "heading": "正常表达即可，不表演支配"
+    },
+    {
+      "method": "M04",
+      "query": "第一人称只表达自己的经验",
+      "path": "knowledge/books/B049-disclosure-and-love.md",
+      "heading": "第一人称只表达自己的经验"
+    },
+    {
+      "method": "M14",
+      "query": "不同消费与偏好",
+      "path": "knowledge/books/B051-contact-and-cost.md",
+      "heading": "可负担与尊重可以同时做到"
+    },
+    {
+      "method": "M20",
+      "query": "一句开玩笑",
+      "path": "knowledge/books/B051-respect-and-devaluation.md",
+      "heading": "被纠正时按具体问题处理"
+    },
+    {
+      "method": "M23",
+      "query": "被制止凝视后继续",
+      "path": "knowledge/books/B051-consent-over-control.md",
+      "heading": "相互矛盾时不取有利的一半"
+    },
+    {
+      "method": "M03",
+      "query": "一串问题连续发出",
+      "path": "knowledge/books/B051-listening-and-sharing.md",
+      "heading": "好奇不是资格审查"
+    },
+    {
+      "method": "M08",
+      "query": "矩阵与正文至少",
+      "path": "knowledge/books/B050-astrology-and-current-facts.md",
+      "heading": "数字精确不等于有证据"
+    },
+    {
+      "method": "M22",
+      "query": "预算约束适用于自己的选择",
+      "path": "knowledge/books/B050-budget-and-agreements.md",
+      "heading": "先看可承受的时间与成本"
+    },
+    {
+      "method": "M10",
+      "query": "背出一串名词",
+      "path": "knowledge/books/B050-skills-and-topics.md",
+      "heading": "兴趣用来相处，不是必修表演"
+    },
+    {
+      "method": "M13",
+      "query": "不接管他人心态",
+      "path": "knowledge/books/B050-mood-and-other-people.md",
+      "heading": "B050｜观察具体内容，不接管他人心态"
+    }
+  ],
+  "internal_links_checked": 393,
+  "new_files": 40,
+  "modified_files": 12,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_case_summaries_saved": 0,
+  "preferred_sections_preserved": 26,
+  "method_operations_preserved": 26,
+  "routes_preserved": 36,
+  "tasks_preserved": 5,
+  "reading_counts": {
+    "started": 51,
+    "current_file_text_complete": 44,
+    "partial": 7,
+    "unread": 68
+  },
+  "next": "B053 physicalpage1 character0; B052 already complete",
+  "limits": "Checks verify identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
+}

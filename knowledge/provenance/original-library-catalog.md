@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-2026年11月12日按逐本要求读完B048《坏男人》当前EPUB：11项、九章及延伸阅读，112552字符分11块已读，无图像或额外正文缺口。新增13组原创审阅、42条方法出处。已开展48/119份，其中41份当前文件覆盖完成、7份部分、71份正文未开始。下一B049第1页，本轮未开始。TOP30为30/30，来源158条。[本轮报告](B048_progress_2026-11-12.md)。
+2026年11月12日按串行要求依次读完B049《坏蛋之道》130页、B050《墨攻》69页、B051《大卫X方法》70页的当前提供内容；每本先收尾并保存笔记再开下一本。本批201477字符、20个连续块，新增34组原创审阅、129条方法出处。已开展51/119份，其中44份当前文件覆盖完成、7份部分、68份正文未开始。B052原已完成不重计，下一B053第1页。TOP30为30/30，来源158条。[本轮报告](B049_B051_progress_2026-11-12.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -61,9 +61,9 @@
 | B046 | [吸引不是选择 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E4%B8%8D%E6%98%AF%E9%80%89%E6%8B%A9%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 148 | 逐页核对后文字覆盖完成 | [核读](../books/B046.md) |
 | B047 | [吸引力原理 - Adam Lyons.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%90%B8%E5%BC%95%E5%8A%9B%E5%8E%9F%E7%90%86%20-%20Adam%20Lyons.epub) | 9 | 正文读完 | [精读](../books/B047.md) |
 | B048 | [坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E7%94%B7%E4%BA%BA%EF%BC%9A%E5%A5%B3%E4%BA%BA%E6%97%A0%E6%B3%95%E6%8A%B5%E5%BE%A1%E7%9A%84%E8%AF%B1%E6%83%91%E3%80%81%E5%8E%86%E7%BB%8F%E4%B8%8E%E5%86%92%E9%99%A9%20-%20%E8%8B%B1%E6%A0%BC.epub) | 11 | 当前文件覆盖完成：11项、九章和延伸阅读已读，无图像缺口；原版与引文未独立核查 | [笔记](../books/B048.md) |
-| B049 | [坏蛋之道 - 约书亚·佩雷斯.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E8%9B%8B%E4%B9%8B%E9%81%93%20-%20%E7%BA%A6%E4%B9%A6%E4%BA%9A%C2%B7%E4%BD%A9%E9%9B%B7%E6%96%AF.pdf) | 130 | 已提取/未读 | — |
-| B050 | [墨攻 - 黑子.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A2%A8%E6%94%BB%20-%20%E9%BB%91%E5%AD%90.pdf) | 69 | 已提取/未读 | — |
-| B051 | [大卫X方法 - 大卫X.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A4%A7%E5%8D%ABX%E6%96%B9%E6%B3%95%20-%20%E5%A4%A7%E5%8D%ABX.pdf) | 70 | 已提取/未读 | — |
+| B049 | [坏蛋之道 - 约书亚·佩雷斯.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E8%9B%8B%E4%B9%8B%E9%81%93%20-%20%E7%BA%A6%E4%B9%A6%E4%BA%9A%C2%B7%E4%BD%A9%E9%9B%B7%E6%96%AF.pdf) | 130 | 当前文件覆盖完成：现有文字与不同正文图像已读；省略或另售内容不补算、原版未核 | [笔记](../books/B049.md) |
+| B050 | [墨攻 - 黑子.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A2%A8%E6%94%BB%20-%20%E9%BB%91%E5%AD%90.pdf) | 69 | 当前文件覆盖完成：现有文字与不同正文图像已读；省略或另售内容不补算、原版未核 | [笔记](../books/B050.md) |
+| B051 | [大卫X方法 - 大卫X.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A4%A7%E5%8D%ABX%E6%96%B9%E6%B3%95%20-%20%E5%A4%A7%E5%8D%ABX.pdf) | 70 | 当前文件覆盖完成：现有文字与不同正文图像已读；省略或另售内容不补算、原版未核 | [笔记](../books/B051.md) |
 | B052 | [女性分类课程笔记 - 但丁Law.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A5%B3%E6%80%A7%E5%88%86%E7%B1%BB%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%20-%20%E4%BD%86%E4%B8%81Law.pdf) | 13 | 13页原页全部目读；文字层乱码未恢复 | [笔记](../books/B052.md) |
 | B053 | [如何和女人见面与沟通 - 杂耍人.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A6%82%E4%BD%95%E5%92%8C%E5%A5%B3%E4%BA%BA%E8%A7%81%E9%9D%A2%E4%B8%8E%E6%B2%9F%E9%80%9A%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf) | 36 | 已提取/未读 | — |
 | B054 | [婚恋中男人不能犯的100个错误 - 廖康强.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A9%9A%E6%81%8B%E4%B8%AD%E7%94%B7%E4%BA%BA%E4%B8%8D%E8%83%BD%E7%8A%AF%E7%9A%84100%E4%B8%AA%E9%94%99%E8%AF%AF%20-%20%E5%BB%96%E5%BA%B7%E5%BC%BA.epub) | 54 | 已提取/未读 | — |
@@ -216,4 +216,6 @@
 
 2026年11月12日接续B045，113页原生文字读到末尾，图像与原始系列范围缺口另记。该次结束时40份完成、7份部分、72份未开始，下一B048首项字符0。[本轮范围](B045_progress_2026-11-12.md)。
 
-2026年11月12日逐本读完B048当前EPUB，已开展48份，其中41份当前文件覆盖完成、7份部分、71份未开始。下一B049仅登记断点。[本轮范围](B048_progress_2026-11-12.md)。
+历史批次：2026年11月12日逐本读完B048当前EPUB，已开展48份，其中41份当前文件覆盖完成、7份部分、71份未开始。下一B049仅登记断点。[本轮范围](B048_progress_2026-11-12.md)。
+
+2026年11月12日按串行要求依次读完B049《坏蛋之道》130页、B050《墨攻》69页、B051《大卫X方法》70页的当前提供内容；每本先收尾并保存笔记再开下一本。本批201477字符、20个连续块，新增34组原创审阅、129条方法出处。已开展51/119份，其中44份当前文件覆盖完成、7份部分、68份正文未开始。B052原已完成不重计，下一B053第1页。TOP30为30/30，来源158条。[本批范围](B049_B051_progress_2026-11-12.md)。

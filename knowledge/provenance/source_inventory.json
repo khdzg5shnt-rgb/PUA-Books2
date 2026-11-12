@@ -3125,8 +3125,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%9D%8F%E8%9B%8B%E4%B9%8B%E9%81%93%20-%20%E7%BA%A6%E4%B9%A6%E4%BA%9A%C2%B7%E4%BD%A9%E9%9B%B7%E6%96%AF.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B049.md",
       "pages": 130,
       "spine_items": null,
       "ocr": {
@@ -3134,7 +3134,38 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+        "current_extraction": {
+          "engine": "PyMuPDF 1.26.6",
+          "method": "get_text(sort=True),LF,explicit physical-file-page markers",
+          "characters": 68601,
+          "body_characters": 63119,
+          "sha256": "65135d028da5abe0da420f88eb3d888a8904d2fffac504cb38de79b36108ca9c",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true
+        },
+        "source_sha256": "d5d17f111082b29a1e3223c758f6f67442052d4debe14e689462a6bf687ab362",
+        "all_current_native_text_read": true,
+        "current_file_provided_text_complete": true,
+        "original_publication_complete": null,
+        "OCR_run": false,
+        "all_distinct_nonprivate_content_images_reviewed": true,
+        "visually_read_pages": 5,
+        "unread_current_native_characters": 0,
+        "next_file_page": null,
+        "next_character": null,
+        "source_quality_notes": [
+          "目录明确将免责声明与使用协议标为省略；本轮未读或补造。当前文件覆盖完成不等于原始出版物完整。",
+          "结尾广告中的会员附加章节、音视频与训练未提供、未读，不计入当前文件完成范围。",
+          "译文有语法、术语与数量表述含混，未静默修复；封面译者整理者等为内部信息，未外部核定出版身份。",
+          "作者资历、排名、NLP与神经机制、沟通比例及成功承诺均未在本轮获得独立验证。"
+        ]
+      }
     },
     {
       "index": 50,
@@ -3149,8 +3180,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A2%A8%E6%94%BB%20-%20%E9%BB%91%E5%AD%90.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B050.md",
       "pages": 69,
       "spine_items": null,
       "ocr": {
@@ -3158,7 +3189,39 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+        "current_extraction": {
+          "engine": "PyMuPDF 1.26.6",
+          "method": "get_text(sort=True),LF,explicit physical-file-page markers",
+          "characters": 81988,
+          "body_characters": 79168,
+          "sha256": "04eeb056345b59cbcd6b91077150169c88de007e0bd837578040033ef9c76793",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true
+        },
+        "source_sha256": "64607c409abe9175283e2bf2e12a7e0e5cd8b1eab880057bb120a75a1042e8f0",
+        "all_current_native_text_read": true,
+        "current_file_provided_text_complete": true,
+        "original_publication_complete": null,
+        "OCR_run": false,
+        "all_distinct_nonprivate_content_images_reviewed": true,
+        "visually_read_pages": 21,
+        "unread_current_native_characters": 0,
+        "next_file_page": null,
+        "next_character": null,
+        "source_quality_notes": [
+          "实际69页；五篇课程有多处面授、省略及不在本资料中的内容，未提供部分不算读过。当前文件覆盖完成不等于完整课程或原始出版物已核。",
+          "全部不同正文图像已直接查看：封面、心态图、未解释数字图、佛牌图文、咖啡图示和星座矩阵。重复页眉图以相同资源识别，不作为额外正文。",
+          "星座矩阵与正文的同一配对评分不一致，2013年运势部分存在重复段落与标题衔接不清，未擅自修复。",
+          "初筛81022字符/正文76993与本轮81988/79168不同；保留历史提取，各用自身坐标，未假称差异仅是标记。",
+          "未外部验证作者经历、转载来源、医疗功效、宗教效力、投资类比、品牌排名或星座预测；不转为专业依据。"
+        ]
+      }
     },
     {
       "index": 51,
@@ -3173,8 +3236,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A4%A7%E5%8D%ABX%E6%96%B9%E6%B3%95%20-%20%E5%A4%A7%E5%8D%ABX.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B051.md",
       "pages": 70,
       "spine_items": null,
       "ocr": {
@@ -3182,7 +3245,40 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+        "current_extraction": {
+          "engine": "PyMuPDF 1.26.6",
+          "method": "get_text(sort=True),LF,explicit physical-file-page markers",
+          "characters": 50888,
+          "body_characters": 48027,
+          "sha256": "d09b134691aae183e6d803afd4ca23969073794a46490b340d0c75d72f90d492",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true
+        },
+        "source_sha256": "547cd9331edbb34a61e9f6eef3218fbaa9c89db850fdb1aefbd25a3a9204bcdb",
+        "all_current_native_text_read": true,
+        "current_file_provided_text_complete": true,
+        "original_publication_complete": null,
+        "OCR_run": false,
+        "all_distinct_nonprivate_content_images_reviewed": true,
+        "visually_read_pages": 8,
+        "unread_current_native_characters": 0,
+        "next_file_page": null,
+        "next_character": null,
+        "source_quality_notes": [
+          "当前70页包括六章、封面目录及结束分享页，均已顺序读至末尾；无单独正文图片。原始出版物与译本完整性未外部核查。",
+          "唯一栅格资源经单独提取目读为空白横条，不含新增正文；推广页脚为文字。图形路径均为填充矩形，未检出正文图表。",
+          "正文含译注、错字、代词与语序混淆及重复段落，未静默补义；作者叙述与译者对其他方法的归类分开。",
+          "旧初筛49908字符/正文48002与本轮50888/48027不同，各用自身坐标；未冒认同一文本流。",
+          "明确拒绝即停与忽略反感等段落相互矛盾，已分别审阅；采用停止原则，不把支配、羞辱、造假、灌醉或规避拒绝写成操作。",
+          "作者经历、统计比例、心理机制、法律与健康叙述未独立核实，不作为专业依据，不执行源文的邮件订阅、分享或联系指令。"
+        ]
+      }
     },
     {
       "index": 52,
