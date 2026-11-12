@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "baseline_commit": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+  "work_type": "system_maintenance_no_book_reading",
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 36,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 50,\n  \"book_not_started\": 67,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_*.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 4.950s\n\nOK\n"
+    }
+  ],
+  "structural": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 50,
+    "book_not_started": 67,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest_methods": 63,
+  "new_unittest_methods": 15,
+  "synthetic_routing_scenarios": 158,
+  "stdin_integration_checks": [
+    {
+      "case": "multi_bubble_verified_question",
+      "exit_code": 0,
+      "route": "R18",
+      "action": "draft"
+    },
+    {
+      "case": "expression_feedback_retained",
+      "exit_code": 0,
+      "route": "R18",
+      "action": "draft"
+    },
+    {
+      "case": "second_revision_keeps_previous_constraints",
+      "exit_code": 0,
+      "route": "R18",
+      "action": "draft"
+    },
+    {
+      "case": "already_sent_never_reopened_by_revision",
+      "exit_code": 0,
+      "route": "R04",
+      "action": "hold"
+    },
+    {
+      "case": "confirmed_arrangement_review_allows_no_adjustment",
+      "exit_code": 0,
+      "route": "R09C",
+      "action": "hold"
+    },
+    {
+      "case": "revision_cannot_resolve_unverified_content",
+      "exit_code": 0,
+      "route": "R00T",
+      "action": "clarify"
+    }
+  ],
+  "preserved_file_sha256": {
+    "system/sources.json": "8cbdb6f6ad344a542e937f69ec32155b2f1ba6434858a01b9ed084dc584801eb",
+    "knowledge/provenance/source_inventory.json": "b2f6fc70b23294600619d82cf39c8df38040f100c9d38db0f3656ce93fdf7128",
+    "tests/synthetic_scenarios.json": "4e6586837dbbf4ac597312ca0ab9eb6623af9006243bf935027f540ac0d3c30d",
+    "system/methods.json": "ce8bd6c2d90619712d27b6e0b42e01ba3407926a0816b9d96a9a30e625212a4e",
+    "system/knowledge_map.json": "59b5b66ac58829e5f8a876e36b610a61dbac4e5532e34d9a418c8b64e29ccca9"
+  },
+  "preserved_existing_provenance_files": 184,
+  "preserved_state_fields": [
+    "reading_bookmark",
+    "progress_display",
+    "unfinished_file_queue",
+    "last_completed_reading_session",
+    "reading_policy"
+  ],
+  "previous_reading_session_preserved_in_history": true,
+  "new_book_files_completed": 0,
+  "new_book_characters_read": 0,
+  "new_book_pages_read": 0,
+  "reading_ratio": "50/119",
+  "B017_user_accepted_scope_exception_retained": true,
+  "reading_bookmark_unchanged": true,
+  "next_file_page": 132,
+  "unfinished_file_queue": [
+    "B039",
+    "B045"
+  ],
+  "limits": [
+    "No image recognition or natural-language generation by CLI",
+    "Expression constraints require the assistant to implement them",
+    "No semantic truth, psychological mechanism or dating outcome verification",
+    "Flat legacy inputs still require explicit reader verification of sent direction"
+  ],
+  "private_chats_or_case_state_saved": false
+}

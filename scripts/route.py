@@ -100,15 +100,19 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
         supplied = dict(facts)
         screens = supplied.pop('screens')
         links = supplied.pop('screen_links', [])
+        reply_to_id = supplied.pop('reply_to_id', None)
+        if 'reply_to_id' in facts and (type(reply_to_id) is not int or reply_to_id < 1):
+            raise ValueError('reply_to_id must be a positive bubble ID')
         validate_fact_values(supplied, config)
         if BUBBLE_FIELDS.intersection(supplied):
             raise ValueError('With screens, put current-bubble observations on their sent bubble')
-        current, window = resolve_screens(screens, config, links)
+        current, window = resolve_screens(screens, config, links, reply_to_id)
         # An explicitly cropped/missing tail is outside the annotated views.
         reported_gap = supplied.get('turn_gap', 'none')
         if reported_gap != 'none':
             current = {'turn_gap': reported_gap, 'latest_sender': 'unknown', 'pending_reply': False}
-            window.update(last_id=None, turn_gap=reported_gap, latest_sender='unknown')
+            window.update(last_id=None, turn_gap=reported_gap, latest_sender='unknown',
+                          current_turn_ids=[], reply_to_id=None)
         supplied.update(current)
     observations = normalize(supplied, config)
     if type(apply_action_goal) is not bool:

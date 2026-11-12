@@ -30,15 +30,18 @@ class ScreenWindow(unittest.TestCase):
         for order in permutations(views):
             result = brief({'screens': list(order), 'pending_reply': True, 'latest_sender': 'user'})
             self.assertEqual(result['screen_window'], {'last_id': 2, 'latest_sender': 'other',
-                                                       'distinct_sent': 3, 'turn_gap': 'none'})
+                                                       'distinct_sent': 3, 'turn_gap': 'none',
+                                                       'current_turn_ids': [4, 2], 'reply_to_id': 2})
             self.assertEqual(result['decision']['route_id'], 'R18')
             self.assertEqual(set(result['fact_adjustments']), {'latest_sender', 'pending_reply'})
             self.assertEqual(result['output_contract']['recipient'], 'other')
 
-    def test_only_the_final_bubbles_observations_are_used(self):
+    def test_earlier_same_turn_request_is_not_silently_erased(self):
         old = bubble(1, 'other', function='advice_request', advice_requested=True)
         for last, route in [(bubble(2, 'other'), 'R28'), (bubble(2, 'other', function='closing'), 'R13C')]:
-            result = brief({'screens': [[old, {'kind': 'quote'}, last, {'kind': 'notice'}]]})
+            screens = [[old, {'kind': 'quote'}, last, {'kind': 'notice'}]]
+            self.assertEqual(brief({'screens': screens})['decision']['route_id'], 'R00T')
+            result = brief({'screens': screens, 'reply_to_id': 2})
             self.assertEqual(result['decision']['route_id'], route)
             self.assertEqual(result['screen_window']['distinct_sent'], 2)
         views = [[bubble(1, 'other'), bubble(2, 'other')], [bubble(9, 'other'), bubble(2, 'other')]]

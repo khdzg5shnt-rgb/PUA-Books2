@@ -5,6 +5,7 @@ import json
 import re
 
 from knowledge import ROOT, resolve_reference
+from draft_revision import plan_revision
 from route import select_route
 from runtime_io import read_request
 from search_knowledge import search
@@ -37,7 +38,7 @@ def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=Fal
 
 
 def _select_case(request, case_key):
-    allowed = {'task', 'facts', 'cases', 'case_key', 'candidate', 'focus'}
+    allowed = {'task', 'facts', 'cases', 'case_key', 'candidate', 'focus', 'revision'}
     if not isinstance(request, dict) or set(request) - allowed:
         raise ValueError('Use task, facts, or one explicitly selected case')
     if 'cases' in request:
@@ -61,6 +62,7 @@ def _clarification(facts, decision):
             'order': '这几条里，最后发出去的是哪一句？',
             'sender': '最后一条已发消息是谁发的？',
             'missing': '最近一条已经发出去的消息是什么？',
+            'content': '她这几条里，当前还需要回答哪一句？',
         }[decision['turn_gap']]
         return {'field': 'turn_gap', 'question': question}
     if route_id == 'R00S':
@@ -97,6 +99,14 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
             source = resolve_reference(hits[0], root)
             retrieval['mode'] = 'focused_cited_source'
     contract = dict(tasks[selected_task])
+    revision = None
+    if 'revision' in request:
+        selected_case = (case_key if case_key is not None else request.get('case_key')) \
+            if 'cases' in request else None
+        revision = plan_revision(request['revision'], task=selected_task,
+                                 action=decision['action'], selected_case=selected_case)
+        if revision['applied'] and 'no_question' in revision['constraints']:
+            contract['max_questions'] = 0
     contract['recipient'] = ('other' if selected_task == 'reply' and
                              decision['action'] == 'draft' else 'user')
     if decision['action'] == 'clarify':
@@ -121,9 +131,11 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         'current_limits': decision['current_limits'],
         'fact_adjustments': decision['fact_adjustments'],
         'intent_adjustments': decision['intent_adjustments'],
-        'after_this_turn': '只依据实际新回复更新；不编后续，不自动补第二条或设置冷落倒计时',
+        'after_this_turn': '新消息才更新已发状态；未发草稿的表达反馈只修改措辞，不自动补第二条',
         'scope': '仅生成一个处理提纲；读图、事实裁决与自然语言由当前助手完成；不存储、不发送',
     }
+    if revision is not None:
+        result['draft_revision'] = revision
     if 'screen_window' in decision:
         result['screen_window'] = decision['screen_window']
     if decision['action'] == 'clarify':

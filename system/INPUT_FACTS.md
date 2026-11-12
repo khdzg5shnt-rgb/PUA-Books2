@@ -17,7 +17,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
 | `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
 | `latest_sender` | `"unknown"` | 最近一条已发送的双方消息：user、other或unknown；排除系统提示、引用与输入框草稿 |
-| `turn_gap` | `"none"` | 最近一条已发消息仍有具体缺口时使用。多图输入由图间顺序与发言人标记得出。 |
+| `turn_gap` | `"none"` | 已发消息的时序、方向、缺失内容或本轮待答内容仍待核；优先由助手读已有上下文解决。 |
 | `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
 | `necessary_new_logistics` | `false` | 未回期间确有独立必要的新事务，不能借机催问 |
 | `refusal_scope` | `"none"` | 当前明确拒绝的具体范围；不由语气、单字或旧标签推断 |
@@ -44,7 +44,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | 字段 | 可选值 |
 | --- | --- |
 | `latest_sender` | `unknown`, `user`, `other` |
-| `turn_gap` | `none`, `order`, `sender`, `missing` |
+| `turn_gap` | `none`, `order`, `sender`, `missing`, `content` |
 | `current_scope_relation` | `unknown`, `same`, `different` |
 | `refusal_scope` | `none`, `contact`, `physical`, `romance`, `activity`, `channel` |
 | `invitation` | `none`, `accepted`, `alternative`, `cancelled_with_repair`, `no_alternative`, `cancelled_without_repair`, `open_to_activity`, `settled`, `will_update` |
@@ -64,7 +64,11 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 在当前对象的 `facts` 中可附 `screens`。每个子列表按单张图里可见的先后排列。已发气泡使用正整数 `id` 和已核的 `sender`。编号大小没有时间含义。只给同一条已核气泡复用编号。草稿、旧引文、系统行可省略，也可仅记 `kind` 为 `draft`、`quote` 或 `notice`。不放原话、图片、昵称或账号。见[可运行的重叠截图示例](EXAMPLE_REQUEST.json)。
 
-当前对象、仍有效的边界和待处理安排放在外层。使用多图时，`function`、`closed_answer_complete`、`current_turn_low`、`advice_requested`、`urgent_practical_need`、`roleplay_shared`、`current_scope_relation` 写在所属已发气泡的 `facts` 中，可按需省略。执行时只取末条的这些字段。两张图里同一条气泡的补充标记可以合并；内容标注冲突时先回图复核。
+当前对象、仍有效的边界和待处理安排放在外层。使用多图时，`function`、`closed_answer_complete`、`current_turn_low`、`advice_requested`、`urgent_practical_need`、`roleplay_shared`、`current_scope_relation` 写在所属已发气泡的 `facts` 中，可按需省略。两张图里同一条气泡的补充标记可以合并；不同气泡的事实不拼接，标注冲突时先回图复核。
+
+外层可给`reply_to_id`，表示助手核过原句后选定的本轮主内容。它与`last_id`不同：`last_id`只决定最新发送方向，`reply_to_id`只能选末个连续对方轮次里可证的已发气泡，不能选用户发言、未知发言人或已被用户回复隔开的旧轮。`screen_window.current_turn_ids`列出本轮可选编号。没有多图标注时不提供这个字段。
+
+默认主内容是末条；但同轮前面有问题、求助或紧要事务，后面改为补充、纠正、收尾等不同作用时，程序不能判断前一项是否已经撤回，会给`turn_gap=content`。助手先核上下文，明确选仍待答问题或后来的撤回/纠正，再运行。确实看不到关键原句且影响判断，才向用户补一项。编号只是当前窗口标记，不是消息内容或永久对象档案。
 
 无重叠但有明确日期、时间或用户已说明的先后关系，可在同一 `facts` 中给 `screen_links`，例如 `[[8, 3]]` 表示编号8的已发消息早于编号3。只比较上传顺序不能填写这条关系。同一批图可能有多个可行排序，只要末条唯一就能采用。单图或上下文已清楚时直接走原有平面字段即可；直接填字段而末句不清时用 `turn_gap` 标明缺口。
 
@@ -81,5 +85,24 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 可选candidate是一条待核草稿，结果不回显草稿。不要加入原句、姓名、账号、截图、地址或对象身份字段；需要保留的上下文只在当前对话核对。stdin不会把请求保存到仓库；手动创建私人输入文件也不得提交。
 
 可选`focus`是至多160字符的检索短词组，由助手按当前内容需要使用，不是另一个事实字段。它只在已选主方法的引用文件里缩小到一个段落；不改变主方法或行动。无需检索时省略或给空字符串，不填null；未命中保留首选，结果不回显词组。不要用它放聊天原文或个人信息。
+
+### 修改同一条未发草稿
+
+`revision`是请求层的可选字段，不是聊天事实。只用于`task=reply`且助手已核草稿尚未发送；修改后仍只交付一个版本。
+
+```json
+{"draft_state":"unsent","retained":["no_teasing"],"requested":["shorter","plain"]}
+```
+
+| 约束代码 | 当前草稿的要求 |
+| --- | --- |
+| `shorter` | 再简短一些，保留必要信息 |
+| `plain` | 日常说法，去掉文案腔 |
+| `no_teasing` | 本条不用调侃或角色玩笑 |
+| `no_question` | 本条不追加问题 |
+
+`retained`沿用同一草稿已确认的要求；`requested`是本次新增要求；用户明确取消某项时用`released`列出，不能同时新增和取消同一项。使用`cases`时，revision还必须带与当前所选对象一致的`case_key`，换对象不能沿用。助手负责核对是否确为同一条未发草稿，程序不会保存历史或自动识别这一点。
+
+结构化入口只合并约束，不改变原事实和路由；等待、停止或核对优先，不能借修改草稿补发。`no_question`会收紧现有问号检查；短不短、自然与否、是否还有调侃、是否真实仍须人工判断，不是自动语言评测。原话、候选成品和身份留在当前对话，不加入上述结构，也不提交公开仓库。
 
 示例见[EXAMPLE_REQUEST.json](EXAMPLE_REQUEST.json)，完整流程见[RUNBOOK.md](RUNBOOK.md)。

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B039_scan_review_next_file_page132",
-  "status": "reading",
-  "base_commit": "4386c785be00515acd4856ea5ec0f0a32b33a02b",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 3,
+  "current_focus": "bk_system_maintenance_complete",
+  "status": "maintenance_complete_reading_paused",
+  "base_commit": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B039_first_chapter_scan_review_2026-11-12.md",
-  "validation": "knowledge/provenance/B039_first_chapter_scan_review_validation_2026-11-12.json",
+  "report": "knowledge/provenance/OS_turn_and_revision_2026-11-12.md",
+  "validation": "knowledge/provenance/OS_turn_and_revision_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B039",
     "path": "冷眼观爱2 - 冷爱.pdf",
@@ -307,1536 +307,31 @@
     "start": "只读B039。全部OCR输出已有读取；本次新增核补102个原页，累计143/380个原页已查看，连续前缀至131页。下一从132页接续，剩237页，不重复计算OCR。",
     "next_content_unit": "Continue B039 at physical file page132. First131 original pages have been inspected, plus12 previously checked later pages.237 source-page layouts remain unreviewed; source scan degradation is not treated as restored text. Do not open B045 or new books."
   },
-  "next_work": "Only B039: continue remaining original scan review from physical file page132. B045 and all new files remain waiting.",
+  "next_work": "Reading is paused for this maintenance round. When user resumes reading, continue only B039 from physical file page132; B045 and all new files remain waiting.",
   "current_session_progress": {
-    "baseline": "f79323df956a8b4fe56233283ac97bcfcc7f8717",
-    "work_type": "explicit_user_B017_scope_closure_then_serial_reading",
+    "baseline": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+    "work_type": "system_maintenance",
     "new_book_files_started": [],
-    "new_book_files_completed": [
-      "B017",
-      "B036",
-      "B038"
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "source_records_unchanged": 158,
+    "reading_bookmark_unchanged": true,
+    "reading_statuses_unchanged": true,
+    "changes": [
+      "separate_last_sent_bubble_from_current_reply_target",
+      "retain_expression_constraints_for_one_unsent_draft",
+      "allow_review_without_unproved_user_adjustment"
     ],
-    "new_whole_book_files_actually_read": 2,
-    "user_accepted_scope_closure_ids": [
-      "B017"
-    ],
-    "new_native_characters_read": 0,
-    "new_unique_visual_pages": 0,
     "checks": {
-      "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B039_first_chapter_scan_review_validation_2026-11-12.json",
       "structural": true,
-      "unittest_methods": 48,
+      "unittest_methods": 63,
+      "new_unittest_methods": 15,
       "synthetic_routing_scenarios": 158,
-      "source_identity_and_render_hashes": true,
-      "bookmarks_equal": true
-    },
-    "actually_completed_file_ids": [
-      "B036",
-      "B038"
-    ],
-    "per_file_image_completion": {
-      "B036": {
-        "id": "B036",
-        "path": "人妻约会指南.pdf",
-        "source_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
-        "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
-        "bytes": 2994034,
-        "file_pages": 97,
-        "target_pages": [
-          3,
-          8,
-          9,
-          10,
-          35,
-          40,
-          69,
-          70,
-          77,
-          93,
-          94,
-          95,
-          96,
-          97
-        ],
-        "page_reviews": [
-          {
-            "file_page": 3,
-            "render_file": "p003.png",
-            "render_sha256": "807c63a4f28fb5ca6795ab4eaf56614f53be021ed2bb786d788da84df1fb674f",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 25,
-                "width": 505,
-                "height": 637,
-                "source_image_sha256": "d11cb2347092170222dba905c1622d977924385faea9effe18284576f1d69456"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 8,
-            "render_file": "p008.png",
-            "render_sha256": "7bbbabfdc8f14792b567a259422d5c42a0fc3f2eb3ef9e40f3f031631f663efb",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 107,
-                "width": 504,
-                "height": 468,
-                "source_image_sha256": "56c63597bfaccd7b8c9b364a0f222abaa07bf7cdbfd4977c226f05936664d40d"
-              },
-              {
-                "xref": 108,
-                "width": 720,
-                "height": 960,
-                "source_image_sha256": "6ed1d2d785e6246f999f83c5d56ced6eb482aadfb905891fb459968215f66eda"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 9,
-            "render_file": "p009.png",
-            "render_sha256": "82f14f7441819e7597bd9fcd02c29d190b93f8fdabed74bfae16319dcacd50cc",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 112,
-                "width": 1448,
-                "height": 896,
-                "source_image_sha256": "c1debf23b92b95d77c9c8a77fa85660c6b028702e0d91f7f9a436cbdb8426bb7"
-              },
-              {
-                "xref": 113,
-                "width": 1170,
-                "height": 691,
-                "source_image_sha256": "4d0e7c25b5d126ff6ba12a0cd93cf27764bffd98cd9811b1773d9789bb6e08e4"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 10,
-            "render_file": "p010.png",
-            "render_sha256": "28b78b3e197f967a225ef2e47d21542d4a1c1874d3be4573de39eae80303864c",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 117,
-                "width": 540,
-                "height": 719,
-                "source_image_sha256": "387e243c4051bbf35317bdaa31cece009c88b44a28095ae13415e842d198526b"
-              },
-              {
-                "xref": 118,
-                "width": 960,
-                "height": 1280,
-                "source_image_sha256": "58a23e94b3148cf9b60c58b82f1eb1bd3b39323c385513faae4811610c1dcd9a"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 35,
-            "render_file": "p035.png",
-            "render_sha256": "9f1e30bd461738e583d697f493dc703fbe20bbe51db907b221dff764f09dfe70",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 229,
-                "width": 575,
-                "height": 202,
-                "source_image_sha256": "bd6bd0d8081f4d8d0bc111db8fb5c58067d460f5357d01c689451eede4ff5877"
-              },
-              {
-                "xref": 230,
-                "width": 1154,
-                "height": 821,
-                "source_image_sha256": "55d075d05e22dfc0403a1c96db4adcbe27f774344072b6ffd932fc55c61763a1"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 40,
-            "render_file": "p040.png",
-            "render_sha256": "6274d9fdf1de15b0fe4f320a3294e659b1a3b14481bf1dd9a0e483264d3e3819",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 251,
-                "width": 460,
-                "height": 552,
-                "source_image_sha256": "df32a2b63c91edb5999e976f9d50c9c3bfa50618e9612bd22cf2e1c9aebbdcc5"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 69,
-            "render_file": "p069.png",
-            "render_sha256": "80ab8ccc87a6106830ba2c3eb2cb762e4601c0306efe5e77691cae1308821ba1",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 361,
-                "width": 531,
-                "height": 800,
-                "source_image_sha256": "f71ec4df57eee1a4e48c53ac65793efa81016f625fc6056b6c1052984bb8e692"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 70,
-            "render_file": "p070.png",
-            "render_sha256": "250b5d0f8b09a73e9dc2071ebec6b005debbc36912889446696d10a3531d41d2",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 366,
-                "width": 434,
-                "height": 507,
-                "source_image_sha256": "76ffa4ddd0c7f29917ab2277e92f841f31505cddd06c7e508ee01b65b50a7555"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 77,
-            "render_file": "p077.png",
-            "render_sha256": "ea61c88f4383017cd985da92e15342f9424110de19fd739eb9a39a86f58ca310",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 399,
-                "width": 1406,
-                "height": 1275,
-                "source_image_sha256": "1a32c2d46254c27903286462a1395f84178aec2b2ef2489fdc832e98af038ce7"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 93,
-            "render_file": "p093.png",
-            "render_sha256": "c8ef0be7bdcfc830dec864d3f59ff7f8d846580ece4b42e29ae6bb4931b22856",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 454,
-                "width": 440,
-                "height": 330,
-                "source_image_sha256": "9275369835ce5d2aea717741e00183c21be9964ea21d2933fd66a7c0069e7448"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 94,
-            "render_file": "p094.png",
-            "render_sha256": "2a97edbdd38017140f2f26d68220ce1baf147e6554cd9514b5c65aac8145a73c",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 458,
-                "width": 299,
-                "height": 168,
-                "source_image_sha256": "7d59aa69919cc4891cae2e8df44901cc680110e5f2bb4c2ab0dfc7da9771f2d0"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 95,
-            "render_file": "p095.png",
-            "render_sha256": "50d4f2b047662e77458ca2fb9cc2a7e6f881ce5eae5d9526ceda74c5c9f31dc6",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 462,
-                "width": 275,
-                "height": 183,
-                "source_image_sha256": "ada17c44e29d4a6b4cdf377603831e5f94024a1ecbb6b22fee042e610269842b"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 96,
-            "render_file": "p096.png",
-            "render_sha256": "0c039394ca49c6c2fb1d3cc885292e29e3e85cd2cdfba7c983c405a50b2615d8",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 466,
-                "width": 225,
-                "height": 225,
-                "source_image_sha256": "84b763a9b7cf92b676ca97d1e82dc492c8467b665e6bc4f6245258621d9580f6"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          },
-          {
-            "file_page": 97,
-            "render_file": "p097.png",
-            "render_sha256": "8211cc3b9a6ff1ec57ee5f5133f962cee27cb1e9bde1ab0db480cd6d415f1f2b",
-            "width": 360,
-            "image_objects": [
-              {
-                "xref": 470,
-                "width": 197,
-                "height": 256,
-                "source_image_sha256": "fc671e9f3afa1dcaace3d03253b8a2f46a1950cad2f88598ba3c65e3b1ed8901"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
-          }
-        ],
-        "new_native_characters_read": 0,
-        "all_target_images_actually_read": true,
-        "image_page_count": 14,
-        "image_object_occurrences": 18,
-        "source_images_uploaded": 0,
-        "private_case_summaries_saved": 0
-      },
-      "B038": {
-        "id": "B038",
-        "bytes": 3825636,
-        "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
-        "source_sha256": "43a1b7c1acccc5997c8696e43fcfa64377dd5195520e6573833ef2a52ec83740",
-        "total_package_image_assets": 81,
-        "already_read_assets": [
-          "cover00110.jpeg",
-          "image00112.jpeg",
-          "image00163.jpeg",
-          "image00164.jpeg"
-        ],
-        "remaining_assets": [
-          {
-            "package_path": "OEBPS/Images/image00113.jpeg",
-            "file": "image00113.jpeg",
-            "width": 363,
-            "height": 616,
-            "sha256": "3e146796694f4e83fad6024ff0c12e01fa76551dfc275bfb5b99600bf32d431a",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00114.jpeg",
-            "file": "image00114.jpeg",
-            "width": 340,
-            "height": 628,
-            "sha256": "950afc9c1e7e30261ff419849925c13282c23f3c20a92dda7cd533e264809a26",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00115.jpeg",
-            "file": "image00115.jpeg",
-            "width": 467,
-            "height": 466,
-            "sha256": "decaad0914f5fd643679cab8f96f4d0831ab49c17e6c70fe100b5870fe7ccebd",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00116.jpeg",
-            "file": "image00116.jpeg",
-            "width": 365,
-            "height": 483,
-            "sha256": "e825429c49c3953a0eb427b0a6693a35e51a8e87348b8c2b9f817e7486a73752",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00117.jpeg",
-            "file": "image00117.jpeg",
-            "width": 354,
-            "height": 492,
-            "sha256": "aeba1a4c7bbd6cc8642fe86bb65008d83c2d687d29b8b0d36217c2a4e04ce1c5",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00118.jpeg",
-            "file": "image00118.jpeg",
-            "width": 370,
-            "height": 484,
-            "sha256": "a06815474511dcb773fe45ce2113afe2dd7d6b4314ea230a100cb90379b88154",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00119.jpeg",
-            "file": "image00119.jpeg",
-            "width": 343,
-            "height": 482,
-            "sha256": "765143a4ca7a679ce0faca61346056dbf8f78670421811f055b2de17551bfee4",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00120.jpeg",
-            "file": "image00120.jpeg",
-            "width": 369,
-            "height": 502,
-            "sha256": "e1d5b3469ccab8ded427bf96aad433c0ff6ce979cd3f6e1775067fa27f8a1fc8",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00121.jpeg",
-            "file": "image00121.jpeg",
-            "width": 381,
-            "height": 495,
-            "sha256": "e8eec7c5cf8a95321a594da215ffd15ff1f573926de7ac2e0fc7c333a79e9d43",
-            "spine_references": [
-              {
-                "spine_index": 10,
-                "xhtml": "OEBPS/Text/part0008.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00122.jpeg",
-            "file": "image00122.jpeg",
-            "width": 724,
-            "height": 636,
-            "sha256": "cde4fdd37768e8f48aaaea336495dc7a91b841f8533c862a480de1c4a099cb72",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00123.jpeg",
-            "file": "image00123.jpeg",
-            "width": 749,
-            "height": 640,
-            "sha256": "eabce954d3a0610d53828f6d0eb56bbf8fcb6aabd4e4a196bbc27c4b6e273107",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00124.jpeg",
-            "file": "image00124.jpeg",
-            "width": 802,
-            "height": 589,
-            "sha256": "6b309e7583430ae65a11621e66bfc850507ee2d9ec2177efca4f3d1b3b9420e8",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00125.jpeg",
-            "file": "image00125.jpeg",
-            "width": 303,
-            "height": 325,
-            "sha256": "afea5b0e9382dfa0a1d10173e0dc6fb702f554534ecc0ddda0ba1de0504cc89a",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00126.jpeg",
-            "file": "image00126.jpeg",
-            "width": 270,
-            "height": 307,
-            "sha256": "8377ce637e0f5c176ac18f405a0917b0dba4dbd9937a92ddfdbcbb6d0888bc33",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00127.jpeg",
-            "file": "image00127.jpeg",
-            "width": 283,
-            "height": 309,
-            "sha256": "f72d781ac1dc22250f5e3497de520caf3bd9d0b1fd5caa26a08afc13df2ff7b9",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00128.jpeg",
-            "file": "image00128.jpeg",
-            "width": 650,
-            "height": 438,
-            "sha256": "8551dbd90e3312ee70533e8fb6e42a9041e76e3c7e63da8a16a76167e65eb6eb",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00129.jpeg",
-            "file": "image00129.jpeg",
-            "width": 309,
-            "height": 535,
-            "sha256": "f5cff58b2ffd6aa3932272e1a3139fd03866f81ec87415fe03729ceb79eb2778",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00130.jpeg",
-            "file": "image00130.jpeg",
-            "width": 289,
-            "height": 542,
-            "sha256": "3789fdf9aabbc44a5623074fa30d872d7959cac0fa96a8e25e775946d4d95195",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00131.jpeg",
-            "file": "image00131.jpeg",
-            "width": 319,
-            "height": 518,
-            "sha256": "ef63cfba22f52aa65e10199bbc6603c8cfba7863c8c6af891e173bc57ff35ffd",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00132.jpeg",
-            "file": "image00132.jpeg",
-            "width": 298,
-            "height": 529,
-            "sha256": "9084f6a1080f8c683088dcba78bea7da12118bfb1ea000869e3cd304dae06cac",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00133.jpeg",
-            "file": "image00133.jpeg",
-            "width": 298,
-            "height": 527,
-            "sha256": "8ca86a8d62060a37951d85b3424a944a430e969d7285c19ff4bc79ba4e93fe18",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00134.jpeg",
-            "file": "image00134.jpeg",
-            "width": 286,
-            "height": 526,
-            "sha256": "d747d510aacfb0d8caf94b38e98c968cb809b09ff749f8608821c14c0c5d7a84",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00135.jpeg",
-            "file": "image00135.jpeg",
-            "width": 300,
-            "height": 525,
-            "sha256": "66111fb2ec41e04404f2c3fff028f2192cdc06abd4baacfa3a1db3f40d121558",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00136.jpeg",
-            "file": "image00136.jpeg",
-            "width": 287,
-            "height": 529,
-            "sha256": "b6079713cf1c61b80eae55a718a10bc81b81beadc073416ebb3876333026932c",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00137.jpeg",
-            "file": "image00137.jpeg",
-            "width": 315,
-            "height": 527,
-            "sha256": "ab5100f2c51aabb94345a1c47914abebd935bd7c46c78b50c46347c567676c67",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00138.jpeg",
-            "file": "image00138.jpeg",
-            "width": 294,
-            "height": 527,
-            "sha256": "f55578a68fe3f349ff21a442bf37cfcf4192d1742ec1198232625d35d019d7de",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00139.jpeg",
-            "file": "image00139.jpeg",
-            "width": 304,
-            "height": 525,
-            "sha256": "2b9621f05e4beb48c26c28ec75130edfe802a65c8a1a13cdc858d026264a1cff",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00140.jpeg",
-            "file": "image00140.jpeg",
-            "width": 302,
-            "height": 523,
-            "sha256": "1b944b8c404d73f2eb3460d794d8e6300a91886406eff869ab4ec40f6bacc326",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00141.jpeg",
-            "file": "image00141.jpeg",
-            "width": 307,
-            "height": 530,
-            "sha256": "517be7c5e80e804089d982cf62a6521bf49fcf87e0f4eb1b1904ea831dc8a990",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00142.jpeg",
-            "file": "image00142.jpeg",
-            "width": 296,
-            "height": 525,
-            "sha256": "77e72a5bf104354b0aa315fea583ba869a209176ee39f6721df9f6322dc9c494",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00143.jpeg",
-            "file": "image00143.jpeg",
-            "width": 311,
-            "height": 529,
-            "sha256": "c79bc5a1d795aec890c441a9d4b156b15dcd5d5be6f09bab4a6a5100a1297880",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00144.jpeg",
-            "file": "image00144.jpeg",
-            "width": 310,
-            "height": 519,
-            "sha256": "05d9b2c8449ba84cb1dcc86b706c51188afaac4f216d960ff81df01e112ea749",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00145.jpeg",
-            "file": "image00145.jpeg",
-            "width": 295,
-            "height": 510,
-            "sha256": "a91c5866a87396f1afa07d5be112a4c03e4648e181b47308a5d76ef59466c5bd",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00146.jpeg",
-            "file": "image00146.jpeg",
-            "width": 291,
-            "height": 527,
-            "sha256": "40f8850720022ac7e719e812d6a461d5de8ffb9347b35f18dd0e452a311d2611",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00147.jpeg",
-            "file": "image00147.jpeg",
-            "width": 294,
-            "height": 520,
-            "sha256": "95e8a17c13c0204b5e7e409dc6073c72f1e378ae151963bcbfbacbff31e5578b",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00148.jpeg",
-            "file": "image00148.jpeg",
-            "width": 293,
-            "height": 525,
-            "sha256": "c6f7686275953ed7e4ca441b7ffac4aef29c620b41ee7d14e404d65a817e1c7d",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00149.jpeg",
-            "file": "image00149.jpeg",
-            "width": 367,
-            "height": 636,
-            "sha256": "c3c8a15b99f0e5a7547557901e0b78c883aa307d75b5c66a5af738af0e94d94b",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00150.jpeg",
-            "file": "image00150.jpeg",
-            "width": 359,
-            "height": 635,
-            "sha256": "98b8ef75142132ad6fbcd785545e12cd9924c91051551a0c1ed79143e674073e",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00151.jpeg",
-            "file": "image00151.jpeg",
-            "width": 310,
-            "height": 521,
-            "sha256": "a928d57af8d63788c01fa706d16cb4498159396429cf29e2eb39761f84236bbc",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00152.jpeg",
-            "file": "image00152.jpeg",
-            "width": 302,
-            "height": 512,
-            "sha256": "c5ad77fa140ac069c5e744f4272710cd557f405802292a128d502a0a5fba9de9",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00153.jpeg",
-            "file": "image00153.jpeg",
-            "width": 299,
-            "height": 515,
-            "sha256": "c22302561df6911faced4db0dec28e68fb42a52091434840649abf2c1daad40f",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00154.jpeg",
-            "file": "image00154.jpeg",
-            "width": 298,
-            "height": 516,
-            "sha256": "d220cd8abebaba54938ad59d804fd45407684075c22645a68ccb50484e6b6acd",
-            "spine_references": [
-              {
-                "spine_index": 11,
-                "xhtml": "OEBPS/Text/part0009.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00155.jpeg",
-            "file": "image00155.jpeg",
-            "width": 277,
-            "height": 475,
-            "sha256": "9b73688d8b33bd06ff2f5455e38b7076feb737e2d52c4357edd4df93c93ec2d1",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00156.jpeg",
-            "file": "image00156.jpeg",
-            "width": 264,
-            "height": 488,
-            "sha256": "877525f3897f899874bf341809b5efed70d70b17f9f1ded14fc1c3954f761963",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00157.jpeg",
-            "file": "image00157.jpeg",
-            "width": 273,
-            "height": 488,
-            "sha256": "a87a29f126e1c90e8caa101a66fca973deee224dec419b7637c8e72e155cb4c7",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00158.jpeg",
-            "file": "image00158.jpeg",
-            "width": 684,
-            "height": 1137,
-            "sha256": "1aba0aeda12d79f5dc35917459ae76ab96a587522b2df49df285d31b9402c497",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00159.jpeg",
-            "file": "image00159.jpeg",
-            "width": 853,
-            "height": 494,
-            "sha256": "3b092856612aebc44bd1cfbfaa4f9a60a7ca6333af7ccf8b66e38dd901603a84",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00160.jpeg",
-            "file": "image00160.jpeg",
-            "width": 710,
-            "height": 1164,
-            "sha256": "c8515ea8ad9dd506f9010953a40d1599f00b52ab7280c39caacc15de3df5db69",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00161.jpeg",
-            "file": "image00161.jpeg",
-            "width": 413,
-            "height": 664,
-            "sha256": "8984fdfca4d334d5441dda146649d3fa550bdd2d47f4085e3051f198daf32133",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00162.jpeg",
-            "file": "image00162.jpeg",
-            "width": 365,
-            "height": 665,
-            "sha256": "be24907dda494b4fbbb24353bc08705f731aa4ce28866df2468e21bee0e3177c",
-            "spine_references": [
-              {
-                "spine_index": 12,
-                "xhtml": "OEBPS/Text/part0010.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00165.jpeg",
-            "file": "image00165.jpeg",
-            "width": 385,
-            "height": 656,
-            "sha256": "6282c9608d7d8548cd3a73c7f088b5c03a31e20350cbf09c5435588384be55c3",
-            "spine_references": [
-              {
-                "spine_index": 15,
-                "xhtml": "OEBPS/Text/part0013.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00166.jpeg",
-            "file": "image00166.jpeg",
-            "width": 379,
-            "height": 662,
-            "sha256": "f6821f4d591029f86c8d1b70e3e67f5fb9e4eb97257258f86449872b90c35464",
-            "spine_references": [
-              {
-                "spine_index": 15,
-                "xhtml": "OEBPS/Text/part0013.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00167.jpeg",
-            "file": "image00167.jpeg",
-            "width": 919,
-            "height": 372,
-            "sha256": "5e685b8a9a24ece66d0b1d721e0bad867dc914bd956f35fef8168665c238a59a",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00168.jpeg",
-            "file": "image00168.jpeg",
-            "width": 807,
-            "height": 449,
-            "sha256": "a81fe20fec058144a78de40b7fd188113e6a83006e3c838410f51332c7d698f3",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00169.jpeg",
-            "file": "image00169.jpeg",
-            "width": 580,
-            "height": 554,
-            "sha256": "c83460328815acfe674560e6bcdc47c1dcf29addeb507ebfe936630287d223ca",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00170.jpeg",
-            "file": "image00170.jpeg",
-            "width": 1577,
-            "height": 594,
-            "sha256": "384d33fa1470d1f5db0b482dd5ffbb029fa5df04918f5569eea69b059bc64f63",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00171.jpeg",
-            "file": "image00171.jpeg",
-            "width": 628,
-            "height": 420,
-            "sha256": "242de53d3f3358e6a47d5644039b4da61bc9c0dd57d4f095e9ae3f049dcad84e",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00172.jpeg",
-            "file": "image00172.jpeg",
-            "width": 858,
-            "height": 487,
-            "sha256": "397368352f24aee85f655be94ae10abdd277e4ba53ff4655aefec3b7e1146261",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00173.jpeg",
-            "file": "image00173.jpeg",
-            "width": 575,
-            "height": 445,
-            "sha256": "dca81256b979cc2e4ef19affd6513c4b6aa9270228e80f2b9dcde1e01722e9e2",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00174.jpeg",
-            "file": "image00174.jpeg",
-            "width": 876,
-            "height": 485,
-            "sha256": "f498b1a8d74a13070499ad6ef3f27c0fc9018e09fb43c9f6bc1075a1c4f3ad14",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00175.jpeg",
-            "file": "image00175.jpeg",
-            "width": 499,
-            "height": 458,
-            "sha256": "35e8061aafe84442fa8fce1a820071a11537b9e251e5eecb9509f86cb2d05fed",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00176.jpeg",
-            "file": "image00176.jpeg",
-            "width": 488,
-            "height": 439,
-            "sha256": "20cfacbd76be5ce4a61e5211f970abb9e4f52fe07ac9e6296c08599442c5c4c7",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00177.jpeg",
-            "file": "image00177.jpeg",
-            "width": 847,
-            "height": 461,
-            "sha256": "1d52f7cb27aa23dc10576ba0ff02a5431f8f1c35ccfe5b08aa53266753634f8c",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00178.jpeg",
-            "file": "image00178.jpeg",
-            "width": 692,
-            "height": 629,
-            "sha256": "499537db79d40123e591e2043f01a2cee1ad776ea40b94802bb37760e0e05543",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00179.jpeg",
-            "file": "image00179.jpeg",
-            "width": 898,
-            "height": 1051,
-            "sha256": "d0d812223abaf33f2dad00215254082422615a67688a7d2f75e136d9b6fe5d6a",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00180.jpeg",
-            "file": "image00180.jpeg",
-            "width": 960,
-            "height": 1187,
-            "sha256": "11cb3cb528a8901b3946224a7c71bac8de4c0bf2cebb5ab0843242bc3881b26a",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00181.jpeg",
-            "file": "image00181.jpeg",
-            "width": 838,
-            "height": 1120,
-            "sha256": "e75f9e86fcc697dab47633b2ee8851b4a9db497b02aa0c7ac65d4c201e3ea0c9",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00182.jpeg",
-            "file": "image00182.jpeg",
-            "width": 885,
-            "height": 560,
-            "sha256": "d62c2966f917e93cd5bc68da900fbfdea38627bd3eb281f7c50d70b74ed84313",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00183.jpeg",
-            "file": "image00183.jpeg",
-            "width": 256,
-            "height": 408,
-            "sha256": "f9a209409c0b02dc08561a5c18a73d54ca5540b8a925d071113a20c6a2ccfc2f",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00184.jpeg",
-            "file": "image00184.jpeg",
-            "width": 250,
-            "height": 418,
-            "sha256": "0f31b30245363536f33fe72a63adae6c8317a188349556113d16a73e86a93d3c",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00185.jpeg",
-            "file": "image00185.jpeg",
-            "width": 255,
-            "height": 416,
-            "sha256": "2e14cc00a53209513cdf1996b5124b7b6e54e4ae44b32638b0790ecc4c584acb",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00186.jpeg",
-            "file": "image00186.jpeg",
-            "width": 241,
-            "height": 425,
-            "sha256": "4a249f1cf917d459bc43f8f018ebaf1cb983c279f33fc0357cb5e75a99e3757d",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00187.jpeg",
-            "file": "image00187.jpeg",
-            "width": 250,
-            "height": 428,
-            "sha256": "16913e7b50bb7914deea3f6610517229183d3303f25cc455c28eefc19950eb08",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00188.jpeg",
-            "file": "image00188.jpeg",
-            "width": 263,
-            "height": 444,
-            "sha256": "a39f3f783511a1904e5719a885a312039a67a7f9619d852ac1d3c9860f3236ef",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00189.jpeg",
-            "file": "image00189.jpeg",
-            "width": 276,
-            "height": 403,
-            "sha256": "f4b00173e6b366c5cd58c0a92c16a4827bbd29f4bd3405a7f64fdbf1ad98ebdf",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00190.jpeg",
-            "file": "image00190.jpeg",
-            "width": 255,
-            "height": 417,
-            "sha256": "c6cb6722c1f1f40dc5eb4ea1b33db4d3a09c702c7692b041a4d8c8a0a043ab2a",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          },
-          {
-            "package_path": "OEBPS/Images/image00191.jpeg",
-            "file": "image00191.jpeg",
-            "width": 253,
-            "height": 448,
-            "sha256": "804fd1311f7495dd4f052f4fc32bb4a8b28bb5da8547a583a4ae9028690d1731",
-            "spine_references": [
-              {
-                "spine_index": 17,
-                "xhtml": "OEBPS/Text/part0015.xhtml"
-              }
-            ],
-            "actually_read": true,
-            "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
-          }
-        ],
-        "new_native_characters_read": 0,
-        "all77_remaining_assets_actually_viewed": true,
-        "total81_assets_now_visually_reviewed": true,
-        "private_case_summaries_saved": 0,
-        "source_images_uploaded": 0,
-        "all_original_words_individually_verified": false,
-        "inset_external_publications_not_counted_as_additional_fulltexts": true,
-        "original_mosaics_cropping_and_thumbnail_detail_not_reconstructed": true,
-        "additional_viewed_crops": [
-          {
-            "evidence_name": "image00181_tl.png",
-            "sha256": "543ac619eea78625d7aaba3a28af7864dd13c6e0793cf882e02fa2c68f050f00",
-            "actually_viewed": true
-          },
-          {
-            "evidence_name": "image00181_tr.png",
-            "sha256": "baaf6c3a15b841fb243c08f2b7f3eea1e8209ab1fb577247d3b2417b33ac09d8",
-            "actually_viewed": true
-          },
-          {
-            "evidence_name": "image00181_bl.png",
-            "sha256": "f36bf089889dc05e6427e5abf4b3bc22a307b63da1e11125062134165112e865",
-            "actually_viewed": true
-          },
-          {
-            "evidence_name": "image00181_br.png",
-            "sha256": "90fc78fd5ba90b86dadb60765f1d629b4f0d9aaf86caa59879a9b50c61a9041a",
-            "actually_viewed": true
-          },
-          {
-            "evidence_name": "image00182_left.png",
-            "sha256": "7a68f1c50ffd46f59bc2cdbae8f554195ff1601c083f34c30a0db76d62c9a027",
-            "actually_viewed": true
-          },
-          {
-            "evidence_name": "image00182_right.png",
-            "sha256": "0f2cedf8f2bfc7593980c5fad138da382a48a743cb1d85c249a1a01b90634922",
-            "actually_viewed": true
-          }
-        ]
-      }
-    },
-    "B039_original_scan_review": {
-      "ledger": "knowledge/provenance/B039_first_chapter_scan_review_2026-11-12.json",
-      "new_unique_original_pages": 102,
-      "cumulative_original_pages": 143,
-      "contiguous_visual_prefix_last_page": 131,
-      "remaining_original_page_layouts": 237,
-      "next_file_page": 132,
-      "book_completed": false,
-      "new_OCR_characters_credited": 0
+      "original_158_scenarios_bytes_unchanged": true
     }
   },
   "last_reading_progress": {
@@ -1871,41 +366,34 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
-    "report": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
-    "validation": "knowledge/provenance/OS_screens_and_plans_validation_2026-11-12.json",
+    "base_commit": "a96fc829d15a7b40f3070085e29f373c01cb3985",
+    "report": "knowledge/provenance/OS_turn_and_revision_2026-11-12.md",
+    "validation": "knowledge/provenance/OS_turn_and_revision_validation_2026-11-12.json",
     "current_session_progress": {
-      "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+      "baseline": "a96fc829d15a7b40f3070085e29f373c01cb3985",
       "work_type": "system_maintenance",
+      "new_book_files_started": [],
       "new_book_files_completed": [],
       "new_book_characters_read": 0,
       "new_book_pages_read": 0,
       "methods": 26,
       "routes": 36,
       "task_modes": 5,
-      "changed_method_operations": [
-        "M15",
-        "M17"
-      ],
-      "changed_preferred_sections": [
-        "M15",
-        "M17",
-        "M18"
-      ],
-      "new_synthetic_scenarios": 26,
-      "total_synthetic_scenarios": 158,
       "source_records_unchanged": 158,
       "reading_bookmark_unchanged": true,
+      "reading_statuses_unchanged": true,
+      "changes": [
+        "separate_last_sent_bubble_from_current_reply_target",
+        "retain_expression_constraints_for_one_unsent_draft",
+        "allow_review_without_unproved_user_adjustment"
+      ],
       "checks": {
         "structural": true,
-        "unittest_methods": 48,
+        "unittest_methods": 63,
+        "new_unittest_methods": 15,
         "synthetic_routing_scenarios": 158,
-        "original_132_scenarios_preserved": true,
-        "new_scenarios_through_coach_cli": 26,
-        "manually_reviewed_existing_synthetic_images": 3,
-        "blind_visual_tests": 0
-      },
-      "changed_preferred_reference_targets": []
+        "original_158_scenarios_bytes_unchanged": true
+      }
     }
   },
   "earlier_reading_progress": {
@@ -4034,6 +2522,44 @@
           "blind_visual_tests": 0
         }
       }
+    },
+    {
+      "base_commit": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+      "report": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+      "validation": "knowledge/provenance/OS_screens_and_plans_validation_2026-11-12.json",
+      "current_session_progress": {
+        "baseline": "9f3f30ac45ca7691678ecc3edc360523ffd112fc",
+        "work_type": "system_maintenance",
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "methods": 26,
+        "routes": 36,
+        "task_modes": 5,
+        "changed_method_operations": [
+          "M15",
+          "M17"
+        ],
+        "changed_preferred_sections": [
+          "M15",
+          "M17",
+          "M18"
+        ],
+        "new_synthetic_scenarios": 26,
+        "total_synthetic_scenarios": 158,
+        "source_records_unchanged": 158,
+        "reading_bookmark_unchanged": true,
+        "checks": {
+          "structural": true,
+          "unittest_methods": 48,
+          "synthetic_routing_scenarios": 158,
+          "original_132_scenarios_preserved": true,
+          "new_scenarios_through_coach_cli": 26,
+          "manually_reviewed_existing_synthetic_images": 3,
+          "blind_visual_tests": 0
+        },
+        "changed_preferred_reference_targets": []
+      }
     }
   ],
   "last_completed_reading_session": {
@@ -4257,6 +2783,1537 @@
         "synthetic_routing_scenarios": 158,
         "source_image_hashes": true,
         "metadata_scope": true
+      }
+    },
+    {
+      "baseline": "f79323df956a8b4fe56233283ac97bcfcc7f8717",
+      "work_type": "explicit_user_B017_scope_closure_then_serial_reading",
+      "new_book_files_started": [],
+      "new_book_files_completed": [
+        "B017",
+        "B036",
+        "B038"
+      ],
+      "new_whole_book_files_actually_read": 2,
+      "user_accepted_scope_closure_ids": [
+        "B017"
+      ],
+      "new_native_characters_read": 0,
+      "new_unique_visual_pages": 0,
+      "checks": {
+        "status": "passed",
+        "reading_metadata_validation": "knowledge/provenance/B039_first_chapter_scan_review_validation_2026-11-12.json",
+        "structural": true,
+        "unittest_methods": 48,
+        "synthetic_routing_scenarios": 158,
+        "source_identity_and_render_hashes": true,
+        "bookmarks_equal": true
+      },
+      "actually_completed_file_ids": [
+        "B036",
+        "B038"
+      ],
+      "per_file_image_completion": {
+        "B036": {
+          "id": "B036",
+          "path": "人妻约会指南.pdf",
+          "source_sha256": "626ef62f0e4a976543a858ae2e3191902dcd53793faeb45f3b8a33f266ea5c5d",
+          "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+          "bytes": 2994034,
+          "file_pages": 97,
+          "target_pages": [
+            3,
+            8,
+            9,
+            10,
+            35,
+            40,
+            69,
+            70,
+            77,
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "page_reviews": [
+            {
+              "file_page": 3,
+              "render_file": "p003.png",
+              "render_sha256": "807c63a4f28fb5ca6795ab4eaf56614f53be021ed2bb786d788da84df1fb674f",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 25,
+                  "width": 505,
+                  "height": 637,
+                  "source_image_sha256": "d11cb2347092170222dba905c1622d977924385faea9effe18284576f1d69456"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 8,
+              "render_file": "p008.png",
+              "render_sha256": "7bbbabfdc8f14792b567a259422d5c42a0fc3f2eb3ef9e40f3f031631f663efb",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 107,
+                  "width": 504,
+                  "height": 468,
+                  "source_image_sha256": "56c63597bfaccd7b8c9b364a0f222abaa07bf7cdbfd4977c226f05936664d40d"
+                },
+                {
+                  "xref": 108,
+                  "width": 720,
+                  "height": 960,
+                  "source_image_sha256": "6ed1d2d785e6246f999f83c5d56ced6eb482aadfb905891fb459968215f66eda"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 9,
+              "render_file": "p009.png",
+              "render_sha256": "82f14f7441819e7597bd9fcd02c29d190b93f8fdabed74bfae16319dcacd50cc",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 112,
+                  "width": 1448,
+                  "height": 896,
+                  "source_image_sha256": "c1debf23b92b95d77c9c8a77fa85660c6b028702e0d91f7f9a436cbdb8426bb7"
+                },
+                {
+                  "xref": 113,
+                  "width": 1170,
+                  "height": 691,
+                  "source_image_sha256": "4d0e7c25b5d126ff6ba12a0cd93cf27764bffd98cd9811b1773d9789bb6e08e4"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 10,
+              "render_file": "p010.png",
+              "render_sha256": "28b78b3e197f967a225ef2e47d21542d4a1c1874d3be4573de39eae80303864c",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 117,
+                  "width": 540,
+                  "height": 719,
+                  "source_image_sha256": "387e243c4051bbf35317bdaa31cece009c88b44a28095ae13415e842d198526b"
+                },
+                {
+                  "xref": 118,
+                  "width": 960,
+                  "height": 1280,
+                  "source_image_sha256": "58a23e94b3148cf9b60c58b82f1eb1bd3b39323c385513faae4811610c1dcd9a"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 35,
+              "render_file": "p035.png",
+              "render_sha256": "9f1e30bd461738e583d697f493dc703fbe20bbe51db907b221dff764f09dfe70",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 229,
+                  "width": 575,
+                  "height": 202,
+                  "source_image_sha256": "bd6bd0d8081f4d8d0bc111db8fb5c58067d460f5357d01c689451eede4ff5877"
+                },
+                {
+                  "xref": 230,
+                  "width": 1154,
+                  "height": 821,
+                  "source_image_sha256": "55d075d05e22dfc0403a1c96db4adcbe27f774344072b6ffd932fc55c61763a1"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 40,
+              "render_file": "p040.png",
+              "render_sha256": "6274d9fdf1de15b0fe4f320a3294e659b1a3b14481bf1dd9a0e483264d3e3819",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 251,
+                  "width": 460,
+                  "height": 552,
+                  "source_image_sha256": "df32a2b63c91edb5999e976f9d50c9c3bfa50618e9612bd22cf2e1c9aebbdcc5"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 69,
+              "render_file": "p069.png",
+              "render_sha256": "80ab8ccc87a6106830ba2c3eb2cb762e4601c0306efe5e77691cae1308821ba1",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 361,
+                  "width": 531,
+                  "height": 800,
+                  "source_image_sha256": "f71ec4df57eee1a4e48c53ac65793efa81016f625fc6056b6c1052984bb8e692"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 70,
+              "render_file": "p070.png",
+              "render_sha256": "250b5d0f8b09a73e9dc2071ebec6b005debbc36912889446696d10a3531d41d2",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 366,
+                  "width": 434,
+                  "height": 507,
+                  "source_image_sha256": "76ffa4ddd0c7f29917ab2277e92f841f31505cddd06c7e508ee01b65b50a7555"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 77,
+              "render_file": "p077.png",
+              "render_sha256": "ea61c88f4383017cd985da92e15342f9424110de19fd739eb9a39a86f58ca310",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 399,
+                  "width": 1406,
+                  "height": 1275,
+                  "source_image_sha256": "1a32c2d46254c27903286462a1395f84178aec2b2ef2489fdc832e98af038ce7"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 93,
+              "render_file": "p093.png",
+              "render_sha256": "c8ef0be7bdcfc830dec864d3f59ff7f8d846580ece4b42e29ae6bb4931b22856",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 454,
+                  "width": 440,
+                  "height": 330,
+                  "source_image_sha256": "9275369835ce5d2aea717741e00183c21be9964ea21d2933fd66a7c0069e7448"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 94,
+              "render_file": "p094.png",
+              "render_sha256": "2a97edbdd38017140f2f26d68220ce1baf147e6554cd9514b5c65aac8145a73c",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 458,
+                  "width": 299,
+                  "height": 168,
+                  "source_image_sha256": "7d59aa69919cc4891cae2e8df44901cc680110e5f2bb4c2ab0dfc7da9771f2d0"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 95,
+              "render_file": "p095.png",
+              "render_sha256": "50d4f2b047662e77458ca2fb9cc2a7e6f881ce5eae5d9526ceda74c5c9f31dc6",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 462,
+                  "width": 275,
+                  "height": 183,
+                  "source_image_sha256": "ada17c44e29d4a6b4cdf377603831e5f94024a1ecbb6b22fee042e610269842b"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 96,
+              "render_file": "p096.png",
+              "render_sha256": "0c039394ca49c6c2fb1d3cc885292e29e3e85cd2cdfba7c983c405a50b2615d8",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 466,
+                  "width": 225,
+                  "height": 225,
+                  "source_image_sha256": "84b763a9b7cf92b676ca97d1e82dc492c8467b665e6bc4f6245258621d9580f6"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            },
+            {
+              "file_page": 97,
+              "render_file": "p097.png",
+              "render_sha256": "8211cc3b9a6ff1ec57ee5f5133f962cee27cb1e9bde1ab0db480cd6d415f1f2b",
+              "width": 360,
+              "image_objects": [
+                {
+                  "xref": 470,
+                  "width": 197,
+                  "height": 256,
+                  "source_image_sha256": "fc671e9f3afa1dcaace3d03253b8a2f46a1950cad2f88598ba3c65e3b1ed8901"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "All provided visible image content and surrounding page layout reviewed; private details not transcribed or archived."
+            }
+          ],
+          "new_native_characters_read": 0,
+          "all_target_images_actually_read": true,
+          "image_page_count": 14,
+          "image_object_occurrences": 18,
+          "source_images_uploaded": 0,
+          "private_case_summaries_saved": 0
+        },
+        "B038": {
+          "id": "B038",
+          "bytes": 3825636,
+          "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+          "source_sha256": "43a1b7c1acccc5997c8696e43fcfa64377dd5195520e6573833ef2a52ec83740",
+          "total_package_image_assets": 81,
+          "already_read_assets": [
+            "cover00110.jpeg",
+            "image00112.jpeg",
+            "image00163.jpeg",
+            "image00164.jpeg"
+          ],
+          "remaining_assets": [
+            {
+              "package_path": "OEBPS/Images/image00113.jpeg",
+              "file": "image00113.jpeg",
+              "width": 363,
+              "height": 616,
+              "sha256": "3e146796694f4e83fad6024ff0c12e01fa76551dfc275bfb5b99600bf32d431a",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00114.jpeg",
+              "file": "image00114.jpeg",
+              "width": 340,
+              "height": 628,
+              "sha256": "950afc9c1e7e30261ff419849925c13282c23f3c20a92dda7cd533e264809a26",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00115.jpeg",
+              "file": "image00115.jpeg",
+              "width": 467,
+              "height": 466,
+              "sha256": "decaad0914f5fd643679cab8f96f4d0831ab49c17e6c70fe100b5870fe7ccebd",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00116.jpeg",
+              "file": "image00116.jpeg",
+              "width": 365,
+              "height": 483,
+              "sha256": "e825429c49c3953a0eb427b0a6693a35e51a8e87348b8c2b9f817e7486a73752",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00117.jpeg",
+              "file": "image00117.jpeg",
+              "width": 354,
+              "height": 492,
+              "sha256": "aeba1a4c7bbd6cc8642fe86bb65008d83c2d687d29b8b0d36217c2a4e04ce1c5",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00118.jpeg",
+              "file": "image00118.jpeg",
+              "width": 370,
+              "height": 484,
+              "sha256": "a06815474511dcb773fe45ce2113afe2dd7d6b4314ea230a100cb90379b88154",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00119.jpeg",
+              "file": "image00119.jpeg",
+              "width": 343,
+              "height": 482,
+              "sha256": "765143a4ca7a679ce0faca61346056dbf8f78670421811f055b2de17551bfee4",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00120.jpeg",
+              "file": "image00120.jpeg",
+              "width": 369,
+              "height": 502,
+              "sha256": "e1d5b3469ccab8ded427bf96aad433c0ff6ce979cd3f6e1775067fa27f8a1fc8",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00121.jpeg",
+              "file": "image00121.jpeg",
+              "width": 381,
+              "height": 495,
+              "sha256": "e8eec7c5cf8a95321a594da215ffd15ff1f573926de7ac2e0fc7c333a79e9d43",
+              "spine_references": [
+                {
+                  "spine_index": 10,
+                  "xhtml": "OEBPS/Text/part0008.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00122.jpeg",
+              "file": "image00122.jpeg",
+              "width": 724,
+              "height": 636,
+              "sha256": "cde4fdd37768e8f48aaaea336495dc7a91b841f8533c862a480de1c4a099cb72",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00123.jpeg",
+              "file": "image00123.jpeg",
+              "width": 749,
+              "height": 640,
+              "sha256": "eabce954d3a0610d53828f6d0eb56bbf8fcb6aabd4e4a196bbc27c4b6e273107",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00124.jpeg",
+              "file": "image00124.jpeg",
+              "width": 802,
+              "height": 589,
+              "sha256": "6b309e7583430ae65a11621e66bfc850507ee2d9ec2177efca4f3d1b3b9420e8",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00125.jpeg",
+              "file": "image00125.jpeg",
+              "width": 303,
+              "height": 325,
+              "sha256": "afea5b0e9382dfa0a1d10173e0dc6fb702f554534ecc0ddda0ba1de0504cc89a",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00126.jpeg",
+              "file": "image00126.jpeg",
+              "width": 270,
+              "height": 307,
+              "sha256": "8377ce637e0f5c176ac18f405a0917b0dba4dbd9937a92ddfdbcbb6d0888bc33",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00127.jpeg",
+              "file": "image00127.jpeg",
+              "width": 283,
+              "height": 309,
+              "sha256": "f72d781ac1dc22250f5e3497de520caf3bd9d0b1fd5caa26a08afc13df2ff7b9",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00128.jpeg",
+              "file": "image00128.jpeg",
+              "width": 650,
+              "height": 438,
+              "sha256": "8551dbd90e3312ee70533e8fb6e42a9041e76e3c7e63da8a16a76167e65eb6eb",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00129.jpeg",
+              "file": "image00129.jpeg",
+              "width": 309,
+              "height": 535,
+              "sha256": "f5cff58b2ffd6aa3932272e1a3139fd03866f81ec87415fe03729ceb79eb2778",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00130.jpeg",
+              "file": "image00130.jpeg",
+              "width": 289,
+              "height": 542,
+              "sha256": "3789fdf9aabbc44a5623074fa30d872d7959cac0fa96a8e25e775946d4d95195",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00131.jpeg",
+              "file": "image00131.jpeg",
+              "width": 319,
+              "height": 518,
+              "sha256": "ef63cfba22f52aa65e10199bbc6603c8cfba7863c8c6af891e173bc57ff35ffd",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00132.jpeg",
+              "file": "image00132.jpeg",
+              "width": 298,
+              "height": 529,
+              "sha256": "9084f6a1080f8c683088dcba78bea7da12118bfb1ea000869e3cd304dae06cac",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00133.jpeg",
+              "file": "image00133.jpeg",
+              "width": 298,
+              "height": 527,
+              "sha256": "8ca86a8d62060a37951d85b3424a944a430e969d7285c19ff4bc79ba4e93fe18",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00134.jpeg",
+              "file": "image00134.jpeg",
+              "width": 286,
+              "height": 526,
+              "sha256": "d747d510aacfb0d8caf94b38e98c968cb809b09ff749f8608821c14c0c5d7a84",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00135.jpeg",
+              "file": "image00135.jpeg",
+              "width": 300,
+              "height": 525,
+              "sha256": "66111fb2ec41e04404f2c3fff028f2192cdc06abd4baacfa3a1db3f40d121558",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00136.jpeg",
+              "file": "image00136.jpeg",
+              "width": 287,
+              "height": 529,
+              "sha256": "b6079713cf1c61b80eae55a718a10bc81b81beadc073416ebb3876333026932c",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00137.jpeg",
+              "file": "image00137.jpeg",
+              "width": 315,
+              "height": 527,
+              "sha256": "ab5100f2c51aabb94345a1c47914abebd935bd7c46c78b50c46347c567676c67",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00138.jpeg",
+              "file": "image00138.jpeg",
+              "width": 294,
+              "height": 527,
+              "sha256": "f55578a68fe3f349ff21a442bf37cfcf4192d1742ec1198232625d35d019d7de",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00139.jpeg",
+              "file": "image00139.jpeg",
+              "width": 304,
+              "height": 525,
+              "sha256": "2b9621f05e4beb48c26c28ec75130edfe802a65c8a1a13cdc858d026264a1cff",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00140.jpeg",
+              "file": "image00140.jpeg",
+              "width": 302,
+              "height": 523,
+              "sha256": "1b944b8c404d73f2eb3460d794d8e6300a91886406eff869ab4ec40f6bacc326",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00141.jpeg",
+              "file": "image00141.jpeg",
+              "width": 307,
+              "height": 530,
+              "sha256": "517be7c5e80e804089d982cf62a6521bf49fcf87e0f4eb1b1904ea831dc8a990",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00142.jpeg",
+              "file": "image00142.jpeg",
+              "width": 296,
+              "height": 525,
+              "sha256": "77e72a5bf104354b0aa315fea583ba869a209176ee39f6721df9f6322dc9c494",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00143.jpeg",
+              "file": "image00143.jpeg",
+              "width": 311,
+              "height": 529,
+              "sha256": "c79bc5a1d795aec890c441a9d4b156b15dcd5d5be6f09bab4a6a5100a1297880",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00144.jpeg",
+              "file": "image00144.jpeg",
+              "width": 310,
+              "height": 519,
+              "sha256": "05d9b2c8449ba84cb1dcc86b706c51188afaac4f216d960ff81df01e112ea749",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00145.jpeg",
+              "file": "image00145.jpeg",
+              "width": 295,
+              "height": 510,
+              "sha256": "a91c5866a87396f1afa07d5be112a4c03e4648e181b47308a5d76ef59466c5bd",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00146.jpeg",
+              "file": "image00146.jpeg",
+              "width": 291,
+              "height": 527,
+              "sha256": "40f8850720022ac7e719e812d6a461d5de8ffb9347b35f18dd0e452a311d2611",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00147.jpeg",
+              "file": "image00147.jpeg",
+              "width": 294,
+              "height": 520,
+              "sha256": "95e8a17c13c0204b5e7e409dc6073c72f1e378ae151963bcbfbacbff31e5578b",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00148.jpeg",
+              "file": "image00148.jpeg",
+              "width": 293,
+              "height": 525,
+              "sha256": "c6f7686275953ed7e4ca441b7ffac4aef29c620b41ee7d14e404d65a817e1c7d",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00149.jpeg",
+              "file": "image00149.jpeg",
+              "width": 367,
+              "height": 636,
+              "sha256": "c3c8a15b99f0e5a7547557901e0b78c883aa307d75b5c66a5af738af0e94d94b",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00150.jpeg",
+              "file": "image00150.jpeg",
+              "width": 359,
+              "height": 635,
+              "sha256": "98b8ef75142132ad6fbcd785545e12cd9924c91051551a0c1ed79143e674073e",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00151.jpeg",
+              "file": "image00151.jpeg",
+              "width": 310,
+              "height": 521,
+              "sha256": "a928d57af8d63788c01fa706d16cb4498159396429cf29e2eb39761f84236bbc",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00152.jpeg",
+              "file": "image00152.jpeg",
+              "width": 302,
+              "height": 512,
+              "sha256": "c5ad77fa140ac069c5e744f4272710cd557f405802292a128d502a0a5fba9de9",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00153.jpeg",
+              "file": "image00153.jpeg",
+              "width": 299,
+              "height": 515,
+              "sha256": "c22302561df6911faced4db0dec28e68fb42a52091434840649abf2c1daad40f",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00154.jpeg",
+              "file": "image00154.jpeg",
+              "width": 298,
+              "height": 516,
+              "sha256": "d220cd8abebaba54938ad59d804fd45407684075c22645a68ccb50484e6b6acd",
+              "spine_references": [
+                {
+                  "spine_index": 11,
+                  "xhtml": "OEBPS/Text/part0009.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00155.jpeg",
+              "file": "image00155.jpeg",
+              "width": 277,
+              "height": 475,
+              "sha256": "9b73688d8b33bd06ff2f5455e38b7076feb737e2d52c4357edd4df93c93ec2d1",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00156.jpeg",
+              "file": "image00156.jpeg",
+              "width": 264,
+              "height": 488,
+              "sha256": "877525f3897f899874bf341809b5efed70d70b17f9f1ded14fc1c3954f761963",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00157.jpeg",
+              "file": "image00157.jpeg",
+              "width": 273,
+              "height": 488,
+              "sha256": "a87a29f126e1c90e8caa101a66fca973deee224dec419b7637c8e72e155cb4c7",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00158.jpeg",
+              "file": "image00158.jpeg",
+              "width": 684,
+              "height": 1137,
+              "sha256": "1aba0aeda12d79f5dc35917459ae76ab96a587522b2df49df285d31b9402c497",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00159.jpeg",
+              "file": "image00159.jpeg",
+              "width": 853,
+              "height": 494,
+              "sha256": "3b092856612aebc44bd1cfbfaa4f9a60a7ca6333af7ccf8b66e38dd901603a84",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00160.jpeg",
+              "file": "image00160.jpeg",
+              "width": 710,
+              "height": 1164,
+              "sha256": "c8515ea8ad9dd506f9010953a40d1599f00b52ab7280c39caacc15de3df5db69",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00161.jpeg",
+              "file": "image00161.jpeg",
+              "width": 413,
+              "height": 664,
+              "sha256": "8984fdfca4d334d5441dda146649d3fa550bdd2d47f4085e3051f198daf32133",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00162.jpeg",
+              "file": "image00162.jpeg",
+              "width": 365,
+              "height": 665,
+              "sha256": "be24907dda494b4fbbb24353bc08705f731aa4ce28866df2468e21bee0e3177c",
+              "spine_references": [
+                {
+                  "spine_index": 12,
+                  "xhtml": "OEBPS/Text/part0010.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00165.jpeg",
+              "file": "image00165.jpeg",
+              "width": 385,
+              "height": 656,
+              "sha256": "6282c9608d7d8548cd3a73c7f088b5c03a31e20350cbf09c5435588384be55c3",
+              "spine_references": [
+                {
+                  "spine_index": 15,
+                  "xhtml": "OEBPS/Text/part0013.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00166.jpeg",
+              "file": "image00166.jpeg",
+              "width": 379,
+              "height": 662,
+              "sha256": "f6821f4d591029f86c8d1b70e3e67f5fb9e4eb97257258f86449872b90c35464",
+              "spine_references": [
+                {
+                  "spine_index": 15,
+                  "xhtml": "OEBPS/Text/part0013.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00167.jpeg",
+              "file": "image00167.jpeg",
+              "width": 919,
+              "height": 372,
+              "sha256": "5e685b8a9a24ece66d0b1d721e0bad867dc914bd956f35fef8168665c238a59a",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00168.jpeg",
+              "file": "image00168.jpeg",
+              "width": 807,
+              "height": 449,
+              "sha256": "a81fe20fec058144a78de40b7fd188113e6a83006e3c838410f51332c7d698f3",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00169.jpeg",
+              "file": "image00169.jpeg",
+              "width": 580,
+              "height": 554,
+              "sha256": "c83460328815acfe674560e6bcdc47c1dcf29addeb507ebfe936630287d223ca",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00170.jpeg",
+              "file": "image00170.jpeg",
+              "width": 1577,
+              "height": 594,
+              "sha256": "384d33fa1470d1f5db0b482dd5ffbb029fa5df04918f5569eea69b059bc64f63",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00171.jpeg",
+              "file": "image00171.jpeg",
+              "width": 628,
+              "height": 420,
+              "sha256": "242de53d3f3358e6a47d5644039b4da61bc9c0dd57d4f095e9ae3f049dcad84e",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00172.jpeg",
+              "file": "image00172.jpeg",
+              "width": 858,
+              "height": 487,
+              "sha256": "397368352f24aee85f655be94ae10abdd277e4ba53ff4655aefec3b7e1146261",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00173.jpeg",
+              "file": "image00173.jpeg",
+              "width": 575,
+              "height": 445,
+              "sha256": "dca81256b979cc2e4ef19affd6513c4b6aa9270228e80f2b9dcde1e01722e9e2",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00174.jpeg",
+              "file": "image00174.jpeg",
+              "width": 876,
+              "height": 485,
+              "sha256": "f498b1a8d74a13070499ad6ef3f27c0fc9018e09fb43c9f6bc1075a1c4f3ad14",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00175.jpeg",
+              "file": "image00175.jpeg",
+              "width": 499,
+              "height": 458,
+              "sha256": "35e8061aafe84442fa8fce1a820071a11537b9e251e5eecb9509f86cb2d05fed",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00176.jpeg",
+              "file": "image00176.jpeg",
+              "width": 488,
+              "height": 439,
+              "sha256": "20cfacbd76be5ce4a61e5211f970abb9e4f52fe07ac9e6296c08599442c5c4c7",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00177.jpeg",
+              "file": "image00177.jpeg",
+              "width": 847,
+              "height": 461,
+              "sha256": "1d52f7cb27aa23dc10576ba0ff02a5431f8f1c35ccfe5b08aa53266753634f8c",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00178.jpeg",
+              "file": "image00178.jpeg",
+              "width": 692,
+              "height": 629,
+              "sha256": "499537db79d40123e591e2043f01a2cee1ad776ea40b94802bb37760e0e05543",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00179.jpeg",
+              "file": "image00179.jpeg",
+              "width": 898,
+              "height": 1051,
+              "sha256": "d0d812223abaf33f2dad00215254082422615a67688a7d2f75e136d9b6fe5d6a",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00180.jpeg",
+              "file": "image00180.jpeg",
+              "width": 960,
+              "height": 1187,
+              "sha256": "11cb3cb528a8901b3946224a7c71bac8de4c0bf2cebb5ab0843242bc3881b26a",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00181.jpeg",
+              "file": "image00181.jpeg",
+              "width": 838,
+              "height": 1120,
+              "sha256": "e75f9e86fcc697dab47633b2ee8851b4a9db497b02aa0c7ac65d4c201e3ea0c9",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00182.jpeg",
+              "file": "image00182.jpeg",
+              "width": 885,
+              "height": 560,
+              "sha256": "d62c2966f917e93cd5bc68da900fbfdea38627bd3eb281f7c50d70b74ed84313",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00183.jpeg",
+              "file": "image00183.jpeg",
+              "width": 256,
+              "height": 408,
+              "sha256": "f9a209409c0b02dc08561a5c18a73d54ca5540b8a925d071113a20c6a2ccfc2f",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00184.jpeg",
+              "file": "image00184.jpeg",
+              "width": 250,
+              "height": 418,
+              "sha256": "0f31b30245363536f33fe72a63adae6c8317a188349556113d16a73e86a93d3c",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00185.jpeg",
+              "file": "image00185.jpeg",
+              "width": 255,
+              "height": 416,
+              "sha256": "2e14cc00a53209513cdf1996b5124b7b6e54e4ae44b32638b0790ecc4c584acb",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00186.jpeg",
+              "file": "image00186.jpeg",
+              "width": 241,
+              "height": 425,
+              "sha256": "4a249f1cf917d459bc43f8f018ebaf1cb983c279f33fc0357cb5e75a99e3757d",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00187.jpeg",
+              "file": "image00187.jpeg",
+              "width": 250,
+              "height": 428,
+              "sha256": "16913e7b50bb7914deea3f6610517229183d3303f25cc455c28eefc19950eb08",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00188.jpeg",
+              "file": "image00188.jpeg",
+              "width": 263,
+              "height": 444,
+              "sha256": "a39f3f783511a1904e5719a885a312039a67a7f9619d852ac1d3c9860f3236ef",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00189.jpeg",
+              "file": "image00189.jpeg",
+              "width": 276,
+              "height": 403,
+              "sha256": "f4b00173e6b366c5cd58c0a92c16a4827bbd29f4bd3405a7f64fdbf1ad98ebdf",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00190.jpeg",
+              "file": "image00190.jpeg",
+              "width": 255,
+              "height": 417,
+              "sha256": "c6cb6722c1f1f40dc5eb4ea1b33db4d3a09c702c7692b041a4d8c8a0a043ab2a",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            },
+            {
+              "package_path": "OEBPS/Images/image00191.jpeg",
+              "file": "image00191.jpeg",
+              "width": 253,
+              "height": 448,
+              "sha256": "804fd1311f7495dd4f052f4fc32bb4a8b28bb5da8547a583a4ae9028690d1731",
+              "spine_references": [
+                {
+                  "spine_index": 17,
+                  "xhtml": "OEBPS/Text/part0015.xhtml"
+                }
+              ],
+              "actually_read": true,
+              "read_scope": "Image as supplied book illustration visually reviewed, including visible main screenshot text or labels; no private transcription, identities, or case narratives archived."
+            }
+          ],
+          "new_native_characters_read": 0,
+          "all77_remaining_assets_actually_viewed": true,
+          "total81_assets_now_visually_reviewed": true,
+          "private_case_summaries_saved": 0,
+          "source_images_uploaded": 0,
+          "all_original_words_individually_verified": false,
+          "inset_external_publications_not_counted_as_additional_fulltexts": true,
+          "original_mosaics_cropping_and_thumbnail_detail_not_reconstructed": true,
+          "additional_viewed_crops": [
+            {
+              "evidence_name": "image00181_tl.png",
+              "sha256": "543ac619eea78625d7aaba3a28af7864dd13c6e0793cf882e02fa2c68f050f00",
+              "actually_viewed": true
+            },
+            {
+              "evidence_name": "image00181_tr.png",
+              "sha256": "baaf6c3a15b841fb243c08f2b7f3eea1e8209ab1fb577247d3b2417b33ac09d8",
+              "actually_viewed": true
+            },
+            {
+              "evidence_name": "image00181_bl.png",
+              "sha256": "f36bf089889dc05e6427e5abf4b3bc22a307b63da1e11125062134165112e865",
+              "actually_viewed": true
+            },
+            {
+              "evidence_name": "image00181_br.png",
+              "sha256": "90fc78fd5ba90b86dadb60765f1d629b4f0d9aaf86caa59879a9b50c61a9041a",
+              "actually_viewed": true
+            },
+            {
+              "evidence_name": "image00182_left.png",
+              "sha256": "7a68f1c50ffd46f59bc2cdbae8f554195ff1601c083f34c30a0db76d62c9a027",
+              "actually_viewed": true
+            },
+            {
+              "evidence_name": "image00182_right.png",
+              "sha256": "0f2cedf8f2bfc7593980c5fad138da382a48a743cb1d85c249a1a01b90634922",
+              "actually_viewed": true
+            }
+          ]
+        }
+      },
+      "B039_original_scan_review": {
+        "ledger": "knowledge/provenance/B039_first_chapter_scan_review_2026-11-12.json",
+        "new_unique_original_pages": 102,
+        "cumulative_original_pages": 143,
+        "contiguous_visual_prefix_last_page": 131,
+        "remaining_original_page_layouts": 237,
+        "next_file_page": 132,
+        "book_completed": false,
+        "new_OCR_characters_credited": 0
       }
     }
   ]

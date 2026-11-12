@@ -35,12 +35,14 @@
     },
     "review": {
       "label": "复盘这段互动",
-      "deliver": "只找证据支持的具体问题，保留外界限制；没有已证实失误也可这样说",
+      "deliver": "只找证据支持的具体问题，保留外界限制；没有已证实失误时明确无需调整，不为完成复盘硬找用户的问题",
       "required_parts": [
         "已确认发生的事",
         "实际影响与未知原因",
-        "一项主要调整"
+        "是否需要调整及依据"
       ],
+      "allow_no_adjustment": true,
+      "min_main_adjustments": 0,
       "max_main_adjustments": 1,
       "force_user_blame": false
     },
