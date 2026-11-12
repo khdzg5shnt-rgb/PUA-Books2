@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "e2baf6ae02ad492880576ad569a4a9f275655c49",
+  "current_file": "B017",
+  "previous_reading_ledger": "knowledge/provenance/B017_source_recovery_2026-11-12.json",
+  "purpose": "Check newly located public source leads for the same B017 figure gaps; do not reread another book or award completion for searches.",
+  "new_source_checks": [
+    {
+      "url": "https://www.bilibili.com/video/BV1tN411R7aC/",
+      "scope": "Public description points to the author's answer for the corresponding cycle discussion.",
+      "video_viewed_or_credited": false
+    },
+    {
+      "url": "https://www.zhihu.com/question/64559396/answer/1711094606",
+      "result": "Web retrieval unavailable; ordinary unauthenticated public request returned HTTP403. No source figure recovered, no login or access-control bypass attempted."
+    },
+    {
+      "url": "https://www.scribd.com/document/596601120/%E7%B1%B3%E6%A0%BC%E9%81%933",
+      "scope": "Public metadata and visible section trail checked as a possible matching-figure lead; no matching clearer source figure recovered.",
+      "full_document_read_or_credited": false
+    },
+    {
+      "url": "https://www.scribd.com/document/799697324/Mgtow-%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86-%E7%B1%B3%E6%A0%BC%E9%81%93-Z-library",
+      "scope": "Public metadata confirms a221-page copy; no clearer matching target figure recovered from the inspected public page.",
+      "full_document_read_or_credited": false
+    }
+  ],
+  "additional_existing_pixel_reviews": [
+    {
+      "file_page": 60,
+      "scope": "Two lower outer comparison crops viewed; this does not resolve the complete remaining small-label gap or count as a new original page."
+    },
+    {
+      "file_page": 124,
+      "scope": "Political branch of the uploaded handwritten diagram viewed as an ordinary contrast-enhanced crop; uncertain handwriting remains."
+    }
+  ],
+  "new_native_characters_read": 0,
+  "new_unique_original_pdf_pages_read": 0,
+  "new_completed_current_file_ids": [],
+  "new_unread_books_started": [],
+  "completed_current_files": 47,
+  "partial_current_files": 5,
+  "unread_current_files": 67,
+  "remaining_low_resolution_label_file_pages": [
+    60,
+    68,
+    124
+  ],
+  "remaining_source_occlusion_file_pages": [
+    156,
+    159,
+    176,
+    177,
+    182
+  ],
+  "next_work_id": "B017",
+  "next_gap_review_file_page": 60,
+  "current_file_status": "provided_file_text_partial",
+  "blocker": "No newly recovered readable matching source. A clearer matching source or an explicit reading-order change is needed; do not repeatedly treat the same pixel enlargement as new reading.",
+  "source_text_images_private_cases_uploaded": 0,
+  "checks": {
+    "status": "passed",
+    "structural": true,
+    "unittest_methods": 48,
+    "synthetic_routing_scenarios": 158,
+    "completion_count_unchanged": true,
+    "next_book_not_opened": true
+  }
+}
