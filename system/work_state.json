@@ -1,61 +1,100 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "system_sender_and_source_sections_after_B060",
-  "status": "system_maintenance_complete_reading_paused",
-  "base_commit": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
-  "reading_paused_for_this_round": true,
-  "new_book_files_completed_this_round": 0,
+  "current_focus": "B063_next_after_B061_B062_finished_in_order",
+  "status": "ready_for_next_file",
+  "base_commit": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+  "reading_paused_for_this_round": false,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/OS_sender_and_sources_2026-11-13.md",
-  "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B061_B062_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B061",
-    "path": "惯例军火库.pdf",
-    "bytes": 2138083,
-    "git_blob_sha": "d9b3b3a283b34f0d13ae3cfa52c02a846fd18ab0",
+    "id": "B063",
+    "path": "懒汉把妹 - 大卫X.epub",
+    "bytes": 82064,
+    "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": 1,
+    "next_file_page": null,
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B060当前44页已读完，16组原创笔记、提供范围与断点已保存。下一唯一主读B061，从文件第一页开始；此断点保存时尚未打开其正文。",
-    "next_content_unit": "Read B061 only next: verify the original 93 page file, inspect actual text and page images, and start at file page1. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
+    "start": "B062当前18页已读完，12组原创笔记、提供范围与断点已保存。下一唯一主读B063，从EPUB第一个顺序单元开始；此断点保存时尚未打开其正文。",
+    "next_content_unit": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
   },
-  "next_work": "本轮系统维护完成，未读后续书。按用户下一条具体任务继续；恢复阅读时才从原B061第1页开始，不自动跨到后面的书。",
+  "next_work": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file.",
   "current_session_progress": {
-    "baseline": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
-    "work_type": "system_maintenance",
-    "new_book_files_started": [],
-    "new_book_files_completed": [],
-    "new_book_characters_read": 0,
-    "new_book_pages_read": 0,
-    "methods": 26,
-    "routes": 36,
-    "task_modes": 5,
-    "source_records_unchanged": 158,
-    "reading_bookmark_unchanged": true,
-    "reading_statuses_unchanged": true,
-    "changes": [
-      "require_verified_flat_input_direction_before_new_draft",
-      "distinguish_verified_empty_conversation_from_unknown_tail",
-      "limit_method_focus_to_exact_bound_sections",
-      "prefer_actual_focus_phrase_over_generic_alias_within_fixed_method",
-      "make_current_reply_style_part_of_M26_preferred_protocol_section"
+    "baseline": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+    "work_type": "read_whole_supplied_PDFs_in_serial_order",
+    "new_book_files_started": [
+      "B061",
+      "B062"
     ],
-    "legacy_synthetic_fixtures_with_explicit_direction_added": 116,
-    "existing_synthetic_expected_routes_and_actions_changed": 0,
+    "new_book_files_completed": [
+      "B061",
+      "B062"
+    ],
+    "actually_completed_file_ids": [
+      "B061",
+      "B062"
+    ],
+    "new_whole_book_files_actually_read": 2,
+    "user_accepted_scope_closure_ids": [],
+    "new_native_characters_read": 77561,
+    "new_OCR_characters_read": 0,
+    "native_stream_characters_including_page_markers": 81650,
+    "new_unique_original_visual_pages": 111,
+    "reading_cards_viewed": 19,
+    "original_note_groups": 32,
+    "new_method_source_bindings": 87,
+    "new_method_operations": [],
+    "serial_order": [
+      "B061",
+      "save_B061_notes_scope_and_next_checkpoint",
+      "B062",
+      "save_B062_notes_scope_and_next_checkpoint"
+    ],
+    "next_book_body_opened": false,
+    "original_edition_completeness_not_asserted": true,
+    "books": [
+      {
+        "id": "B061",
+        "title": "惯例军火库",
+        "pages": 93,
+        "native_characters": 61116,
+        "stream_characters": 64548,
+        "reading_cards": 16,
+        "note_groups": 20,
+        "bindings": 59,
+        "ledger": "knowledge/provenance/B061_reading_2026-11-13.json",
+        "scope_summary": "当前93页封面、目录、序、十章正文和结尾已读完。第35—36页图示及第64—74页十二星座图卡已补看；其中第65—73页没有原生文字，不作为空页跳过。第63页一句原文在“如果对方”处中断，未提供续句不补造；原版完整性、叙事和效果数字未核实。"
+      },
+      {
+        "id": "B062",
+        "title": "惯例手册—爱情体系",
+        "pages": 18,
+        "native_characters": 16445,
+        "stream_characters": 17102,
+        "reading_cards": 3,
+        "note_groups": 12,
+        "bindings": 28,
+        "ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
+        "scope_summary": "当前18页节译稿已读完。目录列十一章，现有正文到第八章结束；第七章只有译者跳过说明，第九至十一章和独立来源注释正文未提供。多处有不译、跳过、改写及以后补充说明，未把节译当完整原著；未提供内容不计实读、不等待补齐。"
+      }
+    ],
     "checks": {
       "status": "passed",
-      "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
+      "reading_metadata_validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
       "structural": true,
       "unittest_methods": 72,
-      "new_unittest_methods": 9,
       "synthetic_routing_scenarios": 158,
-      "stdin_scenarios": 7,
-      "old_fixture_expected_outcomes_unchanged": true,
-      "reading_and_source_preservation": true,
-      "local_links": true
+      "source_page_text_and_card_hashes": true,
+      "other_source_records_preserved": true,
+      "method_operations_and_preferred_sections_preserved": true,
+      "serial_checkpoint_preserved": true,
+      "prior_runtime_and_protocols_preserved": true,
+      "embedded_image_reviews_recorded": true
     }
   },
   "last_reading_progress": {
@@ -2276,15 +2315,15 @@
     }
   ],
   "last_completed_reading_session": {
-    "id": "B060",
-    "ledger": "knowledge/provenance/B060_reading_2026-11-13.json",
-    "report": "knowledge/provenance/B059_B060_progress_2026-11-13.md",
+    "id": "B062",
+    "ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
+    "report": "knowledge/provenance/B061_B062_progress_2026-11-13.md",
     "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
     "all_current_provided_content_read": true,
-    "new_native_characters_read": 50323,
-    "new_unique_visual_pages": 44,
+    "new_native_characters_read": 16445,
+    "new_unique_visual_pages": 18,
     "original_publication_complete": false,
-    "next_unread": "B061"
+    "next_unread": "B063"
   },
   "reading_policy": {
     "mode": "finish_unfinished_files_before_new_books",
@@ -2382,12 +2421,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 59,
-    "current_file_text_complete": 59,
+    "started": 61,
+    "current_file_text_complete": 61,
     "partial": 0,
-    "unread": 60,
+    "unread": 58,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 59,
+    "reported_numerator": 61,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -4508,6 +4547,57 @@
           "other_source_records_preserved": true,
           "method_operations_and_preferred_sections_preserved": true,
           "serial_checkpoint_preserved": true
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B061_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B061_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+        "work_type": "read_whole_supplied_PDFs_in_serial_order",
+        "new_book_files_started": [
+          "B061"
+        ],
+        "new_book_files_completed": [
+          "B061"
+        ],
+        "actually_completed_file_ids": [
+          "B061"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 61116,
+        "new_OCR_characters_read": 0,
+        "native_stream_characters_including_page_markers": 64548,
+        "new_unique_original_visual_pages": 93,
+        "reading_cards_viewed": 16,
+        "original_note_groups": 20,
+        "new_method_source_bindings": 59,
+        "new_method_operations": [],
+        "serial_order": [
+          "B061",
+          "save_B061_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B061",
+            "title": "惯例军火库",
+            "pages": 93,
+            "native_characters": 61116,
+            "stream_characters": 64548,
+            "reading_cards": 16,
+            "note_groups": 20,
+            "bindings": 59,
+            "ledger": "knowledge/provenance/B061_reading_2026-11-13.json",
+            "scope_summary": "当前93页封面、目录、序、十章正文和结尾已读完。第35—36页图示及第64—74页十二星座图卡已补看；其中第65—73页没有原生文字，不作为空页跳过。第63页一句原文在“如果对方”处中断，未提供续句不补造；原版完整性、叙事和效果数字未核实。"
+          }
+        ],
+        "checks": {
+          "status": "pending",
+          "reading_metadata_validation": "knowledge/provenance/B061_validation_2026-11-13.json"
         }
       }
     }

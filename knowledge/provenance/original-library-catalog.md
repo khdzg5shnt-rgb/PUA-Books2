@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成59/119份任务，无部分阅读文件、60份未开始。57份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮只维护系统，阅读新增为零；未提供内容不等待、不补算。恢复阅读时仍从B061第1页开始，本轮不打开后续正文。[最近阅读](B059_B060_progress_2026-11-13.md)。
+当前完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](B061_B062_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -73,8 +73,8 @@
 | B058 | [恋爱指南——play 连招 - 乌鸦救赎.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%81%8B%E7%88%B1%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94play%20%E8%BF%9E%E6%8B%9B%20-%20%E4%B9%8C%E9%B8%A6%E6%95%91%E8%B5%8E.pdf) | 109 | 当前109页九招、悬记和原页已读；书外模式与附图未提供 | [15组笔记](../books/B058.md) |
 | B059 | [情狼日记 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%8B%BC%E6%97%A5%E8%AE%B0%20-%20%E6%B5%B7%E5%85%B5.pdf) | 74 | 当前74页原生正文与原页已读；末尾未完待续，续作未提供 | [16组笔记](../books/B059.md) |
 | B060 | [情绪流方法论 - 损友.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%85%E7%BB%AA%E6%B5%81%E6%96%B9%E6%B3%95%E8%AE%BA%20-%20%E6%8D%9F%E5%8F%8B.pdf) | 44 | 当前44页正文六章与终篇已读；目录漏列第五章，正文已读全 | [16组笔记](../books/B060.md) |
-| B061 | [惯例军火库.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E5%86%9B%E7%81%AB%E5%BA%93.pdf) | 93 | 已提取/未读 | — |
-| B062 | [惯例手册 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E6%89%8B%E5%86%8C%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 18 | 已提取/未读 | — |
+| B061 | [惯例军火库.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E5%86%9B%E7%81%AB%E5%BA%93.pdf) | 93 | 当前93页十章已读完，含第35—36页图示与十二星座图卡 | [20组笔记](../books/B061.md) |
+| B062 | [惯例手册 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%83%AF%E4%BE%8B%E6%89%8B%E5%86%8C%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 18 | 当前18页节译已读完；第七章仅跳过说明，第九至十一章等未提供 | [12组笔记](../books/B062.md) |
 | B063 | [懒汉把妹 - 大卫X.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%87%92%E6%B1%89%E6%8A%8A%E5%A6%B9%20-%20%E5%A4%A7%E5%8D%ABX.epub) | 20 | 已提取/未读 | — |
 | B064 | [打破和谐感的81种方法 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%89%93%E7%A0%B4%E5%92%8C%E8%B0%90%E6%84%9F%E7%9A%8481%E7%A7%8D%E6%96%B9%E6%B3%95%20-%20Adam%20Lyons.pdf) | 24 | 已提取/未读 | — |
 | B065 | [把妹达人圣经 - 尼尔.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%E5%9C%A3%E7%BB%8F%20-%20%E5%B0%BC%E5%B0%94.epub) | 9 | 已提取/未读 | — |

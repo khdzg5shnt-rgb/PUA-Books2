@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline_main": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+  "books": [
+    {
+      "id": "B061",
+      "file_pages": 93,
+      "native_characters_actually_read": 61116,
+      "reading_cards": 16,
+      "note_groups": 20,
+      "critical_source_bindings": 59,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "7b82162699c048c5a9840cf2b1e545c5f8f55f6cc27dea4f5517517b64b34486"
+    },
+    {
+      "id": "B062",
+      "file_pages": 18,
+      "native_characters_actually_read": 16445,
+      "reading_cards": 3,
+      "note_groups": 12,
+      "critical_source_bindings": 28,
+      "provided_scope_read_to_end": true,
+      "source_sha256": "0535b6a8e229b715a670e03b093a5a064291a810b6509a4bc76990c38216036b"
+    }
+  ],
+  "serial_order_preserved": true,
+  "B061_checkpoint_saved_before_B062_body_opened": true,
+  "new_actual_supplied_files_read": 2,
+  "native_characters_read": 77561,
+  "unique_original_page_views": 111,
+  "reading_cards": 19,
+  "B061_embedded_astrology_cards_directly_reviewed": 12,
+  "image_text_counted_as_native": false,
+  "new_note_groups": 32,
+  "new_critical_source_bindings": 87,
+  "source_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B061.md",
+      "locator": "语境问题不能用文化定论解释",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B061.md",
+      "locator": "认真问句先按实际内容回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B061.md",
+      "locator": "观察只能提出可纠正的有限判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B061.md",
+      "locator": "十二张星座图卡只按娱乐材料保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B061.md",
+      "locator": "阶段目录不能代替当前一句判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B062.md",
+      "locator": "阶段只是整理材料的目录",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B062.md",
+      "locator": "留下联系方式与答应见面分开",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B062.md",
+      "locator": "研究名词不能给套话补证据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M02",
+      "path": "knowledge/books/B061.md",
+      "locator": "留出空间不制造情绪起落",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B061.md",
+      "locator": "开场抓现场细节并保持真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B061.md",
+      "locator": "少盘问也不意味着一人连续表演",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B061.md",
+      "locator": "欣赏具体表现无需设置价值排名",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B062.md",
+      "locator": "开场从真实信息选题",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B062.md",
+      "locator": "征询意见就要接住答案",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B062.md",
+      "locator": "了解兴趣无需让她参加资格考试",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B061.md",
+      "locator": "少盘问也不意味着一人连续表演",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B061.md",
+      "locator": "过渡靠真实生活而非借来的故事",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B061.md",
+      "locator": "认真问句先按实际内容回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B062.md",
+      "locator": "征询意见就要接住答案",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B062.md",
+      "locator": "认真问题给可用的短答案",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B061.md",
+      "locator": "过渡靠真实生活而非借来的故事",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B061.md",
+      "locator": "共同玩笑以双方已经接梗为前提",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B062.md",
+      "locator": "让素材服务当前一句",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B061.md",
+      "locator": "共同玩笑以双方已经接梗为前提",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B061.md",
+      "locator": "接调侃时仍要听见纠正",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B061.md",
+      "locator": "不适和自我怀疑不算双方投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B062.md",
+      "locator": "游戏和角色没有亲密授权作用",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B061.md",
+      "locator": "共同玩笑以双方已经接梗为前提",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M07",
+      "path": "knowledge/books/B062.md",
+      "locator": "游戏和角色没有亲密授权作用",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B061.md",
+      "locator": "观察只能提出可纠正的有限判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B061.md",
+      "locator": "十二张星座图卡只按娱乐材料保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B062.md",
+      "locator": "观察过渡不能变成人格鉴定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B062.md",
+      "locator": "研究名词不能给套话补证据",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B061.md",
+      "locator": "欣赏具体表现无需设置价值排名",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B061.md",
+      "locator": "不适和自我怀疑不算双方投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B062.md",
+      "locator": "了解兴趣无需让她参加资格考试",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B061.md",
+      "locator": "过渡靠真实生活而非借来的故事",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B062.md",
+      "locator": "个人风格建立在真实经历上",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B062.md",
+      "locator": "分享生活不强迫交换秘密",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B061.md",
+      "locator": "安慰不靠假保证或贬低第三人",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B062.md",
+      "locator": "分享生活不强迫交换秘密",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B061.md",
+      "locator": "认真问句先按实际内容回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B061.md",
+      "locator": "安慰不靠假保证或贬低第三人",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B061.md",
+      "locator": "独立安排要和兑现约定一起保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B062.md",
+      "locator": "留下联系方式与答应见面分开",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M15",
+      "path": "knowledge/books/B061.md",
+      "locator": "独立安排要和兑现约定一起保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M16",
+      "path": "knowledge/books/B061.md",
+      "locator": "独立安排要和兑现约定一起保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B061.md",
+      "locator": "拒绝不能被话术重新定义",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B061.md",
+      "locator": "关系定位需要双方接受",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B061.md",
+      "locator": "少盘问也不意味着一人连续表演",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B061.md",
+      "locator": "认真问句先按实际内容回答",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B062.md",
+      "locator": "了解兴趣无需让她参加资格考试",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B061.md",
+      "locator": "少盘问也不意味着一人连续表演",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B061.md",
+      "locator": "拒绝不能被话术重新定义",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B061.md",
+      "locator": "留出空间不制造情绪起落",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B061.md",
+      "locator": "语境问题不能用文化定论解释",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B061.md",
+      "locator": "接调侃时仍要听见纠正",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B061.md",
+      "locator": "观察只能提出可纠正的有限判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B061.md",
+      "locator": "安慰不靠假保证或贬低第三人",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B062.md",
+      "locator": "征询意见就要接住答案",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B062.md",
+      "locator": "观察过渡不能变成人格鉴定",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B061.md",
+      "locator": "不适和自我怀疑不算双方投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B061.md",
+      "locator": "留出空间不制造情绪起落",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B061.md",
+      "locator": "陌生接触要留出退出空间",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B061.md",
+      "locator": "愿意聊天不等于同意身体接触",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B061.md",
+      "locator": "不适和自我怀疑不算双方投入",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B061.md",
+      "locator": "暧昧内容也保留明确退出权",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B061.md",
+      "locator": "独立安排要和兑现约定一起保留",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B062.md",
+      "locator": "分享生活不强迫交换秘密",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B061.md",
+      "locator": "陌生接触要留出退出空间",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B061.md",
+      "locator": "愿意聊天不等于同意身体接触",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B061.md",
+      "locator": "拒绝不能被话术重新定义",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B061.md",
+      "locator": "暧昧内容也保留明确退出权",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B061.md",
+      "locator": "关系定位需要双方接受",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B062.md",
+      "locator": "阶段只是整理材料的目录",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B062.md",
+      "locator": "游戏和角色没有亲密授权作用",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B061.md",
+      "locator": "关系定位需要双方接受",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B061.md",
+      "locator": "开场抓现场细节并保持真实",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B061.md",
+      "locator": "陌生接触要留出退出空间",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B062.md",
+      "locator": "开场从真实信息选题",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B061.md",
+      "locator": "语境问题不能用文化定论解释",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B061.md",
+      "locator": "接调侃时仍要听见纠正",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B061.md",
+      "locator": "暧昧内容也保留明确退出权",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B061.md",
+      "locator": "阶段目录不能代替当前一句判断",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B062.md",
+      "locator": "个人风格建立在真实经历上",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B062.md",
+      "locator": "认真问题给可用的短答案",
+      "kind": "critical_source_notes_not_empirical_validation"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B062.md",
+      "locator": "让素材服务当前一句",
+      "kind": "critical_source_notes_not_empirical_validation"
+    }
+  ],
+  "source_page_text_and_review_card_hashes_match": true,
+  "contiguous_page_units_match": true,
+  "structural_check": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 61,
+    "book_not_started": 58,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unittest": {
+    "exit_code": 0,
+    "methods": 72,
+    "output": "........................................................................\n----------------------------------------------------------------------\nRan 72 tests in 6.355s\n\nOK"
+  },
+  "synthetic_routing_scenarios": 158,
+  "original_source_identities_preserved": 126,
+  "other_source_records_unchanged": true,
+  "existing_method_operations_and_avoid_conditions_unchanged": true,
+  "preferred_sections_bytes_unchanged": true,
+  "all_prior_runtime_scripts_tests_and_protocols_bytes_preserved": true,
+  "last_system_maintenance_history_and_reading_policy_preserved": true,
+  "B061_checkpoint_note_and_ledger_bytes_preserved": true,
+  "completed_current_tasks": 61,
+  "actually_read_current_supplied_files": 59,
+  "user_accepted_scope_exception_ids": [
+    "B017",
+    "B039"
+  ],
+  "partial": 0,
+  "unread": 58,
+  "next_unread": "B063",
+  "next_book_body_opened": false,
+  "new_private_raw_text_or_source_images_archived": 0,
+  "original_publication_completeness_not_asserted": true,
+  "limits": "Checks verify file identity, metadata, source-text and page-card hashes, contiguous ranges, links, and 72 existing tests including 158 fictional routing scenarios. They do not independently prove comprehension, transcription accuracy, psychological mechanisms, real screenshot recognition, or dating effects."
+}

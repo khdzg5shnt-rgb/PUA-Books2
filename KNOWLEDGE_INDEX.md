@@ -1,6 +1,9 @@
 # 统一资料索引
 
-本轮仅维护系统，阅读暂停且保持59/119。[当前一句的表达取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍) · [维护说明](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)。
+<!-- SERIAL_READING_2026_11_13_B061 -->
+本轮逐本完成[B061的20组笔记](knowledge/books/B061.md)、[B062的12组笔记](knowledge/books/B062.md)，实际范围见[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
+<!-- END_SERIAL_READING_2026_11_13_B061 -->
+上一轮系统维护保持59/119，现已按用户新指令恢复逐本阅读。[当前一句的表达取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍) · [维护说明](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)。
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
@@ -22,7 +25,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-当前完成59/119份任务，无部分阅读文件、60份未开始。57份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮只维护系统，阅读新增为零；未提供内容不等待、不补算。恢复阅读时仍从B061第1页开始，本轮不打开后续正文。[最近阅读](knowledge/provenance/B059_B060_progress_2026-11-13.md)。
+当前完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -31,7 +34,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前完成59/119份任务，无部分阅读文件、60份未开始。57份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮只维护系统，阅读新增为零；未提供内容不等待、不补算。恢复阅读时仍从B061第1页开始，本轮不打开后续正文。[最近阅读](knowledge/provenance/B059_B060_progress_2026-11-13.md)。
+当前完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

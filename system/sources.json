@@ -694,18 +694,24 @@
       "group": "books2_original_snapshot",
       "title": "惯例军火库.pdf",
       "git_blob_sha": "d9b3b3a283b34f0d13ae3cfa52c02a846fd18ab0",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B061.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B061_reading_2026-11-13.json",
+      "coverage_mode": "all93_current_PDF_native_page_outputs_and_all93_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read"
     },
     {
       "id": "B062",
       "group": "books2_original_snapshot",
       "title": "惯例手册 - 爱情体系.pdf",
       "git_blob_sha": "b92c6780236840cbcb69fce8b736d207c8c80514",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B062.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
+      "coverage_mode": "all18_current_PDF_native_page_outputs_and_all18_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read"
     },
     {
       "id": "B063",
@@ -1623,23 +1629,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 59,
+    "current_book_files_text_complete": 61,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 60
+    "current_book_files_not_started": 58
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B061",
-    "path": "惯例军火库.pdf",
-    "bytes": 2138083,
-    "git_blob_sha": "d9b3b3a283b34f0d13ae3cfa52c02a846fd18ab0",
+    "id": "B063",
+    "path": "懒汉把妹 - 大卫X.epub",
+    "bytes": 82064,
+    "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": 1,
+    "next_file_page": null,
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B060当前44页已读完，16组原创笔记、提供范围与断点已保存。下一唯一主读B061，从文件第一页开始；此断点保存时尚未打开其正文。",
-    "next_content_unit": "Read B061 only next: verify the original 93 page file, inspect actual text and page images, and start at file page1. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
+    "start": "B062当前18页已读完，12组原创笔记、提供范围与断点已保存。下一唯一主读B063，从EPUB第一个顺序单元开始；此断点保存时尚未打开其正文。",
+    "next_content_unit": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
   },
   "deferred_work_units": []
 }
