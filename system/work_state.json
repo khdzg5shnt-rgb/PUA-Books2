@@ -1,196 +1,152 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B049_B051_three_current_files_completed_serially",
-  "status": "B049_B051_reading_checks_passed",
-  "base_commit": "1e639665b0fa6413b30d0ce5d5f514881966cb14",
+  "current_focus": "B053_current_supplied_file_completed_after_prior_batch_recovery",
+  "status": "B053_checks_passed",
+  "base_commit": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 3,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B049_B051_progress_2026-11-12.md",
-  "validation": "knowledge/provenance/B049_B051_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B053_progress_2026-11-12.md",
+  "validation": "knowledge/provenance/B053_validation_2026-11-12.json",
   "reading_bookmark": {
-    "id": "B053",
-    "path": "如何和女人见面与沟通 - 杂耍人.pdf",
-    "git_blob_sha": "7b8cb7632ad1d249a10ab9d23b1eebf6bd0fd1af",
-    "bytes": 1723629,
+    "id": "B054",
+    "path": "婚恋中男人不能犯的100个错误 - 廖康强.epub",
+    "git_blob_sha": "e09bcfec81e067d9152a8d3e4638792eef11abfb",
+    "bytes": 179318,
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "file_pages": 36,
+    "file_pages": null,
     "spine_items": null,
-    "next_spine_index": null,
-    "next_file_page": 1,
+    "next_spine_index": 0,
+    "next_file_page": null,
     "next_character": 0,
-    "start": "B049,B050,B051 closed serially; B052 previously completed and not recounted. B053 is next unread file.",
-    "next_content_unit": "B053 physicalpage1 character0 after binary/extraction verification. Finish its current readable scope before opening the next unread book; multiple serial books may be read in the same turn.",
+    "start": "B053 current supplied PDF closed; B054 EPUB first spine item, character0 after identity and extraction verification.",
+    "next_content_unit": "Verify B054 package and reading order, then read its supplied text serially to its end before opening another book.",
     "current_extraction_identity": null,
-    "ledger": "knowledge/provenance/B049_B051_reading_2026-11-12.json",
+    "ledger": "knowledge/provenance/B053_reading_2026-11-12.json",
     "substantive_body_characters_read": 0
   },
-  "next_work": "Read B053 from physicalpage1 after identity/extraction checks. B052 is already complete. Finish each current readable book scope and notes before the next book,then continue to further unread books in the same turn when possible; no one-book-per-turn cap.",
+  "next_work": "Continue B054 EPUB from its first verified spine item. Finish its current supplied scope and notes before another book; no one-book-per-turn limit.",
   "current_session_progress": {
-    "baseline": "1e639665b0fa6413b30d0ce5d5f514881966cb14",
-    "work_type": "serial_complete_books_in_one_turn",
-    "serial_read_order": [
+    "baseline": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
+    "work_type": "continue_after_recovered_batch_commit",
+    "recovered_previous_batch_commit": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
+    "recovered_previous_batch_books": [
       "B049",
       "B050",
       "B051"
     ],
-    "one_book_closed_before_next_started": true,
     "new_book_files_started": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
     "new_book_files_completed": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
-    "new_whole_book_files_completed": 3,
-    "complete_means": "current_provided_file_coverage_not_verified_original_edition_or_complete_course",
+    "new_whole_book_files_completed": 1,
+    "complete_means": "current_supplied_file_not_full_original_work",
     "text_complete_file_ids": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
-    "direct_native_characters_read": 201477,
-    "native_body_characters_read": 190314,
-    "actual_direct_native_read_chunks": 20,
-    "physical_file_pages_with_all_native_text_read": 269,
+    "direct_native_characters_read": 41099,
+    "native_body_characters_read": 39632,
+    "actual_direct_native_read_chunks": 4,
+    "physical_file_pages_with_all_native_text_read": 36,
     "new_OCR_pages": 0,
-    "visually_reviewed_pages": 34,
-    "new_original_review_groups": 34,
-    "new_book_entry_files": 3,
-    "new_method_source_bindings": 129,
+    "visually_reviewed_pages": 7,
+    "new_original_review_groups": 8,
+    "new_book_entry_files": 1,
+    "new_method_source_bindings": 34,
     "methods": 26,
     "routes": 36,
     "task_modes": 5,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
     "checks": {
       "status": "passed",
+      "source_identity_verified": true,
+      "native_pages_checked": 36,
+      "native_marked_characters_checked": 41099,
+      "native_body_characters_checked": 39632,
+      "contiguous_read_chunks_checked": 4,
+      "visually_viewed_render_hashes_checked": 7,
+      "unreviewed_full_page_layouts": 29,
+      "distinct_displayed_image_contents_checked": 3,
+      "original_source_incomplete": true,
+      "missing_chapters_and_figures_retained": true,
+      "new_original_review_groups": 8,
+      "new_method_source_bindings": 34,
+      "unchanged_other_source_records": 157,
+      "unchanged_other_inventory_records": 125,
+      "targeted_retrievals": [
+        {
+          "method": "M25",
+          "query": "占座、跟随",
+          "path": "knowledge/books/B053-context-opening.md",
+          "heading": "话题来自眼前真实发生的事"
+        },
+        {
+          "method": "M03",
+          "query": "不编旅行、亲友",
+          "path": "knowledge/books/B053-question-and-disclosure.md",
+          "heading": "承接信息，再分享一个具体细节"
+        },
+        {
+          "method": "M19",
+          "query": "逼人填空",
+          "path": "knowledge/books/B053-reciprocal-conversation.md",
+          "heading": "一轮说完后等她参与"
+        },
+        {
+          "method": "M09",
+          "query": "笑容出现在哪一瞬",
+          "path": "knowledge/books/B053-specific-interest.md",
+          "heading": "欣赏一项真实内容"
+        },
+        {
+          "method": "M04",
+          "query": "凡问都说是",
+          "path": "knowledge/books/B053-humor-and-facts.md",
+          "heading": "轻松表达保留事实答案"
+        },
+        {
+          "method": "M23",
+          "query": "调情障碍",
+          "path": "knowledge/books/B053-invitation-and-consent.md",
+          "heading": "笑容和障碍都不能替她同意"
+        },
+        {
+          "method": "M11",
+          "query": "说了需要",
+          "path": "knowledge/books/B053-expression-and-practice.md",
+          "heading": "说得清楚比扮演领袖更可执行"
+        },
+        {
+          "method": "M01",
+          "query": "第二部分十二、十三章",
+          "path": "knowledge/books/B053-scope-and-evidence.md",
+          "heading": "读完当前文件，保留原书缺省"
+        }
+      ],
+      "internal_links_checked": 43,
+      "method_operations_preferred_sections_and_routes_preserved": true,
+      "reading_counts": {
+        "started": 52,
+        "current_file_text_complete": 45,
+        "partial": 7,
+        "unread": 67
+      },
+      "next": "B054 first spine item character0; not downloaded or read",
+      "limits": "Metadata checks confirm identity,scope,links and retrieval; they do not independently prove reading,real screenshot recognition,psychological mechanisms or dating efficacy.",
+      "schema_version": 1,
+      "date": "2026-11-12",
+      "baseline": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
       "structural": true,
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158,
       "new_tests": 0,
-      "serial_books_same_turn": [
-        "B049",
-        "B050",
-        "B051"
-      ],
-      "one_book_closed_before_next_started": true,
-      "one_book_per_turn_limit": false,
-      "source_identity_verified": true,
-      "byte_and_blob_verified": true,
-      "physical_pages_native_text_verified": 269,
-      "contiguous_read_chunks_checked": 20,
-      "native_marked_characters_checked": 201477,
-      "native_body_characters_checked": 190314,
-      "visually_read_page_render_hashes_checked": 34,
-      "all_distinct_content_images_reviewed": true,
-      "OCR_run": false,
-      "new_current_file_text_complete": 3,
-      "original_edition_and_full_course_complete_not_claimed": true,
-      "unchanged_other_source_records": 155,
-      "unchanged_other_inventory_records": 123,
-      "older_partial_records_preserved": 7,
-      "new_original_review_groups": 34,
-      "new_method_source_bindings": 129,
-      "targeted_retrievals": [
-        {
-          "method": "M25",
-          "query": "几秒内必须行动",
-          "path": "knowledge/books/B049-practice-and-context.md",
-          "heading": "练习一项行为，不要求一种结果"
-        },
-        {
-          "method": "M20",
-          "query": "我感觉如此",
-          "path": "knowledge/books/B049-humor-and-reality.md",
-          "heading": "幽默有具体语境"
-        },
-        {
-          "method": "M23",
-          "query": "三角凝视",
-          "path": "knowledge/books/B049-body-language-limits.md",
-          "heading": "正常表达即可，不表演支配"
-        },
-        {
-          "method": "M04",
-          "query": "第一人称只表达自己的经验",
-          "path": "knowledge/books/B049-disclosure-and-love.md",
-          "heading": "第一人称只表达自己的经验"
-        },
-        {
-          "method": "M14",
-          "query": "不同消费与偏好",
-          "path": "knowledge/books/B051-contact-and-cost.md",
-          "heading": "可负担与尊重可以同时做到"
-        },
-        {
-          "method": "M20",
-          "query": "一句开玩笑",
-          "path": "knowledge/books/B051-respect-and-devaluation.md",
-          "heading": "被纠正时按具体问题处理"
-        },
-        {
-          "method": "M23",
-          "query": "被制止凝视后继续",
-          "path": "knowledge/books/B051-consent-over-control.md",
-          "heading": "相互矛盾时不取有利的一半"
-        },
-        {
-          "method": "M03",
-          "query": "一串问题连续发出",
-          "path": "knowledge/books/B051-listening-and-sharing.md",
-          "heading": "好奇不是资格审查"
-        },
-        {
-          "method": "M08",
-          "query": "矩阵与正文至少",
-          "path": "knowledge/books/B050-astrology-and-current-facts.md",
-          "heading": "数字精确不等于有证据"
-        },
-        {
-          "method": "M22",
-          "query": "预算约束适用于自己的选择",
-          "path": "knowledge/books/B050-budget-and-agreements.md",
-          "heading": "先看可承受的时间与成本"
-        },
-        {
-          "method": "M10",
-          "query": "背出一串名词",
-          "path": "knowledge/books/B050-skills-and-topics.md",
-          "heading": "兴趣用来相处，不是必修表演"
-        },
-        {
-          "method": "M13",
-          "query": "不接管他人心态",
-          "path": "knowledge/books/B050-mood-and-other-people.md",
-          "heading": "B050｜观察具体内容，不接管他人心态"
-        }
-      ],
-      "internal_links_checked": 393,
-      "new_files": 40,
-      "modified_files": 12,
-      "raw_source_text_or_images_newly_archived": false,
-      "private_case_summaries_saved": 0,
-      "preferred_sections_preserved": 26,
-      "method_operations_preserved": 26,
-      "routes_preserved": 36,
-      "tasks_preserved": 5,
-      "reading_counts": {
-        "started": 51,
-        "current_file_text_complete": 44,
-        "partial": 7,
-        "unread": 68
-      },
-      "next": "B053 physicalpage1 character0; B052 already complete",
-      "limits": "Checks verify identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
+      "original_source_blob_preserved": true
     }
   },
   "last_reading_progress": {
@@ -1995,6 +1951,170 @@
         "next": "B049 physicalpage1 character0 after identity/extraction check",
         "limits": "Checks cover source identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
       }
+    },
+    {
+      "baseline": "1e639665b0fa6413b30d0ce5d5f514881966cb14",
+      "work_type": "serial_complete_books_in_one_turn",
+      "serial_read_order": [
+        "B049",
+        "B050",
+        "B051"
+      ],
+      "one_book_closed_before_next_started": true,
+      "new_book_files_started": [
+        "B049",
+        "B050",
+        "B051"
+      ],
+      "new_book_files_completed": [
+        "B049",
+        "B050",
+        "B051"
+      ],
+      "new_whole_book_files_completed": 3,
+      "complete_means": "current_provided_file_coverage_not_verified_original_edition_or_complete_course",
+      "text_complete_file_ids": [
+        "B049",
+        "B050",
+        "B051"
+      ],
+      "direct_native_characters_read": 201477,
+      "native_body_characters_read": 190314,
+      "actual_direct_native_read_chunks": 20,
+      "physical_file_pages_with_all_native_text_read": 269,
+      "new_OCR_pages": 0,
+      "visually_reviewed_pages": 34,
+      "new_original_review_groups": 34,
+      "new_book_entry_files": 3,
+      "new_method_source_bindings": 129,
+      "methods": 26,
+      "routes": 36,
+      "task_modes": 5,
+      "changed_method_operations": [],
+      "changed_preferred_sections": [],
+      "new_full_original_research_papers_completed": 0,
+      "new_original_videos_completed": 0,
+      "checks": {
+        "status": "passed",
+        "structural": true,
+        "unittest_methods": 48,
+        "synthetic_routing_scenarios": 158,
+        "new_tests": 0,
+        "serial_books_same_turn": [
+          "B049",
+          "B050",
+          "B051"
+        ],
+        "one_book_closed_before_next_started": true,
+        "one_book_per_turn_limit": false,
+        "source_identity_verified": true,
+        "byte_and_blob_verified": true,
+        "physical_pages_native_text_verified": 269,
+        "contiguous_read_chunks_checked": 20,
+        "native_marked_characters_checked": 201477,
+        "native_body_characters_checked": 190314,
+        "visually_read_page_render_hashes_checked": 34,
+        "all_distinct_content_images_reviewed": true,
+        "OCR_run": false,
+        "new_current_file_text_complete": 3,
+        "original_edition_and_full_course_complete_not_claimed": true,
+        "unchanged_other_source_records": 155,
+        "unchanged_other_inventory_records": 123,
+        "older_partial_records_preserved": 7,
+        "new_original_review_groups": 34,
+        "new_method_source_bindings": 129,
+        "targeted_retrievals": [
+          {
+            "method": "M25",
+            "query": "几秒内必须行动",
+            "path": "knowledge/books/B049-practice-and-context.md",
+            "heading": "练习一项行为，不要求一种结果"
+          },
+          {
+            "method": "M20",
+            "query": "我感觉如此",
+            "path": "knowledge/books/B049-humor-and-reality.md",
+            "heading": "幽默有具体语境"
+          },
+          {
+            "method": "M23",
+            "query": "三角凝视",
+            "path": "knowledge/books/B049-body-language-limits.md",
+            "heading": "正常表达即可，不表演支配"
+          },
+          {
+            "method": "M04",
+            "query": "第一人称只表达自己的经验",
+            "path": "knowledge/books/B049-disclosure-and-love.md",
+            "heading": "第一人称只表达自己的经验"
+          },
+          {
+            "method": "M14",
+            "query": "不同消费与偏好",
+            "path": "knowledge/books/B051-contact-and-cost.md",
+            "heading": "可负担与尊重可以同时做到"
+          },
+          {
+            "method": "M20",
+            "query": "一句开玩笑",
+            "path": "knowledge/books/B051-respect-and-devaluation.md",
+            "heading": "被纠正时按具体问题处理"
+          },
+          {
+            "method": "M23",
+            "query": "被制止凝视后继续",
+            "path": "knowledge/books/B051-consent-over-control.md",
+            "heading": "相互矛盾时不取有利的一半"
+          },
+          {
+            "method": "M03",
+            "query": "一串问题连续发出",
+            "path": "knowledge/books/B051-listening-and-sharing.md",
+            "heading": "好奇不是资格审查"
+          },
+          {
+            "method": "M08",
+            "query": "矩阵与正文至少",
+            "path": "knowledge/books/B050-astrology-and-current-facts.md",
+            "heading": "数字精确不等于有证据"
+          },
+          {
+            "method": "M22",
+            "query": "预算约束适用于自己的选择",
+            "path": "knowledge/books/B050-budget-and-agreements.md",
+            "heading": "先看可承受的时间与成本"
+          },
+          {
+            "method": "M10",
+            "query": "背出一串名词",
+            "path": "knowledge/books/B050-skills-and-topics.md",
+            "heading": "兴趣用来相处，不是必修表演"
+          },
+          {
+            "method": "M13",
+            "query": "不接管他人心态",
+            "path": "knowledge/books/B050-mood-and-other-people.md",
+            "heading": "B050｜观察具体内容，不接管他人心态"
+          }
+        ],
+        "internal_links_checked": 393,
+        "new_files": 40,
+        "modified_files": 12,
+        "raw_source_text_or_images_newly_archived": false,
+        "private_case_summaries_saved": 0,
+        "preferred_sections_preserved": 26,
+        "method_operations_preserved": 26,
+        "routes_preserved": 36,
+        "tasks_preserved": 5,
+        "reading_counts": {
+          "started": 51,
+          "current_file_text_complete": 44,
+          "partial": 7,
+          "unread": 68
+        },
+        "next": "B053 physicalpage1 character0; B052 already complete",
+        "limits": "Checks verify identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
+      }
     }
   ],
   "deferred_work_units": [
@@ -2942,167 +3062,123 @@
     }
   ],
   "last_completed_reading_session": {
-    "baseline": "1e639665b0fa6413b30d0ce5d5f514881966cb14",
-    "work_type": "serial_complete_books_in_one_turn",
-    "serial_read_order": [
+    "baseline": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
+    "work_type": "continue_after_recovered_batch_commit",
+    "recovered_previous_batch_commit": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
+    "recovered_previous_batch_books": [
       "B049",
       "B050",
       "B051"
     ],
-    "one_book_closed_before_next_started": true,
     "new_book_files_started": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
     "new_book_files_completed": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
-    "new_whole_book_files_completed": 3,
-    "complete_means": "current_provided_file_coverage_not_verified_original_edition_or_complete_course",
+    "new_whole_book_files_completed": 1,
+    "complete_means": "current_supplied_file_not_full_original_work",
     "text_complete_file_ids": [
-      "B049",
-      "B050",
-      "B051"
+      "B053"
     ],
-    "direct_native_characters_read": 201477,
-    "native_body_characters_read": 190314,
-    "actual_direct_native_read_chunks": 20,
-    "physical_file_pages_with_all_native_text_read": 269,
+    "direct_native_characters_read": 41099,
+    "native_body_characters_read": 39632,
+    "actual_direct_native_read_chunks": 4,
+    "physical_file_pages_with_all_native_text_read": 36,
     "new_OCR_pages": 0,
-    "visually_reviewed_pages": 34,
-    "new_original_review_groups": 34,
-    "new_book_entry_files": 3,
-    "new_method_source_bindings": 129,
+    "visually_reviewed_pages": 7,
+    "new_original_review_groups": 8,
+    "new_book_entry_files": 1,
+    "new_method_source_bindings": 34,
     "methods": 26,
     "routes": 36,
     "task_modes": 5,
     "changed_method_operations": [],
     "changed_preferred_sections": [],
-    "new_full_original_research_papers_completed": 0,
-    "new_original_videos_completed": 0,
     "checks": {
       "status": "passed",
+      "source_identity_verified": true,
+      "native_pages_checked": 36,
+      "native_marked_characters_checked": 41099,
+      "native_body_characters_checked": 39632,
+      "contiguous_read_chunks_checked": 4,
+      "visually_viewed_render_hashes_checked": 7,
+      "unreviewed_full_page_layouts": 29,
+      "distinct_displayed_image_contents_checked": 3,
+      "original_source_incomplete": true,
+      "missing_chapters_and_figures_retained": true,
+      "new_original_review_groups": 8,
+      "new_method_source_bindings": 34,
+      "unchanged_other_source_records": 157,
+      "unchanged_other_inventory_records": 125,
+      "targeted_retrievals": [
+        {
+          "method": "M25",
+          "query": "占座、跟随",
+          "path": "knowledge/books/B053-context-opening.md",
+          "heading": "话题来自眼前真实发生的事"
+        },
+        {
+          "method": "M03",
+          "query": "不编旅行、亲友",
+          "path": "knowledge/books/B053-question-and-disclosure.md",
+          "heading": "承接信息，再分享一个具体细节"
+        },
+        {
+          "method": "M19",
+          "query": "逼人填空",
+          "path": "knowledge/books/B053-reciprocal-conversation.md",
+          "heading": "一轮说完后等她参与"
+        },
+        {
+          "method": "M09",
+          "query": "笑容出现在哪一瞬",
+          "path": "knowledge/books/B053-specific-interest.md",
+          "heading": "欣赏一项真实内容"
+        },
+        {
+          "method": "M04",
+          "query": "凡问都说是",
+          "path": "knowledge/books/B053-humor-and-facts.md",
+          "heading": "轻松表达保留事实答案"
+        },
+        {
+          "method": "M23",
+          "query": "调情障碍",
+          "path": "knowledge/books/B053-invitation-and-consent.md",
+          "heading": "笑容和障碍都不能替她同意"
+        },
+        {
+          "method": "M11",
+          "query": "说了需要",
+          "path": "knowledge/books/B053-expression-and-practice.md",
+          "heading": "说得清楚比扮演领袖更可执行"
+        },
+        {
+          "method": "M01",
+          "query": "第二部分十二、十三章",
+          "path": "knowledge/books/B053-scope-and-evidence.md",
+          "heading": "读完当前文件，保留原书缺省"
+        }
+      ],
+      "internal_links_checked": 43,
+      "method_operations_preferred_sections_and_routes_preserved": true,
+      "reading_counts": {
+        "started": 52,
+        "current_file_text_complete": 45,
+        "partial": 7,
+        "unread": 67
+      },
+      "next": "B054 first spine item character0; not downloaded or read",
+      "limits": "Metadata checks confirm identity,scope,links and retrieval; they do not independently prove reading,real screenshot recognition,psychological mechanisms or dating efficacy.",
+      "schema_version": 1,
+      "date": "2026-11-12",
+      "baseline": "4459c1acc7f2935a4451bd05c54d48bfd4ee8d35",
       "structural": true,
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158,
       "new_tests": 0,
-      "serial_books_same_turn": [
-        "B049",
-        "B050",
-        "B051"
-      ],
-      "one_book_closed_before_next_started": true,
-      "one_book_per_turn_limit": false,
-      "source_identity_verified": true,
-      "byte_and_blob_verified": true,
-      "physical_pages_native_text_verified": 269,
-      "contiguous_read_chunks_checked": 20,
-      "native_marked_characters_checked": 201477,
-      "native_body_characters_checked": 190314,
-      "visually_read_page_render_hashes_checked": 34,
-      "all_distinct_content_images_reviewed": true,
-      "OCR_run": false,
-      "new_current_file_text_complete": 3,
-      "original_edition_and_full_course_complete_not_claimed": true,
-      "unchanged_other_source_records": 155,
-      "unchanged_other_inventory_records": 123,
-      "older_partial_records_preserved": 7,
-      "new_original_review_groups": 34,
-      "new_method_source_bindings": 129,
-      "targeted_retrievals": [
-        {
-          "method": "M25",
-          "query": "几秒内必须行动",
-          "path": "knowledge/books/B049-practice-and-context.md",
-          "heading": "练习一项行为，不要求一种结果"
-        },
-        {
-          "method": "M20",
-          "query": "我感觉如此",
-          "path": "knowledge/books/B049-humor-and-reality.md",
-          "heading": "幽默有具体语境"
-        },
-        {
-          "method": "M23",
-          "query": "三角凝视",
-          "path": "knowledge/books/B049-body-language-limits.md",
-          "heading": "正常表达即可，不表演支配"
-        },
-        {
-          "method": "M04",
-          "query": "第一人称只表达自己的经验",
-          "path": "knowledge/books/B049-disclosure-and-love.md",
-          "heading": "第一人称只表达自己的经验"
-        },
-        {
-          "method": "M14",
-          "query": "不同消费与偏好",
-          "path": "knowledge/books/B051-contact-and-cost.md",
-          "heading": "可负担与尊重可以同时做到"
-        },
-        {
-          "method": "M20",
-          "query": "一句开玩笑",
-          "path": "knowledge/books/B051-respect-and-devaluation.md",
-          "heading": "被纠正时按具体问题处理"
-        },
-        {
-          "method": "M23",
-          "query": "被制止凝视后继续",
-          "path": "knowledge/books/B051-consent-over-control.md",
-          "heading": "相互矛盾时不取有利的一半"
-        },
-        {
-          "method": "M03",
-          "query": "一串问题连续发出",
-          "path": "knowledge/books/B051-listening-and-sharing.md",
-          "heading": "好奇不是资格审查"
-        },
-        {
-          "method": "M08",
-          "query": "矩阵与正文至少",
-          "path": "knowledge/books/B050-astrology-and-current-facts.md",
-          "heading": "数字精确不等于有证据"
-        },
-        {
-          "method": "M22",
-          "query": "预算约束适用于自己的选择",
-          "path": "knowledge/books/B050-budget-and-agreements.md",
-          "heading": "先看可承受的时间与成本"
-        },
-        {
-          "method": "M10",
-          "query": "背出一串名词",
-          "path": "knowledge/books/B050-skills-and-topics.md",
-          "heading": "兴趣用来相处，不是必修表演"
-        },
-        {
-          "method": "M13",
-          "query": "不接管他人心态",
-          "path": "knowledge/books/B050-mood-and-other-people.md",
-          "heading": "B050｜观察具体内容，不接管他人心态"
-        }
-      ],
-      "internal_links_checked": 393,
-      "new_files": 40,
-      "modified_files": 12,
-      "raw_source_text_or_images_newly_archived": false,
-      "private_case_summaries_saved": 0,
-      "preferred_sections_preserved": 26,
-      "method_operations_preserved": 26,
-      "routes_preserved": 36,
-      "tasks_preserved": 5,
-      "reading_counts": {
-        "started": 51,
-        "current_file_text_complete": 44,
-        "partial": 7,
-        "unread": 68
-      },
-      "next": "B053 physicalpage1 character0; B052 already complete",
-      "limits": "Checks verify identity,metadata,coverage,links,retrieval and synthetic fact routing,not independent proof of actual reading,real screenshot recognition,source psychology or dating efficacy."
+      "original_source_blob_preserved": true
     }
   },
   "reading_policy": {
@@ -3118,10 +3194,10 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 51,
-    "current_file_text_complete": 44,
+    "started": 52,
+    "current_file_text_complete": 45,
     "partial": 7,
-    "unread": 68,
+    "unread": 67,
     "not_unique_original_works_or_training_completion": true
   }
 }

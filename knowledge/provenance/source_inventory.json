@@ -3339,8 +3339,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%A6%82%E4%BD%95%E5%92%8C%E5%A5%B3%E4%BA%BA%E8%A7%81%E9%9D%A2%E4%B8%8E%E6%B2%9F%E9%80%9A%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B053.md",
       "pages": 36,
       "spine_items": null,
       "ocr": {
@@ -3348,7 +3348,40 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "coverage_mode": "all_current_PDF_native_text_read_and_all_distinct_content_images_reviewed",
+      "reading_ledger": "knowledge/provenance/B053_reading_2026-11-12.json",
+      "latest_reading": {
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B053_reading_2026-11-12.json",
+        "current_extraction": {
+          "engine": "PyMuPDF 1.26.6",
+          "method": "get_text(sort=True),LF,explicit physical-file-page markers",
+          "characters": 41099,
+          "body_characters": 39632,
+          "sha256": "d26962f0c30b58d0f0f353e95488f2088c155f137fb7ad2a78eb79c97fce9918",
+          "coordinates": "Unicode codepoints; half-open offsets; markers included",
+          "native_not_OCR": true
+        },
+        "source_sha256": "6174cb277ff3eec0445d073ea394d2335c322f613080fb0aec70f87b265b0cf1",
+        "all_current_native_text_read": true,
+        "current_file_provided_text_complete": true,
+        "original_publication_complete": false,
+        "OCR_run": false,
+        "all_distinct_nonprivate_content_images_reviewed": true,
+        "visually_read_pages": 7,
+        "unread_current_native_characters": 0,
+        "next_file_page": null,
+        "next_character": null,
+        "source_quality_notes": [
+          "当前36页为节译文件；目录中第二部分十二、十三章及第三部分九个互动样板未提供，不补算阅读。",
+          "目录十一章题名与正文不同；译文的重复、含混、错字及夹杂英文保留，未核定原作或校订本。",
+          "第31页提到下表但原页对应位置为空白；第33页缺图并有译者未找到图片的说明，未补造。",
+          "四个显示图像对象、三种不同内容，均为封面文字或重复推广标志，已经查看；未新增归档图像。",
+          "36页原生文字全部读完，七页直接目读，另29页未逐页审阅版式；没有运行OCR。",
+          "人物履历、排名、成功承诺、因果与性别主张未独立核验，不作为当前个人事实或心理机制证据。"
+        ]
+      }
     },
     {
       "index": 54,
