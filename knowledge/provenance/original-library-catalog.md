@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成50/119份任务，另2份未完成、67份未开始。B017按用户要求结束，实际图字缺口保留；B036、B038本轮实读收尾。当前只读B039，原页累计143/380，连续前缀至131页，下一132页；B045及新文件等待。[本次补核](B039_first_chapter_scan_review_2026-11-12.md)。
+当前完成50/119份任务，另2份未完成、67份未开始。B017按用户要求结束，实际缺口保留。本轮只续B039，新增核读237个原页，累计380/380版面已查看；浅字和损坏嵌图仍有未读片段，暂不计完成。下一仅补同源清晰材料，不从132页重读，B045及新文件等待。[本轮补核](B039_remaining_scans_2026-11-12.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -51,7 +51,7 @@
 | B036 | [人妻约会指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E4%BA%BA%E5%A6%BB%E7%BA%A6%E4%BC%9A%E6%8C%87%E5%8D%97.pdf) | 97 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B036.md) |
 | B037 | [决胜网络把妹 - Kezia Noble.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B3%E8%83%9C%E7%BD%91%E7%BB%9C%E6%8A%8A%E5%A6%B9%20-%20Kezia%20Noble.epub) | 11 | 正文读完 | [精读](../books/B037.md) |
 | B038 | [冷眼观爱 - 冷爱.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B1%20-%20%E5%86%B7%E7%88%B1.epub) | 17 | 当前提供文字及图像已补读完成；原版完整性未核 | [笔记](../books/B038.md) |
-| B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 部分：全部OCR已读，143个原页已核，连续前缀至131页；237页版面及扫描限制保留 | [笔记](../books/B039.md) |
+| B039 | [冷眼观爱2 - 冷爱.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E7%9C%BC%E8%A7%82%E7%88%B12%20-%20%E5%86%B7%E7%88%B1.pdf) | 380 | 部分：全部OCR及380页版面已核，浅字与损坏嵌图仍有未读片段；不计完成 | [笔记](../books/B039.md) |
 | B040 | [冷读术 - 石井裕之.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF%20-%20%E7%9F%B3%E4%BA%95%E8%A3%95%E4%B9%8B.pdf) | 119 | 当前119页文字完成；27图已核；手打版限制 | [笔记](../books/B040.md) |
 | B041 | [冷读术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%86%B7%E8%AF%BB%E6%9C%AF.pdf) | 119 | 与B040逐页比对复用；非独立新原著 | [笔记](../books/B041.md) |
 | B042 | [前线笔记 - 尼尔.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E5%89%8D%E7%BA%BF%E7%AC%94%E8%AE%B0%20-%20%E5%B0%BC%E5%B0%94.pdf) | 52 | 正文读完 | [精读](../books/B042.md) |

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "status": "passed",
+  "baseline_main": "df05278cf4373f22e824c20c13fede8e2a11b121",
+  "completion_ratio": "50/119",
+  "B039_counted_complete": false,
+  "new_book_files_completed": 0,
+  "new_original_page_layouts_reviewed": 237,
+  "previous_original_page_layouts_reviewed": 143,
+  "cumulative_original_page_layouts_reviewed": 380,
+  "old_and_new_page_sets_disjoint_and_cover_all380": true,
+  "viewed_reading_cards": 40,
+  "additional_detail_views": 14,
+  "render_and_card_hashes_checked": true,
+  "original_pdf_bytes_blob_sha256_match": true,
+  "source_quality_unread_regions_retained": true,
+  "all_words_read_or_restored_asserted": false,
+  "new_OCR_character_credit": 0,
+  "B045_or_new_book_body_opened": false,
+  "all_original_source_blob_identities_and_reading_statuses_unchanged": true,
+  "other_source_records_unchanged": true,
+  "last_system_maintenance_unchanged": true,
+  "runtime_scripts_tests_and_methods_unchanged": true,
+  "structural_and_unittest_command_outputs": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 36,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 50,\n  \"book_not_started\": 67,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "output": "...............................................................\n----------------------------------------------------------------------\nRan 63 tests in 3.527s\n\nOK\n"
+    }
+  ],
+  "unittest_methods": 63,
+  "synthetic_routing_scenarios": 158,
+  "bookmarks_equal": true,
+  "next_work_phase": "source_quality_recovery_after_end_of_file",
+  "next_targeted_text_gap_file_page": 85,
+  "no_source_images_OCR_fulltext_or_private_case_narratives_newly_archived": true,
+  "limitations": "Hash/structure/routing checks do not independently prove reading, all-glyph restoration, original-edition completeness, psychological validity or dating effects."
+}
