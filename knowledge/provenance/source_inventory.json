@@ -13135,8 +13135,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%87%92%E6%B1%89%E6%8A%8A%E5%A6%B9%20-%20%E5%A4%A7%E5%8D%ABX.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B063.md",
       "pages": null,
       "spine_items": 20,
       "ocr": {
@@ -13144,7 +13144,59 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
+      "coverage_mode": "all20_current_EPUB_spine_native_body_outputs_read_no_embedded_media",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
+      "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
+        "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
+        "download_ref": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+        "current_extraction": {
+          "engine": "lxml HTML parsing; OPF spine order",
+          "method": "body.itertext(); strip each nonempty text node; LF between nodes and trailing LF per unit",
+          "body_characters": 39093,
+          "characters": 39824,
+          "sha256": "37d716da44c471da715ada2edd0da1556740506cc264dd28649498761e47743e",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": "not applicable; none supplied",
+        "original_publication_complete": false,
+        "new_native_characters_read": 39093,
+        "new_OCR_characters_read": 0,
+        "source_scope": {
+          "current_spine_items": 20,
+          "first_item": "title_and_source_page",
+          "second_item": "author_self_description",
+          "thematic_body_items_inclusive": [
+            3,
+            20
+          ],
+          "thematic_body_items": 18,
+          "NCX_matches_all20_spine_items": true,
+          "unspined_substantive_body_files": [],
+          "embedded_images_audio_video_or_scripts": [],
+          "unread_current_provided_content": [],
+          "creator_metadata_contains_book_title_not_verified_person": true,
+          "second_item_self_signature": "大卫X",
+          "original_publication_complete_verified": false,
+          "author_autobiography_and_effectiveness_claims_independently_verified": false,
+          "internal_honesty_and_consent_claims_not_assumed_consistent": true,
+          "unprovided_material_counted_as_read": false,
+          "unprovided_material_blocks_next_book": false
+        },
+        "notes": "knowledge/books/B063.md",
+        "raw_native_text_newly_archived": false,
+        "next_spine_item": null
+      }
     },
     {
       "index": 64,
@@ -13159,8 +13211,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%89%93%E7%A0%B4%E5%92%8C%E8%B0%90%E6%84%9F%E7%9A%8481%E7%A7%8D%E6%96%B9%E6%B3%95%20-%20Adam%20Lyons.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B064.md",
       "pages": 24,
       "spine_items": null,
       "ocr": {
@@ -13168,7 +13220,206 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
+      "coverage_mode": "all24_current_PDF_native_page_outputs_and_all24_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
+      "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
+        "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
+        "download_ref": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+        "current_extraction": {
+          "engine": "PyMuPDF 1.26.6",
+          "method": "get_text(sort=True),LF,physical-file-page markers",
+          "characters": 19674,
+          "body_characters": 19146,
+          "sha256": "5e47fa98915380e6b08835f8b049923b76df57aa0b0afce0c3c0d36eb3c3c63e",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_page_views_reviewed": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": true,
+        "original_publication_complete": false,
+        "selected_visual_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "unique_original_visual_pages": 24,
+        "new_native_characters_read": 19146,
+        "new_OCR_characters_read": 0,
+        "reading_cards_viewed": 4,
+        "source_scope": {
+          "current_pdf_pages": 24,
+          "ending_file_page": 24,
+          "ending_kind": "end_of_seven_category_list",
+          "chapter_map": [
+            {
+              "file_pages": [
+                1,
+                1
+              ],
+              "kind": "cover"
+            },
+            {
+              "file_pages": [
+                2,
+                2
+              ],
+              "kind": "translator_preface"
+            },
+            {
+              "file_pages": [
+                3,
+                4
+              ],
+              "kind": "introduction"
+            },
+            {
+              "file_pages": [
+                5,
+                6
+              ],
+              "kind": "rapport_definition"
+            },
+            {
+              "file_pages": [
+                7,
+                10
+              ],
+              "kind": "rationale_and_unidentified_study"
+            },
+            {
+              "file_pages": [
+                11,
+                24
+              ],
+              "kind": "seven_categories"
+            }
+          ],
+          "category_map": [
+            {
+              "category": "Physical",
+              "file_pages": [
+                11,
+                13
+              ],
+              "independent_English_item_paragraphs": 15
+            },
+            {
+              "category": "Teasing",
+              "file_pages": [
+                14,
+                15
+              ],
+              "independent_English_item_paragraphs": 11
+            },
+            {
+              "category": "Verbal",
+              "file_pages": [
+                15,
+                16
+              ],
+              "independent_English_item_paragraphs": 4
+            },
+            {
+              "category": "Disqualification",
+              "file_pages": [
+                16,
+                18
+              ],
+              "independent_English_item_paragraphs": 12
+            },
+            {
+              "category": "Disagreement",
+              "file_pages": [
+                18,
+                20
+              ],
+              "independent_English_item_paragraphs": 13
+            },
+            {
+              "category": "Non-Supplication",
+              "file_pages": [
+                20,
+                22
+              ],
+              "independent_English_item_paragraphs": 13
+            },
+            {
+              "category": "Sexual",
+              "file_pages": [
+                22,
+                24
+              ],
+              "independent_English_item_paragraphs": 12
+            }
+          ],
+          "title_claimed_item_count": 81,
+          "counted_independent_English_item_paragraphs": 80,
+          "count_method": "Count distinct English item paragraphs in seven categories; cross-page continuations count once; current PDF has no printed item numbers.",
+          "original_author_counting_convention_verified": false,
+          "missing81st_item_reconstructed": false,
+          "important_translation_discrepancies": [
+            {
+              "file_page": 18,
+              "kind": "rejection_context_mistranslated_as_physical_exhaustion"
+            },
+            {
+              "file_page": 20,
+              "kind": "alternating_drink_purchases_mistranslated_as_leaving_to_find_other_women"
+            }
+          ],
+          "unidentified_speed_dating_study_pages": [
+            8,
+            9,
+            10
+          ],
+          "study_bibliography_and_DOI_provided": false,
+          "new_APA_citation_created": false,
+          "cover_raster_decorations": 4,
+          "non_cover_raster_images": 0,
+          "original_publication_complete_verified": false,
+          "known_unread_provided_body_pages": [],
+          "all_original_words_individually_proofread": false,
+          "author_claims_promoted_to_empirical_evidence": false,
+          "next_translation_announced_on_page2_provided_in_current_file": false,
+          "unprovided_material_blocks_next_book": false,
+          "unprovided_external_material_counted_as_read": false
+        },
+        "notes": "knowledge/books/B064.md",
+        "raw_native_text_newly_archived": false,
+        "next_file_page": null,
+        "remaining_provided_body_gap_kind": null
+      }
     },
     {
       "index": 65,
@@ -14767,5 +15018,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B061_B062 supplied files read sequentially to their provided ends, with notes, scope, and checkpoints saved before switching. 77561 native characters, 111 original page views, 32 note groups. 61/119 = 59 actually read supplied files plus B017/B039 scope closures; 58 unread. Unprovided originals and sequels not counted. Next B063, body unopened at checkpoint."
+  "latest_reading_update": "2026-11-13: B063_B064 supplied files read sequentially; 58239 native characters, 30 original note groups and 76 exact method-section bindings. 63/119 = 61 actually read supplied files plus B017/B039 scope closures; 56 unread. Next B065; body unopened at this checkpoint."
 }

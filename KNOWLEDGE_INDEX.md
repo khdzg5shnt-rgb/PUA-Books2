@@ -25,7 +25,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-当前完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
+当前完成63/119份任务，无部分阅读文件、56份未开始。61份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B063《懒汉把妹—大卫X》、B064《打破和谐感的81种方法》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B065，保存断点时正文未打开。[本轮记录](knowledge/provenance/B063_B064_progress_2026-11-13.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。

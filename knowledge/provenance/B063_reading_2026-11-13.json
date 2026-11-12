@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+  "id": "B063",
+  "path": "懒汉把妹 - 大卫X.epub",
+  "bytes": 82064,
+  "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
+  "download_ref": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+  "download": "Read-only GitHub connector fetch_file with base64; original byte count and Git blob verified.",
+  "EPUB_rootfile": "OEBPS/content.opf",
+  "native_extraction": {
+    "engine": "lxml HTML parsing; OPF spine order",
+    "method": "body.itertext(); strip each nonempty text node; LF between nodes and trailing LF per unit",
+    "body_characters": 39093,
+    "characters": 39824,
+    "sha256": "37d716da44c471da715ada2edd0da1556740506cc264dd28649498761e47743e",
+    "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+    "native_not_OCR": true,
+    "initial_screening_count_preserved_separately": true
+  },
+  "native_body_characters_actually_read": 39093,
+  "OCR_run": false,
+  "actually_read_spine_blocks": [
+    {
+      "spine_items_inclusive": [
+        1,
+        3
+      ],
+      "native_characters": 4552,
+      "native_text_sha256": "e055ebb5e56fdae0a04fab98a90f3ea1ee41338c526e96bcaf6662d74b0461f2",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "spine_items_inclusive": [
+        4,
+        4
+      ],
+      "native_characters": 7101,
+      "native_text_sha256": "3dd4468acb45cea04482a25bb40884a92a522ca028bb21e5bb3d7d967e80b8f6",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "spine_items_inclusive": [
+        5,
+        15
+      ],
+      "native_characters": 8933,
+      "native_text_sha256": "8b51610d80feafe5712edcaf6efb3763673f5d7abc72eea5a74d59cb1379253b",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "spine_items_inclusive": [
+        16,
+        18
+      ],
+      "native_characters": 10371,
+      "native_text_sha256": "b2377c82fd1efa3255768bda6be1b087a1c259e6ab1df48cab802d33bd9dd070",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "spine_items_inclusive": [
+        19,
+        20
+      ],
+      "native_characters": 8136,
+      "native_text_sha256": "d6ceef212bdadcbb95ed965da89f6c790937077524f01283fc9738deafd9e1eb",
+      "actually_read": true,
+      "output_truncated": false
+    }
+  ],
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "idref": "x1.html",
+      "path": "OEBPS/Text/1.html",
+      "title": [
+        "懒汉把妹"
+      ],
+      "characters": 37,
+      "text_sha256": "8bb24103c1b8b3f6bfc80b3fbdbb84d8f4ef89d9a39831071fb94b52c9af112a",
+      "raw_sha256": "dd09aafc6acffac1dbb173575d38c4d44581b34bd8c900ae15097fdb4739da6c",
+      "stream_range": [
+        0,
+        73
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 2,
+      "idref": "x2.html",
+      "path": "OEBPS/Text/2.html",
+      "title": [
+        " 关于我"
+      ],
+      "characters": 638,
+      "text_sha256": "a83cb5a850ca33952f745d849dd25135633c4835d93618144b14247b0f84ae06",
+      "raw_sha256": "5314f5aa04e5642ffcbc3d6359df3c7cc0908bce27361dcd111807b402497f6b",
+      "stream_range": [
+        73,
+        747
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 3,
+      "idref": "x3.html",
+      "path": "OEBPS/Text/3.html",
+      "title": [
+        " 女人多么希望被男人认识、被男人勾搭"
+      ],
+      "characters": 3877,
+      "text_sha256": "c0276d38952e411b92cec5aa4e1f65f48c5804ca9119846e289a511d87b60fea",
+      "raw_sha256": "08bb6e59a1638faad5571b1bc1ac17f1f07fdb0588e5883032f6f42e173e467a",
+      "stream_range": [
+        747,
+        4660
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 4,
+      "idref": "x4.html",
+      "path": "OEBPS/Text/4.html",
+      "title": [
+        " 如何尽可能多地认识你朝思暮想的“吸烟辣妹”们"
+      ],
+      "characters": 7101,
+      "text_sha256": "3dd4468acb45cea04482a25bb40884a92a522ca028bb21e5bb3d7d967e80b8f6",
+      "raw_sha256": "271b506473dd1b350a8458faafd87bf9e7d6dc7f097d6b12e764a47596d755b5",
+      "stream_range": [
+        4660,
+        11797
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 5,
+      "idref": "x5.html",
+      "path": "OEBPS/Text/5.html",
+      "title": [
+        " 如何在女人面前变得毫无愧疚并让她们渴望你"
+      ],
+      "characters": 2666,
+      "text_sha256": "dd65fb070cc95a73029504b701fd4e30e358d0af4bedfa345f82b7e03fb7d367",
+      "raw_sha256": "f19ee298c515c157de771d5baa140cf05d3b045ec17e876c92db614ffc530314",
+      "stream_range": [
+        11797,
+        14499
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 6,
+      "idref": "x6.html",
+      "path": "OEBPS/Text/6.html",
+      "title": [
+        " 如何保有控制权并让你的女人保持开心"
+      ],
+      "characters": 668,
+      "text_sha256": "5289255029a30dc19a893de2f105619d303e1ca3c1d8cdd06f0bf0294ac57826",
+      "raw_sha256": "92737190814df841ceacadbb9009b4519d1af34482af935564e910c50033f7f6",
+      "stream_range": [
+        14499,
+        15203
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 7,
+      "idref": "x7.html",
+      "path": "OEBPS/Text/7.html",
+      "title": [
+        " 你在女人面前是如此懦弱!打破这个习惯"
+      ],
+      "characters": 508,
+      "text_sha256": "f44822a0742f8bb92fcecfeae53a2b7d83d0a500b5a870600b90a0c0c4a464e3",
+      "raw_sha256": "55af019b3c40ce5f18973a5f098bd397bacbb99d8687d2a91020ef2df476ba4a",
+      "stream_range": [
+        15203,
+        15747
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 8,
+      "idref": "x8.html",
+      "path": "OEBPS/Text/8.html",
+      "title": [
+        " 当女人对你说“还是当朋友!”你该怎么办？"
+      ],
+      "characters": 1060,
+      "text_sha256": "9a9ed2ca80e6b62e57c8e69ca879d10fc4664ead3d302a23b32f5538edaeb921",
+      "raw_sha256": "ccd8a1fa3001dc3e8295ca6c480c874da71a783f05ff31d74c4d8f765cd38d9e",
+      "stream_range": [
+        15747,
+        16843
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 9,
+      "idref": "x9.html",
+      "path": "OEBPS/Text/9.html",
+      "title": [
+        " 下流的坏小子以及女人为他们疯狂"
+      ],
+      "characters": 392,
+      "text_sha256": "d532f61bd220b434ae472d113495829228e17e5424ded8d6fbfb316fd39086fd",
+      "raw_sha256": "b9c990fb4892a321dfeb82974076285907120bde58b6711358b6e10809aea132",
+      "stream_range": [
+        16843,
+        17271
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 10,
+      "idref": "x10.html",
+      "path": "OEBPS/Text/10.html",
+      "title": [
+        " 当女人对你说“我爱你”时，你该怎么做？"
+      ],
+      "characters": 1027,
+      "text_sha256": "dbc99ccad149f1bc3a3618dfa8f991bcc367964cfbb81c582ae62bd294c37b71",
+      "raw_sha256": "1ecdfbf434b69f1fe2fe572f7093391ed4bb8cbffc3502210343dd947126c25e",
+      "stream_range": [
+        17271,
+        18335
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 11,
+      "idref": "x11.html",
+      "path": "OEBPS/Text/11.html",
+      "title": [
+        " 如何利用女人的父母"
+      ],
+      "characters": 314,
+      "text_sha256": "f43b80d7402b30441e8503876055181decea17ee89812d552c5b42909bfcacc1",
+      "raw_sha256": "a1179244572e1ec9e876b23775faf8397b39192edd1054bc3a66d574e9cd1306",
+      "stream_range": [
+        18335,
+        18686
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 12,
+      "idref": "x12.html",
+      "path": "OEBPS/Text/12.html",
+      "title": [
+        " 对待“辣妹”的最佳方式，带给你超量愉悦"
+      ],
+      "characters": 388,
+      "text_sha256": "4fea90549ac0052fd68b03ae79426ae9f65e1a28a4110785707ebce60aba9d9f",
+      "raw_sha256": "c15620b209086aa0632382a3a52c078f90cef0d83f6f4db027392ad79ef24e95",
+      "stream_range": [
+        18686,
+        19111
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 13,
+      "idref": "x13.html",
+      "path": "OEBPS/Text/13.html",
+      "title": [
+        " 如何永远都不再被女人控制"
+      ],
+      "characters": 376,
+      "text_sha256": "26765c0de454608f6429273c3c1e414639f9e743f5d615877ce7f412bd6a67b1",
+      "raw_sha256": "1d9d3fdd0062888e639cc4912d72007c83a345041d40c75330e9abdbc6400c13",
+      "stream_range": [
+        19111,
+        19524
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 14,
+      "idref": "x14.html",
+      "path": "OEBPS/Text/14.html",
+      "title": [
+        " 总是掌握控制权的诀窍"
+      ],
+      "characters": 1044,
+      "text_sha256": "4fecdca1b49411ff0bbe84a220f7f1b2edd1bd9203039589e1ebc480e749fa8e",
+      "raw_sha256": "861dd9bc1862ea4a2cf161c1c40f188d925ffff4bfe4b907f569910b5b6ddc26",
+      "stream_range": [
+        19524,
+        20605
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 15,
+      "idref": "x15.html",
+      "path": "OEBPS/Text/15.html",
+      "title": [
+        " 如何搞定“难搞”的女人，让她们追求你"
+      ],
+      "characters": 490,
+      "text_sha256": "b71e1eab905841b6d1df61e94a9d0852ccdb6f0de9cd2b6ab2b1562b63256551",
+      "raw_sha256": "8b0bdb30b0cbf934ee7ab54a457c2054da753572806b461ab70c89a3dc61460c",
+      "stream_range": [
+        20605,
+        21132
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 16,
+      "idref": "x16.html",
+      "path": "OEBPS/Text/16.html",
+      "title": [
+        " 如何保持你的女孩（们）开心满足"
+      ],
+      "characters": 5336,
+      "text_sha256": "0e922bf90e6ecadf591dc9530513002c3946341cf618a3f5d8924aa624c6825b",
+      "raw_sha256": "c72982a06b1375fe3d681d911f04002d89f10ff8fd81732e1703e025d5e347d1",
+      "stream_range": [
+        21132,
+        26505
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 17,
+      "idref": "x17.html",
+      "path": "OEBPS/Text/17.html",
+      "title": [
+        " 如何靠诚实、信任以及尊重从关系中得到你想要的东西"
+      ],
+      "characters": 2599,
+      "text_sha256": "77352fbaccad11ecf2147dee32f962bc8099da37e8b2292dc2e406de35f8deeb",
+      "raw_sha256": "3a22be923e04260c3dfb22ef4e526e85008db4b57a3aa4f1f24b4eaadf697318",
+      "stream_range": [
+        26505,
+        29141
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 18,
+      "idref": "x18.html",
+      "path": "OEBPS/Text/18.html",
+      "title": [
+        " 两条你必须遵守的规矩"
+      ],
+      "characters": 2436,
+      "text_sha256": "4e2b6a76cf077fe1559b81b10de30839e9aefde71b807361f46d3ad1a3050500",
+      "raw_sha256": "fd4606063952ae0daf263d6d88ee342c956af532eecd70a8ff459a76a3d79ab6",
+      "stream_range": [
+        29141,
+        31614
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 19,
+      "idref": "x19.html",
+      "path": "OEBPS/Text/19.html",
+      "title": [
+        " 如何诱惑和约会你想要的多数女人"
+      ],
+      "characters": 4303,
+      "text_sha256": "6de9b1cf368750c2b9bd2fc65d24fc0ef0a528d18b750974870b27026b8d8fcb",
+      "raw_sha256": "f20e84f7322d4e23c4da509a10989f350161a57ef636c7ac8e6c3badfafbb309",
+      "stream_range": [
+        31614,
+        35954
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 20,
+      "idref": "x20.html",
+      "path": "OEBPS/Text/20.html",
+      "title": [
+        " 什么才是女人真正想要的"
+      ],
+      "characters": 3833,
+      "text_sha256": "bc2914f9cf8f36e43bb65a1739ba6b8111b5a7974f93bc7fb19c596b23a3c4ce",
+      "raw_sha256": "aa94fcf698ba09858604009f73ae9dc0ea4ac477d5af9682b3f7d8f8972e43f9",
+      "stream_range": [
+        35954,
+        39824
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    }
+  ],
+  "all_current_provided_content_read": true,
+  "all_extractable_body_text_read": true,
+  "all_original_words_individually_proofread": false,
+  "visual_page_review": "not applicable: no embedded images or fixed PDF pages",
+  "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
+  "source_scope": {
+    "current_spine_items": 20,
+    "first_item": "title_and_source_page",
+    "second_item": "author_self_description",
+    "thematic_body_items_inclusive": [
+      3,
+      20
+    ],
+    "thematic_body_items": 18,
+    "NCX_matches_all20_spine_items": true,
+    "unspined_substantive_body_files": [],
+    "embedded_images_audio_video_or_scripts": [],
+    "unread_current_provided_content": [],
+    "creator_metadata_contains_book_title_not_verified_person": true,
+    "second_item_self_signature": "大卫X",
+    "original_publication_complete_verified": false,
+    "author_autobiography_and_effectiveness_claims_independently_verified": false,
+    "internal_honesty_and_consent_claims_not_assumed_consistent": true,
+    "unprovided_material_counted_as_read": false,
+    "unprovided_material_blocks_next_book": false
+  },
+  "new_raw_text_images_private_transcriptions_or_anonymous_private_narratives_archived": false,
+  "note": "knowledge/books/B063.md",
+  "new_note_groups": 16,
+  "new_critical_method_source_bindings": 44,
+  "previous_book_checkpoint_saved_before_current_body_opened": true,
+  "next_work_unit_at_checkpoint": "B064",
+  "next_book_body_opened_at_checkpoint": false,
+  "scope_counts_at_checkpoint": {
+    "complete": 62,
+    "actual_supplied_files_read": 60,
+    "user_accepted_scope_closures": 2,
+    "partial": 0,
+    "unread": 57
+  },
+  "validation": "knowledge/provenance/B063_validation_2026-11-13.json"
+}

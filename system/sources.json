@@ -718,18 +718,24 @@
       "group": "books2_original_snapshot",
       "title": "懒汉把妹 - 大卫X.epub",
       "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B063.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
+      "coverage_mode": "all20_current_EPUB_spine_native_body_outputs_read_no_embedded_media",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media"
     },
     {
       "id": "B064",
       "group": "books2_original_snapshot",
       "title": "打破和谐感的81种方法 - Adam Lyons.pdf",
       "git_blob_sha": "92f8022a7a3e42e144e1ba91e6758b4afc009f03",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B064.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
+      "coverage_mode": "all24_current_PDF_native_page_outputs_and_all24_page_views_read",
+      "completion_kind": "actual_supplied_native_text_and_visible_page_images_read"
     },
     {
       "id": "B065",
@@ -1629,24 +1635,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 61,
+    "current_book_files_text_complete": 63,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 58
+    "current_book_files_not_started": 56
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B063",
-    "path": "懒汉把妹 - 大卫X.epub",
-    "bytes": 82064,
-    "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
+    "id": "B065",
+    "path": "把妹达人圣经 - 尼尔.epub",
+    "bytes": 125523,
+    "git_blob_sha": "5e5dad6f84ee0da7cdbaed8e16bc80f13f3614ae",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": null,
     "next_spine_item": 1,
     "next_character": 0,
-    "start": "B062当前18页已读完，12组原创笔记、提供范围与断点已保存。下一唯一主读B063，从EPUB第一个顺序单元开始；此断点保存时尚未打开其正文。",
-    "next_content_unit": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
+    "start": "B064当前提供内容、原创笔记和范围已保存；下一唯一主读B065。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }

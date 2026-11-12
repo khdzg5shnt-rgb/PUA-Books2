@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+  "id": "B064",
+  "path": "打破和谐感的81种方法 - Adam Lyons.pdf",
+  "bytes": 236389,
+  "git_blob_sha": "92f8022a7a3e42e144e1ba91e6758b4afc009f03",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
+  "download_ref": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+  "download": "Read-only GitHub connector fetch_file with base64; original byte count and Git blob verified.",
+  "PDF_metadata": {
+    "format": "PDF 1.6",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "PScript5.dll Version 5.2.2",
+    "producer": "Acrobat Distiller 9.3.3 (Windows)",
+    "creationDate": "D:20111206154131+08'00'",
+    "modDate": "D:20111206154420+08'00'",
+    "trapped": "",
+    "encryption": "Standard V4 R4 128-bit AES"
+  },
+  "native_extraction": {
+    "engine": "PyMuPDF 1.26.6",
+    "method": "get_text(sort=True),LF,physical-file-page markers",
+    "characters": 19674,
+    "body_characters": 19146,
+    "sha256": "5e47fa98915380e6b08835f8b049923b76df57aa0b0afce0c3c0d36eb3c3c63e",
+    "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+    "native_not_OCR": true,
+    "initial_screening_count_preserved_separately": true
+  },
+  "native_body_characters_actually_read": 19146,
+  "OCR_run": false,
+  "actually_read_page_blocks": [
+    {
+      "file_pages_inclusive": [
+        1,
+        6
+      ],
+      "native_characters": 4327,
+      "native_text_sha256": "0f71cf572d9384640aaa6729e21dc7bea471e8b027f9f937cd5d77eb6d6fb54f",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "file_pages_inclusive": [
+        7,
+        12
+      ],
+      "native_characters": 6074,
+      "native_text_sha256": "19d9c32ec01d6998dff2a73d17fc310b420bb83deff2386297c54b062b37fdec",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "file_pages_inclusive": [
+        13,
+        18
+      ],
+      "native_characters": 4519,
+      "native_text_sha256": "00c56a4c794940e927481b3333213861ab535a1856787d4518eafd4b7bd7db92",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "file_pages_inclusive": [
+        19,
+        24
+      ],
+      "native_characters": 4226,
+      "native_text_sha256": "3baec4e77031b61b11465b9c8503a5eaba954fb8593a922023fe8d8bb1aea0ba",
+      "actually_read": true,
+      "output_truncated": false
+    }
+  ],
+  "page_units": [
+    {
+      "file_page": 1,
+      "native_characters": 90,
+      "native_text_sha256": "5363dc69ed596818727fabd0eaf950d234f613843206e5b5c1cd9683f28f2436",
+      "stream_range": [
+        0,
+        112
+      ],
+      "displayed_images": [
+        {
+          "number": 2,
+          "bbox": [
+            438.29998779296875,
+            568.6799926757812,
+            577.5599975585938,
+            778.3200073242188
+          ],
+          "transform": [
+            139.25999450683594,
+            0.0,
+            -0.0,
+            209.63999938964844,
+            438.29998779296875,
+            568.6799926757812
+          ],
+          "width": 1,
+          "height": 3494,
+          "colorspace": 1,
+          "cs-name": "Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1))",
+          "xres": 96,
+          "yres": 96,
+          "bpc": 8,
+          "size": 1081,
+          "digest": "87a7f490754e9e3c8f8f018ac2653fcf",
+          "has-mask": false,
+          "xref": 161
+        },
+        {
+          "number": 3,
+          "bbox": [
+            16.200000762939453,
+            568.739990234375,
+            436.20001220703125,
+            778.6199951171875
+          ],
+          "transform": [
+            420.0,
+            0.0,
+            -0.0,
+            209.8800048828125,
+            16.200000762939453,
+            568.739990234375
+          ],
+          "width": 1,
+          "height": 3498,
+          "colorspace": 1,
+          "cs-name": "Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1))",
+          "xres": 96,
+          "yres": 96,
+          "bpc": 8,
+          "size": 1081,
+          "digest": "a228162d95b3dc0713f1b8898c5980fd",
+          "has-mask": false,
+          "xref": 162
+        },
+        {
+          "number": 6,
+          "bbox": [
+            438.29998779296875,
+            119.45999145507812,
+            577.5599975585938,
+            508.79998779296875
+          ],
+          "transform": [
+            139.25999450683594,
+            0.0,
+            -0.0,
+            389.3399963378906,
+            438.29998779296875,
+            119.45999145507812
+          ],
+          "width": 1,
+          "height": 6489,
+          "colorspace": 1,
+          "cs-name": "Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1))",
+          "xres": 96,
+          "yres": 96,
+          "bpc": 8,
+          "size": 1081,
+          "digest": "27257d88742e109ff918e86d355f2d29",
+          "has-mask": false,
+          "xref": 163
+        },
+        {
+          "number": 7,
+          "bbox": [
+            16.3799991607666,
+            119.45999145507812,
+            436.9800109863281,
+            508.79998779296875
+          ],
+          "transform": [
+            420.6000061035156,
+            0.0,
+            -0.0,
+            389.3399963378906,
+            16.3799991607666,
+            119.45999145507812
+          ],
+          "width": 1,
+          "height": 6489,
+          "colorspace": 1,
+          "cs-name": "Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1))",
+          "xres": 96,
+          "yres": 96,
+          "bpc": 8,
+          "size": 1081,
+          "digest": "8124cbea0b7d5de6b0f64e328dc6c5da",
+          "has-mask": false,
+          "xref": 164
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "a1b077423bb2ecd6fdfb55def3c4c63aa3289f0377d7f103e310fbbe78207d22"
+    },
+    {
+      "file_page": 2,
+      "native_characters": 492,
+      "native_text_sha256": "bf537f2d17778a81876dc52e4e05993acc2dafbbed9739cfffc546733c8c968a",
+      "stream_range": [
+        112,
+        626
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "8436297dbfa6495d499bca3f2af7010dc1d3fb366ba7b82fe3c2afa21b79b219"
+    },
+    {
+      "file_page": 3,
+      "native_characters": 1183,
+      "native_text_sha256": "ea434653cdcfd35a85b83296a322e72fe4d884d165eda57885d0228780efe8f9",
+      "stream_range": [
+        626,
+        1831
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "3c77f5f2e5bf2065739c03b4bf92fa0d23d709414ba9a4b284644ca8021e2f0b"
+    },
+    {
+      "file_page": 4,
+      "native_characters": 1004,
+      "native_text_sha256": "7cfa9605397e8df9f2c76c125629374a57275896f6275f5f1fee6359a78aaf7b",
+      "stream_range": [
+        1831,
+        2857
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "6e1658a277d6ef3c987e82f4b98af0dd85798db107edbfca2d2fd74ee05648eb"
+    },
+    {
+      "file_page": 5,
+      "native_characters": 1327,
+      "native_text_sha256": "25a9fa38a4342b29f11d438d8de330e53c94755e73ce65b81a621ccae5342558",
+      "stream_range": [
+        2857,
+        4206
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "921bb571968b8cee3e7807ca9158e6548ba351331dbaf470de455d282aca354b"
+    },
+    {
+      "file_page": 6,
+      "native_characters": 231,
+      "native_text_sha256": "c2d99122291d9adc0da1a88d72a5826176a221211364acbb4479a3bda2b73838",
+      "stream_range": [
+        4206,
+        4459
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "afd3280e8364447ec3d72cc8e6bbd2fbe960e5fe82d2287b9a22213cb078e43b"
+    },
+    {
+      "file_page": 7,
+      "native_characters": 1039,
+      "native_text_sha256": "46ed133ca5bfda3f6f35139335e0e9f3e82e21c9f3f4b7fe667f6b9682d458a1",
+      "stream_range": [
+        4459,
+        5520
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "e34a2d2fa3d0cdb8292a2c4f700ed5c3de900705946ec7b39de68b6ec9c5b45c"
+    },
+    {
+      "file_page": 8,
+      "native_characters": 1426,
+      "native_text_sha256": "2528979989741202539058a2fbcd3869dea8385a1219216cb7b3625047d66f87",
+      "stream_range": [
+        5520,
+        6968
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "6c46ed37c1ffe817b23cb95a4ddcde1eb7abbf779a80502419e94e62801399d6"
+    },
+    {
+      "file_page": 9,
+      "native_characters": 1130,
+      "native_text_sha256": "9b1a782ee6f4432d6fc443766aae9820e1b5eaa7edfcb14111c691621a596768",
+      "stream_range": [
+        6968,
+        8120
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "654d9d8b0642fa51b72072a4e1eabe228e17a6796b7f420e0c3888be941ccad5"
+    },
+    {
+      "file_page": 10,
+      "native_characters": 1299,
+      "native_text_sha256": "f3efa8f91d5e5e49190f796a4ca077114ca6e26582d8288ebdbe5b725a8f38da",
+      "stream_range": [
+        8120,
+        9441
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "db82d74cd5c6f7a2594155d573e6ee287b821f0f8de03c54f6d15935269dc208"
+    },
+    {
+      "file_page": 11,
+      "native_characters": 592,
+      "native_text_sha256": "54f137d356e83fb8d23904318a561d5316a31911c9e95704e27f693f7238659e",
+      "stream_range": [
+        9441,
+        10055
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "f07b5a70dea2eb9476cc31fda686a2d2064e6045fab1dfcb787bfe78e4e42259"
+    },
+    {
+      "file_page": 12,
+      "native_characters": 588,
+      "native_text_sha256": "ee42658735511972aae5e482ca6c1bba7141204927875cdb7179b150968733ac",
+      "stream_range": [
+        10055,
+        10665
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "e9011a636b4c88bef82fcd47d9b9e3be2fb7203adfaa5028339605573f000248"
+    },
+    {
+      "file_page": 13,
+      "native_characters": 787,
+      "native_text_sha256": "897820f447f2a1242b783baf9cd33f940cf070cb4533a3ab99a563c8046811ca",
+      "stream_range": [
+        10665,
+        11474
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "e93f8f70c564d0b58c1187222d65fbad3008a61bca426655c7f04a8c2cbec1bd"
+    },
+    {
+      "file_page": 14,
+      "native_characters": 806,
+      "native_text_sha256": "ba3b94fcc9253fb7d6ece7c3fe0caa2266613e56ac76f5be9b7fb8f55314ece1",
+      "stream_range": [
+        11474,
+        12302
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "90ffc8b94acac800a3a68c3ecf085603e9682a7fdb9cff0b715ed578e62812f4"
+    },
+    {
+      "file_page": 15,
+      "native_characters": 747,
+      "native_text_sha256": "ae7c19bf9781102d3a67a7bb20bf3ba10315886a84db7d04372b0fe634a9df4b",
+      "stream_range": [
+        12302,
+        13071
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "0da83d6af0d0d7c7b660b3580011d9f63505d008184ca3006b01fab796896b05"
+    },
+    {
+      "file_page": 16,
+      "native_characters": 798,
+      "native_text_sha256": "89eef7fc112599a0e0ebd17dd2824119feb76ce5a15c6be869a8384f5e56dbb7",
+      "stream_range": [
+        13071,
+        13891
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "e2d1492ddb0a24355e4da1fdaf593ad62ef2911bd64b08a7d7688fcee98ded3a"
+    },
+    {
+      "file_page": 17,
+      "native_characters": 678,
+      "native_text_sha256": "78153990f9c913276075280ccbfe9dd6af92aec23d6c6a030318d8b0218c3c4e",
+      "stream_range": [
+        13891,
+        14591
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "1991cd6871768e3ca192807a0ba8d10c85c40a71d46bfed660df6eca894c22b1"
+    },
+    {
+      "file_page": 18,
+      "native_characters": 703,
+      "native_text_sha256": "fbbed64ba791aa74f011002b172c63828a43b961fbdb64e67dc5d7dd89510121",
+      "stream_range": [
+        14591,
+        15316
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "27e80451fd2d3029f3f6d88a0045abd0b3b42b9747f71de9b885f92d23a213db"
+    },
+    {
+      "file_page": 19,
+      "native_characters": 761,
+      "native_text_sha256": "e55d97404db0d0fef18ff3de3486e29624178437974566f8886c30aa62845118",
+      "stream_range": [
+        15316,
+        16099
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "4a89f19e48dccb2ac68dbbaf45e6404cce1fcb5bdc3aa244e154cbacfd3e5542"
+    },
+    {
+      "file_page": 20,
+      "native_characters": 843,
+      "native_text_sha256": "f02e997e5168d42bafd646565bcac1750b07c7713873a0019446540237687b19",
+      "stream_range": [
+        16099,
+        16964
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "33e72086c7e29d3114287d8e3b0b2734dedf96d3cca5a39ee8a695c0b2d6d121"
+    },
+    {
+      "file_page": 21,
+      "native_characters": 813,
+      "native_text_sha256": "2cc3ccc0e9ab256d52efedab3d4eab0377322de64508ac4d9c203c0f429aa8ea",
+      "stream_range": [
+        16964,
+        17799
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "fd4f1b89989eed0dffc52330e01618e4db7908f84d109d6ffc476e5e668d8fe3"
+    },
+    {
+      "file_page": 22,
+      "native_characters": 685,
+      "native_text_sha256": "f3bdeade9fb789384254e605239c01789e1099f31ba2c03a1f13c82c3c168a2d",
+      "stream_range": [
+        17799,
+        18506
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "2340df26b311acb13f1ebdafa46737c3b0150be8e4aad1c4bce3cb9daf8e7d78"
+    },
+    {
+      "file_page": 23,
+      "native_characters": 852,
+      "native_text_sha256": "130604725ad1d0f007dc49e3d4a5fb4c8cc717a0581e06b747cbe6346490876a",
+      "stream_range": [
+        18506,
+        19380
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "d5fb5fd41d342fffa8a457c6212d45b0d015034d00f79845fce451afea58c453"
+    },
+    {
+      "file_page": 24,
+      "native_characters": 272,
+      "native_text_sha256": "e93993fcb36986092fd7e1aa663a6b0f4111f4fe590135fb68f80e390b61cea5",
+      "stream_range": [
+        19380,
+        19674
+      ],
+      "displayed_images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_viewed_in_card": true,
+      "page_view_sha256": "d755c52cae79ab6aeff97ba29bd83b5b9a6bcdeb5a49a3efb60ce71a9fec9e0e"
+    }
+  ],
+  "review_cards": [
+    {
+      "pages": [
+        1,
+        6
+      ],
+      "file": "card_01_06.png",
+      "sha256": "3da55b912b9cd11e706d53ccda090e6afd56aecae6cc3165b9183e9dd072d127",
+      "original_page_views_reviewed": true
+    },
+    {
+      "pages": [
+        7,
+        12
+      ],
+      "file": "card_07_12.png",
+      "sha256": "1c7e3824306a4a470c5302ce714950fd4ad590aacce42ac6d70a0026da8cd3dc",
+      "original_page_views_reviewed": true
+    },
+    {
+      "pages": [
+        13,
+        18
+      ],
+      "file": "card_13_18.png",
+      "sha256": "6265e8752d0a6cde8ce0d0a2ea8a89d1d6ccc666201ba2964540db5e967468db",
+      "original_page_views_reviewed": true
+    },
+    {
+      "pages": [
+        19,
+        24
+      ],
+      "file": "card_19_24.png",
+      "sha256": "589773326a082f12b7c90904fc5149c986339e705d8db1e352245d73b5036659",
+      "original_page_views_reviewed": true
+    }
+  ],
+  "rendering": "Poppler pdftoppm -scale-to 1100 -png; all24 views inspected in four six-page contact sheets",
+  "all_current_provided_content_read": true,
+  "all_provided_page_views_reviewed": true,
+  "all_original_words_individually_proofread": false,
+  "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
+  "source_scope": {
+    "current_pdf_pages": 24,
+    "ending_file_page": 24,
+    "ending_kind": "end_of_seven_category_list",
+    "chapter_map": [
+      {
+        "file_pages": [
+          1,
+          1
+        ],
+        "kind": "cover"
+      },
+      {
+        "file_pages": [
+          2,
+          2
+        ],
+        "kind": "translator_preface"
+      },
+      {
+        "file_pages": [
+          3,
+          4
+        ],
+        "kind": "introduction"
+      },
+      {
+        "file_pages": [
+          5,
+          6
+        ],
+        "kind": "rapport_definition"
+      },
+      {
+        "file_pages": [
+          7,
+          10
+        ],
+        "kind": "rationale_and_unidentified_study"
+      },
+      {
+        "file_pages": [
+          11,
+          24
+        ],
+        "kind": "seven_categories"
+      }
+    ],
+    "category_map": [
+      {
+        "category": "Physical",
+        "file_pages": [
+          11,
+          13
+        ],
+        "independent_English_item_paragraphs": 15
+      },
+      {
+        "category": "Teasing",
+        "file_pages": [
+          14,
+          15
+        ],
+        "independent_English_item_paragraphs": 11
+      },
+      {
+        "category": "Verbal",
+        "file_pages": [
+          15,
+          16
+        ],
+        "independent_English_item_paragraphs": 4
+      },
+      {
+        "category": "Disqualification",
+        "file_pages": [
+          16,
+          18
+        ],
+        "independent_English_item_paragraphs": 12
+      },
+      {
+        "category": "Disagreement",
+        "file_pages": [
+          18,
+          20
+        ],
+        "independent_English_item_paragraphs": 13
+      },
+      {
+        "category": "Non-Supplication",
+        "file_pages": [
+          20,
+          22
+        ],
+        "independent_English_item_paragraphs": 13
+      },
+      {
+        "category": "Sexual",
+        "file_pages": [
+          22,
+          24
+        ],
+        "independent_English_item_paragraphs": 12
+      }
+    ],
+    "title_claimed_item_count": 81,
+    "counted_independent_English_item_paragraphs": 80,
+    "count_method": "Count distinct English item paragraphs in seven categories; cross-page continuations count once; current PDF has no printed item numbers.",
+    "original_author_counting_convention_verified": false,
+    "missing81st_item_reconstructed": false,
+    "important_translation_discrepancies": [
+      {
+        "file_page": 18,
+        "kind": "rejection_context_mistranslated_as_physical_exhaustion"
+      },
+      {
+        "file_page": 20,
+        "kind": "alternating_drink_purchases_mistranslated_as_leaving_to_find_other_women"
+      }
+    ],
+    "unidentified_speed_dating_study_pages": [
+      8,
+      9,
+      10
+    ],
+    "study_bibliography_and_DOI_provided": false,
+    "new_APA_citation_created": false,
+    "cover_raster_decorations": 4,
+    "non_cover_raster_images": 0,
+    "original_publication_complete_verified": false,
+    "known_unread_provided_body_pages": [],
+    "all_original_words_individually_proofread": false,
+    "author_claims_promoted_to_empirical_evidence": false,
+    "next_translation_announced_on_page2_provided_in_current_file": false,
+    "unprovided_material_blocks_next_book": false,
+    "unprovided_external_material_counted_as_read": false
+  },
+  "new_raw_text_images_private_transcriptions_or_anonymous_private_narratives_archived": false,
+  "note": "knowledge/books/B064.md",
+  "new_note_groups": 14,
+  "new_critical_method_source_bindings": 32,
+  "previous_book_checkpoint_saved_before_current_body_opened": true,
+  "previous_checkpoint": {
+    "saved_at": "2026-11-13T03:19:50.615966+08:00",
+    "completed": [
+      "B063"
+    ],
+    "next_body_unopened": "B064",
+    "completed_count": 62
+  },
+  "next_work_unit_at_checkpoint": "B065",
+  "next_book_body_opened_at_checkpoint": false,
+  "scope_counts_at_checkpoint": {
+    "complete": 63,
+    "actual_supplied_files_read": 61,
+    "user_accepted_scope_closures": 2,
+    "partial": 0,
+    "unread": 56
+  },
+  "validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json"
+}

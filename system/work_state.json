@@ -1,100 +1,107 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B063_next_after_B061_B062_finished_in_order",
+  "current_focus": "B065_next_after_B063_B064_finished_in_order",
   "status": "ready_for_next_file",
-  "base_commit": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+  "base_commit": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B061_B062_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B063_B064_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B063",
-    "path": "懒汉把妹 - 大卫X.epub",
-    "bytes": 82064,
-    "git_blob_sha": "a3ebbd18bf83bc482b717131c3c2ea64b1f21dfb",
+    "id": "B065",
+    "path": "把妹达人圣经 - 尼尔.epub",
+    "bytes": 125523,
+    "git_blob_sha": "5e5dad6f84ee0da7cdbaed8e16bc80f13f3614ae",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": null,
     "next_spine_item": 1,
     "next_character": 0,
-    "start": "B062当前18页已读完，12组原创笔记、提供范围与断点已保存。下一唯一主读B063，从EPUB第一个顺序单元开始；此断点保存时尚未打开其正文。",
-    "next_content_unit": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file."
+    "start": "B064当前提供内容、原创笔记和范围已保存；下一唯一主读B065。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
-  "next_work": "Read B063 only next: verify the original 20个顺序单元的EPUB file, inspect actual text and page images, and start at EPUB第一个顺序单元. Finish the actual supplied file, notes, scope, and checkpoint before the following file. Unprovided originals or sequels are not counted and do not block the next supplied file.",
+  "next_work": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
   "current_session_progress": {
-    "baseline": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
-    "work_type": "read_whole_supplied_PDFs_in_serial_order",
+    "baseline": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+    "work_type": "read_whole_supplied_files_in_serial_order",
     "new_book_files_started": [
-      "B061",
-      "B062"
+      "B063",
+      "B064"
     ],
     "new_book_files_completed": [
-      "B061",
-      "B062"
+      "B063",
+      "B064"
     ],
     "actually_completed_file_ids": [
-      "B061",
-      "B062"
+      "B063",
+      "B064"
     ],
     "new_whole_book_files_actually_read": 2,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 77561,
+    "new_native_characters_read": 58239,
     "new_OCR_characters_read": 0,
-    "native_stream_characters_including_page_markers": 81650,
-    "new_unique_original_visual_pages": 111,
-    "reading_cards_viewed": 19,
-    "original_note_groups": 32,
-    "new_method_source_bindings": 87,
+    "new_unique_original_visual_pages": 24,
+    "new_EPUB_spine_items_read": 20,
+    "original_note_groups": 30,
+    "new_method_source_bindings": 76,
     "new_method_operations": [],
     "serial_order": [
-      "B061",
-      "save_B061_notes_scope_and_next_checkpoint",
-      "B062",
-      "save_B062_notes_scope_and_next_checkpoint"
+      "B063",
+      "save_B063_notes_scope_and_next_checkpoint",
+      "B064",
+      "save_B064_notes_scope_and_next_checkpoint"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "books": [
       {
-        "id": "B061",
-        "title": "惯例军火库",
-        "pages": 93,
-        "native_characters": 61116,
-        "stream_characters": 64548,
-        "reading_cards": 16,
-        "note_groups": 20,
-        "bindings": 59,
-        "ledger": "knowledge/provenance/B061_reading_2026-11-13.json",
-        "scope_summary": "当前93页封面、目录、序、十章正文和结尾已读完。第35—36页图示及第64—74页十二星座图卡已补看；其中第65—73页没有原生文字，不作为空页跳过。第63页一句原文在“如果对方”处中断，未提供续句不补造；原版完整性、叙事和效果数字未核实。"
+        "id": "B063",
+        "title": "懒汉把妹—大卫X",
+        "native_characters": 39093,
+        "spine_items": 20,
+        "visual_pages": 0,
+        "note_groups": 16,
+        "bindings": 44,
+        "ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
+        "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
+        "coverage_mode": "all20_current_EPUB_spine_native_body_outputs_read_no_embedded_media",
+        "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
+        "catalog_scope": "当前EPUB20个顺序单元已读完，无嵌入图像；原版完整性未核",
+        "range_label": "EPUB顺序项1—20、39093个规范化原生字符；无嵌入图像",
+        "scope_summary": "B063《懒汉把妹》：当前20个顺序单元已按顺序读完，含书名来源页、自述与18篇主题正文；NCX一一对应，没有额外正文或嵌入图像。作者字段误填书名，正文署名与出版身份分开；原版完整性与自报效果未核。"
       },
       {
-        "id": "B062",
-        "title": "惯例手册—爱情体系",
-        "pages": 18,
-        "native_characters": 16445,
-        "stream_characters": 17102,
-        "reading_cards": 3,
-        "note_groups": 12,
-        "bindings": 28,
-        "ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
-        "scope_summary": "当前18页节译稿已读完。目录列十一章，现有正文到第八章结束；第七章只有译者跳过说明，第九至十一章和独立来源注释正文未提供。多处有不译、跳过、改写及以后补充说明，未把节译当完整原著；未提供内容不计实读、不等待补齐。"
+        "id": "B064",
+        "title": "打破和谐感的81种方法",
+        "native_characters": 19146,
+        "spine_items": 0,
+        "visual_pages": 24,
+        "note_groups": 14,
+        "bindings": 32,
+        "ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
+        "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
+        "coverage_mode": "all24_current_PDF_native_page_outputs_and_all24_page_views_read",
+        "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
+        "catalog_scope": "当前24页中英对照和七类清单已读看，按英文独立项目段落计80；两处影响动作的错译已标",
+        "range_label": "PDF第1—24页、19146原生字符及全部原页",
+        "scope_summary": "B064《打破和谐感的81种方法》：当前24页中英对照文字与全部原页已读看，七类清单结束于第24页。标题写81，按本文件英语独立项目段落计80，不据此补造缺条；第18页拒绝情境和第20页轮流买饮料有影响动作的错译，已单独标清。快速约会研究未提供可核书目，不补造APA；预告的下一译作未提供，不等补齐。"
       }
     ],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
+      "reading_metadata_validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
       "structural": true,
       "unittest_methods": 72,
       "synthetic_routing_scenarios": 158,
-      "source_page_text_and_card_hashes": true,
+      "source_bytes_and_native_unit_hashes": true,
       "other_source_records_preserved": true,
       "method_operations_and_preferred_sections_preserved": true,
       "serial_checkpoint_preserved": true,
       "prior_runtime_and_protocols_preserved": true,
-      "embedded_image_reviews_recorded": true
+      "focused_source_retrieval_checks": 4
     }
   },
   "last_reading_progress": {
@@ -2421,12 +2428,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 61,
-    "current_file_text_complete": 61,
+    "started": 63,
+    "current_file_text_complete": 63,
     "partial": 0,
-    "unread": 58,
+    "unread": 56,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 61,
+    "reported_numerator": 63,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -4598,6 +4605,83 @@
         "checks": {
           "status": "pending",
           "reading_metadata_validation": "knowledge/provenance/B061_validation_2026-11-13.json"
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B061_B062_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "0e1a69addc63fa6a0129e241a875e2b8f105a00d",
+        "work_type": "read_whole_supplied_PDFs_in_serial_order",
+        "new_book_files_started": [
+          "B061",
+          "B062"
+        ],
+        "new_book_files_completed": [
+          "B061",
+          "B062"
+        ],
+        "actually_completed_file_ids": [
+          "B061",
+          "B062"
+        ],
+        "new_whole_book_files_actually_read": 2,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 77561,
+        "new_OCR_characters_read": 0,
+        "native_stream_characters_including_page_markers": 81650,
+        "new_unique_original_visual_pages": 111,
+        "reading_cards_viewed": 19,
+        "original_note_groups": 32,
+        "new_method_source_bindings": 87,
+        "new_method_operations": [],
+        "serial_order": [
+          "B061",
+          "save_B061_notes_scope_and_next_checkpoint",
+          "B062",
+          "save_B062_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B061",
+            "title": "惯例军火库",
+            "pages": 93,
+            "native_characters": 61116,
+            "stream_characters": 64548,
+            "reading_cards": 16,
+            "note_groups": 20,
+            "bindings": 59,
+            "ledger": "knowledge/provenance/B061_reading_2026-11-13.json",
+            "scope_summary": "当前93页封面、目录、序、十章正文和结尾已读完。第35—36页图示及第64—74页十二星座图卡已补看；其中第65—73页没有原生文字，不作为空页跳过。第63页一句原文在“如果对方”处中断，未提供续句不补造；原版完整性、叙事和效果数字未核实。"
+          },
+          {
+            "id": "B062",
+            "title": "惯例手册—爱情体系",
+            "pages": 18,
+            "native_characters": 16445,
+            "stream_characters": 17102,
+            "reading_cards": 3,
+            "note_groups": 12,
+            "bindings": 28,
+            "ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
+            "scope_summary": "当前18页节译稿已读完。目录列十一章，现有正文到第八章结束；第七章只有译者跳过说明，第九至十一章和独立来源注释正文未提供。多处有不译、跳过、改写及以后补充说明，未把节译当完整原著；未提供内容不计实读、不等待补齐。"
+          }
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B061_B062_validation_2026-11-13.json",
+          "structural": true,
+          "unittest_methods": 72,
+          "synthetic_routing_scenarios": 158,
+          "source_page_text_and_card_hashes": true,
+          "other_source_records_preserved": true,
+          "method_operations_and_preferred_sections_preserved": true,
+          "serial_checkpoint_preserved": true,
+          "prior_runtime_and_protocols_preserved": true,
+          "embedded_image_reviews_recorded": true
         }
       }
     }
