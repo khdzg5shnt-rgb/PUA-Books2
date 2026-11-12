@@ -1,107 +1,104 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B065_next_after_B063_B064_finished_in_order",
+  "current_focus": "B067_next_after_B065_B066_finished_in_order",
   "status": "ready_for_next_file",
-  "base_commit": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+  "base_commit": "b180a87f52eb7cc5ece73f454e972b86cc710053",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B063_B064_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B065_B066_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B065_B066_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B065",
-    "path": "把妹达人圣经 - 尼尔.epub",
-    "bytes": 125523,
-    "git_blob_sha": "5e5dad6f84ee0da7cdbaed8e16bc80f13f3614ae",
+    "id": "B067",
+    "path": "指男针 - 老岸.pdf",
+    "bytes": 373486,
+    "git_blob_sha": "8f200ffe693ad75ecb2770dda4f44f1e13786189",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": null,
-    "next_spine_item": 1,
+    "next_file_page": 1,
+    "next_spine_item": null,
     "next_character": 0,
-    "start": "B064当前提供内容、原创笔记和范围已保存；下一唯一主读B065。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B066当前提供内容、原创笔记和范围已保存；下一唯一主读B067。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B067 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
-  "next_work": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
+  "next_work": "Read B067 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
   "current_session_progress": {
-    "baseline": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+    "baseline": "b180a87f52eb7cc5ece73f454e972b86cc710053",
     "work_type": "read_whole_supplied_files_in_serial_order",
     "new_book_files_started": [
-      "B063",
-      "B064"
+      "B065",
+      "B066"
     ],
     "new_book_files_completed": [
-      "B063",
-      "B064"
+      "B065",
+      "B066"
     ],
     "actually_completed_file_ids": [
-      "B063",
-      "B064"
+      "B065",
+      "B066"
     ],
     "new_whole_book_files_actually_read": 2,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 58239,
+    "new_native_characters_read": 256259,
     "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 24,
-    "new_EPUB_spine_items_read": 20,
-    "original_note_groups": 30,
-    "new_method_source_bindings": 76,
+    "new_unique_original_visual_pages": 134,
+    "new_EPUB_spine_items_read": 9,
+    "original_note_groups": 47,
+    "new_method_source_bindings": 134,
     "new_method_operations": [],
     "serial_order": [
-      "B063",
-      "save_B063_notes_scope_and_next_checkpoint",
-      "B064",
-      "save_B064_notes_scope_and_next_checkpoint"
+      "B065",
+      "save_B065_notes_scope_and_next_checkpoint",
+      "B066",
+      "save_B066_notes_scope_and_next_checkpoint"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "books": [
       {
-        "id": "B063",
-        "title": "懒汉把妹—大卫X",
-        "native_characters": 39093,
-        "spine_items": 20,
+        "id": "B065",
+        "title": "把妹达人圣经",
+        "native_characters": 86323,
+        "spine_items": 9,
+        "substantive_spine_items": 8,
         "visual_pages": 0,
-        "note_groups": 16,
-        "bindings": 44,
-        "ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
-        "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
-        "coverage_mode": "all20_current_EPUB_spine_native_body_outputs_read_no_embedded_media",
+        "note_groups": 22,
+        "bindings": 63,
+        "ledger": "knowledge/provenance/B065_reading_2026-11-13.json",
+        "source_sha256": "7ef74c5abe6b3416728fc256c94bd3c9d0260fb35509fbfeea568418f4736e24",
+        "coverage_mode": "all9_current_EPUB_spine_items_read_including_verified_empty_tail_no_embedded_media",
         "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
-        "catalog_scope": "当前EPUB20个顺序单元已读完，无嵌入图像；原版完整性未核",
-        "range_label": "EPUB顺序项1—20、39093个规范化原生字符；无嵌入图像",
-        "scope_summary": "B063《懒汉把妹》：当前20个顺序单元已按顺序读完，含书名来源页、自述与18篇主题正文；NCX一一对应，没有额外正文或嵌入图像。作者字段误填书名，正文署名与出版身份分开；原版完整性与自报效果未核。"
+        "catalog_scope": "当前EPUB序言、六章30天正文、补充简报与致谢已读完，末项为空；外部音视频未提供",
+        "range_label": "EPUB全部9个顺序项（8项有正文、1项空尾）；86323个规范化原生字符",
+        "scope_summary": "B065《把妹达人圣经》：作者序、六章第1—30天正文、全部现有简报与致谢已按顺序读完。九个顺序项中末项已核原XHTML为空，无嵌入图像；第21天阶段材料以文本提供。一次输出截断的第23天简报开头已补读，不重复计字符。外部音视频、论坛、第31天及所引原著未提供，未读、不等待；自报效果、报告和八项自评不当作研究验证。"
       },
       {
-        "id": "B064",
-        "title": "打破和谐感的81种方法",
-        "native_characters": 19146,
+        "id": "B066",
+        "title": "把妹那些事",
+        "native_characters": 169936,
         "spine_items": 0,
-        "visual_pages": 24,
-        "note_groups": 14,
-        "bindings": 32,
-        "ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
-        "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
-        "coverage_mode": "all24_current_PDF_native_page_outputs_and_all24_page_views_read",
-        "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
-        "catalog_scope": "当前24页中英对照和七类清单已读看，按英文独立项目段落计80；两处影响动作的错译已标",
-        "range_label": "PDF第1—24页、19146原生字符及全部原页",
-        "scope_summary": "B064《打破和谐感的81种方法》：当前24页中英对照文字与全部原页已读看，七类清单结束于第24页。标题写81，按本文件英语独立项目段落计80，不据此补造缺条；第18页拒绝情境和第20页轮流买饮料有影响动作的错译，已单独标清。快速约会研究未提供可核书目，不补造APA；预告的下一译作未提供，不等补齐。"
+        "visual_pages": 134,
+        "note_groups": 25,
+        "bindings": 71,
+        "ledger": "knowledge/provenance/B066_reading_2026-11-13.json",
+        "source_sha256": "0910b19e0b9ea3672cf5f4a2bf79e66ecfd9dd0fc9eb4eb85de038e39852f2a8",
+        "coverage_mode": "all134_current_PDF_pages_native_read_all_layouts_reviewed_and_cover_original_viewed",
+        "completion_kind": "actual_supplied_PDF_native_text_read_with_all_page_layouts_and_cover_reviewed",
+        "catalog_scope": "当前PDF物理页1—134全部原生正文已读，全部原页版面与唯一封面图已核；非逐字校勘",
+        "range_label": "PDF物理页1—134；169936个原生字符，134页版面及封面原图",
+        "scope_summary": "B066《把妹那些事》：物理页1—134，从封面目录、引子、七部分正文到书店段终页已按顺序读完；169936个原生字符，134页版面及唯一封面原图已核，无未补的输出截断。第14页虚构比例、第113页假设成功率、第91页无学术依据的分类和第129页未实践建议均明确限用；不同意借分类、亏欠、公众压力或假身份绕过选择。原出版完整性、叙事真伪、作者战绩与引述原著未核，不新增私密案例或研究引用。"
       }
     ],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
-      "structural": true,
-      "unittest_methods": 72,
-      "synthetic_routing_scenarios": 158,
-      "source_bytes_and_native_unit_hashes": true,
-      "other_source_records_preserved": true,
-      "method_operations_and_preferred_sections_preserved": true,
-      "serial_checkpoint_preserved": true,
-      "prior_runtime_and_protocols_preserved": true,
-      "focused_source_retrieval_checks": 4
+      "reading_metadata_validation": "knowledge/provenance/B065_B066_validation_2026-11-13.json",
+      "validate_os": true,
+      "unittest_methods_passed": 72,
+      "focused_source_queries_passed": 6,
+      "reading_scope_and_source_hashes_checked": true,
+      "psychological_or_real_world_effects_verified": false
     }
   },
   "last_reading_progress": {
@@ -2428,12 +2425,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 63,
-    "current_file_text_complete": 63,
+    "started": 65,
+    "current_file_text_complete": 65,
     "partial": 0,
-    "unread": 56,
+    "unread": 54,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 63,
+    "reported_numerator": 65,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -4682,6 +4679,90 @@
           "serial_checkpoint_preserved": true,
           "prior_runtime_and_protocols_preserved": true,
           "embedded_image_reviews_recorded": true
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B063_B064_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "1cfb30d8bb0f92caf004324d61ae6d6ee339b7fd",
+        "work_type": "read_whole_supplied_files_in_serial_order",
+        "new_book_files_started": [
+          "B063",
+          "B064"
+        ],
+        "new_book_files_completed": [
+          "B063",
+          "B064"
+        ],
+        "actually_completed_file_ids": [
+          "B063",
+          "B064"
+        ],
+        "new_whole_book_files_actually_read": 2,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 58239,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 24,
+        "new_EPUB_spine_items_read": 20,
+        "original_note_groups": 30,
+        "new_method_source_bindings": 76,
+        "new_method_operations": [],
+        "serial_order": [
+          "B063",
+          "save_B063_notes_scope_and_next_checkpoint",
+          "B064",
+          "save_B064_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B063",
+            "title": "懒汉把妹—大卫X",
+            "native_characters": 39093,
+            "spine_items": 20,
+            "visual_pages": 0,
+            "note_groups": 16,
+            "bindings": 44,
+            "ledger": "knowledge/provenance/B063_reading_2026-11-13.json",
+            "source_sha256": "0870ffea7ac721a5adbd067c89ee38b4f55a9fa9e95a89669a2ed94be11e19df",
+            "coverage_mode": "all20_current_EPUB_spine_native_body_outputs_read_no_embedded_media",
+            "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
+            "catalog_scope": "当前EPUB20个顺序单元已读完，无嵌入图像；原版完整性未核",
+            "range_label": "EPUB顺序项1—20、39093个规范化原生字符；无嵌入图像",
+            "scope_summary": "B063《懒汉把妹》：当前20个顺序单元已按顺序读完，含书名来源页、自述与18篇主题正文；NCX一一对应，没有额外正文或嵌入图像。作者字段误填书名，正文署名与出版身份分开；原版完整性与自报效果未核。"
+          },
+          {
+            "id": "B064",
+            "title": "打破和谐感的81种方法",
+            "native_characters": 19146,
+            "spine_items": 0,
+            "visual_pages": 24,
+            "note_groups": 14,
+            "bindings": 32,
+            "ledger": "knowledge/provenance/B064_reading_2026-11-13.json",
+            "source_sha256": "cc2b42bfffde7aeec54f34e4957d8f320699e7abdbed78b33c4f4357ab1bf18e",
+            "coverage_mode": "all24_current_PDF_native_page_outputs_and_all24_page_views_read",
+            "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
+            "catalog_scope": "当前24页中英对照和七类清单已读看，按英文独立项目段落计80；两处影响动作的错译已标",
+            "range_label": "PDF第1—24页、19146原生字符及全部原页",
+            "scope_summary": "B064《打破和谐感的81种方法》：当前24页中英对照文字与全部原页已读看，七类清单结束于第24页。标题写81，按本文件英语独立项目段落计80，不据此补造缺条；第18页拒绝情境和第20页轮流买饮料有影响动作的错译，已单独标清。快速约会研究未提供可核书目，不补造APA；预告的下一译作未提供，不等补齐。"
+          }
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B063_B064_validation_2026-11-13.json",
+          "structural": true,
+          "unittest_methods": 72,
+          "synthetic_routing_scenarios": 158,
+          "source_bytes_and_native_unit_hashes": true,
+          "other_source_records_preserved": true,
+          "method_operations_and_preferred_sections_preserved": true,
+          "serial_checkpoint_preserved": true,
+          "prior_runtime_and_protocols_preserved": true,
+          "focused_source_retrieval_checks": 4
         }
       }
     }

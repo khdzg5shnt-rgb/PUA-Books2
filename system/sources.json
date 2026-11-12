@@ -742,18 +742,24 @@
       "group": "books2_original_snapshot",
       "title": "把妹达人圣经 - 尼尔.epub",
       "git_blob_sha": "5e5dad6f84ee0da7cdbaed8e16bc80f13f3614ae",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B065.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B065_reading_2026-11-13.json",
+      "coverage_mode": "all9_current_EPUB_spine_items_read_including_verified_empty_tail_no_embedded_media",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media"
     },
     {
       "id": "B066",
       "group": "books2_original_snapshot",
       "title": "把妹那些事 - Jacob.pdf",
       "git_blob_sha": "b52e38673526409fa74f568b9f0d75d6365b69bc",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B066.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B066_reading_2026-11-13.json",
+      "coverage_mode": "all134_current_PDF_pages_native_read_all_layouts_reviewed_and_cover_original_viewed",
+      "completion_kind": "actual_supplied_PDF_native_text_read_with_all_page_layouts_and_cover_reviewed"
     },
     {
       "id": "B067",
@@ -1635,24 +1641,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 63,
+    "current_book_files_text_complete": 65,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 56
+    "current_book_files_not_started": 54
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B065",
-    "path": "把妹达人圣经 - 尼尔.epub",
-    "bytes": 125523,
-    "git_blob_sha": "5e5dad6f84ee0da7cdbaed8e16bc80f13f3614ae",
+    "id": "B067",
+    "path": "指男针 - 老岸.pdf",
+    "bytes": 373486,
+    "git_blob_sha": "8f200ffe693ad75ecb2770dda4f44f1e13786189",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": null,
-    "next_spine_item": 1,
+    "next_file_page": 1,
+    "next_spine_item": null,
     "next_character": 0,
-    "start": "B064当前提供内容、原创笔记和范围已保存；下一唯一主读B065。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B065 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B066当前提供内容、原创笔记和范围已保存；下一唯一主读B067。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B067 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }

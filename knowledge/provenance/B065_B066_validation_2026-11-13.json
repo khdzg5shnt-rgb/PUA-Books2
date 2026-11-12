@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline": "b180a87f52eb7cc5ece73f454e972b86cc710053",
+  "structural_validation": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 65,
+    "book_not_started": 54
+  },
+  "unittest_methods": 72,
+  "synthetic_route_fixtures": 158,
+  "source_byte_identities_and_native_unit_hashes": true,
+  "serial_checkpoint_preserved": true,
+  "other_source_records_preserved": true,
+  "new_exact_method_section_bindings": 134,
+  "method_operations_avoids_routes_task_contracts_preferred_sections_and_runtime_protocols_unchanged": true,
+  "focused_source_retrieval_checks": [
+    {
+      "method": "M01",
+      "query": "永远是你的错",
+      "matched_path": "knowledge/books/B065.md",
+      "matched_heading": "复盘先看外部事实和明确证据",
+      "line": 26,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M17",
+      "query": "没空",
+      "matched_path": "knowledge/books/B065.md",
+      "matched_heading": "没空无替代安排时先收住",
+      "line": 86,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M23",
+      "query": "曾经示好",
+      "matched_path": "knowledge/books/B066.md",
+      "matched_heading": "曾经示好仍可以改变主意",
+      "line": 62,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M16",
+      "query": "临时邀请",
+      "matched_path": "knowledge/books/B066.md",
+      "matched_heading": "临时邀请按真实安排决定",
+      "line": 66,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M08",
+      "query": "虚构比例",
+      "matched_path": "knowledge/books/B066.md",
+      "matched_heading": "虚构比例和自报经验不能当实证",
+      "line": 26,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M20",
+      "query": "自定义类型",
+      "matched_path": "knowledge/books/B066.md",
+      "matched_heading": "自定义类型不作为人物档案",
+      "line": 86,
+      "match_kind": "cited_source_section"
+    }
+  ],
+  "initial_focused_query_gap_fixed": "The short factual phrase 永远是你的错 was absent from its critical B065 paragraph; added it after checking the original day9 passage, then all six focused queries located their intended bound sections.",
+  "new_whole_provided_files_read": [
+    "B065",
+    "B066"
+  ],
+  "new_native_characters_read": 256259,
+  "new_unique_original_visual_pages": 134,
+  "new_EPUB_spine_items_read": 9,
+  "original_note_groups": 47,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_records_newly_archived": false,
+  "scope": "Consistency and synthetic routing checks do not prove reading, psychological mechanisms, screenshot comprehension or real-life results."
+}

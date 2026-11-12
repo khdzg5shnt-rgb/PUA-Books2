@@ -13434,8 +13434,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%E5%9C%A3%E7%BB%8F%20-%20%E5%B0%BC%E5%B0%94.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B065.md",
       "pages": null,
       "spine_items": 9,
       "ocr": {
@@ -13443,7 +13443,100 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B065_reading_2026-11-13.json",
+      "coverage_mode": "all9_current_EPUB_spine_items_read_including_verified_empty_tail_no_embedded_media",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_no_embedded_media",
+      "source_sha256": "7ef74c5abe6b3416728fc256c94bd3c9d0260fb35509fbfeea568418f4736e24",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B065_reading_2026-11-13.json",
+        "source_sha256": "7ef74c5abe6b3416728fc256c94bd3c9d0260fb35509fbfeea568418f4736e24",
+        "download_ref": "b180a87f52eb7cc5ece73f454e972b86cc710053",
+        "current_extraction": {
+          "engine": "lxml HTML parsing; OPF spine order",
+          "method": "body.itertext(); strip each nonempty text node; LF between nodes and trailing LF per unit",
+          "body_characters": 86323,
+          "characters": 86647,
+          "sha256": "92f3d81141e4c0fd4ee73672d982387e8aee02844ffb56a7437bd6dab5705d4c",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": "not applicable; none supplied",
+        "original_publication_complete": false,
+        "new_native_characters_read": 86323,
+        "new_OCR_characters_read": 0,
+        "source_scope": {
+          "current_spine_items": 9,
+          "substantive_spine_items": 8,
+          "empty_trailing_item": 9,
+          "empty_item_raw_XHTML_body_verified": true,
+          "body_chapters": 6,
+          "day_numbers_supplied_and_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "ending_kind": "day30_four_tasks_and_acknowledgments",
+          "NCX_substantive_items": 8,
+          "all_NCX_targets_in_spine": true,
+          "embedded_images_audio_video_or_scripts": [],
+          "actual_HTML_tables": 0,
+          "day21_stage_and_strategy_diagrams_supplied_as_plain_text": true,
+          "external_audio_videos_forum_day31_and_cited_original_books_provided": false,
+          "unprovided_material_counted_as_read": false,
+          "unprovided_material_blocks_next_book": false,
+          "original_publication_complete_verified": false,
+          "author_claims_promoted_to_empirical_evidence": false,
+          "book_commands_random_calls_forum_posts_recording_real_conversations_or_scheduled_exercises_executed": false,
+          "known_unread_current_provided_content": [],
+          "output_truncation": {
+            "spine_item": 7,
+            "first_output_truncated": true,
+            "recovered_character_range": [
+              7231,
+              7695
+            ],
+            "all_omitted_passage_recovered": true,
+            "duplicate_reading_credit": 0
+          }
+        },
+        "notes": "knowledge/books/B065.md",
+        "raw_native_text_newly_archived": false,
+        "next_spine_item": null
+      }
     },
     {
       "index": 66,
@@ -13458,8 +13551,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8A%8A%E5%A6%B9%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20Jacob.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B066.md",
       "pages": 134,
       "spine_items": null,
       "ocr": {
@@ -13467,7 +13560,69 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B066_reading_2026-11-13.json",
+      "coverage_mode": "all134_current_PDF_pages_native_read_all_layouts_reviewed_and_cover_original_viewed",
+      "completion_kind": "actual_supplied_PDF_native_text_read_with_all_page_layouts_and_cover_reviewed",
+      "source_sha256": "0910b19e0b9ea3672cf5f4a2bf79e66ecfd9dd0fc9eb4eb85de038e39852f2a8",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B066_reading_2026-11-13.json",
+        "source_sha256": "0910b19e0b9ea3672cf5f4a2bf79e66ecfd9dd0fc9eb4eb85de038e39852f2a8",
+        "download_ref": "b180a87f52eb7cc5ece73f454e972b86cc710053",
+        "current_extraction": {
+          "engine": "PyMuPDF page.get_text(); physical page order",
+          "method": "per-page native text retained as extracted including page headers and footers; no OCR",
+          "body_characters": 169936,
+          "characters": 173018,
+          "sha256": "0e2d9f038f02bad1b7491f9ff6f1b22fb989b2ec8d80100225beb6b6404bba87",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": "no body raster images; cover original viewed separately",
+        "all_original_page_layouts_reviewed": true,
+        "original_publication_complete": false,
+        "new_native_characters_read": 169936,
+        "new_OCR_characters_read": 0,
+        "source_scope": {
+          "current_file_pages": 134,
+          "all_file_pages_read_in_order": true,
+          "all_extractable_native_text_read": true,
+          "all_current_provided_content_read": true,
+          "native_output_unrecovered_truncations": [],
+          "current_page_views_reviewed": 134,
+          "visual_review_mode": "14 contact sheets of all134 page renders plus original500x500 cover image; layout/image check, not individual glyph proofreading",
+          "embedded_raster_images": [
+            {
+              "file_page": 1,
+              "xref": 2564,
+              "width": 500,
+              "height": 500,
+              "reviewed": true
+            }
+          ],
+          "body_raster_images": 0,
+          "replacement_characters": 0,
+          "ending_kind": "bookstore_section_ends_with_doing_ones_real_work_well_on_file_page134",
+          "original_publication_complete_verified": false,
+          "private_stories_or_author_success_claims_independently_verified": false,
+          "cited_original_books_or_forum_posts_independently_read": false,
+          "fictional_statistics_on_file_page14_and_hypothetical_rate_on_page113_are_not_data": true,
+          "author_admissions_of_unvalidated_classification_page91_and_unpractised_suggestions_page129_retained": true,
+          "author_claims_promoted_to_empirical_evidence": false,
+          "unprovided_material_counted_as_read": false,
+          "unprovided_material_blocks_next_book": false,
+          "known_unread_current_provided_content": []
+        },
+        "notes": "knowledge/books/B066.md",
+        "raw_native_text_newly_archived": false,
+        "next_file_page": null
+      }
     },
     {
       "index": 67,
@@ -15018,5 +15173,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B063_B064 supplied files read sequentially; 58239 native characters, 30 original note groups and 76 exact method-section bindings. 63/119 = 61 actually read supplied files plus B017/B039 scope closures; 56 unread. Next B065; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B065_B066 supplied files read sequentially; 256259 native characters, 47 original note groups and 134 exact method-section bindings. 65/119 = 63 actually read supplied files plus B017/B039 scope closures; 54 unread. Next B067; body unopened at this checkpoint."
 }
