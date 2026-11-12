@@ -1,0 +1,4605 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "baseline_main": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+  "previous_reading_ledger": "knowledge/provenance/B039_reading_2026-11-12.json",
+  "system_maintenance_preserved": "knowledge/provenance/OS_screens_and_plans_2026-11-12.md",
+  "records": [
+    {
+      "id": "B045",
+      "path": "叔叔教你护妹子 - 刘毓卿.pdf",
+      "git_blob_sha": "16f8a97b44b4afa8740434bb0af647ecb2b89918",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "bytes": 4031069,
+      "pdf_sha256": "32aa83a7ffc8630f4606fd8feb64451df80abc6634f49b5426fdb7e2a08888d5",
+      "download_ref": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+      "file_pages": 113,
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all113_native_text_outputs_read_three_theory_images_and11_pages_checked_19_body_image_pages_unread",
+      "extraction": {
+        "method": "Poppler pdftotext -layout -enc UTF-8; split form feeds into113physicalpages; LF; explicit page markers",
+        "engine": "pdftotext version 25.03.0",
+        "characters": 161665,
+        "body_characters": 156914,
+        "sha256": "c00c7d56dffc93fbb3329d0c656699390b531926e3eefeb8b64d0c57dad43bb0",
+        "coordinates": "Unicode codepoints; half-open; page markers included",
+        "native_not_OCR": true,
+        "raw_text_newly_archived": false,
+        "cache_persisted_in_repository": false,
+        "body_characters_include_whitespace_headers_and_advertising": true,
+        "character_count_not_unique_ideas_or_verified_transcription": true,
+        "page_marker_template": "\n\n===== B045 PDF FILE PAGE {n} / 113 =====\n"
+      },
+      "failed_extraction": {
+        "engine": "PyMuPDF get_text(sort=True)",
+        "characters": 234287,
+        "body_characters": 229536,
+        "text_sha256": "88c0e6d7e672063a6f435e056bdc242a6ef86e004ad06a2e3505f9ebe05a1606",
+        "reading_status": "unusable_garbled_not_credited",
+        "diagnostic_sample_range": [
+          0,
+          11000
+        ],
+        "technical_cause_not_determined": true
+      },
+      "pages": [
+        {
+          "file_page": 1,
+          "range": [
+            0,
+            74
+          ],
+          "body_characters": 33,
+          "text_sha256": "88b66819c314433cb7cdd391ab6a978fff947592a28a8048a6f58538abaa320d",
+          "image_xrefs": [
+            8,
+            10,
+            12,
+            21,
+            25,
+            26,
+            33
+          ],
+          "displayed_image_xrefs": [
+            8,
+            10,
+            12,
+            21,
+            25,
+            26,
+            33
+          ],
+          "marked_text_sha256": "88b66819c314433cb7cdd391ab6a978fff947592a28a8048a6f58538abaa320d",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "fc2e188b7773d8b514a529a4ca5bc2108f86e58a98562664ff3ce4eab5a7db95"
+        },
+        {
+          "file_page": 2,
+          "range": [
+            74,
+            5406
+          ],
+          "body_characters": 5291,
+          "text_sha256": "a6b1d3f7ee43d9da2fb65e13ab36378bb0ed0acbe860a65c164740f6cff2bcf8",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "a6b1d3f7ee43d9da2fb65e13ab36378bb0ed0acbe860a65c164740f6cff2bcf8",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f56a613b54c42c796a7f236e77354e131d4b849fb7739b854f668aeb6540903d"
+        },
+        {
+          "file_page": 3,
+          "range": [
+            5406,
+            7570
+          ],
+          "body_characters": 2123,
+          "text_sha256": "d39f949c5f2bc37cf1e6eff523003c6460449ae2ba3bb4ff71091b9991768b05",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "d39f949c5f2bc37cf1e6eff523003c6460449ae2ba3bb4ff71091b9991768b05",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "aa91c95242eb1b1a83289ce8c564037651744c24c12ffaa09889379bf18f4b8e"
+        },
+        {
+          "file_page": 4,
+          "range": [
+            7570,
+            9082
+          ],
+          "body_characters": 1471,
+          "text_sha256": "4b86b087754dd2d2e8e756d356befe88dd1c8c32b3cf3531642a6df620962270",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "4b86b087754dd2d2e8e756d356befe88dd1c8c32b3cf3531642a6df620962270",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7591d2b24b23271afa133d254e6ec45794dc9711ceb06d64e51dabdd520bff33"
+        },
+        {
+          "file_page": 5,
+          "range": [
+            9082,
+            10609
+          ],
+          "body_characters": 1486,
+          "text_sha256": "386944a0cc393fbd66c8672ebc318750db9db04203e3994e037d90074429af17",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "386944a0cc393fbd66c8672ebc318750db9db04203e3994e037d90074429af17",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e2809b09de88eaf31b6774f6ce7ca7ef0a9a6ccf7234d37c30deb69746f8dafc"
+        },
+        {
+          "file_page": 6,
+          "range": [
+            10609,
+            12177
+          ],
+          "body_characters": 1527,
+          "text_sha256": "1301e0cb6e2ac047a516470b7c25c392b1df33ad26a7bbfaffe6da25da66d84a",
+          "image_xrefs": [
+            37,
+            38,
+            230
+          ],
+          "displayed_image_xrefs": [
+            37,
+            38,
+            230
+          ],
+          "marked_text_sha256": "1301e0cb6e2ac047a516470b7c25c392b1df33ad26a7bbfaffe6da25da66d84a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "ce5998d5f0d84023b30856eb198aa6f62e75b30f688cf7785ea5af10c2f83472"
+        },
+        {
+          "file_page": 7,
+          "range": [
+            12177,
+            13674
+          ],
+          "body_characters": 1456,
+          "text_sha256": "9f11c9c9581f56361dbfa168b583b8ca10c9dd6b461de6778fbf613c3038dcb3",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "9f11c9c9581f56361dbfa168b583b8ca10c9dd6b461de6778fbf613c3038dcb3",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "0f00a5e672387ac323fe88caeaf7e7f6fa523a50a3c1eb92e9ada3c16f1196d7"
+        },
+        {
+          "file_page": 8,
+          "range": [
+            13674,
+            15234
+          ],
+          "body_characters": 1519,
+          "text_sha256": "46fdd2c91773dfc32740670638f904d67584505672ce3cc8176109892e58ecd1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "46fdd2c91773dfc32740670638f904d67584505672ce3cc8176109892e58ecd1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f66aebe1f76d6a0f126c64ca632b5af18d20862708246e1edccbf500a72ac8ac"
+        },
+        {
+          "file_page": 9,
+          "range": [
+            15234,
+            16503
+          ],
+          "body_characters": 1228,
+          "text_sha256": "849579bed7fd2a6436b79998c037033ec9bbf37f49850cf6b966b69a17710aeb",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "849579bed7fd2a6436b79998c037033ec9bbf37f49850cf6b966b69a17710aeb",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "3a53ba5fafed42a31f8bb1b3afa35d4919e989fe396c885656edfca62c5af89d"
+        },
+        {
+          "file_page": 10,
+          "range": [
+            16503,
+            17657
+          ],
+          "body_characters": 1112,
+          "text_sha256": "c001ecb376f6aea4784cb6101a7adb599b91f64d0ef8e1aba32d931121583d32",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            243
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            243
+          ],
+          "marked_text_sha256": "c001ecb376f6aea4784cb6101a7adb599b91f64d0ef8e1aba32d931121583d32",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7a24915449d4d105fe01805904de460838285e5a51659bc14e7ce883034e4de8"
+        },
+        {
+          "file_page": 11,
+          "range": [
+            17657,
+            18830
+          ],
+          "body_characters": 1131,
+          "text_sha256": "08c2ec17d3dadac6f9b02e8d9d9c2e6c629115686ae2060ce90b38ca6c8801fb",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "08c2ec17d3dadac6f9b02e8d9d9c2e6c629115686ae2060ce90b38ca6c8801fb",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "0d4c856fd74c47ede974c73f62be29c766c624619d91b6ce44d150f560136498"
+        },
+        {
+          "file_page": 12,
+          "range": [
+            18830,
+            20446
+          ],
+          "body_characters": 1574,
+          "text_sha256": "908454a66303122c0c68528c8eff44627799f84c86266d468e79ff9c70c5563a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "908454a66303122c0c68528c8eff44627799f84c86266d468e79ff9c70c5563a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "464832b65af690d1551679e9632c76335b1105d91dc0cef7514493e39161afb9"
+        },
+        {
+          "file_page": 13,
+          "range": [
+            20446,
+            20771
+          ],
+          "body_characters": 283,
+          "text_sha256": "3f350faca77860023a382b915583311c52bf40e7bc4ffb3e506b1736e1ec9e74",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            253,
+            254
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            253,
+            254
+          ],
+          "marked_text_sha256": "3f350faca77860023a382b915583311c52bf40e7bc4ffb3e506b1736e1ec9e74",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e2dc3c8f4819d56767fb8eae65098e2041b60c9ce8db5f5bcb17b1d41bfa2554"
+        },
+        {
+          "file_page": 14,
+          "range": [
+            20771,
+            21959
+          ],
+          "body_characters": 1146,
+          "text_sha256": "b73733efe176360cde1df32ce3108b22204eda21bb85d1c7387f20a75a5f4899",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            258
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            258
+          ],
+          "marked_text_sha256": "b73733efe176360cde1df32ce3108b22204eda21bb85d1c7387f20a75a5f4899",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "47700fd8917eabf1c83bb4aebc0b15b16e6dfe55d864efef73e518ea3c5edc2d"
+        },
+        {
+          "file_page": 15,
+          "range": [
+            21959,
+            23679
+          ],
+          "body_characters": 1678,
+          "text_sha256": "16e6fb0fa1f359c8a826bb0690ec78c104f64cba687bf8f72586561ea02fed18",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "16e6fb0fa1f359c8a826bb0690ec78c104f64cba687bf8f72586561ea02fed18",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4920a5117e2ef8a6053a68c87b688783e240f99e0d7561b5ff469927bc57ee2b"
+        },
+        {
+          "file_page": 16,
+          "range": [
+            23679,
+            25244
+          ],
+          "body_characters": 1523,
+          "text_sha256": "bf2cd765c787063beb2af7ee87e70540aea4b0304c3119308fdef89692a6ffea",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "bf2cd765c787063beb2af7ee87e70540aea4b0304c3119308fdef89692a6ffea",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "31f5c94e6cc62af6661d3f33e9123104cec48f030664ca8bed65d82773b2cbb1"
+        },
+        {
+          "file_page": 17,
+          "range": [
+            25244,
+            27015
+          ],
+          "body_characters": 1729,
+          "text_sha256": "93ab577ef8fca47d7ad601db2bfb91ca83b521970d6323967ce6b9672ef1098c",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "93ab577ef8fca47d7ad601db2bfb91ca83b521970d6323967ce6b9672ef1098c",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "75f4aed613335a4492bbc8ed6ec7447307029f2e02aceeb9028a9d6f810958f2"
+        },
+        {
+          "file_page": 18,
+          "range": [
+            27015,
+            28721
+          ],
+          "body_characters": 1664,
+          "text_sha256": "975ab6a0b7f4c70d1246acb6e2fb9469fa786ac63d891a0815542e27acb3bbf6",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "975ab6a0b7f4c70d1246acb6e2fb9469fa786ac63d891a0815542e27acb3bbf6",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "116a91300d2f4ab3b12fc88bb03c03bf12db1290fc2144ed4845068d628fe49e"
+        },
+        {
+          "file_page": 19,
+          "range": [
+            28721,
+            30336
+          ],
+          "body_characters": 1573,
+          "text_sha256": "bfaec8bf54d7b028c4006b6ef21d836736f066063feeff5d46d90f5834457830",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "bfaec8bf54d7b028c4006b6ef21d836736f066063feeff5d46d90f5834457830",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "be6167ee6a81c93a69527e4a67a28d5123aa4ead50a4748af442921e41585da3"
+        },
+        {
+          "file_page": 20,
+          "range": [
+            30336,
+            30646
+          ],
+          "body_characters": 268,
+          "text_sha256": "c0f9efc00d7e0308a5d313a5909ab39829fd0d82978c8e3f35c324d9e7bfc138",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            277,
+            278
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            277,
+            278
+          ],
+          "marked_text_sha256": "c0f9efc00d7e0308a5d313a5909ab39829fd0d82978c8e3f35c324d9e7bfc138",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "43bf63f758f24fadd9d686b83f8b5f168b8684f67b89c849dc1f8c49f73b1efd"
+        },
+        {
+          "file_page": 21,
+          "range": [
+            30646,
+            30888
+          ],
+          "body_characters": 200,
+          "text_sha256": "d3c61afdd6ee164c1d520edaf75441b395fe34173b260f582bc47bb18fe7e9e4",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            282,
+            283
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            282,
+            283
+          ],
+          "marked_text_sha256": "d3c61afdd6ee164c1d520edaf75441b395fe34173b260f582bc47bb18fe7e9e4",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "2d8d8c3ffd08ecf4baaf53bf36d9fa9b41cefe3f1dd9f9aced65613b0cbb4741"
+        },
+        {
+          "file_page": 22,
+          "range": [
+            30888,
+            31130
+          ],
+          "body_characters": 200,
+          "text_sha256": "a28ab1ac46bdd74720c77cad519eb65d313e41cb7b8e189c06c2aa7754435c58",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            287,
+            288
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            287,
+            288
+          ],
+          "marked_text_sha256": "a28ab1ac46bdd74720c77cad519eb65d313e41cb7b8e189c06c2aa7754435c58",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "bb8e0cb4d9c126d84be521d159a52bcfd90816ebbd805f30b352374c04794c76"
+        },
+        {
+          "file_page": 23,
+          "range": [
+            31130,
+            31372
+          ],
+          "body_characters": 200,
+          "text_sha256": "16518eade35fce99c86974ba6994bb2e0991becce9f888f7cd02c9fc2d613486",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            292,
+            293
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            292,
+            293
+          ],
+          "marked_text_sha256": "16518eade35fce99c86974ba6994bb2e0991becce9f888f7cd02c9fc2d613486",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "a5bc036aab3b27ef5eb42668c7779a00e9a080509bebca93f8d34da465962fa3"
+        },
+        {
+          "file_page": 24,
+          "range": [
+            31372,
+            32380
+          ],
+          "body_characters": 966,
+          "text_sha256": "2ee48cf0f0739eb70ce93863617bf4f7f6ee85b234e5a4c3435104dbfb4ac796",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            297
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            297
+          ],
+          "marked_text_sha256": "2ee48cf0f0739eb70ce93863617bf4f7f6ee85b234e5a4c3435104dbfb4ac796",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7032b3a81dc6010ba7d1dbbaadc3e0d0cd2f8f419698f793c1e819ee5fd4d892"
+        },
+        {
+          "file_page": 25,
+          "range": [
+            32380,
+            33821
+          ],
+          "body_characters": 1399,
+          "text_sha256": "585eced04b9f0317c6d3f2f031d89d36d7a353e20446b4ac868994816774d076",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "585eced04b9f0317c6d3f2f031d89d36d7a353e20446b4ac868994816774d076",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "a8e8d83f4539e78a3a513d120bf548825228c9391c09e813ed2df67358c8fecb"
+        },
+        {
+          "file_page": 26,
+          "range": [
+            33821,
+            35449
+          ],
+          "body_characters": 1586,
+          "text_sha256": "c3960bb40279598a088e04747be8f6e45f566b933f9fc0bbf9b554fe78271c48",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "c3960bb40279598a088e04747be8f6e45f566b933f9fc0bbf9b554fe78271c48",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "2eccaf970eb74061d87a4fef57c8fa8fb4cce75b0bd1e80c964264f69835dea8"
+        },
+        {
+          "file_page": 27,
+          "range": [
+            35449,
+            37049
+          ],
+          "body_characters": 1558,
+          "text_sha256": "046cdd4065c981e4e4b99730f3cfa2b5b89aabae2593fb6384f12b4d08fe83a5",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "046cdd4065c981e4e4b99730f3cfa2b5b89aabae2593fb6384f12b4d08fe83a5",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7b1ca4c80f748742af14359d447331e5d43a17baf80124df8efead2ed166754e"
+        },
+        {
+          "file_page": 28,
+          "range": [
+            37049,
+            38614
+          ],
+          "body_characters": 1523,
+          "text_sha256": "96a4defe158f1ded3c1f841a2a1aa6bac66bab77ee6dfb74395fc38fb3a1a9dc",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "96a4defe158f1ded3c1f841a2a1aa6bac66bab77ee6dfb74395fc38fb3a1a9dc",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "88b15ac366cabfa03b75a215c1165e83514e28d811e332d2515fd9cf2922a79b"
+        },
+        {
+          "file_page": 29,
+          "range": [
+            38614,
+            40377
+          ],
+          "body_characters": 1721,
+          "text_sha256": "1aacbc21b3c0f12c6e67e2c3d1ed237ffc9d36b0517280b426f3382855d54548",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "1aacbc21b3c0f12c6e67e2c3d1ed237ffc9d36b0517280b426f3382855d54548",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "cbc830ea33abc0d3939ad9d3d90193cab68c9ecd1acf4e0c297bad72377fb97e"
+        },
+        {
+          "file_page": 30,
+          "range": [
+            40377,
+            42087
+          ],
+          "body_characters": 1668,
+          "text_sha256": "3060540f4a30f5946103775e2c9b504e64a52f914e1c358408f8f300df3c2e17",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "3060540f4a30f5946103775e2c9b504e64a52f914e1c358408f8f300df3c2e17",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "66abdcce21ab6276a675c1fda93ee75af7c7065c04e90e633ee71cd408692558"
+        },
+        {
+          "file_page": 31,
+          "range": [
+            42087,
+            43133
+          ],
+          "body_characters": 1004,
+          "text_sha256": "001c98717c03981dc70ae1d9b4a17555aaf172150c9808be35feae9083cfe0f8",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            319
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            319
+          ],
+          "marked_text_sha256": "001c98717c03981dc70ae1d9b4a17555aaf172150c9808be35feae9083cfe0f8",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "23f1582f4a5b822d108f3fd10b21955b223708606c9a30339f1ee84d77783e16"
+        },
+        {
+          "file_page": 32,
+          "range": [
+            43133,
+            43993
+          ],
+          "body_characters": 818,
+          "text_sha256": "56be270dd4436bed9129f21d41da71d61c8f7a2ebc22b0fa53d6e3b98b9ad4e8",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            323
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            323
+          ],
+          "marked_text_sha256": "56be270dd4436bed9129f21d41da71d61c8f7a2ebc22b0fa53d6e3b98b9ad4e8",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "971fd7e3ee1c3a2c02bdc2fe96f749c692e34bcf8a5f4770e9372fcdd2102d92"
+        },
+        {
+          "file_page": 33,
+          "range": [
+            43993,
+            44235
+          ],
+          "body_characters": 200,
+          "text_sha256": "73921a773f398315a6aa2f7bddc98aa2807987baa233e32a69571e29e91f5897",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            327,
+            328
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            327,
+            328
+          ],
+          "marked_text_sha256": "73921a773f398315a6aa2f7bddc98aa2807987baa233e32a69571e29e91f5897",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "beb5b44c63dfaed5c91003f8da30aace2cd5242302efdbb9ef066da1f60756e4"
+        },
+        {
+          "file_page": 34,
+          "range": [
+            44235,
+            44477
+          ],
+          "body_characters": 200,
+          "text_sha256": "0b8f62154d4b0b9a09286279aa87fa4e53b8b11cce53b1aa22bf93dc5d9e382b",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            332,
+            333,
+            334
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            332,
+            333,
+            334
+          ],
+          "marked_text_sha256": "0b8f62154d4b0b9a09286279aa87fa4e53b8b11cce53b1aa22bf93dc5d9e382b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "701f5896d973738bac37773017d432cb901054b91a97e886252885eae4042463"
+        },
+        {
+          "file_page": 35,
+          "range": [
+            44477,
+            44719
+          ],
+          "body_characters": 200,
+          "text_sha256": "dfbeabcf4564fc22511d3de0f89c51c7a5a45e14b89d1c7adbb987c0a2dc80b9",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            338,
+            339
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            338,
+            339
+          ],
+          "marked_text_sha256": "dfbeabcf4564fc22511d3de0f89c51c7a5a45e14b89d1c7adbb987c0a2dc80b9",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7811c7d7cfd65b63b332d4fa9c7b3e7ed8966c18432e2a60eff7339d5a42fa28"
+        },
+        {
+          "file_page": 36,
+          "range": [
+            44719,
+            45787
+          ],
+          "body_characters": 1026,
+          "text_sha256": "97117853167abc5cfa1486c9bca8a1e070363e50b508f0f170362e6ce01a333b",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            343
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            343
+          ],
+          "marked_text_sha256": "97117853167abc5cfa1486c9bca8a1e070363e50b508f0f170362e6ce01a333b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "b1130cc172979283ea768fe0fce41d9fdd401dfca4f1eff0ddd42801f2bd2c54"
+        },
+        {
+          "file_page": 37,
+          "range": [
+            45787,
+            47378
+          ],
+          "body_characters": 1549,
+          "text_sha256": "d7963f2844958867fc92b0d7d6659aa56c08b346bd2cf80211303aa9f8af9a59",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "d7963f2844958867fc92b0d7d6659aa56c08b346bd2cf80211303aa9f8af9a59",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7b6062a49a4162cd68abece880fee0103fd2112e22871aad55a0ed80e2ffceb0"
+        },
+        {
+          "file_page": 38,
+          "range": [
+            47378,
+            48850
+          ],
+          "body_characters": 1430,
+          "text_sha256": "33e4ea08e7844271a234efad400320ee1662a5f98de36518565e47c1301681fd",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "33e4ea08e7844271a234efad400320ee1662a5f98de36518565e47c1301681fd",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e82f17b357911903cba6896b6ab6674b181557b756d3703f946a4a2d979f3184"
+        },
+        {
+          "file_page": 39,
+          "range": [
+            48850,
+            50414
+          ],
+          "body_characters": 1522,
+          "text_sha256": "25853b95a1da51f8ff25e21c1b07974717205d94e7a0945f57d063f70c2a028b",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "25853b95a1da51f8ff25e21c1b07974717205d94e7a0945f57d063f70c2a028b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4846ad841481e01d451a5bd816a5fb0b24d4a7ea4ff2b8375ef04665b9fcb60d"
+        },
+        {
+          "file_page": 40,
+          "range": [
+            50414,
+            52043
+          ],
+          "body_characters": 1587,
+          "text_sha256": "369054b7e66a3cbef1c4d2868222b7386e3b22aec874ba5fcc9e478d84bc586f",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "369054b7e66a3cbef1c4d2868222b7386e3b22aec874ba5fcc9e478d84bc586f",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "ede3308c0355e3e4984476737baa0a18f4c7ef5df2468d6f4effc30617527e78"
+        },
+        {
+          "file_page": 41,
+          "range": [
+            52043,
+            53488
+          ],
+          "body_characters": 1403,
+          "text_sha256": "c4ea8d44b9564b371bd9050b366581b131eae96a16d2df21df117b9ec5d70a8f",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "c4ea8d44b9564b371bd9050b366581b131eae96a16d2df21df117b9ec5d70a8f",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "d13a1439d6cc62fef38abc0818d436abd6de273fb13cfc99813682e4caf2321f"
+        },
+        {
+          "file_page": 42,
+          "range": [
+            53488,
+            55138
+          ],
+          "body_characters": 1608,
+          "text_sha256": "fca2f07b6dec32067ff205a7f0120009b7dae4d09c19d3151634b5f5870ec566",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "fca2f07b6dec32067ff205a7f0120009b7dae4d09c19d3151634b5f5870ec566",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c4988d8633ec351c8bc1e5425711f571bc672e7353d31aa27e89b66532d8c901"
+        },
+        {
+          "file_page": 43,
+          "range": [
+            55138,
+            56399
+          ],
+          "body_characters": 1219,
+          "text_sha256": "9df66036d0dd00914232b4aa90d56cc16e6e7fb49ce82141638416b8b370372e",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "9df66036d0dd00914232b4aa90d56cc16e6e7fb49ce82141638416b8b370372e",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "6f4b2c3a2773180de6e2abfb0dc9697cab8381060b1d0acc7a0b5e667f7994b5"
+        },
+        {
+          "file_page": 44,
+          "range": [
+            56399,
+            58095
+          ],
+          "body_characters": 1654,
+          "text_sha256": "9809c9b01959959ca8e370cead495e19a7909e49201a1629c543239695a5da32",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "9809c9b01959959ca8e370cead495e19a7909e49201a1629c543239695a5da32",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "d5d8be20bb3aa56dcc9b9c692fa5b601376a0d99be751f6a3b41abe9fe40aade"
+        },
+        {
+          "file_page": 45,
+          "range": [
+            58095,
+            59706
+          ],
+          "body_characters": 1569,
+          "text_sha256": "fef4ca7655f41e012529661ce894e0d32aa31716299ba1bf70e700ef08a834e1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "fef4ca7655f41e012529661ce894e0d32aa31716299ba1bf70e700ef08a834e1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "1dfa0331e78bf1c9bd6c86de001cdc83b0a39eb71f989e9db8410b2dea9d3e7c"
+        },
+        {
+          "file_page": 46,
+          "range": [
+            59706,
+            61420
+          ],
+          "body_characters": 1672,
+          "text_sha256": "10961b4241bdf13c056895bd59f5b3cab8236dcf7d1dcce7ce5449c3b4a539b2",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "10961b4241bdf13c056895bd59f5b3cab8236dcf7d1dcce7ce5449c3b4a539b2",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "8b41208b953c56abd3481b2f9f15512e927640b6c55210519bbd1a0bd60012d6"
+        },
+        {
+          "file_page": 47,
+          "range": [
+            61420,
+            62565
+          ],
+          "body_characters": 1103,
+          "text_sha256": "758a11620d7224b3119a7a7bad5b31162a60b8c21adb4284fc115a5e30c43bd0",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "758a11620d7224b3119a7a7bad5b31162a60b8c21adb4284fc115a5e30c43bd0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "fbd39f504d723cae1e9023d14664c97a30f2dd6bcfd108e70de28085a4bd30fb"
+        },
+        {
+          "file_page": 48,
+          "range": [
+            62565,
+            63381
+          ],
+          "body_characters": 774,
+          "text_sha256": "0add59cf2b63e3b1dcd3bbde2554ce4c3b7b3f05f77810f5aad0dbd286c7603a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "0add59cf2b63e3b1dcd3bbde2554ce4c3b7b3f05f77810f5aad0dbd286c7603a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "3306d64802eb088651ab9f3510512b3300a1df0cec8abb168eb362d8b7e08899"
+        },
+        {
+          "file_page": 49,
+          "range": [
+            63381,
+            65240
+          ],
+          "body_characters": 1817,
+          "text_sha256": "b450f82f9862c061c630056bc95f151dfcde3a8650aea7236c2ae80902c1114b",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "b450f82f9862c061c630056bc95f151dfcde3a8650aea7236c2ae80902c1114b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "174247e3ac1e42191a2dad091298bb9fce364e881ff733aa1d0749fc3eb1e03e"
+        },
+        {
+          "file_page": 50,
+          "range": [
+            65240,
+            66389
+          ],
+          "body_characters": 1107,
+          "text_sha256": "61b14eb6a1ccfdecf4f063883abbf9db228da1675a01ab8bb93a552742e5adf0",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "61b14eb6a1ccfdecf4f063883abbf9db228da1675a01ab8bb93a552742e5adf0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e8067fb6909ee02a705e36719b437ccfa911cf69a22c1880012f26e2762a4c80"
+        },
+        {
+          "file_page": 51,
+          "range": [
+            66389,
+            68204
+          ],
+          "body_characters": 1773,
+          "text_sha256": "648bd136bf407d9f83fa714ccf09453e47b18ef9ffdcad41e14ce00b2601423b",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "648bd136bf407d9f83fa714ccf09453e47b18ef9ffdcad41e14ce00b2601423b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "430eab660e3facc535461d70247cdf324f13a4a74afe4cd396856b5251eff35e"
+        },
+        {
+          "file_page": 52,
+          "range": [
+            68204,
+            69859
+          ],
+          "body_characters": 1613,
+          "text_sha256": "a3bd4b4b7f938c3698884f4f5008bf15bde3c2879c3480bba9280104fcfe2d32",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "a3bd4b4b7f938c3698884f4f5008bf15bde3c2879c3480bba9280104fcfe2d32",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "a6693d480ed3351d509188fac1d08d3bb1706f13b3ecfa4aab66ab5151b0ed01"
+        },
+        {
+          "file_page": 53,
+          "range": [
+            69859,
+            71626
+          ],
+          "body_characters": 1725,
+          "text_sha256": "4cc17d3ec7c3c61eb32242dc8ecfcb44b4129429d9ebf28752d0367f703b5f3d",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "4cc17d3ec7c3c61eb32242dc8ecfcb44b4129429d9ebf28752d0367f703b5f3d",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c6fc5222577bbc45aefe4dc22d57e07724cf09694f97b1b4dea080f16474aec5"
+        },
+        {
+          "file_page": 54,
+          "range": [
+            71626,
+            73439
+          ],
+          "body_characters": 1771,
+          "text_sha256": "fd4cca984f8feaa5fc39c913eb09c31d2550d591fd0b8a90a141f856c7b6da9b",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "fd4cca984f8feaa5fc39c913eb09c31d2550d591fd0b8a90a141f856c7b6da9b",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "41a478bb60dadfe64bb6923e0b1c3722e97dd5fc2dd0c65161c91809748d42ac"
+        },
+        {
+          "file_page": 55,
+          "range": [
+            73439,
+            75193
+          ],
+          "body_characters": 1712,
+          "text_sha256": "2c8884fa295b88a7fd093188bdff00f0057ca55ef5a90c7de2dc041a67bedb57",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "2c8884fa295b88a7fd093188bdff00f0057ca55ef5a90c7de2dc041a67bedb57",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "878723508ce0aab7d5e1ad2ed314ce7fe58603943c60888ced402ba968832558"
+        },
+        {
+          "file_page": 56,
+          "range": [
+            75193,
+            76984
+          ],
+          "body_characters": 1749,
+          "text_sha256": "96c4336ae952af44333587ab6103e35461a01cd4d0b6f0ade2fc390b8ae5f651",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "96c4336ae952af44333587ab6103e35461a01cd4d0b6f0ade2fc390b8ae5f651",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "24b08bfe5282d83cc43daeb3a5d53bba9607e606ca669e19702313f8f864e528"
+        },
+        {
+          "file_page": 57,
+          "range": [
+            76984,
+            78527
+          ],
+          "body_characters": 1501,
+          "text_sha256": "3161324bf34a946dd10c39a0b22be1e45694f03080a719d126cef1c1f4d0b9e9",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "3161324bf34a946dd10c39a0b22be1e45694f03080a719d126cef1c1f4d0b9e9",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c82cbd85db201a2427f43c44a0b4e36d3cb12d2f73ee79882da28eb5e2ed29bd"
+        },
+        {
+          "file_page": 58,
+          "range": [
+            78527,
+            79655
+          ],
+          "body_characters": 1086,
+          "text_sha256": "2bc99a44a7d0e19e859f46264255814b102948f1514b6ef742cae8f6b2ec0029",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "2bc99a44a7d0e19e859f46264255814b102948f1514b6ef742cae8f6b2ec0029",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "bfd33bed7c985498d0f3ae9aa3ef0461cc49a1440db82b10529b3afa97be9e14"
+        },
+        {
+          "file_page": 59,
+          "range": [
+            79655,
+            80735
+          ],
+          "body_characters": 1038,
+          "text_sha256": "f695ab1b57c39e732d3c14a72ef2e2b28fb4806f5350b922eb5dd2b9be0fe0bd",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "f695ab1b57c39e732d3c14a72ef2e2b28fb4806f5350b922eb5dd2b9be0fe0bd",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f99ef89aaa188a8a6284a2839522e2c17beb097453d2ed228cf3b7cd76fb5f91"
+        },
+        {
+          "file_page": 60,
+          "range": [
+            80735,
+            82097
+          ],
+          "body_characters": 1320,
+          "text_sha256": "d5ff550f41cb0a374ffc36791d4c631ef9b3410df38a946381e5651a3487c32a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "d5ff550f41cb0a374ffc36791d4c631ef9b3410df38a946381e5651a3487c32a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "cba6757c7f7674b08fa79601458fdde51857a3f0f303fd7736ba3a07264a514d"
+        },
+        {
+          "file_page": 61,
+          "range": [
+            82097,
+            83840
+          ],
+          "body_characters": 1701,
+          "text_sha256": "78e222d2593b7a3e4c40d753289cee08229296596db1ab45150b0a3e3d3fb855",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "78e222d2593b7a3e4c40d753289cee08229296596db1ab45150b0a3e3d3fb855",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "63a7c3db36dbc36bb2f9ed94a8e29f9d7a5534d8eac5abae8fbc040257e7cfd7"
+        },
+        {
+          "file_page": 62,
+          "range": [
+            83840,
+            85703
+          ],
+          "body_characters": 1821,
+          "text_sha256": "766ab15093e4e5c554205e7b93169f3b937e176dc66c23ac029fbd3f296b5ed1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "766ab15093e4e5c554205e7b93169f3b937e176dc66c23ac029fbd3f296b5ed1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "551e9de5710891df392d1155d7443db1bf4b1f5f1ad96fe9840b3035e1bde2c6"
+        },
+        {
+          "file_page": 63,
+          "range": [
+            85703,
+            87453
+          ],
+          "body_characters": 1708,
+          "text_sha256": "372d9b2cbc7996c7d5f74ef430b53650ca69d5f1a7c63e36d4c86cf754c73f09",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "372d9b2cbc7996c7d5f74ef430b53650ca69d5f1a7c63e36d4c86cf754c73f09",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "332dd25bb9065b4a2847baa69637db5fa68f9f0cd1d6f99df2f08b811c23a833"
+        },
+        {
+          "file_page": 64,
+          "range": [
+            87453,
+            89128
+          ],
+          "body_characters": 1633,
+          "text_sha256": "a4879e52c4db1f55acbec6ed03607d4597dbe2332c311f838e7e52525d88750a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "a4879e52c4db1f55acbec6ed03607d4597dbe2332c311f838e7e52525d88750a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "3316c99c4c678f443726b0c132b7ca9ed3564bfb0c2b66babda1b481feb1dab1"
+        },
+        {
+          "file_page": 65,
+          "range": [
+            89128,
+            90075
+          ],
+          "body_characters": 905,
+          "text_sha256": "17b3ed967ae80926fef4347f477ac4399414883ced53d74846b5354633b73694",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            431
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            431
+          ],
+          "marked_text_sha256": "17b3ed967ae80926fef4347f477ac4399414883ced53d74846b5354633b73694",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c1adc4674cab811c79f2e8f6e88347f01a4d9998350d3aaed902e88c572542d6"
+        },
+        {
+          "file_page": 66,
+          "range": [
+            90075,
+            90317
+          ],
+          "body_characters": 200,
+          "text_sha256": "b9cb4470b0ee02b76173b5f00e49dfc43f49dccd0c27ccbad036d48c269ab2d3",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            435,
+            436
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            435,
+            436
+          ],
+          "marked_text_sha256": "b9cb4470b0ee02b76173b5f00e49dfc43f49dccd0c27ccbad036d48c269ab2d3",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "a31d8abc8806a823f43a6550174a4abf1d2f4dda213e0be189adb5eabc7fc86f"
+        },
+        {
+          "file_page": 67,
+          "range": [
+            90317,
+            90559
+          ],
+          "body_characters": 200,
+          "text_sha256": "1f7db7ca41bb1b66e27343ac43edabc6ab946e89e66c92c0b7acfa6e402bbfd9",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            440,
+            441,
+            442
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            440,
+            441,
+            442
+          ],
+          "marked_text_sha256": "1f7db7ca41bb1b66e27343ac43edabc6ab946e89e66c92c0b7acfa6e402bbfd9",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "82702e2402ed2b1e4ff9f2ebde458d7fb84df4f69e9cd18beca0d1e0f1c53f52"
+        },
+        {
+          "file_page": 68,
+          "range": [
+            90559,
+            92137
+          ],
+          "body_characters": 1536,
+          "text_sha256": "0349a3d24019683e28c0116912e74f5cd7bd7a30f39815da10b8976211339f42",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "0349a3d24019683e28c0116912e74f5cd7bd7a30f39815da10b8976211339f42",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "b6428ed900d43166a33cf172d4db7b25fe042aa38b8946777a80840e2edca188"
+        },
+        {
+          "file_page": 69,
+          "range": [
+            92137,
+            93936
+          ],
+          "body_characters": 1757,
+          "text_sha256": "d46d70faba8e8e0921008e8564ba916c0e6ebf98b1592bb4bbda7317fb9ff7b1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "d46d70faba8e8e0921008e8564ba916c0e6ebf98b1592bb4bbda7317fb9ff7b1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f2879e26bf8b117c9295ffdf4d88a4c2a3a847ca6a3e8461a903c0c9566d1dd9"
+        },
+        {
+          "file_page": 70,
+          "range": [
+            93936,
+            95697
+          ],
+          "body_characters": 1719,
+          "text_sha256": "ac4eabc528d786b64fb17894ce3456c543053469adc24f935cc62d0ea095ec65",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "ac4eabc528d786b64fb17894ce3456c543053469adc24f935cc62d0ea095ec65",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "b61902cb093b93eef49206ac885b6bd05a4ca36cf21754e3c67559e9036e6fbb"
+        },
+        {
+          "file_page": 71,
+          "range": [
+            95697,
+            97571
+          ],
+          "body_characters": 1832,
+          "text_sha256": "44c42af114f2d4ae399f5fb5cb2fca05070da7032dcd49b3b0b998eb97f448ad",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "44c42af114f2d4ae399f5fb5cb2fca05070da7032dcd49b3b0b998eb97f448ad",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "5516fdd2e32d9d0a4ef5b9a0f225e288ee3c264f9d1ffef3db931459133c5069"
+        },
+        {
+          "file_page": 72,
+          "range": [
+            97571,
+            99394
+          ],
+          "body_characters": 1781,
+          "text_sha256": "1313c00b21524ab340c034083307a9fcb5c80bff62fc864e825ed594222c6794",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "1313c00b21524ab340c034083307a9fcb5c80bff62fc864e825ed594222c6794",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "adf2fb5897bb828872ebf461676dd1f6d3690d58a2cd7e550a0c26cd4a47ad6a"
+        },
+        {
+          "file_page": 73,
+          "range": [
+            99394,
+            101228
+          ],
+          "body_characters": 1792,
+          "text_sha256": "c78c80125fcb5a818eb50df5e0131e374adad52e71d38f1036c2df6b1b0a7888",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "c78c80125fcb5a818eb50df5e0131e374adad52e71d38f1036c2df6b1b0a7888",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "aa7ffd0f3052e5a6bf8987b22f9d24db628574747e3a7ab0ae1c39004eb4668e"
+        },
+        {
+          "file_page": 74,
+          "range": [
+            101228,
+            102437
+          ],
+          "body_characters": 1167,
+          "text_sha256": "8c8a6912dc035e4a0e2a9459b7d842e3410b788eddc92ea47a713f363c54804e",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "8c8a6912dc035e4a0e2a9459b7d842e3410b788eddc92ea47a713f363c54804e",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4ae1c0a4068b77ab602a367f064d53807536e79bf01ce7f58b2ad0b8d83276eb"
+        },
+        {
+          "file_page": 75,
+          "range": [
+            102437,
+            103447
+          ],
+          "body_characters": 968,
+          "text_sha256": "8cb4a3e1e70e06bdb400b8ffbee3f5536a889d15eea9bf461bc6fb20ad46a040",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "8cb4a3e1e70e06bdb400b8ffbee3f5536a889d15eea9bf461bc6fb20ad46a040",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "28d756833fc4653ea76b72018ca93d3a354a0c53257000daaa81d5e526dee463"
+        },
+        {
+          "file_page": 76,
+          "range": [
+            103447,
+            105045
+          ],
+          "body_characters": 1556,
+          "text_sha256": "6d24b40bf4d335d131aca98df9cd42a4886ff5c0024582041f38fd58dc95a94a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "6d24b40bf4d335d131aca98df9cd42a4886ff5c0024582041f38fd58dc95a94a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "a1dc88f72828da83e4c4daa7627a75ab9364e049c09b659576dea09c55d93ef8"
+        },
+        {
+          "file_page": 77,
+          "range": [
+            105045,
+            106673
+          ],
+          "body_characters": 1586,
+          "text_sha256": "6cf16fcde784f362ef9b29b6d02b41f0d5a4e691727a0d26a2d25a2f9744ca47",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "6cf16fcde784f362ef9b29b6d02b41f0d5a4e691727a0d26a2d25a2f9744ca47",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4d8b888ebd6e22df064e41a84cd380b857b10c651619220f538b1b0b740a688a"
+        },
+        {
+          "file_page": 78,
+          "range": [
+            106673,
+            107993
+          ],
+          "body_characters": 1278,
+          "text_sha256": "41437c48c2c500d576815fb9b077a6516eb31ca6fb27b3c64bd49b694e17b39a",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "41437c48c2c500d576815fb9b077a6516eb31ca6fb27b3c64bd49b694e17b39a",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "1a8300703ef302cc4853f723f592436e1e2baca94341f5abfaea925fe8846f92"
+        },
+        {
+          "file_page": 79,
+          "range": [
+            107993,
+            108726
+          ],
+          "body_characters": 691,
+          "text_sha256": "598106b04e899438c34b4786d73e7bd998e940b028d2f18b8d6526a733f88312",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "598106b04e899438c34b4786d73e7bd998e940b028d2f18b8d6526a733f88312",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f957ca9f6663925ead94d6e65a69e06ab794f4a6dd19810af35ca1311dbd0a06"
+        },
+        {
+          "file_page": 80,
+          "range": [
+            108726,
+            110451
+          ],
+          "body_characters": 1683,
+          "text_sha256": "fdca75cc04bf51f4b8267638c02106ca8a81988b6637fc5fb79b61ef08419d75",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "fdca75cc04bf51f4b8267638c02106ca8a81988b6637fc5fb79b61ef08419d75",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "506867112969cc981d23b040547e4d381c615d74e281022ae0b771bf81698a18"
+        },
+        {
+          "file_page": 81,
+          "range": [
+            110451,
+            112115
+          ],
+          "body_characters": 1622,
+          "text_sha256": "fcc2bd50463c2c63f6e7daa705529051abb6eae51276c3a629922e1ebe05c0b9",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "fcc2bd50463c2c63f6e7daa705529051abb6eae51276c3a629922e1ebe05c0b9",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "916723eea1bd9fe6dd5d028a5deca4dcb6c1b4b92c5e43fe0acef874f9b7c8ec"
+        },
+        {
+          "file_page": 82,
+          "range": [
+            112115,
+            113860
+          ],
+          "body_characters": 1703,
+          "text_sha256": "c9a986cd85d2c7c58298ffaea40b4ce1b2bad790c55ba658d23baa04a8f479c9",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "c9a986cd85d2c7c58298ffaea40b4ce1b2bad790c55ba658d23baa04a8f479c9",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "f7fd53ba8e9dbc39dc5c661ffba970733ef6fc0411aad1f6ba208884354f27c2"
+        },
+        {
+          "file_page": 83,
+          "range": [
+            113860,
+            115751
+          ],
+          "body_characters": 1849,
+          "text_sha256": "13d378dec796aa6308545090a7b07636a5370a44761825261d9d4d4726cc4e5c",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "13d378dec796aa6308545090a7b07636a5370a44761825261d9d4d4726cc4e5c",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "7da5207a4918d29675caf60cefdc27c393cecf6bc9880471354707d0d373d5a1"
+        },
+        {
+          "file_page": 84,
+          "range": [
+            115751,
+            117312
+          ],
+          "body_characters": 1519,
+          "text_sha256": "2d4ce48d6ba6bc84b47d4f390eddf9639398deaef265c1beb5f8669e97e6bfa0",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "2d4ce48d6ba6bc84b47d4f390eddf9639398deaef265c1beb5f8669e97e6bfa0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "cb7d983ad0287418599354bf2e0ffd25b481595ce725325aa57c081bd69ac7c3"
+        },
+        {
+          "file_page": 85,
+          "range": [
+            117312,
+            118999
+          ],
+          "body_characters": 1645,
+          "text_sha256": "4508419dfb1db01571af91c37b5dc4e3234dc42ad05e100ab77e71c884144d07",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "4508419dfb1db01571af91c37b5dc4e3234dc42ad05e100ab77e71c884144d07",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "acbe3d5943dd67b5c5a84384c12020b3bce1de3cdd5dcf5df095262f5c8298bf"
+        },
+        {
+          "file_page": 86,
+          "range": [
+            118999,
+            120608
+          ],
+          "body_characters": 1567,
+          "text_sha256": "9ae89bbdb8fa1df81df9045bc02d570df1fc4e671c2c5986b9317ef4c990eef8",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "9ae89bbdb8fa1df81df9045bc02d570df1fc4e671c2c5986b9317ef4c990eef8",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "48f73237345df1ca033b9faf6c64c824bde9a278581c24ca04b80411e6e6f68b"
+        },
+        {
+          "file_page": 87,
+          "range": [
+            120608,
+            122641
+          ],
+          "body_characters": 1991,
+          "text_sha256": "7caaf5f24a401c701c9de58859ce502e27c30e1c34a6552f675ae3bcbb0c27c1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "7caaf5f24a401c701c9de58859ce502e27c30e1c34a6552f675ae3bcbb0c27c1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c33d3d8f241a540d23b37162af0861472e898554fd55d48cce87180581afd671"
+        },
+        {
+          "file_page": 88,
+          "range": [
+            122641,
+            123371
+          ],
+          "body_characters": 688,
+          "text_sha256": "c97fd3ced0234c925abc9c57bfe660e4db8366134cb90ff269d6ba30666d70f7",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "c97fd3ced0234c925abc9c57bfe660e4db8366134cb90ff269d6ba30666d70f7",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "22bfaf85d36b25e602a0bb1635a30bf174b3083486da6caeb0823d94e32f48c3"
+        },
+        {
+          "file_page": 89,
+          "range": [
+            123371,
+            125272
+          ],
+          "body_characters": 1859,
+          "text_sha256": "151a77b8d15c6c406259bbd0e904c8952db88061d1dc5f0e8b2841616391891d",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "151a77b8d15c6c406259bbd0e904c8952db88061d1dc5f0e8b2841616391891d",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "2c0819c9d552495264228f41470575890c986e581a3a8ed7e0de0313a2582152"
+        },
+        {
+          "file_page": 90,
+          "range": [
+            125272,
+            126853
+          ],
+          "body_characters": 1539,
+          "text_sha256": "cf8025a73dee14eb96cee2e7073dfe27468bd4d55bb903d1e879300ff51b8ea3",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "cf8025a73dee14eb96cee2e7073dfe27468bd4d55bb903d1e879300ff51b8ea3",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "63c08f262a1dd54bbcc471cbb5771856d42dd2ed2fc442e95a8cbf4af837b1b8"
+        },
+        {
+          "file_page": 91,
+          "range": [
+            126853,
+            128647
+          ],
+          "body_characters": 1752,
+          "text_sha256": "7030c4ad0fd19aab96ed5746c0e2a8bd80b8b3bb63a27bc9399371366af8b74f",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "7030c4ad0fd19aab96ed5746c0e2a8bd80b8b3bb63a27bc9399371366af8b74f",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "ff49f419e5ce1521b967a87b10fca0e8625de9d9641d38e9cf033317be961f9c"
+        },
+        {
+          "file_page": 92,
+          "range": [
+            128647,
+            130441
+          ],
+          "body_characters": 1752,
+          "text_sha256": "8fb9ae789bb8c218dd9a8feeca41429f8149b48568ee296716a47c0b8ab47b26",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "8fb9ae789bb8c218dd9a8feeca41429f8149b48568ee296716a47c0b8ab47b26",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "282831864fcd244b63273ddb183eedc93fdaf879b2e3da49e03db97b2d434884"
+        },
+        {
+          "file_page": 93,
+          "range": [
+            130441,
+            132388
+          ],
+          "body_characters": 1905,
+          "text_sha256": "6f3223f0ddeae893e35868d688ebbe39798e3e39abb5936092b6df248103b0e1",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "6f3223f0ddeae893e35868d688ebbe39798e3e39abb5936092b6df248103b0e1",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "88e87f59793f0c70879f186beb56b590c6947cbae6fd660dae87ab3b463a80e9"
+        },
+        {
+          "file_page": 94,
+          "range": [
+            132388,
+            134157
+          ],
+          "body_characters": 1727,
+          "text_sha256": "cc0ad89b88bae480dd8cc7c1e85237e9db9657036fa64682b793d4048842f236",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "cc0ad89b88bae480dd8cc7c1e85237e9db9657036fa64682b793d4048842f236",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e9d7c4a69b9a6e7b445811f704c6525f82a8036302af73f90a5c0eb8897b95ea"
+        },
+        {
+          "file_page": 95,
+          "range": [
+            134157,
+            135888
+          ],
+          "body_characters": 1689,
+          "text_sha256": "237811b8d27281ee7fc5835c8c947d8f414cb5f7a34b996ac514e5db0d19baa3",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "237811b8d27281ee7fc5835c8c947d8f414cb5f7a34b996ac514e5db0d19baa3",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e2f9aa1036d33dd180baf2a95b7aa2d218435294ef46f75274046b9c75d66613"
+        },
+        {
+          "file_page": 96,
+          "range": [
+            135888,
+            137146
+          ],
+          "body_characters": 1216,
+          "text_sha256": "008e7a7f30df0c97d16d8bb1938269020a5005e03c50e70e41963cdd58b9c272",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            530
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            530
+          ],
+          "marked_text_sha256": "008e7a7f30df0c97d16d8bb1938269020a5005e03c50e70e41963cdd58b9c272",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4178cdc35420fc4fdcd12aa8b53f614198481ece4444864e718b7eea4bfd5965"
+        },
+        {
+          "file_page": 97,
+          "range": [
+            137146,
+            139037
+          ],
+          "body_characters": 1849,
+          "text_sha256": "6d44273e1713028f07f3be0ae36b4d0644fd5d00d81f5a8ff4bbbe07d9ded02e",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "6d44273e1713028f07f3be0ae36b4d0644fd5d00d81f5a8ff4bbbe07d9ded02e",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "673553f55a654659babd6336a423da5d7ca978fde21194c3da3d16a34d449bdd"
+        },
+        {
+          "file_page": 98,
+          "range": [
+            139037,
+            140892
+          ],
+          "body_characters": 1813,
+          "text_sha256": "ceb7569480d5e61cbdeaa619f2bd00c788d6e0a12193a5d079e6a8854d042693",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "ceb7569480d5e61cbdeaa619f2bd00c788d6e0a12193a5d079e6a8854d042693",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "8d4c096297879a03debe430e055bfe13ed1fa54a9afb4781c5843a40700b8b90"
+        },
+        {
+          "file_page": 99,
+          "range": [
+            140892,
+            142699
+          ],
+          "body_characters": 1765,
+          "text_sha256": "89d1f3c940b461731c48b7c14381d230a1fb10223ee198f6f3003d8e931c8d4e",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "89d1f3c940b461731c48b7c14381d230a1fb10223ee198f6f3003d8e931c8d4e",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "412b779ee8f3a631c2e5e6595e34ee9a7b2afd05e7a3f81b4bb70e1da321f9bc"
+        },
+        {
+          "file_page": 100,
+          "range": [
+            142699,
+            144515
+          ],
+          "body_characters": 1773,
+          "text_sha256": "19e5931b3c243eb922cb11f49d40599045de11becc8ea48b78bf16ddcb931c84",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "19e5931b3c243eb922cb11f49d40599045de11becc8ea48b78bf16ddcb931c84",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "8c9395128cb19bd0cfdf378a1b7092853ba9a9ce99cdbc6036a28b685ace951a"
+        },
+        {
+          "file_page": 101,
+          "range": [
+            144515,
+            146305
+          ],
+          "body_characters": 1747,
+          "text_sha256": "8aee68ca226a72f1b9a2e3f63ade979df70bbe940d8fb0bc102bdc88af7b3752",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "8aee68ca226a72f1b9a2e3f63ade979df70bbe940d8fb0bc102bdc88af7b3752",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "0f8fd925e04a8acafda5bc99c4168b0d77b5e5b0610848f95efe3ff1bf932e0d"
+        },
+        {
+          "file_page": 102,
+          "range": [
+            146305,
+            148095
+          ],
+          "body_characters": 1747,
+          "text_sha256": "6953c5f73f34876c2265e4f99ff33c8c07b2359bcb4800500f92629b36561559",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "6953c5f73f34876c2265e4f99ff33c8c07b2359bcb4800500f92629b36561559",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "50c3fd69e0bb0bf120750536a223cb37a1bd8751c0a89bfff775d7a65a7e8f47"
+        },
+        {
+          "file_page": 103,
+          "range": [
+            148095,
+            149906
+          ],
+          "body_characters": 1768,
+          "text_sha256": "499455190845fd9e0ae41a6a1c7c3efd8f6017e3bdf5279dbf45587581b4f5b0",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "499455190845fd9e0ae41a6a1c7c3efd8f6017e3bdf5279dbf45587581b4f5b0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "8d2480eaf426c3e7563aa0cc7088d32e158b274612d13dc9fe88ed0a31a2f6e9"
+        },
+        {
+          "file_page": 104,
+          "range": [
+            149906,
+            151336
+          ],
+          "body_characters": 1387,
+          "text_sha256": "2f93043143b916545412e9cd947531196beaefce5194772140c48ea34fe94056",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "2f93043143b916545412e9cd947531196beaefce5194772140c48ea34fe94056",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "8d5ea3439da28eaf3f9c6117dce0a23ba84f4fde00d035ceb9cc2807e4fd65b8"
+        },
+        {
+          "file_page": 105,
+          "range": [
+            151336,
+            151577
+          ],
+          "body_characters": 198,
+          "text_sha256": "c5e1c40571d39dd8b0d279aff7c9e94c61da1eabfe751878c0651baa4a062e51",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            558,
+            559
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            558,
+            559
+          ],
+          "marked_text_sha256": "c5e1c40571d39dd8b0d279aff7c9e94c61da1eabfe751878c0651baa4a062e51",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "0206f7a479ee783c026d6a3e904e394a91d5197179a40fd53ec250c4e3bd340c"
+        },
+        {
+          "file_page": 106,
+          "range": [
+            151577,
+            151818
+          ],
+          "body_characters": 198,
+          "text_sha256": "35c9585867e2153e37e57636e47800c9061a49d95cc729d11570afc1553111f5",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            563,
+            564
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            563,
+            564
+          ],
+          "marked_text_sha256": "35c9585867e2153e37e57636e47800c9061a49d95cc729d11570afc1553111f5",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "20c88da3b471ddbed5f6b5d37e4d731b9f5a86823f0da74df437283f3b1bb841"
+        },
+        {
+          "file_page": 107,
+          "range": [
+            151818,
+            152059
+          ],
+          "body_characters": 198,
+          "text_sha256": "d8f4c361cfaafac9474b90ba36fb450dc7b339da140f653aa4c916145ad80291",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            568,
+            569
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            568,
+            569
+          ],
+          "marked_text_sha256": "d8f4c361cfaafac9474b90ba36fb450dc7b339da140f653aa4c916145ad80291",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "bb9f904bb660bf2a7bda190c559e2567fce25fedcade331d2c8671d43bbb76d1"
+        },
+        {
+          "file_page": 108,
+          "range": [
+            152059,
+            153248
+          ],
+          "body_characters": 1146,
+          "text_sha256": "9350311bbcca88c55546dfd2bea0bcbd4334a9ce37548fb3f7892007fa2567f0",
+          "image_xrefs": [
+            8,
+            37,
+            38,
+            573
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38,
+            573
+          ],
+          "marked_text_sha256": "9350311bbcca88c55546dfd2bea0bcbd4334a9ce37548fb3f7892007fa2567f0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": true,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "c38cc4f2b6d4e3ec890e0f6156d0fc31d7eb768cf03adb701bf11358f9a60e31"
+        },
+        {
+          "file_page": 109,
+          "range": [
+            153248,
+            154960
+          ],
+          "body_characters": 1669,
+          "text_sha256": "1caf7e55cbc002ba4f8e5ae834ea57473a457c1bf810ad89600c9a25d8c75eb2",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "1caf7e55cbc002ba4f8e5ae834ea57473a457c1bf810ad89600c9a25d8c75eb2",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "364ed1d58b1a84405c6e974a4934e10e5054455287b6a894660e2bbd14a5a2d1"
+        },
+        {
+          "file_page": 110,
+          "range": [
+            154960,
+            156841
+          ],
+          "body_characters": 1838,
+          "text_sha256": "a7d9dd17349a719b41577ec15df853709658e6e06c0c5242833c0f2fe2309624",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "a7d9dd17349a719b41577ec15df853709658e6e06c0c5242833c0f2fe2309624",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "47773e0215c7faaac75bac7423b000f21b5e7941e01ab452ee36af3ba89ebb17"
+        },
+        {
+          "file_page": 111,
+          "range": [
+            156841,
+            158653
+          ],
+          "body_characters": 1769,
+          "text_sha256": "bebc30d96067ea88533d240a3498317bedf3692e5ac32a85636b298c021ed9ac",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "bebc30d96067ea88533d240a3498317bedf3692e5ac32a85636b298c021ed9ac",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "04ca55d28a1299864644af2a8b546a7033c207c184092d1488cab9f846c36a11"
+        },
+        {
+          "file_page": 112,
+          "range": [
+            158653,
+            160310
+          ],
+          "body_characters": 1614,
+          "text_sha256": "7990a10df3a4225515463452a8f79c9f0e5036d36e1a1301f1fdf61d43972db0",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "7990a10df3a4225515463452a8f79c9f0e5036d36e1a1301f1fdf61d43972db0",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": false,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "e02e90af75f42d2313eb3734dc34d03813bf925bbee7fd09f51a0912bd365190"
+        },
+        {
+          "file_page": 113,
+          "range": [
+            160310,
+            161665
+          ],
+          "body_characters": 1312,
+          "text_sha256": "d18c2082a7dfbd545afd3cdceba88e37a6fe189979f3e57a37605789d1a85ec3",
+          "image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "displayed_image_xrefs": [
+            8,
+            37,
+            38
+          ],
+          "marked_text_sha256": "d18c2082a7dfbd545afd3cdceba88e37a6fe189979f3e57a37605789d1a85ec3",
+          "native_text_output_read": true,
+          "selected_original_page_viewed": true,
+          "unread_body_image_region": false,
+          "text_sha256_scope": "page_markers_included",
+          "body_text_sha256": "4c73dd59d84682c334fe63682c42f66d82bf2e7a1f314b767f2e23045ead80dd"
+        }
+      ],
+      "read_chunks": [
+        {
+          "range": [
+            0,
+            11000
+          ],
+          "characters": 11000,
+          "sha256": "403159a47c49615206ca11c65e15ccb378585297d51c524e94466441a9212ae0"
+        },
+        {
+          "range": [
+            11000,
+            22000
+          ],
+          "characters": 11000,
+          "sha256": "c51ce02f336598cabc78575b5d3c6f5df08350117281489b73e80ea6ed952b23"
+        },
+        {
+          "range": [
+            22000,
+            33000
+          ],
+          "characters": 11000,
+          "sha256": "dc411cb2d74bedf0b0e828d2629835cdb06f2bcfbe84105e318bc588289e3241"
+        },
+        {
+          "range": [
+            33000,
+            44000
+          ],
+          "characters": 11000,
+          "sha256": "8dd7d29ef603415d4a1c9556b27c74d982efa31423d51f5cc0a6e08c7ab75666"
+        },
+        {
+          "range": [
+            44000,
+            55000
+          ],
+          "characters": 11000,
+          "sha256": "43f4eb5226888e5ab3513b314e80d683ac0bc5e37447ebcaa7d3451ebced702c"
+        },
+        {
+          "range": [
+            55000,
+            66000
+          ],
+          "characters": 11000,
+          "sha256": "73abd6b860438994b554341087fb9b397f5d145e2beed7919f398319a6cc6aea"
+        },
+        {
+          "range": [
+            66000,
+            77000
+          ],
+          "characters": 11000,
+          "sha256": "95dfc2e7faa4f334f6986ee6e5fa733f475b6a237e0ee404ed2507547633fb05"
+        },
+        {
+          "range": [
+            77000,
+            88000
+          ],
+          "characters": 11000,
+          "sha256": "5c15502c481a157b079b5ca3714459ce40b571e46946951efa78bd50d572a337"
+        },
+        {
+          "range": [
+            88000,
+            99000
+          ],
+          "characters": 11000,
+          "sha256": "505d1d5e1f2757886f2b1fd127af71d644070f2c7d779c1425696845fc0c8ce6"
+        },
+        {
+          "range": [
+            99000,
+            110000
+          ],
+          "characters": 11000,
+          "sha256": "57c0ba37bfeb840838f6ff7b83453e7fcb1f38bd438f315a9205d021dcb4d145"
+        },
+        {
+          "range": [
+            110000,
+            121000
+          ],
+          "characters": 11000,
+          "sha256": "6ffb05d5ce91db43e83fe350538790ec02943821c497a37b8e252f96b77d2463"
+        },
+        {
+          "range": [
+            121000,
+            132000
+          ],
+          "characters": 11000,
+          "sha256": "dc970f628a39fe9ebd2b85d6649e95aceb649a123f03b7ec1657280cf7557d11"
+        },
+        {
+          "range": [
+            132000,
+            143000
+          ],
+          "characters": 11000,
+          "sha256": "0032009ec974129b504662c682cdaacc67db976cff2a611f6881429a88575fbc"
+        },
+        {
+          "range": [
+            143000,
+            154000
+          ],
+          "characters": 11000,
+          "sha256": "9c40495534d1657efbf72e5e512fd039ee84370eea4d84d7b9b1ae8e3d692752"
+        },
+        {
+          "range": [
+            154000,
+            161665
+          ],
+          "characters": 7665,
+          "sha256": "235e4bf1e1806dda1b2c0d7980a0d5bdc6df6f712186d0788e7b0c9b63aada22"
+        }
+      ],
+      "all_native_text_output_read": true,
+      "all_original_image_content_read": false,
+      "all_original_words_verified": false,
+      "original_publication_complete": null,
+      "selected_visual_pages": [
+        {
+          "file_page": 1,
+          "render_sha256": "012ca67d126595fd65f651c448d88a16125f2ac487a6280b8ae0e508f2b227a6",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 2,
+          "render_sha256": "d952ccaf719e7b763f87ba56c2f02a4bb7fd1cfd9760a1cd878d112119a411c9",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 3,
+          "render_sha256": "f4d2e52ec29f8513a71228e0b3ae99eead956077b12a97d21529b34ce4677bdf",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 10,
+          "render_sha256": "fa0076031ded18d15a298365127f011c6b4f6985631ee06acf4988b418db77bb",
+          "render_matrix": [
+            1.6,
+            1.6
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 26,
+          "render_sha256": "b4c20b6109adf31f59f66ef5410752b2f66bf4209876e29352a5750d422adc96",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 31,
+          "render_sha256": "2429674bfbd76030eae102241db3ccac7d2be0c0707a6484104149f47de9acd8",
+          "render_matrix": [
+            1.6,
+            1.6
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 40,
+          "render_sha256": "3f52b3f2bcf9a1b61694fd927a70aad8d16b28db3c0f6467da2211dfbff8073e",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 41,
+          "render_sha256": "04ca86caba4afb7a3e6b6b0c450779fd0dfcf4aad52839e07cdafceb0acac9a1",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 75,
+          "render_sha256": "2e77cc5bf513eed786ef0470a7b77f824e2d45a00dbb7768630348a8c98d6a33",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 96,
+          "render_sha256": "ee1f274ca7e09fedf51d279a1531dd9b07e03e71771b22e51ef5773d44c83416",
+          "render_matrix": [
+            1.6,
+            1.6
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        },
+        {
+          "file_page": 113,
+          "render_sha256": "14cabbea774d30373ed1e348e5907ba0dfaa5c9500f6df11bfa2fcb69d9e0687",
+          "render_matrix": [
+            1.5,
+            1.5
+          ],
+          "scope": "selected_original_page_check_not_whole_book_word_by_word_verification"
+        }
+      ],
+      "theory_images_read": [
+        {
+          "xref": 243,
+          "file_pages": [
+            10
+          ],
+          "width": 400,
+          "height": 278,
+          "original_encoded_bytes_sha256": "ef878977425ee69c6d20696d7f7b03103daea6b8d7112f984a9c2496ddaedcc8"
+        },
+        {
+          "xref": 319,
+          "file_pages": [
+            31
+          ],
+          "width": 829,
+          "height": 450,
+          "original_encoded_bytes_sha256": "41836f0615e006e4331961b488ae215a204bbcfac47a1ae7cbeac6b38049b78a"
+        },
+        {
+          "xref": 530,
+          "file_pages": [
+            96
+          ],
+          "width": 602,
+          "height": 230,
+          "original_encoded_bytes_sha256": "0a7c7c2630bef73e63c81d9199862586d8b7237b37cde82c57b6060eb05f9dd6"
+        }
+      ],
+      "displayed_image_resource_count": 47,
+      "gaps": {
+        "unread_body_image_pages": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "unread_body_image_xrefs": [
+          253,
+          254,
+          258,
+          277,
+          278,
+          282,
+          283,
+          287,
+          288,
+          292,
+          293,
+          297,
+          323,
+          327,
+          328,
+          332,
+          333,
+          334,
+          338,
+          339,
+          343,
+          431,
+          435,
+          436,
+          440,
+          441,
+          442,
+          558,
+          559,
+          563,
+          564,
+          568,
+          569,
+          573
+        ],
+        "unread_body_image_resource_count": 34,
+        "image_scope": "Non-theory body images remain unread; includes private chat screenshot regions identified from surrounding introductions. No claim that every unread image was individually classified as private.",
+        "known_private_chat_image_pages_from_textual_introductions": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "private_images_not_OCRed": true,
+        "private_images_not_newly_archived": true,
+        "private_chat_transcriptions_and_narratives_not_republished_or_retold": true,
+        "unreviewed_original_page_layouts": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "all_words_individually_verified": false,
+        "source_anomalies": [
+          {
+            "kind": "duplicate_paragraph_in_original_page",
+            "file_page": 26,
+            "printed_page": 25,
+            "visually_verified": true,
+            "scope": "One paragraph visibly repeats twice; original source retained."
+          },
+          {
+            "kind": "irregular_section_numbering_not_proof_of_missing_physical_pages",
+            "TOC_file_pages": [
+              2,
+              3
+            ],
+            "example_heading_file_page": 75,
+            "example_printed_page": 74,
+            "missing_material_extent_unknown": true
+          },
+          {
+            "kind": "promised_expansions_not_supplied_as_full_chapters",
+            "file_pages": [
+              31,
+              62,
+              112,
+              113
+            ],
+            "scope": "P5 details deferred to later sharing, later channel chapters promised, and last section introduces a new distinction. Completeness of original series or publication unverified."
+          }
+        ],
+        "checked_non_gap": {
+          "file_pages": [
+            40,
+            41
+          ],
+          "result": "A sentence continues across the page boundary. Do not record this boundary as a proven missing page or missing text."
+        },
+        "next_gap_review": "No unread native-text character remains. Optional non-private extraction/layout verification begins at physicalpage4; 19 body-image pages remain separate and private regions excluded. Obtain another legitimate version before claiming promised material is present."
+      },
+      "OCR_run_this_round": false,
+      "historical_inventory_extraction_retained": {
+        "characters": 232705,
+        "body_characters": 223155,
+        "same_coordinate_stream_as_current": false
+      },
+      "internal_bibliography": {
+        "filename": "叔叔教你护妹子 - 刘毓卿.pdf",
+        "cover_label": "最新版",
+        "author_name_from_filename": "刘毓卿",
+        "cover_author_handle": "帝都才俊刘叔叔",
+        "cover_compilation_team": "Woi恋爱团队",
+        "publication_date_verified": false,
+        "ISBN_verified": false,
+        "external_verification": false
+      },
+      "source_connector": {
+        "requested_ref": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+        "git_blob_sha": "16f8a97b44b4afa8740434bb0af647ecb2b89918",
+        "encoding": "base64",
+        "returned_content_characters": 0,
+        "fixed_raw_binary_fallback_verified": true
+      },
+      "raw_source_text_newly_archived": false,
+      "raw_source_images_newly_archived": false,
+      "private_case_summaries_saved": 0
+    }
+  ],
+  "actual_direct_read_chunks": 15,
+  "new_direct_native_characters_read": 161665,
+  "new_direct_native_body_characters_read": 156914,
+  "new_OCR_pages": 0,
+  "failed_extraction_characters_credited": 0,
+  "new_native_text_output_complete_file_ids": [
+    "B045"
+  ],
+  "new_book_file_ids_completed": [],
+  "new_whole_book_files_completed": 0,
+  "selected_original_pages_viewed": 11,
+  "theory_images_read": 3,
+  "new_original_review_groups": 14,
+  "new_book_entry_files": 1,
+  "new_method_source_bindings": 41,
+  "method_bindings": [
+    {
+      "method": "M01",
+      "path": "knowledge/books/B045-source-and-evidence.md",
+      "locator": "当前PDF物理页1–3、9–16、30–31、96及112–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B045-source-and-evidence.md",
+      "locator": "当前PDF物理页1–3、9–16、30–31、96及112–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B045-interest-and-meaning.md",
+      "locator": "当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M18",
+      "path": "knowledge/books/B045-interest-and-meaning.md",
+      "locator": "当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B045-interest-and-meaning.md",
+      "locator": "当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B045-consent-and-boundaries.md",
+      "locator": "当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B045-consent-and-boundaries.md",
+      "locator": "当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B045-consent-and-boundaries.md",
+      "locator": "当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B045-values-and-status.md",
+      "locator": "当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B045-values-and-status.md",
+      "locator": "当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B045-values-and-status.md",
+      "locator": "当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B045-relationship-expectations.md",
+      "locator": "当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B045-relationship-expectations.md",
+      "locator": "当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B045-relationship-expectations.md",
+      "locator": "当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B045-confession-and-investment.md",
+      "locator": "当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B045-confession-and-investment.md",
+      "locator": "当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B045-confession-and-investment.md",
+      "locator": "当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B045-humor-and-repair.md",
+      "locator": "当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B045-humor-and-repair.md",
+      "locator": "当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M21",
+      "path": "knowledge/books/B045-humor-and-repair.md",
+      "locator": "当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B045-humor-and-repair.md",
+      "locator": "当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M03",
+      "path": "knowledge/books/B045-natural-expression.md",
+      "locator": "当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B045-natural-expression.md",
+      "locator": "当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M26",
+      "path": "knowledge/books/B045-natural-expression.md",
+      "locator": "当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M09",
+      "path": "knowledge/books/B045-confidence-and-height.md",
+      "locator": "当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B045-confidence-and-height.md",
+      "locator": "当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B045-confidence-and-height.md",
+      "locator": "当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M25",
+      "path": "knowledge/books/B045-practice-and-opportunities.md",
+      "locator": "当前PDF物理页45–47、61–69及79–83；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M19",
+      "path": "knowledge/books/B045-practice-and-opportunities.md",
+      "locator": "当前PDF物理页45–47、61–69及79–83；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B045-care-and-help.md",
+      "locator": "当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M13",
+      "path": "knowledge/books/B045-care-and-help.md",
+      "locator": "当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M22",
+      "path": "knowledge/books/B045-care-and-help.md",
+      "locator": "当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M01",
+      "path": "knowledge/books/B045-classification-and-preferences.md",
+      "locator": "当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M08",
+      "path": "knowledge/books/B045-classification-and-preferences.md",
+      "locator": "当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B045-classification-and-preferences.md",
+      "locator": "当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
+      "locator": "当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M20",
+      "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
+      "locator": "当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M23",
+      "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
+      "locator": "当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M05",
+      "path": "knowledge/books/B045-life-and-routine.md",
+      "locator": "当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/books/B045-life-and-routine.md",
+      "locator": "当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。"
+    },
+    {
+      "method": "M24",
+      "path": "knowledge/books/B045-life-and-routine.md",
+      "locator": "当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。"
+    }
+  ],
+  "reading_attribution": "Single reader directly read15returned untruncated ranges covering the readable113page Poppler text stream and viewed11selected page renders including three theory images. Failed PyMuPDF diagnostic is not credited. No subagent reading or OCR run.",
+  "case_summaries_saved": 0,
+  "raw_source_text_newly_archived": false,
+  "raw_source_images_newly_archived": false,
+  "counts": {
+    "book_files": 119,
+    "current_file_text_complete": 40,
+    "current_file_text_partial": 7,
+    "not_started": 72
+  },
+  "next_work_unit": {
+    "id": "B048",
+    "path": "坏男人：女人无法抵御的诱惑、历经与冒险 - 英格.epub",
+    "git_blob_sha": "d604343820be705da90774526948a9f3f08aad25",
+    "bytes": 200658,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "unread",
+    "file_pages": null,
+    "spine_items": 11,
+    "next_spine_index": 1,
+    "next_file_page": null,
+    "next_character": 0,
+    "start": "B048 EPUB not started. Historical inventory lists11spine items; reverify binary and actual OPF order before reading.",
+    "next_content_unit": "B048 first OPF reading-order item (1-based), character0.",
+    "current_extraction_identity": null,
+    "ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
+    "substantive_body_characters_read": 0
+  },
+  "deferred_work_units": [
+    {
+      "id": "B014",
+      "path": "Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf",
+      "git_blob_sha": "4f8cd8cea0d7b0505bd5a154929614dc7816fa76",
+      "bytes": 13323230,
+      "file_pages": 1002,
+      "reading_status": "provided_file_text_partial",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "start": "physicalpage854start;Bibliography;remaining_backmatter_ranges_listed_separately",
+      "next_file_page": 854,
+      "next_character": 1668537,
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), with physical file-page markers",
+        "characters": 1991387,
+        "sha256": "f3d5105a81256cc2f945ec23eeec9ec9e4deb39990329b485d51d15453b4422a",
+        "coordinates": "Unicode code points; half-open intervals; physical file-page markers included"
+      },
+      "pdf_sha256": "5a3d48f468bd87019a89bb74be8c0b77868557cb99c3ed5df5e28c57099df76f",
+      "ledger": "knowledge/provenance/B015_B016_reading_2026-11-11.json",
+      "next_content_unit": "Bibliography continuation; other unread ranges 946–958 and 964–998",
+      "unread_file_page_ranges": [
+        [
+          854,
+          943
+        ],
+        [
+          946,
+          958
+        ],
+        [
+          964,
+          998
+        ]
+      ],
+      "unread_file_page_count": 138,
+      "note": "Main text complete; partial back matter and page1001 image layer remain. This is a retained gap, not a completed file."
+    },
+    {
+      "id": "B036",
+      "path": "人妻约会指南.pdf",
+      "git_blob_sha": "5f733df0ca12c0773fb24125574ab2c319c2ae40",
+      "bytes": 2994034,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, physical file-page markers",
+        "characters": 72537,
+        "sha256": "2d0d57602a4832dd06a3c99d4bce548d388c8e5f4383cdb12f856984e9d43d94",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Only the retained private or unverified source-image gap; native text fully read",
+      "next_file_page": null,
+      "image_pages_excluded": [
+        3,
+        8,
+        9,
+        10,
+        35,
+        40,
+        69,
+        70,
+        77,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "id": "B038",
+      "path": "冷眼观爱 - 冷爱.epub",
+      "git_blob_sha": "a9b64ea0065d49bb4f9d4e609bec608ffe909c96",
+      "bytes": 3825636,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "ledger": "knowledge/provenance/B036_B038_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "EPUB OPF spine order, lxml XML body itertext stripped nonempty nodes joined by newline, script/style removed; UTF-8 LF; physical spine markers",
+        "characters": 137300,
+        "body_characters": 136355,
+        "sha256": "40802267e309b28a0b8153307309b5e7fc096409fcfe9038dfbf345953330e1e",
+        "coordinates": "Unicode code points; half-open offsets; spine markers included",
+        "historical_count": 400288,
+        "historical_count_not_used_for_current_offsets": true
+      },
+      "next_character": null,
+      "all_extractable_native_text_read": true,
+      "private_case_summaries_saved": 0,
+      "start": "Native text fully read.77 image assets still unread; no re-start at spine1",
+      "next_spine_index": null,
+      "unread_image_asset_paths": [
+        "OEBPS/Images/image00113.jpeg",
+        "OEBPS/Images/image00114.jpeg",
+        "OEBPS/Images/image00115.jpeg",
+        "OEBPS/Images/image00116.jpeg",
+        "OEBPS/Images/image00117.jpeg",
+        "OEBPS/Images/image00118.jpeg",
+        "OEBPS/Images/image00119.jpeg",
+        "OEBPS/Images/image00120.jpeg",
+        "OEBPS/Images/image00121.jpeg",
+        "OEBPS/Images/image00122.jpeg",
+        "OEBPS/Images/image00123.jpeg",
+        "OEBPS/Images/image00124.jpeg",
+        "OEBPS/Images/image00125.jpeg",
+        "OEBPS/Images/image00126.jpeg",
+        "OEBPS/Images/image00127.jpeg",
+        "OEBPS/Images/image00128.jpeg",
+        "OEBPS/Images/image00129.jpeg",
+        "OEBPS/Images/image00130.jpeg",
+        "OEBPS/Images/image00131.jpeg",
+        "OEBPS/Images/image00132.jpeg",
+        "OEBPS/Images/image00133.jpeg",
+        "OEBPS/Images/image00134.jpeg",
+        "OEBPS/Images/image00135.jpeg",
+        "OEBPS/Images/image00136.jpeg",
+        "OEBPS/Images/image00137.jpeg",
+        "OEBPS/Images/image00138.jpeg",
+        "OEBPS/Images/image00139.jpeg",
+        "OEBPS/Images/image00140.jpeg",
+        "OEBPS/Images/image00141.jpeg",
+        "OEBPS/Images/image00142.jpeg",
+        "OEBPS/Images/image00143.jpeg",
+        "OEBPS/Images/image00144.jpeg",
+        "OEBPS/Images/image00145.jpeg",
+        "OEBPS/Images/image00146.jpeg",
+        "OEBPS/Images/image00147.jpeg",
+        "OEBPS/Images/image00148.jpeg",
+        "OEBPS/Images/image00149.jpeg",
+        "OEBPS/Images/image00150.jpeg",
+        "OEBPS/Images/image00151.jpeg",
+        "OEBPS/Images/image00152.jpeg",
+        "OEBPS/Images/image00153.jpeg",
+        "OEBPS/Images/image00154.jpeg",
+        "OEBPS/Images/image00155.jpeg",
+        "OEBPS/Images/image00156.jpeg",
+        "OEBPS/Images/image00157.jpeg",
+        "OEBPS/Images/image00158.jpeg",
+        "OEBPS/Images/image00159.jpeg",
+        "OEBPS/Images/image00160.jpeg",
+        "OEBPS/Images/image00161.jpeg",
+        "OEBPS/Images/image00162.jpeg",
+        "OEBPS/Images/image00165.jpeg",
+        "OEBPS/Images/image00166.jpeg",
+        "OEBPS/Images/image00167.jpeg",
+        "OEBPS/Images/image00168.jpeg",
+        "OEBPS/Images/image00169.jpeg",
+        "OEBPS/Images/image00170.jpeg",
+        "OEBPS/Images/image00171.jpeg",
+        "OEBPS/Images/image00172.jpeg",
+        "OEBPS/Images/image00173.jpeg",
+        "OEBPS/Images/image00174.jpeg",
+        "OEBPS/Images/image00175.jpeg",
+        "OEBPS/Images/image00176.jpeg",
+        "OEBPS/Images/image00177.jpeg",
+        "OEBPS/Images/image00178.jpeg",
+        "OEBPS/Images/image00179.jpeg",
+        "OEBPS/Images/image00180.jpeg",
+        "OEBPS/Images/image00181.jpeg",
+        "OEBPS/Images/image00182.jpeg",
+        "OEBPS/Images/image00183.jpeg",
+        "OEBPS/Images/image00184.jpeg",
+        "OEBPS/Images/image00185.jpeg",
+        "OEBPS/Images/image00186.jpeg",
+        "OEBPS/Images/image00187.jpeg",
+        "OEBPS/Images/image00188.jpeg",
+        "OEBPS/Images/image00189.jpeg",
+        "OEBPS/Images/image00190.jpeg",
+        "OEBPS/Images/image00191.jpeg"
+      ]
+    },
+    {
+      "id": "B039",
+      "path": "冷眼观爱2 - 冷爱.pdf",
+      "git_blob_sha": "63781ea471ab2c43c976686c455ae4102376d991",
+      "bytes": 7795361,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all380_OCR_outputs_read_41_original_pages_checked_with_OCR_image_and_missing_tool_gaps",
+      "ledger": "knowledge/provenance/B039_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "id": "B039",
+        "engine": "Tesseract tesseract 5.5.0",
+        "languages": "chi_sim+eng",
+        "psm": 3,
+        "render_matrix": [
+          3,
+          3
+        ],
+        "line_ending": "LF",
+        "characters": 200223,
+        "body_characters": 183991,
+        "text_sha256": "01a8ca0e44fb4b7572eede306ee39d9dad5c804dd370597e51a44588e9781fcb",
+        "processed_pages": 380,
+        "short_output_pages": [
+          1,
+          12,
+          13,
+          83,
+          130,
+          131,
+          217,
+          218,
+          219,
+          288,
+          289,
+          348,
+          349
+        ],
+        "models": [
+          {
+            "language": "chi_sim",
+            "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/chi_sim.traineddata",
+            "bytes": 2469156,
+            "sha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730"
+          }
+        ],
+        "eng_model_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+        "kind": "full_page_scanned_PDF_OCR",
+        "quality": "uncorrected_OCR_with_garbled_and_missing_strings_not_a_verified_transcription",
+        "cache_persisted_in_repository": false,
+        "raw_OCR_text_newly_archived": false
+      },
+      "all_ocr_output_read": true,
+      "next_character": null,
+      "next_file_page": null,
+      "next_gap_review_file_page": 15,
+      "start": "Quality review starts at physicalpage15, the earliest non-visual page after checked front matter; other selected pages are listed. Page217 is the remaining short-output page without visual review. Private illustration regions remain excluded; missing tool requires another legitimate source.",
+      "gaps": {
+        "unreviewed_original_page_layouts": [
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          63,
+          66,
+          67,
+          68,
+          69,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          200,
+          201,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "OCR_quality_unresolved": true,
+        "garbled_fragment_count": null,
+        "no_claim_all_words_restored": true,
+        "short_OCR_pages_without_visual_review": [
+          217
+        ],
+        "known_private_illustration_regions_unreviewed_not_exhaustive": [
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          149,
+          150
+        ],
+        "all_picture_regions_reviewed": false,
+        "source_anomalies": [
+          {
+            "kind": "upside_down_scan",
+            "file_page": 318,
+            "printed_page": 307,
+            "reading_rotation_degrees": 180,
+            "visually_read_after_rotation": true,
+            "original_blob_changed": false
+          },
+          {
+            "kind": "out_of_printed_page_order",
+            "file_pages": [
+              362,
+              363
+            ],
+            "printed_pages": [
+              352,
+              351
+            ],
+            "both_visually_read": true,
+            "original_blob_changed": false
+          },
+          {
+            "kind": "TOC_item_not_supplied",
+            "TOC_file_page": 11,
+            "TOC_printed_page": 370,
+            "item": "自我提升日记",
+            "last_supplied_file_page": 380,
+            "last_supplied_printed_page": 369,
+            "original_edition_complete": false
+          }
+        ],
+        "next_gap_review": "Quality review starts at physicalpage15, the earliest non-visual page after checked front matter; other selected pages are listed. Page217 is the remaining short-output page without visual review. Private illustration regions remain excluded; missing tool requires another legitimate source."
+      }
+    },
+    {
+      "id": "B045",
+      "path": "叔叔教你护妹子 - 刘毓卿.pdf",
+      "git_blob_sha": "16f8a97b44b4afa8740434bb0af647ecb2b89918",
+      "bytes": 4031069,
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "reading_status": "provided_file_text_partial",
+      "coverage_mode": "all113_native_text_outputs_read_three_theory_images_and11_pages_checked_19_body_image_pages_unread",
+      "ledger": "knowledge/provenance/B045_reading_2026-11-12.json",
+      "current_extraction_identity": {
+        "method": "Poppler pdftotext -layout -enc UTF-8; split form feeds into113physicalpages; LF; explicit page markers",
+        "engine": "pdftotext version 25.03.0",
+        "characters": 161665,
+        "body_characters": 156914,
+        "sha256": "c00c7d56dffc93fbb3329d0c656699390b531926e3eefeb8b64d0c57dad43bb0",
+        "coordinates": "Unicode codepoints; half-open; page markers included",
+        "native_not_OCR": true,
+        "raw_text_newly_archived": false,
+        "cache_persisted_in_repository": false,
+        "body_characters_include_whitespace_headers_and_advertising": true,
+        "character_count_not_unique_ideas_or_verified_transcription": true,
+        "page_marker_template": "\n\n===== B045 PDF FILE PAGE {n} / 113 =====\n"
+      },
+      "all_native_text_output_read": true,
+      "next_character": null,
+      "next_file_page": null,
+      "next_gap_review_file_page": 4,
+      "start": "No unread native-text character remains. Optional non-private extraction/layout verification begins at physicalpage4; 19 body-image pages remain separate and private regions excluded. Obtain another legitimate version before claiming promised material is present.",
+      "gaps": {
+        "unread_body_image_pages": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "unread_body_image_xrefs": [
+          253,
+          254,
+          258,
+          277,
+          278,
+          282,
+          283,
+          287,
+          288,
+          292,
+          293,
+          297,
+          323,
+          327,
+          328,
+          332,
+          333,
+          334,
+          338,
+          339,
+          343,
+          431,
+          435,
+          436,
+          440,
+          441,
+          442,
+          558,
+          559,
+          563,
+          564,
+          568,
+          569,
+          573
+        ],
+        "unread_body_image_resource_count": 34,
+        "image_scope": "Non-theory body images remain unread; includes private chat screenshot regions identified from surrounding introductions. No claim that every unread image was individually classified as private.",
+        "known_private_chat_image_pages_from_textual_introductions": [
+          13,
+          14,
+          20,
+          21,
+          22,
+          23,
+          24,
+          32,
+          33,
+          34,
+          35,
+          36,
+          65,
+          66,
+          67,
+          105,
+          106,
+          107,
+          108
+        ],
+        "private_images_not_OCRed": true,
+        "private_images_not_newly_archived": true,
+        "private_chat_transcriptions_and_narratives_not_republished_or_retold": true,
+        "unreviewed_original_page_layouts": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "all_words_individually_verified": false,
+        "source_anomalies": [
+          {
+            "kind": "duplicate_paragraph_in_original_page",
+            "file_page": 26,
+            "printed_page": 25,
+            "visually_verified": true,
+            "scope": "One paragraph visibly repeats twice; original source retained."
+          },
+          {
+            "kind": "irregular_section_numbering_not_proof_of_missing_physical_pages",
+            "TOC_file_pages": [
+              2,
+              3
+            ],
+            "example_heading_file_page": 75,
+            "example_printed_page": 74,
+            "missing_material_extent_unknown": true
+          },
+          {
+            "kind": "promised_expansions_not_supplied_as_full_chapters",
+            "file_pages": [
+              31,
+              62,
+              112,
+              113
+            ],
+            "scope": "P5 details deferred to later sharing, later channel chapters promised, and last section introduces a new distinction. Completeness of original series or publication unverified."
+          }
+        ],
+        "checked_non_gap": {
+          "file_pages": [
+            40,
+            41
+          ],
+          "result": "A sentence continues across the page boundary. Do not record this boundary as a proven missing page or missing text."
+        },
+        "next_gap_review": "No unread native-text character remains. Optional non-private extraction/layout verification begins at physicalpage4; 19 body-image pages remain separate and private regions excluded. Obtain another legitimate version before claiming promised material is present."
+      }
+    }
+  ],
+  "scope": "Original argument review only; image exclusions, native extraction coverage and unverified original-series scope are distinct. No newly verified empirical efficacy,professional advice or external bibliography claimed."
+}

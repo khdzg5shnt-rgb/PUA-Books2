@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline": "8b20565d40dce32feb47db2194202d6a16a1af7e",
+  "status": "passed",
+  "structural": true,
+  "unittest_methods": 48,
+  "synthetic_routing_scenarios": 158,
+  "new_tests": 0,
+  "source_identity_verified": true,
+  "byte_and_blob_verified": true,
+  "native_page_hashes_checked": 113,
+  "contiguous_read_chunks_checked": 15,
+  "marked_native_characters_checked": 161665,
+  "native_body_characters_checked": 156914,
+  "failed_extraction_characters_credited": 0,
+  "OCR_run": false,
+  "selected_visual_pages_checked": 11,
+  "theory_images_checked": 3,
+  "original_page_layouts_not_individually_reviewed": 102,
+  "unread_body_image_pages": 19,
+  "unread_body_image_resources": 34,
+  "unread_images_not_all_individually_classified": true,
+  "retained_partial_status": true,
+  "new_whole_files_completed": 0,
+  "unchanged_other_source_records": 157,
+  "unchanged_other_inventory_records": 125,
+  "new_original_review_groups": 14,
+  "new_method_source_bindings": 41,
+  "targeted_retrievals": [
+    {
+      "method": "M01",
+      "query": "PyMuPDF提取大量乱码",
+      "path": "knowledge/books/B045-source-and-evidence.md",
+      "heading": "先固定文件，再解释论点"
+    },
+    {
+      "method": "M18",
+      "query": "没有展示的过去不当成从未主动",
+      "path": "knowledge/books/B045-interest-and-meaning.md",
+      "heading": "行为能说明的范围"
+    },
+    {
+      "method": "M14",
+      "query": "只要步骤齐全",
+      "path": "knowledge/books/B045-confession-and-investment.md",
+      "heading": "表白形式不能制造双方共识"
+    },
+    {
+      "method": "M21",
+      "query": "给出的概率没有统计基础",
+      "path": "knowledge/books/B045-humor-and-repair.md",
+      "heading": "道歉不等于失去立场"
+    },
+    {
+      "method": "M10",
+      "query": "身高不同会有特定数量",
+      "path": "knowledge/books/B045-confidence-and-height.md",
+      "heading": "不从一个条件推出整个人"
+    },
+    {
+      "method": "M13",
+      "query": "也不因善意没有换来喜欢",
+      "path": "knowledge/books/B045-care-and-help.md",
+      "heading": "关心要回应真实需要"
+    },
+    {
+      "method": "M23",
+      "query": "先定为装纯",
+      "path": "knowledge/books/B045-no-shaming-or-unmasking.md",
+      "heading": "不预设每个人都在装"
+    },
+    {
+      "method": "M25",
+      "query": "不设群发配额",
+      "path": "knowledge/books/B045-practice-and-opportunities.md",
+      "heading": "实践不等于重复纠缠"
+    }
+  ],
+  "internal_links_checked": 319,
+  "new_files": 18,
+  "modified_files": 11,
+  "original_source_blobs_not_modified": true,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_case_summaries_saved": 0,
+  "preferred_sections_preserved": 26,
+  "method_operations_preserved": 26,
+  "routes_preserved": 36,
+  "tasks_preserved": 5,
+  "reading_counts": {
+    "complete": 40,
+    "partial": 7,
+    "unread": 72
+  },
+  "next": "B048 first OPF spine item, character0; identity and order to verify",
+  "limits": "Metadata,source identity,coverage,links,retrieval and synthetic fact routing only. Not independent proof of actual reading,real screenshot recognition,psychological validity or dating efficacy."
+}
