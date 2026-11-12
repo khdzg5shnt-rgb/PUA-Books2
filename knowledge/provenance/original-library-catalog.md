@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成65/119份任务，无部分阅读文件、54份未开始。63份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B065《把妹达人圣经》、B066《把妹那些事》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B067，保存断点时正文未打开。[本轮记录](B065_B066_progress_2026-11-13.md)。
+当前完成67/119份任务，无部分阅读文件、52份未开始。65份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B067《指男针》、B068《搭讪圣经》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B069，保存断点时正文未打开。[本轮记录](B067_B068_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -79,8 +79,8 @@
 | B064 | [打破和谐感的81种方法 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%89%93%E7%A0%B4%E5%92%8C%E8%B0%90%E6%84%9F%E7%9A%8481%E7%A7%8D%E6%96%B9%E6%B3%95%20-%20Adam%20Lyons.pdf) | 24 | 当前24页中英对照和七类清单已读看，按英文独立项目段落计80；两处影响动作的错译已标 | [14组笔记](../books/B064.md) |
 | B065 | [把妹达人圣经 - 尼尔.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8A%8A%E5%A6%B9%E8%BE%BE%E4%BA%BA%E5%9C%A3%E7%BB%8F%20-%20%E5%B0%BC%E5%B0%94.epub) | 9 | 当前EPUB序言、六章30天正文、补充简报与致谢已读完，末项为空；外部音视频未提供 | [22组笔记](../books/B065.md) |
 | B066 | [把妹那些事 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8A%8A%E5%A6%B9%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20Jacob.pdf) | 134 | 当前PDF物理页1—134全部原生正文已读，全部原页版面与唯一封面图已核；非逐字校勘 | [25组笔记](../books/B066.md) |
-| B067 | [指男针 - 老岸.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8C%87%E7%94%B7%E9%92%88%20-%20%E8%80%81%E5%B2%B8.pdf) | 27 | 已提取/未读 | — |
-| B068 | [搭讪圣经 - 郑匡宇.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%90%AD%E8%AE%AA%E5%9C%A3%E7%BB%8F%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.epub) | 9 | 已提取/未读 | — |
+| B067 | [指男针 - 老岸.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8C%87%E7%94%B7%E9%92%88%20-%20%E8%80%81%E5%B2%B8.pdf) | 27 | 当前27页选段全部文字与原页版面已读；36章目录不等于全书，P18原书插图/文本圈未提供 | [18组笔记](../books/B067.md) |
+| B068 | [搭讪圣经 - 郑匡宇.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%90%AD%E8%AE%AA%E5%9C%A3%E7%BB%8F%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.epub) | 9 | 当前EPUB前置文字、四章、结语和末尾留言全部已读；无嵌入照片，4处原生英文断字保留 | [25组笔记](../books/B068.md) |
 | B069 | [晚熟青年杂译集.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4%E6%9D%82%E8%AF%91%E9%9B%86.pdf) | 286 | 已提取/未读 | — |
 | B070 | [杂耍人文集及语录 - 杂耍人.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%87%E9%9B%86%E5%8F%8A%E8%AF%AD%E5%BD%95%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.epub) | 39 | 已提取/未读 | — |
 | B071 | [杂耍人方法 - 杂耍人.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%B9%E6%B3%95%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf) | 79 | 已提取/未读 | — |

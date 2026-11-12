@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline": "2afceafa959e707b85af777ca2b3147986526299",
+  "structural_validation": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 67,
+    "book_not_started": 52
+  },
+  "unittest_methods": 72,
+  "synthetic_route_fixtures": 158,
+  "source_byte_identities_and_native_unit_hashes": true,
+  "serial_checkpoint_preserved": true,
+  "other_source_records_preserved": true,
+  "new_exact_method_section_bindings": 124,
+  "method_operations_avoids_routes_task_contracts_preferred_sections_and_runtime_protocols_unchanged": true,
+  "focused_source_retrieval_checks": [
+    {
+      "method": "M25",
+      "query": "三秒",
+      "matched_path": "knowledge/books/B067.md",
+      "matched_heading": "行动练习不设三秒倒计时",
+      "line": 11,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M23",
+      "query": "联系方式",
+      "matched_path": "knowledge/books/B067.md",
+      "matched_heading": "联系方式需要对方真的愿意给",
+      "line": 31,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M17",
+      "query": "没空",
+      "matched_path": "knowledge/books/B068.md",
+      "matched_heading": "没空无替代安排就先收住",
+      "line": 84,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M22",
+      "query": "爽约",
+      "matched_path": "knowledge/books/B068.md",
+      "matched_heading": "取消和爽约先核事实再定边界",
+      "line": 88,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M02",
+      "query": "七十二小时",
+      "matched_path": "knowledge/books/B068.md",
+      "matched_heading": "联络不用三十六到七十二小时计时",
+      "line": 64,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M23",
+      "query": "五次触碰",
+      "matched_path": "knowledge/books/B068.md",
+      "matched_heading": "亲密不设五次触碰配额",
+      "line": 96,
+      "match_kind": "cited_source_section"
+    }
+  ],
+  "initial_focused_query_gap_fixed": null,
+  "new_whole_provided_files_read": [
+    "B067",
+    "B068"
+  ],
+  "new_native_characters_read": 107315,
+  "new_unique_original_visual_pages": 27,
+  "new_EPUB_spine_items_read": 9,
+  "original_note_groups": 43,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_records_newly_archived": false,
+  "source_excerpt_and_missing_original_illustrations_disclosed": true,
+  "B068_four_literal_source_defects_preserved_not_parser_created": true,
+  "scope": "Consistency and synthetic routing checks do not prove reading, psychological mechanisms, screenshot comprehension or real-life results."
+}

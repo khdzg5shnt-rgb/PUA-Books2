@@ -13637,8 +13637,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%8C%87%E7%94%B7%E9%92%88%20-%20%E8%80%81%E5%B2%B8.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B067.md",
       "pages": 27,
       "spine_items": null,
       "ocr": {
@@ -13646,7 +13646,60 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B067_reading_2026-11-13.json",
+      "coverage_mode": "all27_current_PDF_excerpt_pages_read_all_original_layouts_reviewed",
+      "completion_kind": "actual_supplied_PDF_excerpt_collection_native_read_all27_layouts_reviewed",
+      "source_sha256": "adaf77a4f4c26b541b98f6ad7dfda4efafe8c6a86a7cc7302f3e89907016576a",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B067_reading_2026-11-13.json",
+        "source_sha256": "adaf77a4f4c26b541b98f6ad7dfda4efafe8c6a86a7cc7302f3e89907016576a",
+        "download_ref": "2afceafa959e707b85af777ca2b3147986526299",
+        "current_extraction": {
+          "engine": "PyMuPDF page.get_text(); physical page order",
+          "method": "native text retained per page including supplied text residue; no OCR",
+          "body_characters": 27087,
+          "characters": 27510,
+          "sha256": "3cb1f1bf7e77e08b6ef14fb2dd2f6795d52543b88ac4378229ec3c5ae1c11ee2",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": "not applicable; no images supplied",
+        "all_original_page_layouts_reviewed": true,
+        "original_publication_complete": false,
+        "new_native_characters_read": 27087,
+        "new_OCR_characters_read": 0,
+        "source_scope": {
+          "current_file_pages": 27,
+          "all_file_pages_read_in_order": true,
+          "all_extractable_native_text_read": true,
+          "all_current_provided_content_read": true,
+          "native_output_unrecovered_truncations": [],
+          "current_page_views_reviewed": 27,
+          "visual_review_mode": "all27 rendered layouts in3 contact sheets; not individual glyph proofreading",
+          "embedded_raster_images": [],
+          "replacement_characters": 0,
+          "supplied_file_is_excerpt_collection": true,
+          "table_of_contents_chapters": 36,
+          "listed_but_unprovided_chapters_counted_as_read": false,
+          "page18_external_original_illustrations_and_text_boxes_supplied": false,
+          "ending_kind": "eye_contact_tips_on_file_page27",
+          "original_publication_complete_verified": false,
+          "author_claims_promoted_to_empirical_evidence": false,
+          "unprovided_material_counted_as_read": false,
+          "unprovided_material_blocks_next_book": false,
+          "known_unread_current_provided_content": []
+        },
+        "notes": "knowledge/books/B067.md",
+        "raw_native_text_newly_archived": false,
+        "next_file_page": null
+      }
     },
     {
       "index": 68,
@@ -13661,8 +13714,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%90%AD%E8%AE%AA%E5%9C%A3%E7%BB%8F%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B068.md",
       "pages": null,
       "spine_items": 9,
       "ocr": {
@@ -13670,7 +13723,96 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B068_reading_2026-11-13.json",
+      "coverage_mode": "all9_current_EPUB_spine_items_read_including_empty_tail_literal_four_source_defects_disclosed",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_with_literal_source_defects_disclosed",
+      "source_sha256": "f0d6e30a67da5b2eddfba288e5b597574cb3e50604e18af8f1555b0d9cfd84af",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B068_reading_2026-11-13.json",
+        "source_sha256": "f0d6e30a67da5b2eddfba288e5b597574cb3e50604e18af8f1555b0d9cfd84af",
+        "download_ref": "2afceafa959e707b85af777ca2b3147986526299",
+        "current_extraction": {
+          "engine": "lxml HTML parsing; OPF spine order",
+          "method": "body.itertext(); strip nonempty text nodes; LF between nodes plus trailing LF per unit",
+          "body_characters": 80228,
+          "characters": 80588,
+          "sha256": "649b90a69e9f09f58f9e5e8b94c4c7a2c55b0ac30a5eeaae1a877d963e45f6e6",
+          "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+          "native_not_OCR": true,
+          "initial_screening_count_preserved_separately": true
+        },
+        "all_extractable_native_text_read": true,
+        "all_current_file_content_read": true,
+        "all_current_provided_content_read": true,
+        "all_original_words_individually_proofread": false,
+        "all_body_images_reviewed": "not applicable; no embedded images supplied",
+        "original_publication_complete": false,
+        "new_native_characters_read": 80228,
+        "new_OCR_characters_read": 0,
+        "source_scope": {
+          "current_spine_items": 9,
+          "substantive_spine_items": 8,
+          "empty_trailing_item": 9,
+          "empty_item_raw_XHTML_body_verified": true,
+          "body_chapters": 4,
+          "ending_kind": "conclusion_and_four_reader_comments_then_verified_empty_tail",
+          "NCX_substantive_items": 8,
+          "all_NCX_targets_in_spine": true,
+          "embedded_images_audio_video_or_scripts": [],
+          "actual_HTML_tables": 0,
+          "unspined_body_documents": [],
+          "mentioned_photographs_provided": false,
+          "known_original_source_text_defects": [
+            {
+              "spine_item": 7,
+              "character": 36709,
+              "codepoint": "U+FFFD",
+              "present_literally_in_original_UTF8": true,
+              "adjacent_Chinese_translation_provided_and_read": true,
+              "original_glyph_reconstructed": false
+            },
+            {
+              "spine_item": 7,
+              "character": 36802,
+              "codepoint": "U+FFFD",
+              "present_literally_in_original_UTF8": true,
+              "adjacent_Chinese_translation_provided_and_read": true,
+              "original_glyph_reconstructed": false
+            },
+            {
+              "spine_item": 7,
+              "character": 37082,
+              "codepoint": "U+FFFD",
+              "present_literally_in_original_UTF8": true,
+              "adjacent_Chinese_translation_provided_and_read": true,
+              "original_glyph_reconstructed": false
+            },
+            {
+              "spine_item": 7,
+              "character": 37817,
+              "codepoint": "U+FFFD",
+              "present_literally_in_original_UTF8": true,
+              "adjacent_Chinese_translation_provided_and_read": true,
+              "original_glyph_reconstructed": false
+            }
+          ],
+          "literal_defects_not_parser_created": true,
+          "all_supplied_defective_segments_read_with_supplied_translations": true,
+          "original_glyphs_or_publication_completeness_not_asserted": true,
+          "source_edition_complete_verified": false,
+          "author_claims_promoted_to_empirical_evidence": false,
+          "author_self_reports_and_designed_examples_kept_distinct": true,
+          "unprovided_material_counted_as_read": false,
+          "unprovided_material_blocks_next_book": false,
+          "known_unread_current_provided_content": [],
+          "native_output_unrecovered_truncations": []
+        },
+        "notes": "knowledge/books/B068.md",
+        "raw_native_text_newly_archived": false,
+        "next_spine_item": null
+      }
     },
     {
       "index": 69,
@@ -15173,5 +15315,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B065_B066 supplied files read sequentially; 256259 native characters, 47 original note groups and 134 exact method-section bindings. 65/119 = 63 actually read supplied files plus B017/B039 scope closures; 54 unread. Next B067; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B067_B068 supplied files read sequentially; 107315 native characters, 43 original note groups and 124 exact method-section bindings. 67/119 = 65 actually read supplied files plus B017/B039 scope closures; 52 unread. Next B069; body unopened at this checkpoint."
 }

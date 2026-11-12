@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline": "2afceafa959e707b85af777ca2b3147986526299",
+  "structural_validation": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 67,
+    "book_not_started": 52
+  },
+  "unittest_methods": 72,
+  "synthetic_route_fixtures": 158,
+  "source_byte_identities_and_native_unit_hashes": true,
+  "serial_checkpoint_preserved": true,
+  "other_source_records_preserved": true,
+  "new_exact_method_section_bindings": 53,
+  "method_operations_avoids_routes_task_contracts_preferred_sections_and_runtime_protocols_unchanged": true,
+  "focused_source_retrieval_checks": [
+    {
+      "method": "M25",
+      "query": "三秒",
+      "matched_path": "knowledge/books/B067.md",
+      "matched_heading": "行动练习不设三秒倒计时",
+      "line": 11,
+      "match_kind": "cited_source_section"
+    },
+    {
+      "method": "M23",
+      "query": "联系方式",
+      "matched_path": "knowledge/books/B067.md",
+      "matched_heading": "联系方式需要对方真的愿意给",
+      "line": 31,
+      "match_kind": "cited_source_section"
+    }
+  ],
+  "initial_focused_query_gap_fixed": null,
+  "new_whole_provided_files_read": [
+    "B067"
+  ],
+  "new_native_characters_read": 27087,
+  "new_unique_original_visual_pages": 27,
+  "new_EPUB_spine_items_read": 0,
+  "original_note_groups": 18,
+  "raw_source_text_or_images_newly_archived": false,
+  "private_records_newly_archived": false,
+  "source_excerpt_and_missing_original_illustrations_disclosed": true,
+  "scope": "Consistency and synthetic routing checks do not prove reading, psychological mechanisms, screenshot comprehension or real-life results.",
+  "checkpoint_completed_count": 66,
+  "final_combined_completed_count": 67,
+  "validation_note": "B067 coverage and intermediate66/119 checkpoint were saved before opening B068; structural and unit-test checks ran on the final combined67/119 state, not a claimed intermediate rerun."
+}

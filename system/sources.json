@@ -766,18 +766,24 @@
       "group": "books2_original_snapshot",
       "title": "指男针 - 老岸.pdf",
       "git_blob_sha": "8f200ffe693ad75ecb2770dda4f44f1e13786189",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B067.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B067_reading_2026-11-13.json",
+      "coverage_mode": "all27_current_PDF_excerpt_pages_read_all_original_layouts_reviewed",
+      "completion_kind": "actual_supplied_PDF_excerpt_collection_native_read_all27_layouts_reviewed"
     },
     {
       "id": "B068",
       "group": "books2_original_snapshot",
       "title": "搭讪圣经 - 郑匡宇.epub",
       "git_blob_sha": "916138793b4fde13e058f4437be0e935bbb79884",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B068.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B068_reading_2026-11-13.json",
+      "coverage_mode": "all9_current_EPUB_spine_items_read_including_empty_tail_literal_four_source_defects_disclosed",
+      "completion_kind": "actual_supplied_EPUB_native_text_read_with_literal_source_defects_disclosed"
     },
     {
       "id": "B069",
@@ -1641,24 +1647,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 65,
+    "current_book_files_text_complete": 67,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 54
+    "current_book_files_not_started": 52
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B067",
-    "path": "指男针 - 老岸.pdf",
-    "bytes": 373486,
-    "git_blob_sha": "8f200ffe693ad75ecb2770dda4f44f1e13786189",
+    "id": "B069",
+    "path": "晚熟青年杂译集.pdf",
+    "bytes": 3156242,
+    "git_blob_sha": "10bfe8c5995661b617291155c86b1e1d2e6ad013",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_spine_item": null,
     "next_character": 0,
-    "start": "B066当前提供内容、原创笔记和范围已保存；下一唯一主读B067。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B067 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B068当前提供内容、原创笔记和范围已保存；下一唯一主读B069。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B069 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }

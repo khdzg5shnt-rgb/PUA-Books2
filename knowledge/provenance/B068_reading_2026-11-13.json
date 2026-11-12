@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "2afceafa959e707b85af777ca2b3147986526299",
+  "id": "B068",
+  "path": "搭讪圣经 - 郑匡宇.epub",
+  "bytes": 106241,
+  "git_blob_sha": "916138793b4fde13e058f4437be0e935bbb79884",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_sha256": "f0d6e30a67da5b2eddfba288e5b597574cb3e50604e18af8f1555b0d9cfd84af",
+  "download_ref": "2afceafa959e707b85af777ca2b3147986526299",
+  "download": "Read-only GitHub connector fetch_file base64; byte count and Git blob verified.",
+  "EPUB_rootfile": "OEBPS/content.opf",
+  "native_extraction": {
+    "engine": "lxml HTML parsing; OPF spine order",
+    "method": "body.itertext(); strip nonempty text nodes; LF between nodes plus trailing LF per unit",
+    "body_characters": 80228,
+    "characters": 80588,
+    "sha256": "649b90a69e9f09f58f9e5e8b94c4c7a2c55b0ac30a5eeaae1a877d963e45f6e6",
+    "coordinates": "Unicode codepoints; half-open marked-stream ranges",
+    "native_not_OCR": true,
+    "initial_screening_count_preserved_separately": true
+  },
+  "native_body_characters_actually_read": 80228,
+  "OCR_run": false,
+  "actually_read_spine_blocks": [
+    {
+      "block": 1,
+      "spine_item": 1,
+      "range": [
+        0,
+        12
+      ],
+      "characters": 12,
+      "text_sha256": "b90e6eb4c1f48e042e265c6b3ad3dcdb20be935a012dab02ba33e3afe776ed65",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 2,
+      "spine_item": 2,
+      "range": [
+        0,
+        1311
+      ],
+      "characters": 1311,
+      "text_sha256": "3d9cb82658ef0282f37f19dc63a5ae15bbd2573ac17c38dbfc5e63377df9ba63",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 3,
+      "spine_item": 3,
+      "range": [
+        0,
+        512
+      ],
+      "characters": 512,
+      "text_sha256": "15e0c8dbf0132f7efbc04d6017a618a08ef0f2365e8324333e85b0374a4abc6f",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 4,
+      "spine_item": 4,
+      "range": [
+        0,
+        2298
+      ],
+      "characters": 2298,
+      "text_sha256": "20b66879aa890850f9a0de15a537cb39c7cc13f9f150190193a783f91d84f79a",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 5,
+      "spine_item": 5,
+      "range": [
+        0,
+        6500
+      ],
+      "characters": 6500,
+      "text_sha256": "e5cc841627085b03efdb92fa5526f4dbb47dc3aa4c23ccf61948612f358282a6",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 6,
+      "spine_item": 5,
+      "range": [
+        6500,
+        7631
+      ],
+      "characters": 1131,
+      "text_sha256": "8371457e17fe148cf506211d3fbbe583508030435c1d80bd9d5f6d6aecbd24f4",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 7,
+      "spine_item": 6,
+      "range": [
+        0,
+        6500
+      ],
+      "characters": 6500,
+      "text_sha256": "79edaaebdb6ba448f9b13c4851259c8f82f954b1c1ae3da1acd65cdceff1124a",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 8,
+      "spine_item": 6,
+      "range": [
+        6500,
+        11002
+      ],
+      "characters": 4502,
+      "text_sha256": "b8fc649f26b00728d98502c26247b332a988db88dac993731afe6b044a474f42",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 9,
+      "spine_item": 7,
+      "range": [
+        0,
+        6500
+      ],
+      "characters": 6500,
+      "text_sha256": "ceb56ab5882ed18a862591a2a3e7062eb0234e525a38bad7b6de885563a39b5e",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 10,
+      "spine_item": 7,
+      "range": [
+        6500,
+        13000
+      ],
+      "characters": 6500,
+      "text_sha256": "9a2f758def4ff15a1b994dde433046b91f3cb4db50b95b1c5a8812131ce811c0",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 11,
+      "spine_item": 7,
+      "range": [
+        13000,
+        19500
+      ],
+      "characters": 6500,
+      "text_sha256": "0b894656ec08e52ab08ab1e0a63154f737dbb3d294935dc698d834127788312e",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 12,
+      "spine_item": 7,
+      "range": [
+        19500,
+        26000
+      ],
+      "characters": 6500,
+      "text_sha256": "19248a0761b78ebcab6c777849d5ccbdb43af95a8b44a2c3a561672ad4c65222",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 13,
+      "spine_item": 7,
+      "range": [
+        26000,
+        32500
+      ],
+      "characters": 6500,
+      "text_sha256": "a572cc07ff59027ec9465c6a736bd7f60b808c208042ba95278921ba7a85a8c6",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 14,
+      "spine_item": 7,
+      "range": [
+        32500,
+        39000
+      ],
+      "characters": 6500,
+      "text_sha256": "7b8b83fbed14aaeee7a1cf32c8f574f9ab28441ecdeab65c62d0dfc6ed890a33",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 15,
+      "spine_item": 7,
+      "range": [
+        39000,
+        39553
+      ],
+      "characters": 553,
+      "text_sha256": "5fb4de40e86a1ae097111bfc1ebce3126d76686d97391df69f0a9d07bfa9a96c",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 16,
+      "spine_item": 8,
+      "range": [
+        0,
+        6500
+      ],
+      "characters": 6500,
+      "text_sha256": "8c6f4a3558677170e22347653dd551edf8dcaa0960d08af5703cbd33fc6fc372",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 17,
+      "spine_item": 8,
+      "range": [
+        6500,
+        13000
+      ],
+      "characters": 6500,
+      "text_sha256": "c20c3dd85ce097c8cf683f4acafecc1c1750a47a2a27a38d6b7682df7df52084",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 18,
+      "spine_item": 8,
+      "range": [
+        13000,
+        17908
+      ],
+      "characters": 4908,
+      "text_sha256": "2b68c65197d9d8620ec6f0a0efd603dd8dcd7fd6c88da150b86ad597354f066e",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 19,
+      "spine_item": 9,
+      "range": [
+        0,
+        1
+      ],
+      "characters": 1,
+      "text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "actually_read": true,
+      "output_truncated": false
+    }
+  ],
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "idref": "x0.html",
+      "path": "OEBPS/Text/0.html",
+      "title": [],
+      "characters": 12,
+      "text_sha256": "b90e6eb4c1f48e042e265c6b3ad3dcdb20be935a012dab02ba33e3afe776ed65",
+      "raw_sha256": "c704b8b7e007d571fee13c5eb335cb6edf15ee171a8d498810edb8440cc70db8",
+      "stream_range": [
+        0,
+        52
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 2,
+      "idref": "x1.html",
+      "path": "OEBPS/Text/1.html",
+      "title": [],
+      "characters": 1311,
+      "text_sha256": "3d9cb82658ef0282f37f19dc63a5ae15bbd2573ac17c38dbfc5e63377df9ba63",
+      "raw_sha256": "fbe43d768ada8643364983d276d9537d120ace0e60a42851737bc82099b7d2dc",
+      "stream_range": [
+        52,
+        1403
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 3,
+      "idref": "x2.html",
+      "path": "OEBPS/Text/2.html",
+      "title": [],
+      "characters": 512,
+      "text_sha256": "15e0c8dbf0132f7efbc04d6017a618a08ef0f2365e8324333e85b0374a4abc6f",
+      "raw_sha256": "0850a2e4270e897f6baa17058eef42da3bbd8fe2badaa5a6dadf921a8608a9d3",
+      "stream_range": [
+        1403,
+        1955
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 4,
+      "idref": "x3.html",
+      "path": "OEBPS/Text/3.html",
+      "title": [],
+      "characters": 2298,
+      "text_sha256": "20b66879aa890850f9a0de15a537cb39c7cc13f9f150190193a783f91d84f79a",
+      "raw_sha256": "bf6528f28f914c8a943dfab1fb6cd1e00d934300852a195922a6309cab8f1871",
+      "stream_range": [
+        1955,
+        4293
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 5,
+      "idref": "x4.html",
+      "path": "OEBPS/Text/4.html",
+      "title": [],
+      "characters": 7631,
+      "text_sha256": "be36d310a065c41876e0c66f3b90ff20631e7b36c6293c91555adf840ddfa796",
+      "raw_sha256": "40ca2eeb104a0901cd317edd43a751cf40041f399b1bc1754b0def216e5d6068",
+      "stream_range": [
+        4293,
+        11964
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 6,
+      "idref": "x5.html",
+      "path": "OEBPS/Text/5.html",
+      "title": [],
+      "characters": 11002,
+      "text_sha256": "dc90fd0af8fb3275f52ca9721c8e8a9a4649ec262a8735910184ff79c5a1f9e9",
+      "raw_sha256": "091e9076fd49dc6dc0d0c4fcf6fd5385b71b7120da4f95abe79747479caf9fdb",
+      "stream_range": [
+        11964,
+        23006
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 7,
+      "idref": "x6.html",
+      "path": "OEBPS/Text/6.html",
+      "title": [],
+      "characters": 39553,
+      "text_sha256": "64873d9613bcfc69a2b3585a5a6793392fc9552b54cfd805ff85edee6804ef03",
+      "raw_sha256": "6ad721f6651bf6ee46bbfa38771b3226b0de84beb0d726d3c41cdbc6fa710cbe",
+      "stream_range": [
+        23006,
+        62599
+      ],
+      "images": [],
+      "replacement_characters": 4,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 8,
+      "idref": "x7.html",
+      "path": "OEBPS/Text/7.html",
+      "title": [],
+      "characters": 17908,
+      "text_sha256": "d673c3bb2a9e6afc379b30b26a3344859758212b1141a00537a0cabbab28cf46",
+      "raw_sha256": "a4bc3f23a671a3e66d5eaa2f0ca4488bc17f39ed513089b14a27a0d6258fa04b",
+      "stream_range": [
+        62599,
+        80547
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 9,
+      "idref": "x8.html",
+      "path": "OEBPS/Text/8.html",
+      "title": [],
+      "characters": 1,
+      "text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "raw_sha256": "5906e47d373246ee2c2304de88e963ab4857ac19f7b75564ff97db6ad000e028",
+      "stream_range": [
+        80547,
+        80588
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "actual_tables": 0,
+      "native_output_actually_read": true
+    }
+  ],
+  "all_current_provided_content_read": true,
+  "all_extractable_body_text_read": true,
+  "all_original_words_individually_proofread": false,
+  "visual_page_review": "not applicable; EPUB package has no embedded images",
+  "completion_kind": "actual_supplied_EPUB_native_text_read_with_literal_source_defects_disclosed",
+  "source_scope": {
+    "current_spine_items": 9,
+    "substantive_spine_items": 8,
+    "empty_trailing_item": 9,
+    "empty_item_raw_XHTML_body_verified": true,
+    "body_chapters": 4,
+    "ending_kind": "conclusion_and_four_reader_comments_then_verified_empty_tail",
+    "NCX_substantive_items": 8,
+    "all_NCX_targets_in_spine": true,
+    "embedded_images_audio_video_or_scripts": [],
+    "actual_HTML_tables": 0,
+    "unspined_body_documents": [],
+    "mentioned_photographs_provided": false,
+    "known_original_source_text_defects": [
+      {
+        "spine_item": 7,
+        "character": 36709,
+        "codepoint": "U+FFFD",
+        "present_literally_in_original_UTF8": true,
+        "adjacent_Chinese_translation_provided_and_read": true,
+        "original_glyph_reconstructed": false
+      },
+      {
+        "spine_item": 7,
+        "character": 36802,
+        "codepoint": "U+FFFD",
+        "present_literally_in_original_UTF8": true,
+        "adjacent_Chinese_translation_provided_and_read": true,
+        "original_glyph_reconstructed": false
+      },
+      {
+        "spine_item": 7,
+        "character": 37082,
+        "codepoint": "U+FFFD",
+        "present_literally_in_original_UTF8": true,
+        "adjacent_Chinese_translation_provided_and_read": true,
+        "original_glyph_reconstructed": false
+      },
+      {
+        "spine_item": 7,
+        "character": 37817,
+        "codepoint": "U+FFFD",
+        "present_literally_in_original_UTF8": true,
+        "adjacent_Chinese_translation_provided_and_read": true,
+        "original_glyph_reconstructed": false
+      }
+    ],
+    "literal_defects_not_parser_created": true,
+    "all_supplied_defective_segments_read_with_supplied_translations": true,
+    "original_glyphs_or_publication_completeness_not_asserted": true,
+    "source_edition_complete_verified": false,
+    "author_claims_promoted_to_empirical_evidence": false,
+    "author_self_reports_and_designed_examples_kept_distinct": true,
+    "unprovided_material_counted_as_read": false,
+    "unprovided_material_blocks_next_book": false,
+    "known_unread_current_provided_content": [],
+    "native_output_unrecovered_truncations": []
+  },
+  "new_raw_text_images_private_transcriptions_or_anonymous_private_narratives_archived": false,
+  "note": "knowledge/books/B068.md",
+  "new_note_groups": 25,
+  "new_critical_method_source_bindings": 71,
+  "previous_book_checkpoint_saved_before_current_body_opened": true,
+  "previous_book_checkpoint": {
+    "saved_at": "2026-11-13T04:13:45.196128+08:00",
+    "completed": [
+      "B067"
+    ],
+    "next_body_unopened": "B068",
+    "completed_count": 66
+  },
+  "next_work_unit_at_checkpoint": "B069",
+  "next_book_body_opened_at_checkpoint": false,
+  "scope_counts_at_checkpoint": {
+    "complete": 67,
+    "actual_supplied_files_read": 65,
+    "user_accepted_scope_closures": 2,
+    "partial": 0,
+    "unread": 52
+  },
+  "validation": "knowledge/provenance/B067_B068_validation_2026-11-13.json"
+}
