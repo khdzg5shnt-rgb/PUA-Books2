@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "80369009a986cb7b9bb47316bec2a2c2e1fc8c1f",
+  "completed_file_ids": [
+    "B069"
+  ],
+  "checks": {
+    "reading_scope_and_source_identity": true,
+    "method_operations_avoids_and_previous_sources_preserved": true,
+    "exact_new_section_bindings": 133,
+    "only_B069_reading_record_advanced": true,
+    "focused_source_queries_passed": 6,
+    "whole_file_reference_does_not_authorize_unbound_method": true,
+    "progress68_actual66_plus_two_explicit_closures": true,
+    "only_expected_fifteen_knowledge_and_progress_files_changed": true,
+    "raw_source_files_runtime_routes_task_modes_and_preferred_sections_unchanged": true,
+    "validate_os": true,
+    "unittest_methods_passed": 72
+  },
+  "focused_retrieval": [
+    {
+      "method": "M20",
+      "query": "译文",
+      "path": "knowledge/books/B069.md",
+      "heading": "英汉译文核对与作用范围",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "method": "M14",
+      "query": "容易理解",
+      "path": "knowledge/books/B069.md",
+      "heading": "让邀约容易理解和落实",
+      "query_matched": true,
+      "section_method_ids": [
+        "M14",
+        "M15",
+        "M17"
+      ]
+    },
+    {
+      "method": "M23",
+      "query": "课程图",
+      "path": "knowledge/books/B069.md",
+      "heading": "课程图不作为自动升级流程",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "method": "M02",
+      "query": "耐心",
+      "path": "knowledge/books/B069.md",
+      "heading": "耐心自检不保证对方最终回应",
+      "query_matched": true,
+      "section_method_ids": [
+        "M02",
+        "M19",
+        "M23"
+      ]
+    },
+    {
+      "method": "M22",
+      "query": "合理让步",
+      "path": "knowledge/books/B069.md",
+      "heading": "合理让步和自己的边界可以同时说",
+      "query_matched": true,
+      "section_method_ids": [
+        "M20",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "method": "M07",
+      "query": "幻想",
+      "path": "knowledge/books/B069.md",
+      "heading": "幻想是双方知道的游戏",
+      "query_matched": true,
+      "section_method_ids": [
+        "M07",
+        "M20",
+        "M23"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 72
+    }
+  ],
+  "scope": "Structural, provenance and synthetic routing checks only; not proof of reading, screenshot understanding, psychological mechanisms or romantic outcomes."
+}

@@ -13827,8 +13827,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4%E6%9D%82%E8%AF%91%E9%9B%86.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B069.md",
       "pages": 286,
       "spine_items": null,
       "ocr": {
@@ -13836,7 +13836,23 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B069_reading_2026-11-13.json",
+      "coverage_mode": "all36_supplied_articles_comments_bilingual_appendix_and_ads_read_external_video_not_supplied",
+      "completion_kind": "actual_supplied_bilingual_PDF_all286_pages_native_read_images_diagrams_and_ad_titles_reviewed",
+      "source_sha256": "1082282d195307b24739ba42c78fccdcf914e6ed27b21eafe08e31a9f0d423f4",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "native_characters": 274960,
+        "read_groups": 48,
+        "visual_pages": 286,
+        "individual_image_pages": 32,
+        "original_note_groups": 46,
+        "new_critical_method_source_bindings": 133,
+        "ledger": "knowledge/provenance/B069_reading_2026-11-13.json",
+        "all_current_provided_content_read": true,
+        "known_unread_current_content": []
+      }
     },
     {
       "index": 70,
@@ -15315,5 +15331,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B067_B068 supplied files read sequentially; 107315 native characters, 43 original note groups and 124 exact method-section bindings. 67/119 = 65 actually read supplied files plus B017/B039 scope closures; 52 unread. Next B069; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B069 supplied files read sequentially; 274960 native characters, 46 original note groups and 133 exact method-section bindings. 68/119 = 66 actually read supplied files plus B017/B039 scope closures; 51 unread. Next B070; body unopened at this checkpoint."
 }

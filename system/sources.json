@@ -790,9 +790,12 @@
       "group": "books2_original_snapshot",
       "title": "晚熟青年杂译集.pdf",
       "git_blob_sha": "10bfe8c5995661b617291155c86b1e1d2e6ad013",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B069.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B069_reading_2026-11-13.json",
+      "coverage_mode": "all36_supplied_articles_comments_bilingual_appendix_and_ads_read_external_video_not_supplied",
+      "completion_kind": "actual_supplied_bilingual_PDF_all286_pages_native_read_images_diagrams_and_ad_titles_reviewed"
     },
     {
       "id": "B070",
@@ -1647,24 +1650,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 67,
+    "current_book_files_text_complete": 68,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 52
+    "current_book_files_not_started": 51
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B069",
-    "path": "晚熟青年杂译集.pdf",
-    "bytes": 3156242,
-    "git_blob_sha": "10bfe8c5995661b617291155c86b1e1d2e6ad013",
+    "id": "B070",
+    "path": "杂耍人文集及语录 - 杂耍人.epub",
+    "bytes": 179838,
+    "git_blob_sha": "7955916cfcb1bcb2167b94cc8446c208bf2885e0",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": 1,
-    "next_spine_item": null,
+    "next_file_page": null,
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B068当前提供内容、原创笔记和范围已保存；下一唯一主读B069。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B069 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B069当前提供内容、原创笔记和范围已保存；下一唯一主读B070。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B070 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }
