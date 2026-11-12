@@ -863,10 +863,10 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "unverified_original_edition_completeness",
-      "reading_ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+      "reading_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
       "latest_reading": {
-        "date": "2026-11-11",
-        "ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+        "date": "2026-11-12",
+        "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
         "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
         "current_extraction": {
           "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
@@ -885,27 +885,17 @@
           ]
         ],
         "entire_current_file_text_read": true,
-        "coverage_mode": "current_pdf_all_extractable_text_read_43_nonprivate_image_pages_reviewed_1_private_image_page_excluded_label_gaps",
+        "coverage_mode": "all_native_text_read_all44_image_pages_inspected_11_pages_with_unreadable_fine_labels_still_partial",
         "next_file_page": null,
         "next_character": null,
         "unread_characters": 0,
         "selected_visual_pages_reviewed": [
           4,
           17,
-          41,
-          68,
-          91,
-          103,
-          105,
-          112,
-          119,
-          124,
-          128,
-          131,
-          144,
           21,
           22,
           33,
+          41,
           42,
           43,
           44,
@@ -916,6 +906,17 @@
           59,
           60,
           63,
+          68,
+          69,
+          91,
+          103,
+          105,
+          112,
+          119,
+          124,
+          128,
+          131,
+          144,
           156,
           159,
           173,
@@ -935,18 +936,12 @@
           221
         ],
         "image_pages_screened_count": 44,
-        "image_pages_excluded_for_privacy": [
-          69
-        ],
+        "image_pages_excluded_for_privacy": [],
         "image_pages_with_retained_label_gaps": [
           21,
-          42,
-          44,
-          59,
           60,
           63,
           68,
-          105,
           112,
           124,
           156,
@@ -955,8 +950,158 @@
           177,
           182
         ],
-        "page68_small_labels_remain_unverified": true
-      }
+        "page68_small_labels_remain_unverified": true,
+        "all_current_file_content_read": false,
+        "new_native_characters_read": 0,
+        "new_targeted_visual_reviews": 16,
+        "new_unique_visual_pages": [
+          69
+        ],
+        "next_gap_review_file_page": 21,
+        "current_file_unread_content_gaps": [
+          {
+            "file_page": 21,
+            "reason": "Dense bilingual political chart at 478x478; multiple small labels remain unreadable after direct source extraction and four enlarged crops."
+          },
+          {
+            "file_page": 60,
+            "reason": "Low-resolution wheel: category structure visible, some tiny diagonal outer labels remain uncertain after source extraction and rotation."
+          },
+          {
+            "file_page": 63,
+            "reason": "Long diagram main chain and clock reviewed; fine annotations in inset historical triangle still not fully legible."
+          },
+          {
+            "file_page": 68,
+            "reason": "PFSM mind map main branches reviewed; several small Chinese end-node labels remain uncertain."
+          },
+          {
+            "file_page": 112,
+            "reason": "Bilingual classification diagram reviewed; a subset of tiny Chinese labels remains uncertain."
+          },
+          {
+            "file_page": 124,
+            "reason": "244x325 handwritten concept map: headings visible, several Chinese handwritten clauses remain unreadable."
+          },
+          {
+            "file_page": 156,
+            "reason": "Chinese stage table reviewed outside page overlays; low-contrast yellow-row fine print remains uncertain."
+          },
+          {
+            "file_page": 159,
+            "reason": "AQAL table pair reviewed from both source images; dense ego-stage descriptions and some end labels remain uncertain."
+          },
+          {
+            "file_page": 176,
+            "reason": "Repeated Chinese stage table reviewed outside page overlays; small low-contrast text still not fully legible."
+          },
+          {
+            "file_page": 177,
+            "reason": "Repeated AQAL table pair reviewed outside page overlays; fine descriptions and source-watermarked cells remain unresolved."
+          },
+          {
+            "file_page": 182,
+            "reason": "Response-type mind map reviewed; some tiny right-side Chinese labels remain uncertain or covered by source watermark."
+          }
+        ],
+        "reading_blocker": "source_image_resolution",
+        "new_unread_books_started": 0
+      },
+      "reading_history": [
+        {
+          "date": "2026-11-11",
+          "ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+          "pdf_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+          "current_extraction": {
+            "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+            "characters": 240437,
+            "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+            "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+          },
+          "read_range": [
+            0,
+            240437
+          ],
+          "read_file_page_ranges": [
+            [
+              1,
+              221
+            ]
+          ],
+          "entire_current_file_text_read": true,
+          "coverage_mode": "current_pdf_all_extractable_text_read_43_nonprivate_image_pages_reviewed_1_private_image_page_excluded_label_gaps",
+          "next_file_page": null,
+          "next_character": null,
+          "unread_characters": 0,
+          "selected_visual_pages_reviewed": [
+            4,
+            17,
+            41,
+            68,
+            91,
+            103,
+            105,
+            112,
+            119,
+            124,
+            128,
+            131,
+            144,
+            21,
+            22,
+            33,
+            42,
+            43,
+            44,
+            48,
+            49,
+            51,
+            55,
+            59,
+            60,
+            63,
+            156,
+            159,
+            173,
+            176,
+            177,
+            182,
+            183,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221
+          ],
+          "image_pages_screened_count": 44,
+          "image_pages_excluded_for_privacy": [
+            69
+          ],
+          "image_pages_with_retained_label_gaps": [
+            21,
+            42,
+            44,
+            59,
+            60,
+            63,
+            68,
+            105,
+            112,
+            124,
+            156,
+            159,
+            176,
+            177,
+            182
+          ],
+          "page68_small_labels_remain_unverified": true
+        }
+      ]
     },
     {
       "index": 18,
@@ -5398,5 +5543,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-12 B015 supplied 24-page PDF closed after sequential image review; next B017; no new books opened."
+  "latest_reading_update": "2026-11-12 B015 complete; B017 remaining 16 image pages inspected, source-resolution gaps remain. Completion stays47/119; no next book opened."
 }

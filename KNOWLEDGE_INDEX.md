@@ -20,7 +20,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-当前完成47/119份文件，另有5份未完成、67份未开始。本轮已补齐B015全部现有图文；下一只补B017，再依次B036、B038、B039、B045。B054及所有新文件仍暂停。[收尾报告](knowledge/provenance/B015_finished_2026-11-12.md)。
+当前完成47/119份文件，另有5份未完成、67份未开始。本轮已补齐B015全部现有图文；当前B017已补查16个图像目标页，11页仍有低清细字缺口，继续留在B017；补齐后才依次B036、B038、B039、B045。B054及所有新文件仍暂停。[收尾报告](knowledge/provenance/B015_finished_2026-11-12.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。

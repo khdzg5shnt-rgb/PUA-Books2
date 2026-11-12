@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "baseline_main": "dff26011404fa7930283881f2aea0ff617102cc6",
+  "reading_order": "B015 was finished, saved and committed before any B017 source images were opened. No B036 or later book body opened.",
+  "records": [
+    {
+      "id": "B017",
+      "path": "MGTOW 核心理论文集 (米格道) .pdf",
+      "bytes": 6989249,
+      "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
+      "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+      "source_sha256": "cbce5b10be94adc0d835f76711705587a6ed9d5dbf2d932c084a1f1ce55b0a49",
+      "previous_reading_ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+      "current_extraction": {
+        "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+        "characters": 240437,
+        "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+        "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+      },
+      "previous_native_read_range": [
+        0,
+        240437
+      ],
+      "new_native_characters_read": 0,
+      "file_pages": 221,
+      "all_image_containing_pages": [
+        4,
+        17,
+        21,
+        22,
+        33,
+        41,
+        42,
+        43,
+        44,
+        48,
+        49,
+        51,
+        55,
+        59,
+        60,
+        63,
+        68,
+        69,
+        91,
+        103,
+        105,
+        112,
+        119,
+        124,
+        128,
+        131,
+        144,
+        156,
+        159,
+        173,
+        176,
+        177,
+        182,
+        183,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "image_page_count": 44,
+      "image_object_count_whole_pdf": 51,
+      "targeted_page_count": 16,
+      "targeted_image_objects": 19,
+      "new_unique_visual_pages": [
+        69
+      ],
+      "original_pdf_page_reviews": [
+        {
+          "file_page": 21,
+          "render_sha256": "eca28ad4256f2fcf26df88af55fccba6e4e6b31a2844322371b0217f532904b2",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Dense bilingual political chart at 478x478; multiple small labels remain unreadable after direct source extraction and four enlarged crops."
+        },
+        {
+          "file_page": 42,
+          "render_sha256": "7d6f35a94918ee0789193f05281a9818dbfd56194a1eb12d4cd3be2c7e5903b4",
+          "directly_viewed": true,
+          "labels_reviewed": true,
+          "outcome": "provided_visible_image_content_read",
+          "remaining_gap": null
+        },
+        {
+          "file_page": 44,
+          "render_sha256": "087cba6bc20594578bf42fb94d3d3e74bfbe382a601470af98b28e26b0276635",
+          "directly_viewed": true,
+          "labels_reviewed": true,
+          "outcome": "provided_visible_image_content_read",
+          "remaining_gap": null
+        },
+        {
+          "file_page": 59,
+          "render_sha256": "89c7dd57d7c6a987d54c6bd835bd1cf0fe4b489d06fd59ee218675932721fe49",
+          "directly_viewed": true,
+          "labels_reviewed": true,
+          "outcome": "provided_visible_image_content_read",
+          "remaining_gap": null
+        },
+        {
+          "file_page": 60,
+          "render_sha256": "2d7d16739a965a2f3f24ce6c590c94d6ed2a3b19d0dac0c26e4e1384957eaf4d",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Low-resolution wheel: category structure visible, some tiny diagonal outer labels remain uncertain after source extraction and rotation."
+        },
+        {
+          "file_page": 63,
+          "render_sha256": "20dc7f441047d749276d9bbdd668279169f0a9b8834710c20a32958a940ae0ef",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Long diagram main chain and clock reviewed; fine annotations in inset historical triangle still not fully legible."
+        },
+        {
+          "file_page": 68,
+          "render_sha256": "f173b46015f3d4856e54058ed4e425fbe99347cb30389cf513123312b868f812",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "PFSM mind map main branches reviewed; several small Chinese end-node labels remain uncertain."
+        },
+        {
+          "file_page": 69,
+          "render_sha256": "6a40ab2d7b7625b487bc0003c9876a78c8bdb7bdcbcb44bdec1e56825c618879",
+          "directly_viewed": true,
+          "labels_reviewed": true,
+          "outcome": "provided_visible_image_content_read",
+          "remaining_gap": null
+        },
+        {
+          "file_page": 105,
+          "render_sha256": "48cebf54c9e0930b8b659c86b7959062c3175330e29380d726c7c7591f17e944",
+          "directly_viewed": true,
+          "labels_reviewed": true,
+          "outcome": "provided_visible_image_content_read",
+          "remaining_gap": null
+        },
+        {
+          "file_page": 112,
+          "render_sha256": "9ee9addd4159d385d744d95997bff6a5ec4d3a6e84050ae057158425437b18ce",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Bilingual classification diagram reviewed; a subset of tiny Chinese labels remains uncertain."
+        },
+        {
+          "file_page": 124,
+          "render_sha256": "cec10d611dc4118ade58c5aeec8460f977874746d32f2bbf4289961c688ab5ff",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "244x325 handwritten concept map: headings visible, several Chinese handwritten clauses remain unreadable."
+        },
+        {
+          "file_page": 156,
+          "render_sha256": "b10781921dff74a0b7a70f911a95fbd66f5d61b8855cedcdb1adfcac21e778a1",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Chinese stage table reviewed outside page overlays; low-contrast yellow-row fine print remains uncertain."
+        },
+        {
+          "file_page": 159,
+          "render_sha256": "a9931ca219d4422a014ad7e2e51be69aedde5298cfe29e59b8eb24249928a666",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "AQAL table pair reviewed from both source images; dense ego-stage descriptions and some end labels remain uncertain."
+        },
+        {
+          "file_page": 176,
+          "render_sha256": "06a496b613e87a5ccee0a8c6cbcdb03b9a4366b92f5e8aaec17fdc7bffd967ac",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Repeated Chinese stage table reviewed outside page overlays; small low-contrast text still not fully legible."
+        },
+        {
+          "file_page": 177,
+          "render_sha256": "0211e7bfb16d1b1b37f32654109ae92af7608696666415ed3d44de6e3d1d2f71",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Repeated AQAL table pair reviewed outside page overlays; fine descriptions and source-watermarked cells remain unresolved."
+        },
+        {
+          "file_page": 182,
+          "render_sha256": "269adceb8b389434f42b2b1a2771cd148ba172bc164e5b0371469aba98543120",
+          "directly_viewed": true,
+          "labels_reviewed": false,
+          "outcome": "fine_text_gap_remains",
+          "remaining_gap": "Response-type mind map reviewed; some tiny right-side Chinese labels remain uncertain or covered by source watermark."
+        }
+      ],
+      "source_image_reviews": [
+        {
+          "file_page": 21,
+          "xref": 47,
+          "width": 478,
+          "height": 478,
+          "sha256": "ca5b48ea153e7fa6f2850b66965995b898cdcf673ac279e94c44e05ffa07aba5"
+        },
+        {
+          "file_page": 42,
+          "xref": 95,
+          "width": 517,
+          "height": 194,
+          "sha256": "dbfebec3f911a7074d9f310546974f211bce4517ba3c6fa79d15e0e6bb55bad2"
+        },
+        {
+          "file_page": 42,
+          "xref": 96,
+          "width": 247,
+          "height": 225,
+          "sha256": "0201041810c9ba1c4374cf6430b5ebebba415957af459c128841dcabc198a2b9"
+        },
+        {
+          "file_page": 44,
+          "xref": 102,
+          "width": 2648,
+          "height": 1394,
+          "sha256": "f7e51fe9a4cefe4c01f3e17824f351c5428dc0a6952536721817470b5ed76783"
+        },
+        {
+          "file_page": 59,
+          "xref": 144,
+          "width": 720,
+          "height": 379,
+          "sha256": "a1bd8af5a3549ac28e6164d2dabef3b454a38dfaec737428a90c1d6e18ef1926"
+        },
+        {
+          "file_page": 60,
+          "xref": 149,
+          "width": 488,
+          "height": 530,
+          "sha256": "1717bbdf6e41f335f4495b6fcae8fce4326f9ba0b4340c532d6cde45abad7505"
+        },
+        {
+          "file_page": 63,
+          "xref": 158,
+          "width": 518,
+          "height": 2428,
+          "sha256": "2be02f342debc74828b6754b45acb99530a5758a1a7f9e944a687ab256c0cc48"
+        },
+        {
+          "file_page": 68,
+          "xref": 170,
+          "width": 598,
+          "height": 237,
+          "sha256": "a0f0f823e94584ce4646c3d0ece915150037e3c4268c3b545807d6700e0139d9"
+        },
+        {
+          "file_page": 69,
+          "xref": 174,
+          "width": 452,
+          "height": 473,
+          "sha256": "a8cf2d0ee129e881e2afe21d676cc5a08aee721a102a1a1ab680f2678665c9d9"
+        },
+        {
+          "file_page": 105,
+          "xref": 254,
+          "width": 433,
+          "height": 325,
+          "sha256": "80c23695a78e9ed892edc654a5966a38bbfc5670603a06bd8a7a52a2e9494d08"
+        },
+        {
+          "file_page": 112,
+          "xref": 270,
+          "width": 420,
+          "height": 253,
+          "sha256": "131e3edc6faca0a5c9afb9350bbfff2ea46e07a3cf9eb8b4c9dcc4255ecdb30e"
+        },
+        {
+          "file_page": 124,
+          "xref": 301,
+          "width": 244,
+          "height": 325,
+          "sha256": "46716e20f9641b19bcc9c32aada2cfb4fea3d0d51911eb3a5c5bdaf14a857da5"
+        },
+        {
+          "file_page": 156,
+          "xref": 375,
+          "width": 584,
+          "height": 735,
+          "sha256": "aa438980a8ff25a3f3d817e40242b57cc3de187e68cdfa59807a0bd48a02d307"
+        },
+        {
+          "file_page": 159,
+          "xref": 383,
+          "width": 512,
+          "height": 343,
+          "sha256": "8b8d6700e7ad65851556b136b7cad3d0b71ca0b656ee03a3ef6685d33ff6aec5"
+        },
+        {
+          "file_page": 159,
+          "xref": 384,
+          "width": 544,
+          "height": 243,
+          "sha256": "77f61d75b84133cb9b98baa6ad83f9e0607596463316992cf1c7fb78b8ccd3bd"
+        },
+        {
+          "file_page": 176,
+          "xref": 422,
+          "width": 543,
+          "height": 683,
+          "sha256": "bfe33985a41cfe5fc619a028add4a50724ed32baf0781b8b7cfa5b78401baea2"
+        },
+        {
+          "file_page": 177,
+          "xref": 426,
+          "width": 557,
+          "height": 373,
+          "sha256": "6eec965e8efbc76495f02bcade245953676cff7b6f8e3a0377223e2631c48b9c"
+        },
+        {
+          "file_page": 177,
+          "xref": 427,
+          "width": 561,
+          "height": 251,
+          "sha256": "17fbc5a256ca999b01d73ed3e0a1a7727c94dcde8efca848e38ff25e98f6d4ea"
+        },
+        {
+          "file_page": 182,
+          "xref": 439,
+          "width": 506,
+          "height": 272,
+          "sha256": "4a2beefb9f8c3f0c9c51ac74db90f869fae789c9bfc330178de5424c87a8f564"
+        }
+      ],
+      "resolved_old_gap_pages": [
+        42,
+        44,
+        59,
+        69,
+        105
+      ],
+      "remaining_label_gap_pages": [
+        21,
+        60,
+        63,
+        68,
+        112,
+        124,
+        156,
+        159,
+        176,
+        177,
+        182
+      ],
+      "remaining_gaps": [
+        {
+          "file_page": 21,
+          "reason": "Dense bilingual political chart at 478x478; multiple small labels remain unreadable after direct source extraction and four enlarged crops."
+        },
+        {
+          "file_page": 60,
+          "reason": "Low-resolution wheel: category structure visible, some tiny diagonal outer labels remain uncertain after source extraction and rotation."
+        },
+        {
+          "file_page": 63,
+          "reason": "Long diagram main chain and clock reviewed; fine annotations in inset historical triangle still not fully legible."
+        },
+        {
+          "file_page": 68,
+          "reason": "PFSM mind map main branches reviewed; several small Chinese end-node labels remain uncertain."
+        },
+        {
+          "file_page": 112,
+          "reason": "Bilingual classification diagram reviewed; a subset of tiny Chinese labels remains uncertain."
+        },
+        {
+          "file_page": 124,
+          "reason": "244x325 handwritten concept map: headings visible, several Chinese handwritten clauses remain unreadable."
+        },
+        {
+          "file_page": 156,
+          "reason": "Chinese stage table reviewed outside page overlays; low-contrast yellow-row fine print remains uncertain."
+        },
+        {
+          "file_page": 159,
+          "reason": "AQAL table pair reviewed from both source images; dense ego-stage descriptions and some end labels remain uncertain."
+        },
+        {
+          "file_page": 176,
+          "reason": "Repeated Chinese stage table reviewed outside page overlays; small low-contrast text still not fully legible."
+        },
+        {
+          "file_page": 177,
+          "reason": "Repeated AQAL table pair reviewed outside page overlays; fine descriptions and source-watermarked cells remain unresolved."
+        },
+        {
+          "file_page": 182,
+          "reason": "Response-type mind map reviewed; some tiny right-side Chinese labels remain uncertain or covered by source watermark."
+        }
+      ],
+      "reading_status": "provided_file_text_partial",
+      "all_current_file_content_read": false,
+      "original_publication_complete": false,
+      "new_method_operations": 0,
+      "private_source_text_or_image_uploads": 0
+    }
+  ],
+  "source_recovery": {
+    "purpose": "source image recovery only; not reading a new book or validating a psychological model",
+    "attempts": [
+      {
+        "url": "https://www.reddit.com/r/ciplog/comments/gl6k5v/cip004b7b1/",
+        "result": "web retrieval disabled; no source image recovered; not used as completion evidence"
+      },
+      {
+        "url": "https://www.formlessmountain.com/aqal.htm",
+        "result": "not accessible through web retrieval"
+      },
+      {
+        "url": "https://www.formlessmountain.com/integral_gallery_store.htm",
+        "result": "read public page, followed its chart zoom link"
+      },
+      {
+        "url": "https://www.formlessmountain.com/images/AQALChart1z.png",
+        "sha256": "ab65875e9807fc71565b405a818e36ff5a0256305003377c0b8de26e9da36a78",
+        "result": "preview actually viewed; visible left panel and stage-text layout differ from supplied B017 AQAL chart; not substituted for B017 fine print"
+      }
+    ],
+    "external_image_uploaded_to_repository": false,
+    "new_original_paper_or_book_fulltexts_read": 0
+  },
+  "completed_current_files": 47,
+  "partial_current_files": 5,
+  "unread_current_files": 67,
+  "new_completed_current_file_ids": [],
+  "next_work_unit": {
+    "id": "B017",
+    "path": "MGTOW 核心理论文集 (米格道) .pdf",
+    "bytes": 6989249,
+    "git_blob_sha": "f7ffd67a1fef75e06adfd2707a527cef93e40a1e",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "provided_file_text_partial",
+    "file_pages": 221,
+    "next_file_page": 21,
+    "next_character": null,
+    "next_gap_review_file_page": 21,
+    "start": "B017第69页及42、44、59、105页图像已补齐。其余11页仍有细标签无法辨认，先补最早第21页；全书继续部分状态，不换下一本。",
+    "current_extraction_identity": {
+      "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
+      "characters": 240437,
+      "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
+      "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
+    },
+    "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
+    "remaining_image_review_file_pages": [
+      21,
+      60,
+      63,
+      68,
+      112,
+      124,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "next_content_unit": "Current B017 native text is already read and all 44 image-containing pages have now been inspected. Readability gaps remain on 11 pages, earliest21. Obtain a demonstrably matching higher-resolution source; merely rerendering existing low-resolution pixels or substituting a different chart version does not close the gap. Do not open B036 or new books.",
+    "reading_blocker": "source_image_resolution",
+    "source_recovery_attempts_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json"
+  }
+}

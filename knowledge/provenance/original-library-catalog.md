@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成47/119份文件，另有5份未完成、67份未开始。本轮已补齐B015全部现有图文；下一只补B017，再依次B036、B038、B039、B045。B054及所有新文件仍暂停。[收尾报告](B015_finished_2026-11-12.md)。
+当前完成47/119份文件，另有5份未完成、67份未开始。本轮已补齐B015全部现有图文；当前B017已补查16个图像目标页，11页仍有低清细字缺口，继续留在B017；补齐后才依次B036、B038、B039、B045。B054及所有新文件仍暂停。[收尾报告](B015_finished_2026-11-12.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -34,7 +34,7 @@
 | B014 | [Evolutionary Psychology The New Science of the Mind (David M. Buss) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Evolutionary%20Psychology%20The%20New%20Science%20of%20the%20Mind%20%28David%20M.%20Buss%29%20.pdf) | 1002 | 当前1002页现有文字读完；文后138页补齐、1001页空白已核；原版未认证 | [笔记](../books/B014.md) |
 | B015 | [K少追女经验-我是这样追你老婆的.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/K%E5%B0%91%E8%BF%BD%E5%A5%B3%E7%BB%8F%E9%AA%8C-%E6%88%91%E6%98%AF%E8%BF%99%E6%A0%B7%E8%BF%BD%E4%BD%A0%E8%80%81%E5%A9%86%E7%9A%84.pdf) | 24 | 当前24页图文已读；18个含图页、19个对象补齐；原遮挡和未附媒体不推测 | [笔记](../books/B015.md) |
 | B016 | [MACK把妹方法 - Dean Cortez.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MACK%E6%8A%8A%E5%A6%B9%E6%96%B9%E6%B3%95%20-%20Dean%20Cortez.epub) | 22 | 文字完成：题名/前言/二十章；原版完整性未核 | [笔记](../books/B016.md) |
-| B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 部分：221页文字已读；1页私人图像排除及细标签缺口保留 | [笔记](../books/B017.md) |
+| B017 | [MGTOW 核心理论文集 (米格道) .pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%20%E6%A0%B8%E5%BF%83%E7%90%86%E8%AE%BA%E6%96%87%E9%9B%86%20%28%E7%B1%B3%E6%A0%BC%E9%81%93%29%20.pdf) | 221 | 部分：221页原生文字及44个含图页已查看；11页细字仍不清，不计完成 | [笔记](../books/B017.md) |
 | B018 | [MGTOW解读进化心理学.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/MGTOW%E8%A7%A3%E8%AF%BB%E8%BF%9B%E5%8C%96%E5%BF%83%E7%90%86%E5%AD%A6.pdf) | 24 | 当前24页文字层完成；原版与转引配图完整性未核 | [笔记](../books/B018.md) |
 | B019 | [Mgtow Building Wealth and Power For Single Men Only (Tim Patten).pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/Mgtow%20Building%20Wealth%20and%20Power%20For%20Single%20Men%20Only%20%28Tim%20Patten%29.pdf) | 150 | 当前150页文字层完成；原版与引用未核 | [笔记](../books/B019.md) |
 | B020 | [PUA玩家手册（完整版）- 康纳.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/PUA%E7%8E%A9%E5%AE%B6%E6%89%8B%E5%86%8C%EF%BC%88%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%89-%20%E5%BA%B7%E7%BA%B3.pdf) | 46 | 当前46页文字层完成；第七层说明空白，原版与引文未核 | [笔记](../books/B020.md) |

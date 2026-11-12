@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-12",
-  "current_focus": "B015_closed_next_existing_partial_B017",
-  "status": "reading",
-  "base_commit": "0b5bd28f7177d5e302bdac3a13cbfb004c150cee",
+  "current_focus": "B017_source_resolution_gaps_after_B015_complete",
+  "status": "blocked_on_source_image_resolution",
+  "base_commit": "dff26011404fa7930283881f2aea0ff617102cc6",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B015_finished_2026-11-12.md",
-  "validation": "knowledge/provenance/B015_finished_validation_2026-11-12.json",
+  "report": "knowledge/provenance/B017_image_review_2026-11-12.md",
+  "validation": "knowledge/provenance/B017_image_review_validation_2026-11-12.json",
   "reading_bookmark": {
     "id": "B017",
     "path": "MGTOW 核心理论文集 (米格道) .pdf",
@@ -21,24 +21,19 @@
     "next_file_page": 21,
     "next_character": null,
     "next_gap_review_file_page": 21,
-    "start": "B015图文已收尾。只补B017的15页细标签及第69页图像；原生文字已读，不重计。",
+    "start": "B017第69页及42、44、59、105页图像已补齐。其余11页仍有细标签无法辨认，先补最早第21页；全书继续部分状态，不换下一本。",
     "current_extraction_identity": {
       "method": "PyMuPDF get_text(sort=True), LF normalized, with physical file-page markers",
       "characters": 240437,
       "sha256": "e10c386d40ce9d13e45c7fcea444080f1b81fb5917b774eea0b3cb3fed6040bb",
       "coordinates": "Unicode code points; half-open ranges; physical file-page markers included"
     },
-    "ledger": "knowledge/provenance/B017_B018_reading_2026-11-11.json",
+    "ledger": "knowledge/provenance/B017_image_review_2026-11-12.json",
     "remaining_image_review_file_pages": [
       21,
-      42,
-      44,
-      59,
       60,
       63,
       68,
-      69,
-      105,
       112,
       124,
       156,
@@ -47,9 +42,11 @@
       177,
       182
     ],
-    "next_content_unit": "Review remaining B017 supplied image content in physical page order, then save its notes and reading checkpoint before moving to B036. Do not publish source images, private transcriptions or case narratives."
+    "next_content_unit": "Current B017 native text is already read and all 44 image-containing pages have now been inspected. Readability gaps remain on 11 pages, earliest21. Obtain a demonstrably matching higher-resolution source; merely rerendering existing low-resolution pixels or substituting a different chart version does not close the gap. Do not open B036 or new books.",
+    "reading_blocker": "source_image_resolution",
+    "source_recovery_attempts_ledger": "knowledge/provenance/B017_image_review_2026-11-12.json"
   },
-  "next_work": "Finish existing partial B017 image and label gaps; all new books remain paused.",
+  "next_work": "Continue only B017 by recovering matching readable source images; earliest unresolved file page21. B036 and all later/new books remain paused.",
   "current_session_progress": {
     "work_type": "close_oldest_unfinished_file",
     "new_book_files_started": [],
@@ -66,11 +63,37 @@
     "new_research_paper_fulltexts_read": 0,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B015_finished_validation_2026-11-12.json",
+      "reading_metadata_validation": "knowledge/provenance/B017_image_review_validation_2026-11-12.json",
       "structural": true,
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158
-    }
+    },
+    "existing_partial_reviewed_ids": [
+      "B017"
+    ],
+    "B017_targeted_image_page_reviews": 16,
+    "B017_new_unique_visual_pages": 1,
+    "B017_resolved_image_gap_pages": [
+      42,
+      44,
+      59,
+      69,
+      105
+    ],
+    "B017_remaining_label_gap_pages": [
+      21,
+      60,
+      63,
+      68,
+      112,
+      124,
+      156,
+      159,
+      176,
+      177,
+      182
+    ],
+    "B017_remains_partial": true
   },
   "last_reading_progress": {
     "baseline": "90d16c445ea95e8d420573301a92c9fafc2755ff",
@@ -3087,7 +3110,8 @@
       "structural": true,
       "unittest_methods": 48,
       "synthetic_routing_scenarios": 158
-    }
+    },
+    "reading_checkpoint_followed_by": "knowledge/provenance/B017_image_review_2026-11-12.json"
   },
   "reading_policy": {
     "mode": "finish_unfinished_files_before_new_books",
