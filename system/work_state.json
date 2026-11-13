@@ -1,112 +1,82 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B076_next_after_B074_B075_finished_in_order",
-  "status": "ready_for_next_file",
-  "base_commit": "c9a760f081c85ef754896cac59b7441884c735a8",
+  "current_focus": "B076_readable_content_integrated_unresolved_damaged_scans",
+  "status": "blocked_on_current_file_scan_legibility",
+  "base_commit": "f1a028b80a2888539b866c972669f7fc435dda81",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 2,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B074_B075_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B074_B075_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B076_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
   "reading_bookmark": {
     "id": "B076",
     "path": "正妹心理学 - 郑匡宇.pdf",
     "bytes": 4989891,
     "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "unread",
-    "next_file_page": 1,
+    "reading_status": "provided_file_text_partial",
+    "next_file_page": 161,
     "next_spine_item": null,
-    "next_character": 0,
-    "start": "B075当前提供内容、原创笔记和范围已保存；下一唯一主读B076。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B076 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "next_character": null,
+    "unresolved_file_pages": [
+      161,
+      163,
+      165
+    ],
+    "uncertain_publisher_imprint_page": 1,
+    "start": "B076全部188页图像与可读内容已处理并保存原创笔记；P161/163/165扫描原义未明，P1出版小字未核，不计完成。B077正文未打开。",
+    "next_content_unit": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically."
   },
-  "next_work": "Read B076 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
+  "next_work": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically.",
   "current_session_progress": {
-    "baseline": "c9a760f081c85ef754896cac59b7441884c735a8",
-    "work_type": "read_whole_supplied_files_in_serial_order",
+    "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
+    "work_type": "read_current_supplied_file_and_preserve_unresolved_scan_gaps",
     "new_book_files_started": [
-      "B074",
-      "B075"
+      "B076"
     ],
-    "new_book_files_completed": [
-      "B074",
-      "B075"
-    ],
-    "actually_completed_file_ids": [
-      "B074",
-      "B075"
-    ],
-    "new_whole_book_files_actually_read": 2,
+    "new_book_files_completed": [],
+    "actually_completed_file_ids": [],
+    "new_whole_book_files_actually_read": 0,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 174126,
-    "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 191,
+    "new_native_characters_read": 0,
+    "new_OCR_characters_read": 54666,
+    "new_unique_original_visual_pages": 188,
     "new_EPUB_spine_items_read": 0,
-    "original_note_groups": 62,
-    "new_method_source_bindings": 176,
+    "original_note_groups": 34,
+    "new_method_source_bindings": 98,
     "new_method_operations": [],
-    "serial_order": [
-      "B074",
-      "save_B074_notes_scope_and_next_checkpoint",
-      "B075",
-      "save_B075_notes_scope_and_next_checkpoint"
+    "all_current_file_content_read": false,
+    "unresolved_file_pages": [
+      161,
+      163,
+      165
     ],
+    "uncertain_publisher_imprint_page": 1,
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
-    "books": [
-      {
-        "id": "B074",
-        "title": "枪巫方法",
-        "native_characters": 84249,
-        "spine_items": 0,
-        "visual_pages": 113,
-        "note_groups": 32,
-        "bindings": 91,
-        "ledger": "knowledge/provenance/B074_reading_2026-11-13.json",
-        "source_sha256": "edd246f70660ec317c014c086c8e96d543409ac3997732d7839c1648edaf8e99",
-        "coverage_mode": "all113_native_text_pages_and_original_layouts_read_logo_and_blank_banners_reviewed_by_pixel_identity",
-        "completion_kind": "actual_supplied_PDF_all113_pages_front_matter_three_levels_relationship_and_closing_read",
-        "catalog_scope": "113页译序、三层正文、关系收束及版面已读；两类标志/空白横条已核，未提供附赠册不计",
-        "range_label": "PDF物理页1—113；84249个原生字符，12张拼页及两类图像",
-        "scope_summary": "B074《枪巫方法》：113页现有PDF的译序、引言、基础/进阶/精通、关系和结尾已逐页读到全书完。84249个原生字符分15组实读，含重复广告层；113页版面及两种像素图像已看，首次截断的13—14页已补全。114图像对象仅为一个站点标志与113个相同全白横条，不是额外正文图。附赠健身册、原英文、课程及外部书未提供不补算；作者数字、身体机制与社会史未作研究证据，施压路线不进入系统操作。"
-      },
-      {
-        "id": "B075",
-        "title": "校园情圣",
-        "native_characters": 89877,
-        "spine_items": 0,
-        "visual_pages": 78,
-        "note_groups": 30,
-        "bindings": 85,
-        "ledger": "knowledge/provenance/B075_reading_2026-11-13.json",
-        "source_sha256": "178baf0300cc316789ea06316804c2f215365721b8c7034f0a0f6480786b03b3",
-        "coverage_mode": "all78_native_text_pages_and_original_layouts_read_cover_advertisement_and_black_pixel_reviewed",
-        "completion_kind": "actual_supplied_PDF_all78_pages_front_matter_body_recommendations_and_advertising_read",
-        "catalog_scope": "78页含封面、译序、正文、推荐与广告及版面已读；3图像对象已核，原英文未核不补算",
-        "range_label": "PDF物理页1—78；89877个原生字符，8张拼页及封面/广告图",
-        "scope_summary": "B075《校园情圣》：78页现有PDF的封面、译序、正文、结语、推荐与广告已按序读至文件末。89877个原生字符分16组实读，全部版面分8张拼页核看，封面与广告页另看；3图像对象是封面、广告与黑色单像素，无额外未读图表。原目录页码属另一排版口径，原英文和外部推荐未核不补算。年级画像、80/20及效果百分比不作研究证据；真实共同活动与表达接入既有方法，操控与酒精路线不进入操作。"
-      }
+    "serial_order": [
+      "B076",
+      "save_B076_readable_notes_scope_and_unresolved_checkpoint"
     ],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B074_B075_validation_2026-11-13.json",
-      "B074_source_identity_and_contiguous_provided_scope": true,
-      "B075_source_identity_and_contiguous_provided_scope": true,
-      "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
-      "new_exact_source_section_bindings": {
-        "B074": 91,
-        "B075": 85
-      },
-      "only_B074_B075_reading_records_advanced": true,
-      "focused_method_section_queries_passed": 12,
-      "file_reference_does_not_authorize_unbound_method": true,
-      "progress72_actual70_plus_two_explicit_closures_next_B076": true,
-      "B074_notes_scope_and_checkpoint_saved_before_B075_body": true,
-      "prior_maintenance_and_reading_history_preserved": true,
-      "only_expected_twenty_knowledge_and_progress_files_changed": true,
+      "reading_metadata_validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+      "source_identity_and_contiguous_OCR_output_ranges_checked": true,
+      "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
+      "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
+      "publisher_imprint_uncertainty_preserved": true,
+      "new_original_note_groups": 34,
+      "new_exact_method_section_bindings": 98,
+      "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
+      "only_B076_reading_record_changed_to_partial": true,
+      "completed_ratio72_unchanged_one_partial46_unread": true,
+      "no_new_scope_closure_and_B077_body_unopened": true,
+      "last_completed_session_maintenance_and_reading_history_preserved": true,
+      "focused_retrieval_queries_passed": 8,
+      "unbound_method_excludes_new_file": true,
+      "only_expected_sixteen_knowledge_and_progress_files_changed": true,
       "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
       "validate_os": true,
       "unittest_methods_passed": 92
@@ -2557,10 +2527,10 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 72,
+    "started": 73,
     "current_file_text_complete": 72,
-    "partial": 0,
-    "unread": 47,
+    "partial": 1,
+    "unread": 46,
     "not_unique_original_works_or_training_completion": true,
     "reported_numerator": 72,
     "reported_denominator": 119,
@@ -2588,7 +2558,9 @@
       "report_started_complete_partial_unread_together": true
     }
   ],
-  "unfinished_file_queue": [],
+  "unfinished_file_queue": [
+    "B076"
+  ],
   "reading_session_history": [
     {
       "work_type": "close_oldest_unfinished_file",
@@ -5216,5 +5188,62 @@
         }
       }
     }
-  ]
+  ],
+  "last_partial_reading_session": {
+    "date": "2026-11-13",
+    "report": "knowledge/provenance/B076_progress_2026-11-13.md",
+    "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+    "current_session_progress": {
+      "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
+      "work_type": "read_current_supplied_file_and_preserve_unresolved_scan_gaps",
+      "new_book_files_started": [
+        "B076"
+      ],
+      "new_book_files_completed": [],
+      "actually_completed_file_ids": [],
+      "new_whole_book_files_actually_read": 0,
+      "user_accepted_scope_closure_ids": [],
+      "new_native_characters_read": 0,
+      "new_OCR_characters_read": 54666,
+      "new_unique_original_visual_pages": 188,
+      "new_EPUB_spine_items_read": 0,
+      "original_note_groups": 34,
+      "new_method_source_bindings": 98,
+      "new_method_operations": [],
+      "all_current_file_content_read": false,
+      "unresolved_file_pages": [
+        161,
+        163,
+        165
+      ],
+      "uncertain_publisher_imprint_page": 1,
+      "next_book_body_opened": false,
+      "original_edition_completeness_not_asserted": true,
+      "serial_order": [
+        "B076",
+        "save_B076_readable_notes_scope_and_unresolved_checkpoint"
+      ],
+      "checks": {
+        "status": "passed",
+        "reading_metadata_validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+        "source_identity_and_contiguous_OCR_output_ranges_checked": true,
+        "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
+        "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
+        "publisher_imprint_uncertainty_preserved": true,
+        "new_original_note_groups": 34,
+        "new_exact_method_section_bindings": 98,
+        "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
+        "only_B076_reading_record_changed_to_partial": true,
+        "completed_ratio72_unchanged_one_partial46_unread": true,
+        "no_new_scope_closure_and_B077_body_unopened": true,
+        "last_completed_session_maintenance_and_reading_history_preserved": true,
+        "focused_retrieval_queries_passed": 8,
+        "unbound_method_excludes_new_file": true,
+        "only_expected_sixteen_knowledge_and_progress_files_changed": true,
+        "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+        "validate_os": true,
+        "unittest_methods_passed": 92
+      }
+    }
+  }
 }

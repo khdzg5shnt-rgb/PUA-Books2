@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "f1a028b80a2888539b866c972669f7fc435dda81",
+  "completed_file_ids": [],
+  "partial_file_ids": [
+    "B076"
+  ],
+  "checks": {
+    "source_identity_and_contiguous_OCR_output_ranges_checked": true,
+    "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
+    "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
+    "publisher_imprint_uncertainty_preserved": true,
+    "new_original_note_groups": 34,
+    "new_exact_method_section_bindings": 98,
+    "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
+    "only_B076_reading_record_changed_to_partial": true,
+    "completed_ratio72_unchanged_one_partial46_unread": true,
+    "no_new_scope_closure_and_B077_body_unopened": true,
+    "last_completed_session_maintenance_and_reading_history_preserved": true,
+    "focused_retrieval_queries_passed": 8,
+    "unbound_method_excludes_new_file": true,
+    "only_expected_sixteen_knowledge_and_progress_files_changed": true,
+    "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+    "validate_os": true,
+    "unittest_methods_passed": 92
+  },
+  "focused_retrieval": [
+    {
+      "method": "M01",
+      "query": "小动作",
+      "path": "knowledge/books/B076.md",
+      "heading": "小动作不能直接读出动机",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M08"
+      ]
+    },
+    {
+      "method": "M22",
+      "query": "消费预算",
+      "path": "knowledge/books/B076.md",
+      "heading": "消费预算可以直接商量",
+      "query_matched": true,
+      "section_method_ids": [
+        "M14",
+        "M15",
+        "M22"
+      ]
+    },
+    {
+      "method": "M24",
+      "query": "谁买单",
+      "path": "knowledge/books/B076.md",
+      "heading": "谁买单不能单独判断感情",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "method": "M20",
+      "query": "改称呼",
+      "path": "knowledge/books/B076.md",
+      "heading": "改称呼和改立场是两回事",
+      "query_matched": true,
+      "section_method_ids": [
+        "M20",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "method": "M11",
+      "query": "真实情绪",
+      "path": "knowledge/books/B076.md",
+      "heading": "真实情绪不按强弱排位",
+      "query_matched": true,
+      "section_method_ids": [
+        "M04",
+        "M11",
+        "M13",
+        "M22"
+      ]
+    },
+    {
+      "method": "M04",
+      "query": "共同内容",
+      "path": "knowledge/books/B076.md",
+      "heading": "接共同内容再露一点自己",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "method": "M09",
+      "query": "具体欣赏",
+      "path": "knowledge/books/B076.md",
+      "heading": "具体欣赏不拐弯贬人",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M09",
+        "M26"
+      ]
+    },
+    {
+      "method": "M19",
+      "query": "持续单边",
+      "path": "knowledge/books/B076.md",
+      "heading": "持续单边时停止加码",
+      "query_matched": true,
+      "section_method_ids": [
+        "M02",
+        "M19",
+        "M26"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 92
+    }
+  ],
+  "source_legibility": "Unresolved; checks passed does not mean B076 is complete.",
+  "scope": "Provenance, metadata, section retrieval and synthetic routing only; not proof of reading ability, psychological mechanisms, real screenshots or romantic outcomes."
+}

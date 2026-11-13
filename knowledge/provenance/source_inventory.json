@@ -14094,8 +14094,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%AD%A3%E5%A6%B9%E5%BF%83%E7%90%86%E5%AD%A6%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_partial",
+      "note": "knowledge/books/B076.md",
       "pages": 188,
       "spine_items": null,
       "ocr": {
@@ -14124,7 +14124,29 @@
         ],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+      "coverage_mode": "all188_page_images_seen_readable_text_reviewed_unresolved_damaged_scans",
+      "completion_kind": "not_complete_due_to_unresolved_current_scan_pages",
+      "all_current_file_content_read": false,
+      "source_sha256": "3a583310088615ab819c7c9be3ccc33fc6481ce29f7f5b4b01f0688a6a3fa4ca",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
+        "native_characters": 0,
+        "OCR_output_characters_read": 54666,
+        "original_visual_pages_seen": 188,
+        "all_current_file_content_read": false,
+        "unresolved_scan_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "note_groups": 34,
+        "exact_method_section_bindings": 98,
+        "scope": "All supplied OCR output and page images reviewed; damaged source pages remain unresolved. Not a completed file."
+      }
     },
     {
       "index": 77,
@@ -15394,5 +15416,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B074_B075 supplied files read sequentially; 174126 native characters, 62 original note groups and 176 exact method-section bindings. 72/119 = 70 actually read supplied files plus B017/B039 scope closures; 47 unread. Next B076; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B076 readable supplied content integrated; 54666 OCR output characters read and all188 page images viewed, 34 original note groups and 98 exact method-section bindings. Damaged scan pages161/163/165 unresolved; title-page publisher imprint uncertain. Completed72/119 remains70 actually read files plus B017/B039 explicit scope closures; one partial file,46 unread. B076 stays first unfinished; B077 body unopened."
 }

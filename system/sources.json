@@ -868,9 +868,13 @@
       "group": "books2_original_snapshot",
       "title": "正妹心理学 - 郑匡宇.pdf",
       "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_partial",
+      "local_entry": "knowledge/books/B076.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+      "coverage_mode": "all188_page_images_seen_readable_text_reviewed_unresolved_damaged_scans",
+      "completion_kind": "not_complete_due_to_unresolved_current_scan_pages",
+      "all_current_file_content_read": false
     },
     {
       "id": "B077",
@@ -1663,8 +1667,8 @@
     "public_github_sources": 9,
     "source_records": 158,
     "current_book_files_text_complete": 72,
-    "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 47
+    "current_book_files_text_partial": 1,
+    "current_book_files_not_started": 46
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
@@ -1674,12 +1678,18 @@
     "bytes": 4989891,
     "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "unread",
-    "next_file_page": 1,
+    "reading_status": "provided_file_text_partial",
+    "next_file_page": 161,
     "next_spine_item": null,
-    "next_character": 0,
-    "start": "B075当前提供内容、原创笔记和范围已保存；下一唯一主读B076。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B076 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "next_character": null,
+    "unresolved_file_pages": [
+      161,
+      163,
+      165
+    ],
+    "uncertain_publisher_imprint_page": 1,
+    "start": "B076全部188页图像与可读内容已处理并保存原创笔记；P161/163/165扫描原义未明，P1出版小字未核，不计完成。B077正文未打开。",
+    "next_content_unit": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically."
   },
   "deferred_work_units": []
 }
