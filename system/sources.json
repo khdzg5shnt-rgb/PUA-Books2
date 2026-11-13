@@ -1021,9 +1021,15 @@
       "group": "books2_original_snapshot",
       "title": "潘多拉魔盒 - 迪卡洛.pdf",
       "git_blob_sha": "7cbe824423db6b30b518d475071f3f0fb591de02",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B085.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B085_reading_2026-11-14.json",
+      "coverage_mode": "all188_page_native_text_unique_cover_image_read_12_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all188_page_native_text_and_unique_cover_image_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true
     },
     {
       "id": "B086",
@@ -1734,23 +1740,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 81,
+    "current_book_files_text_complete": 82,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 38
+    "current_book_files_not_started": 37
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B085",
-    "path": "潘多拉魔盒 - 迪卡洛.pdf",
-    "bytes": 2030121,
-    "git_blob_sha": "7cbe824423db6b30b518d475071f3f0fb591de02",
+    "id": "B086",
+    "path": "灵丹妙药 - 恋爱体系.pdf",
+    "bytes": 1834481,
+    "git_blob_sha": "a2af4f30bfb086ca88cac0bbc4446a2c501fee1e",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B083先保存并提交，随后B084完整提供内容、笔记与范围已保存。下一唯一主读B085，正文未打开。",
-    "next_content_unit": "Read B085 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question."
+    "start": "B085当前提供188页文字、封面图、原创笔记和范围已保存；下一唯一主读B086，正文未打开。",
+    "next_content_unit": "Read B086 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question."
   },
   "deferred_work_units": []
 }
