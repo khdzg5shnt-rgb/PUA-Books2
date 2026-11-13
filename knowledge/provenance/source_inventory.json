@@ -14275,8 +14275,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%AE%9E%E6%88%98%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B078.md",
       "pages": null,
       "spine_items": 13,
       "ocr": {
@@ -14284,7 +14284,31 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B078_reading_2026-11-13.json",
+      "coverage_mode": "all12_nonempty_text_items_and_empty13th_item_read_referenced_original_images_not_supplied",
+      "completion_kind": "actual_supplied_EPUB_all13_spine_items_including_empty_tail_read_no_images_supplied",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true,
+      "source_sha256": "91fc0e7e8fc3fe635997846fd9ada74b5db3dd2d7dd63e2ab7626df29e2e0131",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B078_reading_2026-11-13.json",
+        "normalized_native_characters": 54681,
+        "spine_items": 13,
+        "nonempty_spine_items": 12,
+        "empty_tail_item": 13,
+        "all_current_file_content_read": true,
+        "known_unread_current_content": [],
+        "unprovided_original_images": [
+          "第五章第5例图示",
+          "第五章第6例所称附图"
+        ],
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 20,
+        "new_exact_method_section_bindings": 17
+      }
     },
     {
       "index": 79,
@@ -15506,5 +15530,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B076 closed under the general user unreadable-scan policy; B077 actually read all99 native text pages and its only embedded cover image, 20 original critical notes, 17 exact method-section bindings. 74/119 finished tasks=71 actually read files+3 user scope closures. Next B078, body unopened."
+  "latest_reading_update": "2026-11-13: B078 all13 EPUB items read in order, including12 nonempty items and an empty tail; 54681 normalized text characters, 20 original critical note groups, 17 exact method-section bindings. 75/119 finished tasks=72 actual supplied-file reads+3 user scope closures. No new scope closure; next B079 body unopened."
 }

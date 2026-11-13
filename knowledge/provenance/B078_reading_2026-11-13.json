@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "315993b19e7712998358ae0367680b8ae852d054",
+  "id": "B078",
+  "path": "泡妞实战速查手册.epub",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%AE%9E%E6%88%98%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.epub",
+  "bytes": 84873,
+  "git_blob_sha": "971dbfccc2bcc4f27e4ef20c12a8826db346764a",
+  "source_sha256": "91fc0e7e8fc3fe635997846fd9ada74b5db3dd2d7dd63e2ab7626df29e2e0131",
+  "EPUB_rootfile": "OEBPS/content.opf",
+  "OPF_metadata": [
+    {
+      "name": "creator",
+      "text": "泡学爱好者",
+      "attributes": {
+        "{http://www.idpf.org/2007/opf}role": "aut"
+      }
+    },
+    {
+      "name": "language",
+      "text": "zh-CN",
+      "attributes": {}
+    },
+    {
+      "name": "title",
+      "text": "泡妞实战速查手册",
+      "attributes": {}
+    },
+    {
+      "name": "meta",
+      "text": "",
+      "attributes": {
+        "content": "0.9.5",
+        "name": "Sigil version"
+      }
+    },
+    {
+      "name": "date",
+      "text": "2018-08-26",
+      "attributes": {
+        "{http://www.idpf.org/2007/opf}event": "modification"
+      }
+    },
+    {
+      "name": "identifier",
+      "text": "urn:uuid:20849f10-c96e-4da7-ac2e-90a4c279ab5e",
+      "attributes": {
+        "id": "BookId",
+        "{http://www.idpf.org/2007/opf}scheme": "UUID"
+      }
+    }
+  ],
+  "native_extraction": {
+    "engine": "lxml HTML body.itertext in OPF spine order",
+    "normalization": "strip each nonempty text node; join with LF and append LF per item; scripts/styles excluded",
+    "normalized_text_characters": 54681,
+    "empty_tail_separator_characters": 1,
+    "stream_characters": 55130,
+    "stream_sha256": "9f0bd1edd1ff7308d8e616103658d600a7ebb1ff85b96b2d7a90c46e435e7a70",
+    "coordinates": "Unicode codepoints; marked-stream half-open unit ranges",
+    "replacement_characters": 0,
+    "initial_screening_counts_preserved_separately": true
+  },
+  "actually_read_spine_items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "nonempty_spine_items_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "empty_tail_item": 13,
+  "tail_HTML_body_verified_empty": true,
+  "navigation": [
+    {
+      "label": "泡妞实战速查手册",
+      "target": "Text/0.html"
+    },
+    {
+      "label": "序",
+      "target": "Text/1.html"
+    },
+    {
+      "label": "第一章 开场套路",
+      "target": "Text/2.html"
+    },
+    {
+      "label": "第二章 过渡套路（DHV)",
+      "target": "Text/3.html"
+    },
+    {
+      "label": "第三章 建立吸引力",
+      "target": "Text/4.html"
+    },
+    {
+      "label": "第四章 获取舒适感",
+      "target": "Text/5.html"
+    },
+    {
+      "label": "第五章 Kino套路",
+      "target": "Text/6.html"
+    },
+    {
+      "label": "第六章 如何应对废物测试",
+      "target": "Text/7.html"
+    },
+    {
+      "label": "第七章 经典打压套路",
+      "target": "Text/8.html"
+    },
+    {
+      "label": "第八章 经典冷读套路",
+      "target": "Text/9.html"
+    },
+    {
+      "label": "第九章 诱惑套路",
+      "target": "Text/10.html"
+    },
+    {
+      "label": "第十章 长期关系套路",
+      "target": "Text/11.html"
+    }
+  ],
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "id": "x0.html",
+      "path": "OEBPS/Text/0.html",
+      "headings": [
+        "泡妞实战速查手册"
+      ],
+      "characters": 18,
+      "text_sha256": "ef2cf9d346815a2469e9fcf62e7390575639514e67ef8c4d0624a7b9c81d5ed6",
+      "stream_range": [
+        0,
+        52
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 2,
+      "id": "x1.html",
+      "path": "OEBPS/Text/1.html",
+      "headings": [
+        "序"
+      ],
+      "characters": 1216,
+      "text_sha256": "dde85215ae0c7a33b6f775e88a30a555dddfb24dc955cdce27ccb41a65e37ba2",
+      "stream_range": [
+        52,
+        1302
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 3,
+      "id": "x2.html",
+      "path": "OEBPS/Text/2.html",
+      "headings": [
+        "第一章 开场套路"
+      ],
+      "characters": 5830,
+      "text_sha256": "264ce13166b2708505b92f9f737bdae0806d197a7801be6d7c8887d6e7df868e",
+      "stream_range": [
+        1302,
+        7166
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 4,
+      "id": "x3.html",
+      "path": "OEBPS/Text/3.html",
+      "headings": [
+        "第二章 过渡套路（DHV)"
+      ],
+      "characters": 5370,
+      "text_sha256": "caac6c4abcd7df1607a8798e48c3df201667e22795bc73bbdc071288551aac48",
+      "stream_range": [
+        7166,
+        12570
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 5,
+      "id": "x4.html",
+      "path": "OEBPS/Text/4.html",
+      "headings": [
+        "第三章 建立吸引力"
+      ],
+      "characters": 6406,
+      "text_sha256": "4623ef91dee9813fff5a452e41adb0fd249b2e838519248d877cf900fa9014fe",
+      "stream_range": [
+        12570,
+        19010
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 6,
+      "id": "x5.html",
+      "path": "OEBPS/Text/5.html",
+      "headings": [
+        "第四章 获取舒适感"
+      ],
+      "characters": 2594,
+      "text_sha256": "289261f1c834bf7dc586051daf6c155de4427850a0d676952757c6f70ab52825",
+      "stream_range": [
+        19010,
+        21638
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 7,
+      "id": "x6.html",
+      "path": "OEBPS/Text/6.html",
+      "headings": [
+        "第五章 Kino套路"
+      ],
+      "characters": 3194,
+      "text_sha256": "90d440ab0c3fbf0e916fe6975b35063f3efb818cc7cd11b0c76e6f08f9ff4a34",
+      "stream_range": [
+        21638,
+        24866
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 8,
+      "id": "x7.html",
+      "path": "OEBPS/Text/7.html",
+      "headings": [
+        "第六章 如何应对废物测试"
+      ],
+      "characters": 5668,
+      "text_sha256": "73b26ed4aa203534c2d2639f439c7fd3ab43963f49073cdd2d5dfcdde0e04063",
+      "stream_range": [
+        24866,
+        30568
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 9,
+      "id": "x8.html",
+      "path": "OEBPS/Text/8.html",
+      "headings": [
+        "第七章 经典打压套路"
+      ],
+      "characters": 5621,
+      "text_sha256": "d30ee4e933a9fc1539f9c6179c65e3ec7b15b784b31f100b85943aec2bbaf0aa",
+      "stream_range": [
+        30568,
+        36223
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 10,
+      "id": "x9.html",
+      "path": "OEBPS/Text/9.html",
+      "headings": [
+        "第八章  经典冷读套路"
+      ],
+      "characters": 9092,
+      "text_sha256": "afd1dcf2f66fd49b57095cdb3e9d386ce0ec9fb996f066b20e19715a36965eba",
+      "stream_range": [
+        36223,
+        45350
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 11,
+      "id": "x10.html",
+      "path": "OEBPS/Text/10.html",
+      "headings": [
+        "第九章 诱惑套路"
+      ],
+      "characters": 4288,
+      "text_sha256": "53237fa59894dd8919e35d4552c52dcf8582a817b011b48270cacd2e1d16285d",
+      "stream_range": [
+        45350,
+        49674
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 12,
+      "id": "x11.html",
+      "path": "OEBPS/Text/11.html",
+      "headings": [
+        "第十章 长期关系套路"
+      ],
+      "characters": 5383,
+      "text_sha256": "7c8ee0609bd9eb44e471419006a42391778f3a13dad4f2ee1d48352afc28e607",
+      "stream_range": [
+        49674,
+        55093
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    },
+    {
+      "spine_item": 13,
+      "id": "x12.html",
+      "path": "OEBPS/Text/12.html",
+      "headings": [],
+      "characters": 1,
+      "text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "stream_range": [
+        55093,
+        55130
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true
+    }
+  ],
+  "zip_entries": [
+    "mimetype",
+    "META-INF/container.xml",
+    "OEBPS/content.opf",
+    "OEBPS/Styles/ebook.css",
+    "OEBPS/Text/0.html",
+    "OEBPS/Text/1.html",
+    "OEBPS/Text/10.html",
+    "OEBPS/Text/11.html",
+    "OEBPS/Text/12.html",
+    "OEBPS/Text/2.html",
+    "OEBPS/Text/3.html",
+    "OEBPS/Text/4.html",
+    "OEBPS/Text/5.html",
+    "OEBPS/Text/6.html",
+    "OEBPS/Text/7.html",
+    "OEBPS/Text/8.html",
+    "OEBPS/Text/9.html",
+    "OEBPS/toc.ncx"
+  ],
+  "embedded_or_inline_media_items": [],
+  "extra_nonspine_text_items": [],
+  "references_to_unprovided_original_images": [
+    {
+      "spine_item": 7,
+      "source_locator": "第五章第5例",
+      "kind": "图示未提供"
+    },
+    {
+      "spine_item": 7,
+      "source_locator": "第五章第6例",
+      "kind": "所称附图未提供"
+    }
+  ],
+  "unprovided_original_images_claimed_read": false,
+  "unprovided_original_images_block_next_file": false,
+  "known_literal_source_defects": [
+    "第八章UU女段保留未完句",
+    "第八章编号71—72为分行延续",
+    "多处重复材料与排版残字"
+  ],
+  "literal_source_defects_silently_reconstructed": false,
+  "all_current_file_content_read": true,
+  "known_unread_current_content": [],
+  "current_file_completion_kind": "actual_supplied_EPUB_all13_spine_items_including_empty_tail_read_no_images_supplied",
+  "original_edition_completeness_verified": false,
+  "new_scope_closure": false,
+  "OCR_run": false,
+  "new_original_note_groups": 20,
+  "new_exact_method_section_bindings": 17,
+  "notes": [
+    {
+      "heading": "开场用真实情境也可直接认识",
+      "source_locator": "顺序项3，第一章开场结构与各场所例。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "公共场合先核是否方便交谈",
+      "source_locator": "顺序项3，自习室、图书馆、公交、咖啡厅、广场和街搭。",
+      "bound_methods": []
+    },
+    {
+      "heading": "过渡分享一件真实相关的事",
+      "source_locator": "顺序项4，第二章框架、22项原则与例说。",
+      "bound_methods": [
+        "M10"
+      ]
+    },
+    {
+      "heading": "共同梗和角色由双方一起接",
+      "source_locator": "顺序项5，第三章第4、9、10类；顺序项6，第4—5例。",
+      "bound_methods": [
+        "M05",
+        "M07"
+      ]
+    },
+    {
+      "heading": "玩笑可以把笑点放在自己",
+      "source_locator": "顺序项5，骄傲风趣与误解；顺序项6，第4—5例；顺序项8—9的应答材料。",
+      "bound_methods": [
+        "M06"
+      ]
+    },
+    {
+      "heading": "具体欣赏不先制造自我怀疑",
+      "source_locator": "顺序项5，第12类；顺序项6，培养舒适感；顺序项9，打压理论；顺序项10，潜力奉承。",
+      "bound_methods": [
+        "M09"
+      ]
+    },
+    {
+      "heading": "先分清提问求助和边界",
+      "source_locator": "顺序项8，第六章五分类与50组应答。",
+      "bound_methods": [
+        "M04"
+      ]
+    },
+    {
+      "heading": "愿意帮忙不用换取配合",
+      "source_locator": "顺序项8，劳务服从分类及求助应答；顺序项12，长期关系准则。",
+      "bound_methods": [
+        "M13"
+      ]
+    },
+    {
+      "heading": "有依据的观察始终允许纠正",
+      "source_locator": "顺序项10，第八章定义、具体使用及112条编号材料。",
+      "bound_methods": [
+        "M08",
+        "M20"
+      ]
+    },
+    {
+      "heading": "困扰先听实际内容而非给保证",
+      "source_locator": "顺序项10，同步呼吸与武断劝慰；顺序项12，疏导情绪及第7例。",
+      "bound_methods": [
+        "M11"
+      ]
+    },
+    {
+      "heading": "真实邀约说清愿意参加什么",
+      "source_locator": "顺序项4，第7—8类；顺序项5，第13—16类；顺序项12，第2—3例。",
+      "bound_methods": [
+        "M14"
+      ]
+    },
+    {
+      "heading": "说定后的可靠比反差更具体",
+      "source_locator": "顺序项12，第3—4例和不可预测准则。",
+      "bound_methods": [
+        "M15"
+      ]
+    },
+    {
+      "heading": "边界管理自己的参与",
+      "source_locator": "顺序项4，无需求感与准则；顺序项12，框架四等级和人格独立。",
+      "bound_methods": [
+        "M22"
+      ]
+    },
+    {
+      "heading": "不把单边维持变成冷落训练",
+      "source_locator": "顺序项5，悬念、猫绳与丢失宠物类；顺序项9，情感投资；顺序项12，发情绪准则。",
+      "bound_methods": [
+        "M19"
+      ]
+    },
+    {
+      "heading": "拒绝与纠正不改写为喜欢",
+      "source_locator": "顺序项6，沉默与讨厌的例说；顺序项8，第25—33、42、50组；顺序项12，第6例。",
+      "bound_methods": [
+        "M23"
+      ]
+    },
+    {
+      "heading": "熟悉气氛和游戏不代替同意",
+      "source_locator": "顺序项6，第9例；顺序项7，12组身体接触例说；顺序项11，诱惑理论及例说。",
+      "bound_methods": []
+    },
+    {
+      "heading": "有实际伤害才对那件事负责",
+      "source_locator": "顺序项9，打压过度的道歉段；顺序项12，第5、7例。",
+      "bound_methods": [
+        "M21"
+      ]
+    },
+    {
+      "heading": "共同活动不是人格测验",
+      "source_locator": "顺序项9，脑筋急转弯；顺序项10，九类使用与编号7—9等材料。",
+      "bound_methods": []
+    },
+    {
+      "heading": "长期相处不索密码和控制社交",
+      "source_locator": "顺序项12，松紧有度与其他长期关系准则。",
+      "bound_methods": []
+    },
+    {
+      "heading": "来源汇编和机制声称分开记录",
+      "source_locator": "序、第二至三章理论、第六至十章全范围。",
+      "bound_methods": []
+    }
+  ],
+  "new_original_research_papers_verified": 0,
+  "new_APA_or_DOI_claims": 0,
+  "source_dialogues_images_private_narratives_or_coercive_scripts_newly_archived": false,
+  "next_book": "B079",
+  "next_book_body_opened": false
+}
