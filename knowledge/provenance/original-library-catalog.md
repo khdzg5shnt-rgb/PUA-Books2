@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成76/119份任务，无部分处理文件、43份未开始。73份实际读完当前提供内容，B017、B039、B076按用户授权结束，未读缺字保留。本轮实际读完B079《泡妞必杀技》24个顺序项和现有22章，整合26组原创笔记；下一唯一主读B080，正文未打开。读不出的扫描直接记录后跳过并计入完成，不再逐本询问。[本轮记录](B079_progress_2026-11-13.md)。
+当前完成77/119份任务，无部分处理文件、42份未开始。74份实际读完当前提供内容，B017、B039、B076按用户授权结束，未读缺字保留。本轮实际读完B080《泡秘》79页文字与两张封面图，整合20组原创笔记；下一唯一主读B081，正文未打开。读不出的扫描直接记录后跳过并计入完成，不再逐本询问。[本轮记录](B080_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -92,7 +92,7 @@
 | B077 | [泡丁解妞 - 斑马.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E4%B8%81%E8%A7%A3%E5%A6%9E%20-%20%E6%96%91%E9%A9%AC.pdf) | 99 | 当前提供文字及唯一封面图像已读；追加作者与原版完整性未核 | [20组笔记](../books/B077.md) |
 | B078 | [泡妞实战速查手册.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%AE%9E%E6%88%98%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.epub) | 13 | 题名、序、10章全文及空白尾项已读；原文所称图示未提供 | [20组笔记](../books/B078.md) |
 | B079 | [泡妞必杀技 - 爱情体系.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%BF%85%E6%9D%80%E6%8A%80%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.epub) | 24 | 题名、简介与22章现有内容已读；明确未译和未提供后续章节保留缺口 | [26组笔记](../books/B079.md) |
-| B080 | [泡秘 - 华山论剑.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E7%A7%98%20-%20%E5%8D%8E%E5%B1%B1%E8%AE%BA%E5%89%91.pdf) | 79 | 已提取/未读 | — |
+| B080 | [泡秘 - 华山论剑.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E7%A7%98%20-%20%E5%8D%8E%E5%B1%B1%E8%AE%BA%E5%89%91.pdf) | 79 | 全部提供文字及两张封面图已读，原版完整性未核 | [20组笔记](../books/B080.md) |
 | B081 | [海蒂性学报告 - 男人篇.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B5%B7%E8%92%82%E6%80%A7%E5%AD%A6%E6%8A%A5%E5%91%8A%20-%20%E7%94%B7%E4%BA%BA%E7%AF%87.pdf) | 242 | 已提取/未读 | — |
 | B082 | [消除搭讪焦虑【晚熟青年】.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B6%88%E9%99%A4%E6%90%AD%E8%AE%AA%E7%84%A6%E8%99%91%E3%80%90%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4%E3%80%91.pdf) | 29 | 已提取/未读 | — |
 | B083 | [游戏 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B8%B8%E6%88%8F%20-%20IN10SE.pdf) | 195 | 已提取/未读 | — |

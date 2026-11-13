@@ -946,9 +946,15 @@
       "group": "books2_original_snapshot",
       "title": "泡秘 - 华山论剑.pdf",
       "git_blob_sha": "8626a91ff6766799181f3f619e896f3766eae8ac",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B080.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B080_reading_2026-11-13.json",
+      "coverage_mode": "all79_native_text_pages_read_cover_images_on1_and79_viewed_six_other_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all79_native_text_pages_and_both_embedded_cover_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true
     },
     {
       "id": "B081",
@@ -1704,23 +1710,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 76,
+    "current_book_files_text_complete": 77,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 43
+    "current_book_files_not_started": 42
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B080",
-    "path": "泡秘 - 华山论剑.pdf",
-    "bytes": 1236719,
-    "git_blob_sha": "8626a91ff6766799181f3f619e896f3766eae8ac",
+    "id": "B081",
+    "path": "海蒂性学报告 - 男人篇.pdf",
+    "bytes": 1599345,
+    "git_blob_sha": "f7683c370883ee56cb72b4f7535177e5144aaee5",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B079全部24项提供内容、26组原创笔记和范围已保存；下一唯一主读B080，正文未打开。",
-    "next_content_unit": "Read B080 from file page1. Save current readable content notes, scope and next checkpoint before changing files. Under the user general policy, skip genuinely unreadable content without reasking, count scope closure in task progress and retain actual gaps."
+    "start": "B080全部79页现有文字与两张封面图、20组原创笔记和范围已保存；下一唯一主读B081，正文未打开。",
+    "next_content_unit": "Read B081 from file page1. Save current readable content notes, scope and next checkpoint before changing files. Under the user general policy, skip genuinely unreadable content without reasking, count scope closure in task progress and retain actual gaps."
   },
   "deferred_work_units": []
 }
