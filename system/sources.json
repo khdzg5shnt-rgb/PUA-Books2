@@ -1036,9 +1036,44 @@
       "group": "books2_original_snapshot",
       "title": "灵丹妙药 - 恋爱体系.pdf",
       "git_blob_sha": "a2af4f30bfb086ca88cac0bbc4446a2c501fee1e",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B086.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B086_reading_2026-11-14.json",
+      "coverage_mode": "all122_page_native_text_read_P45_clipped_table_gap_closed_under_standing_policy",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "counted_in_user_finished_tasks": true,
+      "completion_exception": {
+        "id": "B086",
+        "date": "2026-11-14",
+        "basis": "explicit_user_general_instruction_to_end_unreadable_content_without_reasking_and_count_finished_tasks",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "all_supplied_native_text_read": true,
+        "unread_scan_pages": [],
+        "unread_clipped_table_pages": [
+          45
+        ],
+        "known_gaps": [
+          {
+            "file_page": 45,
+            "kind": "source_table_right_edge_clipped",
+            "native_text_all_read": true,
+            "unknown_content": "partial fourth-channel header and cells; remainder of right-hand table not recoverable",
+            "recovery_attempts": [
+              "get_text with INFINITE_RECT on all122pages: no additional characters",
+              "expanded P45MediaBox rendering: same clipping"
+            ],
+            "further_recovery_not_required_by_standing_user_policy": true
+          }
+        ],
+        "additional_reading_credit_for_missing_table_content": 0
+      }
     },
     {
       "id": "B087",
@@ -1740,23 +1775,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 82,
+    "current_book_files_text_complete": 83,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 37
+    "current_book_files_not_started": 36
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B086",
-    "path": "灵丹妙药 - 恋爱体系.pdf",
-    "bytes": 1834481,
-    "git_blob_sha": "a2af4f30bfb086ca88cac0bbc4446a2c501fee1e",
+    "id": "B087",
+    "path": "现实世界的诱惑Real World Seduction中文版.pdf",
+    "bytes": 1530888,
+    "git_blob_sha": "abb523b41b530315761822a7a9940192d4bd470e",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B085当前提供188页文字、封面图、原创笔记和范围已保存；下一唯一主读B086，正文未打开。",
-    "next_content_unit": "Read B086 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question."
+    "start": "B086全部122页可读文字、原创笔记、P45裁切缺口及授权结束已保存；下一唯一主读B087，正文未打开。",
+    "next_content_unit": "Read B087 from physical file page1. Save readable content notes, exact scope and next checkpoint before changing files. Retain genuinely unreadable gaps and close under standing user policy without another question."
   },
   "deferred_work_units": []
 }

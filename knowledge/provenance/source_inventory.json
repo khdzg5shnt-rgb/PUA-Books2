@@ -14751,8 +14751,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%81%B5%E4%B8%B9%E5%A6%99%E8%8D%AF%20-%20%E6%81%8B%E7%88%B1%E4%BD%93%E7%B3%BB.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B086.md",
       "pages": 122,
       "spine_items": null,
       "ocr": {
@@ -14760,7 +14760,76 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B086_reading_2026-11-14.json",
+      "coverage_mode": "all122_page_native_text_read_P45_clipped_table_gap_closed_under_standing_policy",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "counted_in_user_finished_tasks": true,
+      "source_sha256": "f1097c93b022a544b267cfc2f41f84554f07ac7c43c9eb737d6f7e11ee1ee874",
+      "completion_exception": {
+        "id": "B086",
+        "date": "2026-11-14",
+        "basis": "explicit_user_general_instruction_to_end_unreadable_content_without_reasking_and_count_finished_tasks",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "all_supplied_native_text_read": true,
+        "unread_scan_pages": [],
+        "unread_clipped_table_pages": [
+          45
+        ],
+        "known_gaps": [
+          {
+            "file_page": 45,
+            "kind": "source_table_right_edge_clipped",
+            "native_text_all_read": true,
+            "unknown_content": "partial fourth-channel header and cells; remainder of right-hand table not recoverable",
+            "recovery_attempts": [
+              "get_text with INFINITE_RECT on all122pages: no additional characters",
+              "expanded P45MediaBox rendering: same clipping"
+            ],
+            "further_recovery_not_required_by_standing_user_policy": true
+          }
+        ],
+        "additional_reading_credit_for_missing_table_content": 0
+      },
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B086_reading_2026-11-14.json",
+        "native_characters": 148025,
+        "native_pages_read": 122,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          45,
+          122
+        ],
+        "unique_embedded_images": 0,
+        "whole_layout_visual_review": false,
+        "all_current_file_content_read": false,
+        "all_supplied_native_text_read": true,
+        "known_gaps": [
+          {
+            "file_page": 45,
+            "kind": "source_table_right_edge_clipped",
+            "native_text_all_read": true,
+            "unknown_content": "partial fourth-channel header and cells; remainder of right-hand table not recoverable",
+            "recovery_attempts": [
+              "get_text with INFINITE_RECT on all122pages: no additional characters",
+              "expanded P45MediaBox rendering: same clipping"
+            ],
+            "further_recovery_not_required_by_standing_user_policy": true
+          }
+        ],
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 35,
+        "new_exact_method_section_bindings": 45
+      }
     },
     {
       "index": 87,
@@ -15790,5 +15859,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B085 all188 supplied page text,63935nativecharacters,and unique cover image read;12layoutsamples;32originalcriticalnotes,18exactbindings.82/119=79actualsupplied-filecompletions+3prioruserclosures.No newclosure;nextB086bodyunopened.Original/sourceletterandlayoutambiguities preserved."
+  "latest_reading_update": "2026-11-14: B086 all122 supplied native-text pages read,148025nativecharacters;P45right-edgeclippedtablegap retained and task closed under standing user policy;35originalnotes,45exactbindings.83/119=79actualsupplied-filecompletions+4userclosures.NextB087bodyunopened."
 }
