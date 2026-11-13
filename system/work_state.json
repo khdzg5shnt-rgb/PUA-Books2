@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B076_readable_content_integrated_unresolved_damaged_scans",
+  "current_focus": "B076_current_binary_recovery_attempt_recorded",
   "status": "blocked_on_current_file_scan_legibility",
-  "base_commit": "f1a028b80a2888539b866c972669f7fc435dda81",
+  "base_commit": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B076_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B076_recovery_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
   "reading_bookmark": {
     "id": "B076",
     "path": "正妹心理学 - 郑匡宇.pdf",
@@ -31,21 +31,23 @@
   },
   "next_work": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically.",
   "current_session_progress": {
-    "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
-    "work_type": "read_current_supplied_file_and_preserve_unresolved_scan_gaps",
-    "new_book_files_started": [
+    "baseline": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+    "work_type": "current_scan_recovery_and_source_identity_crosscheck",
+    "reviewed_current_file_ids": [
       "B076"
     ],
+    "new_book_files_started": [],
     "new_book_files_completed": [],
     "actually_completed_file_ids": [],
     "new_whole_book_files_actually_read": 0,
     "user_accepted_scope_closure_ids": [],
     "new_native_characters_read": 0,
-    "new_OCR_characters_read": 54666,
-    "new_unique_original_visual_pages": 188,
+    "new_OCR_characters_read": 0,
+    "new_unique_original_visual_pages": 0,
     "new_EPUB_spine_items_read": 0,
-    "original_note_groups": 34,
-    "new_method_source_bindings": 98,
+    "repeated_current_scan_page_viewings": 6,
+    "original_note_groups": 0,
+    "new_method_source_bindings": 0,
     "new_method_operations": [],
     "all_current_file_content_read": false,
     "unresolved_file_pages": [
@@ -55,31 +57,12 @@
     ],
     "uncertain_publisher_imprint_page": 1,
     "next_book_body_opened": false,
-    "original_edition_completeness_not_asserted": true,
-    "serial_order": [
-      "B076",
-      "save_B076_readable_notes_scope_and_unresolved_checkpoint"
-    ],
+    "recovery_evidence": "knowledge/provenance/B076_recovery_2026-11-13.json",
     "checks": {
-      "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B076_validation_2026-11-13.json",
-      "source_identity_and_contiguous_OCR_output_ranges_checked": true,
-      "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
-      "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
-      "publisher_imprint_uncertainty_preserved": true,
-      "new_original_note_groups": 34,
-      "new_exact_method_section_bindings": 98,
-      "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
-      "only_B076_reading_record_changed_to_partial": true,
-      "completed_ratio72_unchanged_one_partial46_unread": true,
-      "no_new_scope_closure_and_B077_body_unopened": true,
-      "last_completed_session_maintenance_and_reading_history_preserved": true,
-      "focused_retrieval_queries_passed": 8,
-      "unbound_method_excludes_new_file": true,
-      "only_expected_sixteen_knowledge_and_progress_files_changed": true,
-      "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
-      "validate_os": true,
-      "unittest_methods_passed": 92
+      "status": "metadata_checked_shell_checks_not_rerun_environment_unavailable",
+      "reading_metadata_validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
+      "shell_checks_this_round": "not_run_environment_unavailable",
+      "previous_92_tests_not_claimed_as_this_round": true
     }
   },
   "last_reading_progress": {
@@ -5191,24 +5174,26 @@
   ],
   "last_partial_reading_session": {
     "date": "2026-11-13",
-    "report": "knowledge/provenance/B076_progress_2026-11-13.md",
-    "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+    "report": "knowledge/provenance/B076_recovery_progress_2026-11-13.md",
+    "validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
     "current_session_progress": {
-      "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
-      "work_type": "read_current_supplied_file_and_preserve_unresolved_scan_gaps",
-      "new_book_files_started": [
+      "baseline": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+      "work_type": "current_scan_recovery_and_source_identity_crosscheck",
+      "reviewed_current_file_ids": [
         "B076"
       ],
+      "new_book_files_started": [],
       "new_book_files_completed": [],
       "actually_completed_file_ids": [],
       "new_whole_book_files_actually_read": 0,
       "user_accepted_scope_closure_ids": [],
       "new_native_characters_read": 0,
-      "new_OCR_characters_read": 54666,
-      "new_unique_original_visual_pages": 188,
+      "new_OCR_characters_read": 0,
+      "new_unique_original_visual_pages": 0,
       "new_EPUB_spine_items_read": 0,
-      "original_note_groups": 34,
-      "new_method_source_bindings": 98,
+      "repeated_current_scan_page_viewings": 6,
+      "original_note_groups": 0,
+      "new_method_source_bindings": 0,
       "new_method_operations": [],
       "all_current_file_content_read": false,
       "unresolved_file_pages": [
@@ -5218,32 +5203,71 @@
       ],
       "uncertain_publisher_imprint_page": 1,
       "next_book_body_opened": false,
-      "original_edition_completeness_not_asserted": true,
-      "serial_order": [
-        "B076",
-        "save_B076_readable_notes_scope_and_unresolved_checkpoint"
-      ],
+      "recovery_evidence": "knowledge/provenance/B076_recovery_2026-11-13.json",
       "checks": {
-        "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B076_validation_2026-11-13.json",
-        "source_identity_and_contiguous_OCR_output_ranges_checked": true,
-        "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
-        "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
-        "publisher_imprint_uncertainty_preserved": true,
-        "new_original_note_groups": 34,
-        "new_exact_method_section_bindings": 98,
-        "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
-        "only_B076_reading_record_changed_to_partial": true,
-        "completed_ratio72_unchanged_one_partial46_unread": true,
-        "no_new_scope_closure_and_B077_body_unopened": true,
-        "last_completed_session_maintenance_and_reading_history_preserved": true,
-        "focused_retrieval_queries_passed": 8,
-        "unbound_method_excludes_new_file": true,
-        "only_expected_sixteen_knowledge_and_progress_files_changed": true,
-        "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
-        "validate_os": true,
-        "unittest_methods_passed": 92
+        "status": "metadata_checked_shell_checks_not_rerun_environment_unavailable",
+        "reading_metadata_validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
+        "shell_checks_this_round": "not_run_environment_unavailable",
+        "previous_92_tests_not_claimed_as_this_round": true
       }
     }
-  }
+  },
+  "partial_recovery_history": [
+    {
+      "report": "knowledge/provenance/B076_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
+        "work_type": "read_current_supplied_file_and_preserve_unresolved_scan_gaps",
+        "new_book_files_started": [
+          "B076"
+        ],
+        "new_book_files_completed": [],
+        "actually_completed_file_ids": [],
+        "new_whole_book_files_actually_read": 0,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 0,
+        "new_OCR_characters_read": 54666,
+        "new_unique_original_visual_pages": 188,
+        "new_EPUB_spine_items_read": 0,
+        "original_note_groups": 34,
+        "new_method_source_bindings": 98,
+        "new_method_operations": [],
+        "all_current_file_content_read": false,
+        "unresolved_file_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "serial_order": [
+          "B076",
+          "save_B076_readable_notes_scope_and_unresolved_checkpoint"
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+          "source_identity_and_contiguous_OCR_output_ranges_checked": true,
+          "all188_original_page_images_viewed_not_all_original_content_confirmed": true,
+          "damaged_scan_pages161_163_165_remain_unresolved_and_not_completed": true,
+          "publisher_imprint_uncertainty_preserved": true,
+          "new_original_note_groups": 34,
+          "new_exact_method_section_bindings": 98,
+          "existing_methods_operations_avoids_sources_and_preferred_sections_preserved": true,
+          "only_B076_reading_record_changed_to_partial": true,
+          "completed_ratio72_unchanged_one_partial46_unread": true,
+          "no_new_scope_closure_and_B077_body_unopened": true,
+          "last_completed_session_maintenance_and_reading_history_preserved": true,
+          "focused_retrieval_queries_passed": 8,
+          "unbound_method_excludes_new_file": true,
+          "only_expected_sixteen_knowledge_and_progress_files_changed": true,
+          "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+          "validate_os": true,
+          "unittest_methods_passed": 92
+        }
+      }
+    }
+  ]
 }

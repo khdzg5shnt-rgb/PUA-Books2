@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+  "id": "B076",
+  "source_git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+  "source_sha256": "3a583310088615ab819c7c9be3ccc33fc6481ce29f7f5b4b01f0688a6a3fa4ca",
+  "work_type": "bounded_current_scan_recovery_attempt",
+  "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+  "engines": {
+    "prior_MuPDF": "1.26.6",
+    "Poppler_pdftoppm": "26.05.0",
+    "Ghostscript": "10.05.1"
+  },
+  "commands": [
+    "pdftoppm -f 161 -l 166 -r 120 -png source.pdf page",
+    "gs -q -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pnggray -r120 -dFirstPage=161 -dLastPage=166 -sOutputFile=page-%03d.png source.pdf"
+  ],
+  "pages_actually_compared": [
+    {
+      "file_page": 161,
+      "source_image_xref": 480,
+      "source_image_compressed_bytes": 20830,
+      "content_recovered": false,
+      "renderings": [
+        {
+          "engine": "Poppler",
+          "dimensions": [
+            1118,
+            1743
+          ],
+          "image_sha256": "b7fcda9bf4ce41e1f35b9e7808de1a7eb50e205592664e5f39fe2e03c1cfa82d",
+          "grayscale_extrema": [
+            0,
+            255
+          ],
+          "actually_viewed": true
+        },
+        {
+          "engine": "Ghostscript",
+          "dimensions": [
+            1118,
+            1742
+          ],
+          "image_sha256": "3b161f443029f19998f9faedd96fbfbbec13fb070dafd254a20dd01db2c98bd5",
+          "grayscale_extrema": [
+            0,
+            255
+          ],
+          "actually_viewed": true
+        }
+      ]
+    },
+    {
+      "file_page": 163,
+      "source_image_xref": 486,
+      "source_image_compressed_bytes": 1487,
+      "content_recovered": false,
+      "renderings": [
+        {
+          "engine": "Poppler",
+          "dimensions": [
+            1118,
+            1743
+          ],
+          "image_sha256": "00ff1194c4d7aefb110f70883d0294d3d4fcda0cdaf707743d0fe72cc5665555",
+          "grayscale_extrema": [
+            0,
+            255
+          ],
+          "actually_viewed": true
+        },
+        {
+          "engine": "Ghostscript",
+          "dimensions": [
+            1118,
+            1742
+          ],
+          "image_sha256": "93c21465cb37eff750ee79068901645f2454d2bf388020b27e55ecef7a9da2de",
+          "grayscale_extrema": [
+            0,
+            255
+          ],
+          "actually_viewed": true
+        }
+      ]
+    },
+    {
+      "file_page": 165,
+      "source_image_xref": 492,
+      "source_image_compressed_bytes": 97,
+      "content_recovered": false,
+      "renderings": [
+        {
+          "engine": "Poppler",
+          "dimensions": [
+            1158,
+            1744
+          ],
+          "image_sha256": "bba2227463ce7690a08fa06c8db3d543217ccdfb4182383403917009e11f4010",
+          "grayscale_extrema": [
+            0,
+            0
+          ],
+          "actually_viewed": true
+        },
+        {
+          "engine": "Ghostscript",
+          "dimensions": [
+            1157,
+            1743
+          ],
+          "image_sha256": "a13fa4e7d40bd3b05b0a3cfd34f78959c10258640716b808355a3bad78b646fe",
+          "grayscale_extrema": [
+            0,
+            0
+          ],
+          "actually_viewed": true
+        }
+      ]
+    }
+  ],
+  "additional_GitHub_copies_checked_read_only": [
+    {
+      "repository": "Loongtze/puabooks",
+      "tree_sha": "de144b4d5fbc0112c9c8ed08ddd664ce3cde9fc6",
+      "path": "正妹心理学 - 郑匡宇.pdf",
+      "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+      "bytes": 4989891,
+      "tree_url": "https://api.github.com/repos/Loongtze/puabooks/git/trees/de144b4d5fbc0112c9c8ed08ddd664ce3cde9fc6?recursive=1",
+      "same_as_B076": true
+    },
+    {
+      "repository": "kaitofung/pua-books",
+      "tree_sha": "de144b4d5fbc0112c9c8ed08ddd664ce3cde9fc6",
+      "path": "正妹心理学 - 郑匡宇.pdf",
+      "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+      "bytes": 4989891,
+      "tree_url": "https://api.github.com/repos/kaitofung/pua-books/git/trees/de144b4d5fbc0112c9c8ed08ddd664ce3cde9fc6?recursive=1",
+      "same_as_B076": true
+    },
+    {
+      "repository": "kpivy8/loving-books",
+      "tree_sha": "1496e24cf9a824e04ef41434398efb6ebdd57bd1",
+      "path": "正妹心理学 - 郑匡宇.pdf",
+      "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+      "bytes": 4989891,
+      "tree_url": "https://api.github.com/repos/kpivy8/loving-books/git/trees/1496e24cf9a824e04ef41434398efb6ebdd57bd1?recursive=1",
+      "same_as_B076": true
+    }
+  ],
+  "alternative_website": {
+    "url": "https://chriszheng.science/pua-books/%E6%AD%A3%E5%A6%B9%E5%BF%83%E7%90%86%E5%AD%A6%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.pdf",
+    "direct_binary_download_HTTP_status": 403,
+    "binary_identity_verified": false,
+    "clearer_corresponding_page_obtained": false,
+    "cached_extraction_not_used_as_recovered_content": true
+  },
+  "catalogue_checks": [
+    {
+      "url": "https://www.cite.com.tw/book?id=12171",
+      "can_replace_scan_pages": false
+    },
+    {
+      "url": "https://e.dangdang.com/touch/products/1900088433.html",
+      "can_replace_scan_pages": false
+    }
+  ],
+  "project_TOP30_zip_filename_screening": {
+    "entries": 30,
+    "matching_title_or_author_entries": 0,
+    "new_book_bodies_opened": 0
+  },
+  "result": {
+    "new_completed_file_ids": [],
+    "new_original_note_groups": 0,
+    "new_method_source_bindings": 0,
+    "new_OCR_characters_read": 0,
+    "new_unique_original_pages_read": 0,
+    "repeated_current_scan_page_viewings": 6,
+    "all_current_file_content_read": false,
+    "unresolved_scan_pages": [
+      161,
+      163,
+      165
+    ],
+    "publisher_imprint_still_uncertain": true,
+    "reading_status": "provided_file_text_partial",
+    "completed_count": 72,
+    "partial_count": 1,
+    "unread_count": 46,
+    "new_user_scope_closure_authorized": false,
+    "B077_body_opened": false
+  },
+  "execution_environment": {
+    "became_unavailable_after_the_recovery_checks": true,
+    "local_patch_call_terminated_without_repo_changes_being_executed": true,
+    "results_saved_using_connected_GitHub_tools": true,
+    "required_shell_checks_this_round": "not_rerun_environment_unavailable"
+  },
+  "resume_policy": "Do not repeat the same OCR, inversion or byte-identical copies without new evidence. The current source remains partial. A genuinely clearer corresponding source or an explicit user scope decision is required before switching files.",
+  "scope": "Recovery evidence only; no restored original content, completed reading, new method or real-life efficacy is asserted."
+}

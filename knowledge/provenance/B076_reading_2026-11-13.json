@@ -6444,5 +6444,13 @@
   "next_work_unit_at_checkpoint": "B076",
   "next_unread_source_scan_page": 161,
   "B077_body_opened": false,
-  "checks_note": "Metadata and tests cannot establish illegible source content. This file is intentionally excluded from the completed numerator."
+  "checks_note": "Metadata and tests cannot establish illegible source content. This file is intentionally excluded from the completed numerator.",
+  "recovery_attempts": [
+    {
+      "date": "2026-11-13",
+      "baseline_main": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+      "evidence": "knowledge/provenance/B076_recovery_2026-11-13.json",
+      "result": "unresolved_no_completion_increment"
+    }
+  ]
 }

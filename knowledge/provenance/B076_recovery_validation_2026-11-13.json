@@ -1,0 +1,37 @@
+{
+  "status": "metadata_checks_passed_shell_checks_not_rerun_environment_unavailable",
+  "date": "2026-11-13",
+  "baseline_main": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+  "completed_file_ids": [],
+  "partial_file_ids": [
+    "B076"
+  ],
+  "checks": {
+    "source_blob_identity_preserved": true,
+    "completed72_partial1_unread46": true,
+    "bookmark_and_unfinished_queue_unchanged": true,
+    "no_new_user_scope_closure": true,
+    "B077_body_unopened": true,
+    "previous_completed_reading_and_maintenance_preserved": true,
+    "existing_note_headings_and_method_bindings_unchanged": true,
+    "new_notes0_new_bindings0": true,
+    "source_recovery_result_remains_unresolved": true
+  },
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "status": "not_run_environment_unavailable"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "status": "not_run_environment_unavailable"
+    }
+  ],
+  "previous_test_result": {
+    "validation": "knowledge/provenance/B076_validation_2026-11-13.json",
+    "tests": 92,
+    "status": "passed_in_previous_round_only"
+  },
+  "tree_verification": "Every changed Git blob, size and mode will be checked against this prepared manifest before the branch update. No deletes or unrelated changes authorized.",
+  "scope": "Metadata and repository-tree checks only; no assertion of recovered source content, current shell-test execution or psychological efficacy."
+}
