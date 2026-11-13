@@ -14323,8 +14323,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%BF%85%E6%9D%80%E6%8A%80%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B079.md",
       "pages": null,
       "spine_items": 24,
       "ocr": {
@@ -14332,7 +14332,49 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B079_reading_2026-11-13.json",
+      "coverage_mode": "all24_supplied_items_read_source_marked_untranslated_and_referenced_later_chapters_not_supplied",
+      "completion_kind": "actual_supplied_EPUB_all24_spine_items_and22_chapters_read_unprovided_sections_not_claimed",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true,
+      "source_sha256": "cfb01a20a757472a25057d64800b9f11e1abfd79e421a0242a65961c98315cc3",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B079_reading_2026-11-13.json",
+        "normalized_native_characters": 134067,
+        "spine_items": 24,
+        "nonempty_spine_items": 24,
+        "supplied_chapters": 22,
+        "all_current_file_content_read": true,
+        "known_unread_current_content": [],
+        "unprovided_original_sections": [
+          {
+            "spine_item": 5,
+            "source_locator": "第三章3.2进化生物学快速入门",
+            "status": "source_explicitly_untranslated"
+          },
+          {
+            "spine_item": 13,
+            "source_locator": "第十一章11.4—11.6；11.3后括注",
+            "status": "three_relationship_types_explicitly_untranslated"
+          },
+          {
+            "spine_item": 13,
+            "source_locator": "第十一章11.9.3后括注",
+            "status": "medium_and_low_commitment_management_explicitly_untranslated"
+          },
+          {
+            "spine_item": null,
+            "source_locator": "前文涉及第23—24章及第24章资源；本包止于22章",
+            "status": "referenced_later_chapters_not_supplied"
+          }
+        ],
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 26,
+        "new_exact_method_section_bindings": 17
+      }
     },
     {
       "index": 80,
@@ -15530,5 +15572,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B078 all13 EPUB items read in order, including12 nonempty items and an empty tail; 54681 normalized text characters, 20 original critical note groups, 17 exact method-section bindings. 75/119 finished tasks=72 actual supplied-file reads+3 user scope closures. No new scope closure; next B079 body unopened."
+  "latest_reading_update": "2026-11-13: B079 all24 supplied EPUB items and22 chapters read in order; 134067 normalized text characters, 26 original critical note groups, 17 exact method-section bindings. 76/119 finished tasks=73 actual supplied-file reads+3 user scope closures. Untranslated and referenced unprovided sections not claimed; next B080 body unopened."
 }

@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "0f62e8220fec4ac4ec5f3df8b784b4c5a429f4b5",
+  "id": "B079",
+  "path": "泡妞必杀技 - 爱情体系.epub",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%BF%85%E6%9D%80%E6%8A%80%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.epub",
+  "bytes": 183172,
+  "git_blob_sha": "f19fee996da89de9cac210fd2dd3028e00df1f81",
+  "source_sha256": "cfb01a20a757472a25057d64800b9f11e1abfd79e421a0242a65961c98315cc3",
+  "EPUB_rootfile": "OEBPS/content.opf",
+  "OPF_metadata": [
+    {
+      "name": "creator",
+      "text": "爱情体系",
+      "attributes": {
+        "{http://www.idpf.org/2007/opf}role": "aut"
+      }
+    },
+    {
+      "name": "language",
+      "text": "zh-CN",
+      "attributes": {}
+    },
+    {
+      "name": "title",
+      "text": "泡妞必杀技",
+      "attributes": {}
+    },
+    {
+      "name": "meta",
+      "text": "",
+      "attributes": {
+        "content": "0.9.5",
+        "name": "Sigil version"
+      }
+    },
+    {
+      "name": "date",
+      "text": "2018-08-26",
+      "attributes": {
+        "{http://www.idpf.org/2007/opf}event": "modification"
+      }
+    },
+    {
+      "name": "identifier",
+      "text": "urn:uuid:68d13b1d-8781-4fca-ba74-1d363cba20a9",
+      "attributes": {
+        "id": "BookId",
+        "{http://www.idpf.org/2007/opf}scheme": "UUID"
+      }
+    }
+  ],
+  "native_extraction": {
+    "engine": "lxml HTML body.itertext in OPF spine order",
+    "normalization": "strip each nonempty text node; join with LF and append LF per item; scripts/styles excluded",
+    "normalized_text_characters": 134067,
+    "stream_characters": 134912,
+    "stream_sha256": "ad3ced18d7531e7a0cb577375a69235e980b523e3d59b51006a63d372b8bb2fd",
+    "coordinates": "Unicode codepoints; marked-stream half-open unit ranges",
+    "replacement_characters": 0,
+    "initial_screening_counts_preserved_separately": true
+  },
+  "actually_read_spine_items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "navigation": [
+    {
+      "label": "泡妞必杀技",
+      "target": "Text/0.html"
+    },
+    {
+      "label": "简介",
+      "target": "Text/1.html"
+    },
+    {
+      "label": "第一章 怎样使用本书",
+      "target": "Text/2.html"
+    },
+    {
+      "label": "第二章 一个今晚就能使用的体系",
+      "target": "Text/3.html"
+    },
+    {
+      "label": "第三章 女性心理学",
+      "target": "Text/4.html"
+    },
+    {
+      "label": "第四章 模式概述",
+      "target": "Text/5.html"
+    },
+    {
+      "label": "第五章 开场白",
+      "target": "Text/6.html"
+    },
+    {
+      "label": "第六章 过渡",
+      "target": "Text/7.html"
+    },
+    {
+      "label": "第七章 吸引",
+      "target": "Text/8.html"
+    },
+    {
+      "label": "第八章 筛选",
+      "target": "Text/9.html"
+    },
+    {
+      "label": "第九章 舒适感",
+      "target": "Text/10.html"
+    },
+    {
+      "label": "第十章 诱惑",
+      "target": "Text/11.html"
+    },
+    {
+      "label": "第十一章 亲密关系",
+      "target": "Text/12.html"
+    },
+    {
+      "label": "第十二章 社交圈子",
+      "target": "Text/13.html"
+    },
+    {
+      "label": "第十三章 白天游戏",
+      "target": "Text/14.html"
+    },
+    {
+      "label": "第十四章 夜店",
+      "target": "Text/15.html"
+    },
+    {
+      "label": "第十五章 进挪(kino)升级",
+      "target": "Text/16.html"
+    },
+    {
+      "label": "第十六章 约会",
+      "target": "Text/17.html"
+    },
+    {
+      "label": "第十七章 讲故事",
+      "target": "Text/18.html"
+    },
+    {
+      "label": "第十八章 非语言交流",
+      "target": "Text/19.html"
+    },
+    {
+      "label": "第十九章 亲吻",
+      "target": "Text/20.html"
+    },
+    {
+      "label": "第二十章 时尚和美容",
+      "target": "Text/21.html"
+    },
+    {
+      "label": "第二十一章 僚机行动",
+      "target": "Text/22.html"
+    },
+    {
+      "label": "第二十二章 电话游戏",
+      "target": "Text/23.html"
+    }
+  ],
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "id": "x0.html",
+      "path": "OEBPS/Text/0.html",
+      "headings": [
+        "泡妞必杀技"
+      ],
+      "characters": 14,
+      "text_sha256": "f00aa812dd9cb483093d82703232b5ab26600b795fa5652a0ec1f08459adda67",
+      "stream_range": [
+        0,
+        48
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        14
+      ]
+    },
+    {
+      "spine_item": 2,
+      "id": "x1.html",
+      "path": "OEBPS/Text/1.html",
+      "headings": [
+        "简介"
+      ],
+      "characters": 5292,
+      "text_sha256": "32c188b4dbfdd8c1a72c3993248b0d786a0509d6fcc9a0bcd06dc34b9682600a",
+      "stream_range": [
+        48,
+        5374
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        5292
+      ]
+    },
+    {
+      "spine_item": 3,
+      "id": "x2.html",
+      "path": "OEBPS/Text/2.html",
+      "headings": [
+        "第一章 怎样使用本书"
+      ],
+      "characters": 753,
+      "text_sha256": "856725da8694866bfece4944aad9bec44547d11ca188e074b02026820838e2f9",
+      "stream_range": [
+        5374,
+        6161
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        753
+      ]
+    },
+    {
+      "spine_item": 4,
+      "id": "x3.html",
+      "path": "OEBPS/Text/3.html",
+      "headings": [
+        "第二章 一个今晚就能使用的体系"
+      ],
+      "characters": 4346,
+      "text_sha256": "6a4bcd53f67ec2af9187a746cdd227cb73d2540a8898bd2e44a7be8fdcf7ab07",
+      "stream_range": [
+        6161,
+        10541
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        4346
+      ]
+    },
+    {
+      "spine_item": 5,
+      "id": "x4.html",
+      "path": "OEBPS/Text/4.html",
+      "headings": [
+        "第三章 女性心理学"
+      ],
+      "characters": 11391,
+      "text_sha256": "dcbfe18725f03bdcab0f745bbdbda3d965ddde53db1788628fb9d87f7872078c",
+      "stream_range": [
+        10541,
+        21966
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        11391
+      ]
+    },
+    {
+      "spine_item": 6,
+      "id": "x5.html",
+      "path": "OEBPS/Text/5.html",
+      "headings": [
+        "第四章 模式概述"
+      ],
+      "characters": 3316,
+      "text_sha256": "213d28dd56862e5e1a54857b45f3ba064c85d5d2af52be90f54ba4ef60db8ae4",
+      "stream_range": [
+        21966,
+        25316
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3316
+      ]
+    },
+    {
+      "spine_item": 7,
+      "id": "x6.html",
+      "path": "OEBPS/Text/6.html",
+      "headings": [
+        "第五章 开场白"
+      ],
+      "characters": 10747,
+      "text_sha256": "2db1779ac13cae251753f284c48a633e4ba16e6b6e53b4a55c4c9f8c156d2065",
+      "stream_range": [
+        25316,
+        36097
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        10747
+      ]
+    },
+    {
+      "spine_item": 8,
+      "id": "x7.html",
+      "path": "OEBPS/Text/7.html",
+      "headings": [
+        "第六章 过渡"
+      ],
+      "characters": 3612,
+      "text_sha256": "c53d5ba01b47ecf6d288cd42e400ac7b5dfebaceead1008d866f0bf428ddb84f",
+      "stream_range": [
+        36097,
+        39743
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3612
+      ]
+    },
+    {
+      "spine_item": 9,
+      "id": "x8.html",
+      "path": "OEBPS/Text/8.html",
+      "headings": [
+        "第七章 吸引"
+      ],
+      "characters": 12572,
+      "text_sha256": "2a18f68c98a485016dbb15c72fdcc87f833bbee2e3c9237ba56ae5e5386e2d6e",
+      "stream_range": [
+        39743,
+        52349
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        12572
+      ]
+    },
+    {
+      "spine_item": 10,
+      "id": "x9.html",
+      "path": "OEBPS/Text/9.html",
+      "headings": [
+        "第八章  筛选"
+      ],
+      "characters": 6489,
+      "text_sha256": "d55706980382cab294696b517ee95ea9469575eccf559f587031875350e9832f",
+      "stream_range": [
+        52349,
+        58873
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        6489
+      ]
+    },
+    {
+      "spine_item": 11,
+      "id": "x10.html",
+      "path": "OEBPS/Text/10.html",
+      "headings": [
+        "第九章 舒适感"
+      ],
+      "characters": 10789,
+      "text_sha256": "04d8c463cc853e816917a11dce15283942f82f87999fc28465506f192ae231a7",
+      "stream_range": [
+        58873,
+        69698
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        10789
+      ]
+    },
+    {
+      "spine_item": 12,
+      "id": "x11.html",
+      "path": "OEBPS/Text/11.html",
+      "headings": [
+        "第十章 诱惑"
+      ],
+      "characters": 7955,
+      "text_sha256": "40e5bcf34c6facaf83420e775c9639ec66d4b364fbde8fed7b375251e2adfce4",
+      "stream_range": [
+        69698,
+        77689
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        7955
+      ]
+    },
+    {
+      "spine_item": 13,
+      "id": "x12.html",
+      "path": "OEBPS/Text/12.html",
+      "headings": [
+        "第十一章 亲密关系"
+      ],
+      "characters": 7992,
+      "text_sha256": "9b0d3e1f5a4f81275f0244c469121d4dd63c1700ed0e9c1ecbb1bda2651e16d7",
+      "stream_range": [
+        77689,
+        85717
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        7992
+      ]
+    },
+    {
+      "spine_item": 14,
+      "id": "x13.html",
+      "path": "OEBPS/Text/13.html",
+      "headings": [
+        "第十二章 社交圈子"
+      ],
+      "characters": 7576,
+      "text_sha256": "894de5cef805a7b59ee7f8a6b94cc6108a1360ba7939764df5fdbb230a8e5f52",
+      "stream_range": [
+        85717,
+        93329
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        7576
+      ]
+    },
+    {
+      "spine_item": 15,
+      "id": "x14.html",
+      "path": "OEBPS/Text/14.html",
+      "headings": [
+        "第十三章 白天游戏"
+      ],
+      "characters": 2442,
+      "text_sha256": "7609dd1054f91260715cb98119ebf0a6ed038af4de021ce058026a1933716469",
+      "stream_range": [
+        93329,
+        95807
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        2442
+      ]
+    },
+    {
+      "spine_item": 16,
+      "id": "x15.html",
+      "path": "OEBPS/Text/15.html",
+      "headings": [
+        "第十四章 夜店"
+      ],
+      "characters": 940,
+      "text_sha256": "0f21a2e5c766f1952c871492b1f76f1953d9be86f000924b24525e9563245bfd",
+      "stream_range": [
+        95807,
+        96783
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        940
+      ]
+    },
+    {
+      "spine_item": 17,
+      "id": "x16.html",
+      "path": "OEBPS/Text/16.html",
+      "headings": [
+        "第十五章 进挪(kino)升级"
+      ],
+      "characters": 3584,
+      "text_sha256": "b8c58b19e32b1be0b7c119bb2fe18d884f5a378c7136ce90b26df29403f5833f",
+      "stream_range": [
+        96783,
+        100403
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3584
+      ]
+    },
+    {
+      "spine_item": 18,
+      "id": "x17.html",
+      "path": "OEBPS/Text/17.html",
+      "headings": [
+        "第十六章 约会"
+      ],
+      "characters": 3447,
+      "text_sha256": "bebe375c8d4fa5bc5de93edad8d075bf5b86328aca4b78c84dc4bb88d88e4c18",
+      "stream_range": [
+        100403,
+        103886
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3447
+      ]
+    },
+    {
+      "spine_item": 19,
+      "id": "x18.html",
+      "path": "OEBPS/Text/18.html",
+      "headings": [
+        "第十七章 讲故事"
+      ],
+      "characters": 7674,
+      "text_sha256": "6862804b494c8dd1498606790d8106a2caa1d28a459b69e8eb511fa4fe290207",
+      "stream_range": [
+        103886,
+        111596
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        7674
+      ]
+    },
+    {
+      "spine_item": 20,
+      "id": "x19.html",
+      "path": "OEBPS/Text/19.html",
+      "headings": [
+        "第十八章 非语言交流"
+      ],
+      "characters": 3659,
+      "text_sha256": "d53e87480a6874e6d9f1a4cb0c5e39ca493d1f02cc84c4fe55f57e1a00470222",
+      "stream_range": [
+        111596,
+        115291
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3659
+      ]
+    },
+    {
+      "spine_item": 21,
+      "id": "x20.html",
+      "path": "OEBPS/Text/20.html",
+      "headings": [
+        "第十九章 亲吻"
+      ],
+      "characters": 3281,
+      "text_sha256": "58a4e75f8599c97aa18d02b99a23d4c18c311e186f00cf8c49e0f3a3bd6c672f",
+      "stream_range": [
+        115291,
+        118608
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        3281
+      ]
+    },
+    {
+      "spine_item": 22,
+      "id": "x21.html",
+      "path": "OEBPS/Text/21.html",
+      "headings": [
+        "第二十章 时尚和美容"
+      ],
+      "characters": 4606,
+      "text_sha256": "4262e775aa9f8c84399e7c515ce3634a9fa44d01e77455930ebe534d2a3fd4bf",
+      "stream_range": [
+        118608,
+        123250
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        4606
+      ]
+    },
+    {
+      "spine_item": 23,
+      "id": "x22.html",
+      "path": "OEBPS/Text/22.html",
+      "headings": [
+        "第二十一章 僚机行动"
+      ],
+      "characters": 2172,
+      "text_sha256": "dd01c95533d46f556d16da1e02e5ab05ddeeab0ce39b270a786baa09df16f8a4",
+      "stream_range": [
+        123250,
+        125458
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        2172
+      ]
+    },
+    {
+      "spine_item": 24,
+      "id": "x23.html",
+      "path": "OEBPS/Text/23.html",
+      "headings": [
+        "第二十二章 电话游戏"
+      ],
+      "characters": 9418,
+      "text_sha256": "a472b7c7f5bfe3283f8d6bf75cbe5f7a3f1061af66c1fd77fd4b2c6f4d8f4dde",
+      "stream_range": [
+        125458,
+        134912
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "read_normalized_item_range": [
+        0,
+        9418
+      ]
+    }
+  ],
+  "zip_entries": [
+    "mimetype",
+    "META-INF/container.xml",
+    "OEBPS/content.opf",
+    "OEBPS/Styles/ebook.css",
+    "OEBPS/Text/0.html",
+    "OEBPS/Text/1.html",
+    "OEBPS/Text/10.html",
+    "OEBPS/Text/11.html",
+    "OEBPS/Text/12.html",
+    "OEBPS/Text/13.html",
+    "OEBPS/Text/14.html",
+    "OEBPS/Text/15.html",
+    "OEBPS/Text/16.html",
+    "OEBPS/Text/17.html",
+    "OEBPS/Text/18.html",
+    "OEBPS/Text/19.html",
+    "OEBPS/Text/2.html",
+    "OEBPS/Text/20.html",
+    "OEBPS/Text/21.html",
+    "OEBPS/Text/22.html",
+    "OEBPS/Text/23.html",
+    "OEBPS/Text/3.html",
+    "OEBPS/Text/4.html",
+    "OEBPS/Text/5.html",
+    "OEBPS/Text/6.html",
+    "OEBPS/Text/7.html",
+    "OEBPS/Text/8.html",
+    "OEBPS/Text/9.html",
+    "OEBPS/toc.ncx"
+  ],
+  "embedded_or_inline_media_items": [],
+  "extra_nonspine_text_items": [],
+  "untranslated_or_unprovided_original_sections": [
+    {
+      "spine_item": 5,
+      "source_locator": "第三章3.2进化生物学快速入门",
+      "status": "source_explicitly_untranslated"
+    },
+    {
+      "spine_item": 13,
+      "source_locator": "第十一章11.4—11.6；11.3后括注",
+      "status": "three_relationship_types_explicitly_untranslated"
+    },
+    {
+      "spine_item": 13,
+      "source_locator": "第十一章11.9.3后括注",
+      "status": "medium_and_low_commitment_management_explicitly_untranslated"
+    },
+    {
+      "spine_item": null,
+      "source_locator": "前文涉及第23—24章及第24章资源；本包止于22章",
+      "status": "referenced_later_chapters_not_supplied"
+    }
+  ],
+  "unprovided_sections_claimed_read": false,
+  "unprovided_sections_block_next_file": false,
+  "known_source_limits": [
+    "OPF creator is a source label, original author/editor/translator edition not independently verified",
+    "OPF date is modification, not verified publication",
+    "Chapter15 overlaps Chapter9; reread but not independent effect evidence",
+    "Chapter14 heading says nightclubs; body discusses dancers and clubs"
+  ],
+  "all_current_file_content_read": true,
+  "known_unread_current_content": [],
+  "current_file_completion_kind": "actual_supplied_EPUB_all24_spine_items_and22_chapters_read_unprovided_sections_not_claimed",
+  "original_edition_completeness_verified": false,
+  "new_scope_closure": false,
+  "OCR_run": false,
+  "new_original_note_groups": 26,
+  "new_exact_method_section_bindings": 17,
+  "notes": [
+    {
+      "heading": "阶段图只整理内容不替双方决定",
+      "source_locator": "顺序项2—6，简介、第一至四章；顺序项11，9.1。",
+      "bound_methods": []
+    },
+    {
+      "heading": "开场理由确实存在才使用",
+      "source_locator": "顺序项7，第五章开场分类、直接开场及开口焦虑。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "场所提供相遇机会不提供许可",
+      "source_locator": "顺序项7，第五章团体与场合；顺序项14—16，第十二至十四章。",
+      "bound_methods": []
+    },
+    {
+      "heading": "关键词过渡先承接她说的内容",
+      "source_locator": "顺序项8，6.1—6.5关键词、观察、句式及无过渡。",
+      "bound_methods": [
+        "M03",
+        "M04"
+      ]
+    },
+    {
+      "heading": "共同玩笑要有双方接住的前提",
+      "source_locator": "顺序项8，6.4；顺序项11，9.4.4.5；顺序项24，22.2.3与22.4。",
+      "bound_methods": [
+        "M05",
+        "M07"
+      ]
+    },
+    {
+      "heading": "幽默不靠降低对方来制造挑战",
+      "source_locator": "顺序项5，3.4.1.3；顺序项9，第七章打压及挑战材料。",
+      "bound_methods": [
+        "M06"
+      ]
+    },
+    {
+      "heading": "欣赏真实细节不用让她争取资格",
+      "source_locator": "顺序项9，第七章；顺序项10，8.6范例与8.8结语。",
+      "bound_methods": [
+        "M09"
+      ]
+    },
+    {
+      "heading": "生活分享只讲确有且相关的一点",
+      "source_locator": "顺序项5，3.4.2—3.4.3；顺序项9，展示材料；顺序项11，9.2与9.5。",
+      "bound_methods": [
+        "M10"
+      ]
+    },
+    {
+      "heading": "信号要放回连续行为和具体安排",
+      "source_locator": "顺序项9，7.1.7.2兴趣信号；顺序项13，11.3.2.2。",
+      "bound_methods": []
+    },
+    {
+      "heading": "互相了解不变成提问审查",
+      "source_locator": "顺序项10，第八章筛选；顺序项19，17.6。",
+      "bound_methods": []
+    },
+    {
+      "heading": "关心从她确实说出的近况开始",
+      "source_locator": "顺序项11，9.2；顺序项13，11.3.2.2关于近况的提醒。",
+      "bound_methods": [
+        "M11"
+      ]
+    },
+    {
+      "heading": "邀约说清一项双方能选择的安排",
+      "source_locator": "顺序项18，16.1.1、16.1.8、16.3；顺序项24，22.2.3及22.6。",
+      "bound_methods": [
+        "M14"
+      ]
+    },
+    {
+      "heading": "确认过的计划按事实履行",
+      "source_locator": "顺序项11，9.5.5；顺序项24，22.2.3与22.7—22.8的矛盾做法。",
+      "bound_methods": [
+        "M15"
+      ]
+    },
+    {
+      "heading": "没空而未给替代时不连换日期",
+      "source_locator": "顺序项24，22.6连续追问日期及拒绝后的处理；22.10。",
+      "bound_methods": [
+        "M17"
+      ]
+    },
+    {
+      "heading": "未回复先保留未知而非轮番拨打",
+      "source_locator": "顺序项24，22.5、22.7—22.9。",
+      "bound_methods": [
+        "M19"
+      ]
+    },
+    {
+      "heading": "边界说明自己能参与什么",
+      "source_locator": "顺序项13，11.9.1—11.9.3；顺序项24，22.10。",
+      "bound_methods": [
+        "M22"
+      ]
+    },
+    {
+      "heading": "修复只负责已确认的那件事",
+      "source_locator": "顺序项13，11.9.3高承诺关系说明；顺序项24，22.10失约。",
+      "bound_methods": [
+        "M21"
+      ]
+    },
+    {
+      "heading": "拒绝按当下范围停止不猜隐藏许可",
+      "source_locator": "顺序项12，第十章；顺序项21，19.5—19.6；顺序项24，22.6。",
+      "bound_methods": [
+        "M23"
+      ]
+    },
+    {
+      "heading": "熟悉相处与身体选择分别确认",
+      "source_locator": "顺序项11，9.1及9.7；顺序项17，第十五章；顺序项21，第十九章。",
+      "bound_methods": []
+    },
+    {
+      "heading": "关系意愿诚实表达不靠嫉妒确认",
+      "source_locator": "顺序项13，11.1—11.3、11.7—11.9。",
+      "bound_methods": []
+    },
+    {
+      "heading": "朋友是共同参与者而非推进障碍",
+      "source_locator": "顺序项11，9.3—9.4；顺序项14，第十二章；顺序项23，第二十一章。",
+      "bound_methods": []
+    },
+    {
+      "heading": "约会费用不兑换亲密和兴趣结论",
+      "source_locator": "顺序项18，16.1—16.5。",
+      "bound_methods": []
+    },
+    {
+      "heading": "讲真事保留主线和自然回应空间",
+      "source_locator": "顺序项19，17.1—17.8，尤其17.3、17.6—17.8。",
+      "bound_methods": [
+        "M10"
+      ]
+    },
+    {
+      "heading": "语音和姿态以听得懂与舒适为准",
+      "source_locator": "顺序项20，第十八章；顺序项24，22.1与22.4—22.7。",
+      "bound_methods": []
+    },
+    {
+      "heading": "打扮服务本人和实际场合",
+      "source_locator": "顺序项22，第二十章时尚和美容。",
+      "bound_methods": []
+    },
+    {
+      "heading": "作者经验和科学断言分开登记",
+      "source_locator": "顺序项2、5、9、17、20—24，序言、进化论述、兴趣信号、身体语言及数量规则。",
+      "bound_methods": []
+    }
+  ],
+  "new_original_research_papers_verified": 0,
+  "new_APA_or_DOI_claims": 0,
+  "source_dialogues_images_private_narratives_or_coercive_scripts_newly_archived": false,
+  "next_book": "B080",
+  "next_book_body_opened": false
+}

@@ -931,9 +931,15 @@
       "group": "books2_original_snapshot",
       "title": "泡妞必杀技 - 爱情体系.epub",
       "git_blob_sha": "f19fee996da89de9cac210fd2dd3028e00df1f81",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B079.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B079_reading_2026-11-13.json",
+      "coverage_mode": "all24_supplied_items_read_source_marked_untranslated_and_referenced_later_chapters_not_supplied",
+      "completion_kind": "actual_supplied_EPUB_all24_spine_items_and22_chapters_read_unprovided_sections_not_claimed",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true
     },
     {
       "id": "B080",
@@ -1698,24 +1704,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 75,
+    "current_book_files_text_complete": 76,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 44
+    "current_book_files_not_started": 43
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B079",
-    "path": "泡妞必杀技 - 爱情体系.epub",
-    "bytes": 183172,
-    "git_blob_sha": "f19fee996da89de9cac210fd2dd3028e00df1f81",
+    "id": "B080",
+    "path": "泡秘 - 华山论剑.pdf",
+    "bytes": 1236719,
+    "git_blob_sha": "8626a91ff6766799181f3f619e896f3766eae8ac",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": null,
-    "next_spine_item": 1,
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B078全部13项提供内容、20组原创笔记和范围已保存；下一唯一主读B079，正文未打开。",
-    "next_content_unit": "Read B079 from its first supplied EPUB item. Save current readable content notes, scope and next checkpoint before changing files. Under the user general policy, skip genuinely unreadable content without reasking, count scope closure in task progress and retain actual gaps."
+    "start": "B079全部24项提供内容、26组原创笔记和范围已保存；下一唯一主读B080，正文未打开。",
+    "next_content_unit": "Read B080 from file page1. Save current readable content notes, scope and next checkpoint before changing files. Under the user general policy, skip genuinely unreadable content without reasking, count scope closure in task progress and retain actual gaps."
   },
   "deferred_work_units": []
 }
