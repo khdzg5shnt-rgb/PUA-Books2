@@ -901,9 +901,15 @@
       "group": "books2_original_snapshot",
       "title": "泡丁解妞 - 斑马.pdf",
       "git_blob_sha": "3850e1c3075b3b5c779195dc26badef7b1ad3bda",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B077.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B077_reading_2026-11-13.json",
+      "coverage_mode": "all99_pages_native_text_read_only_embedded_cover_image_reviewed13_other_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all99_native_text_pages_and_only_embedded_cover_image_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true
     },
     {
       "id": "B078",
@@ -1686,24 +1692,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 73,
+    "current_book_files_text_complete": 74,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 46
+    "current_book_files_not_started": 45
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B077",
-    "path": "泡丁解妞 - 斑马.pdf",
-    "bytes": 1239675,
-    "git_blob_sha": "3850e1c3075b3b5c779195dc26badef7b1ad3bda",
+    "id": "B078",
+    "path": "泡妞实战速查手册.epub",
+    "bytes": 84873,
+    "git_blob_sha": "971dbfccc2bcc4f27e4ef20c12a8826db346764a",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": 1,
-    "next_spine_item": null,
+    "next_file_page": null,
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B076按用户通用授权结束并计入完成，损坏页仍未实读；下一唯一主读B077，保存时正文未打开。",
-    "next_content_unit": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps."
+    "start": "B077当前99页正文、唯一封面图像、原创笔记和范围已保存；下一唯一主读B078，正文未打开。",
+    "next_content_unit": "Read B078 from its first provided EPUB spine item. Save readable content notes and scope before the next file. Under the general user policy, skip genuinely unreadable content without reasking, count scope closure in finished tasks and retain actual gaps."
   },
   "deferred_work_units": []
 }

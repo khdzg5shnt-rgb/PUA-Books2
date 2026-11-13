@@ -14216,8 +14216,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E4%B8%81%E8%A7%A3%E5%A6%9E%20-%20%E6%96%91%E9%A9%AC.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B077.md",
       "pages": 99,
       "spine_items": null,
       "ocr": {
@@ -14225,7 +14225,42 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B077_reading_2026-11-13.json",
+      "coverage_mode": "all99_pages_native_text_read_only_embedded_cover_image_reviewed13_other_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all99_native_text_pages_and_only_embedded_cover_image_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true,
+      "source_sha256": "4514eb7f51246e84be1bef2eb8dbf4b3f9fbbd4938a21dd0952a69fa0e76d64c",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B077_reading_2026-11-13.json",
+        "native_characters": 100358,
+        "OCR_run": false,
+        "native_pages_read": 99,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          15,
+          20,
+          35,
+          47,
+          53,
+          56,
+          63,
+          72,
+          90,
+          93,
+          96,
+          99
+        ],
+        "whole_layout_visual_review": false,
+        "all_current_file_content_read": true,
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 20,
+        "new_exact_method_section_bindings": 17
+      }
     },
     {
       "index": 78,
@@ -15471,5 +15506,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: User explicitly authorized a general unreadable-scan skip and counting policy. B076 task closed with known gaps retained; 73/119 finished tasks = 70 actually read supplied files + B017/B039/B076 scope closures. Next B077, body unopened at closure checkpoint."
+  "latest_reading_update": "2026-11-13: B076 closed under the general user unreadable-scan policy; B077 actually read all99 native text pages and its only embedded cover image, 20 original critical notes, 17 exact method-section bindings. 74/119 finished tasks=71 actually read files+3 user scope closures. Next B078, body unopened."
 }

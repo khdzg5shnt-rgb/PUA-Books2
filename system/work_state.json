@@ -1,71 +1,70 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B077_next_after_B076_user_authorized_closure",
+  "current_focus": "B078_next_after_B077_integrated",
   "status": "ready_for_next_file",
-  "base_commit": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+  "base_commit": "094445649e05dc9d166d7d3d4c650734bb90522e",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/unreadable_skip_policy_2026-11-13.md",
-  "validation": "knowledge/provenance/unreadable_skip_policy_2026-11-13_validation.json",
+  "report": "knowledge/provenance/B077_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B077_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B077",
-    "path": "泡丁解妞 - 斑马.pdf",
-    "bytes": 1239675,
-    "git_blob_sha": "3850e1c3075b3b5c779195dc26badef7b1ad3bda",
+    "id": "B078",
+    "path": "泡妞实战速查手册.epub",
+    "bytes": 84873,
+    "git_blob_sha": "971dbfccc2bcc4f27e4ef20c12a8826db346764a",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": 1,
-    "next_spine_item": null,
+    "next_file_page": null,
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B076按用户通用授权结束并计入完成，损坏页仍未实读；下一唯一主读B077，保存时正文未打开。",
-    "next_content_unit": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps."
+    "start": "B077当前99页正文、唯一封面图像、原创笔记和范围已保存；下一唯一主读B078，正文未打开。",
+    "next_content_unit": "Read B078 from its first provided EPUB spine item. Save readable content notes and scope before the next file. Under the general user policy, skip genuinely unreadable content without reasking, count scope closure in finished tasks and retain actual gaps."
   },
-  "next_work": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps.",
+  "next_work": "Read B078 from its first provided EPUB spine item. Save readable content notes and scope before the next file. Under the general user policy, skip genuinely unreadable content without reasking, count scope closure in finished tasks and retain actual gaps.",
   "current_session_progress": {
     "baseline": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
-    "work_type": "apply_general_unreadable_skip_policy_and_continue_serial_reading",
-    "new_book_files_started": [],
-    "new_book_files_completed": [
-      "B076"
+    "reading_baseline": "094445649e05dc9d166d7d3d4c650734bb90522e",
+    "work_type": "apply_user_unreadable_policy_then_read_and_integrate_B077",
+    "new_book_files_started": [
+      "B077"
     ],
-    "actually_completed_file_ids": [],
-    "new_whole_book_files_actually_read": 0,
+    "new_book_files_completed": [
+      "B076",
+      "B077"
+    ],
+    "actually_completed_file_ids": [
+      "B077"
+    ],
+    "new_whole_book_files_actually_read": 1,
     "user_accepted_scope_closure_ids": [
       "B076"
     ],
-    "new_native_characters_read": 0,
+    "new_native_characters_read": 100358,
     "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 0,
-    "original_note_groups": 0,
-    "new_method_source_bindings": 0,
-    "next_book_body_opened": false,
+    "new_unique_original_visual_pages": 14,
+    "new_EPUB_spine_items_read": 0,
+    "original_note_groups": 20,
+    "new_method_source_bindings": 17,
+    "new_method_operations": [],
     "serial_order": [
-      "save_B076_gap_preserving_user_closure",
-      "B077_next"
+      "save_B076_user_authorized_closure",
+      "read_B077_all99_pages",
+      "save_B077_notes_scope_and_B078_checkpoint"
     ],
+    "next_book_body_opened": false,
+    "original_edition_completeness_not_asserted": true,
+    "all_current_supplied_B077_content_read": true,
     "checks": {
       "status": "passed",
-      "date": "2026-11-13",
-      "baseline_main": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+      "reading_metadata_validation": "knowledge/provenance/B077_validation_2026-11-13.json",
       "validate_os": true,
-      "unittest_methods_passed": 92,
-      "finished_tasks": 73,
-      "actually_read_supplied_files": 70,
-      "user_scope_closures": [
-        "B017",
-        "B039",
-        "B076"
-      ],
-      "B076_gaps_retained": [
-        161,
-        163,
-        165
-      ],
-      "new_actual_reading_credit": 0,
-      "scope": "Metadata and existing behavior checks; unread source content was not restored."
+      "unit_tests_passed": 92,
+      "focused_retrieval_queries_passed": 8,
+      "unbound_method_scope_check": true,
+      "preserved_runtime_and_preferred_sections": true
     }
   },
   "last_reading_progress": {
@@ -2326,94 +2325,49 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-13",
-    "report": "knowledge/provenance/B074_B075_progress_2026-11-13.md",
-    "validation": "knowledge/provenance/B074_B075_validation_2026-11-13.json",
+    "report": "knowledge/provenance/B077_progress_2026-11-13.md",
+    "validation": "knowledge/provenance/B077_validation_2026-11-13.json",
     "current_session_progress": {
-      "baseline": "c9a760f081c85ef754896cac59b7441884c735a8",
-      "work_type": "read_whole_supplied_files_in_serial_order",
+      "baseline": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+      "reading_baseline": "094445649e05dc9d166d7d3d4c650734bb90522e",
+      "work_type": "apply_user_unreadable_policy_then_read_and_integrate_B077",
       "new_book_files_started": [
-        "B074",
-        "B075"
+        "B077"
       ],
       "new_book_files_completed": [
-        "B074",
-        "B075"
+        "B076",
+        "B077"
       ],
       "actually_completed_file_ids": [
-        "B074",
-        "B075"
+        "B077"
       ],
-      "new_whole_book_files_actually_read": 2,
-      "user_accepted_scope_closure_ids": [],
-      "new_native_characters_read": 174126,
+      "new_whole_book_files_actually_read": 1,
+      "user_accepted_scope_closure_ids": [
+        "B076"
+      ],
+      "new_native_characters_read": 100358,
       "new_OCR_characters_read": 0,
-      "new_unique_original_visual_pages": 191,
+      "new_unique_original_visual_pages": 14,
       "new_EPUB_spine_items_read": 0,
-      "original_note_groups": 62,
-      "new_method_source_bindings": 176,
+      "original_note_groups": 20,
+      "new_method_source_bindings": 17,
       "new_method_operations": [],
       "serial_order": [
-        "B074",
-        "save_B074_notes_scope_and_next_checkpoint",
-        "B075",
-        "save_B075_notes_scope_and_next_checkpoint"
+        "save_B076_user_authorized_closure",
+        "read_B077_all99_pages",
+        "save_B077_notes_scope_and_B078_checkpoint"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
-      "books": [
-        {
-          "id": "B074",
-          "title": "枪巫方法",
-          "native_characters": 84249,
-          "spine_items": 0,
-          "visual_pages": 113,
-          "note_groups": 32,
-          "bindings": 91,
-          "ledger": "knowledge/provenance/B074_reading_2026-11-13.json",
-          "source_sha256": "edd246f70660ec317c014c086c8e96d543409ac3997732d7839c1648edaf8e99",
-          "coverage_mode": "all113_native_text_pages_and_original_layouts_read_logo_and_blank_banners_reviewed_by_pixel_identity",
-          "completion_kind": "actual_supplied_PDF_all113_pages_front_matter_three_levels_relationship_and_closing_read",
-          "catalog_scope": "113页译序、三层正文、关系收束及版面已读；两类标志/空白横条已核，未提供附赠册不计",
-          "range_label": "PDF物理页1—113；84249个原生字符，12张拼页及两类图像",
-          "scope_summary": "B074《枪巫方法》：113页现有PDF的译序、引言、基础/进阶/精通、关系和结尾已逐页读到全书完。84249个原生字符分15组实读，含重复广告层；113页版面及两种像素图像已看，首次截断的13—14页已补全。114图像对象仅为一个站点标志与113个相同全白横条，不是额外正文图。附赠健身册、原英文、课程及外部书未提供不补算；作者数字、身体机制与社会史未作研究证据，施压路线不进入系统操作。"
-        },
-        {
-          "id": "B075",
-          "title": "校园情圣",
-          "native_characters": 89877,
-          "spine_items": 0,
-          "visual_pages": 78,
-          "note_groups": 30,
-          "bindings": 85,
-          "ledger": "knowledge/provenance/B075_reading_2026-11-13.json",
-          "source_sha256": "178baf0300cc316789ea06316804c2f215365721b8c7034f0a0f6480786b03b3",
-          "coverage_mode": "all78_native_text_pages_and_original_layouts_read_cover_advertisement_and_black_pixel_reviewed",
-          "completion_kind": "actual_supplied_PDF_all78_pages_front_matter_body_recommendations_and_advertising_read",
-          "catalog_scope": "78页含封面、译序、正文、推荐与广告及版面已读；3图像对象已核，原英文未核不补算",
-          "range_label": "PDF物理页1—78；89877个原生字符，8张拼页及封面/广告图",
-          "scope_summary": "B075《校园情圣》：78页现有PDF的封面、译序、正文、结语、推荐与广告已按序读至文件末。89877个原生字符分16组实读，全部版面分8张拼页核看，封面与广告页另看；3图像对象是封面、广告与黑色单像素，无额外未读图表。原目录页码属另一排版口径，原英文和外部推荐未核不补算。年级画像、80/20及效果百分比不作研究证据；真实共同活动与表达接入既有方法，操控与酒精路线不进入操作。"
-        }
-      ],
+      "all_current_supplied_B077_content_read": true,
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B074_B075_validation_2026-11-13.json",
-        "B074_source_identity_and_contiguous_provided_scope": true,
-        "B075_source_identity_and_contiguous_provided_scope": true,
-        "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
-        "new_exact_source_section_bindings": {
-          "B074": 91,
-          "B075": 85
-        },
-        "only_B074_B075_reading_records_advanced": true,
-        "focused_method_section_queries_passed": 12,
-        "file_reference_does_not_authorize_unbound_method": true,
-        "progress72_actual70_plus_two_explicit_closures_next_B076": true,
-        "B074_notes_scope_and_checkpoint_saved_before_B075_body": true,
-        "prior_maintenance_and_reading_history_preserved": true,
-        "only_expected_twenty_knowledge_and_progress_files_changed": true,
-        "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+        "reading_metadata_validation": "knowledge/provenance/B077_validation_2026-11-13.json",
         "validate_os": true,
-        "unittest_methods_passed": 92
+        "unit_tests_passed": 92,
+        "focused_retrieval_queries_passed": 8,
+        "unbound_method_scope_check": true,
+        "preserved_runtime_and_preferred_sections": true
       }
     }
   },
@@ -2544,12 +2498,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 73,
-    "current_file_text_complete": 73,
+    "started": 74,
+    "current_file_text_complete": 74,
     "partial": 0,
-    "unread": 46,
+    "unread": 45,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 73,
+    "reported_numerator": 74,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2564,7 +2518,7 @@
       "B076"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
-    "actually_read_supplied_files": 70
+    "actually_read_supplied_files": 71
   },
   "reading_policy_history": [
     {
@@ -5337,6 +5291,54 @@
           "reading_metadata_validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
           "shell_checks_this_round": "not_run_environment_unavailable",
           "previous_92_tests_not_claimed_as_this_round": true
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/unreadable_skip_policy_2026-11-13.md",
+      "validation": "knowledge/provenance/unreadable_skip_policy_2026-11-13_validation.json",
+      "current_session_progress": {
+        "baseline": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+        "work_type": "apply_general_unreadable_skip_policy_and_continue_serial_reading",
+        "new_book_files_started": [],
+        "new_book_files_completed": [
+          "B076"
+        ],
+        "actually_completed_file_ids": [],
+        "new_whole_book_files_actually_read": 0,
+        "user_accepted_scope_closure_ids": [
+          "B076"
+        ],
+        "new_native_characters_read": 0,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 0,
+        "original_note_groups": 0,
+        "new_method_source_bindings": 0,
+        "next_book_body_opened": false,
+        "serial_order": [
+          "save_B076_gap_preserving_user_closure",
+          "B077_next"
+        ],
+        "checks": {
+          "status": "passed",
+          "date": "2026-11-13",
+          "baseline_main": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+          "validate_os": true,
+          "unittest_methods_passed": 92,
+          "finished_tasks": 73,
+          "actually_read_supplied_files": 70,
+          "user_scope_closures": [
+            "B017",
+            "B039",
+            "B076"
+          ],
+          "B076_gaps_retained": [
+            161,
+            163,
+            165
+          ],
+          "new_actual_reading_credit": 0,
+          "scope": "Metadata and existing behavior checks; unread source content was not restored."
         }
       }
     }

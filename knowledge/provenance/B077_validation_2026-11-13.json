@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "094445649e05dc9d166d7d3d4c650734bb90522e",
+  "validate_os": true,
+  "unit_tests_passed": 92,
+  "focused_retrieval_queries": [
+    {
+      "method": "M25",
+      "heading": "本轮目标选自己能执行的一步",
+      "path": "knowledge/books/B077.md",
+      "line": 29
+    },
+    {
+      "method": "M04",
+      "heading": "普通问题先按原意回答",
+      "path": "knowledge/books/B077.md",
+      "line": 33
+    },
+    {
+      "method": "M03",
+      "heading": "具体内容连接一点真实自己",
+      "path": "knowledge/books/B077.md",
+      "line": 37
+    },
+    {
+      "method": "M14",
+      "heading": "邀请从双方已有兴趣落地",
+      "path": "knowledge/books/B077.md",
+      "line": 53
+    },
+    {
+      "method": "M15",
+      "heading": "同行人和换场需要商量",
+      "path": "knowledge/books/B077.md",
+      "line": 57
+    },
+    {
+      "method": "M18",
+      "heading": "短反应和符号不判内心",
+      "path": "knowledge/books/B077.md",
+      "line": 61
+    },
+    {
+      "method": "M22",
+      "heading": "沉默是双方的交流状态",
+      "path": "knowledge/books/B077.md",
+      "line": 65
+    },
+    {
+      "method": "M23",
+      "heading": "边界按原话范围保留",
+      "path": "knowledge/books/B077.md",
+      "line": 77
+    }
+  ],
+  "unbound_method_excludes_B077": true,
+  "existing_methods_without_new_citations_byte_semantics_equal": true,
+  "preferred_sections_router_tasks_runtime_unchanged": true,
+  "source_identity_and99_page_read_ranges_checked": true,
+  "read_output_truncation_recovered_pages": [
+    79,
+    80
+  ],
+  "actual_native_characters_read": 100358,
+  "all_page_layouts_visually_reviewed": false,
+  "selected_layout_pages_and_cover": 14,
+  "original_note_groups": 20,
+  "new_exact_method_section_bindings": 17,
+  "finished_tasks": 74,
+  "actually_read_supplied_files": 71,
+  "user_scope_closures": [
+    "B017",
+    "B039",
+    "B076"
+  ],
+  "general_skip_policy_saved_no_per_file_reapproval": true,
+  "next_book": "B078",
+  "next_book_body_opened": false,
+  "no_new_raw_source_transcripts_private_case_summaries_or_coercive_scripts": true,
+  "scope": "Source, metadata, existing behavior and retrieval checks; not psychological or real-world effect validation."
+}

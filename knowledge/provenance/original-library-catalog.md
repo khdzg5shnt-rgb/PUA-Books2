@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成73/119份任务，无部分处理文件、46份未开始。70份实际读完当前提供内容，B017、B039、B076按用户授权结束，原未读缺字保留。今后读不出的扫描直接记录并跳过，计入完成进度，不再逐本询问；下一唯一主读B077。[本轮规则](unreadable_skip_policy_2026-11-13.md)。
+当前完成74/119份任务，无部分处理文件、45份未开始。71份实际读完当前提供内容，B017、B039、B076按用户授权结束，未读缺字保留。本轮实际读完B077《泡丁解妞》99页并整合20组原创笔记；下一唯一主读B078，正文未打开。读不出的扫描记录后直接跳过并计入完成，不再逐本询问。[本轮记录](B077_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -88,8 +88,8 @@
 | B073 | [极限话术 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%81%E9%99%90%E8%AF%9D%E6%9C%AF%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 12 | 正文读完 | [精读](../books/B073.md) |
 | B074 | [枪巫方法 - Gunwitch.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%AA%E5%B7%AB%E6%96%B9%E6%B3%95%20-%20Gunwitch.pdf) | 113 | 113页译序、三层正文、关系收束及版面已读；两类标志/空白横条已核，未提供附赠册不计 | [32组笔记](../books/B074.md) |
 | B075 | [校园情圣 - 马克·雷德曼.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%A0%A1%E5%9B%AD%E6%83%85%E5%9C%A3%20-%20%E9%A9%AC%E5%85%8B%C2%B7%E9%9B%B7%E5%BE%B7%E6%9B%BC.pdf) | 78 | 78页含封面、译序、正文、推荐与广告及版面已读；3图像对象已核，原英文未核不补算 | [30组笔记](../books/B075.md) |
-| B076 | 正妹心理学 - 郑匡宇.pdf | 用户授权结束；188页可辨内容已整合，P161/163/165及P1小字未读清 | [34组笔记](../books/B076.md) |
-| B077 | [泡丁解妞 - 斑马.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E4%B8%81%E8%A7%A3%E5%A6%9E%20-%20%E6%96%91%E9%A9%AC.pdf) | 99 | 已提取/未读 | — |
+| B076 | [正妹心理学 - 郑匡宇.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%AD%A3%E5%A6%B9%E5%BF%83%E7%90%86%E5%AD%A6%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.pdf) | 188 | 用户授权结束，P161/163/165及P1小字未读清 | [34组笔记](../books/B076.md) |
+| B077 | [泡丁解妞 - 斑马.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E4%B8%81%E8%A7%A3%E5%A6%9E%20-%20%E6%96%91%E9%A9%AC.pdf) | 99 | 当前提供文字及唯一封面图像已读；追加作者与原版完整性未核 | [20组笔记](../books/B077.md) |
 | B078 | [泡妞实战速查手册.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%AE%9E%E6%88%98%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.epub) | 13 | 已提取/未读 | — |
 | B079 | [泡妞必杀技 - 爱情体系.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%BF%85%E6%9D%80%E6%8A%80%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.epub) | 24 | 已提取/未读 | — |
 | B080 | [泡秘 - 华山论剑.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E7%A7%98%20-%20%E5%8D%8E%E5%B1%B1%E8%AE%BA%E5%89%91.pdf) | 79 | 已提取/未读 | — |
