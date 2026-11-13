@@ -4,6 +4,10 @@
 
 ## 当前轮与历史分开
 
+`text_legible=false`仍表示原句未读清，不为绕过核对改成true。只在reply已核待回且无必要新事务、或已核空对话的首次开场时，正文不是该动作的必需输入。解释、分析、复盘、训练、新回复与独立必要通知仍核其需要的原句。对象或方向未知不适用。
+
+`repair_needed`和更正不替代当前求助：R16先答所求，`current_limits`保留已确认的责任与使用更正事实的要求；不据求助新增过错。
+
 收到新回复后，重核latest_sender、pending_reply、function、closed_answer_complete与当前低投入标记。明确已核`latest_sender=other`会清除旧pending；明确为user则设为已发待回，unknown不猜方向。unknown或省略且无已核待回时，入口先给方向核对；默认pending_reply=false不能授权新草稿。已核尚无任何已发消息的首次开场可用none，不需要虚构一条对方消息。没有等待时necessary_new_logistics不再作为补发例外。邀请字段只表示仍有效的回应或待落实安排，不作永久对象标签；已给过的活动拒绝保留其范围，不能因出现新话题又重新追约。既有明确联系、身体和关系边界不能用新表情或普通回复自动解除。
 
 consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明确安排、具体新分享和完整回答不因文字少而算低投入；路由会清除与这些事实冲突的低投入计数，并在fact_adjustments中列出字段。其他矛盾不靠猜测自动消解，需回看原句。

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "99af2d3f3b9c49a8b000fac49c80034db5e07b1f",
+  "runtime_version": "1.5.2",
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_response_priorities_validation_2026-11-13.json",
+    "validate_os": true,
+    "unit_tests_passed": 104,
+    "new_test_methods": 12,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "new_CLI_cases_passed": 2,
+    "method_cards_source_bindings_preferred_sections_and_task_modes_unchanged": true,
+    "original_source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
+    "reading79_actual76_plus3_scope_closures_unchanged": true,
+    "B083_bookmark_unchanged_and_body_unopened": true,
+    "reading_pause_saved_and_previous_sessions_preserved": true,
+    "new_method_or_fact_fields": 0,
+    "scope": "结构、路由、CLI与元数据检查，不证明真实读图、措辞自然或恋爱效果。"
+  },
+  "CLI_cases": [
+    {
+      "case": "waiting_without_body",
+      "route": "R04",
+      "passed": true
+    },
+    {
+      "case": "correction_and_help",
+      "route": "R16",
+      "passed": true
+    }
+  ],
+  "new_targeted_tests_before_fix_failure_assertions": 11,
+  "new_targeted_tests_after_fix_passed": 12,
+  "reading_ratio": "79/119",
+  "actually_read_supplied_files": 76,
+  "user_scope_closures": [
+    "B017",
+    "B039",
+    "B076"
+  ],
+  "new_reading_files": [],
+  "next_file": "B083",
+  "next_file_body_opened": false
+}

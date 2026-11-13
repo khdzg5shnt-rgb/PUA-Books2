@@ -139,7 +139,19 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
                                            'will_update', 'settled'}):
         routing['goal'] = 'reply'
         intent_adjustments.append('按当前安排或边界处理；回应新内容时不重复邀约')
+    # Waiting and a verified first opening do not interpret an incoming body.
+    # Keep text_legible unchanged: this is an action-dependent requirement,
+    # not a claim that unreadable text has been read. Explanatory tasks still
+    # need the actual message, and new logistics still needs its content.
+    body_independent_action = apply_action_goal and observations['speaker_verified'] and (
+        (observations['pending_reply'] and not observations['necessary_new_logistics']) or
+        (observations['latest_sender'] == 'none' and
+         observations['function'] == 'opening' and observations['turn_gap'] == 'none'))
+    if body_independent_action and not observations['text_legible']:
+        intent_adjustments.append('本次只需等待或已核首次开场，不为不影响动作的正文缺口追问；未声称读清正文')
     for rule in config['routes']:
+        if rule['id'] == 'R00' and body_independent_action:
+            continue
         if matches(rule['when'], routing):
             method = next(m for m in methods if m['id'] == rule['method_ids'][0])
             source = method_reference(method['id'], root)
@@ -173,6 +185,11 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
                 'output_policy': output_policy,
                 'limitation': '基于人工核对的事实路由；未识别截图、未生成草稿、未计算兴趣或成功率',
             }
+            if method['id'] == 'M13':
+                if observations['repair_needed']:
+                    result['current_limits'].append('已核具体行为的责任仍保留；先回应当前所求，不用提供帮助代替必要修复')
+                if observations['function'] == 'correction':
+                    result['current_limits'].append('按已核更正后的事实回应求助，不沿用旧错误，也不只道歉而漏答所求')
             if window is not None:
                 result['screen_window'] = window
             if rule['id'] == 'R00T':

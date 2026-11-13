@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "version": "1.5.1",
+  "version": "1.5.2",
   "updated": "2026-11-13",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
-  "input_policy": "由读图者先核原文与时间线，再填写有限事实；不从孤立关键词自动判断动机",
+  "input_policy": "由读图者先核原文与时间线，再填写有限事实；只核会改变当前任务的缺口，不从孤立关键词自动判断动机",
   "defaults": {
     "speaker_verified": false,
     "text_legible": false,
@@ -459,6 +459,37 @@
       ],
       "action": "draft",
       "purpose": "仅对已确认的具体无礼设边界",
+      "also_read": [
+        "system/REPLY_PROTOCOL.md"
+      ]
+    },
+    {
+      "id": "R16",
+      "name": "明确求建议",
+      "when": {
+        "any": [
+          {
+            "field": "function",
+            "op": "eq",
+            "value": "advice_request"
+          },
+          {
+            "field": "advice_requested",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "urgent_practical_need",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "method_ids": [
+        "M13"
+      ],
+      "action": "draft",
+      "purpose": "先回应明确求助或紧要实际事务；更正与已核具体责任仍保留，不只道歉或纠正而漏答所求",
       "also_read": [
         "system/REPLY_PROTOCOL.md"
       ]
@@ -988,37 +1019,6 @@
       ]
     },
     {
-      "id": "R16",
-      "name": "明确求建议",
-      "when": {
-        "any": [
-          {
-            "field": "function",
-            "op": "eq",
-            "value": "advice_request"
-          },
-          {
-            "field": "advice_requested",
-            "op": "eq",
-            "value": true
-          },
-          {
-            "field": "urgent_practical_need",
-            "op": "eq",
-            "value": true
-          }
-        ]
-      },
-      "method_ids": [
-        "M13"
-      ],
-      "action": "draft",
-      "purpose": "明确求办法或有紧要实际事务时先提供可行帮助，不机械套共情四步",
-      "also_read": [
-        "system/REPLY_PROTOCOL.md"
-      ]
-    },
-    {
       "id": "R17",
       "name": "好消息",
       "when": {
@@ -1282,7 +1282,7 @@
   ],
   "field_help": {
     "speaker_verified": "已核对当前对象及每侧发言人；未知不能填true",
-    "text_legible": "已读清会改变本轮回复的最新原句与引用；未知不能填true",
+    "text_legible": "当前任务所需原句已核清；未读清仍为false。只等待或已核空对话首次开场不强求无关正文，解释原句、新回复和必要通知仍核所需内容。",
     "pending_reply": "当前最后一条是用户已发且对方未回；已有新回复时重置false",
     "necessary_new_logistics": "未回期间确有独立必要的新事务，不能借机催问",
     "refusal_scope": "当前明确拒绝的具体范围；不由语气、单字或旧标签推断",
