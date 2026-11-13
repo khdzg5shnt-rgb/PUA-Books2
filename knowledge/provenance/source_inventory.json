@@ -14844,8 +14844,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91Real%20World%20Seduction%E4%B8%AD%E6%96%87%E7%89%88.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B087.md",
       "pages": 94,
       "spine_items": null,
       "ocr": {
@@ -14853,7 +14853,39 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B087_reading_2026-11-14.json",
+      "coverage_mode": "all94_page_native_text_and_two_unique_image_assets_read_eight_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all94_page_native_text_and_all_unique_raster_assets_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "65b0b5d4858b457767a10b8cfed23593815f0e185e6dd757b2a1dc22e27e604d",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B087_reading_2026-11-14.json",
+        "native_characters": 73626,
+        "native_pages_read": 94,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          9,
+          44,
+          47,
+          64,
+          74,
+          77,
+          94
+        ],
+        "unique_embedded_images": 2,
+        "unique_embedded_images_viewed": 2,
+        "whole_layout_visual_review": false,
+        "all_current_file_content_read": true,
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 28,
+        "new_exact_method_section_bindings": 34
+      }
     },
     {
       "index": 88,
@@ -15859,5 +15891,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B086 all122 supplied native-text pages read,148025nativecharacters;P45right-edgeclippedtablegap retained and task closed under standing user policy;35originalnotes,45exactbindings.83/119=79actualsupplied-filecompletions+4userclosures.NextB087bodyunopened."
+  "latest_reading_update": "2026-11-14: B087 all94 supplied native-text pages,73626characters,and both unique raster assets read;eightlayoutsamples;28originalnotes,34exactbindings.84/119=80actualsupplied-filecompletions+4userclosures.B086P45gap unchanged;nextB088bodyunopened."
 }
