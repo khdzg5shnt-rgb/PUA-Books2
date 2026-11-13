@@ -1,0 +1,40 @@
+{
+  "task": "reply",
+  "case_key": "cancel_and_question",
+  "cases": {
+    "cancel_and_question": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "reply_to_id": 2,
+      "screens": [
+        [
+          {"id": 1, "sender": "user"},
+          {"id": 2, "sender": "other", "facts": {"function": "question"}},
+          {"id": 3, "sender": "other", "facts": {"function": "logistics", "invitation": "cancelled_without_repair"}}
+        ]
+      ]
+    },
+    "changed_time": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "screens": [
+        [{"id": 8, "sender": "other", "facts": {"function": "logistics", "invitation": "accepted"}}]
+      ]
+    },
+    "several_requests": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "reply_to_id": 4,
+      "screens": [
+        [
+          {"id": 7, "sender": "user"},
+          {"id": 2, "sender": "other", "facts": {"function": "question"}},
+          {"id": 4, "sender": "other", "facts": {"function": "advice_request"}},
+          {"id": 1, "sender": "other", "facts": {"function": "sharing"}}
+        ]
+      ]
+    }
+  }
+}

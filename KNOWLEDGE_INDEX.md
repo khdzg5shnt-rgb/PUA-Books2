@@ -1,13 +1,19 @@
 # 统一资料索引
 
+<!-- CURRENT_READING_STATUS -->
+当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际读完当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮仅维护系统，新增阅读为零；阅读暂停，B074第1页书签及原文件身份保留，正文未打开。[最近阅读记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
+<!-- END_CURRENT_READING_STATUS -->
+
+本轮[系统维护](knowledge/provenance/OS_turn_arrangements_2026-11-13.md)：同轮安排更新、待答内容覆盖和当前进度同步。最近读完[B070](knowledge/books/B070.md)与[B071](knowledge/books/B071.md)；下方带旧轮次的记录保留作追溯，恢复以[CURRENT_STATE](CURRENT_STATE.md)为准。
+
 <!-- SERIAL_READING_2026_11_13_B061 -->
-本轮逐本完成[B061的20组笔记](knowledge/books/B061.md)、[B062的12组笔记](knowledge/books/B062.md)，实际范围见[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
+历史阅读轮逐本完成[B061的20组笔记](knowledge/books/B061.md)、[B062的12组笔记](knowledge/books/B062.md)，实际范围见[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
 <!-- END_SERIAL_READING_2026_11_13_B061 -->
-上一轮系统维护保持59/119，现已按用户新指令恢复逐本阅读。[当前一句的表达取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍) · [维护说明](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)。
+历史维护轮曾保持59/119，之后恢复过逐本阅读；当前状态见上方标记块。[当前一句的表达取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍) · [维护说明](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)。
 
 日常首先读[START_HERE](START_HERE.md)，再走[场景路由](system/SCENARIO_ROUTER.md)与[方法卡](system/METHOD_CARDS.md)。来源一站入口见[整合清单](system/SOURCE_INTEGRATION.md)。
 
-最近一次阅读逐本完成[B059的16组笔记](knowledge/books/B059.md)、[B060的16组笔记](knowledge/books/B060.md)，实际范围见[本轮记录](knowledge/provenance/B059_B060_progress_2026-11-13.md)。此前逐本完成[B057的18组笔记](knowledge/books/B057.md)、[B058的15组笔记](knowledge/books/B058.md)，实际范围与先后断点见[本轮记录](knowledge/provenance/B057_B058_progress_2026-11-13.md)。此前完成[B056的十五组笔记](knowledge/books/B056.md)，实际范围见[本轮记录](knowledge/provenance/B056_progress_2026-11-13.md)。此前逐本完成[B054的九组笔记](knowledge/books/B054.md)、[B055的十组笔记](knowledge/books/B055.md)；实际范围见[本轮记录](knowledge/provenance/B054_B055_progress_2026-11-13.md)。此前[B053的八组实用笔记](knowledge/books/B053.md)。已补交[B049的12组审阅](knowledge/books/B049.md)、[B050的11组审阅](knowledge/books/B050.md)、[B051的11组审阅](knowledge/books/B051.md)。此前[B048的13组审阅](knowledge/books/B048.md)保留。[B045的14组审阅](knowledge/books/B045.md)保留。此前[B039](knowledge/books/B039.md)、[B036](knowledge/books/B036.md)与[B038](knowledge/books/B038.md)的阅读成果和独立缺口保留。
+此前阅读轮逐本完成[B059的16组笔记](knowledge/books/B059.md)、[B060的16组笔记](knowledge/books/B060.md)，实际范围见[本轮记录](knowledge/provenance/B059_B060_progress_2026-11-13.md)。此前逐本完成[B057的18组笔记](knowledge/books/B057.md)、[B058的15组笔记](knowledge/books/B058.md)，实际范围与先后断点见[本轮记录](knowledge/provenance/B057_B058_progress_2026-11-13.md)。此前完成[B056的十五组笔记](knowledge/books/B056.md)，实际范围见[本轮记录](knowledge/provenance/B056_progress_2026-11-13.md)。此前逐本完成[B054的九组笔记](knowledge/books/B054.md)、[B055的十组笔记](knowledge/books/B055.md)；实际范围见[本轮记录](knowledge/provenance/B054_B055_progress_2026-11-13.md)。此前[B053的八组实用笔记](knowledge/books/B053.md)。已补交[B049的12组审阅](knowledge/books/B049.md)、[B050的11组审阅](knowledge/books/B050.md)、[B051的11组审阅](knowledge/books/B051.md)。此前[B048的13组审阅](knowledge/books/B048.md)保留。[B045的14组审阅](knowledge/books/B045.md)保留。此前[B039](knowledge/books/B039.md)、[B036](knowledge/books/B036.md)与[B038](knowledge/books/B038.md)的阅读成果和独立缺口保留。
 
 本仓库是已整理知识、案例和阅读进度的日常入口。原文出处用于追溯，不把“文件已下载/提取/OCR”视为已经阅读。
 
@@ -25,7 +31,7 @@
 | 科学证据与迁移限制 | [证据记录](knowledge/topics/evidence.md)、[兴趣与见面后判断](knowledge/topics/interest-evidence.md)、[真实表达](knowledge/topics/real-self-expression.md) |
 
 <!-- E06_2026_11_10 -->
-当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B070《杂耍人文集及语录》、B071《杂耍人方法》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B074，保存断点时正文未打开。[本轮记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
+历史阅读记录：完成70/119份任务，无部分阅读文件、49份未开始。68份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B070《杂耍人文集及语录》、B071《杂耍人方法》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B074，保存断点时正文未打开。[本轮记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
 <!-- END_E06_2026_11_10 -->
 
 本轮外部采用内容：[G01数字聊天证据](knowledge/books/G01-digital-evidence.md)、[G02信息与节奏](knowledge/books/G02-context-and-rhythm.md)、[G04关系意愿与安排](knowledge/books/G04-intent-and-follow-through.md)。常用五类技巧的统一定位见[E06第八至十章](knowledge/books/S04-attraction-ch08-10.md)；按场景只选当前一句。
@@ -34,7 +40,7 @@
 
 原始资料固定快照：bc6a5d103481dec6583f702f25f36fd4a28fdbae。126项中有119份书籍文件（88 PDF、30 EPUB、1 DOC）和7份支持资料；不是119部不重复的原著。
 
-当前完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
+历史阅读记录：完成61/119份任务，无部分阅读文件、58份未开始。59份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B061、B062，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B063，保存断点时正文未打开。[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。
 
 本轮新增[B007四组笔记](knowledge/books/B007.md)、[S23十章定位和72条附录核对](knowledge/books/S23-chen-summary-handbook.md)。[逐页台账](knowledge/provenance/B007_S23_reading_2026-11-11.json)保存身份与连续范围；[证据记录](knowledge/topics/evidence.md)说明两篇研究只核到摘要或部分正文。三项执行改动接入M02/M08/M26；其他现有方法只补来源。下方带日期条目仍是历史，恢复点以CURRENT_STATE为准。
 

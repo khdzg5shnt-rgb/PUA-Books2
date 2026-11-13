@@ -58,6 +58,11 @@ def _select_case(request, case_key):
 def _clarification(facts, decision):
     route_id = decision['route_id']
     if route_id == 'R00T':
+        plan_gap = decision.get('screen_window', {}).get('plan_gap')
+        if plan_gap:
+            question = ('这些安排更新里，她最后提出的是哪一条？' if plan_gap == 'order' else
+                        '这条安排更新，是在你最近一次回复之前还是之后？')
+            return {'field': 'invitation', 'question': question}
         question = {
             'order': '这几条里，最后发出去的是哪一句？',
             'sender': '最后一条已发消息是谁发的？',
@@ -138,6 +143,17 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         result['draft_revision'] = revision
     if 'screen_window' in decision:
         result['screen_window'] = decision['screen_window']
+        items = decision['screen_window']['current_turn_content']
+        if selected_task == 'reply' and decision['action'] == 'draft' and len(items) > 1:
+            primary = decision['screen_window']['reply_to_id']
+            result['turn_coverage'] = {
+                'primary_id': primary,
+                'context_ids': [item['id'] for item in items if item['id'] != primary],
+                'additional_request_ids': [item['id'] for item in items
+                                           if item['request_marked'] and item['id'] != primary],
+                'instruction': '主内容只决定一个方法；核同轮其余问题是否仍待答，必要时在同一条中简短照顾。'
+                               '明确撤回或已解决的内容不重答，不拼接原话，不按气泡逐条补发。',
+            }
     if decision['action'] == 'clarify':
         result['clarification'] = _clarification(facts, decision) | {'recipient': 'user'}
     if decision['action'] == 'hold' and selected_task == 'reply':

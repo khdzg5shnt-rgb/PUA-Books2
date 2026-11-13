@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "cfb337b766091448cab3a4c596b58518018ed6f1",
+  "work_type": "system_maintenance",
+  "new_books_read": 0,
+  "reading_ratio": "70/119",
+  "checks": {
+    "validate_os": true,
+    "unit_tests_passed": 92,
+    "new_test_methods": 20,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "CLI_example_cases_passed": 3,
+    "expected_changed_files_only": 23,
+    "deleted_files": 0,
+    "method_cards_routes_task_modes_preferred_sections_unchanged": true,
+    "source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
+    "reading70_actual68_plus_B017_B039_scope_closures_unchanged": true,
+    "B074_bookmark_unchanged_and_body_unopened": true,
+    "reading_pause_saved_and_previous_sessions_preserved": true,
+    "current_entry_statuses_match_machine_source_counts": true
+  },
+  "protected_file_sha256": {
+    "system/sources.json": "acb4a887f70d869d56558214405d66111f03276fe9c2cc51fe63dd83ab96c1fb",
+    "knowledge/provenance/source_inventory.json": "5ecdddfd57f2ffcf52c9dffe8f893aeab0c75804f8db43065455e172e6744635",
+    "system/methods.json": "d088fb4cb0eedbf44cf4bbe383b280dcb6e7452c07746a99a90580c19d805fdb",
+    "system/METHOD_CARDS.md": "768e2d0c96b2de4a9d12b9ff7ea4a1dd370a03c95f5f548df3a95fe76f5d93fe",
+    "system/router.json": "d5f1961c04de57bc5ac660f74473f90401d7d53ada944626b955a97af417bbe6",
+    "system/tasks.json": "4c07a7582cf965d0bcd273885ed5b6d84366ec626bd3f2eafe647a2f2bd0acb7",
+    "system/knowledge_map.json": "61ed49ed28ecbbb5fed2ddaa8178b1b19a9f980bf40f37bd744e9ac34943a251",
+    "tests/synthetic_scenarios.json": "799da4c98d6f256b414397e894d2cfc62686fde6bb6fcc9723e4b15e812ad252"
+  },
+  "CLI_examples": [
+    {
+      "case": "cancel_and_question",
+      "route": "R18",
+      "method": "M04",
+      "action": "draft",
+      "max_candidates": 1,
+      "plan_update": {
+        "invitation": "cancelled_without_repair",
+        "bubble_ids": [
+          3
+        ]
+      },
+      "additional_request_ids": []
+    },
+    {
+      "case": "changed_time",
+      "route": "R09",
+      "method": "M15",
+      "action": "draft",
+      "max_candidates": 1,
+      "plan_update": {
+        "invitation": "accepted",
+        "bubble_ids": [
+          8
+        ]
+      },
+      "additional_request_ids": null
+    },
+    {
+      "case": "several_requests",
+      "route": "R16",
+      "method": "M13",
+      "action": "draft",
+      "max_candidates": 1,
+      "plan_update": null,
+      "additional_request_ids": [
+        2
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 92
+    }
+  ],
+  "scope": "Structural and synthetic program checks only. No proof of automatic image reading, wording quality, psychological mechanisms or romantic efficacy."
+}

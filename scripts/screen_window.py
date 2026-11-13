@@ -9,6 +9,10 @@ BUBBLE_FIELDS = {'function', 'closed_answer_complete', 'current_turn_low',
                 'advice_requested', 'urgent_practical_need', 'roleplay_shared',
                 'current_scope_relation'}
 
+# A new arrangement update applies to the turn, even when an earlier question
+# is the selected primary content. Other bubble observations remain separate.
+STATE_FIELDS = {'invitation'}
+
 
 def read_bubble(item, config):
     if not isinstance(item, dict):
@@ -24,15 +28,38 @@ def read_bubble(item, config):
     if type(ident) is not int or ident < 1 or sender not in ('user', 'other', 'unknown'):
         raise ValueError('A sent bubble needs a positive local ID and a sender')
     facts = item.get('facts', {})
-    if not isinstance(facts, dict) or set(facts) - BUBBLE_FIELDS:
-        raise ValueError('Only current-bubble observations belong on a sent bubble')
+    if not isinstance(facts, dict) or set(facts) - (BUBBLE_FIELDS | STATE_FIELDS):
+        raise ValueError('Use current-bubble observations or an explicit invitation update')
     validate_fact_values(facts, config)
+    if facts.get('invitation') == 'none':
+        raise ValueError('Omit invitation on ordinary content; an update needs a verified arrangement event')
     return ident, sender, facts
 
 
 def _needs_answer(facts):
     return (facts.get('function') in {'question', 'advice_request'} or
             facts.get('advice_requested', False) or facts.get('urgent_practical_need', False))
+
+
+def _plan_update(messages, ordered, predecessors, possible, current):
+    """Resolve the last explicit current-turn plan state using proved order only."""
+    updates = {ident for ident in possible if 'invitation' in messages[ident][1]}
+    has_later_update = set()
+    for ident in reversed(ordered):
+        if ident in updates or ident in has_later_update:
+            has_later_update.update(predecessors[ident])
+    latest = updates - has_later_update
+    if not latest:
+        return None, None
+    values = {messages[ident][1]['invitation'] for ident in latest}
+    # An update may belong to an old turn if an outgoing barrier is unordered.
+    # Differing unordered updates cannot be resolved by upload order or ID size.
+    if not latest.issubset(current):
+        return None, 'turn'
+    if len(values) != 1:
+        return None, 'order'
+    return {'invitation': values.pop(),
+            'bubble_ids': [ident for ident in ordered if ident in latest]}, None
 
 
 def resolve_screens(screens, config, links, reply_to_id=None):
@@ -112,6 +139,8 @@ def resolve_screens(screens, config, links, reply_to_id=None):
         gap = 'none'
     current_turn_ids = []
     selected_id = None
+    plan_update = None
+    plan_gap = None
     if gap == 'none' and sender == 'other':
         # A bubble belongs to the current other turn only when every visible
         # user/unknown barrier is proved to precede it. Prefix upload order is
@@ -153,11 +182,28 @@ def resolve_screens(screens, config, links, reply_to_id=None):
             gap = 'content'
         else:
             selected_id = last_id
+        plan_update, plan_gap = _plan_update(
+            messages, ordered, predecessors, possible_turn_ids,
+            set(current_turn_ids))
+        if plan_gap:
+            gap = 'order'
+            selected_id = None
     elif gap == 'none' and reply_to_id is not None:
         raise ValueError('reply_to_id requires a current other-sender turn')
-    current = dict(messages[selected_id][1]) if selected_id is not None else {}
+    current = ({key: value for key, value in messages[selected_id][1].items()
+                if key in BUBBLE_FIELDS} if selected_id is not None else {})
+    if plan_update is not None:
+        current['invitation'] = plan_update['invitation']
     current.update(latest_sender=sender, pending_reply=sender == 'user', turn_gap=gap)
     summary = {'distinct_sent': len(messages), 'last_id': last_id,
                'latest_sender': sender, 'turn_gap': gap,
                'current_turn_ids': current_turn_ids, 'reply_to_id': selected_id}
+    summary['current_turn_content'] = [
+        {'id': ident, 'function': messages[ident][1].get('function', 'unknown'),
+         'request_marked': _needs_answer(messages[ident][1]),
+         'selected_primary': ident == selected_id} for ident in current_turn_ids]
+    if plan_update is not None:
+        summary['plan_update'] = plan_update
+    if plan_gap is not None:
+        summary['plan_gap'] = plan_gap
     return current, summary

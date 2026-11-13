@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B074_next_after_B070_B071_finished_in_order",
-  "status": "ready_for_next_file",
-  "base_commit": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 2,
+  "current_focus": "current_turn_arrangement_updates_request_coverage_and_status_consistency",
+  "status": "ready_for_chats_reading_paused",
+  "base_commit": "cfb337b766091448cab3a4c596b58518018ed6f1",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B070_B071_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+  "report": "knowledge/provenance/OS_turn_arrangements_2026-11-13.md",
+  "validation": "knowledge/provenance/OS_turn_arrangements_validation_2026-11-13.json",
   "reading_bookmark": {
     "id": "B074",
     "path": "枪巫方法 - Gunwitch.pdf",
@@ -23,92 +23,39 @@
     "start": "B071当前提供内容、原创笔记和范围已保存；下一唯一主读B074。保存此断点时下一份正文未打开。",
     "next_content_unit": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
-  "next_work": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
+  "next_work": "阅读保持暂停；后续仅说继续时沿本轮系统维护恢复。明确恢复阅读后，才从B074第1页继续，先核最新仓库与原始blob。",
   "current_session_progress": {
-    "baseline": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
-    "work_type": "read_whole_supplied_files_in_serial_order",
-    "new_book_files_started": [
-      "B070",
-      "B071"
-    ],
-    "new_book_files_completed": [
-      "B070",
-      "B071"
-    ],
-    "actually_completed_file_ids": [
-      "B070",
-      "B071"
-    ],
-    "new_whole_book_files_actually_read": 2,
-    "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 187115,
-    "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 79,
-    "new_EPUB_spine_items_read": 39,
-    "original_note_groups": 66,
-    "new_method_source_bindings": 197,
-    "new_method_operations": [],
-    "serial_order": [
-      "B070",
-      "save_B070_notes_scope_and_next_checkpoint",
-      "B071",
-      "save_B071_notes_scope_and_next_checkpoint"
-    ],
-    "next_book_body_opened": false,
-    "original_edition_completeness_not_asserted": true,
-    "books": [
-      {
-        "id": "B070",
-        "title": "杂耍人文集及语录",
-        "native_characters": 90439,
-        "spine_items": 39,
-        "visual_pages": 0,
-        "note_groups": 30,
-        "bindings": 84,
-        "ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
-        "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
-        "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
-        "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
-        "catalog_scope": "39项题名译序、334语录、36篇及评论全文已读；无嵌入图片，所提视频/附录未提供",
-        "range_label": "EPUB全部39个顺序项；90439个原生字符，334语录与36篇文章",
-        "scope_summary": "B070《杂耍人文集及语录》：现有EPUB全部39个顺序项，含题名、译者序、334条语录、36篇文章及随文评论/作者回复，90439个规范化原生字符分47块已按顺序读完。包内没有图片、音视频或额外正文，提及的附录图、照片和视频本体未提供、不等待不补算。语录是二次汇编，未逐条核原出处；与B069的重叠仍逐项实读，译错和未完文字如实保留，重复不作独立效果证据。"
-      },
-      {
-        "id": "B071",
-        "title": "杂耍人方法",
-        "native_characters": 96676,
-        "spine_items": 0,
-        "visual_pages": 79,
-        "note_groups": 36,
-        "bindings": 113,
-        "ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
-        "source_sha256": "2532c81ac3a8b786d7e53ed21ed4d777b5317b091c0f5552093bce85b535d4f9",
-        "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
-        "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read",
-        "catalog_scope": "现有79页两序、术语、目录、六章引用与译注全文及版面已读；未提供原帖不补算",
-        "range_label": "PDF物理页1—79；96676个原生字符，8张拼页核版面",
-        "scope_summary": "B071《杂耍人方法》：79页现有PDF含封面、两序、术语、目录、六章、引用与译注已逐页读至末尾。96676个原生字符分19组实读，79页版面分8张拼页已看；2与10页为空白，无显示的栅格图或替换字符。序言说明为他人汇编，不冒称作者亲定或实证研究；阶段、比例、顺从、说谎及拒绝处理的矛盾已分清取舍。末页编选片段未提供的完整原帖不补写、不等待、不补算，当前提供内容无未补读缺口。"
-      }
-    ],
+    "baseline": "cfb337b766091448cab3a4c596b58518018ed6f1",
+    "work_type": "system_maintenance",
+    "new_book_files_started": [],
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
+    "new_original_book_notes": 0,
+    "new_method_source_bindings": 0,
+    "reading_statuses_unchanged": true,
+    "reading_bookmark_unchanged": true,
+    "completed_ratio": "70/119",
+    "next_file_body_opened": false,
+    "current_turn_arrangement_updates": true,
+    "same_turn_request_coverage": true,
+    "current_reading_displays_checked_against_source_counts": true,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
-      "B070_source_identity_and_contiguous_provided_scope": true,
-      "B071_source_identity_and_contiguous_provided_scope": true,
-      "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
-      "new_exact_source_section_bindings": {
-        "B070": 84,
-        "B071": 113
-      },
-      "only_B070_B071_reading_records_advanced": true,
-      "focused_method_section_queries_passed": 12,
-      "file_reference_does_not_authorize_unbound_method": true,
-      "progress70_actual68_plus_two_explicit_closures_next_B074": true,
-      "B070_notes_scope_and_checkpoint_saved_before_B071_body": true,
-      "only_expected_nineteen_knowledge_and_progress_files_changed": true,
-      "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+      "validation": "knowledge/provenance/OS_turn_arrangements_validation_2026-11-13.json",
       "validate_os": true,
-      "unittest_methods_passed": 72
+      "unit_tests_passed": 92,
+      "new_test_methods": 20,
+      "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+      "CLI_example_cases_passed": 3,
+      "expected_changed_files_only": 23,
+      "deleted_files": 0,
+      "method_cards_routes_task_modes_preferred_sections_unchanged": true,
+      "source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
+      "reading70_actual68_plus_B017_B039_scope_closures_unchanged": true,
+      "B074_bookmark_unchanged_and_body_unopened": true,
+      "reading_pause_saved_and_previous_sessions_preserved": true,
+      "current_entry_statuses_match_machine_source_counts": true
     }
   },
   "last_reading_progress": {
@@ -143,42 +90,41 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
-    "report": "knowledge/provenance/OS_sender_and_sources_2026-11-13.md",
-    "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
+    "base_commit": "cfb337b766091448cab3a4c596b58518018ed6f1",
+    "report": "knowledge/provenance/OS_turn_arrangements_2026-11-13.md",
+    "validation": "knowledge/provenance/OS_turn_arrangements_validation_2026-11-13.json",
     "current_session_progress": {
-      "baseline": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+      "baseline": "cfb337b766091448cab3a4c596b58518018ed6f1",
       "work_type": "system_maintenance",
       "new_book_files_started": [],
       "new_book_files_completed": [],
       "new_book_characters_read": 0,
       "new_book_pages_read": 0,
-      "methods": 26,
-      "routes": 36,
-      "task_modes": 5,
-      "source_records_unchanged": 158,
-      "reading_bookmark_unchanged": true,
+      "new_original_book_notes": 0,
+      "new_method_source_bindings": 0,
       "reading_statuses_unchanged": true,
-      "changes": [
-        "require_verified_flat_input_direction_before_new_draft",
-        "distinguish_verified_empty_conversation_from_unknown_tail",
-        "limit_method_focus_to_exact_bound_sections",
-        "prefer_actual_focus_phrase_over_generic_alias_within_fixed_method",
-        "make_current_reply_style_part_of_M26_preferred_protocol_section"
-      ],
-      "legacy_synthetic_fixtures_with_explicit_direction_added": 116,
-      "existing_synthetic_expected_routes_and_actions_changed": 0,
+      "reading_bookmark_unchanged": true,
+      "completed_ratio": "70/119",
+      "next_file_body_opened": false,
+      "current_turn_arrangement_updates": true,
+      "same_turn_request_coverage": true,
+      "current_reading_displays_checked_against_source_counts": true,
       "checks": {
         "status": "passed",
-        "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
-        "structural": true,
-        "unittest_methods": 72,
-        "new_unittest_methods": 9,
-        "synthetic_routing_scenarios": 158,
-        "stdin_scenarios": 7,
-        "old_fixture_expected_outcomes_unchanged": true,
-        "reading_and_source_preservation": true,
-        "local_links": true
+        "validation": "knowledge/provenance/OS_turn_arrangements_validation_2026-11-13.json",
+        "validate_os": true,
+        "unit_tests_passed": 92,
+        "new_test_methods": 20,
+        "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+        "CLI_example_cases_passed": 3,
+        "expected_changed_files_only": 23,
+        "deleted_files": 0,
+        "method_cards_routes_task_modes_preferred_sections_unchanged": true,
+        "source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
+        "reading70_actual68_plus_B017_B039_scope_closures_unchanged": true,
+        "B074_bookmark_unchanged_and_body_unopened": true,
+        "reading_pause_saved_and_previous_sessions_preserved": true,
+        "current_entry_statuses_match_machine_source_counts": true
       }
     }
   },
@@ -2326,18 +2272,139 @@
           "original_158_scenarios_bytes_unchanged": true
         }
       }
+    },
+    {
+      "base_commit": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+      "report": "knowledge/provenance/OS_sender_and_sources_2026-11-13.md",
+      "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "2cd8fe12b1590d69b8eb84862554fa377071bb1c",
+        "work_type": "system_maintenance",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "methods": 26,
+        "routes": 36,
+        "task_modes": 5,
+        "source_records_unchanged": 158,
+        "reading_bookmark_unchanged": true,
+        "reading_statuses_unchanged": true,
+        "changes": [
+          "require_verified_flat_input_direction_before_new_draft",
+          "distinguish_verified_empty_conversation_from_unknown_tail",
+          "limit_method_focus_to_exact_bound_sections",
+          "prefer_actual_focus_phrase_over_generic_alias_within_fixed_method",
+          "make_current_reply_style_part_of_M26_preferred_protocol_section"
+        ],
+        "legacy_synthetic_fixtures_with_explicit_direction_added": 116,
+        "existing_synthetic_expected_routes_and_actions_changed": 0,
+        "checks": {
+          "status": "passed",
+          "validation": "knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json",
+          "structural": true,
+          "unittest_methods": 72,
+          "new_unittest_methods": 9,
+          "synthetic_routing_scenarios": 158,
+          "stdin_scenarios": 7,
+          "old_fixture_expected_outcomes_unchanged": true,
+          "reading_and_source_preservation": true,
+          "local_links": true
+        }
+      }
     }
   ],
   "last_completed_reading_session": {
-    "id": "B062",
-    "ledger": "knowledge/provenance/B062_reading_2026-11-13.json",
-    "report": "knowledge/provenance/B061_B062_progress_2026-11-13.md",
-    "completion_kind": "actual_supplied_native_text_and_visible_page_images_read",
-    "all_current_provided_content_read": true,
-    "new_native_characters_read": 16445,
-    "new_unique_visual_pages": 18,
-    "original_publication_complete": false,
-    "next_unread": "B063"
+    "date": "2026-11-13",
+    "report": "knowledge/provenance/B070_B071_progress_2026-11-13.md",
+    "validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+    "current_session_progress": {
+      "baseline": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
+      "work_type": "read_whole_supplied_files_in_serial_order",
+      "new_book_files_started": [
+        "B070",
+        "B071"
+      ],
+      "new_book_files_completed": [
+        "B070",
+        "B071"
+      ],
+      "actually_completed_file_ids": [
+        "B070",
+        "B071"
+      ],
+      "new_whole_book_files_actually_read": 2,
+      "user_accepted_scope_closure_ids": [],
+      "new_native_characters_read": 187115,
+      "new_OCR_characters_read": 0,
+      "new_unique_original_visual_pages": 79,
+      "new_EPUB_spine_items_read": 39,
+      "original_note_groups": 66,
+      "new_method_source_bindings": 197,
+      "new_method_operations": [],
+      "serial_order": [
+        "B070",
+        "save_B070_notes_scope_and_next_checkpoint",
+        "B071",
+        "save_B071_notes_scope_and_next_checkpoint"
+      ],
+      "next_book_body_opened": false,
+      "original_edition_completeness_not_asserted": true,
+      "books": [
+        {
+          "id": "B070",
+          "title": "杂耍人文集及语录",
+          "native_characters": 90439,
+          "spine_items": 39,
+          "visual_pages": 0,
+          "note_groups": 30,
+          "bindings": 84,
+          "ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+          "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
+          "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
+          "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
+          "catalog_scope": "39项题名译序、334语录、36篇及评论全文已读；无嵌入图片，所提视频/附录未提供",
+          "range_label": "EPUB全部39个顺序项；90439个原生字符，334语录与36篇文章",
+          "scope_summary": "B070《杂耍人文集及语录》：现有EPUB全部39个顺序项，含题名、译者序、334条语录、36篇文章及随文评论/作者回复，90439个规范化原生字符分47块已按顺序读完。包内没有图片、音视频或额外正文，提及的附录图、照片和视频本体未提供、不等待不补算。语录是二次汇编，未逐条核原出处；与B069的重叠仍逐项实读，译错和未完文字如实保留，重复不作独立效果证据。"
+        },
+        {
+          "id": "B071",
+          "title": "杂耍人方法",
+          "native_characters": 96676,
+          "spine_items": 0,
+          "visual_pages": 79,
+          "note_groups": 36,
+          "bindings": 113,
+          "ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+          "source_sha256": "2532c81ac3a8b786d7e53ed21ed4d777b5317b091c0f5552093bce85b535d4f9",
+          "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
+          "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read",
+          "catalog_scope": "现有79页两序、术语、目录、六章引用与译注全文及版面已读；未提供原帖不补算",
+          "range_label": "PDF物理页1—79；96676个原生字符，8张拼页核版面",
+          "scope_summary": "B071《杂耍人方法》：79页现有PDF含封面、两序、术语、目录、六章、引用与译注已逐页读至末尾。96676个原生字符分19组实读，79页版面分8张拼页已看；2与10页为空白，无显示的栅格图或替换字符。序言说明为他人汇编，不冒称作者亲定或实证研究；阶段、比例、顺从、说谎及拒绝处理的矛盾已分清取舍。末页编选片段未提供的完整原帖不补写、不等待、不补算，当前提供内容无未补读缺口。"
+        }
+      ],
+      "checks": {
+        "status": "passed",
+        "reading_metadata_validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+        "B070_source_identity_and_contiguous_provided_scope": true,
+        "B071_source_identity_and_contiguous_provided_scope": true,
+        "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
+        "new_exact_source_section_bindings": {
+          "B070": 84,
+          "B071": 113
+        },
+        "only_B070_B071_reading_records_advanced": true,
+        "focused_method_section_queries_passed": 12,
+        "file_reference_does_not_authorize_unbound_method": true,
+        "progress70_actual68_plus_two_explicit_closures_next_B074": true,
+        "B070_notes_scope_and_checkpoint_saved_before_B071_body": true,
+        "only_expected_nineteen_knowledge_and_progress_files_changed": true,
+        "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+        "validate_os": true,
+        "unittest_methods_passed": 72
+      }
+    }
   },
   "reading_policy": {
     "mode": "finish_unfinished_files_before_new_books",
@@ -4998,6 +5065,97 @@
           "progress68_actual66_plus_two_explicit_closures": true,
           "only_expected_fifteen_knowledge_and_progress_files_changed": true,
           "raw_source_files_runtime_routes_task_modes_and_preferred_sections_unchanged": true,
+          "validate_os": true,
+          "unittest_methods_passed": 72
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B070_B071_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
+        "work_type": "read_whole_supplied_files_in_serial_order",
+        "new_book_files_started": [
+          "B070",
+          "B071"
+        ],
+        "new_book_files_completed": [
+          "B070",
+          "B071"
+        ],
+        "actually_completed_file_ids": [
+          "B070",
+          "B071"
+        ],
+        "new_whole_book_files_actually_read": 2,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 187115,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 79,
+        "new_EPUB_spine_items_read": 39,
+        "original_note_groups": 66,
+        "new_method_source_bindings": 197,
+        "new_method_operations": [],
+        "serial_order": [
+          "B070",
+          "save_B070_notes_scope_and_next_checkpoint",
+          "B071",
+          "save_B071_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B070",
+            "title": "杂耍人文集及语录",
+            "native_characters": 90439,
+            "spine_items": 39,
+            "visual_pages": 0,
+            "note_groups": 30,
+            "bindings": 84,
+            "ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+            "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
+            "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
+            "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
+            "catalog_scope": "39项题名译序、334语录、36篇及评论全文已读；无嵌入图片，所提视频/附录未提供",
+            "range_label": "EPUB全部39个顺序项；90439个原生字符，334语录与36篇文章",
+            "scope_summary": "B070《杂耍人文集及语录》：现有EPUB全部39个顺序项，含题名、译者序、334条语录、36篇文章及随文评论/作者回复，90439个规范化原生字符分47块已按顺序读完。包内没有图片、音视频或额外正文，提及的附录图、照片和视频本体未提供、不等待不补算。语录是二次汇编，未逐条核原出处；与B069的重叠仍逐项实读，译错和未完文字如实保留，重复不作独立效果证据。"
+          },
+          {
+            "id": "B071",
+            "title": "杂耍人方法",
+            "native_characters": 96676,
+            "spine_items": 0,
+            "visual_pages": 79,
+            "note_groups": 36,
+            "bindings": 113,
+            "ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+            "source_sha256": "2532c81ac3a8b786d7e53ed21ed4d777b5317b091c0f5552093bce85b535d4f9",
+            "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
+            "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read",
+            "catalog_scope": "现有79页两序、术语、目录、六章引用与译注全文及版面已读；未提供原帖不补算",
+            "range_label": "PDF物理页1—79；96676个原生字符，8张拼页核版面",
+            "scope_summary": "B071《杂耍人方法》：79页现有PDF含封面、两序、术语、目录、六章、引用与译注已逐页读至末尾。96676个原生字符分19组实读，79页版面分8张拼页已看；2与10页为空白，无显示的栅格图或替换字符。序言说明为他人汇编，不冒称作者亲定或实证研究；阶段、比例、顺从、说谎及拒绝处理的矛盾已分清取舍。末页编选片段未提供的完整原帖不补写、不等待、不补算，当前提供内容无未补读缺口。"
+          }
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+          "B070_source_identity_and_contiguous_provided_scope": true,
+          "B071_source_identity_and_contiguous_provided_scope": true,
+          "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
+          "new_exact_source_section_bindings": {
+            "B070": 84,
+            "B071": 113
+          },
+          "only_B070_B071_reading_records_advanced": true,
+          "focused_method_section_queries_passed": 12,
+          "file_reference_does_not_authorize_unbound_method": true,
+          "progress70_actual68_plus_two_explicit_closures_next_B074": true,
+          "B070_notes_scope_and_checkpoint_saved_before_B071_body": true,
+          "only_expected_nineteen_knowledge_and_progress_files_changed": true,
+          "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
           "validate_os": true,
           "unittest_methods_passed": 72
         }

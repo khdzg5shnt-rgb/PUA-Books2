@@ -12,14 +12,19 @@
 - 原始126项、23项上传材料、9个公开外部GitHub来源统一登记；已采用内容可在仓库内找到，未读与缺失范围明确。
 - 原有书籍笔记、主题笔记、C01–C18公开教学案例和许可归档继续有效。
 
-多图和平面入口都核最近已发方向，首次开场与未知末句分开。方法内检索只采用已精确绑定的段落，不借整本出处串到其他方法；已有词组命中优先。M26直接定位[一句自然话的取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍)，保留同轮主内容、未发草稿修改和可不调整的复盘。见[本轮维护](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)与[实际检查](knowledge/provenance/OS_sender_and_sources_validation_2026-11-13.json)。
+多图和平面入口都核最近已发方向，首次开场与未知末句分开。方法内检索只采用已精确绑定的段落，不借整本出处串到其他方法；已有词组命中优先。M26直接定位[一句自然话的取舍](system/REPLY_PROTOCOL.md#一句自然话的取舍)，保留同轮主内容、未发草稿修改和可不调整的复盘。此前修订见[方向与来源维护](knowledge/provenance/OS_sender_and_sources_2026-11-13.md)。
 
-当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B070《杂耍人文集及语录》、B071《杂耍人方法》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B074，保存断点时正文未打开。[本轮记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
+当前轮的问题和安排更新分别处理：较晚取消或改期不会因较早主问题被选中而漏掉。同轮其他问题仍需核是否待答，最后仍只给一条。[本轮维护](knowledge/provenance/OS_turn_arrangements_2026-11-13.md) · [实际检查](knowledge/provenance/OS_turn_arrangements_validation_2026-11-13.json)。
+
+<!-- CURRENT_READING_STATUS -->
+当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际读完当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮仅维护系统，新增阅读为零；阅读暂停，B074第1页书签及原文件身份保留，正文未打开。[最近阅读记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
+<!-- END_CURRENT_READING_STATUS -->
 
 这里是助手读取和执行的规则、知识与检索工具。命令行给出一个主方法、笔记行段与本任务约定，不自行理解截图或生成语言。不保存真实私人聊天，不自动发送消息，不承诺某句话保证成功。
 
 ```bash
 python scripts/coach.py --request system/EXAMPLE_REQUEST.json
+python scripts/coach.py --request system/EXAMPLE_PLAN_UPDATE.json
 python scripts/coach.py --request -
 python scripts/search_knowledge.py '没给替代时间'
 python scripts/search_knowledge.py --method M14

@@ -31,7 +31,12 @@ class ScreenWindow(unittest.TestCase):
             result = brief({'screens': list(order), 'pending_reply': True, 'latest_sender': 'user'})
             self.assertEqual(result['screen_window'], {'last_id': 2, 'latest_sender': 'other',
                                                        'distinct_sent': 3, 'turn_gap': 'none',
-                                                       'current_turn_ids': [4, 2], 'reply_to_id': 2})
+                                                       'current_turn_ids': [4, 2], 'reply_to_id': 2,
+                                                       'current_turn_content': [
+                                                           {'id': 4, 'function': 'sharing',
+                                                            'request_marked': False, 'selected_primary': False},
+                                                           {'id': 2, 'function': 'question',
+                                                            'request_marked': True, 'selected_primary': True}]})
             self.assertEqual(result['decision']['route_id'], 'R18')
             self.assertEqual(set(result['fact_adjustments']), {'latest_sender', 'pending_reply'})
             self.assertEqual(result['output_contract']['recipient'], 'other')

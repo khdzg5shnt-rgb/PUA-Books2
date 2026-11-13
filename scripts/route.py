@@ -120,7 +120,9 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
         if reported_gap != 'none':
             current = {'turn_gap': reported_gap, 'latest_sender': 'unknown', 'pending_reply': False}
             window.update(last_id=None, turn_gap=reported_gap, latest_sender='unknown',
-                          current_turn_ids=[], reply_to_id=None)
+                          current_turn_ids=[], reply_to_id=None, current_turn_content=[])
+            window.pop('plan_update', None)
+            window.pop('plan_gap', None)
         supplied.update(current)
     observations = normalize(supplied, config)
     if type(apply_action_goal) is not bool:

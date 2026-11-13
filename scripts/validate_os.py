@@ -12,6 +12,28 @@ from knowledge import citation_headings, markdown_sections, method_reference
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_reading_displays(root, complete, total):
+    """Keep the current human entry points aligned; explicitly dated history stays."""
+    errors = []
+    pattern = r'<!-- CURRENT_READING_STATUS -->\s*\n(.*?)\n<!-- END_CURRENT_READING_STATUS -->'
+    for relative in ['README.md', 'KNOWLEDGE_INDEX.md']:
+        content = (root/relative).read_text(encoding='utf-8')
+        blocks = re.findall(pattern, content, flags=re.S)
+        if len(blocks) != 1:
+            errors.append('Expected one current reading status block: '+relative)
+            continue
+        found = re.findall(r'^当前完成(\d+)/(\d+)份任务', blocks[0], flags=re.M)
+        if found != [(str(complete), str(total))]:
+            errors.append('Current reading display does not match source state: '+relative)
+        outside = re.sub(pattern, '', content, flags=re.S)
+        if re.search(r'^当前完成\d+/\d+份任务', outside, flags=re.M):
+            errors.append('Unmarked current reading display may be stale: '+relative)
+    content = (root/'CURRENT_STATE.md').read_text(encoding='utf-8')
+    if re.findall(r'^## 完成进度：(\d+)/(\d+)', content, flags=re.M) != [(str(complete), str(total))]:
+        errors.append('Current reading display does not match source state: CURRENT_STATE.md')
+    return errors
+
+
 def validate(root=ROOT):
     errors = []
     routes = json.loads((root / 'system/router.json').read_text(encoding='utf-8'))
@@ -130,6 +152,7 @@ def validate(root=ROOT):
     complete=sum(s['reading_status']=='provided_file_text_complete' for s in books)
     unread=sum(s['reading_status']=='unread' for s in books)
     partial=len(books)-complete-unread
+    errors.extend(validate_reading_displays(root, complete, len(books)))
     expected_stats={'original_items':len(historical['records']),'book_files':len(books),
         'uploads':len(provenance['sources']),'public_github_sources':len(provenance['github_sources']),
         'source_records':len(sources['records']),'current_book_files_text_complete':complete,
