@@ -14499,8 +14499,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B6%88%E9%99%A4%E6%90%AD%E8%AE%AA%E7%84%A6%E8%99%91%E3%80%90%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4%E3%80%91.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B082.md",
       "pages": 29,
       "spine_items": null,
       "ocr": {
@@ -14508,7 +14508,49 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B082_reading_2026-11-13.json",
+      "coverage_mode": "all29_native_text_pages_all17_images_read_19_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all29_native_text_pages_and_all17_unique_embedded_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true,
+      "source_sha256": "4dcc4588e8bab9992ea3ae5c5923ca0213f7d0ef06f9d43d31002e92a62bce61",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "ledger": "knowledge/provenance/B082_reading_2026-11-13.json",
+        "native_characters": 18063,
+        "native_pages_read": 29,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          9,
+          12,
+          14,
+          15,
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "unique_embedded_images": 17,
+        "unique_embedded_images_viewed": 17,
+        "whole_layout_visual_review": false,
+        "all_current_file_content_read": true,
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 16,
+        "new_exact_method_section_bindings": 14
+      }
     },
     {
       "index": 83,
@@ -15634,5 +15676,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B081 all242 supplied native text pages read; 373693 native characters, unique blank header image viewed, six layout samples, 30 original critical notes, 23 exact method-section bindings. 78/119 finished tasks=75 actual supplied-file reads+3 user scope closures. No new scope closure; next B082 body unopened."
+  "latest_reading_update": "2026-11-13: B082 all29 supplied native text pages,18063 characters,and all17 unique images read;19 layout samples;16 original critical notes,14 exact method-section bindings.79/119 finished tasks=76 actual supplied-file reads+3 user scope closures.No new scope closure;next B083 body unopened."
 }

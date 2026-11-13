@@ -976,9 +976,15 @@
       "group": "books2_original_snapshot",
       "title": "消除搭讪焦虑【晚熟青年】.pdf",
       "git_blob_sha": "677afb309eacbf58d0eadb5945bba1f2e351cd38",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B082.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B082_reading_2026-11-13.json",
+      "coverage_mode": "all29_native_text_pages_all17_images_read_19_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all29_native_text_pages_and_all17_unique_embedded_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "task_complete": true
     },
     {
       "id": "B083",
@@ -1716,23 +1722,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 78,
+    "current_book_files_text_complete": 79,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 41
+    "current_book_files_not_started": 40
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B082",
-    "path": "消除搭讪焦虑【晚熟青年】.pdf",
-    "bytes": 1225187,
-    "git_blob_sha": "677afb309eacbf58d0eadb5945bba1f2e351cd38",
+    "id": "B083",
+    "path": "游戏 - IN10SE.pdf",
+    "bytes": 1075675,
+    "git_blob_sha": "123aac6b4c8fe1fd02caea99f6746fcdc0fc75a0",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B081全部242页现有文字、唯一空白内嵌图像、30组原创笔记和范围已保存；下一唯一主读B082，正文未打开。",
-    "next_content_unit": "Read B082 from file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the user policy, with gaps retained and no repeated question."
+    "start": "B081与B082已严格串行读完并各自保存笔记和范围；下一唯一主读B083，正文未打开。",
+    "next_content_unit": "Read B083 from file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the user policy, with gaps retained and no repeated question."
   },
   "deferred_work_units": []
 }
