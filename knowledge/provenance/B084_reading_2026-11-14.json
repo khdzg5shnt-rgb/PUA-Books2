@@ -1,0 +1,1409 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "a0d43eef6b98c6863df949e7a5dea9bc1199edc3",
+  "id": "B084",
+  "path": "游戏加速论 - 万恶.pdf",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E8%AE%BA%20-%20%E4%B8%87%E6%81%B6.pdf",
+  "bytes": 402964,
+  "git_blob_sha": "77ea5769f515ebae1bf3b72da33aa771674123ae",
+  "source_sha256": "c2b5cac12e2b317d827cae57c202a3f94b597e6ee04a570d529f1ed5d527b227",
+  "PDF_metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "iTextSharp 5.0.4 (c) 1T3XT BVBA",
+    "creationDate": "D:20180826203314+08'00'",
+    "modDate": "D:20180826203342+08'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "physical_pages": 39,
+  "download": "Connector returned base64 and matching blob metadata; immutable public raw at the same commit also obtained and byte/Git blob/SHA-256 verified.",
+  "native_extraction": {
+    "engine": "PyMuPDF page.get_text(text), default unsorted content-stream order",
+    "raw_native_characters": 32783,
+    "coordinates": "Unicode codepoints, half-open range within each page",
+    "replacement_characters": 0,
+    "initial_screening_counts_preserved_separately": {
+      "characters": 33064,
+      "body_characters": 31980
+    },
+    "image_text_not_in_native_count": true
+  },
+  "cover_font_mapping_recovery": {
+    "physical_page": 1,
+    "raw_characters": 1386,
+    "codepoint_transform": "Add31 to each non-newline Unicode codepoint",
+    "decoded_characters_including_repetitions": 1386,
+    "repeated_phrase_length": 126,
+    "repetitions": 11,
+    "decoded_sha256": "7252f838a530247c7b8f46c3def24ac4bfc4f8440cd59f0addfb03ac7f952d4c",
+    "original_tiny_text_crop_viewed": true,
+    "crop_scale": 65,
+    "crop_sha256": "ee9b26a95cc6803a4c46c5ad90f6319fcb430340905f4b11d719ca80c9aa62ce",
+    "no_unread_cover_text_remaining": true
+  },
+  "actual_read_file_page_ranges": [
+    [
+      1,
+      39
+    ]
+  ],
+  "actual_raw_native_characters_processed_and_read_after_recovery": 32783,
+  "other_native_characters_read": 31397,
+  "OCR_run": false,
+  "image_object_refs": 11,
+  "unique_image_content_hashes": 10,
+  "resource_list_entries": 100,
+  "actual_image_placements": 84,
+  "all_image_contents_visually_inspected": true,
+  "embedded_image_evidence": [
+    {
+      "xref": 129,
+      "width": 850,
+      "height": 1109,
+      "file": "image_129.jpeg",
+      "sha256": "d9ba9c2ea66cef828cf512567646617162f7a6cc0c386228d131bbe9fbec7544",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 1,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 130,
+      "width": 850,
+      "height": 1109,
+      "file": "image_130.jpeg",
+      "sha256": "50c398c6e722d68c2dc000f97ae99f8c551982c54e5f88caaf46ffca57786c12",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 1,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 131,
+      "width": 850,
+      "height": 1109,
+      "file": "image_131.jpeg",
+      "sha256": "7a20f3cec7e5486113daefe9ec34aaeb77677104f53b227ce5af55ffab97f624",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 1,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 132,
+      "width": 850,
+      "height": 1109,
+      "file": "image_132.jpeg",
+      "sha256": "5708601ef9fa8263005a1d2234677c72afa2e8da8e61ed9438ee979db53814c4",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 1,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 133,
+      "width": 850,
+      "height": 1109,
+      "file": "image_133.jpeg",
+      "sha256": "253f3863da621f6b7ebc6f6ff0236fc34c764b2a003d7aecf7b8d1df4868f4a1",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 2,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 134,
+      "width": 850,
+      "height": 1109,
+      "file": "image_134.jpeg",
+      "sha256": "3dff71d8faa39252b8d50a4432cb0a5bacd875a1e5ef12f9e66bb4882ea6fec4",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 2,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 135,
+      "width": 850,
+      "height": 1109,
+      "file": "image_135.jpeg",
+      "sha256": "e46251de07c4841d7ba50041275cee825e258815e3595f4c8793895f7093f5d8",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 2,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 136,
+      "width": 850,
+      "height": 1109,
+      "file": "image_136.png",
+      "sha256": "3abb08739080d83081b5308e59fee8cb8f20650bbe6989782a3a3d6e184f0f24",
+      "pages": [
+        1,
+        1,
+        1
+      ],
+      "resource_pages": [
+        1
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 2,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 145,
+      "width": 181,
+      "height": 58,
+      "file": "image_145.png",
+      "sha256": "db6f3487ddffcaafb1216c1cc1f1c3bf708e01f20dd95ce6c1722d2fccd18c66",
+      "pages": [
+        2
+      ],
+      "resource_pages": [
+        2
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 3,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 167,
+      "width": 642,
+      "height": 105,
+      "file": "image_167.jpeg",
+      "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "resource_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 3,
+      "identical_content_reference": null
+    },
+    {
+      "xref": 148,
+      "width": 181,
+      "height": 58,
+      "file": "image_148.png",
+      "sha256": "db6f3487ddffcaafb1216c1cc1f1c3bf708e01f20dd95ce6c1722d2fccd18c66",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "resource_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "actually_viewed": true,
+      "viewed_in_resource_contact_sheet": 3,
+      "identical_content_reference": 145
+    }
+  ],
+  "selected_visual_pages_reviewed": [
+    1,
+    2,
+    31,
+    32,
+    38,
+    39
+  ],
+  "all39_page_layouts_visually_reviewed": false,
+  "vector_drawing_pages": [],
+  "extra_embedded_files": 0,
+  "annotations": 0,
+  "outlines": 0,
+  "external_targets_opened": false,
+  "known_layout_limits": [
+    "Contents locators up to57 disagree with39 physical pages; physical page positions used",
+    "Cover font mapping anomaly recovered and visually checked; raw count includes11 repeats",
+    "Same image can occur repeatedly in resource list;11 refs reduce to10 image-content hashes and84 actual placements",
+    "P31—32 red coaching remarks distinguished from black text; no private transcript republished"
+  ],
+  "all_current_file_content_read": true,
+  "known_unread_current_content": [],
+  "original_edition_completeness_verified": false,
+  "current_file_completion_kind": "actual_supplied_PDF_all39_page_content_all10_unique_image_contents_and_recovered_cover_text_read",
+  "new_scope_closure": false,
+  "page_units": [
+    {
+      "file_page": 1,
+      "characters": 1386,
+      "text_sha256": "70cd2df073eecf95d523e98d6e8a522b29657d9142a53bd4823320a936bc758f",
+      "replacement_characters": 0,
+      "images": 24,
+      "size": [
+        612.0,
+        792.0
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1386
+      ],
+      "font_mapping_recovery_required": true,
+      "original_layout_sample_viewed": true
+    },
+    {
+      "file_page": 2,
+      "characters": 542,
+      "text_sha256": "5047b82ec3490df5d4785fe18cb941827e89e46f75f415796f0c37a0fd8c6bd6",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        542
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": true
+    },
+    {
+      "file_page": 3,
+      "characters": 498,
+      "text_sha256": "8bcff346a392b2cdc619b79a6d12d85d883553907b85c164df1d183001973eeb",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        498
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 4,
+      "characters": 951,
+      "text_sha256": "b6c011772ebf7d3e6546679840f4b08ef10f111a8b350d2575e16a771c3b87e8",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        951
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 5,
+      "characters": 400,
+      "text_sha256": "20cc8194fea86ab02fe9e62b00745ed2920cb91938591bc4b8e9279dae431a9a",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        400
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 6,
+      "characters": 647,
+      "text_sha256": "283a7749545d99359b85ffc51fc79345f0ceeaa7f2748f0c074e4df749e2dbeb",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        647
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 7,
+      "characters": 571,
+      "text_sha256": "0454f3f9bfd17238ed21f0d7c61294047df20fee6f10fbd82c9a5973941e8aaf",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        571
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 8,
+      "characters": 993,
+      "text_sha256": "d78e4090afa3f62e9783388c6a62648f7d3fb4b3c6be590467f6629427170072",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        993
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 9,
+      "characters": 795,
+      "text_sha256": "dee32b1046e4219a5598f48d24de103996b8750a1a6db81ea3f77e5b967005fb",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        795
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 10,
+      "characters": 601,
+      "text_sha256": "34109fc5f2ab5241a48f158c0fe8e8daabf02ea1dfd04436e42e7ff3e4854e29",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        601
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 11,
+      "characters": 606,
+      "text_sha256": "8c75046fecc79f80799370f21ae06289f2297a5dbbad5c55150a570d43ee2d67",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        606
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 12,
+      "characters": 478,
+      "text_sha256": "21ff2356312afb0ae8dddb2f6575e3a80c1b6e23c7d5512426d6aa32366b79d4",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        478
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 13,
+      "characters": 902,
+      "text_sha256": "0c58137bf28e0c17cd906b844bc33ffa7a4d623b4cdfaf85043dd7f0c2fff534",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        902
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 14,
+      "characters": 854,
+      "text_sha256": "3da0a2195a607cc71c6aaff18406fd34d491a7747138313aa3410348ebadfb3e",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        854
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 15,
+      "characters": 1157,
+      "text_sha256": "f225441d21e3229ac26db2427546f2084bbb6c999a312cca4224955d4f7d8edf",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1157
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 16,
+      "characters": 727,
+      "text_sha256": "0fc28a1ab47792d60449fcf17eda4b2b407db4ae20997935e5ce91221662f838",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        727
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 17,
+      "characters": 1144,
+      "text_sha256": "5d258bd0cbf683d36c8e6bbec13d35b18b655ea644f8c2476ec03cd006bd0d2e",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1144
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 18,
+      "characters": 1167,
+      "text_sha256": "cf2a49ffd6213b037e5c7cb139c772582dce4eb61d21beeae643debe75d6d028",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1167
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 19,
+      "characters": 690,
+      "text_sha256": "1d852ceb0e5a8632679f1d28b576ffd46b8ff7f0ded65ff7ae33900aea3c0275",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        690
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 20,
+      "characters": 929,
+      "text_sha256": "bc5b40cfe9646ffa7cbc3c47ceed816e23b0388b074a4e634b8e5be1d8d761ca",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        929
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 21,
+      "characters": 1207,
+      "text_sha256": "29ece92e8c26f7f98a7ba18246d41ce9fc48a9dec3b06b37daa9e9d56d70de27",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1207
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 22,
+      "characters": 1233,
+      "text_sha256": "cc2d9ba68dfdb7384f147da96e26f1168d7d9b1e4a99f086eb4c863262396067",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1233
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 23,
+      "characters": 1145,
+      "text_sha256": "03d357faaee7245396ecd41f5793a261571df598f65888c7ffb7429f178a708e",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1145
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 24,
+      "characters": 1140,
+      "text_sha256": "0e2203fa0e724a4de5bfb6093c63dd91fcc0999d17681e8ade7301e32bbf8de8",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1140
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 25,
+      "characters": 462,
+      "text_sha256": "da75f266b18659c616ffab000b620087caad115bcb2cb2c7066051b9a7ddf6c7",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        462
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 26,
+      "characters": 854,
+      "text_sha256": "5bf051886377c68e7069016d1fa1a31dfe4a843a8a7e79732a5281d74d5ed543",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        854
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 27,
+      "characters": 837,
+      "text_sha256": "0266548387192e4cb0c1eb24afefad5dd47d1aa3f6f0f7eebc9abe79729990c3",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        837
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 28,
+      "characters": 762,
+      "text_sha256": "bdea89bda5fb1896ad340c5df0471aa644f394c2b5178591217c559ea6aaca46",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        762
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 29,
+      "characters": 1105,
+      "text_sha256": "657190524176b38ad127b15aa40aa840f5e7d7a37bbf9a82cc114bad97295546",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1105
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 30,
+      "characters": 493,
+      "text_sha256": "a97869d98fd0f1f83cbe6790da28d90c0369bc19bf166f793f9a399ed6f7ba51",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        493
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 31,
+      "characters": 949,
+      "text_sha256": "bb9faf7dab0cf903130aa0a636b47dd8ccffff91c2578f42a85d8a1bff738627",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        949
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": true
+    },
+    {
+      "file_page": 32,
+      "characters": 1224,
+      "text_sha256": "b5ba78399451034eb620f136e69af3ebcab4e7e69eb31fb6b149f57f4ec4c60d",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1224
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": true
+    },
+    {
+      "file_page": 33,
+      "characters": 1125,
+      "text_sha256": "b362395102189d0e59ceaaa2106299068d6d0113f139c36d5715a677182386ef",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1125
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 34,
+      "characters": 456,
+      "text_sha256": "705ba566a8bb25956f9d87196628771dc71a573f0e72048c40f29383c24d059e",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        456
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 35,
+      "characters": 557,
+      "text_sha256": "9bf400824c6bf9512a0c2096477918030dd24c7308522c9882e4611d3d2c430f",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        557
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 36,
+      "characters": 1019,
+      "text_sha256": "64a1d3ccd248f8ca76ae175c4059d49605a17dd4732564f572ccfa1e5e7c6fde",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1019
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 37,
+      "characters": 1058,
+      "text_sha256": "3a6a3b81b40e58ec2421ed8cf7c76526fd09ecdc069dd2d26260c27ec0ba376d",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        1058
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": false
+    },
+    {
+      "file_page": 38,
+      "characters": 554,
+      "text_sha256": "858586c10a38b33c4518488ca7a2ee41f050563e9dc3186c000cfcc10803e454",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        554
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": true
+    },
+    {
+      "file_page": 39,
+      "characters": 565,
+      "text_sha256": "f114609cd92186b9ce4f432e4e1f218bb03479b0d87b709bc4b32449b53fdc3e",
+      "replacement_characters": 0,
+      "images": 2,
+      "size": [
+        595.2000122070312,
+        841.6799926757812
+      ],
+      "drawings": 0,
+      "native_text_actually_read_after_recovery_if_needed": true,
+      "read_native_page_range": [
+        0,
+        565
+      ],
+      "font_mapping_recovery_required": false,
+      "original_layout_sample_viewed": true
+    }
+  ],
+  "visual_evidence": [
+    {
+      "file_page": 1,
+      "render_sha256": "7759886f7c714c16756aa5238fffd6618931c676453cdd882f561b7b7ed257a3",
+      "actually_viewed": true
+    },
+    {
+      "file_page": 2,
+      "render_sha256": "7ae2ee0ba597095a35ca4eceec3764a2cc3345fea0b4d71553dd6467aae26e6b",
+      "actually_viewed": true
+    },
+    {
+      "file_page": 31,
+      "render_sha256": "05e8004c2c6c53ae215096fa74769fc66baad6e22d6ddab0e80135852323c3cc",
+      "actually_viewed": true
+    },
+    {
+      "file_page": 32,
+      "render_sha256": "3f40e747f128d5fa2a4e87e85e7eea1a3532f1a90d92bf9e29f4f1d5ac3cfb6f",
+      "actually_viewed": true
+    },
+    {
+      "file_page": 38,
+      "render_sha256": "194ed54ad3b2d89689becc32db0c906fc157e739b10f4f0dfb5d44eb93ef6e23",
+      "actually_viewed": true
+    },
+    {
+      "file_page": 39,
+      "render_sha256": "6162f69bde033d27bf4423793a61f0be041ea148fb0c9c6a6f64f1c6333cc53b",
+      "actually_viewed": true
+    }
+  ],
+  "resource_contact_sheets": [
+    {
+      "sheet": 1,
+      "sha256": "00cf53818786bc91448fba49d456c8441beaec2da67a2475327f89b19ab2d2d5",
+      "actually_viewed": true
+    },
+    {
+      "sheet": 2,
+      "sha256": "bf154bdbb8046a580168c04d2f581edb6a01fc45a3d90a0b8ffd44e6e250451d",
+      "actually_viewed": true
+    },
+    {
+      "sheet": 3,
+      "sha256": "dfac6806e4f723df941fc0eeee35327eff1688bb5ddac7ce589ac7ad1eae98d2",
+      "actually_viewed": true
+    }
+  ],
+  "original_note_groups": 26,
+  "new_exact_method_section_bindings": 17,
+  "notes": [
+    {
+      "heading": "当前文件与目录页码分开记录",
+      "file_location": "P1—2封面与目录；P39结尾。",
+      "bound_methods": []
+    },
+    {
+      "heading": "履历竞赛和百分比不证明效果",
+      "file_location": "P2—8作者介绍、竞赛、社区历史；P39课程推介。",
+      "bound_methods": []
+    },
+    {
+      "heading": "了解方法适用条件而不背整套流程",
+      "file_location": "P8—12，对三种方法的评论。",
+      "bound_methods": [
+        "M26"
+      ]
+    },
+    {
+      "heading": "自身特点不等于缺陷清单",
+      "file_location": "P8—9，作者列举个人条件。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "紧张可以承认不必先清零",
+      "file_location": "P12—14，焦虑、抵抗与注意焦点。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "开口仍要看现场和对方是否方便",
+      "file_location": "P14—16，开关比喻、环境与行动。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "不把陌生人当训练配额",
+      "file_location": "P12、P15—16，指定接近次数、热身和高压场景。",
+      "bound_methods": [
+        "M22"
+      ]
+    },
+    {
+      "heading": "没有经验不削弱表达与拒绝的权利",
+      "file_location": "P16—19，作者的性焦虑解释。",
+      "bound_methods": [
+        "M23"
+      ]
+    },
+    {
+      "heading": "信念用事实修正而不换一套保证",
+      "file_location": "P18—19，负面信念、自我形象和成功障碍。",
+      "bound_methods": [
+        "M01"
+      ]
+    },
+    {
+      "heading": "保留普通生活与朋友",
+      "file_location": "P19，社区优越感及对普通人的贬损。",
+      "bound_methods": []
+    },
+    {
+      "heading": "外在准备按本人选择与实际需要",
+      "file_location": "P19—22，服装、仪容及声音。",
+      "bound_methods": []
+    },
+    {
+      "heading": "表达清楚不靠眼神和姿势证明地位",
+      "file_location": "P21—23，身体语言、声调与目光。",
+      "bound_methods": [
+        "M26"
+      ]
+    },
+    {
+      "heading": "提问与自我表达都可自然使用",
+      "file_location": "P23—25，十一项谈话提醒。",
+      "bound_methods": [
+        "M04"
+      ]
+    },
+    {
+      "heading": "开场不承担维持整场的义务",
+      "file_location": "P23—24，三至五分钟与九比一比例。",
+      "bound_methods": [
+        "M19"
+      ]
+    },
+    {
+      "heading": "分享真实细节不伪造好奇钩子",
+      "file_location": "P24—25，自我分享、感官细节和展示。",
+      "bound_methods": [
+        "M10"
+      ]
+    },
+    {
+      "heading": "先接住一个话题再决定是否展开",
+      "file_location": "P24—25，多重脉络与相关性。",
+      "bound_methods": [
+        "M03"
+      ]
+    },
+    {
+      "heading": "不为赢争论攻击也不放弃正常边界",
+      "file_location": "P24，关于争辩的提醒。",
+      "bound_methods": [
+        "M22"
+      ]
+    },
+    {
+      "heading": "共同情境比乱抛材料更有用",
+      "file_location": "P25，环境相关的谈话。",
+      "bound_methods": [
+        "M05"
+      ]
+    },
+    {
+      "heading": "相关不是因果个案也不能补成定论",
+      "file_location": "P33—34，孔雀风格与因果讨论。",
+      "bound_methods": []
+    },
+    {
+      "heading": "复盘先核事实再选一项可改动作",
+      "file_location": "P26—28，模式、基线与五步症结分析；P30—32日志框架。",
+      "bound_methods": []
+    },
+    {
+      "heading": "资料缩成当前一项而不是更多套路",
+      "file_location": "P28—30，信息超载与小组块。",
+      "bound_methods": [
+        "M26"
+      ]
+    },
+    {
+      "heading": "来源质量不能靠退款和成功故事判定",
+      "file_location": "P29—30，来源选择与长期坚持。",
+      "bound_methods": []
+    },
+    {
+      "heading": "学习偏好不当固定学习类型",
+      "file_location": "P34—35，教学差异、代表系统与三类学习者。",
+      "bound_methods": []
+    },
+    {
+      "heading": "目标是本人愿意的生活而非圈内战绩",
+      "file_location": "P36—38，目标、希望、期限及十项总结。",
+      "bound_methods": [
+        "M25"
+      ]
+    },
+    {
+      "heading": "得到号码后仍看实际双向安排",
+      "file_location": "P27，号码与时间桥梁；P36—37，结果目标。",
+      "bound_methods": [
+        "M14"
+      ]
+    },
+    {
+      "heading": "教学日志与宣传不新增私人记录",
+      "file_location": "P31—32，训练日志；P38—39，总结与推介。",
+      "bound_methods": []
+    }
+  ],
+  "private_case_transcripts_or_anonymous_private_case_summaries_newly_published": 0,
+  "deceptive_coercive_or_explicit_sexual_scripts_newly_published": 0,
+  "new_APA_or_DOI_claims": 0,
+  "new_original_research_papers_verified": 0,
+  "next_book": "B085",
+  "next_book_body_opened": false,
+  "current_user_turn_aggregate": {
+    "file_ids": [
+      "B083",
+      "B084"
+    ],
+    "physical_pages_read": 234,
+    "raw_native_characters": 108357,
+    "original_note_groups": 59,
+    "new_exact_method_section_bindings": 46,
+    "new_actual_file_completions": 2,
+    "new_scope_closures": 0
+  }
+}

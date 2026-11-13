@@ -1,71 +1,82 @@
 {
   "schema_version": 1,
   "updated": "2026-11-14",
-  "current_focus": "B084_next_after_B083_integrated",
+  "current_focus": "B085_next_after_B084_integrated",
   "status": "ready_for_next_file",
-  "base_commit": "5b2db63e2b7a09f38c778dcc25275bdbc8718f2d",
+  "base_commit": "a0d43eef6b98c6863df949e7a5dea9bc1199edc3",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B083_progress_2026-11-14.md",
-  "validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+  "report": "knowledge/provenance/B084_progress_2026-11-14.md",
+  "validation": "knowledge/provenance/B084_validation_2026-11-14.json",
   "reading_bookmark": {
-    "id": "B084",
-    "path": "游戏加速论 - 万恶.pdf",
-    "bytes": 402964,
-    "git_blob_sha": "77ea5769f515ebae1bf3b72da33aa771674123ae",
+    "id": "B085",
+    "path": "潘多拉魔盒 - 迪卡洛.pdf",
+    "bytes": 2030121,
+    "git_blob_sha": "7cbe824423db6b30b518d475071f3f0fb591de02",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "用户已恢复阅读；B083完整提供内容、笔记与范围已保存。下一唯一主读B084，正文未打开。",
-    "next_content_unit": "Read B084 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question."
+    "start": "B083先保存并提交，随后B084完整提供内容、笔记与范围已保存。下一唯一主读B085，正文未打开。",
+    "next_content_unit": "Read B085 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question."
   },
-  "next_work": "Read B084 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question.",
+  "next_work": "Read B085 from physical file page1. Save current readable content notes, scope and next checkpoint before changing files. Genuinely unreadable content is closed and counted under the standing user policy, with gaps retained and no repeated question.",
   "current_session_progress": {
-    "baseline": "5b2db63e2b7a09f38c778dcc25275bdbc8718f2d",
-    "work_type": "read_and_integrate_B083_all_provided_PDF_content_in_serial_order",
+    "baseline": "a0d43eef6b98c6863df949e7a5dea9bc1199edc3",
+    "work_type": "read_and_integrate_B084_all_provided_PDF_content_in_serial_order",
     "new_book_files_started": [
-      "B083"
+      "B084"
     ],
     "new_book_files_completed": [
-      "B083"
+      "B084"
     ],
     "actually_completed_file_ids": [
-      "B083"
+      "B084"
     ],
     "new_whole_book_files_actually_read": 1,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 75574,
+    "new_native_characters_read": 32783,
+    "font_mapping_recovered_characters_in_native_count": 1386,
     "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 24,
-    "new_native_text_pages_read": 195,
-    "nonempty_native_text_pages_read": 191,
-    "unique_embedded_images_read": 4,
+    "new_unique_original_visual_pages": 6,
+    "new_native_text_pages_read": 39,
+    "unique_image_contents_read": 10,
+    "image_object_refs_read": 11,
     "new_EPUB_spine_items_read": 0,
-    "original_note_groups": 33,
-    "new_method_source_bindings": 29,
+    "original_note_groups": 26,
+    "new_method_source_bindings": 17,
     "new_method_operations": [],
-    "all_current_supplied_B083_content_read": true,
+    "all_current_supplied_B084_content_read": true,
     "serial_order": [
-      "B082_notes_and_scope_previously_saved_and_committed",
-      "user_resumes_reading_after_system_maintenance",
-      "read_B083_pages1_to195_and_all4_images",
-      "save_B083_notes_scope_and_B084_checkpoint"
+      "B083_notes_scope_saved_and_committed",
+      "read_B084_pages1_to39_all_image_contents_and_recovered_cover_text",
+      "save_B084_notes_scope_and_B085_checkpoint"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "previous_runtime1_5_2_maintenance_preserved": true,
+    "current_user_turn_aggregate": {
+      "file_ids": [
+        "B083",
+        "B084"
+      ],
+      "physical_pages_read": 234,
+      "raw_native_characters": 108357,
+      "original_note_groups": 59,
+      "new_exact_method_section_bindings": 46,
+      "new_actual_file_completions": 2,
+      "new_scope_closures": 0
+    },
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+      "reading_metadata_validation": "knowledge/provenance/B084_validation_2026-11-14.json",
       "validate_os": true,
       "unit_tests_passed": 104,
-      "focused_retrieval_queries_passed": 29,
+      "focused_retrieval_queries_passed": 17,
       "unbound_method_scope_check": true,
-      "runtime_and_other_book_records_preserved": true,
-      "previous_maintenance_and_reading_history_preserved": true
+      "runtime_other_book_records_previous_maintenance_and_history_preserved": true
     }
   },
   "last_reading_progress": {
@@ -2363,51 +2374,62 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-14",
-    "report": "knowledge/provenance/B083_progress_2026-11-14.md",
-    "validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+    "report": "knowledge/provenance/B084_progress_2026-11-14.md",
+    "validation": "knowledge/provenance/B084_validation_2026-11-14.json",
     "current_session_progress": {
-      "baseline": "5b2db63e2b7a09f38c778dcc25275bdbc8718f2d",
-      "work_type": "read_and_integrate_B083_all_provided_PDF_content_in_serial_order",
+      "baseline": "a0d43eef6b98c6863df949e7a5dea9bc1199edc3",
+      "work_type": "read_and_integrate_B084_all_provided_PDF_content_in_serial_order",
       "new_book_files_started": [
-        "B083"
+        "B084"
       ],
       "new_book_files_completed": [
-        "B083"
+        "B084"
       ],
       "actually_completed_file_ids": [
-        "B083"
+        "B084"
       ],
       "new_whole_book_files_actually_read": 1,
       "user_accepted_scope_closure_ids": [],
-      "new_native_characters_read": 75574,
+      "new_native_characters_read": 32783,
+      "font_mapping_recovered_characters_in_native_count": 1386,
       "new_OCR_characters_read": 0,
-      "new_unique_original_visual_pages": 24,
-      "new_native_text_pages_read": 195,
-      "nonempty_native_text_pages_read": 191,
-      "unique_embedded_images_read": 4,
+      "new_unique_original_visual_pages": 6,
+      "new_native_text_pages_read": 39,
+      "unique_image_contents_read": 10,
+      "image_object_refs_read": 11,
       "new_EPUB_spine_items_read": 0,
-      "original_note_groups": 33,
-      "new_method_source_bindings": 29,
+      "original_note_groups": 26,
+      "new_method_source_bindings": 17,
       "new_method_operations": [],
-      "all_current_supplied_B083_content_read": true,
+      "all_current_supplied_B084_content_read": true,
       "serial_order": [
-        "B082_notes_and_scope_previously_saved_and_committed",
-        "user_resumes_reading_after_system_maintenance",
-        "read_B083_pages1_to195_and_all4_images",
-        "save_B083_notes_scope_and_B084_checkpoint"
+        "B083_notes_scope_saved_and_committed",
+        "read_B084_pages1_to39_all_image_contents_and_recovered_cover_text",
+        "save_B084_notes_scope_and_B085_checkpoint"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
       "previous_runtime1_5_2_maintenance_preserved": true,
+      "current_user_turn_aggregate": {
+        "file_ids": [
+          "B083",
+          "B084"
+        ],
+        "physical_pages_read": 234,
+        "raw_native_characters": 108357,
+        "original_note_groups": 59,
+        "new_exact_method_section_bindings": 46,
+        "new_actual_file_completions": 2,
+        "new_scope_closures": 0
+      },
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+        "reading_metadata_validation": "knowledge/provenance/B084_validation_2026-11-14.json",
         "validate_os": true,
         "unit_tests_passed": 104,
-        "focused_retrieval_queries_passed": 29,
+        "focused_retrieval_queries_passed": 17,
         "unbound_method_scope_check": true,
-        "runtime_and_other_book_records_preserved": true,
-        "previous_maintenance_and_reading_history_preserved": true
+        "runtime_other_book_records_previous_maintenance_and_history_preserved": true
       }
     }
   },
@@ -2538,12 +2560,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 80,
-    "current_file_text_complete": 80,
+    "started": 81,
+    "current_file_text_complete": 81,
     "partial": 0,
-    "unread": 39,
+    "unread": 38,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 80,
+    "reported_numerator": 81,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2558,7 +2580,7 @@
       "B076"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
-    "actually_read_supplied_files": 77
+    "actually_read_supplied_files": 78
   },
   "reading_policy_history": [
     {
@@ -5653,6 +5675,56 @@
           "focused_retrieval_queries_passed": 14,
           "unbound_method_scope_check": true,
           "runtime_and_other_book_records_preserved": true
+        }
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "report": "knowledge/provenance/B083_progress_2026-11-14.md",
+      "validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+      "current_session_progress": {
+        "baseline": "5b2db63e2b7a09f38c778dcc25275bdbc8718f2d",
+        "work_type": "read_and_integrate_B083_all_provided_PDF_content_in_serial_order",
+        "new_book_files_started": [
+          "B083"
+        ],
+        "new_book_files_completed": [
+          "B083"
+        ],
+        "actually_completed_file_ids": [
+          "B083"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 75574,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 24,
+        "new_native_text_pages_read": 195,
+        "nonempty_native_text_pages_read": 191,
+        "unique_embedded_images_read": 4,
+        "new_EPUB_spine_items_read": 0,
+        "original_note_groups": 33,
+        "new_method_source_bindings": 29,
+        "new_method_operations": [],
+        "all_current_supplied_B083_content_read": true,
+        "serial_order": [
+          "B082_notes_and_scope_previously_saved_and_committed",
+          "user_resumes_reading_after_system_maintenance",
+          "read_B083_pages1_to195_and_all4_images",
+          "save_B083_notes_scope_and_B084_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_2_maintenance_preserved": true,
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B083_validation_2026-11-14.json",
+          "validate_os": true,
+          "unit_tests_passed": 104,
+          "focused_retrieval_queries_passed": 29,
+          "unbound_method_scope_check": true,
+          "runtime_and_other_book_records_preserved": true,
+          "previous_maintenance_and_reading_history_preserved": true
         }
       }
     }

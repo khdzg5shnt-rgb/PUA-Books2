@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成80/119份任务，无部分处理文件、39份未开始。77份实际读完当前提供内容，B017、B039、B076按用户授权结束，实际未读缺口保留。本轮恢复阅读并顺读完B083《游戏 - IN10SE》195页及全部4种内嵌图像，新增33组原创笔记、29处精确绑定；下一唯一主读B084，正文未打开。此前系统修复保留，真正读不出的扫描直接记录后结束并计数，不再问。[本轮记录](B083_progress_2026-11-14.md)。
+当前完成81/119份任务，无部分处理文件、38份未开始。78份实际读完当前提供内容，B017、B039、B076按用户授权结束，实际未读缺口保留。本轮先保存并提交B083《游戏》195页，再读完B084《游戏加速论》39页，共234页、59组原创笔记、46处精确绑定；下一唯一主读B085，正文未打开。此前系统修复保留，真正读不出的扫描直接记录后结束并计数，不再问。[本轮记录](B084_progress_2026-11-14.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -96,7 +96,7 @@
 | B081 | [海蒂性学报告 - 男人篇.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B5%B7%E8%92%82%E6%80%A7%E5%AD%A6%E6%8A%A5%E5%91%8A%20-%20%E7%94%B7%E4%BA%BA%E7%AF%87.pdf) | 242 | 全部提供文字及唯一空白图像已读，原版完整性未核 | [30组笔记](../books/B081.md) |
 | B082 | [消除搭讪焦虑【晚熟青年】.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B6%88%E9%99%A4%E6%90%AD%E8%AE%AA%E7%84%A6%E8%99%91%E3%80%90%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4%E3%80%91.pdf) | 29 | 全部提供文字及17种图像已读，原版完整性未核 | [16组笔记](../books/B082.md) |
 | B083 | [游戏 - IN10SE.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B8%B8%E6%88%8F%20-%20IN10SE.pdf) | 195 | 当前提供文字及4种图像已读，原版完整性未核 | [33组笔记](../books/B083.md) |
-| B084 | [游戏加速论 - 万恶.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E8%AE%BA%20-%20%E4%B8%87%E6%81%B6.pdf) | 39 | 已提取/未读 | — |
+| B084 | [游戏加速论 - 万恶.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E8%AE%BA%20-%20%E4%B8%87%E6%81%B6.pdf) | 39 | 当前提供文字、修复封面字及全部图像内容已读，原版未核 | [26组笔记](../books/B084.md) |
 | B085 | [潘多拉魔盒 - 迪卡洛.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%BD%98%E5%A4%9A%E6%8B%89%E9%AD%94%E7%9B%92%20-%20%E8%BF%AA%E5%8D%A1%E6%B4%9B.pdf) | 188 | 已提取/未读 | — |
 | B086 | [灵丹妙药 - 恋爱体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%81%B5%E4%B8%B9%E5%A6%99%E8%8D%AF%20-%20%E6%81%8B%E7%88%B1%E4%BD%93%E7%B3%BB.pdf) | 122 | 已提取/未读 | — |
 | B087 | [现实世界的诱惑Real World Seduction中文版.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91Real%20World%20Seduction%E4%B8%AD%E6%96%87%E7%89%88.pdf) | 94 | 已提取/未读 | — |
