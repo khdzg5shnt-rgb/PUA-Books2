@@ -14962,8 +14962,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B089.md",
       "pages": 95,
       "spine_items": null,
       "ocr": {
@@ -14971,7 +14971,44 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B089_reading_2026-11-14.json",
+      "coverage_mode": "same_translation_exact_ranges_reused_all_target_differences_and_current_assets_reviewed",
+      "completion_kind": "verified_exact_text_reuse_plus_all_differences_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "bf57c746d0f5a00c4184fcd7ead260f244489be27095086ccb220ea499909b04",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B089_reading_2026-11-14.json",
+        "native_total_characters": 73917,
+        "coverage_kind": "verified_exact_text_reuse_plus_all_differences_read",
+        "reference_file": "B087",
+        "strictly_reused_normalized_characters": 67351,
+        "target_difference_characters_reviewed": 253,
+        "difference_context_windows_reviewed": 2,
+        "direct_full_native_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "direct_full_native_page_characters": 4471,
+        "counts_overlap_not_summed": true,
+        "all_current_file_content_read": true,
+        "whole_layout_visual_review": false,
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 6,
+        "new_exact_method_section_bindings": 0
+      }
     },
     {
       "index": 90,
@@ -15929,5 +15966,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B088 84-page version completed by B087 exact-reuse 66214 normalized chars plus all 1369 target differences reviewed;12original version notes,7exact bindings.85/119 file tasks=81 supplied-file completions+4user closures;not a newly read independent work.NextB089body unopened."
+  "latest_reading_update": "2026-11-14: B089 95-page version completed by B087 exact-reuse 67351 normalized chars plus all 253 target differences reviewed;6original version notes,0exact bindings.86/119 file tasks=82 supplied-file completions+4user closures;not a newly read independent work.NextB091body unopened."
 }
