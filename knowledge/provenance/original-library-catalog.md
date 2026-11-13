@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成84/119份任务，无部分处理文件、35份未开始。80份实际读完当前提供内容，B017、B039、B076、B086按用户授权结束，实际缺口保留。本轮补交B085既有成果后，严格先B086后B087处理216页可读文字，共63组原创笔记、79处精确绑定；B086裁切表格保留缺字，B087当前94页及全部去重图片已读。下一唯一主读B088，正文未打开。[本轮记录](B087_progress_2026-11-14.md)。
+当前完成85/119份任务，无部分处理文件、34份未开始。81份当前提供内容已覆盖，4份按用户授权结束并保留实际缺口。最新B088与B087同译本，通过66214字符严格复用及全部1369差异字符补读完成；文件版本计数不等于新增独立著作数。下一唯一主读B089，正文未打开。[本轮记录](B088_progress_2026-11-14.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -100,7 +100,7 @@
 | B085 | [潘多拉魔盒 - 迪卡洛.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%BD%98%E5%A4%9A%E6%8B%89%E9%AD%94%E7%9B%92%20-%20%E8%BF%AA%E5%8D%A1%E6%B4%9B.pdf) | 188 | 当前提供文字及封面图已读，版面代码差异保留，原版未核 | [32组笔记](../books/B085.md) |
 | B086 | [灵丹妙药 - 恋爱体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%81%B5%E4%B8%B9%E5%A6%99%E8%8D%AF%20-%20%E6%81%8B%E7%88%B1%E4%BD%93%E7%B3%BB.pdf) | 122 | 全部可读原生文字已读；P45表格裁切按授权结束，缺章不补读 | [35组笔记](../books/B086.md) |
 | B087 | [现实世界的诱惑Real World Seduction中文版.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91Real%20World%20Seduction%E4%B8%AD%E6%96%87%E7%89%88.pdf) | 94 | 当前94页原生文字及全部去重图片已读，原版与同名版本未核 | [28组笔记](../books/B087.md) |
-| B088 | [现实世界的诱惑术 - Swinggcat.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF%20-%20Swinggcat.pdf) | 84 | 已提取/未读 | — |
+| B088 | [现实世界的诱惑术 - Swinggcat.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF%20-%20Swinggcat.pdf) | 84 | 与B087逐字相同范围复用，全部差异和现有资源核读完成；非新增独立著作 | [12组版本笔记](../books/B088.md) |
 | B089 | [现实世界的诱惑术.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF.pdf) | 95 | 已提取/未读 | — |
 | B090 | [电击开场 - Brad P.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%94%B5%E5%87%BB%E5%BC%80%E5%9C%BA%20-%20Brad%20P.epub) | 11 | 正文读完 | [精读](../books/B090.md) |
 | B091 | [白天约会宝典 - Jeremy Soul.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%99%BD%E5%A4%A9%E7%BA%A6%E4%BC%9A%E5%AE%9D%E5%85%B8%20-%20Jeremy%20Soul.pdf) | 95 | 已提取/未读 | — |

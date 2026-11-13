@@ -14900,8 +14900,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E8%AF%B1%E6%83%91%E6%9C%AF%20-%20Swinggcat.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B088.md",
       "pages": 84,
       "spine_items": null,
       "ocr": {
@@ -14909,7 +14909,45 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B088_reading_2026-11-14.json",
+      "coverage_mode": "same_translation_exact_ranges_reused_all_target_differences_and_current_assets_reviewed",
+      "completion_kind": "verified_exact_text_reuse_plus_all_differences_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "47cf081ee556eb7be374b72c54a5ef907eb1bdfb6a2d2bb86318ac69c6607ac2",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B088_reading_2026-11-14.json",
+        "native_total_characters": 73353,
+        "coverage_kind": "verified_exact_text_reuse_plus_all_differences_read",
+        "reference_file": "B087",
+        "strictly_reused_normalized_characters": 66214,
+        "target_difference_characters_reviewed": 1369,
+        "difference_context_windows_reviewed": 141,
+        "direct_full_native_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "direct_full_native_page_characters": 8484,
+        "counts_overlap_not_summed": true,
+        "all_current_file_content_read": true,
+        "whole_layout_visual_review": false,
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 12,
+        "new_exact_method_section_bindings": 7
+      }
     },
     {
       "index": 89,
@@ -15891,5 +15929,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B087 all94 supplied native-text pages,73626characters,and both unique raster assets read;eightlayoutsamples;28originalnotes,34exactbindings.84/119=80actualsupplied-filecompletions+4userclosures.B086P45gap unchanged;nextB088bodyunopened."
+  "latest_reading_update": "2026-11-14: B088 84-page version completed by B087 exact-reuse 66214 normalized chars plus all 1369 target differences reviewed;12original version notes,7exact bindings.85/119 file tasks=81 supplied-file completions+4user closures;not a newly read independent work.NextB089body unopened."
 }

@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "date": "2026-11-14",
+  "baseline_main": "fd5002ec39f5730962110d42b73624141922bcb9",
+  "validate_os": true,
+  "unittest_methods_passed": 104,
+  "retrieval_checks": [
+    {
+      "method": "M01",
+      "heading": "版本04：外貌段落的关键措辞不同",
+      "line": 35
+    },
+    {
+      "method": "M02",
+      "heading": "版本08：暂停不能用来制造不安",
+      "line": 67
+    },
+    {
+      "method": "M04",
+      "heading": "版本10：年龄身高问题不必自动反击",
+      "line": 83
+    },
+    {
+      "method": "M08",
+      "heading": "版本04：外貌段落的关键措辞不同",
+      "line": 35
+    },
+    {
+      "method": "M19",
+      "heading": "版本08：暂停不能用来制造不安",
+      "line": 67
+    },
+    {
+      "method": "M22",
+      "heading": "版本10：年龄身高问题不必自动反击",
+      "line": 83
+    },
+    {
+      "method": "M23",
+      "heading": "版本09：关系边界不能改写成诱惑迹象",
+      "line": 75
+    }
+  ],
+  "method_fields_and_prior_refs_unchanged": true,
+  "preferred_routes_tasks_runtime_and_AGENTS_unchanged": true,
+  "all_other_source_and_inventory_records_unchanged": true,
+  "original_source_hashes_unchanged": true,
+  "reading_and_maintenance_history_preserved": true,
+  "page_character_ranges_and_hashes_checked": true,
+  "visual_hashes_checked": true,
+  "all_available_native_text_read": true,
+  "whole_original_edition_read_not_asserted": true,
+  "new_private_case_or_script_files": 0,
+  "finished_tasks": 85,
+  "actually_read_supplied_files": 81,
+  "user_accepted_scope_closure_ids": [
+    "B017",
+    "B039",
+    "B076",
+    "B086"
+  ],
+  "native_characters_actually_read": 8484,
+  "all_current_file_content_read": true,
+  "retained_gaps": [],
+  "original_note_groups": 12,
+  "new_exact_method_section_bindings": 7,
+  "next_book": "B089",
+  "next_book_body_opened": false,
+  "scope": "Structure,source identity,metadata and exact retrieval checks do not prove psychological mechanisms,original-edition completeness or relationship outcomes.",
+  "coverage_mode": "verified_exact_text_reuse_plus_all_differences_read",
+  "target_native_characters_covered": 73353,
+  "strictly_reused_normalized_characters": 66214,
+  "all_target_difference_characters_reviewed": 1369,
+  "native_characters_actually_read_meaning": "Only directly read complete native pages;additional normalized difference windows and reused ranges are separate,overlapping measures. Do not treat this number as target total or sum these counts.",
+  "new_independent_work_completion_not_asserted": true
+}

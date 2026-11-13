@@ -1096,9 +1096,16 @@
       "group": "books2_original_snapshot",
       "title": "现实世界的诱惑术 - Swinggcat.pdf",
       "git_blob_sha": "db717f4b9afb7e700cb5607d14f0eb5a88db9220",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B088.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B088_reading_2026-11-14.json",
+      "coverage_mode": "same_translation_exact_ranges_reused_all_target_differences_and_current_assets_reviewed",
+      "completion_kind": "verified_exact_text_reuse_plus_all_differences_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true
     },
     {
       "id": "B089",
@@ -1782,23 +1789,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 84,
+    "current_book_files_text_complete": 85,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 35
+    "current_book_files_not_started": 34
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B088",
-    "path": "现实世界的诱惑术 - Swinggcat.pdf",
-    "bytes": 890915,
-    "git_blob_sha": "db717f4b9afb7e700cb5607d14f0eb5a88db9220",
+    "id": "B089",
+    "path": "现实世界的诱惑术.pdf",
+    "bytes": 808202,
+    "git_blob_sha": "d1519070e59bdbd35d5d44aae3054a9db3527091",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B086可读内容及裁切缺口先保存并提交，B087当前94页文字、全部去重图片与原创笔记也已保存；下一唯一主读B088，正文未打开。",
-    "next_content_unit": "Read B088 from physical file page1. Verify this version independently; do not assume equivalence with B087. Save readable content notes, exact scope and next checkpoint before changing files; close genuinely unreadable gaps under standing user policy without another question."
+    "start": "B088严格相同范围与全部差异、笔记、范围先保存；下一唯一主读B089，正文未打开。",
+    "next_content_unit": "Read B089 from physical page1. Verify versions by exact content; do not assume title equivalence. Save reading,notes,coverage and checkpoint before changing files; close genuinely unreadable gaps under standing user policy without asking again."
   },
   "deferred_work_units": []
 }
