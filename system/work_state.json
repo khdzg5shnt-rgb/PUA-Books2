@@ -1,68 +1,71 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B076_current_binary_recovery_attempt_recorded",
-  "status": "blocked_on_current_file_scan_legibility",
-  "base_commit": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+  "current_focus": "B077_next_after_B076_user_authorized_closure",
+  "status": "ready_for_next_file",
+  "base_commit": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 0,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B076_recovery_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
+  "report": "knowledge/provenance/unreadable_skip_policy_2026-11-13.md",
+  "validation": "knowledge/provenance/unreadable_skip_policy_2026-11-13_validation.json",
   "reading_bookmark": {
-    "id": "B076",
-    "path": "正妹心理学 - 郑匡宇.pdf",
-    "bytes": 4989891,
-    "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+    "id": "B077",
+    "path": "泡丁解妞 - 斑马.pdf",
+    "bytes": 1239675,
+    "git_blob_sha": "3850e1c3075b3b5c779195dc26badef7b1ad3bda",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "provided_file_text_partial",
-    "next_file_page": 161,
+    "reading_status": "unread",
+    "next_file_page": 1,
     "next_spine_item": null,
-    "next_character": null,
-    "unresolved_file_pages": [
-      161,
-      163,
-      165
-    ],
-    "uncertain_publisher_imprint_page": 1,
-    "start": "B076全部188页图像与可读内容已处理并保存原创笔记；P161/163/165扫描原义未明，P1出版小字未核，不计完成。B077正文未打开。",
-    "next_content_unit": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically."
+    "next_character": 0,
+    "start": "B076按用户通用授权结束并计入完成，损坏页仍未实读；下一唯一主读B077，保存时正文未打开。",
+    "next_content_unit": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps."
   },
-  "next_work": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically.",
+  "next_work": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps.",
   "current_session_progress": {
-    "baseline": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
-    "work_type": "current_scan_recovery_and_source_identity_crosscheck",
-    "reviewed_current_file_ids": [
+    "baseline": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+    "work_type": "apply_general_unreadable_skip_policy_and_continue_serial_reading",
+    "new_book_files_started": [],
+    "new_book_files_completed": [
       "B076"
     ],
-    "new_book_files_started": [],
-    "new_book_files_completed": [],
     "actually_completed_file_ids": [],
     "new_whole_book_files_actually_read": 0,
-    "user_accepted_scope_closure_ids": [],
+    "user_accepted_scope_closure_ids": [
+      "B076"
+    ],
     "new_native_characters_read": 0,
     "new_OCR_characters_read": 0,
     "new_unique_original_visual_pages": 0,
-    "new_EPUB_spine_items_read": 0,
-    "repeated_current_scan_page_viewings": 6,
     "original_note_groups": 0,
     "new_method_source_bindings": 0,
-    "new_method_operations": [],
-    "all_current_file_content_read": false,
-    "unresolved_file_pages": [
-      161,
-      163,
-      165
-    ],
-    "uncertain_publisher_imprint_page": 1,
     "next_book_body_opened": false,
-    "recovery_evidence": "knowledge/provenance/B076_recovery_2026-11-13.json",
+    "serial_order": [
+      "save_B076_gap_preserving_user_closure",
+      "B077_next"
+    ],
     "checks": {
-      "status": "metadata_checked_shell_checks_not_rerun_environment_unavailable",
-      "reading_metadata_validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
-      "shell_checks_this_round": "not_run_environment_unavailable",
-      "previous_92_tests_not_claimed_as_this_round": true
+      "status": "passed",
+      "date": "2026-11-13",
+      "baseline_main": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+      "validate_os": true,
+      "unittest_methods_passed": 92,
+      "finished_tasks": 73,
+      "actually_read_supplied_files": 70,
+      "user_scope_closures": [
+        "B017",
+        "B039",
+        "B076"
+      ],
+      "B076_gaps_retained": [
+        161,
+        163,
+        165
+      ],
+      "new_actual_reading_credit": 0,
+      "scope": "Metadata and existing behavior checks; unread source content was not restored."
     }
   },
   "last_reading_progress": {
@@ -2415,13 +2418,13 @@
     }
   },
   "reading_policy": {
-    "mode": "finish_unfinished_files_before_new_books",
-    "source": "user_latest_correction_2026-11-12",
+    "mode": "serial_reading_skip_unreadable_under_user_authorization",
+    "source": "user_latest_general_correction_2026-11-13",
     "per_turn_book_limit": null,
     "only_current_file_until_complete": true,
     "no_new_book_while_unfinished_files": true,
     "partial_files_do_not_count_as_completed": true,
-    "unavailable_gaps_are_not_completed": true,
+    "unavailable_gaps_are_not_completed": false,
     "report_completion_ratio_only": true,
     "preserve_historical_reading_records": true,
     "user_authorized_exceptions": [
@@ -2497,6 +2500,23 @@
           }
         ],
         "additional_reading_credit": 0
+      },
+      {
+        "id": "B076",
+        "date": "2026-11-13",
+        "basis": "explicit_user_general_instruction_to_skip_unreadable_content_without_reasking_and_count_in_finished_task_progress",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "unread_scan_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "additional_reading_credit": 0,
+        "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+        "previous_recovery_ledger": "knowledge/provenance/B076_recovery_2026-11-13.json"
       }
     ],
     "unprovided_original_material": {
@@ -2505,28 +2525,46 @@
       "finish_current_provided_file_before_next": true,
       "unprovided_original_material_counted_as_read": false,
       "unprovided_original_material_blocks_next_file_after_provided_file_complete": false,
-      "provided_text_and_image_gaps_still_require_actual_reading": true
+      "provided_text_and_image_gaps_still_require_actual_reading": false,
+      "read_available_content_skip_genuinely_unreadable": true
+    },
+    "unreadable_scope_closures_count_as_finished_tasks": true,
+    "unreadable_content_claimed_actually_read": false,
+    "ask_again_for_unreadable_scan": false,
+    "general_unreadable_policy": {
+      "date": "2026-11-13",
+      "instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+      "scope": "all subsequent reading tasks and current B076; no per-file reapproval",
+      "do_not_skip_readable_content": true,
+      "no_repeated_recovery_loop": true,
+      "save_gap_and_close_current_task_before_next": true,
+      "skips_count_in_user_finished_total": true,
+      "skipped_content_counts_as_actual_reading": false
     }
   },
   "progress_display": {
     "book_file_denominator": 119,
     "started": 73,
-    "current_file_text_complete": 72,
-    "partial": 1,
+    "current_file_text_complete": 73,
+    "partial": 0,
     "unread": 46,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 72,
+    "reported_numerator": 73,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
     "user_accepted_scope_closure_ids": [
       "B017",
-      "B039"
+      "B039",
+      "B076"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
       "B017",
-      "B039"
-    ]
+      "B039",
+      "B076"
+    ],
+    "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
+    "actually_read_supplied_files": 70
   },
   "reading_policy_history": [
     {
@@ -2539,11 +2577,103 @@
       "per_book_checkpoints_then_batch_checks_commit_and_report": true,
       "unavailable_or_private_gaps_separately_retained": true,
       "report_started_complete_partial_unread_together": true
+    },
+    {
+      "mode": "finish_unfinished_files_before_new_books",
+      "source": "user_latest_correction_2026-11-12",
+      "per_turn_book_limit": null,
+      "only_current_file_until_complete": true,
+      "no_new_book_while_unfinished_files": true,
+      "partial_files_do_not_count_as_completed": true,
+      "unavailable_gaps_are_not_completed": true,
+      "report_completion_ratio_only": true,
+      "preserve_historical_reading_records": true,
+      "user_authorized_exceptions": [
+        {
+          "id": "B017",
+          "date": "2026-11-12",
+          "basis": "explicit_user_instruction_to_stop_B017_count_it_as_finished_and_continue_next_files",
+          "scope": "B017 only; do not apply automatically to any later file",
+          "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+          "all_current_file_content_actually_read": false,
+          "unread_low_resolution_pages": [
+            60,
+            68,
+            124
+          ],
+          "unread_source_occlusion_pages": [
+            156,
+            159,
+            176,
+            177,
+            182
+          ],
+          "additional_reading_credit": 0
+        },
+        {
+          "id": "B039",
+          "date": "2026-11-12",
+          "basis": "User said 下一本吧 after the explicit proposal to close B039 with known unread gaps, in the same manner as B017, and continue B045.",
+          "scope": "B039 only; no automatic exception for B045 or later files",
+          "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+          "all_current_file_content_actually_read": false,
+          "remaining_source_quality_regions": [
+            {
+              "file_pages": [
+                85
+              ],
+              "region": "Faint question-list lettering, especially its final item; native enlargement and ordinary ink dilation inspected.",
+              "unread_fragments_remain": true,
+              "reconstructed_text_claimed": false
+            },
+            {
+              "file_pages": [
+                147
+              ],
+              "region": "Some wording in the faint three-item list; enlarged render and native crop inspected.",
+              "unread_fragments_remain": true,
+              "reconstructed_text_claimed": false
+            },
+            {
+              "file_pages": [
+                149,
+                150
+              ],
+              "region": "Thresholded screenshot insets retain damaged/clipped glyph regions; readable portions inspected at native resolution.",
+              "unread_fragments_remain": true,
+              "reconstructed_text_claimed": false
+            },
+            {
+              "file_pages": [
+                23,
+                25,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "region": "Previous first-chapter photo/profile inset degradation remains as previously documented; these pages are not reread or recredited this round.",
+              "unread_fragments_remain": true,
+              "reconstructed_text_claimed": false,
+              "examples_not_exhaustive": true
+            }
+          ],
+          "additional_reading_credit": 0
+        }
+      ],
+      "unprovided_original_material": {
+        "date": "2026-11-13",
+        "instruction": "没提供就读后面的 继续",
+        "finish_current_provided_file_before_next": true,
+        "unprovided_original_material_counted_as_read": false,
+        "unprovided_original_material_blocks_next_file_after_provided_file_complete": false,
+        "provided_text_and_image_gaps_still_require_actual_reading": true
+      }
     }
   ],
-  "unfinished_file_queue": [
-    "B076"
-  ],
+  "unfinished_file_queue": [],
   "reading_session_history": [
     {
       "work_type": "close_oldest_unfinished_file",
@@ -5168,6 +5298,45 @@
           "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
           "validate_os": true,
           "unittest_methods_passed": 72
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B076_recovery_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "6f0ad3d10b9c7f49299319162a3fd985c1b6310c",
+        "work_type": "current_scan_recovery_and_source_identity_crosscheck",
+        "reviewed_current_file_ids": [
+          "B076"
+        ],
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "actually_completed_file_ids": [],
+        "new_whole_book_files_actually_read": 0,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 0,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 0,
+        "new_EPUB_spine_items_read": 0,
+        "repeated_current_scan_page_viewings": 6,
+        "original_note_groups": 0,
+        "new_method_source_bindings": 0,
+        "new_method_operations": [],
+        "all_current_file_content_read": false,
+        "unresolved_file_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "next_book_body_opened": false,
+        "recovery_evidence": "knowledge/provenance/B076_recovery_2026-11-13.json",
+        "checks": {
+          "status": "metadata_checked_shell_checks_not_rerun_environment_unavailable",
+          "reading_metadata_validation": "knowledge/provenance/B076_recovery_validation_2026-11-13.json",
+          "shell_checks_this_round": "not_run_environment_unavailable",
+          "previous_92_tests_not_claimed_as_this_round": true
         }
       }
     }

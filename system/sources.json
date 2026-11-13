@@ -868,13 +868,33 @@
       "group": "books2_original_snapshot",
       "title": "正妹心理学 - 郑匡宇.pdf",
       "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "local_entry": "knowledge/books/B076.md",
       "is_book": true,
-      "reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
-      "coverage_mode": "all188_page_images_seen_readable_text_reviewed_unresolved_damaged_scans",
-      "completion_kind": "not_complete_due_to_unresolved_current_scan_pages",
-      "all_current_file_content_read": false
+      "reading_ledger": "knowledge/provenance/B076_user_closed_2026-11-13.json",
+      "coverage_mode": "user_authorized_unreadable_scan_scope_closure_previous_readable_notes_retained_not_full_actual_reading",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "task_complete": true,
+      "counted_in_user_finished_tasks": true,
+      "completion_exception": {
+        "id": "B076",
+        "date": "2026-11-13",
+        "basis": "explicit_user_general_instruction_to_skip_unreadable_content_without_reasking_and_count_in_finished_task_progress",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "unread_scan_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "additional_reading_credit": 0,
+        "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+        "previous_recovery_ledger": "knowledge/provenance/B076_recovery_2026-11-13.json"
+      }
     },
     {
       "id": "B077",
@@ -1666,30 +1686,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 72,
-    "current_book_files_text_partial": 1,
+    "current_book_files_text_complete": 73,
+    "current_book_files_text_partial": 0,
     "current_book_files_not_started": 46
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B076",
-    "path": "正妹心理学 - 郑匡宇.pdf",
-    "bytes": 4989891,
-    "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
+    "id": "B077",
+    "path": "泡丁解妞 - 斑马.pdf",
+    "bytes": 1239675,
+    "git_blob_sha": "3850e1c3075b3b5c779195dc26badef7b1ad3bda",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "provided_file_text_partial",
-    "next_file_page": 161,
+    "reading_status": "unread",
+    "next_file_page": 1,
     "next_spine_item": null,
-    "next_character": null,
-    "unresolved_file_pages": [
-      161,
-      163,
-      165
-    ],
-    "uncertain_publisher_imprint_page": 1,
-    "start": "B076全部188页图像与可读内容已处理并保存原创笔记；P161/163/165扫描原义未明，P1出版小字未核，不计完成。B077正文未打开。",
-    "next_content_unit": "Resolve B076 damaged scan pages161,163,165 and uncertain title-page imprint from a clearer source if available. Keep the current file partial until the gaps are resolved or the user explicitly decides its scope; do not open B077 automatically."
+    "next_character": 0,
+    "start": "B076按用户通用授权结束并计入完成，损坏页仍未实读；下一唯一主读B077，保存时正文未打开。",
+    "next_content_unit": "Read B077 from the first supplied page. Finish readable content and save notes and scope before the next file. Skip genuinely unreadable content without asking again; count closure in user task progress and preserve actual unread gaps."
   },
   "deferred_work_units": []
 }

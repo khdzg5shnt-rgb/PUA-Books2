@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+  "id": "B076",
+  "basis": "explicit_user_general_instruction_to_skip_unreadable_content_without_reasking_and_count_in_finished_task_progress",
+  "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+  "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+  "all_current_file_content_actually_read": false,
+  "unread_scan_pages": [
+    161,
+    163,
+    165
+  ],
+  "uncertain_publisher_imprint_page": 1,
+  "additional_reading_credit": 0,
+  "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+  "previous_recovery_ledger": "knowledge/provenance/B076_recovery_2026-11-13.json",
+  "task_complete": true,
+  "counted_in_user_finished_tasks": true,
+  "all_current_file_content_read": false,
+  "new_native_characters_read": 0,
+  "new_OCR_characters_read": 0,
+  "new_visual_page_credit": 0,
+  "existing_notes_and_exact_bindings_retained": true,
+  "original_source_blob_unchanged": true,
+  "scope": "Close the task under the user instruction; do not claim damaged content was restored or actually read."
+}

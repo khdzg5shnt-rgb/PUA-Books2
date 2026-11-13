@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "20eb27d5d37838b9ddf725e625b5c0230fc0d87a",
+  "validate_os": true,
+  "unittest_methods_passed": 92,
+  "finished_tasks": 73,
+  "actually_read_supplied_files": 70,
+  "user_scope_closures": [
+    "B017",
+    "B039",
+    "B076"
+  ],
+  "B076_gaps_retained": [
+    161,
+    163,
+    165
+  ],
+  "new_actual_reading_credit": 0,
+  "scope": "Metadata and existing behavior checks; unread source content was not restored."
+}

@@ -14094,7 +14094,7 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%AD%A3%E5%A6%B9%E5%BF%83%E7%90%86%E5%AD%A6%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.pdf",
-      "reading_status": "provided_file_text_partial",
+      "reading_status": "provided_file_text_complete",
       "note": "knowledge/books/B076.md",
       "pages": 188,
       "spine_items": null,
@@ -14125,27 +14125,32 @@
         "cache_persisted_in_repository": false
       },
       "edition_status": "unverified_original_edition_completeness",
-      "reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
-      "coverage_mode": "all188_page_images_seen_readable_text_reviewed_unresolved_damaged_scans",
-      "completion_kind": "not_complete_due_to_unresolved_current_scan_pages",
+      "reading_ledger": "knowledge/provenance/B076_user_closed_2026-11-13.json",
+      "coverage_mode": "user_authorized_unreadable_scan_scope_closure_previous_readable_notes_retained_not_full_actual_reading",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
       "all_current_file_content_read": false,
       "source_sha256": "3a583310088615ab819c7c9be3ccc33fc6481ce29f7f5b4b01f0688a6a3fa4ca",
       "latest_reading": {
+        "id": "B076",
         "date": "2026-11-13",
-        "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
-        "native_characters": 0,
-        "OCR_output_characters_read": 54666,
-        "original_visual_pages_seen": 188,
-        "all_current_file_content_read": false,
-        "unresolved_scan_pages": [
+        "basis": "explicit_user_general_instruction_to_skip_unreadable_content_without_reasking_and_count_in_finished_task_progress",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "unread_scan_pages": [
           161,
           163,
           165
         ],
         "uncertain_publisher_imprint_page": 1,
-        "note_groups": 34,
-        "exact_method_section_bindings": 98,
-        "scope": "All supplied OCR output and page images reviewed; damaged source pages remain unresolved. Not a completed file."
+        "additional_reading_credit": 0,
+        "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+        "previous_recovery_ledger": "knowledge/provenance/B076_recovery_2026-11-13.json",
+        "ledger": "knowledge/provenance/B076_user_closed_2026-11-13.json",
+        "new_native_characters_read": 0,
+        "new_OCR_characters_read": 0,
+        "all_current_file_content_read": false,
+        "previous_readable_content_not_recredited": true
       },
       "latest_recovery": {
         "date": "2026-11-13",
@@ -14157,7 +14162,46 @@
           163,
           165
         ]
-      }
+      },
+      "actual_reading_complete": false,
+      "task_complete": true,
+      "counted_in_user_finished_tasks": true,
+      "completion_exception": {
+        "id": "B076",
+        "date": "2026-11-13",
+        "basis": "explicit_user_general_instruction_to_skip_unreadable_content_without_reasking_and_count_in_finished_task_progress",
+        "user_instruction": "记住不要再问了以后，扫不出来的。直接读下一本，也算进读完数量",
+        "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+        "all_current_file_content_actually_read": false,
+        "unread_scan_pages": [
+          161,
+          163,
+          165
+        ],
+        "uncertain_publisher_imprint_page": 1,
+        "additional_reading_credit": 0,
+        "previous_reading_ledger": "knowledge/provenance/B076_reading_2026-11-13.json",
+        "previous_recovery_ledger": "knowledge/provenance/B076_recovery_2026-11-13.json"
+      },
+      "reading_history": [
+        {
+          "date": "2026-11-13",
+          "baseline": "f1a028b80a2888539b866c972669f7fc435dda81",
+          "native_characters": 0,
+          "OCR_output_characters_read": 54666,
+          "original_visual_pages_seen": 188,
+          "all_current_file_content_read": false,
+          "unresolved_scan_pages": [
+            161,
+            163,
+            165
+          ],
+          "uncertain_publisher_imprint_page": 1,
+          "note_groups": 34,
+          "exact_method_section_bindings": 98,
+          "scope": "All supplied OCR output and page images reviewed; damaged source pages remain unresolved. Not a completed file."
+        }
+      ]
     },
     {
       "index": 77,
@@ -15427,5 +15471,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B076 bounded recovery recorded; two independent renderers and three byte-identical copies did not recover pages161/163/165. New completed files0, notes0 and bindings0. Completed72/119, one partial,46 unread. B077 unopened. Earlier54666 OCR output characters,34 notes and98 bindings are not counted again."
+  "latest_reading_update": "2026-11-13: User explicitly authorized a general unreadable-scan skip and counting policy. B076 task closed with known gaps retained; 73/119 finished tasks = 70 actually read supplied files + B017/B039/B076 scope closures. Next B077, body unopened at closure checkpoint."
 }
