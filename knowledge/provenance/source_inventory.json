@@ -14014,8 +14014,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%AA%E5%B7%AB%E6%96%B9%E6%B3%95%20-%20Gunwitch.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B074.md",
       "pages": 113,
       "spine_items": null,
       "ocr": {
@@ -14023,7 +14023,23 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B074_reading_2026-11-13.json",
+      "coverage_mode": "all113_native_text_pages_and_original_layouts_read_logo_and_blank_banners_reviewed_by_pixel_identity",
+      "completion_kind": "actual_supplied_PDF_all113_pages_front_matter_three_levels_relationship_and_closing_read",
+      "source_sha256": "edd246f70660ec317c014c086c8e96d543409ac3997732d7839c1648edaf8e99",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "native_characters": 84249,
+        "read_groups": 15,
+        "visual_pages": 113,
+        "image_pixel_kinds_reviewed": 2,
+        "original_note_groups": 32,
+        "new_critical_method_source_bindings": 91,
+        "ledger": "knowledge/provenance/B074_reading_2026-11-13.json",
+        "all_current_provided_content_read": true,
+        "known_unread_current_content": []
+      }
     },
     {
       "index": 75,
@@ -14038,8 +14054,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%A0%A1%E5%9B%AD%E6%83%85%E5%9C%A3%20-%20%E9%A9%AC%E5%85%8B%C2%B7%E9%9B%B7%E5%BE%B7%E6%9B%BC.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B075.md",
       "pages": 78,
       "spine_items": null,
       "ocr": {
@@ -14047,7 +14063,23 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B075_reading_2026-11-13.json",
+      "coverage_mode": "all78_native_text_pages_and_original_layouts_read_cover_advertisement_and_black_pixel_reviewed",
+      "completion_kind": "actual_supplied_PDF_all78_pages_front_matter_body_recommendations_and_advertising_read",
+      "source_sha256": "178baf0300cc316789ea06316804c2f215365721b8c7034f0a0f6480786b03b3",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "native_characters": 89877,
+        "read_groups": 16,
+        "visual_pages": 78,
+        "image_objects_reviewed": 3,
+        "original_note_groups": 30,
+        "new_critical_method_source_bindings": 85,
+        "ledger": "knowledge/provenance/B075_reading_2026-11-13.json",
+        "all_current_provided_content_read": true,
+        "known_unread_current_content": []
+      }
     },
     {
       "index": 76,
@@ -15362,5 +15394,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B070_B071 supplied files read sequentially; 187115 native characters, 66 original note groups and 197 exact method-section bindings. 70/119 = 68 actually read supplied files plus B017/B039 scope closures; 49 unread. Next B074; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B074_B075 supplied files read sequentially; 174126 native characters, 62 original note groups and 176 exact method-section bindings. 72/119 = 70 actually read supplied files plus B017/B039 scope closures; 47 unread. Next B076; body unopened at this checkpoint."
 }

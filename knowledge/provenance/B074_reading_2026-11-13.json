@@ -1,0 +1,7383 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "c9a760f081c85ef754896cac59b7441884c735a8",
+  "id": "B074",
+  "path": "枪巫方法 - Gunwitch.pdf",
+  "bytes": 2269717,
+  "git_blob_sha": "91e7b14d55d0155eaf885380d3b98fb14adf512a",
+  "source_sha256": "edd246f70660ec317c014c086c8e96d543409ac3997732d7839c1648edaf8e99",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "download_ref": "c9a760f081c85ef754896cac59b7441884c735a8",
+  "download": "Connector base64 content was empty; immutable public raw fallback, byte count/Git blob/SHA-256 verified.",
+  "PDF_metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "iTextSharp 5.0.4 (c) 1T3XT BVBA",
+    "creationDate": "D:20180826164955+08'00'",
+    "modDate": "D:20180826165658+08'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "pages": 113,
+  "native_extraction": {
+    "engine": "PyMuPDF page.get_text()",
+    "characters": 84249,
+    "marked_stream_characters": 85949,
+    "marked_stream_sha256": "2e8ec6943264725c5997da67510b9a7f5218aea0accd9bc3a8a943939a9ff815",
+    "coordinates": "Unicode codepoints; marked-stream half-open per-page ranges",
+    "native_not_OCR": true,
+    "includes_repeated_advertisement_text": true,
+    "initial_screening_count_preserved_separately": true
+  },
+  "native_body_characters_actually_read": 84249,
+  "OCR_run": false,
+  "actually_read_groups": [
+    {
+      "group": 1,
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "native_characters": 5379,
+      "native_text_sha256": "f7e6c16241faa3c4dcf078764c2efa0a8dd908adee9b56eb0f4e94adb0e27f48",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 2,
+      "file_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "native_characters": 6043,
+      "native_text_sha256": "9811645daf145231fb9ca49aeae949ddb506a66986dff0d0d7f707913d67e62a",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 3,
+      "file_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "native_characters": 5866,
+      "native_text_sha256": "a5da3b2d7d1345c5957f4875c91365a8d52b89275701d3a32dfc7934db6730f0",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 4,
+      "file_pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "native_characters": 5639,
+      "native_text_sha256": "d5b4c34e9e91a044c63c538c4377b084583d9e47cd27b4f52e5117fb3cffb087",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 5,
+      "file_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "native_characters": 5980,
+      "native_text_sha256": "e665a6cfc0b5166e9958d6f5aaef24fab4b668ebb047b13d68fd736710041e83",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 6,
+      "file_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "native_characters": 5753,
+      "native_text_sha256": "ec74cef7bc02ef33c9fc993774d163d14b517a685fbb5f6dd30897475fdf5f1d",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 7,
+      "file_pages": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "native_characters": 6068,
+      "native_text_sha256": "331025c85af45432e12cf0eeb1b6726f9b1b703fd76044d299be56770669031a",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 8,
+      "file_pages": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "native_characters": 5759,
+      "native_text_sha256": "907513047921a6eb85bc1f284819eed631493d70bb5d78f6e7ea40ae870515f4",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 9,
+      "file_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "native_characters": 5501,
+      "native_text_sha256": "78c987c74ea356f42baf916a1f9f3c1b6cffad947dc9cafe48f81728629a8450",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 10,
+      "file_pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "native_characters": 5559,
+      "native_text_sha256": "0158f9a166b790a18f71182777769841fedcf12a83d2d867fb3d5bb6bad96912",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 11,
+      "file_pages": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "native_characters": 6118,
+      "native_text_sha256": "a17665cb1f4a78a63384692f1eae5abe4972d9302b381769fedb9fbc5e1241e6",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 12,
+      "file_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "native_characters": 5952,
+      "native_text_sha256": "54c576a808ff094b8aea7916131fea107e93f686965fc97850e03193a39d8583",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 13,
+      "file_pages": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "native_characters": 5658,
+      "native_text_sha256": "a27fe1d0303be63ac6e422c55f35522a09c752a1fab1431332df309479a3c105",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 14,
+      "file_pages": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "native_characters": 5986,
+      "native_text_sha256": "0a471976f7a40d6b249f2fdf7e8d66a8e0e7b5715d59568ba8db97d191d212bb",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "group": 15,
+      "file_pages": [
+        110,
+        111,
+        112,
+        113
+      ],
+      "native_characters": 2988,
+      "native_text_sha256": "5b63e4b7884a308724527fcedecb7cfc1f0fee8d96210a11994bd0ae72fadc76",
+      "actually_read": true,
+      "output_truncated": false
+    }
+  ],
+  "page_units": [
+    {
+      "file_page": 1,
+      "native_characters": 679,
+      "native_text_sha256": "d1d1dbe428e6e423ecd1b991b1bff71e7f1e6832f0a44e3baa76e5d7a3ffb00f",
+      "stream_range": [
+        0,
+        693
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 936
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 936
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "52b3facf38b035f07c57c478d6dc807d7ae3efdb55f0ebc4f1ef69227c07d622"
+    },
+    {
+      "file_page": 2,
+      "native_characters": 297,
+      "native_text_sha256": "2f6f3d8a33203f81aa2d30a76ae6282bdbf99490c2375159eb86f2c07cab7f51",
+      "stream_range": [
+        693,
+        1004
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 946
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 946
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "551d782cc8cc5b76c98e85d49e9f6a27d8d1bb06f478081fe56212ce2976ce99"
+    },
+    {
+      "file_page": 3,
+      "native_characters": 745,
+      "native_text_sha256": "8601ebd3bde500c8ccd046b0317cdffeff65d473b5cdf02ce95964f75c126469",
+      "stream_range": [
+        1004,
+        1763
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 956
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 956
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "98ecbe62600a4a87075e32495cb1f74423a6d9916d6d8397eb0d09c9439dfe4c"
+    },
+    {
+      "file_page": 4,
+      "native_characters": 848,
+      "native_text_sha256": "a9e7e2cb4861856360feda1707e54105e09460e3e25d026a0c4d0cb853bcb277",
+      "stream_range": [
+        1763,
+        2625
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 966
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 966
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "03136fca00e74d6d934257de301ca76c036ceeb8fefdbfa6e39faede9fdaae4b"
+    },
+    {
+      "file_page": 5,
+      "native_characters": 881,
+      "native_text_sha256": "2ca40dccd71ba78ca19b77f2b98b12acb926da20f183f0ba059b3e083ea43637",
+      "stream_range": [
+        2625,
+        3520
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 976
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 976
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "a27269c0f5a4e90db4d029ed02fda45e3f180a77b705b139bce0724e4d56dbfa"
+    },
+    {
+      "file_page": 6,
+      "native_characters": 822,
+      "native_text_sha256": "26ea264f504be61118a1d289e8f7ff4f06d2926f374c7db1520785e3ad6840fd",
+      "stream_range": [
+        3520,
+        4356
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 986
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 986
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "719a6c182f90a8b704411cb60dea96d6259f5214786b7b53c80dd60c7f839812"
+    },
+    {
+      "file_page": 7,
+      "native_characters": 478,
+      "native_text_sha256": "4dacd613f4aa3f3995c367f8d3e0353924a8aff7aa3c9be8f68536937ca7193c",
+      "stream_range": [
+        4356,
+        4848
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 996
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 996
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e229b5c89deefe6e7cd3749fe0b158b1d673b858fa819737308854e3d7f3dd02"
+    },
+    {
+      "file_page": 8,
+      "native_characters": 629,
+      "native_text_sha256": "5f14ec570e1dae40012c3c4da2059359bd6a799a2973e04e7b2ea207935874b3",
+      "stream_range": [
+        4848,
+        5491
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1006
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1006
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "bf2267780e70160944cc8df6a4290170d9404ebdab150ec948cbeae17b1fe089"
+    },
+    {
+      "file_page": 9,
+      "native_characters": 894,
+      "native_text_sha256": "2d33c82fedeab45aaee2e24a2cb8c079f9a7d788aa825b9ae578f175ca8889e0",
+      "stream_range": [
+        5491,
+        6399
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1016
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1016
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8fc9eb5aea6fdef25dd642047591f7dbec4fdc9092e8a64287679e6a606d7107"
+    },
+    {
+      "file_page": 10,
+      "native_characters": 753,
+      "native_text_sha256": "f0b4b9bd8600ff2159dd253e535529046bd5ff7ab84c7d7a5bfd7308c4ce3253",
+      "stream_range": [
+        6399,
+        7167
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1026
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1026
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e0c206e9da758d1dce00e5a5a646b2c1309cadaf87e24d27b5bae8035f22a88e"
+    },
+    {
+      "file_page": 11,
+      "native_characters": 707,
+      "native_text_sha256": "298c260667c052fdaa0a9591277a139bbcb81375a02afc34eb80b6d06864452f",
+      "stream_range": [
+        7167,
+        7889
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1036
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1036
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "bc3791bbe44d0d40edb036d3564ceec7956a49d6e81376e30226ca6b882c1964"
+    },
+    {
+      "file_page": 12,
+      "native_characters": 827,
+      "native_text_sha256": "ed469dcfe8a13562657ea6b681271ed0cc45a675a606e5e986c1f78ff7d38668",
+      "stream_range": [
+        7889,
+        8731
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1046
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1046
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "7d7a7ba3ee339f9517353def58d3713da01be524361e5053edb74bbae82bf838"
+    },
+    {
+      "file_page": 13,
+      "native_characters": 886,
+      "native_text_sha256": "0b74d2c4e47668533b3c7dbe9bf89d16218e5eba20b2f3cb99d9765f730ee411",
+      "stream_range": [
+        8731,
+        9632
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1056
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1056
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "dab18613f0f6d543fba1cb0fd3e60bb5d4e26250dfc48935cb7b45dd2b30e1fc"
+    },
+    {
+      "file_page": 14,
+      "native_characters": 673,
+      "native_text_sha256": "09712cafb21a1fb93be9231228e4cc69dc9b69a1a85b96b32ac235cad869aaee",
+      "stream_range": [
+        9632,
+        10320
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1066
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1066
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "94f6ddee275225fd2541c872445e1f6a318d921a85a8b4db5887254b0e8b50d7"
+    },
+    {
+      "file_page": 15,
+      "native_characters": 615,
+      "native_text_sha256": "4be0e18c9929e440a3add6d8d39276fce859369b8c7b316bf05145602dc3d763",
+      "stream_range": [
+        10320,
+        10950
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1076
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1076
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "a26104b4731661e60628726d88152a7ec11f6103e654332647c0ac641e372397"
+    },
+    {
+      "file_page": 16,
+      "native_characters": 688,
+      "native_text_sha256": "b2759c7e304101588de5bc8eb9b954b5a8bfc4f6150f831d13e75b75e5fd0d9e",
+      "stream_range": [
+        10950,
+        11653
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1086
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1086
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "5e724fe9d57b548b76dc72bd6f9fa8b9c3241dd12fb7457dd6ebe2b2518d3ffa"
+    },
+    {
+      "file_page": 17,
+      "native_characters": 767,
+      "native_text_sha256": "b857f5bbe4713cc2e20f22857ec53acf44c06e5ccb3192792b181319111c405d",
+      "stream_range": [
+        11653,
+        12435
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1096
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1096
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f335bccb6f501a7a4997235129199c145fd32784b3519d87308573fa9c87f309"
+    },
+    {
+      "file_page": 18,
+      "native_characters": 812,
+      "native_text_sha256": "c19150cbdaaeeed9063a4683b039e062919480c13abb7d1b88e5c558e4bf1751",
+      "stream_range": [
+        12435,
+        13262
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1106
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1106
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8879ec206e382887eb9cc5a0a4cd4ccfe0fa46ecf4657fee3211a5059c8044fb"
+    },
+    {
+      "file_page": 19,
+      "native_characters": 661,
+      "native_text_sha256": "d524d20428ae4302df6152588311ee58ff9ec4e7c5085a8a63ea2e3b0c29798c",
+      "stream_range": [
+        13262,
+        13938
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1116
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1116
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "b2533ab5e99d82c849740e6dadbb315075e6eb0b74046d36bccb77e58a117cac"
+    },
+    {
+      "file_page": 20,
+      "native_characters": 784,
+      "native_text_sha256": "b1321db04627f781a617015a6f27974966a5f9984ec56af288669f9ed4401245",
+      "stream_range": [
+        13938,
+        14737
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1126
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1126
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f04d98841e77227fc67ef0049e3773b39a0716288a407b545e5f7ce81ba7b985"
+    },
+    {
+      "file_page": 21,
+      "native_characters": 709,
+      "native_text_sha256": "5d665dcc84964dc2b0ccadbf3deed336c97bcf16e983c4fdcf9fdf1518d57747",
+      "stream_range": [
+        14737,
+        15461
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1136
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1136
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "bef3aa4de0603d1a4b7aac3e7328a9edc992d90eba3924eafab747e9cef08b53"
+    },
+    {
+      "file_page": 22,
+      "native_characters": 739,
+      "native_text_sha256": "46220ab893776dbda853d2095ec67d3b4482e3167e1fb0d7ed7f45e368392992",
+      "stream_range": [
+        15461,
+        16215
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1146
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1146
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "977ac6dbc12ad7c34612cef997479dee9f930bffe745497e23394031fb473dcf"
+    },
+    {
+      "file_page": 23,
+      "native_characters": 699,
+      "native_text_sha256": "c6babe1dafe3e7f6a1851e51817dbbaa4f6c16070a8e4e8a147bc9e19cb2390e",
+      "stream_range": [
+        16215,
+        16929
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1156
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1156
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "0058b21f32d93a7fee6e1d042b7fe4c071a6663bcb3ccb058c8be63489c1294a"
+    },
+    {
+      "file_page": 24,
+      "native_characters": 695,
+      "native_text_sha256": "d12cff512b0fea896219368ba642eb54afe17327b0b5c15c538a3eaf28a3ed02",
+      "stream_range": [
+        16929,
+        17639
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1166
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1166
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f8abd706950617524675de575e069afaa5856d74d32257fa207b25a7f67bc244"
+    },
+    {
+      "file_page": 25,
+      "native_characters": 664,
+      "native_text_sha256": "7b6f91622569cacfe0559076d53f58a16b21d4aec5da0813b3e3e5a72e84b9e0",
+      "stream_range": [
+        17639,
+        18318
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1176
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1176
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "4934d80b41869b1e498b768ae71955535a304c40c0dc21b202180a729d331fe3"
+    },
+    {
+      "file_page": 26,
+      "native_characters": 721,
+      "native_text_sha256": "f0d6bf2ae0f44f5bda5be881f0a7c5f1764dced3e090bf53926849784fd30952",
+      "stream_range": [
+        18318,
+        19054
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1186
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1186
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8dbcd9c8fc5d25e56df8fef44f882ece206771c60200afdeabef6e3282475e5d"
+    },
+    {
+      "file_page": 27,
+      "native_characters": 707,
+      "native_text_sha256": "f5966372481c08a638e6a14b27fbb88bb32bc8ed6b0f3d5114995c013aa7a73d",
+      "stream_range": [
+        19054,
+        19776
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1196
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1196
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "3ac8eaab783e1a428db28459981d1c70727d3c29988b87f0a6c50fe074b0352a"
+    },
+    {
+      "file_page": 28,
+      "native_characters": 732,
+      "native_text_sha256": "a6f686f25a4ee111d0220855f18c3f05490dea542dff6fc20f982f6cd9240782",
+      "stream_range": [
+        19776,
+        20523
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1206
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1206
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "2e4c1b305be343c149cf1b9462b63fffe2ce60c848627c4fa5f6bc35a3dd7a7a"
+    },
+    {
+      "file_page": 29,
+      "native_characters": 725,
+      "native_text_sha256": "aadf24708dc762de3d16cc817d26ec1add862a1d0e8cce2b9322bb1c3b77b798",
+      "stream_range": [
+        20523,
+        21263
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1216
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1216
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e9485b56552886001eab08b426f4899ddfb6493aefea573ccefe42bd9b4ddfc8"
+    },
+    {
+      "file_page": 30,
+      "native_characters": 542,
+      "native_text_sha256": "58c747fe4b53dc0ade3370f08f71f49601b5506d40807dee40db7b6570764520",
+      "stream_range": [
+        21263,
+        21820
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1226
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1226
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "37b13f641b3d655ac10c5642520ce6362014179b0e2e656b6e94658e92528acf"
+    },
+    {
+      "file_page": 31,
+      "native_characters": 680,
+      "native_text_sha256": "0e1c79701b43888e100fa21fb278be3885563a3cafd31df5cff110de62bd2a17",
+      "stream_range": [
+        21820,
+        22515
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1236
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1236
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "ebc8586ee5179dfa92452622900b25865c5267a88cc22b469baccc09b0e63077"
+    },
+    {
+      "file_page": 32,
+      "native_characters": 868,
+      "native_text_sha256": "b4530fc1fabcbc38955cc73233474fee7515df84540e3e9a4c33c6ff4e2bb02a",
+      "stream_range": [
+        22515,
+        23398
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1246
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1246
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e6d397580a8a6562f6aea3124238bcdfde0d0661762424f21e83498175419b22"
+    },
+    {
+      "file_page": 33,
+      "native_characters": 812,
+      "native_text_sha256": "abcae906fdf46f795e62f22a62c17f1fbc5a022fa0d588b0771640629c702403",
+      "stream_range": [
+        23398,
+        24225
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1256
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1256
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "0efc3131dc7085391a9829cb8e241b2668128ba126a2bd70c3e7f59876bb83cc"
+    },
+    {
+      "file_page": 34,
+      "native_characters": 655,
+      "native_text_sha256": "52c98bc27df6ce750c8a8b8a09e837cc2f258c0846f86b809f94db280e197fa0",
+      "stream_range": [
+        24225,
+        24895
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1266
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1266
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "b535401bdaecce7d2e21031a69d2342a748069cfa9a0a0ddfb58ec1414462b44"
+    },
+    {
+      "file_page": 35,
+      "native_characters": 706,
+      "native_text_sha256": "371c1ae9222bb897ddb42674753f5aaffbfbf2e6712ae881530e7d8c3fd41652",
+      "stream_range": [
+        24895,
+        25616
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1276
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1276
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "00d8f7025765bcce742a0f465d611d046adba2fbb2ba13f09a3afcacccecaa4e"
+    },
+    {
+      "file_page": 36,
+      "native_characters": 856,
+      "native_text_sha256": "c0349387e2a5ccab9bdf1c9be31b30bda1f600062e366c15c9099112b6a52ad7",
+      "stream_range": [
+        25616,
+        26487
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1286
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1286
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8204e3c6b7bb65236ae125fc5a5a70fae4fc7cd2d31c37ff7365b3f02e2140ff"
+    },
+    {
+      "file_page": 37,
+      "native_characters": 689,
+      "native_text_sha256": "50e00069fdd7446ddf327ef5c133f730abdbaab7648b533c95c1bf83c512a97e",
+      "stream_range": [
+        26487,
+        27191
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1296
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1296
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "9509af9de9075c8d55a6dc7f3e878a3f16173c500ee665ba7bfe6ea6cd05754c"
+    },
+    {
+      "file_page": 38,
+      "native_characters": 683,
+      "native_text_sha256": "b10f7be2f69114de5547501c724c1d0b674d71e1bb79c5b52dc395d373fe266b",
+      "stream_range": [
+        27191,
+        27889
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1306
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1306
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "33b93ae498d7c4e3cd8a4ece832f6a835a8e69cc2627c16112738254dca3bed8"
+    },
+    {
+      "file_page": 39,
+      "native_characters": 839,
+      "native_text_sha256": "c02a08362ee71cdd2862f35b3efa00f5b8c72d627c7a14a1d2be201b5295981c",
+      "stream_range": [
+        27889,
+        28743
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1316
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1316
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "b646111dc52b8207e1cdb55ff263a73f5c02fb4cf791c145200968cd8fcd6b94"
+    },
+    {
+      "file_page": 40,
+      "native_characters": 740,
+      "native_text_sha256": "9f92076d89aa595b12f0f0df0de390816230842a45f560043625174447c12ae4",
+      "stream_range": [
+        28743,
+        29498
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1326
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1326
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "89c1a50aa916560444ff2b244b85abd44461fa4d7a56b3b476b3abead7c75863"
+    },
+    {
+      "file_page": 41,
+      "native_characters": 766,
+      "native_text_sha256": "825963e79f1fbb847ed1de113b8bf5a3082a23929adc9b479c4de854bf550dad",
+      "stream_range": [
+        29498,
+        30279
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1336
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1336
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e9850564400a99251261c3909780939ef59d0c676831770bfbad354568901793"
+    },
+    {
+      "file_page": 42,
+      "native_characters": 824,
+      "native_text_sha256": "6b99acc9c2dcd3f21d3c960ec8bffca6acb865f417630e07d3252353771894e3",
+      "stream_range": [
+        30279,
+        31118
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1346
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1346
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "0364d4a483d3367c1f8ec8e302c968656ed74af026c3e0c6763462771107746b"
+    },
+    {
+      "file_page": 43,
+      "native_characters": 720,
+      "native_text_sha256": "24ce353b30f7d7a138cfb1ba9dcef50fbf3ac5d0e912e432f7fc94e1a360e0a5",
+      "stream_range": [
+        31118,
+        31853
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1356
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1356
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "780035b1252f9ec916e27fe0fd02f19f2d9e18f864b7b2293e255ac16be97ee0"
+    },
+    {
+      "file_page": 44,
+      "native_characters": 560,
+      "native_text_sha256": "a73c9d4e4d2b6e864b2499b82f92e952ae9e53e3922741f0d5a6b92e9fd20d15",
+      "stream_range": [
+        31853,
+        32428
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1366
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1366
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f735005d186fa14d0061cefae349537a6a7e85e2ab96f427c8901d52bed4d4c9"
+    },
+    {
+      "file_page": 45,
+      "native_characters": 679,
+      "native_text_sha256": "8dc3618a9c49f2849f3c49009a0ff0616b6fd80ab0e3483b51b34ef21e117a07",
+      "stream_range": [
+        32428,
+        33122
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1376
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1376
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "78eac7b436b35acdbc3f51a9b1fa490455e92ca13d16bb0a2d2dec5bf38c2f69"
+    },
+    {
+      "file_page": 46,
+      "native_characters": 639,
+      "native_text_sha256": "790049c17cbd6379b8db3e751fb523f58b9e38141382e36f006a56157b04ceea",
+      "stream_range": [
+        33122,
+        33776
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1386
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1386
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "1e055686d32ce7f3075139f6f66fde6fe2b5a30fd66f70b18583ab259fa52201"
+    },
+    {
+      "file_page": 47,
+      "native_characters": 702,
+      "native_text_sha256": "9de946fea100e6a9a8f2df00b869fb5853e6ac89953a8bd4de6c3c7c961eb3d0",
+      "stream_range": [
+        33776,
+        34493
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1396
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1396
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "60f7a8491000df773d63cd35b0accf7e954d7edf2f01ce0cb52bddee2632666b"
+    },
+    {
+      "file_page": 48,
+      "native_characters": 863,
+      "native_text_sha256": "429609254b65651559c994fb09ccf5e1502a8a4f65c7e042a81331deff2cd1f4",
+      "stream_range": [
+        34493,
+        35371
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1406
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1406
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "9d32b47015dfb6860d43973701868731558767640bb0ee22f5a6a29f86cf4fa6"
+    },
+    {
+      "file_page": 49,
+      "native_characters": 749,
+      "native_text_sha256": "3e15fa1940cc816edcbcd55f452a089aeadd2a82fd8cfd721cabaf8f5f858981",
+      "stream_range": [
+        35371,
+        36135
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1416
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1416
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "0e479e59f654b4bd51670f83f68f731cb5a10b6c5379f7af35e2e4410d9140ba"
+    },
+    {
+      "file_page": 50,
+      "native_characters": 835,
+      "native_text_sha256": "e33f12b0e4a742702c0a7cfcb5cc27598000ae0ca8072c060b21e969bad88da0",
+      "stream_range": [
+        36135,
+        36985
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1426
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1426
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "fcfa3f5585da1e9f3568e2b2faccf316a38b72e60a0b9dacac18e14d15406793"
+    },
+    {
+      "file_page": 51,
+      "native_characters": 734,
+      "native_text_sha256": "bfda2a27b64097e3d4c6b90f7ba9b224fe482361e51322631ebfbddd5fabd469",
+      "stream_range": [
+        36985,
+        37734
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1436
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1436
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "fbaa89f94849dbc7652ed995f9367424bc9a280150ff34c0009048a6686def90"
+    },
+    {
+      "file_page": 52,
+      "native_characters": 804,
+      "native_text_sha256": "853b7ac372859553dfeeefac344754b78d57f60ca6cd3eefaf9e5653d7f9cfc3",
+      "stream_range": [
+        37734,
+        38553
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1446
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1446
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "aacb6fa0fcbd2177a459130e32e9cbed97163a67fe83691f4c2a85370e55c2f8"
+    },
+    {
+      "file_page": 53,
+      "native_characters": 671,
+      "native_text_sha256": "776dbb42880e1322786acb71e004acf6d6010b5ff7705821e65de8ccbf937daa",
+      "stream_range": [
+        38553,
+        39239
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1456
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1456
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "5a6f1d5d926bb0618a970a3a45b29574f566a9f660cf1fd3453a045b488a8f4a"
+    },
+    {
+      "file_page": 54,
+      "native_characters": 818,
+      "native_text_sha256": "65ab8a816d6c4ce21bfb826de867441975b896786a2caa96fa169314938e502f",
+      "stream_range": [
+        39239,
+        40072
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1466
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1466
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "3ec6c71a5dbaba8a64e14920624c9b26912be83ab62a8ff77d1338c9346cf6d7"
+    },
+    {
+      "file_page": 55,
+      "native_characters": 760,
+      "native_text_sha256": "1898d65dd92c159fb8ef2461f75377631fafec5a05e50fab5574153f7aaa745a",
+      "stream_range": [
+        40072,
+        40847
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1476
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1476
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "2e114f2312869aa2f781de356b6bfa7bc77f615288ad826ab5f75bcf3a9170f7"
+    },
+    {
+      "file_page": 56,
+      "native_characters": 697,
+      "native_text_sha256": "ca5b087f071d6a60551756187abff69a8c1c2ea66e9a68f3cb318107f4647c88",
+      "stream_range": [
+        40847,
+        41559
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1486
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1486
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "2f716fe1b869d0243901bfcd89449790f9e0c32ba8a5dc9d9fb87d5fab0ca376"
+    },
+    {
+      "file_page": 57,
+      "native_characters": 891,
+      "native_text_sha256": "7d967d18deca99008e3d793a1952071eb0c629718d2486d1159fc81880d71180",
+      "stream_range": [
+        41559,
+        42465
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1496
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1496
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "d4fd67c2dfef461268bcf27bd055dc1fe535d091cfc11710f896b99e127a35fa"
+    },
+    {
+      "file_page": 58,
+      "native_characters": 640,
+      "native_text_sha256": "1e1807dfddb8262c152175153e9b5d667ab302a3c014cd9ead8371fc4bdd6977",
+      "stream_range": [
+        42465,
+        43120
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1506
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1506
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "57477da1eb70bcdb6a6357921f058e37416a9f651ada8365a6267c79ddad052a"
+    },
+    {
+      "file_page": 59,
+      "native_characters": 831,
+      "native_text_sha256": "f0a2da3da290020add741689ca4702c27498dfcab755acb056dccc4799956cf7",
+      "stream_range": [
+        43120,
+        43966
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1516
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1516
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "3617e37f6134ee8648d0a73853b51d09746d9f7eeb58de5c7408351a0694b975"
+    },
+    {
+      "file_page": 60,
+      "native_characters": 843,
+      "native_text_sha256": "678936b7490c0a117ecd69c6f5b710dc35ee6f937d978e67e194b5fa27738f69",
+      "stream_range": [
+        43966,
+        44824
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1526
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1526
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "ea54baf43689cc997dcb115acc44949e4613391d609ed758dd0421c2cb6585c2"
+    },
+    {
+      "file_page": 61,
+      "native_characters": 885,
+      "native_text_sha256": "387553bc18b08f133d5f98048631d0d4e0e725d368f3e5f9f0612b3ce8c7b09a",
+      "stream_range": [
+        44824,
+        45724
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1536
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1536
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "b96e4af7c0da71773333b4e34c478eaeb43fba8b783cff299d89741b01d16590"
+    },
+    {
+      "file_page": 62,
+      "native_characters": 861,
+      "native_text_sha256": "fbd2bc227c73e91e10523ab4081b5582ddf2c8bd1e577f5bb4f15851c40a8cf2",
+      "stream_range": [
+        45724,
+        46600
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1546
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1546
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "6c31a8bc210c99d0348da751a8402a43c7ef54c3c2c285d83d0cb2fa4417f945"
+    },
+    {
+      "file_page": 63,
+      "native_characters": 808,
+      "native_text_sha256": "fdd701b875f4a7964a55d563a1973ef9efe74e402c530edcb90b63f18043f068",
+      "stream_range": [
+        46600,
+        47423
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1556
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1556
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "c5a65a2b77e38af8042a0b5492a17379ff72ac8394f72d6cebb306194d5a7a74"
+    },
+    {
+      "file_page": 64,
+      "native_characters": 824,
+      "native_text_sha256": "ddbdfd5742d7493adcab884b44d790b399aa0cc9348ccc6fbd63064dbaf9c515",
+      "stream_range": [
+        47423,
+        48262
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1566
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1566
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "6480734dfe6df3d2938cb0802cece5c5a6527f6f9318ab7b546d4244201e0334"
+    },
+    {
+      "file_page": 65,
+      "native_characters": 749,
+      "native_text_sha256": "513aff6bd4e89bdbd2ff6a9026900af999f04d465d9f9fa6e300f978b95713b5",
+      "stream_range": [
+        48262,
+        49026
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1576
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1576
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "1fb7fbb31b87d51df229b20a31112aca7bacd53ab8de3be8338602aaa6e7265c"
+    },
+    {
+      "file_page": 66,
+      "native_characters": 688,
+      "native_text_sha256": "3269f179827e5dbe2db1f776f1d451186551dfe272b282a93ed58e2237ac8a93",
+      "stream_range": [
+        49026,
+        49729
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1586
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1586
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "34ea82fbe73265ad8e33597f9a67faea609595cbe0a39b635890adeb65e91f30"
+    },
+    {
+      "file_page": 67,
+      "native_characters": 867,
+      "native_text_sha256": "28311d82bc43a0084073cdc98e8fafc1abfcb3f8eb3312b20fc30778b19c380b",
+      "stream_range": [
+        49729,
+        50611
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1596
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1596
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "5659be8bacc68ef1b59683fab297d255b80a8de651ff13e10c647d0ec5f9676a"
+    },
+    {
+      "file_page": 68,
+      "native_characters": 838,
+      "native_text_sha256": "d4c9ba687bbfd65cdddc68df82462ca2871e2099b655b96a21af36e696bf7097",
+      "stream_range": [
+        50611,
+        51464
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1606
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1606
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "39d79b7be34b1679ca6e1d4dbfac2f65e65094e06f2f644f4c5fe625a623d4bb"
+    },
+    {
+      "file_page": 69,
+      "native_characters": 699,
+      "native_text_sha256": "69f1bf8d894f3707e467c2856f6a79bee74edcabf3ee824ef3e801c4c74bdc6d",
+      "stream_range": [
+        51464,
+        52178
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1616
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1616
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "931f5c68d58e25ff2fa5f32e446a018cec88aa1521f61baac6fd19ab1ab710ed"
+    },
+    {
+      "file_page": 70,
+      "native_characters": 836,
+      "native_text_sha256": "638583984d06c67d9d1f9f5128664cd5b4696660abff027e84c9ce67fac854b4",
+      "stream_range": [
+        52178,
+        53029
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1626
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1626
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "3a7ff8b46d9f216855cdf73b79f2bb07c9eae2e965629897ccb60354fb0cefcd"
+    },
+    {
+      "file_page": 71,
+      "native_characters": 790,
+      "native_text_sha256": "e78a779a5361f81071dee496770b95a4d75a340a7b74471c92e24b6021eb5f80",
+      "stream_range": [
+        53029,
+        53834
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1636
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1636
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "ade1be95a859a5e5b72f731bec1739519c46337176302246a16692efe2d66b67"
+    },
+    {
+      "file_page": 72,
+      "native_characters": 682,
+      "native_text_sha256": "465b49b0159d621a7475f84db38a9cf8deb2173eb9ff5876e6c2b0ff5111e651",
+      "stream_range": [
+        53834,
+        54531
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1646
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1646
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "a1b23446bf2efbc23dde5a735f662944c05c0ae3328de15f065ab4e2cd9413ba"
+    },
+    {
+      "file_page": 73,
+      "native_characters": 854,
+      "native_text_sha256": "f90e2f3e578fd2d43e99ff01461cf65401ccec7e9e5150b5be4616c7b15f6376",
+      "stream_range": [
+        54531,
+        55400
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1656
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1656
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "bb0639183423a8301d17e95eb85ed167d548f84db87d27b6e98b950e2363009a"
+    },
+    {
+      "file_page": 74,
+      "native_characters": 836,
+      "native_text_sha256": "4226db8f758bccf745586688242afe0f12b2955873e87b077ecad0b9953af135",
+      "stream_range": [
+        55400,
+        56251
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1666
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1666
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "3b415d76fdca3e50afcc2a3cd11c0f094346412833a165a191a99eecd93318dc"
+    },
+    {
+      "file_page": 75,
+      "native_characters": 776,
+      "native_text_sha256": "de40895e238e1b9df1bc95d2eead032f85d2705cb5e3012536298c45daac0190",
+      "stream_range": [
+        56251,
+        57042
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1676
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1676
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "d5dfba5b4ee89bfbc32f1be9cd55cde19b1b93430dd896eec9427714dc3a533d"
+    },
+    {
+      "file_page": 76,
+      "native_characters": 807,
+      "native_text_sha256": "129b9c271bf03881ee98d8088107aa5848147d8ab836cf59b2e4dc898f73b5f4",
+      "stream_range": [
+        57042,
+        57864
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1686
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1686
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e0d8480c40433a7623df6d6777b626f75e6c0401e5fae20e60065c1abb8d33ad"
+    },
+    {
+      "file_page": 77,
+      "native_characters": 814,
+      "native_text_sha256": "92f87942454dfebb3081322a1e10ca01d8ce4074329c9b5ffa7e83d9a0a11e59",
+      "stream_range": [
+        57864,
+        58693
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1696
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1696
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "c3c0fe7d5c13aa5de971a520fb8ab9129a8203321dc3d812e0593d58311fec9e"
+    },
+    {
+      "file_page": 78,
+      "native_characters": 687,
+      "native_text_sha256": "285d4b8487da24bfc007b37d85bfdbeb08b49cead20343e5b3f7f6cc9e9a8a4d",
+      "stream_range": [
+        58693,
+        59395
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1706
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1706
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "054835369756a517d7698d2301afaab67509a1a80a84e38689b153da7ab98284"
+    },
+    {
+      "file_page": 79,
+      "native_characters": 798,
+      "native_text_sha256": "8e913adbb26cbd21a662c2d34bf06cbc8d691fa1f30bfc0d0b123e5c196e9052",
+      "stream_range": [
+        59395,
+        60208
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1716
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1716
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "579c96e1ed5e5238c139894b6bbfabc84824ccaf5a07c4a854278f9f0f6c7fbc"
+    },
+    {
+      "file_page": 80,
+      "native_characters": 735,
+      "native_text_sha256": "a84dd0a3ea2e583d364188e4c68191c4eb217a142cd738ca4e04416c59a51b78",
+      "stream_range": [
+        60208,
+        60958
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1726
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1726
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "6c122e628430637a5ea0a14f9f21f36e75503316f123c2d6bbc3dadecd517f6d"
+    },
+    {
+      "file_page": 81,
+      "native_characters": 810,
+      "native_text_sha256": "da0c4ce7ccbd35351bc39e08beee8d60c8e2ce46e8657a38bb30913fea357716",
+      "stream_range": [
+        60958,
+        61783
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1736
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1736
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "5f7c824244f8ccbc923f2241e3202651b00fdc6dbd9e611b79b4d28e9a476b81"
+    },
+    {
+      "file_page": 82,
+      "native_characters": 844,
+      "native_text_sha256": "f1930caf9388ae9c6cd91966bcb87f3111a532ff61a33fb4cf0bcd522cf2ba97",
+      "stream_range": [
+        61783,
+        62642
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1746
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1746
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "6d7648e4b61c40de13e3fce8bba8eb5572d5d6aaf807fbead23ce7facf1ddefc"
+    },
+    {
+      "file_page": 83,
+      "native_characters": 811,
+      "native_text_sha256": "d9ce881984dad240713f22e73fd3ad770e42aadeb220214a8982177c42b28f00",
+      "stream_range": [
+        62642,
+        63468
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1756
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1756
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "841513e2ac60410d5f8aec7a708151a95b9f30cb04b882cf17053e8e1939c55e"
+    },
+    {
+      "file_page": 84,
+      "native_characters": 685,
+      "native_text_sha256": "0105a115cfed273cb3372b1693894feb1e138f65ba16326fc3b4f5ccfefdeb36",
+      "stream_range": [
+        63468,
+        64168
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1766
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1766
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e5cf91f2452a8433e286d33bc90d2e38d9890c22eb55d7c058e5468af047300d"
+    },
+    {
+      "file_page": 85,
+      "native_characters": 748,
+      "native_text_sha256": "290b4f5aae5c8c51b397ce32c2f42e6e059947b2564c57e96803668c767550dd",
+      "stream_range": [
+        64168,
+        64931
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1776
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1776
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "4a4572b3e6e3cce59d4ec4a288dc18c365bd97a070f147e46dd94df7e69cef3b"
+    },
+    {
+      "file_page": 86,
+      "native_characters": 738,
+      "native_text_sha256": "598a0af629fbd46e83eb52eba5f166a6311d19f187feccf87a23ccf2eab849e4",
+      "stream_range": [
+        64931,
+        65684
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1786
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1786
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "959876fab619292626124fc81d02884f1f8a08824dc056f59ad56b1b5e944c03"
+    },
+    {
+      "file_page": 87,
+      "native_characters": 699,
+      "native_text_sha256": "daa634f5b96cebe25fcf070b22cdcd5f951ab50668d3dafb074c2d1c0b0bb25a",
+      "stream_range": [
+        65684,
+        66398
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1796
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1796
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "4de2ee0a0e76cbfad15344630959acdd44a62270a1c62d290e8ce7f1e24d0f50"
+    },
+    {
+      "file_page": 88,
+      "native_characters": 711,
+      "native_text_sha256": "54427a7da1ae58fa420b30c3f826309bfe7a850d04263bcfd0cfa01aac368128",
+      "stream_range": [
+        66398,
+        67124
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1806
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1806
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "4cccf0018994bff45a3af9cc560547404769a12cea3348f3d6d1599e89985dea"
+    },
+    {
+      "file_page": 89,
+      "native_characters": 772,
+      "native_text_sha256": "775b9efaeac7c9af96da134aa153ee98f957c3b801f79eb70d3a553884d794e0",
+      "stream_range": [
+        67124,
+        67911
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1816
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1816
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "2e73ff677be232a6dab8acf19434b4d47c981c5c00c72c899851c942018d0220"
+    },
+    {
+      "file_page": 90,
+      "native_characters": 731,
+      "native_text_sha256": "53a1649a769d8c6f52ef5d63e9ad774a852b50ae6bc003ed0c05cd03cbcc1144",
+      "stream_range": [
+        67911,
+        68657
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1826
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1826
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "e2a4083c5e7b48a30bdaecaa8de5f49f2d5536be77ebb755dacb87ee571ca94e"
+    },
+    {
+      "file_page": 91,
+      "native_characters": 710,
+      "native_text_sha256": "ebec4a1aacd39399ccb26ec32ad46dd82ead2af5d197d1c9f8430ae44ff8688a",
+      "stream_range": [
+        68657,
+        69382
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1836
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1836
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "c682541a9c5fc2a7f8e41e82a0851f9618cf0814933ada48261d1d091fa48850"
+    },
+    {
+      "file_page": 92,
+      "native_characters": 827,
+      "native_text_sha256": "caff858079d68ccc82829c8363ce6f9c4301993cc63d3d1516c6253914c9192a",
+      "stream_range": [
+        69382,
+        70224
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1846
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1846
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "c75f59be57ed2ff373a21156ca0b40aeb63a530caa3cc89eb66db7b2a8fb9ce1"
+    },
+    {
+      "file_page": 93,
+      "native_characters": 764,
+      "native_text_sha256": "b3c8f5ed2ee6907b20c99572b2dfe0865f8d5125d90116752ca8c4e5c280102d",
+      "stream_range": [
+        70224,
+        71003
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1856
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1856
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "2ab41ff28f776186c8d2bab4372cfb308009c6c8c51bab5ed8959e1dbec63ed9"
+    },
+    {
+      "file_page": 94,
+      "native_characters": 699,
+      "native_text_sha256": "da81d9dcc3aee50f07f56ba940fcc047ca1cf1409b8d113d54a3eb3a3f0dccba",
+      "stream_range": [
+        71003,
+        71717
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1866
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1866
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "39bb4c97db9ee290aba485478d4d31e752c7678bc4b7d17c98f973c053d9a3ea"
+    },
+    {
+      "file_page": 95,
+      "native_characters": 733,
+      "native_text_sha256": "697ab4c0b68df45cf3ec0dcad8e176eb24ce3865f33edb89cf2e442903fe2d0f",
+      "stream_range": [
+        71717,
+        72465
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1876
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1876
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "219e8c75709e235e4890f05beb56d5a81427d7fd1166147e491e1fe3f8125944"
+    },
+    {
+      "file_page": 96,
+      "native_characters": 623,
+      "native_text_sha256": "edcb7f9e53f4eab8327552d52a281cd18bcec832a681f8b26a28e6b2fbf19272",
+      "stream_range": [
+        72465,
+        73103
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1886
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1886
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "b717da7c6f269ccfef4124a1c68d4185b45f9de500ae708945c85777a2b83efa"
+    },
+    {
+      "file_page": 97,
+      "native_characters": 712,
+      "native_text_sha256": "3d763677181582c9b6f2220dfb798772eb3f19fc4f8373ad805d4d4996a32719",
+      "stream_range": [
+        73103,
+        73830
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1896
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1896
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f8a233b785d306979869120199a47c6894e762f2c22fa72c398bd78d970c4800"
+    },
+    {
+      "file_page": 98,
+      "native_characters": 768,
+      "native_text_sha256": "75bb733aac29e1e6d3776cf0cf2ba1b383281e9e048ba108edb452c678f5ce0b",
+      "stream_range": [
+        73830,
+        74613
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1906
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1906
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "044c97a57a8ff3d86b93c6980684312f0b9365753973aa7b28e2057b26d54637"
+    },
+    {
+      "file_page": 99,
+      "native_characters": 681,
+      "native_text_sha256": "3c349e07140d2f9432f798ca6aa9cf733c1317d06664aef8e304b8dfd642d638",
+      "stream_range": [
+        74613,
+        75309
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1916
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1916
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "ba5983fa634e0cff63ba0fd3e8e610f39eccb7d32f1c35832f9185d89016a9dd"
+    },
+    {
+      "file_page": 100,
+      "native_characters": 699,
+      "native_text_sha256": "5056668c56853a5df35489d3078ae077624de0b5a175151914c8e2767ec4e6fe",
+      "stream_range": [
+        75309,
+        76024
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1926
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1926
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "67919ea6de3b49851de367bc3e41bb88a4a8379d8cd89fdafa2b6624e93d8ad5"
+    },
+    {
+      "file_page": 101,
+      "native_characters": 743,
+      "native_text_sha256": "bfa8a132c1df344d19827148b46927974b6869a51963a420646c2242348d5c9d",
+      "stream_range": [
+        76024,
+        76783
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1936
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1936
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "277c4834a0caf8efbd3a7b6fa9a2fca50ddb9f695b859c9e5b62abc4fd24cf0c"
+    },
+    {
+      "file_page": 102,
+      "native_characters": 623,
+      "native_text_sha256": "a1f8690833e18fe3f461847d7b84424c4a21d5dc7236073d987771b8e9766b26",
+      "stream_range": [
+        76783,
+        77422
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1946
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1946
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "f95d82aed66ce4a3e022b9fd96afbb6ffac5efd3a785a3e20a14c9ec51ecb3cd"
+    },
+    {
+      "file_page": 103,
+      "native_characters": 777,
+      "native_text_sha256": "d8cdda4717ab1f00c5a13abd3278c1bc7f0a894ca8cf09e311408cf99c6f590c",
+      "stream_range": [
+        77422,
+        78215
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1956
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1956
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "69e6114857fc2f775096ca85bd30579f8addae8225fc6630d9775a91be3dde7b"
+    },
+    {
+      "file_page": 104,
+      "native_characters": 673,
+      "native_text_sha256": "b0034c03def76e3f59df7f5ccb200e850f8951f1400591a39439d80d92e02aa3",
+      "stream_range": [
+        78215,
+        78904
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1966
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1966
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "82f19066d67e1d33743ed082cc11abefda6ed8d27d3f1362fedad46ec5c5e6db"
+    },
+    {
+      "file_page": 105,
+      "native_characters": 711,
+      "native_text_sha256": "8f63f4c703e3a1649e30dfa188b132ba022926f47eedf27bf6ebdbc923b55d72",
+      "stream_range": [
+        78904,
+        79631
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1976
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1976
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "48a3fe9e6ef75dcef9716711997637a672f150d80cd198c510b67dd2c0faf70d"
+    },
+    {
+      "file_page": 106,
+      "native_characters": 751,
+      "native_text_sha256": "0cf9ac0f42b6eb49d6d3a9277f132c5295f39a455aab262cc54046d612877ce8",
+      "stream_range": [
+        79631,
+        80398
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1986
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1986
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8fe6b1e3501376f7c442dd788309a7d0bea93626677c1e9bb1bc6a887d5f4763"
+    },
+    {
+      "file_page": 107,
+      "native_characters": 844,
+      "native_text_sha256": "55aa02857b3e69c6e3a9506513d9cd1c92ef6efdac10c4649810435dc993f051",
+      "stream_range": [
+        80398,
+        81258
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1996
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 1996
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "dbe64105383ca4d0c194f6a6d53f0d83fba2cc7d3e3ed4b33287a9c56e9016c2"
+    },
+    {
+      "file_page": 108,
+      "native_characters": 752,
+      "native_text_sha256": "1618277dd34ac7d056c2586cb1cb830e40ca611c40378dbe94857afe6ed55785",
+      "stream_range": [
+        81258,
+        82026
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2006
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2006
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "ab92090160fd96131d3dcee17b20b38112a233dd3f450921cbf837ecb7ca7303"
+    },
+    {
+      "file_page": 109,
+      "native_characters": 855,
+      "native_text_sha256": "42d2553111657a3347b273f08c1951b81d4eb0c3f8a8700077e860c2a10ac1e8",
+      "stream_range": [
+        82026,
+        82897
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2016
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2016
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "481764c93c4465719284e1ea058b81985d6749a0fc50b0eefd0a83a620d90127"
+    },
+    {
+      "file_page": 110,
+      "native_characters": 835,
+      "native_text_sha256": "5e105c13dea80be44109610fac94a70f134ada79381c2fde98504e8bcce92324",
+      "stream_range": [
+        82897,
+        83748
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2026
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2026
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "c6ec57d4c8b2fa1cbb55ea5d2f0585b155951aa48c854eb04ec214a6d62563d4"
+    },
+    {
+      "file_page": 111,
+      "native_characters": 865,
+      "native_text_sha256": "8cef2405cda20f673e5e306d31a31e25a8273f7b9a232cf124e13bca5b5f8734",
+      "stream_range": [
+        83748,
+        84629
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2036
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2036
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "50575009c06ecffea459ee19791e348f7859635e4dd9dfa75e369172d96e4b11"
+    },
+    {
+      "file_page": 112,
+      "native_characters": 672,
+      "native_text_sha256": "913f808ac20c592c5fcc2d2e22da199a1c19610e0ee6531ec7efacc186c4712f",
+      "stream_range": [
+        84629,
+        85317
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2046
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2046
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "8ae8d1721dffa0d7a164912740dd9254fc356c8815cd1d32c824e4ec7c140fa7"
+    },
+    {
+      "file_page": 113,
+      "native_characters": 616,
+      "native_text_sha256": "23579ac0dadf92c2ac2382a607644e29047431d38272f9cca9262144feaae399",
+      "stream_range": [
+        85317,
+        85949
+      ],
+      "displayed_images": [
+        {
+          "bbox": [
+            90.0,
+            58.5,
+            212.25,
+            118.5
+          ],
+          "width": 163,
+          "height": 80,
+          "xref": 361
+        },
+        {
+          "bbox": [
+            -80.36550903320312,
+            11.339530944824219,
+            675.66650390625,
+            134.9896240234375
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2056
+        },
+        {
+          "bbox": [
+            80.36549377441406,
+            770.8260498046875,
+            514.9321899414062,
+            841.9000244140625
+          ],
+          "width": 642,
+          "height": 105,
+          "xref": 2056
+        }
+      ],
+      "replacement_characters": 0,
+      "native_output_actually_read": true,
+      "original_page_layout_reviewed": true,
+      "page_render_sha256": "6fb82e2647b5c7cf2d58b19ec74fcae8bdd7aeb72d3ab236fb999a13aae13cf0"
+    }
+  ],
+  "visual_contact_sheets": [
+    {
+      "file": "card_001_010.png",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sha256": "5b27c6b5eef2cd8be8e13a809ab57d28cec5c119c3d6d1092a0ab4e108a8a263",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_011_020.png",
+      "file_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sha256": "d7890c51af0679f25bd941cfed0a23436433ed30fb9a0fef5f09e5a1fbb3b205",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_021_030.png",
+      "file_pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "sha256": "a44bf776bb9f912a1bd98f096627e3046ac71adbd638450b6a7d7f651d92cc95",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_031_040.png",
+      "file_pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sha256": "c2b701c4c7b97de0bf014026324345956c8f44ffd4a0d53c626e2f45c8d00980",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_041_050.png",
+      "file_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sha256": "bb3a4999fe2f3244baae6333128f5575ef97c21d104abaf0efbb096384d9fadf",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_051_060.png",
+      "file_pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sha256": "8b962493333eb51b764e0444ccfe0d2a07730c590126182800e433531353cc59",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_061_070.png",
+      "file_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "sha256": "03f9492de60d8762dddb7f2f193d4617f4626f700d41d17573e589346477a1cc",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_071_080.png",
+      "file_pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "sha256": "a247f20c9c324804f94373c41625cdb04250b574966eb8f60e5b3cfcfb2d0f88",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_081_090.png",
+      "file_pages": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sha256": "fa2aeb44d76b8786af2866fadde44acd892a217235756d1ba79e9f25c5d3efef",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_091_100.png",
+      "file_pages": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "sha256": "5bcce0d7be1cdb9651d3710c22a2d38273991271379589dba84819812757bf16",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_101_110.png",
+      "file_pages": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "sha256": "1f30825e806a2da2cc1cbab916bb30e6a770eb81da776017728a2b10f14d7bf8",
+      "actually_reviewed": true
+    },
+    {
+      "file": "card_111_113.png",
+      "file_pages": [
+        111,
+        112,
+        113
+      ],
+      "sha256": "92c412609997906fdc5c404810a9cd3c0c78eae64143f1fe0c35bad6c344bab7",
+      "actually_reviewed": true
+    }
+  ],
+  "image_asset_review": {
+    "object_count": 114,
+    "placements": 339,
+    "unique_pixel_kinds": 2,
+    "representatives_actually_viewed": [
+      361,
+      936
+    ],
+    "xref361": "site logo",
+    "all113_blank_banner_objects_including936": "all-white banner",
+    "assets": [
+      {
+        "xref": 361,
+        "width": 163,
+        "height": 80,
+        "file_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "sha256": "875db5d6b86acaa7fb9c42f04d3db58e360ddf65a45129b4a30240395374522e",
+        "pixel_sha256": "2b28cfa559b2bff349909bfc7678e728c9862ac752bc13f6fae743b2027713b2"
+      },
+      {
+        "xref": 936,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          1,
+          1
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 946,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          2,
+          2
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 956,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          3,
+          3
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 966,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          4,
+          4
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 976,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          5,
+          5
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 986,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          6,
+          6
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 996,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          7,
+          7
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1006,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          8,
+          8
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1016,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          9,
+          9
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1026,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          10,
+          10
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1036,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          11,
+          11
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1046,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          12,
+          12
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1056,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          13,
+          13
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1066,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          14,
+          14
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1076,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          15,
+          15
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1086,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          16,
+          16
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1096,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          17,
+          17
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1106,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          18,
+          18
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1116,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          19,
+          19
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1126,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          20,
+          20
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1136,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          21,
+          21
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1146,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          22,
+          22
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1156,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          23,
+          23
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1166,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          24,
+          24
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1176,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          25,
+          25
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1186,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          26,
+          26
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1196,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          27,
+          27
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1206,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          28,
+          28
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1216,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          29,
+          29
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1226,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          30,
+          30
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1236,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          31,
+          31
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1246,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          32,
+          32
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1256,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          33,
+          33
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1266,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          34,
+          34
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1276,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          35,
+          35
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1286,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          36,
+          36
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1296,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          37,
+          37
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1306,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          38,
+          38
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1316,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          39,
+          39
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1326,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          40,
+          40
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1336,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          41,
+          41
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1346,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          42,
+          42
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1356,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          43,
+          43
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1366,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          44,
+          44
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1376,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          45,
+          45
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1386,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          46,
+          46
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1396,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          47,
+          47
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1406,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          48,
+          48
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1416,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          49,
+          49
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1426,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          50,
+          50
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1436,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          51,
+          51
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1446,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          52,
+          52
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1456,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          53,
+          53
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1466,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          54,
+          54
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1476,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          55,
+          55
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1486,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          56,
+          56
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1496,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          57,
+          57
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1506,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          58,
+          58
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1516,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          59,
+          59
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1526,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          60,
+          60
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1536,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          61,
+          61
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1546,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          62,
+          62
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1556,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          63,
+          63
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1566,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          64,
+          64
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1576,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          65,
+          65
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1586,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          66,
+          66
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1596,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          67,
+          67
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1606,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          68,
+          68
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1616,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          69,
+          69
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1626,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          70,
+          70
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1636,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          71,
+          71
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1646,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          72,
+          72
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1656,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          73,
+          73
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1666,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          74,
+          74
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1676,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          75,
+          75
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1686,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          76,
+          76
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1696,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          77,
+          77
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1706,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          78,
+          78
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1716,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          79,
+          79
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1726,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          80,
+          80
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1736,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          81,
+          81
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1746,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          82,
+          82
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1756,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          83,
+          83
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1766,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          84,
+          84
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1776,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          85,
+          85
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1786,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          86,
+          86
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1796,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          87,
+          87
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1806,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          88,
+          88
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1816,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          89,
+          89
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1826,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          90,
+          90
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1836,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          91,
+          91
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1846,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          92,
+          92
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1856,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          93,
+          93
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1866,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          94,
+          94
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1876,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          95,
+          95
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1886,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          96,
+          96
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1896,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          97,
+          97
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1906,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          98,
+          98
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1916,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          99,
+          99
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1926,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          100,
+          100
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1936,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          101,
+          101
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1946,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          102,
+          102
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1956,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          103,
+          103
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1966,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          104,
+          104
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1976,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          105,
+          105
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1986,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          106,
+          106
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 1996,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          107,
+          107
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2006,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          108,
+          108
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2016,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          109,
+          109
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2026,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          110,
+          110
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2036,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          111,
+          111
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2046,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          112,
+          112
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      },
+      {
+        "xref": 2056,
+        "width": 642,
+        "height": 105,
+        "file_pages": [
+          113,
+          113
+        ],
+        "sha256": "5de5b4d11a731ad6dc1dc17cfcad33099206259620ee39c7f3d1ca3d16b21001",
+        "pixel_sha256": "fff2b77a3d65b27c292a37b6fafb1ebb1663ffd7435c69a8b1e14dfd0ab21a6a"
+      }
+    ]
+  },
+  "visual_rendering": {
+    "engine": "pdftoppm -scale-to 1100 -png",
+    "all113_layouts_reviewed": true,
+    "contact_sheets": 12,
+    "native_word_reading_separate_from_layout_review": true,
+    "poppler_warnings": [],
+    "extra_raster_body_diagrams": []
+  },
+  "all_current_provided_content_read": true,
+  "all_extractable_body_text_read": true,
+  "all_original_words_individually_proofread": false,
+  "completion_kind": "actual_supplied_PDF_all113_pages_front_matter_three_levels_relationship_and_closing_read",
+  "source_scope": {
+    "all_file_pages_read_in_order": true,
+    "all_current_provided_content_read": true,
+    "native_output_unrecovered_truncations": [],
+    "recovered_native_output_pages": [
+      13,
+      14
+    ],
+    "replacement_characters": 0,
+    "body_level_parts": 3,
+    "parts_counted_as_books": false,
+    "external_original_edition_complete_verified": false,
+    "advertisement_calls_followed": false,
+    "unprovided_fitness_booklet_English_original_courses_or_referenced_books_counted_as_read": false,
+    "unprovided_material_blocks_next_book": false,
+    "known_unread_current_provided_content": [],
+    "author_claims_promoted_to_empirical_evidence": false,
+    "coercion_and_refusal_bypass_promoted_to_runtime_operations": false
+  },
+  "chapter_page_index": [
+    {
+      "part": "译序及署名",
+      "physical_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "part": "引言与学习要求",
+      "physical_pages": [
+        3,
+        7
+      ]
+    },
+    {
+      "part": "基础",
+      "physical_pages": [
+        8,
+        51
+      ]
+    },
+    {
+      "part": "进阶",
+      "physical_pages": [
+        51,
+        78
+      ]
+    },
+    {
+      "part": "精通与地点分类",
+      "physical_pages": [
+        78,
+        107
+      ]
+    },
+    {
+      "part": "关系与收束",
+      "physical_pages": [
+        108,
+        113
+      ]
+    }
+  ],
+  "new_raw_text_images_private_transcriptions_or_anonymous_private_narratives_archived": false,
+  "note": "knowledge/books/B074.md",
+  "new_note_groups": 32,
+  "new_critical_method_source_bindings": 91,
+  "explicit_user_reading_resume_after_system_maintenance": true,
+  "next_work_unit_at_checkpoint": "B075",
+  "next_book_body_opened_at_checkpoint": false,
+  "scope_counts_at_checkpoint": {
+    "complete": 71,
+    "actual_supplied_files_read": 69,
+    "user_accepted_scope_closures": 2,
+    "partial": 0,
+    "unread": 48
+  },
+  "validation": "knowledge/provenance/B074_validation_2026-11-13.json"
+}

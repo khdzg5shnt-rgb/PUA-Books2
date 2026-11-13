@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "c9a760f081c85ef754896cac59b7441884c735a8",
+  "completed_file_ids": [
+    "B074"
+  ],
+  "scope_counts_at_intermediate_checkpoint": {
+    "complete": 71,
+    "actual_supplied_files_read": 69,
+    "user_accepted_scope_closures": 2
+  },
+  "checks": {
+    "source_identity_and_contiguous_reading_ranges": true,
+    "note_groups": 32,
+    "exact_source_section_bindings": 91,
+    "intermediate_validate_os_passed": true,
+    "final_combined_validation_passed": true,
+    "final_combined_unit_tests_passed": 92
+  },
+  "final_combined_validation": "knowledge/provenance/B074_B075_validation_2026-11-13.json",
+  "scope": "Intermediate reading checkpoint retained; final combined checks follow B075 integration and do not prove psychological mechanisms or romantic efficacy."
+}

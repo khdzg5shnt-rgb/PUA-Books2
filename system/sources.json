@@ -844,18 +844,24 @@
       "group": "books2_original_snapshot",
       "title": "枪巫方法 - Gunwitch.pdf",
       "git_blob_sha": "91e7b14d55d0155eaf885380d3b98fb14adf512a",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B074.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B074_reading_2026-11-13.json",
+      "coverage_mode": "all113_native_text_pages_and_original_layouts_read_logo_and_blank_banners_reviewed_by_pixel_identity",
+      "completion_kind": "actual_supplied_PDF_all113_pages_front_matter_three_levels_relationship_and_closing_read"
     },
     {
       "id": "B075",
       "group": "books2_original_snapshot",
       "title": "校园情圣 - 马克·雷德曼.pdf",
       "git_blob_sha": "81ae2598242af7e8b88eacadbca9cc6937517540",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B075.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B075_reading_2026-11-13.json",
+      "coverage_mode": "all78_native_text_pages_and_original_layouts_read_cover_advertisement_and_black_pixel_reviewed",
+      "completion_kind": "actual_supplied_PDF_all78_pages_front_matter_body_recommendations_and_advertising_read"
     },
     {
       "id": "B076",
@@ -1656,24 +1662,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 70,
+    "current_book_files_text_complete": 72,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 49
+    "current_book_files_not_started": 47
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B074",
-    "path": "枪巫方法 - Gunwitch.pdf",
-    "bytes": 2269717,
-    "git_blob_sha": "91e7b14d55d0155eaf885380d3b98fb14adf512a",
+    "id": "B076",
+    "path": "正妹心理学 - 郑匡宇.pdf",
+    "bytes": 4989891,
+    "git_blob_sha": "949d65b7b783b3cad431c8483feecf32fd811c92",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_spine_item": null,
     "next_character": 0,
-    "start": "B071当前提供内容、原创笔记和范围已保存；下一唯一主读B074。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B075当前提供内容、原创笔记和范围已保存；下一唯一主读B076。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B076 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }

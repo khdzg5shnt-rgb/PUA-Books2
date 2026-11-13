@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "c9a760f081c85ef754896cac59b7441884c735a8",
+  "completed_file_ids": [
+    "B074",
+    "B075"
+  ],
+  "checks": {
+    "B074_source_identity_and_contiguous_provided_scope": true,
+    "B075_source_identity_and_contiguous_provided_scope": true,
+    "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
+    "new_exact_source_section_bindings": {
+      "B074": 91,
+      "B075": 85
+    },
+    "only_B074_B075_reading_records_advanced": true,
+    "focused_method_section_queries_passed": 12,
+    "file_reference_does_not_authorize_unbound_method": true,
+    "progress72_actual70_plus_two_explicit_closures_next_B076": true,
+    "B074_notes_scope_and_checkpoint_saved_before_B075_body": true,
+    "prior_maintenance_and_reading_history_preserved": true,
+    "only_expected_twenty_knowledge_and_progress_files_changed": true,
+    "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+    "validate_os": true,
+    "unittest_methods_passed": 92
+  },
+  "focused_retrieval": [
+    {
+      "method": "M03",
+      "query": "共同作品",
+      "path": "knowledge/books/B074.md",
+      "heading": "共同作品不靠假装看过",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "method": "M18",
+      "query": "认真提问",
+      "path": "knowledge/books/B074.md",
+      "heading": "认真提问正常回答",
+      "query_matched": true,
+      "section_method_ids": [
+        "M04",
+        "M18",
+        "M20"
+      ]
+    },
+    {
+      "method": "M17",
+      "query": "没有替代安排",
+      "path": "knowledge/books/B074.md",
+      "heading": "没有替代安排就停止追约",
+      "query_matched": true,
+      "section_method_ids": [
+        "M17",
+        "M19",
+        "M23"
+      ]
+    },
+    {
+      "method": "M07",
+      "query": "共同玩笑",
+      "path": "knowledge/books/B074.md",
+      "heading": "共同玩笑可以轻量也可以停",
+      "query_matched": true,
+      "section_method_ids": [
+        "M05",
+        "M06",
+        "M07"
+      ]
+    },
+    {
+      "method": "M11",
+      "query": "困扰",
+      "path": "knowledge/books/B074.md",
+      "heading": "困扰值得听不强迫积极",
+      "query_matched": true,
+      "section_method_ids": [
+        "M11",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "method": "M14",
+      "query": "真实活动",
+      "path": "knowledge/books/B074.md",
+      "heading": "一次邀约说清真实活动",
+      "query_matched": true,
+      "section_method_ids": [
+        "M14",
+        "M15",
+        "M23"
+      ]
+    },
+    {
+      "method": "M04",
+      "query": "共同经历",
+      "path": "knowledge/books/B075.md",
+      "heading": "共同经历回扣再露一点自己",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "method": "M25",
+      "query": "课程专业",
+      "path": "knowledge/books/B075.md",
+      "heading": "课程专业可以正常聊",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M04",
+        "M25"
+      ]
+    },
+    {
+      "method": "M09",
+      "query": "具体欣赏",
+      "path": "knowledge/books/B075.md",
+      "heading": "具体欣赏不审判够不够格",
+      "query_matched": true,
+      "section_method_ids": [
+        "M03",
+        "M09",
+        "M22"
+      ]
+    },
+    {
+      "method": "M15",
+      "query": "实际活动",
+      "path": "knowledge/books/B075.md",
+      "heading": "邀约说实际活动并让人选择",
+      "query_matched": true,
+      "section_method_ids": [
+        "M14",
+        "M15",
+        "M23"
+      ]
+    },
+    {
+      "method": "M20",
+      "query": "误解玩笑",
+      "path": "knowledge/books/B075.md",
+      "heading": "误解玩笑先看是否接梗",
+      "query_matched": true,
+      "section_method_ids": [
+        "M06",
+        "M07",
+        "M20"
+      ]
+    },
+    {
+      "method": "M26",
+      "query": "短信",
+      "path": "knowledge/books/B075.md",
+      "heading": "短信不按小时标点和拆条运行",
+      "query_matched": true,
+      "section_method_ids": [
+        "M02",
+        "M19",
+        "M26"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 92
+    }
+  ],
+  "scope": "Structural, provenance and synthetic routing checks only; not proof of reading, screenshot understanding, psychological mechanisms or romantic outcomes."
+}

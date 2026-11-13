@@ -1,10 +1,10 @@
 # 统一资料索引
 
 <!-- CURRENT_READING_STATUS -->
-当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际读完当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮仅维护系统，新增阅读为零；阅读暂停，B074第1页书签及原文件身份保留，正文未打开。[最近阅读记录](knowledge/provenance/B070_B071_progress_2026-11-13.md)。
+当前完成72/119份任务，无部分阅读文件、47份未开始。70份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B074《枪巫方法》、B075《校园情圣》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B076，保存断点时正文未打开。[本轮记录](knowledge/provenance/B074_B075_progress_2026-11-13.md)。
 <!-- END_CURRENT_READING_STATUS -->
 
-本轮[系统维护](knowledge/provenance/OS_turn_arrangements_2026-11-13.md)：同轮安排更新、待答内容覆盖和当前进度同步。最近读完[B070](knowledge/books/B070.md)与[B071](knowledge/books/B071.md)；下方带旧轮次的记录保留作追溯，恢复以[CURRENT_STATE](CURRENT_STATE.md)为准。
+最近系统维护的同轮安排更新、请求覆盖和当前进度同步功能保留；本轮已按用户明确要求恢复逐本阅读，最新范围和断点见上方当前状态块。
 
 <!-- SERIAL_READING_2026_11_13_B061 -->
 历史阅读轮逐本完成[B061的20组笔记](knowledge/books/B061.md)、[B062的12组笔记](knowledge/books/B062.md)，实际范围见[本轮记录](knowledge/provenance/B061_B062_progress_2026-11-13.md)。

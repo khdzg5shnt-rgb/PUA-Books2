@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成70/119份任务，无部分阅读文件、49份未开始。68份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B070《杂耍人文集及语录》、B071《杂耍人方法》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B074，保存断点时正文未打开。[本轮记录](B070_B071_progress_2026-11-13.md)。
+当前完成72/119份任务，无部分阅读文件、47份未开始。70份实际完成当前提供内容；B017与B039按用户认可范围结束，缺字保留。本轮逐本完成B074《枪巫方法》、B075《校园情圣》，每份保存笔记、范围与断点后再下一份。未提供内容不等待、不补算。下一只读B076，保存断点时正文未打开。[本轮记录](B074_B075_progress_2026-11-13.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -86,8 +86,8 @@
 | B071 | [杂耍人方法 - 杂耍人.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%B9%E6%B3%95%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf) | 79 | 现有79页两序、术语、目录、六章引用与译注全文及版面已读；未提供原帖不补算 | [36组笔记](../books/B071.md) |
 | B072 | [杂耍人方法精义 - 晚熟青年.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%B9%E6%B3%95%E7%B2%BE%E4%B9%89%20-%20%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4.epub) | 8 | 正文读完 | [精读](../books/B072.md) |
 | B073 | [极限话术 - 死囚漫步.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%81%E9%99%90%E8%AF%9D%E6%9C%AF%20-%20%E6%AD%BB%E5%9B%9A%E6%BC%AB%E6%AD%A5.epub) | 12 | 正文读完 | [精读](../books/B073.md) |
-| B074 | [枪巫方法 - Gunwitch.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%AA%E5%B7%AB%E6%96%B9%E6%B3%95%20-%20Gunwitch.pdf) | 113 | 已提取/未读 | — |
-| B075 | [校园情圣 - 马克·雷德曼.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%A0%A1%E5%9B%AD%E6%83%85%E5%9C%A3%20-%20%E9%A9%AC%E5%85%8B%C2%B7%E9%9B%B7%E5%BE%B7%E6%9B%BC.pdf) | 78 | 已提取/未读 | — |
+| B074 | [枪巫方法 - Gunwitch.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9E%AA%E5%B7%AB%E6%96%B9%E6%B3%95%20-%20Gunwitch.pdf) | 113 | 113页译序、三层正文、关系收束及版面已读；两类标志/空白横条已核，未提供附赠册不计 | [32组笔记](../books/B074.md) |
+| B075 | [校园情圣 - 马克·雷德曼.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%A0%A1%E5%9B%AD%E6%83%85%E5%9C%A3%20-%20%E9%A9%AC%E5%85%8B%C2%B7%E9%9B%B7%E5%BE%B7%E6%9B%BC.pdf) | 78 | 78页含封面、译序、正文、推荐与广告及版面已读；3图像对象已核，原英文未核不补算 | [30组笔记](../books/B075.md) |
 | B076 | [正妹心理学 - 郑匡宇.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%AD%A3%E5%A6%B9%E5%BF%83%E7%90%86%E5%AD%A6%20-%20%E9%83%91%E5%8C%A1%E5%AE%87.pdf) | 188 | 已OCR/未读 | — |
 | B077 | [泡丁解妞 - 斑马.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E4%B8%81%E8%A7%A3%E5%A6%9E%20-%20%E6%96%91%E9%A9%AC.pdf) | 99 | 已提取/未读 | — |
 | B078 | [泡妞实战速查手册.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%B3%A1%E5%A6%9E%E5%AE%9E%E6%88%98%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.epub) | 13 | 已提取/未读 | — |
