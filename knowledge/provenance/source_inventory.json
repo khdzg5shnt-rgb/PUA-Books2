@@ -15057,8 +15057,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%99%BD%E5%A4%A9%E7%BA%A6%E4%BC%9A%E5%AE%9D%E5%85%B8%20-%20Jeremy%20Soul.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B091.md",
       "pages": 95,
       "spine_items": null,
       "ocr": {
@@ -15066,7 +15066,46 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B091_reading_2026-11-14.json",
+      "coverage_mode": "95_native_text_pages_all_current_raster_composites_nine_layout_samples_original_missing_sections_not_reconstructed",
+      "completion_kind": "actual_supplied_PDF_all95_page_native_text_and_all_visible_raster_composites_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "ae36f49c2e8b2ba7fb31246c3318ccbdd921d7f5ef413ed70132c8e750224757",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B091_reading_2026-11-14.json",
+        "native_characters": 75974,
+        "native_pages_read": 95,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          5,
+          10,
+          38,
+          43,
+          72,
+          88,
+          95
+        ],
+        "raster_objects": 477,
+        "raster_placements": 563,
+        "raster_review": "all visible composites viewed;not477 individual views",
+        "all_current_file_content_read": true,
+        "unprovided_sections": [
+          "TOC chapter13 case study",
+          "TOC appendices glossary/resources/conclusion",
+          "P43 referenced approach diagram absent",
+          "P72 referenced conversation-map diagram absent"
+        ],
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 34,
+        "new_exact_method_section_bindings": 42
+      }
     },
     {
       "index": 92,
@@ -15966,5 +16005,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B089 95-page version completed by B087 exact-reuse 67351 normalized chars plus all 253 target differences reviewed;6original version notes,0exact bindings.86/119 file tasks=82 supplied-file completions+4user closures;not a newly read independent work.NextB091body unopened."
+  "latest_reading_update": "2026-11-14: B091 all95 supplied native-text pages75974characters and all visible raster composites read;nine layout samples;34originalnotes,42exactbindings.TOC13/appendices and two referenced figures not supplied;not reconstructed.87/119=83current-file-completions+4userclosures.Thisturn B088/B089 verifiedversions precede B091;no duplicate-work inflation.NextB093 body unopened;B092alreadycomplete."
 }
