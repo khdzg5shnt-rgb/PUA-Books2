@@ -1,86 +1,112 @@
 {
   "schema_version": 1,
   "updated": "2026-11-13",
-  "current_focus": "B070_next_after_B069_finished_in_order",
+  "current_focus": "B074_next_after_B070_B071_finished_in_order",
   "status": "ready_for_next_file",
-  "base_commit": "80369009a986cb7b9bb47316bec2a2c2e1fc8c1f",
+  "base_commit": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B069_progress_2026-11-13.md",
-  "validation": "knowledge/provenance/B069_validation_2026-11-13.json",
+  "report": "knowledge/provenance/B070_B071_progress_2026-11-13.md",
+  "validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
   "reading_bookmark": {
-    "id": "B070",
-    "path": "杂耍人文集及语录 - 杂耍人.epub",
-    "bytes": 179838,
-    "git_blob_sha": "7955916cfcb1bcb2167b94cc8446c208bf2885e0",
+    "id": "B074",
+    "path": "枪巫方法 - Gunwitch.pdf",
+    "bytes": 2269717,
+    "git_blob_sha": "91e7b14d55d0155eaf885380d3b98fb14adf512a",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": null,
-    "next_spine_item": 1,
+    "next_file_page": 1,
+    "next_spine_item": null,
     "next_character": 0,
-    "start": "B069当前提供内容、原创笔记和范围已保存；下一唯一主读B070。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B070 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B071当前提供内容、原创笔记和范围已保存；下一唯一主读B074。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
-  "next_work": "Read B070 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
+  "next_work": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file.",
   "current_session_progress": {
-    "baseline": "80369009a986cb7b9bb47316bec2a2c2e1fc8c1f",
+    "baseline": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
     "work_type": "read_whole_supplied_files_in_serial_order",
     "new_book_files_started": [
-      "B069"
+      "B070",
+      "B071"
     ],
     "new_book_files_completed": [
-      "B069"
+      "B070",
+      "B071"
     ],
     "actually_completed_file_ids": [
-      "B069"
+      "B070",
+      "B071"
     ],
-    "new_whole_book_files_actually_read": 1,
+    "new_whole_book_files_actually_read": 2,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 274960,
+    "new_native_characters_read": 187115,
     "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 286,
-    "new_EPUB_spine_items_read": 0,
-    "original_note_groups": 46,
-    "new_method_source_bindings": 133,
+    "new_unique_original_visual_pages": 79,
+    "new_EPUB_spine_items_read": 39,
+    "original_note_groups": 66,
+    "new_method_source_bindings": 197,
     "new_method_operations": [],
     "serial_order": [
-      "B069",
-      "save_B069_notes_scope_and_next_checkpoint"
+      "B070",
+      "save_B070_notes_scope_and_next_checkpoint",
+      "B071",
+      "save_B071_notes_scope_and_next_checkpoint"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "books": [
       {
-        "id": "B069",
-        "title": "晚熟青年杂译集",
-        "native_characters": 274960,
+        "id": "B070",
+        "title": "杂耍人文集及语录",
+        "native_characters": 90439,
+        "spine_items": 39,
+        "visual_pages": 0,
+        "note_groups": 30,
+        "bindings": 84,
+        "ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+        "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
+        "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
+        "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
+        "catalog_scope": "39项题名译序、334语录、36篇及评论全文已读；无嵌入图片，所提视频/附录未提供",
+        "range_label": "EPUB全部39个顺序项；90439个原生字符，334语录与36篇文章",
+        "scope_summary": "B070《杂耍人文集及语录》：现有EPUB全部39个顺序项，含题名、译者序、334条语录、36篇文章及随文评论/作者回复，90439个规范化原生字符分47块已按顺序读完。包内没有图片、音视频或额外正文，提及的附录图、照片和视频本体未提供、不等待不补算。语录是二次汇编，未逐条核原出处；与B069的重叠仍逐项实读，译错和未完文字如实保留，重复不作独立效果证据。"
+      },
+      {
+        "id": "B071",
+        "title": "杂耍人方法",
+        "native_characters": 96676,
         "spine_items": 0,
-        "visual_pages": 286,
-        "note_groups": 46,
-        "bindings": 133,
-        "ledger": "knowledge/provenance/B069_reading_2026-11-13.json",
-        "source_sha256": "1082282d195307b24739ba42c78fccdcf914e6ed27b21eafe08e31a9f0d423f4",
-        "coverage_mode": "all36_supplied_articles_comments_bilingual_appendix_and_ads_read_external_video_not_supplied",
-        "completion_kind": "actual_supplied_bilingual_PDF_all286_pages_native_read_images_diagrams_and_ad_titles_reviewed",
-        "catalog_scope": "现有286页36篇英汉对照、评论、双语附录及广告已读；外链视频和广告书正文未提供/未读",
-        "range_label": "PDF物理页1—286；274960个原生字符，32个含图页单核",
-        "scope_summary": "B069《晚熟青年杂译集》：286页现有PDF的前置材料、36篇英汉对照文章、随文评论和作者回复、双语附录图及末页宣传均已按顺序读完。274960个原生字符分48组阅读，286页版面与32个含图页已核；末页低清宣传书名已通过同仓库同版首封面补核，未读该书正文、未增加其进度。第35篇外链视频未提供，只读当前文字及静态图；推荐书目、课程与其他广告书正文未计。没有当前未补文字或图像缺口，不冒称原版完整或逐字校勘；译文误差、虚构、重复故事与效果声称分别记录。"
+        "visual_pages": 79,
+        "note_groups": 36,
+        "bindings": 113,
+        "ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+        "source_sha256": "2532c81ac3a8b786d7e53ed21ed4d777b5317b091c0f5552093bce85b535d4f9",
+        "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
+        "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read",
+        "catalog_scope": "现有79页两序、术语、目录、六章引用与译注全文及版面已读；未提供原帖不补算",
+        "range_label": "PDF物理页1—79；96676个原生字符，8张拼页核版面",
+        "scope_summary": "B071《杂耍人方法》：79页现有PDF含封面、两序、术语、目录、六章、引用与译注已逐页读至末尾。96676个原生字符分19组实读，79页版面分8张拼页已看；2与10页为空白，无显示的栅格图或替换字符。序言说明为他人汇编，不冒称作者亲定或实证研究；阶段、比例、顺从、说谎及拒绝处理的矛盾已分清取舍。末页编选片段未提供的完整原帖不补写、不等待、不补算，当前提供内容无未补读缺口。"
       }
     ],
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B069_validation_2026-11-13.json",
-      "reading_scope_and_source_identity": true,
-      "method_operations_avoids_and_previous_sources_preserved": true,
-      "exact_new_section_bindings": 133,
-      "only_B069_reading_record_advanced": true,
-      "focused_source_queries_passed": 6,
-      "whole_file_reference_does_not_authorize_unbound_method": true,
-      "progress68_actual66_plus_two_explicit_closures": true,
-      "only_expected_fifteen_knowledge_and_progress_files_changed": true,
-      "raw_source_files_runtime_routes_task_modes_and_preferred_sections_unchanged": true,
+      "reading_metadata_validation": "knowledge/provenance/B070_B071_validation_2026-11-13.json",
+      "B070_source_identity_and_contiguous_provided_scope": true,
+      "B071_source_identity_and_contiguous_provided_scope": true,
+      "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
+      "new_exact_source_section_bindings": {
+        "B070": 84,
+        "B071": 113
+      },
+      "only_B070_B071_reading_records_advanced": true,
+      "focused_method_section_queries_passed": 12,
+      "file_reference_does_not_authorize_unbound_method": true,
+      "progress70_actual68_plus_two_explicit_closures_next_B074": true,
+      "B070_notes_scope_and_checkpoint_saved_before_B071_body": true,
+      "only_expected_nineteen_knowledge_and_progress_files_changed": true,
+      "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
       "validate_os": true,
       "unittest_methods_passed": 72
     }
@@ -2409,12 +2435,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 68,
-    "current_file_text_complete": 68,
+    "started": 70,
+    "current_file_text_complete": 70,
     "partial": 0,
-    "unread": 51,
+    "unread": 49,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 68,
+    "reported_numerator": 70,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -4909,6 +4935,71 @@
           "focused_source_queries_passed": 6,
           "reading_scope_and_source_hashes_checked": true,
           "psychological_or_real_world_effects_verified": false
+        }
+      }
+    },
+    {
+      "report": "knowledge/provenance/B069_progress_2026-11-13.md",
+      "validation": "knowledge/provenance/B069_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "80369009a986cb7b9bb47316bec2a2c2e1fc8c1f",
+        "work_type": "read_whole_supplied_files_in_serial_order",
+        "new_book_files_started": [
+          "B069"
+        ],
+        "new_book_files_completed": [
+          "B069"
+        ],
+        "actually_completed_file_ids": [
+          "B069"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 274960,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 286,
+        "new_EPUB_spine_items_read": 0,
+        "original_note_groups": 46,
+        "new_method_source_bindings": 133,
+        "new_method_operations": [],
+        "serial_order": [
+          "B069",
+          "save_B069_notes_scope_and_next_checkpoint"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "books": [
+          {
+            "id": "B069",
+            "title": "晚熟青年杂译集",
+            "native_characters": 274960,
+            "spine_items": 0,
+            "visual_pages": 286,
+            "note_groups": 46,
+            "bindings": 133,
+            "ledger": "knowledge/provenance/B069_reading_2026-11-13.json",
+            "source_sha256": "1082282d195307b24739ba42c78fccdcf914e6ed27b21eafe08e31a9f0d423f4",
+            "coverage_mode": "all36_supplied_articles_comments_bilingual_appendix_and_ads_read_external_video_not_supplied",
+            "completion_kind": "actual_supplied_bilingual_PDF_all286_pages_native_read_images_diagrams_and_ad_titles_reviewed",
+            "catalog_scope": "现有286页36篇英汉对照、评论、双语附录及广告已读；外链视频和广告书正文未提供/未读",
+            "range_label": "PDF物理页1—286；274960个原生字符，32个含图页单核",
+            "scope_summary": "B069《晚熟青年杂译集》：286页现有PDF的前置材料、36篇英汉对照文章、随文评论和作者回复、双语附录图及末页宣传均已按顺序读完。274960个原生字符分48组阅读，286页版面与32个含图页已核；末页低清宣传书名已通过同仓库同版首封面补核，未读该书正文、未增加其进度。第35篇外链视频未提供，只读当前文字及静态图；推荐书目、课程与其他广告书正文未计。没有当前未补文字或图像缺口，不冒称原版完整或逐字校勘；译文误差、虚构、重复故事与效果声称分别记录。"
+          }
+        ],
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B069_validation_2026-11-13.json",
+          "reading_scope_and_source_identity": true,
+          "method_operations_avoids_and_previous_sources_preserved": true,
+          "exact_new_section_bindings": 133,
+          "only_B069_reading_record_advanced": true,
+          "focused_source_queries_passed": 6,
+          "whole_file_reference_does_not_authorize_unbound_method": true,
+          "progress68_actual66_plus_two_explicit_closures": true,
+          "only_expected_fifteen_knowledge_and_progress_files_changed": true,
+          "raw_source_files_runtime_routes_task_modes_and_preferred_sections_unchanged": true,
+          "validate_os": true,
+          "unittest_methods_passed": 72
         }
       }
     }

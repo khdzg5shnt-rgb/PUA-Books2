@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "date": "2026-11-13",
+  "baseline_main": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
+  "completed_file_ids": [
+    "B070",
+    "B071"
+  ],
+  "checks": {
+    "B070_source_identity_and_contiguous_provided_scope": true,
+    "B071_source_identity_and_contiguous_provided_scope": true,
+    "method_operations_avoids_previous_sources_and_preferred_sections_preserved": true,
+    "new_exact_source_section_bindings": {
+      "B070": 84,
+      "B071": 113
+    },
+    "only_B070_B071_reading_records_advanced": true,
+    "focused_method_section_queries_passed": 12,
+    "file_reference_does_not_authorize_unbound_method": true,
+    "progress70_actual68_plus_two_explicit_closures_next_B074": true,
+    "B070_notes_scope_and_checkpoint_saved_before_B071_body": true,
+    "only_expected_nineteen_knowledge_and_progress_files_changed": true,
+    "raw_sources_runtime_routes_task_modes_and_no_new_personal_records_preserved": true,
+    "validate_os": true,
+    "unittest_methods_passed": 72
+  },
+  "focused_retrieval": [
+    {
+      "method": "M13",
+      "query": "明确求助",
+      "path": "knowledge/books/B070.md",
+      "heading": "明确求助和表达困扰分别接住",
+      "query_matched": true,
+      "section_method_ids": [
+        "M11",
+        "M13"
+      ]
+    },
+    {
+      "method": "M02",
+      "query": "停顿",
+      "path": "knowledge/books/B070.md",
+      "heading": "留停顿不靠沉默逼出承诺",
+      "query_matched": true,
+      "section_method_ids": [
+        "M02",
+        "M18",
+        "M19"
+      ]
+    },
+    {
+      "method": "M17",
+      "query": "替代安排",
+      "path": "knowledge/books/B070.md",
+      "heading": "没有替代安排就先收住",
+      "query_matched": true,
+      "section_method_ids": [
+        "M17",
+        "M19",
+        "M23"
+      ]
+    },
+    {
+      "method": "M20",
+      "query": "译文错误",
+      "path": "knowledge/books/B070.md",
+      "heading": "译文错误回查对照而不继续放大",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "method": "M07",
+      "query": "共同假想",
+      "path": "knowledge/books/B070.md",
+      "heading": "共同假想须清楚可退出",
+      "query_matched": true,
+      "section_method_ids": [
+        "M07",
+        "M20",
+        "M23"
+      ]
+    },
+    {
+      "method": "M22",
+      "query": "冲突",
+      "path": "knowledge/books/B070.md",
+      "heading": "冲突可以拒绝也可以有限让步",
+      "query_matched": true,
+      "section_method_ids": [
+        "M20",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "method": "M04",
+      "query": "普通问题",
+      "path": "knowledge/books/B071.md",
+      "heading": "普通问题先回答再分享一点",
+      "query_matched": true,
+      "section_method_ids": [
+        "M04",
+        "M18",
+        "M20"
+      ]
+    },
+    {
+      "method": "M23",
+      "query": "技术性拒绝",
+      "path": "knowledge/books/B071.md",
+      "heading": "技术性拒绝不覆盖明确原话",
+      "query_matched": true,
+      "section_method_ids": [
+        "M17",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "method": "M18",
+      "query": "不知道",
+      "path": "knowledge/books/B071.md",
+      "heading": "不知道可以是完整回答",
+      "query_matched": true,
+      "section_method_ids": [
+        "M02",
+        "M18",
+        "M26"
+      ]
+    },
+    {
+      "method": "M16",
+      "query": "已经给出时间",
+      "path": "knowledge/books/B071.md",
+      "heading": "已经给出时间就协调安排",
+      "query_matched": true,
+      "section_method_ids": [
+        "M14",
+        "M15",
+        "M16",
+        "M22"
+      ]
+    },
+    {
+      "method": "M20",
+      "query": "忘记信息",
+      "path": "knowledge/books/B071.md",
+      "heading": "忘记信息诚实补核不演错拨",
+      "query_matched": true,
+      "section_method_ids": [
+        "M01",
+        "M20",
+        "M21"
+      ]
+    },
+    {
+      "method": "M11",
+      "query": "负面情绪",
+      "path": "knowledge/books/B071.md",
+      "heading": "负面情绪可以有现实原因",
+      "query_matched": true,
+      "section_method_ids": [
+        "M11",
+        "M22",
+        "M24"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "python scripts/validate_os.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 72
+    }
+  ],
+  "scope": "Structural, provenance and synthetic routing checks only; not proof of reading, screenshot understanding, psychological mechanisms or romantic outcomes."
+}

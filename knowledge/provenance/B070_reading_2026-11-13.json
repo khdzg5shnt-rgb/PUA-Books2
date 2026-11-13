@@ -1,0 +1,1598 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
+  "id": "B070",
+  "path": "杂耍人文集及语录 - 杂耍人.epub",
+  "bytes": 179838,
+  "git_blob_sha": "7955916cfcb1bcb2167b94cc8446c208bf2885e0",
+  "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "download_ref": "fb87e6768e9f6d4b9f47d9c2677b0b44df83eed5",
+  "download": "Read-only GitHub connector fetch_file base64; decoded byte count/Git blob/SHA-256 verified.",
+  "EPUB_rootfile": "OEBPS/content.opf",
+  "OPF_metadata": "<metadata xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:opf=\"http://www.idpf.org/2007/opf\" xmlns=\"http://www.idpf.org/2007/opf\">\n    <dc:creator opf:role=\"aut\">杂耍人文集及语录</dc:creator>\n    <dc:title>​杂耍人文集及语录</dc:title>\n    <dc:identifier id=\"BookId\" opf:scheme=\"UUID\">urn:uuid:0F385B68-E1FA-4DF6-A5DC-9A21807BB105</dc:identifier>\n    <meta content=\"1.0.0\" name=\"jianhelper\"/>\n    <dc:language>zh-CN</dc:language>\n    <dc:date xmlns:opf=\"http://www.idpf.org/2007/opf\" opf:event=\"modification\">2019-07-18</dc:date>\n  </metadata>\n  ",
+  "native_extraction": {
+    "engine": "lxml HTML body.itertext in OPF order",
+    "method": "strip nonempty text nodes, join with LF and append LF per nonempty unit; scripts/styles excluded",
+    "characters": 90439,
+    "marked_stream_characters": 91864,
+    "marked_stream_sha256": "769efc8e2b6e17004542204b0a183b4434aa607fbbaed132ab34bec5e7822cfd",
+    "native_not_OCR": true,
+    "coordinates": "Unicode codepoints; half-open per-unit ranges",
+    "initial_screening_count_preserved_separately": true
+  },
+  "native_body_characters_actually_read": 90439,
+  "OCR_run": false,
+  "actually_read_spine_blocks": [
+    {
+      "block": 1,
+      "spine_item": 1,
+      "range": [
+        0,
+        41
+      ],
+      "characters": 41,
+      "text_sha256": "e50d3f54b30220647e79784ca83e31fbe9e076c4d8767643d7da7aba966a3561",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 2,
+      "spine_item": 2,
+      "range": [
+        0,
+        811
+      ],
+      "characters": 811,
+      "text_sha256": "183e0a67473fffb510efa9e86f5bfd1c5e48e4039e270e5093949254b2d1ce52",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 3,
+      "spine_item": 3,
+      "range": [
+        0,
+        4208
+      ],
+      "characters": 4208,
+      "text_sha256": "d77043361c3c4e79b5100b0b007422478873f5f062ef699b8e7a68fbb1550c09",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 4,
+      "spine_item": 3,
+      "range": [
+        4208,
+        8393
+      ],
+      "characters": 4185,
+      "text_sha256": "bdfe84aab51f8746aca0f9a8b93e92d0b12902c4700ea487a3ac33327e2045ac",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 5,
+      "spine_item": 3,
+      "range": [
+        8393,
+        12608
+      ],
+      "characters": 4215,
+      "text_sha256": "0c54f34685a9bbf30cd90955bcea13160844fb2d939b3eaa235782990ca10a06",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 6,
+      "spine_item": 3,
+      "range": [
+        12608,
+        16830
+      ],
+      "characters": 4222,
+      "text_sha256": "f0d34de36dfe117f6bd749a29f155da6a4efcb1483b3eb35dde02ce67e0892bb",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 7,
+      "spine_item": 3,
+      "range": [
+        16830,
+        18894
+      ],
+      "characters": 2064,
+      "text_sha256": "36ecde961c3b345722abe45b3468ee67a9b2a57bb36f76b84f876bbd6438950f",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 8,
+      "spine_item": 4,
+      "range": [
+        0,
+        1819
+      ],
+      "characters": 1819,
+      "text_sha256": "f21448f1aef42b161e7d32754e34e3e36f0517437bb80b060d52412785ebf837",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 9,
+      "spine_item": 5,
+      "range": [
+        0,
+        992
+      ],
+      "characters": 992,
+      "text_sha256": "327371adb57106c064f67d082b7d22f933aaeb99983dda93d752a31774be34f1",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 10,
+      "spine_item": 6,
+      "range": [
+        0,
+        1771
+      ],
+      "characters": 1771,
+      "text_sha256": "cb15c4431ae310ccc9228e544e23f9551da379b3edd901f3807e79c746cb480c",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 11,
+      "spine_item": 7,
+      "range": [
+        0,
+        1099
+      ],
+      "characters": 1099,
+      "text_sha256": "c3ca2a9a23eb56bd85c73763fe6a1477077806452007874ffe2a52a5d6953be9",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 12,
+      "spine_item": 8,
+      "range": [
+        0,
+        1076
+      ],
+      "characters": 1076,
+      "text_sha256": "d59645108b3c3101fe57981ce79df631e9eb56c3e4268385dee291a7e81fee83",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 13,
+      "spine_item": 9,
+      "range": [
+        0,
+        1057
+      ],
+      "characters": 1057,
+      "text_sha256": "d5f669368c23038ba2deccd3f8d9c7d035cb8e94509a032c63e277b60f5be6c9",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 14,
+      "spine_item": 10,
+      "range": [
+        0,
+        1054
+      ],
+      "characters": 1054,
+      "text_sha256": "4751c6f10f4eec3da7821a9c4e1f4e15e5ded96b4e5b96e879e6e2f483f8c17e",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 15,
+      "spine_item": 11,
+      "range": [
+        0,
+        604
+      ],
+      "characters": 604,
+      "text_sha256": "18e016bf2a2480e30899942cd7e2ab51e1c1c12ee6485bccc5e488ac4fc3d7a3",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 16,
+      "spine_item": 12,
+      "range": [
+        0,
+        1636
+      ],
+      "characters": 1636,
+      "text_sha256": "ac807ff6b6891fb8697d6616bdb1b5290c26b943f3934f6bb69e4e95082f1d18",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 17,
+      "spine_item": 13,
+      "range": [
+        0,
+        2286
+      ],
+      "characters": 2286,
+      "text_sha256": "0a0ecd490094fb3d85f034762f3d7fb758bae59921daa50b19b48298dc0fbedf",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 18,
+      "spine_item": 14,
+      "range": [
+        0,
+        962
+      ],
+      "characters": 962,
+      "text_sha256": "63f928353a100175e7b45f09733c94de2a9cda2dd6a903e9569f75598bfb2bbe",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 19,
+      "spine_item": 15,
+      "range": [
+        0,
+        840
+      ],
+      "characters": 840,
+      "text_sha256": "40210010f68f07d935fb162a018ed307f1dd8af6d5f0d0749adffe179d7d0026",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 20,
+      "spine_item": 16,
+      "range": [
+        0,
+        1017
+      ],
+      "characters": 1017,
+      "text_sha256": "e4cf7cd7a7d8829b582aa69f6518bd0f23ee7aab7e7be75b87323dc7a034353b",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 21,
+      "spine_item": 17,
+      "range": [
+        0,
+        1134
+      ],
+      "characters": 1134,
+      "text_sha256": "785dea2f488b744adc6075b63b5224d10ddb61488a21e16353292ea2f58ea633",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 22,
+      "spine_item": 18,
+      "range": [
+        0,
+        767
+      ],
+      "characters": 767,
+      "text_sha256": "8c44bb28715e7ef352fabe337b8c66d2d4e3cf4c8998f85b1df72e304bd28e9c",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 23,
+      "spine_item": 19,
+      "range": [
+        0,
+        1402
+      ],
+      "characters": 1402,
+      "text_sha256": "c75f833e5108a2521e07252ab6e4830ccd8bf12647bdeaded36da1b022dbfbbd",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 24,
+      "spine_item": 20,
+      "range": [
+        0,
+        484
+      ],
+      "characters": 484,
+      "text_sha256": "2b2380ddc4fd4960433c83b336c736c84986aff6c0617078d05ca301c3530912",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 25,
+      "spine_item": 21,
+      "range": [
+        0,
+        746
+      ],
+      "characters": 746,
+      "text_sha256": "348161eaf85f34fad182b0dbde02e8d2e8fb4934b0636a2d59ae4d8267f3c6a1",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 26,
+      "spine_item": 22,
+      "range": [
+        0,
+        2213
+      ],
+      "characters": 2213,
+      "text_sha256": "61a4c7069d3ec5265e626f1b212c0f11ebdc874d0c0b7b39216ca3676ff04c80",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 27,
+      "spine_item": 23,
+      "range": [
+        0,
+        2062
+      ],
+      "characters": 2062,
+      "text_sha256": "fe48c328680e6f195bf10083b32523d7c9e68d837d19f7436afc27e7f05665cb",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 28,
+      "spine_item": 24,
+      "range": [
+        0,
+        596
+      ],
+      "characters": 596,
+      "text_sha256": "9f7b0de5742bd2c1395ed137c6db02094cac90d303019c09584f6d1df09ae7de",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 29,
+      "spine_item": 25,
+      "range": [
+        0,
+        1125
+      ],
+      "characters": 1125,
+      "text_sha256": "9cd77485288533999ded012fed4fef0645688c408083f36cef0ed0263ddac161",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 30,
+      "spine_item": 26,
+      "range": [
+        0,
+        1365
+      ],
+      "characters": 1365,
+      "text_sha256": "6863062a6fa464aa3f63b9740f8eac6c5bf2aa96045eff6370c64b1ab08e70f1",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 31,
+      "spine_item": 27,
+      "range": [
+        0,
+        1527
+      ],
+      "characters": 1527,
+      "text_sha256": "499b651ad61981de6670bedb24d8abff129a140e64a6d816863d5f7e2ea59a84",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 32,
+      "spine_item": 28,
+      "range": [
+        0,
+        4193
+      ],
+      "characters": 4193,
+      "text_sha256": "420e7ba915906df30a5e5536312388407ba7fbf91ea4035a9ee2341cf69c039e",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 33,
+      "spine_item": 28,
+      "range": [
+        4193,
+        5463
+      ],
+      "characters": 1270,
+      "text_sha256": "a255db65e5bd60aff5f0b0958e51c3fe4b5ebfc2f94eade498b75bcd71314519",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 34,
+      "spine_item": 29,
+      "range": [
+        0,
+        3212
+      ],
+      "characters": 3212,
+      "text_sha256": "f9f0ff2843aa85e4f90a532fed036e33674e23e04a26c6c93e0a91b67581aff0",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 35,
+      "spine_item": 30,
+      "range": [
+        0,
+        3990
+      ],
+      "characters": 3990,
+      "text_sha256": "2813538e2dc1721e88f83922f03346c3ae764626f8edf5dc5368db78b720d8ff",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 36,
+      "spine_item": 31,
+      "range": [
+        0,
+        762
+      ],
+      "characters": 762,
+      "text_sha256": "a2654e0f4a34b300720a7f331091a35e88426fc106d7380d322f857da5fccfbc",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 37,
+      "spine_item": 32,
+      "range": [
+        0,
+        1484
+      ],
+      "characters": 1484,
+      "text_sha256": "58cbb1ada6fd22c4f5e92eeb5ad88754868f218db9f767d59a98524aefcfec41",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 38,
+      "spine_item": 33,
+      "range": [
+        0,
+        2840
+      ],
+      "characters": 2840,
+      "text_sha256": "08965eaa01d6fc3959e82402ef1525a6b2b0c7e4f0cbb0d000356aafe80284b9",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 39,
+      "spine_item": 34,
+      "range": [
+        0,
+        1786
+      ],
+      "characters": 1786,
+      "text_sha256": "b38da1a5ed0257920310d9ecc0cb4d90897b0ba288b0a205299288c9a8001c66",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 40,
+      "spine_item": 35,
+      "range": [
+        0,
+        1536
+      ],
+      "characters": 1536,
+      "text_sha256": "7df3cd4b73c1ed182fddf19016a722a6d8b9e44e7be30f40147646b57656f113",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 41,
+      "spine_item": 36,
+      "range": [
+        0,
+        4208
+      ],
+      "characters": 4208,
+      "text_sha256": "9e71d39133e4b7c48d11f3bb99ee97fe6741a50a5e7817611bdb5b6bee57a1da",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 42,
+      "spine_item": 36,
+      "range": [
+        4208,
+        8350
+      ],
+      "characters": 4142,
+      "text_sha256": "a9b95541f0861b2fb7303c8793ec0ffc27168e83f9fc7a59f4cdea4317b554c8",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 43,
+      "spine_item": 36,
+      "range": [
+        8350,
+        12100
+      ],
+      "characters": 3750,
+      "text_sha256": "752191af5cc6b118ae871a8a2d14b8aecbed2d16712e831c55625554f99167b9",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 44,
+      "spine_item": 37,
+      "range": [
+        0,
+        2441
+      ],
+      "characters": 2441,
+      "text_sha256": "c112d368da60bcb3bc8aa3a98dd590b17df22b5b99dbb125274df96a7f54bcdf",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 45,
+      "spine_item": 38,
+      "range": [
+        0,
+        599
+      ],
+      "characters": 599,
+      "text_sha256": "0587e6c61c0522e7ef0d3800085b955a53b12148004810ccaacf87f4d94cea1b",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 46,
+      "spine_item": 39,
+      "range": [
+        0,
+        4233
+      ],
+      "characters": 4233,
+      "text_sha256": "af8e957fb9adaaf40e6eb0007d99a464cc08462720e57a8d7c934846129f9d07",
+      "actually_read": true,
+      "output_truncated": false
+    },
+    {
+      "block": 47,
+      "spine_item": 39,
+      "range": [
+        4233,
+        4846
+      ],
+      "characters": 613,
+      "text_sha256": "51a25ed65ff2e5cc1b6eea5d92c3e0ff882885a8859e87f1a2be1b946384d0c7",
+      "actually_read": true,
+      "output_truncated": false
+    }
+  ],
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "idref": "x1.html",
+      "href": "Text/1.html",
+      "path": "OEBPS/Text/1.html",
+      "characters": 41,
+      "sha256": "e50d3f54b30220647e79784ca83e31fbe9e076c4d8767643d7da7aba966a3561",
+      "headings": [
+        "杂耍人文集及语录"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        0,
+        76
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 2,
+      "idref": "x2.html",
+      "href": "Text/2.html",
+      "path": "OEBPS/Text/2.html",
+      "characters": 811,
+      "sha256": "183e0a67473fffb510efa9e86f5bfd1c5e48e4039e270e5093949254b2d1ce52",
+      "headings": [
+        "译者序"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        76,
+        922
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 3,
+      "idref": "x3.html",
+      "href": "Text/3.html",
+      "path": "OEBPS/Text/3.html",
+      "characters": 18894,
+      "sha256": "c81b3b01a7be07c1e7af5d2e5ef859492a4d44ca8ed7d662a5f703e5f3c4a73b",
+      "headings": [
+        "杂耍人语录"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        922,
+        19851
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 4,
+      "idref": "x4.html",
+      "href": "Text/4.html",
+      "path": "OEBPS/Text/4.html",
+      "characters": 1819,
+      "sha256": "f21448f1aef42b161e7d32754e34e3e36f0517437bb80b060d52412785ebf837",
+      "headings": [
+        "1. 如何讲故事"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        19851,
+        21705
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 5,
+      "idref": "x5.html",
+      "href": "Text/5.html",
+      "path": "OEBPS/Text/5.html",
+      "characters": 992,
+      "sha256": "327371adb57106c064f67d082b7d22f933aaeb99983dda93d752a31774be34f1",
+      "headings": [
+        "2. 连接会反过来找到你"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        21705,
+        22732
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 6,
+      "idref": "x6.html",
+      "href": "Text/6.html",
+      "path": "OEBPS/Text/6.html",
+      "characters": 1771,
+      "sha256": "cb15c4431ae310ccc9228e544e23f9551da379b3edd901f3807e79c746cb480c",
+      "headings": [
+        "3. 运用你的想象力来把妹"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        22732,
+        24538
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 7,
+      "idref": "x7.html",
+      "href": "Text/7.html",
+      "path": "OEBPS/Text/7.html",
+      "characters": 1099,
+      "sha256": "c3ca2a9a23eb56bd85c73763fe6a1477077806452007874ffe2a52a5d6953be9",
+      "headings": [
+        "4. 怎样交到女朋友"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        24538,
+        25672
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 8,
+      "idref": "x8.html",
+      "href": "Text/8.html",
+      "path": "OEBPS/Text/8.html",
+      "characters": 1076,
+      "sha256": "d59645108b3c3101fe57981ce79df631e9eb56c3e4268385dee291a7e81fee83",
+      "headings": [
+        "5. 相信自己能让女孩喜欢上你，这很重 要"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        25672,
+        26783
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 9,
+      "idref": "x9.html",
+      "href": "Text/9.html",
+      "path": "OEBPS/Text/9.html",
+      "characters": 1057,
+      "sha256": "d5f669368c23038ba2deccd3f8d9c7d035cb8e94509a032c63e277b60f5be6c9",
+      "headings": [
+        "6. 风险"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        26783,
+        27875
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 10,
+      "idref": "x10.html",
+      "href": "Text/10.html",
+      "path": "OEBPS/Text/10.html",
+      "characters": 1054,
+      "sha256": "4751c6f10f4eec3da7821a9c4e1f4e15e5ded96b4e5b96e879e6e2f483f8c17e",
+      "headings": [
+        "7. 为什么我喜欢晚餐约会"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        27875,
+        28966
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 11,
+      "idref": "x11.html",
+      "href": "Text/11.html",
+      "path": "OEBPS/Text/11.html",
+      "characters": 604,
+      "sha256": "18e016bf2a2480e30899942cd7e2ab51e1c1c12ee6485bccc5e488ac4fc3d7a3",
+      "headings": [
+        "8. 如何在圣诞礼物退还队伍中搭讪"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        28966,
+        29607
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 12,
+      "idref": "x12.html",
+      "href": "Text/12.html",
+      "path": "OEBPS/Text/12.html",
+      "characters": 1636,
+      "sha256": "ac807ff6b6891fb8697d6616bdb1b5290c26b943f3934f6bb69e4e95082f1d18",
+      "headings": [
+        "9. 如何认识Mac笔记本女孩"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        29607,
+        31280
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 13,
+      "idref": "x13.html",
+      "href": "Text/13.html",
+      "path": "OEBPS/Text/13.html",
+      "characters": 2286,
+      "sha256": "0a0ecd490094fb3d85f034762f3d7fb758bae59921daa50b19b48298dc0fbedf",
+      "headings": [
+        "10. 如何使用陈述让别人反过来跟你谈话"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        31280,
+        33603
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 14,
+      "idref": "x14.html",
+      "href": "Text/14.html",
+      "path": "OEBPS/Text/14.html",
+      "characters": 962,
+      "sha256": "63f928353a100175e7b45f09733c94de2a9cda2dd6a903e9569f75598bfb2bbe",
+      "headings": [
+        "11.对诱惑力的一些想法"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        33603,
+        34602
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 15,
+      "idref": "x15.html",
+      "href": "Text/15.html",
+      "path": "OEBPS/Text/15.html",
+      "characters": 840,
+      "sha256": "40210010f68f07d935fb162a018ed307f1dd8af6d5f0d0749adffe179d7d0026",
+      "headings": [
+        "12.如何在星巴克认识女孩"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        34602,
+        35479
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 16,
+      "idref": "x16.html",
+      "href": "Text/16.html",
+      "path": "OEBPS/Text/16.html",
+      "characters": 1017,
+      "sha256": "e4cf7cd7a7d8829b582aa69f6518bd0f23ee7aab7e7be75b87323dc7a034353b",
+      "headings": [
+        "13. 奇地偶思"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        35479,
+        36533
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 17,
+      "idref": "x17.html",
+      "href": "Text/17.html",
+      "path": "OEBPS/Text/17.html",
+      "characters": 1134,
+      "sha256": "785dea2f488b744adc6075b63b5224d10ddb61488a21e16353292ea2f58ea633",
+      "headings": [
+        "14. 疯狂、邪恶和危险"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        36533,
+        37704
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 18,
+      "idref": "x18.html",
+      "href": "Text/18.html",
+      "path": "OEBPS/Text/18.html",
+      "characters": 767,
+      "sha256": "8c44bb28715e7ef352fabe337b8c66d2d4e3cf4c8998f85b1df72e304bd28e9c",
+      "headings": [
+        "15. 聆听"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        37704,
+        38508
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 19,
+      "idref": "x19.html",
+      "href": "Text/19.html",
+      "path": "OEBPS/Text/19.html",
+      "characters": 1402,
+      "sha256": "c75f833e5108a2521e07252ab6e4830ccd8bf12647bdeaded36da1b022dbfbbd",
+      "headings": [
+        "16. 对如何使用《怎样认识和沟通女人》的一些指点"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        38508,
+        39947
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 20,
+      "idref": "x20.html",
+      "href": "Text/20.html",
+      "path": "OEBPS/Text/20.html",
+      "characters": 484,
+      "sha256": "2b2380ddc4fd4960433c83b336c736c84986aff6c0617078d05ca301c3530912",
+      "headings": [
+        "17. 展示你的价值"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        39947,
+        40468
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 21,
+      "idref": "x21.html",
+      "href": "Text/21.html",
+      "path": "OEBPS/Text/21.html",
+      "characters": 746,
+      "sha256": "348161eaf85f34fad182b0dbde02e8d2e8fb4934b0636a2d59ae4d8267f3c6a1",
+      "headings": [
+        "18. 好的对话陈述技巧（上）"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        40468,
+        41251
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 22,
+      "idref": "x22.html",
+      "href": "Text/22.html",
+      "path": "OEBPS/Text/22.html",
+      "characters": 2213,
+      "sha256": "61a4c7069d3ec5265e626f1b212c0f11ebdc874d0c0b7b39216ca3676ff04c80",
+      "headings": [
+        "19. 我推荐的书目"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        41251,
+        43501
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 23,
+      "idref": "x23.html",
+      "href": "Text/23.html",
+      "path": "OEBPS/Text/23.html",
+      "characters": 2062,
+      "sha256": "fe48c328680e6f195bf10083b32523d7c9e68d837d19f7436afc27e7f05665cb",
+      "headings": [
+        "20. 让你的话术保持激情但又真实的十大句型"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        43501,
+        45600
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 24,
+      "idref": "x24.html",
+      "href": "Text/24.html",
+      "path": "OEBPS/Text/24.html",
+      "characters": 596,
+      "sha256": "9f7b0de5742bd2c1395ed137c6db02094cac90d303019c09584f6d1df09ae7de",
+      "headings": [
+        "21. 你把陌生人当成潜在的朋友还是潜在的敌人"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        45600,
+        46233
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 25,
+      "idref": "x25.html",
+      "href": "Text/25.html",
+      "path": "OEBPS/Text/25.html",
+      "characters": 1125,
+      "sha256": "9cd77485288533999ded012fed4fef0645688c408083f36cef0ed0263ddac161",
+      "headings": [
+        "22. 人生有时须豪赌"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        46233,
+        47395
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 26,
+      "idref": "x26.html",
+      "href": "Text/26.html",
+      "path": "OEBPS/Text/26.html",
+      "characters": 1365,
+      "sha256": "6863062a6fa464aa3f63b9740f8eac6c5bf2aa96045eff6370c64b1ab08e70f1",
+      "headings": [
+        "23. 杂耍人方法荣获最像盗梦空间奖"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        47395,
+        48797
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 27,
+      "idref": "x27.html",
+      "href": "Text/27.html",
+      "path": "OEBPS/Text/27.html",
+      "characters": 1527,
+      "sha256": "499b651ad61981de6670bedb24d8abff129a140e64a6d816863d5f7e2ea59a84",
+      "headings": [
+        "24. 把别人钓进交谈中的秘密"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        48797,
+        50361
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 28,
+      "idref": "x28.html",
+      "href": "Text/28.html",
+      "path": "OEBPS/Text/28.html",
+      "characters": 5463,
+      "sha256": "2d10948f7064facbebdf46da6632ed279679aba5a01e26edd28d72a2716fc4dd",
+      "headings": [
+        "25. 如何避免变成冷搭怪人"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        50361,
+        55861
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 29,
+      "idref": "x29.html",
+      "href": "Text/29.html",
+      "path": "OEBPS/Text/29.html",
+      "characters": 3212,
+      "sha256": "f9f0ff2843aa85e4f90a532fed036e33674e23e04a26c6c93e0a91b67581aff0",
+      "headings": [
+        "26. 为什么你应该要易于购买――就像苹果专卖店那样"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        55861,
+        59110
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 30,
+      "idref": "x30.html",
+      "href": "Text/30.html",
+      "path": "OEBPS/Text/30.html",
+      "characters": 3990,
+      "sha256": "2813538e2dc1721e88f83922f03346c3ae764626f8edf5dc5368db78b720d8ff",
+      "headings": [
+        "27. 谈笑初步"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        59110,
+        63137
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 31,
+      "idref": "x31.html",
+      "href": "Text/31.html",
+      "path": "OEBPS/Text/31.html",
+      "characters": 762,
+      "sha256": "a2654e0f4a34b300720a7f331091a35e88426fc106d7380d322f857da5fccfbc",
+      "headings": [
+        "28. 超凡魅力艺术必备的16项技能"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        63137,
+        63936
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 32,
+      "idref": "x32.html",
+      "href": "Text/32.html",
+      "path": "OEBPS/Text/32.html",
+      "characters": 1484,
+      "sha256": "58cbb1ada6fd22c4f5e92eeb5ad88754868f218db9f767d59a98524aefcfec41",
+      "headings": [
+        "29. 如何让人喜欢你"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        63936,
+        65457
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 33,
+      "idref": "x33.html",
+      "href": "Text/33.html",
+      "path": "OEBPS/Text/33.html",
+      "characters": 2840,
+      "sha256": "08965eaa01d6fc3959e82402ef1525a6b2b0c7e4f0cbb0d000356aafe80284b9",
+      "headings": [
+        "30. 为什么你该告诉她你发现她很正"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        65457,
+        68334
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 34,
+      "idref": "x34.html",
+      "href": "Text/34.html",
+      "path": "OEBPS/Text/34.html",
+      "characters": 1786,
+      "sha256": "b38da1a5ed0257920310d9ecc0cb4d90897b0ba288b0a205299288c9a8001c66",
+      "headings": [
+        "31. 处理对峙局面（上）――有条件的同意"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        68334,
+        70157
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 35,
+      "idref": "x35.html",
+      "href": "Text/35.html",
+      "path": "OEBPS/Text/35.html",
+      "characters": 1536,
+      "sha256": "7df3cd4b73c1ed182fddf19016a722a6d8b9e44e7be30f40147646b57656f113",
+      "headings": [
+        "32. 芝士蛋糕测试"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        70157,
+        71730
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 36,
+      "idref": "x36.html",
+      "href": "Text/36.html",
+      "path": "OEBPS/Text/36.html",
+      "characters": 12100,
+      "sha256": "fe3bfc07c31d23505a25869cadf3b4f547ea9b876db3acfca2aeccc7f56d1213",
+      "headings": [
+        "33. 性感者说"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        71730,
+        83867
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 37,
+      "idref": "x37.html",
+      "href": "Text/37.html",
+      "path": "OEBPS/Text/37.html",
+      "characters": 2441,
+      "sha256": "c112d368da60bcb3bc8aa3a98dd590b17df22b5b99dbb125274df96a7f54bcdf",
+      "headings": [
+        "34. 弄清楚恋爱关系，否则就死路一条"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        83867,
+        86345
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 38,
+      "idref": "x38.html",
+      "href": "Text/38.html",
+      "path": "OEBPS/Text/38.html",
+      "characters": 599,
+      "sha256": "0587e6c61c0522e7ef0d3800085b955a53b12148004810ccaacf87f4d94cea1b",
+      "headings": [
+        "35. 制造私人的交谈――咖啡杯比喻的视频"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        86345,
+        86981
+      ],
+      "native_text_actually_read": true
+    },
+    {
+      "spine_item": 39,
+      "idref": "x39.html",
+      "href": "Text/39.html",
+      "path": "OEBPS/Text/39.html",
+      "characters": 4846,
+      "sha256": "f6dcc5e447799fe587b0162d14619d380c17266455e6bd92430eeb51d0b9b5d0",
+      "headings": [
+        "36. 个人翻新和《帝国之心》"
+      ],
+      "images": [],
+      "replacements": 0,
+      "stream_range": [
+        86981,
+        91864
+      ],
+      "native_text_actually_read": true
+    }
+  ],
+  "navigation": [
+    {
+      "label": "杂耍人文集及语录",
+      "src": [
+        "Text/1.html"
+      ]
+    },
+    {
+      "label": "译者序",
+      "src": [
+        "Text/2.html"
+      ]
+    },
+    {
+      "label": "杂耍人语录",
+      "src": [
+        "Text/3.html"
+      ]
+    },
+    {
+      "label": "1. 如何讲故事",
+      "src": [
+        "Text/4.html"
+      ]
+    },
+    {
+      "label": "2. 连接会反过来找到你",
+      "src": [
+        "Text/5.html"
+      ]
+    },
+    {
+      "label": "3. 运用你的想象力来把妹",
+      "src": [
+        "Text/6.html"
+      ]
+    },
+    {
+      "label": "4. 怎样交到女朋友",
+      "src": [
+        "Text/7.html"
+      ]
+    },
+    {
+      "label": "5. 相信自己能让女孩喜欢上你，这很重 要",
+      "src": [
+        "Text/8.html"
+      ]
+    },
+    {
+      "label": "6. 风险",
+      "src": [
+        "Text/9.html"
+      ]
+    },
+    {
+      "label": "7. 为什么我喜欢晚餐约会",
+      "src": [
+        "Text/10.html"
+      ]
+    },
+    {
+      "label": "8. 如何在圣诞礼物退还队伍中搭讪",
+      "src": [
+        "Text/11.html"
+      ]
+    },
+    {
+      "label": "9. 如何认识Mac笔记本女孩",
+      "src": [
+        "Text/12.html"
+      ]
+    },
+    {
+      "label": "10. 如何使用陈述让别人反过来跟你谈话",
+      "src": [
+        "Text/13.html"
+      ]
+    },
+    {
+      "label": "11.对诱惑力的一些想法",
+      "src": [
+        "Text/14.html"
+      ]
+    },
+    {
+      "label": "12.如何在星巴克认识女孩",
+      "src": [
+        "Text/15.html"
+      ]
+    },
+    {
+      "label": "13. 奇地偶思",
+      "src": [
+        "Text/16.html"
+      ]
+    },
+    {
+      "label": "14. 疯狂、邪恶和危险",
+      "src": [
+        "Text/17.html"
+      ]
+    },
+    {
+      "label": "15. 聆听",
+      "src": [
+        "Text/18.html"
+      ]
+    },
+    {
+      "label": "16. 对如何使用《怎样认识和沟通女人》的一些指点",
+      "src": [
+        "Text/19.html"
+      ]
+    },
+    {
+      "label": "17. 展示你的价值",
+      "src": [
+        "Text/20.html"
+      ]
+    },
+    {
+      "label": "18. 好的对话陈述技巧（上）",
+      "src": [
+        "Text/21.html"
+      ]
+    },
+    {
+      "label": "19. 我推荐的书目",
+      "src": [
+        "Text/22.html"
+      ]
+    },
+    {
+      "label": "20. 让你的话术保持激情但又真实的十大句型",
+      "src": [
+        "Text/23.html"
+      ]
+    },
+    {
+      "label": "21. 你把陌生人当成潜在的朋友还是潜在的敌人",
+      "src": [
+        "Text/24.html"
+      ]
+    },
+    {
+      "label": "22. 人生有时须豪赌",
+      "src": [
+        "Text/25.html"
+      ]
+    },
+    {
+      "label": "23. 杂耍人方法荣获最像盗梦空间奖",
+      "src": [
+        "Text/26.html"
+      ]
+    },
+    {
+      "label": "24. 把别人钓进交谈中的秘密",
+      "src": [
+        "Text/27.html"
+      ]
+    },
+    {
+      "label": "25. 如何避免变成冷搭怪人",
+      "src": [
+        "Text/28.html"
+      ]
+    },
+    {
+      "label": "26. 为什么你应该要易于购买――就像苹果专卖店那样",
+      "src": [
+        "Text/29.html"
+      ]
+    },
+    {
+      "label": "27. 谈笑初步",
+      "src": [
+        "Text/30.html"
+      ]
+    },
+    {
+      "label": "28. 超凡魅力艺术必备的16项技能",
+      "src": [
+        "Text/31.html"
+      ]
+    },
+    {
+      "label": "29. 如何让人喜欢你",
+      "src": [
+        "Text/32.html"
+      ]
+    },
+    {
+      "label": "30. 为什么你该告诉她你发现她很正",
+      "src": [
+        "Text/33.html"
+      ]
+    },
+    {
+      "label": "31. 处理对峙局面（上）――有条件的同意",
+      "src": [
+        "Text/34.html"
+      ]
+    },
+    {
+      "label": "32. 芝士蛋糕测试",
+      "src": [
+        "Text/35.html"
+      ]
+    },
+    {
+      "label": "33. 性感者说",
+      "src": [
+        "Text/36.html"
+      ]
+    },
+    {
+      "label": "34. 弄清楚恋爱关系，否则就死路一条",
+      "src": [
+        "Text/37.html"
+      ]
+    },
+    {
+      "label": "35. 制造私人的交谈――咖啡杯比喻的视频",
+      "src": [
+        "Text/38.html"
+      ]
+    },
+    {
+      "label": "36. 个人翻新和《帝国之心》",
+      "src": [
+        "Text/39.html"
+      ]
+    }
+  ],
+  "all_current_provided_content_read": true,
+  "all_extractable_body_text_read": true,
+  "all_original_words_individually_proofread": false,
+  "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
+  "source_scope": {
+    "spine_items": 39,
+    "substantive_spine_items": 39,
+    "all_spine_items_read_in_order": true,
+    "numbered_quotes": 334,
+    "numbered_articles": 36,
+    "included_comment_sections": [
+      27,
+      30
+    ],
+    "numbered_quotes_attributed_to_author_independently_verified": false,
+    "articles_plus_quotes_counted_as_separate_books": false,
+    "all_current_provided_content_read": true,
+    "native_output_unrecovered_truncations": [],
+    "manifest_image_audio_video_items": [],
+    "image_tags": [],
+    "spine_external_body_files": [],
+    "referenced_original_photos_logos_and_appendix_diagram_supplied": false,
+    "chapter35_video_supplied": false,
+    "chapter35_video_watched": false,
+    "chapter35_static_picture_supplied": false,
+    "replacement_characters": 0,
+    "literal_source_defects": [
+      "第1篇重复字形",
+      "第6篇标题重复",
+      "第10篇未完要点",
+      "评论中的单字残片",
+      "第32篇印刷页码残留",
+      "第33篇合并句与末尾分离标题",
+      "第36篇标题重复"
+    ],
+    "literal_source_defects_reconstructed_or_silently_repaired": false,
+    "original_publication_complete_verified": false,
+    "unprovided_material_counted_as_read": false,
+    "unprovided_material_blocks_next_book": false,
+    "known_unread_current_provided_content": [],
+    "author_claims_promoted_to_empirical_evidence": false
+  },
+  "version_comparison": {
+    "related_supplied_file": "B069",
+    "same_translation_overlap_observed": true,
+    "body_read_skipped_due_to_overlap": false,
+    "English_correction_source": "B069 same numbered articles, with exact physical page anchors in its notes",
+    "full_word_by_word_original_website_verification_claimed": false
+  },
+  "new_raw_text_images_private_transcriptions_or_anonymous_private_narratives_archived": false,
+  "note": "knowledge/books/B070.md",
+  "new_note_groups": 30,
+  "new_critical_method_source_bindings": 84,
+  "previous_book_checkpoint_saved_before_current_body_opened": true,
+  "next_work_unit_at_checkpoint": "B071",
+  "next_book_body_opened_at_checkpoint": false,
+  "scope_counts_at_checkpoint": {
+    "complete": 69,
+    "actual_supplied_files_read": 67,
+    "user_accepted_scope_closures": 2,
+    "partial": 0,
+    "unread": 50
+  },
+  "validation": "knowledge/provenance/B070_validation_2026-11-13.json"
+}

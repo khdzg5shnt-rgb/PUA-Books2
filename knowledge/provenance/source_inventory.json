@@ -13867,8 +13867,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%87%E9%9B%86%E5%8F%8A%E8%AF%AD%E5%BD%95%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B070.md",
       "pages": null,
       "spine_items": 39,
       "ocr": {
@@ -13876,7 +13876,22 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+      "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
+      "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read",
+      "source_sha256": "785b1331f2c66b37e6f148e327af9070ce58dd66d75e843906847ad41de54db4",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "native_characters": 90439,
+        "spine_items": 39,
+        "blocks": 47,
+        "quotes": 334,
+        "articles": 36,
+        "ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+        "all_current_provided_content_read": true,
+        "known_unread_current_content": []
+      }
     },
     {
       "index": 71,
@@ -13891,8 +13906,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E6%9D%82%E8%80%8D%E4%BA%BA%E6%96%B9%E6%B3%95%20-%20%E6%9D%82%E8%80%8D%E4%BA%BA.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B071.md",
       "pages": 79,
       "spine_items": null,
       "ocr": {
@@ -13900,7 +13915,23 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+      "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
+      "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read",
+      "source_sha256": "2532c81ac3a8b786d7e53ed21ed4d777b5317b091c0f5552093bce85b535d4f9",
+      "latest_reading": {
+        "date": "2026-11-13",
+        "native_characters": 96676,
+        "read_groups": 19,
+        "visual_pages": 79,
+        "individual_image_pages": 0,
+        "original_note_groups": 36,
+        "new_critical_method_source_bindings": 113,
+        "ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+        "all_current_provided_content_read": true,
+        "known_unread_current_content": []
+      }
     },
     {
       "index": 72,
@@ -15331,5 +15362,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-13: B069 supplied files read sequentially; 274960 native characters, 46 original note groups and 133 exact method-section bindings. 68/119 = 66 actually read supplied files plus B017/B039 scope closures; 51 unread. Next B070; body unopened at this checkpoint."
+  "latest_reading_update": "2026-11-13: B070_B071 supplied files read sequentially; 187115 native characters, 66 original note groups and 197 exact method-section bindings. 70/119 = 68 actually read supplied files plus B017/B039 scope closures; 49 unread. Next B074; body unopened at this checkpoint."
 }

@@ -802,18 +802,24 @@
       "group": "books2_original_snapshot",
       "title": "杂耍人文集及语录 - 杂耍人.epub",
       "git_blob_sha": "7955916cfcb1bcb2167b94cc8446c208bf2885e0",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B070.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B070_reading_2026-11-13.json",
+      "coverage_mode": "all39_supplied_text_units_read_no_embedded_images_video_or_appendix_diagram",
+      "completion_kind": "actual_supplied_EPUB_all39_spine_items_334_numbered_quotes_36_articles_and_comments_read"
     },
     {
       "id": "B071",
       "group": "books2_original_snapshot",
       "title": "杂耍人方法 - 杂耍人.pdf",
       "git_blob_sha": "017ed2d73820b4787452e0e99235e58b334cc0a0",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B071.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B071_reading_2026-11-13.json",
+      "coverage_mode": "all79_supplied_native_text_pages_read_and_original_layouts_reviewed_no_displayed_raster_images",
+      "completion_kind": "actual_supplied_PDF_all79_pages_front_matter_six_chapters_quotes_and_translator_comments_read"
     },
     {
       "id": "B072",
@@ -1650,24 +1656,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 68,
+    "current_book_files_text_complete": 70,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 51
+    "current_book_files_not_started": 49
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B070",
-    "path": "杂耍人文集及语录 - 杂耍人.epub",
-    "bytes": 179838,
-    "git_blob_sha": "7955916cfcb1bcb2167b94cc8446c208bf2885e0",
+    "id": "B074",
+    "path": "枪巫方法 - Gunwitch.pdf",
+    "bytes": 2269717,
+    "git_blob_sha": "91e7b14d55d0155eaf885380d3b98fb14adf512a",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_file_page": null,
-    "next_spine_item": 1,
+    "next_file_page": 1,
+    "next_spine_item": null,
     "next_character": 0,
-    "start": "B069当前提供内容、原创笔记和范围已保存；下一唯一主读B070。保存此断点时下一份正文未打开。",
-    "next_content_unit": "Read B070 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
+    "start": "B071当前提供内容、原创笔记和范围已保存；下一唯一主读B074。保存此断点时下一份正文未打开。",
+    "next_content_unit": "Read B074 in full next, starting with the first supplied unit. Save notes, scope and checkpoint before switching. Unprovided originals do not count as read or block the next supplied file."
   },
   "deferred_work_units": []
 }
