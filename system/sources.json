@@ -1340,9 +1340,17 @@
       "group": "books2_original_snapshot",
       "title": "自然流 - Gambler.epub",
       "git_blob_sha": "4b4a0cdcd30a1fd23d5187f8c1ae3643c889a0dd",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B104.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B104_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered13_spine_items_verified_by_two_HTML_parsers_and_whole_package_audit",
+      "completion_kind": "actual_supplied_EPUB_all13_spine_native_text_units_read_no_image_resources",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B105",
@@ -1882,24 +1890,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 97,
+    "current_book_files_text_complete": 98,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 22
+    "current_book_files_not_started": 21
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B104",
-    "path": "自然流 - Gambler.epub",
-    "bytes": 154234,
-    "git_blob_sha": "4b4a0cdcd30a1fd23d5187f8c1ae3643c889a0dd",
+    "id": "B105",
+    "path": "自然道作品集.pdf",
+    "bytes": 359181,
+    "git_blob_sha": "d510e32071b220aff11532c864cec3f50abcaace",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_spine_item": 1,
-    "next_spine_index": 0,
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B101先提交，随后B102当前21页15698原生字符及20种可见图像内容已读，节选、未完句、推广和二维码外链单列。40组批注及70处引用保存提交后，下一唯一主读B104自然流EPUB第1条目；B103已完成不重计，本断点B104正文未打开。",
-    "next_content_unit": "Read B104 EPUB from the first spine item only after B102 all21 native pages,all visible image content,critical notes and checkpoint have been committed. B103 is already completed and must not be recounted. Complete or scope-close each file before another;preserve explicit B100 duplicate reuse accounting."
+    "start": "B104当前13个spine条目88005字符已全部顺序读取，两种解析逐条一致，缺少原版图示与外部视频单列。62组批注、113处方法引用及断点先提交；下一唯一主读B105自然道作品集80页，从物理P1开始，本断点正文未打开。",
+    "next_content_unit": "Read B105 PDF from physical page1 after B104 all13 supplied EPUB spine units,exact scope,critical notes and checkpoint have been committed. Do not infer omitted original diagrams or external videos were read. Complete or scope-close each current file before another."
   },
   "deferred_work_units": []
 }

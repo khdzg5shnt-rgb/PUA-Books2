@@ -16170,8 +16170,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E6%B5%81%20-%20Gambler.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B104.md",
       "pages": null,
       "spine_items": 13,
       "ocr": {
@@ -16179,7 +16179,39 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B104_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered13_spine_items_verified_by_two_HTML_parsers_and_whole_package_audit",
+      "completion_kind": "actual_supplied_EPUB_all13_spine_native_text_units_read_no_image_resources",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "1f556e1cff73c9aac4e4391f7e6822eb06097c09d29e1adb8b62522e355bd6a2",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B104_reading_2026-11-14.json",
+        "native_characters": 88005,
+        "spine_items_read": 13,
+        "all13_spine_items_directly_read": true,
+        "independent_nonwhitespace_exact_spine_items": 13,
+        "strict_XML_mismatched_tag_units": 12,
+        "HTML_recovery_verified_without_replacing_source": true,
+        "OCR_run": false,
+        "visual_layouts_reviewed": [],
+        "images": 0,
+        "whole_container_body_resource_audit_passed": true,
+        "optional_browser_render_completed": false,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "第四章接近中多处指称姿势图，但当前zip、清单和正文没有图像资源，只提供图旁说明",
+          "书中多处指向附加视频、现场录像和其他课程，文件未提供，均未访问",
+          "当前为来源站转换的中文EPUB，未核对英文原版、译者版本或完整出版信息；末章简介以未闭引号结尾，按实存文字读取，不猜补"
+        ],
+        "original_note_groups": 62,
+        "new_exact_method_section_bindings": 113
+      }
     },
     {
       "index": 105,
@@ -16722,5 +16754,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B101committedbeforeB102.B102all21nativepages15698charactersandall20visibleimagepayloadsread;15layouts;independentnonwhitespaceall21exact;QRtargetnotopened.40originalnotes70exactbindings.Currentturn3tasks=B100explicitverifiedreuse+B101andB102newwholecurrentfilereads,80038newnativecharacters106notes171bindings.97/119=90currentcoveragesincludingB100reuse+7closures.NextB104firstspineunopened;B103alreadycompleted.Runtime1.5.3preserved."
+  "latest_reading_update": "2026-11-14:B104all13EPUBspineunits88005nativecharactersreadinorder;all13nonwhitespaceexactbetweentwoHTMLparsers;wholepackageauditfindsnoimagesoradditionalbodyunits;12strictXMLtagmismatchesrecoverablyparsed;noOCRorvisualrendercredit.62originalnotes113exactbindings.Newturn1wholefileread;98/119=91currentcoveragesincludinghistoricalB100reuse+7closures.NextB105P1bodyunopened.Runtime1.5.3preserved."
 }

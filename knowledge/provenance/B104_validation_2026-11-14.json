@@ -1,0 +1,608 @@
+{
+  "status": "passed",
+  "validate_os": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 98,
+    "book_not_started": 21,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unit_tests_passed": 119,
+  "focused_reading_and_retrieval_checks": {
+    "status": "passed",
+    "new_exact_method_section_retrieval_checks": [
+      {
+        "method": "M08",
+        "heading": "B104-03 结果保证和百分比不是验证记录",
+        "line": 31
+      },
+      {
+        "method": "M21",
+        "heading": "B104-03 结果保证和百分比不是验证记录",
+        "line": 31
+      },
+      {
+        "method": "M01",
+        "heading": "B104-04 个人成长叙事不证明某个技巧造成结果",
+        "line": 39
+      },
+      {
+        "method": "M08",
+        "heading": "B104-04 个人成长叙事不证明某个技巧造成结果",
+        "line": 39
+      },
+      {
+        "method": "M25",
+        "heading": "B104-05 练习目标可由自己决定，不以号码或性结果考核",
+        "line": 47
+      },
+      {
+        "method": "M26",
+        "heading": "B104-05 练习目标可由自己决定，不以号码或性结果考核",
+        "line": 47
+      },
+      {
+        "method": "M22",
+        "heading": "B104-06 成年人和双方意愿不是吸引力技巧",
+        "line": 55
+      },
+      {
+        "method": "M23",
+        "heading": "B104-06 成年人和双方意愿不是吸引力技巧",
+        "line": 55
+      },
+      {
+        "method": "M08",
+        "heading": "B104-07 群落等级叙事不用于给个人定价值",
+        "line": 63
+      },
+      {
+        "method": "M22",
+        "heading": "B104-07 群落等级叙事不用于给个人定价值",
+        "line": 63
+      },
+      {
+        "method": "M20",
+        "heading": "B104-08 确信的语气不等于事实正确或获得授权",
+        "line": 71
+      },
+      {
+        "method": "M22",
+        "heading": "B104-08 确信的语气不等于事实正确或获得授权",
+        "line": 71
+      },
+      {
+        "method": "M08",
+        "heading": "B104-10 肢体语言要先考虑环境和个人差异",
+        "line": 87
+      },
+      {
+        "method": "M20",
+        "heading": "B104-10 肢体语言要先考虑环境和个人差异",
+        "line": 87
+      },
+      {
+        "method": "M22",
+        "heading": "B104-11 自然姿态不以占据他人空间证明地位",
+        "line": 95
+      },
+      {
+        "method": "M23",
+        "heading": "B104-11 自然姿态不以占据他人空间证明地位",
+        "line": 95
+      },
+      {
+        "method": "M14",
+        "heading": "B104-12 清楚提议与最终确认分开",
+        "line": 103
+      },
+      {
+        "method": "M15",
+        "heading": "B104-12 清楚提议与最终确认分开",
+        "line": 103
+      },
+      {
+        "method": "M21",
+        "heading": "B104-13 紧张或没接住不自动成为个人过错",
+        "line": 111
+      },
+      {
+        "method": "M22",
+        "heading": "B104-13 紧张或没接住不自动成为个人过错",
+        "line": 111
+      },
+      {
+        "method": "M10",
+        "heading": "B104-14 形象表达服务真实生活和预算",
+        "line": 119
+      },
+      {
+        "method": "M22",
+        "heading": "B104-14 形象表达服务真实生活和预算",
+        "line": 119
+      },
+      {
+        "method": "M01",
+        "heading": "B104-15 三角色是书内框架，不另建三套判断",
+        "line": 127
+      },
+      {
+        "method": "M26",
+        "heading": "B104-15 三角色是书内框架，不另建三套判断",
+        "line": 127
+      },
+      {
+        "method": "M11",
+        "heading": "B104-16 关心和求助不能被积极话题覆盖",
+        "line": 135
+      },
+      {
+        "method": "M13",
+        "heading": "B104-16 关心和求助不能被积极话题覆盖",
+        "line": 135
+      },
+      {
+        "method": "M04",
+        "heading": "B104-17 自我披露可以适量而真实",
+        "line": 143
+      },
+      {
+        "method": "M10",
+        "heading": "B104-17 自我披露可以适量而真实",
+        "line": 143
+      },
+      {
+        "method": "M08",
+        "heading": "B104-18 目光、微笑和提问不单独确认兴趣",
+        "line": 151
+      },
+      {
+        "method": "M18",
+        "heading": "B104-18 目光、微笑和提问不单独确认兴趣",
+        "line": 151
+      },
+      {
+        "method": "M08",
+        "heading": "B104-19 引出反应不等于取得真实意愿",
+        "line": 159
+      },
+      {
+        "method": "M23",
+        "heading": "B104-19 引出反应不等于取得真实意愿",
+        "line": 159
+      },
+      {
+        "method": "M22",
+        "heading": "B104-20 群体交流不把朋友当障碍或工具",
+        "line": 167
+      },
+      {
+        "method": "M25",
+        "heading": "B104-20 群体交流不把朋友当障碍或工具",
+        "line": 167
+      },
+      {
+        "method": "M05",
+        "heading": "B104-21 真实共同活动比制造社交证明更可用",
+        "line": 175
+      },
+      {
+        "method": "M10",
+        "heading": "B104-21 真实共同活动比制造社交证明更可用",
+        "line": 175
+      },
+      {
+        "method": "M25",
+        "heading": "B104-22 招呼后等待对方有空承接",
+        "line": 183
+      },
+      {
+        "method": "M23",
+        "heading": "B104-22 招呼后等待对方有空承接",
+        "line": 183
+      },
+      {
+        "method": "M03",
+        "heading": "B104-23 过渡要接实际回应",
+        "line": 191
+      },
+      {
+        "method": "M05",
+        "heading": "B104-23 过渡要接实际回应",
+        "line": 191
+      },
+      {
+        "method": "M03",
+        "heading": "B104-24 情景开场取可核细节",
+        "line": 199
+      },
+      {
+        "method": "M25",
+        "heading": "B104-24 情景开场取可核细节",
+        "line": 199
+      },
+      {
+        "method": "M10",
+        "heading": "B104-25 借口、假身份与虚假预选不因结果而合理",
+        "line": 207
+      },
+      {
+        "method": "M22",
+        "heading": "B104-25 借口、假身份与虚假预选不因结果而合理",
+        "line": 207
+      },
+      {
+        "method": "M07",
+        "heading": "B104-26 角色玩笑不自行赋予关系或亲密权限",
+        "line": 215
+      },
+      {
+        "method": "M23",
+        "heading": "B104-26 角色玩笑不自行赋予关系或亲密权限",
+        "line": 215
+      },
+      {
+        "method": "M09",
+        "heading": "B104-27 具体欣赏不附带索取",
+        "line": 223
+      },
+      {
+        "method": "M22",
+        "heading": "B104-27 具体欣赏不附带索取",
+        "line": 223
+      },
+      {
+        "method": "M06",
+        "heading": "B104-28 轻量幽默不以羞辱制造高低位",
+        "line": 231
+      },
+      {
+        "method": "M22",
+        "heading": "B104-28 轻量幽默不以羞辱制造高低位",
+        "line": 231
+      },
+      {
+        "method": "M03",
+        "heading": "B104-29 避免盘问不等于拒绝正常问题",
+        "line": 239
+      },
+      {
+        "method": "M04",
+        "heading": "B104-29 避免盘问不等于拒绝正常问题",
+        "line": 239
+      },
+      {
+        "method": "M04",
+        "heading": "B104-30 九成陈述一成提问不是聊天配方",
+        "line": 247
+      },
+      {
+        "method": "M26",
+        "heading": "B104-30 九成陈述一成提问不是聊天配方",
+        "line": 247
+      },
+      {
+        "method": "M03",
+        "heading": "B104-31 接信息时别抢走主内容",
+        "line": 255
+      },
+      {
+        "method": "M04",
+        "heading": "B104-31 接信息时别抢走主内容",
+        "line": 255
+      },
+      {
+        "method": "M08",
+        "heading": "B104-32 猜测与冷读保持可纠正",
+        "line": 263
+      },
+      {
+        "method": "M20",
+        "heading": "B104-32 猜测与冷读保持可纠正",
+        "line": 263
+      },
+      {
+        "method": "M03",
+        "heading": "B104-33 欣赏爱好不需要假装懂或贬低别人",
+        "line": 271
+      },
+      {
+        "method": "M09",
+        "heading": "B104-33 欣赏爱好不需要假装懂或贬低别人",
+        "line": 271
+      },
+      {
+        "method": "M05",
+        "heading": "B104-34 共同兴趣不靠全盘附和",
+        "line": 279
+      },
+      {
+        "method": "M20",
+        "heading": "B104-34 共同兴趣不靠全盘附和",
+        "line": 279
+      },
+      {
+        "method": "M22",
+        "heading": "B104-35 双向筛选不用审查式挑战",
+        "line": 287
+      },
+      {
+        "method": "M11",
+        "heading": "B104-36 深聊不是采集隐私来制造依赖",
+        "line": 295
+      },
+      {
+        "method": "M22",
+        "heading": "B104-36 深聊不是采集隐私来制造依赖",
+        "line": 295
+      },
+      {
+        "method": "M15",
+        "heading": "B104-37 一对一交流与排除选择空间分开",
+        "line": 303
+      },
+      {
+        "method": "M22",
+        "heading": "B104-37 一对一交流与排除选择空间分开",
+        "line": 303
+      },
+      {
+        "method": "M22",
+        "heading": "B104-38 接触不是固定升级阶梯",
+        "line": 311
+      },
+      {
+        "method": "M23",
+        "heading": "B104-38 接触不是固定升级阶梯",
+        "line": 311
+      },
+      {
+        "method": "M23",
+        "heading": "B104-39 不能利用速度、分心或假借检查绕过反应",
+        "line": 319
+      },
+      {
+        "method": "M11",
+        "heading": "B104-40 安慰方式不能默认身体接触更有效",
+        "line": 327
+      },
+      {
+        "method": "M23",
+        "heading": "B104-40 安慰方式不能默认身体接触更有效",
+        "line": 327
+      },
+      {
+        "method": "M22",
+        "heading": "B104-41 私人录音和聊天不当公共素材",
+        "line": 335
+      },
+      {
+        "method": "M22",
+        "heading": "B104-42 联系方式只在知情愿意时交换",
+        "line": 343
+      },
+      {
+        "method": "M25",
+        "heading": "B104-42 联系方式只在知情愿意时交换",
+        "line": 343
+      },
+      {
+        "method": "M14",
+        "heading": "B104-43 得到号码与落实见面分开",
+        "line": 351
+      },
+      {
+        "method": "M15",
+        "heading": "B104-43 得到号码与落实见面分开",
+        "line": 351
+      },
+      {
+        "method": "M14",
+        "heading": "B104-44 邀请基于真实空闲和活动",
+        "line": 359
+      },
+      {
+        "method": "M15",
+        "heading": "B104-44 邀请基于真实空闲和活动",
+        "line": 359
+      },
+      {
+        "method": "M15",
+        "heading": "B104-45 有人同行不自动说明人品或兴趣",
+        "line": 367
+      },
+      {
+        "method": "M22",
+        "heading": "B104-45 有人同行不自动说明人品或兴趣",
+        "line": 367
+      },
+      {
+        "method": "M15",
+        "heading": "B104-46 目的地与转场要明说",
+        "line": 375
+      },
+      {
+        "method": "M23",
+        "heading": "B104-46 目的地与转场要明说",
+        "line": 375
+      },
+      {
+        "method": "M20",
+        "heading": "B104-47 口头拒绝不能被身体或作者猜测覆盖",
+        "line": 383
+      },
+      {
+        "method": "M23",
+        "heading": "B104-47 口头拒绝不能被身体或作者猜测覆盖",
+        "line": 383
+      },
+      {
+        "method": "M22",
+        "heading": "B104-48 任何阶段都存在改变主意的空间",
+        "line": 391
+      },
+      {
+        "method": "M23",
+        "heading": "B104-48 任何阶段都存在改变主意的空间",
+        "line": 391
+      },
+      {
+        "method": "M22",
+        "heading": "B104-49 用户不喜欢某种相处也可以停止",
+        "line": 399
+      },
+      {
+        "method": "M23",
+        "heading": "B104-49 用户不喜欢某种相处也可以停止",
+        "line": 399
+      },
+      {
+        "method": "M08",
+        "heading": "B104-51 白天夜晚或场所不决定一个人的品质",
+        "line": 415
+      },
+      {
+        "method": "M25",
+        "heading": "B104-51 白天夜晚或场所不决定一个人的品质",
+        "line": 415
+      },
+      {
+        "method": "M18",
+        "heading": "B104-52 忙碌状态先按实际任务理解",
+        "line": 423
+      },
+      {
+        "method": "M23",
+        "heading": "B104-52 忙碌状态先按实际任务理解",
+        "line": 423
+      },
+      {
+        "method": "M05",
+        "heading": "B104-53 回扣认识情境比凭空制造熟悉更清楚",
+        "line": 431
+      },
+      {
+        "method": "M25",
+        "heading": "B104-53 回扣认识情境比凭空制造熟悉更清楚",
+        "line": 431
+      },
+      {
+        "method": "M04",
+        "heading": "B104-54 短而完整，不等于故意漏答",
+        "line": 439
+      },
+      {
+        "method": "M18",
+        "heading": "B104-54 短而完整，不等于故意漏答",
+        "line": 439
+      },
+      {
+        "method": "M26",
+        "heading": "B104-54 短而完整，不等于故意漏答",
+        "line": 439
+      },
+      {
+        "method": "M02",
+        "heading": "B104-55 发送后回到生活，不执行固定冷落日程",
+        "line": 447
+      },
+      {
+        "method": "M19",
+        "heading": "B104-55 发送后回到生活，不执行固定冷落日程",
+        "line": 447
+      },
+      {
+        "method": "M15",
+        "heading": "B104-56 电话按双方方便，不争谁先挂断",
+        "line": 455
+      },
+      {
+        "method": "M22",
+        "heading": "B104-56 电话按双方方便，不争谁先挂断",
+        "line": 455
+      },
+      {
+        "method": "M16",
+        "heading": "B104-57 没有替代安排时不靠持续试探逼出答应",
+        "line": 463
+      },
+      {
+        "method": "M17",
+        "heading": "B104-57 没有替代安排时不靠持续试探逼出答应",
+        "line": 463
+      },
+      {
+        "method": "M19",
+        "heading": "B104-57 没有替代安排时不靠持续试探逼出答应",
+        "line": 463
+      },
+      {
+        "method": "M10",
+        "heading": "B104-58 资料展示真实能力，不借他人物品暗示身份",
+        "line": 471
+      },
+      {
+        "method": "M22",
+        "heading": "B104-58 资料展示真实能力，不借他人物品暗示身份",
+        "line": 471
+      },
+      {
+        "method": "M22",
+        "heading": "B104-59 有伴侣的表达不当测试来绕过",
+        "line": 479
+      },
+      {
+        "method": "M23",
+        "heading": "B104-59 有伴侣的表达不当测试来绕过",
+        "line": 479
+      },
+      {
+        "method": "M22",
+        "heading": "B104-60 朋友之间可真实介绍，不冒名或绕过入场资格",
+        "line": 487
+      },
+      {
+        "method": "M25",
+        "heading": "B104-60 朋友之间可真实介绍，不冒名或绕过入场资格",
+        "line": 487
+      },
+      {
+        "method": "M01",
+        "heading": "B104-62 读完后只选一项当前需要的动作",
+        "line": 503
+      },
+      {
+        "method": "M26",
+        "heading": "B104-62 读完后只选一项当前需要的动作",
+        "line": 503
+      }
+    ],
+    "unbound_global_version_heading_queries": [
+      "B104-01 文件身份与作者归属按实际层次记录",
+      "B104-02 当前提供内容与原版缺项分开",
+      "B104-09 信念与状态练习没有完成心理机制核验",
+      "B104-50 性健康段落不作为已核医疗指南",
+      "B104-61 引文、影视榜样和外部课程未完成独立核验"
+    ],
+    "all62_note_groups_covered_by_appropriate_retrieval": true,
+    "method_actions_preferred_routes_tasks_runtime1_5_3_and_AGENTS_unchanged": true,
+    "all_other_sources_old_notes_and_prior_ledgers_unchanged": true,
+    "original_source_hashes_and_initial_screening_counts_unchanged": true,
+    "reading_and_maintenance_history_preserved": true,
+    "all13_native_spine_hashes_ranges_and_independent_nonwhitespace_matches_checked": true,
+    "entire_zip_manifest_body_and_ancillary_resource_hashes_checked": true,
+    "strict_XML_mismatch_recovery_and_absent_original_diagrams_explicit": true,
+    "no_browser_or_screenshot_validation_credit": true,
+    "source_unprovided_original_and_external_resources_retained": true,
+    "prior_turn_reading_not_recounted": true,
+    "new_method_source_bindings": 113,
+    "new_private_case_or_script_files": 0
+  },
+  "scope": "Source identity,actual reading ranges,metadata and synthetic routing checks do not establish relationship effects or source psychology claims."
+}

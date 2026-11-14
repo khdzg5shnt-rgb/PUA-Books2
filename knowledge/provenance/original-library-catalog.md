@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成97/119份任务，无部分处理文件、22份未开始。90份当前提供内容已覆盖（含B100明确的已读同文核对复用），7份依用户授权结束并保留缺口。本轮依次提交B100版本核对、B101的84页全文，再读完B102当前21页文字与可见图像；新增106组笔记、171处引用。新全文为B101与B102，B100共同正文不重计。下一唯一主读B104第1个EPUB条目，正文未打开；B103已完成不重计。[本轮记录](B102_progress_2026-11-14.md)。
+当前完成98/119份任务，无部分处理文件、21份未开始。91份当前提供内容已覆盖（含历史B100明确同文复用），7份依用户授权结束并保留缺口。本轮B104自然流EPUB的13个条目88005字符全部顺序读完，两种HTML解析逐条去空白一致；原版缺图和外部视频单列。新增62组批注、113处引用。下一唯一主读B105物理P1，正文未打开。[本轮记录](B104_progress_2026-11-14.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -116,7 +116,7 @@
 | B101 | [约会密码 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A6%E4%BC%9A%E5%AF%86%E7%A0%81%20-%20%E6%B5%B7%E5%85%B5.pdf) | 84 | 当前84页64340原生字符及8种图片全部已读；独立正文校核一致，页脚提取差异单列；署名差异及待续缺文保留 | [56组批注](../books/B101.md) |
 | B102 | [绝密话术 - 浪迹团队.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BB%9D%E5%AF%86%E8%AF%9D%E6%9C%AF%20-%20%E6%B5%AA%E8%BF%B9%E5%9B%A2%E9%98%9F.pdf) | 21 | 当前21页15698原生字符、20种可见图像内容已读；两种提取去空白逐页一致；推广、节选、未完句与二维码目标未提供单列 | [40组批注](../books/B102.md) |
 | B103 | [聊天话术终极指南 - 浪迹团队.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%81%8A%E5%A4%A9%E8%AF%9D%E6%9C%AF%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97%20-%20%E6%B5%AA%E8%BF%B9%E5%9B%A2%E9%98%9F.pdf) | 21 | 正文读完 | [精读](../books/B103.md) |
-| B104 | [自然流 - Gambler.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E6%B5%81%20-%20Gambler.epub) | 13 | 已提取/未读 | — |
+| B104 | [自然流 - Gambler.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E6%B5%81%20-%20Gambler.epub) | EPUB13条目 | 当前88005字符全部已读，两种解析逐条一致；原版姿势图和外部视频未提供单列 | [62组批注](../books/B104.md) |
 | B105 | [自然道作品集.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E9%81%93%E4%BD%9C%E5%93%81%E9%9B%86.pdf) | 80 | 已提取/未读 | — |
 | B106 | [蓝图解码 - Real Social Dynamics.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%93%9D%E5%9B%BE%E8%A7%A3%E7%A0%81%20-%20Real%20Social%20Dynamics.pdf) | 98 | 已提取/未读 | — |
 | B107 | [言情恋爱话术惯例 - 乌鸦救赎.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%A8%80%E6%83%85%E6%81%8B%E7%88%B1%E8%AF%9D%E6%9C%AF%E6%83%AF%E4%BE%8B%20-%20%E4%B9%8C%E9%B8%A6%E6%95%91%E8%B5%8E.pdf) | 105 | 已提取/未读 | — |
