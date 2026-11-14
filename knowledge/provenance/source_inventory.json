@@ -16626,8 +16626,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%B1%E6%83%91%E8%89%BA%E6%9C%AF%20-%20%E8%B0%9C%E7%94%B7.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B110.md",
       "pages": 170,
       "spine_items": null,
       "ocr": {
@@ -16635,7 +16635,54 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B110_reading_2026-11-15.json",
+      "coverage_mode": "direct_ordered_native_PDF_text_with_full_container_geometry_audit_and_selected_original_layout_review",
+      "completion_kind": "actual_supplied_PDF_all170_native_pages_read_with_pagination_adjusted_comparison_and_selected_original_layouts",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "8b45a6c8df506fe8b72139a0432b24eaf0a7bb5f6bbfc42fd8691beffc4f30f7",
+      "latest_reading": {
+        "date": "2026-11-15",
+        "ledger": "knowledge/provenance/B110_reading_2026-11-15.json",
+        "native_characters": 141640,
+        "native_pages_read": 170,
+        "OCR_run": false,
+        "visual_layout_pages": [
+          1,
+          2,
+          3,
+          31,
+          34,
+          87,
+          105,
+          119,
+          169,
+          170
+        ],
+        "layout_overview_pages": 170,
+        "raster_images": 0,
+        "strict_nonwhitespace_exact_pages": 4,
+        "strict_nonwhitespace_exact_pages_after_exact_fixed_footer_removal": 167,
+        "reviewed_nonfooter_extractor_difference_pages": [
+          34,
+          105,
+          169
+        ],
+        "all_nonwhitespace_character_multisets_equal": true,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "未与英文原著或正式出版物校勘，作者、译者、出版社等文件内署名仅作当前文件信息",
+          "作者已声明合成人物并改动辨识特征及时间顺序，人物叙事与自报成功率不认证为纪实或因果效果",
+          "推广提到的外部站点、免费多媒体、视频和课程未打开、注册、购买或随本PDF读取",
+          "文中历史、演化、心理、物理、产品及剂量断言未作外部研究与安全核验，不转成事实或使用建议"
+        ],
+        "original_note_groups": 55,
+        "new_exact_method_section_bindings": 252
+      }
     },
     {
       "index": 111,
@@ -17032,5 +17079,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B109 all20 EPUB spine items completed (19 nonblank,1 blank final HTML),305635 native extracted characters directly read in47 sequential ranges;20 exact independent parser units and20 strict XML valid;no images/OCR;46 notes,157 exact references;103/119=96 current coverages including B100 reuse+7 retained closures;next B110 physical P1 body unopened. Source conversion artifacts and original-edition limits retained."
+  "latest_reading_update": "2026-11-15:B110 all170 physical pages directly read,141640 native extracted characters,17 ordered batches;4 raw strict exact pages,167 pagination-adjusted strict exact pages and3 original layouts additionally reviewed;no raster images/OCR;55 notes,252 exact references;104/119=97 current coverages including B100 reuse+7 retained closures;next B111 physical P1 body unopened."
 }

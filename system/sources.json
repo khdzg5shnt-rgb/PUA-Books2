@@ -1443,9 +1443,17 @@
       "group": "books2_original_snapshot",
       "title": "诱惑艺术 - 谜男.pdf",
       "git_blob_sha": "e92f34e0b8fd85f33e7b22e15aadc048eaeb919c",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B110.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B110_reading_2026-11-15.json",
+      "coverage_mode": "direct_ordered_native_PDF_text_with_full_container_geometry_audit_and_selected_original_layout_review",
+      "completion_kind": "actual_supplied_PDF_all170_native_pages_read_with_pagination_adjusted_comparison_and_selected_original_layouts",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B111",
@@ -1931,23 +1939,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 103,
+    "current_book_files_text_complete": 104,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 16
+    "current_book_files_not_started": 15
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B110",
-    "path": "诱惑艺术 - 谜男.pdf",
-    "bytes": 1870835,
-    "git_blob_sha": "e92f34e0b8fd85f33e7b22e15aadc048eaeb919c",
+    "id": "B111",
+    "path": "谜男启示录 - 谜男.pdf",
+    "bytes": 2295816,
+    "git_blob_sha": "13d5b8ce446a53320a298610841001f7d7a75724",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B109当前20个spine项目全部处理完毕，含1个空白末项；46组笔记、157处引用先保存提交。下一唯一主读B110《诱惑艺术 - 谜男.pdf》，170物理页，从P1开始，正文未打开。",
-    "next_content_unit": "Read B110 PDF from physical page1 character0 only after B109 current-file native text, notes, scope and checkpoint are committed; body unopened."
+    "start": "B110当前170物理页读完；55组笔记、252处引用先保存提交。下一唯一主读B111《谜男启示录 - 谜男.pdf》，185物理页，从P1字符0开始，正文未打开。",
+    "next_content_unit": "Read B111 PDF from physical page1 character0 only after B110 current-file text, notes, scope and checkpoint are committed; body unopened."
   },
   "deferred_work_units": []
 }
