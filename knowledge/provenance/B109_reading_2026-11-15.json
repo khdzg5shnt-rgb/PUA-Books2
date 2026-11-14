@@ -1,0 +1,4453 @@
+{
+  "schema_version": 1,
+  "file_id": "B109",
+  "date": "2026-11-15",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "a0b09f02e249d8cad565cd4188ccce764174d934",
+  "source_identity": {
+    "path": "诱惑的艺术 - 罗伯特·格林.epub",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%B1%E6%83%91%E7%9A%84%E8%89%BA%E6%9C%AF%20-%20%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E6%A0%BC%E6%9E%97.epub",
+    "git_blob_sha": "23cd47fc047c65846f466400461af371f926e50e",
+    "bytes": 432201
+  },
+  "source_sha256": "875ac4953c4846d211dfc8c6559c7e3292d3deb1407fbad9951718c24606bd6f",
+  "completion_kind": "actual_supplied_EPUB_all20_spine_native_text_units_read_with_blank_final_item_no_images",
+  "all_current_file_content_read": true,
+  "all_supplied_native_text_read": true,
+  "actual_native_characters_read": 305635,
+  "spine_items": 20,
+  "nonblank_native_text_units": 19,
+  "blank_spine_items": [
+    20
+  ],
+  "reading_mode": "direct_ordered_native_EPUB_spine_text_with_independent_HTML_parsers_and_whole_container_audit",
+  "OCR_run": false,
+  "PDF_physical_pages": null,
+  "browser_layout_preview_run": false,
+  "reading_batches_in_actual_order": [
+    {
+      "spine_item": 1,
+      "start": 0,
+      "end": 16,
+      "characters": 16,
+      "sha256": "ab2ada407807adc42e81d3cdeed344331a1f0af04f68d0b8bf8e9df2da65100c",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 2,
+      "start": 0,
+      "end": 2848,
+      "characters": 2848,
+      "sha256": "cca56532940ee9e4656ca0a2f643430dd1b36ae6f862be23103063748341c750",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 3,
+      "start": 0,
+      "end": 6903,
+      "characters": 6903,
+      "sha256": "8a391ddb3b6e592a7944880765aebe8ad770b92fdfb6ad64616ceda8010c7ac7",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 4,
+      "start": 0,
+      "end": 6000,
+      "characters": 6000,
+      "sha256": "bf5eb0a05602e5ab3f1865e91d42b587e409aaba7d10db6f6a34314303c9c4e9",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 4,
+      "start": 6000,
+      "end": 11033,
+      "characters": 5033,
+      "sha256": "1887dd897ccc7407500eb407f9c17f5e3d50dc7dfb531c37f496647d30b58d0d",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 5,
+      "start": 0,
+      "end": 6000,
+      "characters": 6000,
+      "sha256": "fc9defa8746a596171f32636f215e3440126749cd57f3309093648de406311a7",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 5,
+      "start": 6000,
+      "end": 9327,
+      "characters": 3327,
+      "sha256": "008da686aaeed5ed8a3a9f8500a759d67a6c47556e36e6a45c6aa66f891c43c8",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 6,
+      "start": 0,
+      "end": 3000,
+      "characters": 3000,
+      "sha256": "5fd1a672a39f6f7f912d0116cdd95c9a873288fffe407c4e98769216579b0147",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 6,
+      "start": 3000,
+      "end": 8830,
+      "characters": 5830,
+      "sha256": "838f7dae4b764cf6ee9c2b96b25fe05a49a626ac7f1b051d7be5202e6ffcb473",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 7,
+      "start": 0,
+      "end": 6000,
+      "characters": 6000,
+      "sha256": "b1fbba0e8771fe8460e545307abed91f723b4fab6a58647c632f3ec6982166ea",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 7,
+      "start": 6000,
+      "end": 10011,
+      "characters": 4011,
+      "sha256": "c0e35e4dd3d1547d4ac48c69504c9b4c22e5cfcdf551511d86659b5b4b85fc72",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 8,
+      "start": 0,
+      "end": 2000,
+      "characters": 2000,
+      "sha256": "d92bba9aca62d54d06db16bf4092f35b8deb787e36a3add12412527a72dc052d",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 8,
+      "start": 2000,
+      "end": 9907,
+      "characters": 7907,
+      "sha256": "80a31bffff1b5ce40cb38e2015afd5c9d874acb6441652d4127830f6ef5a9a68",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 9,
+      "start": 0,
+      "end": 8905,
+      "characters": 8905,
+      "sha256": "88301ddaaffa039e314f8bc65dc34ac41d2023ea934534db8d56009b459a6e7b",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 10,
+      "start": 0,
+      "end": 9199,
+      "characters": 9199,
+      "sha256": "d9bdd29e914ea7d7525ec4d15b8b81b55796eb936bc2a0cc991337946ceb16dc",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 11,
+      "start": 0,
+      "end": 7500,
+      "characters": 7500,
+      "sha256": "a8ec9a8f7c474bb441fd585ab2988384c70fcf0603cb668956a46c72db662f8f",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 11,
+      "start": 7500,
+      "end": 16314,
+      "characters": 8814,
+      "sha256": "21a1de3cee4a43b740842ce22b71e2ab48c1735561902295962a402de4ce7d99",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 12,
+      "start": 0,
+      "end": 8635,
+      "characters": 8635,
+      "sha256": "c6c962376a6c4aad451b56732e5e64beaf7fc9c4bd3d0b278f1bd181bc17d27a",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 13,
+      "start": 0,
+      "end": 7819,
+      "characters": 7819,
+      "sha256": "546ae0939bfc81e7d6592f6e68ca417d977369dd78d46d59e31840d09f2fc53c",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 14,
+      "start": 0,
+      "end": 6000,
+      "characters": 6000,
+      "sha256": "3e1a7d9b97b8fecb2ff12c15d958ad4434048a0781a01b8da4b7d774840af132",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 14,
+      "start": 6000,
+      "end": 11576,
+      "characters": 5576,
+      "sha256": "98ca141964064471a582eb7b49eb13f128250d60a71fad8f6e06dab5bbd9a3b0",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 0,
+      "end": 6500,
+      "characters": 6500,
+      "sha256": "b6ee27ba08b435d656b0d5c89fbf905356c8899fa261539c56b41600019b2c7a",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 6500,
+      "end": 14500,
+      "characters": 8000,
+      "sha256": "85a56c9272a504986b6b3b8400daaeba42ffefd6c644c6fce5613112f0263b36",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 14500,
+      "end": 22500,
+      "characters": 8000,
+      "sha256": "a4bcd411a24461858eb9bbb0d386f19d7a82ffdefc087f9ea48d0443a8c2a506",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 22500,
+      "end": 30500,
+      "characters": 8000,
+      "sha256": "f6a561b3a366cef41e9cd6a7f25b8885f690d0d07f8767063ed7bb0b7c49f497",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 30500,
+      "end": 38500,
+      "characters": 8000,
+      "sha256": "9a699befefc17ecfde48e525b3942a010c38f7633b23483a30ca032b213b5749",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 38500,
+      "end": 46500,
+      "characters": 8000,
+      "sha256": "0b85cd279caedca03f30a58e31b7de3755cdfeef421a3a9f0a726e12c471e464",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 15,
+      "start": 46500,
+      "end": 51087,
+      "characters": 4587,
+      "sha256": "cf4714aee7aad77703d8aeccad3d6596beea8a0307abbb23532886d3b292e8bc",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 0,
+      "end": 8000,
+      "characters": 8000,
+      "sha256": "822d4d618b12e94b60047c8baf06c60a8848755ac2a9023df6729cc1c3b34fe0",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 8000,
+      "end": 16000,
+      "characters": 8000,
+      "sha256": "0e12de914953cb88df0e7273c2491bd5f5124874b920b4d1677ea86c74a8c6cc",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 16000,
+      "end": 24000,
+      "characters": 8000,
+      "sha256": "4efe6d03cab497d39a382fc3dd3bfc9e571b935dd4435cb77452cf14e800c438",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 24000,
+      "end": 32000,
+      "characters": 8000,
+      "sha256": "62debb7e3fd969bf8e0560ed99ac1632af65abc816c3c00a713b874ee4ad6f76",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 32000,
+      "end": 40000,
+      "characters": 8000,
+      "sha256": "e3616d6a56481782674ecda7e76c63bd3d8cf2259fecf2d0bc01b00968b16e34",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 16,
+      "start": 40000,
+      "end": 47975,
+      "characters": 7975,
+      "sha256": "506284396533baa56496742936ef993a3d42c6743c264957f000f2bcbed55c25",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 17,
+      "start": 0,
+      "end": 8000,
+      "characters": 8000,
+      "sha256": "7524c3b11d5065b12327e401b0dc798e8f88567ea728ba50cea3ba67f6ed7b7f",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 17,
+      "start": 8000,
+      "end": 16000,
+      "characters": 8000,
+      "sha256": "c29ff0bd471b9a0eb5e1fc0974343a8d7f59f4cbb25e562e9a7f4a12c888d6e5",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 17,
+      "start": 16000,
+      "end": 24000,
+      "characters": 8000,
+      "sha256": "7816f12649db82caac30e7deb16eb61cab24233895039776b9e0d597d8a4755c",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 17,
+      "start": 24000,
+      "end": 32000,
+      "characters": 8000,
+      "sha256": "5219b393290311b82b85da422f226492a6a6be5e3dd2290c1d8e77a565e79d5e",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 17,
+      "start": 32000,
+      "end": 37817,
+      "characters": 5817,
+      "sha256": "15840a78551857ef6240d15632475114c17fffdb73863d3bb1dda94397e4f7b2",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 18,
+      "start": 0,
+      "end": 8000,
+      "characters": 8000,
+      "sha256": "c1958fe65059fe60f41833b462cc36a310636ca0a952fdd4d1feeeb2c26b2441",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 18,
+      "start": 8000,
+      "end": 16000,
+      "characters": 8000,
+      "sha256": "c0a204d28e7ff0a576de05cd12f603aff33bc65109c13e0214946c58d0873a3d",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 18,
+      "start": 16000,
+      "end": 24000,
+      "characters": 8000,
+      "sha256": "0e73ec83f4d21dcef15382a2a8247c127c6e41139ab92f89f0377ed1fdbbe80f",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 18,
+      "start": 24000,
+      "end": 27891,
+      "characters": 3891,
+      "sha256": "41182c641fa58bcc7fe8fb5d70a1514e8c2d7fda671ff6008fd7e591d8874439",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 19,
+      "start": 0,
+      "end": 7000,
+      "characters": 7000,
+      "sha256": "f04c729006f7445b83a9086bfcef2b04453a286dd43e6bc7d770ca348010dfec",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 19,
+      "start": 7000,
+      "end": 14000,
+      "characters": 7000,
+      "sha256": "e756d94efba64c19f7eb0b57bcdd25dc71c159670a58d3d0d8a4efe6cd19ecc1",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 19,
+      "start": 14000,
+      "end": 19541,
+      "characters": 5541,
+      "sha256": "83e51c1ff498c2488a6961c4da350d4e293202e4a7a214d5d9d58024828f6168",
+      "tool_output_read_complete": true
+    },
+    {
+      "spine_item": 20,
+      "start": 0,
+      "end": 1,
+      "characters": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tool_output_read_complete": true
+    }
+  ],
+  "units": [
+    {
+      "zip_path": "OEBPS/Text/0.html",
+      "bytes": 377,
+      "body_characters": 16,
+      "sha256": "ab2ada407807adc42e81d3cdeed344331a1f0af04f68d0b8bf8e9df2da65100c",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "诱惑的艺术"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 1,
+      "idref": "x0.html",
+      "linear": "yes",
+      "global_character_range": [
+        0,
+        16
+      ],
+      "read_range_in_unit": [
+        0,
+        16
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "4fe16e496e76def3905aa459f70ce6d6cb2d89547a35f3bea2597804ab785f22",
+      "primary_normalized_sha256": "4fe16e496e76def3905aa459f70ce6d6cb2d89547a35f3bea2597804ab785f22"
+    },
+    {
+      "zip_path": "OEBPS/Text/1.html",
+      "bytes": 8976,
+      "body_characters": 2848,
+      "sha256": "cca56532940ee9e4656ca0a2f643430dd1b36ae6f862be23103063748341c750",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "译序"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 2,
+      "idref": "x1.html",
+      "linear": "yes",
+      "global_character_range": [
+        16,
+        2864
+      ],
+      "read_range_in_unit": [
+        0,
+        2848
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "763f93713d2839fbb6b3faf09a147c4b8e241acaebd239e00285847ced3ebf00",
+      "primary_normalized_sha256": "763f93713d2839fbb6b3faf09a147c4b8e241acaebd239e00285847ced3ebf00"
+    },
+    {
+      "zip_path": "OEBPS/Text/2.html",
+      "bytes": 21187,
+      "body_characters": 6903,
+      "sha256": "8a391ddb3b6e592a7944880765aebe8ad770b92fdfb6ad64616ceda8010c7ac7",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "前言"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 3,
+      "idref": "x2.html",
+      "linear": "yes",
+      "global_character_range": [
+        2864,
+        9767
+      ],
+      "read_range_in_unit": [
+        0,
+        6903
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "0d2966046b30e7bd540b9a7979b9dad8fecf4b577acdcdbbe7270398b8e1cb5b",
+      "primary_normalized_sha256": "0d2966046b30e7bd540b9a7979b9dad8fecf4b577acdcdbbe7270398b8e1cb5b"
+    },
+    {
+      "zip_path": "OEBPS/Text/3.html",
+      "bytes": 33701,
+      "body_characters": 11033,
+      "sha256": "6bffb61b090dc533e712773a45e8ba09bd1087a839925d7407bbf738096ad209",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第一章 妖女"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 4,
+      "idref": "x3.html",
+      "linear": "yes",
+      "global_character_range": [
+        9767,
+        20800
+      ],
+      "read_range_in_unit": [
+        0,
+        11033
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "ec047897deda8343b1a0f054b28674c109229d1979003853bfe84ab3ec405c19",
+      "primary_normalized_sha256": "ec047897deda8343b1a0f054b28674c109229d1979003853bfe84ab3ec405c19"
+    },
+    {
+      "zip_path": "OEBPS/Text/4.html",
+      "bytes": 28546,
+      "body_characters": 9327,
+      "sha256": "0725b47659a51a9a85dbd3bd8dafb7bb4df3669cbc1d31d5ac54e72b6832a8ac",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第二章 浪子"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 5,
+      "idref": "x4.html",
+      "linear": "yes",
+      "global_character_range": [
+        20800,
+        30127
+      ],
+      "read_range_in_unit": [
+        0,
+        9327
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "c83cb2b03c39153cd09d08368254a157f69d91922941edd44abbd33e418ef51e",
+      "primary_normalized_sha256": "c83cb2b03c39153cd09d08368254a157f69d91922941edd44abbd33e418ef51e"
+    },
+    {
+      "zip_path": "OEBPS/Text/5.html",
+      "bytes": 27064,
+      "body_characters": 8830,
+      "sha256": "246895e64e3bdd2068f1b5f36331400ec2abef8d666c1999880fde52cbedf610",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第三章 梦中情人"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 6,
+      "idref": "x5.html",
+      "linear": "yes",
+      "global_character_range": [
+        30127,
+        38957
+      ],
+      "read_range_in_unit": [
+        0,
+        8830
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "0adb24afa6eeba72c448e5c140e7620a1a514b3ef9cea60658e6aa4aaab717a2",
+      "primary_normalized_sha256": "0adb24afa6eeba72c448e5c140e7620a1a514b3ef9cea60658e6aa4aaab717a2"
+    },
+    {
+      "zip_path": "OEBPS/Text/6.html",
+      "bytes": 30517,
+      "body_characters": 10011,
+      "sha256": "7f124bf5725bd0f4e8da4756238b601aed58f3b07844ac4016a59b24d4a2e690",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第四章 幻性情人"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 7,
+      "idref": "x6.html",
+      "linear": "yes",
+      "global_character_range": [
+        38957,
+        48968
+      ],
+      "read_range_in_unit": [
+        0,
+        10011
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "a4813b5215aa1b638dbdcdd79812cf71e96c46a9561349f089212cbc4f6e2706",
+      "primary_normalized_sha256": "a4813b5215aa1b638dbdcdd79812cf71e96c46a9561349f089212cbc4f6e2706"
+    },
+    {
+      "zip_path": "OEBPS/Text/7.html",
+      "bytes": 30233,
+      "body_characters": 9907,
+      "sha256": "e2a857162b7d10db571c589a79268d4a49ca6b5e8b6d43822b69ed3225bd1db5",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第五章 天真情人"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 8,
+      "idref": "x7.html",
+      "linear": "yes",
+      "global_character_range": [
+        48968,
+        58875
+      ],
+      "read_range_in_unit": [
+        0,
+        9907
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "a62d5cd8debf933a1dbd054eb35bcfe271643dd9cb70d90b616a272f3684e32e",
+      "primary_normalized_sha256": "a62d5cd8debf933a1dbd054eb35bcfe271643dd9cb70d90b616a272f3684e32e"
+    },
+    {
+      "zip_path": "OEBPS/Text/8.html",
+      "bytes": 27203,
+      "body_characters": 8905,
+      "sha256": "88301ddaaffa039e314f8bc65dc34ac41d2023ea934534db8d56009b459a6e7b",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第六章 挑逗者"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 9,
+      "idref": "x8.html",
+      "linear": "yes",
+      "global_character_range": [
+        58875,
+        67780
+      ],
+      "read_range_in_unit": [
+        0,
+        8905
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "b1a1945a6b4e7447cc7ecb4392c69d3868d23fb6bb45820673f01588c4eebf7f",
+      "primary_normalized_sha256": "b1a1945a6b4e7447cc7ecb4392c69d3868d23fb6bb45820673f01588c4eebf7f"
+    },
+    {
+      "zip_path": "OEBPS/Text/9.html",
+      "bytes": 28132,
+      "body_characters": 9199,
+      "sha256": "d9bdd29e914ea7d7525ec4d15b8b81b55796eb936bc2a0cc991337946ceb16dc",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第七章 魔力大师"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 10,
+      "idref": "x9.html",
+      "linear": "yes",
+      "global_character_range": [
+        67780,
+        76979
+      ],
+      "read_range_in_unit": [
+        0,
+        9199
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "0afc280d45cb77790c3ac499ea5519f37bef000177a895f41829ba350447bf95",
+      "primary_normalized_sha256": "0afc280d45cb77790c3ac499ea5519f37bef000177a895f41829ba350447bf95"
+    },
+    {
+      "zip_path": "OEBPS/Text/10.html",
+      "bytes": 49561,
+      "body_characters": 16314,
+      "sha256": "1e5f5ba1f875a8faf9e23313f409bfedc91933063670a1cff4f0d6528cf86d3c",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第八章 魅力领袖"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 11,
+      "idref": "x10.html",
+      "linear": "yes",
+      "global_character_range": [
+        76979,
+        93293
+      ],
+      "read_range_in_unit": [
+        0,
+        16314
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "a45063a966d42ce15623b45069c2f5909a9ae43b7df5058db01dfbfce3f50cd0",
+      "primary_normalized_sha256": "a45063a966d42ce15623b45069c2f5909a9ae43b7df5058db01dfbfce3f50cd0"
+    },
+    {
+      "zip_path": "OEBPS/Text/11.html",
+      "bytes": 26471,
+      "body_characters": 8635,
+      "sha256": "c6c962376a6c4aad451b56732e5e64beaf7fc9c4bd3d0b278f1bd181bc17d27a",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第九章 气质明星"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 12,
+      "idref": "x11.html",
+      "linear": "yes",
+      "global_character_range": [
+        93293,
+        101928
+      ],
+      "read_range_in_unit": [
+        0,
+        8635
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "5a5aff72ddd8e16a94d9b467311c4134bd047e37644fc4e038314244281b01cc",
+      "primary_normalized_sha256": "5a5aff72ddd8e16a94d9b467311c4134bd047e37644fc4e038314244281b01cc"
+    },
+    {
+      "zip_path": "OEBPS/Text/12.html",
+      "bytes": 24022,
+      "body_characters": 7819,
+      "sha256": "546ae0939bfc81e7d6592f6e68ca417d977369dd78d46d59e31840d09f2fc53c",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十章 反诱惑因素"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 13,
+      "idref": "x12.html",
+      "linear": "yes",
+      "global_character_range": [
+        101928,
+        109747
+      ],
+      "read_range_in_unit": [
+        0,
+        7819
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "98ebf029aa30a89abf66fd95a166a4686a78504f1c86e3b32939e8c72f2d5775",
+      "primary_normalized_sha256": "98ebf029aa30a89abf66fd95a166a4686a78504f1c86e3b32939e8c72f2d5775"
+    },
+    {
+      "zip_path": "OEBPS/Text/13.html",
+      "bytes": 35443,
+      "body_characters": 11576,
+      "sha256": "42e12400e8f2dc140e20c4fa57cf2bdbb24ca7a472533f5787785ba7bbce0ebd",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十一章 诱惑对象18种"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 14,
+      "idref": "x13.html",
+      "linear": "yes",
+      "global_character_range": [
+        109747,
+        121323
+      ],
+      "read_range_in_unit": [
+        0,
+        11576
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "d9cd297b907fa20166c1c1e48f4164d559fa1c53eb1e5e6539ec2601b9dcd40f",
+      "primary_normalized_sha256": "d9cd297b907fa20166c1c1e48f4164d559fa1c53eb1e5e6539ec2601b9dcd40f"
+    },
+    {
+      "zip_path": "OEBPS/Text/14.html",
+      "bytes": 154947,
+      "body_characters": 51087,
+      "sha256": "11ebbb8b734568e90c06ebf5d4b14d0d633e326da70c794c43a5251351dea159",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十二章 心随你动——唤起对方的兴趣和欲望"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 15,
+      "idref": "x14.html",
+      "linear": "yes",
+      "global_character_range": [
+        121323,
+        172410
+      ],
+      "read_range_in_unit": [
+        0,
+        51087
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "68309bfa592e6c61ddb59005bef05cb5675ffa94aa112fc092ac3b6ef81f5495",
+      "primary_normalized_sha256": "68309bfa592e6c61ddb59005bef05cb5675ffa94aa112fc092ac3b6ef81f5495"
+    },
+    {
+      "zip_path": "OEBPS/Text/15.html",
+      "bytes": 145700,
+      "body_characters": 47975,
+      "sha256": "6f7af058e26e96bf0889cdcba73c0cc24b207d827986d8ecde9fb49c4ac57e37",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十三章 偏离常轨——打造快乐与迷惑"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 16,
+      "idref": "x15.html",
+      "linear": "yes",
+      "global_character_range": [
+        172410,
+        220385
+      ],
+      "read_range_in_unit": [
+        0,
+        47975
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "089903fcf12c2701a4f57d219a59da44e67133b339d93ac3b0e4a09a67e3592f",
+      "primary_normalized_sha256": "089903fcf12c2701a4f57d219a59da44e67133b339d93ac3b0e4a09a67e3592f"
+    },
+    {
+      "zip_path": "OEBPS/Text/16.html",
+      "bytes": 114572,
+      "body_characters": 37817,
+      "sha256": "39b3af0ad45fbf4492803dd388057c9004e29014b5548fb51b2f7f10b3d4b60a",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十四章 濒临边缘——极尽所能，加深魅惑"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 17,
+      "idref": "x16.html",
+      "linear": "yes",
+      "global_character_range": [
+        220385,
+        258202
+      ],
+      "read_range_in_unit": [
+        0,
+        37817
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "5a86f3c4100002643e2dcb6334bb0bbed7a7efa0a6a4305141414c04f5f4e31e",
+      "primary_normalized_sha256": "5a86f3c4100002643e2dcb6334bb0bbed7a7efa0a6a4305141414c04f5f4e31e"
+    },
+    {
+      "zip_path": "OEBPS/Text/17.html",
+      "bytes": 84830,
+      "body_characters": 27891,
+      "sha256": "33102bdcc7504f8ef9353824087dcc50b4f9f0a76023fe05a210e0e6f3d4b8a7",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "第十五章 彻底征服"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 18,
+      "idref": "x17.html",
+      "linear": "yes",
+      "global_character_range": [
+        258202,
+        286093
+      ],
+      "read_range_in_unit": [
+        0,
+        27891
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "b2bf6a732159415cd810bd454bca8588431e146c0111e87cec409230286deaee",
+      "primary_normalized_sha256": "b2bf6a732159415cd810bd454bca8588431e146c0111e87cec409230286deaee"
+    },
+    {
+      "zip_path": "OEBPS/Text/18.html",
+      "bytes": 59232,
+      "body_characters": 19541,
+      "sha256": "ffd0ab4235c468b72c4808601c1a173d2d062fc006249472082613ad86f665d9",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [
+        "附录"
+      ],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 19,
+      "idref": "x18.html",
+      "linear": "yes",
+      "global_character_range": [
+        286093,
+        305634
+      ],
+      "read_range_in_unit": [
+        0,
+        19541
+      ],
+      "actually_read_complete": true,
+      "blank_body": false,
+      "independent_normalized_sha256": "79179ab4514ccf7b7ed531e1d5efd2807161845639b17d75661ec5a0b152ba50",
+      "primary_normalized_sha256": "79179ab4514ccf7b7ed531e1d5efd2807161845639b17d75661ec5a0b152ba50"
+    },
+    {
+      "zip_path": "OEBPS/Text/19.html",
+      "bytes": 316,
+      "body_characters": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "independent_parser_nonwhitespace_exact": true,
+      "strict_XML_valid": true,
+      "XML_error": null,
+      "head_title": "",
+      "headings": [],
+      "images": [],
+      "svg_elements": 0,
+      "external_body_resources": [],
+      "spine_item": 20,
+      "idref": "x19.html",
+      "linear": "yes",
+      "global_character_range": [
+        305634,
+        305635
+      ],
+      "read_range_in_unit": [
+        0,
+        1
+      ],
+      "actually_read_complete": true,
+      "blank_body": true,
+      "independent_normalized_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "primary_normalized_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "independent_nonwhitespace_exact_spine_items": 20,
+  "strict_XML_valid_spine_items": 20,
+  "package_audit": {
+    "source_sha256": "875ac4953c4846d211dfc8c6559c7e3292d3deb1407fbad9951718c24606bd6f",
+    "zip_integrity_check_passed": true,
+    "opf_path": "OEBPS/content.opf",
+    "zip_members": [
+      "mimetype",
+      "META-INF/container.xml",
+      "OEBPS/content.opf",
+      "OEBPS/Styles/ebook.css",
+      "OEBPS/Text/0.html",
+      "OEBPS/Text/1.html",
+      "OEBPS/Text/10.html",
+      "OEBPS/Text/11.html",
+      "OEBPS/Text/12.html",
+      "OEBPS/Text/13.html",
+      "OEBPS/Text/14.html",
+      "OEBPS/Text/15.html",
+      "OEBPS/Text/16.html",
+      "OEBPS/Text/17.html",
+      "OEBPS/Text/18.html",
+      "OEBPS/Text/19.html",
+      "OEBPS/Text/2.html",
+      "OEBPS/Text/3.html",
+      "OEBPS/Text/4.html",
+      "OEBPS/Text/5.html",
+      "OEBPS/Text/6.html",
+      "OEBPS/Text/7.html",
+      "OEBPS/Text/8.html",
+      "OEBPS/Text/9.html",
+      "OEBPS/toc.ncx"
+    ],
+    "manifest": {
+      "ncx": {
+        "href": "toc.ncx",
+        "id": "ncx",
+        "media-type": "application/x-dtbncx+xml",
+        "zip_path": "OEBPS/toc.ncx"
+      },
+      "x0.html": {
+        "href": "Text/0.html",
+        "id": "x0.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/0.html"
+      },
+      "x1.html": {
+        "href": "Text/1.html",
+        "id": "x1.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/1.html"
+      },
+      "x2.html": {
+        "href": "Text/2.html",
+        "id": "x2.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/2.html"
+      },
+      "x3.html": {
+        "href": "Text/3.html",
+        "id": "x3.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/3.html"
+      },
+      "x4.html": {
+        "href": "Text/4.html",
+        "id": "x4.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/4.html"
+      },
+      "x5.html": {
+        "href": "Text/5.html",
+        "id": "x5.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/5.html"
+      },
+      "x6.html": {
+        "href": "Text/6.html",
+        "id": "x6.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/6.html"
+      },
+      "x7.html": {
+        "href": "Text/7.html",
+        "id": "x7.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/7.html"
+      },
+      "x8.html": {
+        "href": "Text/8.html",
+        "id": "x8.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/8.html"
+      },
+      "x9.html": {
+        "href": "Text/9.html",
+        "id": "x9.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/9.html"
+      },
+      "x10.html": {
+        "href": "Text/10.html",
+        "id": "x10.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/10.html"
+      },
+      "x11.html": {
+        "href": "Text/11.html",
+        "id": "x11.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/11.html"
+      },
+      "x12.html": {
+        "href": "Text/12.html",
+        "id": "x12.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/12.html"
+      },
+      "x13.html": {
+        "href": "Text/13.html",
+        "id": "x13.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/13.html"
+      },
+      "x14.html": {
+        "href": "Text/14.html",
+        "id": "x14.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/14.html"
+      },
+      "x15.html": {
+        "href": "Text/15.html",
+        "id": "x15.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/15.html"
+      },
+      "x16.html": {
+        "href": "Text/16.html",
+        "id": "x16.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/16.html"
+      },
+      "x17.html": {
+        "href": "Text/17.html",
+        "id": "x17.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/17.html"
+      },
+      "x18.html": {
+        "href": "Text/18.html",
+        "id": "x18.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/18.html"
+      },
+      "x19.html": {
+        "href": "Text/19.html",
+        "id": "x19.html",
+        "media-type": "application/xhtml+xml",
+        "zip_path": "OEBPS/Text/19.html"
+      },
+      "ebook.css": {
+        "href": "Styles/ebook.css",
+        "id": "ebook.css",
+        "media-type": "text/css",
+        "zip_path": "OEBPS/Styles/ebook.css"
+      }
+    },
+    "spine_refs": [
+      {
+        "idref": "x0.html"
+      },
+      {
+        "idref": "x1.html"
+      },
+      {
+        "idref": "x2.html"
+      },
+      {
+        "idref": "x3.html"
+      },
+      {
+        "idref": "x4.html"
+      },
+      {
+        "idref": "x5.html"
+      },
+      {
+        "idref": "x6.html"
+      },
+      {
+        "idref": "x7.html"
+      },
+      {
+        "idref": "x8.html"
+      },
+      {
+        "idref": "x9.html"
+      },
+      {
+        "idref": "x10.html"
+      },
+      {
+        "idref": "x11.html"
+      },
+      {
+        "idref": "x12.html"
+      },
+      {
+        "idref": "x13.html"
+      },
+      {
+        "idref": "x14.html"
+      },
+      {
+        "idref": "x15.html"
+      },
+      {
+        "idref": "x16.html"
+      },
+      {
+        "idref": "x17.html"
+      },
+      {
+        "idref": "x18.html"
+      },
+      {
+        "idref": "x19.html"
+      }
+    ],
+    "body_resources": [
+      {
+        "zip_path": "OEBPS/Text/0.html",
+        "bytes": 377,
+        "body_characters": 16,
+        "sha256": "ab2ada407807adc42e81d3cdeed344331a1f0af04f68d0b8bf8e9df2da65100c",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "诱惑的艺术"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/1.html",
+        "bytes": 8976,
+        "body_characters": 2848,
+        "sha256": "cca56532940ee9e4656ca0a2f643430dd1b36ae6f862be23103063748341c750",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "译序"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/10.html",
+        "bytes": 49561,
+        "body_characters": 16314,
+        "sha256": "1e5f5ba1f875a8faf9e23313f409bfedc91933063670a1cff4f0d6528cf86d3c",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第八章 魅力领袖"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/11.html",
+        "bytes": 26471,
+        "body_characters": 8635,
+        "sha256": "c6c962376a6c4aad451b56732e5e64beaf7fc9c4bd3d0b278f1bd181bc17d27a",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第九章 气质明星"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/12.html",
+        "bytes": 24022,
+        "body_characters": 7819,
+        "sha256": "546ae0939bfc81e7d6592f6e68ca417d977369dd78d46d59e31840d09f2fc53c",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十章 反诱惑因素"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/13.html",
+        "bytes": 35443,
+        "body_characters": 11576,
+        "sha256": "42e12400e8f2dc140e20c4fa57cf2bdbb24ca7a472533f5787785ba7bbce0ebd",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十一章 诱惑对象18种"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/14.html",
+        "bytes": 154947,
+        "body_characters": 51087,
+        "sha256": "11ebbb8b734568e90c06ebf5d4b14d0d633e326da70c794c43a5251351dea159",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十二章 心随你动——唤起对方的兴趣和欲望"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/15.html",
+        "bytes": 145700,
+        "body_characters": 47975,
+        "sha256": "6f7af058e26e96bf0889cdcba73c0cc24b207d827986d8ecde9fb49c4ac57e37",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十三章 偏离常轨——打造快乐与迷惑"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/16.html",
+        "bytes": 114572,
+        "body_characters": 37817,
+        "sha256": "39b3af0ad45fbf4492803dd388057c9004e29014b5548fb51b2f7f10b3d4b60a",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十四章 濒临边缘——极尽所能，加深魅惑"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/17.html",
+        "bytes": 84830,
+        "body_characters": 27891,
+        "sha256": "33102bdcc7504f8ef9353824087dcc50b4f9f0a76023fe05a210e0e6f3d4b8a7",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第十五章 彻底征服"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/18.html",
+        "bytes": 59232,
+        "body_characters": 19541,
+        "sha256": "ffd0ab4235c468b72c4808601c1a173d2d062fc006249472082613ad86f665d9",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "附录"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/19.html",
+        "bytes": 316,
+        "body_characters": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/2.html",
+        "bytes": 21187,
+        "body_characters": 6903,
+        "sha256": "8a391ddb3b6e592a7944880765aebe8ad770b92fdfb6ad64616ceda8010c7ac7",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "前言"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/3.html",
+        "bytes": 33701,
+        "body_characters": 11033,
+        "sha256": "6bffb61b090dc533e712773a45e8ba09bd1087a839925d7407bbf738096ad209",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第一章 妖女"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/4.html",
+        "bytes": 28546,
+        "body_characters": 9327,
+        "sha256": "0725b47659a51a9a85dbd3bd8dafb7bb4df3669cbc1d31d5ac54e72b6832a8ac",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第二章 浪子"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/5.html",
+        "bytes": 27064,
+        "body_characters": 8830,
+        "sha256": "246895e64e3bdd2068f1b5f36331400ec2abef8d666c1999880fde52cbedf610",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第三章 梦中情人"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/6.html",
+        "bytes": 30517,
+        "body_characters": 10011,
+        "sha256": "7f124bf5725bd0f4e8da4756238b601aed58f3b07844ac4016a59b24d4a2e690",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第四章 幻性情人"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/7.html",
+        "bytes": 30233,
+        "body_characters": 9907,
+        "sha256": "e2a857162b7d10db571c589a79268d4a49ca6b5e8b6d43822b69ed3225bd1db5",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第五章 天真情人"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/8.html",
+        "bytes": 27203,
+        "body_characters": 8905,
+        "sha256": "88301ddaaffa039e314f8bc65dc34ac41d2023ea934534db8d56009b459a6e7b",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第六章 挑逗者"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      },
+      {
+        "zip_path": "OEBPS/Text/9.html",
+        "bytes": 28132,
+        "body_characters": 9199,
+        "sha256": "d9bdd29e914ea7d7525ec4d15b8b81b55796eb936bc2a0cc991337946ceb16dc",
+        "independent_parser_nonwhitespace_exact": true,
+        "strict_XML_valid": true,
+        "XML_error": null,
+        "head_title": "",
+        "headings": [
+          "第七章 魔力大师"
+        ],
+        "images": [],
+        "svg_elements": 0,
+        "external_body_resources": []
+      }
+    ],
+    "body_resources_outside_spine": [],
+    "image_resources": [],
+    "opf_metadata": [
+      {
+        "creator": "罗伯特·格林"
+      },
+      {
+        "language": "zh-CN"
+      },
+      {
+        "title": "诱惑的艺术"
+      },
+      {
+        "date": "2018-08-26"
+      },
+      {
+        "identifier": "urn:uuid:be63ecca-5fa6-4e0f-b5f5-baca7b208852"
+      }
+    ],
+    "support_resource_display_check": {
+      "CSS_Chinese_characters": 0,
+      "CSS_generated_content_declarations": [],
+      "CSS_external_resource_declarations": [],
+      "NCX_labels": [
+        "[No data]",
+        "诱惑的艺术",
+        "译序",
+        "前言",
+        "第一章 妖女",
+        "第二章 浪子",
+        "第三章 梦中情人",
+        "第四章 幻性情人",
+        "第五章 天真情人",
+        "第六章 挑逗者",
+        "第七章 魔力大师",
+        "第八章 魅力领袖",
+        "第九章 气质明星",
+        "第十章 反诱惑因素",
+        "第十一章 诱惑对象18种",
+        "第十二章 心随你动——唤起对方的兴趣和欲望",
+        "第十三章 偏离常轨——打造快乐与迷惑",
+        "第十四章 濒临边缘——极尽所能，加深魅惑",
+        "第十五章 彻底征服",
+        "附录"
+      ]
+    },
+    "blank_spine_items": [
+      20
+    ],
+    "body_reading_completed": true
+  },
+  "source_text_condition": {
+    "identified_source_text_conditions": [
+      {
+        "spine_item": 3,
+        "character_offset": 3765,
+        "kind": "literal_mixed_ASCII_conversion_fragment",
+        "present_in_original_HTML": true,
+        "not_an_extraction_discrepancy": true
+      },
+      {
+        "spine_item": 12,
+        "character_offset": 9,
+        "kind": "opening_sentence_begins_with_incomplete_word",
+        "present_in_original_HTML": true,
+        "not_an_extraction_discrepancy": true
+      },
+      {
+        "spine_item": 13,
+        "character_offset": 7097,
+        "kind": "symbol_explanation_starts_mid_sentence",
+        "present_in_original_HTML": true,
+        "not_an_extraction_discrepancy": true
+      },
+      {
+        "spine_item": 19,
+        "character_offset": 7000,
+        "kind": "repeated_adjacent_appendix_subheading",
+        "present_in_original_HTML": true,
+        "not_an_extraction_discrepancy": true
+      }
+    ],
+    "edition_completeness_verified": false,
+    "no_original_text_silently_repaired": true,
+    "unread_current_body_paragraphs_known": []
+  },
+  "known_unread_current_content": [],
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_limits": [
+    "未对照英文原版、正式出版物及完整参考书目核验译本与原著的完整性，文件内署名和日期不作认证",
+    "原HTML已有零散杂字符、残句及重复标题；可核位置见source_text_condition，不将其猜补成原文",
+    "书中援引的历史记述、回忆录、小说、心理学家观点与广告竞选效果本轮均未作独立事实或实证核验"
+  ],
+  "original_note_groups": 46,
+  "new_exact_method_section_bindings": 157,
+  "notes_and_method_section_bindings": [
+    {
+      "heading": "B109-01 版本、译序与本轮提供范围",
+      "spine_items": [
+        1,
+        2,
+        3,
+        13,
+        19,
+        20
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 1,
+          "range": [
+            0,
+            16
+          ]
+        },
+        {
+          "spine_item": 2,
+          "range": [
+            0,
+            2848
+          ]
+        },
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        },
+        {
+          "spine_item": 20,
+          "range": [
+            0,
+            1
+          ]
+        }
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B109-02 人物故事和文化概括不当微信效果证据",
+      "spine_items": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 2,
+          "range": [
+            0,
+            2848
+          ]
+        },
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 9,
+          "range": [
+            0,
+            8905
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M08"
+      ]
+    },
+    {
+      "heading": "B109-03 关注眼前具体信息，不用猜测代替了解",
+      "spine_items": [
+        3,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M08"
+      ]
+    },
+    {
+      "heading": "B109-04 真实特点可以展示，不需要套进九种角色",
+      "spine_items": [
+        3,
+        4,
+        5,
+        6,
+        11,
+        12,
+        15,
+        16,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-05 欣赏落在真实细节，语言仍要有实质",
+      "spine_items": [
+        5,
+        6,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M09",
+        "M12",
+        "M04"
+      ]
+    },
+    {
+      "heading": "B109-06 共同体验按实际偏好和预算安排",
+      "spine_items": [
+        3,
+        4,
+        6,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-07 自然联系不靠忽冷忽热维持不安",
+      "spine_items": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 9,
+          "range": [
+            0,
+            8905
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M02",
+        "M19",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-08 拒绝按当时原话尊重，不翻译成邀请",
+      "spine_items": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-09 认真疑虑给事实，不借舞台感隐藏关系",
+      "spine_items": [
+        3,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M04",
+        "M20",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-10 倾诉与低谷不作为可利用的缺口",
+      "spine_items": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 3,
+          "range": [
+            0,
+            6903
+          ]
+        },
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 9,
+          "range": [
+            0,
+            8905
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M11",
+        "M13",
+        "M08",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-11 批评不都源于嫉妒，责任只落在有证据的动作",
+      "spine_items": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 5,
+          "range": [
+            0,
+            9327
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 9,
+          "range": [
+            0,
+            8905
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M20",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-12 长期了解允许普通、不完美和真实变化",
+      "spine_items": [
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 4,
+          "range": [
+            0,
+            11033
+          ]
+        },
+        {
+          "spine_item": 6,
+          "range": [
+            0,
+            8830
+          ]
+        },
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M20",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-13 轻量调侃看双方反应，受伤不算自动成功",
+      "spine_items": [
+        7,
+        8,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M06",
+        "M07",
+        "M22",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-14 风格与性别气质不承担性取向或人格判断",
+      "spine_items": [
+        7,
+        14,
+        15,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 7,
+          "range": [
+            0,
+            10011
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M08",
+        "M10",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-15 练习后自然表达，不冒充天赋或假装无知",
+      "spine_items": [
+        8,
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M04",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-16 轻松不要求永远开心，认真内容先回应",
+      "spine_items": [
+        8,
+        10,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 8,
+          "range": [
+            0,
+            9907
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M11",
+        "M12",
+        "M13"
+      ]
+    },
+    {
+      "heading": "B109-17 认真听，也让对方认识真实的自己",
+      "spine_items": [
+        10,
+        13,
+        15,
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M10"
+      ]
+    },
+    {
+      "heading": "B109-18 具体帮助与承诺以实际可做到为准",
+      "spine_items": [
+        10,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M13",
+        "M15",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-19 他人不是引发嫉妒的道具",
+      "spine_items": [
+        9,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 9,
+          "range": [
+            0,
+            8905
+          ]
+        },
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-20 公众魅力与两人相处的判断范围分开",
+      "spine_items": [
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-21 镇定可以简洁清楚，也允许不知道",
+      "spine_items": [
+        11,
+        12,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M04",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-22 资料页展示真实生活，不把自己物化成神话",
+      "spine_items": [
+        11,
+        12,
+        15,
+        16,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M25",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-23 正常日常与收尾同样有位置",
+      "spine_items": [
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M15",
+        "M18",
+        "M24",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-24 计划用具体事实，不用宏大许诺取代",
+      "spine_items": [
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 10,
+          "range": [
+            0,
+            9199
+          ]
+        },
+        {
+          "spine_item": 11,
+          "range": [
+            0,
+            16314
+          ]
+        },
+        {
+          "spine_item": 12,
+          "range": [
+            0,
+            8635
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M04",
+        "M14",
+        "M15",
+        "M21"
+      ]
+    },
+    {
+      "heading": "B109-25 筛选看具体行为，不使用反诱惑人格名单",
+      "spine_items": [
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M19",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-26 不故意拖延或挖苦来检验别人",
+      "spine_items": [
+        13,
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M08",
+        "M20",
+        "M21",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-27 投入速度须与已知关系相称",
+      "spine_items": [
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M14",
+        "M19",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-28 预算、礼貌与关心不按金额等价",
+      "spine_items": [
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M15",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-29 一轮回应一件当前事，别把聊天写成讲义",
+      "spine_items": [
+        13,
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 13,
+          "range": [
+            0,
+            7819
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-30 偏好需要了解，十八种对象不作匹配算法",
+      "spine_items": [
+        14,
+        15,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 14,
+          "range": [
+            0,
+            11576
+          ]
+        },
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M08",
+        "M09",
+        "M14",
+        "M20"
+      ]
+    },
+    {
+      "heading": "B109-31 四阶段二十四策略只作原书结构",
+      "spine_items": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝",
+      "spine_items": [
+        15,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M14",
+        "M19",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "spine_items": [
+        15,
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M14",
+        "M20",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-34 轻松暧昧不影响关键事实与选择",
+      "spine_items": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 15,
+          "range": [
+            0,
+            51087
+          ]
+        },
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M04",
+        "M06",
+        "M07",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-35 惊喜保留选择，必要行程先说清",
+      "spine_items": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-36 共同回忆回扣真实体验，不制造梦幻人设",
+      "spine_items": [
+        16,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M05",
+        "M10",
+        "M24",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B109-37 适量说真实弱点，不让对方承担拯救义务",
+      "spine_items": [
+        16,
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M10",
+        "M11",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-38 理解用具体信息表达，不靠无条件附和",
+      "spine_items": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M11",
+        "M13"
+      ]
+    },
+    {
+      "heading": "B109-39 共同活动不以切断亲友和独立生活为目标",
+      "spine_items": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 16,
+          "range": [
+            0,
+            47975
+          ]
+        },
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        },
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B109-40 履约和修复不需要无休止地证明自己",
+      "spine_items": [
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M13",
+        "M15",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-41 不扮治疗师，也不把童年解释强加给对方",
+      "spine_items": [
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M08",
+        "M11",
+        "M20",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B109-42 共同兴趣与信念不产生亲密许可",
+      "spine_items": [
+        17,
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 17,
+          "range": [
+            0,
+            37817
+          ]
+        },
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M07",
+        "M14",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-43 亲密许可按当时具体意愿，不从身体信号推定",
+      "spine_items": [
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M08",
+        "M20",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-44 结束与重联清楚表达，不靠制造痛苦维持",
+      "spine_items": [
+        18
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 18,
+          "range": [
+            0,
+            27891
+          ]
+        }
+      ],
+      "methods": [
+        "M22",
+        "M23",
+        "M24",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B109-45 环境服务双方活动，不把场景当自动加速器",
+      "spine_items": [
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B109-46 媒体、公关与销售例子不变成恋爱劝服规则",
+      "spine_items": [
+        19
+      ],
+      "source_character_ranges": [
+        {
+          "spine_item": 19,
+          "range": [
+            0,
+            19541
+          ]
+        }
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M10",
+        "M26"
+      ]
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_or_interaction_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false
+}

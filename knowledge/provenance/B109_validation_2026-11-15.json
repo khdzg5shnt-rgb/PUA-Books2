@@ -1,0 +1,1017 @@
+{
+  "status": "passed",
+  "file_id": "B109",
+  "baseline": "a0b09f02e249d8cad565cd4188ccce764174d934",
+  "checks": {
+    "all_method_actions_conditions_prior_citations_preserved": true,
+    "routes_preferred_sections_and_task_modes_preserved": true,
+    "all126_original_blob_identities_and_all_other_reading_records_preserved": true,
+    "fresh_XML_extraction_matches_all20_spine_normalized_hashes_and_preserves_source_artifacts": true,
+    "all47_actual_reading_ranges_contiguous_and_native_counts_not_duplicated": true,
+    "blank_final_unit_and_whole_container_without_extra_body_or_images_verified": true,
+    "all_new_exact_method_section_retrievals_passed": 157,
+    "all_unbound_scope_notes_globally_retrievable": 1,
+    "uncited_method_does_not_inherit_whole_new_file": "M16",
+    "progress103_one_new_file_and_B110_unopened_bookmark_consistent": true,
+    "runtime1_5_4_maintenance_and_B108_reading_history_preserved": true,
+    "current_count_closures_and_next_unopened_checkpoint_consistent": true,
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 127,
+    "git_diff_check": true
+  },
+  "new_exact_method_retrievals": [
+    {
+      "method": "M01",
+      "heading": "B109-02 人物故事和文化概括不当微信效果证据",
+      "query": "B109-02",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-02 人物故事和文化概括不当微信效果证据",
+      "query": "B109-02",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B109-03 关注眼前具体信息，不用猜测代替了解",
+      "query": "B109-03",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-03 关注眼前具体信息，不用猜测代替了解",
+      "query": "B109-03",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B109-03 关注眼前具体信息，不用猜测代替了解",
+      "query": "B109-03",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-03 关注眼前具体信息，不用猜测代替了解",
+      "query": "B109-03",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-04 真实特点可以展示，不需要套进九种角色",
+      "query": "B109-04",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B109-04 真实特点可以展示，不需要套进九种角色",
+      "query": "B109-04",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-04 真实特点可以展示，不需要套进九种角色",
+      "query": "B109-04",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B109-05 欣赏落在真实细节，语言仍要有实质",
+      "query": "B109-05",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B109-05 欣赏落在真实细节，语言仍要有实质",
+      "query": "B109-05",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-05 欣赏落在真实细节，语言仍要有实质",
+      "query": "B109-05",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-06 共同体验按实际偏好和预算安排",
+      "query": "B109-06",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-06 共同体验按实际偏好和预算安排",
+      "query": "B109-06",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-06 共同体验按实际偏好和预算安排",
+      "query": "B109-06",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B109-07 自然联系不靠忽冷忽热维持不安",
+      "query": "B109-07",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B109-07 自然联系不靠忽冷忽热维持不安",
+      "query": "B109-07",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-07 自然联系不靠忽冷忽热维持不安",
+      "query": "B109-07",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-08 拒绝按当时原话尊重，不翻译成邀请",
+      "query": "B109-08",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-08 拒绝按当时原话尊重，不翻译成邀请",
+      "query": "B109-08",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-09 认真疑虑给事实，不借舞台感隐藏关系",
+      "query": "B109-09",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-09 认真疑虑给事实，不借舞台感隐藏关系",
+      "query": "B109-09",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-09 认真疑虑给事实，不借舞台感隐藏关系",
+      "query": "B109-09",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B109-10 倾诉与低谷不作为可利用的缺口",
+      "query": "B109-10",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B109-10 倾诉与低谷不作为可利用的缺口",
+      "query": "B109-10",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-10 倾诉与低谷不作为可利用的缺口",
+      "query": "B109-10",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-10 倾诉与低谷不作为可利用的缺口",
+      "query": "B109-10",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-11 批评不都源于嫉妒，责任只落在有证据的动作",
+      "query": "B109-11",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-11 批评不都源于嫉妒，责任只落在有证据的动作",
+      "query": "B109-11",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-11 批评不都源于嫉妒，责任只落在有证据的动作",
+      "query": "B109-11",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-12 长期了解允许普通、不完美和真实变化",
+      "query": "B109-12",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-12 长期了解允许普通、不完美和真实变化",
+      "query": "B109-12",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-12 长期了解允许普通、不完美和真实变化",
+      "query": "B109-12",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B109-13 轻量调侃看双方反应，受伤不算自动成功",
+      "query": "B109-13",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B109-13 轻量调侃看双方反应，受伤不算自动成功",
+      "query": "B109-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-13 轻量调侃看双方反应，受伤不算自动成功",
+      "query": "B109-13",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-13 轻量调侃看双方反应，受伤不算自动成功",
+      "query": "B109-13",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-14 风格与性别气质不承担性取向或人格判断",
+      "query": "B109-14",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-14 风格与性别气质不承担性取向或人格判断",
+      "query": "B109-14",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-14 风格与性别气质不承担性取向或人格判断",
+      "query": "B109-14",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-15 练习后自然表达，不冒充天赋或假装无知",
+      "query": "B109-15",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-15 练习后自然表达，不冒充天赋或假装无知",
+      "query": "B109-15",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-15 练习后自然表达，不冒充天赋或假装无知",
+      "query": "B109-15",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B109-16 轻松不要求永远开心，认真内容先回应",
+      "query": "B109-16",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B109-16 轻松不要求永远开心，认真内容先回应",
+      "query": "B109-16",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B109-16 轻松不要求永远开心，认真内容先回应",
+      "query": "B109-16",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B109-17 认真听，也让对方认识真实的自己",
+      "query": "B109-17",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-17 认真听，也让对方认识真实的自己",
+      "query": "B109-17",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-17 认真听，也让对方认识真实的自己",
+      "query": "B109-17",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B109-18 具体帮助与承诺以实际可做到为准",
+      "query": "B109-18",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-18 具体帮助与承诺以实际可做到为准",
+      "query": "B109-18",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-18 具体帮助与承诺以实际可做到为准",
+      "query": "B109-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-18 具体帮助与承诺以实际可做到为准",
+      "query": "B109-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-19 他人不是引发嫉妒的道具",
+      "query": "B109-19",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-19 他人不是引发嫉妒的道具",
+      "query": "B109-19",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-19 他人不是引发嫉妒的道具",
+      "query": "B109-19",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B109-20 公众魅力与两人相处的判断范围分开",
+      "query": "B109-20",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-20 公众魅力与两人相处的判断范围分开",
+      "query": "B109-20",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-20 公众魅力与两人相处的判断范围分开",
+      "query": "B109-20",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-21 镇定可以简洁清楚，也允许不知道",
+      "query": "B109-21",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-21 镇定可以简洁清楚，也允许不知道",
+      "query": "B109-21",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-21 镇定可以简洁清楚，也允许不知道",
+      "query": "B109-21",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-22 资料页展示真实生活，不把自己物化成神话",
+      "query": "B109-22",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B109-22 资料页展示真实生活，不把自己物化成神话",
+      "query": "B109-22",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-22 资料页展示真实生活，不把自己物化成神话",
+      "query": "B109-22",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-23 正常日常与收尾同样有位置",
+      "query": "B109-23",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B109-23 正常日常与收尾同样有位置",
+      "query": "B109-23",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-23 正常日常与收尾同样有位置",
+      "query": "B109-23",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-23 正常日常与收尾同样有位置",
+      "query": "B109-23",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-24 计划用具体事实，不用宏大许诺取代",
+      "query": "B109-24",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-24 计划用具体事实，不用宏大许诺取代",
+      "query": "B109-24",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-24 计划用具体事实，不用宏大许诺取代",
+      "query": "B109-24",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-24 计划用具体事实，不用宏大许诺取代",
+      "query": "B109-24",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B109-25 筛选看具体行为，不使用反诱惑人格名单",
+      "query": "B109-25",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-25 筛选看具体行为，不使用反诱惑人格名单",
+      "query": "B109-25",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B109-25 筛选看具体行为，不使用反诱惑人格名单",
+      "query": "B109-25",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-25 筛选看具体行为，不使用反诱惑人格名单",
+      "query": "B109-25",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-26 不故意拖延或挖苦来检验别人",
+      "query": "B109-26",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-26 不故意拖延或挖苦来检验别人",
+      "query": "B109-26",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-26 不故意拖延或挖苦来检验别人",
+      "query": "B109-26",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-26 不故意拖延或挖苦来检验别人",
+      "query": "B109-26",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-27 投入速度须与已知关系相称",
+      "query": "B109-27",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B109-27 投入速度须与已知关系相称",
+      "query": "B109-27",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-27 投入速度须与已知关系相称",
+      "query": "B109-27",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-27 投入速度须与已知关系相称",
+      "query": "B109-27",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-28 预算、礼貌与关心不按金额等价",
+      "query": "B109-28",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-28 预算、礼貌与关心不按金额等价",
+      "query": "B109-28",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-28 预算、礼貌与关心不按金额等价",
+      "query": "B109-28",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B109-29 一轮回应一件当前事，别把聊天写成讲义",
+      "query": "B109-29",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-29 一轮回应一件当前事，别把聊天写成讲义",
+      "query": "B109-29",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-29 一轮回应一件当前事，别把聊天写成讲义",
+      "query": "B109-29",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-30 偏好需要了解，十八种对象不作匹配算法",
+      "query": "B109-30",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B109-30 偏好需要了解，十八种对象不作匹配算法",
+      "query": "B109-30",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-30 偏好需要了解，十八种对象不作匹配算法",
+      "query": "B109-30",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-30 偏好需要了解，十八种对象不作匹配算法",
+      "query": "B109-30",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B109-31 四阶段二十四策略只作原书结构",
+      "query": "B109-31",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-31 四阶段二十四策略只作原书结构",
+      "query": "B109-31",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝",
+      "query": "B109-32",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝",
+      "query": "B109-32",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝",
+      "query": "B109-32",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝",
+      "query": "B109-32",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "query": "B109-33",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "query": "B109-33",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "query": "B109-33",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "query": "B109-33",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-33 友谊与恋爱意图不靠伪装相互转换",
+      "query": "B109-33",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-34 轻松暧昧不影响关键事实与选择",
+      "query": "B109-34",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B109-34 轻松暧昧不影响关键事实与选择",
+      "query": "B109-34",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B109-34 轻松暧昧不影响关键事实与选择",
+      "query": "B109-34",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-34 轻松暧昧不影响关键事实与选择",
+      "query": "B109-34",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-35 惊喜保留选择，必要行程先说清",
+      "query": "B109-35",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-35 惊喜保留选择，必要行程先说清",
+      "query": "B109-35",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-35 惊喜保留选择，必要行程先说清",
+      "query": "B109-35",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-35 惊喜保留选择，必要行程先说清",
+      "query": "B109-35",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B109-36 共同回忆回扣真实体验，不制造梦幻人设",
+      "query": "B109-36",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-36 共同回忆回扣真实体验，不制造梦幻人设",
+      "query": "B109-36",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-36 共同回忆回扣真实体验，不制造梦幻人设",
+      "query": "B109-36",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-36 共同回忆回扣真实体验，不制造梦幻人设",
+      "query": "B109-36",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-37 适量说真实弱点，不让对方承担拯救义务",
+      "query": "B109-37",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B109-37 适量说真实弱点，不让对方承担拯救义务",
+      "query": "B109-37",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-37 适量说真实弱点，不让对方承担拯救义务",
+      "query": "B109-37",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-37 适量说真实弱点，不让对方承担拯救义务",
+      "query": "B109-37",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B109-38 理解用具体信息表达，不靠无条件附和",
+      "query": "B109-38",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B109-38 理解用具体信息表达，不靠无条件附和",
+      "query": "B109-38",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B109-38 理解用具体信息表达，不靠无条件附和",
+      "query": "B109-38",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B109-38 理解用具体信息表达，不靠无条件附和",
+      "query": "B109-38",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-39 共同活动不以切断亲友和独立生活为目标",
+      "query": "B109-39",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-39 共同活动不以切断亲友和独立生活为目标",
+      "query": "B109-39",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-39 共同活动不以切断亲友和独立生活为目标",
+      "query": "B109-39",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B109-40 履约和修复不需要无休止地证明自己",
+      "query": "B109-40",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-40 履约和修复不需要无休止地证明自己",
+      "query": "B109-40",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B109-40 履约和修复不需要无休止地证明自己",
+      "query": "B109-40",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-40 履约和修复不需要无休止地证明自己",
+      "query": "B109-40",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-41 不扮治疗师，也不把童年解释强加给对方",
+      "query": "B109-41",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B109-41 不扮治疗师，也不把童年解释强加给对方",
+      "query": "B109-41",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-41 不扮治疗师，也不把童年解释强加给对方",
+      "query": "B109-41",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-41 不扮治疗师，也不把童年解释强加给对方",
+      "query": "B109-41",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B109-42 共同兴趣与信念不产生亲密许可",
+      "query": "B109-42",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-42 共同兴趣与信念不产生亲密许可",
+      "query": "B109-42",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-42 共同兴趣与信念不产生亲密许可",
+      "query": "B109-42",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-42 共同兴趣与信念不产生亲密许可",
+      "query": "B109-42",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-43 亲密许可按当时具体意愿，不从身体信号推定",
+      "query": "B109-43",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B109-43 亲密许可按当时具体意愿，不从身体信号推定",
+      "query": "B109-43",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-43 亲密许可按当时具体意愿，不从身体信号推定",
+      "query": "B109-43",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-43 亲密许可按当时具体意愿，不从身体信号推定",
+      "query": "B109-43",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-44 结束与重联清楚表达，不靠制造痛苦维持",
+      "query": "B109-44",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-44 结束与重联清楚表达，不靠制造痛苦维持",
+      "query": "B109-44",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B109-44 结束与重联清楚表达，不靠制造痛苦维持",
+      "query": "B109-44",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B109-44 结束与重联清楚表达，不靠制造痛苦维持",
+      "query": "B109-44",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B109-45 环境服务双方活动，不把场景当自动加速器",
+      "query": "B109-45",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B109-45 环境服务双方活动，不把场景当自动加速器",
+      "query": "B109-45",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B109-45 环境服务双方活动，不把场景当自动加速器",
+      "query": "B109-45",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B109-45 环境服务双方活动，不把场景当自动加速器",
+      "query": "B109-45",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B109-46 媒体、公关与销售例子不变成恋爱劝服规则",
+      "query": "B109-46",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B109-46 媒体、公关与销售例子不变成恋爱劝服规则",
+      "query": "B109-46",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B109-46 媒体、公关与销售例子不变成恋爱劝服规则",
+      "query": "B109-46",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B109-46 媒体、公关与销售例子不变成恋爱劝服规则",
+      "query": "B109-46",
+      "passed": true
+    }
+  ],
+  "unbound_global_retrievals": [
+    {
+      "heading": "B109-01 版本、译序与本轮提供范围",
+      "query": "B109-01",
+      "passed": true
+    }
+  ],
+  "scope": "identity,coverage,retrieval and preservation only; no psychological or dating-effectiveness validation",
+  "actual_required_command_results": [
+    {
+      "name": "structure",
+      "chunk_id": "a5dd96",
+      "wall_time_seconds": 1.1788564830000001,
+      "exit_code": 0,
+      "original_token_count": 87,
+      "output": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"methods\": 26,\n  \"routes\": 36,\n  \"task_modes\": 5,\n  \"preferred_sections\": 26,\n  \"source_records\": 158,\n  \"archived_files\": 44,\n  \"book_text_complete\": 103,\n  \"book_not_started\": 16,\n  \"scope\": \"结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证\"\n}\n"
+    },
+    {
+      "name": "generated_views",
+      "chunk_id": "fc2e6b",
+      "wall_time_seconds": 0.181156262,
+      "exit_code": 0,
+      "original_token_count": 9,
+      "output": "{\n  \"ok\": true,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "unit_tests",
+      "chunk_id": "3e0ed5",
+      "wall_time_seconds": 1.8177e-05,
+      "original_token_count": 43,
+      "output": "...............................................................................................................................\n----------------------------------------------------------------------\nRan 127 tests in 29.113s\n\nOK\n",
+      "exit_code": 0
+    },
+    {
+      "name": "B109_scope_and_retrieval",
+      "chunk_id": "c29920",
+      "wall_time_seconds": 1.6585e-05,
+      "original_token_count": 219,
+      "output": "{\"file\": \"B109\", \"checks\": {\"all_method_actions_conditions_prior_citations_preserved\": true, \"routes_preferred_sections_and_task_modes_preserved\": true, \"all126_original_blob_identities_and_all_other_reading_records_preserved\": true, \"fresh_XML_extraction_matches_all20_spine_normalized_hashes_and_preserves_source_artifacts\": true, \"all47_actual_reading_ranges_contiguous_and_native_counts_not_duplicated\": true, \"blank_final_unit_and_whole_container_without_extra_body_or_images_verified\": true, \"all_new_exact_method_section_retrievals_passed\": 157, \"all_unbound_scope_notes_globally_retrievable\": 1, \"uncited_method_does_not_inherit_whole_new_file\": \"M16\", \"progress103_one_new_file_and_B110_unopened_bookmark_consistent\": true, \"runtime1_5_4_maintenance_and_B108_reading_history_preserved\": true, \"current_count_closures_and_next_unopened_checkpoint_consistent\": true}}\n",
+      "exit_code": 0
+    },
+    {
+      "name": "whitespace",
+      "chunk_id": "891cbd",
+      "wall_time_seconds": 0.033807804,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  ]
+}

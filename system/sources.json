@@ -1426,9 +1426,17 @@
       "group": "books2_original_snapshot",
       "title": "诱惑的艺术 - 罗伯特·格林.epub",
       "git_blob_sha": "23cd47fc047c65846f466400461af371f926e50e",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B109.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B109_reading_2026-11-15.json",
+      "coverage_mode": "direct_ordered_native_EPUB_spine_text_with_independent_HTML_parsers_and_whole_container_audit",
+      "completion_kind": "actual_supplied_EPUB_all20_spine_native_text_units_read_with_blank_final_item_no_images",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B110",
@@ -1923,23 +1931,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 102,
+    "current_book_files_text_complete": 103,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 17
+    "current_book_files_not_started": 16
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B109",
-    "path": "诱惑的艺术 - 罗伯特·格林.epub",
-    "bytes": 432201,
-    "git_blob_sha": "23cd47fc047c65846f466400461af371f926e50e",
+    "id": "B110",
+    "path": "诱惑艺术 - 谜男.pdf",
+    "bytes": 1870835,
+    "git_blob_sha": "e92f34e0b8fd85f33e7b22e15aadc048eaeb919c",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_spine_item": 1,
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B108当前408页OCR辅助通读及42组笔记、120处引用先保存提交；下一唯一主读B109《诱惑的艺术 - 罗伯特·格林.epub》，共20个spine项目，从第1项目字符0开始，正文未打开。",
-    "next_content_unit": "Read B109 EPUB from spine item1 character0 only after B108 reading scope notes and checkpoint are committed; body unopened."
+    "start": "B109当前20个spine项目全部处理完毕，含1个空白末项；46组笔记、157处引用先保存提交。下一唯一主读B110《诱惑艺术 - 谜男.pdf》，170物理页，从P1开始，正文未打开。",
+    "next_content_unit": "Read B110 PDF from physical page1 character0 only after B109 current-file native text, notes, scope and checkpoint are committed; body unopened."
   },
   "deferred_work_units": []
 }

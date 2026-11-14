@@ -6,7 +6,7 @@
 
 ## M01
 
-核对对象与原句；共223处。
+核对对象与原句；共229处。
 
 - [核对原文与控制发送](../knowledge/books/G09-jev-chat.md)；旧定位，仅追溯，未绑定整份正文。
 - [输入缺口与对象隔离](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -231,10 +231,16 @@
 - [B108-30 资料页提供线索，不生成一整个人物设定](../knowledge/books/B108.md)
 - [B108-34 选编及双方叙述分开，不替任何一方读心](../knowledge/books/B108.md)
 - [B108-38 认识渠道无需证明勇气，也不按外貌给人分档](../knowledge/books/B108.md)
+- [B109-02 人物故事和文化概括不当微信效果证据](../knowledge/books/B109.md)
+- [B109-20 公众魅力与两人相处的判断范围分开](../knowledge/books/B109.md)
+- [B109-25 筛选看具体行为，不使用反诱惑人格名单](../knowledge/books/B109.md)
+- [B109-31 四阶段二十四策略只作原书结构](../knowledge/books/B109.md)
+- [B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝](../knowledge/books/B109.md)
+- [B109-46 媒体、公关与销售例子不变成恋爱劝服规则](../knowledge/books/B109.md)
 
 ## M02
 
-等对方回这一轮；共63处。
+等对方回这一轮；共64处。
 
 - [重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
 - [不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -299,10 +305,11 @@
 - [B107-23 夜间联系允许温和设限，不演先凶后哄](../knowledge/books/B107.md)
 - [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 - [B108-07 未回复先等，连续单边才停止加码](../knowledge/books/B108.md)
+- [B109-07 自然联系不靠忽冷忽热维持不安](../knowledge/books/B109.md)
 
 ## M03
 
-接住具体内容；共136处。
+接住具体内容；共140处。
 
 - [关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；旧定位，仅追溯，未绑定整份正文。
 - [作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)
@@ -440,10 +447,14 @@
 - [B107-21 真正在难受时先接住，不拿贬低冒充安慰](../knowledge/books/B107.md)
 - [B108-03 聊天服务于了解和见面，邀约不是唯一价值](../knowledge/books/B108.md)
 - [B108-04 从一句具体内容挑一个能接的点](../knowledge/books/B108.md)
+- [B109-03 关注眼前具体信息，不用猜测代替了解](../knowledge/books/B109.md)
+- [B109-17 认真听，也让对方认识真实的自己](../knowledge/books/B109.md)
+- [B109-29 一轮回应一件当前事，别把聊天写成讲义](../knowledge/books/B109.md)
+- [B109-38 理解用具体信息表达，不靠无条件附和](../knowledge/books/B109.md)
 
 ## M04
 
-回应问题并露出一点自己；共168处。
+回应问题并露出一点自己；共178处。
 
 - [自我表达与反固定步骤](../knowledge/books/B072.md)；旧定位，仅追溯，未绑定整份正文。
 - [正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -613,10 +624,20 @@
 - [B108-11 不知道的人与经历直接说不知道](../knowledge/books/B108.md)
 - [B108-23 关键婚恋状态真实说明，不糊弄知情选择](../knowledge/books/B108.md)
 - [B108-36 事实误会能说清就简短说清](../knowledge/books/B108.md)
+- [B109-03 关注眼前具体信息，不用猜测代替了解](../knowledge/books/B109.md)
+- [B109-05 欣赏落在真实细节，语言仍要有实质](../knowledge/books/B109.md)
+- [B109-09 认真疑虑给事实，不借舞台感隐藏关系](../knowledge/books/B109.md)
+- [B109-15 练习后自然表达，不冒充天赋或假装无知](../knowledge/books/B109.md)
+- [B109-17 认真听，也让对方认识真实的自己](../knowledge/books/B109.md)
+- [B109-21 镇定可以简洁清楚，也允许不知道](../knowledge/books/B109.md)
+- [B109-24 计划用具体事实，不用宏大许诺取代](../knowledge/books/B109.md)
+- [B109-29 一轮回应一件当前事，别把聊天写成讲义](../knowledge/books/B109.md)
+- [B109-34 轻松暧昧不影响关键事实与选择](../knowledge/books/B109.md)
+- [B109-38 理解用具体信息表达，不靠无条件附和](../knowledge/books/B109.md)
 
 ## M05
 
-回扣共同话题；共73处。
+回扣共同话题；共75处。
 
 - [P34与P37–39 Callback Humor](../knowledge/books/B092.md)；旧定位，仅追溯，未绑定整份正文。
 - [回叫幽默的限制](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -691,10 +712,12 @@
 - [B107-24 共同口味能接到邀请，不能代替具体安排](../knowledge/books/B107.md)
 - [B108-04 从一句具体内容挑一个能接的点](../knowledge/books/B108.md)
 - [B108-31 故事与旧话题只回扣真正发生的事](../knowledge/books/B108.md)
+- [B109-03 关注眼前具体信息，不用猜测代替了解](../knowledge/books/B109.md)
+- [B109-36 共同回忆回扣真实体验，不制造梦幻人设](../knowledge/books/B109.md)
 
 ## M06
 
-轻量夸张或曲解；共74处。
+轻量夸张或曲解；共76处。
 
 - [夸张曲解](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -770,10 +793,12 @@
 - [B107-27 愿意开玩笑不等于愿意谈所有私密话题](../knowledge/books/B107.md)
 - [B108-14 具体欣赏不需要先贬低再补偿](../knowledge/books/B108.md)
 - [B108-18 称呼和角色玩笑随双方意愿，不当关系凭据](../knowledge/books/B108.md)
+- [B109-13 轻量调侃看双方反应，受伤不算自动成功](../knowledge/books/B109.md)
+- [B109-34 轻松暧昧不影响关键事实与选择](../knowledge/books/B109.md)
 
 ## M07
 
-共同角色玩笑；共53处。
+共同角色玩笑；共56处。
 
 - [角色扮演](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
@@ -828,10 +853,13 @@
 - [B107-28 约会小游戏是共同娱乐，不制造债务](../knowledge/books/B107.md)
 - [B108-17 共同兴趣与想象见面不产生亲密义务](../knowledge/books/B108.md)
 - [B108-18 称呼和角色玩笑随双方意愿，不当关系凭据](../knowledge/books/B108.md)
+- [B109-13 轻量调侃看双方反应，受伤不算自动成功](../knowledge/books/B109.md)
+- [B109-34 轻松暧昧不影响关键事实与选择](../knowledge/books/B109.md)
+- [B109-42 共同兴趣与信念不产生亲密许可](../knowledge/books/B109.md)
 
 ## M08
 
-有依据的可纠正观察；共219处。
+有依据的可纠正观察；共230处。
 
 - [冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [冷读](../knowledge/topics/theory-map.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1052,10 +1080,21 @@
 - [B108-30 资料页提供线索，不生成一整个人物设定](../knowledge/books/B108.md)
 - [B108-34 选编及双方叙述分开，不替任何一方读心](../knowledge/books/B108.md)
 - [B108-35 先核他人和情境，不把结果自动归责用户](../knowledge/books/B108.md)
+- [B109-02 人物故事和文化概括不当微信效果证据](../knowledge/books/B109.md)
+- [B109-03 关注眼前具体信息，不用猜测代替了解](../knowledge/books/B109.md)
+- [B109-10 倾诉与低谷不作为可利用的缺口](../knowledge/books/B109.md)
+- [B109-14 风格与性别气质不承担性取向或人格判断](../knowledge/books/B109.md)
+- [B109-20 公众魅力与两人相处的判断范围分开](../knowledge/books/B109.md)
+- [B109-25 筛选看具体行为，不使用反诱惑人格名单](../knowledge/books/B109.md)
+- [B109-26 不故意拖延或挖苦来检验别人](../knowledge/books/B109.md)
+- [B109-30 偏好需要了解，十八种对象不作匹配算法](../knowledge/books/B109.md)
+- [B109-41 不扮治疗师，也不把童年解释强加给对方](../knowledge/books/B109.md)
+- [B109-43 亲密许可按当时具体意愿，不从身体信号推定](../knowledge/books/B109.md)
+- [B109-46 媒体、公关与销售例子不变成恋爱劝服规则](../knowledge/books/B109.md)
 
 ## M09
 
-具体欣赏；共97处。
+具体欣赏；共99处。
 
 - [具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1154,10 +1193,12 @@
 - [B108-14 具体欣赏不需要先贬低再补偿](../knowledge/books/B108.md)
 - [B108-29 承接真诚反馈，正常欣赏不必冷脸维持位置](../knowledge/books/B108.md)
 - [B108-40 礼物和惊喜贴合已知偏好，不靠通用性别假设](../knowledge/books/B108.md)
+- [B109-05 欣赏落在真实细节，语言仍要有实质](../knowledge/books/B109.md)
+- [B109-30 偏好需要了解，十八种对象不作匹配算法](../knowledge/books/B109.md)
 
 ## M10
 
-分享真实生活；共203处。
+分享真实生活；共213处。
 
 - [关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；旧定位，仅追溯，未绑定整份正文。
 - [真实展示](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1362,10 +1403,20 @@
 - [B108-31 故事与旧话题只回扣真正发生的事](../knowledge/books/B108.md)
 - [B108-40 礼物和惊喜贴合已知偏好，不靠通用性别假设](../knowledge/books/B108.md)
 - [B108-42 共同照片是自愿记录，不制造竞争或证明占有](../knowledge/books/B108.md)
+- [B109-04 真实特点可以展示，不需要套进九种角色](../knowledge/books/B109.md)
+- [B109-12 长期了解允许普通、不完美和真实变化](../knowledge/books/B109.md)
+- [B109-14 风格与性别气质不承担性取向或人格判断](../knowledge/books/B109.md)
+- [B109-15 练习后自然表达，不冒充天赋或假装无知](../knowledge/books/B109.md)
+- [B109-17 认真听，也让对方认识真实的自己](../knowledge/books/B109.md)
+- [B109-22 资料页展示真实生活，不把自己物化成神话](../knowledge/books/B109.md)
+- [B109-33 友谊与恋爱意图不靠伪装相互转换](../knowledge/books/B109.md)
+- [B109-36 共同回忆回扣真实体验，不制造梦幻人设](../knowledge/books/B109.md)
+- [B109-37 适量说真实弱点，不让对方承担拯救义务](../knowledge/books/B109.md)
+- [B109-46 媒体、公关与销售例子不变成恋爱劝服规则](../knowledge/books/B109.md)
 
 ## M11
 
-接住困扰；共91处。
+接住困扰；共96处。
 
 - [情绪回应指南的细节](../knowledge/books/G01-lianai.md)
 - [状态、感受、关联](../knowledge/books/S04-top30-units.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1458,10 +1509,15 @@
 - [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
 - [B107-21 真正在难受时先接住，不拿贬低冒充安慰](../knowledge/books/B107.md)
 - [B108-21 困难与求助先回应，别把倾诉视为可趁之机](../knowledge/books/B108.md)
+- [B109-10 倾诉与低谷不作为可利用的缺口](../knowledge/books/B109.md)
+- [B109-16 轻松不要求永远开心，认真内容先回应](../knowledge/books/B109.md)
+- [B109-37 适量说真实弱点，不让对方承担拯救义务](../knowledge/books/B109.md)
+- [B109-38 理解用具体信息表达，不靠无条件附和](../knowledge/books/B109.md)
+- [B109-41 不扮治疗师，也不把童年解释强加给对方](../knowledge/books/B109.md)
 
 ## M12
 
-一起高兴；共23处。
+一起高兴；共25处。
 
 - [融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；旧定位，仅追溯，未绑定整份正文。
 - [开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1486,10 +1542,12 @@
 - [B107-28 约会小游戏是共同娱乐，不制造债务](../knowledge/books/B107.md)
 - [B108-05 说真实感受，并给她参与空间](../knowledge/books/B108.md)
 - [B108-29 承接真诚反馈，正常欣赏不必冷脸维持位置](../knowledge/books/B108.md)
+- [B109-05 欣赏落在真实细节，语言仍要有实质](../knowledge/books/B109.md)
+- [B109-16 轻松不要求永远开心，认真内容先回应](../knowledge/books/B109.md)
 
 ## M13
 
-回答她确实提出的求助；共64处。
+回答她确实提出的求助；共69处。
 
 - [认真回应资讯与求助](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
 - [倾听与方案区别](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1555,10 +1613,15 @@
 - [B108-21 困难与求助先回应，别把倾诉视为可趁之机](../knowledge/books/B108.md)
 - [B108-22 健康、身体反应与科学名词不作暧昧背书](../knowledge/books/B108.md)
 - [B108-26 电话、照片与隐私分别尊重具体选择](../knowledge/books/B108.md)
+- [B109-10 倾诉与低谷不作为可利用的缺口](../knowledge/books/B109.md)
+- [B109-16 轻松不要求永远开心，认真内容先回应](../knowledge/books/B109.md)
+- [B109-18 具体帮助与承诺以实际可做到为准](../knowledge/books/B109.md)
+- [B109-38 理解用具体信息表达，不靠无条件附和](../knowledge/books/B109.md)
+- [B109-40 履约和修复不需要无休止地证明自己](../knowledge/books/B109.md)
 
 ## M14
 
-一次具体邀约；共133处。
+一次具体邀约；共142处。
 
 - [实际动作的条件](../knowledge/topics/invitation-feedback.md)
 - [主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1693,10 +1756,19 @@
 - [B108-08 具体邀请说明活动，不把含糊当答应](../knowledge/books/B108.md)
 - [B108-28 见面安排照顾真实偏好和结束时间](../knowledge/books/B108.md)
 - [B108-37 职务礼貌与联系方式不等于私人关系进展](../knowledge/books/B108.md)
+- [B109-06 共同体验按实际偏好和预算安排](../knowledge/books/B109.md)
+- [B109-24 计划用具体事实，不用宏大许诺取代](../knowledge/books/B109.md)
+- [B109-27 投入速度须与已知关系相称](../knowledge/books/B109.md)
+- [B109-30 偏好需要了解，十八种对象不作匹配算法](../knowledge/books/B109.md)
+- [B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝](../knowledge/books/B109.md)
+- [B109-33 友谊与恋爱意图不靠伪装相互转换](../knowledge/books/B109.md)
+- [B109-35 惊喜保留选择，必要行程先说清](../knowledge/books/B109.md)
+- [B109-42 共同兴趣与信念不产生亲密许可](../knowledge/books/B109.md)
+- [B109-45 环境服务双方活动，不把场景当自动加速器](../knowledge/books/B109.md)
 
 ## M15
 
-确认已答应的安排；共102处。
+确认已答应的安排；共110处。
 
 - [意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
 - [现实安排](../knowledge/cases/C09-b092-logistics.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1800,6 +1872,14 @@
 - [B108-39 体谅预算与制造支付压力分开](../knowledge/books/B108.md)
 - [B108-40 礼物和惊喜贴合已知偏好，不靠通用性别假设](../knowledge/books/B108.md)
 - [B108-41 正常转场说清楚，不刻意制造脆弱来推进](../knowledge/books/B108.md)
+- [B109-06 共同体验按实际偏好和预算安排](../knowledge/books/B109.md)
+- [B109-18 具体帮助与承诺以实际可做到为准](../knowledge/books/B109.md)
+- [B109-23 正常日常与收尾同样有位置](../knowledge/books/B109.md)
+- [B109-24 计划用具体事实，不用宏大许诺取代](../knowledge/books/B109.md)
+- [B109-28 预算、礼貌与关心不按金额等价](../knowledge/books/B109.md)
+- [B109-35 惊喜保留选择，必要行程先说清](../knowledge/books/B109.md)
+- [B109-40 履约和修复不需要无休止地证明自己](../knowledge/books/B109.md)
+- [B109-45 环境服务双方活动，不把场景当自动加速器](../knowledge/books/B109.md)
 
 ## M16
 
@@ -1915,7 +1995,7 @@
 
 ## M18
 
-完整短答照常接；共49处。
+完整短答照常接；共50处。
 
 - [短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [信号表的限制](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1966,10 +2046,11 @@
 - [B107-03 普通选择只给普通信息，不据此冷读人格](../knowledge/books/B107.md)
 - [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 - [B108-06 简短以完整为先，不机械删语气词](../knowledge/books/B108.md)
+- [B109-23 正常日常与收尾同样有位置](../knowledge/books/B109.md)
 
 ## M19
 
-持续单边时停止加码；共130处。
+持续单边时停止加码；共134处。
 
 - [互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2101,10 +2182,14 @@
 - [B107-10 重新联系有真实入口，不用冷落时长制造价值](../knowledge/books/B107.md)
 - [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 - [B108-07 未回复先等，连续单边才停止加码](../knowledge/books/B108.md)
+- [B109-07 自然联系不靠忽冷忽热维持不安](../knowledge/books/B109.md)
+- [B109-25 筛选看具体行为，不使用反诱惑人格名单](../knowledge/books/B109.md)
+- [B109-27 投入速度须与已知关系相称](../knowledge/books/B109.md)
+- [B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝](../knowledge/books/B109.md)
 
 ## M20
 
-接住纠正或澄清；共121处。
+接住纠正或澄清；共130处。
 
 - [角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
 - [原句优先](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2227,10 +2312,19 @@
 - [B108-27 对方纠正时更新，不把自己的解释压过原话](../knowledge/books/B108.md)
 - [B108-35 先核他人和情境，不把结果自动归责用户](../knowledge/books/B108.md)
 - [B108-36 事实误会能说清就简短说清](../knowledge/books/B108.md)
+- [B109-09 认真疑虑给事实，不借舞台感隐藏关系](../knowledge/books/B109.md)
+- [B109-11 批评不都源于嫉妒，责任只落在有证据的动作](../knowledge/books/B109.md)
+- [B109-12 长期了解允许普通、不完美和真实变化](../knowledge/books/B109.md)
+- [B109-21 镇定可以简洁清楚，也允许不知道](../knowledge/books/B109.md)
+- [B109-26 不故意拖延或挖苦来检验别人](../knowledge/books/B109.md)
+- [B109-30 偏好需要了解，十八种对象不作匹配算法](../knowledge/books/B109.md)
+- [B109-33 友谊与恋爱意图不靠伪装相互转换](../knowledge/books/B109.md)
+- [B109-41 不扮治疗师，也不把童年解释强加给对方](../knowledge/books/B109.md)
+- [B109-43 亲密许可按当时具体意愿，不从身体信号推定](../knowledge/books/B109.md)
 
 ## M21
 
-有依据的修复；共88处。
+有依据的修复；共94处。
 
 - [沟通冲突与修复](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；旧定位，仅追溯，未绑定整份正文。
@@ -2320,10 +2414,16 @@
 - [B108-20 承诺和改期按约定兑现，不以不可预测代替可靠](../knowledge/books/B108.md)
 - [B108-27 对方纠正时更新，不把自己的解释压过原话](../knowledge/books/B108.md)
 - [B108-36 事实误会能说清就简短说清](../knowledge/books/B108.md)
+- [B109-11 批评不都源于嫉妒，责任只落在有证据的动作](../knowledge/books/B109.md)
+- [B109-18 具体帮助与承诺以实际可做到为准](../knowledge/books/B109.md)
+- [B109-24 计划用具体事实，不用宏大许诺取代](../knowledge/books/B109.md)
+- [B109-26 不故意拖延或挖苦来检验别人](../knowledge/books/B109.md)
+- [B109-37 适量说真实弱点，不让对方承担拯救义务](../knowledge/books/B109.md)
+- [B109-40 履约和修复不需要无休止地证明自己](../knowledge/books/B109.md)
 
 ## M22
 
-表达边界；共384处。
+表达边界；共407处。
 
 - [具体请求与边界](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2709,10 +2809,33 @@
 - [B108-40 礼物和惊喜贴合已知偏好，不靠通用性别假设](../knowledge/books/B108.md)
 - [B108-41 正常转场说清楚，不刻意制造脆弱来推进](../knowledge/books/B108.md)
 - [B108-42 共同照片是自愿记录，不制造竞争或证明占有](../knowledge/books/B108.md)
+- [B109-06 共同体验按实际偏好和预算安排](../knowledge/books/B109.md)
+- [B109-08 拒绝按当时原话尊重，不翻译成邀请](../knowledge/books/B109.md)
+- [B109-09 认真疑虑给事实，不借舞台感隐藏关系](../knowledge/books/B109.md)
+- [B109-10 倾诉与低谷不作为可利用的缺口](../knowledge/books/B109.md)
+- [B109-11 批评不都源于嫉妒，责任只落在有证据的动作](../knowledge/books/B109.md)
+- [B109-13 轻量调侃看双方反应，受伤不算自动成功](../knowledge/books/B109.md)
+- [B109-14 风格与性别气质不承担性取向或人格判断](../knowledge/books/B109.md)
+- [B109-18 具体帮助与承诺以实际可做到为准](../knowledge/books/B109.md)
+- [B109-19 他人不是引发嫉妒的道具](../knowledge/books/B109.md)
+- [B109-22 资料页展示真实生活，不把自己物化成神话](../knowledge/books/B109.md)
+- [B109-25 筛选看具体行为，不使用反诱惑人格名单](../knowledge/books/B109.md)
+- [B109-27 投入速度须与已知关系相称](../knowledge/books/B109.md)
+- [B109-28 预算、礼貌与关心不按金额等价](../knowledge/books/B109.md)
+- [B109-33 友谊与恋爱意图不靠伪装相互转换](../knowledge/books/B109.md)
+- [B109-35 惊喜保留选择，必要行程先说清](../knowledge/books/B109.md)
+- [B109-37 适量说真实弱点，不让对方承担拯救义务](../knowledge/books/B109.md)
+- [B109-39 共同活动不以切断亲友和独立生活为目标](../knowledge/books/B109.md)
+- [B109-40 履约和修复不需要无休止地证明自己](../knowledge/books/B109.md)
+- [B109-41 不扮治疗师，也不把童年解释强加给对方](../knowledge/books/B109.md)
+- [B109-42 共同兴趣与信念不产生亲密许可](../knowledge/books/B109.md)
+- [B109-43 亲密许可按当时具体意愿，不从身体信号推定](../knowledge/books/B109.md)
+- [B109-44 结束与重联清楚表达，不靠制造痛苦维持](../knowledge/books/B109.md)
+- [B109-45 环境服务双方活动，不把场景当自动加速器](../knowledge/books/B109.md)
 
 ## M23
 
-尊重拒绝的具体范围；共359处。
+尊重拒绝的具体范围；共370处。
 
 - [明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3073,10 +3196,21 @@
 - [B108-37 职务礼貌与联系方式不等于私人关系进展](../knowledge/books/B108.md)
 - [B108-41 正常转场说清楚，不刻意制造脆弱来推进](../knowledge/books/B108.md)
 - [B108-42 共同照片是自愿记录，不制造竞争或证明占有](../knowledge/books/B108.md)
+- [B109-08 拒绝按当时原话尊重，不翻译成邀请](../knowledge/books/B109.md)
+- [B109-19 他人不是引发嫉妒的道具](../knowledge/books/B109.md)
+- [B109-26 不故意拖延或挖苦来检验别人](../knowledge/books/B109.md)
+- [B109-32 筛选看双方意愿，不专挑脆弱对象或挑战拒绝](../knowledge/books/B109.md)
+- [B109-34 轻松暧昧不影响关键事实与选择](../knowledge/books/B109.md)
+- [B109-35 惊喜保留选择，必要行程先说清](../knowledge/books/B109.md)
+- [B109-39 共同活动不以切断亲友和独立生活为目标](../knowledge/books/B109.md)
+- [B109-42 共同兴趣与信念不产生亲密许可](../knowledge/books/B109.md)
+- [B109-43 亲密许可按当时具体意愿，不从身体信号推定](../knowledge/books/B109.md)
+- [B109-44 结束与重联清楚表达，不靠制造痛苦维持](../knowledge/books/B109.md)
+- [B109-45 环境服务双方活动，不把场景当自动加速器](../knowledge/books/B109.md)
 
 ## M24
 
-见面后的真实反馈；共74处。
+见面后的真实反馈；共85处。
 
 - [第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3152,10 +3286,21 @@
 - [B108-34 选编及双方叙述分开，不替任何一方读心](../knowledge/books/B108.md)
 - [B108-39 体谅预算与制造支付压力分开](../knowledge/books/B108.md)
 - [B108-42 共同照片是自愿记录，不制造竞争或证明占有](../knowledge/books/B108.md)
+- [B109-07 自然联系不靠忽冷忽热维持不安](../knowledge/books/B109.md)
+- [B109-12 长期了解允许普通、不完美和真实变化](../knowledge/books/B109.md)
+- [B109-19 他人不是引发嫉妒的道具](../knowledge/books/B109.md)
+- [B109-20 公众魅力与两人相处的判断范围分开](../knowledge/books/B109.md)
+- [B109-23 正常日常与收尾同样有位置](../knowledge/books/B109.md)
+- [B109-27 投入速度须与已知关系相称](../knowledge/books/B109.md)
+- [B109-28 预算、礼貌与关心不按金额等价](../knowledge/books/B109.md)
+- [B109-33 友谊与恋爱意图不靠伪装相互转换](../knowledge/books/B109.md)
+- [B109-36 共同回忆回扣真实体验，不制造梦幻人设](../knowledge/books/B109.md)
+- [B109-39 共同活动不以切断亲友和独立生活为目标](../knowledge/books/B109.md)
+- [B109-44 结束与重联清楚表达，不靠制造痛苦维持](../knowledge/books/B109.md)
 
 ## M25
 
-开场或自然重联；共178处。
+开场或自然重联；共181处。
 
 - [现场素材与反馈分支](../knowledge/books/B090.md)；旧定位，仅追溯，未绑定整份正文。
 - [重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3335,10 +3480,13 @@
 - [B108-30 资料页提供线索，不生成一整个人物设定](../knowledge/books/B108.md)
 - [B108-37 职务礼貌与联系方式不等于私人关系进展](../knowledge/books/B108.md)
 - [B108-38 认识渠道无需证明勇气，也不按外貌给人分档](../knowledge/books/B108.md)
+- [B109-04 真实特点可以展示，不需要套进九种角色](../knowledge/books/B109.md)
+- [B109-22 资料页展示真实生活，不把自己物化成神话](../knowledge/books/B109.md)
+- [B109-44 结束与重联清楚表达，不靠制造痛苦维持](../knowledge/books/B109.md)
 
 ## M26
 
-压成一句自然的话；共198处。
+压成一句自然的话；共207处。
 
 - [一个目标与口吻](../knowledge/books/G01-practical-expansion.md)
 - [自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3538,3 +3686,12 @@
 - [B108-06 简短以完整为先，不机械删语气词](../knowledge/books/B108.md)
 - [B108-13 主动不等于尾随、拦路或按比例独白](../knowledge/books/B108.md)
 - [B108-31 故事与旧话题只回扣真正发生的事](../knowledge/books/B108.md)
+- [B109-04 真实特点可以展示，不需要套进九种角色](../knowledge/books/B109.md)
+- [B109-13 轻量调侃看双方反应，受伤不算自动成功](../knowledge/books/B109.md)
+- [B109-15 练习后自然表达，不冒充天赋或假装无知](../knowledge/books/B109.md)
+- [B109-21 镇定可以简洁清楚，也允许不知道](../knowledge/books/B109.md)
+- [B109-23 正常日常与收尾同样有位置](../knowledge/books/B109.md)
+- [B109-29 一轮回应一件当前事，别把聊天写成讲义](../knowledge/books/B109.md)
+- [B109-31 四阶段二十四策略只作原书结构](../knowledge/books/B109.md)
+- [B109-36 共同回忆回扣真实体验，不制造梦幻人设](../knowledge/books/B109.md)
+- [B109-46 媒体、公关与销售例子不变成恋爱劝服规则](../knowledge/books/B109.md)
