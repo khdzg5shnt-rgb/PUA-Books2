@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成101/119份任务，无部分处理文件、18份未开始。94份当前提供内容已覆盖（含历史B100明确同文复用），7份依用户授权结束并保留缺口。本轮B107《言情恋爱话术惯例 - 乌鸦救赎》105页原生文字32890字符依序读完，无嵌入栅格图像，23页版式已核；105页提取严格一致。新增34组整合笔记、96处精确方法引用。下一唯一主读B108物理P1，正文未打开。[本轮记录](B107_progress_2026-11-15.md)。
+当前完成102/119份任务，无部分处理文件、17份未开始。95份当前提供内容已覆盖（含历史B100严格同文复用），7份依用户授权结束并保留缺口。本轮先完成B107的105页原生文字，再完成B108的408页OCR辅助通读；B108保留识别误差、原页缺图及上册范围，不冒称逐字校勘。两份合计76组原创笔记、216处精确方法引用。下一唯一主读B109 EPUB第1个spine项目字符0，正文未打开。[本轮记录](B108_progress_2026-11-15.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -120,7 +120,7 @@
 | B105 | [自然道作品集.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E9%81%93%E4%BD%9C%E5%93%81%E9%9B%86.pdf) | 80 | 当前80页文字与全部2图已读；原版及外部资源另计 | [笔记](../books/B105.md) |
 | B106 | [蓝图解码 - Real Social Dynamics.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%93%9D%E5%9B%BE%E8%A7%A3%E7%A0%81%20-%20Real%20Social%20Dynamics.pdf) | 98 | 当前98页文字与全部1图已读；原版及外部资源另计 | [笔记](../books/B106.md) |
 | B107 | [言情恋爱话术惯例 - 乌鸦救赎.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%A8%80%E6%83%85%E6%81%8B%E7%88%B1%E8%AF%9D%E6%9C%AF%E6%83%AF%E4%BE%8B%20-%20%E4%B9%8C%E9%B8%A6%E6%95%91%E8%B5%8E.pdf) | 105 | 当前105页文字与全部0图已读；原版及外部资源另计 | [笔记](../books/B107.md) |
-| B108 | [话术惯例大全（完美扫描版）- 浪迹团队.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%9D%E6%9C%AF%E6%83%AF%E4%BE%8B%E5%A4%A7%E5%85%A8%EF%BC%88%E5%AE%8C%E7%BE%8E%E6%89%AB%E6%8F%8F%E7%89%88%EF%BC%89-%20%E6%B5%AA%E8%BF%B9%E5%9B%A2%E9%98%9F.pdf) | 408 | 已OCR/未读 | — |
+| B108 | [话术惯例大全（完美扫描版）- 浪迹团队.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%9D%E6%9C%AF%E6%83%AF%E4%BE%8B%E5%A4%A7%E5%85%A8%EF%BC%88%E5%AE%8C%E7%BE%8E%E6%89%AB%E6%8F%8F%E7%89%88%EF%BC%89-%20%E6%B5%AA%E8%BF%B9%E5%9B%A2%E9%98%9F.pdf) | 408 | 当前408页OCR辅助通读；43页全尺寸目核，识别误差与原页缺图保留 | [笔记](../books/B108.md) |
 | B109 | [诱惑的艺术 - 罗伯特·格林.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%B1%E6%83%91%E7%9A%84%E8%89%BA%E6%9C%AF%20-%20%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E6%A0%BC%E6%9E%97.epub) | 20 | 已提取/未读 | — |
 | B110 | [诱惑艺术 - 谜男.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%B1%E6%83%91%E8%89%BA%E6%9C%AF%20-%20%E8%B0%9C%E7%94%B7.pdf) | 170 | 已提取/未读 | — |
 | B111 | [谜男启示录 - 谜男.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B0%9C%E7%94%B7%E5%90%AF%E7%A4%BA%E5%BD%95%20-%20%E8%B0%9C%E7%94%B7.pdf) | 185 | 已提取/未读 | — |
