@@ -16226,8 +16226,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%87%AA%E7%84%B6%E9%81%93%E4%BD%9C%E5%93%81%E9%9B%86.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B105.md",
       "pages": 80,
       "spine_items": null,
       "ocr": {
@@ -16235,7 +16235,57 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B105_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered_native_pages_all_distinct_raster_payloads_and_selected_layouts",
+      "completion_kind": "actual_supplied_PDF_all_native_pages_and_all_distinct_raster_payloads_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "10ebcb46b8bd6bacf52ab9fa4f3722fa1500848c2c0e4c1e52831888080820e4",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B105_reading_2026-11-14.json",
+        "native_characters": 59100,
+        "native_pages_read": 80,
+        "visual_layout_pages": [
+          1,
+          4,
+          13,
+          14,
+          15,
+          16,
+          19,
+          22,
+          26,
+          38,
+          40,
+          44,
+          45,
+          51,
+          52,
+          53,
+          80
+        ],
+        "distinct_raster_payloads_actually_viewed": 2,
+        "strict_nonwhitespace_exact_pages": 76,
+        "reviewed_extractor_difference_pages": [
+          4,
+          19,
+          38,
+          53
+        ],
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "当前是2008年博客文章的PDF汇编，非经认证的完整出版物",
+          "文中拟发布的视频、其他书籍、原博客后续和收费课程均未随附或访问",
+          "两张图仅作图像范围核对，不据此认证人物、师承与故事"
+        ],
+        "original_note_groups": 40,
+        "new_exact_method_section_bindings": 84
+      }
     },
     {
       "index": 106,
@@ -16754,5 +16804,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B104all13EPUBspineunits88005nativecharactersreadinorder;all13nonwhitespaceexactbetweentwoHTMLparsers;wholepackageauditfindsnoimagesoradditionalbodyunits;12strictXMLtagmismatchesrecoverablyparsed;noOCRorvisualrendercredit.62originalnotes113exactbindings.Newturn1wholefileread;98/119=91currentcoveragesincludinghistoricalB100reuse+7closures.NextB105P1bodyunopened.Runtime1.5.3preserved."
+  "latest_reading_update": "2026-11-14:B105 all80 native pages,59100 extracted characters and all2 raster payloads read;17 current layouts viewed;76 exact extractor pages plus4 reviewed formatting differences;40 notes,84 exact method bindings;99/119=92 current coverages including B100 reuse+7 closures;nextB106P1 body unopened."
 }

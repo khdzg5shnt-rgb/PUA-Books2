@@ -1,0 +1,538 @@
+{
+  "status": "passed",
+  "file_id": "B105",
+  "baseline": "0adac7057580586dd91075d6c4d3bf305c35a93b",
+  "checks": {
+    "all_method_actions_conditions_prior_citations_preserved": true,
+    "routes_preferred_sections_and_task_modes_preserved": true,
+    "all126_original_blob_identities_and_all_other_reading_records_preserved": true,
+    "source_sha256_all_page_ranges_and_no_double_counting": true,
+    "all_images_vector_line_pages_and_extractor_differences_actually_viewed": true,
+    "all_new_exact_method_section_retrievals_passed": 84,
+    "all_unbound_scope_notes_globally_retrievable": 2,
+    "uncited_method_does_not_inherit_whole_new_file": "M02",
+    "current_count_closures_and_next_unopened_checkpoint_consistent": true,
+    "validate_os": true,
+    "unit_tests_passed": 119,
+    "git_diff_check": true
+  },
+  "new_exact_method_retrievals": [
+    {
+      "method": "M01",
+      "heading": "B105-02 精选经历不能变成必然因果或对读者的归责",
+      "query": "B105-02",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B105-02 精选经历不能变成必然因果或对读者的归责",
+      "query": "B105-02",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B105-03 书内阶段供整理，不按小时或惯例数自动推进",
+      "query": "B105-03",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B105-03 书内阶段供整理，不按小时或惯例数自动推进",
+      "query": "B105-03",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-04 认识缘由用当下真实细节说明",
+      "query": "B105-04",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B105-04 认识缘由用当下真实细节说明",
+      "query": "B105-04",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-05 直接表达认识意愿不需要先假装没有兴趣",
+      "query": "B105-05",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B105-05 直接表达认识意愿不需要先假装没有兴趣",
+      "query": "B105-05",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-06 轻松开场照顾交流空间，不编时间限制",
+      "query": "B105-06",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B105-06 轻松开场照顾交流空间，不编时间限制",
+      "query": "B105-06",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B105-07 话题转折先接信息，不机械跳进下一个节目",
+      "query": "B105-07",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B105-07 话题转折先接信息，不机械跳进下一个节目",
+      "query": "B105-07",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B105-07 话题转折先接信息，不机械跳进下一个节目",
+      "query": "B105-07",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B105-08 共同经历回扣不等于必须续完旧惯例",
+      "query": "B105-08",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B105-08 共同经历回扣不等于必须续完旧惯例",
+      "query": "B105-08",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B105-09 生活分享选一个真实细节，故事不是才艺考核",
+      "query": "B105-09",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B105-09 生活分享选一个真实细节，故事不是才艺考核",
+      "query": "B105-09",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B105-10 了解兴趣靠互相分享，不连续追问人生内核",
+      "query": "B105-10",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B105-10 了解兴趣靠互相分享，不连续追问人生内核",
+      "query": "B105-10",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B105-11 戒指、笑容与手相都不承担性格和兴趣结论",
+      "query": "B105-11",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B105-11 戒指、笑容与手相都不承担性格和兴趣结论",
+      "query": "B105-11",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B105-12 名字、微笑和回答不自动成为恋爱兴趣",
+      "query": "B105-12",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B105-12 名字、微笑和回答不自动成为恋爱兴趣",
+      "query": "B105-12",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B105-13 有共同语境才调侃，不以不舒服换注意",
+      "query": "B105-13",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B105-13 有共同语境才调侃，不以不舒服换注意",
+      "query": "B105-13",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B105-14 具体欣赏不附带资格审查",
+      "query": "B105-14",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B105-14 具体欣赏不附带资格审查",
+      "query": "B105-14",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-15 拿到联系方式后按实际结束，不表演停留",
+      "query": "B105-15",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B105-15 拿到联系方式后按实际结束，不表演停留",
+      "query": "B105-15",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B105-16 借活动联系必须有真实活动",
+      "query": "B105-16",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B105-16 借活动联系必须有真实活动",
+      "query": "B105-16",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B105-17 转场说明地点和活动，不折算成亲密时间",
+      "query": "B105-17",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B105-17 转场说明地点和活动，不折算成亲密时间",
+      "query": "B105-17",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-17 转场说明地点和活动，不折算成亲密时间",
+      "query": "B105-17",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B105-18 见面愿意只对当前活动负责",
+      "query": "B105-18",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-18 见面愿意只对当前活动负责",
+      "query": "B105-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-19 同意游戏或接触不建立通用许可",
+      "query": "B105-19",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-19 同意游戏或接触不建立通用许可",
+      "query": "B105-19",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B105-20 帮助和专业身份不交换亲密",
+      "query": "B105-20",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-20 帮助和专业身份不交换亲密",
+      "query": "B105-20",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B105-21 有伴侣与明确拒绝不解释成保护壳",
+      "query": "B105-21",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-21 有伴侣与明确拒绝不解释成保护壳",
+      "query": "B105-21",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B105-22 真心和付出不产生对方的义务",
+      "query": "B105-22",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-22 真心和付出不产生对方的义务",
+      "query": "B105-22",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B105-23 朋友介绍保留真实，不设套隔离同行者",
+      "query": "B105-23",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-23 朋友介绍保留真实，不设套隔离同行者",
+      "query": "B105-23",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-23 朋友介绍保留真实，不设套隔离同行者",
+      "query": "B105-23",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B105-24 同伴反馈具体，练习可以随时退出",
+      "query": "B105-24",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-24 同伴反馈具体，练习可以随时退出",
+      "query": "B105-24",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-25 尊重不靠惩罚或控制对方建立",
+      "query": "B105-25",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B105-25 尊重不靠惩罚或控制对方建立",
+      "query": "B105-25",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B105-26 未来话题区分想法、邀请和已确认计划",
+      "query": "B105-26",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B105-26 未来话题区分想法、邀请和已确认计划",
+      "query": "B105-26",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B105-26 未来话题区分想法、邀请和已确认计划",
+      "query": "B105-26",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B105-27 共同安排变动先核当前事实和成本",
+      "query": "B105-27",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B105-27 共同安排变动先核当前事实和成本",
+      "query": "B105-27",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-27 共同安排变动先核当前事实和成本",
+      "query": "B105-27",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B105-28 真实差异可以保留，关系称谓另行确认",
+      "query": "B105-28",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B105-28 真实差异可以保留，关系称谓另行确认",
+      "query": "B105-28",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B105-29 情绪反应按当事人说明，不由激素故事代言",
+      "query": "B105-29",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B105-29 情绪反应按当事人说明，不由激素故事代言",
+      "query": "B105-29",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B105-30 紧张不自动成为病或错误教育的证明",
+      "query": "B105-30",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B105-30 紧张不自动成为病或错误教育的证明",
+      "query": "B105-30",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B105-31 小步练习保留自愿和真实，不采用羞辱闯关",
+      "query": "B105-31",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-31 小步练习保留自愿和真实，不采用羞辱闯关",
+      "query": "B105-31",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B105-32 文化论断和百分比不移植到微信",
+      "query": "B105-32",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B105-32 文化论断和百分比不移植到微信",
+      "query": "B105-32",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B105-33 没空先按安排判断，不拿明星比较逼结论",
+      "query": "B105-33",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B105-33 没空先按安排判断，不拿明星比较逼结论",
+      "query": "B105-33",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B105-33 没空先按安排判断，不拿明星比较逼结论",
+      "query": "B105-33",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B105-34 实际投入用来观察双向，不用于套牢",
+      "query": "B105-34",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B105-34 实际投入用来观察双向，不用于套牢",
+      "query": "B105-34",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B105-35 越界后修复具体行为，不用成长故事免责",
+      "query": "B105-35",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B105-35 越界后修复具体行为，不用成长故事免责",
+      "query": "B105-35",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住",
+      "query": "B105-36",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住",
+      "query": "B105-36",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住",
+      "query": "B105-36",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B105-37 认真求助先回应所求，不统一解释成测试",
+      "query": "B105-37",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B105-37 认真求助先回应所求，不统一解释成测试",
+      "query": "B105-37",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B105-38 关系意图及时说清，不以未来承诺制造误会",
+      "query": "B105-38",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B105-38 关系意图及时说清，不以未来承诺制造误会",
+      "query": "B105-38",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B105-38 关系意图及时说清，不以未来承诺制造误会",
+      "query": "B105-38",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B105-40 整合后按当前内容只取一项动作",
+      "query": "B105-40",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B105-40 整合后按当前内容只取一项动作",
+      "query": "B105-40",
+      "passed": true
+    }
+  ],
+  "unbound_global_retrievals": [
+    {
+      "heading": "B105-01 文件是博客汇编，名人合影不认证经历和效果",
+      "query": "B105-01",
+      "passed": true
+    },
+    {
+      "heading": "B105-39 课程名额与效果保证作为历史营销记录",
+      "query": "B105-39",
+      "passed": true
+    }
+  ],
+  "scope": "identity,coverage,retrieval and preservation only; no psychological or dating-effectiveness validation"
+}

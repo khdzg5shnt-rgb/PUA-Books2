@@ -1357,9 +1357,17 @@
       "group": "books2_original_snapshot",
       "title": "自然道作品集.pdf",
       "git_blob_sha": "d510e32071b220aff11532c864cec3f50abcaace",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B105.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B105_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered_native_pages_all_distinct_raster_payloads_and_selected_layouts",
+      "completion_kind": "actual_supplied_PDF_all_native_pages_and_all_distinct_raster_payloads_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B106",
@@ -1890,23 +1898,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 98,
+    "current_book_files_text_complete": 99,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 21
+    "current_book_files_not_started": 20
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B105",
-    "path": "自然道作品集.pdf",
-    "bytes": 359181,
-    "git_blob_sha": "d510e32071b220aff11532c864cec3f50abcaace",
+    "id": "B106",
+    "path": "蓝图解码 - Real Social Dynamics.pdf",
+    "bytes": 629787,
+    "git_blob_sha": "3051cc88d5254a877a915a4cab0bb30592ca4d3b",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B104当前13个spine条目88005字符已全部顺序读取，两种解析逐条一致，缺少原版图示与外部视频单列。62组批注、113处方法引用及断点先提交；下一唯一主读B105自然道作品集80页，从物理P1开始，本断点正文未打开。",
-    "next_content_unit": "Read B105 PDF from physical page1 after B104 all13 supplied EPUB spine units,exact scope,critical notes and checkpoint have been committed. Do not infer omitted original diagrams or external videos were read. Complete or scope-close each current file before another."
+    "start": "B105当前80页正文和2张配图全部读取，40组笔记与84处精确引用先保存提交；下一唯一主读B106《蓝图解码 - Real Social Dynamics》，98页，物理P1，正文未打开。",
+    "next_content_unit": "Read B106 PDF from physical page1 only after B105 current text, images, notes and checkpoint are committed; retain original-edition and external-resource gaps."
   },
   "deferred_work_units": []
 }
