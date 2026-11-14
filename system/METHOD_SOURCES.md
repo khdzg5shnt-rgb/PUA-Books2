@@ -6,7 +6,7 @@
 
 ## M01
 
-核对对象与原句；共213处。
+核对对象与原句；共217处。
 
 - [核对原文与控制发送](../knowledge/books/G09-jev-chat.md)；旧定位，仅追溯，未绑定整份正文。
 - [输入缺口与对象隔离](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -221,10 +221,14 @@
 - [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
 - [B106-32 肢体、语音和瞳孔不承担读心](../knowledge/books/B106.md)
 - [B106-37 原文反对社交机器人，不把资料变成逐句表演](../knowledge/books/B106.md)
+- [B107-03 普通选择只给普通信息，不据此冷读人格](../knowledge/books/B107.md)
+- [B107-05 笑声只说明这一轮有笑声](../knowledge/books/B107.md)
+- [B107-29 科学家与心理测试故事不能当效果依据](../knowledge/books/B107.md)
+- [B107-34 只带走一个当下可用结构，不把库存变成代聊表演](../knowledge/books/B107.md)
 
 ## M02
 
-等对方回这一轮；共59处。
+等对方回这一轮；共62处。
 
 - [重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
 - [不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -285,10 +289,13 @@
 - [B102-17 沉默不需要刺激或嘲讽补救](../knowledge/books/B102.md)
 - [B104-55 发送后回到生活，不执行固定冷落日程](../knowledge/books/B104.md)
 - [B106-24 单边继续时收住，不用换花样追反应](../knowledge/books/B106.md)
+- [B107-10 重新联系有真实入口，不用冷落时长制造价值](../knowledge/books/B107.md)
+- [B107-23 夜间联系允许温和设限，不演先凶后哄](../knowledge/books/B107.md)
+- [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 
 ## M03
 
-接住具体内容；共131处。
+接住具体内容；共134处。
 
 - [关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；旧定位，仅追溯，未绑定整份正文。
 - [作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)
@@ -421,10 +428,13 @@
 - [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
 - [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
 - [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
+- [B107-02 开场借一个真实具体点，不虚构来意](../knowledge/books/B107.md)
+- [B107-06 话题衔接跟着当前回话走，不完成预设台词](../knowledge/books/B107.md)
+- [B107-21 真正在难受时先接住，不拿贬低冒充安慰](../knowledge/books/B107.md)
 
 ## M04
 
-回应问题并露出一点自己；共158处。
+回应问题并露出一点自己；共163处。
 
 - [自我表达与反固定步骤](../knowledge/books/B072.md)；旧定位，仅追溯，未绑定整份正文。
 - [正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -584,10 +594,15 @@
 - [B106-21 把注意放回这轮内容，不机械监控自己](../knowledge/books/B106.md)
 - [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
 - [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+- [B107-04 自我分享保留真实小细节，不冒用第一人称故事](../knowledge/books/B107.md)
+- [B107-09 普通关心与询问先按问题回答](../knowledge/books/B107.md)
+- [B107-12 筛选是交换真实偏好，不是连续考试](../knowledge/books/B107.md)
+- [B107-18 婚恋状态与关键事实直接澄清](../knowledge/books/B107.md)
+- [B107-22 求助要有实际回应，身体不适不靠玩笑搪塞](../knowledge/books/B107.md)
 
 ## M05
 
-回扣共同话题；共69处。
+回扣共同话题；共71处。
 
 - [P34与P37–39 Callback Humor](../knowledge/books/B092.md)；旧定位，仅追溯，未绑定整份正文。
 - [回叫幽默的限制](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -658,10 +673,12 @@
 - [B105-08 共同经历回扣不等于必须续完旧惯例](../knowledge/books/B105.md)
 - [B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住](../knowledge/books/B105.md)
 - [B106-11 想象的共同经历与真实共同经历分开](../knowledge/books/B106.md)
+- [B107-06 话题衔接跟着当前回话走，不完成预设台词](../knowledge/books/B107.md)
+- [B107-24 共同口味能接到邀请，不能代替具体安排](../knowledge/books/B107.md)
 
 ## M06
 
-轻量夸张或曲解；共69处。
+轻量夸张或曲解；共72处。
 
 - [夸张曲解](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -732,10 +749,13 @@
 - [B105-13 有共同语境才调侃，不以不舒服换注意](../knowledge/books/B105.md)
 - [B106-16 调侃与冒犯按当前证据判断](../knowledge/books/B106.md)
 - [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+- [B107-07 幽默要看当下场合和对方是否接住](../knowledge/books/B107.md)
+- [B107-08 调侃不拿身体、年龄和尊严作代价](../knowledge/books/B107.md)
+- [B107-27 愿意开玩笑不等于愿意谈所有私密话题](../knowledge/books/B107.md)
 
 ## M07
 
-共同角色玩笑；共48处。
+共同角色玩笑；共51处。
 
 - [角色扮演](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
@@ -785,10 +805,13 @@
 - [B105-13 有共同语境才调侃，不以不舒服换注意](../knowledge/books/B105.md)
 - [B105-26 未来话题区分想法、邀请和已确认计划](../knowledge/books/B105.md)
 - [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+- [B107-11 共同角色是双方临时接梗，不是现实身份](../knowledge/books/B107.md)
+- [B107-16 假设关系与设计出来的表白不算真实答应](../knowledge/books/B107.md)
+- [B107-28 约会小游戏是共同娱乐，不制造债务](../knowledge/books/B107.md)
 
 ## M08
 
-有依据的可纠正观察；共208处。
+有依据的可纠正观察；共212处。
 
 - [冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [冷读](../knowledge/topics/theory-map.md)；旧定位，仅追溯，未绑定整份正文。
@@ -998,10 +1021,14 @@
 - [B106-19 科学与游戏兴趣不自动导致社交缺陷](../knowledge/books/B106.md)
 - [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
 - [B106-32 肢体、语音和瞳孔不承担读心](../knowledge/books/B106.md)
+- [B107-03 普通选择只给普通信息，不据此冷读人格](../knowledge/books/B107.md)
+- [B107-16 假设关系与设计出来的表白不算真实答应](../knowledge/books/B107.md)
+- [B107-29 科学家与心理测试故事不能当效果依据](../knowledge/books/B107.md)
+- [B107-32 眼神、握力与游戏表现不诊断关系](../knowledge/books/B107.md)
 
 ## M09
 
-具体欣赏；共93处。
+具体欣赏；共94处。
 
 - [具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1096,10 +1123,11 @@
 - [B106-05 正常善意与交换恋爱的期待分开](../knowledge/books/B106.md)
 - [B106-06 有好感可以坦率，不靠争夺选择权](../knowledge/books/B106.md)
 - [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
+- [B107-13 外表偏好可以表达，改变权由本人决定](../knowledge/books/B107.md)
 
 ## M10
 
-分享真实生活；共194处。
+分享真实生活；共198处。
 
 - [关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；旧定位，仅追溯，未绑定整份正文。
 - [真实展示](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1295,10 +1323,14 @@
 - [B106-13 身份选择不等于必须消灭普通生活](../knowledge/books/B106.md)
 - [B106-19 科学与游戏兴趣不自动导致社交缺陷](../knowledge/books/B106.md)
 - [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
+- [B107-04 自我分享保留真实小细节，不冒用第一人称故事](../knowledge/books/B107.md)
+- [B107-12 筛选是交换真实偏好，不是连续考试](../knowledge/books/B107.md)
+- [B107-17 不制造竞争者或稀缺来逼对方证明](../knowledge/books/B107.md)
+- [B107-20 信任从适量真实分享积累，不要求交换秘密](../knowledge/books/B107.md)
 
 ## M11
 
-接住困扰；共89处。
+接住困扰；共90处。
 
 - [情绪回应指南的细节](../knowledge/books/G01-lianai.md)
 - [状态、感受、关联](../knowledge/books/S04-top30-units.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1389,10 +1421,11 @@
 - [B105-37 认真求助先回应所求，不统一解释成测试](../knowledge/books/B105.md)
 - [B106-12 分开后的失落不证明谁无能或谁变坏](../knowledge/books/B106.md)
 - [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
+- [B107-21 真正在难受时先接住，不拿贬低冒充安慰](../knowledge/books/B107.md)
 
 ## M12
 
-一起高兴；共19处。
+一起高兴；共21处。
 
 - [融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；旧定位，仅追溯，未绑定整份正文。
 - [开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1413,10 +1446,12 @@
 - [B105-14 具体欣赏不附带资格审查](../knowledge/books/B105.md)
 - [B106-23 自然表达不按秒数控制笑声与回答](../knowledge/books/B106.md)
 - [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
+- [B107-05 笑声只说明这一轮有笑声](../knowledge/books/B107.md)
+- [B107-28 约会小游戏是共同娱乐，不制造债务](../knowledge/books/B107.md)
 
 ## M13
 
-回答她确实提出的求助；共57处。
+回答她确实提出的求助；共60处。
 
 - [认真回应资讯与求助](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
 - [倾听与方案区别](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1475,10 +1510,13 @@
 - [B105-37 认真求助先回应所求，不统一解释成测试](../knowledge/books/B105.md)
 - [B106-05 正常善意与交换恋爱的期待分开](../knowledge/books/B106.md)
 - [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
+- [B107-09 普通关心与询问先按问题回答](../knowledge/books/B107.md)
+- [B107-19 要照片或视频先核实际请求与意愿](../knowledge/books/B107.md)
+- [B107-22 求助要有实际回应，身体不适不靠玩笑搪塞](../knowledge/books/B107.md)
 
 ## M14
 
-一次具体邀约；共127处。
+一次具体邀约；共129处。
 
 - [实际动作的条件](../knowledge/topics/invitation-feedback.md)
 - [主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1607,10 +1645,12 @@
 - [B105-26 未来话题区分想法、邀请和已确认计划](../knowledge/books/B105.md)
 - [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
 - [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+- [B107-24 共同口味能接到邀请，不能代替具体安排](../knowledge/books/B107.md)
+- [B107-30 同行与转场把地点说明白](../knowledge/books/B107.md)
 
 ## M15
 
-确认已答应的安排；共90处。
+确认已答应的安排；共94处。
 
 - [意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
 - [现实安排](../knowledge/cases/C09-b092-logistics.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1702,10 +1742,14 @@
 - [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
 - [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
 - [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+- [B107-14 费用、家务和社交边界谈具体安排](../knowledge/books/B107.md)
+- [B107-24 共同口味能接到邀请，不能代替具体安排](../knowledge/books/B107.md)
+- [B107-25 邀约后的新回复决定下一步](../knowledge/books/B107.md)
+- [B107-30 同行与转场把地点说明白](../knowledge/books/B107.md)
 
 ## M16
 
-承接替代时间或重约；共35处。
+承接替代时间或重约；共36处。
 
 - [不能某天但提供替代](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
 - [兑现与修复](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1742,10 +1786,11 @@
 - [B105-27 共同安排变动先核当前事实和成本](../knowledge/books/B105.md)
 - [B105-33 没空先按安排判断，不拿明星比较逼结论](../knowledge/books/B105.md)
 - [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
+- [B107-25 邀约后的新回复决定下一步](../knowledge/books/B107.md)
 
 ## M17
 
-没替代方案时收住；共60处。
+没替代方案时收住；共61处。
 
 - [持续劝约反例](../knowledge/cases/C02-online-invitation.md)；旧定位，仅追溯，未绑定整份正文。
 - [尚未形成具体安排](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1807,10 +1852,11 @@
 - [B105-21 有伴侣与明确拒绝不解释成保护壳](../knowledge/books/B105.md)
 - [B105-33 没空先按安排判断，不拿明星比较逼结论](../knowledge/books/B105.md)
 - [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
+- [B107-25 邀约后的新回复决定下一步](../knowledge/books/B107.md)
 
 ## M18
 
-完整短答照常接；共46处。
+完整短答照常接；共48处。
 
 - [短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [信号表的限制](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1858,10 +1904,12 @@
 - [B105-12 名字、微笑和回答不自动成为恋爱兴趣](../knowledge/books/B105.md)
 - [B106-10 回应及时和愿意倾听不等于低位](../knowledge/books/B106.md)
 - [B106-23 自然表达不按秒数控制笑声与回答](../knowledge/books/B106.md)
+- [B107-03 普通选择只给普通信息，不据此冷读人格](../knowledge/books/B107.md)
+- [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 
 ## M19
 
-持续单边时停止加码；共127处。
+持续单边时停止加码；共129处。
 
 - [互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1990,10 +2038,12 @@
 - [B105-34 实际投入用来观察双向，不用于套牢](../knowledge/books/B105.md)
 - [B106-12 分开后的失落不证明谁无能或谁变坏](../knowledge/books/B106.md)
 - [B106-24 单边继续时收住，不用换花样追反应](../knowledge/books/B106.md)
+- [B107-10 重新联系有真实入口，不用冷落时长制造价值](../knowledge/books/B107.md)
+- [B107-33 普通短答与连续单边要分开](../knowledge/books/B107.md)
 
 ## M20
 
-接住纠正或澄清；共113处。
+接住纠正或澄清；共116处。
 
 - [角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
 - [原句优先](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2108,10 +2158,13 @@
 - [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
 - [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
 - [B106-31 接受具体纠正，不以冷淡回应替代修复](../knowledge/books/B106.md)
+- [B107-07 幽默要看当下场合和对方是否接住](../knowledge/books/B107.md)
+- [B107-15 失约与迟到按可核事实处理，不推断整个人](../knowledge/books/B107.md)
+- [B107-18 婚恋状态与关键事实直接澄清](../knowledge/books/B107.md)
 
 ## M21
 
-有依据的修复；共84处。
+有依据的修复；共85处。
 
 - [沟通冲突与修复](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；旧定位，仅追溯，未绑定整份正文。
@@ -2197,10 +2250,11 @@
 - [B106-16 调侃与冒犯按当前证据判断](../knowledge/books/B106.md)
 - [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
 - [B106-31 接受具体纠正，不以冷淡回应替代修复](../knowledge/books/B106.md)
+- [B107-15 失约与迟到按可核事实处理，不推断整个人](../knowledge/books/B107.md)
 
 ## M22
 
-表达边界；共349处。
+表达边界；共365处。
 
 - [具体请求与边界](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2551,10 +2605,26 @@
 - [B106-33 声音姿势以舒适清楚为限，不演强势人物](../knowledge/books/B106.md)
 - [B106-34 身体亲密不由自信、等级或术语授权](../knowledge/books/B106.md)
 - [B106-36 正常相处与承诺靠共同约定兑现](../knowledge/books/B106.md)
+- [B107-08 调侃不拿身体、年龄和尊严作代价](../knowledge/books/B107.md)
+- [B107-12 筛选是交换真实偏好，不是连续考试](../knowledge/books/B107.md)
+- [B107-13 外表偏好可以表达，改变权由本人决定](../knowledge/books/B107.md)
+- [B107-14 费用、家务和社交边界谈具体安排](../knowledge/books/B107.md)
+- [B107-15 失约与迟到按可核事实处理，不推断整个人](../knowledge/books/B107.md)
+- [B107-17 不制造竞争者或稀缺来逼对方证明](../knowledge/books/B107.md)
+- [B107-18 婚恋状态与关键事实直接澄清](../knowledge/books/B107.md)
+- [B107-19 要照片或视频先核实际请求与意愿](../knowledge/books/B107.md)
+- [B107-20 信任从适量真实分享积累，不要求交换秘密](../knowledge/books/B107.md)
+- [B107-21 真正在难受时先接住，不拿贬低冒充安慰](../knowledge/books/B107.md)
+- [B107-22 求助要有实际回应，身体不适不靠玩笑搪塞](../knowledge/books/B107.md)
+- [B107-23 夜间联系允许温和设限，不演先凶后哄](../knowledge/books/B107.md)
+- [B107-26 亲密不是契约期限，也不由关系称呼自动许可](../knowledge/books/B107.md)
+- [B107-27 愿意开玩笑不等于愿意谈所有私密话题](../knowledge/books/B107.md)
+- [B107-30 同行与转场把地点说明白](../knowledge/books/B107.md)
+- [B107-31 街道安全和触碰分别确认，不用依赖情境逼近](../knowledge/books/B107.md)
 
 ## M23
 
-尊重拒绝的具体范围；共335处。
+尊重拒绝的具体范围；共347处。
 
 - [明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2891,10 +2961,22 @@
 - [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
 - [B106-34 身体亲密不由自信、等级或术语授权](../knowledge/books/B106.md)
 - [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+- [B107-07 幽默要看当下场合和对方是否接住](../knowledge/books/B107.md)
+- [B107-08 调侃不拿身体、年龄和尊严作代价](../knowledge/books/B107.md)
+- [B107-11 共同角色是双方临时接梗，不是现实身份](../knowledge/books/B107.md)
+- [B107-13 外表偏好可以表达，改变权由本人决定](../knowledge/books/B107.md)
+- [B107-19 要照片或视频先核实际请求与意愿](../knowledge/books/B107.md)
+- [B107-20 信任从适量真实分享积累，不要求交换秘密](../knowledge/books/B107.md)
+- [B107-25 邀约后的新回复决定下一步](../knowledge/books/B107.md)
+- [B107-26 亲密不是契约期限，也不由关系称呼自动许可](../knowledge/books/B107.md)
+- [B107-27 愿意开玩笑不等于愿意谈所有私密话题](../knowledge/books/B107.md)
+- [B107-28 约会小游戏是共同娱乐，不制造债务](../knowledge/books/B107.md)
+- [B107-30 同行与转场把地点说明白](../knowledge/books/B107.md)
+- [B107-31 街道安全和触碰分别确认，不用依赖情境逼近](../knowledge/books/B107.md)
 
 ## M24
 
-见面后的真实反馈；共59处。
+见面后的真实反馈；共64处。
 
 - [第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2955,10 +3037,15 @@
 - [B106-09 公共关注与恋爱意愿属于不同证据](../knowledge/books/B106.md)
 - [B106-18 不用先吸引大多数人才能认真认识某个人](../knowledge/books/B106.md)
 - [B106-36 正常相处与承诺靠共同约定兑现](../knowledge/books/B106.md)
+- [B107-05 笑声只说明这一轮有笑声](../knowledge/books/B107.md)
+- [B107-14 费用、家务和社交边界谈具体安排](../knowledge/books/B107.md)
+- [B107-16 假设关系与设计出来的表白不算真实答应](../knowledge/books/B107.md)
+- [B107-17 不制造竞争者或稀缺来逼对方证明](../knowledge/books/B107.md)
+- [B107-32 眼神、握力与游戏表现不诊断关系](../knowledge/books/B107.md)
 
 ## M25
 
-开场或自然重联；共171处。
+开场或自然重联；共173处。
 
 - [现场素材与反馈分支](../knowledge/books/B090.md)；旧定位，仅追溯，未绑定整份正文。
 - [重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3131,10 +3218,12 @@
 - [B106-06 有好感可以坦率，不靠争夺选择权](../knowledge/books/B106.md)
 - [B106-14 自信不赋予占用别人时间与空间的权利](../knowledge/books/B106.md)
 - [B106-17 练习允许小而具体，不以状态完美为前提](../knowledge/books/B106.md)
+- [B107-02 开场借一个真实具体点，不虚构来意](../knowledge/books/B107.md)
+- [B107-10 重新联系有真实入口，不用冷落时长制造价值](../knowledge/books/B107.md)
 
 ## M26
 
-压成一句自然的话；共186处。
+压成一句自然的话；共193处。
 
 - [一个目标与口吻](../knowledge/books/G01-practical-expansion.md)
 - [自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3322,3 +3411,10 @@
 - [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
 - [B106-33 声音姿势以舒适清楚为限，不演强势人物](../knowledge/books/B106.md)
 - [B106-37 原文反对社交机器人，不把资料变成逐句表演](../knowledge/books/B106.md)
+- [B107-02 开场借一个真实具体点，不虚构来意](../knowledge/books/B107.md)
+- [B107-04 自我分享保留真实小细节，不冒用第一人称故事](../knowledge/books/B107.md)
+- [B107-06 话题衔接跟着当前回话走，不完成预设台词](../knowledge/books/B107.md)
+- [B107-09 普通关心与询问先按问题回答](../knowledge/books/B107.md)
+- [B107-11 共同角色是双方临时接梗，不是现实身份](../knowledge/books/B107.md)
+- [B107-23 夜间联系允许温和设限，不演先凶后哄](../knowledge/books/B107.md)
+- [B107-34 只带走一个当下可用结构，不把库存变成代聊表演](../knowledge/books/B107.md)

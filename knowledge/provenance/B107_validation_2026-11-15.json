@@ -1,0 +1,605 @@
+{
+  "status": "passed",
+  "file_id": "B107",
+  "baseline": "4bf393dda28ec3e9705ac9a41a70a7fe4d434fa7",
+  "checks": {
+    "all_method_actions_conditions_prior_citations_preserved": true,
+    "routes_preferred_sections_and_task_modes_preserved": true,
+    "all126_original_blob_identities_and_all_other_reading_records_preserved": true,
+    "source_sha256_all_page_ranges_and_no_double_counting": true,
+    "all_unique_images_extractor_differences_and_required_visual_content_checked": true,
+    "all_new_exact_method_section_retrievals_passed": 96,
+    "all_unbound_scope_notes_globally_retrievable": 1,
+    "current_count_closures_and_next_unopened_checkpoint_consistent": true,
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 127,
+    "git_diff_check": true
+  },
+  "new_exact_method_retrievals": [
+    {
+      "method": "M25",
+      "heading": "B107-02 开场借一个真实具体点，不虚构来意",
+      "query": "B107-02",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B107-02 开场借一个真实具体点，不虚构来意",
+      "query": "B107-02",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-02 开场借一个真实具体点，不虚构来意",
+      "query": "B107-02",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B107-03 普通选择只给普通信息，不据此冷读人格",
+      "query": "B107-03",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B107-03 普通选择只给普通信息，不据此冷读人格",
+      "query": "B107-03",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B107-03 普通选择只给普通信息，不据此冷读人格",
+      "query": "B107-03",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B107-04 自我分享保留真实小细节，不冒用第一人称故事",
+      "query": "B107-04",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B107-04 自我分享保留真实小细节，不冒用第一人称故事",
+      "query": "B107-04",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-04 自我分享保留真实小细节，不冒用第一人称故事",
+      "query": "B107-04",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B107-05 笑声只说明这一轮有笑声",
+      "query": "B107-05",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B107-05 笑声只说明这一轮有笑声",
+      "query": "B107-05",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B107-05 笑声只说明这一轮有笑声",
+      "query": "B107-05",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B107-06 话题衔接跟着当前回话走，不完成预设台词",
+      "query": "B107-06",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B107-06 话题衔接跟着当前回话走，不完成预设台词",
+      "query": "B107-06",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-06 话题衔接跟着当前回话走，不完成预设台词",
+      "query": "B107-06",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B107-07 幽默要看当下场合和对方是否接住",
+      "query": "B107-07",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B107-07 幽默要看当下场合和对方是否接住",
+      "query": "B107-07",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-07 幽默要看当下场合和对方是否接住",
+      "query": "B107-07",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B107-08 调侃不拿身体、年龄和尊严作代价",
+      "query": "B107-08",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-08 调侃不拿身体、年龄和尊严作代价",
+      "query": "B107-08",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-08 调侃不拿身体、年龄和尊严作代价",
+      "query": "B107-08",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B107-09 普通关心与询问先按问题回答",
+      "query": "B107-09",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B107-09 普通关心与询问先按问题回答",
+      "query": "B107-09",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-09 普通关心与询问先按问题回答",
+      "query": "B107-09",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B107-10 重新联系有真实入口，不用冷落时长制造价值",
+      "query": "B107-10",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B107-10 重新联系有真实入口，不用冷落时长制造价值",
+      "query": "B107-10",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B107-10 重新联系有真实入口，不用冷落时长制造价值",
+      "query": "B107-10",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B107-11 共同角色是双方临时接梗，不是现实身份",
+      "query": "B107-11",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-11 共同角色是双方临时接梗，不是现实身份",
+      "query": "B107-11",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-11 共同角色是双方临时接梗，不是现实身份",
+      "query": "B107-11",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B107-12 筛选是交换真实偏好，不是连续考试",
+      "query": "B107-12",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B107-12 筛选是交换真实偏好，不是连续考试",
+      "query": "B107-12",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-12 筛选是交换真实偏好，不是连续考试",
+      "query": "B107-12",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B107-13 外表偏好可以表达，改变权由本人决定",
+      "query": "B107-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-13 外表偏好可以表达，改变权由本人决定",
+      "query": "B107-13",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-13 外表偏好可以表达，改变权由本人决定",
+      "query": "B107-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-14 费用、家务和社交边界谈具体安排",
+      "query": "B107-14",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B107-14 费用、家务和社交边界谈具体安排",
+      "query": "B107-14",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B107-14 费用、家务和社交边界谈具体安排",
+      "query": "B107-14",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B107-15 失约与迟到按可核事实处理，不推断整个人",
+      "query": "B107-15",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B107-15 失约与迟到按可核事实处理，不推断整个人",
+      "query": "B107-15",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-15 失约与迟到按可核事实处理，不推断整个人",
+      "query": "B107-15",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B107-16 假设关系与设计出来的表白不算真实答应",
+      "query": "B107-16",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B107-16 假设关系与设计出来的表白不算真实答应",
+      "query": "B107-16",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B107-16 假设关系与设计出来的表白不算真实答应",
+      "query": "B107-16",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B107-17 不制造竞争者或稀缺来逼对方证明",
+      "query": "B107-17",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-17 不制造竞争者或稀缺来逼对方证明",
+      "query": "B107-17",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B107-17 不制造竞争者或稀缺来逼对方证明",
+      "query": "B107-17",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B107-18 婚恋状态与关键事实直接澄清",
+      "query": "B107-18",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B107-18 婚恋状态与关键事实直接澄清",
+      "query": "B107-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-18 婚恋状态与关键事实直接澄清",
+      "query": "B107-18",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B107-19 要照片或视频先核实际请求与意愿",
+      "query": "B107-19",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-19 要照片或视频先核实际请求与意愿",
+      "query": "B107-19",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-19 要照片或视频先核实际请求与意愿",
+      "query": "B107-19",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B107-20 信任从适量真实分享积累，不要求交换秘密",
+      "query": "B107-20",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-20 信任从适量真实分享积累，不要求交换秘密",
+      "query": "B107-20",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-20 信任从适量真实分享积累，不要求交换秘密",
+      "query": "B107-20",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B107-21 真正在难受时先接住，不拿贬低冒充安慰",
+      "query": "B107-21",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B107-21 真正在难受时先接住，不拿贬低冒充安慰",
+      "query": "B107-21",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-21 真正在难受时先接住，不拿贬低冒充安慰",
+      "query": "B107-21",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B107-22 求助要有实际回应，身体不适不靠玩笑搪塞",
+      "query": "B107-22",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B107-22 求助要有实际回应，身体不适不靠玩笑搪塞",
+      "query": "B107-22",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-22 求助要有实际回应，身体不适不靠玩笑搪塞",
+      "query": "B107-22",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-23 夜间联系允许温和设限，不演先凶后哄",
+      "query": "B107-23",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B107-23 夜间联系允许温和设限，不演先凶后哄",
+      "query": "B107-23",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-23 夜间联系允许温和设限，不演先凶后哄",
+      "query": "B107-23",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B107-24 共同口味能接到邀请，不能代替具体安排",
+      "query": "B107-24",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B107-24 共同口味能接到邀请，不能代替具体安排",
+      "query": "B107-24",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B107-24 共同口味能接到邀请，不能代替具体安排",
+      "query": "B107-24",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B107-25 邀约后的新回复决定下一步",
+      "query": "B107-25",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B107-25 邀约后的新回复决定下一步",
+      "query": "B107-25",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B107-25 邀约后的新回复决定下一步",
+      "query": "B107-25",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-25 邀约后的新回复决定下一步",
+      "query": "B107-25",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-26 亲密不是契约期限，也不由关系称呼自动许可",
+      "query": "B107-26",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-26 亲密不是契约期限，也不由关系称呼自动许可",
+      "query": "B107-26",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B107-27 愿意开玩笑不等于愿意谈所有私密话题",
+      "query": "B107-27",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-27 愿意开玩笑不等于愿意谈所有私密话题",
+      "query": "B107-27",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-27 愿意开玩笑不等于愿意谈所有私密话题",
+      "query": "B107-27",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B107-28 约会小游戏是共同娱乐，不制造债务",
+      "query": "B107-28",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B107-28 约会小游戏是共同娱乐，不制造债务",
+      "query": "B107-28",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-28 约会小游戏是共同娱乐，不制造债务",
+      "query": "B107-28",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B107-29 科学家与心理测试故事不能当效果依据",
+      "query": "B107-29",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B107-29 科学家与心理测试故事不能当效果依据",
+      "query": "B107-29",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B107-30 同行与转场把地点说明白",
+      "query": "B107-30",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B107-30 同行与转场把地点说明白",
+      "query": "B107-30",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-30 同行与转场把地点说明白",
+      "query": "B107-30",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-30 同行与转场把地点说明白",
+      "query": "B107-30",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B107-31 街道安全和触碰分别确认，不用依赖情境逼近",
+      "query": "B107-31",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B107-31 街道安全和触碰分别确认，不用依赖情境逼近",
+      "query": "B107-31",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B107-32 眼神、握力与游戏表现不诊断关系",
+      "query": "B107-32",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B107-32 眼神、握力与游戏表现不诊断关系",
+      "query": "B107-32",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B107-33 普通短答与连续单边要分开",
+      "query": "B107-33",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B107-33 普通短答与连续单边要分开",
+      "query": "B107-33",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B107-33 普通短答与连续单边要分开",
+      "query": "B107-33",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B107-34 只带走一个当下可用结构，不把库存变成代聊表演",
+      "query": "B107-34",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B107-34 只带走一个当下可用结构，不把库存变成代聊表演",
+      "query": "B107-34",
+      "passed": true
+    }
+  ],
+  "unbound_global_retrievals": [
+    {
+      "heading": "B107-01 脚本、文件署名与阅读范围分别登记",
+      "query": "B107-01",
+      "passed": true
+    }
+  ],
+  "scope": "identity,coverage,retrieval and preservation only; no psychological or dating-effectiveness validation"
+}
