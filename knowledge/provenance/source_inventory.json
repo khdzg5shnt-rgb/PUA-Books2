@@ -15753,8 +15753,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A6%E4%BC%9A%E5%80%8D%E5%A2%9E%E6%9C%AF%20-%20%E5%A4%A7%E5%8D%ABD.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B099.md",
       "pages": 61,
       "spine_items": null,
       "ocr": {
@@ -15762,7 +15762,65 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B099_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered61_native_pages_plus_three_text_layer_recoveries_verified_by_independent_nonwhitespace_comparison",
+      "completion_kind": "actual_supplied_PDF_all61_native_pages_including29_recovered_outside_page_characters_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "8f2d365911fb2adf900576fcbeb2e057565db121e9ea0c47953db9b67b6a1a46",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B099_reading_2026-11-14.json",
+        "native_characters": 82767,
+        "bounded_native_characters": 82738,
+        "additional_unique_native_characters_recovered": 29,
+        "recovered_file_pages": [
+          17,
+          41,
+          60
+        ],
+        "native_pages_read": 61,
+        "all61_pages_independently_match_after_whitespace_removal": true,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          5,
+          6,
+          10,
+          17,
+          20,
+          22,
+          29,
+          33,
+          37,
+          39,
+          40,
+          44,
+          52,
+          53,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "raster_images": 0,
+        "vector_objects": 6,
+        "all_vectors_are_decorative_underlines": true,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "目录列翻译后记，但当前61页内没有该节",
+          "前置目录、正文目录和实际物理页数不一致，不按目录外推不存在页",
+          "访谈、性交流和12小时CD/DVD仅有推广文字，节目本体未提供",
+          "部分资料入口在源文冒号后空缺，不重建未提供地址"
+        ],
+        "original_note_groups": 57,
+        "new_exact_method_section_bindings": 128
+      }
     },
     {
       "index": 100,
@@ -16435,5 +16493,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:Readingresumedafterexplicituserinstruction.B098all102cachedOCRpages52551charactersreadinorderandall102originalimagesviewed.P30/P50smallfigureletteringgapsretained;standinguserscopeclosure,notfullcurrentfilereading.38originalcriticalnotes,52exactbindings.93/119=86coveredcurrentfiles+7closures.NextB099bodyunopened.Runtime1.5.3maintenancepreserved."
+  "latest_reading_update": "2026-11-14:B098committedbeforeB099.B099all61nativepages82738boundedcharactersplus29uniqueoutofpagerecoveredcharacters=82767read;independentnonwhitespacecomparisonall61exact;20layoutsamples;novisualbodyassets.57originalcriticalnotes,128exactbindings.Round2tasks=B098standingclosure+B099wholecurrentfileread;95notes180bindings;94/119=87coveredcurrentfiles+7closures.NextB100bodyunopened.Runtime1.5.3preserved."
 }

@@ -1261,9 +1261,17 @@
       "group": "books2_original_snapshot",
       "title": "约会倍增术 - 大卫D.pdf",
       "git_blob_sha": "ae19d15548e0d24403cd48e383b05bcf80525712",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B099.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B099_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered61_native_pages_plus_three_text_layer_recoveries_verified_by_independent_nonwhitespace_comparison",
+      "completion_kind": "actual_supplied_PDF_all61_native_pages_including29_recovered_outside_page_characters_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B100",
@@ -1848,23 +1856,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 93,
+    "current_book_files_text_complete": 94,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 26
+    "current_book_files_not_started": 25
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B099",
-    "path": "约会倍增术 - 大卫D.pdf",
-    "bytes": 1228780,
-    "git_blob_sha": "ae19d15548e0d24403cd48e383b05bcf80525712",
+    "id": "B100",
+    "path": "约会倍增术（Double+Your+Dating简体版）.pdf",
+    "bytes": 1322830,
+    "git_blob_sha": "4abe13ee42437e29231d4535b81ac2747f5415d5",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "用户已明确恢复。B098可辨内容及102页原图已核看，P30/P50细字缺口按通用授权结束；笔记、范围及下一断点先保存提交。下一唯一主读B099，从物理P1开始，本断点保存时正文未打开。",
-    "next_content_unit": "Read B099 PDF from physical page1 only after B098 readable-content notes,two retained figure gaps and checkpoint have been committed. Complete or scope-close each current supplied file before another; no repeated questions for genuinely unreadable scans."
+    "start": "B098可辨内容与两处图字缺口已先提交，随后B099当前61页全部文字及29个越界字符已读完并整合。下一唯一主读B100，从物理P1开始，本断点保存时正文未打开。",
+    "next_content_unit": "Read B100 PDF from physical page1 only after B099 all61 native-page notes,recovered out-of-page text and checkpoint have been committed. Treat a similarly named version as a separate file until exact content is checked. Complete or scope-close each current file before another; do not reask for genuinely unreadable scans."
   },
   "deferred_work_units": []
 }
