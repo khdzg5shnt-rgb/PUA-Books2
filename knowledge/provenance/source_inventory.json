@@ -15337,8 +15337,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B1%B3%E8%B1%AA%E6%96%B9%E6%B3%95%20-%20%E7%B1%B3%E8%B1%AA.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B095.md",
       "pages": 169,
       "spine_items": null,
       "ocr": {
@@ -15346,7 +15346,90 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B095_reading_2026-11-14.json",
+      "coverage_mode": "scanned_OCR_readable_content_reviewed_then_user_scope_closure",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "task_complete": true,
+      "source_sha256": "e69440284d5602b6b00fcc18b0501aab0a764c6d0bdc47087d9c00522d1a1c5e",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B095_reading_2026-11-14.json",
+        "physical_pages": 169,
+        "actual_native_characters": 0,
+        "cached_OCR_pages_actually_read": 169,
+        "actual_OCR_characters_read": 74441,
+        "diagnostic_OCR_pages_also_read": 0,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          3,
+          19,
+          23,
+          24,
+          25,
+          29,
+          45,
+          51,
+          56,
+          59,
+          64,
+          65,
+          66,
+          67,
+          78,
+          81,
+          88,
+          91,
+          92,
+          109,
+          112,
+          117,
+          119,
+          137,
+          143,
+          144,
+          158,
+          160,
+          165,
+          166,
+          168,
+          169
+        ],
+        "all169_layout_thumbnails_reviewed_for_layout_only": true,
+        "all_current_file_content_read": false,
+        "known_unread_image_units": [
+          {
+            "file_page": 29,
+            "region": "Central model schematic between the legible stage labels",
+            "unread_content": "Exact damaged connector/arrow shapes are not reliably recoverable; surrounding labels and prose read.",
+            "original_layout_actually_viewed": true,
+            "higher_resolution_check_completed": true,
+            "inference_not_substituted_for_missing_pixels": true
+          },
+          {
+            "file_page": 78,
+            "region": "Lower-half cycle diagram and tiny bottom fragment",
+            "unread_content": "Some diagram text and connections disappear beneath dark/degraded source pixels; no complete graphic reconstruction claimed.",
+            "original_layout_actually_viewed": true,
+            "higher_resolution_check_completed": true,
+            "inference_not_substituted_for_missing_pixels": true
+          },
+          {
+            "file_page": 158,
+            "region": "Middle-left graphic overlapping several lines of itinerary item3",
+            "unread_content": "Covered wording and degraded graphic detail not reliably recoverable; remaining readable text read.",
+            "original_layout_actually_viewed": true,
+            "inference_not_substituted_for_missing_pixels": true
+          }
+        ],
+        "standing_user_policy_applied_without_new_question": true,
+        "original_note_groups": 36,
+        "new_exact_method_section_bindings": 56
+      }
     },
     {
       "index": 96,
@@ -16128,5 +16211,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B094 all30 bilingual native pages22566characters and101listentries read;actualgroups30/30/41 vsprinted28/28/32;100distinctEnglishentries,duplicate58/73;tenlayoutsamples.20originalnotes,22exactbindings.89/119=84coveredcurrentfiles+5userclosures;B093gap unchanged.NextB095bodyunopened."
+  "latest_reading_update": "2026-11-14: B095 all169 cached OCR texts74441characters actually read;34 source layouts and all169 layout thumbnails checked. Gaps P29/78/158 retained under standing user scope closure,not full-current-file reading. 36originalcriticalnotes,56exactbindings.90/119=84coveredcurrentfiles+6userclosures.NextB096bodyunopened."
 }
