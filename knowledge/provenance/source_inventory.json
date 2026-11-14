@@ -15263,8 +15263,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%AD%9B%E9%80%89%E7%9A%84101%E7%A7%8D%E6%96%B9%E5%BC%8F%20-%20Adam%20Lyons.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B094.md",
       "pages": 30,
       "spine_items": null,
       "ocr": {
@@ -15272,7 +15272,57 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B094_reading_2026-11-14.json",
+      "coverage_mode": "all30_native_bilingual_pages_101_list_entries_ten_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all30_native_bilingual_pages_and101_entries_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "0150f4233670f84c3e933fe1ed141ca77ad82ea9c14171f18130aec46b070aa4",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B094_reading_2026-11-14.json",
+        "native_characters": 22566,
+        "native_pages_read": 30,
+        "both_English_and_Chinese_read": true,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          9,
+          18,
+          20,
+          21,
+          24,
+          25,
+          28,
+          30
+        ],
+        "actual_list_entries": 101,
+        "actual_section_counts": [
+          30,
+          30,
+          41
+        ],
+        "source_section_heading_counts": [
+          28,
+          28,
+          32
+        ],
+        "unique_English_entries": 100,
+        "repeated_entry_ordinals": [
+          [
+            58,
+            73
+          ]
+        ],
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "original_note_groups": 20,
+        "new_exact_method_section_bindings": 22
+      }
     },
     {
       "index": 95,
@@ -16078,5 +16128,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B093 all188 cached OCR texts53289characters read;22 diagnosticOCRpages reread,38 source layouts reviewed.P186nestedlowresolutiontextgap remains;standinguserpolicyclosure,not full-current-file reading.34originalcriticalnotes,47exactbindings.88/119=83coveredcurrentfiles+5userclosures.NextB094bodyunopened."
+  "latest_reading_update": "2026-11-14: B094 all30 bilingual native pages22566characters and101listentries read;actualgroups30/30/41 vsprinted28/28/32;100distinctEnglishentries,duplicate58/73;tenlayoutsamples.20originalnotes,22exactbindings.89/119=84coveredcurrentfiles+5userclosures;B093gap unchanged.NextB095bodyunopened."
 }

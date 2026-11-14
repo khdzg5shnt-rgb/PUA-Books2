@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成88/119份任务，无部分处理文件、31份未开始。83份当前提供内容已覆盖，B017、B039、B076、B086、B093共5份按用户授权结束并保留缺口。本轮B093全部188页识别文本53289字符已读、38页原版面核看、22页诊断复读；P186嵌套小图字仍不清，未标成完整实读。新增34组原创批注、47处精确引用。下一唯一主读B094，正文未打开。[本轮记录](B093_progress_2026-11-14.md)。
+当前完成89/119份任务，无部分处理文件、30份未开始。84份当前提供内容已覆盖，5份按用户授权结束并保留缺口。本轮先提交B093的188页可辨扫描与P186缺字，再读完B094三十页双语22566字符及全部101条；新增54组原创批注、69处精确引用。B094三组实际30/30/41而非标题28/28/32，含1组英文重复。下一唯一主读B095，正文未打开。[本轮记录](B094_progress_2026-11-14.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -106,7 +106,7 @@
 | B091 | [白天约会宝典 - Jeremy Soul.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%99%BD%E5%A4%A9%E7%BA%A6%E4%BC%9A%E5%AE%9D%E5%85%B8%20-%20Jeremy%20Soul.pdf) | 95 | 当前95页文字与全部现有图像合成内容已读；第13章、附录、两张所指图未提供 | [34组笔记](../books/B091.md) |
 | B092 | [短信和电话把妹游戏之终极指南 - 爱情体系.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%9F%AD%E4%BF%A1%E5%92%8C%E7%94%B5%E8%AF%9D%E6%8A%8A%E5%A6%B9%E6%B8%B8%E6%88%8F%E4%B9%8B%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97%20-%20%E7%88%B1%E6%83%85%E4%BD%93%E7%B3%BB.pdf) | 90 | 现有正文读完/原书不全 | [精读](../books/B092.md) |
 | B093 | [神撩术 - 欧阳浮夸.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%A5%9E%E6%92%A9%E6%9C%AF%20-%20%E6%AC%A7%E9%98%B3%E6%B5%AE%E5%A4%B8.pdf) | 188 | 全部可辨识别文本已读，P186嵌套小图字不清，依通用授权结束计数；非完整实读 | [34组批注](../books/B093.md) |
-| B094 | [筛选的101种方式 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%AD%9B%E9%80%89%E7%9A%84101%E7%A7%8D%E6%96%B9%E5%BC%8F%20-%20Adam%20Lyons.pdf) | 30 | 已提取/未读 | — |
+| B094 | [筛选的101种方式 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%AD%9B%E9%80%89%E7%9A%84101%E7%A7%8D%E6%96%B9%E5%BC%8F%20-%20Adam%20Lyons.pdf) | 30 | 双语全文及101条已读，计数与译义偏差单列，原版未核 | [20组批注](../books/B094.md) |
 | B095 | [米豪方法 - 米豪.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B1%B3%E8%B1%AA%E6%96%B9%E6%B3%95%20-%20%E7%B1%B3%E8%B1%AA.pdf) | 169 | 已OCR/未读 | — |
 | B096 | [精品泡学译文集 - 晚熟青年.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E5%93%81%E6%B3%A1%E5%AD%A6%E8%AF%91%E6%96%87%E9%9B%86%20-%20%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4.epub) | 39 | 已提取/未读 | — |
 | B097 | [精通社交圈游戏 - Solievil.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E9%80%9A%E7%A4%BE%E4%BA%A4%E5%9C%88%E6%B8%B8%E6%88%8F%20-%20Solievil.pdf) | 46 | 已提取/未读 | — |

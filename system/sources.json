@@ -1178,9 +1178,16 @@
       "group": "books2_original_snapshot",
       "title": "筛选的101种方式 - Adam Lyons.pdf",
       "git_blob_sha": "e250854e9ddc2d5e80f089f88fba51d16449ae71",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B094.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B094_reading_2026-11-14.json",
+      "coverage_mode": "all30_native_bilingual_pages_101_list_entries_ten_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all30_native_bilingual_pages_and101_entries_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true
     },
     {
       "id": "B095",
@@ -1810,23 +1817,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 88,
+    "current_book_files_text_complete": 89,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 31
+    "current_book_files_not_started": 30
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B094",
-    "path": "筛选的101种方式 - Adam Lyons.pdf",
-    "bytes": 245260,
-    "git_blob_sha": "e250854e9ddc2d5e80f089f88fba51d16449ae71",
+    "id": "B095",
+    "path": "米豪方法 - 米豪.pdf",
+    "bytes": 2614207,
+    "git_blob_sha": "8f6c17a40b5262359e310b0b91972955ed031d03",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B093全部188页识别文本及可辨内容读至末页，P186嵌套小图字形缺口依用户通用授权结束；笔记、真实范围与下一断点先保存提交。下一唯一主读B094，正文未打开。",
-    "next_content_unit": "Read B094 from physical page1 after B093 notes and genuine gap closure are committed. Read each available content unit in order;save notes,scope and checkpoint before another book. Unreadable content closes under standing user policy with exact gaps retained,no repeated question."
+    "start": "B093可辨扫描与P186缺字先保存提交，之后B094三十页双语、101条及原创批注已读完保存；下一唯一主读B095，正文未打开。",
+    "next_content_unit": "Read B095 from physical page1 after current notes,source scope and checkpoint are committed. Read the current file in order;save notes and exact ranges before another file. Under standing policy close genuinely unreadable scan text with gaps retained,without asking again."
   },
   "deferred_work_units": []
 }
