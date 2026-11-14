@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "date": "2026-11-14",
+  "baseline_main": "316646955a0f108c018bcd7a997b327b6e6fff0a",
+  "runtime_version": "1.5.3",
+  "validate_os": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 92,
+    "book_not_started": 27,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unit_tests_passed": 119,
+  "new_unittest_methods": 15,
+  "existing_unittest_methods": 104,
+  "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+  "CLI_examples": [
+    {
+      "case": "solved_then_closed",
+      "route": "R13C",
+      "primary_id": 3,
+      "status": "passed"
+    },
+    {
+      "case": "help_before_question",
+      "route": "R16",
+      "primary_id": 2,
+      "status": "passed"
+    },
+    {
+      "case": "solved_then_question",
+      "route": "R18",
+      "primary_id": 3,
+      "status": "passed"
+    },
+    {
+      "case": "solved_with_cancellation",
+      "route": "R18",
+      "primary_id": 4,
+      "status": "passed"
+    }
+  ],
+  "unit_test_log_sha256": "ce766ef9b6264549977bd28e953654053195c58131b814b85f6cffee05fc57b0",
+  "source_records_inventory_book_notes_reading_ledgers_raw_blobs_method_operations_source_bindings_and_preferred_sections_unchanged": true,
+  "existing_routes_order_and_fact_defaults_unchanged": true,
+  "request_resolution_uses_only_explicit_reader_metadata": true,
+  "request_time_order_and_current_turn_required": true,
+  "request_resolution_does_not_clear_arrangements_or_refusal_limits": true,
+  "existing_test_changes": {
+    "tests/test_turn_focus.py": "One old expected selection of a later ordinary question now keeps the earlier unresolved help as primary.",
+    "tests/test_screen_window.py": "Explicitly resolving the prior help is now required before selecting the closing tail;the old final output expectations remain."
+  },
+  "reading_pause_saved": true,
+  "reading_counts": {
+    "completed": 92,
+    "total": 119,
+    "current_file_content_covered": 86,
+    "user_scope_closures": 6,
+    "unread": 27
+  },
+  "new_book_files_started": 0,
+  "new_book_files_completed": 0,
+  "new_book_characters_read": 0,
+  "new_original_book_notes": 0,
+  "new_method_source_bindings": 0,
+  "next_bookmark": "B098 physical page1",
+  "exact_reading_bookmark_unchanged": true,
+  "next_book_body_opened": false,
+  "previous_reading_and_maintenance_history_preserved": true,
+  "new_router_fact_fields": 0,
+  "new_bubble_annotation_fields": [
+    "resolves"
+  ],
+  "new_private_chats_or_anonymous_private_cases_published": 0,
+  "new_empirical_effect_or_APA_DOI_claims": 0,
+  "scope": "结构、来源身份、虚构路由、CLI与临时请求状态检查；不证明真实截图识别、措辞自然或恋爱效果。"
+}

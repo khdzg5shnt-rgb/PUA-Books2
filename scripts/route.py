@@ -123,6 +123,8 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
                           current_turn_ids=[], reply_to_id=None, current_turn_content=[])
             window.pop('plan_update', None)
             window.pop('plan_gap', None)
+            window.pop('request_resolutions', None)
+            window.pop('request_gap', None)
         supplied.update(current)
     observations = normalize(supplied, config)
     if type(apply_action_goal) is not bool:

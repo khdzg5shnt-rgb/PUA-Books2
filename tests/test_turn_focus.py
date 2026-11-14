@@ -58,8 +58,8 @@ class TurnFocus(unittest.TestCase):
             self.assertEqual(result['decision']['route_id'], route)
             self.assertEqual(result['screen_window']['reply_to_id'], 2)
         result = brief([[bubble(1, function='advice_request'), bubble(2, function='question')]])
-        self.assertEqual(result['decision']['route_id'], 'R18')
-        self.assertEqual(result['screen_window']['reply_to_id'], 2)
+        self.assertEqual(result['decision']['route_id'], 'R16')
+        self.assertEqual(result['screen_window']['reply_to_id'], 1)
 
     def test_old_turn_is_excluded_and_a_sent_user_message_still_requires_waiting(self):
         screens = [[bubble(1, function='question'), bubble(2, 'user'),

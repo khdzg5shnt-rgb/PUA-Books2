@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "updated": "2026-11-14",
-  "current_focus": "B098_next_after_B097_all_current_bilingual_PDF_content_read_and_integrated",
-  "status": "ready_for_next_file",
-  "base_commit": "95084874c63d6fd762ef28f59b69cc53b8397da8",
-  "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 2,
+  "current_focus": "system_request_resolution_and_help_priority",
+  "status": "system_maintenance_completed_reading_paused",
+  "base_commit": "316646955a0f108c018bcd7a997b327b6e6fff0a",
+  "reading_paused_for_this_round": true,
+  "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B097_progress_2026-11-14.md",
-  "validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+  "report": "knowledge/provenance/OS_request_resolutions_2026-11-14.md",
+  "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
   "reading_bookmark": {
     "id": "B098",
     "path": "红丸觉醒.pdf",
@@ -22,65 +22,47 @@
     "start": "B096全文及原创批注已先提交，随后B097四十六页英中文和六个图片资源已读完并整合。下一唯一主读B098，从物理P1开始，本断点保存时正文未打开。",
     "next_content_unit": "Read B098 PDF from physical page1 after B097 notes,full current-file scope and checkpoint have been committed. Read each current file in order before another. Retain genuine unreadable scan gaps and close under standing user policy without asking again."
   },
-  "next_work": "Read B098 PDF from physical page1 after B097 notes,full current-file scope and checkpoint have been committed. Read each current file in order before another. Retain genuine unreadable scan gaps and close under standing user policy without asking again.",
+  "next_work": "本轮系统维护完成，阅读继续暂停。仅在用户明确恢复读书后，从既有B098《红丸觉醒》物理P1书签继续；当前正文未打开，不新增阅读数量。",
   "current_session_progress": {
-    "baseline": "95084874c63d6fd762ef28f59b69cc53b8397da8",
-    "work_type": "read_and_integrate_B097_all_current_bilingual_PDF_content",
-    "new_book_files_started": [
-      "B097"
+    "baseline": "316646955a0f108c018bcd7a997b327b6e6fff0a",
+    "work_type": "system_maintenance",
+    "new_book_files_started": [],
+    "new_book_files_completed": [],
+    "new_book_characters_read": 0,
+    "new_book_pages_read": 0,
+    "new_original_book_notes": 0,
+    "new_method_source_bindings": 0,
+    "reading_statuses_unchanged": true,
+    "reading_bookmark_unchanged": true,
+    "completed_ratio": "92/119",
+    "actually_read_supplied_files": 86,
+    "user_accepted_scope_closure_ids": [
+      "B017",
+      "B039",
+      "B076",
+      "B086",
+      "B093",
+      "B095"
     ],
-    "new_book_files_completed": [
-      "B097"
+    "next_file_body_opened": false,
+    "runtime_version": "1.5.3",
+    "changes": [
+      "explicit_same_turn_request_solutions_and_withdrawals",
+      "unresolved_help_precedes_later_ordinary_questions",
+      "request_resolution_keeps_plan_updates_and_scoped_refusals",
+      "request_resolution_order_and_turn_gaps_not_guessed"
     ],
-    "actually_completed_file_ids": [
-      "B097"
-    ],
-    "new_whole_book_files_actually_read": 1,
-    "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 70640,
-    "new_native_text_pages_read": 46,
-    "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 16,
-    "embedded_assets_individually_viewed": 6,
-    "original_note_groups": 31,
-    "new_method_source_bindings": 55,
-    "new_method_operations": [],
-    "all_current_supplied_B097_content_read": true,
-    "serial_order": [
-      "B096_saved_and_committed_to_main",
-      "read_B097_all46_native_pages_both_English_and_Chinese",
-      "view_all6_raster_assets_and16_original_layouts",
-      "save_translation_notes_scope_and_next_bookmark_before_B098"
-    ],
-    "next_book_body_opened": false,
-    "original_edition_completeness_not_asserted": true,
-    "previous_runtime1_5_2_maintenance_preserved": true,
-    "current_user_turn_aggregate": {
-      "file_ids": [
-        "B096",
-        "B097"
-      ],
-      "new_file_tasks_completed": 2,
-      "new_whole_supplied_file_reads": [
-        "B096",
-        "B097"
-      ],
-      "new_user_scope_closures": [],
-      "new_native_characters_read": 145340,
-      "new_EPUB_spine_items_read": 39,
-      "new_native_text_pages_read": 46,
-      "new_OCR_characters_read": 0,
-      "original_note_groups": 69,
-      "new_exact_method_section_bindings": 139,
-      "B096_committed_before_B097_opened": "95084874c63d6fd762ef28f59b69cc53b8397da8"
-    },
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+      "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
       "validate_os": true,
-      "unit_tests_passed": 104,
-      "focused_retrieval_queries_passed": 55,
-      "prior_sources_runtime_preferred_sections_and_history_preserved": true
+      "unit_tests_passed": 119,
+      "new_test_methods": 15,
+      "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+      "new_CLI_cases_passed": 4,
+      "source_records_book_notes_method_bindings_and_preferred_sections_unchanged": true,
+      "exact_B098_bookmark_unchanged": true,
+      "reading_pause_saved": true
     }
   },
   "last_reading_progress": {
@@ -115,11 +97,11 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "99af2d3f3b9c49a8b000fac49c80034db5e07b1f",
-    "report": "knowledge/provenance/OS_response_priorities_2026-11-13.md",
-    "validation": "knowledge/provenance/OS_response_priorities_validation_2026-11-13.json",
+    "base_commit": "316646955a0f108c018bcd7a997b327b6e6fff0a",
+    "report": "knowledge/provenance/OS_request_resolutions_2026-11-14.md",
+    "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
     "current_session_progress": {
-      "baseline": "99af2d3f3b9c49a8b000fac49c80034db5e07b1f",
+      "baseline": "316646955a0f108c018bcd7a997b327b6e6fff0a",
       "work_type": "system_maintenance",
       "new_book_files_started": [],
       "new_book_files_completed": [],
@@ -129,25 +111,35 @@
       "new_method_source_bindings": 0,
       "reading_statuses_unchanged": true,
       "reading_bookmark_unchanged": true,
-      "completed_ratio": "79/119",
+      "completed_ratio": "92/119",
+      "actually_read_supplied_files": 86,
+      "user_accepted_scope_closure_ids": [
+        "B017",
+        "B039",
+        "B076",
+        "B086",
+        "B093",
+        "B095"
+      ],
       "next_file_body_opened": false,
-      "action_relevant_text_checks": true,
-      "current_help_priority_preserves_responsibility": true,
+      "runtime_version": "1.5.3",
+      "changes": [
+        "explicit_same_turn_request_solutions_and_withdrawals",
+        "unresolved_help_precedes_later_ordinary_questions",
+        "request_resolution_keeps_plan_updates_and_scoped_refusals",
+        "request_resolution_order_and_turn_gaps_not_guessed"
+      ],
       "checks": {
         "status": "passed",
-        "validation": "knowledge/provenance/OS_response_priorities_validation_2026-11-13.json",
+        "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
         "validate_os": true,
-        "unit_tests_passed": 104,
-        "new_test_methods": 12,
+        "unit_tests_passed": 119,
+        "new_test_methods": 15,
         "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
-        "new_CLI_cases_passed": 2,
-        "method_cards_source_bindings_preferred_sections_and_task_modes_unchanged": true,
-        "original_source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
-        "reading79_actual76_plus3_scope_closures_unchanged": true,
-        "B083_bookmark_unchanged_and_body_unopened": true,
-        "reading_pause_saved_and_previous_sessions_preserved": true,
-        "new_method_or_fact_fields": 0,
-        "scope": "结构、路由、CLI与元数据检查，不证明真实读图、措辞自然或恋爱效果。"
+        "new_CLI_cases_passed": 4,
+        "source_records_book_notes_method_bindings_and_preferred_sections_unchanged": true,
+        "exact_B098_bookmark_unchanged": true,
+        "reading_pause_saved": true
       }
     }
   },
@@ -2372,6 +2364,43 @@
           "B074_bookmark_unchanged_and_body_unopened": true,
           "reading_pause_saved_and_previous_sessions_preserved": true,
           "current_entry_statuses_match_machine_source_counts": true
+        }
+      }
+    },
+    {
+      "base_commit": "99af2d3f3b9c49a8b000fac49c80034db5e07b1f",
+      "report": "knowledge/provenance/OS_response_priorities_2026-11-13.md",
+      "validation": "knowledge/provenance/OS_response_priorities_validation_2026-11-13.json",
+      "current_session_progress": {
+        "baseline": "99af2d3f3b9c49a8b000fac49c80034db5e07b1f",
+        "work_type": "system_maintenance",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "new_original_book_notes": 0,
+        "new_method_source_bindings": 0,
+        "reading_statuses_unchanged": true,
+        "reading_bookmark_unchanged": true,
+        "completed_ratio": "79/119",
+        "next_file_body_opened": false,
+        "action_relevant_text_checks": true,
+        "current_help_priority_preserves_responsibility": true,
+        "checks": {
+          "status": "passed",
+          "validation": "knowledge/provenance/OS_response_priorities_validation_2026-11-13.json",
+          "validate_os": true,
+          "unit_tests_passed": 104,
+          "new_test_methods": 12,
+          "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+          "new_CLI_cases_passed": 2,
+          "method_cards_source_bindings_preferred_sections_and_task_modes_unchanged": true,
+          "original_source_records_inventory_book_notes_raw_blobs_and_reading_ledgers_unchanged": true,
+          "reading79_actual76_plus3_scope_closures_unchanged": true,
+          "B083_bookmark_unchanged_and_body_unopened": true,
+          "reading_pause_saved_and_previous_sessions_preserved": true,
+          "new_method_or_fact_fields": 0,
+          "scope": "结构、路由、CLI与元数据检查，不证明真实读图、措辞自然或恋爱效果。"
         }
       }
     }

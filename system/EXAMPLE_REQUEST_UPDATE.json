@@ -1,0 +1,44 @@
+{
+  "task": "reply",
+  "case_key": "solved_then_closed",
+  "cases": {
+    "solved_then_closed": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [[
+        {"id": 1, "sender": "user"},
+        {"id": 2, "sender": "other", "facts": {"function": "advice_request"}},
+        {"id": 3, "sender": "other", "resolves": [2], "facts": {"function": "closing"}}
+      ]]
+    },
+    "help_before_question": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [[
+        {"id": 1, "sender": "user"},
+        {"id": 2, "sender": "other", "facts": {"function": "advice_request"}},
+        {"id": 3, "sender": "other", "facts": {"function": "question"}}
+      ]]
+    },
+    "solved_then_question": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "screens": [[
+        {"id": 1, "sender": "user"},
+        {"id": 2, "sender": "other", "facts": {"function": "advice_request"}},
+        {"id": 3, "sender": "other", "resolves": [2], "facts": {"function": "question"}}
+      ]]
+    },
+    "solved_with_cancellation": {
+      "speaker_verified": true,
+      "text_legible": true,
+      "invitation": "settled",
+      "screens": [[
+        {"id": 1, "sender": "user"},
+        {"id": 2, "sender": "other", "facts": {"function": "question", "invitation": "cancelled_without_repair"}},
+        {"id": 3, "sender": "other", "resolves": [2], "facts": {"function": "sharing"}},
+        {"id": 4, "sender": "other", "facts": {"function": "question"}}
+      ]]
+    }
+  }
+}

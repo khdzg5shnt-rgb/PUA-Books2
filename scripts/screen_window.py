@@ -22,7 +22,7 @@ def read_bubble(item, config):
         if set(item) != {'kind'}:
             raise ValueError('A non-message marker takes only its kind')
         return None
-    if kind != 'sent' or set(item) - {'kind', 'id', 'sender', 'facts'}:
+    if kind != 'sent' or set(item) - {'kind', 'id', 'sender', 'facts', 'resolves'}:
         raise ValueError('Use a sent bubble or a draft, quote or notice marker')
     ident, sender = item.get('id'), item.get('sender')
     if type(ident) is not int or ident < 1 or sender not in ('user', 'other', 'unknown'):
@@ -33,12 +33,61 @@ def read_bubble(item, config):
     validate_fact_values(facts, config)
     if facts.get('invitation') == 'none':
         raise ValueError('Omit invitation on ordinary content; an update needs a verified arrangement event')
-    return ident, sender, facts
+    resolved = item.get('resolves')
+    if 'resolves' in item and (
+            sender != 'other' or not isinstance(resolved, list) or not resolved or
+            any(type(target) is not int or target < 1 or target == ident for target in resolved) or
+            len(resolved) != len(set(resolved))):
+        raise ValueError('resolves needs distinct earlier request IDs on a verified other-sender bubble')
+    return ident, sender, facts, resolved
 
 
 def _needs_answer(facts):
     return (facts.get('function') in {'question', 'advice_request'} or
             facts.get('advice_requested', False) or facts.get('urgent_practical_need', False))
+
+
+def _help_priority(facts):
+    """Existing explicit help facts only; this is not a score of relationship interest."""
+    if facts.get('urgent_practical_need', False):
+        return 2
+    return int(facts.get('advice_requested', False) or
+               facts.get('function') == 'advice_request')
+
+
+def _precedes(older, newer, predecessors):
+    pending = list(predecessors[newer])
+    seen = set()
+    while pending:
+        ident = pending.pop()
+        if ident == older:
+            return True
+        if ident not in seen:
+            seen.add(ident)
+            pending.extend(predecessors[ident])
+    return False
+
+
+def _request_resolutions(messages, updates, predecessors, possible, current, ordered):
+    """Apply only explicitly read later same-turn withdrawals/solutions."""
+    resolved = {}
+    for resolver in ordered:
+        if resolver not in updates or resolver not in possible:
+            continue
+        for target in updates[resolver]:
+            if (target not in messages or messages[target][0] != {'other'} or
+                    not _needs_answer(messages[target][1])):
+                raise ValueError('resolves must identify a marked request from the same selected conversation')
+            if target not in possible:
+                raise ValueError('resolves cannot reopen or change an earlier conversation turn')
+            if target not in current or resolver not in current:
+                return {}, 'turn'
+            if not _precedes(target, resolver, predecessors):
+                if _precedes(resolver, target, predecessors):
+                    raise ValueError('A request resolution must follow its target request')
+                return {}, 'order'
+            resolved.setdefault(target, []).append(resolver)
+    return resolved, None
 
 
 def _plan_update(messages, ordered, predecessors, possible, current):
@@ -68,6 +117,7 @@ def resolve_screens(screens, config, links, reply_to_id=None):
         raise ValueError('screens must contain one or more annotated views')
     order = TopologicalSorter()
     messages = {}
+    request_updates = {}
     earlier = set()
     predecessors = {}
     for screen in screens:
@@ -78,13 +128,18 @@ def resolve_screens(screens, config, links, reply_to_id=None):
             bubble = read_bubble(item, config)
             if bubble is None:
                 continue
-            ident, sender, facts = bubble
+            ident, sender, facts, resolved = bubble
             senders, observed = messages.setdefault(ident, (set(), {}))
             if sender != 'unknown':
                 senders.add(sender)
             if any(key in observed and observed[key] != val for key, val in facts.items()):
                 raise ValueError('Recheck conflicting observations on the same bubble')
             observed.update(facts)
+            if resolved is not None:
+                targets = set(resolved)
+                if ident in request_updates and request_updates[ident] != targets:
+                    raise ValueError('Recheck conflicting request resolutions on the same bubble')
+                request_updates[ident] = targets
             order.add(ident)
             predecessors.setdefault(ident, set())
             if previous is not None:
@@ -141,6 +196,8 @@ def resolve_screens(screens, config, links, reply_to_id=None):
     selected_id = None
     plan_update = None
     plan_gap = None
+    resolved_requests = {}
+    request_gap = None
     if gap == 'none' and sender == 'other':
         # A bubble belongs to the current other turn only when every visible
         # user/unknown barrier is proved to precede it. Prefix upload order is
@@ -165,19 +222,40 @@ def resolve_screens(screens, config, links, reply_to_id=None):
                 barrier_later.update(predecessors[ident])
         possible_turn_ids = {ident for ident in ordered
                              if messages[ident][0] == {'other'} and ident not in barrier_later}
+        resolved_requests, request_gap = _request_resolutions(
+            messages, request_updates, predecessors, possible_turn_ids,
+            set(current_turn_ids), ordered)
+
+        def pending_request(ident):
+            return _needs_answer(messages[ident][1]) and ident not in resolved_requests
+
+        help_level = max((_help_priority(messages[ident][1]) for ident in current_turn_ids
+                          if pending_request(ident)), default=0)
+        primary_help = [ident for ident in current_turn_ids if pending_request(ident)
+                        and _help_priority(messages[ident][1]) == help_level] if help_level else []
         if reply_to_id is not None:
+            if reply_to_id in resolved_requests:
+                raise ValueError('reply_to_id cannot select a request already resolved in this turn')
             if reply_to_id in current_turn_ids:
-                selected_id = reply_to_id
+                if primary_help and reply_to_id not in primary_help:
+                    gap = 'content'
+                else:
+                    selected_id = reply_to_id
             elif reply_to_id in possible_turn_ids:
                 gap = 'order'
             else:
                 raise ValueError('reply_to_id cannot select an earlier conversation turn')
-        elif _needs_answer(messages[last_id][1]):
-            selected_id = last_id
-        elif any(_needs_answer(messages[ident][1]) for ident in possible_turn_ids
+        elif any(pending_request(ident) for ident in possible_turn_ids
                  if ident not in current_turn_ids):
             gap = 'order'
-        elif any(_needs_answer(messages[ident][1]) for ident in current_turn_ids
+        elif pending_request(last_id):
+            if primary_help and len(primary_help) == 1:
+                selected_id = primary_help[0]
+            elif primary_help and last_id not in primary_help:
+                gap = 'content'
+            else:
+                selected_id = last_id
+        elif any(pending_request(ident) for ident in current_turn_ids
                  if ident != last_id):
             gap = 'content'
         else:
@@ -186,6 +264,9 @@ def resolve_screens(screens, config, links, reply_to_id=None):
             messages, ordered, predecessors, possible_turn_ids,
             set(current_turn_ids))
         if plan_gap:
+            gap = 'order'
+            selected_id = None
+        if request_gap:
             gap = 'order'
             selected_id = None
     elif gap == 'none' and reply_to_id is not None:
@@ -201,9 +282,16 @@ def resolve_screens(screens, config, links, reply_to_id=None):
     summary['current_turn_content'] = [
         {'id': ident, 'function': messages[ident][1].get('function', 'unknown'),
          'request_marked': _needs_answer(messages[ident][1]),
+         **({'request_resolved': True} if ident in resolved_requests else {}),
          'selected_primary': ident == selected_id} for ident in current_turn_ids]
     if plan_update is not None:
         summary['plan_update'] = plan_update
     if plan_gap is not None:
         summary['plan_gap'] = plan_gap
+    if resolved_requests:
+        summary['request_resolutions'] = [
+            {'request_id': ident, 'resolved_by_ids': resolved_requests[ident]}
+            for ident in ordered if ident in resolved_requests]
+    if request_gap is not None:
+        summary['request_gap'] = request_gap
     return current, summary

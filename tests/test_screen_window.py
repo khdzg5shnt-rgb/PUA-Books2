@@ -46,6 +46,9 @@ class ScreenWindow(unittest.TestCase):
         for last, route in [(bubble(2, 'other'), 'R28'), (bubble(2, 'other', function='closing'), 'R13C')]:
             screens = [[old, {'kind': 'quote'}, last, {'kind': 'notice'}]]
             self.assertEqual(brief({'screens': screens})['decision']['route_id'], 'R00T')
+            self.assertEqual(brief({'screens': screens, 'reply_to_id': 2})['decision']['route_id'], 'R00T')
+            # Selecting the tail is not evidence that the previous help was withdrawn.
+            last['resolves'] = [1]
             result = brief({'screens': screens, 'reply_to_id': 2})
             self.assertEqual(result['decision']['route_id'], route)
             self.assertEqual(result['screen_window']['distinct_sent'], 2)
