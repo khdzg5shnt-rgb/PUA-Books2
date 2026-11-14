@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成91/119份任务，无部分处理文件、28份未开始。85份当前提供内容已覆盖，B017、B039、B076、B086、B093、B095共6份按用户授权结束并保留缺口。本轮B096《精品泡学译文集》39项（前言及38篇）全部74,700字符已读，新增38组原创批注、84处精确引用。原文件未译和重复部分已标明；当前文件无已知未读缺口，原著完整性未核。下一唯一主读B097，正文未打开。[本轮记录](B096_progress_2026-11-14.md)。
+当前完成92/119份任务，无部分处理文件、27份未开始。86份当前提供内容已覆盖，B017、B039、B076、B086、B093、B095共6份按用户授权结束并保留缺口。本轮先提交B096的39项全文，再读完B097全部46页英中文；两份共145,340原生字符、69组原创批注、139处精确引用。B097译义差异与缺失课程单列，当前文件无已知未读缺口。下一唯一主读B098，正文未打开。[本轮记录](B097_progress_2026-11-14.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -109,7 +109,7 @@
 | B094 | [筛选的101种方式 - Adam Lyons.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%AD%9B%E9%80%89%E7%9A%84101%E7%A7%8D%E6%96%B9%E5%BC%8F%20-%20Adam%20Lyons.pdf) | 30 | 双语全文及101条已读，计数与译义偏差单列，原版未核 | [20组批注](../books/B094.md) |
 | B095 | [米豪方法 - 米豪.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B1%B3%E8%B1%AA%E6%96%B9%E6%B3%95%20-%20%E7%B1%B3%E8%B1%AA.pdf) | 169 | 全部可辨识别文本已读；P29/78/158图字损坏依通用授权结束计数，非完整实读 | [36组批注](../books/B095.md) |
 | B096 | [精品泡学译文集 - 晚熟青年.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E5%93%81%E6%B3%A1%E5%AD%A6%E8%AF%91%E6%96%87%E9%9B%86%20-%20%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4.epub) | 39项 | 当前全文74,700字符已读；38篇，原文件缺译及计数差异单列 | [38组批注](../books/B096.md) |
-| B097 | [精通社交圈游戏 - Solievil.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E9%80%9A%E7%A4%BE%E4%BA%A4%E5%9C%88%E6%B8%B8%E6%88%8F%20-%20Solievil.pdf) | 46 | 已提取/未读 | — |
+| B097 | [精通社交圈游戏 - Solievil.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E9%80%9A%E7%A4%BE%E4%BA%A4%E5%9C%88%E6%B8%B8%E6%88%8F%20-%20Solievil.pdf) | 46 | 全部英中文70,640字符和六个图片已读；译义与缺失课程另列 | [31组批注](../books/B097.md) |
 | B098 | [红丸觉醒.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A2%E4%B8%B8%E8%A7%89%E9%86%92.pdf) | 102 | 已OCR/未读 | — |
 | B099 | [约会倍增术 - 大卫D.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A6%E4%BC%9A%E5%80%8D%E5%A2%9E%E6%9C%AF%20-%20%E5%A4%A7%E5%8D%ABD.pdf) | 61 | 已提取/未读 | — |
 | B100 | [约会倍增术（Double+Your+Dating简体版）.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A6%E4%BC%9A%E5%80%8D%E5%A2%9E%E6%9C%AF%EF%BC%88Double%2BYour%2BDating%E7%AE%80%E4%BD%93%E7%89%88%EF%BC%89.pdf) | 63 | 已提取/未读 | — |

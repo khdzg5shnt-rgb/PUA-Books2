@@ -15506,8 +15506,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E9%80%9A%E7%A4%BE%E4%BA%A4%E5%9C%88%E6%B8%B8%E6%88%8F%20-%20Solievil.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B097.md",
       "pages": 46,
       "spine_items": null,
       "ocr": {
@@ -15515,7 +15515,51 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B097_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered46_native_pages_both_language_versions_six_rasters_and16_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all46_English_and_Chinese_pages_and_six_raster_assets_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "fe8020cb85cfbaa64012d437e6f25e16ec25a637e3f0a46ca6f1993fa8c9db7b",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B097_reading_2026-11-14.json",
+        "native_characters": 70640,
+        "native_pages_read": 46,
+        "both_English_and_Chinese_read": true,
+        "article_pairs": 5,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          3,
+          6,
+          10,
+          18,
+          23,
+          25,
+          26,
+          30,
+          34,
+          36,
+          37,
+          42,
+          43,
+          46
+        ],
+        "embedded_assets_individually_viewed": 6,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "PDF contains only part of the advertised course.",
+          "P30 previews a fourth Revealing the Social Matrix article that is absent from this PDF."
+        ],
+        "original_note_groups": 31,
+        "new_exact_method_section_bindings": 55
+      }
     },
     {
       "index": 98,
@@ -16249,5 +16293,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B096 all39 EPUB spine bodies74700characters and38articles read;all nonwhitespace body characters independently matched;no images or other XHTML.Article20actual11vsheading10;article21actual97vsheading100;article29and38provided-source omissions retained.38originalnotes,84exactbindings.91/119=85currentfilescovered+6standingclosures.NextB097bodyunopened."
+  "latest_reading_update": "2026-11-14:B096committedbeforeB097.B097all46nativeEnglish/Chinesepages70640charactersread;fivearticlepairs;sixrastersviewed;16layouts;translationdifferencesretained.31originalnotes,55exactbindings.Roundtotal2files,145340nativecharacters,69notes,139bindings.92/119=86coveredcurrentfiles+6standingclosures.NextB098bodyunopened."
 }
