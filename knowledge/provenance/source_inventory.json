@@ -16059,8 +16059,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BB%9D%E5%AF%86%E8%AF%9D%E6%9C%AF%20-%20%E6%B5%AA%E8%BF%B9%E5%9B%A2%E9%98%9F.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B102.md",
       "pages": 21,
       "spine_items": null,
       "ocr": {
@@ -16068,7 +16068,60 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B102_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered21_native_pages_all20_distinct_raster_payloads_and15_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all21_native_pages_and_all_distinct_visible_raster_content_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "9178bb48abba6280d8e3b0328e46dd5d476dc65fc5ff96aed2505bd3ab20716a",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B102_reading_2026-11-14.json",
+        "native_characters": 15698,
+        "native_pages_read": 21,
+        "all21_native_pages_directly_read": true,
+        "independent_nonwhitespace_exact_pages": 21,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          17,
+          20,
+          21
+        ],
+        "raster_resource_objects": 20,
+        "unique_raster_payloads_actually_viewed": 20,
+        "raster_kinds": {
+          "colored_background_payloads": 18,
+          "tiny_white_payloads": 1,
+          "QR_with_visible_caption": 1
+        },
+        "QR_target_decoded_or_opened": false,
+        "vector_objects": 42,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "前言自称收录3000条以上，当前21页是否完整提供该数量未核，不计作3000条已读",
+          "P4有未完句，P20有截断措辞；按当前实际提供内容读取，不猜补",
+          "P17—19为明确说明节选的案例，不宣称其前后完整互动或线下结果已核",
+          "P20推广的实体书、课程、语音与外部文章没有提供正文，P21是二维码而非导师介绍全文；均未打开外链"
+        ],
+        "original_note_groups": 40,
+        "new_exact_method_section_bindings": 70
+      }
     },
     {
       "index": 103,
@@ -16669,5 +16722,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B100versionreviewcommittedbeforeB101.B101all84nativepages64340charactersandall8distinctrasterpayloadsread;24layouts;all84bodytextsindependentlymatchafteranchoredrepeatedfooterdatecorrection(raw0/84equal).56originalnotes101exactbindings.Currentturn2tasks=B100explicitverifiedreuse+B101newfullcurrentfileread,66notes101bindings.96/119=89currentcoveragesincludingB100reuse+7closures.NextB102bodyunopened.Runtime1.5.3preserved."
+  "latest_reading_update": "2026-11-14:B101committedbeforeB102.B102all21nativepages15698charactersandall20visibleimagepayloadsread;15layouts;independentnonwhitespaceall21exact;QRtargetnotopened.40originalnotes70exactbindings.Currentturn3tasks=B100explicitverifiedreuse+B101andB102newwholecurrentfilereads,80038newnativecharacters106notes171bindings.97/119=90currentcoveragesincludingB100reuse+7closures.NextB104firstspineunopened;B103alreadycompleted.Runtime1.5.3preserved."
 }

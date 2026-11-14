@@ -1,0 +1,392 @@
+{
+  "status": "passed",
+  "validate_os": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 97,
+    "book_not_started": 22,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unit_tests_passed": 119,
+  "focused_reading_and_retrieval_checks": {
+    "status": "passed",
+    "new_exact_method_section_retrieval_checks": [
+      {
+        "method": "M01",
+        "heading": "B102-03 惯例要服从已知情境",
+        "line": 31
+      },
+      {
+        "method": "M26",
+        "heading": "B102-03 惯例要服从已知情境",
+        "line": 31
+      },
+      {
+        "method": "M21",
+        "heading": "B102-04 有效宣称不能反向证明用户有错",
+        "line": 39
+      },
+      {
+        "method": "M22",
+        "heading": "B102-04 有效宣称不能反向证明用户有错",
+        "line": 39
+      },
+      {
+        "method": "M01",
+        "heading": "B102-05 五段结构只是来源自己的组织方式",
+        "line": 47
+      },
+      {
+        "method": "M14",
+        "heading": "B102-05 五段结构只是来源自己的组织方式",
+        "line": 47
+      },
+      {
+        "method": "M08",
+        "heading": "B102-06 情绪积极不等于接受新要求",
+        "line": 55
+      },
+      {
+        "method": "M23",
+        "heading": "B102-06 情绪积极不等于接受新要求",
+        "line": 55
+      },
+      {
+        "method": "M15",
+        "heading": "B102-07 安全感靠信息和安排体现",
+        "line": 63
+      },
+      {
+        "method": "M22",
+        "heading": "B102-07 安全感靠信息和安排体现",
+        "line": 63
+      },
+      {
+        "method": "M05",
+        "heading": "B102-08 共同记忆必须确实属于双方",
+        "line": 71
+      },
+      {
+        "method": "M10",
+        "heading": "B102-08 共同记忆必须确实属于双方",
+        "line": 71
+      },
+      {
+        "method": "M11",
+        "heading": "B102-09 共鸣不是进入亲密关系的通行证",
+        "line": 79
+      },
+      {
+        "method": "M23",
+        "heading": "B102-09 共鸣不是进入亲密关系的通行证",
+        "line": 79
+      },
+      {
+        "method": "M03",
+        "heading": "B102-10 开场优先使用真实细节",
+        "line": 87
+      },
+      {
+        "method": "M25",
+        "heading": "B102-10 开场优先使用真实细节",
+        "line": 87
+      },
+      {
+        "method": "M08",
+        "heading": "B102-11 好奇不等于对本人有兴趣",
+        "line": 95
+      },
+      {
+        "method": "M18",
+        "heading": "B102-11 好奇不等于对本人有兴趣",
+        "line": 95
+      },
+      {
+        "method": "M22",
+        "heading": "B102-12 悬念和假熟悉不能代替信息",
+        "line": 103
+      },
+      {
+        "method": "M25",
+        "heading": "B102-12 悬念和假熟悉不能代替信息",
+        "line": 103
+      },
+      {
+        "method": "M06",
+        "heading": "B102-13 幽默不是所有互动的必要条件",
+        "line": 111
+      },
+      {
+        "method": "M26",
+        "heading": "B102-13 幽默不是所有互动的必要条件",
+        "line": 111
+      },
+      {
+        "method": "M07",
+        "heading": "B102-14 角色称呼要由双方一起承接",
+        "line": 119
+      },
+      {
+        "method": "M23",
+        "heading": "B102-14 角色称呼要由双方一起承接",
+        "line": 119
+      },
+      {
+        "method": "M20",
+        "heading": "B102-15 不愿意不能统一归为可化解反应",
+        "line": 127
+      },
+      {
+        "method": "M23",
+        "heading": "B102-15 不愿意不能统一归为可化解反应",
+        "line": 127
+      },
+      {
+        "method": "M06",
+        "heading": "B102-16 推拉不采纳外貌羞辱",
+        "line": 135
+      },
+      {
+        "method": "M22",
+        "heading": "B102-16 推拉不采纳外貌羞辱",
+        "line": 135
+      },
+      {
+        "method": "M02",
+        "heading": "B102-17 沉默不需要刺激或嘲讽补救",
+        "line": 143
+      },
+      {
+        "method": "M19",
+        "heading": "B102-17 沉默不需要刺激或嘲讽补救",
+        "line": 143
+      },
+      {
+        "method": "M04",
+        "heading": "B102-18 信息交换不做查户口或考核",
+        "line": 151
+      },
+      {
+        "method": "M22",
+        "heading": "B102-18 信息交换不做查户口或考核",
+        "line": 151
+      },
+      {
+        "method": "M13",
+        "heading": "B102-19 求助和生活能力不换成亲密报酬",
+        "line": 159
+      },
+      {
+        "method": "M22",
+        "heading": "B102-19 求助和生活能力不换成亲密报酬",
+        "line": 159
+      },
+      {
+        "method": "M22",
+        "heading": "B102-20 涉及儿童的性化例句不进入方法",
+        "line": 167
+      },
+      {
+        "method": "M23",
+        "heading": "B102-20 涉及儿童的性化例句不进入方法",
+        "line": 167
+      },
+      {
+        "method": "M13",
+        "heading": "B102-21 身份核实是具体问题不是自动测试",
+        "line": 175
+      },
+      {
+        "method": "M22",
+        "heading": "B102-21 身份核实是具体问题不是自动测试",
+        "line": 175
+      },
+      {
+        "method": "M04",
+        "heading": "B102-22 正常事实问题应先回答",
+        "line": 183
+      },
+      {
+        "method": "M26",
+        "heading": "B102-22 正常事实问题应先回答",
+        "line": 183
+      },
+      {
+        "method": "M21",
+        "heading": "B102-23 表达边界不是回避或压制情绪",
+        "line": 191
+      },
+      {
+        "method": "M22",
+        "heading": "B102-23 表达边界不是回避或压制情绪",
+        "line": 191
+      },
+      {
+        "method": "M08",
+        "heading": "B102-24 冷读保留可纠正性，不诊断内心",
+        "line": 199
+      },
+      {
+        "method": "M20",
+        "heading": "B102-24 冷读保留可纠正性，不诊断内心",
+        "line": 199
+      },
+      {
+        "method": "M08",
+        "heading": "B102-25 赞美落在可确认的具体事情",
+        "line": 207
+      },
+      {
+        "method": "M09",
+        "heading": "B102-25 赞美落在可确认的具体事情",
+        "line": 207
+      },
+      {
+        "method": "M10",
+        "heading": "B102-26 生活故事不能挪用成自己的人生",
+        "line": 215
+      },
+      {
+        "method": "M22",
+        "heading": "B102-26 生活故事不能挪用成自己的人生",
+        "line": 215
+      },
+      {
+        "method": "M23",
+        "heading": "B102-28 讲故事不能暗中预演身体接触",
+        "line": 231
+      },
+      {
+        "method": "M11",
+        "heading": "B102-29 关心感受不替对方定义人生",
+        "line": 239
+      },
+      {
+        "method": "M20",
+        "heading": "B102-29 关心感受不替对方定义人生",
+        "line": 239
+      },
+      {
+        "method": "M04",
+        "heading": "B102-30 表达喜欢只代表自己的真实感受",
+        "line": 247
+      },
+      {
+        "method": "M09",
+        "heading": "B102-30 表达喜欢只代表自己的真实感受",
+        "line": 247
+      },
+      {
+        "method": "M11",
+        "heading": "B102-31 鼓励不应盖过当前的难受和求助",
+        "line": 255
+      },
+      {
+        "method": "M13",
+        "heading": "B102-31 鼓励不应盖过当前的难受和求助",
+        "line": 255
+      },
+      {
+        "method": "M14",
+        "heading": "B102-32 模糊试探不是具体邀约的必经步骤",
+        "line": 263
+      },
+      {
+        "method": "M15",
+        "heading": "B102-32 模糊试探不是具体邀约的必经步骤",
+        "line": 263
+      },
+      {
+        "method": "M14",
+        "heading": "B102-33 请客和帮助不能用来制造见面义务",
+        "line": 271
+      },
+      {
+        "method": "M22",
+        "heading": "B102-33 请客和帮助不能用来制造见面义务",
+        "line": 271
+      },
+      {
+        "method": "M15",
+        "heading": "B102-34 私人地点和关系期待要说明白",
+        "line": 279
+      },
+      {
+        "method": "M22",
+        "heading": "B102-34 私人地点和关系期待要说明白",
+        "line": 279
+      },
+      {
+        "method": "M23",
+        "heading": "B102-34 私人地点和关系期待要说明白",
+        "line": 279
+      },
+      {
+        "method": "M22",
+        "heading": "B102-35 性化话术不靠游戏绕过边界",
+        "line": 287
+      },
+      {
+        "method": "M23",
+        "heading": "B102-35 性化话术不靠游戏绕过边界",
+        "line": 287
+      },
+      {
+        "method": "M01",
+        "heading": "B102-36 案例节选和导师标注不能证明因果",
+        "line": 295
+      },
+      {
+        "method": "M08",
+        "heading": "B102-36 案例节选和导师标注不能证明因果",
+        "line": 295
+      },
+      {
+        "method": "M16",
+        "heading": "B102-37 没空的理由和替代安排分别核",
+        "line": 303
+      },
+      {
+        "method": "M17",
+        "heading": "B102-37 没空的理由和替代安排分别核",
+        "line": 303
+      },
+      {
+        "method": "M15",
+        "heading": "B102-38 答应某项活动后再核细节",
+        "line": 311
+      },
+      {
+        "method": "M23",
+        "heading": "B102-38 答应某项活动后再核细节",
+        "line": 311
+      }
+    ],
+    "unbound_global_version_heading_queries": [
+      "B102-01 当前21页不冒认为三千条完整原版",
+      "B102-02 目录按原版面顺序恢复",
+      "B102-27 寓言、歌词和名人归属没有完成核验",
+      "B102-39 推广、二维码和当前文件分开",
+      "B102-40 图像底色不是额外缺失正文"
+    ],
+    "all40_note_groups_covered_by_appropriate_retrieval": true,
+    "method_actions_preferred_routes_tasks_runtime1_5_3_and_AGENTS_unchanged": true,
+    "all_other_sources_including_completed_B103_old_notes_and_prior_ledgers_unchanged": true,
+    "original_source_hashes_and_initial_screening_counts_unchanged": true,
+    "reading_and_maintenance_history_preserved": true,
+    "all21_native_page_hashes_ranges_and_independent_nonwhitespace_matches_checked": true,
+    "15_layout_hashes_and_all20_visible_raster_payloads_checked": true,
+    "QR_target_not_decoded_opened_or_counted_as_file_body": true,
+    "source_excerpt_truncation_and_unprovided_promotion_retained": true,
+    "B100_reuse_not_recounted_as_new_full_reading": true,
+    "new_method_source_bindings": 70,
+    "new_private_case_or_script_files": 0
+  },
+  "scope": "Source identity,actual reading ranges,metadata and synthetic routing checks do not establish relationship effects or source psychology claims."
+}
