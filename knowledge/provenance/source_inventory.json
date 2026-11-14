@@ -15166,8 +15166,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%A5%9E%E6%92%A9%E6%9C%AF%20-%20%E6%AC%A7%E9%98%B3%E6%B5%AE%E5%A4%B8.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B093.md",
       "pages": 188,
       "spine_items": null,
       "ocr": {
@@ -15175,7 +15175,80 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "incomplete_or_explicitly_abridged",
+      "reading_ledger": "knowledge/provenance/B093_reading_2026-11-14.json",
+      "coverage_mode": "scanned_OCR_readable_content_reviewed_then_user_scope_closure",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "task_complete": true,
+      "source_sha256": "57dfe8ced6a719268c92ac905264ed098a0cdd43c9da0c578f391e6263515fac",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B093_reading_2026-11-14.json",
+        "physical_pages": 188,
+        "actual_native_characters": 0,
+        "cached_OCR_pages_actually_read": 188,
+        "actual_OCR_characters_read": 53289,
+        "diagnostic_OCR_pages_also_read": 22,
+        "overlap_not_added": true,
+        "visual_pages_reviewed": [
+          1,
+          2,
+          5,
+          7,
+          8,
+          9,
+          31,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          80,
+          82,
+          83,
+          87,
+          88,
+          89,
+          90,
+          102,
+          147,
+          148,
+          149,
+          186,
+          187,
+          188
+        ],
+        "all_current_file_content_read": false,
+        "known_unread_image_units": [
+          {
+            "file_page": 186,
+            "region": "upper-left testimonial panel,nested small phone/chat screenshot",
+            "kind": "low_resolution_current_raster_text",
+            "meaning": "Tiny nested text remains indeterminate in OCR and original page render;no invented transcript. Other readable text and image contents reviewed.",
+            "OCR_reviewed": true,
+            "original_render_reviewed": true,
+            "source_privacy_masks_not_reconstructed": true
+          }
+        ],
+        "standing_user_policy_applied_without_new_question": true,
+        "original_note_groups": 34,
+        "new_exact_method_section_bindings": 47
+      }
     },
     {
       "index": 94,
@@ -16005,5 +16078,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B091 all95 supplied native-text pages75974characters and all visible raster composites read;nine layout samples;34originalnotes,42exactbindings.TOC13/appendices and two referenced figures not supplied;not reconstructed.87/119=83current-file-completions+4userclosures.Thisturn B088/B089 verifiedversions precede B091;no duplicate-work inflation.NextB093 body unopened;B092alreadycomplete."
+  "latest_reading_update": "2026-11-14: B093 all188 cached OCR texts53289characters read;22 diagnosticOCRpages reread,38 source layouts reviewed.P186nestedlowresolutiontextgap remains;standinguserpolicyclosure,not full-current-file reading.34originalcriticalnotes,47exactbindings.88/119=83coveredcurrentfiles+5userclosures.NextB094bodyunopened."
 }
