@@ -1244,9 +1244,17 @@
       "group": "books2_original_snapshot",
       "title": "红丸觉醒.pdf",
       "git_blob_sha": "a80d3037cc91453c1ad7674e0374ace99c1fc71d",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B098.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B098_reading_2026-11-14.json",
+      "coverage_mode": "all102_cached_OCR_texts_and_all102_original_page_images_read_with_two_retained_figure_lettering_gaps",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B099",
@@ -1840,23 +1848,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 92,
+    "current_book_files_text_complete": 93,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 27
+    "current_book_files_not_started": 26
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B098",
-    "path": "红丸觉醒.pdf",
-    "bytes": 40703794,
-    "git_blob_sha": "a80d3037cc91453c1ad7674e0374ace99c1fc71d",
+    "id": "B099",
+    "path": "约会倍增术 - 大卫D.pdf",
+    "bytes": 1228780,
+    "git_blob_sha": "ae19d15548e0d24403cd48e383b05bcf80525712",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B096全文及原创批注已先提交，随后B097四十六页英中文和六个图片资源已读完并整合。下一唯一主读B098，从物理P1开始，本断点保存时正文未打开。",
-    "next_content_unit": "Read B098 PDF from physical page1 after B097 notes,full current-file scope and checkpoint have been committed. Read each current file in order before another. Retain genuine unreadable scan gaps and close under standing user policy without asking again."
+    "start": "用户已明确恢复。B098可辨内容及102页原图已核看，P30/P50细字缺口按通用授权结束；笔记、范围及下一断点先保存提交。下一唯一主读B099，从物理P1开始，本断点保存时正文未打开。",
+    "next_content_unit": "Read B099 PDF from physical page1 only after B098 readable-content notes,two retained figure gaps and checkpoint have been committed. Complete or scope-close each current supplied file before another; no repeated questions for genuinely unreadable scans."
   },
   "deferred_work_units": []
 }

@@ -1,68 +1,104 @@
 {
   "schema_version": 1,
   "updated": "2026-11-14",
-  "current_focus": "system_request_resolution_and_help_priority",
-  "status": "system_maintenance_completed_reading_paused",
-  "base_commit": "316646955a0f108c018bcd7a997b327b6e6fff0a",
-  "reading_paused_for_this_round": true,
-  "new_book_files_completed_this_round": 0,
+  "current_focus": "B099_next_after_B098_readable_content_and_two_figure_gaps_closed",
+  "status": "ready_for_next_file",
+  "base_commit": "a5644fea0cc806346d09fc7abce8201c12d06fa8",
+  "reading_paused_for_this_round": false,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/OS_request_resolutions_2026-11-14.md",
-  "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
+  "report": "knowledge/provenance/B098_progress_2026-11-14.md",
+  "validation": "knowledge/provenance/B098_validation_2026-11-14.json",
   "reading_bookmark": {
-    "id": "B098",
-    "path": "红丸觉醒.pdf",
-    "bytes": 40703794,
-    "git_blob_sha": "a80d3037cc91453c1ad7674e0374ace99c1fc71d",
+    "id": "B099",
+    "path": "约会倍增术 - 大卫D.pdf",
+    "bytes": 1228780,
+    "git_blob_sha": "ae19d15548e0d24403cd48e383b05bcf80525712",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B096全文及原创批注已先提交，随后B097四十六页英中文和六个图片资源已读完并整合。下一唯一主读B098，从物理P1开始，本断点保存时正文未打开。",
-    "next_content_unit": "Read B098 PDF from physical page1 after B097 notes,full current-file scope and checkpoint have been committed. Read each current file in order before another. Retain genuine unreadable scan gaps and close under standing user policy without asking again."
+    "start": "用户已明确恢复。B098可辨内容及102页原图已核看，P30/P50细字缺口按通用授权结束；笔记、范围及下一断点先保存提交。下一唯一主读B099，从物理P1开始，本断点保存时正文未打开。",
+    "next_content_unit": "Read B099 PDF from physical page1 only after B098 readable-content notes,two retained figure gaps and checkpoint have been committed. Complete or scope-close each current supplied file before another; no repeated questions for genuinely unreadable scans."
   },
-  "next_work": "本轮系统维护完成，阅读继续暂停。仅在用户明确恢复读书后，从既有B098《红丸觉醒》物理P1书签继续；当前正文未打开，不新增阅读数量。",
+  "next_work": "Read B099 PDF from physical page1 only after B098 readable-content notes,two retained figure gaps and checkpoint have been committed. Complete or scope-close each current supplied file before another; no repeated questions for genuinely unreadable scans.",
   "current_session_progress": {
-    "baseline": "316646955a0f108c018bcd7a997b327b6e6fff0a",
-    "work_type": "system_maintenance",
-    "new_book_files_started": [],
-    "new_book_files_completed": [],
-    "new_book_characters_read": 0,
-    "new_book_pages_read": 0,
-    "new_original_book_notes": 0,
-    "new_method_source_bindings": 0,
-    "reading_statuses_unchanged": true,
-    "reading_bookmark_unchanged": true,
-    "completed_ratio": "92/119",
-    "actually_read_supplied_files": 86,
+    "baseline": "a5644fea0cc806346d09fc7abce8201c12d06fa8",
+    "work_type": "all102_cached_OCR_texts_and_all102_original_page_images_read_with_two_retained_figure_lettering_gaps",
+    "new_book_files_started": [
+      "B098"
+    ],
+    "new_book_files_completed": [
+      "B098"
+    ],
+    "actually_completed_file_ids": [],
+    "new_whole_book_files_actually_read": 0,
     "user_accepted_scope_closure_ids": [
-      "B017",
-      "B039",
-      "B076",
-      "B086",
-      "B093",
-      "B095"
+      "B098"
     ],
-    "next_file_body_opened": false,
-    "runtime_version": "1.5.3",
-    "changes": [
-      "explicit_same_turn_request_solutions_and_withdrawals",
-      "unresolved_help_precedes_later_ordinary_questions",
-      "request_resolution_keeps_plan_updates_and_scoped_refusals",
-      "request_resolution_order_and_turn_gaps_not_guessed"
+    "new_native_characters_read": 0,
+    "new_native_text_pages_read": 0,
+    "new_OCR_characters_read": 52551,
+    "cached_OCR_pages_actually_read": 102,
+    "OCR_preprocessing_from_prior_turn_not_counted_as_prior_reading": true,
+    "new_unique_original_visual_pages": 102,
+    "original_note_groups": 38,
+    "new_method_source_bindings": 52,
+    "new_method_operations": [],
+    "all_current_supplied_B098_content_read": false,
+    "all_readable_current_prose_read": true,
+    "retained_current_image_gaps": [
+      {
+        "file_page": 30,
+        "region": "中英文社会循环图内少量淡色、细小斜向标签",
+        "reason": "原图及一次裁剪放大后仍不能可靠逐字辨认",
+        "legible_surrounding_content_read": true
+      },
+      {
+        "file_page": 50,
+        "region": "图中间底部缩写与图下蓝色注释受水印覆盖的少量字",
+        "reason": "原图及一次放大核看仍有被覆盖字形",
+        "legible_surrounding_content_read": true
+      }
     ],
+    "standing_user_policy_applied_without_new_question": true,
+    "reading_resumed_by_explicit_latest_user_instruction": true,
+    "serial_order": [
+      "resume_after_explicit_user_instruction",
+      "read_B098_cached_OCR_pages1_to102_in_order",
+      "individually_view_all102_original_page_images_and_zoom_problem_figures",
+      "retain_P30_P50_small_lettering_gaps_and_close_under_standing_policy",
+      "save_notes_scope_and_next_checkpoint_before_B099"
+    ],
+    "next_book_body_opened": false,
+    "original_edition_completeness_not_asserted": true,
+    "previous_runtime1_5_3_maintenance_preserved": true,
+    "current_user_turn_aggregate": {
+      "file_ids": [
+        "B098"
+      ],
+      "new_file_tasks_completed": 1,
+      "new_whole_supplied_file_reads": [],
+      "new_user_scope_closures": [
+        "B098"
+      ],
+      "new_native_text_pages_read": 0,
+      "new_native_characters_read": 0,
+      "cached_OCR_pages_actually_read": 102,
+      "new_OCR_characters_read": 52551,
+      "original_pages_individually_viewed": 102,
+      "original_note_groups": 38,
+      "new_exact_method_section_bindings": 52
+    },
     "checks": {
       "status": "passed",
-      "validation": "knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json",
+      "reading_metadata_validation": "knowledge/provenance/B098_validation_2026-11-14.json",
       "validate_os": true,
       "unit_tests_passed": 119,
-      "new_test_methods": 15,
-      "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
-      "new_CLI_cases_passed": 4,
-      "source_records_book_notes_method_bindings_and_preferred_sections_unchanged": true,
-      "exact_B098_bookmark_unchanged": true,
-      "reading_pause_saved": true
+      "focused_retrieval_queries_passed": 52,
+      "prior_sources_runtime1_5_3_preferred_sections_and_history_preserved": true,
+      "two_figure_gaps_preserved": true
     }
   },
   "last_reading_progress": {
@@ -2407,66 +2443,84 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-14",
-    "report": "knowledge/provenance/B097_progress_2026-11-14.md",
-    "validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+    "report": "knowledge/provenance/B098_progress_2026-11-14.md",
+    "validation": "knowledge/provenance/B098_validation_2026-11-14.json",
     "current_session_progress": {
-      "baseline": "95084874c63d6fd762ef28f59b69cc53b8397da8",
-      "work_type": "read_and_integrate_B097_all_current_bilingual_PDF_content",
+      "baseline": "a5644fea0cc806346d09fc7abce8201c12d06fa8",
+      "work_type": "all102_cached_OCR_texts_and_all102_original_page_images_read_with_two_retained_figure_lettering_gaps",
       "new_book_files_started": [
-        "B097"
+        "B098"
       ],
       "new_book_files_completed": [
-        "B097"
+        "B098"
       ],
-      "actually_completed_file_ids": [
-        "B097"
+      "actually_completed_file_ids": [],
+      "new_whole_book_files_actually_read": 0,
+      "user_accepted_scope_closure_ids": [
+        "B098"
       ],
-      "new_whole_book_files_actually_read": 1,
-      "user_accepted_scope_closure_ids": [],
-      "new_native_characters_read": 70640,
-      "new_native_text_pages_read": 46,
-      "new_OCR_characters_read": 0,
-      "new_unique_original_visual_pages": 16,
-      "embedded_assets_individually_viewed": 6,
-      "original_note_groups": 31,
-      "new_method_source_bindings": 55,
+      "new_native_characters_read": 0,
+      "new_native_text_pages_read": 0,
+      "new_OCR_characters_read": 52551,
+      "cached_OCR_pages_actually_read": 102,
+      "OCR_preprocessing_from_prior_turn_not_counted_as_prior_reading": true,
+      "new_unique_original_visual_pages": 102,
+      "original_note_groups": 38,
+      "new_method_source_bindings": 52,
       "new_method_operations": [],
-      "all_current_supplied_B097_content_read": true,
+      "all_current_supplied_B098_content_read": false,
+      "all_readable_current_prose_read": true,
+      "retained_current_image_gaps": [
+        {
+          "file_page": 30,
+          "region": "中英文社会循环图内少量淡色、细小斜向标签",
+          "reason": "原图及一次裁剪放大后仍不能可靠逐字辨认",
+          "legible_surrounding_content_read": true
+        },
+        {
+          "file_page": 50,
+          "region": "图中间底部缩写与图下蓝色注释受水印覆盖的少量字",
+          "reason": "原图及一次放大核看仍有被覆盖字形",
+          "legible_surrounding_content_read": true
+        }
+      ],
+      "standing_user_policy_applied_without_new_question": true,
+      "reading_resumed_by_explicit_latest_user_instruction": true,
       "serial_order": [
-        "B096_saved_and_committed_to_main",
-        "read_B097_all46_native_pages_both_English_and_Chinese",
-        "view_all6_raster_assets_and16_original_layouts",
-        "save_translation_notes_scope_and_next_bookmark_before_B098"
+        "resume_after_explicit_user_instruction",
+        "read_B098_cached_OCR_pages1_to102_in_order",
+        "individually_view_all102_original_page_images_and_zoom_problem_figures",
+        "retain_P30_P50_small_lettering_gaps_and_close_under_standing_policy",
+        "save_notes_scope_and_next_checkpoint_before_B099"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
-      "previous_runtime1_5_2_maintenance_preserved": true,
+      "previous_runtime1_5_3_maintenance_preserved": true,
       "current_user_turn_aggregate": {
         "file_ids": [
-          "B096",
-          "B097"
+          "B098"
         ],
-        "new_file_tasks_completed": 2,
-        "new_whole_supplied_file_reads": [
-          "B096",
-          "B097"
+        "new_file_tasks_completed": 1,
+        "new_whole_supplied_file_reads": [],
+        "new_user_scope_closures": [
+          "B098"
         ],
-        "new_user_scope_closures": [],
-        "new_native_characters_read": 145340,
-        "new_EPUB_spine_items_read": 39,
-        "new_native_text_pages_read": 46,
-        "new_OCR_characters_read": 0,
-        "original_note_groups": 69,
-        "new_exact_method_section_bindings": 139,
-        "B096_committed_before_B097_opened": "95084874c63d6fd762ef28f59b69cc53b8397da8"
+        "new_native_text_pages_read": 0,
+        "new_native_characters_read": 0,
+        "cached_OCR_pages_actually_read": 102,
+        "new_OCR_characters_read": 52551,
+        "original_pages_individually_viewed": 102,
+        "original_note_groups": 38,
+        "new_exact_method_section_bindings": 52
       },
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+        "reading_metadata_validation": "knowledge/provenance/B098_validation_2026-11-14.json",
         "validate_os": true,
-        "unit_tests_passed": 104,
-        "focused_retrieval_queries_passed": 55,
-        "prior_sources_runtime_preferred_sections_and_history_preserved": true
+        "unit_tests_passed": 119,
+        "focused_retrieval_queries_passed": 52,
+        "prior_sources_runtime1_5_3_preferred_sections_and_history_preserved": true,
+        "two_figure_gaps_preserved": true
       }
     }
   },
@@ -2597,12 +2651,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 92,
-    "current_file_text_complete": 92,
+    "started": 93,
+    "current_file_text_complete": 93,
     "partial": 0,
-    "unread": 27,
+    "unread": 26,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 92,
+    "reported_numerator": 93,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2612,7 +2666,8 @@
       "B076",
       "B086",
       "B093",
-      "B095"
+      "B095",
+      "B098"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
       "B017",
@@ -2620,7 +2675,8 @@
       "B076",
       "B086",
       "B093",
-      "B095"
+      "B095",
+      "B098"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
     "actually_read_supplied_files": 86
@@ -6540,6 +6596,71 @@
           "validate_os": true,
           "unit_tests_passed": 104,
           "focused_retrieval_queries_passed": 84,
+          "prior_sources_runtime_preferred_sections_and_history_preserved": true
+        }
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "report": "knowledge/provenance/B097_progress_2026-11-14.md",
+      "validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+      "current_session_progress": {
+        "baseline": "95084874c63d6fd762ef28f59b69cc53b8397da8",
+        "work_type": "read_and_integrate_B097_all_current_bilingual_PDF_content",
+        "new_book_files_started": [
+          "B097"
+        ],
+        "new_book_files_completed": [
+          "B097"
+        ],
+        "actually_completed_file_ids": [
+          "B097"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 70640,
+        "new_native_text_pages_read": 46,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 16,
+        "embedded_assets_individually_viewed": 6,
+        "original_note_groups": 31,
+        "new_method_source_bindings": 55,
+        "new_method_operations": [],
+        "all_current_supplied_B097_content_read": true,
+        "serial_order": [
+          "B096_saved_and_committed_to_main",
+          "read_B097_all46_native_pages_both_English_and_Chinese",
+          "view_all6_raster_assets_and16_original_layouts",
+          "save_translation_notes_scope_and_next_bookmark_before_B098"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_2_maintenance_preserved": true,
+        "current_user_turn_aggregate": {
+          "file_ids": [
+            "B096",
+            "B097"
+          ],
+          "new_file_tasks_completed": 2,
+          "new_whole_supplied_file_reads": [
+            "B096",
+            "B097"
+          ],
+          "new_user_scope_closures": [],
+          "new_native_characters_read": 145340,
+          "new_EPUB_spine_items_read": 39,
+          "new_native_text_pages_read": 46,
+          "new_OCR_characters_read": 0,
+          "original_note_groups": 69,
+          "new_exact_method_section_bindings": 139,
+          "B096_committed_before_B097_opened": "95084874c63d6fd762ef28f59b69cc53b8397da8"
+        },
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B097_validation_2026-11-14.json",
+          "validate_os": true,
+          "unit_tests_passed": 104,
+          "focused_retrieval_queries_passed": 55,
           "prior_sources_runtime_preferred_sections_and_history_preserved": true
         }
       }
