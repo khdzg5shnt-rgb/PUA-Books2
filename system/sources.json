@@ -1210,9 +1210,17 @@
       "group": "books2_original_snapshot",
       "title": "精品泡学译文集 - 晚熟青年.epub",
       "git_blob_sha": "631e7157e1fc072db5aa2cd0bbc360c2f44045b3",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B096.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B096_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered39_spine_bodies_38articles_all_nonwhitespace_characters_checked",
+      "completion_kind": "actual_supplied_EPUB_all39_spine_bodies_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B097",
@@ -1824,23 +1832,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 90,
+    "current_book_files_text_complete": 91,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 29
+    "current_book_files_not_started": 28
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B096",
-    "path": "精品泡学译文集 - 晚熟青年.epub",
-    "bytes": 153473,
-    "git_blob_sha": "631e7157e1fc072db5aa2cd0bbc360c2f44045b3",
+    "id": "B097",
+    "path": "精通社交圈游戏 - Solievil.pdf",
+    "bytes": 522567,
+    "git_blob_sha": "c0fcf48d3183eda310dfd8dfc753bd0a942c9d49",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "next_spine_item": 1,
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B095全部169页可辨识别文本已读至末页，P29/78/158真实图像缺口依通用授权结束；笔记、范围和下一断点先保存提交。下一唯一主读B096，正文未打开。",
-    "next_content_unit": "Read B096 EPUB from spine item1 after B095 original notes,actual scope and checkpoint are committed. Read each supplied content unit in order and save the current file before another file. Retain genuine unreadable gaps and apply standing closure policy without repeated questions."
+    "start": "B096当前EPUB的39项、38篇正文与前言已全文读完；原创批注、身份范围及下一断点先保存提交。下一唯一主读B097，从物理P1开始，正文未打开。",
+    "next_content_unit": "Read B097 PDF from physical page1 after B096 notes,full current-file scope and checkpoint have been committed. Read this file in order before another. Preserve genuine unreadable scan gaps and close under standing user policy without another question."
   },
   "deferred_work_units": []
 }

@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_main": "9af0f9389fcf7ed2847077a096f63b28fd4b48ca",
+  "id": "B096",
+  "path": "精品泡学译文集 - 晚熟青年.epub",
+  "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+  "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E5%93%81%E6%B3%A1%E5%AD%A6%E8%AF%91%E6%96%87%E9%9B%86%20-%20%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4.epub",
+  "bytes": 153473,
+  "git_blob_sha": "631e7157e1fc072db5aa2cd0bbc360c2f44045b3",
+  "source_sha256": "7b7ce0ef5465dc59c13092b8488f9f952db7a456980038ba33f0de5ebb1969be",
+  "reading_mode": "direct_ordered39_spine_bodies_38articles_all_nonwhitespace_characters_checked",
+  "OPF_path": "OEBPS/content.opf",
+  "physical_pages": null,
+  "spine_item_count": 39,
+  "article_count": 38,
+  "actual_native_characters_read": 74700,
+  "initial_screening_counts_preserved": {
+    "characters": 83726,
+    "body_characters": 82332
+  },
+  "extraction_engine": "Python HTMLParser, body text in OPF spine order, block line breaks, whitespace normalized within lines; malformed XHTML tolerated without dropping text",
+  "OCR_run": false,
+  "all_supplied_native_text_read": true,
+  "all_current_file_content_read": true,
+  "known_unread_current_content": [],
+  "original_edition_completeness_verified": false,
+  "known_original_material_not_supplied": [
+    "Article29 promises ten points but only supplies five and repeats its closing portion.",
+    "Article38 explicitly translates detailed answer explanations only for questions1 and2;several other questions have answer labels only."
+  ],
+  "current_file_completion_kind": "actual_supplied_EPUB_all39_spine_bodies_read",
+  "new_scope_closure": false,
+  "spine_units": [
+    {
+      "spine_item": 1,
+      "path": "OEBPS/Text/1.html",
+      "characters": 38,
+      "sha256": "291d6779c59e8dfddf0115e11ecdb8943227e3b63ec96f22c07d25e67ff60844",
+      "source_xhtml_sha256": "6f756738f6df0c53bf44535bccd4a8d3ef0e112618742f77577cf112490df61f",
+      "headings": [
+        "精品泡学译文集"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        38
+      ],
+      "independent_body_integrity": {
+        "spine_item": 1,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 37,
+        "extraction_nonwhitespace_characters": 37,
+        "normalized_sha256": "30de0cca0393965fe5afb0b79bc17f7585952b77100fece479d3277405f3e6f3"
+      }
+    },
+    {
+      "spine_item": 2,
+      "path": "OEBPS/Text/2.html",
+      "characters": 3071,
+      "sha256": "e7ba2f2bf4a4359c86bee5e7b72a08481c3b71f6a7dd15073a0a626d7f6ec33e",
+      "source_xhtml_sha256": "163c4f563e43fc1e764006eaa43ceaf6ba52146d0b1f5a2b63e4c785ac9928cf",
+      "headings": [
+        "1. 利用挑战来让女人自我筛选"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        3071
+      ],
+      "independent_body_integrity": {
+        "spine_item": 2,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2979,
+        "extraction_nonwhitespace_characters": 2979,
+        "normalized_sha256": "25ed5434c6bc7d90e5afb246137c00bde630dc51c0388ef16f316cf11717fb6e"
+      }
+    },
+    {
+      "spine_item": 3,
+      "path": "OEBPS/Text/3.html",
+      "characters": 2019,
+      "sha256": "931798571af8b3413c03396364a04a5c944398ba447b91a2ec6cfaade0941fbe",
+      "source_xhtml_sha256": "2ad4763bb1293b5f5d7c8ed532ed270c0067e35edbcef295827d30f176c76e92",
+      "headings": [
+        "2. 在酒吧和夜店同女人说话的技巧"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2019
+      ],
+      "independent_body_integrity": {
+        "spine_item": 3,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1958,
+        "extraction_nonwhitespace_characters": 1958,
+        "normalized_sha256": "d3cf28ce3f243a27587c6e463f11ae0c7a1615e2038bd3c0dd2f7dc0889cc31f"
+      }
+    },
+    {
+      "spine_item": 4,
+      "path": "OEBPS/Text/4.html",
+      "characters": 1508,
+      "sha256": "5267c54e122ba9113450a5db107006ad97919c1a454090acee7dc6d704edd405",
+      "source_xhtml_sha256": "8cc242671e3e38d1e35c923fda535984a23ffe7afc3170eddc53ce4aaa60b4a6",
+      "headings": [
+        "3. 调情与眼神接触"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1508
+      ],
+      "independent_body_integrity": {
+        "spine_item": 4,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1456,
+        "extraction_nonwhitespace_characters": 1456,
+        "normalized_sha256": "0356c77a177e08eba7ee0697529d9ea172cd2ada9337974f1aed314940ced0f2"
+      }
+    },
+    {
+      "spine_item": 5,
+      "path": "OEBPS/Text/5.html",
+      "characters": 1041,
+      "sha256": "0d1b66cf1c23c7dc52e955f80041f2be9de8e5b25bf5b57a386595bc7152f615",
+      "source_xhtml_sha256": "f1d58868ece82d5d86c7082cef90f946f56440fdec659224c8c162a81bf2acc3",
+      "headings": [
+        "4. 吸引女人的七大个性"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1041
+      ],
+      "independent_body_integrity": {
+        "spine_item": 5,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 994,
+        "extraction_nonwhitespace_characters": 994,
+        "normalized_sha256": "b38b100584e9c28b7f0c49991bca533c3e84adc0a4fbfc5abe61b521e44490da"
+      }
+    },
+    {
+      "spine_item": 6,
+      "path": "OEBPS/Text/6.html",
+      "characters": 4247,
+      "sha256": "9e045ef05048d97cf2b276725a0390c0625caff2ceb8495074880bb6e97b4e6a",
+      "source_xhtml_sha256": "4a3cda483097046b4d3a109a633bd6e6a0f5d86c8c158be375b0b42767caa431",
+      "headings": [
+        "5. 为什么好男人追不到女孩？"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        4247
+      ],
+      "independent_body_integrity": {
+        "spine_item": 6,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 4097,
+        "extraction_nonwhitespace_characters": 4097,
+        "normalized_sha256": "735d1f31ccadf41ff50f85bdd76592497cf0bea20d3a3e184074aca4e4fe6ff2"
+      }
+    },
+    {
+      "spine_item": 7,
+      "path": "OEBPS/Text/7.html",
+      "characters": 1113,
+      "sha256": "667f4a563646c72dca649435833ca8125945991206a5333be567a2aa6957d6fe",
+      "source_xhtml_sha256": "3341278cb6ebfc2fa54ddc841027e9460e261026ccf5d543a7003b3da6355579",
+      "headings": [
+        "6. 吸引女人的正确方法"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1113
+      ],
+      "independent_body_integrity": {
+        "spine_item": 7,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1071,
+        "extraction_nonwhitespace_characters": 1071,
+        "normalized_sha256": "04bfa049d909a834e84ec4af7ae1388bd6b7fc2b9f74c4dcf25c3150c669848d"
+      }
+    },
+    {
+      "spine_item": 8,
+      "path": "OEBPS/Text/8.html",
+      "characters": 1303,
+      "sha256": "5369356cdc274fb1bd2c8ef059b15de4c0f4c8f475824ab64b05891c5b3b02a3",
+      "source_xhtml_sha256": "853c70a7b13bdac2ff1e84a06f5aa2b22c49361d10dc5d4146b4ad3b57bbc006",
+      "headings": [
+        "7. 高价值展示――DHV"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1303
+      ],
+      "independent_body_integrity": {
+        "spine_item": 8,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1283,
+        "extraction_nonwhitespace_characters": 1283,
+        "normalized_sha256": "aa62406baf8980f2dc357cea3dac3bed06ddf2f8eeed93a07ea8f104ebb3dc5c"
+      }
+    },
+    {
+      "spine_item": 9,
+      "path": "OEBPS/Text/9.html",
+      "characters": 2540,
+      "sha256": "15fdfc6b5550a039e4c0e9317275e5dc7038d0f7ede653160fd11ce38545cc88",
+      "source_xhtml_sha256": "60f9168d63961935a9dd2ec03ce3ba59ec65c8d405c3f1ddcbafa5b5db6b2063",
+      "headings": [
+        "8. 教你如何变得魅力四射"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2540
+      ],
+      "independent_body_integrity": {
+        "spine_item": 9,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2445,
+        "extraction_nonwhitespace_characters": 2445,
+        "normalized_sha256": "e164b6623e953581bf9b9f4a909d281d608b48db12f2282430a7a05079a14526"
+      }
+    },
+    {
+      "spine_item": 10,
+      "path": "OEBPS/Text/10.html",
+      "characters": 1522,
+      "sha256": "6fc27f452c79ce06526273953e999947f2109f635a8d0b8ae51b50ea6c04bc3d",
+      "source_xhtml_sha256": "089c906ee3c655564859afec8f5cb49c55f66b68105c8c8c1150c86bf28e0099",
+      "headings": [
+        "9. 史上名人打压女人的经典句子"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1522
+      ],
+      "independent_body_integrity": {
+        "spine_item": 10,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1428,
+        "extraction_nonwhitespace_characters": 1428,
+        "normalized_sha256": "9ca75e11aa752361ecccfca6806eb779fc9fe348c435bc793edea6da726f4bd1"
+      }
+    },
+    {
+      "spine_item": 11,
+      "path": "OEBPS/Text/11.html",
+      "characters": 4286,
+      "sha256": "2e4456f248a9744aa977011ddaf6827ba78d5de5afdf86af359346b827922054",
+      "source_xhtml_sha256": "c919aa5f74e1d110a843bbad93f125c808eadad9e86d11d8b47fd97baa53fd57",
+      "headings": [
+        "10. 如何看女人喜欢你？"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        4286
+      ],
+      "independent_body_integrity": {
+        "spine_item": 11,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 4160,
+        "extraction_nonwhitespace_characters": 4160,
+        "normalized_sha256": "cd980cdc27477df9e6e87f8f2062d28996e343adb8f927689a84088d979a3c8b"
+      }
+    },
+    {
+      "spine_item": 12,
+      "path": "OEBPS/Text/12.html",
+      "characters": 789,
+      "sha256": "4449baa5635d5438c7ec4988381ec7ffd294d65955f68ceb495e93685854f510",
+      "source_xhtml_sha256": "dc17e561d6dfe745503e27c93e2f696826390a58ee22c98eb2e1eebc57200ee0",
+      "headings": [
+        "11. 变“酷”的十条法则"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        789
+      ],
+      "independent_body_integrity": {
+        "spine_item": 12,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 757,
+        "extraction_nonwhitespace_characters": 757,
+        "normalized_sha256": "0d5b519a000e235d3cf2abbdb8ec58606863a9288d43c85bbaf9c0efcfcdcb8f"
+      }
+    },
+    {
+      "spine_item": 13,
+      "path": "OEBPS/Text/13.html",
+      "characters": 528,
+      "sha256": "de3441bb3a2ad460e8ee4d8a8eae67ae21e658cda8f4697a1c7179c8a490bc9a",
+      "source_xhtml_sha256": "a12391d985cd3badf92d714b0089472acd5d11dc934f4a7906aaf1a79eb2c559",
+      "headings": [
+        "12. 如何回答“离我远点”"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        528
+      ],
+      "independent_body_integrity": {
+        "spine_item": 13,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 503,
+        "extraction_nonwhitespace_characters": 503,
+        "normalized_sha256": "54e50119dc7c943659cbb7fe6669bb6edeab72cd49364af61583cea6d4639bc5"
+      }
+    },
+    {
+      "spine_item": 14,
+      "path": "OEBPS/Text/14.html",
+      "characters": 979,
+      "sha256": "290f13b3849b94023612861f06ee1bc80a15a6a4ba025300f1d6a306f4909b3c",
+      "source_xhtml_sha256": "25ebd39162ef04655a03a015f48a9d4c45e087cc1846de4fde7e45364933ef61",
+      "headings": [
+        "13. 男人最烦女人的12件事情"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        979
+      ],
+      "independent_body_integrity": {
+        "spine_item": 14,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 928,
+        "extraction_nonwhitespace_characters": 928,
+        "normalized_sha256": "d59c62c71ac75a6c4a8d2861d7bb016d449d87ac9d27c0991ac93dc794e78db9"
+      }
+    },
+    {
+      "spine_item": 15,
+      "path": "OEBPS/Text/15.html",
+      "characters": 1785,
+      "sha256": "a7001047eb6337678ac367ecc44c636682ec4396988aa1b1aafd6d1cd19ffa76",
+      "source_xhtml_sha256": "065a99ac62c95e47022de660545e912ff2b066cf8ba7ed9affe2017e55a0e970",
+      "headings": [
+        "14. 男人应该知道的女人的性信号"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1785
+      ],
+      "independent_body_integrity": {
+        "spine_item": 15,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1703,
+        "extraction_nonwhitespace_characters": 1703,
+        "normalized_sha256": "efcb947a3f4f6a97b9ba0b6e2389e49166cabf2b91ac83655669e7310df0ad88"
+      }
+    },
+    {
+      "spine_item": 16,
+      "path": "OEBPS/Text/16.html",
+      "characters": 1977,
+      "sha256": "352900e4f57f6ee2fb92f04c4bfd8e2ae2bfe1d0a441c6c8613d606f241ff804",
+      "source_xhtml_sha256": "12865eea45c46ca41296e4abd7e6fe02837f5a8a2fc8da8471e38b9d216ab6c5",
+      "headings": [
+        "15. 最好的约会聊天话题"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1977
+      ],
+      "independent_body_integrity": {
+        "spine_item": 16,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1885,
+        "extraction_nonwhitespace_characters": 1885,
+        "normalized_sha256": "1ed08679169ca863c5e3117d951e961bcd019b65da06b98c6d56d868d6f4435b"
+      }
+    },
+    {
+      "spine_item": 17,
+      "path": "OEBPS/Text/17.html",
+      "characters": 1265,
+      "sha256": "1b698867a23a68779e10a1d3a949b74fd24818f0719fd8fe1e9081a00eae38d6",
+      "source_xhtml_sha256": "6475c833b86cdee2b2362458d3112a6a5f700b82ac44e95bf13b9cde64d734e8",
+      "headings": [
+        "16. 惯例和开场白的曲线理论"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1265
+      ],
+      "independent_body_integrity": {
+        "spine_item": 17,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1215,
+        "extraction_nonwhitespace_characters": 1215,
+        "normalized_sha256": "9b1922ac5a51146aa92fd2c2f017cc86751c16a9243c365927302b5be54dd437"
+      }
+    },
+    {
+      "spine_item": 18,
+      "path": "OEBPS/Text/18.html",
+      "characters": 1755,
+      "sha256": "86de3e9322e6e08a82b96531a61e5271359217f9177040594892bd1c584b725e",
+      "source_xhtml_sha256": "680dc768472f2205aa9291ebc606e449372dd8bd629e359f897bef8a50db2952",
+      "headings": [
+        "17. 如何跟女人调情"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1755
+      ],
+      "independent_body_integrity": {
+        "spine_item": 18,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1687,
+        "extraction_nonwhitespace_characters": 1687,
+        "normalized_sha256": "4eac2341dea2def94e44df8e989c510690ceea02b2d7b35ef5c468f45f97eecb"
+      }
+    },
+    {
+      "spine_item": 19,
+      "path": "OEBPS/Text/19.html",
+      "characters": 2625,
+      "sha256": "971e5a8dfee8302fc2f6f6c6232407ac04ab07a2ce52ae0b2188884a6e933cc0",
+      "source_xhtml_sha256": "6a40554aff1ad4b9b2464d5a51e96f5251f40ca7e670b7ba9f7baad792e50eba",
+      "headings": [
+        "18. 雄性领袖的身体语言"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2625
+      ],
+      "independent_body_integrity": {
+        "spine_item": 19,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2543,
+        "extraction_nonwhitespace_characters": 2543,
+        "normalized_sha256": "1d921ce95da329178637d7449e0c68c6c1939613aedc24f12a42bf170e820aea"
+      }
+    },
+    {
+      "spine_item": 20,
+      "path": "OEBPS/Text/20.html",
+      "characters": 2181,
+      "sha256": "de920e817727e7ce6d3000a8b197f9021ce2d89fb893d74f529673260f0bec47",
+      "source_xhtml_sha256": "bfece9c026d660e79d69e5745e067ce155c7db1318fe9388ba16003c9ae16bf7",
+      "headings": [
+        "19. 站桩＋死盯开场白"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2181
+      ],
+      "independent_body_integrity": {
+        "spine_item": 20,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2088,
+        "extraction_nonwhitespace_characters": 2088,
+        "normalized_sha256": "ef3ad0ed1bba4096fdd3032315b6b412b7a484d69fd676bc6ba39591d856d0de"
+      }
+    },
+    {
+      "spine_item": 21,
+      "path": "OEBPS/Text/21.html",
+      "characters": 1260,
+      "sha256": "48dc8f9881cfbe34dc16353348c2141ccb53c9f7efa68b912514434d003c77b8",
+      "source_xhtml_sha256": "74ca9c9eff7cde50fd4100bda707cde2f805f2e3d9f57a3c15212c482647dc0f",
+      "headings": [
+        "20. 雄性领袖的十大特质"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1260
+      ],
+      "independent_body_integrity": {
+        "spine_item": 21,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1227,
+        "extraction_nonwhitespace_characters": 1227,
+        "normalized_sha256": "e179cc73a40bdd3a9ec9dfecaf9d7f53fdd1a6c518963fc4dd298173c3b88bb7"
+      }
+    },
+    {
+      "spine_item": 22,
+      "path": "OEBPS/Text/22.html",
+      "characters": 1535,
+      "sha256": "74728b451b360bfe62f4a74e0507f9040efe0cb8ad3ee581211191c6438973ab",
+      "source_xhtml_sha256": "916ffa10691ad463fd6b69b3d139c03d0b4aabf923caf2b7dbefa0e560f3a839",
+      "headings": [
+        "21. 初次约会的100个提问"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1535
+      ],
+      "independent_body_integrity": {
+        "spine_item": 22,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1331,
+        "extraction_nonwhitespace_characters": 1331,
+        "normalized_sha256": "f72900b7146aadb355317eb3b90a61a93bc3df094256b83f9d37175620efdf5b"
+      }
+    },
+    {
+      "spine_item": 23,
+      "path": "OEBPS/Text/23.html",
+      "characters": 1301,
+      "sha256": "b44afe7ed0c21b48fcd60d7289156cfa28f84b484c7cb60c9c3d708ac5d0869a",
+      "source_xhtml_sha256": "3e8b2d1f8d7837363ae2f360a884478b3a1e9947cc466717e77fe310ef449605",
+      "headings": [
+        "22. 让聊天话题如泉涌的七个简单方法"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1301
+      ],
+      "independent_body_integrity": {
+        "spine_item": 23,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1239,
+        "extraction_nonwhitespace_characters": 1239,
+        "normalized_sha256": "a88a7b804de6ef66afae20af79372f7e840999c7a82f4059695ca5e990340243"
+      }
+    },
+    {
+      "spine_item": 24,
+      "path": "OEBPS/Text/24.html",
+      "characters": 3182,
+      "sha256": "4a818482a9edd5d91a0ebf1a10f2c854b2623ef83aae038309e7e35b269195e8",
+      "source_xhtml_sha256": "6b890baf4329021e4f99e1d6a5f97f1c8fe704f1344e64a86feb0fcfae8d3901",
+      "headings": [
+        "23. 开场白汇总"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        3182
+      ],
+      "independent_body_integrity": {
+        "spine_item": 24,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 3039,
+        "extraction_nonwhitespace_characters": 3039,
+        "normalized_sha256": "a90b5db8e9f542e1362047bb6557bc950964e0be725adf74930256e4535b7129"
+      }
+    },
+    {
+      "spine_item": 25,
+      "path": "OEBPS/Text/25.html",
+      "characters": 6666,
+      "sha256": "cdcd53713f74c9f68ff5542aa7af8d4853b77912cba4b1cdf8975bde31ab244a",
+      "source_xhtml_sha256": "ced6ce444573d1b2de76f6b9a98ce8923c95799431122338dd16598fe167ba54",
+      "headings": [
+        "24. 终极多重对话脉络和控制性节奏"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        6666
+      ],
+      "independent_body_integrity": {
+        "spine_item": 25,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 6393,
+        "extraction_nonwhitespace_characters": 6393,
+        "normalized_sha256": "e069744fab313cdd41d3b591ca9de1c94ee48f8c70579eba50e82852dfab8776"
+      }
+    },
+    {
+      "spine_item": 26,
+      "path": "OEBPS/Text/26.html",
+      "characters": 1086,
+      "sha256": "05b63c6b7f04d3529ed4e7497e53f937fd7002b5b77d54c9d41be244e275bb7d",
+      "source_xhtml_sha256": "2f6492ffe7dee083eca46287be913bc803f2d70b4fccf3e1428dc9624a23cfbe",
+      "headings": [
+        "25. 三段规则――来自喜剧界的幽默技巧"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1086
+      ],
+      "independent_body_integrity": {
+        "spine_item": 26,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1051,
+        "extraction_nonwhitespace_characters": 1051,
+        "normalized_sha256": "bb425c8f49c4903d549f62fb48a08b03b5f9f17c14e9941222cbd3aad31a681f"
+      }
+    },
+    {
+      "spine_item": 27,
+      "path": "OEBPS/Text/27.html",
+      "characters": 999,
+      "sha256": "a9edefffe13c29b14c3a41050a99f62c9acd6c0d8b053f0e2ebbd9565963b2c5",
+      "source_xhtml_sha256": "8bb95b5b52d0ddfe1746fc7a50334976ef13b05b808959918d0a002149bab060",
+      "headings": [
+        "26. 怎样编故事"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        999
+      ],
+      "independent_body_integrity": {
+        "spine_item": 27,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 963,
+        "extraction_nonwhitespace_characters": 963,
+        "normalized_sha256": "2f9d94d662841ebd31adaaf7bb1f6da6dfa82abb4d31723553b4b6ba55577978"
+      }
+    },
+    {
+      "spine_item": 28,
+      "path": "OEBPS/Text/28.html",
+      "characters": 1170,
+      "sha256": "e725764df00ea4bfccc3cbb2c5eb78ace8241cb33cafa7c8ca3290c9d2f9969c",
+      "source_xhtml_sha256": "ed8aea7f15f24142a4bff3c0a61e99475b8f547649e7fb0b0da67349243c2bf9",
+      "headings": [
+        "27. Brad P. 对把妹学习的建议"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1170
+      ],
+      "independent_body_integrity": {
+        "spine_item": 28,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1114,
+        "extraction_nonwhitespace_characters": 1114,
+        "normalized_sha256": "ebd387505c4b6a5e80b939ffb60fc490fafaa8ae1895a10c4e353c70c2e42cde"
+      }
+    },
+    {
+      "spine_item": 29,
+      "path": "OEBPS/Text/29.html",
+      "characters": 3511,
+      "sha256": "6a1348864e12efbe2fe8b35c54a3e7f7e52f041217590ecd47d3d98a365699d5",
+      "source_xhtml_sha256": "d57b50ea1944080d727936ee3afcd830ce674b0188ab8a06fabf425a710c4702",
+      "headings": [
+        "28. 论习惯的培养"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        3511
+      ],
+      "independent_body_integrity": {
+        "spine_item": 29,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 3423,
+        "extraction_nonwhitespace_characters": 3423,
+        "normalized_sha256": "96a4aebb132a4b84527b9d2e09567013a2c528efd537509a15898bfc8e8ceaf6"
+      }
+    },
+    {
+      "spine_item": 30,
+      "path": "OEBPS/Text/30.html",
+      "characters": 1531,
+      "sha256": "154ff695c04c41a36aa6361a327b3bd6caa2578523425707bf6bebbd3a69f6e0",
+      "source_xhtml_sha256": "7095b286ff57a99f2273ae601d47edf3a64d23cc0fe339202d5f884f7595c8aa",
+      "headings": [
+        "29. 供你出门之前准备的心法检查表"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1531
+      ],
+      "independent_body_integrity": {
+        "spine_item": 30,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1479,
+        "extraction_nonwhitespace_characters": 1479,
+        "normalized_sha256": "8f4d3d8cb872e60f0cb45dab0074f9f60b12926fb8c5385114ea2d276b9242bb"
+      }
+    },
+    {
+      "spine_item": 31,
+      "path": "OEBPS/Text/31.html",
+      "characters": 1699,
+      "sha256": "0056879606d0f61af7f101c28b5ed8edfb9798389782f1cd1893805db29b05ec",
+      "source_xhtml_sha256": "42ca2db439bc1f3a92e80a3f1f5cadda074e42b20033a398a11f2376b56753ab",
+      "headings": [
+        "30. 如何获得最基础性的把妹材料"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1699
+      ],
+      "independent_body_integrity": {
+        "spine_item": 31,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1652,
+        "extraction_nonwhitespace_characters": 1652,
+        "normalized_sha256": "e29c1776f34ba656b3764a89b8ae4d43b67d2dd2b68d4357cada546f2f9ebf57"
+      }
+    },
+    {
+      "spine_item": 32,
+      "path": "OEBPS/Text/32.html",
+      "characters": 1856,
+      "sha256": "199f9013d490bb50be4090547c779a92ebd7936842b3d1aa14cfbb2e626028cd",
+      "source_xhtml_sha256": "0c8eedd412fcebe7578ab2f5c9620854c33d1e23f00d6f4b28869b50771ce2f3",
+      "headings": [
+        "31. 阿尔法男人的特质"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        1856
+      ],
+      "independent_body_integrity": {
+        "spine_item": 32,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1794,
+        "extraction_nonwhitespace_characters": 1794,
+        "normalized_sha256": "ab9951ef306cfcabe52353ede42fce8f3d1d21fd9d8e273489050a433a82be76"
+      }
+    },
+    {
+      "spine_item": 33,
+      "path": "OEBPS/Text/33.html",
+      "characters": 2741,
+      "sha256": "77a05574ceb04f07b48dc823515215d93629991d8f51eb14171fc8d33060c80c",
+      "source_xhtml_sha256": "020196d45aebea773684afe033f0a699abff2be4f0b7b8357417c84c553dfc52",
+      "headings": [
+        "32. 如何设计你自己的DHV惯例故事"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2741
+      ],
+      "independent_body_integrity": {
+        "spine_item": 33,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2676,
+        "extraction_nonwhitespace_characters": 2676,
+        "normalized_sha256": "3f999510d404bc3ac530126669947a54f19000c93f1918c0f32da6c3a1f98409"
+      }
+    },
+    {
+      "spine_item": 34,
+      "path": "OEBPS/Text/34.html",
+      "characters": 516,
+      "sha256": "450d8dd7811f3bfe0b8295474c28b4c6fe7121f5ec93e97684615b8a9978345b",
+      "source_xhtml_sha256": "c581c36c573a2749b05a7ef9c03e9cb3cbcd78ff716b1bdfb7d057138823318f",
+      "headings": [
+        "33. 搭讪女人的三个最好时机"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        516
+      ],
+      "independent_body_integrity": {
+        "spine_item": 34,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 502,
+        "extraction_nonwhitespace_characters": 502,
+        "normalized_sha256": "1755b13b1ca1d7d6afb52db8f6529e7e515563e8f08c582201ba10bc8fd1ed88"
+      }
+    },
+    {
+      "spine_item": 35,
+      "path": "OEBPS/Text/35.html",
+      "characters": 662,
+      "sha256": "5a5aef4756f3a01433818a8106eb4c51c1b1ebf8a45794fb75eab6af95d5987c",
+      "source_xhtml_sha256": "60138bbb41e31888cbca462c1efc3748ac42714d25648f4f72856717e8634569",
+      "headings": [
+        "34. 怎样去调情"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        662
+      ],
+      "independent_body_integrity": {
+        "spine_item": 35,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 634,
+        "extraction_nonwhitespace_characters": 634,
+        "normalized_sha256": "98782c34d55517ecb50e923d5c99a688741118335b010f786d1c15267129943c"
+      }
+    },
+    {
+      "spine_item": 36,
+      "path": "OEBPS/Text/36.html",
+      "characters": 986,
+      "sha256": "eb56ce720dd579dd2f484face7d15489c0fe385a32af0c3152671901be117e67",
+      "source_xhtml_sha256": "c22ca68e8862cdcfb11fa13dccfe4fdcee5ebdaa658b79a6ef1d7c132cb8ce15",
+      "headings": [
+        "35. 如何用关键的五个身体部位来勾引她？！"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        986
+      ],
+      "independent_body_integrity": {
+        "spine_item": 36,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 962,
+        "extraction_nonwhitespace_characters": 962,
+        "normalized_sha256": "6d7ae54c114acea698e0bc27e38d7b1ff07016f9a563b4cad7b84a7002129430"
+      }
+    },
+    {
+      "spine_item": 37,
+      "path": "OEBPS/Text/37.html",
+      "characters": 2000,
+      "sha256": "4ca5f3f1c4c59d8b49817d1054a3d37d4acb9f4292f4e06efb3b860bce63d91e",
+      "source_xhtml_sha256": "a33c69be2843b67a321043076ad1993810840283b8166bc707ece490081de267",
+      "headings": [
+        "36. 诱惑术不全是关于性，也不全是关于你"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2000
+      ],
+      "independent_body_integrity": {
+        "spine_item": 37,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 1944,
+        "extraction_nonwhitespace_characters": 1944,
+        "normalized_sha256": "d41248fef43a888931ecc4906ba9ef29abccc6c1626c2ef5581a9ffe5711888c"
+      }
+    },
+    {
+      "spine_item": 38,
+      "path": "OEBPS/Text/38.html",
+      "characters": 2825,
+      "sha256": "f6dcf898c2a6141cd1f75b891269ec13e07fe1f649debac091190ef6315c21e3",
+      "source_xhtml_sha256": "0d1f607bc9a824e0bdf4790470a47828fb7d4f62b4b683b2d239f627de6c6cb1",
+      "headings": [
+        "37. 007电影《皇家赌场》中的话术分"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2825
+      ],
+      "independent_body_integrity": {
+        "spine_item": 38,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2719,
+        "extraction_nonwhitespace_characters": 2719,
+        "normalized_sha256": "9d37499937968d6d632c5871dd6eeca06b36c17b9899d183b185579b3d0eac8e"
+      }
+    },
+    {
+      "spine_item": 39,
+      "path": "OEBPS/Text/39.html",
+      "characters": 2602,
+      "sha256": "83dcb666d954e411c6cf8ffc93a9f6da3b36acd21c7d36843e81213710ff8f39",
+      "source_xhtml_sha256": "f03c052b677ae30e0fa25450c36c758fe3e2e864f9affbd8b7037ce961cae99b",
+      "headings": [
+        "38. 把妹测试"
+      ],
+      "images": [],
+      "replacement_characters": 0,
+      "native_body_text_actually_read": true,
+      "read_native_range": [
+        0,
+        2602
+      ],
+      "independent_body_integrity": {
+        "spine_item": 39,
+        "all_nonwhitespace_body_characters_match": true,
+        "source_body_nonwhitespace_characters": 2475,
+        "extraction_nonwhitespace_characters": 2475,
+        "normalized_sha256": "3ec788e3c6aa28f37e5a809ba3cb2344e25713d17596d816e68ed88f6e509420"
+      }
+    }
+  ],
+  "body_integrity_scope": "Nonwhitespace equality checks extraction completeness,not whether a person or model read it. Actual reading is recorded separately.",
+  "source_count_checks": {
+    "article20_declared": 10,
+    "article20_actual_numbered": 11,
+    "article21_declared": 100,
+    "article21_actual": 97,
+    "article21_section_counts": [
+      10,
+      6,
+      5,
+      3,
+      73
+    ]
+  },
+  "embedded_image_count": 0,
+  "nonspine_HTML_count": 0,
+  "toc_metadata_and_CSS_reviewed": true,
+  "CSS_has_generated_or_hidden_content": false,
+  "malformed_XHTML_handled_by_tolerant_parser": true,
+  "duplicate_output_recovery_items": [
+    24,
+    29
+  ],
+  "rereads_counted_as_new_characters": 0,
+  "external_targets_opened": false,
+  "original_note_groups": 38,
+  "new_exact_method_section_bindings": 84,
+  "notes": [
+    {
+      "article": 1,
+      "heading": "筛选表达真实偏好，不制造证明压力",
+      "file_location": "OPF顺序项2，OEBPS/Text/2.html，原文第1篇",
+      "bound_methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "article": 2,
+      "heading": "从共同场景接话，不把正常问题一概当乏味",
+      "file_location": "OPF顺序项3，OEBPS/Text/3.html，原文第2篇",
+      "bound_methods": [
+        "M03",
+        "M04",
+        "M25"
+      ]
+    },
+    {
+      "article": 3,
+      "heading": "眼神与玩笑需要自然回应，不设固定配额",
+      "file_location": "OPF顺序项4，OEBPS/Text/4.html，原文第3篇",
+      "bound_methods": [
+        "M01",
+        "M06"
+      ]
+    },
+    {
+      "article": 4,
+      "heading": "个性清单不要求扮演万人迷或关注中心",
+      "file_location": "OPF顺序项5，OEBPS/Text/5.html，原文第4篇",
+      "bound_methods": [
+        "M10",
+        "M19"
+      ]
+    },
+    {
+      "article": 5,
+      "heading": "付出不购买感情，激素故事不解释具体关系",
+      "file_location": "OPF顺序项6，OEBPS/Text/6.html，原文第5篇",
+      "bound_methods": [
+        "M19",
+        "M22"
+      ]
+    },
+    {
+      "article": 6,
+      "heading": "双向交流保留，普通行为不自动归为测试",
+      "file_location": "OPF顺序项7，OEBPS/Text/7.html，原文第6篇",
+      "bound_methods": [
+        "M01",
+        "M04"
+      ]
+    },
+    {
+      "article": 7,
+      "heading": "顺着话题分享成就，不组织虚假的旁证",
+      "file_location": "OPF顺序项8，OEBPS/Text/8.html，原文第7篇",
+      "bound_methods": [
+        "M04",
+        "M10"
+      ]
+    },
+    {
+      "article": 8,
+      "heading": "关注对方的具体内容，不能用积极强压困扰",
+      "file_location": "OPF顺序项9，OEBPS/Text/9.html，原文第8篇",
+      "bound_methods": [
+        "M03",
+        "M09",
+        "M11"
+      ]
+    },
+    {
+      "article": 9,
+      "heading": "名人署名不替贬损性格言增加可信度",
+      "file_location": "OPF顺序项10，OEBPS/Text/10.html，原文第9篇",
+      "bound_methods": []
+    },
+    {
+      "article": 10,
+      "heading": "兴趣看连续投入，具体替代时间比肢体猜测清楚",
+      "file_location": "OPF顺序项11，OEBPS/Text/11.html，原文第10篇",
+      "bound_methods": [
+        "M01",
+        "M14",
+        "M16",
+        "M19"
+      ]
+    },
+    {
+      "article": 11,
+      "heading": "从容允许正常回应和必要说明",
+      "file_location": "OPF顺序项12，OEBPS/Text/12.html，原文第11篇",
+      "bound_methods": [
+        "M20",
+        "M21",
+        "M26"
+      ]
+    },
+    {
+      "article": 12,
+      "heading": "离远一点按拒绝处理，不寻找反击模板",
+      "file_location": "OPF顺序项13，OEBPS/Text/13.html，原文第12篇",
+      "bound_methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "article": 13,
+      "heading": "约定与尊重是双向的，不套用性别指责清单",
+      "file_location": "OPF顺序项14，OEBPS/Text/14.html，原文第13篇",
+      "bound_methods": [
+        "M03",
+        "M22"
+      ]
+    },
+    {
+      "article": 14,
+      "heading": "整理头发与身体朝向不构成亲密许可",
+      "file_location": "OPF顺序项15，OEBPS/Text/15.html，原文第14篇",
+      "bound_methods": [
+        "M01",
+        "M23"
+      ]
+    },
+    {
+      "article": 15,
+      "heading": "话题选她实际感兴趣的，不把八卦与贬低当通用入口",
+      "file_location": "OPF顺序项16，OEBPS/Text/16.html，原文第15篇",
+      "bound_methods": [
+        "M03",
+        "M05"
+      ]
+    },
+    {
+      "article": 16,
+      "heading": "模板是否合适看当前内容，不按使用次数判优劣",
+      "file_location": "OPF顺序项17，OEBPS/Text/17.html，原文第16篇",
+      "bound_methods": [
+        "M03",
+        "M26"
+      ]
+    },
+    {
+      "article": 17,
+      "heading": "轻松调侃需要双向承接，幽默不自动获得许可",
+      "file_location": "OPF顺序项18，OEBPS/Text/18.html，原文第17篇",
+      "bound_methods": [
+        "M06",
+        "M25",
+        "M23"
+      ]
+    },
+    {
+      "article": 18,
+      "heading": "身体姿态以舒服和不侵占为限，不演地位",
+      "file_location": "OPF顺序项19，OEBPS/Text/19.html，原文第18篇",
+      "bound_methods": [
+        "M22"
+      ]
+    },
+    {
+      "article": 19,
+      "heading": "开场不能挡路、假装认识或突然碰触",
+      "file_location": "OPF顺序项20，OEBPS/Text/20.html，原文第19篇",
+      "bound_methods": [
+        "M25",
+        "M23"
+      ]
+    },
+    {
+      "article": 20,
+      "heading": "稳定表达能欣赏、回答和认错",
+      "file_location": "OPF顺序项21，OEBPS/Text/21.html，原文第20篇",
+      "bound_methods": [
+        "M09",
+        "M20",
+        "M21"
+      ]
+    },
+    {
+      "article": 21,
+      "heading": "提问目录用于挑一个相关点，不逐项盘问",
+      "file_location": "OPF顺序项22，OEBPS/Text/22.html，原文第21篇",
+      "bound_methods": [
+        "M04",
+        "M18",
+        "M26"
+      ]
+    },
+    {
+      "article": 22,
+      "heading": "从她的关键词接一处，分享不索取等量回报",
+      "file_location": "OPF顺序项23，OEBPS/Text/23.html，原文第22篇",
+      "bound_methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M10"
+      ]
+    },
+    {
+      "article": 23,
+      "heading": "翻译双关不直接搬到微信，拒绝不能变成游戏惩罚",
+      "file_location": "OPF顺序项24，OEBPS/Text/24.html，原文第23篇",
+      "bound_methods": [
+        "M25",
+        "M26",
+        "M23"
+      ]
+    },
+    {
+      "article": 24,
+      "heading": "换话题不能用来打断、扰乱或绕过拒绝",
+      "file_location": "OPF顺序项25，OEBPS/Text/25.html，原文第24篇",
+      "bound_methods": [
+        "M03",
+        "M05",
+        "M23"
+      ]
+    },
+    {
+      "article": 25,
+      "heading": "三段反转只作表达形式，不强凑笑点",
+      "file_location": "OPF顺序项26，OEBPS/Text/26.html，原文第25篇",
+      "bound_methods": [
+        "M06",
+        "M26"
+      ]
+    },
+    {
+      "article": 26,
+      "heading": "故事可删冗余，不能把别人的经历变成自己的",
+      "file_location": "OPF顺序项27，OEBPS/Text/27.html，原文第26篇",
+      "bound_methods": [
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "article": 27,
+      "heading": "学习与实践的比例和期限不是研究结论",
+      "file_location": "OPF顺序项28，OEBPS/Text/28.html，原文第27篇",
+      "bound_methods": []
+    },
+    {
+      "article": 28,
+      "heading": "习惯以可完成动作记录，不把结果变成人格判决",
+      "file_location": "OPF顺序项29，OEBPS/Text/29.html，原文第28篇",
+      "bound_methods": [
+        "M26"
+      ]
+    },
+    {
+      "article": 29,
+      "heading": "出门准备不包括制造恐惧或假装读懂余光",
+      "file_location": "OPF顺序项30，OEBPS/Text/30.html，原文第29篇",
+      "bound_methods": [
+        "M01",
+        "M25"
+      ]
+    },
+    {
+      "article": 30,
+      "heading": "材料推荐单只建立追溯关系，不冒认全文或视频已读",
+      "file_location": "OPF顺序项31，OEBPS/Text/31.html，原文第30篇",
+      "bound_methods": []
+    },
+    {
+      "article": 31,
+      "heading": "时间边界按真实安排说，不执行固定耐心秒数",
+      "file_location": "OPF顺序项32，OEBPS/Text/32.html，原文第31篇",
+      "bound_methods": [
+        "M02",
+        "M19",
+        "M22"
+      ]
+    },
+    {
+      "article": 32,
+      "heading": "真实经历从一个动作讲起，不堆身份和虚构修饰",
+      "file_location": "OPF顺序项33，OEBPS/Text/33.html，原文第32篇",
+      "bound_methods": [
+        "M04",
+        "M10"
+      ]
+    },
+    {
+      "article": 33,
+      "heading": "认识时机以现场便利与真实承诺为限",
+      "file_location": "OPF顺序项34，OEBPS/Text/34.html，原文第33篇",
+      "bound_methods": [
+        "M25",
+        "M22"
+      ]
+    },
+    {
+      "article": 34,
+      "heading": "普通问好可以开场，微笑和脚尖不判定关系",
+      "file_location": "OPF顺序项35，OEBPS/Text/35.html，原文第34篇",
+      "bound_methods": [
+        "M25",
+        "M01",
+        "M23"
+      ]
+    },
+    {
+      "article": 35,
+      "heading": "整洁与清楚表达不等于模拟身体优势",
+      "file_location": "OPF顺序项36，OEBPS/Text/36.html，原文第35篇",
+      "bound_methods": []
+    },
+    {
+      "article": 36,
+      "heading": "相处能持续，边界与真实生活比奖品心态具体",
+      "file_location": "OPF顺序项37，OEBPS/Text/37.html，原文第36篇",
+      "bound_methods": [
+        "M10",
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "article": 37,
+      "heading": "电影对白是编排文本，不能拿冷读当人物诊断",
+      "file_location": "OPF顺序项38，OEBPS/Text/38.html，原文第37篇",
+      "bound_methods": [
+        "M01",
+        "M06",
+        "M08"
+      ]
+    },
+    {
+      "article": 38,
+      "heading": "未完成的练习题不设统一正确答案",
+      "file_location": "OPF顺序项39，OEBPS/Text/39.html，原文第38篇",
+      "bound_methods": [
+        "M02",
+        "M04",
+        "M25"
+      ]
+    }
+  ],
+  "private_cases_or_anonymous_private_case_summaries_newly_published": 0,
+  "deceptive_coercive_or_explicit_sexual_scripts_newly_published": 0,
+  "new_APA_or_DOI_claims": 0,
+  "new_original_research_papers_verified": 0,
+  "next_book": "B097",
+  "next_book_body_opened": false
+}

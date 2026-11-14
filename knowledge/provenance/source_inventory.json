@@ -15444,8 +15444,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%B2%BE%E5%93%81%E6%B3%A1%E5%AD%A6%E8%AF%91%E6%96%87%E9%9B%86%20-%20%E6%99%9A%E7%86%9F%E9%9D%92%E5%B9%B4.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B096.md",
       "pages": null,
       "spine_items": 39,
       "ocr": {
@@ -15453,7 +15453,45 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B096_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered39_spine_bodies_38articles_all_nonwhitespace_characters_checked",
+      "completion_kind": "actual_supplied_EPUB_all39_spine_bodies_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "7b7ce0ef5465dc59c13092b8488f9f952db7a456980038ba33f0de5ebb1969be",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B096_reading_2026-11-14.json",
+        "native_characters": 74700,
+        "spine_items_read": 39,
+        "articles_read": 38,
+        "OCR_run": false,
+        "embedded_images": 0,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_count_checks": {
+          "article20_declared": 10,
+          "article20_actual_numbered": 11,
+          "article21_declared": 100,
+          "article21_actual": 97,
+          "article21_section_counts": [
+            10,
+            6,
+            5,
+            3,
+            73
+          ]
+        },
+        "known_original_omissions": [
+          "Article29 promises ten points but only supplies five and repeats its closing portion.",
+          "Article38 explicitly translates detailed answer explanations only for questions1 and2;several other questions have answer labels only."
+        ],
+        "original_note_groups": 38,
+        "new_exact_method_section_bindings": 84
+      }
     },
     {
       "index": 97,
@@ -16211,5 +16249,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14: B095 all169 cached OCR texts74441characters actually read;34 source layouts and all169 layout thumbnails checked. Gaps P29/78/158 retained under standing user scope closure,not full-current-file reading. 36originalcriticalnotes,56exactbindings.90/119=84coveredcurrentfiles+6userclosures.NextB096bodyunopened."
+  "latest_reading_update": "2026-11-14:B096 all39 EPUB spine bodies74700characters and38articles read;all nonwhitespace body characters independently matched;no images or other XHTML.Article20actual11vsheading10;article21actual97vsheading100;article29and38provided-source omissions retained.38originalnotes,84exactbindings.91/119=85currentfilescovered+6standingclosures.NextB097bodyunopened."
 }
