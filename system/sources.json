@@ -1278,9 +1278,19 @@
       "group": "books2_original_snapshot",
       "title": "约会倍增术（Double+Your+Dating简体版）.pdf",
       "git_blob_sha": "4abe13ee42437e29231d4535b81ac2747f5415d5",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B100.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B100_reading_2026-11-14.json",
+      "coverage_mode": "direct_differences_and_strict_nonwhitespace_identical_B099_reading_reuse",
+      "completion_kind": "verified_identical_previously_read_text_plus_direct_version_difference_and_raster_review",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "all_supplied_native_text_directly_reread_this_turn": false,
+      "verified_duplicate_source_coverage": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B101",
@@ -1856,23 +1866,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 94,
+    "current_book_files_text_complete": 95,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 25
+    "current_book_files_not_started": 24
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B100",
-    "path": "约会倍增术（Double+Your+Dating简体版）.pdf",
-    "bytes": 1322830,
-    "git_blob_sha": "4abe13ee42437e29231d4535b81ac2747f5415d5",
+    "id": "B101",
+    "path": "约会密码 - 海兵.pdf",
+    "bytes": 1123630,
+    "git_blob_sha": "5ea91da8109e2f049145c34765397939a2b44fbd",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B098可辨内容与两处图字缺口已先提交，随后B099当前61页全部文字及29个越界字符已读完并整合。下一唯一主读B100，从物理P1开始，本断点保存时正文未打开。",
-    "next_content_unit": "Read B100 PDF from physical page1 only after B099 all61 native-page notes,recovered out-of-page text and checkpoint have been committed. Treat a similarly named version as a separate file until exact content is checked. Complete or scope-close each current file before another; do not reask for genuinely unreadable scans."
+    "start": "B100严格核对另一版本：共同内容复用已读B099，差异及六种图片补读，P62空白与未提供末段单列。笔记、范围及断点先提交；下一唯一主读B101，从P1开始，本断点正文未打开。",
+    "next_content_unit": "Read B101 PDF from physical page1 after B100 strict duplicate mapping,actual difference review and source omissions have been committed. Do not count reused B099 text or old notes as newly read. Complete or scope-close each current file before another."
   },
   "deferred_work_units": []
 }
