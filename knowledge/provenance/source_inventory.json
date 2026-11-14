@@ -16300,8 +16300,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%93%9D%E5%9B%BE%E8%A7%A3%E7%A0%81%20-%20Real%20Social%20Dynamics.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B106.md",
       "pages": 98,
       "spine_items": null,
       "ocr": {
@@ -16309,7 +16309,75 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B106_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered_native_pages_all_distinct_raster_payloads_and_selected_layouts",
+      "completion_kind": "actual_supplied_PDF_all_native_pages_and_all_distinct_raster_payloads_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "99b9135a61cb75c0fb63ef309adc04ff99fb560b5942804670d01fc8ad8e0ccb",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B106_reading_2026-11-14.json",
+        "native_characters": 81215,
+        "native_pages_read": 98,
+        "visual_layout_pages": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          20,
+          28,
+          29,
+          34,
+          39,
+          42,
+          55,
+          60,
+          69,
+          76,
+          80,
+          82,
+          86,
+          87,
+          90,
+          94,
+          97,
+          98
+        ],
+        "distinct_raster_payloads_actually_viewed": 1,
+        "strict_nonwhitespace_exact_pages": 82,
+        "reviewed_extractor_difference_pages": [
+          1,
+          8,
+          29,
+          34,
+          39,
+          42,
+          55,
+          69,
+          76,
+          80,
+          82,
+          86,
+          87,
+          94,
+          97,
+          98
+        ],
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "当前是来源站编排的中文译本，英文原版和音频未核；目录与正文标题不完全对应",
+          "第十一章仅有提纲，第十五章编号两用，P89幽默部分标删除，P94—98保留未展开的草稿式条目",
+          "外部音频、培训、链接与原版未包含；当前重复页眉图标及背景矩形不作额外正文图计数"
+        ],
+        "original_note_groups": 37,
+        "new_exact_method_section_bindings": 93
+      }
     },
     {
       "index": 107,
@@ -16804,5 +16872,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B105 all80 native pages,59100 extracted characters and all2 raster payloads read;17 current layouts viewed;76 exact extractor pages plus4 reviewed formatting differences;40 notes,84 exact method bindings;99/119=92 current coverages including B100 reuse+7 closures;nextB106P1 body unopened."
+  "latest_reading_update": "2026-11-14:B106 all98 native pages,81215 extracted characters and all1 raster payloads read;23 current layouts viewed;82 exact extractor pages plus16 reviewed formatting differences;37 notes,93 exact method bindings;100/119=93 current coverages including B100 reuse+7 closures;nextB107P1 body unopened."
 }

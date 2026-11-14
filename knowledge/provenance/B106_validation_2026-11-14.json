@@ -1,0 +1,586 @@
+{
+  "status": "passed",
+  "file_id": "B106",
+  "baseline": "8cdca30c084938d805e6980b5f32921a0af9ccd8",
+  "checks": {
+    "all_method_actions_conditions_prior_citations_preserved": true,
+    "routes_preferred_sections_and_task_modes_preserved": true,
+    "all126_original_blob_identities_and_all_other_reading_records_preserved": true,
+    "source_sha256_all_page_ranges_and_no_double_counting": true,
+    "all_unique_images_extractor_differences_and_required_visual_content_checked": true,
+    "all_new_exact_method_section_retrievals_passed": 93,
+    "all_unbound_scope_notes_globally_retrievable": 1,
+    "current_count_closures_and_next_unopened_checkpoint_consistent": true,
+    "validate_os": true,
+    "unit_tests_passed": 119,
+    "git_diff_check": true
+  },
+  "new_exact_method_retrievals": [
+    {
+      "method": "M01",
+      "heading": "B106-02 作者的概念草图不升级为实证定律",
+      "query": "B106-02",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-02 作者的概念草图不升级为实证定律",
+      "query": "B106-02",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-03 先核现实限制，不把结果统一归为心态",
+      "query": "B106-03",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B106-03 先核现实限制，不把结果统一归为心态",
+      "query": "B106-03",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-04 不以外貌金钱设门槛，也不否认真实偏好",
+      "query": "B106-04",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B106-04 不以外貌金钱设门槛，也不否认真实偏好",
+      "query": "B106-04",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B106-05 正常善意与交换恋爱的期待分开",
+      "query": "B106-05",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B106-05 正常善意与交换恋爱的期待分开",
+      "query": "B106-05",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-05 正常善意与交换恋爱的期待分开",
+      "query": "B106-05",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B106-06 有好感可以坦率，不靠争夺选择权",
+      "query": "B106-06",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B106-06 有好感可以坦率，不靠争夺选择权",
+      "query": "B106-06",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B106-06 有好感可以坦率，不靠争夺选择权",
+      "query": "B106-06",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-07 情绪和逻辑不构成绕过原话的理由",
+      "query": "B106-07",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B106-07 情绪和逻辑不构成绕过原话的理由",
+      "query": "B106-07",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-07 情绪和逻辑不构成绕过原话的理由",
+      "query": "B106-07",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-08 性别概括和亲密节奏不用于评价一个人",
+      "query": "B106-08",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-08 性别概括和亲密节奏不用于评价一个人",
+      "query": "B106-08",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-08 性别概括和亲密节奏不用于评价一个人",
+      "query": "B106-08",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-09 公共关注与恋爱意愿属于不同证据",
+      "query": "B106-09",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B106-09 公共关注与恋爱意愿属于不同证据",
+      "query": "B106-09",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-10 回应及时和愿意倾听不等于低位",
+      "query": "B106-10",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B106-10 回应及时和愿意倾听不等于低位",
+      "query": "B106-10",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B106-10 回应及时和愿意倾听不等于低位",
+      "query": "B106-10",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B106-11 想象的共同经历与真实共同经历分开",
+      "query": "B106-11",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-11 想象的共同经历与真实共同经历分开",
+      "query": "B106-11",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B106-12 分开后的失落不证明谁无能或谁变坏",
+      "query": "B106-12",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B106-12 分开后的失落不证明谁无能或谁变坏",
+      "query": "B106-12",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-12 分开后的失落不证明谁无能或谁变坏",
+      "query": "B106-12",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B106-13 身份选择不等于必须消灭普通生活",
+      "query": "B106-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-13 身份选择不等于必须消灭普通生活",
+      "query": "B106-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-14 自信不赋予占用别人时间与空间的权利",
+      "query": "B106-14",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-14 自信不赋予占用别人时间与空间的权利",
+      "query": "B106-14",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B106-14 自信不赋予占用别人时间与空间的权利",
+      "query": "B106-14",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B106-15 听取反馈与保持边界不必二选一",
+      "query": "B106-15",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-15 听取反馈与保持边界不必二选一",
+      "query": "B106-15",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-15 听取反馈与保持边界不必二选一",
+      "query": "B106-15",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B106-16 调侃与冒犯按当前证据判断",
+      "query": "B106-16",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B106-16 调侃与冒犯按当前证据判断",
+      "query": "B106-16",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-16 调侃与冒犯按当前证据判断",
+      "query": "B106-16",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B106-17 练习允许小而具体，不以状态完美为前提",
+      "query": "B106-17",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-17 练习允许小而具体，不以状态完美为前提",
+      "query": "B106-17",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B106-18 不用先吸引大多数人才能认真认识某个人",
+      "query": "B106-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-18 不用先吸引大多数人才能认真认识某个人",
+      "query": "B106-18",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-19 科学与游戏兴趣不自动导致社交缺陷",
+      "query": "B106-19",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B106-19 科学与游戏兴趣不自动导致社交缺陷",
+      "query": "B106-19",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B106-20 困难情绪不诊断成上瘾或逃避责任",
+      "query": "B106-20",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-20 困难情绪不诊断成上瘾或逃避责任",
+      "query": "B106-20",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B106-20 困难情绪不诊断成上瘾或逃避责任",
+      "query": "B106-20",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-21 把注意放回这轮内容，不机械监控自己",
+      "query": "B106-21",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B106-21 把注意放回这轮内容，不机械监控自己",
+      "query": "B106-21",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-21 把注意放回这轮内容，不机械监控自己",
+      "query": "B106-21",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-22 没听清就正常核对，不靠跳题表现无需求",
+      "query": "B106-22",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-22 没听清就正常核对，不靠跳题表现无需求",
+      "query": "B106-22",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B106-22 没听清就正常核对，不靠跳题表现无需求",
+      "query": "B106-22",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B106-23 自然表达不按秒数控制笑声与回答",
+      "query": "B106-23",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B106-23 自然表达不按秒数控制笑声与回答",
+      "query": "B106-23",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-23 自然表达不按秒数控制笑声与回答",
+      "query": "B106-23",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B106-24 单边继续时收住，不用换花样追反应",
+      "query": "B106-24",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B106-24 单边继续时收住，不用换花样追反应",
+      "query": "B106-24",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-24 单边继续时收住，不用换花样追反应",
+      "query": "B106-24",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B106-25 暂时离席与实际离开分开处理",
+      "query": "B106-25",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B106-25 暂时离席与实际离开分开处理",
+      "query": "B106-25",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-25 暂时离席与实际离开分开处理",
+      "query": "B106-25",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B106-26 确认行程有实际用途，不因怕显需求而省略",
+      "query": "B106-26",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B106-26 确认行程有实际用途，不因怕显需求而省略",
+      "query": "B106-26",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B106-26 确认行程有实际用途，不因怕显需求而省略",
+      "query": "B106-26",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "query": "B106-27",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "query": "B106-27",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "query": "B106-27",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B106-28 一起高兴不抢成比较与教学",
+      "query": "B106-28",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B106-28 一起高兴不抢成比较与教学",
+      "query": "B106-28",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-28 一起高兴不抢成比较与教学",
+      "query": "B106-28",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "query": "B106-29",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "query": "B106-29",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "query": "B106-29",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B106-30 话题被打断先核还有什么需要答",
+      "query": "B106-30",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B106-30 话题被打断先核还有什么需要答",
+      "query": "B106-30",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-30 话题被打断先核还有什么需要答",
+      "query": "B106-30",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B106-31 接受具体纠正，不以冷淡回应替代修复",
+      "query": "B106-31",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B106-31 接受具体纠正，不以冷淡回应替代修复",
+      "query": "B106-31",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B106-32 肢体、语音和瞳孔不承担读心",
+      "query": "B106-32",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-32 肢体、语音和瞳孔不承担读心",
+      "query": "B106-32",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-33 声音姿势以舒适清楚为限，不演强势人物",
+      "query": "B106-33",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-33 声音姿势以舒适清楚为限，不演强势人物",
+      "query": "B106-33",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-34 身体亲密不由自信、等级或术语授权",
+      "query": "B106-34",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-34 身体亲密不由自信、等级或术语授权",
+      "query": "B106-34",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B106-35 见面地点照顾双方，不把带领变成必须跟随",
+      "query": "B106-35",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B106-35 见面地点照顾双方，不把带领变成必须跟随",
+      "query": "B106-35",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B106-35 见面地点照顾双方，不把带领变成必须跟随",
+      "query": "B106-35",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B106-36 正常相处与承诺靠共同约定兑现",
+      "query": "B106-36",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B106-36 正常相处与承诺靠共同约定兑现",
+      "query": "B106-36",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B106-37 原文反对社交机器人，不把资料变成逐句表演",
+      "query": "B106-37",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B106-37 原文反对社交机器人，不把资料变成逐句表演",
+      "query": "B106-37",
+      "passed": true
+    }
+  ],
+  "unbound_global_retrievals": [
+    {
+      "heading": "B106-01 当前中文汇编的范围与编号缺项",
+      "query": "B106-01",
+      "passed": true
+    }
+  ],
+  "scope": "identity,coverage,retrieval and preservation only; no psychological or dating-effectiveness validation"
+}
