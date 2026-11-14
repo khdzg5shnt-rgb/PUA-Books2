@@ -6,7 +6,7 @@
 
 ## M01
 
-核对对象与原句；共253处。
+核对对象与原句；共264处。
 
 - [核对原文与控制发送](../knowledge/books/G09-jev-chat.md)；旧定位，仅追溯，未绑定整份正文。
 - [输入缺口与对象隔离](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -261,10 +261,21 @@
 - [B110-52 哲学与量子比喻不认证为关系机制](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-03 焦虑与嫉妒感受不代替外部事实](../knowledge/books/B111.md)
+- [B111-05 注意、交谈与关系进展是不同事实](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-24 靠近、梳发和普通热情只作弱观察](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-52 地位叙事不能替代当事人的具体信息](../knowledge/books/B111.md)
+- [B111-56 四种价值含义混用时不能拿来解释一切](../knowledge/books/B111.md)
+- [B111-59 冷读只留可纠正观察，别把通用描述当懂她](../knowledge/books/B111.md)
+- [B111-61 保护隐私不等于隐瞒目的或转移责任](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M02
 
-等对方回这一轮；共68处。
+等对方回这一轮；共70处。
 
 - [重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
 - [不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -334,10 +345,12 @@
 - [B110-31 不以故意等待或伪造关系制造优势](../knowledge/books/B110.md)
 - [B110-34 分段与留白用来听回应而非测服从](../knowledge/books/B110.md)
 - [B110-37 真正短聊不编造时间限制或剥夺回应](../knowledge/books/B110.md)
+- [B111-19 有自己的安排，不靠离开惩罚或制造稀缺](../knowledge/books/B111.md)
+- [B111-22 注意力与自愿选择不按奖惩微调](../knowledge/books/B111.md)
 
 ## M03
 
-接住具体内容；共153处。
+接住具体内容；共170处。
 
 - [关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；旧定位，仅追溯，未绑定整份正文。
 - [作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)
@@ -492,10 +505,27 @@
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
+- [B111-06 共同气氛应从双方具体承接判断](../knowledge/books/B111.md)
+- [B111-08 理解与欣赏落到对方确实展示的部分](../knowledge/books/B111.md)
+- [B111-10 相似点与共同经历必须真实](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-25 有来有往是回应信息，不是诱钓循环](../knowledge/books/B111.md)
+- [B111-26 具体欣赏与真实好奇可直接表达](../knowledge/books/B111.md)
+- [B111-28 从可共享的真实细节开始，再接她的回应](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-31 好奇可自然留下，不拿悬念扣住正常答案](../knowledge/books/B111.md)
+- [B111-33 明显幻想只在双方接梗时轻量继续](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-36 共同游戏自愿参与，不作人格或亲密测验](../knowledge/books/B111.md)
+- [B111-39 短故事保留事实，取一个细节和感受](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
 
 ## M04
 
-回应问题并露出一点自己；共189处。
+回应问题并露出一点自己；共207处。
 
 - [自我表达与反固定步骤](../knowledge/books/B072.md)；旧定位，仅追溯，未绑定整份正文。
 - [正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -686,10 +716,28 @@
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
 - [B110-46 不想回答也可坦率设界而非虚构转移](../knowledge/books/B110.md)
 - [B110-52 哲学与量子比喻不认证为关系机制](../knowledge/books/B110.md)
+- [B111-04 放松表达与装冷淡分开](../knowledge/books/B111.md)
+- [B111-08 理解与欣赏落到对方确实展示的部分](../knowledge/books/B111.md)
+- [B111-14 表达训练关注能否听懂，不模仿支配姿态](../knowledge/books/B111.md)
+- [B111-20 正常交流无需把每个问题当证明地位](../knowledge/books/B111.md)
+- [B111-25 有来有往是回应信息，不是诱钓循环](../knowledge/books/B111.md)
+- [B111-26 具体欣赏与真实好奇可直接表达](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-31 好奇可自然留下，不拿悬念扣住正常答案](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
+- [B111-39 短故事保留事实，取一个细节和感受](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-46 拒绝是当前边界，不是待推翻的低位框架](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-60 讲清真实身份、现在与计划，不复制职业脚本](../knowledge/books/B111.md)
 
 ## M05
 
-回扣共同话题；共83处。
+回扣共同话题；共91处。
 
 - [P34与P37–39 Callback Humor](../knowledge/books/B092.md)；旧定位，仅追溯，未绑定整份正文。
 - [回叫幽默的限制](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -774,10 +822,18 @@
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
+- [B111-10 相似点与共同经历必须真实](../knowledge/books/B111.md)
+- [B111-31 好奇可自然留下，不拿悬念扣住正常答案](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
 
 ## M06
 
-轻量夸张或曲解；共84处。
+轻量夸张或曲解；共93处。
 
 - [夸张曲解](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
@@ -863,10 +919,19 @@
 - [B110-45 玩笑、照片与信念尊重实际选择](../knowledge/books/B110.md)
 - [B110-47 否定与善意调侃按目的和反馈区分](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
+- [B111-06 共同气氛应从双方具体承接判断](../knowledge/books/B111.md)
+- [B111-21 打压、甩手与奖励服从不进入执行规则](../knowledge/books/B111.md)
+- [B111-32 笑声不授权触碰、拉走或继续被拒方向](../knowledge/books/B111.md)
+- [B111-33 明显幻想只在双方接梗时轻量继续](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
 
 ## M07
 
-共同角色玩笑；共62处。
+共同角色玩笑；共68处。
 
 - [角色扮演](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
@@ -930,10 +995,16 @@
 - [B110-41 共同角色游戏不能替代对现实顾虑的回应](../knowledge/books/B110.md)
 - [B110-45 玩笑、照片与信念尊重实际选择](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
+- [B111-06 共同气氛应从双方具体承接判断](../knowledge/books/B111.md)
+- [B111-10 相似点与共同经历必须真实](../knowledge/books/B111.md)
+- [B111-32 笑声不授权触碰、拉走或继续被拒方向](../knowledge/books/B111.md)
+- [B111-33 明显幻想只在双方接梗时轻量继续](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
 
 ## M08
 
-有依据的可纠正观察；共240处。
+有依据的可纠正观察；共266处。
 
 - [冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
 - [冷读](../knowledge/topics/theory-map.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1175,10 +1246,36 @@
 - [B110-43 吸引力开关是作者模型不等同因果机制](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
 - [B110-52 哲学与量子比喻不认证为关系机制](../knowledge/books/B110.md)
+- [B111-02 价值框架不能成为身高、性别或个人尊严的判决](../knowledge/books/B111.md)
+- [B111-03 焦虑与嫉妒感受不代替外部事实](../knowledge/books/B111.md)
+- [B111-05 注意、交谈与关系进展是不同事实](../knowledge/books/B111.md)
+- [B111-07 环境准备与外形展示保留真实和舒适](../knowledge/books/B111.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-17 生活投入与被关注数量分开](../knowledge/books/B111.md)
+- [B111-22 注意力与自愿选择不按奖惩微调](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-24 靠近、梳发和普通热情只作弱观察](../knowledge/books/B111.md)
+- [B111-27 开场的退出权比所谓上钩点更明确](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-36 共同游戏自愿参与，不作人格或亲密测验](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-41 反应不佳先核事实，不自动归咎表达](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-47 练习只找有证据的一项，不把反馈都写成缺陷](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-50 结论与文后模型是作者自述，不保证结果](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-52 地位叙事不能替代当事人的具体信息](../knowledge/books/B111.md)
+- [B111-53 主动与亲密不承载羞辱标签](../knowledge/books/B111.md)
+- [B111-54 所谓象征性抵抗不替她表达同意](../knowledge/books/B111.md)
+- [B111-56 四种价值含义混用时不能拿来解释一切](../knowledge/books/B111.md)
+- [B111-59 冷读只留可纠正观察，别把通用描述当懂她](../knowledge/books/B111.md)
+- [B111-61 保护隐私不等于隐瞒目的或转移责任](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M09
 
-具体欣赏；共104处。
+具体欣赏；共117处。
 
 - [具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1284,10 +1381,23 @@
 - [B110-19 真实热情不靠假日记或假预选](../knowledge/books/B110.md)
 - [B110-43 吸引力开关是作者模型不等同因果机制](../knowledge/books/B110.md)
 - [B110-47 否定与善意调侃按目的和反馈区分](../knowledge/books/B110.md)
+- [B111-04 放松表达与装冷淡分开](../knowledge/books/B111.md)
+- [B111-08 理解与欣赏落到对方确实展示的部分](../knowledge/books/B111.md)
+- [B111-12 欣赏与请客不按吸引阶段发放](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-20 正常交流无需把每个问题当证明地位](../knowledge/books/B111.md)
+- [B111-21 打压、甩手与奖励服从不进入执行规则](../knowledge/books/B111.md)
+- [B111-26 具体欣赏与真实好奇可直接表达](../knowledge/books/B111.md)
+- [B111-41 反应不佳先核事实，不自动归咎表达](../knowledge/books/B111.md)
+- [B111-52 地位叙事不能替代当事人的具体信息](../knowledge/books/B111.md)
+- [B111-53 主动与亲密不承载羞辱标签](../knowledge/books/B111.md)
+- [B111-57 形象与善意直接落实，不排力量和善良次序](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
+- [B111-59 冷读只留可纠正观察，别把通用描述当懂她](../knowledge/books/B111.md)
 
 ## M10
 
-分享真实生活；共226处。
+分享真实生活；共255处。
 
 - [关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；旧定位，仅追溯，未绑定整份正文。
 - [真实展示](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1515,10 +1625,39 @@
 - [B110-43 吸引力开关是作者模型不等同因果机制](../knowledge/books/B110.md)
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
 - [B110-52 哲学与量子比喻不认证为关系机制](../knowledge/books/B110.md)
+- [B111-02 价值框架不能成为身高、性别或个人尊严的判决](../knowledge/books/B111.md)
+- [B111-07 环境准备与外形展示保留真实和舒适](../knowledge/books/B111.md)
+- [B111-08 理解与欣赏落到对方确实展示的部分](../knowledge/books/B111.md)
+- [B111-09 可信依靠言行与自愿经历，不用小时数换许可](../knowledge/books/B111.md)
+- [B111-10 相似点与共同经历必须真实](../knowledge/books/B111.md)
+- [B111-11 脆弱分享不索取秘密、不编造困难](../knowledge/books/B111.md)
+- [B111-12 欣赏与请客不按吸引阶段发放](../knowledge/books/B111.md)
+- [B111-14 表达训练关注能否听懂，不模仿支配姿态](../knowledge/books/B111.md)
+- [B111-16 形象服务真实身份与场合，不编造生活](../knowledge/books/B111.md)
+- [B111-17 生活投入与被关注数量分开](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-20 正常交流无需把每个问题当证明地位](../knowledge/books/B111.md)
+- [B111-26 具体欣赏与真实好奇可直接表达](../knowledge/books/B111.md)
+- [B111-28 从可共享的真实细节开始，再接她的回应](../knowledge/books/B111.md)
+- [B111-29 舒服距离与真实时间，不演随时离开](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-31 好奇可自然留下，不拿悬念扣住正常答案](../knowledge/books/B111.md)
+- [B111-33 明显幻想只在双方接梗时轻量继续](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-38 素材库只存自己的经历，不编价值细节](../knowledge/books/B111.md)
+- [B111-39 短故事保留事实，取一个细节和感受](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-53 主动与亲密不承载羞辱标签](../knowledge/books/B111.md)
+- [B111-56 四种价值含义混用时不能拿来解释一切](../knowledge/books/B111.md)
+- [B111-57 形象与善意直接落实，不排力量和善良次序](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
+- [B111-60 讲清真实身份、现在与计划，不复制职业脚本](../knowledge/books/B111.md)
 
 ## M11
 
-接住困扰；共101处。
+接住困扰；共109处。
 
 - [情绪回应指南的细节](../knowledge/books/G01-lianai.md)
 - [状态、感受、关联](../knowledge/books/S04-top30-units.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1621,10 +1760,18 @@
 - [B110-30 熟悉感和冷读不用于诱导创伤披露](../knowledge/books/B110.md)
 - [B110-49 拒绝身体伤害与愤怒威胁无需讨好](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
+- [B111-06 共同气氛应从双方具体承接判断](../knowledge/books/B111.md)
+- [B111-08 理解与欣赏落到对方确实展示的部分](../knowledge/books/B111.md)
+- [B111-11 脆弱分享不索取秘密、不编造困难](../knowledge/books/B111.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-33 明显幻想只在双方接梗时轻量继续](../knowledge/books/B111.md)
+- [B111-39 短故事保留事实，取一个细节和感受](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
 
 ## M12
 
-一起高兴；共28处。
+一起高兴；共30处。
 
 - [融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；旧定位，仅追溯，未绑定整份正文。
 - [开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1654,10 +1801,12 @@
 - [B110-09 小游戏必须容许直接不参加](../knowledge/books/B110.md)
 - [B110-17 平静与热情可以并存而非永不受影响](../knowledge/books/B110.md)
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
+- [B111-06 共同气氛应从双方具体承接判断](../knowledge/books/B111.md)
+- [B111-17 生活投入与被关注数量分开](../knowledge/books/B111.md)
 
 ## M13
 
-回答她确实提出的求助；共70处。
+回答她确实提出的求助；共74处。
 
 - [认真回应资讯与求助](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
 - [倾听与方案区别](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1729,10 +1878,14 @@
 - [B109-38 理解用具体信息表达，不靠无条件附和](../knowledge/books/B109.md)
 - [B109-40 履约和修复不需要无休止地证明自己](../knowledge/books/B109.md)
 - [B110-32 尊重职业身份与实际纠正](../knowledge/books/B110.md)
+- [B111-11 脆弱分享不索取秘密、不编造困难](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-57 形象与善意直接落实，不排力量和善良次序](../knowledge/books/B111.md)
 
 ## M14
 
-一次具体邀约；共153处。
+一次具体邀约；共162处。
 
 - [实际动作的条件](../knowledge/topics/invitation-feedback.md)
 - [主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -1887,10 +2040,19 @@
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
 - [B110-51 受邀资格与社交场所的权力条件](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-07 环境准备与外形展示保留真实和舒适](../knowledge/books/B111.md)
+- [B111-09 可信依靠言行与自愿经历，不用小时数换许可](../knowledge/books/B111.md)
+- [B111-12 欣赏与请客不按吸引阶段发放](../knowledge/books/B111.md)
+- [B111-36 共同游戏自愿参与，不作人格或亲密测验](../knowledge/books/B111.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-49 新朋友加入时给参与空间，不让僚机阻拦](../knowledge/books/B111.md)
+- [B111-50 结论与文后模型是作者自述，不保证结果](../knowledge/books/B111.md)
+- [B111-57 形象与善意直接落实，不排力量和善良次序](../knowledge/books/B111.md)
 
 ## M15
 
-确认已答应的安排；共117处。
+确认已答应的安排；共121处。
 
 - [意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
 - [现实安排](../knowledge/cases/C09-b092-logistics.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2009,10 +2171,14 @@
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
 - [B110-51 受邀资格与社交场所的权力条件](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-09 可信依靠言行与自愿经历，不用小时数换许可](../knowledge/books/B111.md)
+- [B111-18 倾听、可靠与体贴落实到这一次交流](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-49 新朋友加入时给参与空间，不让僚机阻拦](../knowledge/books/B111.md)
 
 ## M16
 
-承接替代时间或重约；共40处。
+承接替代时间或重约；共41处。
 
 - [不能某天但提供替代](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
 - [兑现与修复](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2054,10 +2220,11 @@
 - [B108-20 承诺和改期按约定兑现，不以不可预测代替可靠](../knowledge/books/B108.md)
 - [B108-28 见面安排照顾真实偏好和结束时间](../knowledge/books/B108.md)
 - [B110-23 场所与后勤先于技巧归因](../knowledge/books/B110.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
 
 ## M17
 
-没替代方案时收住；共71处。
+没替代方案时收住；共76处。
 
 - [持续劝约反例](../knowledge/cases/C02-online-invitation.md)；旧定位，仅追溯，未绑定整份正文。
 - [尚未形成具体安排](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2130,10 +2297,15 @@
 - [B110-40 入场遭遇先检查平台规则与商业激励](../knowledge/books/B110.md)
 - [B110-51 受邀资格与社交场所的权力条件](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
+- [B111-46 拒绝是当前边界，不是待推翻的低位框架](../knowledge/books/B111.md)
+- [B111-54 所谓象征性抵抗不替她表达同意](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M18
 
-完整短答照常接；共55处。
+完整短答照常接；共56处。
 
 - [短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [信号表的限制](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2190,10 +2362,11 @@
 - [B110-37 真正短聊不编造时间限制或剥夺回应](../knowledge/books/B110.md)
 - [B110-38 社交次数、姓名与三秒不作硬门槛](../knowledge/books/B110.md)
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
+- [B111-24 靠近、梳发和普通热情只作弱观察](../knowledge/books/B111.md)
 
 ## M19
 
-持续单边时停止加码；共142处。
+持续单边时停止加码；共149处。
 
 - [互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2337,10 +2510,17 @@
 - [B110-34 分段与留白用来听回应而非测服从](../knowledge/books/B110.md)
 - [B110-37 真正短聊不编造时间限制或剥夺回应](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
+- [B111-04 放松表达与装冷淡分开](../knowledge/books/B111.md)
+- [B111-19 有自己的安排，不靠离开惩罚或制造稀缺](../knowledge/books/B111.md)
+- [B111-22 注意力与自愿选择不按奖惩微调](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-25 有来有往是回应信息，不是诱钓循环](../knowledge/books/B111.md)
+- [B111-46 拒绝是当前边界，不是待推翻的低位框架](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M20
 
-接住纠正或澄清；共143处。
+接住纠正或澄清；共150处。
 
 - [角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
 - [原句优先](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
@@ -2485,10 +2665,17 @@
 - [B110-46 不想回答也可坦率设界而非虚构转移](../knowledge/books/B110.md)
 - [B110-47 否定与善意调侃按目的和反馈区分](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-20 正常交流无需把每个问题当证明地位](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
+- [B111-55 对第三人保持边界，不制造竞争陷阱](../knowledge/books/B111.md)
+- [B111-59 冷读只留可纠正观察，别把通用描述当懂她](../knowledge/books/B111.md)
 
 ## M21
 
-有依据的修复；共98处。
+有依据的修复；共106处。
 
 - [沟通冲突与修复](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；旧定位，仅追溯，未绑定整份正文。
@@ -2588,10 +2775,18 @@
 - [B110-29 冲突先看具体行为不诊断内在人格](../knowledge/books/B110.md)
 - [B110-47 否定与善意调侃按目的和反馈区分](../knowledge/books/B110.md)
 - [B110-49 拒绝身体伤害与愤怒威胁无需讨好](../knowledge/books/B110.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-41 反应不佳先核事实，不自动归咎表达](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
+- [B111-47 练习只找有证据的一项，不把反馈都写成缺陷](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-55 对第三人保持边界，不制造竞争陷阱](../knowledge/books/B111.md)
 
 ## M22
 
-表达边界；共438处。
+表达边界；共468处。
 
 - [具体请求与边界](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
 - [不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3031,10 +3226,40 @@
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
 - [B110-51 受邀资格与社交场所的权力条件](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
+- [B111-03 焦虑与嫉妒感受不代替外部事实](../knowledge/books/B111.md)
+- [B111-04 放松表达与装冷淡分开](../knowledge/books/B111.md)
+- [B111-09 可信依靠言行与自愿经历，不用小时数换许可](../knowledge/books/B111.md)
+- [B111-12 欣赏与请客不按吸引阶段发放](../knowledge/books/B111.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-19 有自己的安排，不靠离开惩罚或制造稀缺](../knowledge/books/B111.md)
+- [B111-20 正常交流无需把每个问题当证明地位](../knowledge/books/B111.md)
+- [B111-21 打压、甩手与奖励服从不进入执行规则](../knowledge/books/B111.md)
+- [B111-22 注意力与自愿选择不按奖惩微调](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-25 有来有往是回应信息，不是诱钓循环](../knowledge/books/B111.md)
+- [B111-29 舒服距离与真实时间，不演随时离开](../knowledge/books/B111.md)
+- [B111-32 笑声不授权触碰、拉走或继续被拒方向](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
+- [B111-41 反应不佳先核事实，不自动归咎表达](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-43 认真听与自然接梗，不装走神让人追逐](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
+- [B111-46 拒绝是当前边界，不是待推翻的低位框架](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-49 新朋友加入时给参与空间，不让僚机阻拦](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-52 地位叙事不能替代当事人的具体信息](../knowledge/books/B111.md)
+- [B111-53 主动与亲密不承载羞辱标签](../knowledge/books/B111.md)
+- [B111-54 所谓象征性抵抗不替她表达同意](../knowledge/books/B111.md)
+- [B111-55 对第三人保持边界，不制造竞争陷阱](../knowledge/books/B111.md)
+- [B111-57 形象与善意直接落实，不排力量和善良次序](../knowledge/books/B111.md)
+- [B111-61 保护隐私不等于隐瞒目的或转移责任](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M23
 
-尊重拒绝的具体范围；共394处。
+尊重拒绝的具体范围；共422处。
 
 - [明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
 - [拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3430,10 +3655,38 @@
 - [B110-50 舒适环境是照顾条件不是留人装置](../knowledge/books/B110.md)
 - [B110-51 受邀资格与社交场所的权力条件](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-07 环境准备与外形展示保留真实和舒适](../knowledge/books/B111.md)
+- [B111-09 可信依靠言行与自愿经历，不用小时数换许可](../knowledge/books/B111.md)
+- [B111-12 欣赏与请客不按吸引阶段发放](../knowledge/books/B111.md)
+- [B111-13 平静、有边界与压抑情绪分开](../knowledge/books/B111.md)
+- [B111-19 有自己的安排，不靠离开惩罚或制造稀缺](../knowledge/books/B111.md)
+- [B111-21 打压、甩手与奖励服从不进入执行规则](../knowledge/books/B111.md)
+- [B111-22 注意力与自愿选择不按奖惩微调](../knowledge/books/B111.md)
+- [B111-23 失约、陌生社交边界与责任分别核](../knowledge/books/B111.md)
+- [B111-25 有来有往是回应信息，不是诱钓循环](../knowledge/books/B111.md)
+- [B111-27 开场的退出权比所谓上钩点更明确](../knowledge/books/B111.md)
+- [B111-29 舒服距离与真实时间，不演随时离开](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-32 笑声不授权触碰、拉走或继续被拒方向](../knowledge/books/B111.md)
+- [B111-35 共同角色是一起玩，不等于接受统治](../knowledge/books/B111.md)
+- [B111-36 共同游戏自愿参与，不作人格或亲密测验](../knowledge/books/B111.md)
+- [B111-37 现实顾虑先处理，不把不舒服当张力成果](../knowledge/books/B111.md)
+- [B111-41 反应不佳先核事实，不自动归咎表达](../knowledge/books/B111.md)
+- [B111-44 反复否认与不适不能自动算接梗](../knowledge/books/B111.md)
+- [B111-46 拒绝是当前边界，不是待推翻的低位框架](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-49 新朋友加入时给参与空间，不让僚机阻拦](../knowledge/books/B111.md)
+- [B111-50 结论与文后模型是作者自述，不保证结果](../knowledge/books/B111.md)
+- [B111-53 主动与亲密不承载羞辱标签](../knowledge/books/B111.md)
+- [B111-54 所谓象征性抵抗不替她表达同意](../knowledge/books/B111.md)
+- [B111-55 对第三人保持边界，不制造竞争陷阱](../knowledge/books/B111.md)
+- [B111-58 共同点、回扣和相互理解不用亲密配额](../knowledge/books/B111.md)
+- [B111-61 保护隐私不等于隐瞒目的或转移责任](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M24
 
-见面后的真实反馈；共89处。
+见面后的真实反馈；共96处。
 
 - [第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
 - [实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3524,10 +3777,17 @@
 - [B110-12 停止亲密行为与见面后反馈分开记录](../knowledge/books/B110.md)
 - [B110-21 不回联络原因未知与固定关系目标](../knowledge/books/B110.md)
 - [B110-53 后续自述补上疲惫、时机与选择条件](../knowledge/books/B110.md)
+- [B111-05 注意、交谈与关系进展是不同事实](../knowledge/books/B111.md)
+- [B111-15 社交练习从真实机会开始，不执行数量配额](../knowledge/books/B111.md)
+- [B111-24 靠近、梳发和普通热情只作弱观察](../knowledge/books/B111.md)
+- [B111-38 素材库只存自己的经历，不编价值细节](../knowledge/books/B111.md)
+- [B111-47 练习只找有证据的一项，不把反馈都写成缺陷](../knowledge/books/B111.md)
+- [B111-50 结论与文后模型是作者自述，不保证结果](../knowledge/books/B111.md)
+- [B111-52 地位叙事不能替代当事人的具体信息](../knowledge/books/B111.md)
 
 ## M25
 
-开场或自然重联；共194处。
+开场或自然重联；共209处。
 
 - [现场素材与反馈分支](../knowledge/books/B090.md)；旧定位，仅追溯，未绑定整份正文。
 - [重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3723,10 +3983,25 @@
 - [B110-35 开场禁词与第一印象断言不作硬规则](../knowledge/books/B110.md)
 - [B110-36 开场材料选真实、可承接且不冒犯的内容](../knowledge/books/B110.md)
 - [B110-38 社交次数、姓名与三秒不作硬门槛](../knowledge/books/B110.md)
+- [B111-05 注意、交谈与关系进展是不同事实](../knowledge/books/B111.md)
+- [B111-14 表达训练关注能否听懂，不模仿支配姿态](../knowledge/books/B111.md)
+- [B111-15 社交练习从真实机会开始，不执行数量配额](../knowledge/books/B111.md)
+- [B111-16 形象服务真实身份与场合，不编造生活](../knowledge/books/B111.md)
+- [B111-27 开场的退出权比所谓上钩点更明确](../knowledge/books/B111.md)
+- [B111-28 从可共享的真实细节开始，再接她的回应](../knowledge/books/B111.md)
+- [B111-29 舒服距离与真实时间，不演随时离开](../knowledge/books/B111.md)
+- [B111-38 素材库只存自己的经历，不编价值细节](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-47 练习只找有证据的一项，不把反馈都写成缺陷](../knowledge/books/B111.md)
+- [B111-48 群体中尊重位置、物品与每个人的自主](../knowledge/books/B111.md)
+- [B111-49 新朋友加入时给参与空间，不让僚机阻拦](../knowledge/books/B111.md)
+- [B111-55 对第三人保持边界，不制造竞争陷阱](../knowledge/books/B111.md)
+- [B111-60 讲清真实身份、现在与计划，不复制职业脚本](../knowledge/books/B111.md)
+- [B111-62 礼貌与持续在场不造成继续互动的义务](../knowledge/books/B111.md)
 
 ## M26
 
-压成一句自然的话；共219处。
+压成一句自然的话；共232处。
 
 - [一个目标与口吻](../knowledge/books/G01-practical-expansion.md)
 - [自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
@@ -3947,3 +4222,16 @@
 - [B110-44 认真听而非按八成话量持续展示](../knowledge/books/B110.md)
 - [B110-48 荒谬引申可以保留但现实事实须可靠](../knowledge/books/B110.md)
 - [B110-54 术语归档只帮助查出处不新增执行模型](../knowledge/books/B110.md)
+- [B111-04 放松表达与装冷淡分开](../knowledge/books/B111.md)
+- [B111-14 表达训练关注能否听懂，不模仿支配姿态](../knowledge/books/B111.md)
+- [B111-19 有自己的安排，不靠离开惩罚或制造稀缺](../knowledge/books/B111.md)
+- [B111-28 从可共享的真实细节开始，再接她的回应](../knowledge/books/B111.md)
+- [B111-30 对话照顾内容与现实安排，不阻断思考](../knowledge/books/B111.md)
+- [B111-34 把采访改成交流，不把提问全部禁掉](../knowledge/books/B111.md)
+- [B111-38 素材库只存自己的经历，不编价值细节](../knowledge/books/B111.md)
+- [B111-39 短故事保留事实，取一个细节和感受](../knowledge/books/B111.md)
+- [B111-40 一句话要贴题，不给未知硬分兴趣正负](../knowledge/books/B111.md)
+- [B111-42 假格言只当共同玩笑，正常问题照答](../knowledge/books/B111.md)
+- [B111-45 接住贡献再展开，不靠打断占据全场](../knowledge/books/B111.md)
+- [B111-51 文后低价值清单只核具体行为，不评价整个人](../knowledge/books/B111.md)
+- [B111-60 讲清真实身份、现在与计划，不复制职业脚本](../knowledge/books/B111.md)

@@ -1460,9 +1460,17 @@
       "group": "books2_original_snapshot",
       "title": "谜男启示录 - 谜男.pdf",
       "git_blob_sha": "13d5b8ce446a53320a298610841001f7d7a75724",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B111.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B111_reading_2026-11-15.json",
+      "coverage_mode": "direct_ordered_native_PDF_text_with_full_container_geometry_audit_and_selected_original_layout_review",
+      "completion_kind": "actual_supplied_PDF_all185_native_pages_read_with_exact_body_comparison_and_media_box_footer_audit",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B112",
@@ -1939,23 +1947,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 104,
+    "current_book_files_text_complete": 105,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 15
+    "current_book_files_not_started": 14
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B111",
-    "path": "谜男启示录 - 谜男.pdf",
-    "bytes": 2295816,
-    "git_blob_sha": "13d5b8ce446a53320a298610841001f7d7a75724",
+    "id": "B112",
+    "path": "谜男方法 - 谜男.pdf",
+    "bytes": 1387302,
+    "git_blob_sha": "250730f7a0ca49a92cfa96eae3696d509943bfb8",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B110当前170物理页读完；55组笔记、252处引用先保存提交。下一唯一主读B111《谜男启示录 - 谜男.pdf》，185物理页，从P1字符0开始，正文未打开。",
-    "next_content_unit": "Read B111 PDF from physical page1 character0 only after B110 current-file text, notes, scope and checkpoint are committed; body unopened."
+    "start": "B111当前185物理页读完；62组原创笔记、288处方法引用先保存提交。下一唯一主读B112《谜男方法 - 谜男.pdf》，清单124物理页，从P1字符0开始，正文未打开。",
+    "next_content_unit": "Read B112 PDF from physical page1 character0 only after B111 current-file reading, notes, scope and checkpoint are committed; body unopened."
   },
   "deferred_work_units": []
 }
