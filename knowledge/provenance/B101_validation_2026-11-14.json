@@ -1,0 +1,541 @@
+{
+  "status": "passed",
+  "validate_os": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 96,
+    "book_not_started": 23,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "unit_tests_passed": 119,
+  "focused_reading_and_retrieval_checks": {
+    "status": "passed",
+    "new_exact_method_section_retrieval_checks": [
+      {
+        "method": "M10",
+        "heading": "B101-04 生活展示来自已经发生的真实内容",
+        "line": 41
+      },
+      {
+        "method": "M21",
+        "heading": "B101-05 拒绝结果不构成自动归责证据",
+        "line": 49
+      },
+      {
+        "method": "M22",
+        "heading": "B101-05 拒绝结果不构成自动归责证据",
+        "line": 49
+      },
+      {
+        "method": "M22",
+        "heading": "B101-06 隐私和成年边界不能只写在前言",
+        "line": 57
+      },
+      {
+        "method": "M23",
+        "heading": "B101-06 隐私和成年边界不能只写在前言",
+        "line": 57
+      },
+      {
+        "method": "M01",
+        "heading": "B101-07 合成示例与实证材料分开",
+        "line": 65
+      },
+      {
+        "method": "M08",
+        "heading": "B101-07 合成示例与实证材料分开",
+        "line": 65
+      },
+      {
+        "method": "M03",
+        "heading": "B101-08 开场只取当前可核的一个细节",
+        "line": 73
+      },
+      {
+        "method": "M25",
+        "heading": "B101-08 开场只取当前可核的一个细节",
+        "line": 73
+      },
+      {
+        "method": "M22",
+        "heading": "B101-09 取得联系方式不靠伪装用途",
+        "line": 81
+      },
+      {
+        "method": "M25",
+        "heading": "B101-09 取得联系方式不靠伪装用途",
+        "line": 81
+      },
+      {
+        "method": "M14",
+        "heading": "B101-10 交换号码不等于已形成关系",
+        "line": 89
+      },
+      {
+        "method": "M19",
+        "heading": "B101-10 交换号码不等于已形成关系",
+        "line": 89
+      },
+      {
+        "method": "M01",
+        "heading": "B101-11 英文原句与辱骂式中文释义分开",
+        "line": 97
+      },
+      {
+        "method": "M20",
+        "heading": "B101-11 英文原句与辱骂式中文释义分开",
+        "line": 97
+      },
+      {
+        "method": "M08",
+        "heading": "B101-12 国籍、外貌和场所不预测个人意愿",
+        "line": 105
+      },
+      {
+        "method": "M09",
+        "heading": "B101-12 国籍、外貌和场所不预测个人意愿",
+        "line": 105
+      },
+      {
+        "method": "M22",
+        "heading": "B101-13 进入群体不是争夺和排除他人",
+        "line": 113
+      },
+      {
+        "method": "M25",
+        "heading": "B101-13 进入群体不是争夺和排除他人",
+        "line": 113
+      },
+      {
+        "method": "M22",
+        "heading": "B101-14 酒精不承担推进关系的作用",
+        "line": 121
+      },
+      {
+        "method": "M23",
+        "heading": "B101-14 酒精不承担推进关系的作用",
+        "line": 121
+      },
+      {
+        "method": "M08",
+        "heading": "B101-15 礼貌回应仍是弱信号",
+        "line": 129
+      },
+      {
+        "method": "M18",
+        "heading": "B101-15 礼貌回应仍是弱信号",
+        "line": 129
+      },
+      {
+        "method": "M25",
+        "heading": "B101-17 练习目标是一项可做的小动作",
+        "line": 145
+      },
+      {
+        "method": "M26",
+        "heading": "B101-17 练习目标是一项可做的小动作",
+        "line": 145
+      },
+      {
+        "method": "M23",
+        "heading": "B101-18 拒绝权不由追求者授予",
+        "line": 153
+      },
+      {
+        "method": "M01",
+        "heading": "B101-19 精选结果不能反推通用成功率",
+        "line": 161
+      },
+      {
+        "method": "M08",
+        "heading": "B101-19 精选结果不能反推通用成功率",
+        "line": 161
+      },
+      {
+        "method": "M10",
+        "heading": "B101-20 穿着与消费服从真实生活和预算",
+        "line": 169
+      },
+      {
+        "method": "M22",
+        "heading": "B101-20 穿着与消费服从真实生活和预算",
+        "line": 169
+      },
+      {
+        "method": "M06",
+        "heading": "B101-21 幽默不靠贬低第三人",
+        "line": 177
+      },
+      {
+        "method": "M22",
+        "heading": "B101-21 幽默不靠贬低第三人",
+        "line": 177
+      },
+      {
+        "method": "M10",
+        "heading": "B101-22 身份与共同经历不能编造",
+        "line": 185
+      },
+      {
+        "method": "M25",
+        "heading": "B101-22 身份与共同经历不能编造",
+        "line": 185
+      },
+      {
+        "method": "M05",
+        "heading": "B101-23 加联系方式后先回扣认识情境",
+        "line": 193
+      },
+      {
+        "method": "M25",
+        "heading": "B101-23 加联系方式后先回扣认识情境",
+        "line": 193
+      },
+      {
+        "method": "M02",
+        "heading": "B101-24 通话方式和时间要合双方方便",
+        "line": 201
+      },
+      {
+        "method": "M22",
+        "heading": "B101-24 通话方式和时间要合双方方便",
+        "line": 201
+      },
+      {
+        "method": "M04",
+        "heading": "B101-25 自然回应不由问号数量决定",
+        "line": 209
+      },
+      {
+        "method": "M26",
+        "heading": "B101-25 自然回应不由问号数量决定",
+        "line": 209
+      },
+      {
+        "method": "M14",
+        "heading": "B101-26 具体邀请要给真实可判断的信息",
+        "line": 217
+      },
+      {
+        "method": "M15",
+        "heading": "B101-26 具体邀请要给真实可判断的信息",
+        "line": 217
+      },
+      {
+        "method": "M16",
+        "heading": "B101-27 替代时间与反复更换日期分开",
+        "line": 225
+      },
+      {
+        "method": "M17",
+        "heading": "B101-27 替代时间与反复更换日期分开",
+        "line": 225
+      },
+      {
+        "method": "M14",
+        "heading": "B101-28 邀约内容与实际目的保持一致",
+        "line": 233
+      },
+      {
+        "method": "M22",
+        "heading": "B101-28 邀约内容与实际目的保持一致",
+        "line": 233
+      },
+      {
+        "method": "M08",
+        "heading": "B101-29 首次见面不等于一错全输",
+        "line": 241
+      },
+      {
+        "method": "M24",
+        "heading": "B101-29 首次见面不等于一错全输",
+        "line": 241
+      },
+      {
+        "method": "M22",
+        "heading": "B101-30 约会次数和性行为不设成达标线",
+        "line": 249
+      },
+      {
+        "method": "M23",
+        "heading": "B101-30 约会次数和性行为不设成达标线",
+        "line": 249
+      },
+      {
+        "method": "M09",
+        "heading": "B101-31 善意和具体欣赏不等于失去边界",
+        "line": 257
+      },
+      {
+        "method": "M11",
+        "heading": "B101-31 善意和具体欣赏不等于失去边界",
+        "line": 257
+      },
+      {
+        "method": "M24",
+        "heading": "B101-32 见面后的反馈来自真实感受",
+        "line": 265
+      },
+      {
+        "method": "M26",
+        "heading": "B101-32 见面后的反馈来自真实感受",
+        "line": 265
+      },
+      {
+        "method": "M15",
+        "heading": "B101-33 答应过的关心要正常兑现",
+        "line": 273
+      },
+      {
+        "method": "M24",
+        "heading": "B101-33 答应过的关心要正常兑现",
+        "line": 273
+      },
+      {
+        "method": "M02",
+        "heading": "B101-34 停止单边加码不靠惩罚主动",
+        "line": 281
+      },
+      {
+        "method": "M19",
+        "heading": "B101-34 停止单边加码不靠惩罚主动",
+        "line": 281
+      },
+      {
+        "method": "M01",
+        "heading": "B101-35 带朋友见面不自动解释动机",
+        "line": 289
+      },
+      {
+        "method": "M08",
+        "heading": "B101-35 带朋友见面不自动解释动机",
+        "line": 289
+      },
+      {
+        "method": "M15",
+        "heading": "B101-36 同行人数、消费和范围可以直说",
+        "line": 297
+      },
+      {
+        "method": "M22",
+        "heading": "B101-36 同行人数、消费和范围可以直说",
+        "line": 297
+      },
+      {
+        "method": "M22",
+        "heading": "B101-37 朋友和陌生人不承担推进职责",
+        "line": 305
+      },
+      {
+        "method": "M23",
+        "heading": "B101-37 朋友和陌生人不承担推进职责",
+        "line": 305
+      },
+      {
+        "method": "M08",
+        "heading": "B101-38 接触分类图不是许可阶梯",
+        "line": 313
+      },
+      {
+        "method": "M23",
+        "heading": "B101-38 接触分类图不是许可阶梯",
+        "line": 313
+      },
+      {
+        "method": "M08",
+        "heading": "B101-39 礼物、帮忙与亲密意愿分开",
+        "line": 321
+      },
+      {
+        "method": "M22",
+        "heading": "B101-39 礼物、帮忙与亲密意愿分开",
+        "line": 321
+      },
+      {
+        "method": "M23",
+        "heading": "B101-39 礼物、帮忙与亲密意愿分开",
+        "line": 321
+      },
+      {
+        "method": "M20",
+        "heading": "B101-40 撤回和躲开不能改名为害羞",
+        "line": 329
+      },
+      {
+        "method": "M23",
+        "heading": "B101-40 撤回和躲开不能改名为害羞",
+        "line": 329
+      },
+      {
+        "method": "M22",
+        "heading": "B101-41 亲密确认不是需要克服的弱点",
+        "line": 337
+      },
+      {
+        "method": "M23",
+        "heading": "B101-41 亲密确认不是需要克服的弱点",
+        "line": 337
+      },
+      {
+        "method": "M15",
+        "heading": "B101-42 更换到私密地点是新的决定",
+        "line": 345
+      },
+      {
+        "method": "M23",
+        "heading": "B101-42 更换到私密地点是新的决定",
+        "line": 345
+      },
+      {
+        "method": "M22",
+        "heading": "B101-43 声称自然不能抵消欺骗和施压",
+        "line": 353
+      },
+      {
+        "method": "M23",
+        "heading": "B101-43 声称自然不能抵消欺骗和施压",
+        "line": 353
+      },
+      {
+        "method": "M21",
+        "heading": "B101-45 事后善意不能追认此前意愿",
+        "line": 369
+      },
+      {
+        "method": "M23",
+        "heading": "B101-45 事后善意不能追认此前意愿",
+        "line": 369
+      },
+      {
+        "method": "M21",
+        "heading": "B101-46 没有发生性行为不能倒推谁失职",
+        "line": 377
+      },
+      {
+        "method": "M22",
+        "heading": "B101-46 没有发生性行为不能倒推谁失职",
+        "line": 377
+      },
+      {
+        "method": "M22",
+        "heading": "B101-47 对方恢复清楚判断不是需要避免的事",
+        "line": 385
+      },
+      {
+        "method": "M23",
+        "heading": "B101-47 对方恢复清楚判断不是需要避免的事",
+        "line": 385
+      },
+      {
+        "method": "M22",
+        "heading": "B101-48 性关系不自动生成恋爱承诺",
+        "line": 393
+      },
+      {
+        "method": "M24",
+        "heading": "B101-48 性关系不自动生成恋爱承诺",
+        "line": 393
+      },
+      {
+        "method": "M04",
+        "heading": "B101-49 说明关系期待不能作为交换话术",
+        "line": 401
+      },
+      {
+        "method": "M22",
+        "heading": "B101-49 说明关系期待不能作为交换话术",
+        "line": 401
+      },
+      {
+        "method": "M08",
+        "heading": "B101-51 吃醋和眼泪不单独证明爱",
+        "line": 417
+      },
+      {
+        "method": "M20",
+        "heading": "B101-51 吃醋和眼泪不单独证明爱",
+        "line": 417
+      },
+      {
+        "method": "M20",
+        "heading": "B101-52 可核事实要澄清，不能编造再反责",
+        "line": 425
+      },
+      {
+        "method": "M21",
+        "heading": "B101-52 可核事实要澄清，不能编造再反责",
+        "line": 425
+      },
+      {
+        "method": "M21",
+        "heading": "B101-53 对方指责不等于用户已经有错",
+        "line": 433
+      },
+      {
+        "method": "M22",
+        "heading": "B101-53 对方指责不等于用户已经有错",
+        "line": 433
+      },
+      {
+        "method": "M11",
+        "heading": "B101-54 关心和澄清可以在同一次回应里",
+        "line": 441
+      },
+      {
+        "method": "M20",
+        "heading": "B101-54 关心和澄清可以在同一次回应里",
+        "line": 441
+      },
+      {
+        "method": "M11",
+        "heading": "B101-55 难过时先核实际需要和接触边界",
+        "line": 449
+      },
+      {
+        "method": "M13",
+        "heading": "B101-55 难过时先核实际需要和接触边界",
+        "line": 449
+      },
+      {
+        "method": "M23",
+        "heading": "B101-55 难过时先核实际需要和接触边界",
+        "line": 449
+      },
+      {
+        "method": "M11",
+        "heading": "B101-56 照顾不是交换关系的投资",
+        "line": 457
+      },
+      {
+        "method": "M19",
+        "heading": "B101-56 照顾不是交换关系的投资",
+        "line": 457
+      },
+      {
+        "method": "M22",
+        "heading": "B101-56 照顾不是交换关系的投资",
+        "line": 457
+      }
+    ],
+    "global_unbound_version_heading_retrieval_queries_passed": 6,
+    "all56_note_groups_covered_by_method_scoped_or_unbound_global_retrieval": true,
+    "method_operations_preferred_routes_tasks_runtime1_5_3_and_AGENTS_unchanged": true,
+    "all_other_sources_old_notes_and_prior_reading_ledgers_unchanged": true,
+    "original_source_hashes_and_initial_screening_counts_unchanged": true,
+    "reading_and_maintenance_history_preserved": true,
+    "all84_native_page_hashes_and_read_ranges_checked": true,
+    "raw_independent_output_differences_explicit_and_all84_pages_exact_after_only_anchored_duplicate_footer_date_removal": true,
+    "24_layout_hashes_and_all8_distinct_raster_payloads_checked": true,
+    "filename_cover_metadata_attribution_difference_and_source_omissions_retained": true,
+    "B100_reuse_not_recounted_as_new_full_reading": true,
+    "new_method_source_bindings": 101,
+    "new_private_case_or_script_files": 0
+  },
+  "scope": "Source identity,actual reading ranges,metadata and synthetic routing checks do not establish relationship effects or source psychology claims."
+}

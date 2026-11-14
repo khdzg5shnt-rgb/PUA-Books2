@@ -1297,9 +1297,17 @@
       "group": "books2_original_snapshot",
       "title": "约会密码 - 海兵.pdf",
       "git_blob_sha": "5ea91da8109e2f049145c34765397939a2b44fbd",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B101.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B101_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered84_native_pages_plus_all8_distinct_raster_payloads_and24_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all84_native_pages_and_all_distinct_raster_payloads_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B102",
@@ -1866,23 +1874,23 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 95,
+    "current_book_files_text_complete": 96,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 24
+    "current_book_files_not_started": 23
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B101",
-    "path": "约会密码 - 海兵.pdf",
-    "bytes": 1123630,
-    "git_blob_sha": "5ea91da8109e2f049145c34765397939a2b44fbd",
+    "id": "B102",
+    "path": "绝密话术 - 浪迹团队.pdf",
+    "bytes": 425107,
+    "git_blob_sha": "43328a9d0b75d9c914281f177a17ff8367d57689",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B100严格核对另一版本：共同内容复用已读B099，差异及六种图片补读，P62空白与未提供末段单列。笔记、范围及断点先提交；下一唯一主读B101，从P1开始，本断点正文未打开。",
-    "next_content_unit": "Read B101 PDF from physical page1 after B100 strict duplicate mapping,actual difference review and source omissions have been committed. Do not count reused B099 text or old notes as newly read. Complete or scope-close each current file before another."
+    "start": "B100版本核对先提交，随后B101当前84页64340原生字符及8种图片已全部读取，目录错位、署名差异与待续缺文单列。56组批注与101处绑定保存提交后，下一唯一主读B102，从P1开始，本断点正文未打开。",
+    "next_content_unit": "Read B102 PDF from physical page1 only after B101 all84 native pages,all8 distinct raster payloads,critical notes and checkpoint have been committed. Preserve B100 explicit verified same-text reuse accounting; complete or scope-close each file before another."
   },
   "deferred_work_units": []
 }

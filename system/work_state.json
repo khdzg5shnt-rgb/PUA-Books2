@@ -1,95 +1,94 @@
 {
   "schema_version": 1,
   "updated": "2026-11-14",
-  "current_focus": "B101_next_after_B100_verified_duplicate_coverage_and_difference_review",
+  "current_focus": "B102_next_after_B101_all_current84_pages_and_all_distinct_raster_payloads_read",
   "status": "ready_for_next_file",
-  "base_commit": "3fa8ca773f125953ee066dffd9f327e780c5b8bf",
+  "base_commit": "e5494815b4d91f67be1206006b91d8b4236dd12c",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B100_progress_2026-11-14.md",
-  "validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+  "report": "knowledge/provenance/B101_progress_2026-11-14.md",
+  "validation": "knowledge/provenance/B101_validation_2026-11-14.json",
   "reading_bookmark": {
-    "id": "B101",
-    "path": "约会密码 - 海兵.pdf",
-    "bytes": 1123630,
-    "git_blob_sha": "5ea91da8109e2f049145c34765397939a2b44fbd",
+    "id": "B102",
+    "path": "绝密话术 - 浪迹团队.pdf",
+    "bytes": 425107,
+    "git_blob_sha": "43328a9d0b75d9c914281f177a17ff8367d57689",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B100严格核对另一版本：共同内容复用已读B099，差异及六种图片补读，P62空白与未提供末段单列。笔记、范围及断点先提交；下一唯一主读B101，从P1开始，本断点正文未打开。",
-    "next_content_unit": "Read B101 PDF from physical page1 after B100 strict duplicate mapping,actual difference review and source omissions have been committed. Do not count reused B099 text or old notes as newly read. Complete or scope-close each current file before another."
+    "start": "B100版本核对先提交，随后B101当前84页64340原生字符及8种图片已全部读取，目录错位、署名差异与待续缺文单列。56组批注与101处绑定保存提交后，下一唯一主读B102，从P1开始，本断点正文未打开。",
+    "next_content_unit": "Read B102 PDF from physical page1 only after B101 all84 native pages,all8 distinct raster payloads,critical notes and checkpoint have been committed. Preserve B100 explicit verified same-text reuse accounting; complete or scope-close each file before another."
   },
-  "next_work": "Read B101 PDF from physical page1 after B100 strict duplicate mapping,actual difference review and source omissions have been committed. Do not count reused B099 text or old notes as newly read. Complete or scope-close each current file before another.",
+  "next_work": "Read B102 PDF from physical page1 only after B101 all84 native pages,all8 distinct raster payloads,critical notes and checkpoint have been committed. Preserve B100 explicit verified same-text reuse accounting; complete or scope-close each file before another.",
   "current_session_progress": {
-    "baseline": "3fa8ca773f125953ee066dffd9f327e780c5b8bf",
-    "work_type": "direct_differences_and_strict_nonwhitespace_identical_B099_reading_reuse",
+    "baseline": "e5494815b4d91f67be1206006b91d8b4236dd12c",
+    "work_type": "direct_ordered84_native_pages_plus_all8_distinct_raster_payloads_and24_layout_samples",
     "new_book_files_started": [
-      "B100"
+      "B101"
     ],
     "new_book_files_completed": [
-      "B100"
+      "B101"
     ],
-    "actually_completed_file_ids": [],
-    "new_whole_book_files_actually_read": 0,
-    "verified_duplicate_file_completion_ids": [
-      "B100"
+    "actually_completed_file_ids": [
+      "B101"
     ],
+    "new_whole_book_files_actually_read": 1,
     "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 0,
-    "new_native_text_pages_read": 0,
+    "new_native_characters_read": 64340,
+    "new_native_text_pages_read": 84,
     "new_OCR_characters_read": 0,
-    "direct_native_reread_characters_not_new": 16653,
-    "new_version_insert_nonwhitespace_characters_read": 83,
-    "covered_current_native_characters": 83124,
-    "new_unique_original_visual_pages": 15,
-    "unique_raster_payloads_actually_viewed": 6,
-    "original_note_groups": 10,
-    "new_method_source_bindings": 0,
+    "new_unique_original_visual_pages": 24,
+    "unique_raster_payloads_actually_viewed": 8,
+    "original_note_groups": 56,
+    "new_method_source_bindings": 101,
     "new_method_operations": [],
-    "all_current_supplied_B100_content_covered": true,
-    "all_current_supplied_B100_text_directly_reread_this_turn": false,
-    "source_omissions_retained": [
-      "B099物理P61的长期相处末段与课程推广，不在B100物理P62空白页出现"
-    ],
+    "all_current_supplied_B101_content_read": true,
+    "independent_footer_representation_difference_separately_recorded": true,
     "serial_order": [
-      "verify_B099_completed_main_before_B100",
-      "read_current_version_front_pages_and_unique_insert",
-      "prove_every_remaining_current_body_page_identical_to_previously_read_B099",
-      "review_current_layouts_and_all_distinct_image_payloads",
-      "save_version_notes_scope_and_next_checkpoint_before_B101"
+      "B100_verified_duplicate_and_actual_differences_committed_to_main",
+      "read_B101_native_pages1_to84_in_order",
+      "view_all8_distinct_raster_payloads_and24_current_layouts",
+      "independently_verify_all84_body_texts_with_narrow_footer_difference_recorded",
+      "save_B101_scope_notes_and_next_checkpoint_before_B102"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "previous_runtime1_5_3_maintenance_preserved": true,
     "current_user_turn_aggregate": {
       "file_ids": [
-        "B100"
+        "B100",
+        "B101"
       ],
-      "new_file_tasks_completed": 1,
-      "new_whole_supplied_file_reads": [],
+      "new_file_tasks_completed": 2,
+      "new_whole_supplied_file_reads": [
+        "B101"
+      ],
       "new_verified_duplicate_file_coverages": [
         "B100"
       ],
       "new_user_scope_closures": [],
-      "new_native_text_pages_read": 0,
-      "new_native_characters_read": 0,
+      "new_native_text_pages_read": 84,
+      "new_native_characters_read": 64340,
       "new_OCR_characters_read": 0,
       "direct_native_reread_characters_not_new": 16653,
       "new_version_insert_nonwhitespace_characters_read": 83,
-      "original_pages_individually_viewed": 15,
-      "original_note_groups": 10,
-      "new_exact_method_section_bindings": 0
+      "original_pages_individually_viewed": 39,
+      "original_note_groups": 66,
+      "new_exact_method_section_bindings": 101,
+      "B100_committed_before_B101_opened": "e5494815b4d91f67be1206006b91d8b4236dd12c"
     },
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+      "reading_metadata_validation": "knowledge/provenance/B101_validation_2026-11-14.json",
       "validate_os": true,
       "unit_tests_passed": 119,
-      "new_version_note_retrieval_queries_passed": 10,
-      "all_methods_bindings_runtime_and_prior_readings_preserved": true
+      "new_exact_method_section_retrieval_queries_passed": 101,
+      "unbound_global_version_heading_queries_passed": 6,
+      "all56_note_groups_covered_by_appropriate_retrieval": true,
+      "runtime1_5_3_actions_preferred_sections_and_prior_readings_preserved": true
     }
   },
   "last_reading_progress": {
@@ -2434,75 +2433,74 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-14",
-    "report": "knowledge/provenance/B100_progress_2026-11-14.md",
-    "validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+    "report": "knowledge/provenance/B101_progress_2026-11-14.md",
+    "validation": "knowledge/provenance/B101_validation_2026-11-14.json",
     "current_session_progress": {
-      "baseline": "3fa8ca773f125953ee066dffd9f327e780c5b8bf",
-      "work_type": "direct_differences_and_strict_nonwhitespace_identical_B099_reading_reuse",
+      "baseline": "e5494815b4d91f67be1206006b91d8b4236dd12c",
+      "work_type": "direct_ordered84_native_pages_plus_all8_distinct_raster_payloads_and24_layout_samples",
       "new_book_files_started": [
-        "B100"
+        "B101"
       ],
       "new_book_files_completed": [
-        "B100"
+        "B101"
       ],
-      "actually_completed_file_ids": [],
-      "new_whole_book_files_actually_read": 0,
-      "verified_duplicate_file_completion_ids": [
-        "B100"
+      "actually_completed_file_ids": [
+        "B101"
       ],
+      "new_whole_book_files_actually_read": 1,
       "user_accepted_scope_closure_ids": [],
-      "new_native_characters_read": 0,
-      "new_native_text_pages_read": 0,
+      "new_native_characters_read": 64340,
+      "new_native_text_pages_read": 84,
       "new_OCR_characters_read": 0,
-      "direct_native_reread_characters_not_new": 16653,
-      "new_version_insert_nonwhitespace_characters_read": 83,
-      "covered_current_native_characters": 83124,
-      "new_unique_original_visual_pages": 15,
-      "unique_raster_payloads_actually_viewed": 6,
-      "original_note_groups": 10,
-      "new_method_source_bindings": 0,
+      "new_unique_original_visual_pages": 24,
+      "unique_raster_payloads_actually_viewed": 8,
+      "original_note_groups": 56,
+      "new_method_source_bindings": 101,
       "new_method_operations": [],
-      "all_current_supplied_B100_content_covered": true,
-      "all_current_supplied_B100_text_directly_reread_this_turn": false,
-      "source_omissions_retained": [
-        "B099物理P61的长期相处末段与课程推广，不在B100物理P62空白页出现"
-      ],
+      "all_current_supplied_B101_content_read": true,
+      "independent_footer_representation_difference_separately_recorded": true,
       "serial_order": [
-        "verify_B099_completed_main_before_B100",
-        "read_current_version_front_pages_and_unique_insert",
-        "prove_every_remaining_current_body_page_identical_to_previously_read_B099",
-        "review_current_layouts_and_all_distinct_image_payloads",
-        "save_version_notes_scope_and_next_checkpoint_before_B101"
+        "B100_verified_duplicate_and_actual_differences_committed_to_main",
+        "read_B101_native_pages1_to84_in_order",
+        "view_all8_distinct_raster_payloads_and24_current_layouts",
+        "independently_verify_all84_body_texts_with_narrow_footer_difference_recorded",
+        "save_B101_scope_notes_and_next_checkpoint_before_B102"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
       "previous_runtime1_5_3_maintenance_preserved": true,
       "current_user_turn_aggregate": {
         "file_ids": [
-          "B100"
+          "B100",
+          "B101"
         ],
-        "new_file_tasks_completed": 1,
-        "new_whole_supplied_file_reads": [],
+        "new_file_tasks_completed": 2,
+        "new_whole_supplied_file_reads": [
+          "B101"
+        ],
         "new_verified_duplicate_file_coverages": [
           "B100"
         ],
         "new_user_scope_closures": [],
-        "new_native_text_pages_read": 0,
-        "new_native_characters_read": 0,
+        "new_native_text_pages_read": 84,
+        "new_native_characters_read": 64340,
         "new_OCR_characters_read": 0,
         "direct_native_reread_characters_not_new": 16653,
         "new_version_insert_nonwhitespace_characters_read": 83,
-        "original_pages_individually_viewed": 15,
-        "original_note_groups": 10,
-        "new_exact_method_section_bindings": 0
+        "original_pages_individually_viewed": 39,
+        "original_note_groups": 66,
+        "new_exact_method_section_bindings": 101,
+        "B100_committed_before_B101_opened": "e5494815b4d91f67be1206006b91d8b4236dd12c"
       },
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+        "reading_metadata_validation": "knowledge/provenance/B101_validation_2026-11-14.json",
         "validate_os": true,
         "unit_tests_passed": 119,
-        "new_version_note_retrieval_queries_passed": 10,
-        "all_methods_bindings_runtime_and_prior_readings_preserved": true
+        "new_exact_method_section_retrieval_queries_passed": 101,
+        "unbound_global_version_heading_queries_passed": 6,
+        "all56_note_groups_covered_by_appropriate_retrieval": true,
+        "runtime1_5_3_actions_preferred_sections_and_prior_readings_preserved": true
       }
     }
   },
@@ -2633,12 +2631,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 95,
-    "current_file_text_complete": 95,
+    "started": 96,
+    "current_file_text_complete": 96,
     "partial": 0,
-    "unread": 24,
+    "unread": 23,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 95,
+    "reported_numerator": 96,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2661,7 +2659,7 @@
       "B098"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
-    "actually_read_supplied_files": 88,
+    "actually_read_supplied_files": 89,
     "verified_same_text_file_coverage_ids": [
       "B100"
     ]
@@ -6801,6 +6799,80 @@
           "independent61_page_text_comparison": true,
           "prior_sources_runtime1_5_3_preferred_sections_and_history_preserved": true,
           "B098_two_figure_gaps_preserved": true
+        }
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "report": "knowledge/provenance/B100_progress_2026-11-14.md",
+      "validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+      "current_session_progress": {
+        "baseline": "3fa8ca773f125953ee066dffd9f327e780c5b8bf",
+        "work_type": "direct_differences_and_strict_nonwhitespace_identical_B099_reading_reuse",
+        "new_book_files_started": [
+          "B100"
+        ],
+        "new_book_files_completed": [
+          "B100"
+        ],
+        "actually_completed_file_ids": [],
+        "new_whole_book_files_actually_read": 0,
+        "verified_duplicate_file_completion_ids": [
+          "B100"
+        ],
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 0,
+        "new_native_text_pages_read": 0,
+        "new_OCR_characters_read": 0,
+        "direct_native_reread_characters_not_new": 16653,
+        "new_version_insert_nonwhitespace_characters_read": 83,
+        "covered_current_native_characters": 83124,
+        "new_unique_original_visual_pages": 15,
+        "unique_raster_payloads_actually_viewed": 6,
+        "original_note_groups": 10,
+        "new_method_source_bindings": 0,
+        "new_method_operations": [],
+        "all_current_supplied_B100_content_covered": true,
+        "all_current_supplied_B100_text_directly_reread_this_turn": false,
+        "source_omissions_retained": [
+          "B099物理P61的长期相处末段与课程推广，不在B100物理P62空白页出现"
+        ],
+        "serial_order": [
+          "verify_B099_completed_main_before_B100",
+          "read_current_version_front_pages_and_unique_insert",
+          "prove_every_remaining_current_body_page_identical_to_previously_read_B099",
+          "review_current_layouts_and_all_distinct_image_payloads",
+          "save_version_notes_scope_and_next_checkpoint_before_B101"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_3_maintenance_preserved": true,
+        "current_user_turn_aggregate": {
+          "file_ids": [
+            "B100"
+          ],
+          "new_file_tasks_completed": 1,
+          "new_whole_supplied_file_reads": [],
+          "new_verified_duplicate_file_coverages": [
+            "B100"
+          ],
+          "new_user_scope_closures": [],
+          "new_native_text_pages_read": 0,
+          "new_native_characters_read": 0,
+          "new_OCR_characters_read": 0,
+          "direct_native_reread_characters_not_new": 16653,
+          "new_version_insert_nonwhitespace_characters_read": 83,
+          "original_pages_individually_viewed": 15,
+          "original_note_groups": 10,
+          "new_exact_method_section_bindings": 0
+        },
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B100_validation_2026-11-14.json",
+          "validate_os": true,
+          "unit_tests_passed": 119,
+          "new_version_note_retrieval_queries_passed": 10,
+          "all_methods_bindings_runtime_and_prior_readings_preserved": true
         }
       }
     }

@@ -15976,8 +15976,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E7%BA%A6%E4%BC%9A%E5%AF%86%E7%A0%81%20-%20%E6%B5%B7%E5%85%B5.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B101.md",
       "pages": 84,
       "spine_items": null,
       "ocr": {
@@ -15985,7 +15985,66 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B101_reading_2026-11-14.json",
+      "coverage_mode": "direct_ordered84_native_pages_plus_all8_distinct_raster_payloads_and24_layout_samples",
+      "completion_kind": "actual_supplied_PDF_all84_native_pages_and_all_distinct_raster_payloads_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "5f7ae1f0150662c61401762a2bd5a2869aca4200b60256555b08dfb732ca5387",
+      "latest_reading": {
+        "date": "2026-11-14",
+        "ledger": "knowledge/provenance/B101_reading_2026-11-14.json",
+        "native_characters": 64340,
+        "native_pages_read": 84,
+        "all84_native_pages_directly_read": true,
+        "independent_raw_nonwhitespace_equal_pages": 0,
+        "independent_exact_pages_after_anchored_duplicate_footer_date_removal": 84,
+        "footer_duplicate_date_extra_characters_per_page": 14,
+        "OCR_run": false,
+        "visual_pages_reviewed": [
+          1,
+          8,
+          12,
+          20,
+          24,
+          34,
+          38,
+          39,
+          43,
+          49,
+          50,
+          52,
+          55,
+          61,
+          62,
+          65,
+          66,
+          70,
+          75,
+          76,
+          77,
+          78,
+          80,
+          84
+        ],
+        "raster_resource_objects": 9,
+        "unique_raster_payloads_actually_viewed": 8,
+        "vector_objects": 3301,
+        "vector_extra_objects": 25,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions": [
+          "源帖多处标有待续或说明省略细节；本文件没有保证收全作者后续文章",
+          "目录页长期关系标页与实际正文不一致，全部定位采用物理页",
+          "被归给其他作者的文章和图片只读本PDF实际收录部分，未访问被提及的外部原文"
+        ],
+        "filename_and_cover_attribution_differ": true,
+        "original_note_groups": 56,
+        "new_exact_method_section_bindings": 101
+      }
     },
     {
       "index": 102,
@@ -16610,5 +16669,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-14:B100distinct63pageversionverifiedagainstcommittedB099.59nonwhitespaceidenticalpairs;one83characterinsertdirectlyread;P62blankandB099finalpagenotprovided.15layouts,all6uniqueof20rasterresourcesreviewed.83124currentcharacterscovered,notnewreadingcredit.10versionnotes,0newbindings.95/119=88currentcoveragesincludingB100verifiedreuse+7closures.NextB101bodyunopened."
+  "latest_reading_update": "2026-11-14:B100versionreviewcommittedbeforeB101.B101all84nativepages64340charactersandall8distinctrasterpayloadsread;24layouts;all84bodytextsindependentlymatchafteranchoredrepeatedfooterdatecorrection(raw0/84equal).56originalnotes101exactbindings.Currentturn2tasks=B100explicitverifiedreuse+B101newfullcurrentfileread,66notes101bindings.96/119=89currentcoveragesincludingB100reuse+7closures.NextB102bodyunopened.Runtime1.5.3preserved."
 }
