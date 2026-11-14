@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
-from knowledge import method_reference
+from knowledge import operation_catalog
 from runtime_io import read_request, validate_fact_values
 from screen_window import BUBBLE_FIELDS, resolve_screens
 
@@ -99,9 +99,10 @@ def current_limits(facts):
     return limits
 
 
-def select_route(facts, root=ROOT, *, apply_action_goal=True):
+def select_route(facts, root=ROOT, *, apply_action_goal=True, catalog=None):
     config = json.loads((root / 'system/router.json').read_text(encoding='utf-8'))
-    methods = json.loads((root / 'system/methods.json').read_text(encoding='utf-8'))['methods']
+    catalog = operation_catalog(root, catalog)
+    methods = catalog.methods
     window = None
     supplied = facts
     if isinstance(facts, dict) and 'screens' in facts:
@@ -155,8 +156,8 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
         if rule['id'] == 'R00' and body_independent_action:
             continue
         if matches(rule['when'], routing):
-            method = next(m for m in methods if m['id'] == rule['method_ids'][0])
-            source = method_reference(method['id'], root)
+            method = methods[rule['method_ids'][0]]
+            source = catalog.preferred(method['id'])
             if rule['action'] in {'hold', 'stop'}:
                 output_policy = '不生成给对方的新消息，只向用户说明等待或停止'
             elif rule['action'] == 'clarify':
@@ -205,11 +206,18 @@ def select_route(facts, root=ROOT, *, apply_action_goal=True):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--facts', required=True, help='Verified facts JSON; use - for stdin')
+    parser.add_argument('--references', action='store_true',
+                        help='Also include the complete source list for maintenance')
     args = parser.parse_args()
     try:
         result = select_route(read_request(args.facts))
     except (ValueError, OSError) as error:
         parser.exit(2, str(error) + '\n')
+    if not args.references:
+        references = result.pop('references')
+        result['reference_count'] = len(references)
+        result['reference_index'] = {'path': 'system/METHOD_SOURCES.md',
+                                     'heading': result['primary_method']['id']}
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

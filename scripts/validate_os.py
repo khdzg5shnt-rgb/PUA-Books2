@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 from knowledge import citation_headings, markdown_sections, method_reference
+from method_cards import check_documents
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -287,6 +288,10 @@ def validate(root=ROOT):
         heading='## '+method['id']+' '+method['name']
         if cards.count(heading)!=1 or method['operation'] not in cards or method['avoid'] not in cards:
             errors.append('Readable card is not synchronized: '+method['id'])
+    try:
+        errors.extend(check_documents(root))
+    except (ValueError, KeyError, OSError):
+        errors.append('Method views could not resolve current source bindings')
 
     # Validate local links in the new runtime and expansion notes. Existing historical
     # records can contain out-of-scope external source links and are not rewritten.

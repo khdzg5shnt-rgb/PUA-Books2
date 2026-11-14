@@ -1,0 +1,3324 @@
+# 方法出处索引
+
+本页逐项保留方法配置中的全部出处，供核原文与维护。日常使用[简短方法卡](METHOD_CARDS.md)和一处相关段落即可。
+
+精确绑定只对列出的段落有效；旧页码定位只保留追溯，不能把整份笔记都扩成该方法的可用段落。目录中的原书主张不自动成为当前动作或实证依据。
+
+## M01
+
+核对对象与原句；共213处。
+
+- [核对原文与控制发送](../knowledge/books/G09-jev-chat.md)；旧定位，仅追溯，未绑定整份正文。
+- [输入缺口与对象隔离](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [观察窗口、覆盖缺口与时间记录](../knowledge/books/G04-observation-not-profiling.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5节：材料范围与原话/转述/推测分开](../knowledge/books/G01-digital-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页121–167：身体动作不是读心和吸引许可；研究范围另核](../knowledge/books/B004-ch03.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页1–102：版本署名、群体断言与当前个体证据分开](../knowledge/books/B007.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页1–3、14–19：二次摘要不等于原课，案例和视频数未核](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页66–75取舍：社交限制的已见事实与未知原因分开](../knowledge/books/B009-ch11-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页600–604、613–614取舍：具体事实和未知动机，camera check不等于偷拍](../knowledge/books/B010-difficult-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页33取舍：按当前对象具体事实，不将前一段关系结论移植给新人](../knowledge/books/B012-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [EPUB阅读顺序项17、21、28、30、35–36取舍：原文残段、同名不同正文与空项目分别核，版本缺口不补造](../knowledge/books/B031-edition-comparison.md)；旧定位，仅追溯，未绑定整份正文。
+- [OPF项1–4、48及包内元数据：两章重复、缺图与误填字段分别核，不将自述和宣传当效果证据](../knowledge/books/B032-edition-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [引言、第一至二章及图2-1/2-2：分类、算式、图名与自述分别核，不当独立证据，未提供图不补造](../knowledge/books/B033-classification-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [5–28页及图2-1/2-2：主观评分与图形比喻不是当前对象事实；版本缺口独立保留](../knowledge/books/B034-edition-and-figures.md)；旧定位，仅追溯，未绑定整份正文。
+- [1–20及53–57页：主观分数和不反抗不能覆盖本人语言与当前边界](../knowledge/books/B035-course-and-scoring.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页21–40；相关总体结论见58–77页。；见原创论点取舍与执行限制。](../knowledge/books/B036-evidence-and-model.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页1–20、45–57、78–97。；见原创论点取舍与执行限制。](../knowledge/books/B036-source-scope.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。](../knowledge/books/B038-profile-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [前置1–11页及全文件范围；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-evidence-and-scope.md)；旧定位，仅追溯，未绑定整份正文。
+- [84–129页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-self-knowledge.md)；旧定位，仅追溯，未绑定整份正文。
+- [290–298、311–324、345–347页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-breakup-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页1–3、9–16、30–31、96及112–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-source-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-classification-and-preferences.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项1–2、5–6、11；全文件质量；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-childhood-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-fame-health-and-constraints.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–13、129–130页；全文件质量；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [第41–45、60–64、122–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-system-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [第82–103、126页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-body-language-limits.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–15页；全文件及文后附件；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-scope-and-omissions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第26–30、35–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-health-claims-and-drinks.md)；旧定位，仅追溯，未绑定整份正文。
+- [第40–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-astrology-and-current-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–3、34–39、63–70页；全文件；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-scope-and-contradictions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第47–55、58–62页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-signals-and-assumptions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第28、33–35、44、48–53、61、66–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-consent-over-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–6、31、33、35–36页及全文件；原创教学取舍，非实证验证。](../knowledge/books/B053-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [一手自述与可核事实](../knowledge/books/B056.md)
+- [聊天呈现与实际关系结果](../knowledge/books/B057.md)
+- [转发评论与点赞的证据限度](../knowledge/books/B057.md)
+- [责任与外界事实分别判断](../knowledge/books/B058.md)
+- [叙事身份与证据边界](../knowledge/books/B059.md)
+- [从普通暖意到关系仍需确认](../knowledge/books/B059.md)
+- [关系事实与重要误会及时澄清](../knowledge/books/B059.md)
+- [个人拒绝不归结身高人格](../knowledge/books/B059.md)
+- [不从酒量或身体反应推断同意](../knowledge/books/B059.md)
+- [遭遇威胁不以冒险证明价值](../knowledge/books/B059.md)
+- [当下状态与弱信号分开判断](../knowledge/books/B060.md)
+- [观察可校正不能读心](../knowledge/books/B060.md)
+- [换位考虑不替越界开脱](../knowledge/books/B060.md)
+- [实际同意不靠场所借口](../knowledge/books/B060.md)
+- [熟悉曝光不等于双向兴趣](../knowledge/books/B060.md)
+- [复盘练一处不制造羞耻依赖](../knowledge/books/B060.md)
+- [语境问题不能用文化定论解释](../knowledge/books/B061.md)
+- [认真问句先按实际内容回答](../knowledge/books/B061.md)
+- [观察只能提出可纠正的有限判断](../knowledge/books/B061.md)
+- [十二张星座图卡只按娱乐材料保留](../knowledge/books/B061.md)
+- [阶段目录不能代替当前一句判断](../knowledge/books/B061.md)
+- [阶段只是整理材料的目录](../knowledge/books/B062.md)
+- [留下联系方式与答应见面分开](../knowledge/books/B062.md)
+- [研究名词不能给套话补证据](../knowledge/books/B062.md)
+- [对新对象按新证据判断](../knowledge/books/B063.md)
+- [服装场所身体反应不能代替同意](../knowledge/books/B063.md)
+- [练真实动作不把成败归为人品](../knowledge/books/B063.md)
+- [拒绝情境不能按错译处理](../knowledge/books/B064.md)
+- [群体推论与匿名研究不给结论](../knowledge/books/B064.md)
+- [复盘先看外部事实和明确证据](../knowledge/books/B065.md)
+- [观察允许被纠正不能用转折自保](../knowledge/books/B065.md)
+- [联系方式不换取承诺](../knowledge/books/B065.md)
+- [当前拒绝优先于所谓兴趣指标](../knowledge/books/B065.md)
+- [读书报告和自评分不当诊断工具](../knowledge/books/B065.md)
+- [方法需要允许被事实纠正](../knowledge/books/B066.md)
+- [虚构比例和自报经验不能当实证](../knowledge/books/B066.md)
+- [眼神和外貌不能替代原句证据](../knowledge/books/B066.md)
+- [欣赏能力与愿意恋爱分别判断](../knowledge/books/B066.md)
+- [曾经示好仍可以改变主意](../knowledge/books/B066.md)
+- [自定义类型不作为人物档案](../knowledge/books/B066.md)
+- [复盘不把拒绝归成个人无能](../knowledge/books/B066.md)
+- [被拒先保留现实原因与未知](../knowledge/books/B067.md)
+- [普通动作不兑换兴趣结论](../knowledge/books/B067.md)
+- [自然眼神不等于读懂内心](../knowledge/books/B067.md)
+- [测试与健康说法保留未核状态](../knowledge/books/B067.md)
+- [社交机会先看现实渠道](../knowledge/books/B068.md)
+- [连续行为比微笑与脸红有信息量](../knowledge/books/B068.md)
+- [未接未回不执行每天两拨](../knowledge/books/B068.md)
+- [作者经历和网友好评不是效果验证](../knowledge/books/B068.md)
+- [推荐书目不是已读和研究依据](../knowledge/books/B069.md)
+- [十六项只是练习线索](../knowledge/books/B069.md)
+- [表达一致不能保证互相喜欢](../knowledge/books/B069.md)
+- [失约原因未知不自动自责](../knowledge/books/B069.md)
+- [课程图不作为自动升级流程](../knowledge/books/B069.md)
+- [英汉译文核对与作用范围](../knowledge/books/B069.md)
+- [读完资料不等于会识图或保证效果](../knowledge/books/B069.md)
+- [语录要带回上下文再使用](../knowledge/books/B070.md)
+- [真实意愿比自信地说错更重要](../knowledge/books/B070.md)
+- [表情姿势不承担测谎和读心](../knowledge/books/B070.md)
+- [低投入不等于用户没有价值](../knowledge/books/B070.md)
+- [生活改变不把伤害合理化](../knowledge/books/B070.md)
+- [译文错误回查对照而不继续放大](../knowledge/books/B070.md)
+- [未完句和缺少的图文如实保留](../knowledge/books/B070.md)
+- [重复版本和作者故事不增加证据强度](../knowledge/books/B070.md)
+- [编选本和术语不能冒充研究](../knowledge/books/B071.md)
+- [姿势和顺从不是强兴趣证据](../knowledge/books/B071.md)
+- [话题转换仍要听完这一轮](../knowledge/books/B071.md)
+- [忘记信息诚实补核不演错拨](../knowledge/books/B071.md)
+- [真实关系意图和状态不回避](../knowledge/books/B071.md)
+- [年龄身高学历不自动决定动机](../knowledge/books/B071.md)
+- [隐私不作为展示社交价值的道具](../knowledge/books/B071.md)
+- [经验模板要容许纠正与未知](../knowledge/books/B071.md)
+- [译序和作者自报分别看](../knowledge/books/B074.md)
+- [性别概括不能替代眼前原话](../knowledge/books/B074.md)
+- [作者百分比不变成兴趣概率](../knowledge/books/B074.md)
+- [没有发展不自动归责用户](../knowledge/books/B074.md)
+- [联系方式和赴约分别判断](../knowledge/books/B074.md)
+- [眼神和生理反应不读成许可](../knowledge/books/B074.md)
+- [能力与经历真实说不造竞争者](../knowledge/books/B074.md)
+- [身体机制与社会史保留未核](../knowledge/books/B074.md)
+- [译者替换与原文件残留分开](../knowledge/books/B074.md)
+- [提供文件读完不等于原版已核完整](../knowledge/books/B074.md)
+- [提供文件与翻译年代分清](../knowledge/books/B075.md)
+- [重复遇见只是场景条件](../knowledge/books/B075.md)
+- [社交网络不假造熟悉和竞争](../knowledge/books/B075.md)
+- [交换联系方式和后续参与分开](../knowledge/books/B075.md)
+- [年级专业不推断欲望与同意](../knowledge/books/B075.md)
+- [百分比和个人故事不是机制证据](../knowledge/books/B075.md)
+- [没有结果先保留原因未知](../knowledge/books/B075.md)
+- [结语推荐和广告各自结束](../knowledge/books/B075.md)
+- [现有78页完成不补算原版](../knowledge/books/B075.md)
+- [小动作不能直接读出动机](../knowledge/books/B076.md)
+- [外貌偏好和差别待遇分开看](../knowledge/books/B076.md)
+- [年纪职业不推出感情动机](../knowledge/books/B076.md)
+- [分类不能替眼前人回答](../knowledge/books/B076.md)
+- [联系渠道和后续同意分清](../knowledge/books/B076.md)
+- [谁买单不能单独判断感情](../knowledge/books/B076.md)
+- [紧张不能自动解释失败](../knowledge/books/B076.md)
+- [不回复先保留原因未知](../knowledge/books/B076.md)
+- [资料细节可开场不读心](../knowledge/books/B076.md)
+- [文末个人意见不是代表抽样](../knowledge/books/B076.md)
+- [漫画不是推进步骤或结果证据](../knowledge/books/B076.md)
+- [扫描核看和完整读清分开记录](../knowledge/books/B076.md)
+- [语言与行为一起看而不推翻明确表达](../knowledge/books/B083.md)
+- [信念用事实修正而不换一套保证](../knowledge/books/B084.md)
+- [先看具体表达而不是男女本能剧本](../knowledge/books/B085.md)
+- [交往状态与排他约定分别核清](../knowledge/books/B085.md)
+- [阶段只作目录不替代当前事实](../knowledge/books/B086.md)
+- [被拒的原因不足时就保留未知](../knowledge/books/B087.md)
+- [信念不替代对方说过的话](../knowledge/books/B087.md)
+- [普通问题先当普通问题处理](../knowledge/books/B087.md)
+- [版本04：外貌段落的关键措辞不同](../knowledge/books/B088.md)
+- [03：冷淡反应不能直接归因给自己](../knowledge/books/B091.md)
+- [07：单次约会结果不能倒推缺少触碰](../knowledge/books/B091.md)
+- [21：兴趣线索保留弱信号身份](../knowledge/books/B091.md)
+- [04：技巧无效不能证明使用者有问题](../knowledge/books/B093.md)
+- [22：把每句疑问当测试会读错事实](../knowledge/books/B093.md)
+- [30：情商术语不能包办所有原因](../knowledge/books/B093.md)
+- [32：潜台词保留不确定性](../knowledge/books/B093.md)
+- [看得见的表达线索，不等于读到潜意识](../knowledge/books/B095.md)
+- [连续实际投入的含义超过三个零碎信号](../knowledge/books/B095.md)
+- [先分清提问、调侃、无礼与拒绝](../knowledge/books/B095.md)
+- [眼神与玩笑需要自然回应，不设固定配额](../knowledge/books/B096.md)
+- [双向交流保留，普通行为不自动归为测试](../knowledge/books/B096.md)
+- [兴趣看连续投入，具体替代时间比肢体猜测清楚](../knowledge/books/B096.md)
+- [整理头发与身体朝向不构成亲密许可](../knowledge/books/B096.md)
+- [出门准备不包括制造恐惧或假装读懂余光](../knowledge/books/B096.md)
+- [普通问好可以开场，微笑和脚尖不判定关系](../knowledge/books/B096.md)
+- [电影对白是编排文本，不能拿冷读当人物诊断](../knowledge/books/B096.md)
+- [时空与既有安排会限制见面，不能全归责聊天技巧](../knowledge/books/B097.md)
+- [介绍关系不等于已跨过吸引阶段](../knowledge/books/B097.md)
+- [笑与拨头发不能授权身体接近](../knowledge/books/B097.md)
+- [排斥与打压可能有外部原因，但动机不能猜成事实](../knowledge/books/B097.md)
+- [投资译词不能把服从改成双向兴趣证据](../knowledge/books/B097.md)
+- [译义与个体差异需要澄清，不用高低价值替代证据](../knowledge/books/B097.md)
+- [B098电影隐喻不能证明两性结论](../knowledge/books/B098.md)
+- [B098词典释义与整体解释不是同一证据](../knowledge/books/B098.md)
+- [B098所谓公理的假设与推论须分开](../knowledge/books/B098.md)
+- [B098灾难与自杀例子不作聊天归因](../knowledge/books/B098.md)
+- [B098箭头图只记录作者假设链](../knowledge/books/B098.md)
+- [B098社会循环图没有验证必然结局](../knowledge/books/B098.md)
+- [B098宏观比例不可变成个人可信度](../knowledge/books/B098.md)
+- [B098高攀标签不能解释所有关系变化](../knowledge/books/B098.md)
+- [B098婚姻幸福比较的分组也需要检验](../knowledge/books/B098.md)
+- [B098生育地图不提供单因素因果证明](../knowledge/books/B098.md)
+- [B098不把认同与反对都算成理论证据](../knowledge/books/B098.md)
+- [B099长篇冷读不能代替事实观察](../knowledge/books/B099.md)
+- [B099情感开关和百分数只是作者声称](../knowledge/books/B099.md)
+- [B099向人学习要看边界而不只看结果](../knowledge/books/B099.md)
+- [B099明确目标不把人变成通关对象](../knowledge/books/B099.md)
+- [B099百分之九十三不套用于全部交流](../knowledge/books/B099.md)
+- [B099沉默不等于对方想去你家](../knowledge/books/B099.md)
+- [B099热恋月份和化学变化不作时钟](../knowledge/books/B099.md)
+- [B101-07 合成示例与实证材料分开](../knowledge/books/B101.md)
+- [B101-11 英文原句与辱骂式中文释义分开](../knowledge/books/B101.md)
+- [B101-19 精选结果不能反推通用成功率](../knowledge/books/B101.md)
+- [B101-35 带朋友见面不自动解释动机](../knowledge/books/B101.md)
+- [B102-03 惯例要服从已知情境](../knowledge/books/B102.md)
+- [B102-05 五段结构只是来源自己的组织方式](../knowledge/books/B102.md)
+- [B102-36 案例节选和导师标注不能证明因果](../knowledge/books/B102.md)
+- [B104-04 个人成长叙事不证明某个技巧造成结果](../knowledge/books/B104.md)
+- [B104-15 三角色是书内框架，不另建三套判断](../knowledge/books/B104.md)
+- [B104-62 读完后只选一项当前需要的动作](../knowledge/books/B104.md)
+- [B105-02 精选经历不能变成必然因果或对读者的归责](../knowledge/books/B105.md)
+- [B105-03 书内阶段供整理，不按小时或惯例数自动推进](../knowledge/books/B105.md)
+- [B105-12 名字、微笑和回答不自动成为恋爱兴趣](../knowledge/books/B105.md)
+- [B105-32 文化论断和百分比不移植到微信](../knowledge/books/B105.md)
+- [B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住](../knowledge/books/B105.md)
+- [B105-40 整合后按当前内容只取一项动作](../knowledge/books/B105.md)
+- [B106-02 作者的概念草图不升级为实证定律](../knowledge/books/B106.md)
+- [B106-03 先核现实限制，不把结果统一归为心态](../knowledge/books/B106.md)
+- [B106-09 公共关注与恋爱意愿属于不同证据](../knowledge/books/B106.md)
+- [B106-11 想象的共同经历与真实共同经历分开](../knowledge/books/B106.md)
+- [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
+- [B106-32 肢体、语音和瞳孔不承担读心](../knowledge/books/B106.md)
+- [B106-37 原文反对社交机器人，不把资料变成逐句表演](../knowledge/books/B106.md)
+
+## M02
+
+等对方回这一轮；共59处。
+
+- [重复联系与停止反馈](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
+- [不连发约定](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；旧定位，仅追溯，未绑定整份正文。
+- [autopilot固定延迟和自动补发不进入本轮节奏](../knowledge/books/G02-context-and-rhythm.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页13：未回不自动转点赞、评论或其他平台追注意](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [信号不能覆盖选择；物理页44：无回复不因知道地点就突然找人](../knowledge/books/B012-ch05.md)；旧定位，仅追溯，未绑定整份正文。
+- [本轮等待与联系安排：B016第十二章冲突规则的取舍，不追打、不以固定时长测试](../knowledge/topics/contact-and-waiting.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-breakups.md)；旧定位，仅追溯，未绑定整份正文。
+- [290–298、311–324、345–347页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-breakup-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-inconsistency-and-cancellations.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–21页；原创教学取舍，非实证验证。](../knowledge/books/B053-reciprocal-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [金钱、帮助与正常边界](../knowledge/books/B054.md)
+- [不纠缠与实际关系约定](../knowledge/books/B056.md)
+- [节奏和付出不用于控制对方](../knowledge/books/B057.md)
+- [联系习惯需要说清](../knowledge/books/B059.md)
+- [留出空间不制造情绪起落](../knowledge/books/B061.md)
+- [联系时机不靠故意拖延](../knowledge/books/B063.md)
+- [确认安排后就兑现](../knowledge/books/B064.md)
+- [联系节奏不套等待时限](../knowledge/books/B065.md)
+- [联系节奏跟实际互动走](../knowledge/books/B066.md)
+- [关心与联系不靠模糊态度操控](../knowledge/books/B067.md)
+- [初次联络清楚提醒认识情境](../knowledge/books/B068.md)
+- [联络不用三十六到七十二小时计时](../knowledge/books/B068.md)
+- [未接未回不执行每天两拨](../knowledge/books/B068.md)
+- [留出停顿不是失去控制](../knowledge/books/B069.md)
+- [耐心自检不保证对方最终回应](../knowledge/books/B069.md)
+- [留停顿不靠沉默逼出承诺](../knowledge/books/B070.md)
+- [耐心不是等到对方必然答应](../knowledge/books/B070.md)
+- [不知道可以是完整回答](../knowledge/books/B071.md)
+- [悬念和停顿不作为诱导陷阱](../knowledge/books/B071.md)
+- [忙碌和取消要给表达空间](../knowledge/books/B071.md)
+- [联系时间不靠固定冷落或连拨](../knowledge/books/B071.md)
+- [停顿可以保留离开也可以](../knowledge/books/B074.md)
+- [联系不靠固定天数或连拨](../knowledge/books/B074.md)
+- [日常问候不设固定频次](../knowledge/books/B075.md)
+- [短信不按小时标点和拆条运行](../knowledge/books/B075.md)
+- [日常问候不设数量配额](../knowledge/books/B076.md)
+- [不回复先保留原因未知](../knowledge/books/B076.md)
+- [持续单边时停止加码](../knowledge/books/B076.md)
+- [收住投入不拿冷落训练对方](../knowledge/books/B077.md)
+- [未接与未回不授权反复追拨](../knowledge/books/B086.md)
+- [停止加码不是以沉默惩罚](../knowledge/books/B087.md)
+- [版本08：暂停不能用来制造不安](../knowledge/books/B088.md)
+- [18：参与感不能靠扣住答案强求](../knowledge/books/B093.md)
+- [时间边界说真的，不编离场理由](../knowledge/books/B095.md)
+- [不按固定间隔反复拨打或拖延回复](../knowledge/books/B095.md)
+- [时间边界按真实安排说，不执行固定耐心秒数](../knowledge/books/B096.md)
+- [未完成的练习题不设统一正确答案](../knowledge/books/B096.md)
+- [交谈结束看真实安排，不执行两分钟自动撤离](../knowledge/books/B097.md)
+- [时间相互尊重，不设迟到和通话的统一秒表](../knowledge/books/B097.md)
+- [B099结束聊天以真实状态为依据](../knowledge/books/B099.md)
+- [B099不回应不解释成欲擒故纵](../knowledge/books/B099.md)
+- [B101-24 通话方式和时间要合双方方便](../knowledge/books/B101.md)
+- [B101-34 停止单边加码不靠惩罚主动](../knowledge/books/B101.md)
+- [B102-17 沉默不需要刺激或嘲讽补救](../knowledge/books/B102.md)
+- [B104-55 发送后回到生活，不执行固定冷落日程](../knowledge/books/B104.md)
+- [B106-24 单边继续时收住，不用换花样追反应](../knowledge/books/B106.md)
+
+## M03
+
+接住具体内容；共131处。
+
+- [关键词拆解与平移](../knowledge/books/S02-chen-twelve/ch07.md)；旧定位，仅追溯，未绑定整份正文。
+- [作为实际草稿的选择线索](../knowledge/topics/humor-threading.md)
+- [两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；旧定位，仅追溯，未绑定整份正文。
+- [闲聊的具体承接与不强制追问](../knowledge/books/G01-light-clear-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10章：缩小焦点；第11–13章：当前内容与不过度表演](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一章文件页60–61：跟进具体内容与不无限提问](../knowledge/books/B004.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页475–503：具体信息、真实话题与不强制采访](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页40–41：倾听具体信息，必要时核对，不机械复述](../knowledge/books/B005-ch01-04.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页8–9：具体关键词，未接梗不无限延展](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [承接一个真实细节：B016第四章话题钩子与既有S02来源的统一日常段落](../knowledge/topics/one-detail.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页136–173、198–202取舍：承接当前具体内容，不将普通兴趣硬转为预编引导链](../knowledge/books/B023-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第五章58751–60727、第七章91637–97844取舍：回应具体信息和真实偏好，不把普通问题一律当测试](../knowledge/books/B033-conversation-and-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [38–53及80–88页取舍：正常问题回应具体内容，不先当测试](../knowledge/books/B034-honest-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [36、58–59、93–94页取舍：接已经给出的信息，不假装知道隐私或重复关键词](../knowledge/books/B040-words-and-format.md)；旧定位，仅追溯，未绑定整份正文。
+- [60–71页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conversation-and-praise.md)；旧定位，仅追溯，未绑定整份正文。
+- [227–266页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-couple-communication.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-natural-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-preferences-and-interviews.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-listening-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–59、104–109页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-topics-and-listening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4、6–9页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-mood-and-other-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–11、15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-skills-and-topics.md)；旧定位，仅追溯，未绑定整份正文。
+- [第16–20页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-religion-and-certainty.md)；旧定位，仅追溯，未绑定整份正文。
+- [第20–26页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-coffee-and-shared-experience.md)；旧定位，仅追溯，未绑定整份正文。
+- [第21、27、37、42–43、46–47页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-listening-and-sharing.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–14页；原创教学取舍，非实证验证。](../knowledge/books/B053-context-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、19–24页；原创教学取舍，非实证验证。](../knowledge/books/B053-question-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–21页；原创教学取舍，非实证验证。](../knowledge/books/B053-reciprocal-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一印象和真实自我表达](../knowledge/books/B054.md)
+- [接话、提问与安静](../knowledge/books/B055.md)
+- [朋友圈中的真实生活素材](../knowledge/books/B056.md)
+- [可接的话题与共同角色场景](../knowledge/books/B057.md)
+- [双向话题与认真回答](../knowledge/books/B058.md)
+- [给表达空间也分享真实自己](../knowledge/books/B060.md)
+- [开场抓现场细节并保持真实](../knowledge/books/B061.md)
+- [少盘问也不意味着一人连续表演](../knowledge/books/B061.md)
+- [欣赏具体表现无需设置价值排名](../knowledge/books/B061.md)
+- [开场从真实信息选题](../knowledge/books/B062.md)
+- [征询意见就要接住答案](../knowledge/books/B062.md)
+- [了解兴趣无需让她参加资格考试](../knowledge/books/B062.md)
+- [认真好奇从她答案接下去](../knowledge/books/B063.md)
+- [开场用真实问题与实际场景](../knowledge/books/B065.md)
+- [让她接入比讲完更要紧](../knowledge/books/B065.md)
+- [从一个细节自然延伸话题](../knowledge/books/B065.md)
+- [共同兴趣不需要假装分歧](../knowledge/books/B065.md)
+- [共同场景比凭空编故事方便接话](../knowledge/books/B066.md)
+- [她愿意展开时再认真接下去](../knowledge/books/B066.md)
+- [从眼前的书与真实兴趣开场](../knowledge/books/B067.md)
+- [回答之后再顺着实际内容展开](../knowledge/books/B067.md)
+- [轻松话题按接梗情况调整](../knowledge/books/B067.md)
+- [共同场景和真实旧话题先用](../knowledge/books/B068.md)
+- [顺着她实际展开的内容接话](../knowledge/books/B068.md)
+- [用真实偏好建立连接](../knowledge/books/B069.md)
+- [给对方参与空间不把答话当授权](../knowledge/books/B069.md)
+- [承接对方熟悉的内容](../knowledge/books/B069.md)
+- [让对方展现擅长的事](../knowledge/books/B069.md)
+- [围绕人转话题不挖隐私](../knowledge/books/B069.md)
+- [自己的经历只说真实有关的一点](../knowledge/books/B070.md)
+- [九一比例不规定谁要撑整场](../knowledge/books/B071.md)
+- [群体交流让愿意的人参与](../knowledge/books/B071.md)
+- [话题转换仍要听完这一轮](../knowledge/books/B071.md)
+- [闲聊和提问都不必被禁用](../knowledge/books/B071.md)
+- [短答先按问题范围理解](../knowledge/books/B071.md)
+- [难过时先听实际困扰](../knowledge/books/B071.md)
+- [从真实场景简短开始](../knowledge/books/B074.md)
+- [共同作品不靠假装看过](../knowledge/books/B074.md)
+- [具体欣赏和善意不用等价交换](../knowledge/books/B074.md)
+- [开场不先背整场台词](../knowledge/books/B075.md)
+- [具体欣赏不审判够不够格](../knowledge/books/B075.md)
+- [共同经历回扣再露一点自己](../knowledge/books/B075.md)
+- [课程专业可以正常聊](../knowledge/books/B075.md)
+- [真实兴趣不按性别分配](../knowledge/books/B075.md)
+- [共同场景提供话题不提供许可](../knowledge/books/B076.md)
+- [接共同内容再露一点自己](../knowledge/books/B076.md)
+- [资料细节可开场不读心](../knowledge/books/B076.md)
+- [征询意见让对方自愿参与](../knowledge/books/B076.md)
+- [具体欣赏不拐弯贬人](../knowledge/books/B076.md)
+- [具体内容连接一点真实自己](../knowledge/books/B077.md)
+- [关键词过渡先承接她说的内容](../knowledge/books/B079.md)
+- [接住具体内容再露出一点自己](../knowledge/books/B080.md)
+- [具体兴趣也能聊出共同体验](../knowledge/books/B083.md)
+- [回忆场景由对方自愿展开](../knowledge/books/B083.md)
+- [先接住一个话题再决定是否展开](../knowledge/books/B084.md)
+- [事业家庭期待先接本人具体信息](../knowledge/books/B085.md)
+- [承接一个细节自然展开](../knowledge/books/B086.md)
+- [共同点用已经确认的信息连接](../knowledge/books/B087.md)
+- [14：从开场过渡到她实际提供的信息](../knowledge/books/B091.md)
+- [23：谈话地图是选题帮助](../knowledge/books/B091.md)
+- [25：搭桥先接住原来的话](../knowledge/books/B091.md)
+- [07：普通问候的意义取决于上下文](../knowledge/books/B093.md)
+- [16：从对方刚说的关键词接故事](../knowledge/books/B093.md)
+- [10：追问接内容，不为增加字数](../knowledge/books/B094.md)
+- [14：日常偏好从共同信息进入](../knowledge/books/B094.md)
+- [先回应实际向你示好或打招呼的人](../knowledge/books/B095.md)
+- [即兴联想从她给出的细节出发](../knowledge/books/B095.md)
+- [收到欣赏可以正常接住，不必制造落差](../knowledge/books/B095.md)
+- [从共同场景接话，不把正常问题一概当乏味](../knowledge/books/B096.md)
+- [关注对方的具体内容，不能用积极强压困扰](../knowledge/books/B096.md)
+- [约定与尊重是双向的，不套用性别指责清单](../knowledge/books/B096.md)
+- [话题选她实际感兴趣的，不把八卦与贬低当通用入口](../knowledge/books/B096.md)
+- [模板是否合适看当前内容，不按使用次数判优劣](../knowledge/books/B096.md)
+- [从她的关键词接一处，分享不索取等量回报](../knowledge/books/B096.md)
+- [换话题不能用来打断、扰乱或绕过拒绝](../knowledge/books/B096.md)
+- [共同话题可以回扣，不需要持续表演或强占注意](../knowledge/books/B097.md)
+- [不用成为每个群体最强势的人](../knowledge/books/B097.md)
+- [B099需求不同不证明女性不理性](../knowledge/books/B099.md)
+- [B099不同意见与求助不能全叫测试](../knowledge/books/B099.md)
+- [B099亲密叙事须有双方愿意的语境](../knowledge/books/B099.md)
+- [B099不连续采访仍可以了解真实生活](../knowledge/books/B099.md)
+- [B101-08 开场只取当前可核的一个细节](../knowledge/books/B101.md)
+- [B102-10 开场优先使用真实细节](../knowledge/books/B102.md)
+- [B104-23 过渡要接实际回应](../knowledge/books/B104.md)
+- [B104-24 情景开场取可核细节](../knowledge/books/B104.md)
+- [B104-29 避免盘问不等于拒绝正常问题](../knowledge/books/B104.md)
+- [B104-31 接信息时别抢走主内容](../knowledge/books/B104.md)
+- [B104-33 欣赏爱好不需要假装懂或贬低别人](../knowledge/books/B104.md)
+- [B105-04 认识缘由用当下真实细节说明](../knowledge/books/B105.md)
+- [B105-07 话题转折先接信息，不机械跳进下一个节目](../knowledge/books/B105.md)
+- [B105-08 共同经历回扣不等于必须续完旧惯例](../knowledge/books/B105.md)
+- [B105-10 了解兴趣靠互相分享，不连续追问人生内核](../knowledge/books/B105.md)
+- [B106-07 情绪和逻辑不构成绕过原话的理由](../knowledge/books/B106.md)
+- [B106-10 回应及时和愿意倾听不等于低位](../knowledge/books/B106.md)
+- [B106-21 把注意放回这轮内容，不机械监控自己](../knowledge/books/B106.md)
+- [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
+- [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
+- [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
+
+## M04
+
+回应问题并露出一点自己；共158处。
+
+- [自我表达与反固定步骤](../knowledge/books/B072.md)；旧定位，仅追溯，未绑定整份正文。
+- [正常了解与测试标签分开](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；旧定位，仅追溯，未绑定整份正文。
+- [真实答复、不熟与隐私边界](../knowledge/books/G01-light-clear-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [表白结构、真实意愿与不采用的评分门槛](../knowledge/books/G04-intent-and-follow-through.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE129–132、143–148：正常问题、关系意愿与固定节奏](../knowledge/books/S04-attraction-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [认真问题优先于预设反转和强制转题](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页415–418：正常事实问题，不为争地位装无知](../knowledge/books/B004-ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页464–469：认真关系问题不靠转题绕过](../knowledge/books/B004-ch09.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页83–86：认真询问时清楚短答，真实例子不过度简化](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页4、7–9：认真问题先答，意图未知不盖过字面](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [关系问题先表达已确认意愿，不把接触当排他承诺](../knowledge/topics/relationship-clarity.md)；旧定位，仅追溯，未绑定整份正文。
+- [真实表达与承诺；物理页31–33：普通认真提问正常回应，不当作亲密许可](../knowledge/books/B012-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [一句真实表达；正常提问先答，真实偏好无需强作立场](../knowledge/topics/real-self-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [先按正常问题回答：B016第五章正常作答、隐私与不当测试推断的取舍](../knowledge/topics/normal-questions.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页74–86取舍：正常问题先回应，再适量表达自己，不按程序标签跳过问题](../knowledge/books/B024-inspiration-and-humor.md)；旧定位，仅追溯，未绑定整份正文。
+- [51–64、82–83页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-true-stories.md)；旧定位，仅追溯，未绑定整份正文。
+- [227–266页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-couple-communication.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-natural-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-kindness-and-vitality.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-preferences-and-interviews.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–59、104–109页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-topics-and-listening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第104–114页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-disclosure-and-love.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–6、9–10页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-confidence-and-equality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–11、15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-skills-and-topics.md)；旧定位，仅追溯，未绑定整份正文。
+- [第20–26页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-coffee-and-shared-experience.md)；旧定位，仅追溯，未绑定整份正文。
+- [第30–35页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-brands-and-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、31、34–39、53–54页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-honesty-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第21、27、37、42–43、46–47页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-listening-and-sharing.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-practice-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、19–24页；原创教学取舍，非实证验证。](../knowledge/books/B053-question-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第22–25、34–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-humor-and-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一印象和真实自我表达](../knowledge/books/B054.md)
+- [接话、提问与安静](../knowledge/books/B055.md)
+- [真实表达与正常询问](../knowledge/books/B056.md)
+- [标准和价值观须双向了解](../knowledge/books/B057.md)
+- [认真问题要回答真实内容](../knowledge/books/B057.md)
+- [双向话题与认真回答](../knowledge/books/B058.md)
+- [表达意愿和确认关系](../knowledge/books/B058.md)
+- [玩笑不能伪装严肃关系意图](../knowledge/books/B059.md)
+- [关系事实与重要误会及时澄清](../knowledge/books/B059.md)
+- [长期关系要谈现实计划](../knowledge/books/B059.md)
+- [给表达空间也分享真实自己](../knowledge/books/B060.md)
+- [真实计划与兑现不以甜话替代](../knowledge/books/B060.md)
+- [少盘问也不意味着一人连续表演](../knowledge/books/B061.md)
+- [过渡靠真实生活而非借来的故事](../knowledge/books/B061.md)
+- [认真问句先按实际内容回答](../knowledge/books/B061.md)
+- [征询意见就要接住答案](../knowledge/books/B062.md)
+- [认真问题给可用的短答案](../knowledge/books/B062.md)
+- [轻松自夸不用自我贬低](../knowledge/books/B063.md)
+- [认真好奇从她答案接下去](../knowledge/books/B063.md)
+- [隐私对称不隐瞒关系要点](../knowledge/books/B063.md)
+- [分歧不直接归为测试](../knowledge/books/B063.md)
+- [真实差异比机械反对更有内容](../knowledge/books/B064.md)
+- [关系状态与好感不拿来演失格](../knowledge/books/B064.md)
+- [普通礼貌与紧张不需要表演成强势](../knowledge/books/B065.md)
+- [认真问职业就说具体在做什么](../knowledge/books/B065.md)
+- [让她接入比讲完更要紧](../knowledge/books/B065.md)
+- [她愿意展开时再认真接下去](../knowledge/books/B066.md)
+- [展示生活用本人做过的小事](../knowledge/books/B066.md)
+- [平视别人不靠压制气场](../knowledge/books/B066.md)
+- [回答之后再顺着实际内容展开](../knowledge/books/B067.md)
+- [同伴在场就正常顾及每个人](../knowledge/books/B067.md)
+- [先说明一点自己不等于套出隐私](../knowledge/books/B068.md)
+- [顺着她实际展开的内容接话](../knowledge/books/B068.md)
+- [真实生活让聊天有内容](../knowledge/books/B068.md)
+- [用真实偏好建立连接](../knowledge/books/B069.md)
+- [陈述带出自己也容得下正常提问](../knowledge/books/B069.md)
+- [清楚立场让对方能回应](../knowledge/books/B069.md)
+- [承接对方熟悉的内容](../knowledge/books/B069.md)
+- [比喻贴近生活不靠堆词](../knowledge/books/B069.md)
+- [围绕人转话题不挖隐私](../knowledge/books/B069.md)
+- [自己的经历只说真实有关的一点](../knowledge/books/B070.md)
+- [提问正常回答不先判成测试](../knowledge/books/B070.md)
+- [具体语言不变成讲课和炫耀](../knowledge/books/B070.md)
+- [偏好可以不同不需要谁改造谁](../knowledge/books/B071.md)
+- [短故事保留真实动作和感受](../knowledge/books/B071.md)
+- [普通问题先回答再分享一点](../knowledge/books/B071.md)
+- [闲聊和提问都不必被禁用](../knowledge/books/B071.md)
+- [接赞简短真诚即可](../knowledge/books/B071.md)
+- [真实关系意图和状态不回避](../knowledge/books/B071.md)
+- [年龄身高学历不自动决定动机](../knowledge/books/B071.md)
+- [关系目标由自己真实选择](../knowledge/books/B074.md)
+- [偏好不同不要求打破原则](../knowledge/books/B074.md)
+- [认真提问正常回答](../knowledge/books/B074.md)
+- [共同作品不靠假装看过](../knowledge/books/B074.md)
+- [分享自己的内容不用排除日常](../knowledge/books/B074.md)
+- [能力与经历真实说不造竞争者](../knowledge/books/B074.md)
+- [先有自己的生活再选可行活动](../knowledge/books/B075.md)
+- [共同经历回扣再露一点自己](../knowledge/books/B075.md)
+- [课程专业可以正常聊](../knowledge/books/B075.md)
+- [认真问题先认真回答](../knowledge/books/B075.md)
+- [真实兴趣不按性别分配](../knowledge/books/B075.md)
+- [真实所长不需要先变全能](../knowledge/books/B076.md)
+- [接共同内容再露一点自己](../knowledge/books/B076.md)
+- [真实生活不伪装财力](../knowledge/books/B076.md)
+- [真实情绪不按强弱排位](../knowledge/books/B076.md)
+- [表达练习不冒领行为品质](../knowledge/books/B076.md)
+- [普通问题先按原意回答](../knowledge/books/B077.md)
+- [先分清提问求助和边界](../knowledge/books/B078.md)
+- [关键词过渡先承接她说的内容](../knowledge/books/B079.md)
+- [接住具体内容再露出一点自己](../knowledge/books/B080.md)
+- [尚未理清感受可以如实回答](../knowledge/books/B081.md)
+- [关系安排需要双方知道并明确理解](../knowledge/books/B081.md)
+- [偏好说自己的不替另一方规定](../knowledge/books/B081.md)
+- [具体兴趣也能聊出共同体验](../knowledge/books/B083.md)
+- [提问与自我表达都可自然使用](../knowledge/books/B084.md)
+- [提问与自我表达一起出现](../knowledge/books/B086.md)
+- [了解与支持按本人所求进行](../knowledge/books/B086.md)
+- [主动与彼此适应都不自动掉价](../knowledge/books/B087.md)
+- [开放接点与故意吊人分开](../knowledge/books/B087.md)
+- [普通问题先当普通问题处理](../knowledge/books/B087.md)
+- [版本10：年龄身高问题不必自动反击](../knowledge/books/B088.md)
+- [14：从开场过渡到她实际提供的信息](../knowledge/books/B091.md)
+- [17：展示热爱要有真实行动](../knowledge/books/B091.md)
+- [20：知识和经历不用靠炫耀成立](../knowledge/books/B091.md)
+- [24：优势话题只在双方感兴趣时有用](../knowledge/books/B091.md)
+- [26：投资均衡同时防盘问与独白](../knowledge/books/B091.md)
+- [06：真实回答可以带一点个人表达](../knowledge/books/B093.md)
+- [12：九一比例不作为聊天规则](../knowledge/books/B093.md)
+- [14：交换背景信息靠互相开放](../knowledge/books/B093.md)
+- [23：价值观交流允许不同答案](../knowledge/books/B093.md)
+- [06：了解别人不等于完全不展示自己](../knowledge/books/B094.md)
+- [10：追问接内容，不为增加字数](../knowledge/books/B094.md)
+- [15：价值观不是非此即彼的考试](../knowledge/books/B094.md)
+- [真实故事讲一个片段，给她插话的空间](../knowledge/books/B095.md)
+- [了解偏好需要双向交流，不是资格面试](../knowledge/books/B095.md)
+- [背景交错分享，不把聊天串成成长史问卷](../knowledge/books/B095.md)
+- [从共同场景接话，不把正常问题一概当乏味](../knowledge/books/B096.md)
+- [双向交流保留，普通行为不自动归为测试](../knowledge/books/B096.md)
+- [顺着话题分享成就，不组织虚假的旁证](../knowledge/books/B096.md)
+- [提问目录用于挑一个相关点，不逐项盘问](../knowledge/books/B096.md)
+- [从她的关键词接一处，分享不索取等量回报](../knowledge/books/B096.md)
+- [真实经历从一个动作讲起，不堆身份和虚构修饰](../knowledge/books/B096.md)
+- [未完成的练习题不设统一正确答案](../knowledge/books/B096.md)
+- [朋友介绍后可以正常问好与接共同情境](../knowledge/books/B097.md)
+- [B099反射性拒绝会挡住正常配合](../knowledge/books/B099.md)
+- [B099认真问题不靠玩笑逼到放弃](../knowledge/books/B099.md)
+- [B099不连续采访仍可以了解真实生活](../knowledge/books/B099.md)
+- [B099她的正常提问不应被嘲成面试](../knowledge/books/B099.md)
+- [B101-25 自然回应不由问号数量决定](../knowledge/books/B101.md)
+- [B101-49 说明关系期待不能作为交换话术](../knowledge/books/B101.md)
+- [B102-18 信息交换不做查户口或考核](../knowledge/books/B102.md)
+- [B102-22 正常事实问题应先回答](../knowledge/books/B102.md)
+- [B102-30 表达喜欢只代表自己的真实感受](../knowledge/books/B102.md)
+- [B104-17 自我披露可以适量而真实](../knowledge/books/B104.md)
+- [B104-29 避免盘问不等于拒绝正常问题](../knowledge/books/B104.md)
+- [B104-30 九成陈述一成提问不是聊天配方](../knowledge/books/B104.md)
+- [B104-31 接信息时别抢走主内容](../knowledge/books/B104.md)
+- [B104-54 短而完整，不等于故意漏答](../knowledge/books/B104.md)
+- [B105-07 话题转折先接信息，不机械跳进下一个节目](../knowledge/books/B105.md)
+- [B105-09 生活分享选一个真实细节，故事不是才艺考核](../knowledge/books/B105.md)
+- [B106-10 回应及时和愿意倾听不等于低位](../knowledge/books/B106.md)
+- [B106-21 把注意放回这轮内容，不机械监控自己](../knowledge/books/B106.md)
+- [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
+- [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+
+## M05
+
+回扣共同话题；共69处。
+
+- [P34与P37–39 Callback Humor](../knowledge/books/B092.md)；旧定位，仅追溯，未绑定整份正文。
+- [回叫幽默的限制](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13章：共同主题回访与不采用固定间隔](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页486：回扣真实旧话题，不编忙碌或时间限制](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十四、十九、二十二、三十七、四十七、五十二至五十三章取舍：共同素材需双方真实承接，不以单方故事或社交引介补出共同经历](../knowledge/books/B032-shared-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。](../knowledge/books/B038-part5-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [51–64、82–83页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-true-stories.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-life-and-routine.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-independence-and-support.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–59、104–109页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-topics-and-listening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–11、15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-skills-and-topics.md)；旧定位，仅追溯，未绑定整份正文。
+- [第20–26页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-coffee-and-shared-experience.md)；旧定位，仅追溯，未绑定整份正文。
+- [轻松幽默和双方接得住的角色](../knowledge/books/B055.md)
+- [朋友圈中的真实生活素材](../knowledge/books/B056.md)
+- [共同体验不保证长期相容](../knowledge/books/B059.md)
+- [共同话题回扣先于查户口](../knowledge/books/B060.md)
+- [过渡靠真实生活而非借来的故事](../knowledge/books/B061.md)
+- [共同玩笑以双方已经接梗为前提](../knowledge/books/B061.md)
+- [让素材服务当前一句](../knowledge/books/B062.md)
+- [关心与浪漫可以直接表达](../knowledge/books/B063.md)
+- [从一个细节自然延伸话题](../knowledge/books/B065.md)
+- [联系节奏不套等待时限](../knowledge/books/B065.md)
+- [共同场景比凭空编故事方便接话](../knowledge/books/B066.md)
+- [共同场景和真实旧话题先用](../knowledge/books/B068.md)
+- [初次联络清楚提醒认识情境](../knowledge/books/B068.md)
+- [围绕人转话题不挖隐私](../knowledge/books/B069.md)
+- [共同梗可以自然回扣](../knowledge/books/B070.md)
+- [话题转换仍要听完这一轮](../knowledge/books/B071.md)
+- [熟悉感不能靠虚构共同过去](../knowledge/books/B071.md)
+- [共同话题可转语音但先核方便](../knowledge/books/B071.md)
+- [语气和玩笑随真实内容变化](../knowledge/books/B071.md)
+- [共同作品不靠假装看过](../knowledge/books/B074.md)
+- [共同玩笑可以轻量也可以停](../knowledge/books/B074.md)
+- [重复遇见只是场景条件](../knowledge/books/B075.md)
+- [日常问候不设固定频次](../knowledge/books/B075.md)
+- [共同经历回扣再露一点自己](../knowledge/books/B075.md)
+- [共同场景提供话题不提供许可](../knowledge/books/B076.md)
+- [接共同内容再露一点自己](../knowledge/books/B076.md)
+- [共同梗和角色由双方一起接](../knowledge/books/B078.md)
+- [共同玩笑要有双方接住的前提](../knowledge/books/B079.md)
+- [共同点来自真实交流](../knowledge/books/B083.md)
+- [共同情境比乱抛材料更有用](../knowledge/books/B084.md)
+- [承接一个细节自然展开](../knowledge/books/B086.md)
+- [熟人共同背景可以自然回扣](../knowledge/books/B086.md)
+- [自然重联接真实共同话题](../knowledge/books/B086.md)
+- [共同点用已经确认的信息连接](../knowledge/books/B087.md)
+- [25：搭桥先接住原来的话](../knowledge/books/B091.md)
+- [16：从对方刚说的关键词接故事](../knowledge/books/B093.md)
+- [14：日常偏好从共同信息进入](../knowledge/books/B094.md)
+- [中断后能回扣，不把话题弃置包装成地位](../knowledge/books/B095.md)
+- [联系先有实际来由，再回扣共同细节](../knowledge/books/B095.md)
+- [话题选她实际感兴趣的，不把八卦与贬低当通用入口](../knowledge/books/B096.md)
+- [从她的关键词接一处，分享不索取等量回报](../knowledge/books/B096.md)
+- [换话题不能用来打断、扰乱或绕过拒绝](../knowledge/books/B096.md)
+- [共同话题可以回扣，不需要持续表演或强占注意](../knowledge/books/B097.md)
+- [共同经历可以回扣，负面经历不能当制造联系的办法](../knowledge/books/B097.md)
+- [B099幽默取结构不搬羞辱台词](../knowledge/books/B099.md)
+- [B099想起共同经历可以真实表达](../knowledge/books/B099.md)
+- [B099开场取具体情境而不是虚构调查](../knowledge/books/B099.md)
+- [B099共同活动可以自然产生话题](../knowledge/books/B099.md)
+- [B101-23 加联系方式后先回扣认识情境](../knowledge/books/B101.md)
+- [B102-08 共同记忆必须确实属于双方](../knowledge/books/B102.md)
+- [B104-21 真实共同活动比制造社交证明更可用](../knowledge/books/B104.md)
+- [B104-23 过渡要接实际回应](../knowledge/books/B104.md)
+- [B104-34 共同兴趣不靠全盘附和](../knowledge/books/B104.md)
+- [B104-53 回扣认识情境比凭空制造熟悉更清楚](../knowledge/books/B104.md)
+- [B105-08 共同经历回扣不等于必须续完旧惯例](../knowledge/books/B105.md)
+- [B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住](../knowledge/books/B105.md)
+- [B106-11 想象的共同经历与真实共同经历分开](../knowledge/books/B106.md)
+
+## M06
+
+轻量夸张或曲解；共69处。
+
+- [夸张曲解](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
+- [严肃话题与澄清界限](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE77–82：自大风趣、注意力与当前反应](../knowledge/books/S04-attraction-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE133–142：夸张自信、共同角色与反应不好时停止](../knowledge/books/S04-attraction-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10–12章：轻量反转、荒诞与对方没接梗时停止](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页66–69：笑话无回应时停止重复，回到普通交流](../knowledge/books/B005-ch05-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页8–10、15：双向接梗与不接时收回，不机械推拉](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [第八章：Neg与挑逗命名不抵消制造不安全感；轻量玩笑依双方接梗](../knowledge/books/B016-ch08-11.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页67–95取舍：具体依据和双方接梗才轻量夸张，不用尴尬、笑声或否认自证接梗](../knowledge/books/B024-inspiration-and-humor.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页69–72取舍：共同内容不靠NLP保证，玩笑需具体依据与接梗，不制造不确定迫使自证](../knowledge/books/B025-social-context-and-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [60–71页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conversation-and-praise.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-humor-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-no-shaming-or-unmasking.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-teasing-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第46–54、76–81页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-humor-and-reality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第76–81、114–121、127–128页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-requests-and-tests.md)；旧定位，仅追溯，未绑定整份正文。
+- [第40–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-astrology-and-current-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第17–20、28–33、45–46、53–54、57–60页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-respect-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第22–25、34–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-humor-and-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [轻松幽默和双方接得住的角色](../knowledge/books/B055.md)
+- [真实表达与正常询问](../knowledge/books/B056.md)
+- [幽默以双方接梗为条件](../knowledge/books/B057.md)
+- [幽默不承担服从训练](../knowledge/books/B058.md)
+- [轻量幽默由语境与接梗支持](../knowledge/books/B060.md)
+- [共同玩笑以双方已经接梗为前提](../knowledge/books/B061.md)
+- [接调侃时仍要听见纠正](../knowledge/books/B061.md)
+- [不适和自我怀疑不算双方投入](../knowledge/books/B061.md)
+- [游戏和角色没有亲密授权作用](../knowledge/books/B062.md)
+- [轻松自夸不用自我贬低](../knowledge/books/B063.md)
+- [同一个玩笑只轻推一次](../knowledge/books/B064.md)
+- [角色和昵称双方能接](../knowledge/books/B064.md)
+- [调侃和共同角色只在接梗范围继续](../knowledge/books/B065.md)
+- [轻松调侃要有事实和接梗](../knowledge/books/B066.md)
+- [轻松话题按接梗情况调整](../knowledge/books/B067.md)
+- [轻松接梗须双方已经在玩](../knowledge/books/B069.md)
+- [共同玩笑留出不参与的空间](../knowledge/books/B069.md)
+- [共同梗可以自然回扣](../knowledge/books/B070.md)
+- [语气和玩笑随真实内容变化](../knowledge/books/B071.md)
+- [共同玩笑可以轻量也可以停](../knowledge/books/B074.md)
+- [误解玩笑先看是否接梗](../knowledge/books/B075.md)
+- [笑过不等于接受所有玩笑](../knowledge/books/B076.md)
+- [轻松玩笑要让双方都能接](../knowledge/books/B077.md)
+- [玩笑可以把笑点放在自己](../knowledge/books/B078.md)
+- [幽默不靠降低对方来制造挑战](../knowledge/books/B079.md)
+- [玩笑由双方接梗不由坏人设保证](../knowledge/books/B080.md)
+- [共同玩笑不需要假装拒绝](../knowledge/books/B086.md)
+- [轻松幽默要看她是否接梗](../knowledge/books/B087.md)
+- [调侃与纠正无需争夺解释权](../knowledge/books/B087.md)
+- [18：轻松幽默服从接梗与边界](../knowledge/books/B091.md)
+- [13：轻量玩笑与贬损分开](../knowledge/books/B093.md)
+- [调侃有共同前提，不靠贬低取得位置](../knowledge/books/B095.md)
+- [眼神与玩笑需要自然回应，不设固定配额](../knowledge/books/B096.md)
+- [轻松调侃需要双向承接，幽默不自动获得许可](../knowledge/books/B096.md)
+- [三段反转只作表达形式，不强凑笑点](../knowledge/books/B096.md)
+- [电影对白是编排文本，不能拿冷读当人物诊断](../knowledge/books/B096.md)
+- [B099笑不能证明认可羞辱或后续接触](../knowledge/books/B099.md)
+- [B099幽默取结构不搬羞辱台词](../knowledge/books/B099.md)
+- [B099明确不舒服不拿来制造笑点](../knowledge/books/B099.md)
+- [B099轻微调侃不用升级成贬低](../knowledge/books/B099.md)
+- [B101-21 幽默不靠贬低第三人](../knowledge/books/B101.md)
+- [B102-13 幽默不是所有互动的必要条件](../knowledge/books/B102.md)
+- [B102-16 推拉不采纳外貌羞辱](../knowledge/books/B102.md)
+- [B104-28 轻量幽默不以羞辱制造高低位](../knowledge/books/B104.md)
+- [B105-13 有共同语境才调侃，不以不舒服换注意](../knowledge/books/B105.md)
+- [B106-16 调侃与冒犯按当前证据判断](../knowledge/books/B106.md)
+- [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+
+## M07
+
+共同角色玩笑；共48处。
+
+- [角色扮演](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
+- [称呼被接住或纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE141–142：角色示例与对方参与条件](../knowledge/books/S04-attraction-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [第11章：观察到的举动、假拟后果与共同参与条件](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页9–10：角色和昵称不构成下一项意愿](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine6：假拟角色不构成真实承诺，配合不兑换下一项同意](../knowledge/books/B016-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [双方接住的假拟场景：B016第六章情景候选、否认与现实承诺的界限](../knowledge/topics/shared-imagination.md)；旧定位，仅追溯，未绑定整份正文。
+- [第四章39803–44019、第五章60727–61670取舍：双方已接梗的公开假设可轻量共创，不当真实记忆或后续许可](../knowledge/books/B033-real-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [13–16及35–44页取舍：双方知道是假设才轻量共创，参与不扩展现实许可](../knowledge/books/B044-autonomy-and-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [第46–54、76–81页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-humor-and-reality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第22–25、34–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-humor-and-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [轻松幽默和双方接得住的角色](../knowledge/books/B055.md)
+- [可接的话题与共同角色场景](../knowledge/books/B057.md)
+- [假拟角色与现实关系有区别](../knowledge/books/B058.md)
+- [玩笑不能伪装严肃关系意图](../knowledge/books/B059.md)
+- [轻量幽默由语境与接梗支持](../knowledge/books/B060.md)
+- [共同玩笑以双方已经接梗为前提](../knowledge/books/B061.md)
+- [游戏和角色没有亲密授权作用](../knowledge/books/B062.md)
+- [角色和昵称双方能接](../knowledge/books/B064.md)
+- [调侃和共同角色只在接梗范围继续](../knowledge/books/B065.md)
+- [轻松调侃要有事实和接梗](../knowledge/books/B066.md)
+- [幻想是双方知道的游戏](../knowledge/books/B069.md)
+- [猜测和幻想要让人听得出来](../knowledge/books/B069.md)
+- [轻松接梗须双方已经在玩](../knowledge/books/B069.md)
+- [共同玩笑留出不参与的空间](../knowledge/books/B069.md)
+- [共同假想须清楚可退出](../knowledge/books/B070.md)
+- [假测试不能换取接触许可](../knowledge/books/B071.md)
+- [语气和玩笑随真实内容变化](../knowledge/books/B071.md)
+- [共同玩笑可以轻量也可以停](../knowledge/books/B074.md)
+- [误解玩笑先看是否接梗](../knowledge/books/B075.md)
+- [共同梗和角色由双方一起接](../knowledge/books/B078.md)
+- [共同玩笑要有双方接住的前提](../knowledge/books/B079.md)
+- [共同玩笑不需要假装拒绝](../knowledge/books/B086.md)
+- [共同角色仍是共同玩笑](../knowledge/books/B087.md)
+- [20：昵称和文字动作不等于关系成立](../knowledge/books/B093.md)
+- [21：角色扮演无需谁始终高一等](../knowledge/books/B093.md)
+- [共同想象只在双方明确接梗时延长一小步](../knowledge/books/B095.md)
+- [B099笑不能证明认可羞辱或后续接触](../knowledge/books/B099.md)
+- [B099幽默取结构不搬羞辱台词](../knowledge/books/B099.md)
+- [B102-14 角色称呼要由双方一起承接](../knowledge/books/B102.md)
+- [B104-26 角色玩笑不自行赋予关系或亲密权限](../knowledge/books/B104.md)
+- [B105-13 有共同语境才调侃，不以不舒服换注意](../knowledge/books/B105.md)
+- [B105-26 未来话题区分想法、邀请和已确认计划](../knowledge/books/B105.md)
+- [B106-29 轻量角色与曲解让位于认真问题](../knowledge/books/B106.md)
+
+## M08
+
+有依据的可纠正观察；共208处。
+
+- [冷读范围与纠正空间](../knowledge/books/S01-chen-five.md)；旧定位，仅追溯，未绑定整份正文。
+- [冷读](../knowledge/topics/theory-map.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；旧定位，仅追溯，未绑定整份正文。
+- [开放假设、纠正更新与反包装](../knowledge/books/G01-natural-flow-and-conflict.md)；旧定位，仅追溯，未绑定整份正文。
+- [画像字段、MBTI话术与证据边界](../knowledge/books/G04-observation-not-profiling.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE50–66：基因/性欲/不忠推断与研究缺口](../knowledge/books/S04-attraction-ch03.md)；旧定位，仅追溯，未绑定整份正文。
+- [附加文章第9条：具体猜测与事实依据分开](../knowledge/books/B043.md)；旧定位，仅追溯，未绑定整份正文。
+- [信念与人格推断不替代实际行为](../knowledge/books/S04-belief-and-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页8–9：观察和标签分开，不故意猜错换信息](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页26–32取舍：周期与群体解释不能用于读心](../knowledge/books/B008-ch01-06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页25–41取舍：周期、分数和外貌不能替代当前事实](../knowledge/books/B009-ch01-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [接回截图与约会判断；物理页170、236–241、252–259：眼动、玩笑、距离与情境限制](../knowledge/books/B010-influence.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页43、59–61取舍：感官/性别标签、眼神与紧张不单独证明心理或撒谎](../knowledge/books/B011-persuasion-deception.md)；旧定位，仅追溯，未绑定整份正文。
+- [信号不能覆盖选择；物理页42、44–48：身体线索、问题与具体意愿分开](../knowledge/books/B012-ch05.md)；旧定位，仅追溯，未绑定整份正文。
+- [不把不同层次的为什么混在一起；已读物理页38–39、49–53，不以群体解释当前动机](../knowledge/books/B014-ch01.md)；旧定位，仅追溯，未绑定整份正文。
+- [一般理论不能替具体假说作证；物理页92–104、122–138的层级、预测与证据范围](../knowledge/books/B014-ch02.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页221–251：评分、年龄差、不同排序任务与健康假说的范围](../knowledge/books/B014-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页281–301、315–317：人口学曲线、评价相关、WHR/周期限制与激素因果方向](../knowledge/books/B014-ch05.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页343–346、369–375：意愿评分、SOI与相关、未复现和无效线索的范围](../knowledge/books/B014-ch06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页448–449、467：演化条件不等于个体心理预测，框8.1具体假说被否定](../knowledge/books/B014-ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页620–626：友好、兴趣判断与当前意愿分开，不以群体偏差诊断个人](../knowledge/books/B014-ch11.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页738、742–748、772–773：解释不替代检验，不由群体、家庭或鲜明故事诊断个人](../knowledge/books/B014-ch13.md)；旧定位，仅追溯，未绑定整份正文。
+- [偏好和具体兴趣分开；R03摘要与迁移范围](../knowledge/topics/interest-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [第二章取舍；60秒、眼神、群体断言与当前事实分开](../knowledge/books/B016.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine8：房屋材料、名人和感官偏好不诊断人格；否认不改作潜意识承认](../knowledge/books/B016-ch06.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十九章：戒指、饰物、身体语言和触碰不单独推定关系、人格或意愿](../knowledge/books/B016-ch19-20.md)；旧定位，仅追溯，未绑定整份正文。
+- [先记行为，原因不足留未知：B017前27页的单一资源假设不作为个人动机证据](../knowledge/topics/observations-and-explanations.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页90–112：术语还原为行为，模型不替证据，不把反例或未争论改成承认](../knowledge/books/B017-p090-112.md)；旧定位，仅追溯，未绑定整份正文。
+- [24页十二篇取舍：性别概括、演化故事与个体事实分开，普通问题不自动判成测试](../knowledge/books/B018.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页11–30取舍：角色、性别、关系身份与偏好不互相推出，只按已表达的具体选择判断](../knowledge/books/B022-chapters01-02.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页42–57取舍：姿势、微笑和目光不直接推出地位、心理、喜欢或许可，残句不补造](../knowledge/books/B025-presentation-and-signals.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段396–511、689–753取舍：作者安排的内心话、动作与外观不能诊断现实对象或补出喜欢](../knowledge/books/B030-feelings-and-observation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第二十九、三十、三十三、三十七、四十六及五十二章取舍：可见行为与猜测分开，不用所谓时间分类、外观、地域或事后解释定型读心](../knowledge/books/B032-observation-and-classification.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一至二章取舍：姿态、短答、照片和生活习惯不定义人格或当前意愿，不以主观计分覆盖本人解释](../knowledge/books/B033-classification-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [5–28页取舍：外观、姿态和短答不推成人格或意愿，观察须可纠正](../knowledge/books/B034-edition-and-figures.md)；旧定位，仅追溯，未绑定整份正文。
+- [30–73页取舍：泛化描述、预言和改口不证明读心；只作有依据且可纠正观察](../knowledge/books/B040-reading-and-fallibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [1–4页原页：三维组合是课程分类，不从家庭、学历和外形推断心理或意愿](../knowledge/books/B052-three-dimensions.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页21–40；相关总体结论见58–77页。；见原创论点取舍与执行限制。](../knowledge/books/B036-evidence-and-model.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。](../knowledge/books/B038-profile-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。](../knowledge/books/B038-part6-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [前置1–11页及全文件范围；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-evidence-and-scope.md)；旧定位，仅追溯，未绑定整份正文。
+- [60–71页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conversation-and-praise.md)；旧定位，仅追溯，未绑定整份正文。
+- [84–129页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-self-knowledge.md)；旧定位，仅追溯，未绑定整份正文。
+- [188–226页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-mutual-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页1–3、9–16、30–31、96及112–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-source-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-interest-and-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-values-and-status.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-relationship-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-classification-and-preferences.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项1–2、5–6、11；全文件质量；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-childhood-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-biology-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项6，对应第四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-preferences-and-interviews.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-expectations-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–13、129–130页；全文件质量；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–23、65–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-gender-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第24–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-confidence-and-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [第82–103、126页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-body-language-limits.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–15页；全文件及文后附件；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-scope-and-omissions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4、6–9页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-mood-and-other-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9、11–12页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-classification-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第16–20页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-religion-and-certainty.md)；旧定位，仅追溯，未绑定整份正文。
+- [第26–30、35–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-health-claims-and-drinks.md)；旧定位，仅追溯，未绑定整份正文。
+- [第30–35页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-brands-and-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第40–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-astrology-and-current-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–3、34–39、63–70页；全文件；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-scope-and-contradictions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–13、39–45、63–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-self-worth-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、31、34–39、53–54页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-honesty-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第47–55、58–62页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-signals-and-assumptions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–14页；原创教学取舍，非实证验证。](../knowledge/books/B053-context-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第18–24、25–26页；原创教学取舍，非实证验证。](../knowledge/books/B053-specific-interest.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1–6、31、33、35–36页及全文件；原创教学取舍，非实证验证。](../knowledge/books/B053-scope-and-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [友好、好感与明确意愿分开](../knowledge/books/B054.md)
+- [五种分类不代替个人事实](../knowledge/books/B055.md)
+- [外形资源与兴趣解释](../knowledge/books/B056.md)
+- [欣赏与观察须有实际依据](../knowledge/books/B057.md)
+- [观察和欣赏需要可核依据](../knowledge/books/B058.md)
+- [叙事身份与证据边界](../knowledge/books/B059.md)
+- [个人拒绝不归结身高人格](../knowledge/books/B059.md)
+- [观察可校正不能读心](../knowledge/books/B060.md)
+- [具体欣赏不猜妆容原因](../knowledge/books/B060.md)
+- [观察只能提出可纠正的有限判断](../knowledge/books/B061.md)
+- [十二张星座图卡只按娱乐材料保留](../knowledge/books/B061.md)
+- [观察过渡不能变成人格鉴定](../knowledge/books/B062.md)
+- [研究名词不能给套话补证据](../knowledge/books/B062.md)
+- [对新对象按新证据判断](../knowledge/books/B063.md)
+- [不用嫉妒和羞辱追求主导](../knowledge/books/B063.md)
+- [服装场所身体反应不能代替同意](../knowledge/books/B063.md)
+- [分歧不直接归为测试](../knowledge/books/B063.md)
+- [舒适不必先破坏](../knowledge/books/B064.md)
+- [群体推论与匿名研究不给结论](../knowledge/books/B064.md)
+- [复盘先看外部事实和明确证据](../knowledge/books/B065.md)
+- [观察允许被纠正不能用转折自保](../knowledge/books/B065.md)
+- [当前拒绝优先于所谓兴趣指标](../knowledge/books/B065.md)
+- [读书报告和自评分不当诊断工具](../knowledge/books/B065.md)
+- [方法需要允许被事实纠正](../knowledge/books/B066.md)
+- [虚构比例和自报经验不能当实证](../knowledge/books/B066.md)
+- [眼神和外貌不能替代原句证据](../knowledge/books/B066.md)
+- [自定义类型不作为人物档案](../knowledge/books/B066.md)
+- [普通动作不兑换兴趣结论](../knowledge/books/B067.md)
+- [外貌观察不变成身体鉴定](../knowledge/books/B067.md)
+- [自然眼神不等于读懂内心](../knowledge/books/B067.md)
+- [测试与健康说法保留未核状态](../knowledge/books/B067.md)
+- [连续行为比微笑与脸红有信息量](../knowledge/books/B068.md)
+- [作者经历和网友好评不是效果验证](../knowledge/books/B068.md)
+- [从场景切入不从品牌判人](../knowledge/books/B069.md)
+- [给对方参与空间不把答话当授权](../knowledge/books/B069.md)
+- [服务场景的礼貌不等于私人关系](../knowledge/books/B069.md)
+- [冲劲不等于危险或无礼](../knowledge/books/B069.md)
+- [猜测和幻想要让人听得出来](../knowledge/books/B069.md)
+- [友好开始仍保留现实边界](../knowledge/books/B069.md)
+- [欣赏不能靠假装无意或读心](../knowledge/books/B069.md)
+- [关系情况不是突破口](../knowledge/books/B069.md)
+- [表情姿势不承担测谎和读心](../knowledge/books/B070.md)
+- [工作人员的职责不换私人回应](../knowledge/books/B070.md)
+- [关系情况用来尊重范围](../knowledge/books/B070.md)
+- [姿势和顺从不是强兴趣证据](../knowledge/books/B071.md)
+- [开场来意和身份要真实](../knowledge/books/B071.md)
+- [悬念和停顿不作为诱导陷阱](../knowledge/books/B071.md)
+- [紧张不等于需要表演强势](../knowledge/books/B071.md)
+- [性别概括不能替代眼前原话](../knowledge/books/B074.md)
+- [熟悉的语气不等于已被信任](../knowledge/books/B074.md)
+- [眼神和生理反应不读成许可](../knowledge/books/B074.md)
+- [遇见可以问候不能制造尾随](../knowledge/books/B074.md)
+- [社交网络不假造熟悉和竞争](../knowledge/books/B075.md)
+- [年级专业不推断欲望与同意](../knowledge/books/B075.md)
+- [百分比和个人故事不是机制证据](../knowledge/books/B075.md)
+- [小动作不能直接读出动机](../knowledge/books/B076.md)
+- [年纪职业不推出感情动机](../knowledge/books/B076.md)
+- [分类不能替眼前人回答](../knowledge/books/B076.md)
+- [不回复先保留原因未知](../knowledge/books/B076.md)
+- [资料细节可开场不读心](../knowledge/books/B076.md)
+- [文末个人意见不是代表抽样](../knowledge/books/B076.md)
+- [普通差异不转成强弱画像](../knowledge/books/B077.md)
+- [有依据的观察始终允许纠正](../knowledge/books/B078.md)
+- [观察只说已知部分且能被纠正](../knowledge/books/B080.md)
+- [身体和单个回应都不能替人读心](../knowledge/books/B081.md)
+- [一次拒绝不构成人格判决](../knowledge/books/B081.md)
+- [猜测和永久预言都先留在未知](../knowledge/books/B082.md)
+- [可能需求先听本人怎么说](../knowledge/books/B083.md)
+- [价值偏好不能靠三问代答](../knowledge/books/B083.md)
+- [观察必须有依据并能被纠正](../knowledge/books/B083.md)
+- [外观与一句话只能支持有限观察](../knowledge/books/B085.md)
+- [情境变化先更新事实而非换人设](../knowledge/books/B085.md)
+- [观察能够被纠正才有意义](../knowledge/books/B086.md)
+- [观察允许本人纠正](../knowledge/books/B087.md)
+- [版本04：外貌段落的关键措辞不同](../knowledge/books/B088.md)
+- [19：可纠正观察不能变成识人权威](../knowledge/books/B091.md)
+- [10：资料细节只能支持有限观察](../knowledge/books/B093.md)
+- [13：性格描述保持可纠正](../knowledge/books/B094.md)
+- [即兴联想从她给出的细节出发](../knowledge/books/B095.md)
+- [电影对白是编排文本，不能拿冷读当人物诊断](../knowledge/books/B096.md)
+- [B098词典释义与整体解释不是同一证据](../knowledge/books/B098.md)
+- [B098身体差异不提供智力与人格判词](../knowledge/books/B098.md)
+- [B098灾难与自杀例子不作聊天归因](../knowledge/books/B098.md)
+- [B098三重脑图不作行为诊断器](../knowledge/books/B098.md)
+- [B098动物求偶类比不能读取个人意图](../knowledge/books/B098.md)
+- [B098不会爱你的普遍断言缺少证明](../knowledge/books/B098.md)
+- [B098箭头图只记录作者假设链](../knowledge/books/B098.md)
+- [B098公司成败不能归于负责人性别](../knowledge/books/B098.md)
+- [B098高攀标签不能解释所有关系变化](../knowledge/books/B098.md)
+- [B098把成年人当小孩不是理解方法](../knowledge/books/B098.md)
+- [B098自造贬称不是关系分类标准](../knowledge/books/B098.md)
+- [B098昆虫照片不证明人类的敌对本性](../knowledge/books/B098.md)
+- [B099需求不同不证明女性不理性](../knowledge/books/B099.md)
+- [B099长篇冷读不能代替事实观察](../knowledge/books/B099.md)
+- [B099情感开关和百分数只是作者声称](../knowledge/books/B099.md)
+- [B099长期与性关系的分类并非可靠定律](../knowledge/books/B099.md)
+- [B099百分之九十三不套用于全部交流](../knowledge/books/B099.md)
+- [B099友好和姿态都不是固定兴趣概率](../knowledge/books/B099.md)
+- [B099道具不能伪装成读心和诊断](../knowledge/books/B099.md)
+- [B101-07 合成示例与实证材料分开](../knowledge/books/B101.md)
+- [B101-12 国籍、外貌和场所不预测个人意愿](../knowledge/books/B101.md)
+- [B101-15 礼貌回应仍是弱信号](../knowledge/books/B101.md)
+- [B101-19 精选结果不能反推通用成功率](../knowledge/books/B101.md)
+- [B101-29 首次见面不等于一错全输](../knowledge/books/B101.md)
+- [B101-35 带朋友见面不自动解释动机](../knowledge/books/B101.md)
+- [B101-38 接触分类图不是许可阶梯](../knowledge/books/B101.md)
+- [B101-39 礼物、帮忙与亲密意愿分开](../knowledge/books/B101.md)
+- [B101-51 吃醋和眼泪不单独证明爱](../knowledge/books/B101.md)
+- [B102-06 情绪积极不等于接受新要求](../knowledge/books/B102.md)
+- [B102-11 好奇不等于对本人有兴趣](../knowledge/books/B102.md)
+- [B102-24 冷读保留可纠正性，不诊断内心](../knowledge/books/B102.md)
+- [B102-25 赞美落在可确认的具体事情](../knowledge/books/B102.md)
+- [B102-36 案例节选和导师标注不能证明因果](../knowledge/books/B102.md)
+- [B104-03 结果保证和百分比不是验证记录](../knowledge/books/B104.md)
+- [B104-04 个人成长叙事不证明某个技巧造成结果](../knowledge/books/B104.md)
+- [B104-07 群落等级叙事不用于给个人定价值](../knowledge/books/B104.md)
+- [B104-10 肢体语言要先考虑环境和个人差异](../knowledge/books/B104.md)
+- [B104-18 目光、微笑和提问不单独确认兴趣](../knowledge/books/B104.md)
+- [B104-19 引出反应不等于取得真实意愿](../knowledge/books/B104.md)
+- [B104-32 猜测与冷读保持可纠正](../knowledge/books/B104.md)
+- [B104-51 白天夜晚或场所不决定一个人的品质](../knowledge/books/B104.md)
+- [B105-10 了解兴趣靠互相分享，不连续追问人生内核](../knowledge/books/B105.md)
+- [B105-11 戒指、笑容与手相都不承担性格和兴趣结论](../knowledge/books/B105.md)
+- [B105-29 情绪反应按当事人说明，不由激素故事代言](../knowledge/books/B105.md)
+- [B105-30 紧张不自动成为病或错误教育的证明](../knowledge/books/B105.md)
+- [B105-32 文化论断和百分比不移植到微信](../knowledge/books/B105.md)
+- [B106-02 作者的概念草图不升级为实证定律](../knowledge/books/B106.md)
+- [B106-04 不以外貌金钱设门槛，也不否认真实偏好](../knowledge/books/B106.md)
+- [B106-08 性别概括和亲密节奏不用于评价一个人](../knowledge/books/B106.md)
+- [B106-19 科学与游戏兴趣不自动导致社交缺陷](../knowledge/books/B106.md)
+- [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
+- [B106-32 肢体、语音和瞳孔不承担读心](../knowledge/books/B106.md)
+
+## M09
+
+具体欣赏；共93处。
+
+- [具体欣赏与事实边界](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体特质与作者推进主张分开](../knowledge/books/S02-chen-twelve/ch06.md)；旧定位，仅追溯，未绑定整份正文。
+- [环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；旧定位，仅追溯，未绑定整份正文。
+- [已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE58–60：普通关照不作基因与价值等级](../knowledge/books/S04-attraction-ch03.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE109–118：普通关照、具体欣赏与不交换关系](../knowledge/books/S04-attraction-ch05-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [附加文章第2条：正常感谢、双向赞美与不追加贬低](../knowledge/books/B043.md)；旧定位，仅追溯，未绑定整份正文。
+- [第18章：真实具体欣赏，不作为试用期或交换配合](../knowledge/books/B003-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一章文件页60–61：欣赏需真实](../knowledge/books/B004.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页415–418：真实好意、赞美和自然感谢](../knowledge/books/B004-ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页540：自愿关照与不交换关系](../knowledge/books/B004-closing.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页43–45：自然接受真诚赞美，不据一次反应诊断自尊](../knowledge/books/B005-ch05-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页15–28：正常礼貌和关照不预先判作受奴役](../knowledge/books/B007-ch01-05.md)；旧定位，仅追溯，未绑定整份正文。
+- [89–95页取舍：欣赏已知细节，不从宠物或反面评价虚构隐藏特征](../knowledge/books/B040-classification-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。](../knowledge/books/B038-part6-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [60–71页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conversation-and-praise.md)；旧定位，仅追溯，未绑定整份正文。
+- [227–266页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-couple-communication.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confidence-and-height.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-listening-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第104–114页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-disclosure-and-love.md)；旧定位，仅追溯，未绑定整份正文。
+- [第30–35页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-brands-and-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第17–20、28–33、45–46、53–54、57–60页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-respect-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第18–24、25–26页；原创教学取舍，非实证验证。](../knowledge/books/B053-specific-interest.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一印象和真实自我表达](../knowledge/books/B054.md)
+- [共同体验与本人偏好](../knowledge/books/B056.md)
+- [欣赏与观察须有实际依据](../knowledge/books/B057.md)
+- [观察和欣赏需要可核依据](../knowledge/books/B058.md)
+- [从普通暖意到关系仍需确认](../knowledge/books/B059.md)
+- [具体欣赏不猜妆容原因](../knowledge/books/B060.md)
+- [欣赏具体表现无需设置价值排名](../knowledge/books/B061.md)
+- [不适和自我怀疑不算双方投入](../knowledge/books/B061.md)
+- [了解兴趣无需让她参加资格考试](../knowledge/books/B062.md)
+- [具体欣赏落在本人看见的细节](../knowledge/books/B063.md)
+- [赞美和来意不用套性话题](../knowledge/books/B064.md)
+- [具体欣赏与真实热情可以直接给](../knowledge/books/B065.md)
+- [欣赏能力与愿意恋爱分别判断](../knowledge/books/B066.md)
+- [展示生活用本人做过的小事](../knowledge/books/B066.md)
+- [表达好感不用让她欠一次机会](../knowledge/books/B066.md)
+- [从眼前的书与真实兴趣开场](../knowledge/books/B067.md)
+- [欣赏落在具体行为和作品上](../knowledge/books/B068.md)
+- [好感可以真诚表达不靠让她猜](../knowledge/books/B068.md)
+- [关系意向可以诚实说](../knowledge/books/B069.md)
+- [自然互动以后仍需说清意愿](../knowledge/books/B069.md)
+- [轻松接梗须双方已经在玩](../knowledge/books/B069.md)
+- [表达一致不能保证互相喜欢](../knowledge/books/B069.md)
+- [欣赏不能靠假装无意或读心](../knowledge/books/B069.md)
+- [让对方展现擅长的事](../knowledge/books/B069.md)
+- [具体欣赏不变成行为奖赏](../knowledge/books/B070.md)
+- [好感和长期关系目标可以诚实表达](../knowledge/books/B070.md)
+- [清楚好感不按分钟完成关卡](../knowledge/books/B071.md)
+- [善意不要求按价偿还](../knowledge/books/B071.md)
+- [接赞简短真诚即可](../knowledge/books/B071.md)
+- [欣赏不夹带贬低和任务](../knowledge/books/B071.md)
+- [具体欣赏和善意不用等价交换](../knowledge/books/B074.md)
+- [具体欣赏不审判够不够格](../knowledge/books/B075.md)
+- [善意不做资格考试](../knowledge/books/B076.md)
+- [具体欣赏不拐弯贬人](../knowledge/books/B076.md)
+- [欣赏落在已经知道的行为](../knowledge/books/B077.md)
+- [具体欣赏不先制造自我怀疑](../knowledge/books/B078.md)
+- [欣赏真实细节不用让她争取资格](../knowledge/books/B079.md)
+- [具体欣赏不附带动作和回报](../knowledge/books/B080.md)
+- [真诚欣赏不要求她回以笑容](../knowledge/books/B082.md)
+- [具体欣赏无需先让她争取](../knowledge/books/B086.md)
+- [欣赏可以具体而直接](../knowledge/books/B087.md)
+- [02：快速指南的起点是真实而简短的接触](../knowledge/books/B091.md)
+- [10：欣赏选择具体可见的部分](../knowledge/books/B091.md)
+- [22：筛选是了解适配，不是奖惩](../knowledge/books/B091.md)
+- [09：具体欣赏不用推测她为什么打扮](../knowledge/books/B093.md)
+- [08：欣赏不附带行为义务](../knowledge/books/B094.md)
+- [12：认可回答不需要身体奖励](../knowledge/books/B094.md)
+- [先回应实际向你示好或打招呼的人](../knowledge/books/B095.md)
+- [了解偏好需要双向交流，不是资格面试](../knowledge/books/B095.md)
+- [收到欣赏可以正常接住，不必制造落差](../knowledge/books/B095.md)
+- [关注对方的具体内容，不能用积极强压困扰](../knowledge/books/B096.md)
+- [稳定表达能欣赏、回答和认错](../knowledge/books/B096.md)
+- [真诚欣赏与一起高兴，不必故意憋笑](../knowledge/books/B097.md)
+- [B099欣赏具体细节不等于永不赞美](../knowledge/books/B099.md)
+- [B099想起共同经历可以真实表达](../knowledge/books/B099.md)
+- [B101-12 国籍、外貌和场所不预测个人意愿](../knowledge/books/B101.md)
+- [B101-31 善意和具体欣赏不等于失去边界](../knowledge/books/B101.md)
+- [B102-25 赞美落在可确认的具体事情](../knowledge/books/B102.md)
+- [B102-30 表达喜欢只代表自己的真实感受](../knowledge/books/B102.md)
+- [B104-27 具体欣赏不附带索取](../knowledge/books/B104.md)
+- [B104-33 欣赏爱好不需要假装懂或贬低别人](../knowledge/books/B104.md)
+- [B105-05 直接表达认识意愿不需要先假装没有兴趣](../knowledge/books/B105.md)
+- [B105-14 具体欣赏不附带资格审查](../knowledge/books/B105.md)
+- [B106-05 正常善意与交换恋爱的期待分开](../knowledge/books/B106.md)
+- [B106-06 有好感可以坦率，不靠争夺选择权](../knowledge/books/B106.md)
+- [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
+
+## M10
+
+分享真实生活；共194处。
+
+- [关键词、铺垫、内容与互动](../knowledge/books/S02-chen-twelve/ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [真实展示](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；旧定位，仅追溯，未绑定整份正文。
+- [不熟的话题坦诚承接，不编经历](../knowledge/books/G01-light-clear-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE89–92、99–102：真实生活与不编第三方竞争](../knowledge/books/S04-attraction-ch05-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [user-context不编故事、建议/执行/效果分别记录](../knowledge/books/G02-context-and-rhythm.md)；旧定位，仅追溯，未绑定整份正文。
+- [四份形象资料：真实生活素材与不编专家身份](../knowledge/books/S04-style-guides.md)；旧定位，仅追溯，未绑定整份正文。
+- [第16–17章：真实细节、感受与社交故事不必有完整剧情](../knowledge/books/B003-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一章文件页31、53–59：表达已有生活和选择实际场景](../knowledge/books/B004.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页475–503：自己的经历，不移植导师故事](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页80–87：本人真实经历和清楚表达，不编故事](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页24、53：真实身份与个人兴趣，不移植服饰角色为本人经历](../knowledge/books/B006.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页6、11：真实素材、准备与自我表达，不伪造社交证明](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页90–97取舍：真实自我表达，不接受单方因果归因的永久禁令](../knowledge/books/B008-ch07-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页61–65取舍：真实生活素材与消费边界，不虚构地位](../knowledge/books/B009-ch11-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页531–537、565取舍：真实分享、边界与不强加支持](../knowledge/books/B010-emotions.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页78–86取舍：真实分享，不编经历或以吸引等同隐蔽控制](../knowledge/books/B011-control-brainwashing.md)；旧定位，仅追溯，未绑定整份正文。
+- [一句话的真实表达；物理页56–68取舍：真实素材、一轮一个目标，不把每个念头倒给对方](../knowledge/books/B012-ch06.md)；旧定位，仅追溯，未绑定整份正文。
+- [一次练一个可观察动作；物理页45–48取舍，competence与练习范围](../knowledge/books/B013-ch04-06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页245–250、256–266：真实承诺与投入，不伪造地位、亲子场景或第三方竞争](../knowledge/books/B014-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页686–692：真实能力与贡献不同于威慑和伪造地位，不为展示编经历](../knowledge/books/B014-ch12.md)；旧定位，仅追溯，未绑定整份正文。
+- [一句真实表达；B016第三章与两项互惠披露研究的范围](../knowledge/topics/real-self-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页25–45取舍：真实兴趣、具体生活与实践，不编经历，不用励志或神经比喻保证结果](../knowledge/books/B019-ch01-04.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页114–123取舍：分享一点真实细节，不为叙事情绪虚构经历或强迫私密披露](../knowledge/books/B024-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页73–76取舍：真实分享不编故事或亲密关系，不把普通语气扩为熟识和同意](../knowledge/books/B025-social-context-and-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段602–662取舍：不查户口也不换名伪装，分享确有的生活，不从拒绝照片推断人格外貌](../knowledge/books/B030-online-and-follow-up.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十三、十四、十九、二十一、三十七与五十二章取舍：从自身真实经历取当前相关细节，不虚构身份、见闻和读书经历](../knowledge/books/B032-shared-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [引言、第一至二章及第四至七章取舍：真实经历与偏好不等于虚拟身份，不编专业资历或情感故事换同情](../knowledge/books/B033-real-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [17–28及61–68页取舍：真实偏好与经历，不伪造身份或情感故事](../knowledge/books/B034-honest-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [26–46页取舍：不以人物造假、私人记录与制造负面反应作为练习](../knowledge/books/B035-coercion-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。](../knowledge/books/B038-part5-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [14–50页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-social-opportunities.md)；旧定位，仅追溯，未绑定整份正文。
+- [19–35、64–65页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-real-profile.md)；旧定位，仅追溯，未绑定整份正文。
+- [51–64、82–83页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-true-stories.md)；旧定位，仅追溯，未绑定整份正文。
+- [350–380页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-practice-and-health.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-values-and-status.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confidence-and-height.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-life-and-routine.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-kindness-and-vitality.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-listening-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–23、65–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-gender-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第104–114页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-disclosure-and-love.md)；旧定位，仅追溯，未绑定整份正文。
+- [第65–75、127–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-practice-and-context.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–6、9–10页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-confidence-and-equality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–11、15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-skills-and-topics.md)；旧定位，仅追溯，未绑定整份正文。
+- [第30–35页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-brands-and-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、31、34–39、53–54页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-honesty-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-practice-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、19–24页；原创教学取舍，非实证验证。](../knowledge/books/B053-question-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第18–24、25–26页；原创教学取舍，非实证验证。](../knowledge/books/B053-specific-interest.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一印象和真实自我表达](../knowledge/books/B054.md)
+- [真实生活与共同活动](../knowledge/books/B055.md)
+- [朋友圈中的真实生活素材](../knowledge/books/B056.md)
+- [资料呈现清楚且真实](../knowledge/books/B057.md)
+- [朋友圈保留真实生活和普通日常](../knowledge/books/B057.md)
+- [关心困扰与真实自我披露](../knowledge/books/B057.md)
+- [自然开场与真实生活素材](../knowledge/books/B058.md)
+- [关心与脆弱可以直接且真实](../knowledge/books/B058.md)
+- [真实生活展示不靠人设反差](../knowledge/books/B059.md)
+- [联系习惯需要说清](../knowledge/books/B059.md)
+- [长期关系要谈现实计划](../knowledge/books/B059.md)
+- [保留正常社交与自主边界](../knowledge/books/B059.md)
+- [给表达空间也分享真实自己](../knowledge/books/B060.md)
+- [真实脆弱不交换感情](../knowledge/books/B060.md)
+- [熟悉曝光不等于双向兴趣](../knowledge/books/B060.md)
+- [过渡靠真实生活而非借来的故事](../knowledge/books/B061.md)
+- [个人风格建立在真实经历上](../knowledge/books/B062.md)
+- [分享生活不强迫交换秘密](../knowledge/books/B062.md)
+- [开场说清一个真实来意](../knowledge/books/B063.md)
+- [轻松自夸不用自我贬低](../knowledge/books/B063.md)
+- [关心与浪漫可以直接表达](../knowledge/books/B063.md)
+- [隐私对称不隐瞒关系要点](../knowledge/books/B063.md)
+- [真实差异比机械反对更有内容](../knowledge/books/B064.md)
+- [关系状态与好感不拿来演失格](../knowledge/books/B064.md)
+- [认真问职业就说具体在做什么](../knowledge/books/B065.md)
+- [生活故事小而真](../knowledge/books/B065.md)
+- [从一个细节自然延伸话题](../knowledge/books/B065.md)
+- [共同兴趣不需要假装分歧](../knowledge/books/B065.md)
+- [提出具体轻负担的真实活动](../knowledge/books/B065.md)
+- [私密披露与亲密各自单独选择](../knowledge/books/B065.md)
+- [身份和来意都用真实信息](../knowledge/books/B066.md)
+- [展示生活用本人做过的小事](../knowledge/books/B066.md)
+- [平视别人不靠压制气场](../knowledge/books/B066.md)
+- [现实练习保留一项可完成的事](../knowledge/books/B066.md)
+- [计划与可靠程度用具体行动呈现](../knowledge/books/B067.md)
+- [网聊用真实身份并尊重停止联系](../knowledge/books/B067.md)
+- [训练渠道从实际能参与的一项开始](../knowledge/books/B067.md)
+- [先说明一点自己不等于套出隐私](../knowledge/books/B068.md)
+- [真实生活让聊天有内容](../knowledge/books/B068.md)
+- [现实训练服务于正常生活](../knowledge/books/B068.md)
+- [短故事只需一个真实场景](../knowledge/books/B069.md)
+- [用真实偏好建立连接](../knowledge/books/B069.md)
+- [陈述带出自己也容得下正常提问](../knowledge/books/B069.md)
+- [清楚立场让对方能回应](../knowledge/books/B069.md)
+- [真诚社交不拿朋友当工具](../knowledge/books/B069.md)
+- [动作和风格选自己舒服的](../knowledge/books/B069.md)
+- [比喻贴近生活不靠堆词](../knowledge/books/B069.md)
+- [围绕人转话题不挖隐私](../knowledge/books/B069.md)
+- [自己的经历只说真实有关的一点](../knowledge/books/B070.md)
+- [具体语言不变成讲课和炫耀](../knowledge/books/B070.md)
+- [偏好可以不同不需要谁改造谁](../knowledge/books/B071.md)
+- [短故事保留真实动作和感受](../knowledge/books/B071.md)
+- [熟悉感不能靠虚构共同过去](../knowledge/books/B071.md)
+- [关系目标由自己真实选择](../knowledge/books/B074.md)
+- [外形与生活打理不承诺结果](../knowledge/books/B074.md)
+- [分享自己的内容不用排除日常](../knowledge/books/B074.md)
+- [能力与经历真实说不造竞争者](../knowledge/books/B074.md)
+- [先有自己的生活再选可行活动](../knowledge/books/B075.md)
+- [轻松不等于表演永远快乐](../knowledge/books/B075.md)
+- [真实兴趣不按性别分配](../knowledge/books/B075.md)
+- [付出和照片不形成社交债](../knowledge/books/B075.md)
+- [整洁和资料页展示真实生活](../knowledge/books/B075.md)
+- [整洁不设财力和外形门槛](../knowledge/books/B076.md)
+- [真实所长不需要先变全能](../knowledge/books/B076.md)
+- [帮忙和付出不形成亲密债](../knowledge/books/B076.md)
+- [真实生活不伪装财力](../knowledge/books/B076.md)
+- [善意不做资格考试](../knowledge/books/B076.md)
+- [表达练习不冒领行为品质](../knowledge/books/B076.md)
+- [真实展示不靠伪造人设](../knowledge/books/B077.md)
+- [过渡分享一件真实相关的事](../knowledge/books/B078.md)
+- [生活分享只讲确有且相关的一点](../knowledge/books/B079.md)
+- [讲真事保留主线和自然回应空间](../knowledge/books/B079.md)
+- [生活展示以真实和本人愿意为前提](../knowledge/books/B080.md)
+- [真故事讲主线和自己的实际感受](../knowledge/books/B080.md)
+- [透露真实生活也保留隐私](../knowledge/books/B081.md)
+- [需要关心可以具体说出来](../knowledge/books/B081.md)
+- [偏好说自己的不替另一方规定](../knowledge/books/B081.md)
+- [分享生活不靠虚构贵人身份](../knowledge/books/B082.md)
+- [交朋友不把朋友当吸引力道具](../knowledge/books/B082.md)
+- [择偶偏好具体且允许双方选择](../knowledge/books/B083.md)
+- [真实自我与可纠正的反馈](../knowledge/books/B083.md)
+- [分享生活不用假装不愿多说](../knowledge/books/B083.md)
+- [故事真实简短且尊重第三人](../knowledge/books/B083.md)
+- [分享真实细节不伪造好奇钩子](../knowledge/books/B084.md)
+- [真实身份可以包含多个生活重心](../knowledge/books/B085.md)
+- [真实表达期待不扮理想伴侣](../knowledge/books/B085.md)
+- [真实生活比安排背书更直接](../knowledge/books/B086.md)
+- [把真实经历讲成一小段可接的话](../knowledge/books/B086.md)
+- [仪容细节按真实生活与预算选择](../knowledge/books/B086.md)
+- [主动与彼此适应都不自动掉价](../knowledge/books/B087.md)
+- [真实经历留一处有用细节](../knowledge/books/B087.md)
+- [17：展示热爱要有真实行动](../knowledge/books/B091.md)
+- [20：知识和经历不用靠炫耀成立](../knowledge/books/B091.md)
+- [11：真实生活是素材，不是资格审查](../knowledge/books/B093.md)
+- [17：故事短到能听懂重点即可](../knowledge/books/B093.md)
+- [19：生活图片与视频保留真实身份](../knowledge/books/B093.md)
+- [06：了解别人不等于完全不展示自己](../knowledge/books/B094.md)
+- [把品质清单落到真实行为，而非扮演等级](../knowledge/books/B095.md)
+- [真实故事讲一个片段，给她插话的空间](../knowledge/books/B095.md)
+- [背景交错分享，不把聊天串成成长史问卷](../knowledge/books/B095.md)
+- [适量脆弱表达不拿来换同情或迅速建立关系](../knowledge/books/B095.md)
+- [个性清单不要求扮演万人迷或关注中心](../knowledge/books/B096.md)
+- [顺着话题分享成就，不组织虚假的旁证](../knowledge/books/B096.md)
+- [从她的关键词接一处，分享不索取等量回报](../knowledge/books/B096.md)
+- [故事可删冗余，不能把别人的经历变成自己的](../knowledge/books/B096.md)
+- [真实经历从一个动作讲起，不堆身份和虚构修饰](../knowledge/books/B096.md)
+- [相处能持续，边界与真实生活比奖品心态具体](../knowledge/books/B096.md)
+- [共同活动是实际场景，不是给人排等级的工具](../knowledge/books/B097.md)
+- [真实被了解，不伪造预选或利用嫉妒](../knowledge/books/B097.md)
+- [介绍朋友要基于真实联系，不虚构圈层身份](../knowledge/books/B097.md)
+- [B098有能力不等于必须争夺主导](../knowledge/books/B098.md)
+- [B098虚构选择与贬低不进入展示方法](../knowledge/books/B098.md)
+- [B098个人价值不以婚恋结果作总评](../knowledge/books/B098.md)
+- [B098自我实现无需接受绝望前提](../knowledge/books/B098.md)
+- [B099形象细节不作人格和健康判词](../knowledge/books/B099.md)
+- [B099个性清单不是统一的扮演要求](../knowledge/books/B099.md)
+- [B099意外感不需要关系忽冷忽热](../knowledge/books/B099.md)
+- [B099生活准备不预设来访与亲密](../knowledge/books/B099.md)
+- [B099道具不能伪装成读心和诊断](../knowledge/books/B099.md)
+- [B101-04 生活展示来自已经发生的真实内容](../knowledge/books/B101.md)
+- [B101-20 穿着与消费服从真实生活和预算](../knowledge/books/B101.md)
+- [B101-22 身份与共同经历不能编造](../knowledge/books/B101.md)
+- [B102-08 共同记忆必须确实属于双方](../knowledge/books/B102.md)
+- [B102-26 生活故事不能挪用成自己的人生](../knowledge/books/B102.md)
+- [B104-14 形象表达服务真实生活和预算](../knowledge/books/B104.md)
+- [B104-17 自我披露可以适量而真实](../knowledge/books/B104.md)
+- [B104-21 真实共同活动比制造社交证明更可用](../knowledge/books/B104.md)
+- [B104-25 借口、假身份与虚假预选不因结果而合理](../knowledge/books/B104.md)
+- [B104-58 资料展示真实能力，不借他人物品暗示身份](../knowledge/books/B104.md)
+- [B105-09 生活分享选一个真实细节，故事不是才艺考核](../knowledge/books/B105.md)
+- [B105-16 借活动联系必须有真实活动](../knowledge/books/B105.md)
+- [B105-23 朋友介绍保留真实，不设套隔离同行者](../knowledge/books/B105.md)
+- [B106-13 身份选择不等于必须消灭普通生活](../knowledge/books/B106.md)
+- [B106-19 科学与游戏兴趣不自动导致社交缺陷](../knowledge/books/B106.md)
+- [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
+
+## M11
+
+接住困扰；共89处。
+
+- [情绪回应指南的细节](../knowledge/books/G01-lianai.md)
+- [状态、感受、关联](../knowledge/books/S04-top30-units.md)；旧定位，仅追溯，未绑定整份正文。
+- [四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [按当前需要回应，不套观察表达邀请三件套](../knowledge/books/G01-natural-flow-and-conflict.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14、18–19章：已表达的感受与不强迫披露](../knowledge/books/B003-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页133–156取舍：理解感受与满足全部要求分开](../knowledge/books/B008-ch14-19-tail.md)；旧定位，仅追溯，未绑定整份正文。
+- [接回当前一轮；物理页632–640：承接已说出的具体困难，不凭套话或加重情绪](../knowledge/books/B010-difficult-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [用于承接困扰；物理页33–37取舍：具体倾听，不以更强情绪或强行积极证明理解](../knowledge/books/B011-defense-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [先听当前内容，再看是否求助；物理页31取舍，不敷衍也不抢着解决](../knowledge/books/B013-ch04-06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页783–790：承接已表达困扰，不用功能假说贴临床标签或忽略痛苦](../knowledge/books/B014-ch13.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine9：倾听真实困扰，不为恢复浪漫而提前转题；对应第五章情绪杀手取舍](../knowledge/books/B016-ch07.md)；旧定位，仅追溯，未绑定整份正文。
+- [第九、十一章：前任与受伤不设只准一次，不用抱怨次数诊断人格](../knowledge/books/B016-ch08-11.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页31–34取舍：困难时的求助不自动造成失去吸引，不以心锚为理由编借口回避](../knowledge/books/B020-lecture13.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段435–468取舍：帮助已发生的真实困难，不制造恐惧、意外或依赖，也不以帮助交换亲密](../knowledge/books/B030-feelings-and-observation.md)；旧定位，仅追溯，未绑定整份正文。
+- [21–22及50–51页取舍：接主动表达的困扰，不诱发创伤换取依赖](../knowledge/books/B044-autonomy-and-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。](../knowledge/books/B038-part5-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [160–187页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-connection-and-trust.md)；旧定位，仅追溯，未绑定整份正文。
+- [227–266页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-couple-communication.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-consent-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-care-and-help.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3–4、7、11，对应第一、二、五、九章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-childhood-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-independence-and-support.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-fame-health-and-constraints.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–59、104–109页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-topics-and-listening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4、6–9页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-mood-and-other-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [第21、27、37、42–43、46–47页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-listening-and-sharing.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [不满、让步与倾听](../knowledge/books/B054.md)
+- [接话、提问与安静](../knowledge/books/B055.md)
+- [善意付出与单边投入](../knowledge/books/B056.md)
+- [关心困扰与真实自我披露](../knowledge/books/B057.md)
+- [关心与脆弱可以直接且真实](../knowledge/books/B058.md)
+- [关心不附带恋爱承诺](../knowledge/books/B059.md)
+- [有矛盾先听问题与承担已核影响](../knowledge/books/B059.md)
+- [情绪支持不强迫倾诉](../knowledge/books/B060.md)
+- [安慰不靠假保证或贬低第三人](../knowledge/books/B061.md)
+- [分享生活不强迫交换秘密](../knowledge/books/B062.md)
+- [倾听先于替她解决](../knowledge/books/B063.md)
+- [认真情绪不做嘲弄](../knowledge/books/B064.md)
+- [具体欣赏与真实热情可以直接给](../knowledge/books/B065.md)
+- [倾听与提出新角度分开](../knowledge/books/B065.md)
+- [正常帮助不兑换私人陪伴](../knowledge/books/B066.md)
+- [关心实际需要不利用脆弱处境](../knowledge/books/B066.md)
+- [安全感不能靠制造恐惧取得](../knowledge/books/B067.md)
+- [安全选择与受害责任分开](../knowledge/books/B068.md)
+- [聆听允许不同感受和真实不同意](../knowledge/books/B069.md)
+- [脆弱真实也不产生补偿义务](../knowledge/books/B069.md)
+- [明确求助和表达困扰分别接住](../knowledge/books/B070.md)
+- [正常情绪不以气场好坏裁决](../knowledge/books/B070.md)
+- [负面情绪可以有现实原因](../knowledge/books/B071.md)
+- [难过时先听实际困扰](../knowledge/books/B071.md)
+- [困扰值得听不强迫积极](../knowledge/books/B074.md)
+- [失落不诊断成缺陷](../knowledge/books/B074.md)
+- [轻松不等于表演永远快乐](../knowledge/books/B075.md)
+- [相处质量不靠外貌排名](../knowledge/books/B075.md)
+- [真实情绪不按强弱排位](../knowledge/books/B076.md)
+- [困扰先听实际内容而非给保证](../knowledge/books/B078.md)
+- [关心从她确实说出的近况开始](../knowledge/books/B079.md)
+- [倾听以后回应她实际需要](../knowledge/books/B080.md)
+- [倾听不逼对方马上振作](../knowledge/books/B081.md)
+- [反馈可以诚实也允许暂时不谈](../knowledge/books/B081.md)
+- [可能需求先听本人怎么说](../knowledge/books/B083.md)
+- [情绪和实际求助按她本轮所求回应](../knowledge/books/B085.md)
+- [了解与支持按本人所求进行](../knowledge/books/B086.md)
+- [关心困扰不等于认输](../knowledge/books/B087.md)
+- [27：共情可以连接不同的真实经历](../knowledge/books/B091.md)
+- [29：脆弱表达不拿来调侃或速转积极](../knowledge/books/B091.md)
+- [30：情商术语不能包办所有原因](../knowledge/books/B093.md)
+- [适量脆弱表达不拿来换同情或迅速建立关系](../knowledge/books/B095.md)
+- [关注对方的具体内容，不能用积极强压困扰](../knowledge/books/B096.md)
+- [表达困扰与求助不等于低价值](../knowledge/books/B097.md)
+- [B098五阶段叙事不作临床流程](../knowledge/books/B098.md)
+- [B099想象训练不是经过核验的疗法](../knowledge/books/B099.md)
+- [B101-31 善意和具体欣赏不等于失去边界](../knowledge/books/B101.md)
+- [B101-54 关心和澄清可以在同一次回应里](../knowledge/books/B101.md)
+- [B101-55 难过时先核实际需要和接触边界](../knowledge/books/B101.md)
+- [B101-56 照顾不是交换关系的投资](../knowledge/books/B101.md)
+- [B102-09 共鸣不是进入亲密关系的通行证](../knowledge/books/B102.md)
+- [B102-29 关心感受不替对方定义人生](../knowledge/books/B102.md)
+- [B102-31 鼓励不应盖过当前的难受和求助](../knowledge/books/B102.md)
+- [B104-16 关心和求助不能被积极话题覆盖](../knowledge/books/B104.md)
+- [B104-36 深聊不是采集隐私来制造依赖](../knowledge/books/B104.md)
+- [B104-40 安慰方式不能默认身体接触更有效](../knowledge/books/B104.md)
+- [B105-29 情绪反应按当事人说明，不由激素故事代言](../knowledge/books/B105.md)
+- [B105-37 认真求助先回应所求，不统一解释成测试](../knowledge/books/B105.md)
+- [B106-12 分开后的失落不证明谁无能或谁变坏](../knowledge/books/B106.md)
+- [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
+
+## M12
+
+一起高兴；共19处。
+
+- [融洽与分享乐趣](../knowledge/books/S04-tyler/04-outer-first-six.md)；旧定位，仅追溯，未绑定整份正文。
+- [开心分享与事实检查](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页415–418：接住她的好消息，不用自己的经历压过她](../knowledge/books/B004-ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页88–97：回应真实好消息，不强装乐观](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [160–187页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-connection-and-trust.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项3、5–6，对应第一、三、四章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-kindness-and-vitality.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体欣赏与真实热情可以直接给](../knowledge/books/B065.md)
+- [共舞按双方能配合的方式来](../knowledge/books/B067.md)
+- [欣赏落在具体行为和作品上](../knowledge/books/B068.md)
+- [让对方展现擅长的事](../knowledge/books/B069.md)
+- [具体欣赏不变成行为奖赏](../knowledge/books/B070.md)
+- [欣赏不夹带贬低和任务](../knowledge/books/B071.md)
+- [真诚欣赏与一起高兴，不必故意憋笑](../knowledge/books/B097.md)
+- [B099欣赏具体细节不等于永不赞美](../knowledge/books/B099.md)
+- [B105-14 具体欣赏不附带资格审查](../knowledge/books/B105.md)
+- [B106-23 自然表达不按秒数控制笑声与回答](../knowledge/books/B106.md)
+- [B106-28 一起高兴不抢成比较与教学](../knowledge/books/B106.md)
+
+## M13
+
+回答她确实提出的求助；共57处。
+
+- [认真回应资讯与求助](../knowledge/topics/humor-threading.md)；旧定位，仅追溯，未绑定整份正文。
+- [倾听与方案区别](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
+- [四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [环境影响、真实认可与自主协商的区别](../knowledge/books/S04-influence.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-care-and-help.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-listening-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-independence-and-support.md)；旧定位，仅追溯，未绑定整份正文。
+- [第76–81、114–121、127–128页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-requests-and-tests.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4、6–9页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-mood-and-other-people.md)；旧定位，仅追溯，未绑定整份正文。
+- [第26–30、35–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-health-claims-and-drinks.md)；旧定位，仅追溯，未绑定整份正文。
+- [第21、27、37、42–43、46–47页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-listening-and-sharing.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [不满、让步与倾听](../knowledge/books/B054.md)
+- [帮忙、花费与单边投入](../knowledge/books/B055.md)
+- [善意付出与单边投入](../knowledge/books/B056.md)
+- [关心困扰与真实自我披露](../knowledge/books/B057.md)
+- [幽默不承担服从训练](../knowledge/books/B058.md)
+- [关心不附带恋爱承诺](../knowledge/books/B059.md)
+- [情绪支持不强迫倾诉](../knowledge/books/B060.md)
+- [认真问句先按实际内容回答](../knowledge/books/B061.md)
+- [安慰不靠假保证或贬低第三人](../knowledge/books/B061.md)
+- [倾听先于替她解决](../knowledge/books/B063.md)
+- [认真情绪不做嘲弄](../knowledge/books/B064.md)
+- [正常请求不等于服从测试](../knowledge/books/B064.md)
+- [倾听与提出新角度分开](../knowledge/books/B065.md)
+- [正常帮助不兑换私人陪伴](../knowledge/books/B066.md)
+- [关心实际需要不利用脆弱处境](../knowledge/books/B066.md)
+- [安全感不能靠制造恐惧取得](../knowledge/books/B067.md)
+- [安全选择与受害责任分开](../knowledge/books/B068.md)
+- [明确求助和表达困扰分别接住](../knowledge/books/B070.md)
+- [难过时先听实际困扰](../knowledge/books/B071.md)
+- [征询意见让对方自愿参与](../knowledge/books/B076.md)
+- [真实情绪不按强弱排位](../knowledge/books/B076.md)
+- [愿意帮忙不用换取配合](../knowledge/books/B078.md)
+- [受邀帮忙不因此降低谁的价值](../knowledge/books/B080.md)
+- [医疗疑问不能用问卷代替核验](../knowledge/books/B081.md)
+- [情绪和实际求助按她本轮所求回应](../knowledge/books/B085.md)
+- [普通问题先当普通问题处理](../knowledge/books/B087.md)
+- [中断后能回扣，不把话题弃置包装成地位](../knowledge/books/B095.md)
+- [确实提出的求助，按意愿和能力回应](../knowledge/books/B095.md)
+- [表达困扰与求助不等于低价值](../knowledge/books/B097.md)
+- [B099正常需要与持续单边须分开](../knowledge/books/B099.md)
+- [B099不同意见与求助不能全叫测试](../knowledge/books/B099.md)
+- [B099体贴不是无条件接管或牺牲](../knowledge/books/B099.md)
+- [B099付出与边界须放在同一过程里](../knowledge/books/B099.md)
+- [B101-55 难过时先核实际需要和接触边界](../knowledge/books/B101.md)
+- [B102-19 求助和生活能力不换成亲密报酬](../knowledge/books/B102.md)
+- [B102-21 身份核实是具体问题不是自动测试](../knowledge/books/B102.md)
+- [B102-31 鼓励不应盖过当前的难受和求助](../knowledge/books/B102.md)
+- [B104-16 关心和求助不能被积极话题覆盖](../knowledge/books/B104.md)
+- [B105-20 帮助和专业身份不交换亲密](../knowledge/books/B105.md)
+- [B105-37 认真求助先回应所求，不统一解释成测试](../knowledge/books/B105.md)
+- [B106-05 正常善意与交换恋爱的期待分开](../knowledge/books/B106.md)
+- [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
+
+## M14
+
+一次具体邀约；共127处。
+
+- [实际动作的条件](../knowledge/topics/invitation-feedback.md)
+- [主动与具体邀请](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [三步法与直接邀约的适用区别](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；旧定位，仅追溯，未绑定整份正文。
+- [P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；旧定位，仅追溯，未绑定整份正文。
+- [已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE26–49：准备、一次行动与平等协商](../knowledge/books/S04-attraction-ch02.md)；旧定位，仅追溯，未绑定整份正文。
+- [第24章：一次真实可行邀请与不采用固定夜晚](../knowledge/books/B003-ch20-27.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页482–503：真实安排、便利与一个具体活动](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页100–101：提出具体偏好而允许协商，不单向决定](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页7、10–11：真实具体活动，不强制走完整阶段](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页7取舍：明确真实活动与期待，保留本人调整和拒绝空间](../knowledge/books/B012-ch01-02.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十七章：具体活动、真实交通、预算、偏好与备用方案，不以花费换取亲密](../knowledge/books/B016-ch15-18.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页149–160取舍：双向互动后提出真实具体安排，地点与变更清楚说明并保留选择](../knowledge/books/B024-mechanics-and-dates.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段663–688取舍：有双向与真实安排才具体邀约，不编顺路或制造不确定，没替代不换日期追问](../knowledge/books/B030-online-and-follow-up.md)；旧定位，仅追溯，未绑定整份正文。
+- [第三十七章及第四十四至四十七、五十二章取舍：由已有共同话题提出一次真实具体安排，不以转场、测试或未来式表态冒认接受](../knowledge/books/B032-invitations-and-confirmation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第四章39803–44019、第五章60727–61670取舍：介绍真实可行活动供对方选择，参与想象不等于接受安排](../knowledge/books/B033-conversation-and-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [25–26及94页取舍：具体地点与时长可协商，二选一不封锁拒绝活动](../knowledge/books/B040-words-and-format.md)；旧定位，仅追溯，未绑定整份正文。
+- [5–13页原页取舍：根据对方明确偏好商量活动，不先套类型攻略](../knowledge/books/B052-current-behavior.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。](../knowledge/books/B038-part4-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [14–50页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-social-opportunities.md)；旧定位，仅追溯，未绑定整份正文。
+- [132–159页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-date-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-relationship-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confession-and-investment.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-biology-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-expectations-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [第59–64、88–91、114–119页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-consent-and-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9、11–12页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-classification-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第12–15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-budget-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第20–26页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-coffee-and-shared-experience.md)；旧定位，仅追溯，未绑定整份正文。
+- [第7–12、25–30、39–45、55–56页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-preferences-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [第25–32、35–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-invitation-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [主动表达与一次具体邀请](../knowledge/books/B054.md)
+- [活动选择与见面长度](../knowledge/books/B055.md)
+- [一次具体邀请与拒绝后收住](../knowledge/books/B056.md)
+- [邀约与后续连接落实到双方安排](../knowledge/books/B057.md)
+- [共同活动和转场落实真实意愿](../knowledge/books/B058.md)
+- [真实意愿与具体邀约](../knowledge/books/B059.md)
+- [独立安排要和兑现约定一起保留](../knowledge/books/B061.md)
+- [留下联系方式与答应见面分开](../knowledge/books/B062.md)
+- [想见面就给可选择的具体建议](../knowledge/books/B063.md)
+- [联系时机不靠故意拖延](../knowledge/books/B063.md)
+- [提出具体轻负担的真实活动](../knowledge/books/B065.md)
+- [联系方式不换取承诺](../knowledge/books/B065.md)
+- [共同活动让每个人保留选择](../knowledge/books/B065.md)
+- [表达好感不用让她欠一次机会](../knowledge/books/B066.md)
+- [邀约把活动和参加范围说清](../knowledge/books/B066.md)
+- [临时邀请按真实安排决定](../knowledge/books/B066.md)
+- [共同圈子不替当事人答应](../knowledge/books/B066.md)
+- [联系方式需要对方真的愿意给](../knowledge/books/B067.md)
+- [共同活动和转场分别征求选择](../knowledge/books/B067.md)
+- [共舞按双方能配合的方式来](../knowledge/books/B067.md)
+- [交换联系方式各有选择权](../knowledge/books/B068.md)
+- [邀约明确并允许真实协商](../knowledge/books/B068.md)
+- [带朋友不直接证明没兴趣](../knowledge/books/B068.md)
+- [初次活动兼顾方便和退出空间](../knowledge/books/B068.md)
+- [关系意向可以诚实说](../knowledge/books/B069.md)
+- [冒险只承担自己被拒的可能](../knowledge/books/B069.md)
+- [共同活动先有清楚的活动范围](../knowledge/books/B069.md)
+- [自然互动以后仍需说清意愿](../knowledge/books/B069.md)
+- [让邀约容易理解和落实](../knowledge/books/B069.md)
+- [勇敢表达不制造恐惧](../knowledge/books/B069.md)
+- [关系情况不是突破口](../knowledge/books/B069.md)
+- [好感和长期关系目标可以诚实表达](../knowledge/books/B070.md)
+- [邀约说明在答应什么](../knowledge/books/B070.md)
+- [答应后落实不靠假忙](../knowledge/books/B070.md)
+- [关系情况用来尊重范围](../knowledge/books/B070.md)
+- [清楚好感不按分钟完成关卡](../knowledge/books/B071.md)
+- [已经给出时间就协调安排](../knowledge/books/B071.md)
+- [团体约会和跳舞不自动升级](../knowledge/books/B071.md)
+- [一次邀约说清真实活动](../knowledge/books/B074.md)
+- [联系方式和赴约分别判断](../knowledge/books/B074.md)
+- [共同活动不需要抢领导权](../knowledge/books/B075.md)
+- [邀约说实际活动并让人选择](../knowledge/books/B075.md)
+- [活动费用形式不用证明地位](../knowledge/books/B075.md)
+- [交换联系方式和后续参与分开](../knowledge/books/B075.md)
+- [联系渠道和后续同意分清](../knowledge/books/B076.md)
+- [消费预算可以直接商量](../knowledge/books/B076.md)
+- [请客不交换下一次或身体回应](../knowledge/books/B076.md)
+- [线上渠道按当前真实条件使用](../knowledge/books/B076.md)
+- [邀约不设见面硬期限](../knowledge/books/B076.md)
+- [邀请从双方已有兴趣落地](../knowledge/books/B077.md)
+- [真实邀约说清愿意参加什么](../knowledge/books/B078.md)
+- [邀约说清一项双方能选择的安排](../knowledge/books/B079.md)
+- [邀约选现实兴趣预算与可行时间](../knowledge/books/B080.md)
+- [通话服务于了解和可选的见面](../knowledge/books/B083.md)
+- [换场和独处都要共同选择](../knowledge/books/B083.md)
+- [得到号码后仍看实际双向安排](../knowledge/books/B084.md)
+- [设想与已经确认的安排分开](../knowledge/books/B086.md)
+- [约会安排保留共同体验与交流空间](../knowledge/books/B086.md)
+- [邀约具体但不给连续日期压力](../knowledge/books/B086.md)
+- [安排是否成立看本人实际答应](../knowledge/books/B087.md)
+- [31：联系方式服务于双方愿意的安排](../knowledge/books/B091.md)
+- [32：即时活动先看双方是否有空](../knowledge/books/B091.md)
+- [24：从共同兴趣提出一次具体活动](../knowledge/books/B093.md)
+- [32：潜台词保留不确定性](../knowledge/books/B093.md)
+- [换位置或单独聊，先提出可拒绝的邀请](../knowledge/books/B095.md)
+- [先确认通话是否方便，再确认已答应的安排](../knowledge/books/B095.md)
+- [邀约是具体提议，不是命令或资格奖赏](../knowledge/books/B095.md)
+- [兴趣看连续投入，具体替代时间比肢体猜测清楚](../knowledge/books/B096.md)
+- [朋友或组织者不能替她同意见面](../knowledge/books/B097.md)
+- [组织活动落实日期与内容，不把参与算作恋爱表态](../knowledge/books/B097.md)
+- [推进看具体愿意做什么，不靠服从阈值](../knowledge/books/B097.md)
+- [B099有主见不等于不问本人意愿](../knowledge/books/B099.md)
+- [B099推进可以具体但不是不断升级](../knowledge/books/B099.md)
+- [B099生活准备不预设来访与亲密](../knowledge/books/B099.md)
+- [B099联系方式存在不等于愿意提供](../knowledge/books/B099.md)
+- [B099邀约有日期活动但不默认答应](../knowledge/books/B099.md)
+- [B099共同活动可以自然产生话题](../knowledge/books/B099.md)
+- [B101-10 交换号码不等于已形成关系](../knowledge/books/B101.md)
+- [B101-26 具体邀请要给真实可判断的信息](../knowledge/books/B101.md)
+- [B101-28 邀约内容与实际目的保持一致](../knowledge/books/B101.md)
+- [B102-05 五段结构只是来源自己的组织方式](../knowledge/books/B102.md)
+- [B102-32 模糊试探不是具体邀约的必经步骤](../knowledge/books/B102.md)
+- [B102-33 请客和帮助不能用来制造见面义务](../knowledge/books/B102.md)
+- [B104-12 清楚提议与最终确认分开](../knowledge/books/B104.md)
+- [B104-43 得到号码与落实见面分开](../knowledge/books/B104.md)
+- [B104-44 邀请基于真实空闲和活动](../knowledge/books/B104.md)
+- [B105-15 拿到联系方式后按实际结束，不表演停留](../knowledge/books/B105.md)
+- [B105-16 借活动联系必须有真实活动](../knowledge/books/B105.md)
+- [B105-17 转场说明地点和活动，不折算成亲密时间](../knowledge/books/B105.md)
+- [B105-26 未来话题区分想法、邀请和已确认计划](../knowledge/books/B105.md)
+- [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
+- [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+
+## M15
+
+确认已答应的安排；共90处。
+
+- [意愿、安排与实际见面分层](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [现实安排](../knowledge/cases/C09-b092-logistics.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE118–123：不可预测与实际安排冲突](../knowledge/books/S04-attraction-ch05-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [落实安排、关系意愿与一次当前行动](../knowledge/books/G04-intent-and-follow-through.md)；旧定位，仅追溯，未绑定整份正文。
+- [第24–25章：承接实际替代时间、说明去向与确认安排](../knowledge/books/B003-ch20-27.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页488–503：双方同意后确认时间地点](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页11：双方愿意后确认时间与地点](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [第五十二章取舍：服装要求与见面安排分别确认；附加项冷淡不自动取消已答应活动，不故意失约或制造等待](../knowledge/books/B032-invitations-and-confirmation.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。](../knowledge/books/B038-part4-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [132–159页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-date-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [婚姻选择、距离与相处差异](../knowledge/books/B054.md)
+- [准备行程与共同决定](../knowledge/books/B055.md)
+- [一次具体邀请与拒绝后收住](../knowledge/books/B056.md)
+- [邀约与后续连接落实到双方安排](../knowledge/books/B057.md)
+- [承诺与共同计划应当能兑现](../knowledge/books/B058.md)
+- [共同活动和转场落实真实意愿](../knowledge/books/B058.md)
+- [真实意愿与具体邀约](../knowledge/books/B059.md)
+- [长期关系要谈现实计划](../knowledge/books/B059.md)
+- [真实计划与兑现不以甜话替代](../knowledge/books/B060.md)
+- [独立安排要和兑现约定一起保留](../knowledge/books/B061.md)
+- [想见面就给可选择的具体建议](../knowledge/books/B063.md)
+- [确认安排后就兑现](../knowledge/books/B064.md)
+- [已确认的安排清楚说明并兑现](../knowledge/books/B065.md)
+- [邀约把活动和参加范围说清](../knowledge/books/B066.md)
+- [共同活动和转场分别征求选择](../knowledge/books/B067.md)
+- [计划与可靠程度用具体行动呈现](../knowledge/books/B067.md)
+- [联络不用三十六到七十二小时计时](../knowledge/books/B068.md)
+- [邀约明确并允许真实协商](../knowledge/books/B068.md)
+- [初次活动兼顾方便和退出空间](../knowledge/books/B068.md)
+- [共同活动先有清楚的活动范围](../knowledge/books/B069.md)
+- [让邀约容易理解和落实](../knowledge/books/B069.md)
+- [邀约说明在答应什么](../knowledge/books/B070.md)
+- [答应后落实不靠假忙](../knowledge/books/B070.md)
+- [共同话题可转语音但先核方便](../knowledge/books/B071.md)
+- [已经给出时间就协调安排](../knowledge/books/B071.md)
+- [团体约会和跳舞不自动升级](../knowledge/books/B071.md)
+- [一次邀约说清真实活动](../knowledge/books/B074.md)
+- [联系不靠固定天数或连拨](../knowledge/books/B074.md)
+- [联系方式和赴约分别判断](../knowledge/books/B074.md)
+- [共同活动不需要抢领导权](../knowledge/books/B075.md)
+- [邀约说实际活动并让人选择](../knowledge/books/B075.md)
+- [活动费用形式不用证明地位](../knowledge/books/B075.md)
+- [交换联系方式和后续参与分开](../knowledge/books/B075.md)
+- [消费预算可以直接商量](../knowledge/books/B076.md)
+- [邀约不设见面硬期限](../knowledge/books/B076.md)
+- [同行人和换场需要商量](../knowledge/books/B077.md)
+- [说定后的可靠比反差更具体](../knowledge/books/B078.md)
+- [确认过的计划按事实履行](../knowledge/books/B079.md)
+- [设想与已经确认的安排分开](../knowledge/books/B086.md)
+- [号码与聊天热度不等于已经约成](../knowledge/books/B086.md)
+- [真实承诺与已变更安排要兑现](../knowledge/books/B086.md)
+- [安排是否成立看本人实际答应](../knowledge/books/B087.md)
+- [31：联系方式服务于双方愿意的安排](../knowledge/books/B091.md)
+- [24：从共同兴趣提出一次具体活动](../knowledge/books/B093.md)
+- [先确认通话是否方便，再确认已答应的安排](../knowledge/books/B095.md)
+- [约会路线透明，转场和亲近各自征求意愿](../knowledge/books/B095.md)
+- [组织活动落实日期与内容，不把参与算作恋爱表态](../knowledge/books/B097.md)
+- [时间相互尊重，不设迟到和通话的统一秒表](../knowledge/books/B097.md)
+- [B099反射性拒绝会挡住正常配合](../knowledge/books/B099.md)
+- [B099意外感不需要关系忽冷忽热](../knowledge/books/B099.md)
+- [B099推进可以具体但不是不断升级](../knowledge/books/B099.md)
+- [B099邀约有日期活动但不默认答应](../knowledge/books/B099.md)
+- [B099确认安排不以绝交威胁防爽约](../knowledge/books/B099.md)
+- [B101-26 具体邀请要给真实可判断的信息](../knowledge/books/B101.md)
+- [B101-33 答应过的关心要正常兑现](../knowledge/books/B101.md)
+- [B101-36 同行人数、消费和范围可以直说](../knowledge/books/B101.md)
+- [B101-42 更换到私密地点是新的决定](../knowledge/books/B101.md)
+- [B102-07 安全感靠信息和安排体现](../knowledge/books/B102.md)
+- [B102-32 模糊试探不是具体邀约的必经步骤](../knowledge/books/B102.md)
+- [B102-34 私人地点和关系期待要说明白](../knowledge/books/B102.md)
+- [B102-38 答应某项活动后再核细节](../knowledge/books/B102.md)
+- [B104-12 清楚提议与最终确认分开](../knowledge/books/B104.md)
+- [B104-37 一对一交流与排除选择空间分开](../knowledge/books/B104.md)
+- [B104-43 得到号码与落实见面分开](../knowledge/books/B104.md)
+- [B104-44 邀请基于真实空闲和活动](../knowledge/books/B104.md)
+- [B104-45 有人同行不自动说明人品或兴趣](../knowledge/books/B104.md)
+- [B104-46 目的地与转场要明说](../knowledge/books/B104.md)
+- [B104-56 电话按双方方便，不争谁先挂断](../knowledge/books/B104.md)
+- [B105-17 转场说明地点和活动，不折算成亲密时间](../knowledge/books/B105.md)
+- [B105-25 尊重不靠惩罚或控制对方建立](../knowledge/books/B105.md)
+- [B105-26 未来话题区分想法、邀请和已确认计划](../knowledge/books/B105.md)
+- [B105-27 共同安排变动先核当前事实和成本](../knowledge/books/B105.md)
+- [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
+- [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
+- [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+
+## M16
+
+承接替代时间或重约；共35处。
+
+- [不能某天但提供替代](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [兑现与修复](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。](../knowledge/books/B038-part4-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [132–159页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-date-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-inconsistency-and-cancellations.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9、11–12页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-classification-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第7–12、25–30、39–45、55–56页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-preferences-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第25–32、35–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-invitation-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [活动选择与见面长度](../knowledge/books/B055.md)
+- [邀约与后续连接落实到双方安排](../knowledge/books/B057.md)
+- [共同活动和转场落实真实意愿](../knowledge/books/B058.md)
+- [真实计划与兑现不以甜话替代](../knowledge/books/B060.md)
+- [独立安排要和兑现约定一起保留](../knowledge/books/B061.md)
+- [确认安排后就兑现](../knowledge/books/B064.md)
+- [没空无替代安排时先收住](../knowledge/books/B065.md)
+- [已确认的安排清楚说明并兑现](../knowledge/books/B065.md)
+- [临时邀请按真实安排决定](../knowledge/books/B066.md)
+- [邀约明确并允许真实协商](../knowledge/books/B068.md)
+- [没空无替代安排就先收住](../knowledge/books/B068.md)
+- [取消和爽约先核事实再定边界](../knowledge/books/B068.md)
+- [已经给出时间就协调安排](../knowledge/books/B071.md)
+- [邀约具体但不给连续日期压力](../knowledge/books/B086.md)
+- [32：即时活动先看双方是否有空](../knowledge/books/B091.md)
+- [25：不以催促替代双方安排](../knowledge/books/B093.md)
+- [邀约是具体提议，不是命令或资格奖赏](../knowledge/books/B095.md)
+- [爽约先核事实和补约，不伪装忘记来掩饰](../knowledge/books/B095.md)
+- [兴趣看连续投入，具体替代时间比肢体猜测清楚](../knowledge/books/B096.md)
+- [推进看具体愿意做什么，不靠服从阈值](../knowledge/books/B097.md)
+- [B099确认安排不以绝交威胁防爽约](../knowledge/books/B099.md)
+- [B101-27 替代时间与反复更换日期分开](../knowledge/books/B101.md)
+- [B102-37 没空的理由和替代安排分别核](../knowledge/books/B102.md)
+- [B104-57 没有替代安排时不靠持续试探逼出答应](../knowledge/books/B104.md)
+- [B105-27 共同安排变动先核当前事实和成本](../knowledge/books/B105.md)
+- [B105-33 没空先按安排判断，不拿明星比较逼结论](../knowledge/books/B105.md)
+- [B106-26 确认行程有实际用途，不因怕显需求而省略](../knowledge/books/B106.md)
+
+## M17
+
+没替代方案时收住；共60处。
+
+- [持续劝约反例](../knowledge/cases/C02-online-invitation.md)；旧定位，仅追溯，未绑定整份正文。
+- [尚未形成具体安排](../knowledge/topics/invitation-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [未拒绝不等于接受；R02工作情境与微信迁移限制](../knowledge/topics/interest-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项12，Part4。；见原创论点取舍与执行限制。](../knowledge/books/B038-part4-invitations.md)；旧定位，仅追溯，未绑定整份正文。
+- [132–159页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-date-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confession-and-investment.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-inconsistency-and-cancellations.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-ending-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [第120–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-expectations-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第12–15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-budget-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13–14、21–24、27–33页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-repair-and-return.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [第25–32、35–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-invitation-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [主动表达与一次具体邀请](../knowledge/books/B054.md)
+- [准备行程与共同决定](../knowledge/books/B055.md)
+- [一次具体邀请与拒绝后收住](../knowledge/books/B056.md)
+- [邀约与后续连接落实到双方安排](../knowledge/books/B057.md)
+- [共同活动和转场落实真实意愿](../knowledge/books/B058.md)
+- [需要空间与拒绝具体范围](../knowledge/books/B059.md)
+- [不把拒绝改译成试探](../knowledge/books/B060.md)
+- [拒绝不能被话术重新定义](../knowledge/books/B061.md)
+- [关系定位需要双方接受](../knowledge/books/B061.md)
+- [想见面就给可选择的具体建议](../knowledge/books/B063.md)
+- [接受拒绝不把朋友当欠债](../knowledge/books/B063.md)
+- [拒绝情境不能按错译处理](../knowledge/books/B064.md)
+- [没空无替代安排时先收住](../knowledge/books/B065.md)
+- [曾经示好仍可以改变主意](../knowledge/books/B066.md)
+- [临时邀请按真实安排决定](../knowledge/books/B066.md)
+- [没空无替代安排就先收住](../knowledge/books/B068.md)
+- [已有安排不靠连续说服改变](../knowledge/books/B069.md)
+- [让邀约容易理解和落实](../knowledge/books/B069.md)
+- [拒绝后保持尊重不继续加码](../knowledge/books/B069.md)
+- [失约原因未知不自动自责](../knowledge/books/B069.md)
+- [没有替代安排就先收住](../knowledge/books/B070.md)
+- [拒绝不需要被解释成有兴趣](../knowledge/books/B070.md)
+- [技术性拒绝不覆盖明确原话](../knowledge/books/B071.md)
+- [忙碌和取消要给表达空间](../knowledge/books/B071.md)
+- [没有替代安排就停止追约](../knowledge/books/B074.md)
+- [邀约不设见面硬期限](../knowledge/books/B076.md)
+- [没空而未给替代时不连换日期](../knowledge/books/B079.md)
+- [十项失误清单逐项保留判断边界](../knowledge/books/B083.md)
+- [邀约具体但不给连续日期压力](../knowledge/books/B086.md)
+- [失约的事实成本与未知动机分开](../knowledge/books/B086.md)
+- [安排是否成立看本人实际答应](../knowledge/books/B087.md)
+- [32：即时活动先看双方是否有空](../knowledge/books/B091.md)
+- [25：不以催促替代双方安排](../knowledge/books/B093.md)
+- [不按固定间隔反复拨打或拖延回复](../knowledge/books/B095.md)
+- [邀约是具体提议，不是命令或资格奖赏](../knowledge/books/B095.md)
+- [爽约先核事实和补约，不伪装忘记来掩饰](../knowledge/books/B095.md)
+- [时空与既有安排会限制见面，不能全归责聊天技巧](../knowledge/books/B097.md)
+- [多次碰面不保证升温，单边循环要收住](../knowledge/books/B097.md)
+- [投入下降先收住，明确拒绝不进入反复循环](../knowledge/books/B097.md)
+- [B099不回应不解释成欲擒故纵](../knowledge/books/B099.md)
+- [B099确认安排不以绝交威胁防爽约](../knowledge/books/B099.md)
+- [B101-27 替代时间与反复更换日期分开](../knowledge/books/B101.md)
+- [B102-37 没空的理由和替代安排分别核](../knowledge/books/B102.md)
+- [B104-57 没有替代安排时不靠持续试探逼出答应](../knowledge/books/B104.md)
+- [B105-21 有伴侣与明确拒绝不解释成保护壳](../knowledge/books/B105.md)
+- [B105-33 没空先按安排判断，不拿明星比较逼结论](../knowledge/books/B105.md)
+- [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
+
+## M18
+
+完整短答照常接；共46处。
+
+- [短回与封闭问题](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [信号表的限制](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页8：闭合回答可能已完整，不自动补无穷话题](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-interest-and-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [第82–103、126页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-body-language-limits.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、19–24页；原创教学取舍，非实证验证。](../knowledge/books/B053-question-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [友好、好感与明确意愿分开](../knowledge/books/B054.md)
+- [接话、提问与安静](../knowledge/books/B055.md)
+- [兴趣观察依靠连续实际投入](../knowledge/books/B057.md)
+- [兴趣信号不能累计成许可](../knowledge/books/B058.md)
+- [当下状态与弱信号分开判断](../knowledge/books/B060.md)
+- [少盘问也不意味着一人连续表演](../knowledge/books/B061.md)
+- [认真问句先按实际内容回答](../knowledge/books/B061.md)
+- [了解兴趣无需让她参加资格考试](../knowledge/books/B062.md)
+- [认真好奇从她答案接下去](../knowledge/books/B063.md)
+- [已确认的安排清楚说明并兑现](../knowledge/books/B065.md)
+- [她愿意展开时再认真接下去](../knowledge/books/B066.md)
+- [联系节奏跟实际互动走](../knowledge/books/B066.md)
+- [回答之后再顺着实际内容展开](../knowledge/books/B067.md)
+- [顺着她实际展开的内容接话](../knowledge/books/B068.md)
+- [通话先尊重方便程度](../knowledge/books/B068.md)
+- [留出停顿不是失去控制](../knowledge/books/B069.md)
+- [陈述带出自己也容得下正常提问](../knowledge/books/B069.md)
+- [提问正常回答不先判成测试](../knowledge/books/B070.md)
+- [留停顿不靠沉默逼出承诺](../knowledge/books/B070.md)
+- [普通问题先回答再分享一点](../knowledge/books/B071.md)
+- [不知道可以是完整回答](../knowledge/books/B071.md)
+- [短答先按问题范围理解](../knowledge/books/B071.md)
+- [认真提问正常回答](../knowledge/books/B074.md)
+- [停顿可以保留离开也可以](../knowledge/books/B074.md)
+- [认真问题先认真回答](../knowledge/books/B075.md)
+- [短反应和符号不判内心](../knowledge/books/B077.md)
+- [07：普通问候的意义取决于上下文](../knowledge/books/B093.md)
+- [09：封闭问题的短答可以是完整回答](../knowledge/books/B094.md)
+- [提问目录用于挑一个相关点，不逐项盘问](../knowledge/books/B096.md)
+- [B099不连续采访仍可以了解真实生活](../knowledge/books/B099.md)
+- [B101-15 礼貌回应仍是弱信号](../knowledge/books/B101.md)
+- [B102-11 好奇不等于对本人有兴趣](../knowledge/books/B102.md)
+- [B104-18 目光、微笑和提问不单独确认兴趣](../knowledge/books/B104.md)
+- [B104-52 忙碌状态先按实际任务理解](../knowledge/books/B104.md)
+- [B104-54 短而完整，不等于故意漏答](../knowledge/books/B104.md)
+- [B105-12 名字、微笑和回答不自动成为恋爱兴趣](../knowledge/books/B105.md)
+- [B106-10 回应及时和愿意倾听不等于低位](../knowledge/books/B106.md)
+- [B106-23 自然表达不按秒数控制笑声与回答](../knowledge/books/B106.md)
+
+## M19
+
+持续单边时停止加码；共127处。
+
+- [互惠与停止加码](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [投入判断](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–5阶段、主动关心与调侃的内部冲突及自报结果限制](../knowledge/books/S16-mystery-essence.md)；旧定位，仅追溯，未绑定整份正文。
+- [一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；旧定位，仅追溯，未绑定整份正文。
+- [评分阈值不替代连续行为和具体意愿](../knowledge/books/G04-observation-not-profiling.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE37–49：拒绝未知、投入与无数据概率类比](../knowledge/books/S04-attraction-ch02.md)；旧定位，仅追溯，未绑定整份正文。
+- [主动比例、打分趋势和求助次数不替代实际投入](../knowledge/books/G04-intent-and-follow-through.md)；旧定位，仅追溯，未绑定整份正文。
+- [低回应不能靠换电话或反复劝约突破](../knowledge/books/B003-ch20-27.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页42–47：观察连续实际投入，不从性别预设剥削动机](../knowledge/books/B007-ch06-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页55–85取舍：正常互助、真实停止加码与投入边界](../knowledge/books/B008-ch07-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页506–509、524–534取舍：长期互惠与即时算账不同，不用博弈或所谓不可替代训练对方](../knowledge/books/B014-ch09.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页5–17取舍：具体互惠与真实可承担范围，不用4.9比5.1计分或把结果归为个人价值](../knowledge/books/B020-lectures01-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [第三十七至三十八、四十四至四十七及五十二章取舍：单次短答先核问题，连续单边才收住，不用事后成功背书持续追发](../knowledge/books/B032-observation-and-classification.md)；旧定位，仅追溯，未绑定整份正文。
+- [第六章及第七章87859–90222取舍：投入以自己愿意和连续互动为界，不用多人牵制、持续加码或交换条件制造回应](../knowledge/books/B033-investment-and-exploitation.md)；旧定位，仅追溯，未绑定整份正文。
+- [5–13页长期关系栏取舍：看连续实际投入，不以花费和交换强制推进](../knowledge/books/B052-current-behavior.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。](../knowledge/books/B036-autonomy-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-agency.md)；旧定位，仅追溯，未绑定整份正文。
+- [301–344页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-repair-and-recovery.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页4–24、81–83及90–95；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-interest-and-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页51–56；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confession-and-investment.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页45–47、61–69及79–83；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-practice-and-opportunities.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项4、9–10，对应第二、七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-approval-and-self-blame.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7–8，对应第五、六章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-inconsistency-and-cancellations.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-ending-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [第41–45、60–64、122–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-system-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [第120–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-expectations-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–6、9–10页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-confidence-and-equality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第12–15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-budget-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–13、39–45、63–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-self-worth-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13–14、21–24、27–33页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-repair-and-return.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–21页；原创教学取舍，非实证验证。](../knowledge/books/B053-reciprocal-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [友好、好感与明确意愿分开](../knowledge/books/B054.md)
+- [接话、提问与安静](../knowledge/books/B055.md)
+- [善意付出与单边投入](../knowledge/books/B056.md)
+- [兴趣观察依靠连续实际投入](../knowledge/books/B057.md)
+- [节奏和付出不用于控制对方](../knowledge/books/B057.md)
+- [兴趣信号不能累计成许可](../knowledge/books/B058.md)
+- [个人拒绝不归结身高人格](../knowledge/books/B059.md)
+- [当下状态与弱信号分开判断](../knowledge/books/B060.md)
+- [不把拒绝改译成试探](../knowledge/books/B060.md)
+- [少盘问也不意味着一人连续表演](../knowledge/books/B061.md)
+- [拒绝不能被话术重新定义](../knowledge/books/B061.md)
+- [留出空间不制造情绪起落](../knowledge/books/B061.md)
+- [接受拒绝不把朋友当欠债](../knowledge/books/B063.md)
+- [复盘先看外部事实和明确证据](../knowledge/books/B065.md)
+- [没空无替代安排时先收住](../knowledge/books/B065.md)
+- [退出单向付出是照顾自己的边界](../knowledge/books/B066.md)
+- [联系节奏跟实际互动走](../knowledge/books/B066.md)
+- [复盘不把拒绝归成个人无能](../knowledge/books/B066.md)
+- [被拒先保留现实原因与未知](../knowledge/books/B067.md)
+- [关心与联系不靠模糊态度操控](../knowledge/books/B067.md)
+- [社交机会先看现实渠道](../knowledge/books/B068.md)
+- [未接未回不执行每天两拨](../knowledge/books/B068.md)
+- [没空无替代安排就先收住](../knowledge/books/B068.md)
+- [取消和爽约先核事实再定边界](../knowledge/books/B068.md)
+- [留出停顿不是失去控制](../knowledge/books/B069.md)
+- [双向参与不等于用投资换回报](../knowledge/books/B069.md)
+- [耐心自检不保证对方最终回应](../knowledge/books/B069.md)
+- [留停顿不靠沉默逼出承诺](../knowledge/books/B070.md)
+- [双向参与不制造沉没成本](../knowledge/books/B070.md)
+- [没有替代安排就先收住](../knowledge/books/B070.md)
+- [低投入不等于用户没有价值](../knowledge/books/B070.md)
+- [耐心不是等到对方必然答应](../knowledge/books/B070.md)
+- [九一比例不规定谁要撑整场](../knowledge/books/B071.md)
+- [善意不要求按价偿还](../knowledge/books/B071.md)
+- [短答先按问题范围理解](../knowledge/books/B071.md)
+- [忙碌和取消要给表达空间](../knowledge/books/B071.md)
+- [联系时间不靠固定冷落或连拨](../knowledge/books/B071.md)
+- [停顿可以保留离开也可以](../knowledge/books/B074.md)
+- [没有替代安排就停止追约](../knowledge/books/B074.md)
+- [联系不靠固定天数或连拨](../knowledge/books/B074.md)
+- [忽冷忽热不用于制造依赖](../knowledge/books/B074.md)
+- [日常问候不设固定频次](../knowledge/books/B075.md)
+- [短信不按小时标点和拆条运行](../knowledge/books/B075.md)
+- [持续单边时停止加码](../knowledge/books/B076.md)
+- [收住投入不拿冷落训练对方](../knowledge/books/B077.md)
+- [不把单边维持变成冷落训练](../knowledge/books/B078.md)
+- [未回复先保留未知而非轮番拨打](../knowledge/books/B079.md)
+- [不回复不靠上钩规则反复投喂](../knowledge/books/B080.md)
+- [双向投入不靠一方永久包办](../knowledge/books/B081.md)
+- [真实低投入不能靠积极改写抹掉](../knowledge/books/B082.md)
+- [开场不承担维持整场的义务](../knowledge/books/B084.md)
+- [连续投入按实际行为看](../knowledge/books/B085.md)
+- [连续行为比单个信号更有分量](../knowledge/books/B086.md)
+- [未接与未回不授权反复追拨](../knowledge/books/B086.md)
+- [信念不替代对方说过的话](../knowledge/books/B087.md)
+- [停止加码不是以沉默惩罚](../knowledge/books/B087.md)
+- [版本08：暂停不能用来制造不安](../knowledge/books/B088.md)
+- [04：敢表达与接受结果可以同时成立](../knowledge/books/B091.md)
+- [26：投资均衡同时防盘问与独白](../knowledge/books/B091.md)
+- [12：九一比例不作为聊天规则](../knowledge/books/B093.md)
+- [18：参与感不能靠扣住答案强求](../knowledge/books/B093.md)
+- [31：现实社交渠道不保证关系结果](../knowledge/books/B093.md)
+- [04：投入不是锁住关系的筹码](../knowledge/books/B094.md)
+- [11：不回答不自动说明吸引不足](../knowledge/books/B094.md)
+- [停止单边加码是保护边界，不是奖惩训练](../knowledge/books/B095.md)
+- [个性清单不要求扮演万人迷或关注中心](../knowledge/books/B096.md)
+- [付出不购买感情，激素故事不解释具体关系](../knowledge/books/B096.md)
+- [兴趣看连续投入，具体替代时间比肢体猜测清楚](../knowledge/books/B096.md)
+- [时间边界按真实安排说，不执行固定耐心秒数](../knowledge/books/B096.md)
+- [多次碰面不保证升温，单边循环要收住](../knowledge/books/B097.md)
+- [投资译词不能把服从改成双向兴趣证据](../knowledge/books/B097.md)
+- [投入下降先收住，明确拒绝不进入反复循环](../knowledge/books/B097.md)
+- [B098持续单边要看行为而不是身份等级](../knowledge/books/B098.md)
+- [B098个人价值不以婚恋结果作总评](../knowledge/books/B098.md)
+- [B099练习不等于无限坚持一种解释](../knowledge/books/B099.md)
+- [B099花钱和关心都不购买关系资格](../knowledge/books/B099.md)
+- [B099正常需要与持续单边须分开](../knowledge/books/B099.md)
+- [B099练习对象不是模拟程序](../knowledge/books/B099.md)
+- [B099不回应不解释成欲擒故纵](../knowledge/books/B099.md)
+- [B099付出与边界须放在同一过程里](../knowledge/books/B099.md)
+- [B101-10 交换号码不等于已形成关系](../knowledge/books/B101.md)
+- [B101-34 停止单边加码不靠惩罚主动](../knowledge/books/B101.md)
+- [B101-56 照顾不是交换关系的投资](../knowledge/books/B101.md)
+- [B102-17 沉默不需要刺激或嘲讽补救](../knowledge/books/B102.md)
+- [B104-55 发送后回到生活，不执行固定冷落日程](../knowledge/books/B104.md)
+- [B104-57 没有替代安排时不靠持续试探逼出答应](../knowledge/books/B104.md)
+- [B105-22 真心和付出不产生对方的义务](../knowledge/books/B105.md)
+- [B105-33 没空先按安排判断，不拿明星比较逼结论](../knowledge/books/B105.md)
+- [B105-34 实际投入用来观察双向，不用于套牢](../knowledge/books/B105.md)
+- [B106-12 分开后的失落不证明谁无能或谁变坏](../knowledge/books/B106.md)
+- [B106-24 单边继续时收住，不用换花样追反应](../knowledge/books/B106.md)
+
+## M20
+
+接住纠正或澄清；共113处。
+
+- [角色与称呼被纠正](../knowledge/cases/C06-chen-screenshots.md)；旧定位，仅追溯，未绑定整份正文。
+- [原句优先](../knowledge/books/G09-ocr-input.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE138–142：没接住玩笑不等于没有幽默感](../knowledge/books/S04-attraction-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15章：普通小失误与确实需要修复的行为分开](../knowledge/books/B003-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页116–119：新事实下调整，果断不等于坚持错误](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [50–67页取舍：猜错接受更正，不把否认重新解释成猜对](../knowledge/books/B040-reading-and-fallibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [60–71页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conversation-and-praise.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-humor-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-no-shaming-or-unmasking.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-teasing-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第24–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-confidence-and-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [第46–54、76–81页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-humor-and-reality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第16–20页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-religion-and-certainty.md)；旧定位，仅追溯，未绑定整份正文。
+- [第40–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-astrology-and-current-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第17–20、28–33、45–46、53–54、57–60页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-respect-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第47–55、58–62页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-signals-and-assumptions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第18–24、25–26页；原创教学取舍，非实证验证。](../knowledge/books/B053-specific-interest.md)；旧定位，仅追溯，未绑定整份正文。
+- [第22–25、34–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-humor-and-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [不满、让步与倾听](../knowledge/books/B054.md)
+- [调侃、无礼与具体边界](../knowledge/books/B055.md)
+- [真实表达与正常询问](../knowledge/books/B056.md)
+- [幽默以双方接梗为条件](../knowledge/books/B057.md)
+- [观察和欣赏需要可核依据](../knowledge/books/B058.md)
+- [玩笑不能伪装严肃关系意图](../knowledge/books/B059.md)
+- [关系事实与重要误会及时澄清](../knowledge/books/B059.md)
+- [有矛盾先听问题与承担已核影响](../knowledge/books/B059.md)
+- [观察可校正不能读心](../knowledge/books/B060.md)
+- [语境问题不能用文化定论解释](../knowledge/books/B061.md)
+- [接调侃时仍要听见纠正](../knowledge/books/B061.md)
+- [观察只能提出可纠正的有限判断](../knowledge/books/B061.md)
+- [安慰不靠假保证或贬低第三人](../knowledge/books/B061.md)
+- [征询意见就要接住答案](../knowledge/books/B062.md)
+- [观察过渡不能变成人格鉴定](../knowledge/books/B062.md)
+- [清楚偏好也容许双方商量](../knowledge/books/B063.md)
+- [真实差异比机械反对更有内容](../knowledge/books/B064.md)
+- [玩笑失手先澄清本意](../knowledge/books/B064.md)
+- [调侃和共同角色只在接梗范围继续](../knowledge/books/B065.md)
+- [观察允许被纠正不能用转折自保](../knowledge/books/B065.md)
+- [眼神和外貌不能替代原句证据](../knowledge/books/B066.md)
+- [自定义类型不作为人物档案](../knowledge/books/B066.md)
+- [轻松调侃要有事实和接梗](../knowledge/books/B066.md)
+- [修复要认具体行为不靠小礼物抹平](../knowledge/books/B066.md)
+- [轻松话题按接梗情况调整](../knowledge/books/B067.md)
+- [被纠正或冒犯时改具体行为](../knowledge/books/B068.md)
+- [幻想是双方知道的游戏](../knowledge/books/B069.md)
+- [从场景切入不从品牌判人](../knowledge/books/B069.md)
+- [聆听允许不同感受和真实不同意](../knowledge/books/B069.md)
+- [猜测和幻想要让人听得出来](../knowledge/books/B069.md)
+- [承接对方熟悉的内容](../knowledge/books/B069.md)
+- [合理让步和自己的边界可以同时说](../knowledge/books/B069.md)
+- [英汉译文核对与作用范围](../knowledge/books/B069.md)
+- [提问正常回答不先判成测试](../knowledge/books/B070.md)
+- [真实意愿比自信地说错更重要](../knowledge/books/B070.md)
+- [共同假想须清楚可退出](../knowledge/books/B070.md)
+- [冲突可以拒绝也可以有限让步](../knowledge/books/B070.md)
+- [译文错误回查对照而不继续放大](../knowledge/books/B070.md)
+- [开场来意和身份要真实](../knowledge/books/B071.md)
+- [普通问题先回答再分享一点](../knowledge/books/B071.md)
+- [忘记信息诚实补核不演错拨](../knowledge/books/B071.md)
+- [冲突先核事实再说具体边界](../knowledge/books/B071.md)
+- [经验模板要容许纠正与未知](../knowledge/books/B071.md)
+- [认真提问正常回答](../knowledge/books/B074.md)
+- [熟悉的语气不等于已被信任](../knowledge/books/B074.md)
+- [译者替换与原文件残留分开](../knowledge/books/B074.md)
+- [认真问题先认真回答](../knowledge/books/B075.md)
+- [误解玩笑先看是否接梗](../knowledge/books/B075.md)
+- [改称呼和改立场是两回事](../knowledge/books/B076.md)
+- [笑过不等于接受所有玩笑](../knowledge/books/B076.md)
+- [有依据的观察始终允许纠正](../knowledge/books/B078.md)
+- [真实自我与可纠正的反馈](../knowledge/books/B083.md)
+- [观察能够被纠正才有意义](../knowledge/books/B086.md)
+- [观察允许本人纠正](../knowledge/books/B087.md)
+- [调侃与纠正无需争夺解释权](../knowledge/books/B087.md)
+- [19：可纠正观察不能变成识人权威](../knowledge/books/B091.md)
+- [10：资料细节只能支持有限观察](../knowledge/books/B093.md)
+- [22：把每句疑问当测试会读错事实](../knowledge/books/B093.md)
+- [13：性格描述保持可纠正](../knowledge/books/B094.md)
+- [先分清提问、调侃、无礼与拒绝](../knowledge/books/B095.md)
+- [从容允许正常回应和必要说明](../knowledge/books/B096.md)
+- [稳定表达能欣赏、回答和认错](../knowledge/books/B096.md)
+- [歉意针对已核过失，不为少道歉忽略修复](../knowledge/books/B097.md)
+- [译义与个体差异需要澄清，不用高低价值替代证据](../knowledge/books/B097.md)
+- [B098身体差异不提供智力与人格判词](../knowledge/books/B098.md)
+- [B098把成年人当小孩不是理解方法](../knowledge/books/B098.md)
+- [B098不把认同与反对都算成理论证据](../knowledge/books/B098.md)
+- [B099不同意见与求助不能全叫测试](../knowledge/books/B099.md)
+- [B099明确不舒服不拿来制造笑点](../knowledge/books/B099.md)
+- [B099认真问题不靠玩笑逼到放弃](../knowledge/books/B099.md)
+- [B099她的正常提问不应被嘲成面试](../knowledge/books/B099.md)
+- [B101-11 英文原句与辱骂式中文释义分开](../knowledge/books/B101.md)
+- [B101-40 撤回和躲开不能改名为害羞](../knowledge/books/B101.md)
+- [B101-51 吃醋和眼泪不单独证明爱](../knowledge/books/B101.md)
+- [B101-52 可核事实要澄清，不能编造再反责](../knowledge/books/B101.md)
+- [B101-54 关心和澄清可以在同一次回应里](../knowledge/books/B101.md)
+- [B102-15 不愿意不能统一归为可化解反应](../knowledge/books/B102.md)
+- [B102-24 冷读保留可纠正性，不诊断内心](../knowledge/books/B102.md)
+- [B102-29 关心感受不替对方定义人生](../knowledge/books/B102.md)
+- [B104-08 确信的语气不等于事实正确或获得授权](../knowledge/books/B104.md)
+- [B104-10 肢体语言要先考虑环境和个人差异](../knowledge/books/B104.md)
+- [B104-32 猜测与冷读保持可纠正](../knowledge/books/B104.md)
+- [B104-34 共同兴趣不靠全盘附和](../knowledge/books/B104.md)
+- [B104-47 口头拒绝不能被身体或作者猜测覆盖](../knowledge/books/B104.md)
+- [B105-11 戒指、笑容与手相都不承担性格和兴趣结论](../knowledge/books/B105.md)
+- [B105-28 真实差异可以保留，关系称谓另行确认](../knowledge/books/B105.md)
+- [B105-35 越界后修复具体行为，不用成长故事免责](../knowledge/books/B105.md)
+- [B105-38 关系意图及时说清，不以未来承诺制造误会](../knowledge/books/B105.md)
+- [B106-07 情绪和逻辑不构成绕过原话的理由](../knowledge/books/B106.md)
+- [B106-15 听取反馈与保持边界不必二选一](../knowledge/books/B106.md)
+- [B106-22 没听清就正常核对，不靠跳题表现无需求](../knowledge/books/B106.md)
+- [B106-27 职业、经历与说明按问题本身回答](../knowledge/books/B106.md)
+- [B106-31 接受具体纠正，不以冷淡回应替代修复](../knowledge/books/B106.md)
+
+## M21
+
+有依据的修复；共84处。
+
+- [沟通冲突与修复](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实、影响、需要、请求](../sources/github/lianai/references/knowledge/07-沟通冲突与修复.md.txt)；旧定位，仅追溯，未绑定整份正文。
+- [四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [相关历史、具体修复与责任边界](../knowledge/books/G01-natural-flow-and-conflict.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE101–108：具体认错与不转嫁责任](../knowledge/books/S04-attraction-ch05-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15、19章：具体责任不被一笑置之或测试标签覆盖](../knowledge/books/B003-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页438–469：不自动归责，认真需求与可确认责任分别处理](../knowledge/books/B004-ch09.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页116：关心的表象不能替代责任、修复和兑现](../knowledge/books/B005-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页133–156取舍：不从单方复盘包揽错误或判所有沟通无效](../knowledge/books/B008-ch14-19-tail.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页57–60取舍：具体责任与原生家庭/群体归因分开](../knowledge/books/B009-ch11-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页429–438、459–460取舍：具体责任、不自动归责、不强制原谅](../knowledge/books/B010-gaslighting.md)；旧定位，仅追溯，未绑定整份正文。
+- [用于当前修复；物理页21–24取舍：具体责任、后续行动和本人选择，不强制原谅](../knowledge/books/B011-origins-apology.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十九章可靠与第十三、十七章取消增值主张的矛盾；采用如实说明、守约和具体修复](../knowledge/books/B016-ch19-20.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段512–601取舍：关照不等于包揽责任，修复只就有证据的具体行为与影响](../knowledge/books/B030-context-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-agency.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-breakups.md)；旧定位，仅追溯，未绑定整份正文。
+- [235–239、267–287页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conflict-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [301–344页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-repair-and-recovery.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-humor-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-teasing-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第17–20、28–33、45–46、53–54、57–60页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-respect-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13–14、21–24、27–33页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-repair-and-return.md)；旧定位，仅追溯，未绑定整份正文。
+- [分手、恢复生活与复合](../knowledge/books/B054.md)
+- [调侃、无礼与具体边界](../knowledge/books/B055.md)
+- [承担责任与保护隐私](../knowledge/books/B056.md)
+- [平等自尊与可表达的不满](../knowledge/books/B057.md)
+- [责任与外界事实分别判断](../knowledge/books/B058.md)
+- [承诺与共同计划应当能兑现](../knowledge/books/B058.md)
+- [关系事实与重要误会及时澄清](../knowledge/books/B059.md)
+- [有矛盾先听问题与承担已核影响](../knowledge/books/B059.md)
+- [换位考虑不替越界开脱](../knowledge/books/B060.md)
+- [生气可以表达不以训斥控制](../knowledge/books/B060.md)
+- [不适和自我怀疑不算双方投入](../knowledge/books/B061.md)
+- [留出空间不制造情绪起落](../knowledge/books/B061.md)
+- [不用嫉妒和羞辱追求主导](../knowledge/books/B063.md)
+- [玩笑失手先澄清本意](../knowledge/books/B064.md)
+- [确认安排后就兑现](../knowledge/books/B064.md)
+- [已确认的安排清楚说明并兑现](../knowledge/books/B065.md)
+- [修复要认具体行为不靠小礼物抹平](../knowledge/books/B066.md)
+- [共舞按双方能配合的方式来](../knowledge/books/B067.md)
+- [被纠正或冒犯时改具体行为](../knowledge/books/B068.md)
+- [合理让步和自己的边界可以同时说](../knowledge/books/B069.md)
+- [冲突可以拒绝也可以有限让步](../knowledge/books/B070.md)
+- [忘记信息诚实补核不演错拨](../knowledge/books/B071.md)
+- [冲突先核事实再说具体边界](../knowledge/books/B071.md)
+- [改称呼和改立场是两回事](../knowledge/books/B076.md)
+- [不自动自责也不反向给人定罪](../knowledge/books/B077.md)
+- [有实际伤害才对那件事负责](../knowledge/books/B078.md)
+- [修复只负责已确认的那件事](../knowledge/books/B079.md)
+- [责任落在可核行为和具体调整上](../knowledge/books/B081.md)
+- [隐瞒行为不能改名为已经同意](../knowledge/books/B081.md)
+- [边界与修复都针对明确行为](../knowledge/books/B086.md)
+- [真实承诺与已变更安排要兑现](../knowledge/books/B086.md)
+- [调侃与纠正无需争夺解释权](../knowledge/books/B087.md)
+- [从容允许正常回应和必要说明](../knowledge/books/B096.md)
+- [稳定表达能欣赏、回答和认错](../knowledge/books/B096.md)
+- [歉意针对已核过失，不为少道歉忽略修复](../knowledge/books/B097.md)
+- [B098责任不能由性别预先分配](../knowledge/books/B098.md)
+- [B098愤怒不证明观点正确或攻击正当](../knowledge/books/B098.md)
+- [B099情感开关和百分数只是作者声称](../knowledge/books/B099.md)
+- [B099形象细节不作人格和健康判词](../knowledge/books/B099.md)
+- [B099拒绝不自动说明用户做错](../knowledge/books/B099.md)
+- [B099遇到问题不等于只缺一个技巧](../knowledge/books/B099.md)
+- [B099想象训练不是经过核验的疗法](../knowledge/books/B099.md)
+- [B101-05 拒绝结果不构成自动归责证据](../knowledge/books/B101.md)
+- [B101-45 事后善意不能追认此前意愿](../knowledge/books/B101.md)
+- [B101-46 没有发生性行为不能倒推谁失职](../knowledge/books/B101.md)
+- [B101-52 可核事实要澄清，不能编造再反责](../knowledge/books/B101.md)
+- [B101-53 对方指责不等于用户已经有错](../knowledge/books/B101.md)
+- [B102-04 有效宣称不能反向证明用户有错](../knowledge/books/B102.md)
+- [B102-23 表达边界不是回避或压制情绪](../knowledge/books/B102.md)
+- [B104-03 结果保证和百分比不是验证记录](../knowledge/books/B104.md)
+- [B104-13 紧张或没接住不自动成为个人过错](../knowledge/books/B104.md)
+- [B105-02 精选经历不能变成必然因果或对读者的归责](../knowledge/books/B105.md)
+- [B105-24 同伴反馈具体，练习可以随时退出](../knowledge/books/B105.md)
+- [B105-30 紧张不自动成为病或错误教育的证明](../knowledge/books/B105.md)
+- [B105-35 越界后修复具体行为，不用成长故事免责](../knowledge/books/B105.md)
+- [B106-03 先核现实限制，不把结果统一归为心态](../knowledge/books/B106.md)
+- [B106-16 调侃与冒犯按当前证据判断](../knowledge/books/B106.md)
+- [B106-20 困难情绪不诊断成上瘾或逃避责任](../knowledge/books/B106.md)
+- [B106-31 接受具体纠正，不以冷淡回应替代修复](../knowledge/books/B106.md)
+
+## M22
+
+表达边界；共349处。
+
+- [具体请求与边界](../knowledge/books/G01-lianai.md)；旧定位，仅追溯，未绑定整份正文。
+- [不自动归责](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [两项基本功、六种句型与案例限制](../knowledge/books/S04-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；旧定位，仅追溯，未绑定整份正文。
+- [已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [单方越界不改写成双方过错](../knowledge/books/G01-natural-flow-and-conflict.md)；旧定位，仅追溯，未绑定整份正文。
+- [第8章及本项目裁决：辱骂与不适不改写成喜欢](../knowledge/books/B003-ch01-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页405–421：帮助、花费、隐私与双方正常边界](../knowledge/books/B004-ch08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页71–79：自己与他人的需要，不以主张为攻击或归责](../knowledge/books/B005-ch05-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页37–54：准备按本人选择、预算和实际活动，不由衣物给人分层](../knowledge/books/B006.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页48–84：具体责任和正常边界，不从群体理论取消承诺](../knowledge/books/B007-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页12、15：双方分工与选择，不预定男性单向主导](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [自己的真实限制不等于控制伴侣](../knowledge/topics/relationship-clarity.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页113–126取舍：按具体行为和边界，不以群体立场裁责任](../knowledge/books/B009-ch14-19.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页86–89及日常取舍：可拒绝与自己的参与，非让别人服从](../knowledge/books/B010-v1.md)；旧定位，仅追溯，未绑定整份正文。
+- [用于当前边界；物理页25–32取舍：真实拒绝、参与范围与单次措辞的证据边界](../knowledge/books/B011-defense-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [自我掌控的使用范围；物理页13与对译核对：自己的参与、双方隐私及承诺分别处理](../knowledge/books/B012-ch03.md)；旧定位，仅追溯，未绑定整份正文。
+- [自我掌控与双方隐私；物理页13与B012附英文对读；管理自己、不强迫披露](../knowledge/books/B013-ch01-03.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页302–307取舍：共同约定、隐私和自己的参与，不以忠诚担忧控制伴侣](../knowledge/books/B014-ch05.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页431–439取舍：亲子目标差异与具体边界，不用付出、内疚或威胁接管成年人的选择](../knowledge/books/B014-ch07.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页560、567–569：愤怒与地位解释不授权威胁，边界管理自己的参与](../knowledge/books/B014-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页680–687、719–726：合作分工不等于低价值，边界不靠服从或降低自尊维持](../knowledge/books/B014-ch12.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine9：如实表达时间、预算和活动意愿；不虚报牺牲、拖延或要求对方必须接受](../knowledge/books/B016-ch07.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页62–70：自主参与、具体边界与概念替换的效果限制，不采用性别阶层或固定婚姻门槛](../knowledge/books/B017-p062-070.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页113–144取舍：本人参与与双方自主，不因改观点或未知情况归责，不采用剥夺他人选择与灾难动员](../knowledge/books/B017-p113-144.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页189–201：先核外部条件与过错证据，不由受迫配合归责，边界管理本人参与](../knowledge/books/B017-p176-201.md)；旧定位，仅追溯，未绑定整份正文。
+- [一项请求与边界分开：真实限制、正常约定和已核越界分别处理](../knowledge/topics/boundaries-and-requests.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页31–71取舍：威胁后的配合不证明自愿，角色不把日常边界与个人选择交给另一方](../knowledge/books/B022-chapters03-04.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页124–129取舍：实际无礼和责任按事实处理，不用忽略打断要求忍受羞辱](../knowledge/books/B024-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [第三章及第七章付出与冲突论述取舍：可拒绝羞辱和群体压力，不以合群或证明自信要求承受不合理对待](../knowledge/books/B033-choice-and-social-pressure.md)；旧定位，仅追溯，未绑定整份正文。
+- [29–37及69–99页取舍：可拒绝不合理要求，不用羞辱维护自信](../knowledge/books/B034-choice-and-pressure.md)；旧定位，仅追溯，未绑定整份正文。
+- [5–13页取舍：自己的时间、付出和方向可表达，不用竞争者或贬低维持位置](../knowledge/books/B052-current-behavior.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。](../knowledge/books/B036-autonomy-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第1至5.4及5.6节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-agency.md)；旧定位，仅追溯，未绑定整份正文。
+- [84–129页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-self-knowledge.md)；旧定位，仅追溯，未绑定整份正文。
+- [160–187页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-connection-and-trust.md)；旧定位，仅追溯，未绑定整份正文。
+- [188–226页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-mutual-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [235–239、267–287页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conflict-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-consent-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页25–31、43–47及82–88；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-values-and-status.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页53–55及57–60；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-humor-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页64–68；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-confidence-and-height.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页69–74及84–85；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-care-and-help.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项4、9–10，对应第二、七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-approval-and-self-blame.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项7、9，对应第五、七章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-teasing-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项9–10，对应第七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-independence-and-support.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项10，对应第八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-fame-health-and-constraints.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–23、65–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-gender-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第24–40页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-confidence-and-feedback.md)；旧定位，仅追溯，未绑定整份正文。
+- [第41–45、60–64、122–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-system-and-responsibility.md)；旧定位，仅追溯，未绑定整份正文。
+- [第65–75、127–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-practice-and-context.md)；旧定位，仅追溯，未绑定整份正文。
+- [第76–81、114–121、127–128页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-requests-and-tests.md)；旧定位，仅追溯，未绑定整份正文。
+- [第59–64、88–91、114–119页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-consent-and-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–6、9–10页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-confidence-and-equality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第12–15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-budget-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第4–13、39–45、63–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-self-worth-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、31、34–39、53–54页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-honesty-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第7–12、25–30、39–45、55–56页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-preferences-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第17–20、28–33、45–46、53–54、57–60页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-respect-and-devaluation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第28、33–35、44、48–53、61、66–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-consent-over-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第10、48–51、56、68–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-contact-and-cost.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-practice-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–14页；原创教学取舍，非实证验证。](../knowledge/books/B053-context-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第14–21页；原创教学取舍，非实证验证。](../knowledge/books/B053-reciprocal-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [第25–32、35–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-invitation-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [金钱、帮助与正常边界](../knowledge/books/B054.md)
+- [帮忙、花费与单边投入](../knowledge/books/B055.md)
+- [平等信任与双方边界](../knowledge/books/B056.md)
+- [见面信息与成本边界](../knowledge/books/B057.md)
+- [平等自尊与可表达的不满](../knowledge/books/B057.md)
+- [幽默不承担服从训练](../knowledge/books/B058.md)
+- [择偶标准不等于人格判决](../knowledge/books/B058.md)
+- [关心不附带恋爱承诺](../knowledge/books/B059.md)
+- [联系习惯需要说清](../knowledge/books/B059.md)
+- [需要空间与拒绝具体范围](../knowledge/books/B059.md)
+- [遭遇威胁不以冒险证明价值](../knowledge/books/B059.md)
+- [保留正常社交与自主边界](../knowledge/books/B059.md)
+- [普通尊重与边界不会随熟悉减少](../knowledge/books/B060.md)
+- [换位考虑不替越界开脱](../knowledge/books/B060.md)
+- [真实脆弱不交换感情](../knowledge/books/B060.md)
+- [生气可以表达不以训斥控制](../knowledge/books/B060.md)
+- [陌生接触要留出退出空间](../knowledge/books/B061.md)
+- [愿意聊天不等于同意身体接触](../knowledge/books/B061.md)
+- [不适和自我怀疑不算双方投入](../knowledge/books/B061.md)
+- [暧昧内容也保留明确退出权](../knowledge/books/B061.md)
+- [独立安排要和兑现约定一起保留](../knowledge/books/B061.md)
+- [分享生活不强迫交换秘密](../knowledge/books/B062.md)
+- [关心与浪漫可以直接表达](../knowledge/books/B063.md)
+- [清楚偏好也容许双方商量](../knowledge/books/B063.md)
+- [隐私对称不隐瞒关系要点](../knowledge/books/B063.md)
+- [不用嫉妒和羞辱追求主导](../knowledge/books/B063.md)
+- [分歧不直接归为测试](../knowledge/books/B063.md)
+- [正常请求不等于服从测试](../knowledge/books/B064.md)
+- [买单轮换保留真实选择](../knowledge/books/B064.md)
+- [私人边界和亲密单独确认](../knowledge/books/B064.md)
+- [关系状态与好感不拿来演失格](../knowledge/books/B064.md)
+- [共同兴趣不需要假装分歧](../knowledge/books/B065.md)
+- [倾听与提出新角度分开](../knowledge/books/B065.md)
+- [联系方式不换取承诺](../knowledge/books/B065.md)
+- [共同活动让每个人保留选择](../knowledge/books/B065.md)
+- [私密披露与亲密各自单独选择](../knowledge/books/B065.md)
+- [身份和来意都用真实信息](../knowledge/books/B066.md)
+- [正常帮助不兑换私人陪伴](../knowledge/books/B066.md)
+- [退出单向付出是照顾自己的边界](../knowledge/books/B066.md)
+- [交流偏好不决定身体边界](../knowledge/books/B066.md)
+- [亲密每一步都看当下意愿](../knowledge/books/B066.md)
+- [共同圈子不替当事人答应](../knowledge/books/B066.md)
+- [联系方式需要对方真的愿意给](../knowledge/books/B067.md)
+- [计划与可靠程度用具体行动呈现](../knowledge/books/B067.md)
+- [关心与联系不靠模糊态度操控](../knowledge/books/B067.md)
+- [网聊用真实身份并尊重停止联系](../knowledge/books/B067.md)
+- [外貌观察不变成身体鉴定](../knowledge/books/B067.md)
+- [先说明一点自己不等于套出隐私](../knowledge/books/B068.md)
+- [交换联系方式各有选择权](../knowledge/books/B068.md)
+- [通话先尊重方便程度](../knowledge/books/B068.md)
+- [带朋友不直接证明没兴趣](../knowledge/books/B068.md)
+- [取消和爽约先核事实再定边界](../knowledge/books/B068.md)
+- [亲密不设五次触碰配额](../knowledge/books/B068.md)
+- [好感可以真诚表达不靠让她猜](../knowledge/books/B068.md)
+- [被纠正或冒犯时改具体行为](../knowledge/books/B068.md)
+- [关系意向可以诚实说](../knowledge/books/B069.md)
+- [冒险只承担自己被拒的可能](../knowledge/books/B069.md)
+- [行动不靠人生恐吓](../knowledge/books/B069.md)
+- [冲劲不等于危险或无礼](../knowledge/books/B069.md)
+- [双向参与不等于用投资换回报](../knowledge/books/B069.md)
+- [友好开始仍保留现实边界](../knowledge/books/B069.md)
+- [认识人不靠拦路或突然触碰](../knowledge/books/B069.md)
+- [拒绝后保持尊重不继续加码](../knowledge/books/B069.md)
+- [合理让步和自己的边界可以同时说](../knowledge/books/B069.md)
+- [勇敢表达不制造恐惧](../knowledge/books/B069.md)
+- [脆弱真实也不产生补偿义务](../knowledge/books/B069.md)
+- [生活更新从可承受的一步开始](../knowledge/books/B069.md)
+- [双向参与不制造沉没成本](../knowledge/books/B070.md)
+- [好感和长期关系目标可以诚实表达](../knowledge/books/B070.md)
+- [触碰不按SOI前后自动发生](../knowledge/books/B070.md)
+- [拒绝不需要被解释成有兴趣](../knowledge/books/B070.md)
+- [群体交流不把朋友当门卫](../knowledge/books/B070.md)
+- [冲突可以拒绝也可以有限让步](../knowledge/books/B070.md)
+- [正常情绪不以气场好坏裁决](../knowledge/books/B070.md)
+- [生活改变不把伤害合理化](../knowledge/books/B070.md)
+- [技术性拒绝不覆盖明确原话](../knowledge/books/B071.md)
+- [偏好可以不同不需要谁改造谁](../knowledge/books/B071.md)
+- [假测试不能换取接触许可](../knowledge/books/B071.md)
+- [负面情绪可以有现实原因](../knowledge/books/B071.md)
+- [善意不要求按价偿还](../knowledge/books/B071.md)
+- [离开可以礼貌直接说](../knowledge/books/B071.md)
+- [已经给出时间就协调安排](../knowledge/books/B071.md)
+- [紧张不等于需要表演强势](../knowledge/books/B071.md)
+- [冲突先核事实再说具体边界](../knowledge/books/B071.md)
+- [真实关系意图和状态不回避](../knowledge/books/B071.md)
+- [隐私不作为展示社交价值的道具](../knowledge/books/B071.md)
+- [关系目标由自己真实选择](../knowledge/books/B074.md)
+- [偏好不同不要求打破原则](../knowledge/books/B074.md)
+- [没有发展不自动归责用户](../knowledge/books/B074.md)
+- [身体动作不按缩写自动升级](../knowledge/books/B074.md)
+- [团体里不把别人当通路](../knowledge/books/B074.md)
+- [忽冷忽热不用于制造依赖](../knowledge/books/B074.md)
+- [困扰值得听不强迫积极](../knowledge/books/B074.md)
+- [长期相处看真实待遇和约定](../knowledge/books/B074.md)
+- [失落不诊断成缺陷](../knowledge/books/B074.md)
+- [先有自己的生活再选可行活动](../knowledge/books/B075.md)
+- [认识朋友不把人当跳板](../knowledge/books/B075.md)
+- [共同活动不需要抢领导权](../knowledge/books/B075.md)
+- [轻松不等于表演永远快乐](../knowledge/books/B075.md)
+- [具体欣赏不审判够不够格](../knowledge/books/B075.md)
+- [活动费用形式不用证明地位](../knowledge/books/B075.md)
+- [相处质量不靠外貌排名](../knowledge/books/B075.md)
+- [身体推进不继承隔离和服从步骤](../knowledge/books/B075.md)
+- [聚会不以酒惩罚隐私和交换亲密](../knowledge/books/B075.md)
+- [付出和照片不形成社交债](../knowledge/books/B075.md)
+- [没有结果先保留原因未知](../knowledge/books/B075.md)
+- [外貌偏好和差别待遇分开看](../knowledge/books/B076.md)
+- [整洁不设财力和外形门槛](../knowledge/books/B076.md)
+- [真实所长不需要先变全能](../knowledge/books/B076.md)
+- [拒绝不是需要突破的障碍](../knowledge/books/B076.md)
+- [帮忙和付出不形成亲密债](../knowledge/books/B076.md)
+- [消费预算可以直接商量](../knowledge/books/B076.md)
+- [谁买单不能单独判断感情](../knowledge/books/B076.md)
+- [请客不交换下一次或身体回应](../knowledge/books/B076.md)
+- [真实生活不伪装财力](../knowledge/books/B076.md)
+- [善意不做资格考试](../knowledge/books/B076.md)
+- [朋友不是接近别人的通路](../knowledge/books/B076.md)
+- [紧张不能自动解释失败](../knowledge/books/B076.md)
+- [改称呼和改立场是两回事](../knowledge/books/B076.md)
+- [征询意见让对方自愿参与](../knowledge/books/B076.md)
+- [真实情绪不按强弱排位](../knowledge/books/B076.md)
+- [漫画不是推进步骤或结果证据](../knowledge/books/B076.md)
+- [沉默是双方的交流状态](../knowledge/books/B077.md)
+- [边界管理自己的参与](../knowledge/books/B078.md)
+- [边界说明自己能参与什么](../knowledge/books/B079.md)
+- [亲密形式和开放程度由本人选择](../knowledge/books/B081.md)
+- [稳定感不靠资格清单证明](../knowledge/books/B081.md)
+- [不必装作不介意也不能用情绪施压](../knowledge/books/B081.md)
+- [钱怎么分先谈实际能力与共识](../knowledge/books/B081.md)
+- [人生安排不同可以坦白筛选](../knowledge/books/B081.md)
+- [亲密不按表现榜单排名](../knowledge/books/B081.md)
+- [平等不靠贬低对方来换自信](../knowledge/books/B082.md)
+- [改变不必先羞辱自己或制造痛苦](../knowledge/books/B082.md)
+- [情绪与拒绝都不必被强行改造成好事](../knowledge/books/B082.md)
+- [共同付出不形成服从债权](../knowledge/books/B083.md)
+- [多面生活不靠冷热制造不安](../knowledge/books/B083.md)
+- [不把陌生人当训练配额](../knowledge/books/B084.md)
+- [不为赢争论攻击也不放弃正常边界](../knowledge/books/B084.md)
+- [关系目标不要求绝对奉献](../knowledge/books/B085.md)
+- [不用保留缺点来让人拯救](../knowledge/books/B085.md)
+- [筛选回到自己真实在意的事](../knowledge/books/B086.md)
+- [关系期待用真实表达和约定确认](../knowledge/books/B086.md)
+- [边界与修复都针对明确行为](../knowledge/books/B086.md)
+- [费用不交换关系或回报](../knowledge/books/B086.md)
+- [失约的事实成本与未知动机分开](../knowledge/books/B086.md)
+- [自己的标准无需变成谁更值钱](../knowledge/books/B087.md)
+- [调侃与纠正无需争夺解释权](../knowledge/books/B087.md)
+- [版本10：年龄身高问题不必自动反击](../knowledge/books/B088.md)
+- [04：敢表达与接受结果可以同时成立](../knowledge/books/B091.md)
+- [22：筛选是了解适配，不是奖惩](../knowledge/books/B091.md)
+- [28：理解感受无需附和所有观点](../knowledge/books/B091.md)
+- [05：自尊不靠假定对方在追逐](../knowledge/books/B093.md)
+- [13：轻量玩笑与贬损分开](../knowledge/books/B093.md)
+- [15：筛选表达自己的相处需要](../knowledge/books/B093.md)
+- [23：价值观交流允许不同答案](../knowledge/books/B093.md)
+- [27：关系期待应在相关决定前说明](../knowledge/books/B093.md)
+- [04：投入不是锁住关系的筹码](../knowledge/books/B094.md)
+- [05：先知道自己重视什么](../knowledge/books/B094.md)
+- [15：价值观不是非此即彼的考试](../knowledge/books/B094.md)
+- [把品质清单落到真实行为，而非扮演等级](../knowledge/books/B095.md)
+- [停止单边加码是保护边界，不是奖惩训练](../knowledge/books/B095.md)
+- [先分清提问、调侃、无礼与拒绝](../knowledge/books/B095.md)
+- [确实提出的求助，按意愿和能力回应](../knowledge/books/B095.md)
+- [饮料与费用谈具体安排，不用支付作兴趣试验](../knowledge/books/B095.md)
+- [爽约先核事实和补约，不伪装忘记来掩饰](../knowledge/books/B095.md)
+- [筛选表达真实偏好，不制造证明压力](../knowledge/books/B096.md)
+- [付出不购买感情，激素故事不解释具体关系](../knowledge/books/B096.md)
+- [离远一点按拒绝处理，不寻找反击模板](../knowledge/books/B096.md)
+- [约定与尊重是双向的，不套用性别指责清单](../knowledge/books/B096.md)
+- [身体姿态以舒服和不侵占为限，不演地位](../knowledge/books/B096.md)
+- [时间边界按真实安排说，不执行固定耐心秒数](../knowledge/books/B096.md)
+- [认识时机以现场便利与真实承诺为限](../knowledge/books/B096.md)
+- [相处能持续，边界与真实生活比奖品心态具体](../knowledge/books/B096.md)
+- [联系人不是资源名额，朋友也不须提供恋爱回报](../knowledge/books/B097.md)
+- [朋友或组织者不能替她同意见面](../knowledge/books/B097.md)
+- [真实被了解，不伪造预选或利用嫉妒](../knowledge/books/B097.md)
+- [尊重隐私与保持自主同时成立](../knowledge/books/B097.md)
+- [不用成为每个群体最强势的人](../knowledge/books/B097.md)
+- [排斥与打压可能有外部原因，但动机不能猜成事实](../knowledge/books/B097.md)
+- [介绍朋友要基于真实联系，不虚构圈层身份](../knowledge/books/B097.md)
+- [边界译成框架时，应回到真实可接受范围](../knowledge/books/B097.md)
+- [时间相互尊重，不设迟到和通话的统一秒表](../knowledge/books/B097.md)
+- [B098所谓公理的假设与推论须分开](../knowledge/books/B098.md)
+- [B098竞争叙事不能替代本人同意](../knowledge/books/B098.md)
+- [B098有能力不等于必须争夺主导](../knowledge/books/B098.md)
+- [B098虚构选择与贬低不进入展示方法](../knowledge/books/B098.md)
+- [B098把成年人当小孩不是理解方法](../knowledge/books/B098.md)
+- [B098自造贬称不是关系分类标准](../knowledge/books/B098.md)
+- [B098责任不能由性别预先分配](../knowledge/books/B098.md)
+- [B098愤怒不证明观点正确或攻击正当](../knowledge/books/B098.md)
+- [B098自我实现无需接受绝望前提](../knowledge/books/B098.md)
+- [B099花钱和关心都不购买关系资格](../knowledge/books/B099.md)
+- [B099关系约定以诚实和双方认可为准](../knowledge/books/B099.md)
+- [B099明确目标不把人变成通关对象](../knowledge/books/B099.md)
+- [B099正常需要与持续单边须分开](../knowledge/books/B099.md)
+- [B099长期与性关系的分类并非可靠定律](../knowledge/books/B099.md)
+- [B099反射性拒绝会挡住正常配合](../knowledge/books/B099.md)
+- [B099有主见不等于不问本人意愿](../knowledge/books/B099.md)
+- [B099明确不舒服不拿来制造笑点](../knowledge/books/B099.md)
+- [B099做朋友不能成为反向诱导标签](../knowledge/books/B099.md)
+- [B099意外感不需要关系忽冷忽热](../knowledge/books/B099.md)
+- [B099认真问题不靠玩笑逼到放弃](../knowledge/books/B099.md)
+- [B099体贴不是无条件接管或牺牲](../knowledge/books/B099.md)
+- [B099轻微调侃不用升级成贬低](../knowledge/books/B099.md)
+- [B099约会是双方了解而不是审查够格](../knowledge/books/B099.md)
+- [B099她的正常提问不应被嘲成面试](../knowledge/books/B099.md)
+- [B099付出与边界须放在同一过程里](../knowledge/books/B099.md)
+- [B101-05 拒绝结果不构成自动归责证据](../knowledge/books/B101.md)
+- [B101-06 隐私和成年边界不能只写在前言](../knowledge/books/B101.md)
+- [B101-09 取得联系方式不靠伪装用途](../knowledge/books/B101.md)
+- [B101-13 进入群体不是争夺和排除他人](../knowledge/books/B101.md)
+- [B101-14 酒精不承担推进关系的作用](../knowledge/books/B101.md)
+- [B101-20 穿着与消费服从真实生活和预算](../knowledge/books/B101.md)
+- [B101-21 幽默不靠贬低第三人](../knowledge/books/B101.md)
+- [B101-24 通话方式和时间要合双方方便](../knowledge/books/B101.md)
+- [B101-28 邀约内容与实际目的保持一致](../knowledge/books/B101.md)
+- [B101-30 约会次数和性行为不设成达标线](../knowledge/books/B101.md)
+- [B101-36 同行人数、消费和范围可以直说](../knowledge/books/B101.md)
+- [B101-37 朋友和陌生人不承担推进职责](../knowledge/books/B101.md)
+- [B101-39 礼物、帮忙与亲密意愿分开](../knowledge/books/B101.md)
+- [B101-41 亲密确认不是需要克服的弱点](../knowledge/books/B101.md)
+- [B101-43 声称自然不能抵消欺骗和施压](../knowledge/books/B101.md)
+- [B101-46 没有发生性行为不能倒推谁失职](../knowledge/books/B101.md)
+- [B101-47 对方恢复清楚判断不是需要避免的事](../knowledge/books/B101.md)
+- [B101-48 性关系不自动生成恋爱承诺](../knowledge/books/B101.md)
+- [B101-49 说明关系期待不能作为交换话术](../knowledge/books/B101.md)
+- [B101-53 对方指责不等于用户已经有错](../knowledge/books/B101.md)
+- [B101-56 照顾不是交换关系的投资](../knowledge/books/B101.md)
+- [B102-04 有效宣称不能反向证明用户有错](../knowledge/books/B102.md)
+- [B102-07 安全感靠信息和安排体现](../knowledge/books/B102.md)
+- [B102-12 悬念和假熟悉不能代替信息](../knowledge/books/B102.md)
+- [B102-16 推拉不采纳外貌羞辱](../knowledge/books/B102.md)
+- [B102-18 信息交换不做查户口或考核](../knowledge/books/B102.md)
+- [B102-19 求助和生活能力不换成亲密报酬](../knowledge/books/B102.md)
+- [B102-20 涉及儿童的性化例句不进入方法](../knowledge/books/B102.md)
+- [B102-21 身份核实是具体问题不是自动测试](../knowledge/books/B102.md)
+- [B102-23 表达边界不是回避或压制情绪](../knowledge/books/B102.md)
+- [B102-26 生活故事不能挪用成自己的人生](../knowledge/books/B102.md)
+- [B102-33 请客和帮助不能用来制造见面义务](../knowledge/books/B102.md)
+- [B102-34 私人地点和关系期待要说明白](../knowledge/books/B102.md)
+- [B102-35 性化话术不靠游戏绕过边界](../knowledge/books/B102.md)
+- [B104-06 成年人和双方意愿不是吸引力技巧](../knowledge/books/B104.md)
+- [B104-07 群落等级叙事不用于给个人定价值](../knowledge/books/B104.md)
+- [B104-08 确信的语气不等于事实正确或获得授权](../knowledge/books/B104.md)
+- [B104-11 自然姿态不以占据他人空间证明地位](../knowledge/books/B104.md)
+- [B104-13 紧张或没接住不自动成为个人过错](../knowledge/books/B104.md)
+- [B104-14 形象表达服务真实生活和预算](../knowledge/books/B104.md)
+- [B104-20 群体交流不把朋友当障碍或工具](../knowledge/books/B104.md)
+- [B104-25 借口、假身份与虚假预选不因结果而合理](../knowledge/books/B104.md)
+- [B104-27 具体欣赏不附带索取](../knowledge/books/B104.md)
+- [B104-28 轻量幽默不以羞辱制造高低位](../knowledge/books/B104.md)
+- [B104-35 双向筛选不用审查式挑战](../knowledge/books/B104.md)
+- [B104-36 深聊不是采集隐私来制造依赖](../knowledge/books/B104.md)
+- [B104-37 一对一交流与排除选择空间分开](../knowledge/books/B104.md)
+- [B104-38 接触不是固定升级阶梯](../knowledge/books/B104.md)
+- [B104-41 私人录音和聊天不当公共素材](../knowledge/books/B104.md)
+- [B104-42 联系方式只在知情愿意时交换](../knowledge/books/B104.md)
+- [B104-45 有人同行不自动说明人品或兴趣](../knowledge/books/B104.md)
+- [B104-48 任何阶段都存在改变主意的空间](../knowledge/books/B104.md)
+- [B104-49 用户不喜欢某种相处也可以停止](../knowledge/books/B104.md)
+- [B104-56 电话按双方方便，不争谁先挂断](../knowledge/books/B104.md)
+- [B104-58 资料展示真实能力，不借他人物品暗示身份](../knowledge/books/B104.md)
+- [B104-59 有伴侣的表达不当测试来绕过](../knowledge/books/B104.md)
+- [B104-60 朋友之间可真实介绍，不冒名或绕过入场资格](../knowledge/books/B104.md)
+- [B105-19 同意游戏或接触不建立通用许可](../knowledge/books/B105.md)
+- [B105-22 真心和付出不产生对方的义务](../knowledge/books/B105.md)
+- [B105-23 朋友介绍保留真实，不设套隔离同行者](../knowledge/books/B105.md)
+- [B105-24 同伴反馈具体，练习可以随时退出](../knowledge/books/B105.md)
+- [B105-25 尊重不靠惩罚或控制对方建立](../knowledge/books/B105.md)
+- [B105-27 共同安排变动先核当前事实和成本](../knowledge/books/B105.md)
+- [B105-31 小步练习保留自愿和真实，不采用羞辱闯关](../knowledge/books/B105.md)
+- [B105-38 关系意图及时说清，不以未来承诺制造误会](../knowledge/books/B105.md)
+- [B106-05 正常善意与交换恋爱的期待分开](../knowledge/books/B106.md)
+- [B106-08 性别概括和亲密节奏不用于评价一个人](../knowledge/books/B106.md)
+- [B106-13 身份选择不等于必须消灭普通生活](../knowledge/books/B106.md)
+- [B106-14 自信不赋予占用别人时间与空间的权利](../knowledge/books/B106.md)
+- [B106-15 听取反馈与保持边界不必二选一](../knowledge/books/B106.md)
+- [B106-16 调侃与冒犯按当前证据判断](../knowledge/books/B106.md)
+- [B106-18 不用先吸引大多数人才能认真认识某个人](../knowledge/books/B106.md)
+- [B106-33 声音姿势以舒适清楚为限，不演强势人物](../knowledge/books/B106.md)
+- [B106-34 身体亲密不由自信、等级或术语授权](../knowledge/books/B106.md)
+- [B106-36 正常相处与承诺靠共同约定兑现](../knowledge/books/B106.md)
+
+## M23
+
+尊重拒绝的具体范围；共335处。
+
+- [明确不愿意时停止](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [拒绝范围与不采用的推进规则](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [事实与假设、暂停加码、对错与边界限制](../knowledge/books/S04-emotion-management.md)；旧定位，仅追溯，未绑定整份正文。
+- [允许、原有承诺与双方退出权的区别](../knowledge/books/S04-allowing.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；旧定位，仅追溯，未绑定整份正文。
+- [五段原结构、无对方反馈与真实表达/邀约/关系边界](../knowledge/books/S07-stage-script.md)；旧定位，仅追溯，未绑定整份正文。
+- [框架问题、对话脉络、真实照片/身份及换场与许可限制](../knowledge/books/S11-mystery-notes.md)；旧定位，仅追溯，未绑定整份正文。
+- [九章摘抄、阶段/地点重名、测试与服从的证据限制及真实交流](../knowledge/books/S13-mystery-excerpts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1三次IOI/65%无数据阈值、P2–6分类与P7示意图、配合与具体同意的区别](../knowledge/books/S20-ghost-ct-manual.md)；旧定位，仅追溯，未绑定整份正文。
+- [P3–125规范化逐页一致、26页视觉复核、P42–43 M/B/T和P84 CT流程](../knowledge/books/S22-mystery-pdf-reconciliation.md)；旧定位，仅追溯，未绑定整份正文。
+- [已读引言及第一章：PAGE6–25，礼貌/商议与讨好、感受与当前意愿分开](../knowledge/books/S04-attraction-not-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE40–46：接吻测验、号码拒绝与具体同意](../knowledge/books/S04-attraction-ch02.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE61–64：生物机制不覆盖主观意愿与同意](../knowledge/books/S04-attraction-ch03.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE84–86：号码拒绝不是隐藏测试](../knowledge/books/S04-attraction-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [第23–25章：不采用突然身体行为、拒绝后重试与隐瞒去向](../knowledge/books/B003-ch20-27.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页512–529：具体意愿和拒绝优先，排除隐瞒与绕过拒绝](../knowledge/books/B004-ch10.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页19–36：穿着与性倒计时不构成同意，拒绝优先](../knowledge/books/B006.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页45：幻想与操控主张均不能代替当前许可](../knowledge/books/B007-ch06-07.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页11、13、15、19：拒绝优先于假性抗拒命名](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页157–158逐条取舍：不以框架、关系或生育规则绕过本人意愿](../knowledge/books/B008-ch14-19-tail.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页178、250、254–259取舍：姿势和空间不覆盖明确意愿](../knowledge/books/B010-influence.md)；旧定位，仅追溯，未绑定整份正文。
+- [信号不能覆盖选择；物理页40–48取舍：不以饮酒、穿着、地址或过去经历覆盖当前意愿](../knowledge/books/B012-ch05.md)；旧定位，仅追溯，未绑定整份正文。
+- [按拒绝范围处理当前一轮；具体限制保留，不用普通新消息解除边界](../knowledge/topics/refusal-scope.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体意愿优先于所谓信号；物理页25、35–38、47的冲突与拒绝范围](../knowledge/books/B013-ch04-06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页340、348–355取舍：诚实期待、具体自愿与不利用饮酒、困倦或所谓可利用性](../knowledge/books/B014-ch06.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页614–618、626–627：目标不一致不授权施压，拒绝不自动解释为测试](../knowledge/books/B014-ch11.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine9：礼物、接送、让座与时间不构成亲密欠账；不把未答应写成已约定](../knowledge/books/B016-ch07.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十五至十八章：单身、共餐、接送、回家、朋友认可与身体测试都不替代当前意愿](../knowledge/books/B016-ch15-18.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页189–191取舍：照做不单独证明自由自愿，具体拒绝与当前意愿优先](../knowledge/books/B017-p176-201.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页69–77取舍：不把尊重拒绝与不合理要求打包，也不以性需求、付出或次数替代当前同意](../knowledge/books/B019-ch05-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页22–26取舍：身体回避和具体拒绝独立核，不用自然方式、信号数或话题奖惩覆盖意愿](../knowledge/books/B020-lectures08-12.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页36–71取舍：事先停止词不取消当前拒绝，同意一项不扩为升级、记录或公开传播](../knowledge/books/B022-chapters03-04.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页61–66、174–189取舍：口头停止不改为反话或自动反应，表面退让后再施压不算收住](../knowledge/books/B023-choice-and-limits.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页145–160取舍：在场、笑声与某项活动不扩为接触或转场许可，不用速度绕过拒绝](../knowledge/books/B024-mechanics-and-dates.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页77–86取舍：不强制早期性化或接触时限，舒适和先前参与不替代当前具体意愿](../knowledge/books/B025-intimacy-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [转换主文段333–395、512–601取舍：场所、饮料、共舞与转场不扩为其他许可，不借尴尬或拒绝后重试推进](../knowledge/books/B030-context-and-choice.md)；旧定位，仅追溯，未绑定整份正文。
+- [EPUB第十、三十至三十三章取舍：重复格式不是独立证据，身体反馈、舒适与先前参与不替代当前意愿](../knowledge/books/B031-edition-comparison.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一至二十四、三十六至三十八、四十一至四十二、四十四至四十八及五十二章取舍：拒绝按具体范围保留，沉默、过去亲近或帮助不替代当前意愿](../knowledge/books/B032-consent-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [引言、第二至三章及第四至八章取舍：游戏、群体、熟人认可和先前参与不撤回具体拒绝与退出权](../knowledge/books/B033-choice-and-social-pressure.md)；旧定位，仅追溯，未绑定整份正文。
+- [29–79页取舍：群体、游戏与假设不扩大具体同意，不制造出行限制](../knowledge/books/B034-choice-and-pressure.md)；旧定位，仅追溯，未绑定整份正文。
+- [24–25及66–78页：操控核心整体排除，伤害不改写为训练流程](../knowledge/books/B035-coercion-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [13、74–88及98–106页取舍：分类、身体线索和已有接触不替代具体选择](../knowledge/books/B040-classification-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [13–16、27–33及48–52页：催眠、放松和不反抗均不替代当下自愿，控制目的排除](../knowledge/books/B044-autonomy-and-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应当前PDF物理页31–47及55–65。；见原创论点取舍与执行限制。](../knowledge/books/B036-autonomy-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项11，Part3。；见原创论点取舍与执行限制。](../knowledge/books/B038-part3-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项14，Part6；两张关系表已实际核看。；见原创论点取舍与执行限制。](../knowledge/books/B038-part6-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项15，Part7第5.5节。；见原创论点取舍与执行限制。](../knowledge/books/B038-part7-breakups.md)；旧定位，仅追溯，未绑定整份正文。
+- [160–187页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-connection-and-trust.md)；旧定位，仅追溯，未绑定整份正文。
+- [188–226页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-mutual-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [235–239、267–287页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-conflict-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [290–298、311–324、345–347页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-breakup-meaning.md)；旧定位，仅追溯，未绑定整份正文。
+- [301–344页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-repair-and-recovery.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页18–24、36–43、57及74；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-consent-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页32–43及75–78；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-relationship-expectations.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页90–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-classification-and-preferences.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页103–110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-no-shaming-or-unmasking.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5，对应第三章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-biology-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-ending-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [第76–81、114–121、127–128页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-requests-and-tests.md)；旧定位，仅追溯，未绑定整份正文。
+- [第82–103、126页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-body-language-limits.md)；旧定位，仅追溯，未绑定整份正文。
+- [第59–64、88–91、114–119页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-consent-and-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9、11–12页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-classification-and-autonomy.md)；旧定位，仅追溯，未绑定整份正文。
+- [第12–15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-budget-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第40–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-astrology-and-current-facts.md)；旧定位，仅追溯，未绑定整份正文。
+- [第7–12、25–30、39–45、55–56页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-preferences-and-agreements.md)；旧定位，仅追溯，未绑定整份正文。
+- [第47–55、58–62页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-signals-and-assumptions.md)；旧定位，仅追溯，未绑定整份正文。
+- [第28、33–35、44、48–53、61、66–67页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-consent-over-control.md)；旧定位，仅追溯，未绑定整份正文。
+- [第25–32、35–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-invitation-and-consent.md)；旧定位，仅追溯，未绑定整份正文。
+- [身体接触与拒绝的范围](../knowledge/books/B054.md)
+- [准备行程与共同决定](../knowledge/books/B055.md)
+- [经验与当下同意](../knowledge/books/B056.md)
+- [关系意向与身体同意分别确认](../knowledge/books/B057.md)
+- [兴趣信号不能累计成许可](../knowledge/books/B058.md)
+- [信息交换保留不想说的空间](../knowledge/books/B058.md)
+- [表达意愿和确认关系](../knowledge/books/B058.md)
+- [当下意愿不由称呼和场所替代](../knowledge/books/B058.md)
+- [需要空间与拒绝具体范围](../knowledge/books/B059.md)
+- [不从酒量或身体反应推断同意](../knowledge/books/B059.md)
+- [普通尊重与边界不会随熟悉减少](../knowledge/books/B060.md)
+- [真实脆弱不交换感情](../knowledge/books/B060.md)
+- [不把拒绝改译成试探](../knowledge/books/B060.md)
+- [实际同意不靠场所借口](../knowledge/books/B060.md)
+- [陌生接触要留出退出空间](../knowledge/books/B061.md)
+- [愿意聊天不等于同意身体接触](../knowledge/books/B061.md)
+- [拒绝不能被话术重新定义](../knowledge/books/B061.md)
+- [暧昧内容也保留明确退出权](../knowledge/books/B061.md)
+- [关系定位需要双方接受](../knowledge/books/B061.md)
+- [阶段只是整理材料的目录](../knowledge/books/B062.md)
+- [游戏和角色没有亲密授权作用](../knowledge/books/B062.md)
+- [接受拒绝不把朋友当欠债](../knowledge/books/B063.md)
+- [服装场所身体反应不能代替同意](../knowledge/books/B063.md)
+- [私人边界和亲密单独确认](../knowledge/books/B064.md)
+- [拒绝情境不能按错译处理](../knowledge/books/B064.md)
+- [联系方式不换取承诺](../knowledge/books/B065.md)
+- [共同活动让每个人保留选择](../knowledge/books/B065.md)
+- [当前拒绝优先于所谓兴趣指标](../knowledge/books/B065.md)
+- [私密披露与亲密各自单独选择](../knowledge/books/B065.md)
+- [表达好感不用让她欠一次机会](../knowledge/books/B066.md)
+- [邀约把活动和参加范围说清](../knowledge/books/B066.md)
+- [曾经示好仍可以改变主意](../knowledge/books/B066.md)
+- [关心实际需要不利用脆弱处境](../knowledge/books/B066.md)
+- [退出单向付出是照顾自己的边界](../knowledge/books/B066.md)
+- [交流偏好不决定身体边界](../knowledge/books/B066.md)
+- [亲密每一步都看当下意愿](../knowledge/books/B066.md)
+- [共同圈子不替当事人答应](../knowledge/books/B066.md)
+- [被拒先保留现实原因与未知](../knowledge/books/B067.md)
+- [联系方式需要对方真的愿意给](../knowledge/books/B067.md)
+- [同伴在场就正常顾及每个人](../knowledge/books/B067.md)
+- [共同活动和转场分别征求选择](../knowledge/books/B067.md)
+- [安全感不能靠制造恐惧取得](../knowledge/books/B067.md)
+- [共舞按双方能配合的方式来](../knowledge/books/B067.md)
+- [网聊用真实身份并尊重停止联系](../knowledge/books/B067.md)
+- [外貌观察不变成身体鉴定](../knowledge/books/B067.md)
+- [交换联系方式各有选择权](../knowledge/books/B068.md)
+- [带朋友不直接证明没兴趣](../knowledge/books/B068.md)
+- [没空无替代安排就先收住](../knowledge/books/B068.md)
+- [亲密不设五次触碰配额](../knowledge/books/B068.md)
+- [好感可以真诚表达不靠让她猜](../knowledge/books/B068.md)
+- [安全选择与受害责任分开](../knowledge/books/B068.md)
+- [幻想是双方知道的游戏](../knowledge/books/B069.md)
+- [冒险只承担自己被拒的可能](../knowledge/books/B069.md)
+- [共同活动先有清楚的活动范围](../knowledge/books/B069.md)
+- [已有安排不靠连续说服改变](../knowledge/books/B069.md)
+- [给对方参与空间不把答话当授权](../knowledge/books/B069.md)
+- [服务场景的礼貌不等于私人关系](../knowledge/books/B069.md)
+- [冲劲不等于危险或无礼](../knowledge/books/B069.md)
+- [聆听允许不同感受和真实不同意](../knowledge/books/B069.md)
+- [双向参与不等于用投资换回报](../knowledge/books/B069.md)
+- [认识人不靠拦路或突然触碰](../knowledge/books/B069.md)
+- [真诚社交不拿朋友当工具](../knowledge/books/B069.md)
+- [拒绝后保持尊重不继续加码](../knowledge/books/B069.md)
+- [欣赏不能靠假装无意或读心](../knowledge/books/B069.md)
+- [耐心自检不保证对方最终回应](../knowledge/books/B069.md)
+- [勇敢表达不制造恐惧](../knowledge/books/B069.md)
+- [脆弱真实也不产生补偿义务](../knowledge/books/B069.md)
+- [共同玩笑留出不参与的空间](../knowledge/books/B069.md)
+- [关系情况不是突破口](../knowledge/books/B069.md)
+- [生活更新从可承受的一步开始](../knowledge/books/B069.md)
+- [课程图不作为自动升级流程](../knowledge/books/B069.md)
+- [双向参与不制造沉没成本](../knowledge/books/B070.md)
+- [邀约说明在答应什么](../knowledge/books/B070.md)
+- [没有替代安排就先收住](../knowledge/books/B070.md)
+- [触碰不按SOI前后自动发生](../knowledge/books/B070.md)
+- [拒绝不需要被解释成有兴趣](../knowledge/books/B070.md)
+- [共同假想须清楚可退出](../knowledge/books/B070.md)
+- [群体交流不把朋友当门卫](../knowledge/books/B070.md)
+- [工作人员的职责不换私人回应](../knowledge/books/B070.md)
+- [关系情况用来尊重范围](../knowledge/books/B070.md)
+- [耐心不是等到对方必然答应](../knowledge/books/B070.md)
+- [清楚好感不按分钟完成关卡](../knowledge/books/B071.md)
+- [技术性拒绝不覆盖明确原话](../knowledge/books/B071.md)
+- [姿势和顺从不是强兴趣证据](../knowledge/books/B071.md)
+- [假测试不能换取接触许可](../knowledge/books/B071.md)
+- [群体交流让愿意的人参与](../knowledge/books/B071.md)
+- [熟悉感不能靠虚构共同过去](../knowledge/books/B071.md)
+- [善意不要求按价偿还](../knowledge/books/B071.md)
+- [离开可以礼貌直接说](../knowledge/books/B071.md)
+- [欣赏不夹带贬低和任务](../knowledge/books/B071.md)
+- [共同话题可转语音但先核方便](../knowledge/books/B071.md)
+- [忙碌和取消要给表达空间](../knowledge/books/B071.md)
+- [联系时间不靠固定冷落或连拨](../knowledge/books/B071.md)
+- [真实关系意图和状态不回避](../knowledge/books/B071.md)
+- [团体约会和跳舞不自动升级](../knowledge/books/B071.md)
+- [隐私不作为展示社交价值的道具](../knowledge/books/B071.md)
+- [性别概括不能替代眼前原话](../knowledge/books/B074.md)
+- [熟悉的语气不等于已被信任](../knowledge/books/B074.md)
+- [一次邀约说清真实活动](../knowledge/books/B074.md)
+- [没有替代安排就停止追约](../knowledge/books/B074.md)
+- [眼神和生理反应不读成许可](../knowledge/books/B074.md)
+- [身体动作不按缩写自动升级](../knowledge/books/B074.md)
+- [团体里不把别人当通路](../knowledge/books/B074.md)
+- [遇见可以问候不能制造尾随](../knowledge/books/B074.md)
+- [忽冷忽热不用于制造依赖](../knowledge/books/B074.md)
+- [长期相处看真实待遇和约定](../knowledge/books/B074.md)
+- [认识朋友不把人当跳板](../knowledge/books/B075.md)
+- [公共场合留出不交谈的空间](../knowledge/books/B075.md)
+- [邀约说实际活动并让人选择](../knowledge/books/B075.md)
+- [年级专业不推断欲望与同意](../knowledge/books/B075.md)
+- [身体推进不继承隔离和服从步骤](../knowledge/books/B075.md)
+- [聚会不以酒惩罚隐私和交换亲密](../knowledge/books/B075.md)
+- [付出和照片不形成社交债](../knowledge/books/B075.md)
+- [年纪职业不推出感情动机](../knowledge/books/B076.md)
+- [开场不靠假求助和尾随](../knowledge/books/B076.md)
+- [拒绝不是需要突破的障碍](../knowledge/books/B076.md)
+- [联系渠道和后续同意分清](../knowledge/books/B076.md)
+- [帮忙和付出不形成亲密债](../knowledge/books/B076.md)
+- [请客不交换下一次或身体回应](../knowledge/books/B076.md)
+- [朋友不是接近别人的通路](../knowledge/books/B076.md)
+- [日常问候不设数量配额](../knowledge/books/B076.md)
+- [线上渠道按当前真实条件使用](../knowledge/books/B076.md)
+- [笑过不等于接受所有玩笑](../knowledge/books/B076.md)
+- [漫画不是推进步骤或结果证据](../knowledge/books/B076.md)
+- [边界按原话范围保留](../knowledge/books/B077.md)
+- [拒绝与纠正不改写为喜欢](../knowledge/books/B078.md)
+- [拒绝按当下范围停止不猜隐藏许可](../knowledge/books/B079.md)
+- [拒绝不能被作者的内心解释覆盖](../knowledge/books/B080.md)
+- [关照和资源不产生亲密债](../knowledge/books/B081.md)
+- [每一步都保留不继续的选择](../knowledge/books/B081.md)
+- [拒绝按具体范围停止](../knowledge/books/B081.md)
+- [语言与行为一起看而不推翻明确表达](../knowledge/books/B083.md)
+- [舒适和身体信号不能代替同意](../knowledge/books/B083.md)
+- [边界不靠身体先行夸张或游戏改写](../knowledge/books/B083.md)
+- [换场和独处都要共同选择](../knowledge/books/B083.md)
+- [十项失误清单逐项保留判断边界](../knowledge/books/B083.md)
+- [拒绝不需要被摧毁或证明理由](../knowledge/books/B083.md)
+- [没有经验不削弱表达与拒绝的权利](../knowledge/books/B084.md)
+- [创伤不能从分类推断或逼问](../knowledge/books/B085.md)
+- [隐私表达与当前同意是不同信息](../knowledge/books/B085.md)
+- [改变主意不靠惩罚纠正](../knowledge/books/B085.md)
+- [亲密与关系都按当前范围确认](../knowledge/books/B085.md)
+- [共同活动由她本人选择参加](../knowledge/books/B086.md)
+- [情绪亲近与身体意愿分别确认](../knowledge/books/B086.md)
+- [亲吻不作为兴趣测试或承诺证明](../knowledge/books/B086.md)
+- [个人偏好不能兑换其他同意](../knowledge/books/B087.md)
+- [明确边界照其范围停下](../knowledge/books/B087.md)
+- [版本09：关系边界不能改写成诱惑迹象](../knowledge/books/B088.md)
+- [05：认识渠道服从当前情境](../knowledge/books/B091.md)
+- [07：单次约会结果不能倒推缺少触碰](../knowledge/books/B091.md)
+- [08：白天限制不能被通用秒数覆盖](../knowledge/books/B091.md)
+- [12：从身后触碰和喊停的方法不采用](../knowledge/books/B091.md)
+- [30：当前自愿不等于没有反抗](../knowledge/books/B091.md)
+- [14：交换背景信息靠互相开放](../knowledge/books/B093.md)
+- [20：昵称和文字动作不等于关系成立](../knowledge/books/B093.md)
+- [26：性话题也需要当前自愿](../knowledge/books/B093.md)
+- [27：关系期待应在相关决定前说明](../knowledge/books/B093.md)
+- [28：拒绝不需要被破除](../knowledge/books/B093.md)
+- [32：潜台词保留不确定性](../knowledge/books/B093.md)
+- [08：欣赏不附带行为义务](../knowledge/books/B094.md)
+- [11：不回答不自动说明吸引不足](../knowledge/books/B094.md)
+- [12：认可回答不需要身体奖励](../knowledge/books/B094.md)
+- [16：敏感问题没有圈套通行证](../knowledge/books/B094.md)
+- [17：自主决定不排斥咨询朋友](../knowledge/books/B094.md)
+- [共同游戏的参与与身体接触分别选择](../knowledge/books/B095.md)
+- [换位置或单独聊，先提出可拒绝的邀请](../knowledge/books/B095.md)
+- [拒绝按具体范围立即生效](../knowledge/books/B095.md)
+- [得知已有伴侣后停止浪漫推进](../knowledge/books/B095.md)
+- [约会路线透明，转场和亲近各自征求意愿](../knowledge/books/B095.md)
+- [筛选表达真实偏好，不制造证明压力](../knowledge/books/B096.md)
+- [离远一点按拒绝处理，不寻找反击模板](../knowledge/books/B096.md)
+- [整理头发与身体朝向不构成亲密许可](../knowledge/books/B096.md)
+- [轻松调侃需要双向承接，幽默不自动获得许可](../knowledge/books/B096.md)
+- [开场不能挡路、假装认识或突然碰触](../knowledge/books/B096.md)
+- [翻译双关不直接搬到微信，拒绝不能变成游戏惩罚](../knowledge/books/B096.md)
+- [换话题不能用来打断、扰乱或绕过拒绝](../knowledge/books/B096.md)
+- [普通问好可以开场，微笑和脚尖不判定关系](../knowledge/books/B096.md)
+- [相处能持续，边界与真实生活比奖品心态具体](../knowledge/books/B096.md)
+- [朋友或组织者不能替她同意见面](../knowledge/books/B097.md)
+- [笑与拨头发不能授权身体接近](../knowledge/books/B097.md)
+- [尊重隐私与保持自主同时成立](../knowledge/books/B097.md)
+- [边界译成框架时，应回到真实可接受范围](../knowledge/books/B097.md)
+- [共同经历可以回扣，负面经历不能当制造联系的办法](../knowledge/books/B097.md)
+- [投入下降先收住，明确拒绝不进入反复循环](../knowledge/books/B097.md)
+- [B098三重脑图不作行为诊断器](../knowledge/books/B098.md)
+- [B098竞争叙事不能替代本人同意](../knowledge/books/B098.md)
+- [B098幻想比例不能推翻现实拒绝](../knowledge/books/B098.md)
+- [B098生育地图不提供单因素因果证明](../knowledge/books/B098.md)
+- [B098AA与拒绝不能被换算为伤害证明](../knowledge/books/B098.md)
+- [B099练习不等于无限坚持一种解释](../knowledge/books/B099.md)
+- [B099花钱和关心都不购买关系资格](../knowledge/books/B099.md)
+- [B099关系约定以诚实和双方认可为准](../knowledge/books/B099.md)
+- [B099拒绝不自动说明用户做错](../knowledge/books/B099.md)
+- [B099向人学习要看边界而不只看结果](../knowledge/books/B099.md)
+- [B099长期与性关系的分类并非可靠定律](../knowledge/books/B099.md)
+- [B099笑不能证明认可羞辱或后续接触](../knowledge/books/B099.md)
+- [B099有主见不等于不问本人意愿](../knowledge/books/B099.md)
+- [B099不是每句话都适合转成性话题](../knowledge/books/B099.md)
+- [B099做朋友不能成为反向诱导标签](../knowledge/books/B099.md)
+- [B099不要的具体范围不靠眼神撤销](../knowledge/books/B099.md)
+- [B099百分之九十三不套用于全部交流](../knowledge/books/B099.md)
+- [B099友好和姿态都不是固定兴趣概率](../knowledge/books/B099.md)
+- [B099推进可以具体但不是不断升级](../knowledge/books/B099.md)
+- [B099亲密叙事须有双方愿意的语境](../knowledge/books/B099.md)
+- [B099生活准备不预设来访与亲密](../knowledge/books/B099.md)
+- [B099道具不能伪装成读心和诊断](../knowledge/books/B099.md)
+- [B099体贴不是无条件接管或牺牲](../knowledge/books/B099.md)
+- [B099社交来源要与场景许可一起看](../knowledge/books/B099.md)
+- [B099练习对象不是模拟程序](../knowledge/books/B099.md)
+- [B099联系方式存在不等于愿意提供](../knowledge/books/B099.md)
+- [B099邀约有日期活动但不默认答应](../knowledge/books/B099.md)
+- [B099沉默不等于对方想去你家](../knowledge/books/B099.md)
+- [B099抚摸与生理反应不替代后续同意](../knowledge/books/B099.md)
+- [B101-06 隐私和成年边界不能只写在前言](../knowledge/books/B101.md)
+- [B101-14 酒精不承担推进关系的作用](../knowledge/books/B101.md)
+- [B101-18 拒绝权不由追求者授予](../knowledge/books/B101.md)
+- [B101-30 约会次数和性行为不设成达标线](../knowledge/books/B101.md)
+- [B101-37 朋友和陌生人不承担推进职责](../knowledge/books/B101.md)
+- [B101-38 接触分类图不是许可阶梯](../knowledge/books/B101.md)
+- [B101-39 礼物、帮忙与亲密意愿分开](../knowledge/books/B101.md)
+- [B101-40 撤回和躲开不能改名为害羞](../knowledge/books/B101.md)
+- [B101-41 亲密确认不是需要克服的弱点](../knowledge/books/B101.md)
+- [B101-42 更换到私密地点是新的决定](../knowledge/books/B101.md)
+- [B101-43 声称自然不能抵消欺骗和施压](../knowledge/books/B101.md)
+- [B101-45 事后善意不能追认此前意愿](../knowledge/books/B101.md)
+- [B101-47 对方恢复清楚判断不是需要避免的事](../knowledge/books/B101.md)
+- [B101-55 难过时先核实际需要和接触边界](../knowledge/books/B101.md)
+- [B102-06 情绪积极不等于接受新要求](../knowledge/books/B102.md)
+- [B102-09 共鸣不是进入亲密关系的通行证](../knowledge/books/B102.md)
+- [B102-14 角色称呼要由双方一起承接](../knowledge/books/B102.md)
+- [B102-15 不愿意不能统一归为可化解反应](../knowledge/books/B102.md)
+- [B102-20 涉及儿童的性化例句不进入方法](../knowledge/books/B102.md)
+- [B102-28 讲故事不能暗中预演身体接触](../knowledge/books/B102.md)
+- [B102-34 私人地点和关系期待要说明白](../knowledge/books/B102.md)
+- [B102-35 性化话术不靠游戏绕过边界](../knowledge/books/B102.md)
+- [B102-38 答应某项活动后再核细节](../knowledge/books/B102.md)
+- [B104-06 成年人和双方意愿不是吸引力技巧](../knowledge/books/B104.md)
+- [B104-11 自然姿态不以占据他人空间证明地位](../knowledge/books/B104.md)
+- [B104-19 引出反应不等于取得真实意愿](../knowledge/books/B104.md)
+- [B104-22 招呼后等待对方有空承接](../knowledge/books/B104.md)
+- [B104-26 角色玩笑不自行赋予关系或亲密权限](../knowledge/books/B104.md)
+- [B104-38 接触不是固定升级阶梯](../knowledge/books/B104.md)
+- [B104-39 不能利用速度、分心或假借检查绕过反应](../knowledge/books/B104.md)
+- [B104-40 安慰方式不能默认身体接触更有效](../knowledge/books/B104.md)
+- [B104-46 目的地与转场要明说](../knowledge/books/B104.md)
+- [B104-47 口头拒绝不能被身体或作者猜测覆盖](../knowledge/books/B104.md)
+- [B104-48 任何阶段都存在改变主意的空间](../knowledge/books/B104.md)
+- [B104-49 用户不喜欢某种相处也可以停止](../knowledge/books/B104.md)
+- [B104-52 忙碌状态先按实际任务理解](../knowledge/books/B104.md)
+- [B104-59 有伴侣的表达不当测试来绕过](../knowledge/books/B104.md)
+- [B105-17 转场说明地点和活动，不折算成亲密时间](../knowledge/books/B105.md)
+- [B105-18 见面愿意只对当前活动负责](../knowledge/books/B105.md)
+- [B105-19 同意游戏或接触不建立通用许可](../knowledge/books/B105.md)
+- [B105-20 帮助和专业身份不交换亲密](../knowledge/books/B105.md)
+- [B105-21 有伴侣与明确拒绝不解释成保护壳](../knowledge/books/B105.md)
+- [B105-36 新消息按本轮重核，不用旧冷淡或旧好感盖住](../knowledge/books/B105.md)
+- [B106-07 情绪和逻辑不构成绕过原话的理由](../knowledge/books/B106.md)
+- [B106-08 性别概括和亲密节奏不用于评价一个人](../knowledge/books/B106.md)
+- [B106-12 分开后的失落不证明谁无能或谁变坏](../knowledge/books/B106.md)
+- [B106-14 自信不赋予占用别人时间与空间的权利](../knowledge/books/B106.md)
+- [B106-15 听取反馈与保持边界不必二选一](../knowledge/books/B106.md)
+- [B106-25 暂时离席与实际离开分开处理](../knowledge/books/B106.md)
+- [B106-34 身体亲密不由自信、等级或术语授权](../knowledge/books/B106.md)
+- [B106-35 见面地点照顾双方，不把带领变成必须跟随](../knowledge/books/B106.md)
+
+## M24
+
+见面后的真实反馈；共59处。
+
+- [第一次见面与后续](../knowledge/books/G01-practical-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [实际反馈与建议未执行分开](../knowledge/cases/C18-date-tips-overcontact.md)；旧定位，仅追溯，未绑定整份正文。
+- [回复时长与固定关系进度无验证](../knowledge/books/G04-observation-not-profiling.md)；旧定位，仅追溯，未绑定整份正文。
+- [见面后的下一步；R04共同评价、独特好感与实际后续分开](../knowledge/topics/interest-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页8–13：群体断言不解释具体互动，未知变化不归成资源动机或用户价值不足](../knowledge/books/B017-p001-027.md)；旧定位，仅追溯，未绑定整份正文。
+- [第四十四至四十七、五十二至五十三章取舍：短时结果不证明长期适合，见面后按实际体验和兑现安排反馈，不以人数、资源或分类解释对方动机](../knowledge/books/B032-training-and-relationships.md)；旧定位，仅追溯，未绑定整份正文。
+- [132–159页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-date-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页75–78、86–88及112–113；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-life-and-routine.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项5–6、9–10，对应第三、四、七、八章；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-expectations-and-repair.md)；旧定位，仅追溯，未绑定整份正文。
+- [第120–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-expectations-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13–14、21–24、27–33页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-repair-and-return.md)；旧定位，仅追溯，未绑定整份正文。
+- [分手、恢复生活与复合](../knowledge/books/B054.md)
+- [活动选择与见面长度](../knowledge/books/B055.md)
+- [不纠缠与实际关系约定](../knowledge/books/B056.md)
+- [邀约与后续连接落实到双方安排](../knowledge/books/B057.md)
+- [共同体验不保证长期相容](../knowledge/books/B059.md)
+- [关系定位需要双方接受](../knowledge/books/B061.md)
+- [对新对象按新证据判断](../knowledge/books/B063.md)
+- [欣赏能力与愿意恋爱分别判断](../knowledge/books/B066.md)
+- [初次活动兼顾方便和退出空间](../knowledge/books/B068.md)
+- [自然互动以后仍需说清意愿](../knowledge/books/B069.md)
+- [表达一致不能保证互相喜欢](../knowledge/books/B069.md)
+- [失约原因未知不自动自责](../knowledge/books/B069.md)
+- [低投入不等于用户没有价值](../knowledge/books/B070.md)
+- [正常情绪不以气场好坏裁决](../knowledge/books/B070.md)
+- [负面情绪可以有现实原因](../knowledge/books/B071.md)
+- [年龄身高学历不自动决定动机](../knowledge/books/B071.md)
+- [作者百分比不变成兴趣概率](../knowledge/books/B074.md)
+- [偏好不同不要求打破原则](../knowledge/books/B074.md)
+- [没有发展不自动归责用户](../knowledge/books/B074.md)
+- [困扰值得听不强迫积极](../knowledge/books/B074.md)
+- [长期相处看真实待遇和约定](../knowledge/books/B074.md)
+- [失落不诊断成缺陷](../knowledge/books/B074.md)
+- [相处质量不靠外貌排名](../knowledge/books/B075.md)
+- [没有结果先保留原因未知](../knowledge/books/B075.md)
+- [谁买单不能单独判断感情](../knowledge/books/B076.md)
+- [沉默是双方的交流状态](../knowledge/books/B077.md)
+- [失约的事实成本与未知动机分开](../knowledge/books/B086.md)
+- [相处能持续，边界与真实生活比奖品心态具体](../knowledge/books/B096.md)
+- [推进看具体愿意做什么，不靠服从阈值](../knowledge/books/B097.md)
+- [B098动物求偶类比不能读取个人意图](../knowledge/books/B098.md)
+- [B098不会爱你的普遍断言缺少证明](../knowledge/books/B098.md)
+- [B098AA与拒绝不能被换算为伤害证明](../knowledge/books/B098.md)
+- [B099明确目标不把人变成通关对象](../knowledge/books/B099.md)
+- [B099约会是双方了解而不是审查够格](../knowledge/books/B099.md)
+- [B099热恋月份和化学变化不作时钟](../knowledge/books/B099.md)
+- [B101-29 首次见面不等于一错全输](../knowledge/books/B101.md)
+- [B101-32 见面后的反馈来自真实感受](../knowledge/books/B101.md)
+- [B101-33 答应过的关心要正常兑现](../knowledge/books/B101.md)
+- [B101-48 性关系不自动生成恋爱承诺](../knowledge/books/B101.md)
+- [B105-03 书内阶段供整理，不按小时或惯例数自动推进](../knowledge/books/B105.md)
+- [B105-18 见面愿意只对当前活动负责](../knowledge/books/B105.md)
+- [B105-28 真实差异可以保留，关系称谓另行确认](../knowledge/books/B105.md)
+- [B105-34 实际投入用来观察双向，不用于套牢](../knowledge/books/B105.md)
+- [B105-38 关系意图及时说清，不以未来承诺制造误会](../knowledge/books/B105.md)
+- [B106-06 有好感可以坦率，不靠争夺选择权](../knowledge/books/B106.md)
+- [B106-09 公共关注与恋爱意愿属于不同证据](../knowledge/books/B106.md)
+- [B106-18 不用先吸引大多数人才能认真认识某个人](../knowledge/books/B106.md)
+- [B106-36 正常相处与承诺靠共同约定兑现](../knowledge/books/B106.md)
+
+## M25
+
+开场或自然重联；共171处。
+
+- [现场素材与反馈分支](../knowledge/books/B090.md)；旧定位，仅追溯，未绑定整份正文。
+- [重联与固定冷却天数区别](../knowledge/books/G02-reference-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [十五部分话术、不同反馈类型与开场/困扰/求助/纠正的功能界限](../knowledge/books/S12-social-scripts.md)；旧定位，仅追溯，未绑定整份正文。
+- [一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–10身份、转平台与拒绝分支、及时回复/连发区别及数量主张限制](../knowledge/books/S19-three-months-contacts.md)；旧定位，仅追溯，未绑定整份正文。
+- [PAGE34–46：小步开场、工作礼貌与训练量限制](../knowledge/books/S04-attraction-ch02.md)；旧定位，仅追溯，未绑定整份正文。
+- [第2–5节：真实资料细节、渠道意愿与截图范围](../knowledge/books/G01-digital-evidence.md)；旧定位，仅追溯，未绑定整份正文。
+- [第1、5、7章：一次自然可退出的招呼与现实限制](../knowledge/books/B003-ch01-08.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页447–456：真实情境的一次普通交流，不编离场理由或凑人数](../knowledge/books/B004-ch09.md)；旧定位，仅追溯，未绑定整份正文。
+- [B009续读：真实展示与社交筛选，不以品牌或配不上预先否定自己](../knowledge/topics/profile-and-appearance.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页620–622、630：工作服务礼貌不作私人发展意愿，身份不覆盖明确拒绝](../knowledge/books/B014-ch11.md)；旧定位，仅追溯，未绑定整份正文。
+- [spine6：真实情境与普通招呼，不编短信、朋友故事或离场理由](../knowledge/books/B016-ch04.md)；旧定位，仅追溯，未绑定整份正文。
+- [第十章：真实兴趣活动与职业边界；不以假消费、假求助或洗手间偶遇开启](../knowledge/books/B016-ch08-11.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页142–143、152–157取舍：真实情境和诚实意图开场，让对方选择是否回应](../knowledge/books/B023-conversation.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页23–25取舍：诚实后续与知道何时收住并行，不套故意拖延或固定时限](../knowledge/books/B025-intent-and-follow-up.md)；精确段落：主动与收住可以同时成立、有自己的安排不等于编造稀缺。
+- [转换主文段1–332取舍：按真实情境开口，联系方式拥有不等于愿意提供，不编造借口或强制秒数](../knowledge/books/B030-opening-and-contact.md)；旧定位，仅追溯，未绑定整份正文。
+- [第九、十、十三、十四、二十七、三十七至三十八、四十四至四十五及四十七章取舍：真实情境开口，不编借口、强制秒数或以取得号码覆盖拒绝](../knowledge/books/B032-opening-and-contact.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项7–9，Part1及前置说明。；见原创论点取舍与执行限制。](../knowledge/books/B038-part1-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项10，Part2。；见原创论点取舍与执行限制。](../knowledge/books/B038-part2-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项11，Part3。；见原创论点取舍与执行限制。](../knowledge/books/B038-part3-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项11–12，Part3展示面及Part4获取信息。；见原创论点取舍与执行限制。](../knowledge/books/B038-profile-and-privacy.md)；旧定位，仅追溯，未绑定整份正文。
+- [14–50页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-social-opportunities.md)；旧定位，仅追溯，未绑定整份正文。
+- [19–35、64–65页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-real-profile.md)；旧定位，仅追溯，未绑定整份正文。
+- [301–344页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-repair-and-recovery.md)；旧定位，仅追溯，未绑定整份正文。
+- [350–380页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-practice-and-health.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页45–47、61–69及79–83；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-practice-and-opportunities.md)；旧定位，仅追溯，未绑定整份正文。
+- [顺序项11，对应第九章及延伸阅读；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B048-ending-and-boundaries.md)；旧定位，仅追溯，未绑定整份正文。
+- [第65–75、127–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-practice-and-context.md)；旧定位，仅追溯，未绑定整份正文。
+- [第120–130页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-expectations-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–11、15页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B050-skills-and-topics.md)；旧定位，仅追溯，未绑定整份正文。
+- [第13–14、21–24、27–33页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-repair-and-return.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-practice-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第9–14页；原创教学取舍，非实证验证。](../knowledge/books/B053-context-opening.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [主动表达与一次具体邀请](../knowledge/books/B054.md)
+- [真实生活与共同活动](../knowledge/books/B055.md)
+- [生活与呈现保持真实](../knowledge/books/B056.md)
+- [联系人管理与私人信息边界](../knowledge/books/B057.md)
+- [转发评论与点赞的证据限度](../knowledge/books/B057.md)
+- [自然开场与真实生活素材](../knowledge/books/B058.md)
+- [真实生活展示不靠人设反差](../knowledge/books/B059.md)
+- [共同话题回扣先于查户口](../knowledge/books/B060.md)
+- [熟悉曝光不等于双向兴趣](../knowledge/books/B060.md)
+- [开场抓现场细节并保持真实](../knowledge/books/B061.md)
+- [陌生接触要留出退出空间](../knowledge/books/B061.md)
+- [开场从真实信息选题](../knowledge/books/B062.md)
+- [开场说清一个真实来意](../knowledge/books/B063.md)
+- [练真实动作不把成败归为人品](../knowledge/books/B063.md)
+- [赞美和来意不用套性话题](../knowledge/books/B064.md)
+- [一次只练一个可以观察的动作](../knowledge/books/B065.md)
+- [开场用真实问题与实际场景](../knowledge/books/B065.md)
+- [身份和来意都用真实信息](../knowledge/books/B066.md)
+- [共同场景比凭空编故事方便接话](../knowledge/books/B066.md)
+- [现实练习保留一项可完成的事](../knowledge/books/B066.md)
+- [行动练习不设三秒倒计时](../knowledge/books/B067.md)
+- [从眼前的书与真实兴趣开场](../knowledge/books/B067.md)
+- [同伴在场就正常顾及每个人](../knowledge/books/B067.md)
+- [训练渠道从实际能参与的一项开始](../knowledge/books/B067.md)
+- [社交机会先看现实渠道](../knowledge/books/B068.md)
+- [镜前练习只改一个具体动作](../knowledge/books/B068.md)
+- [没有一句对所有人都有效的开场](../knowledge/books/B068.md)
+- [共同场景和真实旧话题先用](../knowledge/books/B068.md)
+- [初次联络清楚提醒认识情境](../knowledge/books/B068.md)
+- [现实训练服务于正常生活](../knowledge/books/B068.md)
+- [从场景切入不从品牌判人](../knowledge/books/B069.md)
+- [服务场景的礼貌不等于私人关系](../knowledge/books/B069.md)
+- [行动不靠人生恐吓](../knowledge/books/B069.md)
+- [按当前语境练一个动作](../knowledge/books/B069.md)
+- [友好开始仍保留现实边界](../knowledge/books/B069.md)
+- [认识人不靠拦路或突然触碰](../knowledge/books/B069.md)
+- [真诚社交不拿朋友当工具](../knowledge/books/B069.md)
+- [十六项只是练习线索](../knowledge/books/B069.md)
+- [动作和风格选自己舒服的](../knowledge/books/B069.md)
+- [生活更新从可承受的一步开始](../knowledge/books/B069.md)
+- [群体交流不把朋友当门卫](../knowledge/books/B070.md)
+- [工作人员的职责不换私人回应](../knowledge/books/B070.md)
+- [轻松表达不能保证结果](../knowledge/books/B070.md)
+- [生活改变不把伤害合理化](../knowledge/books/B070.md)
+- [九一比例不规定谁要撑整场](../knowledge/books/B071.md)
+- [开场来意和身份要真实](../knowledge/books/B071.md)
+- [群体交流让愿意的人参与](../knowledge/books/B071.md)
+- [紧张不等于需要表演强势](../knowledge/books/B071.md)
+- [外形与生活打理不承诺结果](../knowledge/books/B074.md)
+- [从真实场景简短开始](../knowledge/books/B074.md)
+- [团体里不把别人当通路](../knowledge/books/B074.md)
+- [遇见可以问候不能制造尾随](../knowledge/books/B074.md)
+- [练习一次真实表达不设惩罚配额](../knowledge/books/B074.md)
+- [开场不先背整场台词](../knowledge/books/B075.md)
+- [重复遇见只是场景条件](../knowledge/books/B075.md)
+- [认识朋友不把人当跳板](../knowledge/books/B075.md)
+- [课程专业可以正常聊](../knowledge/books/B075.md)
+- [公共场合留出不交谈的空间](../knowledge/books/B075.md)
+- [社交网络不假造熟悉和竞争](../knowledge/books/B075.md)
+- [整洁和资料页展示真实生活](../knowledge/books/B075.md)
+- [共同场景提供话题不提供许可](../knowledge/books/B076.md)
+- [开场不靠假求助和尾随](../knowledge/books/B076.md)
+- [朋友不是接近别人的通路](../knowledge/books/B076.md)
+- [紧张不能自动解释失败](../knowledge/books/B076.md)
+- [日常问候不设数量配额](../knowledge/books/B076.md)
+- [资料细节可开场不读心](../knowledge/books/B076.md)
+- [本轮目标选自己能执行的一步](../knowledge/books/B077.md)
+- [开场用真实情境也可直接认识](../knowledge/books/B078.md)
+- [开场理由确实存在才使用](../knowledge/books/B079.md)
+- [开场从真实场合和当下方便开始](../knowledge/books/B080.md)
+- [带着一点紧张也可以正常认识](../knowledge/books/B082.md)
+- [先看现场条件再决定是否开口](../knowledge/books/B082.md)
+- [小步实践不设人数和日期配额](../knowledge/books/B082.md)
+- [开场简单真实且留出选择](../knowledge/books/B082.md)
+- [职业礼貌不当私人发展意愿](../knowledge/books/B082.md)
+- [个人目标不靠关系结果证明价值](../knowledge/books/B083.md)
+- [学习阶段只作反思不保证成功](../knowledge/books/B083.md)
+- [自身特点不等于缺陷清单](../knowledge/books/B084.md)
+- [紧张可以承认不必先清零](../knowledge/books/B084.md)
+- [开口仍要看现场和对方是否方便](../knowledge/books/B084.md)
+- [目标是本人愿意的生活而非圈内战绩](../knowledge/books/B084.md)
+- [从真实情境开启一次普通交流](../knowledge/books/B086.md)
+- [熟人共同背景可以自然回扣](../knowledge/books/B086.md)
+- [白天交流尊重正在做的事](../knowledge/books/B086.md)
+- [自然重联接真实共同话题](../knowledge/books/B086.md)
+- [先把真实情境说清楚](../knowledge/books/B087.md)
+- [02：快速指南的起点是真实而简短的接触](../knowledge/books/B091.md)
+- [05：认识渠道服从当前情境](../knowledge/books/B091.md)
+- [09：开场三部分使用真实信息](../knowledge/books/B091.md)
+- [15：练习可以短小，不以收号为合格线](../knowledge/books/B091.md)
+- [08：好奇开场需要真实内容](../knowledge/books/B093.md)
+- [31：现实社交渠道不保证关系结果](../knowledge/books/B093.md)
+- [陌生开场留一个可以接或不接的具体点](../knowledge/books/B095.md)
+- [时间边界说真的，不编离场理由](../knowledge/books/B095.md)
+- [交换联系方式不靠假短信或嫉妒场景](../knowledge/books/B095.md)
+- [联系先有实际来由，再回扣共同细节](../knowledge/books/B095.md)
+- [短语音也要让人认得出你和来意](../knowledge/books/B095.md)
+- [从共同场景接话，不把正常问题一概当乏味](../knowledge/books/B096.md)
+- [轻松调侃需要双向承接，幽默不自动获得许可](../knowledge/books/B096.md)
+- [开场不能挡路、假装认识或突然碰触](../knowledge/books/B096.md)
+- [翻译双关不直接搬到微信，拒绝不能变成游戏惩罚](../knowledge/books/B096.md)
+- [出门准备不包括制造恐惧或假装读懂余光](../knowledge/books/B096.md)
+- [认识时机以现场便利与真实承诺为限](../knowledge/books/B096.md)
+- [普通问好可以开场，微笑和脚尖不判定关系](../knowledge/books/B096.md)
+- [未完成的练习题不设统一正确答案](../knowledge/books/B096.md)
+- [共同活动是实际场景，不是给人排等级的工具](../knowledge/books/B097.md)
+- [朋友介绍后可以正常问好与接共同情境](../knowledge/books/B097.md)
+- [B099社交来源要与场景许可一起看](../knowledge/books/B099.md)
+- [B099开场取具体情境而不是虚构调查](../knowledge/books/B099.md)
+- [B099练习对象不是模拟程序](../knowledge/books/B099.md)
+- [B101-08 开场只取当前可核的一个细节](../knowledge/books/B101.md)
+- [B101-09 取得联系方式不靠伪装用途](../knowledge/books/B101.md)
+- [B101-13 进入群体不是争夺和排除他人](../knowledge/books/B101.md)
+- [B101-17 练习目标是一项可做的小动作](../knowledge/books/B101.md)
+- [B101-22 身份与共同经历不能编造](../knowledge/books/B101.md)
+- [B101-23 加联系方式后先回扣认识情境](../knowledge/books/B101.md)
+- [B102-10 开场优先使用真实细节](../knowledge/books/B102.md)
+- [B102-12 悬念和假熟悉不能代替信息](../knowledge/books/B102.md)
+- [B104-05 练习目标可由自己决定，不以号码或性结果考核](../knowledge/books/B104.md)
+- [B104-20 群体交流不把朋友当障碍或工具](../knowledge/books/B104.md)
+- [B104-22 招呼后等待对方有空承接](../knowledge/books/B104.md)
+- [B104-24 情景开场取可核细节](../knowledge/books/B104.md)
+- [B104-42 联系方式只在知情愿意时交换](../knowledge/books/B104.md)
+- [B104-51 白天夜晚或场所不决定一个人的品质](../knowledge/books/B104.md)
+- [B104-53 回扣认识情境比凭空制造熟悉更清楚](../knowledge/books/B104.md)
+- [B104-60 朋友之间可真实介绍，不冒名或绕过入场资格](../knowledge/books/B104.md)
+- [B105-04 认识缘由用当下真实细节说明](../knowledge/books/B105.md)
+- [B105-05 直接表达认识意愿不需要先假装没有兴趣](../knowledge/books/B105.md)
+- [B105-06 轻松开场照顾交流空间，不编时间限制](../knowledge/books/B105.md)
+- [B105-15 拿到联系方式后按实际结束，不表演停留](../knowledge/books/B105.md)
+- [B105-23 朋友介绍保留真实，不设套隔离同行者](../knowledge/books/B105.md)
+- [B105-31 小步练习保留自愿和真实，不采用羞辱闯关](../knowledge/books/B105.md)
+- [B106-04 不以外貌金钱设门槛，也不否认真实偏好](../knowledge/books/B106.md)
+- [B106-06 有好感可以坦率，不靠争夺选择权](../knowledge/books/B106.md)
+- [B106-14 自信不赋予占用别人时间与空间的权利](../knowledge/books/B106.md)
+- [B106-17 练习允许小而具体，不以状态完美为前提](../knowledge/books/B106.md)
+
+## M26
+
+压成一句自然的话；共186处。
+
+- [一个目标与口吻](../knowledge/books/G01-practical-expansion.md)
+- [自然口吻不等于乱加语气词](../knowledge/books/G04-message-expansion.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前项目输出规则](../CHAT_GUIDANCE_PLAYBOOK.md)；旧定位，仅追溯，未绑定整份正文。
+- [四步结构、案例证据与本项目采用边界](../knowledge/books/S04-empathy.md)；旧定位，仅追溯，未绑定整份正文。
+- [S08/S09/S10/S14/S15原结构、读心与机械流程限制](../knowledge/books/S08-S15-calibration.md)；旧定位，仅追溯，未绑定整份正文。
+- [具体失误、自然停顿与无需借口的拒绝](../knowledge/books/G01-awkwardness-and-refusal.md)；旧定位，仅追溯，未绑定整份正文。
+- [接话延伸、开放问题与救场的适用范围](../knowledge/books/G01-passive-to-active.md)；旧定位，仅追溯，未绑定整份正文。
+- [一个行动、调用次数/固定天数和黄金时段的证据限制](../knowledge/books/G04-daily-coach.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–6六部分定义、标题/署名差异与未提供后续的候选回复](../knowledge/books/S17-six-techniques.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1–8上部身份、P5九阶段/结构图、第39条真实表达与第42条信号限制](../knowledge/books/S18-peterjoy-upper.md)；旧定位，仅追溯，未绑定整份正文。
+- [P1/3/39节选身份、P21–23外观推断、P26网图、P34–36认真问题与候选反馈限制](../knowledge/books/S21-connor-routines-excerpt.md)；旧定位，仅追溯，未绑定整份正文。
+- [信息减法、结构模板与证据限制](../knowledge/books/G01-light-clear-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [自然流多段输出只作训练参考](../knowledge/books/G01-natural-flow-and-conflict.md)；旧定位，仅追溯，未绑定整份正文。
+- [只给当前一句，不执行无条件发送或未来多轮](../knowledge/books/G02-context-and-rhythm.md)；旧定位，仅追溯，未绑定整份正文。
+- [术语到现有方法的入口，不机械生成五套](../knowledge/books/S04-attraction-ch08-10.md)；旧定位，仅追溯，未绑定整份正文。
+- [提示用于一个当前动作，不把四元素拼成多段表演](../knowledge/books/B003-ch09-13.md)；旧定位，仅追溯，未绑定整份正文。
+- [物理页4、7–9：本轮可只自然回应，不把每句变成关系推进](../knowledge/books/S23-chen-summary-handbook.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页18–26取舍：场景与一句表达，不强塞多话题、悬念、假忙或每轮问题](../knowledge/books/B020-lectures08-12.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页54–67取舍：只回应当前需要，不为一句消息叠入隐性程序或编造忙碌经历](../knowledge/books/B023-foundations.md)；旧定位，仅追溯，未绑定整份正文。
+- [文件页32–37取舍：只改有明确证据的一项行为，不从未发展自动推为人格或技巧缺陷](../knowledge/books/B025-intent-and-follow-up.md)；旧定位，仅追溯，未绑定整份正文。
+- [第五章72755–74691、第七章93003–97844取舍：正常承接与简短表达，不套长独白或用冷淡悬念制造依赖](../knowledge/books/B033-real-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项7–9，Part1及前置说明。；见原创论点取舍与执行限制。](../knowledge/books/B038-part1-planning.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项10，Part2。；见原创论点取舍与执行限制。](../knowledge/books/B038-part2-presentation.md)；旧定位，仅追溯，未绑定整份正文。
+- [对应EPUB顺序项13，Part5。；见原创论点取舍与执行限制。](../knowledge/books/B038-part5-connection.md)；旧定位，仅追溯，未绑定整份正文。
+- [51–64、82–83页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-true-stories.md)；旧定位，仅追溯，未绑定整份正文。
+- [350–380页；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B039-practice-and-health.md)；旧定位，仅追溯，未绑定整份正文。
+- [当前PDF物理页47–50、60–64、89及110；原创论点审阅与采用限制，非独立效果验证。](../knowledge/books/B045-natural-expression.md)；旧定位，仅追溯，未绑定整份正文。
+- [第46–54、76–81页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-humor-and-reality.md)；旧定位，仅追溯，未绑定整份正文。
+- [第104–114页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B049-disclosure-and-love.md)；旧定位，仅追溯，未绑定整份正文。
+- [第55–69页；原创论点审阅与采用限制，非实证验证。](../knowledge/books/B051-practice-and-ending.md)；旧定位，仅追溯，未绑定整份正文。
+- [第15–16、19–24页；原创教学取舍，非实证验证。](../knowledge/books/B053-question-and-disclosure.md)；旧定位，仅追溯，未绑定整份正文。
+- [第5–12、17–18、32–36页；原创教学取舍，非实证验证。](../knowledge/books/B053-expression-and-practice.md)；旧定位，仅追溯，未绑定整份正文。
+- [第一印象和真实自我表达](../knowledge/books/B054.md)
+- [轻松幽默和双方接得住的角色](../knowledge/books/B055.md)
+- [一次具体邀请与拒绝后收住](../knowledge/books/B056.md)
+- [可接的话题与共同角色场景](../knowledge/books/B057.md)
+- [双向话题与认真回答](../knowledge/books/B058.md)
+- [保留正常社交与自主边界](../knowledge/books/B059.md)
+- [轻量幽默由语境与接梗支持](../knowledge/books/B060.md)
+- [复盘练一处不制造羞耻依赖](../knowledge/books/B060.md)
+- [一句自然话的取舍](../system/REPLY_PROTOCOL.md)
+- [语境问题不能用文化定论解释](../knowledge/books/B061.md)
+- [接调侃时仍要听见纠正](../knowledge/books/B061.md)
+- [暧昧内容也保留明确退出权](../knowledge/books/B061.md)
+- [阶段目录不能代替当前一句判断](../knowledge/books/B061.md)
+- [个人风格建立在真实经历上](../knowledge/books/B062.md)
+- [认真问题给可用的短答案](../knowledge/books/B062.md)
+- [让素材服务当前一句](../knowledge/books/B062.md)
+- [具体欣赏落在本人看见的细节](../knowledge/books/B063.md)
+- [联系时机不靠故意拖延](../knowledge/books/B063.md)
+- [练真实动作不把成败归为人品](../knowledge/books/B063.md)
+- [舒适不必先破坏](../knowledge/books/B064.md)
+- [同一个玩笑只轻推一次](../knowledge/books/B064.md)
+- [一次只练一个可以观察的动作](../knowledge/books/B065.md)
+- [普通礼貌与紧张不需要表演成强势](../knowledge/books/B065.md)
+- [认真问职业就说具体在做什么](../knowledge/books/B065.md)
+- [生活故事小而真](../knowledge/books/B065.md)
+- [让她接入比讲完更要紧](../knowledge/books/B065.md)
+- [联系节奏不套等待时限](../knowledge/books/B065.md)
+- [读书报告和自评分不当诊断工具](../knowledge/books/B065.md)
+- [方法需要允许被事实纠正](../knowledge/books/B066.md)
+- [平视别人不靠压制气场](../knowledge/books/B066.md)
+- [复盘不把拒绝归成个人无能](../knowledge/books/B066.md)
+- [现实练习保留一项可完成的事](../knowledge/books/B066.md)
+- [行动练习不设三秒倒计时](../knowledge/books/B067.md)
+- [轻松话题按接梗情况调整](../knowledge/books/B067.md)
+- [自然眼神不等于读懂内心](../knowledge/books/B067.md)
+- [训练渠道从实际能参与的一项开始](../knowledge/books/B067.md)
+- [镜前练习只改一个具体动作](../knowledge/books/B068.md)
+- [没有一句对所有人都有效的开场](../knowledge/books/B068.md)
+- [欣赏落在具体行为和作品上](../knowledge/books/B068.md)
+- [联络不用三十六到七十二小时计时](../knowledge/books/B068.md)
+- [通话先尊重方便程度](../knowledge/books/B068.md)
+- [作者经历和网友好评不是效果验证](../knowledge/books/B068.md)
+- [现实训练服务于正常生活](../knowledge/books/B068.md)
+- [短故事只需一个真实场景](../knowledge/books/B069.md)
+- [陈述带出自己也容得下正常提问](../knowledge/books/B069.md)
+- [按当前语境练一个动作](../knowledge/books/B069.md)
+- [清楚立场让对方能回应](../knowledge/books/B069.md)
+- [推荐书目不是已读和研究依据](../knowledge/books/B069.md)
+- [十六项只是练习线索](../knowledge/books/B069.md)
+- [比喻贴近生活不靠堆词](../knowledge/books/B069.md)
+- [课程图不作为自动升级流程](../knowledge/books/B069.md)
+- [英汉译文核对与作用范围](../knowledge/books/B069.md)
+- [读完资料不等于会识图或保证效果](../knowledge/books/B069.md)
+- [语录要带回上下文再使用](../knowledge/books/B070.md)
+- [自己的经历只说真实有关的一点](../knowledge/books/B070.md)
+- [真实意愿比自信地说错更重要](../knowledge/books/B070.md)
+- [具体欣赏不变成行为奖赏](../knowledge/books/B070.md)
+- [答应后落实不靠假忙](../knowledge/books/B070.md)
+- [共同梗可以自然回扣](../knowledge/books/B070.md)
+- [轻松表达不能保证结果](../knowledge/books/B070.md)
+- [具体语言不变成讲课和炫耀](../knowledge/books/B070.md)
+- [译文错误回查对照而不继续放大](../knowledge/books/B070.md)
+- [未完句和缺少的图文如实保留](../knowledge/books/B070.md)
+- [重复版本和作者故事不增加证据强度](../knowledge/books/B070.md)
+- [编选本和术语不能冒充研究](../knowledge/books/B071.md)
+- [短故事保留真实动作和感受](../knowledge/books/B071.md)
+- [不知道可以是完整回答](../knowledge/books/B071.md)
+- [悬念和停顿不作为诱导陷阱](../knowledge/books/B071.md)
+- [离开可以礼貌直接说](../knowledge/books/B071.md)
+- [闲聊和提问都不必被禁用](../knowledge/books/B071.md)
+- [接赞简短真诚即可](../knowledge/books/B071.md)
+- [短答先按问题范围理解](../knowledge/books/B071.md)
+- [语气和玩笑随真实内容变化](../knowledge/books/B071.md)
+- [经验模板要容许纠正与未知](../knowledge/books/B071.md)
+- [译序和作者自报分别看](../knowledge/books/B074.md)
+- [作者百分比不变成兴趣概率](../knowledge/books/B074.md)
+- [外形与生活打理不承诺结果](../knowledge/books/B074.md)
+- [从真实场景简短开始](../knowledge/books/B074.md)
+- [分享自己的内容不用排除日常](../knowledge/books/B074.md)
+- [具体欣赏和善意不用等价交换](../knowledge/books/B074.md)
+- [练习一次真实表达不设惩罚配额](../knowledge/books/B074.md)
+- [身体机制与社会史保留未核](../knowledge/books/B074.md)
+- [译者替换与原文件残留分开](../knowledge/books/B074.md)
+- [提供文件读完不等于原版已核完整](../knowledge/books/B074.md)
+- [提供文件与翻译年代分清](../knowledge/books/B075.md)
+- [开场不先背整场台词](../knowledge/books/B075.md)
+- [公共场合留出不交谈的空间](../knowledge/books/B075.md)
+- [短信不按小时标点和拆条运行](../knowledge/books/B075.md)
+- [百分比和个人故事不是机制证据](../knowledge/books/B075.md)
+- [整洁和资料页展示真实生活](../knowledge/books/B075.md)
+- [结语推荐和广告各自结束](../knowledge/books/B075.md)
+- [现有78页完成不补算原版](../knowledge/books/B075.md)
+- [开场不靠假求助和尾随](../knowledge/books/B076.md)
+- [持续单边时停止加码](../knowledge/books/B076.md)
+- [线上渠道按当前真实条件使用](../knowledge/books/B076.md)
+- [具体欣赏不拐弯贬人](../knowledge/books/B076.md)
+- [表达练习不冒领行为品质](../knowledge/books/B076.md)
+- [文末个人意见不是代表抽样](../knowledge/books/B076.md)
+- [扫描核看和完整读清分开记录](../knowledge/books/B076.md)
+- [普通问题先按原意回答](../knowledge/books/B077.md)
+- [普通一轮不用写成精彩表演](../knowledge/books/B080.md)
+- [开场简单真实且留出选择](../knowledge/books/B082.md)
+- [表达自然也要听懂具体内容](../knowledge/books/B083.md)
+- [聊天不以让人失去判断为目标](../knowledge/books/B083.md)
+- [了解方法适用条件而不背整套流程](../knowledge/books/B084.md)
+- [表达清楚不靠眼神和姿势证明地位](../knowledge/books/B084.md)
+- [资料缩成当前一项而不是更多套路](../knowledge/books/B084.md)
+- [当前回复不需先完成三轴分型](../knowledge/books/B085.md)
+- [回到当下信息而非预判十轮](../knowledge/books/B085.md)
+- [把真实经历讲成一小段可接的话](../knowledge/books/B086.md)
+- [语音和姿态先服务于听懂与舒适](../knowledge/books/B086.md)
+- [真实经历留一处有用细节](../knowledge/books/B087.md)
+- [开放接点与故意吊人分开](../knowledge/books/B087.md)
+- [当前一轮只保留一个实际目标](../knowledge/books/B087.md)
+- [11：清楚表达不等于刻意表演地位](../knowledge/books/B091.md)
+- [06：真实回答可以带一点个人表达](../knowledge/books/B093.md)
+- [17：故事短到能听懂重点即可](../knowledge/books/B093.md)
+- [每次只练一个可以回看的动作](../knowledge/books/B095.md)
+- [短语音也要让人认得出你和来意](../knowledge/books/B095.md)
+- [从容允许正常回应和必要说明](../knowledge/books/B096.md)
+- [模板是否合适看当前内容，不按使用次数判优劣](../knowledge/books/B096.md)
+- [提问目录用于挑一个相关点，不逐项盘问](../knowledge/books/B096.md)
+- [翻译双关不直接搬到微信，拒绝不能变成游戏惩罚](../knowledge/books/B096.md)
+- [三段反转只作表达形式，不强凑笑点](../knowledge/books/B096.md)
+- [故事可删冗余，不能把别人的经历变成自己的](../knowledge/books/B096.md)
+- [习惯以可完成动作记录，不把结果变成人格判决](../knowledge/books/B096.md)
+- [交谈结束看真实安排，不执行两分钟自动撤离](../knowledge/books/B097.md)
+- [真诚欣赏与一起高兴，不必故意憋笑](../knowledge/books/B097.md)
+- [B099个性清单不是统一的扮演要求](../knowledge/books/B099.md)
+- [B099不是每句话都适合转成性话题](../knowledge/books/B099.md)
+- [B099结束聊天以真实状态为依据](../knowledge/books/B099.md)
+- [B099语调与电影人物不是吸引定律](../knowledge/books/B099.md)
+- [B099开场取具体情境而不是虚构调查](../knowledge/books/B099.md)
+- [B101-17 练习目标是一项可做的小动作](../knowledge/books/B101.md)
+- [B101-25 自然回应不由问号数量决定](../knowledge/books/B101.md)
+- [B101-32 见面后的反馈来自真实感受](../knowledge/books/B101.md)
+- [B102-03 惯例要服从已知情境](../knowledge/books/B102.md)
+- [B102-13 幽默不是所有互动的必要条件](../knowledge/books/B102.md)
+- [B102-22 正常事实问题应先回答](../knowledge/books/B102.md)
+- [B104-05 练习目标可由自己决定，不以号码或性结果考核](../knowledge/books/B104.md)
+- [B104-15 三角色是书内框架，不另建三套判断](../knowledge/books/B104.md)
+- [B104-30 九成陈述一成提问不是聊天配方](../knowledge/books/B104.md)
+- [B104-54 短而完整，不等于故意漏答](../knowledge/books/B104.md)
+- [B104-62 读完后只选一项当前需要的动作](../knowledge/books/B104.md)
+- [B105-06 轻松开场照顾交流空间，不编时间限制](../knowledge/books/B105.md)
+- [B105-07 话题转折先接信息，不机械跳进下一个节目](../knowledge/books/B105.md)
+- [B105-40 整合后按当前内容只取一项动作](../knowledge/books/B105.md)
+- [B106-17 练习允许小而具体，不以状态完美为前提](../knowledge/books/B106.md)
+- [B106-21 把注意放回这轮内容，不机械监控自己](../knowledge/books/B106.md)
+- [B106-23 自然表达不按秒数控制笑声与回答](../knowledge/books/B106.md)
+- [B106-24 单边继续时收住，不用换花样追反应](../knowledge/books/B106.md)
+- [B106-30 话题被打断先核还有什么需要答](../knowledge/books/B106.md)
+- [B106-33 声音姿势以舒适清楚为限，不演强势人物](../knowledge/books/B106.md)
+- [B106-37 原文反对社交机器人，不把资料变成逐句表演](../knowledge/books/B106.md)

@@ -3,14 +3,14 @@
 import argparse
 import json
 import re
-from knowledge import (ROOT, citation_headings, load_lookup, load_methods,
-                       markdown_sections, method_reference)
+from knowledge import ROOT, citation_headings, operation_catalog
 
 
-def search(query, limit=8, root=ROOT, method=None):
+def search(query, limit=8, root=ROOT, method=None, *, catalog=None):
     if not isinstance(query, str) or type(limit) is not int or limit < 0:
         raise ValueError('Use a text query and a nonnegative integer limit')
-    methods, lookup = load_methods(root), load_lookup(root)
+    catalog = operation_catalog(root, catalog)
+    methods, lookup = catalog.methods, catalog.lookup
     explicit = re.findall(r'\bM\d{2}\b', query.upper())
     if method is None and len(set(explicit)) == 1:
         method = explicit[0]
@@ -26,12 +26,7 @@ def search(query, limit=8, root=ROOT, method=None):
     preferred = {}
     cited = {}
     section_cited = {}
-    sections_cache = {}
-
-    def sections_at(path):
-        if path not in sections_cache:
-            sections_cache[path] = markdown_sections(path, root)
-        return sections_cache[path]
+    sections_at = catalog.sections
 
     for mid, card in methods.items():
         for source in card['sources']:
@@ -40,10 +35,10 @@ def search(query, limit=8, root=ROOT, method=None):
                 for heading in citation_headings(source, sections_at(source['path'])):
                     section_cited.setdefault((source['path'], heading), set()).add(mid)
         # The curated preferred reference is also an explicit section binding.
-        ref = method_reference(mid, root)
+        ref = catalog.preferred(mid)
         section_cited.setdefault((ref['path'], ref['heading']), set()).add(mid)
     for mid in selected:
-        item = method_reference(mid, root)
+        item = catalog.preferred(mid)
         key = (item['path'], item['heading'])
         preferred.setdefault(key, []).append(mid)
         if method:

@@ -1,0 +1,64 @@
+{
+  "baseline": "6e4067703966d9e235f4ee6a9066607127cdab67",
+  "work_type": "system_maintenance",
+  "status": "passed",
+  "metrics": {
+    "before_card_bytes": 247714,
+    "after_card_bytes": 24364,
+    "complete_source_index_bytes": 315746,
+    "retained_source_bindings": 3189,
+    "retained_synthetic_examples": 4,
+    "configuration_reads_before": {
+      "methods.json": 28,
+      "knowledge_map.json": 28
+    },
+    "configuration_reads_after": {
+      "methods.json": 1,
+      "knowledge_map.json": 1
+    },
+    "local_benchmark_seconds_median_before": 0.2562885039988032,
+    "local_benchmark_seconds_median_after": 0.06225311800153577,
+    "local_benchmark_three_samples_before": [
+      0.25410180700055207,
+      0.2562885039988032,
+      0.2840636330001871
+    ],
+    "local_benchmark_three_samples_after": [
+      0.09969490700314054,
+      0.06020152999917627,
+      0.06225311800153577
+    ],
+    "benchmark_scope": "one public M15 retrieval on this host; not a cross-platform or relationship-effectiveness result"
+  },
+  "checks": {
+    "all26_method_actions_conditions_and3189_bindings_unchanged": true,
+    "all26_preferred_sections_unchanged": true,
+    "all158_source_records_and_reading_statuses_unchanged": true,
+    "all126_original_blob_identities_preserved": true,
+    "all_existing_book_notes_and_archived_sources_preserved": true,
+    "last_completed_B106_reading_session_preserved": true,
+    "exact_B107_P1_bookmark_preserved": true,
+    "progress100_actual93_scope_closures7_unchanged": true,
+    "reading_paused_with_no_new_book_reads": true,
+    "all34_baseline_retrieval_results_unchanged": true,
+    "all158_baseline_route_results_unchanged": true,
+    "all3189_readable_source_entries_match_machine_order": true,
+    "all4_synthetic_examples_preserved": true,
+    "both_generated_views_match_current_configuration": true,
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 127,
+    "new_test_methods": 8,
+    "git_diff_check": true
+  },
+  "source_repository_mutations": [
+    "khdzg5shnt-rgb/PUA-Books2"
+  ],
+  "new_original_book_reads": 0,
+  "new_original_book_notes": 0,
+  "new_method_source_bindings": 0,
+  "limits": [
+    "No new psychological mechanisms or literature claims were validated.",
+    "Synthetic checks do not validate real screenshot recognition or dating outcomes."
+  ]
+}

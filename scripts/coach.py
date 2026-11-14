@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 
-from knowledge import ROOT, resolve_reference
+from knowledge import ROOT, KnowledgeCatalog
 from draft_revision import plan_revision
 from route import select_route
 from runtime_io import read_request
@@ -100,13 +100,15 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
     selected_task = task if task is not None else request.get('task', 'reply')
     if not isinstance(selected_task, str) or selected_task not in tasks:
         raise ValueError('Unknown task; use reply, meaning, analysis, review or training')
-    decision = select_route(facts, root, apply_action_goal=selected_task == 'reply')
+    catalog = KnowledgeCatalog(root)
+    decision = select_route(facts, root, apply_action_goal=selected_task == 'reply', catalog=catalog)
     source = decision['source']
     retrieval = {'mode': 'preferred', 'scope': '只定位本主方法的资料，不改变事实、动作或输出任务'}
     if focus.strip() and decision['action'] == 'draft':
-        hits = search(focus, method=decision['primary_method']['id'], limit=1, root=root)
+        hits = search(focus, method=decision['primary_method']['id'], limit=1, root=root,
+                      catalog=catalog)
         if hits and hits[0]['query_matched']:
-            source = resolve_reference(hits[0], root)
+            source = catalog.resolve(hits[0])
             retrieval['mode'] = 'focused_cited_source'
     contract = dict(tasks[selected_task])
     revision = None
