@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成114/119份任务，无部分处理文件、5份未开始。106份当前内容已覆盖（含历史B100严格同文复用），8份依用户授权结束并保留缺口。本轮沿已发布B120断点，完整读完B121《骄傲与风趣指南》EPUB的9项、七章文字，提取117665字符，新增51组原创笔记、184处精确绑定，无新增结束项。下一唯一主读B122《骄傲与风趣指南.pdf》物理页1字符0，正文未打开。[本轮记录](B121_progress_2026-11-16.md)。
+当前完成115/119份任务，无部分处理文件、4份未开始。107份当前内容已覆盖（含B100严格同文复用、B122精确片段复用加全部差异实读），8份依用户授权结束并保留缺口。本轮完成B122当前117页版本核对：复用115114个规范化同文字符，逐项读完452个非等段，新增7组版本笔记、0处方法绑定；不重复计入B121旧文字与技巧。下一唯一主读B123《魅力学堂 - 乐鱼.epub》阅读顺序项1字符0，正文未打开。[本轮记录](B122_progress_2026-11-16.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -134,7 +134,7 @@
 | B119 | [阴茎层次训练技术分享.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%98%B4%E8%8C%8E%E5%B1%82%E6%AC%A1%E8%AE%AD%E7%BB%83%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB.pdf) | 2 | 当前两页文字与完整原图已读；医学依据未核 | [范围笔记](../books/B119.md) |
 | B120 | [阴阳 - 海兵.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%98%B4%E9%98%B3%20-%20%E6%B5%B7%E5%85%B5.pdf) | 35 | 当前35页文字、全部版面与三份不同栅格内容已读 | [精读](../books/B120.md) |
 | B121 | [骄傲与风趣指南 - 大卫D.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AA%84%E5%82%B2%E4%B8%8E%E9%A3%8E%E8%B6%A3%E6%8C%87%E5%8D%97%20-%20%E5%A4%A7%E5%8D%ABD.epub) | 9 | 当前9项七章文字已读；汇编与原版范围另记 | [笔记](../books/B121.md) |
-| B122 | [骄傲与风趣指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AA%84%E5%82%B2%E4%B8%8E%E9%A3%8E%E8%B6%A3%E6%8C%87%E5%8D%97.pdf) | 117 | 已提取/未读 | — |
+| B122 | [骄傲与风趣指南.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AA%84%E5%82%B2%E4%B8%8E%E9%A3%8E%E8%B6%A3%E6%8C%87%E5%8D%97.pdf) | 117 | 当前117页已覆盖；部分同文复用、全部差异实读 | [版本笔记](../books/B122.md) |
 | B123 | [魅力学堂 - 乐鱼.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AD%85%E5%8A%9B%E5%AD%A6%E5%A0%82%20-%20%E4%B9%90%E9%B1%BC.epub) | 17 | 已提取/未读 | — |
 | B124 | [魔鬼搭讪学 - 魔鬼咨询师.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AD%94%E9%AC%BC%E6%90%AD%E8%AE%AA%E5%AD%A6%20-%20%E9%AD%94%E9%AC%BC%E5%92%A8%E8%AF%A2%E5%B8%88.epub) | 36 | 已提取/未读 | — |
 | B125 | [魔鬼约会学 - 魔鬼咨询师.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AD%94%E9%AC%BC%E7%BA%A6%E4%BC%9A%E5%AD%A6%20-%20%E9%AD%94%E9%AC%BC%E5%92%A8%E8%AF%A2%E5%B8%88.epub) | 58 | 已提取/未读 | — |
