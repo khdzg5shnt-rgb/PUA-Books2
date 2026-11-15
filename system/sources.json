@@ -1693,9 +1693,18 @@
       "group": "books2_original_snapshot",
       "title": "魔鬼约会学 - 魔鬼咨询师.epub",
       "git_blob_sha": "19d741ede64ca1e4156c2a7f1f5ae5c4b9a70696",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B125.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B125_reading_2026-11-16.json",
+      "coverage_mode": "all58_EPUB_spine_texts_actually_read_in19_serial_batches_plus_all4_raster_assets_and_cover_SVG_viewed",
+      "completion_kind": "actual_supplied_EPUB_all_spine_texts_and_visual_resources_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "all_current_readable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B126",
@@ -2046,24 +2055,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 117,
+    "current_book_files_text_complete": 118,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 2
+    "current_book_files_not_started": 1
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B125",
-    "path": "魔鬼约会学 - 魔鬼咨询师.epub",
-    "bytes": 269249,
-    "git_blob_sha": "19d741ede64ca1e4156c2a7f1f5ae5c4b9a70696",
+    "id": "B126",
+    "path": "黑洞吸引 - 无念团队.pdf",
+    "bytes": 1871392,
+    "git_blob_sha": "19ed992020d5607cd2e726bcf74838d08540db52",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "epub",
+    "format": "pdf",
     "next_character": 0,
-    "start": "B124当前可辨内容已读并保存范围；先提交本份。下一唯一主读B125《魔鬼约会学 - 魔鬼咨询师.epub》阅读顺序项1字符0，正文未打开。",
-    "next_content_unit": "Read B125 supplied EPUB from spine1 character0 only after B124 checkpoint committed;body unopened.",
-    "next_spine_index": 1
+    "start": "B125当前可辨内容已读并保存范围；先提交本份。下一唯一主读B126《黑洞吸引 - 无念团队.pdf》物理页1字符0，正文未打开。",
+    "next_content_unit": "Read B126 supplied PDF from physical page1 character0 only after B125 checkpoint committed;body unopened.",
+    "next_file_page": 1
   },
   "deferred_work_units": []
 }

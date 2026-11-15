@@ -1,0 +1,2255 @@
+{
+  "schema_version": 1,
+  "file_id": "B125",
+  "date": "2026-11-16",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830",
+  "source_identity": {
+    "path": "魔鬼约会学 - 魔鬼咨询师.epub",
+    "bytes": 269249,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AD%94%E9%AC%BC%E7%BA%A6%E4%BC%9A%E5%AD%A6%20-%20%E9%AD%94%E9%AC%BC%E5%92%A8%E8%AF%A2%E5%B8%88.epub",
+    "git_blob_sha": "19d741ede64ca1e4156c2a7f1f5ae5c4b9a70696"
+  },
+  "source_sha256": "98a7e211b17d26fff979766015703fb128680f0423cfaa75ba5928bcbe96838a",
+  "completion_kind": "actual_supplied_EPUB_all_spine_texts_and_visual_resources_read",
+  "reading_mode": "all58_EPUB_spine_texts_actually_read_in19_serial_batches_plus_all4_raster_assets_and_cover_SVG_viewed",
+  "all_current_file_content_read": true,
+  "actual_reading_complete": true,
+  "all_supplied_native_text_read": true,
+  "all_current_readable_text_read": true,
+  "user_accepted_scope_closure": false,
+  "user_authorization": null,
+  "extracted_characters_displayed": 102913,
+  "readable_nonreplacement_characters_read": 102913,
+  "known_unread_current_content": [],
+  "confirmed_actual_readable_text_ranges": [
+    {
+      "spine_index": 1,
+      "path": "titlepage.xhtml",
+      "start": 0,
+      "end": 5,
+      "text_sha256": "fa8d84566676ee2ee6627116304e7eef7c9b06875d230435a4b23264fcc34f98",
+      "source_sha256": "4825da1ebfccc934444af2f8fd346193b20601f08782147ae378bf747d178872",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 2,
+      "path": "text/part0000.html",
+      "start": 0,
+      "end": 563,
+      "text_sha256": "2c17af6ee5c1d6c133d7b84666d3da4c1a4f5d81a90337a890f03bc63a971cb1",
+      "source_sha256": "5757639b1ff14c27f2fff83ff5607a1ae9f6ae6bbac9945ac037095eae033d7b",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 3,
+      "path": "text/part0001.html",
+      "start": 0,
+      "end": 25,
+      "text_sha256": "db7635fff0b778627232b8b4f48c6a0fb26751860e5ac1c15e5fa679dee7d53c",
+      "source_sha256": "c15c28c0a59bd76d4a3a3ea944f9e6875702de17189682e8eee5bd1aef46c514",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 4,
+      "path": "text/part0002.html",
+      "start": 0,
+      "end": 409,
+      "text_sha256": "c28356ed2d7ca72211a96cc57580d0e00fc18aee6e16ac4a5425f7e6e1325bc5",
+      "source_sha256": "298e7127a37f64c541ed0b19ed2f3dd7e76151bd6d4e1d91cb4439200bb5c422",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 5,
+      "path": "text/part0003.html",
+      "start": 0,
+      "end": 1543,
+      "text_sha256": "6d087e221ebf42fcc49b2c7a953cb3e3ce6dc553a334efb912fd25b0d0642077",
+      "source_sha256": "717943f4c11e6d199103e836cf4d7df559777f053324ae3c9a5322345e074e14",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 6,
+      "path": "text/part0004_split_000.html",
+      "start": 0,
+      "end": 154,
+      "text_sha256": "34c24d979706de75eb224de75c04054c91aa01aee9df44080e4a668ae7fb1c97",
+      "source_sha256": "39e357d2c06cb9924cae49cd4bf57c4f0db2e5a702402d2618f09cf181eb7e21",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 7,
+      "path": "text/part0004_split_001.html",
+      "start": 0,
+      "end": 2776,
+      "text_sha256": "1adfcf4f2d974a78d49e846293bfe421d430c4f969a6fbe9cd90e72e23c3656b",
+      "source_sha256": "0e5140f883b3493615c33d431e6645ce5a23696963328337dfe44b0675695d74",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 8,
+      "path": "text/part0004_split_002.html",
+      "start": 0,
+      "end": 1224,
+      "text_sha256": "9851feff98c1c6db392fcafa26c86ab061ec2e9bec47d79fc17a23586d697cf5",
+      "source_sha256": "c31861289450502bd04a0d0f0637de9eac7a7fa8c1b6f4595315252255d83100",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 9,
+      "path": "text/part0004_split_003.html",
+      "start": 0,
+      "end": 1957,
+      "text_sha256": "337850abc85262c8eb861adade525b1f4a3b878c5266d0522772d686b40cd146",
+      "source_sha256": "06be9c5bc1f7c2cbf0970a78a002325dace26bda688dae1b5df1137e98e99179",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 10,
+      "path": "text/part0004_split_004.html",
+      "start": 0,
+      "end": 661,
+      "text_sha256": "e19134ef3005981602d617f6454a45169d47b378446ff95d9e0ee0330be49d02",
+      "source_sha256": "eff8b24f78e0757a8ec72f030648140e4915d837e5f721fb7b2652f62d198916",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 11,
+      "path": "text/part0004_split_005.html",
+      "start": 0,
+      "end": 906,
+      "text_sha256": "cb6e60791391f2bb866b68f4ffdf01fbbda356b6d4315f0d11444fdbdb71440c",
+      "source_sha256": "50c7f9ee6ba2112a25d2648505ec6948df7fe0d01b75ce197610f854ced7a572",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 12,
+      "path": "text/part0004_split_006.html",
+      "start": 0,
+      "end": 1344,
+      "text_sha256": "0e6ffd3abc42f4c96f1e81c132320b0937074f34ab137b7c1790f17b380f1ba3",
+      "source_sha256": "4b915b3bb7d4e2e30728604a2c1185d415cfad4fde675789daea3a66cc90b11d",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 13,
+      "path": "text/part0004_split_007.html",
+      "start": 0,
+      "end": 2519,
+      "text_sha256": "7e60b6dfffd3f9c2ec14f390f83f484e1a7458112b18691382b6a553f117288c",
+      "source_sha256": "05b84d812eb073906496dd495d0a615dc515cfb3f782b960253d8c9150b1d796",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 14,
+      "path": "text/part0004_split_008.html",
+      "start": 0,
+      "end": 977,
+      "text_sha256": "d0967918cce78d5543bb491d85ee449979db0095828354a2290e2a9ebd073c47",
+      "source_sha256": "623888b095e77b7557b9bb0cb908d96e96321530e3e236aeab66be397d66f708",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 15,
+      "path": "text/part0004_split_009.html",
+      "start": 0,
+      "end": 1257,
+      "text_sha256": "651d5ba9c8779323bb51a3dde5bcfed30ef0213852b8b990abe93cff05a2746c",
+      "source_sha256": "541b46db61ae03ba71c40bdf391545c345de7b0da0c55d82631a9174a8a55888",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 16,
+      "path": "text/part0004_split_010.html",
+      "start": 0,
+      "end": 1148,
+      "text_sha256": "74734a7f7e3dde3337b655c78836333d3e9fc4319d49a1f414a8694259863ea0",
+      "source_sha256": "cbd09e317f0fa24ba73dc304b4b49877dd4fcdd122a776b69f70ebadaa0a960c",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 17,
+      "path": "text/part0004_split_011.html",
+      "start": 0,
+      "end": 1230,
+      "text_sha256": "e001c8f1a5b026ce44322ff352dd911c647ee3c82b4866eba736713523c98fcb",
+      "source_sha256": "eae99ee24f7aa440a9a15f63979e7e415620633962199123a966e2e863e3a137",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 18,
+      "path": "text/part0004_split_012.html",
+      "start": 0,
+      "end": 2149,
+      "text_sha256": "cf8610dc8b1fa17638ac87e51dc9ab1bd95f38358aff3062b808ec21c98f937f",
+      "source_sha256": "956e043ef40cefb9b3f72ea7d1d657b412ceb9e5851cb1dfa0d0da72afda67a3",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 19,
+      "path": "text/part0005_split_000.html",
+      "start": 0,
+      "end": 143,
+      "text_sha256": "016f118fdacd3b523c807f6856e619c140abbff1fd8cd813dce5a45f39b802c8",
+      "source_sha256": "77718c19ecb2a316abdfddd0d29d2620d0e7701de109f3f32caf07b7b5427a5e",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 20,
+      "path": "text/part0005_split_001.html",
+      "start": 0,
+      "end": 5378,
+      "text_sha256": "2588e7d7458679cda057e008134b460f07953537eba9d6a40137ff17fa9bebab",
+      "source_sha256": "e11ff090bafb784d09a71a925ed4f40d22ba392407ffa145071c4a228c991a4c",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 21,
+      "path": "text/part0005_split_002.html",
+      "start": 0,
+      "end": 2116,
+      "text_sha256": "aad6ca3b5a938579ded8d7216e66487b364e7a04bcf5cf59aeefcfe4ce93cdec",
+      "source_sha256": "068dff630a9dcdca869610e85ccec9af7f0ec3f59b17890cc5235161cb9f49e8",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 22,
+      "path": "text/part0005_split_003.html",
+      "start": 0,
+      "end": 2781,
+      "text_sha256": "1caf53b8972c5c50f9ebf83f7966d244812c535534459e8d595314b362b7616e",
+      "source_sha256": "a6644b719ecc79edb958a8bec21d63e8d49692be63632ed8d8bab6a38b6deda7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 23,
+      "path": "text/part0005_split_004.html",
+      "start": 0,
+      "end": 3036,
+      "text_sha256": "67ec7ee0582fd5eb43cfce0fefd75cf598590d4dc868e4f2e832f51bd85df889",
+      "source_sha256": "73641fc4265d6e12e220419fdf428836ac08474071c0e482a1212e6972c71637",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 24,
+      "path": "text/part0005_split_005.html",
+      "start": 0,
+      "end": 1526,
+      "text_sha256": "07702eba998cf5a09b046486eb912969a06419b6445bab13a4ba8da5b91444c1",
+      "source_sha256": "9b9d56976c36bc85f8b75b48214b3cf12583f92bdf8c3d5f0ed35f0f150bdd81",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 25,
+      "path": "text/part0005_split_006.html",
+      "start": 0,
+      "end": 1845,
+      "text_sha256": "5cd17b02784362a75276d9395bd8c6ce6989ca4621afe42e4154d97a314a0daf",
+      "source_sha256": "c32492410b133e415113201fd130d65f5a28d0d61efb121de9bebdee7330966b",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 26,
+      "path": "text/part0005_split_007.html",
+      "start": 0,
+      "end": 1244,
+      "text_sha256": "a3da1e8e00766c698d7c28333a00cabaca69b96ce2c4e5144dc2fd4faf7fc206",
+      "source_sha256": "349839b1990395d32bcea68d8eebc0688c566a0422cff997a0ab256886f0b6c0",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 27,
+      "path": "text/part0005_split_008.html",
+      "start": 0,
+      "end": 3670,
+      "text_sha256": "bf63e2b1496241990cc2b7adb50f9bb30a779e12d818c56b745a986c4f09f6f1",
+      "source_sha256": "ae053ea602862485da20240179e8a3894f90be0fa66708ff03d6b2ea013d7e67",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 28,
+      "path": "text/part0005_split_009.html",
+      "start": 0,
+      "end": 2824,
+      "text_sha256": "cd147c2fed6aba14fa3dfaa9b1bd0998147e34b47879b07e5162e44088c025f2",
+      "source_sha256": "a9b07ac63f4938d98f8b4478afa51fd155ba2a819376548ee5f1c55e7f33ba14",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 29,
+      "path": "text/part0005_split_010.html",
+      "start": 0,
+      "end": 2597,
+      "text_sha256": "aef2d3c4bdf1a13b261ce7fcec4e608d3bf7df0583a94843a1409e4380a5c509",
+      "source_sha256": "d237f209e292028f03716fbeaa6c9896d47eb8eb677db258ebdaa7a38372025c",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 30,
+      "path": "text/part0005_split_011.html",
+      "start": 0,
+      "end": 2741,
+      "text_sha256": "79a7d1eef3d492203d5499234011539d520fb15ab80cade2e99eea57e82d4fd5",
+      "source_sha256": "6e298281207dc7de9a0138c3a2759c9fea3d6a089e7646c0a8beb9ce6e6c6322",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 31,
+      "path": "text/part0005_split_012.html",
+      "start": 0,
+      "end": 552,
+      "text_sha256": "baeb6ef8cf580de08c90f222d849d19dec884b3a65c89a0db26b37ee53b49fee",
+      "source_sha256": "f164b0ea13b7252547aa7828386eae7b8f9e584cef4817a96a75591549283745",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 32,
+      "path": "text/part0005_split_013.html",
+      "start": 0,
+      "end": 789,
+      "text_sha256": "3c1e6c6f31fc4fa0ead154447483cb9596212bddf6dc3e601398add0b82c0065",
+      "source_sha256": "79c7a57d98ad281ece6b5d7c177d47aecc6023491f81959d79404846bf4b5e6a",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 33,
+      "path": "text/part0005_split_014.html",
+      "start": 0,
+      "end": 1495,
+      "text_sha256": "943e1ab842eb4b2d84fcc61a433893583a46982d66a19a4e3e5e1e9f5452a1b9",
+      "source_sha256": "b8b7349cf6b8813dbbf62681d8affc841962ff21bddbb3573a58a3bd33ab3722",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 34,
+      "path": "text/part0005_split_015.html",
+      "start": 0,
+      "end": 1015,
+      "text_sha256": "4f5bc94b1c188ddb0d3805de384584a32d6531880ec7e7ef71d2d3d36f3f89e2",
+      "source_sha256": "121d31bc4b19dce7b14fe2cfde17eff857470fdc240f853f8e69a57ac8824c84",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 35,
+      "path": "text/part0006_split_000.html",
+      "start": 0,
+      "end": 197,
+      "text_sha256": "6a29b5e1b2ec57f174f32f0ade0bcc8eed6c0247d57b3ad6e604b4a2fc785e99",
+      "source_sha256": "c2008a12f82e4583fc6f165ade9a0fd0091b6089bfa0ecde34f52ac9f2ac04d1",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 36,
+      "path": "text/part0006_split_001.html",
+      "start": 0,
+      "end": 5220,
+      "text_sha256": "59887d0b006f09210fe4c2d9106d0ee955a9eefb2e1a9ec70e3dbabbde34787f",
+      "source_sha256": "6e12660a18b530311aa0ba9fc02b6dc5c01342a31c1b36fdd03f2f7c825e3f7e",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 37,
+      "path": "text/part0006_split_002.html",
+      "start": 0,
+      "end": 2627,
+      "text_sha256": "b23357fdd89d29b5e78c0cb093fa4cd5bf90362f7e60776435a19058dda992c6",
+      "source_sha256": "13e6dfb6797f115689fa824434530c31e7fbadf4d674584ac53d40a5d74ffa21",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 38,
+      "path": "text/part0006_split_003.html",
+      "start": 0,
+      "end": 1654,
+      "text_sha256": "22c6ba7b08a25ef9c4072ee6fd60a18f6f19623b80507af820a2338fec81f4d2",
+      "source_sha256": "df157b28472c217a6424d0ac872fdcc3738e2650c681c8dffd0197174679b504",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 39,
+      "path": "text/part0006_split_004.html",
+      "start": 0,
+      "end": 2193,
+      "text_sha256": "cfc0ecf0cd04c2b580998c8add98388f3d31db30951dfff1785293c73e84a211",
+      "source_sha256": "2626f145909bbeae38d481114a9a94d787d9a95ad157ff374e005d9fa2782fda",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 40,
+      "path": "text/part0006_split_005.html",
+      "start": 0,
+      "end": 1788,
+      "text_sha256": "2fbc813867ef97d505e479f3864b6e597d0556e24e83674ac42c14960a8b52c9",
+      "source_sha256": "8a329d7dd122599cef5ff981e04c22b1b6a6ca9205ca959fef8956db63779ade",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 41,
+      "path": "text/part0006_split_006.html",
+      "start": 0,
+      "end": 5413,
+      "text_sha256": "9a243de4aeb3c30c8b59fcdc35117de548d791dce9c25a202e6eb7b485273de2",
+      "source_sha256": "ae229ae892bc1b308bd2019e336221ed202bb78f817e3f5353633bf05d6b29b2",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 42,
+      "path": "text/part0006_split_007.html",
+      "start": 0,
+      "end": 609,
+      "text_sha256": "7757dcb91a0132824297d0e0a42f512b79bee4b4ea59453b0477606773748f85",
+      "source_sha256": "2b99c8b8e5039015b87935c880ee3102b1b231587215012f530f0dbb6506bcba",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 43,
+      "path": "text/part0006_split_008.html",
+      "start": 0,
+      "end": 967,
+      "text_sha256": "b986ff785d0272159a4623f18f73a08b2c7ffa9654e71dbd57130713264ff1eb",
+      "source_sha256": "dfd0817b34dc37e353f1ea09738eeaec8ac10b0f11a2033e3df9ba6e8b55644a",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 44,
+      "path": "text/part0006_split_009.html",
+      "start": 0,
+      "end": 2514,
+      "text_sha256": "ffa0a1187470b7756a4917a27cc406abe3e036f4e3bf156479b9383d3baef973",
+      "source_sha256": "1ced323e7e966c6f23f57160e4a45ab0a49ad5da49116bafe53274684628fdac",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 45,
+      "path": "text/part0006_split_010.html",
+      "start": 0,
+      "end": 2518,
+      "text_sha256": "b34d02b04bd53c50dc6c29ce30bb2263b076e9edf7ad4a3990a1c5380b49de78",
+      "source_sha256": "d174c19f1b9ca8c37be99bcc5e2fb4ceb65c2a9cc05f084dcf68b64f8dc017f3",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 46,
+      "path": "text/part0006_split_011.html",
+      "start": 0,
+      "end": 1755,
+      "text_sha256": "093f1192cc2dc691e6d1247f4a5af678c824c378186033d604f2e3adf134a22d",
+      "source_sha256": "6766d6a4baf7e1416807eba2cb47efa10bd4c5998339f4eabcce155b5759ba39",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 47,
+      "path": "text/part0006_split_012.html",
+      "start": 0,
+      "end": 2186,
+      "text_sha256": "1150c791bec96aaac9f579739eac85cb56675b1823d996b56b50d12e0a6a7d60",
+      "source_sha256": "eda60d97036a2dd45b6bd698d0aebb7775e1de8d549a842cffa13f448e324868",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 48,
+      "path": "text/part0006_split_013.html",
+      "start": 0,
+      "end": 1060,
+      "text_sha256": "7c3e2c21724dbfe4bc8fa397ca78d384befbba17cff5848f225d1133e72987f2",
+      "source_sha256": "eec44e82c451d7eb72cf5558f352beb784c29741c1e8ad79b1e6341d49d86fa9",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 49,
+      "path": "text/part0006_split_014.html",
+      "start": 0,
+      "end": 1367,
+      "text_sha256": "bd6aa22b419e995229fddbe92bf6187bdd24d467e7478dd6a40fef1a8b6a73a5",
+      "source_sha256": "b05b2ad76922ffa4ceefbc8d7b59ee39422d0d7ef7108d53e6d3207a21c087e7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 50,
+      "path": "text/part0007_split_000.html",
+      "start": 0,
+      "end": 86,
+      "text_sha256": "f43f379beb0ddc4602bb96e6bb16679fe1ff3a29e3866ad87f7254e81a9ec568",
+      "source_sha256": "0cb73fa83801a63bc8c251f4cc0fc744eb5415c881ef6a5053a56abbe6041269",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 51,
+      "path": "text/part0007_split_001.html",
+      "start": 0,
+      "end": 3584,
+      "text_sha256": "f027183890e9cabe005df6da2b053eb4fdafc71f1fcb7474676e1b1c1b859ec3",
+      "source_sha256": "1e94c1b16f8a743365438f44e4e1aef895c7d73490def82e79301e6389cdec83",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 52,
+      "path": "text/part0007_split_002.html",
+      "start": 0,
+      "end": 374,
+      "text_sha256": "4f9d29e9f557a5caa998b9afdd2781780539d0720f4a00f7cf6f6a2590b49586",
+      "source_sha256": "eeacc643a6cd50af6dc73c9e90528744298482345f69ef4d659b98d16b9c6cd7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 53,
+      "path": "text/part0007_split_003.html",
+      "start": 0,
+      "end": 2082,
+      "text_sha256": "431ccd074580b6a0ec61b48126d340fb941e8490ea0672489e32bdfadcfb856c",
+      "source_sha256": "62a7113912d8e65220bab7d357370c1b3c253542821b3ff2966c9f15b7835c53",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 54,
+      "path": "text/part0007_split_004.html",
+      "start": 0,
+      "end": 1808,
+      "text_sha256": "ff0758fcd7dbaccf9442c7b362b28376aeff0c2ce8062622c5cbe75952fe1094",
+      "source_sha256": "be4ac516065c58927974f8498962d43d83382cafdc07c140a3e7baea01e8174f",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 55,
+      "path": "text/part0007_split_005.html",
+      "start": 0,
+      "end": 1345,
+      "text_sha256": "8d4300504749e5aee811ce05d52e9d35022f26382eede864e4b9a4842a332fd7",
+      "source_sha256": "58832824917b9572f68a8b423af9d84e9d1ce9e06985014709518004e7a79bed",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 56,
+      "path": "text/part0007_split_006.html",
+      "start": 0,
+      "end": 3102,
+      "text_sha256": "dc9998d5a3a88ba13bb2b0ab7986d6861729661afc244734e0c133482dc8a60d",
+      "source_sha256": "2eb270ff2d9b74470fdd9e612c1a78150808cd8ba5bfa145b06614cea5060387",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 57,
+      "path": "text/part0007_split_007.html",
+      "start": 0,
+      "end": 1929,
+      "text_sha256": "4c626d37d1860b6b09a9a32452e3b2d5140d00e42dad1b5267304bc541e01abd",
+      "source_sha256": "4b576d56a92c4cb28be7961b271f239b8da7a0e61488cf0016b323fd00ff7f1d",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 58,
+      "path": "text/part0008.html",
+      "start": 0,
+      "end": 1936,
+      "text_sha256": "5fc92e90862d7fa1027908f902088c46373ad39d0e2e046271a53f522407cda7",
+      "source_sha256": "ece5b27c0d5a435d05b9313be05631c5abcf5acffc57703a8a1b4213ba1f5e91",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    }
+  ],
+  "ordered_confirmed_reading_batches": [
+    {
+      "index": 1,
+      "spine_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ranges": [
+        {
+          "spine_index": 1,
+          "start": 0,
+          "end": 5
+        },
+        {
+          "spine_index": 2,
+          "start": 0,
+          "end": 563
+        },
+        {
+          "spine_index": 3,
+          "start": 0,
+          "end": 25
+        },
+        {
+          "spine_index": 4,
+          "start": 0,
+          "end": 409
+        },
+        {
+          "spine_index": 5,
+          "start": 0,
+          "end": 1543
+        },
+        {
+          "spine_index": 6,
+          "start": 0,
+          "end": 154
+        },
+        {
+          "spine_index": 7,
+          "start": 0,
+          "end": 2776
+        },
+        {
+          "spine_index": 8,
+          "start": 0,
+          "end": 1224
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 2,
+      "spine_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "ranges": [
+        {
+          "spine_index": 9,
+          "start": 0,
+          "end": 1957
+        },
+        {
+          "spine_index": 10,
+          "start": 0,
+          "end": 661
+        },
+        {
+          "spine_index": 11,
+          "start": 0,
+          "end": 906
+        },
+        {
+          "spine_index": 12,
+          "start": 0,
+          "end": 1344
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 3,
+      "spine_indices": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "ranges": [
+        {
+          "spine_index": 13,
+          "start": 0,
+          "end": 2519
+        },
+        {
+          "spine_index": 14,
+          "start": 0,
+          "end": 977
+        },
+        {
+          "spine_index": 15,
+          "start": 0,
+          "end": 1257
+        },
+        {
+          "spine_index": 16,
+          "start": 0,
+          "end": 1148
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 4,
+      "spine_indices": [
+        17,
+        18,
+        19
+      ],
+      "ranges": [
+        {
+          "spine_index": 17,
+          "start": 0,
+          "end": 1230
+        },
+        {
+          "spine_index": 18,
+          "start": 0,
+          "end": 2149
+        },
+        {
+          "spine_index": 19,
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 5,
+      "spine_indices": [
+        20
+      ],
+      "ranges": [
+        {
+          "spine_index": 20,
+          "start": 0,
+          "end": 5378
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 6,
+      "spine_indices": [
+        21,
+        22
+      ],
+      "ranges": [
+        {
+          "spine_index": 21,
+          "start": 0,
+          "end": 2116
+        },
+        {
+          "spine_index": 22,
+          "start": 0,
+          "end": 2781
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 7,
+      "spine_indices": [
+        23,
+        24,
+        25
+      ],
+      "ranges": [
+        {
+          "spine_index": 23,
+          "start": 0,
+          "end": 3036
+        },
+        {
+          "spine_index": 24,
+          "start": 0,
+          "end": 1526
+        },
+        {
+          "spine_index": 25,
+          "start": 0,
+          "end": 1845
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 8,
+      "spine_indices": [
+        26,
+        27
+      ],
+      "ranges": [
+        {
+          "spine_index": 26,
+          "start": 0,
+          "end": 1244
+        },
+        {
+          "spine_index": 27,
+          "start": 0,
+          "end": 3670
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 9,
+      "spine_indices": [
+        28,
+        29
+      ],
+      "ranges": [
+        {
+          "spine_index": 28,
+          "start": 0,
+          "end": 2824
+        },
+        {
+          "spine_index": 29,
+          "start": 0,
+          "end": 2597
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 10,
+      "spine_indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "ranges": [
+        {
+          "spine_index": 30,
+          "start": 0,
+          "end": 2741
+        },
+        {
+          "spine_index": 31,
+          "start": 0,
+          "end": 552
+        },
+        {
+          "spine_index": 32,
+          "start": 0,
+          "end": 789
+        },
+        {
+          "spine_index": 33,
+          "start": 0,
+          "end": 1495
+        },
+        {
+          "spine_index": 34,
+          "start": 0,
+          "end": 1015
+        },
+        {
+          "spine_index": 35,
+          "start": 0,
+          "end": 197
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 11,
+      "spine_indices": [
+        36
+      ],
+      "ranges": [
+        {
+          "spine_index": 36,
+          "start": 0,
+          "end": 5220
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 12,
+      "spine_indices": [
+        37,
+        38,
+        39
+      ],
+      "ranges": [
+        {
+          "spine_index": 37,
+          "start": 0,
+          "end": 2627
+        },
+        {
+          "spine_index": 38,
+          "start": 0,
+          "end": 1654
+        },
+        {
+          "spine_index": 39,
+          "start": 0,
+          "end": 2193
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 13,
+      "spine_indices": [
+        40
+      ],
+      "ranges": [
+        {
+          "spine_index": 40,
+          "start": 0,
+          "end": 1788
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 14,
+      "spine_indices": [
+        41,
+        42
+      ],
+      "ranges": [
+        {
+          "spine_index": 41,
+          "start": 0,
+          "end": 5413
+        },
+        {
+          "spine_index": 42,
+          "start": 0,
+          "end": 609
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 15,
+      "spine_indices": [
+        43,
+        44,
+        45
+      ],
+      "ranges": [
+        {
+          "spine_index": 43,
+          "start": 0,
+          "end": 967
+        },
+        {
+          "spine_index": 44,
+          "start": 0,
+          "end": 2514
+        },
+        {
+          "spine_index": 45,
+          "start": 0,
+          "end": 2518
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 16,
+      "spine_indices": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "ranges": [
+        {
+          "spine_index": 46,
+          "start": 0,
+          "end": 1755
+        },
+        {
+          "spine_index": 47,
+          "start": 0,
+          "end": 2186
+        },
+        {
+          "spine_index": 48,
+          "start": 0,
+          "end": 1060
+        },
+        {
+          "spine_index": 49,
+          "start": 0,
+          "end": 1367
+        },
+        {
+          "spine_index": 50,
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 17,
+      "spine_indices": [
+        51,
+        52,
+        53
+      ],
+      "ranges": [
+        {
+          "spine_index": 51,
+          "start": 0,
+          "end": 3584
+        },
+        {
+          "spine_index": 52,
+          "start": 0,
+          "end": 374
+        },
+        {
+          "spine_index": 53,
+          "start": 0,
+          "end": 2082
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 18,
+      "spine_indices": [
+        54,
+        55,
+        56
+      ],
+      "ranges": [
+        {
+          "spine_index": 54,
+          "start": 0,
+          "end": 1808
+        },
+        {
+          "spine_index": 55,
+          "start": 0,
+          "end": 1345
+        },
+        {
+          "spine_index": 56,
+          "start": 0,
+          "end": 3102
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 19,
+      "spine_indices": [
+        57,
+        58
+      ],
+      "ranges": [
+        {
+          "spine_index": 57,
+          "start": 0,
+          "end": 1929
+        },
+        {
+          "spine_index": 58,
+          "start": 0,
+          "end": 1936
+        }
+      ],
+      "display_truncated": false
+    }
+  ],
+  "all_independent_nonspace_sequences_agree": true,
+  "image_resources": [
+    {
+      "path": "images/00001.gif",
+      "bytes": 2800,
+      "sha256": "718a40bdd18fc5de7198bbbac3bd4c9fc09e9b0b655697d90aec41f842c653a0"
+    },
+    {
+      "path": "images/00002.jpeg",
+      "bytes": 19948,
+      "sha256": "34a0cdad03f6536a6d34aeb9fdd245b84a5cbdfe8706cdb03baa4a53f2a03e5b"
+    },
+    {
+      "path": "images/00003.jpeg",
+      "bytes": 1792,
+      "sha256": "a4839a44305f8a8b1ec451bbf2b8c2791fc900ec5a388d5fd1c22eee91f92aae"
+    },
+    {
+      "path": "images/00004.jpeg",
+      "bytes": 60660,
+      "sha256": "1f8e778645a191482dda013d71ac515fd4075dfa56b6926c368d017fda0dd0e9"
+    }
+  ],
+  "nonspine_text_resources": [],
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_verification_limits": [
+    "只覆盖当前提供的EPUB及其内嵌资源，不认证纸书、电子版制作过程、正式出版身份或原版完整。",
+    "102913包含HTML标题、目录、换行等；历史初筛105531为另一口径，不是本次阅读量，也不是独立原著净字数。",
+    "部分内容与B124等旧资料重合，本次仍逐项实读；文件计数不等于独立书籍或独立技巧数，旧笔记与旧绑定不再重复报新。",
+    "生僻标题图片已看，并按图形结构和NCX标注留范围；不以OCR或猜字冒充恢复原版字符。",
+    "语言模式、性别进化、三三法则、9小时效应、成功率与治疗类说法均未作原始研究核验，不新增APA、DOI或效果保证。",
+    "平台功能、联系渠道排名、历史地点和消费数字仅作来源记录，未核当下产品规格、价格或场所，不用作当前推荐。",
+    "只保存原创取舍和固定内部定位，不重发长摘、原图、联系方式及真实或匿名私人叙事。"
+  ],
+  "original_note_groups": 40,
+  "new_exact_method_section_bindings": 180,
+  "new_method_source_entries": 26,
+  "notes_and_method_section_bindings": [
+    {
+      "id": "B125-01",
+      "heading": "B125-01 当前文件与出版自称分开记录",
+      "spine_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        58
+      ],
+      "locator": "封面、版权页、前言与后记",
+      "summary": "当前58项及内嵌图形已读，版权页、作者署名、营销文案和课程自述仅说明文件怎样自称，不认证正式版本或效果。正文与旧材料的重合不删除原件，也不把重复格式当新独立理论。生僻标题的栅格字已按图形与NCX核看，不能将提取断行当作无字。",
+      "methods": []
+    },
+    {
+      "id": "B125-02",
+      "heading": "B125-02 接纳与选择由双方决定，不把人列为备用资源",
+      "spine_indices": [
+        6,
+        7,
+        9,
+        35,
+        41,
+        58
+      ],
+      "locator": "两性关系、诚意与寻找合适对象",
+      "summary": "认识不同的人是双方了解的机会，不需要让每个人接受自己。对方是否同意由本人决定，不因自己追求后更积极就可坚持被拒方向。友情不是候补名额，不预设女性储备抚养者、男性必然多多益善，也不以年龄、学历或外貌裁定谁应该被谁选择。",
+      "methods": [
+        "M01",
+        "M19",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-03",
+      "heading": "B125-03 诚意不是单边加码或证明永不放弃",
+      "spine_indices": [
+        7,
+        9,
+        18,
+        41
+      ],
+      "locator": "诚意陷阱、倾诉与长期等待",
+      "summary": "真实表达、守约和尊重边界可以同时存在，不需要持续送礼、补消息或反复邀约来证明真心。别人要求用拒绝考验坚持时，自己也可不接受这种模式；不能因此诊断她缺安全感，更不能把明确拒绝改译成口是心非。",
+      "methods": [
+        "M02",
+        "M17",
+        "M19",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-04",
+      "heading": "B125-04 位置、时间和忙碌都说真实情况",
+      "spine_indices": [
+        10,
+        12,
+        36,
+        37,
+        39,
+        45,
+        48
+      ],
+      "locator": "邀约信号、假性忙碌与假交通变故",
+      "summary": "问在哪就回应实际位置，约见按现实路程和时间商量。不把附近故意扩大到任何地点，也不编事故、堵车、加班、考试、朋友放鸽子或他人追求来营造机会。若真实计划变动，及时说明并共同更新，不让对方为自己的包装等待。",
+      "methods": [
+        "M04",
+        "M10",
+        "M14",
+        "M15",
+        "M16",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "id": "B125-05",
+      "heading": "B125-05 普通问句不是百分之百邀约暗示",
+      "spine_indices": [
+        10,
+        12,
+        21,
+        28,
+        49
+      ],
+      "locator": "做什么、在哪儿及怎么一起",
+      "summary": "对方可能想聊天、问实际位置或了解安排，单个问句不能确认她急着见面。先答当前所问，有确实双向互动再提出一次具体活动；不能擅自上路、到家楼下或把询问方案当成性暗示。动机未知就保留未知。",
+      "methods": [
+        "M01",
+        "M04",
+        "M14",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-06",
+      "heading": "B125-06 群体里照顾同伴，本人意愿不由别人代替",
+      "spine_indices": [
+        15,
+        51,
+        56
+      ],
+      "locator": "组合、家长与社交活动",
+      "summary": "可正常招呼每位参与者，不给朋友或家长贴障碍标签。即使父母、同伴认可或帮忙介绍，仍需本人愿意，而且只限成年人。不靠起哄、围观、伏守卫生间或一群人轮流索要号码制造压力。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-07",
+      "heading": "B125-07 工作情境尊重隐私，不秘密围堵或否认事实",
+      "spine_indices": [
+        16,
+        43,
+        56
+      ],
+      "locator": "同事、职业与教学场合",
+      "summary": "日常友好和工作职责不等于私人兴趣，职业相同也不代表没有安全顾虑。可以避免公开起哄，但不故意找偏僻处、跟踪下班或让朋友暗中制造单独相处。表达过的意愿按事实承担，不教事后死不承认，不让工作关系承受持续追求。",
+      "methods": [
+        "M01",
+        "M10",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-08",
+      "heading": "B125-08 有了联系方式仍只获得本渠道的联系机会",
+      "spine_indices": [
+        15,
+        17,
+        26,
+        27,
+        36
+      ],
+      "locator": "收号、渠道顺序与认识关系",
+      "summary": "她可以选择手机号、微信、邮箱或不留，不按渠道给信任等级打分，也不推断单身、隐瞒伴侣或是否成熟。能联系不保证会约见；不能跨平台寻找她未主动给出的联系方式，或借发资料、传照片套取更私密渠道。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-09",
+      "heading": "B125-09 认真问题清楚答，不让语言分类挡住事实",
+      "spine_indices": [
+        10,
+        20,
+        21,
+        22,
+        29,
+        36,
+        49
+      ],
+      "locator": "为什么、来意与具体安排问题",
+      "summary": "职业、来意、时间和下一步怎么安排，都可直接正常解释。没有必要先把她分成男性或女性思维再决定是否说实话，严肃也不等于攻击。重复提问可能是没听清、不安或不认可，不能保证她有好感，更不因坚持同一句就能获得号码。",
+      "methods": [
+        "M04",
+        "M13",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-10",
+      "heading": "B125-10 承接当前具体内容，不套聊天阶段剧本",
+      "spine_indices": [
+        20,
+        23,
+        24,
+        27,
+        28,
+        29,
+        46
+      ],
+      "locator": "状态、感受与日常话题",
+      "summary": "从她刚透露的一项具体信息接起，回应后露出一点相关的真实自己，也可以正常问一项。电影、工作、游戏或普通生活都可能是共同话题，不按课程把某类内容一律判为无趣。认真问题与必要事务先答，不为了固定公式再编一个感受。",
+      "methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-11",
+      "heading": "B125-11 短答要看问题，标点不裁决投入",
+      "spine_indices": [
+        18,
+        22,
+        27,
+        28,
+        30,
+        38,
+        49
+      ],
+      "locator": "兴趣等级、哈哈、叹号与好的",
+      "summary": "二选一的选择、简短确认和已完成回答都可能是正常完整回应。哈哈、叹号、语气词、人称、过去时或现在时仅是原话的一部分，不能单独判定喜欢、不耐烦或骗人。尤其明确答应安排的好的不因字少而被判冷淡。",
+      "methods": [
+        "M01",
+        "M08",
+        "M18",
+        "M20",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-12",
+      "heading": "B125-12 连续双向行为比语言模板更有分量",
+      "spine_indices": [
+        12,
+        18,
+        22,
+        27,
+        38,
+        44
+      ],
+      "locator": "主动、关注、倾诉与约会判断",
+      "summary": "一起看是否主动联系、了解自己、分享和承接、接受具体安排并兑现，没空是否给替代时间。愿意倾诉也可能只是友情，不自动成为可升级恋爱的信号；偶尔话少或一次没空不定义整个人，长期没有双向投入也不靠慢热解释到无限。",
+      "methods": [
+        "M01",
+        "M08",
+        "M17",
+        "M19",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-13",
+      "heading": "B125-13 资料页只取公开具体点，不变成查人任务",
+      "spine_indices": [
+        26,
+        28,
+        45,
+        47,
+        54
+      ],
+      "locator": "朋友圈、真实展示与熟人线索",
+      "summary": "可回应她愿意展示的具体兴趣或共同经历，不必每帖跟评、翻查全网身份或寻找住址单位。自己的生活展示也应真实、保护同伴隐私，不编合影人脉或奢侈消费。不发动态、少照片或安静的生活都不证明低价值。",
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M22",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-14",
+      "heading": "B125-14 真实自我不用假装忙碌或竞争者",
+      "spine_indices": [
+        17,
+        26,
+        28,
+        36,
+        44,
+        45,
+        47,
+        48
+      ],
+      "locator": "高价值、预选与吸引陷阱",
+      "summary": "分享自己的实际经历、兴趣和工作即可，不需要把每条消息当价值展示。开场主动、及时回复或承认普通困扰都不自动掉价。短期与长期关系都需要真实表达，不能因目标不同就容许虚构身份、伴侣、资源或重要事实。",
+      "methods": [
+        "M04",
+        "M10",
+        "M22",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-15",
+      "heading": "B125-15 声音与文字可协商，不用同步方式证明信任",
+      "spine_indices": [
+        26,
+        28,
+        30,
+        36
+      ],
+      "locator": "语音、电话与表达渠道",
+      "summary": "双方愿意时可转语音或通话，先照顾当下方便；她发语音不要求自己也发，反过来也一样。不能因文字短就突然打电话升压，挂断或没接后也不不断换方式。重要心意可选双方舒适的渠道，不规定必须当面才有效。",
+      "methods": [
+        "M04",
+        "M14",
+        "M22",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-16",
+      "heading": "B125-16 一轮不补旧草稿，不用送达确认再次催回应",
+      "spine_indices": [
+        27,
+        28,
+        29,
+        42
+      ],
+      "locator": "连发、群体代聊与确认是否收到",
+      "summary": "已发出一条就以新的发送状态处理，后来拿到更好措辞也不把旧草稿补发。她有新回复时接她现在的内容，不沿上一版预设继续。没回复不靠第二平台、电话、节日祝福或问是否收到来绕回，真正必要的新事务另按事实核。",
+      "methods": [
+        "M01",
+        "M02",
+        "M03",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-17",
+      "heading": "B125-17 回合数和固定间隔不成为联系日程",
+      "spine_indices": [
+        27,
+        29,
+        30,
+        36,
+        42,
+        48
+      ],
+      "locator": "三三法则、三五天及三七天",
+      "summary": "不把三轮、第三次邀约或固定几天联系当任务，也不为了显得不在乎故意冷落。对方连续低投入且没有待办安排时停止加码；未回应的尝试本身也算已发联系，不把只有她回复才算一次。新互动重核当前状态，不执行长期低频追逐名单。",
+      "methods": [
+        "M02",
+        "M18",
+        "M19",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-18",
+      "heading": "B125-18 邀约意向、待定和已确认安排分开",
+      "spine_indices": [
+        27,
+        30,
+        36,
+        48,
+        49
+      ],
+      "locator": "模糊邀约与常见回应",
+      "summary": "哪天一起吃饭只是意向，周末再说是待定，不先当约好；已经答应具体安排就及时商量时间地点，不故意空两三天。再字、时态和有没有情绪词不能决定意愿。没空但给替代可承接，含糊拒绝且没有替代就自然收住。",
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ]
+    },
+    {
+      "id": "B125-19",
+      "heading": "B125-19 安排问题答方案，不用新方案绕过拒绝",
+      "spine_indices": [
+        12,
+        30,
+        34,
+        36,
+        49
+      ],
+      "locator": "怎么一起、距离与不想出门",
+      "summary": "对方询问地点时间可提供一个现实可行的方案，必要时核一项关键限制。说远、累或要赶门禁可能是实际约束，也可能是不愿，不能一概解释成等人来接。确认不想出门或拒绝后，不连续换餐厅、时间、活动争取同一方向。",
+      "methods": [
+        "M04",
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-20",
+      "heading": "B125-20 取消与改期覆盖旧计划，不能靠闲聊恢复",
+      "spine_indices": [
+        13,
+        22,
+        30,
+        42,
+        49
+      ],
+      "locator": "临时取消、再联系与后续邀约",
+      "summary": "她后来取消或提出变更，按最新安排处理，不沿已失效的计划出发。取消原因不自动算自己的错，真实时间成本也可表达；有明确过失才修复。若她说稍后告知就把确认留给她，正常新问题不等于约定重启。",
+      "methods": [
+        "M01",
+        "M02",
+        "M15",
+        "M16",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-21",
+      "heading": "B125-21 同意见面或身体亲近不等于自动成为情侣",
+      "spine_indices": [
+        18,
+        34,
+        36,
+        37,
+        44
+      ],
+      "locator": "分层关系、女追男与身体表白",
+      "summary": "愿意聊天、见面、牵手、接吻或一起去某处，都只涉及当下那一项。关系是否确定和是否排他需要双方真实表达，不由阶梯、约会次数或身体接触自动宣布。主动不由性别指定，不需要一方保留百分之十或承担所有推进。",
+      "methods": [
+        "M01",
+        "M04",
+        "M14",
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-22",
+      "heading": "B125-22 明确边界不被笑脸、人称或最高信号覆盖",
+      "spine_indices": [
+        7,
+        18,
+        20,
+        22,
+        30,
+        31,
+        34,
+        36,
+        41,
+        55
+      ],
+      "locator": "轻微抵抗、别联系与依顺分级",
+      "summary": "不、别再联系、不想在这里、退开或不舒服，按具体范围停止。不能因她以前热情、听话、同意约会或用了多个你，就将拒绝解释成想要更强烈追求。后来正常主动文字只授权本轮允许的回应，不自动恢复旧通话、邀约或亲密方向。",
+      "methods": [
+        "M01",
+        "M02",
+        "M20",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-23",
+      "heading": "B125-23 共同玩笑要接得住，不拿顾虑做反向调情",
+      "spine_indices": [
+        28,
+        32,
+        33,
+        34
+      ],
+      "locator": "反向幽默、媒婆与关系玩笑",
+      "summary": "已有双方明确接住的轻松语境，可从当下具体点短暂夸张或角色玩笑。她说没懂时简短澄清或自然换回正常话题，不用讥讽智力补包袱。真实顾虑先答，夜间见面不安也不是自动可破解的测试；调侃不覆盖身份、边界或已确认事实。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M07",
+        "M20",
+        "M22",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-24",
+      "heading": "B125-24 表白说真实感受，不以朋友身份等待转正",
+      "spine_indices": [
+        7,
+        18,
+        33,
+        36,
+        41,
+        58
+      ],
+      "locator": "介绍对象、友情依赖与情感表达",
+      "summary": "可以坦然表达对共同相处的真实欣赏，也可以商量想要的关系；没有一套台词保证被接受。只做朋友按原意理解，自己可选真诚友谊或距离，不培养依赖后温水煮青蛙。她说要介绍朋友可能就是真意，不据暧昧和性格标签推定试探。",
+      "methods": [
+        "M04",
+        "M05",
+        "M09",
+        "M17",
+        "M19",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-25",
+      "heading": "B125-25 需要回应实际求助时，不先做情绪考试",
+      "spine_indices": [
+        24,
+        39,
+        40,
+        46
+      ],
+      "locator": "换灯泡、修电脑、迷路及抱怨",
+      "summary": "先分清她实际需要什么、哪些信息已知、自己能提供什么，明确求助和紧要事务优先。可以同时承接感受，但不能强认她想自己上门、在原地等或用笑话代替所求。普通困难不自动是暧昧信号；自己做不到也可说清边界。",
+      "methods": [
+        "M01",
+        "M11",
+        "M13",
+        "M22",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-26",
+      "heading": "B125-26 帮忙按真需求完成，不故意拖成九小时约会",
+      "spine_indices": [
+        24,
+        37,
+        39,
+        40
+      ],
+      "locator": "9小时效应、求助与制造难题",
+      "summary": "答应帮忙就按实际能力、耗时和约定做，不故意拖修电脑、夸大难度或编工作占满一天。帮助不换取吃饭、亲密或好感，自己也没有因喜欢就无限承担的义务。想另约活动可单独商量，双方可随时结束，不借交通、报恩或沉没成本留人。",
+      "methods": [
+        "M13",
+        "M14",
+        "M15",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-27",
+      "heading": "B125-27 先回应她的感受，开心也可一起高兴",
+      "spine_indices": [
+        20,
+        24,
+        25,
+        27,
+        29,
+        40,
+        46
+      ],
+      "locator": "情绪分享、状态与共鸣",
+      "summary": "她明确开心可以具体一起高兴，明确难受则先承接她说的困扰；不知道感受时不替她规定。不要把所有分享都变成建议、说教或自己的相似经历，也不要求每轮必须三层回应、句句带积极情绪。她的感受被更正时按新信息处理。",
+      "methods": [
+        "M03",
+        "M04",
+        "M11",
+        "M12",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-28",
+      "heading": "B125-28 不把不适定义成生气、难哄或心理问题",
+      "spine_indices": [
+        20,
+        23,
+        24,
+        25,
+        33,
+        47
+      ],
+      "locator": "照片、情绪归因与语言模式",
+      "summary": "她说没生气、没懂或指出具体问题，先按原话核，不坚持读心。单句否定、工作问句、理性表达和短回答不诊断自恋、创伤或缺安全感。自己不舒服也不证明不够强大，双方可以表达具体边界，无礼无需一味道歉退让。",
+      "methods": [
+        "M01",
+        "M08",
+        "M11",
+        "M20",
+        "M22"
+      ]
+    },
+    {
+      "id": "B125-29",
+      "heading": "B125-29 具体欣赏不索要更多身体或影像",
+      "spine_indices": [
+        8,
+        11,
+        25,
+        28,
+        38
+      ],
+      "locator": "外貌、照片和共同话题",
+      "summary": "可欣赏她自愿分享的真实细节、选择与努力，不把赞美当交换更多照片或性化评论的筹码。她只给一张照片、没回应身体评价时尊重范围；不要求拍出某部位，不从打扮、发型和撩头发直接推定性意愿。",
+      "methods": [
+        "M08",
+        "M09",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B125-30",
+      "heading": "B125-30 修复针对已证行为，不靠自贬或泛泛哄人",
+      "spine_indices": [
+        22,
+        25,
+        40,
+        42,
+        43
+      ],
+      "locator": "回应指责、得罪、道歉与复盘",
+      "summary": "有明确过失时说明具体哪里不妥、承担相应修复，是否情侣不决定能否道歉。不用我太低级或求你带我提高这种自贬台词，也不用新礼物掩盖旧问题。若只是她不再联系，先核事实，不按某次约会结果反推一定是吃相、外貌或人格出了问题。",
+      "methods": [
+        "M01",
+        "M20",
+        "M21",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-31",
+      "heading": "B125-31 自我表达不必包装成无懈可击",
+      "spine_indices": [
+        7,
+        23,
+        28,
+        41,
+        43,
+        45,
+        47
+      ],
+      "locator": "自信、真实生活与个人细节",
+      "summary": "可以承认紧张、普通生活和小失误，不把这些当男人不该有的缺陷，也不把自己写成成功人设。复盘只改有证据的具体行为，允许环境不合适、双方不匹配或原因不知道；不能因为作者讲过一个后来成功的故事，就认定失败源于某个个人毛病。",
+      "methods": [
+        "M01",
+        "M04",
+        "M10",
+        "M21",
+        "M24",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-32",
+      "heading": "B125-32 已收尾就停，不为机会无限延长",
+      "spine_indices": [
+        20,
+        27,
+        28,
+        29,
+        42,
+        48,
+        49
+      ],
+      "locator": "晚安、祝福、告别与等待回复",
+      "summary": "她说先睡、要工作或双方已自然告别，本轮可以结束，不必再讲一段状态争取回应。安排说定也不自动追加新话题；待回复时保持等待。若仍有未处理的明确求助，先读完整同轮内容，不能仅因末句谢谢就漏掉主问题。",
+      "methods": [
+        "M02",
+        "M13",
+        "M15",
+        "M26"
+      ]
+    },
+    {
+      "id": "B125-33",
+      "heading": "B125-33 见面后的反馈按连续事实，不回溯硬找错因",
+      "spine_indices": [
+        13,
+        17,
+        18,
+        22,
+        38,
+        41,
+        43,
+        44
+      ],
+      "locator": "后续、单次约会与兴趣变化",
+      "summary": "一次见面后减少联系可以下调期待，但具体原因仍需证据，不能直接裁定颜值、某句话或自己做错。看她之后是否主动、是否接受具体安排与给替代；持续单边就不再维持整场。后来新回复按本轮重核，旧降温也不永久盖过新事实。",
+      "methods": [
+        "M01",
+        "M08",
+        "M16",
+        "M17",
+        "M19",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-34",
+      "heading": "B125-34 预算和节日选择不体现人的等级",
+      "spine_indices": [
+        9,
+        23,
+        39,
+        44,
+        45,
+        47,
+        52
+      ],
+      "locator": "诚意消费、金额与重大节日",
+      "summary": "按双方真实预算、时间和兴趣安排，节日可共同过也可各自过。没有朋友或没安排不证明低价值，花更多也不能买来认可；不必把礼物预算升级成昂贵晚餐。财务偏好可正常了解，不因询问职业就贴物质或性别化标签。",
+      "methods": [
+        "M04",
+        "M10",
+        "M14",
+        "M15",
+        "M22"
+      ]
+    },
+    {
+      "id": "B125-35",
+      "heading": "B125-35 身体动作和语法最多提供有限线索",
+      "spine_indices": [
+        8,
+        12,
+        18,
+        20,
+        21,
+        22,
+        27,
+        38
+      ],
+      "locator": "信号、身体语言、人称及时态",
+      "summary": "整理头发、眼神、语气词、反问、我你比例和过去时均有多种解释，不能当心理测验。话语内容和当下边界优先，连续主动与实际投入一起看；没有足够证据就不知道，不以语言分类保证对方单身、真诚或喜欢自己。",
+      "methods": [
+        "M01",
+        "M08",
+        "M18",
+        "M20",
+        "M24"
+      ]
+    },
+    {
+      "id": "B125-36",
+      "heading": "B125-36 练习可自愿反馈，不羞辱、围堵或追人数",
+      "spine_indices": [
+        15,
+        21,
+        41,
+        43,
+        50,
+        51,
+        54,
+        55,
+        56
+      ],
+      "locator": "课程训练、尾随与观摩",
+      "summary": "不采用逼学员不能离开、嘲笑不像男人、愤怒刺激或追跑来促成开口。也不尾随到住处、伏守洗手间、冲过通道拦人或利用被骚扰经历反向证明骚扰有效。陌生人不承担触碰配额与秘密录制，同伴反馈要自愿并保护隐私。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B125-37",
+      "heading": "B125-37 性别、进化和临床标签不作为已证机制",
+      "spine_indices": [
+        5,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29,
+        33,
+        36,
+        37,
+        41,
+        45,
+        46,
+        47
+      ],
+      "locator": "两性理论、语言模式与心理解释",
+      "summary": "书中关于男女本性、抚养者、分离焦虑、真命症、思维与安全感的解释，未给出足以完成原始核验的研究。不能用通俗名词诊断任何人，也不把逻辑、理财、主动和独立需求当成某一性别的偏离。NLP分类不是当前指导的科学基础。",
+      "methods": []
+    },
+    {
+      "id": "B125-38",
+      "heading": "B125-38 百分比、固定时长与教学自报不构成实验",
+      "spine_indices": [
+        5,
+        12,
+        14,
+        17,
+        18,
+        20,
+        21,
+        27,
+        29,
+        30,
+        36,
+        37,
+        38,
+        39,
+        41,
+        43,
+        44,
+        48,
+        49,
+        53,
+        58
+      ],
+      "locator": "三三、九小时、比例与课程反馈",
+      "summary": "三回合临界点、九小时效应、90比10、具体成功率和性欲时点均未在此核对原始研究，不成为执行阈值。看似成功的案例也不能证明某句台词导致结果；课程自报、学员反馈与结构测试都不等于因果验证，不编APA或DOI。",
+      "methods": []
+    },
+    {
+      "id": "B125-39",
+      "heading": "B125-39 旧平台功能和渠道排名只作历史记录",
+      "spine_indices": [
+        4,
+        26,
+        27,
+        28,
+        29,
+        30,
+        48,
+        49,
+        52,
+        53,
+        54,
+        56
+      ],
+      "locator": "微信、短信、消费与旧地点",
+      "summary": "当前文件的年代、软件机制、输入准确率、联系人渠道、安全感排名、消费数字和场所仅按文本留范围，未核当前状态。不会用历史平台选择推断恋爱状态，也不据旧地点、服务员态度或所谓高分人群给出现实搜寻建议。",
+      "methods": []
+    },
+    {
+      "id": "B125-40",
+      "heading": "B125-40 私人叙事与未成年回忆不进入公开教学案例",
+      "spine_indices": [
+        7,
+        9,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        32,
+        33,
+        34,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        47,
+        49,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "locator": "学员聊天、回忆与后记",
+      "summary": "叙事文字已按当前文件读取，但不作独立事实认证或教学有效性证明。公开笔记不重发人物、联系方式、聊天逐句或匿名私人事件经过。涉及童年及未成年时期的私人性回忆仅作范围登记，不转为恋爱方法、不复述细节，也不从旁人经历推定用户的问题。",
+      "methods": []
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false,
+  "all58_HTML_XML_wellformed": true,
+  "native_text_replacement_characters": 0,
+  "NCX_navigation_labels_read": true,
+  "css_generated_text": false,
+  "external_image_resources": false,
+  "OCR_run": false,
+  "embedded_resource_audit": [
+    {
+      "spine_index": 1,
+      "path": "titlepage.xhtml",
+      "tag": "{http://www.w3.org/2000/svg}svg",
+      "attributes": {
+        "version": "1.1",
+        "width": "100%",
+        "height": "100%",
+        "viewBox": "0 0 557 800",
+        "preserveAspectRatio": "none"
+      }
+    },
+    {
+      "spine_index": 1,
+      "path": "titlepage.xhtml",
+      "tag": "{http://www.w3.org/2000/svg}image",
+      "attributes": {
+        "width": "557",
+        "height": "800",
+        "{http://www.w3.org/1999/xlink}href": "images/00004.jpeg"
+      }
+    },
+    {
+      "spine_index": 2,
+      "path": "text/part0000.html",
+      "tag": "{http://www.w3.org/1999/xhtml}img",
+      "attributes": {
+        "src": "../images/00001.gif",
+        "alt": "alt",
+        "class": "calibre2"
+      }
+    },
+    {
+      "spine_index": 3,
+      "path": "text/part0001.html",
+      "tag": "{http://www.w3.org/1999/xhtml}img",
+      "attributes": {
+        "src": "../images/00002.jpeg",
+        "alt": "alt",
+        "class": "calibre5"
+      }
+    },
+    {
+      "spine_index": 3,
+      "path": "text/part0001.html",
+      "tag": "{http://www.w3.org/1999/xhtml}img",
+      "attributes": {
+        "src": "../images/00003.jpeg",
+        "alt": "alt",
+        "class": "calibre5"
+      }
+    },
+    {
+      "spine_index": 51,
+      "path": "text/part0007_split_001.html",
+      "tag": "{http://www.w3.org/1999/xhtml}img",
+      "attributes": {
+        "src": "../images/00001.gif",
+        "alt": "alt",
+        "class": "calibre7"
+      }
+    }
+  ],
+  "image_review": [
+    {
+      "path": "images/00001.gif",
+      "size": [
+        157,
+        157
+      ],
+      "viewed": true,
+      "placements_spine_indices": [
+        2,
+        51
+      ],
+      "description": "生僻部件字图形已看；NCX标注尸加从，不另猜Unicode"
+    },
+    {
+      "path": "images/00002.jpeg",
+      "size": [
+        308,
+        387
+      ],
+      "viewed": true,
+      "description": "双人插画，无额外正文"
+    },
+    {
+      "path": "images/00003.jpeg",
+      "size": [
+        140,
+        19
+      ],
+      "viewed": true,
+      "description": "出版标志文字已看，仅按文件自称"
+    },
+    {
+      "path": "images/00004.jpeg",
+      "size": [
+        557,
+        800
+      ],
+      "viewed": true,
+      "native_and2x_viewed": true,
+      "description": "封面标题、署名、宣传及发行信息已看"
+    }
+  ],
+  "cover_SVG_container_inspected": true,
+  "unprovided_external_links_not_counted": true
+}
