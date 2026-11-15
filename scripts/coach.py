@@ -131,9 +131,12 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         selected_case = (case_key if case_key is not None else request.get('case_key')) \
             if 'cases' in request else None
         revision = plan_revision(request['revision'], task=selected_task,
-                                 action=decision['action'], selected_case=selected_case)
-        if revision['applied'] and 'no_question' in revision['constraints']:
-            contract['max_questions'] = 0
+                                 action=decision['action'], selected_case=selected_case,
+                                 current_window=decision.get('screen_window'))
+        if revision['applied']:
+            contract['expression_instructions'] = revision['expression_instructions']
+            if 'no_question' in revision['constraints']:
+                contract['max_questions'] = 0
     contract['recipient'] = ('other' if selected_task == 'reply' and
                              decision['action'] == 'draft' else 'user')
     if decision['action'] == 'clarify':

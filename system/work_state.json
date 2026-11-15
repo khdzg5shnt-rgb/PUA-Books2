@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "updated": "2026-11-16",
-  "current_focus": "method_scoped_colloquial_focus_retrieval",
+  "current_focus": "draft_revision_bound_to_current_sent_context",
   "status": "system_maintenance_complete",
-  "base_commit": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
+  "base_commit": "4723f7efdc1588d623fb39821626423d305cc6a8",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 0,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/OS_focus_aliases_2026-11-16.md",
-  "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+  "report": "knowledge/provenance/OS_revision_context_2026-11-16.md",
+  "validation": "knowledge/provenance/OS_revision_context_validation_2026-11-16.json",
   "reading_bookmark": null,
   "next_work": "Apply the current practical chat workflow to actual user requests; preserve queue closure and update rules only from concrete evidence.",
   "current_session_progress": {
-    "baseline": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
-    "runtime_version": "1.6.1",
+    "baseline": "4723f7efdc1588d623fb39821626423d305cc6a8",
+    "runtime_version": "1.6.2",
     "work_type": "system_maintenance",
     "new_book_files_started": [],
     "new_book_files_completed": [],
@@ -22,34 +22,31 @@
     "new_book_pages_read": 0,
     "new_original_book_notes": 0,
     "new_method_source_bindings": 0,
-    "method_scoped_phrase_groups": 7,
-    "public_retrieval_phrases": 21,
     "reading_statuses_unchanged": true,
     "reading_bookmark_unchanged": true,
-    "original_book_queue_complete": true,
     "completed_ratio": "119/119",
+    "original_book_queue_complete": true,
     "changes": [
-      "curated_focus_phrases_only_after_fixed_method_literal_miss",
-      "exact_method_section_binding_validation_for_each_phrase_target",
-      "preserve_literal_priority_and_preferred_fallback_on_ambiguity",
-      "historical_B004_scope_display_correction"
+      "bind_screen_based_revision_to_verified_latest_sent_and_primary_content_ids",
+      "clear_inactive_old_draft_expression_constraints",
+      "put_applied_expression_instructions_in_current_output_contract",
+      "keep_manual_flat_input_and_original_route_boundary_priority"
     ],
     "checks": {
       "status": "passed",
-      "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+      "validation": "knowledge/provenance/OS_revision_context_validation_2026-11-16.json",
       "validate_os": true,
       "generated_method_views_check": true,
-      "unit_tests_passed": 155,
+      "unit_tests_passed": 168,
       "new_test_methods": 13,
       "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
-      "baseline_retrieval_outputs_unchanged": 34,
-      "public_phrase_mappings_checked": 21,
-      "new_curated_phrase_hits": 20,
-      "existing_literal_or_lookup_phrase_hits_preserved": 1,
-      "existing_method_operations_sources_preferred_headings_and_route_conditions_preserved": true,
+      "new_CLI_examples_passed": 2,
+      "existing_retrieval_phrases_checked": 21,
+      "method_operations_bindings_preferred_titles_route_conditions_and_sources_preserved": true,
       "reading119_actual108_plus11_scope_closures_unchanged": true,
+      "inactive_draft_constraints_not_exposed_as_current_expression_instructions": true,
       "private_input_not_echoed_or_persisted": true,
-      "scope": "结构、精确段落绑定、虚构路由与检索检查，不验证真实截图识别、任意中文语义、自然口吻或恋爱效果。"
+      "scope": "结构、人工标注的消息编号、路由、修稿输出与检索检查；不验证真实读图、草稿身份、语义和恋爱效果。"
     }
   },
   "last_reading_progress": {
@@ -84,12 +81,12 @@
     }
   },
   "last_system_maintenance": {
-    "base_commit": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
-    "report": "knowledge/provenance/OS_focus_aliases_2026-11-16.md",
-    "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+    "base_commit": "4723f7efdc1588d623fb39821626423d305cc6a8",
+    "report": "knowledge/provenance/OS_revision_context_2026-11-16.md",
+    "validation": "knowledge/provenance/OS_revision_context_validation_2026-11-16.json",
     "current_session_progress": {
-      "baseline": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
-      "runtime_version": "1.6.1",
+      "baseline": "4723f7efdc1588d623fb39821626423d305cc6a8",
+      "runtime_version": "1.6.2",
       "work_type": "system_maintenance",
       "new_book_files_started": [],
       "new_book_files_completed": [],
@@ -97,34 +94,31 @@
       "new_book_pages_read": 0,
       "new_original_book_notes": 0,
       "new_method_source_bindings": 0,
-      "method_scoped_phrase_groups": 7,
-      "public_retrieval_phrases": 21,
       "reading_statuses_unchanged": true,
       "reading_bookmark_unchanged": true,
-      "original_book_queue_complete": true,
       "completed_ratio": "119/119",
+      "original_book_queue_complete": true,
       "changes": [
-        "curated_focus_phrases_only_after_fixed_method_literal_miss",
-        "exact_method_section_binding_validation_for_each_phrase_target",
-        "preserve_literal_priority_and_preferred_fallback_on_ambiguity",
-        "historical_B004_scope_display_correction"
+        "bind_screen_based_revision_to_verified_latest_sent_and_primary_content_ids",
+        "clear_inactive_old_draft_expression_constraints",
+        "put_applied_expression_instructions_in_current_output_contract",
+        "keep_manual_flat_input_and_original_route_boundary_priority"
       ],
       "checks": {
         "status": "passed",
-        "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+        "validation": "knowledge/provenance/OS_revision_context_validation_2026-11-16.json",
         "validate_os": true,
         "generated_method_views_check": true,
-        "unit_tests_passed": 155,
+        "unit_tests_passed": 168,
         "new_test_methods": 13,
         "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
-        "baseline_retrieval_outputs_unchanged": 34,
-        "public_phrase_mappings_checked": 21,
-        "new_curated_phrase_hits": 20,
-        "existing_literal_or_lookup_phrase_hits_preserved": 1,
-        "existing_method_operations_sources_preferred_headings_and_route_conditions_preserved": true,
+        "new_CLI_examples_passed": 2,
+        "existing_retrieval_phrases_checked": 21,
+        "method_operations_bindings_preferred_titles_route_conditions_and_sources_preserved": true,
         "reading119_actual108_plus11_scope_closures_unchanged": true,
+        "inactive_draft_constraints_not_exposed_as_current_expression_instructions": true,
         "private_input_not_echoed_or_persisted": true,
-        "scope": "结构、精确段落绑定、虚构路由与检索检查，不验证真实截图识别、任意中文语义、自然口吻或恋爱效果。"
+        "scope": "结构、人工标注的消息编号、路由、修稿输出与检索检查；不验证真实读图、草稿身份、语义和恋爱效果。"
       }
     }
   },
@@ -2542,6 +2536,51 @@
           "reading_queue_closed_and_cursor_null": true,
           "private_content_not_echoed_by_candidate_check": true,
           "scope": "结构、来源定位、虚构路由与CLI；不证明真实读图、语义理解、自然口吻或恋爱效果。"
+        }
+      }
+    },
+    {
+      "base_commit": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
+      "report": "knowledge/provenance/OS_focus_aliases_2026-11-16.md",
+      "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+      "current_session_progress": {
+        "baseline": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
+        "runtime_version": "1.6.1",
+        "work_type": "system_maintenance",
+        "new_book_files_started": [],
+        "new_book_files_completed": [],
+        "new_book_characters_read": 0,
+        "new_book_pages_read": 0,
+        "new_original_book_notes": 0,
+        "new_method_source_bindings": 0,
+        "method_scoped_phrase_groups": 7,
+        "public_retrieval_phrases": 21,
+        "reading_statuses_unchanged": true,
+        "reading_bookmark_unchanged": true,
+        "original_book_queue_complete": true,
+        "completed_ratio": "119/119",
+        "changes": [
+          "curated_focus_phrases_only_after_fixed_method_literal_miss",
+          "exact_method_section_binding_validation_for_each_phrase_target",
+          "preserve_literal_priority_and_preferred_fallback_on_ambiguity",
+          "historical_B004_scope_display_correction"
+        ],
+        "checks": {
+          "status": "passed",
+          "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+          "validate_os": true,
+          "generated_method_views_check": true,
+          "unit_tests_passed": 155,
+          "new_test_methods": 13,
+          "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+          "baseline_retrieval_outputs_unchanged": 34,
+          "public_phrase_mappings_checked": 21,
+          "new_curated_phrase_hits": 20,
+          "existing_literal_or_lookup_phrase_hits_preserved": 1,
+          "existing_method_operations_sources_preferred_headings_and_route_conditions_preserved": true,
+          "reading119_actual108_plus11_scope_closures_unchanged": true,
+          "private_input_not_echoed_or_persisted": true,
+          "scope": "结构、精确段落绑定、虚构路由与检索检查，不验证真实截图识别、任意中文语义、自然口吻或恋爱效果。"
         }
       }
     }
@@ -9052,9 +9091,7 @@
     "new_exact_method_section_bindings": 0,
     "new_scope_closures": [],
     "completed_ratio": "119/119",
-    "original_book_queue_complete": true,
-    "method_scoped_phrase_groups": 7,
-    "public_retrieval_phrases": 21
+    "original_book_queue_complete": true
   },
   "user_turn_aggregate_history": [
     {

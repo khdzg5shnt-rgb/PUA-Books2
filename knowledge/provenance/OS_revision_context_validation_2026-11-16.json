@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "4723f7efdc1588d623fb39821626423d305cc6a8",
+  "runtime_version": "1.6.2",
+  "status": "passed",
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_revision_context_validation_2026-11-16.json",
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 168,
+    "new_test_methods": 13,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "new_CLI_examples_passed": 2,
+    "existing_retrieval_phrases_checked": 21,
+    "method_operations_bindings_preferred_titles_route_conditions_and_sources_preserved": true,
+    "reading119_actual108_plus11_scope_closures_unchanged": true,
+    "inactive_draft_constraints_not_exposed_as_current_expression_instructions": true,
+    "private_input_not_echoed_or_persisted": true,
+    "scope": "结构、人工标注的消息编号、路由、修稿输出与检索检查；不验证真实读图、草稿身份、语义和恋爱效果。"
+  },
+  "structural_counts": {
+    "methods": 26,
+    "routes": 36,
+    "tasks": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "completed_book_tasks": 119
+  },
+  "CLI_results": [
+    {
+      "example": "same_sent_context",
+      "route_id": "R18",
+      "anchor_status": "matched",
+      "applied": true,
+      "max_questions": 0
+    },
+    {
+      "example": "new_incoming_content",
+      "route_id": "R18",
+      "anchor_status": "changed",
+      "applied": false,
+      "max_questions": 1
+    }
+  ],
+  "new_book_files_read": 0,
+  "new_method_source_bindings": 0,
+  "limitations": [
+    "Sent-bubble identities must be verified by the assistant; matching numbers do not prove image or text recognition.",
+    "Flat input without a binding still requires manual same-draft verification.",
+    "Missing/expired draft constraints do not cancel explicit current instructions or general style preferences.",
+    "No real private chat, screenshot, draft or private case was saved."
+  ]
+}

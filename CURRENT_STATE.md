@@ -2,11 +2,11 @@
 
 更新于2026-11-16（Asia/Shanghai）。唯一日常仓库 khdzg5shnt-rgb/PUA-Books2。[启动](START_HERE.md) · [实战工作页](CHAT_GUIDANCE_PLAYBOOK.md) · [机器状态](system/work_state.json)。
 
-## 当前工作：聊天实战系统1.6.1
+## 当前工作：聊天实战系统1.6.2
 
-当前新增7组21个常用说法的精确定位，解决主方法已确定后自然说法无法命中字面段落的问题。它只补字面检索缺口，目标必须已有本方法的精确绑定；字面命中优先，多个目标不擅自选一个。检索不会改变场景、对方意愿、邀约、边界或等待动作。[维护记录](knowledge/provenance/OS_focus_aliases_2026-11-16.md) · [本轮检查](knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json)。
+修稿现在核旧草稿对应的最近已发消息与待答主内容。多图中两项都匹配才应用本条表达要求；新消息、改选问题或无法核准时，不把旧草稿限制继续带入。平面输入仍需助手人工确认同稿，简短、自然等通用偏好继续有效。[维护记录](knowledge/provenance/OS_revision_context_2026-11-16.md) · [本轮检查](knowledge/provenance/OS_revision_context_validation_2026-11-16.json)。
 
-原有26方法与36路由、五种任务、一张实战工作页继续使用；普通怎么回仍只交付一句，必要时建议先不发。上轮1.6.0的自然成品、显式多版本检查、主动识别有事实基础的邀约机会和三篇研究题录与适用范围核验继续有效。[上轮记录](knowledge/provenance/OS_practice_delivery_2026-11-16.md)。
+原有26方法、36路由、五种任务及一张实战工作页继续使用；普通怎么回仍只给一句，必要时先不发。1.6.1的7组21个常用说法定位及1.6.0的成品检查、邀约机会选择和研究范围核验保留。实际安排、等待、停止和具体边界继续优先。[上轮检索维护](knowledge/provenance/OS_focus_aliases_2026-11-16.md)。
 
 ## 完成进度：119/119
 
