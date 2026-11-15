@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "file_id": "B119",
+  "date": "2026-11-15",
+  "status": "passed",
+  "baseline": "bfd9bf0761e868f24a3d9688fd403391208b6c17",
+  "validate_os": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "book_tasks_complete": 112,
+    "book_not_started": 7
+  },
+  "generated_method_views_check": true,
+  "git_diff_whitespace_check": true,
+  "unittest_methods_passed": 127,
+  "focused_reading_and_retrieval_checks": {
+    "ok": true,
+    "errors": [],
+    "global_only_section_retrievals": 5,
+    "unbound_method_exclusion_queries": 130,
+    "all126_original_blobs_preserved": true,
+    "original_README_retained_at": [
+      "knowledge/provenance/README-original.md"
+    ],
+    "original_README_checked_via_archive_current_homepage_allowed_to_change": true,
+    "other_reading_records_unchanged": true,
+    "all_methods_sources_preferred_sections_routes_tasks_unchanged": true,
+    "both_native_text_ranges_and_full_visual_page_records_checked": true,
+    "native_characters_checked": 952,
+    "independent_nonspace_sequences_equal": 2,
+    "B118_session_saved_in_history": true,
+    "counts112_104_8_and_B120_unopened_bookmark_consistent": true
+  },
+  "scope": "Structure,source identity,recorded reading ranges and retrieval only;not medical effectiveness,psychological mechanisms,real screenshot recognition or relationship effectiveness."
+}
