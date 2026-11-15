@@ -251,7 +251,7 @@ class SectionRetrieval(unittest.TestCase):
                       lambda d: d['methods']['M17']['preferred'].update(heading='MISSING'),
                       'Invalid preferred method section: M17'),
                      ('system/work_state.json',
-                      lambda d: d['reading_bookmark'].update(next_file_page=999),
+                      lambda d: d.update(reading_bookmark={'next_file_page':999}),
                       'Runtime reading bookmark does not match source state')]
         with tempfile.TemporaryDirectory(prefix='books2-runtime-check-') as folder:
             copied = Path(folder) / 'repo'

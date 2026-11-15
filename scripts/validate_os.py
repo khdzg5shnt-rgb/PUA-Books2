@@ -13,6 +13,44 @@ from method_cards import check_documents
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_reading_cursor(books, originals, state, sources):
+    """An active queue needs its first pending file; a finished queue has no cursor."""
+    errors = []
+    unfinished = [s['id'] for s in books if s['reading_status'] not in
+                  {'provided_file_text_complete', 'unread'}]
+    if state.get('unfinished_file_queue') != unfinished:
+        errors.append('Unfinished-file queue does not match source records')
+    next_unit = sources.get('next_work_unit')
+    bookmark = state.get('reading_bookmark')
+    if bookmark != next_unit:
+        errors.append('Runtime reading bookmark does not match source state')
+    pending = unfinished or [s['id'] for s in books if s['reading_status']=='unread']
+    if books and not pending:
+        if state.get('original_book_queue_complete') is not True:
+            errors.append('Completed original queue needs an explicit completion state')
+        if next_unit is not None or bookmark is not None:
+            errors.append('Completed original queue must not retain a next reading cursor')
+        last = state.get('last_completed_reading_unit')
+        prior = originals.get(last.get('id'), {}) if isinstance(last, dict) else {}
+        if (not prior or prior.get('reading_status') != 'provided_file_text_complete' or
+                any(last.get(k) != prior.get(k) for k in ['path', 'git_blob_sha'])):
+            errors.append('Completed queue needs a valid last completed reading unit')
+        return errors
+    if state.get('original_book_queue_complete') is True:
+        errors.append('Original queue cannot be complete while a book is pending')
+    if not isinstance(next_unit, dict):
+        errors.append('Active reading queue requires a cursor')
+        return errors
+    if pending and next_unit.get('id') != pending[0]:
+        errors.append('Finish the current unfinished file before opening another book'
+                      if unfinished else 'Next reading unit is not the first pending book')
+    prior = originals.get(next_unit.get('id'), {})
+    if (not prior or any(next_unit.get(k) != prior.get(k)
+                         for k in ['git_blob_sha', 'path'])):
+        errors.append('Next reading unit identity mismatch')
+    return errors
+
+
 def validate_reading_displays(root, complete, total):
     """Keep the current human entry points aligned; explicitly dated history stays."""
     errors = []
@@ -162,25 +200,13 @@ def validate(root=ROOT):
         errors.append('Source statistics do not match records')
     # An unfinished file cannot be bypassed by opening an unread one. The user-
     # facing ratio counts completed supplied files, never completed + partial.
-    unfinished_ids = [s['id'] for s in books if s['reading_status'] not in
-                      {'provided_file_text_complete', 'unread'}]
-    if state.get('unfinished_file_queue') != unfinished_ids:
-        errors.append('Unfinished-file queue does not match source records')
-    if unfinished_ids and sources['next_work_unit']['id'] != unfinished_ids[0]:
-        errors.append('Finish the current unfinished file before opening another book')
+    errors.extend(validate_reading_cursor(books, originals, state, sources))
     display = state.get('progress_display', {})
     if (display.get('reported_numerator') != complete or
             display.get('reported_denominator') != len(books) or
             display.get('ratio_basis') != 'current_file_text_complete_only' or
             display.get('partial_excluded_from_numerator') is not True):
         errors.append('Reported reading ratio must count completed files only')
-    if state['reading_bookmark'] != sources['next_work_unit']:
-        errors.append('Runtime reading bookmark does not match source state')
-    next_unit=sources['next_work_unit']
-    next_original=originals.get(next_unit['id'],{})
-    if (next_unit['git_blob_sha'] != next_original.get('git_blob_sha') or
-            next_unit['path'] != next_original.get('path')):
-        errors.append('Next reading unit identity mismatch')
     for key in ['runtime_entry','request_example','report','validation']:
         if not (root/state[key]).is_file():
             errors.append('Missing runtime entry: '+key)

@@ -1,69 +1,59 @@
 {
   "schema_version": 1,
   "updated": "2026-11-16",
-  "current_focus": "B126_next_after_B125_current_readable_content_checkpoint",
-  "status": "ready_for_next_file",
-  "base_commit": "8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830",
+  "current_focus": "original_119_file_queue_complete_continue_knowledge_integration_and_chat_guidance",
+  "status": "original_book_queue_complete",
+  "base_commit": "386e1ed2232b19dbb7ff19f16065bd35e6a39107",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B125_progress_2026-11-16.md",
-  "validation": "knowledge/provenance/B125_validation_2026-11-16.json",
-  "reading_bookmark": {
-    "id": "B126",
-    "path": "黑洞吸引 - 无念团队.pdf",
-    "bytes": 1871392,
-    "git_blob_sha": "19ed992020d5607cd2e726bcf74838d08540db52",
-    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "unread",
-    "format": "pdf",
-    "next_character": 0,
-    "start": "B125当前可辨内容已读并保存范围；先提交本份。下一唯一主读B126《黑洞吸引 - 无念团队.pdf》物理页1字符0，正文未打开。",
-    "next_content_unit": "Read B126 supplied PDF from physical page1 character0 only after B125 checkpoint committed;body unopened.",
-    "next_file_page": 1
-  },
-  "next_work": "Read B126 supplied PDF from physical page1 character0 only after B125 checkpoint committed;body unopened.",
+  "report": "knowledge/provenance/B126_progress_2026-11-16.md",
+  "validation": "knowledge/provenance/B126_validation_2026-11-16.json",
+  "reading_bookmark": null,
+  "next_work": "Original119-file queue complete;continue existing knowledge integration and current-turn chat guidance;do not reopen completed files or claim external sources fully read.",
   "current_session_progress": {
-    "baseline": "8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830",
+    "baseline": "386e1ed2232b19dbb7ff19f16065bd35e6a39107",
     "runtime_version": "1.5.4",
-    "work_type": "actual_supplied_EPUB_all_spine_texts_and_visual_resources_read",
+    "work_type": "user_accepted_scope_closure_with_known_image_gaps",
     "new_book_files_started": [
-      "B125"
+      "B126"
     ],
     "new_book_files_completed": [
-      "B125"
+      "B126"
     ],
-    "actually_completed_file_ids": [
-      "B125"
-    ],
-    "new_whole_book_files_actually_read": 1,
+    "actually_completed_file_ids": [],
+    "new_whole_book_files_actually_read": 0,
     "new_supplied_readable_text_completions": 1,
-    "user_accepted_scope_closure_ids": [],
-    "new_direct_extracted_characters_read": 102913,
-    "new_EPUB_spine_readable_text_items_read": 58,
+    "user_accepted_scope_closure_ids": [
+      "B126"
+    ],
+    "new_direct_extracted_characters_read": 18478,
+    "new_PDF_physical_page_texts_read": 56,
     "new_OCR_characters_read": 0,
-    "original_note_groups": 40,
-    "new_method_source_bindings": 180,
-    "new_method_source_entries": 26,
+    "new_unique_embedded_images_inspected": 12,
+    "original_note_groups": 36,
+    "new_method_source_bindings": 145,
+    "new_method_source_entries": 23,
     "new_method_operations": [],
-    "all_current_supplied_file_content_read": true,
+    "all_current_supplied_file_content_read": false,
     "all_current_readable_text_read": true,
-    "next_book_body_opened": false,
+    "original_book_queue_complete": true,
     "serial_order": [
-      "previous main 8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830 verified before opening B125",
-      "all58 current readable spine units read in19 serial batches",
-      "independent extraction and embedded resources checked;unread scope accurately retained",
-      "save B125 before next body"
+      "B125 main 386e1ed2232b19dbb7ff19f16065bd35e6a39107 verified before opening B126",
+      "all56 native PDF page texts actually read in4 batches",
+      "all12 unique images inspected;known screenshot gaps retained",
+      "save final B126 and clear the active reading cursor"
     ],
     "previous_runtime1_5_4_maintenance_preserved": true,
     "original_edition_completeness_not_asserted": true,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B125_validation_2026-11-16.json",
-      "unit_tests_passed": 127,
+      "reading_metadata_validation": "knowledge/provenance/B126_validation_2026-11-16.json",
+      "unit_tests_passed": 134,
       "validate_os": true,
-      "generated_method_views_check": true
+      "generated_method_views_check": true,
+      "new_reading_cursor_test_methods": 7
     }
   },
   "last_reading_progress": {
@@ -2458,48 +2448,50 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-16",
-    "report": "knowledge/provenance/B125_progress_2026-11-16.md",
-    "validation": "knowledge/provenance/B125_validation_2026-11-16.json",
+    "report": "knowledge/provenance/B126_progress_2026-11-16.md",
+    "validation": "knowledge/provenance/B126_validation_2026-11-16.json",
     "current_session_progress": {
-      "baseline": "8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830",
+      "baseline": "386e1ed2232b19dbb7ff19f16065bd35e6a39107",
       "runtime_version": "1.5.4",
-      "work_type": "actual_supplied_EPUB_all_spine_texts_and_visual_resources_read",
+      "work_type": "user_accepted_scope_closure_with_known_image_gaps",
       "new_book_files_started": [
-        "B125"
+        "B126"
       ],
       "new_book_files_completed": [
-        "B125"
+        "B126"
       ],
-      "actually_completed_file_ids": [
-        "B125"
-      ],
-      "new_whole_book_files_actually_read": 1,
+      "actually_completed_file_ids": [],
+      "new_whole_book_files_actually_read": 0,
       "new_supplied_readable_text_completions": 1,
-      "user_accepted_scope_closure_ids": [],
-      "new_direct_extracted_characters_read": 102913,
-      "new_EPUB_spine_readable_text_items_read": 58,
+      "user_accepted_scope_closure_ids": [
+        "B126"
+      ],
+      "new_direct_extracted_characters_read": 18478,
+      "new_PDF_physical_page_texts_read": 56,
       "new_OCR_characters_read": 0,
-      "original_note_groups": 40,
-      "new_method_source_bindings": 180,
-      "new_method_source_entries": 26,
+      "new_unique_embedded_images_inspected": 12,
+      "original_note_groups": 36,
+      "new_method_source_bindings": 145,
+      "new_method_source_entries": 23,
       "new_method_operations": [],
-      "all_current_supplied_file_content_read": true,
+      "all_current_supplied_file_content_read": false,
       "all_current_readable_text_read": true,
-      "next_book_body_opened": false,
+      "original_book_queue_complete": true,
       "serial_order": [
-        "previous main 8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830 verified before opening B125",
-        "all58 current readable spine units read in19 serial batches",
-        "independent extraction and embedded resources checked;unread scope accurately retained",
-        "save B125 before next body"
+        "B125 main 386e1ed2232b19dbb7ff19f16065bd35e6a39107 verified before opening B126",
+        "all56 native PDF page texts actually read in4 batches",
+        "all12 unique images inspected;known screenshot gaps retained",
+        "save final B126 and clear the active reading cursor"
       ],
       "previous_runtime1_5_4_maintenance_preserved": true,
       "original_edition_completeness_not_asserted": true,
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B125_validation_2026-11-16.json",
-        "unit_tests_passed": 127,
+        "reading_metadata_validation": "knowledge/provenance/B126_validation_2026-11-16.json",
+        "unit_tests_passed": 134,
         "validate_os": true,
-        "generated_method_views_check": true
+        "generated_method_views_check": true,
+        "new_reading_cursor_test_methods": 7
       }
     }
   },
@@ -2630,12 +2622,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 118,
-    "current_file_text_complete": 118,
+    "started": 119,
+    "current_file_text_complete": 119,
     "partial": 0,
-    "unread": 1,
+    "unread": 0,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 118,
+    "reported_numerator": 119,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2649,7 +2641,8 @@
       "B098",
       "B114",
       "B123",
-      "B124"
+      "B124",
+      "B126"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
       "B017",
@@ -2661,7 +2654,8 @@
       "B098",
       "B114",
       "B123",
-      "B124"
+      "B124",
+      "B126"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
     "actually_read_supplied_files": 108,
@@ -8753,6 +8747,53 @@
           "generated_method_views_check": true
         }
       }
+    },
+    {
+      "date": "2026-11-16",
+      "report": "knowledge/provenance/B125_progress_2026-11-16.md",
+      "validation": "knowledge/provenance/B125_validation_2026-11-16.json",
+      "current_session_progress": {
+        "baseline": "8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830",
+        "runtime_version": "1.5.4",
+        "work_type": "actual_supplied_EPUB_all_spine_texts_and_visual_resources_read",
+        "new_book_files_started": [
+          "B125"
+        ],
+        "new_book_files_completed": [
+          "B125"
+        ],
+        "actually_completed_file_ids": [
+          "B125"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "new_supplied_readable_text_completions": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_direct_extracted_characters_read": 102913,
+        "new_EPUB_spine_readable_text_items_read": 58,
+        "new_OCR_characters_read": 0,
+        "original_note_groups": 40,
+        "new_method_source_bindings": 180,
+        "new_method_source_entries": 26,
+        "new_method_operations": [],
+        "all_current_supplied_file_content_read": true,
+        "all_current_readable_text_read": true,
+        "next_book_body_opened": false,
+        "serial_order": [
+          "previous main 8eb8e258e4c9c5dab70dc18a7d7e3a1518d63830 verified before opening B125",
+          "all58 current readable spine units read in19 serial batches",
+          "independent extraction and embedded resources checked;unread scope accurately retained",
+          "save B125 before next body"
+        ],
+        "previous_runtime1_5_4_maintenance_preserved": true,
+        "original_edition_completeness_not_asserted": true,
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B125_validation_2026-11-16.json",
+          "unit_tests_passed": 127,
+          "validate_os": true,
+          "generated_method_views_check": true
+        }
+      }
     }
   ],
   "last_partial_reading_session": {
@@ -8855,14 +8896,25 @@
   ],
   "current_user_turn_aggregate": {
     "file_ids_completed_serially": [
-      "B125"
+      "B125",
+      "B126"
     ],
-    "new_direct_extracted_characters_read": 102913,
+    "new_direct_extracted_characters_read": 121391,
     "new_EPUB_spine_readable_text_items_read": 58,
-    "original_note_groups": 40,
-    "new_exact_method_section_bindings": 180,
-    "new_scope_closures": [],
-    "each_file_committed_before_opening_next": true
+    "original_note_groups": 76,
+    "new_exact_method_section_bindings": 325,
+    "new_scope_closures": [
+      "B126"
+    ],
+    "each_file_committed_before_opening_next": true,
+    "new_PDF_physical_page_texts_read": 56,
+    "publication_checkpoints_before_next_body": [
+      {
+        "file_id": "B125",
+        "verified_main_commit": "386e1ed2232b19dbb7ff19f16065bd35e6a39107",
+        "next_file_id": "B126"
+      }
+    ]
   },
   "user_turn_aggregate_history": [
     {
@@ -8925,6 +8977,39 @@
         "B124"
       ],
       "each_file_committed_before_opening_next": true
+    },
+    {
+      "file_ids_completed_serially": [
+        "B125"
+      ],
+      "new_direct_extracted_characters_read": 102913,
+      "new_EPUB_spine_readable_text_items_read": 58,
+      "original_note_groups": 40,
+      "new_exact_method_section_bindings": 180,
+      "new_scope_closures": [],
+      "each_file_committed_before_opening_next": true
     }
-  ]
+  ],
+  "original_book_queue_complete": true,
+  "last_completed_reading_unit": {
+    "id": "B126",
+    "path": "黑洞吸引 - 无念团队.pdf",
+    "bytes": 1871392,
+    "git_blob_sha": "19ed992020d5607cd2e726bcf74838d08540db52",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "reading_status": "provided_file_text_complete",
+    "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+    "reading_ledger": "knowledge/provenance/B126_reading_2026-11-16.json",
+    "all_current_file_content_read": false,
+    "all_supplied_native_text_read": true,
+    "read_physical_pages": [
+      1,
+      56
+    ],
+    "known_gaps_physical_pages": [
+      54,
+      55
+    ],
+    "active_cursor": false
+  }
 }

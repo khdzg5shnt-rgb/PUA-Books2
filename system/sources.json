@@ -1711,9 +1711,18 @@
       "group": "books2_original_snapshot",
       "title": "黑洞吸引 - 无念团队.pdf",
       "git_blob_sha": "19ed992020d5607cd2e726bcf74838d08540db52",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B126.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B126_reading_2026-11-16.json",
+      "coverage_mode": "all56_native_PDF_page_texts_actually_read_in4_batches_all12_unique_images_inspected_known_screenshot_gaps_closed",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": true,
+      "all_current_readable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "S01",
@@ -2055,24 +2064,12 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 118,
+    "current_book_files_text_complete": 119,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 1
+    "current_book_files_not_started": 0
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
-  "next_work_unit": {
-    "id": "B126",
-    "path": "黑洞吸引 - 无念团队.pdf",
-    "bytes": 1871392,
-    "git_blob_sha": "19ed992020d5607cd2e726bcf74838d08540db52",
-    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
-    "reading_status": "unread",
-    "format": "pdf",
-    "next_character": 0,
-    "start": "B125当前可辨内容已读并保存范围；先提交本份。下一唯一主读B126《黑洞吸引 - 无念团队.pdf》物理页1字符0，正文未打开。",
-    "next_content_unit": "Read B126 supplied PDF from physical page1 character0 only after B125 checkpoint committed;body unopened.",
-    "next_file_page": 1
-  },
+  "next_work_unit": null,
   "deferred_work_units": []
 }

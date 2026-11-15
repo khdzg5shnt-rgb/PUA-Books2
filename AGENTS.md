@@ -51,6 +51,8 @@ python -m unittest discover -s tests -p 'test_*.py'
 
 机器队列`unfinished_file_queue`只保留仍在实际处理且尚未结束的文件，其首项与主断点一致。已授权结束的坏扫描不再阻塞。`reported_numerator`与来源清单中的任务完成数一致；`actually_read_supplied_files`及`user_accepted_scope_closure_ids`分别记录真实读取与范围结束。
 
+119份原始书籍文件全部完成任务后，`original_book_queue_complete=true`，`reading_bookmark`与`next_work_unit`均为null，`unfinished_file_queue=[]`；末份身份和已读范围保存在`last_completed_reading_unit`。后续“继续”先核当前状态，转入现有资料整合与聊天指导维护，不重开已完成文件，也不把原始队列结束说成全部外部资料、原著或模型训练完成。
+
 首页和资料索引各保留一个CURRENT_READING_STATUS标记块，并同步CURRENT_STATE、来源清单与机器状态。历史进度只作历史记录；新增任务完成不得重复计数已读字符、旧笔记或旧方法绑定。
 
 ## B017的明确范围例外
