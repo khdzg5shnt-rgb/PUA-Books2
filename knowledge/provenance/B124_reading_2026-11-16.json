@@ -1,0 +1,1432 @@
+{
+  "schema_version": 1,
+  "file_id": "B124",
+  "date": "2026-11-16",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "27a1c3d0057509e0fa793404b0a8d4cd2acbbf54",
+  "source_identity": {
+    "path": "魔鬼搭讪学 - 魔鬼咨询师.epub",
+    "bytes": 116816,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AD%94%E9%AC%BC%E6%90%AD%E8%AE%AA%E5%AD%A6%20-%20%E9%AD%94%E9%AC%BC%E5%92%A8%E8%AF%A2%E5%B8%88.epub",
+    "git_blob_sha": "b2aa60ab16c4ce69c689c92719ae151a8943fc23"
+  },
+  "source_sha256": "dfd76e49d53220a47d38ee30c96c0f39524c517d1589f5575c9189c6b0397d08",
+  "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+  "reading_mode": "all36_EPUB_native_spine_texts_read_in7_batches_and2_images_viewed_with_unreadable_cover_lettering_retained",
+  "all_current_file_content_read": false,
+  "actual_reading_complete": false,
+  "all_supplied_native_text_read": true,
+  "all_current_readable_text_read": true,
+  "user_accepted_scope_closure": true,
+  "user_authorization": "AGENTS.md逐本阅读与进度汇报；2026-11-13通用授权，读不出的内容保留缺口并结束计数，无需逐本询问",
+  "extracted_characters_displayed": 45341,
+  "readable_nonreplacement_characters_read": 45341,
+  "known_unread_current_content": [
+    {
+      "kind": "unreadable_small_cover_image_lettering",
+      "resource": "OPS/images/cover.jpg",
+      "native_image_size": [
+        288,
+        462
+      ],
+      "regions_native_pixels": [
+        [
+          188,
+          21,
+          269,
+          96
+        ],
+        [
+          100,
+          237,
+          218,
+          279
+        ],
+        [
+          129,
+          404,
+          176,
+          429
+        ],
+        [
+          18,
+          351,
+          41,
+          426
+        ]
+      ],
+      "description": "营销贴纸、斜排副题及出版标记/书脊底部小字不能逐字可靠辨清；封面标题、作者与部分大字已看。微型插画标签也未作完整转录。",
+      "native_and4x_visual_review_attempted": true,
+      "recovered_by_guessing": false
+    }
+  ],
+  "confirmed_actual_readable_text_ranges": [
+    {
+      "spine_index": 1,
+      "path": "OPS/coverpage.html",
+      "start": 0,
+      "end": 175,
+      "text_sha256": "45054ffcac5ee85d7c7b66784fa1ab09004792437f6435b29a6255bc20ef6e1b",
+      "source_sha256": "2c4ae46f6d4a91d1310f7521ae9fb95b02a2ec159d88735400883f3abba36670",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 2,
+      "path": "OPS/chapter1.html",
+      "start": 0,
+      "end": 726,
+      "text_sha256": "4e30aa1b5cc24260d7c7ca365569479a225e761a844603914d4cd79a2cffe8b8",
+      "source_sha256": "8683592a0ccb26c3866bdb260056a00f425c079bd014602495e1ee93f0d34917",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 3,
+      "path": "OPS/chapter35.html",
+      "start": 0,
+      "end": 1772,
+      "text_sha256": "c1800e21fd9380f6b8f553c87d580fc1463fc090fa9ca7474f45fb998077e381",
+      "source_sha256": "042e04c72117cf7f524930f346a4d385acef565e1c8d8e86a259333d666604af",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 4,
+      "path": "OPS/chapter34.html",
+      "start": 0,
+      "end": 1969,
+      "text_sha256": "42fd3718846075384394b6b878b9d367425b100c6e70a55e7a8c620b4c892652",
+      "source_sha256": "b88f8a19cd6a6b36223f131df7164263e17fefbac14ba50bc1be5a429846ceaf",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 5,
+      "path": "OPS/chapter33.html",
+      "start": 0,
+      "end": 1297,
+      "text_sha256": "c5f0bae48404d80314d9e0e2891ba52b94534338375a35b232b6457d4197b6dc",
+      "source_sha256": "fd0e8d9e5e03c2794a28955fba4ebdc369aee08522b079ebaea789c4e112250b",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 6,
+      "path": "OPS/chapter32.html",
+      "start": 0,
+      "end": 1258,
+      "text_sha256": "0c4ffea733ba9938cb461e13ceb6f0b0cd4c884011954c5a3d7659240cf5b032",
+      "source_sha256": "3060f2629fc5de9531b87f1662b2489bdf8633c10b19b6b18b33f25e612f5663",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 7,
+      "path": "OPS/chapter31.html",
+      "start": 0,
+      "end": 611,
+      "text_sha256": "45e314f2b549aa794ba544c7403ba4eb3489fb1cbb6f2bf427eec4e7f15827cc",
+      "source_sha256": "64be2c81ff20fc221726127f6935db0a026924638aab92ef756f9f9a72ec700e",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 8,
+      "path": "OPS/chapter30.html",
+      "start": 0,
+      "end": 945,
+      "text_sha256": "9b615137596de8507a247967b5ccc25e3e51e1ee136a901787be700c3deee9df",
+      "source_sha256": "63ca057cd12258b5c686cdb1950e9948572f9e790d0d413dfb5b1721b0c2c0c3",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 9,
+      "path": "OPS/chapter29.html",
+      "start": 0,
+      "end": 1508,
+      "text_sha256": "ab088b3f8e960bd9dfb97a66fb0793879c8b0bcf46aa05e682ba19b244df7ec5",
+      "source_sha256": "88423184fe0d2b83bb1c0f3e3e6c7bae284c507a38089cfe5b0c2f92b100aef2",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 10,
+      "path": "OPS/chapter28.html",
+      "start": 0,
+      "end": 1309,
+      "text_sha256": "eaae4d7bead1cbf027b3ba659414fb2a85c37c987a856378979a14078d3a4f44",
+      "source_sha256": "26b88783644ca4548b5c0cfb1f494812ed1338b8b006fe4c93d13d99cf1a76df",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 11,
+      "path": "OPS/chapter27.html",
+      "start": 0,
+      "end": 1289,
+      "text_sha256": "4e1fd7a3e227546d1853df1637b49a21c7ee59ea948d18683b267f5decc1aa7f",
+      "source_sha256": "0cc8abeba651b3b7b55747728a348d89a84b956463481d74244e1f673834b8b7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 12,
+      "path": "OPS/chapter26.html",
+      "start": 0,
+      "end": 1698,
+      "text_sha256": "0b29b19ab1f3599f8b8fb911d284faed36f78d4ac3a506b11853e448e844551d",
+      "source_sha256": "41e3f41528a3f3f51265a5089dc44147a72c38610eaa8ba9a4120578a6c384bf",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 13,
+      "path": "OPS/chapter25.html",
+      "start": 0,
+      "end": 1673,
+      "text_sha256": "625e1f573555e6acf771ced3cacd4056ccea0881f4172514f1051a9d3f141688",
+      "source_sha256": "c64844cce5940f7ee064c06275dece0dfeff809b8be005076d7104472b509eb0",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 14,
+      "path": "OPS/chapter24.html",
+      "start": 0,
+      "end": 1246,
+      "text_sha256": "26f34b0d6ab54193c9a9217f62778965c08c3492764e97bb32e840151e473ee5",
+      "source_sha256": "43d8dddb1266b40abacab87066f564f0712bf92fea85028459781dccff166f6c",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 15,
+      "path": "OPS/chapter23.html",
+      "start": 0,
+      "end": 1375,
+      "text_sha256": "b93815cf862ce8c09f6d1adbe1ff4e0a0208780e7c8cd2f1313ae066b41bd98d",
+      "source_sha256": "9064f4ab92f44553ca18abc2739a1ac84ff2565019c580b299278eef74e6ceaf",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 16,
+      "path": "OPS/chapter22.html",
+      "start": 0,
+      "end": 2035,
+      "text_sha256": "9a821f5948121c71837883d0c0b29c29b515de12591e8f7afeb0cba24a58db37",
+      "source_sha256": "89187db1ddfe118d3b894586e5798589af24eae33414ef93ca95293fffa0e622",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 17,
+      "path": "OPS/chapter21.html",
+      "start": 0,
+      "end": 957,
+      "text_sha256": "7fa493949cb563ddda94420aecb0ade029fd98fca7483e8c4c80fc1c6442fe11",
+      "source_sha256": "742b82ee53aace94495acf04e81ee4e55408c89263b709b96986da65147c3e9d",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 18,
+      "path": "OPS/chapter20.html",
+      "start": 0,
+      "end": 541,
+      "text_sha256": "7c5d7f0bda7c8763d4f4ba1b37882f0c131d22aca20308fab6b5fc46ddbf9d38",
+      "source_sha256": "72b56a1769a40a008bfd78d6a513f7c7342328ee51d64c64b0b30c62eaa4ea6b",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 19,
+      "path": "OPS/chapter19.html",
+      "start": 0,
+      "end": 805,
+      "text_sha256": "c268f553137df07bb9dfe901e45029d5a8af6536eedfc90b7b395f890f2d1868",
+      "source_sha256": "5c33c43fc55631605d8bc1af13ae2b84463c9dac0383afc19d82ad60095d09cf",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 20,
+      "path": "OPS/chapter18.html",
+      "start": 0,
+      "end": 1155,
+      "text_sha256": "80384e7e8ca92ef7815f5f8adf784fe349ddb084c2e2706795111c63158a5362",
+      "source_sha256": "7a44705e0506c452ab7aa09366df422dbd18afebcf518e4c80ce7866843fe398",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 21,
+      "path": "OPS/chapter17.html",
+      "start": 0,
+      "end": 1063,
+      "text_sha256": "a147ab877580ead2cf106819f13d0064f723f64c1caed422918c7d883818cbf4",
+      "source_sha256": "1accef6c53fa8d5770e3e1c0dc53e5e2efbd8f4926daa194acea30c43a6a0592",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 22,
+      "path": "OPS/chapter16.html",
+      "start": 0,
+      "end": 1607,
+      "text_sha256": "390107177f8a3834d39c702d86a9701446b854083ab6cd7521c33d127b0ac1ea",
+      "source_sha256": "f10b8af9a0a1a3e6b25dfb82fc5194fcf98cf92c9a9ba3973e710cab81ae9e57",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 23,
+      "path": "OPS/chapter15.html",
+      "start": 0,
+      "end": 2080,
+      "text_sha256": "ac7f91d74a6c7406b2ad7b380c05e7185a644989214e949f7b2d9c46f76a4a34",
+      "source_sha256": "5a4ba85c58dc2be6736a59e1b69fc5eefaa312d4f44e308956756c99e4eed3d7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 24,
+      "path": "OPS/chapter14.html",
+      "start": 0,
+      "end": 1991,
+      "text_sha256": "39b7944ae52e34dcd6b9da0c1eb1f00141cbd1d8d2647b91a0481d4dea769f4b",
+      "source_sha256": "0cb977ac74d4f8fe902e7ae95a6f27bcdc48b66e4a9688c691a40e9474c2034f",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 25,
+      "path": "OPS/chapter13.html",
+      "start": 0,
+      "end": 1622,
+      "text_sha256": "a4f67fa020c8117b4a15b72665f8b0c194933245c70ea97199d05838824b4a6d",
+      "source_sha256": "5e32963b93e5da7bc0970726d0c98750a046ef301d55cbf4dc2cbdbd3b05be45",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 26,
+      "path": "OPS/chapter12.html",
+      "start": 0,
+      "end": 1317,
+      "text_sha256": "0618bab81845c77c8f87e040f8eeee747ce136994e0bf255a32b8ea2c71dbfed",
+      "source_sha256": "edb7f3e8f8acbab38cfe56ba3c9fd4a3614340d32b91d0a68a46a23f5733bbc3",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 27,
+      "path": "OPS/chapter11.html",
+      "start": 0,
+      "end": 556,
+      "text_sha256": "26d82efa2a1f13463a0ca9ac5465a5afed0fa1d054366b9910398718f9248174",
+      "source_sha256": "ec322d65b5405f9a551836a9cc7fc728f01bd0ec347fe8fbc0ca6926c0a97dae",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 28,
+      "path": "OPS/chapter10.html",
+      "start": 0,
+      "end": 879,
+      "text_sha256": "64bb21696bff27495fb840c173ecc54b8c7e6e00cc9794a7a595a77931e04615",
+      "source_sha256": "9b3faa391435e7c6d6cd7803e5820052c605c733c6a73a8cc2a7c17770b70fe7",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 29,
+      "path": "OPS/chapter9.html",
+      "start": 0,
+      "end": 760,
+      "text_sha256": "abf0e62c88a6bbee6cb5c3aee894565010ef3de209a930a89231048a97091424",
+      "source_sha256": "75efe18fba5ab1e60ee337bb41223a7e372f167587a3580b0e48f65c46ecfd47",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 30,
+      "path": "OPS/chapter8.html",
+      "start": 0,
+      "end": 361,
+      "text_sha256": "824ad87b88d090f3b17b0a4dbe378e1ada28cafd31b92af564a642a68fd357cf",
+      "source_sha256": "18824598efecde2ca22c4dcf7f2ef1053239f60a22d5d25d2fa186c42a600825",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 31,
+      "path": "OPS/chapter7.html",
+      "start": 0,
+      "end": 1824,
+      "text_sha256": "6666f2dca63e68059427ce8e8d83fa7435ccc3eb1ba8d0eceb77e1285b324c4f",
+      "source_sha256": "bdde0f0a8a1abd29efa30604bc344ffb02f3cd4064458118174dee2cd4934b6b",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 32,
+      "path": "OPS/chapter6.html",
+      "start": 0,
+      "end": 1379,
+      "text_sha256": "a9df3b0dbece288aec2fd784039a35ca4a6d48e821cea69b0ea444e80d122977",
+      "source_sha256": "5ee79a9436f502c4c4767b41cf0d4e522f71dad698f9e347987c50af2f8b24d3",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 33,
+      "path": "OPS/chapter5.html",
+      "start": 0,
+      "end": 1719,
+      "text_sha256": "fc58edeef96c5c8e3228e185470b5c3a099c27440828351626aea4277a092164",
+      "source_sha256": "086d492ed200cc10f3f7e5de3d1d3a1f7048dfe16b5b9200d0c61e3a241fb06e",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 34,
+      "path": "OPS/chapter4.html",
+      "start": 0,
+      "end": 1291,
+      "text_sha256": "bf35a14c4ece997c850dde5626626e60535e9323576c60e27d444ad78c9dd8f3",
+      "source_sha256": "43f3352b55d06ea11ab10527e63e64c1fc8d32213a0afc2bff0622122d18e920",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 35,
+      "path": "OPS/chapter3.html",
+      "start": 0,
+      "end": 1352,
+      "text_sha256": "befc390b5470acfb120a411d124cd635d16c55a54aeac62176027538aede3941",
+      "source_sha256": "ad40ca32ea0135e3ac374d3199d4d6c20b2d206350ba166ca3c9f8c7ba1a98b9",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 36,
+      "path": "OPS/chapter2.html",
+      "start": 0,
+      "end": 1196,
+      "text_sha256": "dcd9c8515b73bd3c1206912b2ca421fa2ce0029182b8bf57179ad4614a02506d",
+      "source_sha256": "f3d2948b61b4112ec0f79b4bbb4d5d199966d5e72fa7b02d07e0d0268793991e",
+      "all_readable_text_in_range_read": true,
+      "source_replacement_characters": 0,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    }
+  ],
+  "ordered_confirmed_reading_batches": [
+    {
+      "index": 1,
+      "spine_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ranges": [
+        {
+          "spine_index": 1,
+          "start": 0,
+          "end": 175
+        },
+        {
+          "spine_index": 2,
+          "start": 0,
+          "end": 726
+        },
+        {
+          "spine_index": 3,
+          "start": 0,
+          "end": 1772
+        },
+        {
+          "spine_index": 4,
+          "start": 0,
+          "end": 1969
+        },
+        {
+          "spine_index": 5,
+          "start": 0,
+          "end": 1297
+        },
+        {
+          "spine_index": 6,
+          "start": 0,
+          "end": 1258
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 2,
+      "spine_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ranges": [
+        {
+          "spine_index": 7,
+          "start": 0,
+          "end": 611
+        },
+        {
+          "spine_index": 8,
+          "start": 0,
+          "end": 945
+        },
+        {
+          "spine_index": 9,
+          "start": 0,
+          "end": 1508
+        },
+        {
+          "spine_index": 10,
+          "start": 0,
+          "end": 1309
+        },
+        {
+          "spine_index": 11,
+          "start": 0,
+          "end": 1289
+        },
+        {
+          "spine_index": 12,
+          "start": 0,
+          "end": 1698
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 3,
+      "spine_indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "ranges": [
+        {
+          "spine_index": 13,
+          "start": 0,
+          "end": 1673
+        },
+        {
+          "spine_index": 14,
+          "start": 0,
+          "end": 1246
+        },
+        {
+          "spine_index": 15,
+          "start": 0,
+          "end": 1375
+        },
+        {
+          "spine_index": 16,
+          "start": 0,
+          "end": 2035
+        },
+        {
+          "spine_index": 17,
+          "start": 0,
+          "end": 957
+        },
+        {
+          "spine_index": 18,
+          "start": 0,
+          "end": 541
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 4,
+      "spine_indices": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ranges": [
+        {
+          "spine_index": 19,
+          "start": 0,
+          "end": 805
+        },
+        {
+          "spine_index": 20,
+          "start": 0,
+          "end": 1155
+        },
+        {
+          "spine_index": 21,
+          "start": 0,
+          "end": 1063
+        },
+        {
+          "spine_index": 22,
+          "start": 0,
+          "end": 1607
+        },
+        {
+          "spine_index": 23,
+          "start": 0,
+          "end": 2080
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 5,
+      "spine_indices": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "ranges": [
+        {
+          "spine_index": 24,
+          "start": 0,
+          "end": 1991
+        },
+        {
+          "spine_index": 25,
+          "start": 0,
+          "end": 1622
+        },
+        {
+          "spine_index": 26,
+          "start": 0,
+          "end": 1317
+        },
+        {
+          "spine_index": 27,
+          "start": 0,
+          "end": 556
+        },
+        {
+          "spine_index": 28,
+          "start": 0,
+          "end": 879
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 6,
+      "spine_indices": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ranges": [
+        {
+          "spine_index": 29,
+          "start": 0,
+          "end": 760
+        },
+        {
+          "spine_index": 30,
+          "start": 0,
+          "end": 361
+        },
+        {
+          "spine_index": 31,
+          "start": 0,
+          "end": 1824
+        },
+        {
+          "spine_index": 32,
+          "start": 0,
+          "end": 1379
+        },
+        {
+          "spine_index": 33,
+          "start": 0,
+          "end": 1719
+        }
+      ],
+      "display_truncated": false
+    },
+    {
+      "index": 7,
+      "spine_indices": [
+        34,
+        35,
+        36
+      ],
+      "ranges": [
+        {
+          "spine_index": 34,
+          "start": 0,
+          "end": 1291
+        },
+        {
+          "spine_index": 35,
+          "start": 0,
+          "end": 1352
+        },
+        {
+          "spine_index": 36,
+          "start": 0,
+          "end": 1196
+        }
+      ],
+      "display_truncated": false
+    }
+  ],
+  "all_independent_nonspace_sequences_agree": true,
+  "image_resources": [
+    {
+      "path": "OPS/images/thumb.png",
+      "bytes": 106,
+      "sha256": "069533e42369e7d06118b277b2c8480703f2ff50c54d55087761be164e954e22"
+    },
+    {
+      "path": "OPS/images/cover.jpg",
+      "bytes": 26338,
+      "sha256": "d015c8950d864e6fa2e40c333862fcf8a3b232763f76339b2a4a5d73873f513f"
+    }
+  ],
+  "nonspine_text_resources": [],
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_verification_limits": [
+    "只覆盖当前EPUB正文、已辨封面信息与导航；封面小字缺口保留，未补算未提供的原版、外链或其他课程。",
+    "45341包含标题、换行和封面HTML说明；历史初筛46846是另一提取口径，不作为本次新增阅读量。",
+    "原文中的星号和删略符号按当前提供形式读取，不推测或恢复原来被遮掉的词。",
+    "作者、出版、封面宣传与版本身份仅按文件自称记录，不认证正式出版信息或原版完整。",
+    "性别概括、进化解释、NLP与百分比未作原始研究核验；不新增APA、DOI、治疗或成功承诺。",
+    "公开只存原创取舍与文件定位，不重发长摘、图像、姓名、联系资料或真实及匿名私人案例。"
+  ],
+  "original_note_groups": 35,
+  "new_exact_method_section_bindings": 125,
+  "new_method_source_entries": 25,
+  "notes_and_method_section_bindings": [
+    {
+      "id": "B124-01",
+      "heading": "B124-01 当前正文已读，封面小字缺口另计",
+      "spine_indices": [
+        1
+      ],
+      "locator": "封面、简介与原始文件身份",
+      "summary": "本份36个顺序项正文已读，封面大字与小字分别记录；看见封面不等于已辨清全部图中文字。当前文件自称的作者、宣传与转载声明不认证正式版本或转载许可。正文星号按实存形式保留，不能补写删略原词。",
+      "methods": []
+    },
+    {
+      "id": "B124-02",
+      "heading": "B124-02 可以表达想认识，不把结果变成输赢",
+      "spine_indices": [
+        2,
+        3,
+        15,
+        18
+      ],
+      "locator": "为什么搭讪、陌生人交往与八字理念",
+      "summary": "正常表达认识意愿可以是了解的一次机会；对方愿不愿继续由本人决定，不需要让每个人接受自己。表达清楚仍不能保证结果，不把单次拒绝当自身价值裁决，也不把她当待征服目标。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-03",
+      "heading": "B124-03 直接与自然开场都需真实且适合现场",
+      "spine_indices": [
+        3,
+        15,
+        16,
+        21
+      ],
+      "locator": "表明来意、入门指南与建立安全感",
+      "summary": "可以简短自我介绍，也可从眼前确实共有的一件事开口。没有必要先扮问路、推销或求助再换身份；真正有问题也可正常问。不要将直接开场神化为唯一方式，或假装曾见过她、编共同朋友来减少戒心。",
+      "methods": [
+        "M04",
+        "M10",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-04",
+      "heading": "B124-04 认识不需要尾随、守候或追到住处",
+      "spine_indices": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        16
+      ],
+      "locator": "跟随故事、通道、家门与交通场景",
+      "summary": "不采用暗中跟踪、尾随下车、在人少小路等候、追到家门或工作地点来找开口机会。她继续走或已经离开，不据此获得陪同许可。未曾同意的跟随不因后来聊得好就成为可复制策略。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-05",
+      "heading": "B124-05 现场让人方便结束，不按勇气规定必须开口",
+      "spine_indices": [
+        15,
+        16,
+        21
+      ],
+      "locator": "出手时机、街头与共处空间",
+      "summary": "先照顾赶路、忙碌、狭窄空间和离开的自由，不挡路、不抢座后才问能否坐。对方不方便或不愿继续时结束；车厢、飞机与工作场合不能因为不好离开就多争取。勇敢不要求每次见到有兴趣的人都上前。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-06",
+      "heading": "B124-06 联系方式可以商量，渠道由双方选择",
+      "spine_indices": [
+        3,
+        12,
+        16,
+        17,
+        27
+      ],
+      "locator": "留号码、电子邮件、称呼与收尾",
+      "summary": "互留联系方式只商量这一项；她可选微信、邮箱、其他渠道或不留，不把没拿到手机号判成失败或不成熟。称呼按本人愿意透露的程度来，不索要实名证明信任。没有通过测验、拍照或转资料来套取隐私的必要。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-07",
+      "heading": "B124-07 群聊招呼同伴，但不找人替她作决定",
+      "spine_indices": [
+        3,
+        12,
+        13,
+        16,
+        31
+      ],
+      "locator": "组合场景与同伴影响",
+      "summary": "多人场合可以正常招呼各位，不忽视或贬低同伴，也不把朋友当障碍。是否聊天、交换联系或离开仍由本人同意；不靠朋友说服、制造竞争或挑战身边男性来推进。未知关系不能自动编成男朋友或可争夺对象。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-08",
+      "heading": "B124-08 帮忙与陪同只处理当前请求",
+      "spine_indices": [
+        3,
+        11,
+        25
+      ],
+      "locator": "重物、送到车站与追加时间",
+      "summary": "真有需要可以礼貌询问是否帮忙或一起走一段，不替她拿东西或默认跟上。对方的含糊、沉默与未明确反抗不能当愿意；拒绝本项就停。她提出实际求助时回应所求，帮忙不换取号码、好感或后续亲密。",
+      "methods": [
+        "M13",
+        "M14",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-09",
+      "heading": "B124-09 尊重工作情境，不把服务和固定地点当机会",
+      "spine_indices": [
+        16
+      ],
+      "locator": "工作中的认识与身份对称",
+      "summary": "工作人员的友好、回答和客气先按岗位职责理解，不能据此判断私人兴趣。真实自我介绍可简短，但不要求她披露更多私人信息，不利用已知单位反复到访。避免打扰或让人难堪也不等于隔开同事、要求保密。",
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-10",
+      "heading": "B124-10 回应她刚说的具体点，不把交流做成面试",
+      "spine_indices": [
+        17,
+        22,
+        23,
+        24
+      ],
+      "locator": "错误对话、少问多说与拓展话题",
+      "summary": "读完整句话，从一个具体点回应，再露出一点真实信息；有必要就问一项。不能把她当考官、自己当应聘者，也不限制全程只能问两次或要求不停自说。二选一的短答可能已经答完，不因此断言冷漠。",
+      "methods": [
+        "M03",
+        "M04",
+        "M18",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-11",
+      "heading": "B124-11 真实细节比包装更贴题，也需留她说话的位置",
+      "spine_indices": [
+        18,
+        23,
+        24
+      ],
+      "locator": "细节、有趣话题与话题伸延",
+      "summary": "可从真实经历里的一个相关细节、感受或小插曲展开，不靠炫耀、假身份或照搬他人故事。讲自己的生活不代表内容越多越好，先看她是否愿意听和分享。普通经历也可表达，不要求每句话都是故事或都能吸引人。",
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-12",
+      "heading": "B124-12 具体欣赏可以自然说，不立赞美禁令",
+      "spine_indices": [
+        15,
+        17,
+        18
+      ],
+      "locator": "气质赞美与具体描述",
+      "summary": "有实际依据的欣赏可以简短表达，尤其回应她真实分享的选择和付出；不必把气质某个词永远列为禁语。开场不堆空泛赞词，也不为显得真实转成外貌打分、贬低或带条件的赞美。",
+      "methods": [
+        "M08",
+        "M09",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-13",
+      "heading": "B124-13 不自动归责自己，也不靠给拒绝者贴标签自保",
+      "spine_indices": [
+        5,
+        6,
+        14,
+        19
+      ],
+      "locator": "不可了解、被拒类型与心态",
+      "summary": "同样话语可能遇到不同回应，原因可以来自对方、环境或双方匹配，也可能未知。不能自动认定用户哪句错了；同样不能断言拒绝者神经质、仇恨男性或外貌等级怎样。明确无礼可设边界，普通拒绝不需要找一个坏人负责。",
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-14",
+      "heading": "B124-14 改期按真实更新，不用固定间隔再次邀约",
+      "spine_indices": [
+        5,
+        6
+      ],
+      "locator": "取消爬山计划与见招拆招",
+      "summary": "对方取消后按新安排处理，不跑去楼下、不连续换日期活动说服。未知取消原因不自我归罪，真实时间成本也可表达；临时有变与无故失约分清。没有替代方案时收住，不套隔三五天再约的周期，普通新话题也不恢复已取消计划。",
+      "methods": [
+        "M15",
+        "M16",
+        "M17",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-15",
+      "heading": "B124-15 紧张可以存在，不拿羞辱和竞争作训练",
+      "spine_indices": [
+        19,
+        20
+      ],
+      "locator": "保持心态与应对紧张",
+      "summary": "不要求先变得毫无紧张才可正常认识人，也不把焦虑定义成软弱。旁人成功不能证明自己只差胆量，更不能用尖刻刺激、嫉妒或冲刺追人迫使行动。观察具体可调整行为，不扩大成人格或男性气质问题。",
+      "methods": [
+        "M11",
+        "M22",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-16",
+      "heading": "B124-16 同伴支持需公开自愿，不监视或假扮身份",
+      "spine_indices": [
+        12,
+        13,
+        20
+      ],
+      "locator": "课程观摩、刺激与身份故事",
+      "summary": "朋友可在当事人同意的范围提供一般表达反馈，不能暗中监听、录音或围观陌生人的私人交流。认识人不需要伪装公职、借制服证件或压住其他人来博认可。正常拒绝后就收住，不安排团队轮番接近。",
+      "methods": [
+        "M10",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "id": "B124-17",
+      "heading": "B124-17 双方都能推进，也都可不继续",
+      "spine_indices": [
+        22,
+        23,
+        32
+      ],
+      "locator": "少问多说、双方自我表达与女性主动",
+      "summary": "谁先开场不意味着谁必须独自撑完。可以回应一个点并分享一点自己，让对方也有参与机会；连续单边且没有待办安排时不再加码。主动和倾听不由性别规定，不把沉默都解释成她等自己带领或自己该表现。",
+      "methods": [
+        "M02",
+        "M03",
+        "M04",
+        "M19",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-18",
+      "heading": "B124-18 问题与展开看连续行为，不按三档例句判兴趣",
+      "spine_indices": [
+        22,
+        32,
+        33
+      ],
+      "locator": "短信兴趣示例与面对面聊天",
+      "summary": "主动了解、分享和承接话题可以一起观察，但某句带困、某次反问你呢，不能直接判低中高兴趣。短答需看原问题，话多也可能只是愿意聊天。实际安排、主动投入和持续回应更值得关注，是否恋爱意向仍可能未知。",
+      "methods": [
+        "M01",
+        "M03",
+        "M08",
+        "M18",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-19",
+      "heading": "B124-19 不把陪办事与步行选择做成好感测试",
+      "spine_indices": [
+        25,
+        33
+      ],
+      "locator": "即时约会与办事、餐厅选择示例",
+      "summary": "一起散步、坐车、等候或陪取物品可以是普通安排，也可能受体力、时间和便利影响。不设计临时办事来测试她是否愿意跟，不能从选择近餐厅推定更喜欢自己。约会活动按双方愿意和现实条件商量。",
+      "methods": [
+        "M01",
+        "M08",
+        "M14",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-20",
+      "heading": "B124-20 眼神、笑容和撩头发不单独证明喜欢",
+      "spine_indices": [
+        10,
+        11,
+        12,
+        31,
+        33
+      ],
+      "locator": "沉默、偶尔微笑、对眼神与兴趣识别",
+      "summary": "注视、笑一下、整理头发或没反感，都可能有多种解释；不能按外貌分数、所在舱位或身边有无男性直接读心。也不从一句不回应永久判定性格。先看实际持续互动，想知道是否愿意交流时尊重对方表达和去留。",
+      "methods": [
+        "M01",
+        "M08",
+        "M20",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-21",
+      "heading": "B124-21 认真澄清可以直接，不为避否定而假认事实",
+      "spine_indices": [
+        21,
+        26,
+        28,
+        30
+      ],
+      "locator": "建立安全感、打赌与经常搭讪问句",
+      "summary": "对方问是否打赌、真实身份或实际来意时，按事实清楚回应；不需要为避免否定而说有点是。普通解释不是低价值，也不从否定句推断人格。已有轻松接梗时可加一点玩笑，但婚恋、边界与具体疑问仍要答明白。",
+      "methods": [
+        "M04",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-22",
+      "heading": "B124-22 轻量夸张取自已接住的话题，不隐去边界",
+      "spine_indices": [
+        23,
+        24,
+        28,
+        30
+      ],
+      "locator": "有趣表达、具体话题与见招拆招",
+      "summary": "可以承接当下共同话题做短暂夸张，不必背完整套路。对方只是认真问、不安或不接梗时照常回应；不能拿三次约会不牵手等假规则当理由，也不把手段包装成必有的男女差异。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-23",
+      "heading": "B124-23 她说被吓到，先看实际需要而非立刻反撩",
+      "spine_indices": [
+        21,
+        24
+      ],
+      "locator": "安全感与被吓一跳的回应",
+      "summary": "先核现场和她的实际反应；确有惊吓或不适时停下、留出空间，必要时简短道歉或澄清。只有已明确是双方接住的轻松话题，才可能轻量回应；不能借重新来一遍把她留在原地，也不为活跃气氛跳过已说的不舒服。",
+      "methods": [
+        "M11",
+        "M20",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-24",
+      "heading": "B124-24 即时活动需逐项自愿，既定结束时间仍有效",
+      "spine_indices": [
+        11,
+        16,
+        25
+      ],
+      "locator": "陪同、即时约会与追加时间",
+      "summary": "双方确实想继续，可以提出一次具体活动，并确认时间地点；原本有事或要走就尊重结束。不把共处时长当成功阈值，不沿地铁入口、出口、地面逐步拖延到更远处。此前答应喝东西不预先答应吃饭、接送或下一地点。",
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-25",
+      "heading": "B124-25 没空和不愿留联系不需要被话术破解",
+      "spine_indices": [
+        3,
+        26,
+        27
+      ],
+      "locator": "个人空间、陌生人电话与有男朋友",
+      "summary": "不习惯给陌生人电话、有男朋友、不想认识或不方便，按其具体内容处理。说得和善、带笑或理由不够明确，也不自动授权再劝一次；不套下不为例、老公比男友等改写来重新索取。普通新话题如可回应，也不撤回原来的边界。",
+      "methods": [
+        "M17",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-26",
+      "heading": "B124-26 感受可以表达，关系也可以认真讨论",
+      "spine_indices": [
+        34,
+        35
+      ],
+      "locator": "情感表白与关系表白",
+      "summary": "可从真实共同经历说自己的一项感受，不堆未来誓言或要求立即回应。想了解双方关系同样可以清楚商量，不规定必须先暧昧或先短期再长期。表达不保证对方接受，也不把没成功一概归结为表达方式错误。",
+      "methods": [
+        "M04",
+        "M05",
+        "M09",
+        "M22",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-27",
+      "heading": "B124-27 表白不是反复争取名额，不做隐形候补",
+      "spine_indices": [
+        26,
+        34,
+        35
+      ],
+      "locator": "多次表白、有伴侣与候选人示例",
+      "summary": "对方已有伴侣或已明确拒绝时尊重其范围，不反复表白、等待分手机会或用长期倾听换恋爱。自己也可决定保持距离。后来关系若改变，需双方新的真实表达，不能从普通联系自动恢复追求。",
+      "methods": [
+        "M17",
+        "M19",
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "id": "B124-28",
+      "heading": "B124-28 正常收尾可以停止，真正安排则清楚确认",
+      "spine_indices": [
+        17,
+        25,
+        27
+      ],
+      "locator": "留联系后结束语与再见面",
+      "summary": "双方已互相告别或本轮安排说定，不必补一句邀请维持回应；她说稍后告知就把确认留给她。若确有双方愿意的下一次活动，可以直接确认，不因课程说女人只看情绪就拒绝做计划。",
+      "methods": [
+        "M02",
+        "M14",
+        "M15",
+        "M26"
+      ]
+    },
+    {
+      "id": "B124-29",
+      "heading": "B124-29 预算与生活条件可以坦然说，不拿消费换认可",
+      "spine_indices": [
+        9,
+        11,
+        23,
+        33
+      ],
+      "locator": "餐饮选择、形象与物质话题",
+      "summary": "活动按实际预算、时间和双方方便选择，不编店铺关门、工作资源或家庭条件。问职业、生活安排或财务需求不自动说明物质，也不因此给人贴男性化或缺安全感标签。真实不合适可筛选，不需靠昂贵场合证明价值。",
+      "methods": [
+        "M04",
+        "M10",
+        "M14",
+        "M22"
+      ]
+    },
+    {
+      "id": "B124-30",
+      "heading": "B124-30 轻松打赌不产生亲密或财物债务",
+      "spine_indices": [
+        29
+      ],
+      "locator": "输了怎么办与拥抱示例",
+      "summary": "双方愿意接的小游戏可以保持轻松，结果不要求交出贴身物品、身体接触或证明不冷酷。过去答应某个玩笑不替当下意愿作决定，不能先提较难要求再退成拥抱制造欠债感。",
+      "methods": [
+        "M06",
+        "M07",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "id": "B124-31",
+      "heading": "B124-31 话题伸延可以普通理解，不给NLP作效果认证",
+      "spine_indices": [
+        24
+      ],
+      "locator": "上堆、下切与平行的来源解释",
+      "summary": "从具体情境、相关经历或她刚说的一个细节继续，属于可按内容取舍的表达。不能因为作者用NLP回解释一次愉快交流，就认证潜意识机制或男女思维定律。对方正在说重要困扰时先回应所求，不为了换成自己擅长的话题悄悄绕开。",
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M11",
+        "M13"
+      ]
+    },
+    {
+      "id": "B124-32",
+      "heading": "B124-32 性别和进化叙述仅作为作者主张",
+      "spine_indices": [
+        4,
+        5,
+        6,
+        18,
+        19,
+        24,
+        32,
+        33
+      ],
+      "locator": "理论检验、男女思维与欲望情绪",
+      "summary": "关于男性欲望、女性情绪、狩猎哺育、记忆、视觉、基因与所谓女人味的说法没有在此作研究核验。不能用这些解释每个人的实际选择，更不把成年人谈需求视为偏离其性别角色。提问、谨慎和拒绝都不构成心理诊断。",
+      "methods": []
+    },
+    {
+      "id": "B124-33",
+      "heading": "B124-33 作者统计和朋友意见不等于因果验证",
+      "spine_indices": [
+        2,
+        3,
+        4,
+        14,
+        16,
+        25,
+        28,
+        33
+      ],
+      "locator": "成功率、方法裁判与兴趣分层",
+      "summary": "书中百分比来自自报经历，没有提供可复核样本与完整方法；不同场合、不同对象不能直接当比较实验。朋友是否喜欢一种表达可作局部反馈，不证明通用有效。成功故事也不倒推过程合理，不编APA、DOI或把结构检查说成关系效果验证。",
+      "methods": []
+    },
+    {
+      "id": "B124-34",
+      "heading": "B124-34 地点地图只存历史范围，不作当前搜寻推荐",
+      "spine_indices": [
+        36
+      ],
+      "locator": "不完全中国美女地图",
+      "summary": "末尾地区、场所、星级和人群标签为当前文件的历史附录，未核对今天的状态、开放规则或任何人的社交意愿，不作为当前地点推荐。成年人自愿的共同活动才是关系入口，不按所谓美女密度、学校年级或外貌阶层寻找对象。",
+      "methods": []
+    },
+    {
+      "id": "B124-35",
+      "heading": "B124-35 来源叙事不进入公开私人案例",
+      "spine_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        20,
+        21,
+        23,
+        24,
+        28,
+        29,
+        31,
+        32,
+        35
+      ],
+      "locator": "作者回忆、学员与私信叙事",
+      "summary": "这些文字已按本文件顺序读取，但作者自报没有成为独立事实核查。公开只留一般原则、原创取舍与固定定位，不重发人物、联系方式、真实或匿名私人经历；童年回忆不转成成年人恋爱技巧，更不把回忆中的顺从用作同意模板。",
+      "methods": []
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false,
+  "OPF_namespace_absence_handled": true,
+  "spine_order_not_filename_numeric_order": true,
+  "initial_zero_spine_extraction_not_counted_as_reading": true,
+  "native_text_replacement_characters": 0,
+  "all36_HTML_XML_wellformed": true,
+  "NCX_navigation_labels_read": true,
+  "css_generated_text": false,
+  "external_device_font_fallback_references_not_extra_body": true,
+  "OCR_run": false,
+  "image_review": [
+    {
+      "path": "OPS/images/cover.jpg",
+      "size": [
+        288,
+        462
+      ],
+      "native_and4x_viewed": true,
+      "complete_lettering_read": false
+    },
+    {
+      "path": "OPS/images/thumb.png",
+      "size": [
+        6,
+        2
+      ],
+      "viewed": true,
+      "readable_body_text": false
+    }
+  ]
+}

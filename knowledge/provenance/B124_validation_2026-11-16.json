@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "date": "2026-11-16",
+  "baseline_commit": "27a1c3d0057509e0fa793404b0a8d4cd2acbbf54",
+  "file_id": "B124",
+  "checks": {
+    "positive_method_queries": 125,
+    "negative_method_queries": 785,
+    "global_queries": 35,
+    "new_exact_bindings": 125,
+    "new_method_source_entries": 25,
+    "total_explicit_section_headings": 5094,
+    "total_resolved_exact_bindings": 5394,
+    "all_original126_blobs_preserved": true,
+    "old_method_actions_bindings_and_preferred_sections_preserved": true,
+    "other_reading_records_and_prior_notes_preserved": true,
+    "all_reading_ranges_and_serial_batch_coverage_consistent": true,
+    "all_independent_nonspace_sequences_equal": true,
+    "known_gaps_retained": true,
+    "scope_closure_not_claimed_as_complete_reading": true
+  },
+  "validate_os": true,
+  "generated_method_views_check": true,
+  "unit_tests_passed": 127,
+  "git_diff_check": true,
+  "only_B124_reading_status_advanced": true,
+  "psychological_mechanisms_real_screenshots_or_relationship_outcomes_validated": false
+}
