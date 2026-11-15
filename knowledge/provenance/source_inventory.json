@@ -17785,8 +17785,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%98%B4%E9%98%B3%20-%20%E6%B5%B7%E5%85%B5.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B120.md",
       "pages": 35,
       "spine_items": null,
       "ocr": {
@@ -17794,7 +17794,43 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B120_reading_2026-11-16.json",
+      "coverage_mode": "ordered_native_text_all35_layouts_and_all3_unique_raster_contents",
+      "completion_kind": "actual_supplied_PDF_all35_native_pages_all_layouts_and_all3_unique_raster_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_extractable_text_read": true,
+      "task_complete": true,
+      "source_sha256": "11ab8b064722dc7458ac3dd800135de96337960bb0b4e0c11dbea760735eb926",
+      "latest_reading": {
+        "date": "2026-11-16",
+        "ledger": "knowledge/provenance/B120_reading_2026-11-16.json",
+        "physical_pages_read": 35,
+        "direct_extracted_characters": 24224,
+        "confirmed_reading_batches": 6,
+        "layout_pages_viewed": 35,
+        "additional_full_original_pages": [
+          1,
+          3
+        ],
+        "unique_raster_contents_read": 3,
+        "raster_objects": 4,
+        "independent_sequences_equal_after_initial_page_number_removed": 35,
+        "replacement_characters": 0,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "只确认当前35页五篇文章的提供内容已读；末页与文中预告的后续、所引自传、帖子、课程和网站未另行阅读，不认证完整原版或全集。",
+          "文件名写海兵，封面署约会教练狼行天下，正文另有海滨自称；只记录现有署名，不据此认证本名或出版身份。PDF元数据作者字段不是实名核验。",
+          "成功自述、所称学生反馈、第一眼判断、投资定义、性别或进化解释均未核原始研究；不作成功率、心理机制或回复效果证明，不新增APA或DOI。",
+          "原文身体、疾病与饮食说法未核医学依据，不据其提供诊断、产品、训练或治疗建议。",
+          "不继承固定冷落、地位输赢、嫉妒竞争、制造不安、危险骗局、性数量目标或把明确分手改译为隐性同意。",
+          "公开记录只有原创取舍与固定出处；不转载私人故事、姓名、联系方式、匿名情节、原文长摘或原页图像，原始PDF保留。"
+        ],
+        "original_note_groups": 30,
+        "new_exact_method_section_bindings": 90
+      }
     },
     {
       "index": 121,
@@ -17941,5 +17977,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B119 all2 native text pages and both full originals read after B118 published;952 extracted chars;independent pdftotext nonspace sequences agree;5 original scope notes,0 method bindings;112/119=104 current coverages including B100 reuse+8 retained closures;next B120 P1 character0 body unopened."
+  "latest_reading_update": "2026-11-16:B120 all35 native pages in6 ordered batches,35 layouts and3 unique raster contents read after B119 published;24224 extracted chars;independent35 page sequences agree after exact initial page-number removal;30 original notes,90 exact headings;113/119=105 current coverages including B100 reuse+8 retained closures;next B121 spine1 character0 body unopened."
 }

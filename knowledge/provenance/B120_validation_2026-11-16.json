@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "file_id": "B120",
+  "date": "2026-11-16",
+  "date_timezone": "Asia/Shanghai",
+  "status": "passed",
+  "baseline": "afc64e3ba28ba145a048711b1d7145d0a0825d11",
+  "validate_os": {
+    "ok": true,
+    "errors": [],
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "book_text_complete": 113,
+    "book_not_started": 6,
+    "scope": "结构/链接/来源身份/阅读状态/段落定位与输出约定检查，不是截图识别或恋爱效果验证"
+  },
+  "generated_method_views_check": true,
+  "git_diff_whitespace_check": true,
+  "unittest_methods_passed": 127,
+  "focused_reading_and_retrieval_checks": {
+    "ok": true,
+    "errors": [],
+    "exact_method_section_retrievals": 90,
+    "global_only_section_retrievals": 3,
+    "unbound_method_exclusion_queries": 30,
+    "all126_original_blobs_preserved": true,
+    "original_README_checked_via_archive_current_homepage_allowed_to_change": true,
+    "other_reading_records_unchanged": true,
+    "prior_method_actions_sources_preferred_sections_routes_tasks_preserved": true,
+    "all35_native_text_ranges_in6_batches_contiguous": true,
+    "native_characters_checked": 24224,
+    "independent_sequences_equal_after_initial_page_number_removed": 35,
+    "all35_layout_and3_unique_raster_reading_records_present": true,
+    "B119_session_and_prior_turn_aggregate_preserved_in_history": true,
+    "counts113_105_8_and_B121_unopened_bookmark_consistent": true
+  },
+  "scope": "Structure,source identity,recorded reading ranges and retrieval only;not psychological mechanisms,real screenshot recognition or relationship effectiveness."
+}

@@ -1,73 +1,79 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-15",
-  "current_focus": "B120_next_after_B119_both_native_pages_and_originals_read",
+  "updated": "2026-11-16",
+  "current_focus": "B121_next_after_B120_all35_native_pages_layouts_and3_rasters_read",
   "status": "ready_for_next_file",
-  "base_commit": "bfd9bf0761e868f24a3d9688fd403391208b6c17",
+  "base_commit": "afc64e3ba28ba145a048711b1d7145d0a0825d11",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 2,
+  "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B119_progress_2026-11-15.md",
-  "validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+  "report": "knowledge/provenance/B120_progress_2026-11-16.md",
+  "validation": "knowledge/provenance/B120_validation_2026-11-16.json",
   "reading_bookmark": {
-    "id": "B120",
-    "path": "阴阳 - 海兵.pdf",
-    "bytes": 953581,
-    "git_blob_sha": "83cd2b54b34e97995d6a66fe7dbfd3907204da4c",
+    "id": "B121",
+    "path": "骄傲与风趣指南 - 大卫D.epub",
+    "bytes": 187201,
+    "git_blob_sha": "25308b30132f336c4999cff82a40fff33258c805",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "pdf",
-    "next_file_page": 1,
+    "format": "epub",
+    "next_spine_item": 1,
     "next_character": 0,
-    "start": "B119当前两页文字和完整原图已读，五组来源笔记先保存提交。下一唯一主读B120《阴阳 - 海兵.pdf》，当前35页，从物理页1字符0开始，正文未打开。",
-    "next_content_unit": "Read B120 supplied35-page PDF from physical page1 character0 after B119 two-page notes and checkpoint are committed;body unopened."
+    "start": "B120当前35页文字、35页版面与三份不同栅格内容已读，30组笔记、90处精确绑定先保存提交。下一唯一主读B121《骄傲与风趣指南 - 大卫D.epub》，当前9个阅读顺序项，从第1项字符0开始，正文未打开。",
+    "next_content_unit": "Read B121 supplied EPUB from spine1 character0 after B120 native text,visual scope,original notes and checkpoint are committed;body unopened."
   },
-  "next_work": "Read B120 supplied35-page PDF from physical page1 character0 after B119 two-page notes and checkpoint are committed;body unopened.",
+  "next_work": "Read B121 supplied EPUB from spine1 character0 after B120 native text,visual scope,original notes and checkpoint are committed;body unopened.",
   "current_session_progress": {
-    "baseline": "bfd9bf0761e868f24a3d9688fd403391208b6c17",
+    "baseline": "afc64e3ba28ba145a048711b1d7145d0a0825d11",
     "runtime_version": "1.5.4",
-    "work_type": "actual_supplied_PDF_all2_native_pages_and_full_page_images_read",
+    "work_type": "actual_supplied_PDF_all35_native_pages_all_layouts_and_all3_unique_raster_images_read",
     "new_book_files_started": [
-      "B119"
+      "B120"
     ],
     "new_book_files_completed": [
-      "B119"
+      "B120"
     ],
     "actually_completed_file_ids": [
-      "B119"
+      "B120"
     ],
     "new_whole_book_files_actually_read": 1,
     "user_accepted_scope_closure_ids": [],
-    "new_direct_extracted_characters_read": 952,
-    "new_native_text_pages_read": 2,
+    "new_direct_extracted_characters_read": 24224,
+    "new_native_text_pages_read": 35,
     "new_OCR_characters_read": 0,
-    "new_full_original_pages_individually_viewed": 2,
-    "original_note_groups": 5,
-    "new_method_source_bindings": 0,
-    "new_method_source_entries": 0,
+    "new_page_layouts_viewed": 35,
+    "additional_full_original_pages": [
+      1,
+      3
+    ],
+    "new_unique_raster_contents_visually_read": 3,
+    "original_note_groups": 30,
+    "new_method_source_bindings": 90,
+    "new_method_source_entries": 21,
     "new_method_operations": [],
     "all_current_supplied_file_content_read": true,
     "serial_order": [
-      "verify B118 published main checkpoint",
-      "read B119 native pages1 then2",
-      "view both full originals and compare independent extracted sequences",
-      "save B119 scope notes and B120 unopened checkpoint before next file"
+      "verify B119 published main checkpoint",
+      "read B120 native pages1-35 in6 ordered batches",
+      "view35 layouts and3 unique raster contents;compare35 independent sequences excluding page number only",
+      "save B120 notes,source bindings and B121 unopened checkpoint before next file"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "previous_runtime1_5_4_maintenance_preserved": true,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+      "reading_metadata_validation": "knowledge/provenance/B120_validation_2026-11-16.json",
       "validate_os": true,
       "generated_method_views_check": true,
       "unit_tests_passed": 127,
-      "global_only_section_retrieval_queries_passed": 5,
-      "unbound_method_exclusion_queries_passed": 130,
-      "all126_original_blobs_other_reading_records_methods_sources_preferred_sections_routes_and_tasks_preserved": true,
-      "both_native_text_ranges_full_original_page_records_and_independent_sequences_checked": true,
-      "B118_session_preserved_in_history": true
+      "new_exact_method_section_retrieval_queries_passed": 90,
+      "unbound_global_queries_passed": 3,
+      "all30_sections_checked_against_uncited_method": true,
+      "all126_original_blobs_other_reading_records_prior_method_actions_sources_preferred_sections_routes_tasks_preserved": true,
+      "all35_contiguous_pages6_batches35_layout_and3_unique_raster_records_checked": true,
+      "all35_independent_sequences_equal_after_exact_initial_page_number_removal": true
     }
   },
   "last_reading_progress": {
@@ -2461,53 +2467,59 @@
     }
   ],
   "last_completed_reading_session": {
-    "date": "2026-11-15",
-    "report": "knowledge/provenance/B119_progress_2026-11-15.md",
-    "validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+    "date": "2026-11-16",
+    "report": "knowledge/provenance/B120_progress_2026-11-16.md",
+    "validation": "knowledge/provenance/B120_validation_2026-11-16.json",
     "current_session_progress": {
-      "baseline": "bfd9bf0761e868f24a3d9688fd403391208b6c17",
+      "baseline": "afc64e3ba28ba145a048711b1d7145d0a0825d11",
       "runtime_version": "1.5.4",
-      "work_type": "actual_supplied_PDF_all2_native_pages_and_full_page_images_read",
+      "work_type": "actual_supplied_PDF_all35_native_pages_all_layouts_and_all3_unique_raster_images_read",
       "new_book_files_started": [
-        "B119"
+        "B120"
       ],
       "new_book_files_completed": [
-        "B119"
+        "B120"
       ],
       "actually_completed_file_ids": [
-        "B119"
+        "B120"
       ],
       "new_whole_book_files_actually_read": 1,
       "user_accepted_scope_closure_ids": [],
-      "new_direct_extracted_characters_read": 952,
-      "new_native_text_pages_read": 2,
+      "new_direct_extracted_characters_read": 24224,
+      "new_native_text_pages_read": 35,
       "new_OCR_characters_read": 0,
-      "new_full_original_pages_individually_viewed": 2,
-      "original_note_groups": 5,
-      "new_method_source_bindings": 0,
-      "new_method_source_entries": 0,
+      "new_page_layouts_viewed": 35,
+      "additional_full_original_pages": [
+        1,
+        3
+      ],
+      "new_unique_raster_contents_visually_read": 3,
+      "original_note_groups": 30,
+      "new_method_source_bindings": 90,
+      "new_method_source_entries": 21,
       "new_method_operations": [],
       "all_current_supplied_file_content_read": true,
       "serial_order": [
-        "verify B118 published main checkpoint",
-        "read B119 native pages1 then2",
-        "view both full originals and compare independent extracted sequences",
-        "save B119 scope notes and B120 unopened checkpoint before next file"
+        "verify B119 published main checkpoint",
+        "read B120 native pages1-35 in6 ordered batches",
+        "view35 layouts and3 unique raster contents;compare35 independent sequences excluding page number only",
+        "save B120 notes,source bindings and B121 unopened checkpoint before next file"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
       "previous_runtime1_5_4_maintenance_preserved": true,
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+        "reading_metadata_validation": "knowledge/provenance/B120_validation_2026-11-16.json",
         "validate_os": true,
         "generated_method_views_check": true,
         "unit_tests_passed": 127,
-        "global_only_section_retrieval_queries_passed": 5,
-        "unbound_method_exclusion_queries_passed": 130,
-        "all126_original_blobs_other_reading_records_methods_sources_preferred_sections_routes_and_tasks_preserved": true,
-        "both_native_text_ranges_full_original_page_records_and_independent_sequences_checked": true,
-        "B118_session_preserved_in_history": true
+        "new_exact_method_section_retrieval_queries_passed": 90,
+        "unbound_global_queries_passed": 3,
+        "all30_sections_checked_against_uncited_method": true,
+        "all126_original_blobs_other_reading_records_prior_method_actions_sources_preferred_sections_routes_tasks_preserved": true,
+        "all35_contiguous_pages6_batches35_layout_and3_unique_raster_records_checked": true,
+        "all35_independent_sequences_equal_after_exact_initial_page_number_removal": true
       }
     }
   },
@@ -2638,12 +2650,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 112,
-    "current_file_text_complete": 112,
+    "started": 113,
+    "current_file_text_complete": 113,
     "partial": 0,
-    "unread": 7,
+    "unread": 6,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 112,
+    "reported_numerator": 113,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2668,7 +2680,7 @@
       "B114"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
-    "actually_read_supplied_files": 104,
+    "actually_read_supplied_files": 105,
     "verified_same_text_file_coverage_ids": [
       "B100"
     ]
@@ -8447,6 +8459,57 @@
           "truncated_display_section_separately_reread_without_double_counting": true
         }
       }
+    },
+    {
+      "date": "2026-11-15",
+      "report": "knowledge/provenance/B119_progress_2026-11-15.md",
+      "validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+      "current_session_progress": {
+        "baseline": "bfd9bf0761e868f24a3d9688fd403391208b6c17",
+        "runtime_version": "1.5.4",
+        "work_type": "actual_supplied_PDF_all2_native_pages_and_full_page_images_read",
+        "new_book_files_started": [
+          "B119"
+        ],
+        "new_book_files_completed": [
+          "B119"
+        ],
+        "actually_completed_file_ids": [
+          "B119"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_direct_extracted_characters_read": 952,
+        "new_native_text_pages_read": 2,
+        "new_OCR_characters_read": 0,
+        "new_full_original_pages_individually_viewed": 2,
+        "original_note_groups": 5,
+        "new_method_source_bindings": 0,
+        "new_method_source_entries": 0,
+        "new_method_operations": [],
+        "all_current_supplied_file_content_read": true,
+        "serial_order": [
+          "verify B118 published main checkpoint",
+          "read B119 native pages1 then2",
+          "view both full originals and compare independent extracted sequences",
+          "save B119 scope notes and B120 unopened checkpoint before next file"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_4_maintenance_preserved": true,
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B119_validation_2026-11-15.json",
+          "validate_os": true,
+          "generated_method_views_check": true,
+          "unit_tests_passed": 127,
+          "global_only_section_retrieval_queries_passed": 5,
+          "unbound_method_exclusion_queries_passed": 130,
+          "all126_original_blobs_other_reading_records_methods_sources_preferred_sections_routes_and_tasks_preserved": true,
+          "both_native_text_ranges_full_original_page_records_and_independent_sequences_checked": true,
+          "B118_session_preserved_in_history": true
+        }
+      }
     }
   ],
   "last_partial_reading_session": {
@@ -8549,16 +8612,30 @@
   ],
   "current_user_turn_aggregate": {
     "file_ids_completed_serially": [
-      "B118",
-      "B119"
+      "B120"
     ],
-    "each_file_committed_before_opening_next": true,
-    "new_direct_extracted_characters_read": 136908,
-    "new_EPUB_spine_items_read": 44,
-    "new_raster_images_visually_read": 49,
-    "new_PDF_native_and_full_visual_pages_read": 2,
-    "original_note_groups": 69,
-    "new_exact_method_section_bindings": 273,
+    "new_direct_extracted_characters_read": 24224,
+    "original_note_groups": 30,
+    "new_exact_method_section_bindings": 90,
     "new_scope_closures": []
-  }
+  },
+  "user_turn_aggregate_history": [
+    {
+      "report": "knowledge/provenance/B119_progress_2026-11-15.md",
+      "progress": {
+        "file_ids_completed_serially": [
+          "B118",
+          "B119"
+        ],
+        "each_file_committed_before_opening_next": true,
+        "new_direct_extracted_characters_read": 136908,
+        "new_EPUB_spine_items_read": 44,
+        "new_raster_images_visually_read": 49,
+        "new_PDF_native_and_full_visual_pages_read": 2,
+        "original_note_groups": 69,
+        "new_exact_method_section_bindings": 273,
+        "new_scope_closures": []
+      }
+    }
+  ]
 }
