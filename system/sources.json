@@ -1622,9 +1622,17 @@
       "group": "books2_original_snapshot",
       "title": "骄傲与风趣指南 - 大卫D.epub",
       "git_blob_sha": "25308b30132f336c4999cff82a40fff33258c805",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B121.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B121_reading_2026-11-16.json",
+      "coverage_mode": "ordered_HTMLParser_text_with_independent_lxml_HTML_sequence_check",
+      "completion_kind": "actual_supplied_EPUB_all9_spine_texts_read_no_image_resources",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_extractable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B122",
@@ -2011,24 +2019,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 113,
+    "current_book_files_text_complete": 114,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 6
+    "current_book_files_not_started": 5
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B121",
-    "path": "骄傲与风趣指南 - 大卫D.epub",
-    "bytes": 187201,
-    "git_blob_sha": "25308b30132f336c4999cff82a40fff33258c805",
+    "id": "B122",
+    "path": "骄傲与风趣指南.pdf",
+    "bytes": 2762748,
+    "git_blob_sha": "dd2a35af81deed633badf4a9bc803eebc34069f6",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "epub",
-    "next_spine_item": 1,
+    "format": "pdf",
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B120当前35页文字、35页版面与三份不同栅格内容已读，30组笔记、90处精确绑定先保存提交。下一唯一主读B121《骄傲与风趣指南 - 大卫D.epub》，当前9个阅读顺序项，从第1项字符0开始，正文未打开。",
-    "next_content_unit": "Read B121 supplied EPUB from spine1 character0 after B120 native text,visual scope,original notes and checkpoint are committed;body unopened."
+    "start": "B121当前9项、七章文字已读；先提交本份笔记、范围与断点。下一唯一主读B122《骄傲与风趣指南.pdf》当前117页，物理页1字符0，正文未打开。相似题名不自动算复用。",
+    "next_content_unit": "Read B122 supplied117-page PDF from physical page1 character0 after B121 checkpoint committed;body unopened;similar title is not proof of duplicate content."
   },
   "deferred_work_units": []
 }

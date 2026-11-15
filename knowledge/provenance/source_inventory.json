@@ -17845,8 +17845,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AA%84%E5%82%B2%E4%B8%8E%E9%A3%8E%E8%B6%A3%E6%8C%87%E5%8D%97%20-%20%E5%A4%A7%E5%8D%ABD.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B121.md",
       "pages": null,
       "spine_items": 9,
       "ocr": {
@@ -17854,7 +17854,29 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "local_entry": "knowledge/books/B121.md",
+      "reading_ledger": "knowledge/provenance/B121_reading_2026-11-16.json",
+      "coverage_mode": "ordered_HTMLParser_text_with_independent_lxml_HTML_sequence_check",
+      "completion_kind": "actual_supplied_EPUB_all9_spine_texts_read_no_image_resources",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_extractable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false,
+      "read_characters": 117665,
+      "read_spine_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sha256": "3a509ef0282fd48bce705c91fa2f5258688a21920b8572dd49cd779577169eda"
     },
     {
       "index": 122,
@@ -17977,5 +17999,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-16:B120 all35 native pages in6 ordered batches,35 layouts and3 unique raster contents read after B119 published;24224 extracted chars;independent35 page sequences agree after exact initial page-number removal;30 original notes,90 exact headings;113/119=105 current coverages including B100 reuse+8 retained closures;next B121 spine1 character0 body unopened."
+  "latest_reading_update": "2026-11-16:B121 all9 supplied EPUB spine texts read;117665 extracted chars;51 original notes,184 exact bindings;114/119=106 current coverages including B100 reuse+8 retained closures;next B122 physical page1 char0 body unopened."
 }

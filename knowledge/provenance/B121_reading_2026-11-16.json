@@ -1,0 +1,1253 @@
+{
+  "schema_version": 1,
+  "file_id": "B121",
+  "date": "2026-11-16",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "610b7accd9fd4c4547ee5f2c9b07dde3f7de14e9",
+  "source_identity": {
+    "path": "骄傲与风趣指南 - 大卫D.epub",
+    "bytes": 187201,
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%AA%84%E5%82%B2%E4%B8%8E%E9%A3%8E%E8%B6%A3%E6%8C%87%E5%8D%97%20-%20%E5%A4%A7%E5%8D%ABD.epub",
+    "git_blob_sha": "25308b30132f336c4999cff82a40fff33258c805"
+  },
+  "source_sha256": "3a509ef0282fd48bce705c91fa2f5258688a21920b8572dd49cd779577169eda",
+  "completion_kind": "actual_supplied_EPUB_all9_spine_texts_read_no_image_resources",
+  "reading_mode": "ordered_HTMLParser_text_with_independent_lxml_HTML_sequence_check",
+  "all_current_file_content_read": true,
+  "actual_reading_complete": true,
+  "all_supplied_extractable_text_read": true,
+  "direct_extracted_characters_read": 117665,
+  "EPUB_spine_items_read": 9,
+  "OCR_run": false,
+  "confirmed_actual_reading_ranges": [
+    {
+      "spine_index": 1,
+      "path": "OEBPS/Text/1.html",
+      "start": 0,
+      "end": 47,
+      "sha256": "dfbaa4dcde9595c477076ef77114d1aa9648d93a4b755aa4c593a7a6716ac39f",
+      "source_sha256": "f2b8fbee837540276531f99c3cbab0cf1d6e560cb1dbab3929a0ba3eae760b4c",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": true
+    },
+    {
+      "spine_index": 2,
+      "path": "OEBPS/Text/2.html",
+      "start": 0,
+      "end": 1229,
+      "sha256": "496fa7a6a9c6dfe0c8dd1766599441e6a14d8cb503ae9effdfec66751a4838f5",
+      "source_sha256": "27ac0a272b002a20d665bb1359dfac0a7875cc1a82bb6f9faa6a7eec7b58a29c",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 3,
+      "path": "OEBPS/Text/3.html",
+      "start": 0,
+      "end": 9526,
+      "sha256": "ed9ab9c71aade2a0aa697d9a0dfdaca595ac7bb6e942e7d4750300e6041ec174",
+      "source_sha256": "c90cce1389b963a7ee917388c664bbe4028a69d01d6d95ddb350cbba88c41e03",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 4,
+      "path": "OEBPS/Text/4.html",
+      "start": 0,
+      "end": 32502,
+      "sha256": "bab500b7f6d6c3ba531f9d5abe9b0892afa661a2b448985515ce9aaf099d0e79",
+      "source_sha256": "d6addfc05974856810f5ff5ba2259789f1e7a77227887667da762d1e80b92e06",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 5,
+      "path": "OEBPS/Text/5.html",
+      "start": 0,
+      "end": 40281,
+      "sha256": "ba2b0cb7c4353c9849944fd012827716b178592e5d668df7da2b0c9adb4899bf",
+      "source_sha256": "b98a87d473486dba61a3f25df2c9b17656b5fd0ceec01b22feef143ca71b722b",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 6,
+      "path": "OEBPS/Text/6.html",
+      "start": 0,
+      "end": 4497,
+      "sha256": "1ae5e4bb1c85d0399bc504cd673dd30f69b1b9580f8fc105312f03cd9bc05a13",
+      "source_sha256": "ae514c64711e87351d0cfed94db8043fd2d515e8fd9f8733858dcfa201c54b5c",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 7,
+      "path": "OEBPS/Text/7.html",
+      "start": 0,
+      "end": 9803,
+      "sha256": "04faadcabcaebe62e8e928e93545ff3c22eb78593017bee37d71ca5b14b39c76",
+      "source_sha256": "f973b9666d116bf31e4392f16fdd55401fbb547543cc6f4a8f5cfbbef26b610d",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 8,
+      "path": "OEBPS/Text/8.html",
+      "start": 0,
+      "end": 3723,
+      "sha256": "0d5a3adf119a6e2b091508dee77658ee9dd5d679ee8b964ca6616bd61fd29ef9",
+      "source_sha256": "1009f5992521852ca2c1587bde3350dcf1a62a22ea5e47b6d5ae5d85d956ceaf",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    },
+    {
+      "spine_index": 9,
+      "path": "OEBPS/Text/9.html",
+      "start": 0,
+      "end": 16057,
+      "sha256": "533ee72426b187bde44ab1469df75b0aacbb63248ce36f4f4d6594e8f2d149ab",
+      "source_sha256": "0ad6dce6f7ffa5b02ea35fed066f604ac8b670ce18a90cf4d00a2d9f1bd5b03d",
+      "confirmed_text_read": true,
+      "independent_nonspace_sequence_equal": true,
+      "xml_wellformed": false
+    }
+  ],
+  "ordered_confirmed_reading_batches": [
+    {
+      "index": 1,
+      "ranges": [
+        {
+          "spine_index": 1,
+          "start": 0,
+          "end": 47
+        },
+        {
+          "spine_index": 2,
+          "start": 0,
+          "end": 1229
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "ranges": [
+        {
+          "spine_index": 3,
+          "start": 0,
+          "end": 9526
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "ranges": [
+        {
+          "spine_index": 4,
+          "start": 0,
+          "end": 11000
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "ranges": [
+        {
+          "spine_index": 4,
+          "start": 11000,
+          "end": 22000
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "ranges": [
+        {
+          "spine_index": 4,
+          "start": 22000,
+          "end": 32502
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "ranges": [
+        {
+          "spine_index": 5,
+          "start": 0,
+          "end": 10000
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "ranges": [
+        {
+          "spine_index": 5,
+          "start": 10000,
+          "end": 20000
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "ranges": [
+        {
+          "spine_index": 5,
+          "start": 20000,
+          "end": 30000
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "ranges": [
+        {
+          "spine_index": 5,
+          "start": 30000,
+          "end": 40281
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "ranges": [
+        {
+          "spine_index": 6,
+          "start": 0,
+          "end": 4497
+        },
+        {
+          "spine_index": 7,
+          "start": 0,
+          "end": 5000
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "ranges": [
+        {
+          "spine_index": 7,
+          "start": 5000,
+          "end": 9803
+        },
+        {
+          "spine_index": 8,
+          "start": 0,
+          "end": 3723
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "ranges": [
+        {
+          "spine_index": 9,
+          "start": 0,
+          "end": 8200
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "ranges": [
+        {
+          "spine_index": 9,
+          "start": 8200,
+          "end": 16057
+        }
+      ]
+    }
+  ],
+  "truncated_initial_display_recovered": {
+    "spines": [
+      3,
+      4
+    ],
+    "full_ranges_separately_reread": true,
+    "overlaps_not_double_counted": true
+  },
+  "all9_independent_nonspace_sequences_agree": true,
+  "source_XML_malformed_units": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "parser_errors_misrepresented_as_content_gaps": false,
+  "image_resources": 0,
+  "nonspine_text_resources": [],
+  "NCX_navigation_labels_read": true,
+  "css_extra_generated_text": false,
+  "known_unread_current_content": [],
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_verification_limits": [
+    "只覆盖当前EPUB的题名、简介、七章与结尾；正文中译者明说省略的材料、所引网站、书籍、音频与原始课程没有补算。",
+    "文件名、元数据和汇编内容分开记录；未认证作者、正式版本、翻译完整性或出版信息。",
+    "作者自报与心理、身体、性别、NLP、医学断言未核原始研究；不增加论文、DOI、临床处方或效果百分比。",
+    "保留具体交流与双方自愿；不把操纵、羞辱、竞争、冷落、服从、绕过拒绝或隐性命令变成日常规则。",
+    "只保存原创取舍与固定出处，不重发长摘、私人叙事、真实或匿名私人案例、联系方式。公开自称不自动证明转载授权。"
+  ],
+  "original_note_groups": 51,
+  "new_exact_method_section_bindings": 184,
+  "new_method_source_entries": 25,
+  "notes_and_method_section_bindings": [
+    {
+      "id": "01",
+      "title": "文内是多来源汇编，不按文件名认证作者",
+      "spine_indices": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "locator": "题名、简介、译注与来源署名",
+      "summary": "文件名带大卫D，元数据作者字段却是书名；简介自述汇编，正文混合不同作者和译者评论。分别保留这些事实，不把全部文字归为一人的原著，也不把译者主动省略的内容补算已读。当前七章和全书完标记只界定这份EPUB。",
+      "methods": [],
+      "heading": "B121-01 文内是多来源汇编，不按文件名认证作者",
+      "query": "B121-01",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "02",
+      "title": "七阶段是来源编排，不是每轮必过的关卡",
+      "spine_indices": [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "locator": "简介七阶段、态度与各章切换",
+      "summary": "书中既列顺序又允许跳转。日常只按当前事实选一个目标，不要求先吸引、考验再回答正常问题。每个新安排看当下自愿，不按三条兴趣信号、接触次数或固定分钟数自动升级。",
+      "methods": [
+        "M01",
+        "M08",
+        "M14",
+        "M23",
+        "M26"
+      ],
+      "heading": "B121-02 七阶段是来源编排，不是每轮必过的关卡",
+      "query": "B121-02",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "03",
+      "title": "可以学习表达，不接受女性敌意与结果保证",
+      "spine_indices": [
+        3
+      ],
+      "locator": "伦理道德、坏名声及信念",
+      "summary": "学习认识与沟通不必自我贬低，但这不能推出控制别人就是合理，或女性都在设圈套。对方有独立选择；真诚也不能保证永不被误解或冒犯。不从一次受挫定义谁不配，先核具体行为与环境。",
+      "methods": [
+        "M01",
+        "M22",
+        "M25"
+      ],
+      "heading": "B121-03 可以学习表达，不接受女性敌意与结果保证",
+      "query": "B121-03",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "04",
+      "title": "偏好用于双向了解，不把人放进面试与排名",
+      "spine_indices": [
+        3,
+        6
+      ],
+      "locator": "知道自己想要什么、考验目的与直接考验",
+      "summary": "可以留意诚信、相处方式、生活安排与自己的真实偏好，并听对方需要什么。外貌不是全部，也不必为获得认可硬装相同。交流中了解一项具体选择，避免评分、羞辱、精神诊断和要求她证明值得被喜欢。",
+      "methods": [
+        "M03",
+        "M04",
+        "M08",
+        "M22"
+      ],
+      "heading": "B121-04 偏好用于双向了解，不把人放进面试与排名",
+      "query": "B121-04",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "05",
+      "title": "单次拒绝不裁决自身价值，也不贬低拒绝者",
+      "spine_indices": [
+        3,
+        4,
+        9
+      ],
+      "locator": "人生展望、拒绝恐惧与抽离",
+      "summary": "拒绝某次互动不能证明整个人失败；同样不能因此断言她损失更大、一定后悔或有心理问题。礼貌拒绝就结束相应方向；明显无礼可设边界，不必回骂或强装毫无感受。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-05 单次拒绝不裁决自身价值，也不贬低拒绝者",
+      "query": "B121-05",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "06",
+      "title": "镇定不等于把所有不适归为自己的解释",
+      "spine_indices": [
+        3,
+        5
+      ],
+      "locator": "控制情感状态与处理不好的表现",
+      "summary": "别人行为、场合和约定可能确有问题。先核发生了什么，允许失望和不满；需要时缓一缓再表达一项具体边界。不把受伤归为不够男人，也不以控制情绪要求吞下失约或羞辱。",
+      "methods": [
+        "M01",
+        "M11",
+        "M22"
+      ],
+      "heading": "B121-06 镇定不等于把所有不适归为自己的解释",
+      "query": "B121-06",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "07",
+      "title": "真实生活能分享，不用编忙碌和竞争者",
+      "spine_indices": [
+        3,
+        5,
+        9
+      ],
+      "locator": "奖品信念、有挑战性与通话安排",
+      "summary": "保留真实学业、工作、朋友和兴趣，也可以坦然说自己休息了一天。不能为了显得难得到编生意、假日程或其他追求者；正常及时回复不代表低价值。忙时按可行安排说明，不靠刻意忽冷忽热考验对方。",
+      "methods": [
+        "M02",
+        "M04",
+        "M10",
+        "M19",
+        "M22"
+      ],
+      "heading": "B121-07 真实生活能分享，不用编忙碌和竞争者",
+      "query": "B121-07",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "08",
+      "title": "整洁与个人风格不需要变成昂贵表演",
+      "spine_indices": [
+        4
+      ],
+      "locator": "身体、风格、孔雀理论与认同",
+      "summary": "可以从整洁、合身和自己愿意呈现的兴趣细节着手，让交流有真实可谈之处。不把奢侈消费、夸张道具、身材评分或侵扰他人的展示设为必要条件。美白、晒肤、激光、健身和饮酒建议未作医疗核验，不从课程给出处方。",
+      "methods": [
+        "M10",
+        "M22",
+        "M25"
+      ],
+      "heading": "B121-08 整洁与个人风格不需要变成昂贵表演",
+      "query": "B121-08",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "09",
+      "title": "练习从普通自愿交流开始，不追拒绝配额",
+      "spine_indices": [
+        4
+      ],
+      "locator": "故意拒绝训练与热身",
+      "summary": "方便时可以与愿意交流的人短聊或参加熟悉活动，练一次清楚表达。没有必要让陌生人承担羞辱训练，不能追着无视的人索要更狠拒绝。把他人当正常交流对象，不按颜值分层供热身，也不承诺几次练习即可消除焦虑。",
+      "methods": [
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B121-09 练习从普通自愿交流开始，不追拒绝配额",
+      "query": "B121-09",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "10",
+      "title": "选择愿意参与的渠道，不把夜店列为必修",
+      "spine_indices": [
+        4
+      ],
+      "locator": "寻找目标与夜店论断",
+      "summary": "兴趣活动、朋友介绍和合适的社交渠道可按实际生活选择，不需要为了达标强去酒吧。出现在任何场所、衣着、喝酒或参与课程，都不说明她出来找伴侣。课程轮换或工作职责也不等于愿意被追求。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B121-10 选择愿意参与的渠道，不把夜店列为必修",
+      "query": "B121-10",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "11",
+      "title": "开场抓当下具体点，介绍可以自然直接",
+      "spine_indices": [
+        4
+      ],
+      "locator": "三秒法则、自我介绍、直接与间接开场",
+      "summary": "从真实共同情境或资料里的一个细节开始，可以正常介绍自己。无需先假装不感兴趣，也不要求三秒内行动。站位与语气为便于听见且保留离开空间，不堵路、跟随、强抱或用凝视逼对方先认输。",
+      "methods": [
+        "M03",
+        "M04",
+        "M22",
+        "M25"
+      ],
+      "heading": "B121-11 开场抓当下具体点，介绍可以自然直接",
+      "query": "B121-11",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "12",
+      "title": "征求意见要真有问题，不编朋友剧情",
+      "spine_indices": [
+        4
+      ],
+      "locator": "意见开场与假性时间限制",
+      "summary": "真有一项相关选择可简短请教，也可以说明自己实际只能聊一会儿。不要捏造朋友分手、假通话或紧急事务来套话；回答完并不要求对方继续。话题来自双方现场信息，不从外部脚本硬造共同经历。",
+      "methods": [
+        "M03",
+        "M04",
+        "M22",
+        "M25"
+      ],
+      "heading": "B121-12 征求意见要真有问题，不编朋友剧情",
+      "query": "B121-12",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "13",
+      "title": "赞美可以具体，不附带打压来抢位置",
+      "spine_indices": [
+        4,
+        5,
+        7
+      ],
+      "locator": "奉承开场、打压与间接马屁",
+      "summary": "一项真实的品味、选择或表达值得欣赏就直接说。不必先否定年龄、身高、外貌、出身或成就再补一句好听的，也不因她漂亮就故意扣住赞美。她不接受玩笑时以原话为准，不解释成防护罩。",
+      "methods": [
+        "M09",
+        "M20",
+        "M21",
+        "M26"
+      ],
+      "heading": "B121-13 赞美可以具体，不附带打压来抢位置",
+      "query": "B121-13",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "14",
+      "title": "轻量夸张取自双方已接的梗",
+      "spine_indices": [
+        4,
+        5
+      ],
+      "locator": "骄傲风趣评论、主题与做过度",
+      "summary": "她已明确接住一个轻松玩笑时，可以沿同一细节做一点明显夸张或轻量反转，一句即可。笑点放在共同情境，保留真实回答；不靠身体羞辱、假指控或不断自夸维持全场。笑了只是当前反应，不等于认同一切或愿意下一步。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M26"
+      ],
+      "heading": "B121-14 轻量夸张取自双方已接的梗",
+      "query": "B121-14",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "15",
+      "title": "共同角色是一段玩笑，不变成真实权利",
+      "spine_indices": [
+        5
+      ],
+      "locator": "角色扮演及回电话幽默",
+      "summary": "双方都在接的想象角色可以轻量延伸，之后再从同一个共同梗回扣。角色应明显虚构且可随时停，不把玩笑中的恋人、婚礼或昵称变成承诺、命令、身体许可或共同记忆。认真内容出现就回到正常回应。",
+      "methods": [
+        "M05",
+        "M07",
+        "M20",
+        "M23",
+        "M26"
+      ],
+      "heading": "B121-15 共同角色是一段玩笑，不变成真实权利",
+      "query": "B121-15",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "16",
+      "title": "认真问题先答，幽默不挡住真实信息",
+      "spine_indices": [
+        4,
+        5,
+        7
+      ],
+      "locator": "网上开场、工作问答与舒适感引入",
+      "summary": "她问工作、年龄、安排或关系状态时，先按已知真实信息回答，再视语境加一点自己。无需连续让她猜或先说数个假职业证明有趣。隐私可以说明暂不想细谈，但不能虚构信息，更不将正常询问自动称为测试。",
+      "methods": [
+        "M01",
+        "M04",
+        "M20",
+        "M26"
+      ],
+      "heading": "B121-16 认真问题先答，幽默不挡住真实信息",
+      "query": "B121-16",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "17",
+      "title": "群聊照顾所有人，同时听本人是否愿意",
+      "spine_indices": [
+        4,
+        5
+      ],
+      "locator": "打开群组与目标的朋友",
+      "summary": "对朋友和同行者正常打招呼，让愿意参与的人都有表达空间。不能把谁按颜值称作障碍，也不通过冷落一人制造竞争。别人愿意、替她作答或没有反对，均不代替她本人同意单独聊天或转场。",
+      "methods": [
+        "M01",
+        "M03",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B121-17 群聊照顾所有人，同时听本人是否愿意",
+      "query": "B121-17",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "18",
+      "title": "朋友介绍可真实，不编社交证明或强行拆开",
+      "spine_indices": [
+        4,
+        5
+      ],
+      "locator": "僚机、女僚机与反AMOG战术",
+      "summary": "朋友愿意时可以自然介绍彼此和真实共同兴趣，不需要导演赞美、假竞争或替谁挡住同伴。出现陌生人起哄、骚扰或冲突，优先处理眼前安全与意愿；不通过羞辱、身体挤开和引战证明男人感。",
+      "methods": [
+        "M10",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B121-18 朋友介绍可真实，不编社交证明或强行拆开",
+      "query": "B121-18",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "19",
+      "title": "工作人员的友好先按工作情境理解",
+      "spine_indices": [
+        4
+      ],
+      "locator": "服务员、收银员、吧台与商业表演",
+      "summary": "服务回应、回到桌边、职业性称赞或接触都可能属于职责，不足以证明私人兴趣；也不能反推对方一定虚假。交流不能妨碍工作、利用小费施压或把拒绝当演戏。有明确私人邀请再按该项安排核对。",
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-19 工作人员的友好先按工作情境理解",
+      "query": "B121-19",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "20",
+      "title": "身体与声音为舒服交流，不作奖惩或读心工具",
+      "spine_indices": [
+        4,
+        5,
+        7
+      ],
+      "locator": "肢体语气、眼神交流与封闭姿态",
+      "summary": "说清楚、留出距离、让对方听完即可，不需模仿固定霸气姿势。一次交叉双臂、微笑、脸红或眼神不能决定兴趣与人格；可见不舒服时放慢或确认。不能假装意外接触、借惩罚碰身体，或从沉默推出默许。",
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-20 身体与声音为舒服交流，不作奖惩或读心工具",
+      "query": "B121-20",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "21",
+      "title": "少一点表演，留出她说话的位置",
+      "spine_indices": [
+        5
+      ],
+      "locator": "吸引开头、挑战性与扯淡联系",
+      "summary": "不用一轮接一轮娱乐对方。接住一个实际细节，短说自己的真实感受或小经历，让她也能承接；普通话题不天然无聊，重点是双方是否愿意展开。不套两句、五句等硬性配比，双方已收尾也可不再补话。",
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ],
+      "heading": "B121-21 少一点表演，留出她说话的位置",
+      "query": "B121-21",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "22",
+      "title": "隐私有边界，悬念不靠挫败感维持",
+      "spine_indices": [
+        5
+      ],
+      "locator": "神秘、拿开、悬念与推拉",
+      "summary": "暂不愿细讲私人内容可以直说，真实有趣的后续可以下次继续。不要编秘密、故意打断她的兴奋、扣住肯定或抽走关心，让她不断解释争取认可。轻松转折只保留双方接住的玩笑，不执行冷热奖惩。",
+      "methods": [
+        "M02",
+        "M05",
+        "M06",
+        "M22"
+      ],
+      "heading": "B121-22 隐私有边界，悬念不靠挫败感维持",
+      "query": "B121-22",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "23",
+      "title": "真实故事从一个相关细节进入",
+      "spine_indices": [
+        5,
+        7
+      ],
+      "locator": "讲故事与展现软弱一面",
+      "summary": "她提到自己确有经历或兴趣时，可分享一段相关小事，具体、短说、留回应空间。自己的普通偏好或小失误也能让人了解，不必每个故事都证明厉害。不能编资历、夸大第三人事故或用别人隐私与身体做笑点。",
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ],
+      "heading": "B121-23 真实故事从一个相关细节进入",
+      "query": "B121-23",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "24",
+      "title": "观察必须有当下依据，并允许她纠正",
+      "spine_indices": [
+        5,
+        7
+      ],
+      "locator": "冷读与群组扯淡",
+      "summary": "可以就她刚说出的具体行为提出轻量、可纠正的理解，不从眼睛推童年、感情创伤或内在脆弱。笼统两面话让人觉得准，不证明真了解；她否认就更新，不把她逼进自己的解释，更不据冷读判断同意。",
+      "methods": [
+        "M01",
+        "M08",
+        "M20"
+      ],
+      "heading": "B121-24 观察必须有当下依据，并允许她纠正",
+      "query": "B121-24",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "25",
+      "title": "性话题与私人身份不由笑声或好感授权",
+      "spine_indices": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "locator": "性主题、性取向、考验与亲密段落",
+      "summary": "关系中谈敏感内容也需要双方成年、自愿且适合当前语境。不能从她开一次玩笑、说喜欢冒险或过去经验推定任何具体许可；不逼人证明开放，不给性取向分等级或从车型、衣着推身份。明确不愿就停该方向。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-25 性话题与私人身份不由笑声或好感授权",
+      "query": "B121-25",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "26",
+      "title": "以打断负面回应取得默认同意的做法不采用",
+      "spine_indices": [
+        5
+      ],
+      "locator": "大师流的理由与自报反馈",
+      "summary": "来源把持续敏感言语、抢在对方表达不满前插话解释成有效，属于需要明确排除的论证。无法表达反对不等于同意，自报笑声和给号码也不是研究证据。本节只作批判定位，不复制台词、不提供实施步骤、不进入方法内检索。",
+      "methods": [],
+      "heading": "B121-26 以打断负面回应取得默认同意的做法不采用",
+      "query": "B121-26",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "27",
+      "title": "困扰先回应，不以调侃强制转正面",
+      "spine_indices": [
+        5,
+        7
+      ],
+      "locator": "抱怨转角色、同感与免费治疗陷阱",
+      "summary": "她分享烦心事，先接住其中一项事实或感受；明确求助先答所求，不急着扯到暧昧。倾诉不证明只把用户当朋友。自己确实没有时间或精力可平实设限，不嘲笑她、收费威胁，也不要求无限承担。",
+      "methods": [
+        "M11",
+        "M13",
+        "M22",
+        "M26"
+      ],
+      "heading": "B121-27 困扰先回应，不以调侃强制转正面",
+      "query": "B121-27",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "28",
+      "title": "无礼可以设限，不必解释成被吸引",
+      "spine_indices": [
+        5
+      ],
+      "locator": "废物测试与处理不好的表现",
+      "summary": "调侃、不满、正常问题、安排协商和明确无礼要按语境分清。不能将友好判为没兴趣、将侮辱判为喜欢，也不能把不舒服当必须通过的考验。有双向玩笑可同强度轻回；确有不尊重可以简短指出或结束。",
+      "methods": [
+        "M01",
+        "M06",
+        "M20",
+        "M22"
+      ],
+      "heading": "B121-28 无礼可以设限，不必解释成被吸引",
+      "query": "B121-28",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "29",
+      "title": "有证据的过失要修，不用道歉话术抹平",
+      "spine_indices": [
+        5
+      ],
+      "locator": "做过度、咸鱼翻身与道歉",
+      "summary": "玩笑确实越界或自己失约时，承认已核的具体行为并改能改的部分。没有证据不自动让用户认错；有责任时不加但你也、讽刺性道歉或新段子盖过问题。对方是否接受仍由她决定，不承诺气氛一定恢复。",
+      "methods": [
+        "M20",
+        "M21",
+        "M26"
+      ],
+      "heading": "B121-29 有证据的过失要修，不用道歉话术抹平",
+      "query": "B121-29",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "30",
+      "title": "持续单边时收住，不把撤回联系当逼她追",
+      "spine_indices": [
+        5,
+        9
+      ],
+      "locator": "表示冷漠、只是朋友与抽离",
+      "summary": "连续两轮既不展开、不反问也不提供新信息，且没有待落实事项时，不继续加码。正常完整短答、二选一回答和已确认安排另看；不能机械判低投入。收住为尊重现状，不设置失联几个月或嫉妒来反转她。",
+      "methods": [
+        "M02",
+        "M18",
+        "M19",
+        "M23"
+      ],
+      "heading": "B121-30 持续单边时收住，不把撤回联系当逼她追",
+      "query": "B121-30",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "31",
+      "title": "只做朋友按原意理解，自己也可选择距离",
+      "spine_indices": [
+        5
+      ],
+      "locator": "处理我们还是做朋友吧",
+      "summary": "她只愿做朋友，不是宣战或等人破解的障碍。可以接受真诚友谊，也可说明自己暂不适合并保持距离；不能暗中陪伴换恋爱、逼她介绍朋友或以退出让她焦虑。后来关系改变需双方重新明确，不按固定断联期恢复追求。",
+      "methods": [
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-31 只做朋友按原意理解，自己也可选择距离",
+      "query": "B121-31",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "32",
+      "title": "了解合适之处，欣赏不变成服从考核",
+      "spine_indices": [
+        6
+      ],
+      "locator": "暗示、间接、骄傲风趣与直接考验",
+      "summary": "她真实分享的特质和选择可以继续了解并具体欣赏。避免用面试题、加减分、贬低、是否够格来迫使她自证；她自称冒险、真诚或信任，不产生在见面、接吻等事情上前后一致的义务。",
+      "methods": [
+        "M03",
+        "M08",
+        "M09",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-32 了解合适之处，欣赏不变成服从考核",
+      "query": "B121-32",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "33",
+      "title": "开放问题只问一项，短答也可已完成回应",
+      "spine_indices": [
+        7
+      ],
+      "locator": "对话构架与开放性问题",
+      "summary": "在她已给出的信息里选一个值得继续的点，必要时问一个自然问题，也可先分享自己。开放不等于一次抛出人生、职业、感情清单；二选一只选一项不等于冷淡。是否愿意展开看连续行为，不直接诊断害羞或防御。",
+      "methods": [
+        "M03",
+        "M04",
+        "M18",
+        "M26"
+      ],
+      "heading": "B121-33 开放问题只问一项，短答也可已完成回应",
+      "query": "B121-33",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "34",
+      "title": "积极听完整内容，再回应具体一项",
+      "spine_indices": [
+        7
+      ],
+      "locator": "积极聆听、回音与挂钩",
+      "summary": "同轮连发先读全，听清她真正讲的事，回应一个关键细节；可用自己的话简短确认。不能只机械重复尾句、嗯嗯同意或抢着讲自己的故事。她说过的主问题没有撤回就仍需照顾，不因最后补充漏掉。",
+      "methods": [
+        "M03",
+        "M11",
+        "M13",
+        "M26"
+      ],
+      "heading": "B121-34 积极听完整内容，再回应具体一项",
+      "query": "B121-34",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "35",
+      "title": "同感是可修正的理解，不替她规定感受",
+      "spine_indices": [
+        7
+      ],
+      "locator": "表示同感与标明感受",
+      "summary": "可以从原话说听起来这件事挺累，或承接她已明确的开心，不声称自己完全懂。没有依据不替她认定痛苦、尴尬或童年原因，也不急着正面化。她纠正感受时按新信息处理。",
+      "methods": [
+        "M08",
+        "M11",
+        "M12",
+        "M20"
+      ],
+      "heading": "B121-35 同感是可修正的理解，不替她规定感受",
+      "query": "B121-35",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "36",
+      "title": "引用共同经历和习惯语，保持原来的意思",
+      "spine_indices": [
+        5,
+        7,
+        8
+      ],
+      "locator": "回电话幽默、引用、习惯语与回到旧主题",
+      "summary": "回扣她曾自豪的一项经历、双方接住的旧梗或当时自然使用的词，可以延续真实共同话题。不能把别人的故事装成自己经历，也不拿她的尴尬与脆弱作反向打压；一个词在不同语境不必机械复制。",
+      "methods": [
+        "M03",
+        "M05",
+        "M07",
+        "M09"
+      ],
+      "heading": "B121-36 引用共同经历和习惯语，保持原来的意思",
+      "query": "B121-36",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "37",
+      "title": "普通与脆弱的一面可以真实表达",
+      "spine_indices": [
+        7
+      ],
+      "locator": "展现软弱的一面",
+      "summary": "可分享实际的小偏好、小失误或感受，让她了解自己，不要求永远强势完美。深浅按关系和双方投入调节，隐私不必一次全倒出；不能编悲惨经历博同情，也不借自己的脆弱要求对方照顾或承诺。",
+      "methods": [
+        "M04",
+        "M10",
+        "M22"
+      ],
+      "heading": "B121-37 普通与脆弱的一面可以真实表达",
+      "query": "B121-37",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "38",
+      "title": "停顿可以存在，不强迫证明为什么喜欢",
+      "spine_indices": [
+        7
+      ],
+      "locator": "处理尴尬沉默",
+      "summary": "短暂停顿不自动意味着失败。可以回到刚才的具体点，也可以自然看眼前环境或结束本轮，不必填满每秒。转场需要双方愿意，不借安静逼问为何答应见面，更不以凝视制造不便离开的压力。",
+      "methods": [
+        "M02",
+        "M03",
+        "M05",
+        "M22",
+        "M26"
+      ],
+      "heading": "B121-38 停顿可以存在，不强迫证明为什么喜欢",
+      "query": "B121-38",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "39",
+      "title": "匹配交流节奏，不执行三秒模仿规则",
+      "spine_indices": [
+        7
+      ],
+      "locator": "配对与映射",
+      "summary": "说话速度、音量和篇幅可照顾现场与对方理解，仍保持自己自然表达。不能把同步动作、坐姿或喝水当潜意识认可的证明，也不靠定时模仿试探服从。观察到的事实与推测分开，单个身体信号权重有限。",
+      "methods": [
+        "M01",
+        "M08",
+        "M26"
+      ],
+      "heading": "B121-39 匹配交流节奏，不执行三秒模仿规则",
+      "query": "B121-39",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "40",
+      "title": "NLP与暗中催眠不作已验证方法",
+      "spine_indices": [
+        8
+      ],
+      "locator": "NLP模板、嵌入式命令与译者省略",
+      "summary": "本文件转述隐性暗示和模板，但没有提供可核研究；译者也说明省略部分内容。不能据此声称能改变对方意愿或将普通舒适感解释成被催眠。本节仅保留来源与证据缺口，不复写暗示脚本，不新增方法绑定。",
+      "methods": [],
+      "heading": "B121-40 NLP与暗中催眠不作已验证方法",
+      "query": "B121-40",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "41",
+      "title": "轻松和认真按当前内容自然切换",
+      "spine_indices": [
+        5,
+        7,
+        8
+      ],
+      "locator": "做过度、舒适感与打破重建",
+      "summary": "她接梗时可以轻松，转入认真问题或困扰就认真答，之后双方自然提起旧梗再回扣。无需先破坏安全感再提供安慰制造依赖；开玩笑的强度看真实回应，不拿职业、关心或成就反过来伤害她。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M11",
+        "M20",
+        "M26"
+      ],
+      "heading": "B121-41 轻松和认真按当前内容自然切换",
+      "query": "B121-41",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "42",
+      "title": "换联系方式只商量本项，不自动追加其他渠道",
+      "spine_indices": [
+        4,
+        9
+      ],
+      "locator": "网上开场、联系方式close与阻碍",
+      "summary": "交流双向时可以正常提出继续联系，接受她选择的渠道。答应加一个账号不等于同意电话、住址或其他联系方式；不审问真假号码、不拿已付努力索取回报，不在未回时换渠道追问。拒绝本项后就停，不轮番换话术。",
+      "methods": [
+        "M02",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B121-42 换联系方式只商量本项，不自动追加其他渠道",
+      "query": "B121-42",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "43",
+      "title": "联系时间看真实互动，不套两到四天",
+      "spine_indices": [
+        5,
+        9
+      ],
+      "locator": "有挑战性、该何时打电话与通话流程",
+      "summary": "收到新消息正常回应；自己已经发出待回且无必要新事务就等。不存在为显得不饥渴必须等两到四天的通用要求。打电话、语音先看是否方便；确有约定按时落实，忘了或要改就如实说明，不用性别借口糊过去。",
+      "methods": [
+        "M02",
+        "M15",
+        "M16",
+        "M21",
+        "M25"
+      ],
+      "heading": "B121-43 联系时间看真实互动，不套两到四天",
+      "query": "B121-43",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "44",
+      "title": "约见选双方愿意的具体活动，不靠高消费换认可",
+      "spine_indices": [
+        9
+      ],
+      "locator": "约会框架、首次见面选择与顺便邀请",
+      "summary": "双向了解后提出一次明确日期和活动，兼顾方便与真实预算；也可在确有的共同计划中邀请她参与。活动为相处服务，不预先把提餐馆解释为贪婪。费用可以商量，不编朋友活动、不要求取消原安排，也不靠低价保证好感。",
+      "methods": [
+        "M10",
+        "M14",
+        "M22"
+      ],
+      "heading": "B121-44 约见选双方愿意的具体活动，不靠高消费换认可",
+      "query": "B121-44",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "45",
+      "title": "安排共同确认，任何一方都可更新或取消",
+      "spine_indices": [
+        5,
+        9
+      ],
+      "locator": "防鸽子、确认要求与见面close",
+      "summary": "答应后确认时间地点，双方参与安排是协商，不是制造投入。她说要再确认就按实际状态处理，不把确认要求解释成备胎，也不能拒绝取消。较晚已核的取消或改期覆盖旧计划，正常新话题不恢复原约定。",
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M20",
+        "M23"
+      ],
+      "heading": "B121-45 安排共同确认，任何一方都可更新或取消",
+      "query": "B121-45",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "46",
+      "title": "没替代时间就收住，不建立每两周重邀名单",
+      "spine_indices": [
+        9
+      ],
+      "locator": "见面close可能遇到的问题",
+      "summary": "没空但主动给替代时间可以承接；含糊拒绝且不给替代，就自然停在这里。不能逼她赶紧提建议，或按固定两周重试同一被拒方向。单次没空不判永久没兴趣，后来有真实新互动再按当前事实判断。",
+      "methods": [
+        "M08",
+        "M16",
+        "M17",
+        "M19",
+        "M23"
+      ],
+      "heading": "B121-46 没替代时间就收住，不建立每两周重邀名单",
+      "query": "B121-46",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "47",
+      "title": "失约的成本可以表达，修复不能索取亲密",
+      "spine_indices": [
+        5,
+        9
+      ],
+      "locator": "放鸽子、观察与补偿",
+      "summary": "先分清临时变化、已通知取消与无故失约；未知动机不替谁定罪，实际时间成本也不必否认。可说明自己的安排需求，持续不兑现就不再预留。对方补偿不应是吻、身体或被惩罚，自己失约也要承担具体修复。",
+      "methods": [
+        "M01",
+        "M16",
+        "M21",
+        "M22"
+      ],
+      "heading": "B121-47 失约的成本可以表达，修复不能索取亲密",
+      "query": "B121-47",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "48",
+      "title": "安排说定或互相收尾，可以不再补一句",
+      "spine_indices": [
+        9
+      ],
+      "locator": "结束电话、联系方式后与抽离",
+      "summary": "时间地点说清或双方已自然告别，本轮可以到此为止，不需用新玩笑继续讨回应。若她明确说稍后告知，就把确认留给她。真正有新必要事务可以简短更新，不将停聊包装成拿开注意力的惩罚。",
+      "methods": [
+        "M02",
+        "M15",
+        "M26"
+      ],
+      "heading": "B121-48 安排说定或互相收尾，可以不再补一句",
+      "query": "B121-48",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "49",
+      "title": "每一项亲密都需当下自愿，含糊时放慢或确认",
+      "spine_indices": [
+        6,
+        8,
+        9
+      ],
+      "locator": "考验一致性、身体游戏、Kiss与SC段落",
+      "summary": "愿意见面、牵手、接吻、聊天或进入某个场所，都不替下一项提供许可。不要、不行、迟疑、退开与不舒服不能改译成隐藏想要；笑着说停也需停。没有明确意愿就放慢或确认，不借打赌、酒精、羞耻、信任或过去承诺绕过。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23"
+      ],
+      "heading": "B121-49 每一项亲密都需当下自愿，含糊时放慢或确认",
+      "query": "B121-49",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "50",
+      "title": "普通结束不必证明她会后悔",
+      "spine_indices": [
+        9
+      ],
+      "locator": "抽离与结尾",
+      "summary": "不想继续或对方拒绝时，可以友好结束，双方无需完成号码或亲密指标。不要在礼貌离开后又补一句羞辱，不从她沉默推定失落。实际是否再联系未知，结束本轮的价值在于尊重选择，而非操控追逐。",
+      "methods": [
+        "M02",
+        "M22",
+        "M23",
+        "M26"
+      ],
+      "heading": "B121-50 普通结束不必证明她会后悔",
+      "query": "B121-50",
+      "path": "knowledge/books/B121.md"
+    },
+    {
+      "id": "51",
+      "title": "来源轶事和数字不包装为心理学证据",
+      "spine_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "locator": "自信断言、37次搭讪、成功率与潜意识机制",
+      "summary": "当前材料用自报、举例、影视台词和未经定位的研究解释效果，未给出足以核对的完整论文信息。读取不等于验证，数字不作阈值，身体、情绪、性别和机制断言不自动采用。不编APA或DOI，不把未成功自动归因用户心态；需要研究依据时另行核原始来源。",
+      "methods": [],
+      "heading": "B121-51 来源轶事和数字不包装为心理学证据",
+      "query": "B121-51",
+      "path": "knowledge/books/B121.md"
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false
+}
