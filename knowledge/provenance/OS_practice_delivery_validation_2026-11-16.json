@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "f40de3af757d89e80e313a3d71f8ed8c1c145a1c",
+  "runtime_version": "1.6.0",
+  "status": "passed",
+  "baseline_unit_tests_passed": 134,
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_practice_delivery_validation_2026-11-16.json",
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 142,
+    "new_test_methods": 8,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "CLI_examples_passed": 8,
+    "route_conditions_and_order_unchanged": true,
+    "method_operations_source_bindings_and_preferred_headings_unchanged": true,
+    "all_source_records_inventory_existing_book_notes_and_archives_preserved": true,
+    "reading119_actual108_plus11_scope_closures_unchanged": true,
+    "reading_queue_closed_and_cursor_null": true,
+    "private_content_not_echoed_by_candidate_check": true,
+    "scope": "结构、来源定位、虚构路由与CLI；不证明真实读图、语义理解、自然口吻或恋爱效果。"
+  },
+  "structural_counts": {
+    "methods": 26,
+    "routes": 36,
+    "tasks": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "completed_book_tasks": 119
+  },
+  "CLI_results": [
+    {
+      "example": "EXAMPLE_REQUEST.json",
+      "route_id": "R18",
+      "action": "draft"
+    },
+    {
+      "example": "EXAMPLE_PLAN_UPDATE.json",
+      "route_id": "R18",
+      "action": "draft"
+    },
+    {
+      "example": "EXAMPLE_REQUEST_UPDATE.json",
+      "route_id": "R13C",
+      "action": "hold"
+    },
+    {
+      "example": "concrete_invite",
+      "route_id": "R20",
+      "action": "draft"
+    },
+    {
+      "example": "question_before_invite",
+      "route_id": "R18",
+      "action": "draft"
+    },
+    {
+      "example": "do_not_reinvite",
+      "route_id": "R27",
+      "action": "draft"
+    },
+    {
+      "example": "single_candidate",
+      "route_id": "R18",
+      "action": "draft"
+    },
+    {
+      "example": "reject_alternatives",
+      "route_id": "R18",
+      "action": "draft"
+    }
+  ],
+  "research_records_checked": [
+    {
+      "doi": "10.1037/pspa0000366",
+      "scope": "Duke author publication record and complete abstract; not full article"
+    },
+    {
+      "doi": "10.1111/spc3.12648",
+      "scope": "Publisher metadata, complete abstract and indexed opening text; not full article"
+    },
+    {
+      "doi": "10.1073/pnas.2116915119",
+      "scope": "PMC metadata, abstract and selected research/results text; Crossmark author name; not full article or supplements"
+    }
+  ],
+  "new_whole_research_articles_read": 0,
+  "new_book_files_read": 0,
+  "limits": [
+    "No actual private screenshot was used or archived.",
+    "Explicit labels are a partial structural guard, not a semantic candidate classifier.",
+    "Question punctuation is not the number of semantic questions.",
+    "No dating success rate, psychological diagnosis or model training claim."
+  ]
+}

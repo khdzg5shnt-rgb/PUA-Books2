@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "scope": "检索词只帮助定位已整理方法，不从词语自动推断动机、兴趣或同意",
   "methods": {
     "M01": {
@@ -58,7 +58,20 @@
       "preferred": {
         "path": "knowledge/topics/normal-questions.md",
         "heading": "先按正常问题回答"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "把学历职业直接说清楚",
+            "学历工作照实回答",
+            "别绕开正常提问"
+          ],
+          "reference": {
+            "path": "knowledge/books/B106.md",
+            "heading": "B106-27 职业、经历与说明按问题本身回答"
+          }
+        }
+      ]
     },
     "M05": {
       "aliases": [
@@ -84,7 +97,20 @@
       "preferred": {
         "path": "knowledge/books/S01-chen-five.md",
         "heading": "实际使用判断"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "认真聊天时别硬接梗",
+            "先答正事再开玩笑",
+            "她问正经事别乱撩"
+          ],
+          "reference": {
+            "path": "knowledge/books/B106.md",
+            "heading": "B106-29 轻量角色与曲解让位于认真问题"
+          }
+        }
+      ]
     },
     "M07": {
       "aliases": [
@@ -147,7 +173,20 @@
       "preferred": {
         "path": "knowledge/topics/real-self-expression.md",
         "heading": "一句真实表达"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "说件自己真做过的小事",
+            "别把别人的生活当成自己的",
+            "分享一点自己的实际生活"
+          ],
+          "reference": {
+            "path": "knowledge/topics/real-self-expression.md",
+            "heading": "一句真实表达"
+          }
+        }
+      ]
     },
     "M11": {
       "aliases": [
@@ -160,7 +199,20 @@
       "preferred": {
         "path": "knowledge/books/S04-empathy.md",
         "heading": "回填到当前方法"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "别把她的难受说得更严重",
+            "别替她决定是什么情绪",
+            "先接她说的困扰别规定感受"
+          ],
+          "reference": {
+            "path": "knowledge/books/B125.md",
+            "heading": "B125-27 先回应她的感受，开心也可一起高兴"
+          }
+        }
+      ]
     },
     "M12": {
       "aliases": [
@@ -197,7 +249,20 @@
       "preferred": {
         "path": "knowledge/topics/invitation-feedback.md",
         "heading": "提出一次具体邀请"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "把见面的日期和活动说清楚",
+            "约见面的时间和事情要具体",
+            "别靠花大钱换她答应"
+          ],
+          "reference": {
+            "path": "knowledge/books/B121.md",
+            "heading": "B121-44 约见选双方愿意的具体活动，不靠高消费换认可"
+          }
+        }
+      ]
     },
     "M15": {
       "aliases": [
@@ -239,7 +304,20 @@
       "preferred": {
         "path": "knowledge/topics/invitation-feedback.md",
         "heading": "没有替代安排时收住"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "没说哪天能见面",
+            "没主动提其他时间",
+            "不要隔几天再追着约"
+          ],
+          "reference": {
+            "path": "knowledge/books/B121.md",
+            "heading": "B121-46 没替代时间就收住，不建立每两周重邀名单"
+          }
+        }
+      ]
     },
     "M18": {
       "aliases": [
@@ -369,7 +447,20 @@
       "preferred": {
         "path": "system/REPLY_PROTOCOL.md",
         "heading": "一句自然话的取舍"
-      }
+      },
+      "focus_aliases": [
+        {
+          "phrases": [
+            "别像客服那样说话",
+            "说得像微信聊天一点",
+            "别给我好几个版本"
+          ],
+          "reference": {
+            "path": "system/REPLY_PROTOCOL.md",
+            "heading": "一句自然话的取舍"
+          }
+        }
+      ]
     }
   }
 }

@@ -87,10 +87,34 @@ def search(query, limit=8, root=ROOT, method=None, *, catalog=None):
                 'match_kind': kind, 'query_matched': query_matched}))
     hits.sort(key=lambda item: tuple(-int(x) for x in item[0]) +
               (item[1]['path'], item[1]['line']))
-    return [{key: item[key] for key in
+    results = [{key: item[key] for key in
              ['path', 'title', 'heading', 'line', 'end_line', 'snippet', 'method_ids',
               'section_method_ids', 'source_method_ids', 'match_kind', 'query_matched']}
-            for _rank, item in hits[:min(limit, 20)]]
+            for _rank, item in hits]
+    # Curated phrasing only fills a miss inside an already selected method.
+    # Existing literal/lookup matches always keep their original ordering.
+    if method and terms and not any(item['query_matched'] for item in results):
+        matched = {}
+        for rule in catalog.focus_aliases(method):
+            if any(phrase.casefold() in content_query.casefold() for phrase in rule['phrases']):
+                ref = rule['reference']
+                matched[(ref['path'], ref['heading'])] = ref
+        # Different targets in the same focus phrase need a human choice;
+        # do not silently select whichever alias is longer or listed first.
+        if len(matched) == 1:
+            key, ref = next(iter(matched.items()))
+            section = next(item for item in sections_at(ref['path'])
+                           if item['heading'] == ref['heading'])
+            mids = preferred.get(key, [])
+            row = {k: section[k] for k in ['path', 'title', 'heading', 'line', 'end_line']}
+            row.update(snippet='\n'.join(section['text'].splitlines()[1:])[:240],
+                       method_ids=mids, section_method_ids=sorted(section_cited[key]),
+                       source_method_ids=sorted(cited.get(ref['path'], set())),
+                       match_kind='preferred_section' if mids else 'cited_source_section',
+                       query_matched=True, match_basis='curated_phrase')
+            results = [row] + [item for item in results
+                               if (item['path'], item['heading']) != key]
+    return results[:min(limit, 20)]
 
 
 def main():

@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "f747c11264ae3da5dcddccd30bdbc945122d2ae4",
+  "runtime_version": "1.6.1",
+  "status": "passed",
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json",
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 155,
+    "new_test_methods": 13,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "baseline_retrieval_outputs_unchanged": 34,
+    "public_phrase_mappings_checked": 21,
+    "new_curated_phrase_hits": 20,
+    "existing_literal_or_lookup_phrase_hits_preserved": 1,
+    "existing_method_operations_sources_preferred_headings_and_route_conditions_preserved": true,
+    "reading119_actual108_plus11_scope_closures_unchanged": true,
+    "private_input_not_echoed_or_persisted": true,
+    "scope": "结构、精确段落绑定、虚构路由与检索检查，不验证真实截图识别、任意中文语义、自然口吻或恋爱效果。"
+  },
+  "structural_counts": {
+    "methods": 26,
+    "routes": 36,
+    "tasks": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "completed_book_tasks": 119
+  },
+  "phrase_results": [
+    {
+      "method": "M04",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M04",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-27 职业、经历与说明按问题本身回答",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M06",
+      "path": "knowledge/books/B106.md",
+      "heading": "B106-29 轻量角色与曲解让位于认真问题",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/topics/real-self-expression.md",
+      "heading": "一句真实表达",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/topics/real-self-expression.md",
+      "heading": "一句真实表达",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M10",
+      "path": "knowledge/topics/real-self-expression.md",
+      "heading": "一句真实表达",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B125.md",
+      "heading": "B125-27 先回应她的感受，开心也可一起高兴",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B125.md",
+      "heading": "B125-27 先回应她的感受，开心也可一起高兴",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M11",
+      "path": "knowledge/books/B125.md",
+      "heading": "B125-27 先回应她的感受，开心也可一起高兴",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B121.md",
+      "heading": "B121-44 约见选双方愿意的具体活动，不靠高消费换认可",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/topics/invitation-feedback.md",
+      "heading": "提出一次具体邀请",
+      "match_basis": "existing_literal_or_lookup",
+      "baseline_matched": true
+    },
+    {
+      "method": "M14",
+      "path": "knowledge/books/B121.md",
+      "heading": "B121-44 约见选双方愿意的具体活动，不靠高消费换认可",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B121.md",
+      "heading": "B121-46 没替代时间就收住，不建立每两周重邀名单",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B121.md",
+      "heading": "B121-46 没替代时间就收住，不建立每两周重邀名单",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M17",
+      "path": "knowledge/books/B121.md",
+      "heading": "B121-46 没替代时间就收住，不建立每两周重邀名单",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M26",
+      "path": "system/REPLY_PROTOCOL.md",
+      "heading": "一句自然话的取舍",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M26",
+      "path": "system/REPLY_PROTOCOL.md",
+      "heading": "一句自然话的取舍",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    },
+    {
+      "method": "M26",
+      "path": "system/REPLY_PROTOCOL.md",
+      "heading": "一句自然话的取舍",
+      "match_basis": "curated_phrase",
+      "baseline_matched": false
+    }
+  ],
+  "new_book_files_read": 0,
+  "new_method_source_bindings": 0,
+  "limitations": [
+    "Only curated public phrases inside a fixed method are supported.",
+    "Literal and existing lookup hits preserve their original ordering; 1 of 21 phrases already matched and stays unchanged.",
+    "Different alias targets fall back to the existing preferred paragraph.",
+    "No keyword-based fact inference, psychology score or language generation.",
+    "No real private chat or anonymized private case was written."
+  ],
+  "publication_preflight": {
+    "date": "2026-11-16",
+    "local_baseline_commit": "7301d36f07b9b9bde6a6bac1c9e86ce6813dda9a",
+    "fresh_validate_os": true,
+    "fresh_generated_views_check": true,
+    "fresh_unit_tests_passed": 155,
+    "current_recovery_entry_uses_active_version_heading": true,
+    "raw_source_records_method_operations_bindings_and_synthetic_fixtures_preserved": true,
+    "private_chat_or_private_case_added": false
+  }
+}

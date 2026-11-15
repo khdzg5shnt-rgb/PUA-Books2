@@ -107,6 +107,40 @@ class KnowledgeCatalog:
             self._preferred[method_id] = self.resolve(reference)
         return dict(self._preferred[method_id])
 
+    def focus_aliases(self, method_id):
+        """Validate public retrieval phrases against this method's exact bindings."""
+        self.preferred(method_id)
+        rules = self.lookup['methods'][method_id].get('focus_aliases', [])
+        if not isinstance(rules, list):
+            raise ValueError('Focus aliases must be a list of public phrase mappings')
+        seen = set()
+        for rule in rules:
+            if not isinstance(rule, dict) or set(rule) != {'phrases', 'reference'}:
+                raise ValueError('Focus aliases need phrases and one exact reference')
+            phrases, ref = rule['phrases'], rule['reference']
+            if (not isinstance(phrases, list) or not phrases or any(
+                    not isinstance(p, str) or not p.strip() or p != p.strip() or len(p) > 80
+                    for p in phrases)):
+                raise ValueError('Use nonempty public retrieval phrases of at most 80 characters')
+            for phrase in phrases:
+                if phrase.casefold() in seen:
+                    raise ValueError('Focus phrases must be distinct within one method')
+                seen.add(phrase.casefold())
+            if (not isinstance(ref, dict) or set(ref) != {'path', 'heading'} or
+                    any(not isinstance(value, str) or not value for value in ref.values())):
+                raise ValueError('A focus alias requires one exact path and heading')
+            bound = set()
+            for source in self.methods[method_id]['sources']:
+                if source['path'] == ref['path']:
+                    bound.update(citation_headings(source, self.sections(ref['path'])))
+            primary = self.lookup['methods'][method_id]['preferred']
+            if primary['path'] == ref['path']:
+                bound.add(primary['heading'])
+            if ref['heading'] not in bound:
+                raise ValueError('A focus alias must target an exact section bound to its method')
+            self.resolve(ref)
+        return rules
+
 
 def operation_catalog(root, catalog=None):
     if catalog is None:

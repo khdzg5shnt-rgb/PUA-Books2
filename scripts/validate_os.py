@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
-from knowledge import citation_headings, markdown_sections, method_reference
+from knowledge import KnowledgeCatalog, citation_headings, markdown_sections, method_reference
 from method_cards import check_documents
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -160,6 +160,12 @@ def validate(root=ROOT):
             method_reference(method_id,root)
         except (ValueError,KeyError,OSError):
             errors.append('Invalid preferred method section: '+method_id)
+    catalog = KnowledgeCatalog(root)
+    for method_id in method_ids:
+        try:
+            catalog.focus_aliases(method_id)
+        except (ValueError, KeyError, OSError, TypeError):
+            errors.append('Invalid method-scoped focus aliases: '+method_id)
     if set(tasks) != {'reply','meaning','analysis','review','training'}:
         errors.append('Task modes must contain the five supported tasks')
     if any(tasks.get('reply',{}).get(key) != value for key,value in

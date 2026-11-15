@@ -11,11 +11,12 @@ from runtime_io import read_request
 from search_knowledge import search
 
 
-def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=False):
+def check_candidate(candidate, task, action, *, max_questions=1, max_lines=2, allow_empty=False):
     """Check structure only; no claim to verify facts, tone or dating outcomes."""
     issues = []
     if task != 'reply':
         return {'ok': False, 'issues': ['草稿检查仅用于本轮怎么回'],
+                'manual_review_required': True,
                 'scope': '不评价事实、自然程度或关系效果'}
     if not isinstance(candidate, str):
         issues.append('只接受一条文字草稿，不接受多个候选')
@@ -26,15 +27,28 @@ def check_candidate(candidate, task, action, *, max_questions=1, allow_empty=Fal
         if not allow_empty:
             issues.append('本轮选择回复，但草稿为空')
     else:
-        if len(candidate.strip().splitlines()) > 2:
+        if len(candidate.strip().splitlines()) > max_lines:
             issues.append('默认回复最多两行')
+        # A string can package several alternatives just as a JSON list can.
+        # Match explicit labels, not B栋 or two dates in a natural sentence.
+        labels = re.findall(
+            r'(?:^|\n|[;；])[ \t]*(?:[-*][ \t]+)?(?:\*\*)?'
+            r'(?:版本[一二三四五六七八九十\d]+[：:]|'
+            r'方案[一二三四五六七八九十\d]+[：:]|'
+            r'回复[一二三四五六七八九十\d]+[：:]|'
+            r'[A-Ca-c][.、：:)）]|[1-9][.、：:)）](?!\d))', candidate)
+        if len(labels) > 1:
+            issues.append('草稿包含多个编号版本，只保留一个成品')
+        if re.search(r'^\s*```|\n\s*```', candidate):
+            issues.append('成品不带代码围栏，只保留可发送正文')
         if len(re.findall(r'[?？]+', candidate)) > max_questions:
             issues.append('本轮只需简短承接，不追加问题' if max_questions == 0
                           else '本轮最多一个问题')
         if re.search(r'\{[^{}\n]+\}|\[(?:时间|地点|姓名|待确认)\]', candidate):
             issues.append('草稿仍有未替换的事实占位符')
-    return {'ok': not issues, 'issues': issues,
-            'scope': '仅检查单条、行数、问号和占位符；事实与口吻仍须核对'}
+    return {'ok': not issues, 'issues': issues, 'manual_review_required': True,
+            'scope': '仅检查文字结构、显式多版本、行数、问号、占位符和代码围栏；'
+                     '不识别所有隐含备选或语义问句，事实与口吻仍须人工核对'}
 
 
 def _select_case(request, case_key):
@@ -109,7 +123,8 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
                       catalog=catalog)
         if hits and hits[0]['query_matched']:
             source = catalog.resolve(hits[0])
-            retrieval['mode'] = 'focused_cited_source'
+            retrieval['mode'] = ('curated_phrase' if hits[0].get('match_basis') == 'curated_phrase'
+                                 else 'focused_cited_source')
     contract = dict(tasks[selected_task])
     revision = None
     if 'revision' in request:
@@ -186,6 +201,7 @@ def build_brief(request, root=ROOT, task=None, case_key=None):
         result['candidate_check'] = check_candidate(
             request['candidate'], selected_task, decision['action'],
             max_questions=contract.get('max_questions', 1),
+            max_lines=contract.get('max_lines', 2),
             allow_empty=contract.get('allow_no_message', False))
     return result
 

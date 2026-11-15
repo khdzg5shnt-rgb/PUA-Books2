@@ -1,4 +1,14 @@
-# 检查范围
+# 当前检查范围
+
+<!-- CURRENT_SYSTEM_VALIDATION -->
+2026-11-16：运行1.6.1，119/119队列保持关闭。结构、方法视图同步、155项测试（新增13项）与158个既有虚构路由场景通过；34组旧检索输出不变，21个说法核查为20个补充命中、1个原命中保留。[本轮验证](../knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json) · [维护说明](../knowledge/provenance/OS_focus_aliases_2026-11-16.md)。
+<!-- END_CURRENT_SYSTEM_VALIDATION -->
+
+## 历史检查记录（以下各项按其日期和范围阅读）
+
+2026-11-16，1.6.0：结构、视图同步、142项测试、158个既有虚构场景与8个CLI示例通过。[检查](../knowledge/provenance/OS_practice_delivery_validation_2026-11-16.json)。
+
+### 原有检查说明
 
 2026-11-14本轮只维护系统，阅读暂停，92/119与B098第1页书签保持。修正同轮求助优先，并增加显式请求解决/撤回标记；取消、改期和具体边界独立保留。运行1.5.3；结构检查、119项单元测试、158个既有虚构路由场景与4个新CLI示例通过。见[维护说明](../knowledge/provenance/OS_request_resolutions_2026-11-14.md)与[本轮检查](../knowledge/provenance/OS_request_resolutions_validation_2026-11-14.json)。下方均属各自历史检查范围。
 
