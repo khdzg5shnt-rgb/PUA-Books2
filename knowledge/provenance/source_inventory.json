@@ -16900,8 +16900,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B6%85%E7%BA%A7%E5%90%B8%E5%BC%95%E5%8A%9B%20-%20Jacob.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B113.md",
       "pages": 101,
       "spine_items": null,
       "ocr": {
@@ -16909,7 +16909,51 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B113_reading_2026-11-15.json",
+      "coverage_mode": "direct_ordered_native_PDF_text_with_cover_image_visual_read_selected_layout_review_and_independent_extractor_comparison",
+      "completion_kind": "actual_supplied_PDF_all101_native_pages_read_plus_cover_and_two_original_speaker_order_checks",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "645a6f33e8c2fc8ff019f8960e8ee3e5398f860aaf3acd5ba7117ecb9b2bcd1f",
+      "latest_reading": {
+        "date": "2026-11-15",
+        "ledger": "knowledge/provenance/B113_reading_2026-11-15.json",
+        "native_characters": 112664,
+        "native_pages_read": 101,
+        "OCR_run": false,
+        "visual_layout_pages": [
+          1,
+          2,
+          5,
+          50,
+          69,
+          70,
+          101
+        ],
+        "layout_overview_pages": 101,
+        "cover_raster_image_visually_read": true,
+        "raw_strict_exact_pages": 1,
+        "adjusted_strict_exact_pages": 99,
+        "character_multiset_exact_pages": 101,
+        "remaining_speaker_order_difference_pages_reviewed": [
+          69,
+          70
+        ],
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "未与正式出版物或作者其他版本逐字校勘，不认证原版完整性、版权许可与课程权威",
+          "样本自报、演化解释、潜交流、人格及身份定位、成功保证和效果数字未经本轮原始研究核验，不当心理或约会效果证据",
+          "健康与防护段落已实际读取但未做医学核验，不由本课程生成医疗、药物风险或防护效果结论",
+          "全书反复推广的VIP、网站与外部补充未访问、购买、注册或外发，不算随本文件已读",
+          "原书的读心、服从、奖惩、激将、隐藏目的地与绕过拒绝不成为行动规则；原文长段、照片、私人对话及匿名私人情节不重发"
+        ],
+        "original_note_groups": 62,
+        "new_exact_method_section_bindings": 223
+      }
     },
     {
       "index": 114,
@@ -17234,5 +17278,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B112 current124 pages read in13 ordered batches plus recovered TOC output;136248 native chars include501 broken-font characters;77 heading and24 diagram regions visually reviewed;100 adjusted strict-order and124 multiset-equal pages;51 original notes,160 exact citations;106/119=99 current coverages including B100 reuse+7 historical scope closures;next B113 P1 unopened."
+  "latest_reading_update": "2026-11-15:B113 all101 native pages read in11 ordered batches;112664 native chars plus separately visually read cover text;1 raw strict and99 adjusted strict exact pages after only repeated-footer position adjustment,101 character multisets;P69-P70 speaker order visually checked;62 original notes,223 exact citations;107/119=100 current coverages including B100 reuse+7 historical scope closures;next B114 EPUB first spine index0 character0 body unopened."
 }

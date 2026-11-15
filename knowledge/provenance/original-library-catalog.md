@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成106/119份任务，无部分处理文件、13份未开始。99份当前内容已覆盖（含历史B100严格同文复用），7份依用户授权结束并保留缺口。本轮B112《谜男方法 - 谜男》124物理页顺序读取，并补核77处乱码标题与24页图表区域；新增51组原创笔记、160处精确方法引用。下一唯一主读B113物理P1字符0，正文未打开。[本轮记录](B112_progress_2026-11-15.md)。
+当前完成107/119份任务，无部分处理文件、12份未开始。100份当前内容已覆盖（含历史B100严格同文复用），7份依用户授权结束并保留缺口。本轮B113《超级吸引力 - Jacob》101物理页、112664原生提取字符顺序读完，封面图中文字另已目读；新增62组原创笔记、223处精确方法引用。下一唯一主读B114 EPUB第一个spine条目（零基索引0）字符0，正文未打开。[本轮记录](B113_progress_2026-11-15.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -125,7 +125,7 @@
 | B110 | [诱惑艺术 - 谜男.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%AF%B1%E6%83%91%E8%89%BA%E6%9C%AF%20-%20%E8%B0%9C%E7%94%B7.pdf) | 170 | 170页、141640原生提取字符依序读完；55组笔记，原版及外部资源另计 | [笔记](../books/B110.md) |
 | B111 | [谜男启示录 - 谜男.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B0%9C%E7%94%B7%E5%90%AF%E7%A4%BA%E5%BD%95%20-%20%E8%B0%9C%E7%94%B7.pdf) | 185 | 185页、156478原生提取字符顺序读完；62组原创笔记，原版及外部资料另计 | [笔记](../books/B111.md) |
 | B112 | [谜男方法 - 谜男.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B0%9C%E7%94%B7%E6%96%B9%E6%B3%95%20-%20%E8%B0%9C%E7%94%B7.pdf) | 124 | 124页文字及77处乱码标题、24页图表区域已覆盖；51组原创笔记，原版及外部资料另计 | [笔记](../books/B112.md) |
-| B113 | [超级吸引力 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B6%85%E7%BA%A7%E5%90%B8%E5%BC%95%E5%8A%9B%20-%20Jacob.pdf) | 101 | 已提取/未读 | — |
+| B113 | [超级吸引力 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B6%85%E7%BA%A7%E5%90%B8%E5%BC%95%E5%8A%9B%20-%20Jacob.pdf) | 101 | 101页文字及封面图已读；62组原创笔记，原版及外部资料另计 | [笔记](../books/B113.md) |
 | B114 | [迷上我 - 成真.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E4%B8%8A%E6%88%91%20-%20%E6%88%90%E7%9C%9F.epub) | 50 | 已提取/未读 | — |
 | B115 | [迷男方法.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E7%94%B7%E6%96%B9%E6%B3%95.pdf) | 125 | 已提取/未读 | — |
 | B116 | [逆向恋爱术 - 蓝冰.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%80%86%E5%90%91%E6%81%8B%E7%88%B1%E6%9C%AF%20-%20%E8%93%9D%E5%86%B0.pdf) | 118 | 已提取/未读 | — |

@@ -1,0 +1,1378 @@
+{
+  "status": "passed",
+  "file_id": "B113",
+  "baseline": "4c49407b8b1feb8885abe9428d7a5bccca2d6ecb",
+  "checks": {
+    "prior_method_actions_source_prefixes_preferred_sections_routes_tasks_preserved": true,
+    "all126_original_blob_identities_and_other_book_records_preserved": true,
+    "all101_contiguous_page_ranges_hashes_and11_actual_reading_batches_verified": true,
+    "99_adjusted_strict_pages_101_character_multisets_and2_speaker_order_original_checks": true,
+    "cover_raster_text7_original_pages_and101_thumbnail_scope_separately_recorded": true,
+    "all101_crop_media_boxes_and_single_header_vector_lines_verified": true,
+    "all223_exact_method_section_queries_and3_unbound_scope_queries_passed": true,
+    "all62_sections_excluded_from_uncited_method": true,
+    "107_finished_100_current_coverages7_historical_closures_and_B114_EPUB_unopened_consistent": true,
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 127,
+    "git_diff_check": true
+  },
+  "new_exact_method_retrievals": [
+    {
+      "method": "M08",
+      "heading": "B113-02 作者经历、样本自报和成功保证不作实证证据",
+      "query": "B113-02",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-03 善意、真实分歧与展示各自看内容",
+      "query": "B113-03",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B113-03 善意、真实分歧与展示各自看内容",
+      "query": "B113-03",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-03 善意、真实分歧与展示各自看内容",
+      "query": "B113-03",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-03 善意、真实分歧与展示各自看内容",
+      "query": "B113-03",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-04 拒绝原因未知时不归因外貌或技巧",
+      "query": "B113-04",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-04 拒绝原因未知时不归因外貌或技巧",
+      "query": "B113-04",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-04 拒绝原因未知时不归因外貌或技巧",
+      "query": "B113-04",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-05 练习针对表达动作而不是获得某个人",
+      "query": "B113-05",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-05 练习针对表达动作而不是获得某个人",
+      "query": "B113-05",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-06 演化叙事与声呐比喻不提供读心能力",
+      "query": "B113-06",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-06 演化叙事与声呐比喻不提供读心能力",
+      "query": "B113-06",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-07 声音姿态服务听清与舒适，不用来判定地位",
+      "query": "B113-07",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-07 声音姿态服务听清与舒适，不用来判定地位",
+      "query": "B113-07",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-07 声音姿态服务听清与舒适，不用来判定地位",
+      "query": "B113-07",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-07 声音姿态服务听清与舒适，不用来判定地位",
+      "query": "B113-07",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-08 直接回应实际请求，再展示真实信息",
+      "query": "B113-08",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-08 直接回应实际请求，再展示真实信息",
+      "query": "B113-08",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-08 直接回应实际请求，再展示真实信息",
+      "query": "B113-08",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-08 直接回应实际请求，再展示真实信息",
+      "query": "B113-08",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-09 偏好与行为可分别观察，拒绝仍然有效",
+      "query": "B113-09",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-09 偏好与行为可分别观察，拒绝仍然有效",
+      "query": "B113-09",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-09 偏好与行为可分别观察，拒绝仍然有效",
+      "query": "B113-09",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-10 相处与关系确认分开，亲密不自动取得身份",
+      "query": "B113-10",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-10 相处与关系确认分开，亲密不自动取得身份",
+      "query": "B113-10",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-10 相处与关系确认分开，亲密不自动取得身份",
+      "query": "B113-10",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-11 从当下情境开场，普通问答也能正常存在",
+      "query": "B113-11",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-11 从当下情境开场，普通问答也能正常存在",
+      "query": "B113-11",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-11 从当下情境开场，普通问答也能正常存在",
+      "query": "B113-11",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-11 从当下情境开场，普通问答也能正常存在",
+      "query": "B113-11",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-11 从当下情境开场，普通问答也能正常存在",
+      "query": "B113-11",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B113-12 让话题容易接，不承包固定比例的聊天",
+      "query": "B113-12",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-12 让话题容易接，不承包固定比例的聊天",
+      "query": "B113-12",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-12 让话题容易接，不承包固定比例的聊天",
+      "query": "B113-12",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-13 共同玩笑需要双方接梗，物品与帮助不能设关卡",
+      "query": "B113-13",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B113-13 共同玩笑需要双方接梗，物品与帮助不能设关卡",
+      "query": "B113-13",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-13 共同玩笑需要双方接梗，物品与帮助不能设关卡",
+      "query": "B113-13",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-13 共同玩笑需要双方接梗，物品与帮助不能设关卡",
+      "query": "B113-13",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-13 共同玩笑需要双方接梗，物品与帮助不能设关卡",
+      "query": "B113-13",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-14 幽默不负责任何人必须开心",
+      "query": "B113-14",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-14 幽默不负责任何人必须开心",
+      "query": "B113-14",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-14 幽默不负责任何人必须开心",
+      "query": "B113-14",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B113-14 幽默不负责任何人必须开心",
+      "query": "B113-14",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-15 观察必须有依据可纠正，不用泛化冷读制造秘密",
+      "query": "B113-15",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-15 观察必须有依据可纠正，不用泛化冷读制造秘密",
+      "query": "B113-15",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B113-15 观察必须有依据可纠正，不用泛化冷读制造秘密",
+      "query": "B113-15",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-15 观察必须有依据可纠正，不用泛化冷读制造秘密",
+      "query": "B113-15",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-16 接受结果不等于无视对方感受",
+      "query": "B113-16",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-16 接受结果不等于无视对方感受",
+      "query": "B113-16",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-16 接受结果不等于无视对方感受",
+      "query": "B113-16",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-17 欣赏和角色玩笑不执行扬抑奖惩循环",
+      "query": "B113-17",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B113-17 欣赏和角色玩笑不执行扬抑奖惩循环",
+      "query": "B113-17",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B113-17 欣赏和角色玩笑不执行扬抑奖惩循环",
+      "query": "B113-17",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-17 欣赏和角色玩笑不执行扬抑奖惩循环",
+      "query": "B113-17",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-17 欣赏和角色玩笑不执行扬抑奖惩循环",
+      "query": "B113-17",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-18 问题和异议不预设是兴趣测试",
+      "query": "B113-18",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-18 问题和异议不预设是兴趣测试",
+      "query": "B113-18",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-18 问题和异议不预设是兴趣测试",
+      "query": "B113-18",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-18 问题和异议不预设是兴趣测试",
+      "query": "B113-18",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-19 小反差要接得上原话，认真情绪优先",
+      "query": "B113-19",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-19 小反差要接得上原话，认真情绪优先",
+      "query": "B113-19",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-19 小反差要接得上原话，认真情绪优先",
+      "query": "B113-19",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-19 小反差要接得上原话，认真情绪优先",
+      "query": "B113-19",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-20 拒绝不被检验论和她追我框架改写",
+      "query": "B113-20",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-20 拒绝不被检验论和她追我框架改写",
+      "query": "B113-20",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-20 拒绝不被检验论和她追我框架改写",
+      "query": "B113-20",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-20 拒绝不被检验论和她追我框架改写",
+      "query": "B113-20",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-21 认真关切先答，不能用曲解掩盖身份与期待",
+      "query": "B113-21",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-21 认真关切先答，不能用曲解掩盖身份与期待",
+      "query": "B113-21",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-21 认真关切先答，不能用曲解掩盖身份与期待",
+      "query": "B113-21",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B113-21 认真关切先答，不能用曲解掩盖身份与期待",
+      "query": "B113-21",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-21 认真关切先答，不能用曲解掩盖身份与期待",
+      "query": "B113-21",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-22 生气与不接梗不授权亲吻或忽略",
+      "query": "B113-22",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B113-22 生气与不接梗不授权亲吻或忽略",
+      "query": "B113-22",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-22 生气与不接梗不授权亲吻或忽略",
+      "query": "B113-22",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-22 生气与不接梗不授权亲吻或忽略",
+      "query": "B113-22",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-23 投入与实际了解不依赖见面次数或高低关系",
+      "query": "B113-23",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-23 投入与实际了解不依赖见面次数或高低关系",
+      "query": "B113-23",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-23 投入与实际了解不依赖见面次数或高低关系",
+      "query": "B113-23",
+      "passed": true
+    },
+    {
+      "method": "M18",
+      "heading": "B113-23 投入与实际了解不依赖见面次数或高低关系",
+      "query": "B113-23",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B113-23 投入与实际了解不依赖见面次数或高低关系",
+      "query": "B113-23",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-24 尴尬和话题浅不证明关系阶段或婚姻危机",
+      "query": "B113-24",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-24 尴尬和话题浅不证明关系阶段或婚姻危机",
+      "query": "B113-24",
+      "passed": true
+    },
+    {
+      "method": "M24",
+      "heading": "B113-24 尴尬和话题浅不证明关系阶段或婚姻危机",
+      "query": "B113-24",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-25 清楚自然的表达不用表演固定神态",
+      "query": "B113-25",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-25 清楚自然的表达不用表演固定神态",
+      "query": "B113-25",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-25 清楚自然的表达不用表演固定神态",
+      "query": "B113-25",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-26 真实职业与兴趣可以成为话题",
+      "query": "B113-26",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-26 真实职业与兴趣可以成为话题",
+      "query": "B113-26",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-26 真实职业与兴趣可以成为话题",
+      "query": "B113-26",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-26 真实职业与兴趣可以成为话题",
+      "query": "B113-26",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-27 明确建议与替别人决定分开",
+      "query": "B113-27",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-27 明确建议与替别人决定分开",
+      "query": "B113-27",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-27 明确建议与替别人决定分开",
+      "query": "B113-27",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-27 明确建议与替别人决定分开",
+      "query": "B113-27",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-28 关键词先保留语境，再决定是否轻量接梗",
+      "query": "B113-28",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B113-28 关键词先保留语境，再决定是否轻量接梗",
+      "query": "B113-28",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-28 关键词先保留语境，再决定是否轻量接梗",
+      "query": "B113-28",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-28 关键词先保留语境，再决定是否轻量接梗",
+      "query": "B113-28",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-29 目光交流不是坚持到对方先退的比赛",
+      "query": "B113-29",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-29 目光交流不是坚持到对方先退的比赛",
+      "query": "B113-29",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-29 目光交流不是坚持到对方先退的比赛",
+      "query": "B113-29",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-30 停顿与共同兴趣须真实，不用悬念给对方压力",
+      "query": "B113-30",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-31 理解具体感受，不替她猜定情绪来源",
+      "query": "B113-31",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-31 理解具体感受，不替她猜定情绪来源",
+      "query": "B113-31",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-31 理解具体感受，不替她猜定情绪来源",
+      "query": "B113-31",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-31 理解具体感受，不替她猜定情绪来源",
+      "query": "B113-31",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-32 分享相近真实经历，给双方参与的空间",
+      "query": "B113-32",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B113-32 分享相近真实经历，给双方参与的空间",
+      "query": "B113-32",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-32 分享相近真实经历，给双方参与的空间",
+      "query": "B113-32",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B113-32 分享相近真实经历，给双方参与的空间",
+      "query": "B113-32",
+      "passed": true
+    },
+    {
+      "method": "M09",
+      "heading": "B113-33 具体欣赏基于事实，不设固定季度配额",
+      "query": "B113-33",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-33 具体欣赏基于事实，不设固定季度配额",
+      "query": "B113-33",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-34 共同回忆与角色想象不伪造既有关系",
+      "query": "B113-34",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B113-34 共同回忆与角色想象不伪造既有关系",
+      "query": "B113-34",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B113-34 共同回忆与角色想象不伪造既有关系",
+      "query": "B113-34",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-34 共同回忆与角色想象不伪造既有关系",
+      "query": "B113-34",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-35 脆弱面真实且自愿，不表演悲伤配合酒精",
+      "query": "B113-35",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-35 脆弱面真实且自愿，不表演悲伤配合酒精",
+      "query": "B113-35",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-35 脆弱面真实且自愿，不表演悲伤配合酒精",
+      "query": "B113-35",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-35 脆弱面真实且自愿，不表演悲伤配合酒精",
+      "query": "B113-35",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-36 一次接触的接受不授权另一种亲密行为",
+      "query": "B113-36",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-36 一次接触的接受不授权另一种亲密行为",
+      "query": "B113-36",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-37 想了解就真实答，不用反问和否认好感防御",
+      "query": "B113-37",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-37 想了解就真实答，不用反问和否认好感防御",
+      "query": "B113-37",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-37 想了解就真实答，不用反问和否认好感防御",
+      "query": "B113-37",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-38 关心按实际需要，不一概禁止或强加",
+      "query": "B113-38",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-38 关心按实际需要，不一概禁止或强加",
+      "query": "B113-38",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-38 关心按实际需要，不一概禁止或强加",
+      "query": "B113-38",
+      "passed": true
+    },
+    {
+      "method": "M21",
+      "heading": "B113-39 被拒后停止具体方向，不奖惩也不救场否认",
+      "query": "B113-39",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-39 被拒后停止具体方向，不奖惩也不救场否认",
+      "query": "B113-39",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-39 被拒后停止具体方向，不奖惩也不救场否认",
+      "query": "B113-39",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-40 顺着她的兴致接一句，不为胜过她而抬杠",
+      "query": "B113-40",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-40 顺着她的兴致接一句，不为胜过她而抬杠",
+      "query": "B113-40",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B113-40 顺着她的兴致接一句，不为胜过她而抬杠",
+      "query": "B113-40",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-40 顺着她的兴致接一句，不为胜过她而抬杠",
+      "query": "B113-40",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B113-41 故事和玩笑留回应空间，不要求她笑出来",
+      "query": "B113-41",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-41 故事和玩笑留回应空间，不要求她笑出来",
+      "query": "B113-41",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-41 故事和玩笑留回应空间，不要求她笑出来",
+      "query": "B113-41",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-41 故事和玩笑留回应空间，不要求她笑出来",
+      "query": "B113-41",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-42 共情不必立刻把她变开心",
+      "query": "B113-42",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-42 共情不必立刻把她变开心",
+      "query": "B113-42",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B113-42 共情不必立刻把她变开心",
+      "query": "B113-42",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-42 共情不必立刻把她变开心",
+      "query": "B113-42",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-43 环境开场用自己确知的细节，不假装专家",
+      "query": "B113-43",
+      "passed": true
+    },
+    {
+      "method": "M04",
+      "heading": "B113-43 环境开场用自己确知的细节，不假装专家",
+      "query": "B113-43",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-43 环境开场用自己确知的细节，不假装专家",
+      "query": "B113-43",
+      "passed": true
+    },
+    {
+      "method": "M20",
+      "heading": "B113-43 环境开场用自己确知的细节，不假装专家",
+      "query": "B113-43",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-43 环境开场用自己确知的细节，不假装专家",
+      "query": "B113-43",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-44 具体外观观察可以轻松说，不推断隐藏人格",
+      "query": "B113-44",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-44 具体外观观察可以轻松说，不推断隐藏人格",
+      "query": "B113-44",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-44 具体外观观察可以轻松说，不推断隐藏人格",
+      "query": "B113-44",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-45 介绍与多人开场尊重所有人，不制造假旧识",
+      "query": "B113-45",
+      "passed": true
+    },
+    {
+      "method": "M05",
+      "heading": "B113-45 介绍与多人开场尊重所有人，不制造假旧识",
+      "query": "B113-45",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-45 介绍与多人开场尊重所有人，不制造假旧识",
+      "query": "B113-45",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B113-45 介绍与多人开场尊重所有人，不制造假旧识",
+      "query": "B113-45",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-45 介绍与多人开场尊重所有人，不制造假旧识",
+      "query": "B113-45",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-46 交换联系方式依自愿，收号不是兴趣保证",
+      "query": "B113-46",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-46 交换联系方式依自愿，收号不是兴趣保证",
+      "query": "B113-46",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-46 交换联系方式依自愿，收号不是兴趣保证",
+      "query": "B113-46",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-46 交换联系方式依自愿，收号不是兴趣保证",
+      "query": "B113-46",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-47 接纳筛选结果不靠夸大自身或贬低对方",
+      "query": "B113-47",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-47 接纳筛选结果不靠夸大自身或贬低对方",
+      "query": "B113-47",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-47 接纳筛选结果不靠夸大自身或贬低对方",
+      "query": "B113-47",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-47 接纳筛选结果不靠夸大自身或贬低对方",
+      "query": "B113-47",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-47 接纳筛选结果不靠夸大自身或贬低对方",
+      "query": "B113-47",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-48 失约看已确认安排和实际影响",
+      "query": "B113-48",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-48 失约看已确认安排和实际影响",
+      "query": "B113-48",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B113-48 失约看已确认安排和实际影响",
+      "query": "B113-48",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B113-48 失约看已确认安排和实际影响",
+      "query": "B113-48",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-48 失约看已确认安排和实际影响",
+      "query": "B113-48",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M16",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M17",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-49 线上邀约说明具体活动，不要求推翻她的安排",
+      "query": "B113-49",
+      "passed": true
+    },
+    {
+      "method": "M02",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M03",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M11",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M13",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M26",
+      "heading": "B113-50 消息节奏按真实生活和当前轮次，不用惩罚计时",
+      "query": "B113-50",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-51 赴约不授权入户，不设计遗漏与紧急情况",
+      "query": "B113-51",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-51 赴约不授权入户，不设计遗漏与紧急情况",
+      "query": "B113-51",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-51 赴约不授权入户，不设计遗漏与紧急情况",
+      "query": "B113-51",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-51 赴约不授权入户，不设计遗漏与紧急情况",
+      "query": "B113-51",
+      "passed": true
+    },
+    {
+      "method": "M12",
+      "heading": "B113-52 活动按双方兴趣和现实条件，不制造情绪错觉",
+      "query": "B113-52",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-52 活动按双方兴趣和现实条件，不制造情绪错觉",
+      "query": "B113-52",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-52 活动按双方兴趣和现实条件，不制造情绪错觉",
+      "query": "B113-52",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-52 活动按双方兴趣和现实条件，不制造情绪错觉",
+      "query": "B113-52",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-53 不设身体部位与时间阶梯，不假装意外接触",
+      "query": "B113-53",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-53 不设身体部位与时间阶梯，不假装意外接触",
+      "query": "B113-53",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-54 不要与推开按原义停止，不退一步再继续试探",
+      "query": "B113-54",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-54 不要与推开按原义停止，不退一步再继续试探",
+      "query": "B113-54",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-54 不要与推开按原义停止，不退一步再继续试探",
+      "query": "B113-54",
+      "passed": true
+    },
+    {
+      "method": "M14",
+      "heading": "B113-55 时间、通信与离开便利属于本人选择",
+      "query": "B113-55",
+      "passed": true
+    },
+    {
+      "method": "M15",
+      "heading": "B113-55 时间、通信与离开便利属于本人选择",
+      "query": "B113-55",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-55 时间、通信与离开便利属于本人选择",
+      "query": "B113-55",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-55 时间、通信与离开便利属于本人选择",
+      "query": "B113-55",
+      "passed": true
+    },
+    {
+      "method": "M01",
+      "heading": "B113-57 自我认可不排斥真实反馈，也不猜生理原因",
+      "query": "B113-57",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-57 自我认可不排斥真实反馈，也不猜生理原因",
+      "query": "B113-57",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-57 自我认可不排斥真实反馈，也不猜生理原因",
+      "query": "B113-57",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-57 自我认可不排斥真实反馈，也不猜生理原因",
+      "query": "B113-57",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-58 身份表达依真实经历，不用潜意识决定成败",
+      "query": "B113-58",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-58 身份表达依真实经历，不用潜意识决定成败",
+      "query": "B113-58",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-58 身份表达依真实经历，不用潜意识决定成败",
+      "query": "B113-58",
+      "passed": true
+    },
+    {
+      "method": "M08",
+      "heading": "B113-59 做自己以事实和边界为准，不以身份想象自证",
+      "query": "B113-59",
+      "passed": true
+    },
+    {
+      "method": "M10",
+      "heading": "B113-59 做自己以事实和边界为准，不以身份想象自证",
+      "query": "B113-59",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-59 做自己以事实和边界为准，不以身份想象自证",
+      "query": "B113-59",
+      "passed": true
+    },
+    {
+      "method": "M06",
+      "heading": "B113-60 橡皮筋与回马枪只作来源审阅，不用情绪拉扯取悦",
+      "query": "B113-60",
+      "passed": true
+    },
+    {
+      "method": "M07",
+      "heading": "B113-60 橡皮筋与回马枪只作来源审阅，不用情绪拉扯取悦",
+      "query": "B113-60",
+      "passed": true
+    },
+    {
+      "method": "M19",
+      "heading": "B113-60 橡皮筋与回马枪只作来源审阅，不用情绪拉扯取悦",
+      "query": "B113-60",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-60 橡皮筋与回马枪只作来源审阅，不用情绪拉扯取悦",
+      "query": "B113-60",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-60 橡皮筋与回马枪只作来源审阅，不用情绪拉扯取悦",
+      "query": "B113-60",
+      "passed": true
+    },
+    {
+      "method": "M22",
+      "heading": "B113-61 离开与饮酒时不激将索取联系方式",
+      "query": "B113-61",
+      "passed": true
+    },
+    {
+      "method": "M23",
+      "heading": "B113-61 离开与饮酒时不激将索取联系方式",
+      "query": "B113-61",
+      "passed": true
+    },
+    {
+      "method": "M25",
+      "heading": "B113-61 离开与饮酒时不激将索取联系方式",
+      "query": "B113-61",
+      "passed": true
+    }
+  ],
+  "unbound_global_retrievals": [
+    {
+      "heading": "B113-01 当前课程PDF身份与阅读范围单列",
+      "query": "B113-01",
+      "passed": true
+    },
+    {
+      "heading": "B113-56 健康段落仅作范围记录，不由课程得出防护结论",
+      "query": "B113-56",
+      "passed": true
+    },
+    {
+      "heading": "B113-62 卷末与反复外部推广另列范围",
+      "query": "B113-62",
+      "passed": true
+    }
+  ],
+  "scope": "identity, actual reading and visual coverage, section retrieval and preservation; no psychological, medical or dating-effectiveness validation"
+}
