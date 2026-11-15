@@ -1,92 +1,472 @@
 {
   "schema_version": 1,
   "updated": "2026-11-15",
-  "current_focus": "B114_next_after_B113_current101_pages_and_cover_read",
+  "current_focus": "B115_next_after_B114_readable_EPUB_text_and18_retained_source_gaps",
   "status": "ready_for_next_file",
-  "base_commit": "4c49407b8b1feb8885abe9428d7a5bccca2d6ecb",
+  "base_commit": "ad7ca9cff8e36a33de00ff5b78c63110867749d4",
   "reading_paused_for_this_round": false,
   "new_book_files_completed_this_round": 1,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B113_progress_2026-11-15.md",
-  "validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+  "report": "knowledge/provenance/B114_progress_2026-11-15.md",
+  "validation": "knowledge/provenance/B114_validation_2026-11-15.json",
   "reading_bookmark": {
-    "id": "B114",
-    "path": "迷上我 - 成真.epub",
-    "bytes": 363570,
-    "git_blob_sha": "99e0eca4941da9cf1131a9e7782fb7441ae91541",
+    "id": "B115",
+    "path": "迷男方法.pdf",
+    "bytes": 1455543,
+    "git_blob_sha": "dfbfcd006bd32d7a6d31cb968992626ea421eaf3",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "epub",
-    "next_spine_index": 0,
-    "spine_index_base": 0,
+    "format": "pdf",
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B113当前101页文字与封面图已读；62组笔记、223处引用先保存提交。下一唯一主读B114《迷上我 - 成真.epub》，清单50个spine条目，从第一个条目（零基索引0）字符0开始，正文未打开。",
-    "next_content_unit": "Read B114 EPUB from first spine item (zero-based index0), character0 only after B113 reading, notes and checkpoint are committed; body unopened."
+    "start": "B114当前50条可辨文本已读，18处源损坏保留并授权结束；100组笔记、362处引用先保存提交。下一唯一主读B115《迷男方法.pdf》，清单125页，从物理页1字符0开始，正文未打开。",
+    "next_content_unit": "Read B115 PDF from physical page1 character0 only after B114 readable text, retained18 corrupted positions, notes and checkpoint are committed; body unopened."
   },
-  "next_work": "Read B114 EPUB from first spine item (zero-based index0), character0 only after B113 reading, notes and checkpoint are committed; body unopened.",
+  "next_work": "Read B115 PDF from physical page1 character0 only after B114 readable text, retained18 corrupted positions, notes and checkpoint are committed; body unopened.",
   "current_session_progress": {
-    "baseline": "4c49407b8b1feb8885abe9428d7a5bccca2d6ecb",
+    "baseline": "ad7ca9cff8e36a33de00ff5b78c63110867749d4",
     "runtime_version": "1.5.4",
-    "work_type": "actual_supplied_PDF_all101_native_pages_read_plus_cover_and_two_original_speaker_order_checks",
+    "work_type": "all50_EPUB_spine_readable_body_texts_read_in22_ordered_batches_with18_source_replacement_entities_retained",
     "new_book_files_started": [
-      "B113"
+      "B114"
     ],
     "new_book_files_completed": [
-      "B113"
+      "B114"
     ],
-    "actually_completed_file_ids": [
-      "B113"
+    "actually_completed_file_ids": [],
+    "new_whole_book_files_actually_read": 0,
+    "user_accepted_scope_closure_ids": [
+      "B114"
     ],
-    "new_whole_book_files_actually_read": 1,
-    "user_accepted_scope_closure_ids": [],
-    "new_native_characters_read": 112664,
-    "new_native_text_pages_read": 101,
+    "new_native_characters_read": 208580,
+    "native_character_count_includes18_source_replacement_placeholders": true,
+    "new_EPUB_spine_items_read": 50,
     "new_OCR_characters_read": 0,
-    "new_unique_original_visual_pages": 7,
-    "original_note_groups": 62,
-    "new_method_source_bindings": 223,
+    "new_unique_original_visual_pages": 0,
+    "original_note_groups": 100,
+    "new_method_source_bindings": 362,
     "new_method_operations": [],
-    "all_current_supplied_file_content_read": true,
-    "raw_strict_nonwhitespace_exact_pages": 1,
-    "adjusted_strict_nonwhitespace_exact_pages": 99,
-    "adjusted_character_multiset_exact_pages": 101,
+    "all_current_supplied_file_content_read": false,
+    "all_readable_current_text_read": true,
+    "known_unread_current_content": [
+      {
+        "spine_index": 3,
+        "path": "OEBPS/Text/4.html",
+        "primary_extracted_character_range": [
+          516,
+          517
+        ],
+        "source_UTF8_byte_range": [
+          4577,
+          4585
+        ],
+        "source_decoded_HTML_character_range": [
+          4441,
+          4449
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 3,
+        "path": "OEBPS/Text/4.html",
+        "primary_extracted_character_range": [
+          518,
+          519
+        ],
+        "source_UTF8_byte_range": [
+          4586,
+          4594
+        ],
+        "source_decoded_HTML_character_range": [
+          4450,
+          4458
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 8,
+        "path": "OEBPS/Text/9.html",
+        "primary_extracted_character_range": [
+          1201,
+          1202
+        ],
+        "source_UTF8_byte_range": [
+          10358,
+          10366
+        ],
+        "source_decoded_HTML_character_range": [
+          10286,
+          10294
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 8,
+        "path": "OEBPS/Text/9.html",
+        "primary_extracted_character_range": [
+          1203,
+          1204
+        ],
+        "source_UTF8_byte_range": [
+          10367,
+          10375
+        ],
+        "source_decoded_HTML_character_range": [
+          10295,
+          10303
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 8,
+        "path": "OEBPS/Text/9.html",
+        "primary_extracted_character_range": [
+          1211,
+          1212
+        ],
+        "source_UTF8_byte_range": [
+          10424,
+          10432
+        ],
+        "source_decoded_HTML_character_range": [
+          10352,
+          10360
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 8,
+        "path": "OEBPS/Text/9.html",
+        "primary_extracted_character_range": [
+          1213,
+          1214
+        ],
+        "source_UTF8_byte_range": [
+          10433,
+          10441
+        ],
+        "source_decoded_HTML_character_range": [
+          10361,
+          10369
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 27,
+        "path": "OEBPS/Text/28.html",
+        "primary_extracted_character_range": [
+          1762,
+          1763
+        ],
+        "source_UTF8_byte_range": [
+          15218,
+          15226
+        ],
+        "source_decoded_HTML_character_range": [
+          15174,
+          15182
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 27,
+        "path": "OEBPS/Text/28.html",
+        "primary_extracted_character_range": [
+          1764,
+          1765
+        ],
+        "source_UTF8_byte_range": [
+          15227,
+          15235
+        ],
+        "source_decoded_HTML_character_range": [
+          15183,
+          15191
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 36,
+        "path": "OEBPS/Text/37.html",
+        "primary_extracted_character_range": [
+          5086,
+          5087
+        ],
+        "source_UTF8_byte_range": [
+          42379,
+          42387
+        ],
+        "source_decoded_HTML_character_range": [
+          42343,
+          42351
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 36,
+        "path": "OEBPS/Text/37.html",
+        "primary_extracted_character_range": [
+          5088,
+          5089
+        ],
+        "source_UTF8_byte_range": [
+          42388,
+          42396
+        ],
+        "source_decoded_HTML_character_range": [
+          42352,
+          42360
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 36,
+        "path": "OEBPS/Text/37.html",
+        "primary_extracted_character_range": [
+          5090,
+          5091
+        ],
+        "source_UTF8_byte_range": [
+          42397,
+          42405
+        ],
+        "source_decoded_HTML_character_range": [
+          42361,
+          42369
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 36,
+        "path": "OEBPS/Text/37.html",
+        "primary_extracted_character_range": [
+          5092,
+          5093
+        ],
+        "source_UTF8_byte_range": [
+          42406,
+          42414
+        ],
+        "source_decoded_HTML_character_range": [
+          42370,
+          42378
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 47,
+        "path": "OEBPS/Text/48.html",
+        "primary_extracted_character_range": [
+          2773,
+          2774
+        ],
+        "source_UTF8_byte_range": [
+          23279,
+          23287
+        ],
+        "source_decoded_HTML_character_range": [
+          23191,
+          23199
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 47,
+        "path": "OEBPS/Text/48.html",
+        "primary_extracted_character_range": [
+          2775,
+          2776
+        ],
+        "source_UTF8_byte_range": [
+          23288,
+          23296
+        ],
+        "source_decoded_HTML_character_range": [
+          23200,
+          23208
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 48,
+        "path": "OEBPS/Text/49.html",
+        "primary_extracted_character_range": [
+          362,
+          363
+        ],
+        "source_UTF8_byte_range": [
+          3320,
+          3328
+        ],
+        "source_decoded_HTML_character_range": [
+          3276,
+          3284
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 48,
+        "path": "OEBPS/Text/49.html",
+        "primary_extracted_character_range": [
+          364,
+          365
+        ],
+        "source_UTF8_byte_range": [
+          3329,
+          3337
+        ],
+        "source_decoded_HTML_character_range": [
+          3285,
+          3293
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 48,
+        "path": "OEBPS/Text/49.html",
+        "primary_extracted_character_range": [
+          383,
+          384
+        ],
+        "source_UTF8_byte_range": [
+          3474,
+          3482
+        ],
+        "source_decoded_HTML_character_range": [
+          3430,
+          3438
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      },
+      {
+        "spine_index": 48,
+        "path": "OEBPS/Text/49.html",
+        "primary_extracted_character_range": [
+          385,
+          386
+        ],
+        "source_UTF8_byte_range": [
+          3483,
+          3491
+        ],
+        "source_decoded_HTML_character_range": [
+          3439,
+          3447
+        ],
+        "literal_source_entity": "&#xFFFD;",
+        "decoded_value": "U+FFFD",
+        "original_character_recovered": false,
+        "surrounding_readable_text_read": true,
+        "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+      }
+    ],
     "serial_order": [
-      "verify published B112 checkpoint and main",
-      "read B113 all101 native pages in11 ordered batches",
-      "view cover raster,101 thumbnail layouts and7 original pages;check P69-P70 speaker order",
-      "save B113 notes scope and next B114 EPUB unopened checkpoint before next file"
+      "verify B113 published checkpoint and main",
+      "read B114 all50 readable spine texts in22 ordered batches",
+      "retain18 source-corrupted positions and apply existing user scope closure",
+      "save B114 original notes and B115 unopened checkpoint before next file"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "previous_runtime1_5_4_maintenance_preserved": true,
     "current_user_turn_aggregate": {
       "file_ids": [
-        "B113"
+        "B114"
       ],
       "new_file_tasks_completed": 1,
-      "new_whole_supplied_file_reads": [
-        "B113"
-      ],
+      "new_whole_supplied_file_reads": [],
       "new_verified_duplicate_file_coverages": [],
-      "new_user_scope_closures": [],
-      "new_native_text_pages_read": 101,
-      "new_native_characters_read": 112664,
+      "new_user_scope_closures": [
+        "B114"
+      ],
+      "new_EPUB_spine_items_read": 50,
+      "new_direct_extracted_characters_read_including_source_placeholders": 208580,
       "new_OCR_characters_read": 0,
-      "original_pages_individually_viewed": 7,
-      "original_note_groups": 62,
-      "new_exact_method_section_bindings": 223
+      "known_source_replacement_positions_not_recovered": 18,
+      "original_note_groups": 100,
+      "new_exact_method_section_bindings": 362
     },
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+      "reading_metadata_validation": "knowledge/provenance/B114_validation_2026-11-15.json",
       "validate_os": true,
       "generated_method_views_check": true,
       "unit_tests_passed": 127,
-      "new_exact_method_section_retrieval_queries_passed": 223,
-      "unbound_global_queries_passed": 3,
-      "all62_sections_checked_against_uncited_method": true,
-      "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true
+      "new_exact_method_section_retrieval_queries_passed": 362,
+      "unbound_global_queries_passed": 8,
+      "all100_sections_checked_against_uncited_method": true,
+      "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true,
+      "source18_replacement_positions_retained_not_recovered": true,
+      "all50_readable_spine_bodies_22_ordered_batches_verified": true
     }
   },
   "last_reading_progress": {
@@ -2481,70 +2861,451 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-15",
-    "report": "knowledge/provenance/B113_progress_2026-11-15.md",
-    "validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+    "report": "knowledge/provenance/B114_progress_2026-11-15.md",
+    "validation": "knowledge/provenance/B114_validation_2026-11-15.json",
     "current_session_progress": {
-      "baseline": "4c49407b8b1feb8885abe9428d7a5bccca2d6ecb",
+      "baseline": "ad7ca9cff8e36a33de00ff5b78c63110867749d4",
       "runtime_version": "1.5.4",
-      "work_type": "actual_supplied_PDF_all101_native_pages_read_plus_cover_and_two_original_speaker_order_checks",
+      "work_type": "all50_EPUB_spine_readable_body_texts_read_in22_ordered_batches_with18_source_replacement_entities_retained",
       "new_book_files_started": [
-        "B113"
+        "B114"
       ],
       "new_book_files_completed": [
-        "B113"
+        "B114"
       ],
-      "actually_completed_file_ids": [
-        "B113"
+      "actually_completed_file_ids": [],
+      "new_whole_book_files_actually_read": 0,
+      "user_accepted_scope_closure_ids": [
+        "B114"
       ],
-      "new_whole_book_files_actually_read": 1,
-      "user_accepted_scope_closure_ids": [],
-      "new_native_characters_read": 112664,
-      "new_native_text_pages_read": 101,
+      "new_native_characters_read": 208580,
+      "native_character_count_includes18_source_replacement_placeholders": true,
+      "new_EPUB_spine_items_read": 50,
       "new_OCR_characters_read": 0,
-      "new_unique_original_visual_pages": 7,
-      "original_note_groups": 62,
-      "new_method_source_bindings": 223,
+      "new_unique_original_visual_pages": 0,
+      "original_note_groups": 100,
+      "new_method_source_bindings": 362,
       "new_method_operations": [],
-      "all_current_supplied_file_content_read": true,
-      "raw_strict_nonwhitespace_exact_pages": 1,
-      "adjusted_strict_nonwhitespace_exact_pages": 99,
-      "adjusted_character_multiset_exact_pages": 101,
+      "all_current_supplied_file_content_read": false,
+      "all_readable_current_text_read": true,
+      "known_unread_current_content": [
+        {
+          "spine_index": 3,
+          "path": "OEBPS/Text/4.html",
+          "primary_extracted_character_range": [
+            516,
+            517
+          ],
+          "source_UTF8_byte_range": [
+            4577,
+            4585
+          ],
+          "source_decoded_HTML_character_range": [
+            4441,
+            4449
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 3,
+          "path": "OEBPS/Text/4.html",
+          "primary_extracted_character_range": [
+            518,
+            519
+          ],
+          "source_UTF8_byte_range": [
+            4586,
+            4594
+          ],
+          "source_decoded_HTML_character_range": [
+            4450,
+            4458
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "primary_extracted_character_range": [
+            1201,
+            1202
+          ],
+          "source_UTF8_byte_range": [
+            10358,
+            10366
+          ],
+          "source_decoded_HTML_character_range": [
+            10286,
+            10294
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "primary_extracted_character_range": [
+            1203,
+            1204
+          ],
+          "source_UTF8_byte_range": [
+            10367,
+            10375
+          ],
+          "source_decoded_HTML_character_range": [
+            10295,
+            10303
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "primary_extracted_character_range": [
+            1211,
+            1212
+          ],
+          "source_UTF8_byte_range": [
+            10424,
+            10432
+          ],
+          "source_decoded_HTML_character_range": [
+            10352,
+            10360
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "primary_extracted_character_range": [
+            1213,
+            1214
+          ],
+          "source_UTF8_byte_range": [
+            10433,
+            10441
+          ],
+          "source_decoded_HTML_character_range": [
+            10361,
+            10369
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 27,
+          "path": "OEBPS/Text/28.html",
+          "primary_extracted_character_range": [
+            1762,
+            1763
+          ],
+          "source_UTF8_byte_range": [
+            15218,
+            15226
+          ],
+          "source_decoded_HTML_character_range": [
+            15174,
+            15182
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 27,
+          "path": "OEBPS/Text/28.html",
+          "primary_extracted_character_range": [
+            1764,
+            1765
+          ],
+          "source_UTF8_byte_range": [
+            15227,
+            15235
+          ],
+          "source_decoded_HTML_character_range": [
+            15183,
+            15191
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "primary_extracted_character_range": [
+            5086,
+            5087
+          ],
+          "source_UTF8_byte_range": [
+            42379,
+            42387
+          ],
+          "source_decoded_HTML_character_range": [
+            42343,
+            42351
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "primary_extracted_character_range": [
+            5088,
+            5089
+          ],
+          "source_UTF8_byte_range": [
+            42388,
+            42396
+          ],
+          "source_decoded_HTML_character_range": [
+            42352,
+            42360
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "primary_extracted_character_range": [
+            5090,
+            5091
+          ],
+          "source_UTF8_byte_range": [
+            42397,
+            42405
+          ],
+          "source_decoded_HTML_character_range": [
+            42361,
+            42369
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "primary_extracted_character_range": [
+            5092,
+            5093
+          ],
+          "source_UTF8_byte_range": [
+            42406,
+            42414
+          ],
+          "source_decoded_HTML_character_range": [
+            42370,
+            42378
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 47,
+          "path": "OEBPS/Text/48.html",
+          "primary_extracted_character_range": [
+            2773,
+            2774
+          ],
+          "source_UTF8_byte_range": [
+            23279,
+            23287
+          ],
+          "source_decoded_HTML_character_range": [
+            23191,
+            23199
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 47,
+          "path": "OEBPS/Text/48.html",
+          "primary_extracted_character_range": [
+            2775,
+            2776
+          ],
+          "source_UTF8_byte_range": [
+            23288,
+            23296
+          ],
+          "source_decoded_HTML_character_range": [
+            23200,
+            23208
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 48,
+          "path": "OEBPS/Text/49.html",
+          "primary_extracted_character_range": [
+            362,
+            363
+          ],
+          "source_UTF8_byte_range": [
+            3320,
+            3328
+          ],
+          "source_decoded_HTML_character_range": [
+            3276,
+            3284
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 48,
+          "path": "OEBPS/Text/49.html",
+          "primary_extracted_character_range": [
+            364,
+            365
+          ],
+          "source_UTF8_byte_range": [
+            3329,
+            3337
+          ],
+          "source_decoded_HTML_character_range": [
+            3285,
+            3293
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 48,
+          "path": "OEBPS/Text/49.html",
+          "primary_extracted_character_range": [
+            383,
+            384
+          ],
+          "source_UTF8_byte_range": [
+            3474,
+            3482
+          ],
+          "source_decoded_HTML_character_range": [
+            3430,
+            3438
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        },
+        {
+          "spine_index": 48,
+          "path": "OEBPS/Text/49.html",
+          "primary_extracted_character_range": [
+            385,
+            386
+          ],
+          "source_UTF8_byte_range": [
+            3483,
+            3491
+          ],
+          "source_decoded_HTML_character_range": [
+            3439,
+            3447
+          ],
+          "literal_source_entity": "&#xFFFD;",
+          "decoded_value": "U+FFFD",
+          "original_character_recovered": false,
+          "surrounding_readable_text_read": true,
+          "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+        }
+      ],
       "serial_order": [
-        "verify published B112 checkpoint and main",
-        "read B113 all101 native pages in11 ordered batches",
-        "view cover raster,101 thumbnail layouts and7 original pages;check P69-P70 speaker order",
-        "save B113 notes scope and next B114 EPUB unopened checkpoint before next file"
+        "verify B113 published checkpoint and main",
+        "read B114 all50 readable spine texts in22 ordered batches",
+        "retain18 source-corrupted positions and apply existing user scope closure",
+        "save B114 original notes and B115 unopened checkpoint before next file"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
       "previous_runtime1_5_4_maintenance_preserved": true,
       "current_user_turn_aggregate": {
         "file_ids": [
-          "B113"
+          "B114"
         ],
         "new_file_tasks_completed": 1,
-        "new_whole_supplied_file_reads": [
-          "B113"
-        ],
+        "new_whole_supplied_file_reads": [],
         "new_verified_duplicate_file_coverages": [],
-        "new_user_scope_closures": [],
-        "new_native_text_pages_read": 101,
-        "new_native_characters_read": 112664,
+        "new_user_scope_closures": [
+          "B114"
+        ],
+        "new_EPUB_spine_items_read": 50,
+        "new_direct_extracted_characters_read_including_source_placeholders": 208580,
         "new_OCR_characters_read": 0,
-        "original_pages_individually_viewed": 7,
-        "original_note_groups": 62,
-        "new_exact_method_section_bindings": 223
+        "known_source_replacement_positions_not_recovered": 18,
+        "original_note_groups": 100,
+        "new_exact_method_section_bindings": 362
       },
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+        "reading_metadata_validation": "knowledge/provenance/B114_validation_2026-11-15.json",
         "validate_os": true,
         "generated_method_views_check": true,
         "unit_tests_passed": 127,
-        "new_exact_method_section_retrieval_queries_passed": 223,
-        "unbound_global_queries_passed": 3,
-        "all62_sections_checked_against_uncited_method": true,
-        "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true
+        "new_exact_method_section_retrieval_queries_passed": 362,
+        "unbound_global_queries_passed": 8,
+        "all100_sections_checked_against_uncited_method": true,
+        "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true,
+        "source18_replacement_positions_retained_not_recovered": true,
+        "all50_readable_spine_bodies_22_ordered_batches_verified": true
       }
     }
   },
@@ -2675,12 +3436,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 107,
-    "current_file_text_complete": 107,
+    "started": 108,
+    "current_file_text_complete": 108,
     "partial": 0,
-    "unread": 12,
+    "unread": 11,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 107,
+    "reported_numerator": 108,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2691,7 +3452,8 @@
       "B086",
       "B093",
       "B095",
-      "B098"
+      "B098",
+      "B114"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
       "B017",
@@ -2700,7 +3462,8 @@
       "B086",
       "B093",
       "B095",
-      "B098"
+      "B098",
+      "B114"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
     "actually_read_supplied_files": 100,
@@ -7781,6 +8544,75 @@
           "new_exact_method_section_retrieval_queries_passed": 160,
           "unbound_global_queries_passed": 2,
           "all51_sections_excluded_from_uncited_methods": true,
+          "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true
+        }
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "report": "knowledge/provenance/B113_progress_2026-11-15.md",
+      "validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+      "current_session_progress": {
+        "baseline": "4c49407b8b1feb8885abe9428d7a5bccca2d6ecb",
+        "runtime_version": "1.5.4",
+        "work_type": "actual_supplied_PDF_all101_native_pages_read_plus_cover_and_two_original_speaker_order_checks",
+        "new_book_files_started": [
+          "B113"
+        ],
+        "new_book_files_completed": [
+          "B113"
+        ],
+        "actually_completed_file_ids": [
+          "B113"
+        ],
+        "new_whole_book_files_actually_read": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_native_characters_read": 112664,
+        "new_native_text_pages_read": 101,
+        "new_OCR_characters_read": 0,
+        "new_unique_original_visual_pages": 7,
+        "original_note_groups": 62,
+        "new_method_source_bindings": 223,
+        "new_method_operations": [],
+        "all_current_supplied_file_content_read": true,
+        "raw_strict_nonwhitespace_exact_pages": 1,
+        "adjusted_strict_nonwhitespace_exact_pages": 99,
+        "adjusted_character_multiset_exact_pages": 101,
+        "serial_order": [
+          "verify published B112 checkpoint and main",
+          "read B113 all101 native pages in11 ordered batches",
+          "view cover raster,101 thumbnail layouts and7 original pages;check P69-P70 speaker order",
+          "save B113 notes scope and next B114 EPUB unopened checkpoint before next file"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_4_maintenance_preserved": true,
+        "current_user_turn_aggregate": {
+          "file_ids": [
+            "B113"
+          ],
+          "new_file_tasks_completed": 1,
+          "new_whole_supplied_file_reads": [
+            "B113"
+          ],
+          "new_verified_duplicate_file_coverages": [],
+          "new_user_scope_closures": [],
+          "new_native_text_pages_read": 101,
+          "new_native_characters_read": 112664,
+          "new_OCR_characters_read": 0,
+          "original_pages_individually_viewed": 7,
+          "original_note_groups": 62,
+          "new_exact_method_section_bindings": 223
+        },
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B113_validation_2026-11-15.json",
+          "validate_os": true,
+          "generated_method_views_check": true,
+          "unit_tests_passed": 127,
+          "new_exact_method_section_retrieval_queries_passed": 223,
+          "unbound_global_queries_passed": 3,
+          "all62_sections_checked_against_uncited_method": true,
           "all_original_blobs_prior_method_actions_and_preferred_sections_preserved": true
         }
       }

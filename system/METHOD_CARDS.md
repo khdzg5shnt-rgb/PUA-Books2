@@ -14,7 +14,7 @@
 
 首选笔记：[G09补充｜读图只是输入](../knowledge/books/G09-ocr-input.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[280处](METHOD_SOURCES.md#m01)。
+全部出处：[296处](METHOD_SOURCES.md#m01)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -28,7 +28,7 @@
 
 首选笔记：[本轮等待与联系安排](../knowledge/topics/contact-and-waiting.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[75处](METHOD_SOURCES.md#m02)。
+全部出处：[81处](METHOD_SOURCES.md#m02)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -42,7 +42,7 @@
 
 首选笔记：[承接一个真实细节](../knowledge/topics/one-detail.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[196处](METHOD_SOURCES.md#m03)。
+全部出处：[224处](METHOD_SOURCES.md#m03)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -58,7 +58,7 @@
 
 首选笔记：[先按正常问题回答](../knowledge/topics/normal-questions.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[233处](METHOD_SOURCES.md#m04)。
+全部出处：[258处](METHOD_SOURCES.md#m04)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -72,7 +72,7 @@
 
 首选笔记：[第二章，P32–49：心态、Callback Humor与Investment](../knowledge/books/B092.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[100处](METHOD_SOURCES.md#m05)。
+全部出处：[106处](METHOD_SOURCES.md#m05)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -86,7 +86,7 @@
 
 首选笔记：[实际使用判断](../knowledge/books/S01-chen-five.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[107处](METHOD_SOURCES.md#m06)。
+全部出处：[119处](METHOD_SOURCES.md#m06)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -102,7 +102,7 @@
 
 首选笔记：[双方接住的假拟场景](../knowledge/topics/shared-imagination.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[75处](METHOD_SOURCES.md#m07)。
+全部出处：[80处](METHOD_SOURCES.md#m07)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -116,7 +116,7 @@
 
 首选笔记：[先记行为，原因不足留未知](../knowledge/topics/observations-and-explanations.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[296处](METHOD_SOURCES.md#m08)。
+全部出处：[326处](METHOD_SOURCES.md#m08)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -130,7 +130,7 @@
 
 首选笔记：[接题与具体欣赏](../knowledge/books/G01-practical-expansion.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[124处](METHOD_SOURCES.md#m09)。
+全部出处：[128处](METHOD_SOURCES.md#m09)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -144,7 +144,7 @@
 
 首选笔记：[一句真实表达](../knowledge/topics/real-self-expression.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[281处](METHOD_SOURCES.md#m10)。
+全部出处：[302处](METHOD_SOURCES.md#m10)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -158,7 +158,7 @@
 
 首选笔记：[回填到当前方法](../knowledge/books/S04-empathy.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[122处](METHOD_SOURCES.md#m11)。
+全部出处：[134处](METHOD_SOURCES.md#m11)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -174,7 +174,7 @@
 
 首选笔记：[真正保留的交流动作](../knowledge/books/B004-ch08.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[34处](METHOD_SOURCES.md#m12)。
+全部出处：[40处](METHOD_SOURCES.md#m12)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -188,7 +188,7 @@
 
 首选笔记：[回填到当前方法](../knowledge/books/S04-empathy.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[82处](METHOD_SOURCES.md#m13)。
+全部出处：[89处](METHOD_SOURCES.md#m13)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -202,7 +202,7 @@
 
 首选笔记：[提出一次具体邀请](../knowledge/topics/invitation-feedback.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[178处](METHOD_SOURCES.md#m14)。
+全部出处：[190处](METHOD_SOURCES.md#m14)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -216,7 +216,7 @@
 
 首选笔记：[已接受后确认安排](../knowledge/topics/invitation-feedback.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[131处](METHOD_SOURCES.md#m15)。
+全部出处：[143处](METHOD_SOURCES.md#m15)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -230,7 +230,7 @@
 
 首选笔记：[接住她给的替代时间](../knowledge/topics/invitation-feedback.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[47处](METHOD_SOURCES.md#m16)。
+全部出处：[50处](METHOD_SOURCES.md#m16)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -244,7 +244,7 @@
 
 首选笔记：[没有替代安排时收住](../knowledge/topics/invitation-feedback.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[81处](METHOD_SOURCES.md#m17)。
+全部出处：[82处](METHOD_SOURCES.md#m17)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -260,7 +260,7 @@
 
 首选笔记：[判断流程](../CHAT_GUIDANCE_PLAYBOOK.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[58处](METHOD_SOURCES.md#m18)。
+全部出处：[62处](METHOD_SOURCES.md#m18)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -274,7 +274,7 @@
 
 首选笔记：[主动与互惠](../knowledge/books/G01-practical-expansion.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[161处](METHOD_SOURCES.md#m19)。
+全部出处：[175处](METHOD_SOURCES.md#m19)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -288,7 +288,7 @@
 
 首选笔记：[片段一：状态猜测与纠正](../knowledge/cases/C06-chen-screenshots.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[154处](METHOD_SOURCES.md#m20)。
+全部出处：[160处](METHOD_SOURCES.md#m20)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -302,7 +302,7 @@
 
 首选笔记：[用于当前修复](../knowledge/books/B011-origins-apology.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[111处](METHOD_SOURCES.md#m21)。
+全部出处：[115处](METHOD_SOURCES.md#m21)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -316,7 +316,7 @@
 
 首选笔记：[一项请求与边界分开](../knowledge/topics/boundaries-and-requests.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[511处](METHOD_SOURCES.md#m22)。
+全部出处：[554处](METHOD_SOURCES.md#m22)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -330,7 +330,7 @@
 
 首选笔记：[按拒绝范围处理当前一轮](../knowledge/topics/refusal-scope.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[466处](METHOD_SOURCES.md#m23)。
+全部出处：[506处](METHOD_SOURCES.md#m23)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -344,7 +344,7 @@
 
 首选笔记：[见面后的下一步](../knowledge/topics/interest-evidence.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[103处](METHOD_SOURCES.md#m24)。
+全部出处：[107处](METHOD_SOURCES.md#m24)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -358,7 +358,7 @@
 
 首选笔记：[证据及边界](../knowledge/books/B090.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[229处](METHOD_SOURCES.md#m25)。
+全部出处：[244处](METHOD_SOURCES.md#m25)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明
 
@@ -372,6 +372,6 @@
 
 首选笔记：[一句自然话的取舍](../system/REPLY_PROTOCOL.md)。按该标题定位；运行入口会返回实际行段。
 
-全部出处：[250处](METHOD_SOURCES.md#m26)。
+全部出处：[276处](METHOD_SOURCES.md#m26)。
 
 依据范围：写作与决策规则；教学来源不是该条回复有效性的实证证明

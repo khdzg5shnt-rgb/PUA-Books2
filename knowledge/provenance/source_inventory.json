@@ -16968,8 +16968,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E4%B8%8A%E6%88%91%20-%20%E6%88%90%E7%9C%9F.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B114.md",
       "pages": null,
       "spine_items": 50,
       "ocr": {
@@ -16977,7 +16977,418 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B114_reading_2026-11-15.json",
+      "coverage_mode": "all50_EPUB_spine_readable_body_texts_read_in22_ordered_batches_with18_source_replacement_entities_retained",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "task_complete": true,
+      "source_sha256": "cd6c66faf9cfa762a0011392bcb5b96aa047bcf40038906af375c9d90f5c40cb",
+      "latest_reading": {
+        "date": "2026-11-15",
+        "ledger": "knowledge/provenance/B114_reading_2026-11-15.json",
+        "spine_items_read": 50,
+        "spine_index_base": 0,
+        "actual_reading_batches": 22,
+        "direct_extracted_characters_including_source_placeholders": 208580,
+        "source_replacement_character_positions": 18,
+        "all_readable_current_text_read": true,
+        "OCR_run": false,
+        "visual_layout_viewed": false,
+        "known_unread_current_content": [
+          {
+            "spine_index": 3,
+            "path": "OEBPS/Text/4.html",
+            "primary_extracted_character_range": [
+              516,
+              517
+            ],
+            "source_UTF8_byte_range": [
+              4577,
+              4585
+            ],
+            "source_decoded_HTML_character_range": [
+              4441,
+              4449
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 3,
+            "path": "OEBPS/Text/4.html",
+            "primary_extracted_character_range": [
+              518,
+              519
+            ],
+            "source_UTF8_byte_range": [
+              4586,
+              4594
+            ],
+            "source_decoded_HTML_character_range": [
+              4450,
+              4458
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 8,
+            "path": "OEBPS/Text/9.html",
+            "primary_extracted_character_range": [
+              1201,
+              1202
+            ],
+            "source_UTF8_byte_range": [
+              10358,
+              10366
+            ],
+            "source_decoded_HTML_character_range": [
+              10286,
+              10294
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 8,
+            "path": "OEBPS/Text/9.html",
+            "primary_extracted_character_range": [
+              1203,
+              1204
+            ],
+            "source_UTF8_byte_range": [
+              10367,
+              10375
+            ],
+            "source_decoded_HTML_character_range": [
+              10295,
+              10303
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 8,
+            "path": "OEBPS/Text/9.html",
+            "primary_extracted_character_range": [
+              1211,
+              1212
+            ],
+            "source_UTF8_byte_range": [
+              10424,
+              10432
+            ],
+            "source_decoded_HTML_character_range": [
+              10352,
+              10360
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 8,
+            "path": "OEBPS/Text/9.html",
+            "primary_extracted_character_range": [
+              1213,
+              1214
+            ],
+            "source_UTF8_byte_range": [
+              10433,
+              10441
+            ],
+            "source_decoded_HTML_character_range": [
+              10361,
+              10369
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 27,
+            "path": "OEBPS/Text/28.html",
+            "primary_extracted_character_range": [
+              1762,
+              1763
+            ],
+            "source_UTF8_byte_range": [
+              15218,
+              15226
+            ],
+            "source_decoded_HTML_character_range": [
+              15174,
+              15182
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 27,
+            "path": "OEBPS/Text/28.html",
+            "primary_extracted_character_range": [
+              1764,
+              1765
+            ],
+            "source_UTF8_byte_range": [
+              15227,
+              15235
+            ],
+            "source_decoded_HTML_character_range": [
+              15183,
+              15191
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 36,
+            "path": "OEBPS/Text/37.html",
+            "primary_extracted_character_range": [
+              5086,
+              5087
+            ],
+            "source_UTF8_byte_range": [
+              42379,
+              42387
+            ],
+            "source_decoded_HTML_character_range": [
+              42343,
+              42351
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 36,
+            "path": "OEBPS/Text/37.html",
+            "primary_extracted_character_range": [
+              5088,
+              5089
+            ],
+            "source_UTF8_byte_range": [
+              42388,
+              42396
+            ],
+            "source_decoded_HTML_character_range": [
+              42352,
+              42360
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 36,
+            "path": "OEBPS/Text/37.html",
+            "primary_extracted_character_range": [
+              5090,
+              5091
+            ],
+            "source_UTF8_byte_range": [
+              42397,
+              42405
+            ],
+            "source_decoded_HTML_character_range": [
+              42361,
+              42369
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 36,
+            "path": "OEBPS/Text/37.html",
+            "primary_extracted_character_range": [
+              5092,
+              5093
+            ],
+            "source_UTF8_byte_range": [
+              42406,
+              42414
+            ],
+            "source_decoded_HTML_character_range": [
+              42370,
+              42378
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 47,
+            "path": "OEBPS/Text/48.html",
+            "primary_extracted_character_range": [
+              2773,
+              2774
+            ],
+            "source_UTF8_byte_range": [
+              23279,
+              23287
+            ],
+            "source_decoded_HTML_character_range": [
+              23191,
+              23199
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 47,
+            "path": "OEBPS/Text/48.html",
+            "primary_extracted_character_range": [
+              2775,
+              2776
+            ],
+            "source_UTF8_byte_range": [
+              23288,
+              23296
+            ],
+            "source_decoded_HTML_character_range": [
+              23200,
+              23208
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 48,
+            "path": "OEBPS/Text/49.html",
+            "primary_extracted_character_range": [
+              362,
+              363
+            ],
+            "source_UTF8_byte_range": [
+              3320,
+              3328
+            ],
+            "source_decoded_HTML_character_range": [
+              3276,
+              3284
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 48,
+            "path": "OEBPS/Text/49.html",
+            "primary_extracted_character_range": [
+              364,
+              365
+            ],
+            "source_UTF8_byte_range": [
+              3329,
+              3337
+            ],
+            "source_decoded_HTML_character_range": [
+              3285,
+              3293
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 48,
+            "path": "OEBPS/Text/49.html",
+            "primary_extracted_character_range": [
+              383,
+              384
+            ],
+            "source_UTF8_byte_range": [
+              3474,
+              3482
+            ],
+            "source_decoded_HTML_character_range": [
+              3430,
+              3438
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          },
+          {
+            "spine_index": 48,
+            "path": "OEBPS/Text/49.html",
+            "primary_extracted_character_range": [
+              385,
+              386
+            ],
+            "source_UTF8_byte_range": [
+              3483,
+              3491
+            ],
+            "source_decoded_HTML_character_range": [
+              3439,
+              3447
+            ],
+            "literal_source_entity": "&#xFFFD;",
+            "decoded_value": "U+FFFD",
+            "original_character_recovered": false,
+            "surrounding_readable_text_read": true,
+            "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+          }
+        ],
+        "standing_user_policy_applied_without_new_question": true,
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "未与正式出版物或作者其他版本逐字校勘，不认证原版完整性与第三方许可",
+          "元数据creator实际为书名迷上我，不能据此认证作者；文件名与前言署名为成真，元数据2019-07-18只标为修改日期",
+          "作者的成功比例、潜沟通、演化、身份认同、心理及健康断言未作原始研究核验，不据此新增APA、DOI或效果声明",
+          "链接课程、网站、附加材料与购买入口未访问、购买、注册或联系，不算当前文件已读内容",
+          "不重新发布长段原文、图片、私人对话、真实姓名或匿名私人情节；本轮只写原创一般性整理"
+        ],
+        "original_note_groups": 100,
+        "new_exact_method_section_bindings": 362
+      }
     },
     {
       "index": 115,
@@ -17278,5 +17689,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B113 all101 native pages read in11 ordered batches;112664 native chars plus separately visually read cover text;1 raw strict and99 adjusted strict exact pages after only repeated-footer position adjustment,101 character multisets;P69-P70 speaker order visually checked;62 original notes,223 exact citations;107/119=100 current coverages including B100 reuse+7 historical scope closures;next B114 EPUB first spine index0 character0 body unopened."
+  "latest_reading_update": "2026-11-15:B114 all50 readable EPUB spine bodies read in22 ordered batches;208580 extracted chars including18 already-corrupted source replacement entities;50 independent whitespace-only exact comparisons;100 original notes,362 exact citations;source18 positions retained and standing-user scope closure applied;108/119=100 current coverages including B100 reuse+8 scope closures;next B115 PDF physical page1 character0 body unopened."
 }

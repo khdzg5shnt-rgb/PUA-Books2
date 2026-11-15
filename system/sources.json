@@ -1511,9 +1511,17 @@
       "group": "books2_original_snapshot",
       "title": "迷上我 - 成真.epub",
       "git_blob_sha": "99e0eca4941da9cf1131a9e7782fb7441ae91541",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B114.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B114_reading_2026-11-15.json",
+      "coverage_mode": "all50_EPUB_spine_readable_body_texts_read_in22_ordered_batches_with18_source_replacement_entities_retained",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B115",
@@ -1963,25 +1971,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 107,
+    "current_book_files_text_complete": 108,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 12
+    "current_book_files_not_started": 11
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B114",
-    "path": "迷上我 - 成真.epub",
-    "bytes": 363570,
-    "git_blob_sha": "99e0eca4941da9cf1131a9e7782fb7441ae91541",
+    "id": "B115",
+    "path": "迷男方法.pdf",
+    "bytes": 1455543,
+    "git_blob_sha": "dfbfcd006bd32d7a6d31cb968992626ea421eaf3",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "epub",
-    "next_spine_index": 0,
-    "spine_index_base": 0,
+    "format": "pdf",
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B113当前101页文字与封面图已读；62组笔记、223处引用先保存提交。下一唯一主读B114《迷上我 - 成真.epub》，清单50个spine条目，从第一个条目（零基索引0）字符0开始，正文未打开。",
-    "next_content_unit": "Read B114 EPUB from first spine item (zero-based index0), character0 only after B113 reading, notes and checkpoint are committed; body unopened."
+    "start": "B114当前50条可辨文本已读，18处源损坏保留并授权结束；100组笔记、362处引用先保存提交。下一唯一主读B115《迷男方法.pdf》，清单125页，从物理页1字符0开始，正文未打开。",
+    "next_content_unit": "Read B115 PDF from physical page1 character0 only after B114 readable text, retained18 corrupted positions, notes and checkpoint are committed; body unopened."
   },
   "deferred_work_units": []
 }

@@ -1,0 +1,4899 @@
+{
+  "schema_version": 1,
+  "file_id": "B114",
+  "date": "2026-11-15",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "ad7ca9cff8e36a33de00ff5b78c63110867749d4",
+  "source_identity": {
+    "path": "迷上我 - 成真.epub",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E4%B8%8A%E6%88%91%20-%20%E6%88%90%E7%9C%9F.epub",
+    "git_blob_sha": "99e0eca4941da9cf1131a9e7782fb7441ae91541",
+    "bytes": 363570
+  },
+  "source_sha256": "cd6c66faf9cfa762a0011392bcb5b96aa047bcf40038906af375c9d90f5c40cb",
+  "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+  "completion_enum_legacy_image_gaps_here_mean_source_text_corruption": true,
+  "reading_mode": "all50_EPUB_spine_readable_body_texts_read_in22_ordered_batches_with18_source_replacement_entities_retained",
+  "task_complete": true,
+  "all_current_file_content_read": false,
+  "actual_reading_complete": false,
+  "all_supplied_native_text_read": false,
+  "all_readable_current_text_read": true,
+  "spine_index_base": 0,
+  "spine_items_read": 50,
+  "direct_extracted_characters_read_including18_source_replacement_placeholders": 208580,
+  "nonreplacement_extracted_character_positions_read": 208562,
+  "source_replacement_character_positions": 18,
+  "OCR_run": false,
+  "confirmed_actual_reading_batches": [
+    {
+      "batch": 1,
+      "segments": [
+        {
+          "spine_index": 0,
+          "path": "OEBPS/Text/1.html",
+          "start": 0,
+          "end": 36,
+          "characters": 36,
+          "sha256": "4e565eec9a6905ffd6fcfb1ba8486b75966ff10d24f3c05b3e168ea6dc2d65cb",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 1,
+          "path": "OEBPS/Text/2.html",
+          "start": 0,
+          "end": 562,
+          "characters": 562,
+          "sha256": "06a51ca5412a7e88dfea92751aa619ac5ce6d626b2c06a2ded7a87d41f969232",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 2,
+          "path": "OEBPS/Text/3.html",
+          "start": 0,
+          "end": 5993,
+          "characters": 5993,
+          "sha256": "1f929581bef381d010fe0351beed6e06f5e5e5365518bdaa780bd0dc97d7aa92",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 3,
+          "path": "OEBPS/Text/4.html",
+          "start": 0,
+          "end": 4409,
+          "characters": 4409,
+          "sha256": "ca8a34a5eff942ae5da20aaad286780a9eb603a1d16dd91c5fccb5bed0a3d560",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 3,
+      "next_character": 4409
+    },
+    {
+      "batch": 2,
+      "segments": [
+        {
+          "spine_index": 3,
+          "path": "OEBPS/Text/4.html",
+          "start": 4409,
+          "end": 5995,
+          "characters": 1586,
+          "sha256": "5d30c233e7c0f2ff408de20024d1ab6b15e04ae275e0ad41204db5fddeb1e6c0",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 4,
+          "path": "OEBPS/Text/5.html",
+          "start": 0,
+          "end": 3342,
+          "characters": 3342,
+          "sha256": "75b2e838eddfedbee97bb0e9cf3d641fd2dd03532702080d23bf1c52e0f98272",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 5,
+          "path": "OEBPS/Text/6.html",
+          "start": 0,
+          "end": 3003,
+          "characters": 3003,
+          "sha256": "d2f71ee8cabbad85bdf40af2666173ae33752f1ecab04b5946e9183844e88649",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 6,
+          "path": "OEBPS/Text/7.html",
+          "start": 0,
+          "end": 2069,
+          "characters": 2069,
+          "sha256": "34f719f492291f24c2a0b6afc91894268f7621796bb67eaf77c4c2fcac6bc972",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 10000,
+      "next_spine_index": 6,
+      "next_character": 2069
+    },
+    {
+      "batch": 3,
+      "segments": [
+        {
+          "spine_index": 6,
+          "path": "OEBPS/Text/7.html",
+          "start": 2069,
+          "end": 8203,
+          "characters": 6134,
+          "sha256": "60f375edca18d91a9da194cd5213b4eae6a977c0a471a902f95fd2611e8cf4b3",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 7,
+          "path": "OEBPS/Text/8.html",
+          "start": 0,
+          "end": 3185,
+          "characters": 3185,
+          "sha256": "ef6544f6f09809592488de6d5d1d8141284eb9e64e22ac137c14aaf912e9d055",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "start": 0,
+          "end": 1681,
+          "characters": 1681,
+          "sha256": "e8866bcc18f5140736f6718232cc023dc6b5a6165bcea3020215cf4afbabf761",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 8,
+      "next_character": 1681
+    },
+    {
+      "batch": 4,
+      "segments": [
+        {
+          "spine_index": 8,
+          "path": "OEBPS/Text/9.html",
+          "start": 1681,
+          "end": 6519,
+          "characters": 4838,
+          "sha256": "ee43e165b2a4d70a5709a7d7a9f76913b6501cafdcb62a48ff1dcf1a1762a6fd",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 9,
+          "path": "OEBPS/Text/10.html",
+          "start": 0,
+          "end": 2882,
+          "characters": 2882,
+          "sha256": "c7cc2d6d468a7a9dd1063135b349f2e55a3c85e77b0aed483d3a66cc27fdbb42",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 10,
+          "path": "OEBPS/Text/11.html",
+          "start": 0,
+          "end": 2741,
+          "characters": 2741,
+          "sha256": "9461cf3568ab91ab3fb309ea80113def9883b6d4568f8523f0e025efe080b4a7",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 11,
+          "path": "OEBPS/Text/12.html",
+          "start": 0,
+          "end": 539,
+          "characters": 539,
+          "sha256": "bff8c666a492f416167dc79a81a6c55c1b9413f21d27bc4598e05ce3ee647d14",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 11,
+      "next_character": 539
+    },
+    {
+      "batch": 5,
+      "segments": [
+        {
+          "spine_index": 11,
+          "path": "OEBPS/Text/12.html",
+          "start": 539,
+          "end": 2099,
+          "characters": 1560,
+          "sha256": "962e8d45c0d33754ddf9b2b0a5683fa888d4a26ca1b87dc07be1545072940855",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 12,
+          "path": "OEBPS/Text/13.html",
+          "start": 0,
+          "end": 1087,
+          "characters": 1087,
+          "sha256": "caac67043d32284ee63337e6a6bc1c11c2d72f92f671e8b6f23672621800873f",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 13,
+          "path": "OEBPS/Text/14.html",
+          "start": 0,
+          "end": 4128,
+          "characters": 4128,
+          "sha256": "2e151f4a9011e5b6e3f02786ebbc00d2d68110b56299f91e10916a82c105734e",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 14,
+          "path": "OEBPS/Text/15.html",
+          "start": 0,
+          "end": 3495,
+          "characters": 3495,
+          "sha256": "1c14956a8370cf3aca83b14863b052c0a8f76cbd0946023045b8c9f89e9718b6",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 15,
+          "path": "OEBPS/Text/16.html",
+          "start": 0,
+          "end": 730,
+          "characters": 730,
+          "sha256": "5822578007a4b5ad774e9819f47c2eb8a36ab12ff495b4acbddd5006b4427857",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 15,
+      "next_character": 730
+    },
+    {
+      "batch": 6,
+      "segments": [
+        {
+          "spine_index": 15,
+          "path": "OEBPS/Text/16.html",
+          "start": 730,
+          "end": 1328,
+          "characters": 598,
+          "sha256": "10d9f4c169db0d0a64bba1c1e9e5c58069eb7571f4636b6dfd6893d5e0e7410b",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 16,
+          "path": "OEBPS/Text/17.html",
+          "start": 0,
+          "end": 1829,
+          "characters": 1829,
+          "sha256": "1efab9927bdbab23361a8013f633533ac8261593ed2064a7f0bcc1ff569c60a9",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 17,
+          "path": "OEBPS/Text/18.html",
+          "start": 0,
+          "end": 2104,
+          "characters": 2104,
+          "sha256": "b6ea66bc0341c0e2c35c0e58e399a2e94a1752c2165993ff70af4b73873e151e",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 18,
+          "path": "OEBPS/Text/19.html",
+          "start": 0,
+          "end": 3299,
+          "characters": 3299,
+          "sha256": "6f6b1f4c6137e3f6ad19076e32c129558238fcacf86d029174898d1ad067a7ad",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 19,
+          "path": "OEBPS/Text/20.html",
+          "start": 0,
+          "end": 3170,
+          "characters": 3170,
+          "sha256": "b5f93742c637d66bd011c5cb72274267cb1c10c1ba04622c204842cfc81863b5",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 19,
+      "next_character": 3170
+    },
+    {
+      "batch": 7,
+      "segments": [
+        {
+          "spine_index": 19,
+          "path": "OEBPS/Text/20.html",
+          "start": 3170,
+          "end": 4409,
+          "characters": 1239,
+          "sha256": "766adc760edbe1c0c23157f278e71f59e3c4577a4c140ef845e960b46a7498d7",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 20,
+          "path": "OEBPS/Text/21.html",
+          "start": 0,
+          "end": 3920,
+          "characters": 3920,
+          "sha256": "35d7990a0e7fd6ef9b226c25a1c85f0591be0cb0e902bed0884ba9aef1dd8227",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 21,
+          "path": "OEBPS/Text/22.html",
+          "start": 0,
+          "end": 5841,
+          "characters": 5841,
+          "sha256": "892c04aee7eca0278fea2e4bac34a1f274f4a55a29698beeec2cc7e4372fff67",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 21,
+      "next_character": 5841
+    },
+    {
+      "batch": 8,
+      "segments": [
+        {
+          "spine_index": 21,
+          "path": "OEBPS/Text/22.html",
+          "start": 5841,
+          "end": 6253,
+          "characters": 412,
+          "sha256": "89c6039842ff9277f5f5acb5bab69bbf4a62263477b6d0a0e612f870ce801d37",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 22,
+          "path": "OEBPS/Text/23.html",
+          "start": 0,
+          "end": 1459,
+          "characters": 1459,
+          "sha256": "1f41925cb2c224a2dd393515d258dba29beb083f7e84306c8d0d53af938dc413",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 23,
+          "path": "OEBPS/Text/24.html",
+          "start": 0,
+          "end": 786,
+          "characters": 786,
+          "sha256": "261bcf6ae0a2ced6801633b10cca365de2f0a7c01a3ecfc2d686af72e8bca057",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 24,
+          "path": "OEBPS/Text/25.html",
+          "start": 0,
+          "end": 8343,
+          "characters": 8343,
+          "sha256": "9a9c2096461778646568dd758172bf46fbc628feb221caf7c2221ebba6225a6c",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 24,
+      "next_character": 8343
+    },
+    {
+      "batch": 9,
+      "segments": [
+        {
+          "spine_index": 24,
+          "path": "OEBPS/Text/25.html",
+          "start": 8343,
+          "end": 17101,
+          "characters": 8758,
+          "sha256": "4f5351a981c3cbbed86296797e58cc8641a4b61f7ca2ff264b8b7f02ec2d6165",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 25,
+          "path": "OEBPS/Text/26.html",
+          "start": 0,
+          "end": 2242,
+          "characters": 2242,
+          "sha256": "d8b0e9826a3467fab0d9fe014f0b41454c5113baf3e752098c10738ed9784f01",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 25,
+      "next_character": 2242
+    },
+    {
+      "batch": 10,
+      "segments": [
+        {
+          "spine_index": 25,
+          "path": "OEBPS/Text/26.html",
+          "start": 2242,
+          "end": 2621,
+          "characters": 379,
+          "sha256": "35f9c061f0d54f0a243b5ef70859f6ef0f42944c103075343dc241c6fbaf2602",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 26,
+          "path": "OEBPS/Text/27.html",
+          "start": 0,
+          "end": 1390,
+          "characters": 1390,
+          "sha256": "02ce0eb998a0cdce0e5f18d018ad2a326ed67317901797e2f7972630d44fc70a",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 27,
+          "path": "OEBPS/Text/28.html",
+          "start": 0,
+          "end": 8658,
+          "characters": 8658,
+          "sha256": "576ac5436de7a0c4ad3d1e311d959e2aba6bdeac90a13a9f24a84eb3c21dd46f",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 28,
+          "path": "OEBPS/Text/29.html",
+          "start": 0,
+          "end": 573,
+          "characters": 573,
+          "sha256": "9434ee6435b9884758c53f0a81de689adc13127a4eacc58ebc1c04ee1a0b5f0a",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 28,
+      "next_character": 573
+    },
+    {
+      "batch": 11,
+      "segments": [
+        {
+          "spine_index": 28,
+          "path": "OEBPS/Text/29.html",
+          "start": 573,
+          "end": 3262,
+          "characters": 2689,
+          "sha256": "ad1f21bb86049e1fc9e019891a3eae90ea76b10e2d8f9cf579929588543ca74e",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 29,
+          "path": "OEBPS/Text/30.html",
+          "start": 0,
+          "end": 4426,
+          "characters": 4426,
+          "sha256": "07aac9f71ee0792718d99d7d2dea60bd2207ea8f1b586efbe43c5f161e425763",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 30,
+          "path": "OEBPS/Text/31.html",
+          "start": 0,
+          "end": 461,
+          "characters": 461,
+          "sha256": "fc5aa3417fb5e90b5edfe39596f09554cb29bfb71b2ac69b3406a40c20d47d4a",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 31,
+          "path": "OEBPS/Text/32.html",
+          "start": 0,
+          "end": 1780,
+          "characters": 1780,
+          "sha256": "8bea43e0c3fbad2630679b503c0602d98d552461d25fd79a82394fcbeb2c30f3",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 32,
+          "path": "OEBPS/Text/33.html",
+          "start": 0,
+          "end": 1644,
+          "characters": 1644,
+          "sha256": "cd11d3ee315f2919e0ae57c081491c692ccb5dfd32a3582c9dcd085af1191f10",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 32,
+      "next_character": 1644
+    },
+    {
+      "batch": 12,
+      "segments": [
+        {
+          "spine_index": 32,
+          "path": "OEBPS/Text/33.html",
+          "start": 1644,
+          "end": 11958,
+          "characters": 10314,
+          "sha256": "bed2fb1483db2a37c9c3899b0f16b578dffc3573ac0075270f19d37aacaa0d5b",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 33,
+          "path": "OEBPS/Text/34.html",
+          "start": 0,
+          "end": 686,
+          "characters": 686,
+          "sha256": "392525fa242352f7122f3c33ac98bfa429067804e338bc42fb3c4c79bf07451b",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 33,
+      "next_character": 686
+    },
+    {
+      "batch": 13,
+      "segments": [
+        {
+          "spine_index": 33,
+          "path": "OEBPS/Text/34.html",
+          "start": 686,
+          "end": 5509,
+          "characters": 4823,
+          "sha256": "a8001d31d5dda0755d46826db732b653fb2d0d181f95b97fa326d6d08c3ffd32",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 34,
+          "path": "OEBPS/Text/35.html",
+          "start": 0,
+          "end": 6177,
+          "characters": 6177,
+          "sha256": "1d240cc6b85cd5faade9a05e4a9fe0a4c7216f24889566542bd08a09bc1a437d",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 34,
+      "next_character": 6177
+    },
+    {
+      "batch": 14,
+      "segments": [
+        {
+          "spine_index": 34,
+          "path": "OEBPS/Text/35.html",
+          "start": 6177,
+          "end": 12051,
+          "characters": 5874,
+          "sha256": "85457f3b82f0973e82ad7942446b16ab9455d3f026cdee9aeaf7adf87caa2300",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 35,
+          "path": "OEBPS/Text/36.html",
+          "start": 0,
+          "end": 3556,
+          "characters": 3556,
+          "sha256": "40aabb26f1c9da47fa8f393ca7801895671f99dd1e16c5cbffd3cdbdc08e6b98",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "start": 0,
+          "end": 1570,
+          "characters": 1570,
+          "sha256": "d2ac8cf964242d75cd3231760626692d64d139dea9f4c8ea6c7e2e8681790f4c",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 36,
+      "next_character": 1570
+    },
+    {
+      "batch": 15,
+      "segments": [
+        {
+          "spine_index": 36,
+          "path": "OEBPS/Text/37.html",
+          "start": 1570,
+          "end": 9147,
+          "characters": 7577,
+          "sha256": "0ebd32a43e3870e3593d17a4a710ffc1d36bdf7342250f9453497c6e238d02af",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 37,
+          "path": "OEBPS/Text/38.html",
+          "start": 0,
+          "end": 2442,
+          "characters": 2442,
+          "sha256": "b1106389a2207dce63f40cda8d18c2d0acffa4d7f50d2f344e201d967a7b1573",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 38,
+          "path": "OEBPS/Text/39.html",
+          "start": 0,
+          "end": 981,
+          "characters": 981,
+          "sha256": "09e216b5857a5b2e146c57796b3b9223f58c66eb8b72dcb670b780bce050902e",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 11000,
+      "next_spine_index": 38,
+      "next_character": 981
+    },
+    {
+      "batch": 16,
+      "segments": [
+        {
+          "spine_index": 38,
+          "path": "OEBPS/Text/39.html",
+          "start": 981,
+          "end": 4125,
+          "characters": 3144,
+          "sha256": "0a14ef81efacd17bc38a59864ed0e3c365dde8a246c414edec3233d1a7776158",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 39,
+          "path": "OEBPS/Text/40.html",
+          "start": 0,
+          "end": 2356,
+          "characters": 2356,
+          "sha256": "ad3d66877c3525644d1eeb06f04244abddb20c48b0dc7711a4ca363760e0c181",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 5500,
+      "next_spine_index": 39,
+      "next_character": 2356
+    },
+    {
+      "batch": 17,
+      "segments": [
+        {
+          "spine_index": 39,
+          "path": "OEBPS/Text/40.html",
+          "start": 2356,
+          "end": 3367,
+          "characters": 1011,
+          "sha256": "fdd411f839e47730ca709d5c5479ebef8d155072a9e338914f3507c719bca1cc",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 40,
+          "path": "OEBPS/Text/41.html",
+          "start": 0,
+          "end": 3268,
+          "characters": 3268,
+          "sha256": "13869d800ba697ef770eeb345430ad9d5e6990c8d98e84e6a9f9975a7cfd1288",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 41,
+          "path": "OEBPS/Text/42.html",
+          "start": 0,
+          "end": 2221,
+          "characters": 2221,
+          "sha256": "53a62445f0c3c4c204232f346b5136561ab66a7fc0636e712e1a99cc0d96b942",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6500,
+      "next_spine_index": 41,
+      "next_character": 2221
+    },
+    {
+      "batch": 18,
+      "segments": [
+        {
+          "spine_index": 41,
+          "path": "OEBPS/Text/42.html",
+          "start": 2221,
+          "end": 3796,
+          "characters": 1575,
+          "sha256": "ff5c7f8e37c933a6da33e0b727deb1e09727d916e5cc672519735743925ad536",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 42,
+          "path": "OEBPS/Text/43.html",
+          "start": 0,
+          "end": 2070,
+          "characters": 2070,
+          "sha256": "8f31aeb0d7fda519377d416482edfd53f255281ced1854116fccd63f56cf3938",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 43,
+          "path": "OEBPS/Text/44.html",
+          "start": 0,
+          "end": 2855,
+          "characters": 2855,
+          "sha256": "06419a88d1e435cfbe377d753719794865b76a65928ffbe0c74ac26669a932cc",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6500,
+      "next_spine_index": 43,
+      "next_character": 2855
+    },
+    {
+      "batch": 19,
+      "segments": [
+        {
+          "spine_index": 43,
+          "path": "OEBPS/Text/44.html",
+          "start": 2855,
+          "end": 3759,
+          "characters": 904,
+          "sha256": "bf44de05423d4b878c9d317875b17690a9a4c5b3bdbd4035be07d3de7a597d1b",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 44,
+          "path": "OEBPS/Text/45.html",
+          "start": 0,
+          "end": 5596,
+          "characters": 5596,
+          "sha256": "f87a8be43b984ded2da9244981867a173a2ac51fb5911f97d9832079c432b794",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6500,
+      "next_spine_index": 44,
+      "next_character": 5596
+    },
+    {
+      "batch": 20,
+      "segments": [
+        {
+          "spine_index": 44,
+          "path": "OEBPS/Text/45.html",
+          "start": 5596,
+          "end": 7754,
+          "characters": 2158,
+          "sha256": "347ef768004ba74d0b76f008fa04e6bf8721a46091465a902c03d7af616f80e9",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 45,
+          "path": "OEBPS/Text/46.html",
+          "start": 0,
+          "end": 4342,
+          "characters": 4342,
+          "sha256": "ce703060c75b3b66e13c8392f7f26f7dd439800cf6e9aa70c36112d8630e0abe",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6500,
+      "next_spine_index": 45,
+      "next_character": 4342
+    },
+    {
+      "batch": 21,
+      "segments": [
+        {
+          "spine_index": 45,
+          "path": "OEBPS/Text/46.html",
+          "start": 4342,
+          "end": 8475,
+          "characters": 4133,
+          "sha256": "139e4994038c86ee6296fb37c507c67e683e236c944645a91b7a47938e5057ff",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 46,
+          "path": "OEBPS/Text/47.html",
+          "start": 0,
+          "end": 1783,
+          "characters": 1783,
+          "sha256": "d7f50bd293b7de9f52f59060ac62660353e3810e1f7a4acd35302bfcfea20cad",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 47,
+          "path": "OEBPS/Text/48.html",
+          "start": 0,
+          "end": 584,
+          "characters": 584,
+          "sha256": "39063a790c9550a5b7b8c82dae9b7c1c3e666e2e004fd0e215e46470ef4b232d",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6500,
+      "next_spine_index": 47,
+      "next_character": 584
+    },
+    {
+      "batch": 22,
+      "segments": [
+        {
+          "spine_index": 47,
+          "path": "OEBPS/Text/48.html",
+          "start": 584,
+          "end": 4315,
+          "characters": 3731,
+          "sha256": "cbce60ed5afda0390c782b4b5133f5c636f90b9027b471fe6db879196b4712a1",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 48,
+          "path": "OEBPS/Text/49.html",
+          "start": 0,
+          "end": 1771,
+          "characters": 1771,
+          "sha256": "6a1423893e390ebf01240fa7fd1a8fe2089a996c51914380cbefc641d3766c5b",
+          "tool_output_read_complete": true
+        },
+        {
+          "spine_index": 49,
+          "path": "OEBPS/Text/50.html",
+          "start": 0,
+          "end": 1078,
+          "characters": 1078,
+          "sha256": "a920e92b3a69339171b345dd78e1a93a022be74ece7ccd4566b6e26ca2499fb9",
+          "tool_output_read_complete": true
+        }
+      ],
+      "characters": 6580,
+      "next_spine_index": 50,
+      "next_character": 0
+    }
+  ],
+  "spine_items": [
+    {
+      "well_formed_XML": true,
+      "strict_XML_error": null,
+      "spine_index": 0,
+      "spine_number": 1,
+      "idref": "x1.html",
+      "path": "OEBPS/Text/1.html",
+      "title": "迷上我",
+      "raw_bytes": 436,
+      "raw_sha256": "6e9cad09e7d48a81acff714595d86943d63d7bcc86e47bd4c7d72258efd8a97d",
+      "characters": 36,
+      "text_sha256": "4e565eec9a6905ffd6fcfb1ba8486b75966ff10d24f3c05b3e168ea6dc2d65cb",
+      "secondary_text_sha256": "4e565eec9a6905ffd6fcfb1ba8486b75966ff10d24f3c05b3e168ea6dc2d65cb",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": "迷上我",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "p": 1,
+        "a": 1
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [
+        {
+          "href": "http://www.puashu.com/0/61/"
+        }
+      ],
+      "read_range_in_extracted_body": [
+        0,
+        36
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 37, column 2",
+      "spine_index": 1,
+      "spine_number": 2,
+      "idref": "x2.html",
+      "path": "OEBPS/Text/2.html",
+      "title": "前言",
+      "raw_bytes": 5132,
+      "raw_sha256": "4c82e1b2f850aa5b309b70c86a59c0c47fe00eb79568f5a3dcfb162a5a7dbcc0",
+      "characters": 562,
+      "text_sha256": "06a51ca5412a7e88dfea92751aa619ac5ce6d626b2c06a2ded7a87d41f969232",
+      "secondary_text_sha256": "06a51ca5412a7e88dfea92751aa619ac5ce6d626b2c06a2ded7a87d41f969232",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 前言",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 24
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        562
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 191, column 2",
+      "spine_index": 2,
+      "spine_number": 3,
+      "idref": "x3.html",
+      "path": "OEBPS/Text/3.html",
+      "title": "第1章 什么吸引女人？",
+      "raw_bytes": 49962,
+      "raw_sha256": "cefd96903311da95f5ba47d7d4be43c05c9a8e50fa01acee43f77454f42c6b5d",
+      "characters": 5993,
+      "text_sha256": "1f929581bef381d010fe0351beed6e06f5e5e5365518bdaa780bd0dc97d7aa92",
+      "secondary_text_sha256": "1f929581bef381d010fe0351beed6e06f5e5e5365518bdaa780bd0dc97d7aa92",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第1章 什么吸引女人？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 178
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        5993
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 189, column 2",
+      "spine_index": 3,
+      "spine_number": 4,
+      "idref": "x4.html",
+      "path": "OEBPS/Text/4.html",
+      "title": "第2章 成真的故事成真的故事——我是怎么发现和开始研究吸引女人的秘密的？",
+      "raw_bytes": 50063,
+      "raw_sha256": "4cb17a4d705eacad39a105737df4f0fb1b047d9a767b81051be17eae46d14c75",
+      "characters": 5995,
+      "text_sha256": "f303c89e395f8773d4fcacd3422dcbaf3e3bede16746bdae72e046ab6719a603",
+      "secondary_text_sha256": "f303c89e395f8773d4fcacd3422dcbaf3e3bede16746bdae72e046ab6719a603",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 2,
+      "head_title": " 第2章 成真的故事成真的故事——我是怎么发现和开始研究吸引女人的秘密的？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 176
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        5995
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 97, column 2",
+      "spine_index": 4,
+      "spine_number": 5,
+      "idref": "x5.html",
+      "path": "OEBPS/Text/5.html",
+      "title": "第3章 吸引女人是一门可以通过学习来提高的技能！",
+      "raw_bytes": 27710,
+      "raw_sha256": "fd71b862d9e56111711fbae1a98b74b90e9f3f16f4d26a2823b0a71abefd5fa8",
+      "characters": 3342,
+      "text_sha256": "75b2e838eddfedbee97bb0e9cf3d641fd2dd03532702080d23bf1c52e0f98272",
+      "secondary_text_sha256": "75b2e838eddfedbee97bb0e9cf3d641fd2dd03532702080d23bf1c52e0f98272",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第3章 吸引女人是一门可以通过学习来提高的技能！",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 84,
+        "a": 1
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [
+        {
+          "href": "mailto:chengzhen@mishangwo.com"
+        }
+      ],
+      "read_range_in_extracted_body": [
+        0,
+        3342
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 115, column 2",
+      "spine_index": 5,
+      "spine_number": 6,
+      "idref": "x6.html",
+      "path": "OEBPS/Text/6.html",
+      "title": "第4章 到底为什么有钱，长得帅，长得高，和有名有权吸引女人？",
+      "raw_bytes": 25481,
+      "raw_sha256": "7a9a69025cdf0b11e17bc40da5096b2e40e5531a76ad5cd8e72997a9634002cb",
+      "characters": 3003,
+      "text_sha256": "d2f71ee8cabbad85bdf40af2666173ae33752f1ecab04b5946e9183844e88649",
+      "secondary_text_sha256": "d2f71ee8cabbad85bdf40af2666173ae33752f1ecab04b5946e9183844e88649",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第4章 到底为什么有钱，长得帅，长得高，和有名有权吸引女人？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 102
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3003
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 259, column 2",
+      "spine_index": 6,
+      "spine_number": 7,
+      "idref": "x7.html",
+      "path": "OEBPS/Text/7.html",
+      "title": "第5章 女人判断男人魅力的超级生物“雷达”——潜沟通",
+      "raw_bytes": 68797,
+      "raw_sha256": "f2bc9e727e034634b5a6b7136cacf8d796451ca11d921c157178cde17100f7b6",
+      "characters": 8203,
+      "text_sha256": "b700c6d2cf5cf7dbec548af87da42d7253f1bc5631311d2d1470cab487a7a9ce",
+      "secondary_text_sha256": "b700c6d2cf5cf7dbec548af87da42d7253f1bc5631311d2d1470cab487a7a9ce",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第5章 女人判断男人魅力的超级生物“雷达”——潜沟通",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 246
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        8203
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 177, column 2",
+      "spine_index": 7,
+      "spine_number": 8,
+      "idref": "x8.html",
+      "path": "OEBPS/Text/8.html",
+      "title": "第6章 怎样在任何女人面前表现自己，才能让她觉得你有魅力？",
+      "raw_bytes": 27574,
+      "raw_sha256": "b5b54822397c3e54232d5c7c6de0334ceaa9073d9aa10175a5b73fa682558a68",
+      "characters": 3185,
+      "text_sha256": "ef6544f6f09809592488de6d5d1d8141284eb9e64e22ac137c14aaf912e9d055",
+      "secondary_text_sha256": "ef6544f6f09809592488de6d5d1d8141284eb9e64e22ac137c14aaf912e9d055",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第6章 怎样在任何女人面前表现自己，才能让她觉得你有魅力？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 164
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3185
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 231, column 2",
+      "spine_index": 8,
+      "spine_number": 9,
+      "idref": "x9.html",
+      "path": "OEBPS/Text/9.html",
+      "title": "第7章 为什么她不爱你的理由都是骗你的？",
+      "raw_bytes": 54882,
+      "raw_sha256": "014fc1aab77e8262b0788200ffc3320709dc0d40d696564da15a8f2f87f4a420",
+      "characters": 6519,
+      "text_sha256": "f68d053798eb13d433425d7ebdc1fd5e3a43fd1638ffa44e715ec62b39eafb1b",
+      "secondary_text_sha256": "f68d053798eb13d433425d7ebdc1fd5e3a43fd1638ffa44e715ec62b39eafb1b",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 4,
+      "head_title": " 第7章 为什么她不爱你的理由都是骗你的？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 218
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        6519
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 115, column 2",
+      "spine_index": 9,
+      "spine_number": 10,
+      "idref": "x10.html",
+      "path": "OEBPS/Text/10.html",
+      "title": "第8章 女人是怎样看待男人的表白的？",
+      "raw_bytes": 24485,
+      "raw_sha256": "7e6af9485425a55f7466409bb14a8654f00282b3bf1a0dc0579e020583c18cb3",
+      "characters": 2882,
+      "text_sha256": "c7cc2d6d468a7a9dd1063135b349f2e55a3c85e77b0aed483d3a66cc27fdbb42",
+      "secondary_text_sha256": "c7cc2d6d468a7a9dd1063135b349f2e55a3c85e77b0aed483d3a66cc27fdbb42",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第8章 女人是怎样看待男人的表白的？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 102
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2882
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 135, column 2",
+      "spine_index": 10,
+      "spine_number": 11,
+      "idref": "x11.html",
+      "path": "OEBPS/Text/11.html",
+      "title": "第9章 吸引女人必要的四个步骤",
+      "raw_bytes": 23693,
+      "raw_sha256": "aa20de1a961aaf822f4dc4a8d715ef205db574e2ae0391eb965e4e0c36a08480",
+      "characters": 2741,
+      "text_sha256": "9461cf3568ab91ab3fb309ea80113def9883b6d4568f8523f0e025efe080b4a7",
+      "secondary_text_sha256": "9461cf3568ab91ab3fb309ea80113def9883b6d4568f8523f0e025efe080b4a7",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第9章 吸引女人必要的四个步骤",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 122
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2741
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 73, column 2",
+      "spine_index": 11,
+      "spine_number": 12,
+      "idref": "x12.html",
+      "path": "OEBPS/Text/12.html",
+      "title": "第10章 为什么“无所谓但友好”的态度可以让女人对你产生兴趣？",
+      "raw_bytes": 17806,
+      "raw_sha256": "e488cfe05abfef76476a3f70ceac065713ea530ac618c83cbfe670cfd9a35d04",
+      "characters": 2099,
+      "text_sha256": "7402b4e22092dfc5e9b632462f161568462d5fd4ad9c71096987b3b08e8d8e1b",
+      "secondary_text_sha256": "7402b4e22092dfc5e9b632462f161568462d5fd4ad9c71096987b3b08e8d8e1b",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第10章 为什么“无所谓但友好”的态度可以让女人对你产生兴趣？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 60
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2099
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 57, column 2",
+      "spine_index": 12,
+      "spine_number": 13,
+      "idref": "x13.html",
+      "path": "OEBPS/Text/13.html",
+      "title": "第11章 女人眼中的五种男人",
+      "raw_bytes": 9494,
+      "raw_sha256": "531e2bba8685067358ad7abed956b678069c5224775a7046c38ba993109d6e37",
+      "characters": 1087,
+      "text_sha256": "caac67043d32284ee63337e6a6bc1c11c2d72f92f671e8b6f23672621800873f",
+      "secondary_text_sha256": "caac67043d32284ee63337e6a6bc1c11c2d72f92f671e8b6f23672621800873f",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第11章 女人眼中的五种男人",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 44
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1087
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 183, column 2",
+      "spine_index": 13,
+      "spine_number": 14,
+      "idref": "x14.html",
+      "path": "OEBPS/Text/14.html",
+      "title": "第12章 一开始，怎样和女人聊起来？",
+      "raw_bytes": 35306,
+      "raw_sha256": "7cd4c8587accd2e3826cde6c04a15e169140a037dd765b172fc728f80da46500",
+      "characters": 4128,
+      "text_sha256": "2e151f4a9011e5b6e3f02786ebbc00d2d68110b56299f91e10916a82c105734e",
+      "secondary_text_sha256": "2e151f4a9011e5b6e3f02786ebbc00d2d68110b56299f91e10916a82c105734e",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第12章 一开始，怎样和女人聊起来？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 170
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        4128
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 169, column 2",
+      "spine_index": 14,
+      "spine_number": 15,
+      "idref": "x15.html",
+      "path": "OEBPS/Text/15.html",
+      "title": "第13章 怎样用冷读的技巧来让女人对你感兴趣？",
+      "raw_bytes": 30154,
+      "raw_sha256": "538429ee798ec05c66d80031d45336e5641afcd8bf9937543f25fe2873338f06",
+      "characters": 3495,
+      "text_sha256": "1c14956a8370cf3aca83b14863b052c0a8f76cbd0946023045b8c9f89e9718b6",
+      "secondary_text_sha256": "1c14956a8370cf3aca83b14863b052c0a8f76cbd0946023045b8c9f89e9718b6",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第13章 怎样用冷读的技巧来让女人对你感兴趣？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 156
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3495
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 71, column 2",
+      "spine_index": 15,
+      "spine_number": 16,
+      "idref": "x16.html",
+      "path": "OEBPS/Text/16.html",
+      "title": "第14章 怎样避免无聊",
+      "raw_bytes": 11568,
+      "raw_sha256": "6f041d703cb509e57239829d92da081ab721a591fce1dd68e01bbb90e2df04d7",
+      "characters": 1328,
+      "text_sha256": "7e9ae62946230a9f9b52253e9be2dc4af2d9ab1669b9626172725d28fab1ebe9",
+      "secondary_text_sha256": "7e9ae62946230a9f9b52253e9be2dc4af2d9ab1669b9626172725d28fab1ebe9",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第14章 怎样避免无聊",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 58
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1328
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 89, column 2",
+      "spine_index": 16,
+      "spine_number": 17,
+      "idref": "x17.html",
+      "path": "OEBPS/Text/17.html",
+      "title": "第15章 第二步：建立吸引——怎样和女人超越普通朋友的关系，并让她喜欢上你？",
+      "raw_bytes": 15833,
+      "raw_sha256": "56a3532d410086653be6b1c13093e05067db5bcfc33b136e8aaa833b12eb053b",
+      "characters": 1829,
+      "text_sha256": "1efab9927bdbab23361a8013f633533ac8261593ed2064a7f0bcc1ff569c60a9",
+      "secondary_text_sha256": "1efab9927bdbab23361a8013f633533ac8261593ed2064a7f0bcc1ff569c60a9",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第15章 第二步：建立吸引——怎样和女人超越普通朋友的关系，并让她喜欢上你？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 76
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1829
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 103, column 2",
+      "spine_index": 17,
+      "spine_number": 18,
+      "idref": "x18.html",
+      "path": "OEBPS/Text/18.html",
+      "title": "第16章 善意地耍女人——怎样让她不再对你冷淡，甚至对你投怀送抱？",
+      "raw_bytes": 18246,
+      "raw_sha256": "e3df3f6ee62735344c9181ad2472cc623f89141eda2530084596d86c81c762c7",
+      "characters": 2104,
+      "text_sha256": "b6ea66bc0341c0e2c35c0e58e399a2e94a1752c2165993ff70af4b73873e151e",
+      "secondary_text_sha256": "b6ea66bc0341c0e2c35c0e58e399a2e94a1752c2165993ff70af4b73873e151e",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第16章 善意地耍女人——怎样让她不再对你冷淡，甚至对你投怀送抱？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 90
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2104
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 149, column 2",
+      "spine_index": 18,
+      "spine_number": 19,
+      "idref": "x19.html",
+      "path": "OEBPS/Text/19.html",
+      "title": "第17章 故意曲解女人——吸引女人的超级有效方法，无论她心里是不是有另一个男人，无论有多少其他男人",
+      "raw_bytes": 28253,
+      "raw_sha256": "e00e6366d51880692cad587831b609dcb1e2239bcb4508e639d104849caf5674",
+      "characters": 3299,
+      "text_sha256": "6f6b1f4c6137e3f6ad19076e32c129558238fcacf86d029174898d1ad067a7ad",
+      "secondary_text_sha256": "6f6b1f4c6137e3f6ad19076e32c129558238fcacf86d029174898d1ad067a7ad",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第17章 故意曲解女人——吸引女人的超级有效方法，无论她心里是不是有另一个男人，无论有多少其他男人",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 136
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3299
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 137, column 2",
+      "spine_index": 19,
+      "spine_number": 20,
+      "idref": "x20.html",
+      "path": "OEBPS/Text/20.html",
+      "title": "第18章 怎样用推拉法调情，让女人对你有心跳的感觉？",
+      "raw_bytes": 36844,
+      "raw_sha256": "c5c2caf572f8c03cf58d664af84590fa80f89052ba06f1798a83051876e954d4",
+      "characters": 4409,
+      "text_sha256": "d7b80ebf7c16f833d74ddbfe486ebf037d88742c8695585287fe1047d0532256",
+      "secondary_text_sha256": "d7b80ebf7c16f833d74ddbfe486ebf037d88742c8695585287fe1047d0532256",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第18章 怎样用推拉法调情，让女人对你有心跳的感觉？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 124
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        4409
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 191, column 2",
+      "spine_index": 20,
+      "spine_number": 21,
+      "idref": "x21.html",
+      "path": "OEBPS/Text/21.html",
+      "title": "第19章 怎样幽默？",
+      "raw_bytes": 33740,
+      "raw_sha256": "efb3f6e7f722dff928b22785989166358cd3dded026b82ad766afddfb258f392",
+      "characters": 3920,
+      "text_sha256": "35d7990a0e7fd6ef9b226c25a1c85f0591be0cb0e902bed0884ba9aef1dd8227",
+      "secondary_text_sha256": "35d7990a0e7fd6ef9b226c25a1c85f0591be0cb0e902bed0884ba9aef1dd8227",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第19章 怎样幽默？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 178
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3920
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 241, column 2",
+      "spine_index": 21,
+      "spine_number": 22,
+      "idref": "x22.html",
+      "path": "OEBPS/Text/22.html",
+      "title": "第20章 女人会暗中考验男人，来决定是不是要喜欢他？",
+      "raw_bytes": 52805,
+      "raw_sha256": "920485f06926cecee35044ffc743895c6d8d2d0e76947da28627282412d315ef",
+      "characters": 6253,
+      "text_sha256": "bd1d094125a59cc40e4efae936060c99ff35ac7eef9edc0a3aa752e74b7f65bc",
+      "secondary_text_sha256": "bd1d094125a59cc40e4efae936060c99ff35ac7eef9edc0a3aa752e74b7f65bc",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第20章 女人会暗中考验男人，来决定是不是要喜欢他？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 228
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        6253
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 57, column 2",
+      "spine_index": 22,
+      "spine_number": 23,
+      "idref": "x23.html",
+      "path": "OEBPS/Text/23.html",
+      "title": "第21章 第三步：巩固吸引——怎样让女人在短时间内爱上你？怎样更深入交往？",
+      "raw_bytes": 12438,
+      "raw_sha256": "394234269da6e99d6b57a7bff7f6024742f59298bea0d0107c4999336bb41f34",
+      "characters": 1459,
+      "text_sha256": "1f41925cb2c224a2dd393515d258dba29beb083f7e84306c8d0d53af938dc413",
+      "secondary_text_sha256": "1f41925cb2c224a2dd393515d258dba29beb083f7e84306c8d0d53af938dc413",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第21章 第三步：巩固吸引——怎样让女人在短时间内爱上你？怎样更深入交往？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 44
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1459
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 33, column 2",
+      "spine_index": 23,
+      "spine_number": 24,
+      "idref": "x24.html",
+      "path": "OEBPS/Text/24.html",
+      "title": "第22章 怎样判断她是不是已经被你吸引了呢？",
+      "raw_bytes": 6828,
+      "raw_sha256": "294cc5169ddce7d581ea43387eb96c00f962b9deec8c3f12427c51f0997f5c4f",
+      "characters": 786,
+      "text_sha256": "261bcf6ae0a2ced6801633b10cca365de2f0a7c01a3ecfc2d686af72e8bca057",
+      "secondary_text_sha256": "261bcf6ae0a2ced6801633b10cca365de2f0a7c01a3ecfc2d686af72e8bca057",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第22章 怎样判断她是不是已经被你吸引了呢？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 20
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        786
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 625, column 2",
+      "spine_index": 24,
+      "spine_number": 25,
+      "idref": "x25.html",
+      "path": "OEBPS/Text/25.html",
+      "title": "第23章 和女人不知道聊什么的解决方法——话块连情",
+      "raw_bytes": 143799,
+      "raw_sha256": "3bb65313b12d479baa1db43764714846ad6ed00141c14361e8311403cbdc4880",
+      "characters": 17101,
+      "text_sha256": "8e12cc53a9c68b0c263d5929744879756ce066d2469a04e8739f115c52cb8c3d",
+      "secondary_text_sha256": "8e12cc53a9c68b0c263d5929744879756ce066d2469a04e8739f115c52cb8c3d",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第23章 和女人不知道聊什么的解决方法——话块连情",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 612
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        17101
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 89, column 2",
+      "spine_index": 25,
+      "spine_number": 26,
+      "idref": "x26.html",
+      "path": "OEBPS/Text/26.html",
+      "title": "第24章 怎样让认识不久的女孩和你在10几分钟里产生一见如故，相见恨晚的感觉？——时间错误法",
+      "raw_bytes": 22019,
+      "raw_sha256": "e83df22cd38183e995511df7ceb3f9f13414c49fad4e7bc01b4e44627d7cb70b",
+      "characters": 2621,
+      "text_sha256": "5b416b39e1d6490bb6c5b9039fe043182b7782d276e13bccd5ead916ed643b43",
+      "secondary_text_sha256": "5b416b39e1d6490bb6c5b9039fe043182b7782d276e13bccd5ead916ed643b43",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第24章 怎样让认识不久的女孩和你在10几分钟里产生一见如故，相见恨晚的感觉？——时间错误法",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 76
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2621
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 53, column 2",
+      "spine_index": 26,
+      "spine_number": 27,
+      "idref": "x27.html",
+      "path": "OEBPS/Text/27.html",
+      "title": "第25章 透露给女人一个内心深处的痛，或者男人的柔弱一面",
+      "raw_bytes": 11915,
+      "raw_sha256": "13cf9eb14a6bac9e552ca0fe439023ded28a692f1a8eec059c48ef9ab07836e7",
+      "characters": 1390,
+      "text_sha256": "02ce0eb998a0cdce0e5f18d018ad2a326ed67317901797e2f7972630d44fc70a",
+      "secondary_text_sha256": "02ce0eb998a0cdce0e5f18d018ad2a326ed67317901797e2f7972630d44fc70a",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第25章 透露给女人一个内心深处的痛，或者男人的柔弱一面",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 40
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1390
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 285, column 2",
+      "spine_index": 27,
+      "spine_number": 28,
+      "idref": "x28.html",
+      "path": "OEBPS/Text/28.html",
+      "title": "第26章 吸引女人的身体语言",
+      "raw_bytes": 71143,
+      "raw_sha256": "162855369d8c4c8a990b902106f951c0c52f736046df758bd277d38ff5790d7e",
+      "characters": 8658,
+      "text_sha256": "576ac5436de7a0c4ad3d1e311d959e2aba6bdeac90a13a9f24a84eb3c21dd46f",
+      "secondary_text_sha256": "576ac5436de7a0c4ad3d1e311d959e2aba6bdeac90a13a9f24a84eb3c21dd46f",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 2,
+      "head_title": " 第26章 吸引女人的身体语言",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 272
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        8658
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 131, column 2",
+      "spine_index": 28,
+      "spine_number": 29,
+      "idref": "x29.html",
+      "path": "OEBPS/Text/29.html",
+      "title": "第27章 怎样赞美女人才有效？",
+      "raw_bytes": 27885,
+      "raw_sha256": "c2f1eaed4ec7a846419f9862f9c127a4781ae8e0ad258d07ef1a0af2372ded36",
+      "characters": 3262,
+      "text_sha256": "688f98836eefd945c18189aa2ef9d82535736af81b168ef10f137339fc142ba2",
+      "secondary_text_sha256": "688f98836eefd945c18189aa2ef9d82535736af81b168ef10f137339fc142ba2",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第27章 怎样赞美女人才有效？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 118
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3262
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 167, column 2",
+      "spine_index": 29,
+      "spine_number": 30,
+      "idref": "x30.html",
+      "path": "OEBPS/Text/30.html",
+      "title": "第28章 表白失败后，你还有2个机会可以挽回！",
+      "raw_bytes": 37519,
+      "raw_sha256": "7a2d3ddad1bab887d198203b4d8c6e5378666b1c5ff6af812bf043a7a083b94d",
+      "characters": 4426,
+      "text_sha256": "07aac9f71ee0792718d99d7d2dea60bd2207ea8f1b586efbe43c5f161e425763",
+      "secondary_text_sha256": "07aac9f71ee0792718d99d7d2dea60bd2207ea8f1b586efbe43c5f161e425763",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第28章 表白失败后，你还有2个机会可以挽回！",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 154
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        4426
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 27, column 2",
+      "spine_index": 30,
+      "spine_number": 31,
+      "idref": "x31.html",
+      "path": "OEBPS/Text/31.html",
+      "title": "第29章 女孩说她父母不同意你们交往，怎么办？",
+      "raw_bytes": 4155,
+      "raw_sha256": "cd2b8fcc0cc03014c76a3a99f0130015d6e44ce074563e9f885c9c9b3d48d107",
+      "characters": 461,
+      "text_sha256": "fc5aa3417fb5e90b5edfe39596f09554cb29bfb71b2ac69b3406a40c20d47d4a",
+      "secondary_text_sha256": "fc5aa3417fb5e90b5edfe39596f09554cb29bfb71b2ac69b3406a40c20d47d4a",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第29章 女孩说她父母不同意你们交往，怎么办？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 14
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        461
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 79, column 2",
+      "spine_index": 31,
+      "spine_number": 32,
+      "idref": "x32.html",
+      "path": "OEBPS/Text/32.html",
+      "title": "第30章 “我现在可以亲她吗？她现在会同意做我的女朋友吗？”",
+      "raw_bytes": 15348,
+      "raw_sha256": "c502d95ff765aa5e06d690077f67f3570c195ea1988038adea4d0aa1aceeb221",
+      "characters": 1780,
+      "text_sha256": "8bea43e0c3fbad2630679b503c0602d98d552461d25fd79a82394fcbeb2c30f3",
+      "secondary_text_sha256": "8bea43e0c3fbad2630679b503c0602d98d552461d25fd79a82394fcbeb2c30f3",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第30章 “我现在可以亲她吗？她现在会同意做我的女朋友吗？”",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 66
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1780
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 353, column 2",
+      "spine_index": 32,
+      "spine_number": 33,
+      "idref": "x33.html",
+      "path": "OEBPS/Text/33.html",
+      "title": "第31章 吸引女人相关的社交技巧——怎样让女人喜欢和你聊天，让她觉得你有意思？",
+      "raw_bytes": 99196,
+      "raw_sha256": "d7a92f2b39492fca7b5afb54dfa13b4b6ce05a5610e8990a8ca4b1b5cd950282",
+      "characters": 11958,
+      "text_sha256": "41c4559e2113d1931c7436e9dc27c86846ea4ffdba6f23528e9944b22d257ec1",
+      "secondary_text_sha256": "41c4559e2113d1931c7436e9dc27c86846ea4ffdba6f23528e9944b22d257ec1",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第31章 吸引女人相关的社交技巧——怎样让女人喜欢和你聊天，让她觉得你有意思？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 340
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        11958
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 181, column 2",
+      "spine_index": 33,
+      "spine_number": 34,
+      "idref": "x34.html",
+      "path": "OEBPS/Text/34.html",
+      "title": "第32章 要给女人不同的感觉，让她琢磨不透你",
+      "raw_bytes": 46326,
+      "raw_sha256": "6dd18bfe43f860f1f1034b9db9565e453b3bec318505676daca6336ad054af7a",
+      "characters": 5509,
+      "text_sha256": "8967d5a2ca76d73c891a4de443df9d68f39b085092c64a196030cbd9ab5d3c18",
+      "secondary_text_sha256": "8967d5a2ca76d73c891a4de443df9d68f39b085092c64a196030cbd9ab5d3c18",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第32章 要给女人不同的感觉，让她琢磨不透你",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 168
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        5509
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 339, column 2",
+      "spine_index": 34,
+      "spine_number": 35,
+      "idref": "x35.html",
+      "path": "OEBPS/Text/35.html",
+      "title": "第33章 开场白一一怎样创造机会来认识你心仪的女孩？怎样认识更多的美女？",
+      "raw_bytes": 99929,
+      "raw_sha256": "59fed332bddc5a82a3e4eac6e2c60be4fff9c14a82d1384f6f0be098ad7eac49",
+      "characters": 12051,
+      "text_sha256": "981ade30e0905e29c4e826cfb91d97e197de8ba99593370608ec8bf9de4aad1f",
+      "secondary_text_sha256": "981ade30e0905e29c4e826cfb91d97e197de8ba99593370608ec8bf9de4aad1f",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第33章 开场白一一怎样创造机会来认识你心仪的女孩？怎样认识更多的美女？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 326
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        12051
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 109, column 2",
+      "spine_index": 35,
+      "spine_number": 36,
+      "idref": "x36.html",
+      "path": "OEBPS/Text/36.html",
+      "title": "第34章 怎样问她要联系方式？",
+      "raw_bytes": 29885,
+      "raw_sha256": "5f5b2231794080c82d7da0639203076451202f8a8b2df7816ae403f49cf20e98",
+      "characters": 3556,
+      "text_sha256": "40aabb26f1c9da47fa8f393ca7801895671f99dd1e16c5cbffd3cdbdc08e6b98",
+      "secondary_text_sha256": "40aabb26f1c9da47fa8f393ca7801895671f99dd1e16c5cbffd3cdbdc08e6b98",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第34章 怎样问她要联系方式？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 96
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3556
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 317, column 2",
+      "spine_index": 36,
+      "spine_number": 37,
+      "idref": "x37.html",
+      "path": "OEBPS/Text/37.html",
+      "title": "第35章 怎样约她出来？",
+      "raw_bytes": 76194,
+      "raw_sha256": "8b92eff2dd4b8ec31dc82abc48e7bcd41d5970a6c60dce20a832e823d475c7ac",
+      "characters": 9147,
+      "text_sha256": "460849c46c306930ecbb1abe77dbaf342a9bf85ed26c44db0f9a4090ee9ac7fd",
+      "secondary_text_sha256": "460849c46c306930ecbb1abe77dbaf342a9bf85ed26c44db0f9a4090ee9ac7fd",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 4,
+      "head_title": " 第35章 怎样约她出来？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 304
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        9147
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 81, column 2",
+      "spine_index": 37,
+      "spine_number": 38,
+      "idref": "x38.html",
+      "path": "OEBPS/Text/38.html",
+      "title": "第36章 发短信的6大要点",
+      "raw_bytes": 20602,
+      "raw_sha256": "9e049cd2020b1e8aa7413af13736cc9c9b671e9cc9a977ae830c83704763b823",
+      "characters": 2442,
+      "text_sha256": "b1106389a2207dce63f40cda8d18c2d0acffa4d7f50d2f344e201d967a7b1573",
+      "secondary_text_sha256": "b1106389a2207dce63f40cda8d18c2d0acffa4d7f50d2f344e201d967a7b1573",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第36章 发短信的6大要点",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 68
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2442
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 109, column 2",
+      "spine_index": 38,
+      "spine_number": 39,
+      "idref": "x39.html",
+      "path": "OEBPS/Text/39.html",
+      "title": "第37章 约出来后怎么做？",
+      "raw_bytes": 34420,
+      "raw_sha256": "75248073616cb79e000b78626157007eda2d08c13f312d48ac44f68ffa41fe9f",
+      "characters": 4125,
+      "text_sha256": "a373091897eb7544924ddf032febaf0c2aa3292b453c0466e62d705bbbc04dc4",
+      "secondary_text_sha256": "a373091897eb7544924ddf032febaf0c2aa3292b453c0466e62d705bbbc04dc4",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第37章 约出来后怎么做？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 96
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        4125
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 123, column 2",
+      "spine_index": 39,
+      "spine_number": 40,
+      "idref": "x40.html",
+      "path": "OEBPS/Text/40.html",
+      "title": "第38章 约会时干什么好？",
+      "raw_bytes": 28636,
+      "raw_sha256": "023889d33ff0faca56b8f664c08b7b41b54a8373f3bc10958d11ea79f18922c0",
+      "characters": 3367,
+      "text_sha256": "de918d4bdc0bda16651fbe09edb8e570a3812007112f5daf71e2ea0e601e1f90",
+      "secondary_text_sha256": "de918d4bdc0bda16651fbe09edb8e570a3812007112f5daf71e2ea0e601e1f90",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第38章 约会时干什么好？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 110
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3367
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 111, column 2",
+      "spine_index": 40,
+      "spine_number": 41,
+      "idref": "x41.html",
+      "path": "OEBPS/Text/41.html",
+      "title": "第39章 怎么样选择约会场所？",
+      "raw_bytes": 27607,
+      "raw_sha256": "735afe7fe908f986f559ed5857a53a4cb0a4d110f42a2110b5642d022df05114",
+      "characters": 3268,
+      "text_sha256": "13869d800ba697ef770eeb345430ad9d5e6990c8d98e84e6a9f9975a7cfd1288",
+      "secondary_text_sha256": "13869d800ba697ef770eeb345430ad9d5e6990c8d98e84e6a9f9975a7cfd1288",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第39章 怎么样选择约会场所？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 98
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3268
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 177, column 2",
+      "spine_index": 41,
+      "spine_number": 42,
+      "idref": "x42.html",
+      "path": "OEBPS/Text/42.html",
+      "title": "第40章 肢体亲密度升级",
+      "raw_bytes": 32758,
+      "raw_sha256": "95b947a58b9a6a12ad60a6c571c5cc9e047470aaa102c9c5b256ab447ea0b717",
+      "characters": 3796,
+      "text_sha256": "18cf040ac0f58caba4d34e294405691912e27f5f0dbb4318784104bf35441593",
+      "secondary_text_sha256": "18cf040ac0f58caba4d34e294405691912e27f5f0dbb4318784104bf35441593",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第40章 肢体亲密度升级",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 164
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3796
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 79, column 2",
+      "spine_index": 42,
+      "spine_number": 43,
+      "idref": "x43.html",
+      "path": "OEBPS/Text/43.html",
+      "title": "第41章 和她做爱",
+      "raw_bytes": 17703,
+      "raw_sha256": "d828546014bc32aea438aaca29398e4ed4e8e7d32cbb90827244feb73e4d9c53",
+      "characters": 2070,
+      "text_sha256": "8f31aeb0d7fda519377d416482edfd53f255281ced1854116fccd63f56cf3938",
+      "secondary_text_sha256": "8f31aeb0d7fda519377d416482edfd53f255281ced1854116fccd63f56cf3938",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第41章 和她做爱",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 66
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        2070
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 109, column 2",
+      "spine_index": 43,
+      "spine_number": 44,
+      "idref": "x44.html",
+      "path": "OEBPS/Text/44.html",
+      "title": "第42章 怎样让女人愿意和你做爱？",
+      "raw_bytes": 31597,
+      "raw_sha256": "434cdb1874f9ee3925f82c0fb612136460ec0e28889f79df2680861006c0541a",
+      "characters": 3759,
+      "text_sha256": "aaf2f1b7a0c8f9c9da58b5fdc80327cbac263c85bc7f6c848f902d9ef613846e",
+      "secondary_text_sha256": "aaf2f1b7a0c8f9c9da58b5fdc80327cbac263c85bc7f6c848f902d9ef613846e",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第42章 怎样让女人愿意和你做爱？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 96
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        3759
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 229, column 2",
+      "spine_index": 44,
+      "spine_number": 45,
+      "idref": "x45.html",
+      "path": "OEBPS/Text/45.html",
+      "title": "第43章 不够自信怎么办？什么东西在阻碍你变得更加自信？",
+      "raw_bytes": 64688,
+      "raw_sha256": "3f85ed7665bdcdf10d819052d69600b5746c379b8fe2eb431725445f328fb3ed",
+      "characters": 7754,
+      "text_sha256": "1c47044bdce0554c2f2c9eddb5d7a7d8d0fa6ab97c85bca0aec1dc30641545eb",
+      "secondary_text_sha256": "1c47044bdce0554c2f2c9eddb5d7a7d8d0fa6ab97c85bca0aec1dc30641545eb",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第43章 不够自信怎么办？什么东西在阻碍你变得更加自信？",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 216
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        7754
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 283, column 2",
+      "spine_index": 45,
+      "spine_number": 46,
+      "idref": "x46.html",
+      "path": "OEBPS/Text/46.html",
+      "title": "第44章 身份认同——成就男人核心魅力，持久吸引， 长期留住她在你身边的突破口（高级课程）",
+      "raw_bytes": 71225,
+      "raw_sha256": "60297c1278993939af6608dec370f5ff23850ee800b76cfa6eda284d4b3ee0fe",
+      "characters": 8475,
+      "text_sha256": "3faf3550887de4ef6e872e99f1146daf9b3c5c8490302497cb13149a0dd4cc8e",
+      "secondary_text_sha256": "3faf3550887de4ef6e872e99f1146daf9b3c5c8490302497cb13149a0dd4cc8e",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第44章 身份认同——成就男人核心魅力，持久吸引， 长期留住她在你身边的突破口（高级课程）",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 270
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        8475
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 51, column 2",
+      "spine_index": 46,
+      "spine_number": 47,
+      "idref": "x47.html",
+      "path": "OEBPS/Text/47.html",
+      "title": "第45章 酒吧夜店之专用高级搭讪技巧——弹力带效果：  如何在一分钟之内就能要到美女的手机号码",
+      "raw_bytes": 14970,
+      "raw_sha256": "fddd700c2137dfa71a40f3c339ae54bc99868715c9b4ea5d25d5992eb9b421a1",
+      "characters": 1783,
+      "text_sha256": "d7f50bd293b7de9f52f59060ac62660353e3810e1f7a4acd35302bfcfea20cad",
+      "secondary_text_sha256": "d7f50bd293b7de9f52f59060ac62660353e3810e1f7a4acd35302bfcfea20cad",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第45章 酒吧夜店之专用高级搭讪技巧——弹力带效果：  如何在一分钟之内就能要到美女的手机号码",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 38
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        1783
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 111, column 2",
+      "spine_index": 47,
+      "spine_number": 48,
+      "idref": "x48.html",
+      "path": "OEBPS/Text/48.html",
+      "title": "第46章 酒吧夜店之专用高级搭讪技巧——回马枪技巧",
+      "raw_bytes": 35980,
+      "raw_sha256": "1ea36bc28aad81a1ad34d4f0f07aed3d2dbdb84ac5c8d44e322b1c1a9c18d307",
+      "characters": 4315,
+      "text_sha256": "fcd3c1672955f1db7e849491102e9e3081ee93a49fa03bf914ddef2605a05074",
+      "secondary_text_sha256": "fcd3c1672955f1db7e849491102e9e3081ee93a49fa03bf914ddef2605a05074",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 2,
+      "head_title": " 第46章 酒吧夜店之专用高级搭讪技巧——回马枪技巧",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 98
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [],
+      "read_range_in_extracted_body": [
+        0,
+        4315
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 63, column 2",
+      "spine_index": 48,
+      "spine_number": 49,
+      "idref": "x49.html",
+      "path": "OEBPS/Text/49.html",
+      "title": "第47章 一个快速提高的方法",
+      "raw_bytes": 14907,
+      "raw_sha256": "5f0b51c7bc519cd162aa43cc54809b603582ceee3c17d6fb66b600b20d6bd35b",
+      "characters": 1771,
+      "text_sha256": "6a1423893e390ebf01240fa7fd1a8fe2089a996c51914380cbefc641d3766c5b",
+      "secondary_text_sha256": "6a1423893e390ebf01240fa7fd1a8fe2089a996c51914380cbefc641d3766c5b",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 4,
+      "head_title": " 第47章 一个快速提高的方法",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 50,
+        "a": 1
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [
+        {
+          "href": "http://www.puashu.com/",
+          "target": "_blank"
+        }
+      ],
+      "read_range_in_extracted_body": [
+        0,
+        1771
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    },
+    {
+      "well_formed_XML": false,
+      "strict_XML_error": "mismatched tag: line 35, column 2",
+      "spine_index": 49,
+      "spine_number": 50,
+      "idref": "x50.html",
+      "path": "OEBPS/Text/50.html",
+      "title": "第48章 后话",
+      "raw_bytes": 8453,
+      "raw_sha256": "ec32f7aa24b78e2260f691c5088f45740cf7ab1881a66919d44eaf3db7b3bf0c",
+      "characters": 1078,
+      "text_sha256": "a920e92b3a69339171b345dd78e1a93a022be74ece7ccd4566b6e26ca2499fb9",
+      "secondary_text_sha256": "a920e92b3a69339171b345dd78e1a93a022be74ece7ccd4566b6e26ca2499fb9",
+      "strict_nonwhitespace_exact": true,
+      "replacement_characters": 0,
+      "head_title": " 第48章 后话",
+      "tags": {
+        "html": 1,
+        "head": 1,
+        "title": 1,
+        "link": 1,
+        "body": 1,
+        "h1": 1,
+        "br": 22,
+        "a": 1
+      },
+      "images": [],
+      "special_visibility_attributes": [],
+      "links": [
+        {
+          "href": "http://www.puashu.com/",
+          "target": "_blank"
+        }
+      ],
+      "read_range_in_extracted_body": [
+        0,
+        1078
+      ],
+      "all_readable_body_text_read": true,
+      "visual_layout_viewed": false
+    }
+  ],
+  "package_audit": {
+    "file_id": "B114",
+    "source_sha256": "cd6c66faf9cfa762a0011392bcb5b96aa047bcf40038906af375c9d90f5c40cb",
+    "source_bytes": 363570,
+    "zip_crc_verified": true,
+    "duplicate_zip_members": false,
+    "package_path": "OEBPS/content.opf",
+    "metadata_xml": "<ns0:metadata xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns0=\"http://www.idpf.org/2007/opf\">\n    <dc:creator ns0:role=\"aut\">迷上我</dc:creator>\n    <dc:title>​迷上我</dc:title>\n    <dc:identifier id=\"BookId\" ns0:scheme=\"UUID\">urn:uuid:FDDB1BC5-84DC-4CDE-BFB0-EAC4BC065B0B</dc:identifier>\n    <ns0:meta content=\"1.0.0\" name=\"jianhelper\" />\n    <dc:language>zh-CN</dc:language>\n    <dc:date ns0:event=\"modification\">2019-07-18</dc:date>\n  </ns0:metadata>\n  ",
+    "manifest": [
+      {
+        "href": "Styles/Style.css",
+        "id": "style",
+        "media-type": "text/css"
+      },
+      {
+        "href": "toc.ncx",
+        "id": "ncx",
+        "media-type": "application/x-dtbncx+xml"
+      },
+      {
+        "href": "Text/1.html",
+        "id": "x1.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/2.html",
+        "id": "x2.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/3.html",
+        "id": "x3.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/4.html",
+        "id": "x4.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/5.html",
+        "id": "x5.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/6.html",
+        "id": "x6.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/7.html",
+        "id": "x7.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/8.html",
+        "id": "x8.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/9.html",
+        "id": "x9.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/10.html",
+        "id": "x10.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/11.html",
+        "id": "x11.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/12.html",
+        "id": "x12.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/13.html",
+        "id": "x13.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/14.html",
+        "id": "x14.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/15.html",
+        "id": "x15.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/16.html",
+        "id": "x16.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/17.html",
+        "id": "x17.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/18.html",
+        "id": "x18.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/19.html",
+        "id": "x19.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/20.html",
+        "id": "x20.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/21.html",
+        "id": "x21.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/22.html",
+        "id": "x22.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/23.html",
+        "id": "x23.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/24.html",
+        "id": "x24.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/25.html",
+        "id": "x25.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/26.html",
+        "id": "x26.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/27.html",
+        "id": "x27.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/28.html",
+        "id": "x28.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/29.html",
+        "id": "x29.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/30.html",
+        "id": "x30.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/31.html",
+        "id": "x31.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/32.html",
+        "id": "x32.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/33.html",
+        "id": "x33.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/34.html",
+        "id": "x34.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/35.html",
+        "id": "x35.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/36.html",
+        "id": "x36.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/37.html",
+        "id": "x37.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/38.html",
+        "id": "x38.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/39.html",
+        "id": "x39.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/40.html",
+        "id": "x40.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/41.html",
+        "id": "x41.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/42.html",
+        "id": "x42.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/43.html",
+        "id": "x43.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/44.html",
+        "id": "x44.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/45.html",
+        "id": "x45.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/46.html",
+        "id": "x46.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/47.html",
+        "id": "x47.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/48.html",
+        "id": "x48.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/49.html",
+        "id": "x49.html",
+        "media-type": "application/xhtml+xml"
+      },
+      {
+        "href": "Text/50.html",
+        "id": "x50.html",
+        "media-type": "application/xhtml+xml"
+      }
+    ],
+    "spine": [
+      {
+        "idref": "x1.html"
+      },
+      {
+        "idref": "x2.html"
+      },
+      {
+        "idref": "x3.html"
+      },
+      {
+        "idref": "x4.html"
+      },
+      {
+        "idref": "x5.html"
+      },
+      {
+        "idref": "x6.html"
+      },
+      {
+        "idref": "x7.html"
+      },
+      {
+        "idref": "x8.html"
+      },
+      {
+        "idref": "x9.html"
+      },
+      {
+        "idref": "x10.html"
+      },
+      {
+        "idref": "x11.html"
+      },
+      {
+        "idref": "x12.html"
+      },
+      {
+        "idref": "x13.html"
+      },
+      {
+        "idref": "x14.html"
+      },
+      {
+        "idref": "x15.html"
+      },
+      {
+        "idref": "x16.html"
+      },
+      {
+        "idref": "x17.html"
+      },
+      {
+        "idref": "x18.html"
+      },
+      {
+        "idref": "x19.html"
+      },
+      {
+        "idref": "x20.html"
+      },
+      {
+        "idref": "x21.html"
+      },
+      {
+        "idref": "x22.html"
+      },
+      {
+        "idref": "x23.html"
+      },
+      {
+        "idref": "x24.html"
+      },
+      {
+        "idref": "x25.html"
+      },
+      {
+        "idref": "x26.html"
+      },
+      {
+        "idref": "x27.html"
+      },
+      {
+        "idref": "x28.html"
+      },
+      {
+        "idref": "x29.html"
+      },
+      {
+        "idref": "x30.html"
+      },
+      {
+        "idref": "x31.html"
+      },
+      {
+        "idref": "x32.html"
+      },
+      {
+        "idref": "x33.html"
+      },
+      {
+        "idref": "x34.html"
+      },
+      {
+        "idref": "x35.html"
+      },
+      {
+        "idref": "x36.html"
+      },
+      {
+        "idref": "x37.html"
+      },
+      {
+        "idref": "x38.html"
+      },
+      {
+        "idref": "x39.html"
+      },
+      {
+        "idref": "x40.html"
+      },
+      {
+        "idref": "x41.html"
+      },
+      {
+        "idref": "x42.html"
+      },
+      {
+        "idref": "x43.html"
+      },
+      {
+        "idref": "x44.html"
+      },
+      {
+        "idref": "x45.html"
+      },
+      {
+        "idref": "x46.html"
+      },
+      {
+        "idref": "x47.html"
+      },
+      {
+        "idref": "x48.html"
+      },
+      {
+        "idref": "x49.html"
+      },
+      {
+        "idref": "x50.html"
+      }
+    ],
+    "navigation": [
+      {
+        "label": "迷上我",
+        "src": "Text/1.html"
+      },
+      {
+        "label": "前言",
+        "src": "Text/2.html"
+      },
+      {
+        "label": "第1章 什么吸引女人？",
+        "src": "Text/3.html"
+      },
+      {
+        "label": "第2章 成真的故事成真的故事——我是怎么发现和开始研究吸引女人的秘密的？",
+        "src": "Text/4.html"
+      },
+      {
+        "label": "第3章 吸引女人是一门可以通过学习来提高的技能！",
+        "src": "Text/5.html"
+      },
+      {
+        "label": "第4章 到底为什么有钱，长得帅，长得高，和有名有权吸引女人？",
+        "src": "Text/6.html"
+      },
+      {
+        "label": "第5章 女人判断男人魅力的超级生物“雷达”——潜沟通",
+        "src": "Text/7.html"
+      },
+      {
+        "label": "第6章 怎样在任何女人面前表现自己，才能让她觉得你有魅力？",
+        "src": "Text/8.html"
+      },
+      {
+        "label": "第7章 为什么她不爱你的理由都是骗你的？",
+        "src": "Text/9.html"
+      },
+      {
+        "label": "第8章 女人是怎样看待男人的表白的？",
+        "src": "Text/10.html"
+      },
+      {
+        "label": "第9章 吸引女人必要的四个步骤",
+        "src": "Text/11.html"
+      },
+      {
+        "label": "第10章 为什么“无所谓但友好”的态度可以让女人对你产生兴趣？",
+        "src": "Text/12.html"
+      },
+      {
+        "label": "第11章 女人眼中的五种男人",
+        "src": "Text/13.html"
+      },
+      {
+        "label": "第12章 一开始，怎样和女人聊起来？",
+        "src": "Text/14.html"
+      },
+      {
+        "label": "第13章 怎样用冷读的技巧来让女人对你感兴趣？",
+        "src": "Text/15.html"
+      },
+      {
+        "label": "第14章 怎样避免无聊",
+        "src": "Text/16.html"
+      },
+      {
+        "label": "第15章 第二步：建立吸引——怎样和女人超越普通朋友的关系，并让她喜欢上你？",
+        "src": "Text/17.html"
+      },
+      {
+        "label": "第16章 善意地耍女人——怎样让她不再对你冷淡，甚至对你投怀送抱？",
+        "src": "Text/18.html"
+      },
+      {
+        "label": "第17章 故意曲解女人——吸引女人的超级有效方法，无论她心里是不是有另一个男人，无论有多少其他男人",
+        "src": "Text/19.html"
+      },
+      {
+        "label": "第18章 怎样用推拉法调情，让女人对你有心跳的感觉？",
+        "src": "Text/20.html"
+      },
+      {
+        "label": "第19章 怎样幽默？",
+        "src": "Text/21.html"
+      },
+      {
+        "label": "第20章 女人会暗中考验男人，来决定是不是要喜欢他？",
+        "src": "Text/22.html"
+      },
+      {
+        "label": "第21章 第三步：巩固吸引——怎样让女人在短时间内爱上你？怎样更深入交往？",
+        "src": "Text/23.html"
+      },
+      {
+        "label": "第22章 怎样判断她是不是已经被你吸引了呢？",
+        "src": "Text/24.html"
+      },
+      {
+        "label": "第23章 和女人不知道聊什么的解决方法——话块连情",
+        "src": "Text/25.html"
+      },
+      {
+        "label": "第24章 怎样让认识不久的女孩和你在10几分钟里产生一见如故，相见恨晚的感觉？——时间错误法",
+        "src": "Text/26.html"
+      },
+      {
+        "label": "第25章 透露给女人一个内心深处的痛，或者男人的柔弱一面",
+        "src": "Text/27.html"
+      },
+      {
+        "label": "第26章 吸引女人的身体语言",
+        "src": "Text/28.html"
+      },
+      {
+        "label": "第27章 怎样赞美女人才有效？",
+        "src": "Text/29.html"
+      },
+      {
+        "label": "第28章 表白失败后，你还有2个机会可以挽回！",
+        "src": "Text/30.html"
+      },
+      {
+        "label": "第29章 女孩说她父母不同意你们交往，怎么办？",
+        "src": "Text/31.html"
+      },
+      {
+        "label": "第30章 “我现在可以亲她吗？她现在会同意做我的女朋友吗？”",
+        "src": "Text/32.html"
+      },
+      {
+        "label": "第31章 吸引女人相关的社交技巧——怎样让女人喜欢和你聊天，让她觉得你有意思？",
+        "src": "Text/33.html"
+      },
+      {
+        "label": "第32章 要给女人不同的感觉，让她琢磨不透你",
+        "src": "Text/34.html"
+      },
+      {
+        "label": "第33章 开场白一一怎样创造机会来认识你心仪的女孩？怎样认识更多的美女？",
+        "src": "Text/35.html"
+      },
+      {
+        "label": "第34章 怎样问她要联系方式？",
+        "src": "Text/36.html"
+      },
+      {
+        "label": "第35章 怎样约她出来？",
+        "src": "Text/37.html"
+      },
+      {
+        "label": "第36章 发短信的6大要点",
+        "src": "Text/38.html"
+      },
+      {
+        "label": "第37章 约出来后怎么做？",
+        "src": "Text/39.html"
+      },
+      {
+        "label": "第38章 约会时干什么好？",
+        "src": "Text/40.html"
+      },
+      {
+        "label": "第39章 怎么样选择约会场所？",
+        "src": "Text/41.html"
+      },
+      {
+        "label": "第40章 肢体亲密度升级",
+        "src": "Text/42.html"
+      },
+      {
+        "label": "第41章 和她做爱",
+        "src": "Text/43.html"
+      },
+      {
+        "label": "第42章 怎样让女人愿意和你做爱？",
+        "src": "Text/44.html"
+      },
+      {
+        "label": "第43章 不够自信怎么办？什么东西在阻碍你变得更加自信？",
+        "src": "Text/45.html"
+      },
+      {
+        "label": "第44章 身份认同——成就男人核心魅力，持久吸引， 长期留住她在你身边的突破口（高级课程）",
+        "src": "Text/46.html"
+      },
+      {
+        "label": "第45章 酒吧夜店之专用高级搭讪技巧——弹力带效果：  如何在一分钟之内就能要到美女的手机号码",
+        "src": "Text/47.html"
+      },
+      {
+        "label": "第46章 酒吧夜店之专用高级搭讪技巧——回马枪技巧",
+        "src": "Text/48.html"
+      },
+      {
+        "label": "第47章 一个快速提高的方法",
+        "src": "Text/49.html"
+      },
+      {
+        "label": "第48章 后话",
+        "src": "Text/50.html"
+      }
+    ],
+    "all_member_files": [
+      "mimetype",
+      "META-INF/container.xml",
+      "OEBPS/Styles/Style.css",
+      "OEBPS/Text/1.html",
+      "OEBPS/Text/2.html",
+      "OEBPS/Text/3.html",
+      "OEBPS/Text/4.html",
+      "OEBPS/Text/5.html",
+      "OEBPS/Text/6.html",
+      "OEBPS/Text/7.html",
+      "OEBPS/Text/8.html",
+      "OEBPS/Text/9.html",
+      "OEBPS/Text/10.html",
+      "OEBPS/Text/11.html",
+      "OEBPS/Text/12.html",
+      "OEBPS/Text/13.html",
+      "OEBPS/Text/14.html",
+      "OEBPS/Text/15.html",
+      "OEBPS/Text/16.html",
+      "OEBPS/Text/17.html",
+      "OEBPS/Text/18.html",
+      "OEBPS/Text/19.html",
+      "OEBPS/Text/20.html",
+      "OEBPS/Text/21.html",
+      "OEBPS/Text/22.html",
+      "OEBPS/Text/23.html",
+      "OEBPS/Text/24.html",
+      "OEBPS/Text/25.html",
+      "OEBPS/Text/26.html",
+      "OEBPS/Text/27.html",
+      "OEBPS/Text/28.html",
+      "OEBPS/Text/29.html",
+      "OEBPS/Text/30.html",
+      "OEBPS/Text/31.html",
+      "OEBPS/Text/32.html",
+      "OEBPS/Text/33.html",
+      "OEBPS/Text/34.html",
+      "OEBPS/Text/35.html",
+      "OEBPS/Text/36.html",
+      "OEBPS/Text/37.html",
+      "OEBPS/Text/38.html",
+      "OEBPS/Text/39.html",
+      "OEBPS/Text/40.html",
+      "OEBPS/Text/41.html",
+      "OEBPS/Text/42.html",
+      "OEBPS/Text/43.html",
+      "OEBPS/Text/44.html",
+      "OEBPS/Text/45.html",
+      "OEBPS/Text/46.html",
+      "OEBPS/Text/47.html",
+      "OEBPS/Text/48.html",
+      "OEBPS/Text/49.html",
+      "OEBPS/Text/50.html",
+      "OEBPS/content.opf",
+      "OEBPS/toc.ncx"
+    ],
+    "no_unmanifested_reading_content": true,
+    "image_audio_video_font_resources": [],
+    "body_tags": {
+      "html": 50,
+      "head": 50,
+      "title": 50,
+      "link": 50,
+      "body": 50,
+      "h1": 50,
+      "p": 1,
+      "a": 4,
+      "br": 6778
+    },
+    "independent_extraction": "lxml HTML recovered body.itertext versus independent standard-library HTMLParser body text events; strict XML errors recorded separately; whitespace-only normalization",
+    "all50_body_nonwhitespace_exact": true,
+    "stylesheets": [
+      {
+        "path": "OEBPS/Styles/Style.css",
+        "sha256": "b5da7c38aab775a6753ead62b6f64589f5fd3a671ab54aa8798ae4c2d226666f",
+        "characters": 5940,
+        "actually_reviewed": true,
+        "content_scope": "General MarkdownPad reset, text, heading, block, link, list, code, quote, table and image styling; no hidden reading content."
+      }
+    ],
+    "raw_archive_unchanged": true,
+    "OCR_run": false,
+    "original_edition_completeness_verified": false,
+    "navigation_labels_all_match_body_headings": true,
+    "navigation_and_metadata_actually_reviewed": true,
+    "no_image_font_audio_video_or_script_resources": true,
+    "strict_XML_error_reading_items": 49,
+    "strict_XML_errors_do_not_mean_body_text_unreadable": true,
+    "source_replacement_entity_count": 18,
+    "visual_layout_viewed": false,
+    "EPUB_fixed_physical_page_count_asserted": false,
+    "creator_metadata_is_book_title_not_verified_author": true,
+    "metadata_date_is_modification_not_verified_publication_date": true
+  },
+  "known_unread_current_content": [
+    {
+      "spine_index": 3,
+      "path": "OEBPS/Text/4.html",
+      "primary_extracted_character_range": [
+        516,
+        517
+      ],
+      "source_UTF8_byte_range": [
+        4577,
+        4585
+      ],
+      "source_decoded_HTML_character_range": [
+        4441,
+        4449
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 3,
+      "path": "OEBPS/Text/4.html",
+      "primary_extracted_character_range": [
+        518,
+        519
+      ],
+      "source_UTF8_byte_range": [
+        4586,
+        4594
+      ],
+      "source_decoded_HTML_character_range": [
+        4450,
+        4458
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 8,
+      "path": "OEBPS/Text/9.html",
+      "primary_extracted_character_range": [
+        1201,
+        1202
+      ],
+      "source_UTF8_byte_range": [
+        10358,
+        10366
+      ],
+      "source_decoded_HTML_character_range": [
+        10286,
+        10294
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 8,
+      "path": "OEBPS/Text/9.html",
+      "primary_extracted_character_range": [
+        1203,
+        1204
+      ],
+      "source_UTF8_byte_range": [
+        10367,
+        10375
+      ],
+      "source_decoded_HTML_character_range": [
+        10295,
+        10303
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 8,
+      "path": "OEBPS/Text/9.html",
+      "primary_extracted_character_range": [
+        1211,
+        1212
+      ],
+      "source_UTF8_byte_range": [
+        10424,
+        10432
+      ],
+      "source_decoded_HTML_character_range": [
+        10352,
+        10360
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 8,
+      "path": "OEBPS/Text/9.html",
+      "primary_extracted_character_range": [
+        1213,
+        1214
+      ],
+      "source_UTF8_byte_range": [
+        10433,
+        10441
+      ],
+      "source_decoded_HTML_character_range": [
+        10361,
+        10369
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 27,
+      "path": "OEBPS/Text/28.html",
+      "primary_extracted_character_range": [
+        1762,
+        1763
+      ],
+      "source_UTF8_byte_range": [
+        15218,
+        15226
+      ],
+      "source_decoded_HTML_character_range": [
+        15174,
+        15182
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 27,
+      "path": "OEBPS/Text/28.html",
+      "primary_extracted_character_range": [
+        1764,
+        1765
+      ],
+      "source_UTF8_byte_range": [
+        15227,
+        15235
+      ],
+      "source_decoded_HTML_character_range": [
+        15183,
+        15191
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 36,
+      "path": "OEBPS/Text/37.html",
+      "primary_extracted_character_range": [
+        5086,
+        5087
+      ],
+      "source_UTF8_byte_range": [
+        42379,
+        42387
+      ],
+      "source_decoded_HTML_character_range": [
+        42343,
+        42351
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 36,
+      "path": "OEBPS/Text/37.html",
+      "primary_extracted_character_range": [
+        5088,
+        5089
+      ],
+      "source_UTF8_byte_range": [
+        42388,
+        42396
+      ],
+      "source_decoded_HTML_character_range": [
+        42352,
+        42360
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 36,
+      "path": "OEBPS/Text/37.html",
+      "primary_extracted_character_range": [
+        5090,
+        5091
+      ],
+      "source_UTF8_byte_range": [
+        42397,
+        42405
+      ],
+      "source_decoded_HTML_character_range": [
+        42361,
+        42369
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 36,
+      "path": "OEBPS/Text/37.html",
+      "primary_extracted_character_range": [
+        5092,
+        5093
+      ],
+      "source_UTF8_byte_range": [
+        42406,
+        42414
+      ],
+      "source_decoded_HTML_character_range": [
+        42370,
+        42378
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 47,
+      "path": "OEBPS/Text/48.html",
+      "primary_extracted_character_range": [
+        2773,
+        2774
+      ],
+      "source_UTF8_byte_range": [
+        23279,
+        23287
+      ],
+      "source_decoded_HTML_character_range": [
+        23191,
+        23199
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 47,
+      "path": "OEBPS/Text/48.html",
+      "primary_extracted_character_range": [
+        2775,
+        2776
+      ],
+      "source_UTF8_byte_range": [
+        23288,
+        23296
+      ],
+      "source_decoded_HTML_character_range": [
+        23200,
+        23208
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 48,
+      "path": "OEBPS/Text/49.html",
+      "primary_extracted_character_range": [
+        362,
+        363
+      ],
+      "source_UTF8_byte_range": [
+        3320,
+        3328
+      ],
+      "source_decoded_HTML_character_range": [
+        3276,
+        3284
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 48,
+      "path": "OEBPS/Text/49.html",
+      "primary_extracted_character_range": [
+        364,
+        365
+      ],
+      "source_UTF8_byte_range": [
+        3329,
+        3337
+      ],
+      "source_decoded_HTML_character_range": [
+        3285,
+        3293
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 48,
+      "path": "OEBPS/Text/49.html",
+      "primary_extracted_character_range": [
+        383,
+        384
+      ],
+      "source_UTF8_byte_range": [
+        3474,
+        3482
+      ],
+      "source_decoded_HTML_character_range": [
+        3430,
+        3438
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    },
+    {
+      "spine_index": 48,
+      "path": "OEBPS/Text/49.html",
+      "primary_extracted_character_range": [
+        385,
+        386
+      ],
+      "source_UTF8_byte_range": [
+        3483,
+        3491
+      ],
+      "source_decoded_HTML_character_range": [
+        3439,
+        3447
+      ],
+      "literal_source_entity": "&#xFFFD;",
+      "decoded_value": "U+FFFD",
+      "original_character_recovered": false,
+      "surrounding_readable_text_read": true,
+      "reason": "Replacement entity already present in the supplied HTML; neither extractor can recover the lost original character."
+    }
+  ],
+  "standing_user_policy_applied_without_new_question": true,
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_verification_limits": [
+    "未与正式出版物或作者其他版本逐字校勘，不认证原版完整性与第三方许可",
+    "元数据creator实际为书名迷上我，不能据此认证作者；文件名与前言署名为成真，元数据2019-07-18只标为修改日期",
+    "作者的成功比例、潜沟通、演化、身份认同、心理及健康断言未作原始研究核验，不据此新增APA、DOI或效果声明",
+    "链接课程、网站、附加材料与购买入口未访问、购买、注册或联系，不算当前文件已读内容",
+    "不重新发布长段原文、图片、私人对话、真实姓名或匿名私人情节；本轮只写原创一般性整理"
+  ],
+  "original_note_groups": 100,
+  "new_exact_method_section_bindings": 362,
+  "notes_and_method_section_bindings": [
+    {
+      "heading": "B114-01 当前EPUB署名与容器身份分别记录",
+      "spine_indices": [
+        0,
+        1
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-02 成功保证与调查自报不作心理学证据",
+      "spine_indices": [
+        1,
+        2
+      ],
+      "methods": [
+        "M08"
+      ]
+    },
+    {
+      "heading": "B114-03 善意、赞同与真实展示不换取关系义务",
+      "spine_indices": [
+        2
+      ],
+      "methods": [
+        "M04",
+        "M09",
+        "M10",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-04 作者经历不替当前对象提供动机",
+      "spine_indices": [
+        3
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-05 练习围绕具体可改表达，不套固定成功配额",
+      "spine_indices": [
+        4
+      ],
+      "methods": [
+        "M03",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-06 演化与导火索比喻不能推出普遍控制规律",
+      "spine_indices": [
+        5
+      ],
+      "methods": [
+        "M01",
+        "M08"
+      ]
+    },
+    {
+      "heading": "B114-07 潜沟通是作者框架，不是性别读心定理",
+      "spine_indices": [
+        6
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-08 表达以听清与舒服为准，不做退让比赛",
+      "spine_indices": [
+        6
+      ],
+      "methods": [
+        "M04",
+        "M23",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-09 卫生与身体功效不从约会课程作医学推断",
+      "spine_indices": [
+        6
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-10 实际问题和求助直接答，不先判为财富测试",
+      "spine_indices": [
+        7
+      ],
+      "methods": [
+        "M04",
+        "M10",
+        "M13",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-11 真实分享可以自然存在，不用证明或否认自己",
+      "spine_indices": [
+        7
+      ],
+      "methods": [
+        "M04",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-12 转述研究不授权推翻偏好与拒绝",
+      "spine_indices": [
+        8
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-13 共同相处与确认关系分开",
+      "spine_indices": [
+        9
+      ],
+      "methods": [
+        "M14",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-14 接触不能假称清理杂物或无视退开",
+      "spine_indices": [
+        9
+      ],
+      "methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-15 阶段模型只作出处，不将停滞归咎于用户",
+      "spine_indices": [
+        10
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M19",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B114-16 正常交流不用先过吸引门槛",
+      "spine_indices": [
+        9,
+        10
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-17 接受结果与无视感受是两件事",
+      "spine_indices": [
+        11
+      ],
+      "methods": [
+        "M04",
+        "M19",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-18 朋友和伴侣身份不由五类标签决定",
+      "spine_indices": [
+        12
+      ],
+      "methods": [
+        "M08",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-19 开场从真实场景取一点，不冒认身份",
+      "spine_indices": [
+        13
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M06",
+        "M07",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-20 短答先核是否完整，不承包九成延续责任",
+      "spine_indices": [
+        13
+      ],
+      "methods": [
+        "M02",
+        "M18",
+        "M19",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-21 冷读只能是有依据可纠正的观察",
+      "spine_indices": [
+        14
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M20"
+      ]
+    },
+    {
+      "heading": "B114-22 星座手相与医学推断均不作事实依据",
+      "spine_indices": [
+        14
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-23 轻松表达不必贬低外貌或盖掉困扰",
+      "spine_indices": [
+        15
+      ],
+      "methods": [
+        "M03",
+        "M06",
+        "M09",
+        "M11",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-24 没有感觉是边界，不是证明用户软弱",
+      "spine_indices": [
+        16
+      ],
+      "methods": [
+        "M08",
+        "M19",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-25 帮助与物品不设置戏弄和交换关卡",
+      "spine_indices": [
+        17
+      ],
+      "methods": [
+        "M06",
+        "M13",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-26 曲解不能覆盖原话、请求与已有关系",
+      "spine_indices": [
+        18
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M06",
+        "M20",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-27 调情不执行反复示好和贬低的循环",
+      "spine_indices": [
+        19
+      ],
+      "methods": [
+        "M06",
+        "M07",
+        "M09",
+        "M19",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-28 小反差须贴题可理解，不靠一套脑机制自证",
+      "spine_indices": [
+        20
+      ],
+      "methods": [
+        "M03",
+        "M06",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-29 荒谬玩笑不能侵入健康、身体和明确拒绝",
+      "spine_indices": [
+        20
+      ],
+      "methods": [
+        "M06",
+        "M11",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-30 问题、异议和拒绝不统一叫作考验",
+      "spine_indices": [
+        21
+      ],
+      "methods": [
+        "M01",
+        "M04",
+        "M08",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-31 生气先核事实，不用亲吻或忽略压下异议",
+      "spine_indices": [
+        21
+      ],
+      "methods": [
+        "M11",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-32 了解个人情况可以从初识就真实进行",
+      "spine_indices": [
+        21
+      ],
+      "methods": [
+        "M04",
+        "M10",
+        "M20",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-33 话题浅和尴尬不能判定没有爱或婚姻危机",
+      "spine_indices": [
+        22
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B114-34 连续投入比三类高低关系更有信息量",
+      "spine_indices": [
+        23
+      ],
+      "methods": [
+        "M08",
+        "M18",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-35 关键词用于承接具体内容和真实分享",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-36 词语不能脱离语境，更正和离开仍优先",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M20",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-37 先分事实与感受，原因不明可以问一项",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M01",
+        "M03",
+        "M08",
+        "M11",
+        "M13"
+      ]
+    },
+    {
+      "heading": "B114-38 相近真实经历要贴题，不抢走她的困扰",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M03",
+        "M10",
+        "M11"
+      ]
+    },
+    {
+      "heading": "B114-39 共同兴趣与开心可以直接交换",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M12"
+      ]
+    },
+    {
+      "heading": "B114-40 一轮回应不对应关系升级或隐藏喜欢",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M08",
+        "M18",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-41 允许情绪存在，不编排快乐悲伤循环",
+      "spine_indices": [
+        24
+      ],
+      "methods": [
+        "M11",
+        "M12",
+        "M19",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-42 回忆与想象保持真实边界，不制造旧关系错觉",
+      "spine_indices": [
+        25
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M07",
+        "M10"
+      ]
+    },
+    {
+      "heading": "B114-43 脆弱表达由本人决定，不演伤痛换亲近",
+      "spine_indices": [
+        26
+      ],
+      "methods": [
+        "M10",
+        "M11",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-44 表达清楚舒适，不套固定神态与明星动作",
+      "spine_indices": [
+        27
+      ],
+      "methods": [
+        "M04",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-45 目光交流尊重退出，不坚持到她先移开",
+      "spine_indices": [
+        27
+      ],
+      "methods": [
+        "M08",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-46 停顿给双方空间，不迫使她填补空档",
+      "spine_indices": [
+        27
+      ],
+      "methods": [
+        "M02",
+        "M03",
+        "M19",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-47 穿着和职业分享依真实生活，不为神秘造假",
+      "spine_indices": [
+        27
+      ],
+      "methods": [
+        "M04",
+        "M10",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-48 可以提出明确安排，仍由双方确认",
+      "spine_indices": [
+        27
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-49 身体语言段落的健康功效另计",
+      "spine_indices": [
+        27
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-50 具体欣赏可以直接说，不设长期配额",
+      "spine_indices": [
+        28
+      ],
+      "methods": [
+        "M09",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-51 见面后变化先核反馈，不定罪于某句赞美",
+      "spine_indices": [
+        28
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B114-52 表白被拒不再表白，也不用否认事实挽回面子",
+      "spine_indices": [
+        29
+      ],
+      "methods": [
+        "M19",
+        "M21",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-53 父母意见与本人意愿未知时不猜借口",
+      "spine_indices": [
+        30
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-54 接触测试不替代当下清楚自愿",
+      "spine_indices": [
+        31
+      ],
+      "methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-55 表达亲近可以真实，节奏由双方共同决定",
+      "spine_indices": [
+        31
+      ],
+      "methods": [
+        "M04",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-56 承接高兴的具体点，不急着比谁更懂",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M12",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-57 笑话留空间，不评估她反应快慢和外貌",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M02",
+        "M06",
+        "M08",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-58 多人场合正常参与，不争夺认可和评委地位",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M03",
+        "M10",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-59 贴题问题了解原因，不连续盘问或索隐私",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-60 共情与实际求助分别回应，不强制换成开心",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M03",
+        "M11",
+        "M12",
+        "M13"
+      ]
+    },
+    {
+      "heading": "B114-61 收尾按真实安排，不为留印象计算高潮",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M02",
+        "M14",
+        "M15",
+        "M19"
+      ]
+    },
+    {
+      "heading": "B114-62 事实与分歧可以讲清，不因坚持事实判缺乏自信",
+      "spine_indices": [
+        32
+      ],
+      "methods": [
+        "M04",
+        "M20",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-63 普通问题真实回应，不故意只给否定回答",
+      "spine_indices": [
+        33
+      ],
+      "methods": [
+        "M04",
+        "M06",
+        "M10",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-64 不靠拒绝惩罚与反复试探推进接触",
+      "spine_indices": [
+        33
+      ],
+      "methods": [
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-65 困扰和具体过失先处理，不用男人形象盖掉",
+      "spine_indices": [
+        33
+      ],
+      "methods": [
+        "M11",
+        "M13",
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-66 改动时间地点须明确重核双方安排",
+      "spine_indices": [
+        33
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-67 需要暂停可自然说清，不编急事或怪罪紧张",
+      "spine_indices": [
+        33
+      ],
+      "methods": [
+        "M02",
+        "M19",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-68 开场从共同场景取真实内容",
+      "spine_indices": [
+        34
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-69 点头与完整短答不等于继续聊或兴趣承诺",
+      "spine_indices": [
+        34
+      ],
+      "methods": [
+        "M08",
+        "M18",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-70 提供信息须确知，不用建议制造服从",
+      "spine_indices": [
+        34
+      ],
+      "methods": [
+        "M04",
+        "M10",
+        "M13",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-71 朋友介绍与多人参与不利用冷落和假旧识",
+      "spine_indices": [
+        34
+      ],
+      "methods": [
+        "M03",
+        "M06",
+        "M07",
+        "M22",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-72 自信不靠资源和高低等级定义他人",
+      "spine_indices": [
+        34
+      ],
+      "methods": [
+        "M08",
+        "M10",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-73 非语言比例与服从实验的引用另列核验范围",
+      "spine_indices": [
+        34
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-74 共同话题可衔接留联系方式，拒绝后不换法索要",
+      "spine_indices": [
+        35
+      ],
+      "methods": [
+        "M08",
+        "M14",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-75 一次具体邀约基于真实计划与双方选择",
+      "spine_indices": [
+        36
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-76 失约与改期分清事实成本，不归因吸引不足",
+      "spine_indices": [
+        36
+      ],
+      "methods": [
+        "M01",
+        "M15",
+        "M16",
+        "M17",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-77 不多头超约再假取消，也不威胁索回应",
+      "spine_indices": [
+        36
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-78 回复节奏看当前轮与真实生活，不用延时奖惩",
+      "spine_indices": [
+        36,
+        37
+      ],
+      "methods": [
+        "M02",
+        "M19",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-79 短句服务当前内容，不按字数机械压缩",
+      "spine_indices": [
+        37
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M11",
+        "M13",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-80 转语音或电话须确认方便，不由回短信推定",
+      "spine_indices": [
+        37
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-81 正常分享与重联不必都伪装成邀约任务",
+      "spine_indices": [
+        37
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M11",
+        "M12",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-82 见面紧张可放慢，不用压缩感情的承诺",
+      "spine_indices": [
+        38
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M08",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-83 回家与独处须另行自愿，不制造借口带入",
+      "spine_indices": [
+        38
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-84 约会安排要能共同调整，不必隐藏准备",
+      "spine_indices": [
+        39
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-85 共同体验不等于制造恐惧悲痛来换亲密",
+      "spine_indices": [
+        39
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M11",
+        "M12",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-86 场所选择先看双方舒适、可达和真实兴趣",
+      "spine_indices": [
+        40
+      ],
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M14",
+        "M15",
+        "M22"
+      ]
+    },
+    {
+      "heading": "B114-87 不靠频繁转场制造依赖，不以亲密进度验收约会",
+      "spine_indices": [
+        40
+      ],
+      "methods": [
+        "M08",
+        "M15",
+        "M22",
+        "M23",
+        "M24"
+      ]
+    },
+    {
+      "heading": "B114-88 亲密不是必经线性流程，也不是服从奖励",
+      "spine_indices": [
+        41
+      ],
+      "methods": [
+        "M08",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-89 不同意就是停，不把拒绝翻译成方法未到位",
+      "spine_indices": [
+        43
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-90 私密相处也保留真实退出与联系能力",
+      "spine_indices": [
+        42,
+        43
+      ],
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-91 性别开关、卫生与生育断言不作健康依据",
+      "spine_indices": [
+        42,
+        43
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-92 信心不靠一次反馈定价，也不要求永远无情绪",
+      "spine_indices": [
+        44
+      ],
+      "methods": [
+        "M04",
+        "M08",
+        "M19",
+        "M21",
+        "M22",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-93 本我小我与天生完美的解释只是本书框架",
+      "spine_indices": [
+        44
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-94 不把身份认同当一切成败的隐形原因",
+      "spine_indices": [
+        45
+      ],
+      "methods": [
+        "M01",
+        "M08",
+        "M19",
+        "M22",
+        "M23"
+      ]
+    },
+    {
+      "heading": "B114-95 练表达而非伪造高价值身份",
+      "spine_indices": [
+        45
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M25",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-96 彩票比例、名人身高与普适吸引承诺不入证据",
+      "spine_indices": [
+        45,
+        48,
+        49
+      ],
+      "methods": []
+    },
+    {
+      "heading": "B114-97 低投入不靠攻击或激将索取号码",
+      "spine_indices": [
+        46
+      ],
+      "methods": [
+        "M08",
+        "M19",
+        "M22",
+        "M23",
+        "M25"
+      ]
+    },
+    {
+      "heading": "B114-98 夸张角色只有接梗时轻用，不反转拒绝的含义",
+      "spine_indices": [
+        47
+      ],
+      "methods": [
+        "M01",
+        "M03",
+        "M06",
+        "M07",
+        "M22",
+        "M23",
+        "M26"
+      ]
+    },
+    {
+      "heading": "B114-99 从个人信息接话，不凭父母职业推断心理",
+      "spine_indices": [
+        47
+      ],
+      "methods": [
+        "M03",
+        "M04",
+        "M08",
+        "M10",
+        "M20"
+      ]
+    },
+    {
+      "heading": "B114-100 阅读和实际训练分别记录，不用成功率评价人格",
+      "spine_indices": [
+        44,
+        48,
+        49
+      ],
+      "methods": [
+        "M01",
+        "M03",
+        "M08",
+        "M25",
+        "M26"
+      ]
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_or_interaction_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false
+}
