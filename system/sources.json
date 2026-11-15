@@ -1657,9 +1657,18 @@
       "group": "books2_original_snapshot",
       "title": "魅力学堂 - 乐鱼.epub",
       "git_blob_sha": "4c08670f0f5956cde7e831a88c6c76daa8eaccfb",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B123.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B123_reading_2026-11-16.json",
+      "coverage_mode": "all17_EPUB_spine_readable_texts_in7_serial_batches_with12_source_replacement_entities_retained",
+      "completion_kind": "user_accepted_scope_closure_with_known_image_gaps",
+      "all_current_file_content_read": false,
+      "actual_reading_complete": false,
+      "all_supplied_native_text_read": false,
+      "all_current_readable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B124",
@@ -2028,24 +2037,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 115,
+    "current_book_files_text_complete": 116,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 4
+    "current_book_files_not_started": 3
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B123",
-    "path": "魅力学堂 - 乐鱼.epub",
-    "bytes": 87202,
-    "git_blob_sha": "4c08670f0f5956cde7e831a88c6c76daa8eaccfb",
+    "id": "B124",
+    "path": "魔鬼搭讪学 - 魔鬼咨询师.epub",
+    "bytes": 116816,
+    "git_blob_sha": "b2aa60ab16c4ce69c689c92719ae151a8943fc23",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "format": "epub",
     "next_spine_index": 1,
     "next_character": 0,
-    "start": "B122当前117页已按精确片段复用、差异实读和图形核看覆盖；先提交本份。下一唯一主读B123《魅力学堂 - 乐鱼.epub》，阅读顺序项1字符0，正文未打开。",
-    "next_content_unit": "Read B123 supplied EPUB from spine1 character0 only after B122 checkpoint committed;body unopened."
+    "start": "B123当前17项可辨文字已读；12源替代实体保留缺口并依授权结束。先提交本份，下一唯一主读B124《魔鬼搭讪学 - 魔鬼咨询师.epub》阅读顺序项1字符0，正文未打开。",
+    "next_content_unit": "Read B124 supplied EPUB from spine1 character0 after B123 checkpoint committed;body unopened;do not chase the12 unrecoverable B123 source entities."
   },
   "deferred_work_units": []
 }

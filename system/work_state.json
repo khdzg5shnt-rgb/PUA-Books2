@@ -1,70 +1,67 @@
 {
   "schema_version": 1,
   "updated": "2026-11-16",
-  "current_focus": "B123_next_after_B122_verified_partial_reuse_and_all_differences",
+  "current_focus": "B124_next_after_B123_readable_text_read_and_source_gaps_closed",
   "status": "ready_for_next_file",
-  "base_commit": "819a0e32ba16162c5495d74f2117bc350bfb69d9",
+  "base_commit": "ac16030a3d55a8dc84d209b138b7d6d2a061210e",
   "reading_paused_for_this_round": false,
-  "new_book_files_completed_this_round": 1,
+  "new_book_files_completed_this_round": 2,
   "runtime_entry": "system/RUNBOOK.md",
   "request_example": "system/EXAMPLE_REQUEST.json",
-  "report": "knowledge/provenance/B122_progress_2026-11-16.md",
-  "validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+  "report": "knowledge/provenance/B123_progress_2026-11-16.md",
+  "validation": "knowledge/provenance/B123_validation_2026-11-16.json",
   "reading_bookmark": {
-    "id": "B123",
-    "path": "魅力学堂 - 乐鱼.epub",
-    "bytes": 87202,
-    "git_blob_sha": "4c08670f0f5956cde7e831a88c6c76daa8eaccfb",
+    "id": "B124",
+    "path": "魔鬼搭讪学 - 魔鬼咨询师.epub",
+    "bytes": 116816,
+    "git_blob_sha": "b2aa60ab16c4ce69c689c92719ae151a8943fc23",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "format": "epub",
     "next_spine_index": 1,
     "next_character": 0,
-    "start": "B122当前117页已按精确片段复用、差异实读和图形核看覆盖；先提交本份。下一唯一主读B123《魅力学堂 - 乐鱼.epub》，阅读顺序项1字符0，正文未打开。",
-    "next_content_unit": "Read B123 supplied EPUB from spine1 character0 only after B122 checkpoint committed;body unopened."
+    "start": "B123当前17项可辨文字已读；12源替代实体保留缺口并依授权结束。先提交本份，下一唯一主读B124《魔鬼搭讪学 - 魔鬼咨询师.epub》阅读顺序项1字符0，正文未打开。",
+    "next_content_unit": "Read B124 supplied EPUB from spine1 character0 after B123 checkpoint committed;body unopened;do not chase the12 unrecoverable B123 source entities."
   },
-  "next_work": "Read B123 supplied EPUB from spine1 character0 only after B122 checkpoint committed;body unopened.",
+  "next_work": "Read B124 supplied EPUB from spine1 character0 after B123 checkpoint committed;body unopened;do not chase the12 unrecoverable B123 source entities.",
   "current_session_progress": {
-    "baseline": "819a0e32ba16162c5495d74f2117bc350bfb69d9",
+    "baseline": "ac16030a3d55a8dc84d209b138b7d6d2a061210e",
     "runtime_version": "1.5.4",
-    "work_type": "supplied_PDF_covered_by_verified_partial_text_reuse_and_actual_difference_reading",
+    "work_type": "user_accepted_scope_closure_with_known_image_gaps",
     "new_book_files_started": [
-      "B122"
+      "B123"
     ],
     "new_book_files_completed": [
-      "B122"
+      "B123"
     ],
-    "actually_completed_file_ids": [
-      "B122"
-    ],
+    "actually_completed_file_ids": [],
     "new_whole_book_files_actually_read": 0,
-    "new_current_file_coverages_by_partial_reuse": 1,
-    "user_accepted_scope_closure_ids": [],
-    "new_direct_extracted_characters_read": 4298,
-    "new_normalized_difference_characters_reviewed": 1236,
-    "normalized_difference_count_overlaps_direct_text": true,
-    "verified_reused_normalized_characters": 115114,
+    "new_supplied_readable_text_completions": 1,
+    "user_accepted_scope_closure_ids": [
+      "B123"
+    ],
+    "new_direct_extracted_characters_read": 42365,
+    "extracted_characters_displayed_including12_unknown_markers": 42377,
+    "new_EPUB_spine_readable_text_items_read": 17,
     "new_OCR_characters_read": 0,
-    "new_raster_images_visually_checked": 2,
-    "original_note_groups": 7,
-    "new_method_source_bindings": 0,
-    "new_method_source_entries": 0,
+    "original_note_groups": 34,
+    "new_method_source_bindings": 135,
+    "new_method_source_entries": 24,
     "new_method_operations": [],
-    "all_current_supplied_file_content_covered": true,
-    "all_current_supplied_file_content_read_directly_this_session": false,
+    "all_current_supplied_file_content_read": false,
+    "all_current_readable_text_read": true,
     "serial_order": [
-      "read PDF physical pages1-5",
-      "verify exact overlap with already-read B121",
-      "actually read all452 differences in6 batches",
-      "review117 page layouts and2 image placements;reconcile12 extraction ordering pages",
-      "save B122 checkpoint before B123 body"
+      "B122 published and remote verified before B123 body",
+      "read all17 B123 current readable spine texts in7 ordered batches",
+      "confirm12 replacement entities in source HTML and retain exact gaps",
+      "save B123 notes and B124 unopened checkpoint"
     ],
     "next_book_body_opened": false,
     "original_edition_completeness_not_asserted": true,
     "previous_runtime1_5_4_maintenance_preserved": true,
     "checks": {
       "status": "passed",
-      "reading_metadata_validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+      "reading_metadata_validation": "knowledge/provenance/B123_validation_2026-11-16.json",
       "unit_tests_passed": 127,
       "validate_os": true,
       "generated_method_views_check": true
@@ -2462,49 +2459,46 @@
   ],
   "last_completed_reading_session": {
     "date": "2026-11-16",
-    "report": "knowledge/provenance/B122_progress_2026-11-16.md",
-    "validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+    "report": "knowledge/provenance/B123_progress_2026-11-16.md",
+    "validation": "knowledge/provenance/B123_validation_2026-11-16.json",
     "current_session_progress": {
-      "baseline": "819a0e32ba16162c5495d74f2117bc350bfb69d9",
+      "baseline": "ac16030a3d55a8dc84d209b138b7d6d2a061210e",
       "runtime_version": "1.5.4",
-      "work_type": "supplied_PDF_covered_by_verified_partial_text_reuse_and_actual_difference_reading",
+      "work_type": "user_accepted_scope_closure_with_known_image_gaps",
       "new_book_files_started": [
-        "B122"
+        "B123"
       ],
       "new_book_files_completed": [
-        "B122"
+        "B123"
       ],
-      "actually_completed_file_ids": [
-        "B122"
-      ],
+      "actually_completed_file_ids": [],
       "new_whole_book_files_actually_read": 0,
-      "new_current_file_coverages_by_partial_reuse": 1,
-      "user_accepted_scope_closure_ids": [],
-      "new_direct_extracted_characters_read": 4298,
-      "new_normalized_difference_characters_reviewed": 1236,
-      "normalized_difference_count_overlaps_direct_text": true,
-      "verified_reused_normalized_characters": 115114,
+      "new_supplied_readable_text_completions": 1,
+      "user_accepted_scope_closure_ids": [
+        "B123"
+      ],
+      "new_direct_extracted_characters_read": 42365,
+      "extracted_characters_displayed_including12_unknown_markers": 42377,
+      "new_EPUB_spine_readable_text_items_read": 17,
       "new_OCR_characters_read": 0,
-      "new_raster_images_visually_checked": 2,
-      "original_note_groups": 7,
-      "new_method_source_bindings": 0,
-      "new_method_source_entries": 0,
+      "original_note_groups": 34,
+      "new_method_source_bindings": 135,
+      "new_method_source_entries": 24,
       "new_method_operations": [],
-      "all_current_supplied_file_content_covered": true,
-      "all_current_supplied_file_content_read_directly_this_session": false,
+      "all_current_supplied_file_content_read": false,
+      "all_current_readable_text_read": true,
       "serial_order": [
-        "read PDF physical pages1-5",
-        "verify exact overlap with already-read B121",
-        "actually read all452 differences in6 batches",
-        "review117 page layouts and2 image placements;reconcile12 extraction ordering pages",
-        "save B122 checkpoint before B123 body"
+        "B122 published and remote verified before B123 body",
+        "read all17 B123 current readable spine texts in7 ordered batches",
+        "confirm12 replacement entities in source HTML and retain exact gaps",
+        "save B123 notes and B124 unopened checkpoint"
       ],
       "next_book_body_opened": false,
       "original_edition_completeness_not_asserted": true,
       "previous_runtime1_5_4_maintenance_preserved": true,
       "checks": {
         "status": "passed",
-        "reading_metadata_validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+        "reading_metadata_validation": "knowledge/provenance/B123_validation_2026-11-16.json",
         "unit_tests_passed": 127,
         "validate_os": true,
         "generated_method_views_check": true
@@ -2638,12 +2632,12 @@
   },
   "progress_display": {
     "book_file_denominator": 119,
-    "started": 115,
-    "current_file_text_complete": 115,
+    "started": 116,
+    "current_file_text_complete": 116,
     "partial": 0,
-    "unread": 4,
+    "unread": 3,
     "not_unique_original_works_or_training_completion": true,
-    "reported_numerator": 115,
+    "reported_numerator": 116,
     "reported_denominator": 119,
     "ratio_basis": "current_file_text_complete_only",
     "partial_excluded_from_numerator": true,
@@ -2655,7 +2649,8 @@
       "B093",
       "B095",
       "B098",
-      "B114"
+      "B114",
+      "B123"
     ],
     "actual_full_reading_not_asserted_for_exception_ids": [
       "B017",
@@ -2665,7 +2660,8 @@
       "B093",
       "B095",
       "B098",
-      "B114"
+      "B114",
+      "B123"
     ],
     "task_completion_basis": "actual_supplied_file_reading_plus_explicit_user_scope_closures",
     "actually_read_supplied_files": 107,
@@ -8611,6 +8607,57 @@
           "concurrent_B120_published_work_preserved": true
         }
       }
+    },
+    {
+      "date": "2026-11-16",
+      "report": "knowledge/provenance/B122_progress_2026-11-16.md",
+      "validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+      "current_session_progress": {
+        "baseline": "819a0e32ba16162c5495d74f2117bc350bfb69d9",
+        "runtime_version": "1.5.4",
+        "work_type": "supplied_PDF_covered_by_verified_partial_text_reuse_and_actual_difference_reading",
+        "new_book_files_started": [
+          "B122"
+        ],
+        "new_book_files_completed": [
+          "B122"
+        ],
+        "actually_completed_file_ids": [
+          "B122"
+        ],
+        "new_whole_book_files_actually_read": 0,
+        "new_current_file_coverages_by_partial_reuse": 1,
+        "user_accepted_scope_closure_ids": [],
+        "new_direct_extracted_characters_read": 4298,
+        "new_normalized_difference_characters_reviewed": 1236,
+        "normalized_difference_count_overlaps_direct_text": true,
+        "verified_reused_normalized_characters": 115114,
+        "new_OCR_characters_read": 0,
+        "new_raster_images_visually_checked": 2,
+        "original_note_groups": 7,
+        "new_method_source_bindings": 0,
+        "new_method_source_entries": 0,
+        "new_method_operations": [],
+        "all_current_supplied_file_content_covered": true,
+        "all_current_supplied_file_content_read_directly_this_session": false,
+        "serial_order": [
+          "read PDF physical pages1-5",
+          "verify exact overlap with already-read B121",
+          "actually read all452 differences in6 batches",
+          "review117 page layouts and2 image placements;reconcile12 extraction ordering pages",
+          "save B122 checkpoint before B123 body"
+        ],
+        "next_book_body_opened": false,
+        "original_edition_completeness_not_asserted": true,
+        "previous_runtime1_5_4_maintenance_preserved": true,
+        "checks": {
+          "status": "passed",
+          "reading_metadata_validation": "knowledge/provenance/B122_validation_2026-11-16.json",
+          "unit_tests_passed": 127,
+          "validate_os": true,
+          "generated_method_views_check": true
+        }
+      }
     }
   ],
   "last_partial_reading_session": {
@@ -8713,16 +8760,21 @@
   ],
   "current_user_turn_aggregate": {
     "file_ids_completed_serially": [
-      "B122"
+      "B122",
+      "B123"
     ],
     "each_file_committed_before_opening_next": true,
-    "new_direct_extracted_characters_read": 4298,
+    "new_direct_extracted_characters_read": 46663,
     "new_normalized_difference_characters_reviewed": 1236,
     "counts_not_disjoint": true,
     "verified_reused_normalized_characters": 115114,
-    "original_note_groups": 7,
-    "new_exact_method_section_bindings": 0,
-    "new_scope_closures": []
+    "original_note_groups": 41,
+    "new_exact_method_section_bindings": 135,
+    "new_scope_closures": [
+      "B123"
+    ],
+    "published_B122_checkpoint": "ac16030a3d55a8dc84d209b138b7d6d2a061210e",
+    "direct_count_excludes12_unreadable_B123_replacement_entities": true
   },
   "user_turn_aggregate_history": [
     {
@@ -8754,6 +8806,24 @@
       "new_scope_closures": [],
       "concurrent_B120_published_checkpoint_adopted": "610b7accd9fd4c4547ee5f2c9b07dde3f7de14e9",
       "unpublished_duplicate_B120_work_not_added_or_recounted": true
+    },
+    {
+      "file_ids_completed_serially": [
+        "B122",
+        "B123"
+      ],
+      "each_file_committed_before_opening_next": true,
+      "new_direct_extracted_characters_read": 46663,
+      "new_normalized_difference_characters_reviewed": 1236,
+      "counts_not_disjoint": true,
+      "verified_reused_normalized_characters": 115114,
+      "original_note_groups": 41,
+      "new_exact_method_section_bindings": 135,
+      "new_scope_closures": [
+        "B123"
+      ],
+      "published_B122_checkpoint": "ac16030a3d55a8dc84d209b138b7d6d2a061210e",
+      "direct_count_excludes12_unreadable_B123_replacement_entities": true
     }
   ]
 }
