@@ -17676,8 +17676,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%87%8E%E5%85%BD%E7%BB%85%E5%A3%AB%20-%20%E5%B7%AB%E5%AE%B6%E6%B0%91.epub",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B118.md",
       "pages": null,
       "spine_items": 44,
       "ocr": {
@@ -17685,7 +17685,37 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B118_reading_2026-11-15.json",
+      "coverage_mode": "ordered_EPUB_spine_text_plus_all49_raster_images",
+      "completion_kind": "actual_supplied_EPUB_all44_spine_texts_and_all49_raster_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_extractable_text_read": true,
+      "task_complete": true,
+      "source_sha256": "c8fcd7d327fcd3fe36eb936ded669f615ec4a410b6364e9c65bfeb359123e12d",
+      "latest_reading": {
+        "date": "2026-11-15",
+        "ledger": "knowledge/provenance/B118_reading_2026-11-15.json",
+        "spine_items_read": 44,
+        "direct_extracted_characters": 135956,
+        "confirmed_reading_batches": 15,
+        "all49_raster_images_visually_read": true,
+        "independent_XML_nonspace_equal_items": 44,
+        "replacement_characters": 0,
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "当前EPUB六章、后记、封面、书名/版权页及末页图标均已读，不据此认证正式原版无删节或出版社宣传效果。",
+          "脑区、演化、遗传、激素、NLP、冷读机制及研究转引未核原始论文；时长、比例、星级、自报千例和预测效果不作实证依据，不新增APA或DOI。",
+          "护理、美白、皮肤酸碱、气味记忆及性健康断言只读来源，未作医疗核验，不从恋爱课程给出产品、用药、疗程或功效建议。",
+          "外部课程、网站、所引完整书籍和视频未另行阅读；不注册、购买、安装、联系讲者或向他人外发。",
+          "只公开原创取舍与固定出处，不重新发布原文长摘、图片、私人对话、姓名、联系方式或匿名私人情节。原书声称获案例授权不自动成为本仓库的转载许可。",
+          "不继承失败全归用户、固定节奏、服从奖惩、制造嫉妒、虚假故事、跟随偶遇、身体测试和将拒绝改译为矜持；日常仍依据当前事实与双方自愿。"
+        ],
+        "original_note_groups": 64,
+        "new_exact_method_section_bindings": 273
+      }
     },
     {
       "index": 119,
@@ -17880,5 +17910,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B116 current118-page PDF read in10 ordered batches;82330 native chars;cover raster and15 full original pages checked plus118 layout overviews;114 strict pages,117 multisets,all4 difference pages visually checked;35 original notes,128 exact section bindings;110/119=102 current coverages including B100 reuse+8 retained scope closures;next B118 spine1 character0 body unopened;B117 already completed."
+  "latest_reading_update": "2026-11-15:B118 all44 supplied EPUB spine texts and49 raster images read;135956 direct extracted chars in15 ordered batches;44 independent XML nonspace sequences agree;one truncated display section1802-2399 in spine17 reread separately without double counting;64 original notes,273 exact headings;111/119=103 current coverages including B100 reuse+8 retained scope closures;next B119 P1 character0 body unopened."
 }

@@ -1,0 +1,4149 @@
+{
+  "schema_version": 1,
+  "file_id": "B118",
+  "date": "2026-11-15",
+  "date_timezone": "Asia/Shanghai",
+  "baseline_commit": "93712bc05defccafe0a9b25b5b3a19ba9bcdccf3",
+  "source_identity": {
+    "path": "野兽绅士 - 巫家民.epub",
+    "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
+    "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%87%8E%E5%85%BD%E7%BB%85%E5%A3%AB%20-%20%E5%B7%AB%E5%AE%B6%E6%B0%91.epub",
+    "git_blob_sha": "207ed441021cfb77587a81670c19dfe6b4202443",
+    "bytes": 1790039
+  },
+  "source_sha256": "c8fcd7d327fcd3fe36eb936ded669f615ec4a410b6364e9c65bfeb359123e12d",
+  "completion_kind": "actual_supplied_EPUB_all44_spine_texts_and_all49_raster_images_read",
+  "reading_mode": "ordered_spine_text_plus_all_raster_images",
+  "all_current_file_content_read": true,
+  "actual_reading_complete": true,
+  "all_supplied_extractable_text_read": true,
+  "spine_items_read": 44,
+  "direct_extracted_characters_read": 135956,
+  "OCR_run": false,
+  "independent_extractor_comparison": {
+    "primary": "stdlib HTMLParser text data excluding script/style",
+    "secondary": "ElementTree itertext excluding script/style",
+    "normalization": "remove whitespace only",
+    "exact_items": 44
+  },
+  "package_audit": {
+    "id": "B118",
+    "path": "野兽绅士 - 巫家民.epub",
+    "bytes": 1790039,
+    "git_blob_sha": "207ed441021cfb77587a81670c19dfe6b4202443",
+    "sha256": "c8fcd7d327fcd3fe36eb936ded669f615ec4a410b6364e9c65bfeb359123e12d",
+    "opf": "content.opf",
+    "spine_items": [
+      {
+        "spine_item": 1,
+        "id": "titlepage",
+        "path": "titlepage.xhtml",
+        "bytes": 799,
+        "source_sha256": "3a89911b054de99fa44cf86e2a23680b428172f1a5fe7cdd83776cbaabe3dcb0",
+        "characters": 5,
+        "text_sha256": "fa8d84566676ee2ee6627116304e7eef7c9b06875d230435a4b23264fcc34f98",
+        "headings": [],
+        "images": [
+          {
+            "width": "600",
+            "height": "800",
+            "xlink:href": "cover.jpeg"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 2,
+        "id": "id57",
+        "path": "text/part0000.html",
+        "bytes": 483,
+        "source_sha256": "f2695d71cd08ba08c5cc09dbaebd84d498e9b92c578f1b600c2fd5d82e20e568",
+        "characters": 2,
+        "text_sha256": "4d8c1c5b42830791a4ce99f630fb9f02ba08c67c5299d46d6cf76661bfd03584",
+        "headings": [],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00001.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 3,
+        "id": "id58",
+        "path": "text/part0001.html",
+        "bytes": 483,
+        "source_sha256": "002840aecafccac01d438c5e712dc5e779a3a4dc0df9938bc7842b7d96bb65eb",
+        "characters": 2,
+        "text_sha256": "4d8c1c5b42830791a4ce99f630fb9f02ba08c67c5299d46d6cf76661bfd03584",
+        "headings": [],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00002.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 4,
+        "id": "id59",
+        "path": "text/part0002.html",
+        "bytes": 6609,
+        "source_sha256": "6d834a35a3c590b3f3e581b78fd4a1fcd00e9e8bc8ac9617618b0dca1d77bc4d",
+        "characters": 588,
+        "text_sha256": "12278d929e14eff4b09ebc6f3664846b6201691a18e02055b9e7f3c7462225a6",
+        "headings": [
+          "目录"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 5,
+        "id": "id60",
+        "path": "text/part0003.html",
+        "bytes": 836,
+        "source_sha256": "7b601351c8062e4409469b372b2cf204b3de0502c1a371f7fa13963eb6b7971a",
+        "characters": 95,
+        "text_sha256": "9dfa5c2dfc6b2e0e2298e0b4fbae9703bab5397ef48b16ff603baa2f32dde951",
+        "headings": [
+          "CHAPTER 01\n  整理下领结，蜕变就从推开这扇门开始"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 6,
+        "id": "id61",
+        "path": "text/part0004.html",
+        "bytes": 21764,
+        "source_sha256": "9187a2f0ca6cad5b70c922502870c5d405642ad709606633801b81834c640e16",
+        "characters": 6423,
+        "text_sha256": "994f2ae26a590067d5ca50ee9b371a462ed4f6196a88cac4337694aaee45b8f8",
+        "headings": [
+          "准备好发动引擎了吗？",
+          "自救：启蒙之路",
+          "蜕变：我寻访了北美所有的约会专家",
+          "做个“野兽绅士”"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 7,
+        "id": "id62",
+        "path": "text/part0005.html",
+        "bytes": 10286,
+        "source_sha256": "870a3c095c5ab3c40aaf68d20e511eb84b712aa784c229a3aa0663b1a75d7e73",
+        "characters": 2940,
+        "text_sha256": "b80d416d7a7e9ae00fbd86bf0887c198ba3b7600645c03e0aa44973963604224",
+        "headings": [
+          "杀死过去的你：游戏开始前，需要明白的五件事",
+          "不要寻找“最权威”的方法，因为它不存在",
+          "欢迎不舒适感，它意味着成长",
+          "当你变得更好时，世界会阻拦你",
+          "拥抱新思维，也接受风险",
+          "这不是娱乐，需要承诺和投入"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 8,
+        "id": "id63",
+        "path": "text/part0006.html",
+        "bytes": 25216,
+        "source_sha256": "943499ada0f452ee7521a37b523f5452304df0aab285600dae270b1f5d9dc8ad",
+        "characters": 7380,
+        "text_sha256": "18e5547b9b216263a301bb13c32ba77d3b35dcaadca20fd642a91b9620395165",
+        "headings": [
+          "拿出你最好的一支笔记下这个定律",
+          "吸引",
+          "吸引是种情绪，与理智无关",
+          "你的体内潜藏着“吸引力开关”",
+          "制造“吸引”，你能学到比电影桥段更有用的技巧",
+          "可得性",
+          "吸引与可得性，如同天平的两端",
+          "投入度",
+          "投入度决定了女性的情感体验",
+          "投入与自我说服",
+          "“真命天女症”",
+          "步步为营：解码男女之间的情感电路"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00003.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00004.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 9,
+        "id": "id64",
+        "path": "text/part0007.html",
+        "bytes": 644,
+        "source_sha256": "ee6be14140b9e36dc5fc76b4858d53a7407041b7e86ff44755dab2a2b45d1c80",
+        "characters": 48,
+        "text_sha256": "0544e9b9a36d600e3488b45626ffc0e04e44ba47a07f20f8e4feb98fcf78a690",
+        "headings": [
+          "CHAPTER 02\n  斗士都有自己的全金属外壳"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 10,
+        "id": "id65",
+        "path": "text/part0008.html",
+        "bytes": 2883,
+        "source_sha256": "59f4ce9ad7a55355f368296cf4761031e2fcb9c8df671c2bcd97ea673224e355",
+        "characters": 697,
+        "text_sha256": "aa09caa3c876340449b990318042a64cea711aacf5eda54c1b3d083c8e085a42",
+        "headings": [
+          "第一次见面，就要侵蚀她的灵魂"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00005.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 11,
+        "id": "id66",
+        "path": "text/part0009.html",
+        "bytes": 14241,
+        "source_sha256": "c64f069cb61d656fb2d54ae02294abb82854ed917e57b4b2a323a22e4b3f2939",
+        "characters": 4046,
+        "text_sha256": "d1264f785c07163688763dc3b8b4fc2854cd11beb0b1ff0bb95b06ff51a1867f",
+        "headings": [
+          "高价值的身份是绅士的权杖",
+          "女人偏向以生存价值为基础选择男人",
+          "财富与地位不能绝对代表生存价值",
+          "生活价值是生存价值的升华",
+          "社交认证：利用身份大幅提升吸引力的秘诀",
+          "一个男人获得社交认证的例子",
+          "一个男人缺乏社交认证的例子",
+          "学校",
+          "酒吧",
+          "餐厅"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00006.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 12,
+        "id": "id67",
+        "path": "text/part0010.html",
+        "bytes": 24186,
+        "source_sha256": "90a3834630cfd13ac47079537cf37cd865056830a811ace8cba38cd358a734f6",
+        "characters": 6660,
+        "text_sha256": "ad524b81bd1e38d84adfb07f40a97fab6577ae72719bebea57c250fb73d7af04",
+        "headings": [
+          "武装到牙齿吧，野兽绅士",
+          "男人的外表是一本说明书",
+          "审美",
+          "正面的自我暗示",
+          "抗压性",
+          "传递“搭讪邀请”",
+          "第一眼赢得女性好感的造型三要素",
+          "主流审美",
+          "时尚感",
+          "精英元素",
+          "着装基础建议",
+          "衣着的关键，在于合身",
+          "发型是型男的灵魂",
+          "什么是搭配？",
+          "基本搭配建议",
+          "配饰基本建议",
+          "个人护理基础建议",
+          "基础面部护肤三步：清洁、调理、滋润",
+          "唇齿护理",
+          "疤痕暗疮",
+          "眉毛和胡须",
+          "手脚指甲",
+          "口臭与体味"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00007.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00008.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00009.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00010.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00011.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00012.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00013.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00014.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00015.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00016.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 13,
+        "id": "id68",
+        "path": "text/part0011.html",
+        "bytes": 36603,
+        "source_sha256": "57f6405cc4c7cf7fb0ee099c16d96e4c95fc22962468d8ed37823ba2a0198864",
+        "characters": 10545,
+        "text_sha256": "02b155da0741af29854ec449aaa3d12e4c188ba0a0ba4583463bdcab7f81fae6",
+        "headings": [
+          "气场，决定你宇宙的疆界",
+          "肢体语言：用“绅士”的方式激发“本能”吸引",
+          "人类天生就用肢体语言进行潜沟通",
+          "利用肢体语言让女人对你一见倾心",
+          "一些正面的肢体语言",
+          "一些负面的肢体语言",
+          "笑容——你的魅力涡轮增压器",
+          "讨好的傻笑",
+          "有魅力的笑容",
+          "塑造自信的过程，是判断价值的过程",
+          "“社交认证”只能构建“相对价值”",
+          "核心价值观",
+          "控制情绪，成为充满感染力的男人",
+          "向外关注vs向内关注",
+          "应用“向外关注”获得正面情绪",
+          "适应陌生情境下的焦虑",
+          "阴阳心态：由内而外强化自信与感染力",
+          "“阴”的心态",
+          "“阳”的心态"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00017.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00018.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 14,
+        "id": "id69",
+        "path": "text/part0012.html",
+        "bytes": 3163,
+        "source_sha256": "5b40dd553484292b3fde12c7acc0b54f6b23ce0711624af7ec0fcae8b35e5cc7",
+        "characters": 757,
+        "text_sha256": "e7789f20686b188c067b7d6224dbe52d72541be4e1533a0cc26724c01fd4eadc",
+        "headings": [
+          "第一印象吸引力开关",
+          "身材匀称",
+          "外形整洁",
+          "装扮时尚",
+          "精英特质",
+          "社交认证",
+          "良好的身体语言",
+          "正面的情绪状态"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 15,
+        "id": "id70",
+        "path": "text/part0013.html",
+        "bytes": 848,
+        "source_sha256": "ee152ab3c76f6f271fcf9b7df04e84bae98d430d85c781ccd92e1c0d6d54ab09",
+        "characters": 109,
+        "text_sha256": "6b048aa85d92573256de491e5add867cd21cfa4d7449703a57406f6bd5e76c46",
+        "headings": [
+          "CHAPTER 03\n  出手抓她的时候“用力一点”"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 16,
+        "id": "id71",
+        "path": "text/part0014.html",
+        "bytes": 16868,
+        "source_sha256": "d1fe7e8c53cc12e4ce45415062130abfc883ad654b5bc307eee5ac24f00cc87c",
+        "characters": 4792,
+        "text_sha256": "5aedb6098d1d02a24ade378d065bf2ffecc33a6e31506a8cf78cf345ad5a66a8",
+        "headings": [
+          "别忘了，“嗅觉”是你的本能",
+          "认识女人之前你需要知道的事",
+          "数量——女性的密集程度",
+          "偏爱——有没有你喜欢的女性类型",
+          "交集——双方生活轨迹有没有重叠",
+          "结识女人的场所",
+          "咖啡厅",
+          "商场",
+          "酒吧",
+          "大型相亲活动",
+          "同城活动、兴趣班",
+          "大学校园",
+          "相亲网站",
+          "社交软件",
+          "用开阔的心态去结交异性",
+          "不要纠结于一两次得失",
+          "多结识才能细选择",
+          "建立自己的社交圈",
+          "组织聚会",
+          "聚合资源"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00019.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 17,
+        "id": "id72",
+        "path": "text/part0015.html",
+        "bytes": 54436,
+        "source_sha256": "1f4467b54ba361f209947983ecf994c4f47f6b02fbb6fea0b320f9ac4b86b344",
+        "characters": 15234,
+        "text_sha256": "7c35ad947ee7af9d1748cbe72715ea1be502d5739d3be669755c259265341344",
+        "headings": [
+          "把脑中的“犹豫”撕碎",
+          "克服人人都会有的搭讪焦虑",
+          "男人自我保护的本能",
+          "“三秒法则”，破解你的搭讪焦虑",
+          "“三秒法则”的例外",
+          "“负重练习”",
+          "关于酒吧的顾虑",
+          "认识女性前的注意事项",
+          "留意搭讪邀请",
+          "“三段式搭讪”",
+          "开场白",
+          "话题开场白：真诚赞美",
+          "● 话题开场白：情境切入",
+          "● 话题开场白：微博/微信分手",
+          "● 话题开场白：“谢谢你！”",
+          "● 直接开场白",
+          "● 多人组合开场白",
+          "情境沟通与交流基本信息",
+          "交换联系方式",
+          "即时约会",
+          "搭讪关键技巧",
+          "切入角度",
+          "预留私人空间",
+          "搭讪时的肢体语言",
+          "情绪状态",
+          "态度与用词",
+          "别忘了加上时间限制",
+          "发散式对话",
+          "案例：一次成功的三分钟搭讪"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00020.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00021.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00022.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00023.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 18,
+        "id": "id73",
+        "path": "text/part0016.html",
+        "bytes": 9583,
+        "source_sha256": "33354bd062acbf943ff2dde961546bc2bb56afb09cafdf884ad0c1f55a1857d0",
+        "characters": 2647,
+        "text_sha256": "5ff698d2dfe560a03103f48264bb14c5078f39b556019ea0d6fc2ea8842891ae",
+        "headings": [
+          "最棒的技巧，就是不给她拒绝的机会",
+          "不像偶遇的偶遇才是最理想的状态",
+          "案例一",
+          "案例二",
+          "交集—撤出—再遇",
+          "交集",
+          "撤出",
+          "再遇"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00024.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 19,
+        "id": "id74",
+        "path": "text/part0017.html",
+        "bytes": 19446,
+        "source_sha256": "6948a35089463182de6254105cdf0dbdcf033b539637066350384a3310935919",
+        "characters": 5621,
+        "text_sha256": "a0db0570db178eb0b106eaee6a58b91e3924b73f03af3cb77a104ea8c523b642",
+        "headings": [
+          "让平台变成你的狩猎场",
+          "相亲活动上的女性人群",
+          "相亲的目的",
+          "相亲技巧有规可循",
+          "相亲现场，必须占据先机",
+          "如果你需要一个公开的自我介绍",
+          "相亲活动中的有效开场白",
+          "给参加相亲一个合理的理由",
+          "锁定目标"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 20,
+        "id": "id75",
+        "path": "text/part0018.html",
+        "bytes": 2653,
+        "source_sha256": "4b9d9a89f895e983842a3351e6e4e64d7150769545a558f4abcbebf8cd3caf7c",
+        "characters": 625,
+        "text_sha256": "831ed6325ffd21c49c001d0b364e9bdc8d02d331e8b2f19dc243cf30066d7742",
+        "headings": [
+          "认识阶段吸引力开关",
+          "礼貌",
+          "幽默",
+          "感染力",
+          "言谈举止",
+          "社交直觉"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 21,
+        "id": "id76",
+        "path": "text/part0019.html",
+        "bytes": 794,
+        "source_sha256": "7559da1013ee13bcbfdb6c5a200bc855a8cb041a70b45c5e88569b49e96821bf",
+        "characters": 91,
+        "text_sha256": "401adbc88758cb70247f93169f6d317e0cb25926d89960494ec22b6c01829960",
+        "headings": [
+          "CHAPTER 04\n  男女互动：在野兽绅士眼中就是博弈"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 22,
+        "id": "id77",
+        "path": "text/part0020.html",
+        "bytes": 3274,
+        "source_sha256": "2ed79798bef414375d8979a852ff76abed945c58c19149651d1ce71d79e087fd",
+        "characters": 828,
+        "text_sha256": "6b6484d22467076da9261545abc2bb0b463b021b95cb3b8fd068e17ab4d6bcda",
+        "headings": [
+          "让女人心动的艺术"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 23,
+        "id": "id78",
+        "path": "text/part0021.html",
+        "bytes": 11862,
+        "source_sha256": "f6744fe118f179cc75d7112e73d07936c74c0fbea8b44a04822d90ddf066b3fc",
+        "characters": 3190,
+        "text_sha256": "03b1269285fae039700723da7c383a1600a57375609c4c5dc43953d924cbf8cf",
+        "headings": [
+          "用野兽之眼辨别她的真情假意",
+          "指标的分类",
+          "兴趣指标（IOI）",
+          "显性IOI",
+          "隐性IOI",
+          "无兴趣指标（IOD）",
+          "一些需要重点关注的兴趣指标",
+          "抚弄头发",
+          "舔嘴唇",
+          "玩闹调笑",
+          "她靠近你",
+          "投入话题",
+          "身体姿势",
+          "模仿你的动作和用词",
+          "眼神接触",
+          "不可忽视的“假性IOI”",
+          "怎样解读她的兴趣指标？"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 24,
+        "id": "id79",
+        "path": "text/part0022.html",
+        "bytes": 27214,
+        "source_sha256": "108b3f012bcb7d102d790435ff06650dd9c629f8ce4aa9cc93cae5a1adaa8011",
+        "characters": 7840,
+        "text_sha256": "58960fda5f301eb9680393e3f15d5d3c824a297296a74a80fb4f641086afd469",
+        "headings": [
+          "做到“好奇，但无需求”你就赢了一半",
+          "破解常见的女性IOD",
+          "回避",
+          "不耐烦",
+          "不投入",
+          "抵抗",
+          "破坏舒适感",
+          "忽略",
+          "用IOD回应IOD",
+          "自我排除",
+          "提前松手",
+          "减少回应",
+          "撤出—提供价值",
+          "合理地否定她，而不是刻意打压",
+          "利用“推拉”微调吸引与可得性",
+          "如何推拉？",
+          "推拉案例：“你是哪种动物？”",
+          "案例一",
+          "案例二"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 25,
+        "id": "id80",
+        "path": "text/part0023.html",
+        "bytes": 9884,
+        "source_sha256": "2e7b13bc503b8d6e94a3f25a4c9954107a160950d73d7e364839ce8093f2c2d5",
+        "characters": 2739,
+        "text_sha256": "993627c24f5b86f1e66d32a8149ed964482180a696d88817af2537049de509c0",
+        "headings": [
+          "瞬间赢得她信任的冷读术",
+          "冷读注意事项",
+          "在互动的前五分钟内可以运用的冷读",
+          "在相互有一定的了解以后可以运用的冷读",
+          "经典渐进式冷读"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 26,
+        "id": "id81",
+        "path": "text/part0024.html",
+        "bytes": 29182,
+        "source_sha256": "852262a4644c454fb8ec7b4c4bdadc5513fbfba24df0a6279d36ea5421a95172",
+        "characters": 8376,
+        "text_sha256": "af672c49bdb63f41bb10bb4ad5bcff44f683bbc394afe16d425a1bb406fa1b4f",
+        "headings": [
+          "用强大的吸引力把她拉进你的世界",
+          "基于价值展示的吸引力架构",
+          "自我价值",
+          "框架",
+          "状态",
+          "技巧",
+          "预选与妒忌情结，吸引力的捷径",
+          "将自己的故事变成充满吸引力的谈资",
+          "好奇开场白",
+          "编写你自己的DHV故事",
+          "剔除掉负面信息",
+          "提示一： DHV的超限效应",
+          "提示二：戏剧性的“反转”",
+          "Sai的初恋故事"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00025.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 27,
+        "id": "id82",
+        "path": "text/part0025.html",
+        "bytes": 13730,
+        "source_sha256": "1431c29b0fb0aceb606ec9a7d1d9d61dd4afd076ad0f12c98ab059a1248d3a1c",
+        "characters": 3836,
+        "text_sha256": "bdff291341f7cf7963991dbdfaa6d7989379cd583f670bc9ae923ce8addd717b",
+        "headings": [
+          "确认谁才是野兽绅士身旁的女人",
+          "默契的表现形式",
+          "认同感",
+          "倾听",
+          "回答问题",
+          "积极提供话题",
+          "默契与抗拒",
+          "社交层面上的默契",
+          "舒适相处的默契",
+          "亲密相处的默契",
+          "筛选：女人只相信合理的默契",
+          "用“递进式筛选”制造默契",
+          "第一层——提出筛选",
+          "第二层——鼓励投入话题",
+          "第三层——赞美特质，深入话题"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00026.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 28,
+        "id": "id83",
+        "path": "text/part0026.html",
+        "bytes": 11828,
+        "source_sha256": "8c244d46a70f7008c8ea897c1a2fb266226507314eb39a90684e6ff6849cecea",
+        "characters": 3159,
+        "text_sha256": "7be63c50458202ffd092e06c5891d93680bffbc75c3bd4f102190e8ac19f6025",
+        "headings": [
+          "通过“废物测试”就能跨入她的领域",
+          "废物测试的类型",
+          "应对废物测试的“三不原则”",
+          "不解释",
+          "不抬杠",
+          "不较真",
+          "废物测试的处理方法",
+          "接受并夸大",
+          "忽略",
+          "扭曲",
+          "反弹",
+          "框架",
+          "好的框架，应该有哪些特征？",
+          "设定有利于你的框架"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00027.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 29,
+        "id": "id84",
+        "path": "text/part0027.html",
+        "bytes": 3790,
+        "source_sha256": "88139248880cbd55f86fdfc3ce8c2179c2250b3fe9c5ef006f13b418661ef3be",
+        "characters": 943,
+        "text_sha256": "897a107f11c88277aca6df1e2014b1e1cf11a93c807ac789884859107288cc63",
+        "headings": [
+          "互动中的吸引力开关",
+          "上进心",
+          "内涵丰富",
+          "情绪稳定",
+          "善解人意",
+          "领袖气质",
+          "有挑战性",
+          "善于聆听",
+          "愿意表达"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 30,
+        "id": "id85",
+        "path": "text/part0028.html",
+        "bytes": 780,
+        "source_sha256": "e07c5a4f794e96bcc40731b79e0621c43760ed93484845cb446310250a1aa884",
+        "characters": 86,
+        "text_sha256": "1790f49fab9995c0e4f5f82603bef6572248f36755f09d554037870ea1f34695",
+        "headings": [
+          "CHAPTER 05\n  用联系与约会拥她入怀"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 31,
+        "id": "id86",
+        "path": "text/part0029.html",
+        "bytes": 16632,
+        "source_sha256": "90fa9f68013f106602a989f508943bd2677e36c377c6c239c8fb99a1e565cc8f",
+        "characters": 4277,
+        "text_sha256": "3faaf77f9c0e918659007a2c006334fe3c8edd23717817855abef9ab548a74b8",
+        "headings": [
+          "越古老的开始越经典",
+          "短信息是打开互动的钥匙",
+          "短信息互动八法则",
+          "不要问问题",
+          "避免聊家常",
+          "只聊你们之间的事情",
+          "表情能帮大忙",
+          "像幼儿园小孩一样对话",
+          "不要在不见面的情况下升级关系",
+          "见好就收",
+          "注意间隔和时间",
+          "社交软件的展示面",
+          "头像与资料",
+          "相册展示",
+          "和朋友在一起聚会的照片",
+          "展示厨艺的照片",
+          "与小动物或者小孩在一起的合照",
+          "运动或健身照片",
+          "有趣的私人爱好",
+          "认真做事的照片",
+          "旅行的照片",
+          "干净的卧室或书房",
+          "童年旧照"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00028.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00029.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00030.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00031.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00032.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00033.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00034.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00035.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00036.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00037.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 32,
+        "id": "id87",
+        "path": "text/part0030.html",
+        "bytes": 10163,
+        "source_sha256": "9a6e761600c2f7dca0dd2b73d5241977a175a7f4ec782d7372e650d852724955",
+        "characters": 2944,
+        "text_sha256": "17d983a75cf6f9bbfecf5bdef3ec85d5f960ee76d5776b00ec504aec4967dded",
+        "headings": [
+          "通话的第一句犹如神谕",
+          "第一通电话，最好不是邀约电话",
+          "如果她不回复消息/不接电话"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 33,
+        "id": "id88",
+        "path": "text/part0031.html",
+        "bytes": 9509,
+        "source_sha256": "d0cdf4de7abbe7766729baa6fe8b0ce56adc1bed187dff8ff3f44257866d8f6b",
+        "characters": 2578,
+        "text_sha256": "be017e3ac5225aa6b1ea9238f687b2f195d5c2f4cd0ff1ad55508472f1c425ed",
+        "headings": [
+          "用逆向思维洗礼过的邀约技巧",
+          "电话邀约",
+          "邀约案例",
+          "为什么不试试让她请你吃饭？",
+          "案例一",
+          "案例二",
+          "关于“放鸽子”"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 34,
+        "id": "id89",
+        "path": "text/part0032.html",
+        "bytes": 48986,
+        "source_sha256": "8b810fc9cbddda586380e5052afd08939aba6ed99df8d33bfc3f87f238fbd080",
+        "characters": 14194,
+        "text_sha256": "487260a2d340c8e28099655feb1137d6d08f35a28c93be293b36807ba2ea7e60",
+        "headings": [
+          "用野兽的行动力、绅士的智慧——布局",
+          "举足轻重的前半小时",
+          "第一个十分钟",
+          "第二个十分钟",
+          "第三个十分钟",
+          "设计环环紧扣的约会",
+          "约会环境",
+          "选择座位",
+          "精神联结：为升级关系做好铺垫",
+          "注意避开友谊陷阱！",
+          "确认默契",
+          "角色扮演",
+          "共谋",
+          "转场",
+          "寻找共性",
+          "让她了解你",
+          "懂得展示自己敏感的一面",
+          "运用冷读术",
+          "当心！别当情感垃圾桶",
+          "最合理的表白方式",
+          "约会中的注意事项",
+          "正确使用社交认证",
+          "如果约会时她带了朋友",
+          "约会初期，不要接受她的邀约",
+          "预期判断偏差原理",
+          "约会需要不断挑起对方的情绪"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00038.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00039.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00040.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00041.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 35,
+        "id": "id90",
+        "path": "text/part0033.html",
+        "bytes": 3325,
+        "source_sha256": "31b426445ca1beefdde018207140805e8eaf496f9cbf71509e66aaa7c46fcc66",
+        "characters": 788,
+        "text_sha256": "a423fb7d3be6dd809408b525ad9cf428daf941177da67cdf1c45c3eded899797",
+        "headings": [
+          "约会与联系中的有效吸引力开关",
+          "正直",
+          "勤奋",
+          "不嫉妒",
+          "保护欲",
+          "冒险精神",
+          "信念和原则",
+          "善于赞美",
+          "袒露心扉"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 36,
+        "id": "id91",
+        "path": "text/part0034.html",
+        "bytes": 711,
+        "source_sha256": "528453b0068ae1e0c377c3a55af4a83627f1d99d9514ab35ef79b049cc210374",
+        "characters": 70,
+        "text_sha256": "8dcda3064e2b15d32f5fc39fcf8e0d321e69dd9ed39b473566b2dc46148e0fe4",
+        "headings": [
+          "CHAPTER 06\n  升级关系时，请在合适时机使用核动力"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 37,
+        "id": "id92",
+        "path": "text/part0035.html",
+        "bytes": 3927,
+        "source_sha256": "c949693b3386441f71fa4cc60b008c3c36187b082e28d14e5a4a70d6f5887bd5",
+        "characters": 1057,
+        "text_sha256": "44d6e95ad4f9274f15e596f0378413fc1108f98fd03c62006a3c2b69150dd796",
+        "headings": [
+          "不触碰她，她就只是《蒙娜丽莎》"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 38,
+        "id": "id93",
+        "path": "text/part0036.html",
+        "bytes": 5427,
+        "source_sha256": "7030897ea9fa900181f3a37c14e2587be3f4dea431e7b994e05dadee6c2e9ea7",
+        "characters": 1414,
+        "text_sha256": "2361f77a0c4c3e649003a02a3001393a777a72545c98caf452372c33dee6acf3",
+        "headings": [
+          "破解焦虑，你可是野兽绅士",
+          "意外型身体接触",
+          "自然型身体接触",
+          "保护型身体接触"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 39,
+        "id": "id94",
+        "path": "text/part0037.html",
+        "bytes": 4281,
+        "source_sha256": "488e6e18542580528bd26316ebf37a9206e52c350179422ece41109e0ce8996f",
+        "characters": 1121,
+        "text_sha256": "15644adb600eadda5b50c07b289e1a04d45dcc832b5a163c892f1a9ef5ad42d3",
+        "headings": [
+          "绅士准绳",
+          "早期适度接触",
+          "学会“释放”身体接触",
+          "自然接触，没有所谓的“重要时刻”",
+          "“主动”是你的责任"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 40,
+        "id": "id95",
+        "path": "text/part0038.html",
+        "bytes": 12577,
+        "source_sha256": "d96f01da5e449aecf022774e7e8066dc752ba3a63323dc031a2668394bc61230",
+        "characters": 3200,
+        "text_sha256": "2a5b8caff31b85b476f3a5fcac415e06297247709c8e269d105e5fdd252007a3",
+        "headings": [
+          "带着对《创世纪》的敬畏触碰她",
+          "适应型接触",
+          "营造舒适感受",
+          "安慰型身体接触",
+          "友谊型身体接触",
+          "试探彼此默契",
+          "案例一：拥抱测试",
+          "案例二：手与手的触碰",
+          "勾手发誓",
+          "静止时的手指触碰",
+          "手指牵手",
+          "牵手",
+          "接吻",
+          "接吻案例：三角凝视法"
+        ],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00042.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00043.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00044.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00045.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00046.jpeg",
+            "class": "calibre1"
+          },
+          {
+            "alt": "picture",
+            "src": "../images/00047.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 41,
+        "id": "id96",
+        "path": "text/part0039.html",
+        "bytes": 5511,
+        "source_sha256": "214430e9480e56ec6ca6f8a563b351e08614e617cea293e7edf98ddf44535a72",
+        "characters": 1506,
+        "text_sha256": "82d36732f4ce4d30df1520a1098f956d2a78d3395f073dee9ce5baf7780dd80d",
+        "headings": [
+          "细节决定成败",
+          "女人的自我保护机制：矜持",
+          "进退有据",
+          "接触的时间",
+          "公共场合和独处时的区别"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 42,
+        "id": "id97",
+        "path": "text/part0040.html",
+        "bytes": 6779,
+        "source_sha256": "34b8f7024cd6ae05f83148c7097076dc60d930a7ded2e0919d7bafd659257bf7",
+        "characters": 1857,
+        "text_sha256": "106b0c3d788ab01b089147480e6135b0731d4aee799880ba2932b24336e33ecc",
+        "headings": [
+          "男人应该是关系升级的主导者",
+          "建立共同预期，这决定了你们的未来。"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 43,
+        "id": "id98",
+        "path": "text/part0041.html",
+        "bytes": 2690,
+        "source_sha256": "c28e9f00bf874f04e4b02987ac932caa6d2ed1d9a1fec6165006f551ee06802b",
+        "characters": 644,
+        "text_sha256": "94f644db53e1098fbb08f2fce8e0116b4a5116f2d6a884238c62ce97d04e00c4",
+        "headings": [
+          "后记"
+        ],
+        "images": [],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      },
+      {
+        "spine_item": 44,
+        "id": "id99",
+        "path": "text/part0042.html",
+        "bytes": 483,
+        "source_sha256": "e78eaeb335fb5aaada916a6c6a6142001ac1dbe64938502f6d229f7777931fb7",
+        "characters": 2,
+        "text_sha256": "4d8c1c5b42830791a4ce99f630fb9f02ba08c67c5299d46d6cf76661bfd03584",
+        "headings": [],
+        "images": [
+          {
+            "alt": "picture",
+            "src": "../images/00048.jpeg",
+            "class": "calibre1"
+          }
+        ],
+        "replacement_characters": 0,
+        "independent_XML_nonspace_sequence_equal": true,
+        "XML_error": null
+      }
+    ],
+    "resources": [
+      {
+        "href": "cover.jpeg",
+        "id": "cover",
+        "media-type": "image/jpeg",
+        "path": "cover.jpeg",
+        "exists": true,
+        "bytes": 52404
+      },
+      {
+        "href": "images/00001.jpeg",
+        "id": "id1",
+        "media-type": "image/jpeg",
+        "path": "images/00001.jpeg",
+        "exists": true,
+        "bytes": 97308
+      },
+      {
+        "href": "images/00002.jpeg",
+        "id": "id2",
+        "media-type": "image/jpeg",
+        "path": "images/00002.jpeg",
+        "exists": true,
+        "bytes": 74072
+      },
+      {
+        "href": "images/00003.jpeg",
+        "id": "id3",
+        "media-type": "image/jpeg",
+        "path": "images/00003.jpeg",
+        "exists": true,
+        "bytes": 25480
+      },
+      {
+        "href": "images/00004.jpeg",
+        "id": "id4",
+        "media-type": "image/jpeg",
+        "path": "images/00004.jpeg",
+        "exists": true,
+        "bytes": 56064
+      },
+      {
+        "href": "images/00005.jpeg",
+        "id": "id5",
+        "media-type": "image/jpeg",
+        "path": "images/00005.jpeg",
+        "exists": true,
+        "bytes": 37936
+      },
+      {
+        "href": "images/00006.jpeg",
+        "id": "id6",
+        "media-type": "image/jpeg",
+        "path": "images/00006.jpeg",
+        "exists": true,
+        "bytes": 28508
+      },
+      {
+        "href": "images/00007.jpeg",
+        "id": "id7",
+        "media-type": "image/jpeg",
+        "path": "images/00007.jpeg",
+        "exists": true,
+        "bytes": 34656
+      },
+      {
+        "href": "images/00008.jpeg",
+        "id": "id8",
+        "media-type": "image/jpeg",
+        "path": "images/00008.jpeg",
+        "exists": true,
+        "bytes": 35408
+      },
+      {
+        "href": "images/00009.jpeg",
+        "id": "id9",
+        "media-type": "image/jpeg",
+        "path": "images/00009.jpeg",
+        "exists": true,
+        "bytes": 22820
+      },
+      {
+        "href": "images/00010.jpeg",
+        "id": "id10",
+        "media-type": "image/jpeg",
+        "path": "images/00010.jpeg",
+        "exists": true,
+        "bytes": 29900
+      },
+      {
+        "href": "images/00011.jpeg",
+        "id": "id11",
+        "media-type": "image/jpeg",
+        "path": "images/00011.jpeg",
+        "exists": true,
+        "bytes": 32156
+      },
+      {
+        "href": "images/00012.jpeg",
+        "id": "id12",
+        "media-type": "image/jpeg",
+        "path": "images/00012.jpeg",
+        "exists": true,
+        "bytes": 18900
+      },
+      {
+        "href": "images/00013.jpeg",
+        "id": "id13",
+        "media-type": "image/jpeg",
+        "path": "images/00013.jpeg",
+        "exists": true,
+        "bytes": 26792
+      },
+      {
+        "href": "images/00014.jpeg",
+        "id": "id14",
+        "media-type": "image/jpeg",
+        "path": "images/00014.jpeg",
+        "exists": true,
+        "bytes": 20940
+      },
+      {
+        "href": "images/00015.jpeg",
+        "id": "id15",
+        "media-type": "image/jpeg",
+        "path": "images/00015.jpeg",
+        "exists": true,
+        "bytes": 38472
+      },
+      {
+        "href": "images/00016.jpeg",
+        "id": "id16",
+        "media-type": "image/jpeg",
+        "path": "images/00016.jpeg",
+        "exists": true,
+        "bytes": 36208
+      },
+      {
+        "href": "images/00017.jpeg",
+        "id": "id17",
+        "media-type": "image/jpeg",
+        "path": "images/00017.jpeg",
+        "exists": true,
+        "bytes": 42520
+      },
+      {
+        "href": "images/00018.jpeg",
+        "id": "id18",
+        "media-type": "image/jpeg",
+        "path": "images/00018.jpeg",
+        "exists": true,
+        "bytes": 63364
+      },
+      {
+        "href": "images/00019.jpeg",
+        "id": "id19",
+        "media-type": "image/jpeg",
+        "path": "images/00019.jpeg",
+        "exists": true,
+        "bytes": 22160
+      },
+      {
+        "href": "images/00020.jpeg",
+        "id": "id20",
+        "media-type": "image/jpeg",
+        "path": "images/00020.jpeg",
+        "exists": true,
+        "bytes": 27380
+      },
+      {
+        "href": "images/00021.jpeg",
+        "id": "id21",
+        "media-type": "image/jpeg",
+        "path": "images/00021.jpeg",
+        "exists": true,
+        "bytes": 29792
+      },
+      {
+        "href": "images/00022.jpeg",
+        "id": "id22",
+        "media-type": "image/jpeg",
+        "path": "images/00022.jpeg",
+        "exists": true,
+        "bytes": 30060
+      },
+      {
+        "href": "images/00023.jpeg",
+        "id": "id23",
+        "media-type": "image/jpeg",
+        "path": "images/00023.jpeg",
+        "exists": true,
+        "bytes": 66484
+      },
+      {
+        "href": "images/00024.jpeg",
+        "id": "id24",
+        "media-type": "image/jpeg",
+        "path": "images/00024.jpeg",
+        "exists": true,
+        "bytes": 37964
+      },
+      {
+        "href": "images/00025.jpeg",
+        "id": "id25",
+        "media-type": "image/jpeg",
+        "path": "images/00025.jpeg",
+        "exists": true,
+        "bytes": 40940
+      },
+      {
+        "href": "images/00026.jpeg",
+        "id": "id26",
+        "media-type": "image/jpeg",
+        "path": "images/00026.jpeg",
+        "exists": true,
+        "bytes": 57412
+      },
+      {
+        "href": "images/00027.jpeg",
+        "id": "id27",
+        "media-type": "image/jpeg",
+        "path": "images/00027.jpeg",
+        "exists": true,
+        "bytes": 44284
+      },
+      {
+        "href": "images/00028.jpeg",
+        "id": "id28",
+        "media-type": "image/jpeg",
+        "path": "images/00028.jpeg",
+        "exists": true,
+        "bytes": 31788
+      },
+      {
+        "href": "images/00029.jpeg",
+        "id": "id29",
+        "media-type": "image/jpeg",
+        "path": "images/00029.jpeg",
+        "exists": true,
+        "bytes": 20592
+      },
+      {
+        "href": "images/00030.jpeg",
+        "id": "id30",
+        "media-type": "image/jpeg",
+        "path": "images/00030.jpeg",
+        "exists": true,
+        "bytes": 21056
+      },
+      {
+        "href": "images/00031.jpeg",
+        "id": "id31",
+        "media-type": "image/jpeg",
+        "path": "images/00031.jpeg",
+        "exists": true,
+        "bytes": 17172
+      },
+      {
+        "href": "images/00032.jpeg",
+        "id": "id32",
+        "media-type": "image/jpeg",
+        "path": "images/00032.jpeg",
+        "exists": true,
+        "bytes": 18676
+      },
+      {
+        "href": "images/00033.jpeg",
+        "id": "id33",
+        "media-type": "image/jpeg",
+        "path": "images/00033.jpeg",
+        "exists": true,
+        "bytes": 21452
+      },
+      {
+        "href": "images/00034.jpeg",
+        "id": "id34",
+        "media-type": "image/jpeg",
+        "path": "images/00034.jpeg",
+        "exists": true,
+        "bytes": 19684
+      },
+      {
+        "href": "images/00035.jpeg",
+        "id": "id35",
+        "media-type": "image/jpeg",
+        "path": "images/00035.jpeg",
+        "exists": true,
+        "bytes": 22252
+      },
+      {
+        "href": "images/00036.jpeg",
+        "id": "id36",
+        "media-type": "image/jpeg",
+        "path": "images/00036.jpeg",
+        "exists": true,
+        "bytes": 29248
+      },
+      {
+        "href": "images/00037.jpeg",
+        "id": "id37",
+        "media-type": "image/jpeg",
+        "path": "images/00037.jpeg",
+        "exists": true,
+        "bytes": 27320
+      },
+      {
+        "href": "images/00038.jpeg",
+        "id": "id38",
+        "media-type": "image/jpeg",
+        "path": "images/00038.jpeg",
+        "exists": true,
+        "bytes": 49304
+      },
+      {
+        "href": "images/00039.jpeg",
+        "id": "id39",
+        "media-type": "image/jpeg",
+        "path": "images/00039.jpeg",
+        "exists": true,
+        "bytes": 21544
+      },
+      {
+        "href": "images/00040.jpeg",
+        "id": "id40",
+        "media-type": "image/jpeg",
+        "path": "images/00040.jpeg",
+        "exists": true,
+        "bytes": 45808
+      },
+      {
+        "href": "images/00041.jpeg",
+        "id": "id41",
+        "media-type": "image/jpeg",
+        "path": "images/00041.jpeg",
+        "exists": true,
+        "bytes": 41696
+      },
+      {
+        "href": "images/00042.jpeg",
+        "id": "id42",
+        "media-type": "image/jpeg",
+        "path": "images/00042.jpeg",
+        "exists": true,
+        "bytes": 41356
+      },
+      {
+        "href": "images/00043.jpeg",
+        "id": "id43",
+        "media-type": "image/jpeg",
+        "path": "images/00043.jpeg",
+        "exists": true,
+        "bytes": 25012
+      },
+      {
+        "href": "images/00044.jpeg",
+        "id": "id44",
+        "media-type": "image/jpeg",
+        "path": "images/00044.jpeg",
+        "exists": true,
+        "bytes": 23060
+      },
+      {
+        "href": "images/00045.jpeg",
+        "id": "id45",
+        "media-type": "image/jpeg",
+        "path": "images/00045.jpeg",
+        "exists": true,
+        "bytes": 21244
+      },
+      {
+        "href": "images/00046.jpeg",
+        "id": "id46",
+        "media-type": "image/jpeg",
+        "path": "images/00046.jpeg",
+        "exists": true,
+        "bytes": 21788
+      },
+      {
+        "href": "images/00047.jpeg",
+        "id": "id47",
+        "media-type": "image/jpeg",
+        "path": "images/00047.jpeg",
+        "exists": true,
+        "bytes": 22472
+      },
+      {
+        "href": "images/00048.jpeg",
+        "id": "id48",
+        "media-type": "image/jpeg",
+        "path": "images/00048.jpeg",
+        "exists": true,
+        "bytes": 11552
+      },
+      {
+        "href": "page_styles.css",
+        "id": "page_css",
+        "media-type": "text/css",
+        "path": "page_styles.css",
+        "exists": true,
+        "bytes": 58
+      },
+      {
+        "href": "stylesheet.css",
+        "id": "css",
+        "media-type": "text/css",
+        "path": "stylesheet.css",
+        "exists": true,
+        "bytes": 1645
+      },
+      {
+        "href": "text/part0000.html",
+        "id": "id57",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0000.html",
+        "exists": true,
+        "bytes": 483
+      },
+      {
+        "href": "text/part0001.html",
+        "id": "id58",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0001.html",
+        "exists": true,
+        "bytes": 483
+      },
+      {
+        "href": "text/part0002.html",
+        "id": "id59",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0002.html",
+        "exists": true,
+        "bytes": 6609
+      },
+      {
+        "href": "text/part0003.html",
+        "id": "id60",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0003.html",
+        "exists": true,
+        "bytes": 836
+      },
+      {
+        "href": "text/part0004.html",
+        "id": "id61",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0004.html",
+        "exists": true,
+        "bytes": 21764
+      },
+      {
+        "href": "text/part0005.html",
+        "id": "id62",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0005.html",
+        "exists": true,
+        "bytes": 10286
+      },
+      {
+        "href": "text/part0006.html",
+        "id": "id63",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0006.html",
+        "exists": true,
+        "bytes": 25216
+      },
+      {
+        "href": "text/part0007.html",
+        "id": "id64",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0007.html",
+        "exists": true,
+        "bytes": 644
+      },
+      {
+        "href": "text/part0008.html",
+        "id": "id65",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0008.html",
+        "exists": true,
+        "bytes": 2883
+      },
+      {
+        "href": "text/part0009.html",
+        "id": "id66",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0009.html",
+        "exists": true,
+        "bytes": 14241
+      },
+      {
+        "href": "text/part0010.html",
+        "id": "id67",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0010.html",
+        "exists": true,
+        "bytes": 24186
+      },
+      {
+        "href": "text/part0011.html",
+        "id": "id68",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0011.html",
+        "exists": true,
+        "bytes": 36603
+      },
+      {
+        "href": "text/part0012.html",
+        "id": "id69",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0012.html",
+        "exists": true,
+        "bytes": 3163
+      },
+      {
+        "href": "text/part0013.html",
+        "id": "id70",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0013.html",
+        "exists": true,
+        "bytes": 848
+      },
+      {
+        "href": "text/part0014.html",
+        "id": "id71",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0014.html",
+        "exists": true,
+        "bytes": 16868
+      },
+      {
+        "href": "text/part0015.html",
+        "id": "id72",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0015.html",
+        "exists": true,
+        "bytes": 54436
+      },
+      {
+        "href": "text/part0016.html",
+        "id": "id73",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0016.html",
+        "exists": true,
+        "bytes": 9583
+      },
+      {
+        "href": "text/part0017.html",
+        "id": "id74",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0017.html",
+        "exists": true,
+        "bytes": 19446
+      },
+      {
+        "href": "text/part0018.html",
+        "id": "id75",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0018.html",
+        "exists": true,
+        "bytes": 2653
+      },
+      {
+        "href": "text/part0019.html",
+        "id": "id76",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0019.html",
+        "exists": true,
+        "bytes": 794
+      },
+      {
+        "href": "text/part0020.html",
+        "id": "id77",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0020.html",
+        "exists": true,
+        "bytes": 3274
+      },
+      {
+        "href": "text/part0021.html",
+        "id": "id78",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0021.html",
+        "exists": true,
+        "bytes": 11862
+      },
+      {
+        "href": "text/part0022.html",
+        "id": "id79",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0022.html",
+        "exists": true,
+        "bytes": 27214
+      },
+      {
+        "href": "text/part0023.html",
+        "id": "id80",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0023.html",
+        "exists": true,
+        "bytes": 9884
+      },
+      {
+        "href": "text/part0024.html",
+        "id": "id81",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0024.html",
+        "exists": true,
+        "bytes": 29182
+      },
+      {
+        "href": "text/part0025.html",
+        "id": "id82",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0025.html",
+        "exists": true,
+        "bytes": 13730
+      },
+      {
+        "href": "text/part0026.html",
+        "id": "id83",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0026.html",
+        "exists": true,
+        "bytes": 11828
+      },
+      {
+        "href": "text/part0027.html",
+        "id": "id84",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0027.html",
+        "exists": true,
+        "bytes": 3790
+      },
+      {
+        "href": "text/part0028.html",
+        "id": "id85",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0028.html",
+        "exists": true,
+        "bytes": 780
+      },
+      {
+        "href": "text/part0029.html",
+        "id": "id86",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0029.html",
+        "exists": true,
+        "bytes": 16632
+      },
+      {
+        "href": "text/part0030.html",
+        "id": "id87",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0030.html",
+        "exists": true,
+        "bytes": 10163
+      },
+      {
+        "href": "text/part0031.html",
+        "id": "id88",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0031.html",
+        "exists": true,
+        "bytes": 9509
+      },
+      {
+        "href": "text/part0032.html",
+        "id": "id89",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0032.html",
+        "exists": true,
+        "bytes": 48986
+      },
+      {
+        "href": "text/part0033.html",
+        "id": "id90",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0033.html",
+        "exists": true,
+        "bytes": 3325
+      },
+      {
+        "href": "text/part0034.html",
+        "id": "id91",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0034.html",
+        "exists": true,
+        "bytes": 711
+      },
+      {
+        "href": "text/part0035.html",
+        "id": "id92",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0035.html",
+        "exists": true,
+        "bytes": 3927
+      },
+      {
+        "href": "text/part0036.html",
+        "id": "id93",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0036.html",
+        "exists": true,
+        "bytes": 5427
+      },
+      {
+        "href": "text/part0037.html",
+        "id": "id94",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0037.html",
+        "exists": true,
+        "bytes": 4281
+      },
+      {
+        "href": "text/part0038.html",
+        "id": "id95",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0038.html",
+        "exists": true,
+        "bytes": 12577
+      },
+      {
+        "href": "text/part0039.html",
+        "id": "id96",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0039.html",
+        "exists": true,
+        "bytes": 5511
+      },
+      {
+        "href": "text/part0040.html",
+        "id": "id97",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0040.html",
+        "exists": true,
+        "bytes": 6779
+      },
+      {
+        "href": "text/part0041.html",
+        "id": "id98",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0041.html",
+        "exists": true,
+        "bytes": 2690
+      },
+      {
+        "href": "text/part0042.html",
+        "id": "id99",
+        "media-type": "application/xhtml+xml",
+        "path": "text/part0042.html",
+        "exists": true,
+        "bytes": 483
+      },
+      {
+        "href": "titlepage.xhtml",
+        "id": "titlepage",
+        "media-type": "application/xhtml+xml",
+        "path": "titlepage.xhtml",
+        "exists": true,
+        "bytes": 799
+      },
+      {
+        "href": "toc.ncx",
+        "id": "ncx",
+        "media-type": "application/x-dtbncx+xml",
+        "path": "toc.ncx",
+        "exists": true,
+        "bytes": 11166
+      }
+    ],
+    "zip_entry_count": 102,
+    "nonspine_html": [],
+    "metadata_xml": "<ns0:metadata xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns0=\"http://www.idpf.org/2007/opf\">\n    <dc:subject>①男性-恋爱心理学-通俗读物</dc:subject>\n    <ns0:meta name=\"calibre:timestamp\" content=\"2017-02-26T18:04:02.725000+00:00\" />\n    <dc:date>2017-01-31T16:00:00+00:00</dc:date>\n    <dc:language>zh</dc:language>\n    <dc:contributor ns0:role=\"bkp\">calibre (2.79.1) [https://calibre-ebook.com]</dc:contributor>\n    <dc:title>野兽绅士（单身男士必备撩妹宝典。坏男孩创始人、教父Tango终极力作！汇集超人气恋爱社区「坏男孩」中超经典追女生技巧和领悟。无数情感导师的必修教材！亚洲一线追女社区「坏男孩」指导思想精华提炼。让你喜欢的女孩喜欢上你！）</dc:title>\n    <ns0:meta name=\"calibre:title_sort\" content=\"野兽绅士（单身男士必备撩妹宝典。坏男孩创始人、教父Tango终极力作！汇集超人气恋爱社区「坏男孩」中超经典追女生技巧和领悟。无数情感导师的必修教材！亚洲一线追女社区「坏男孩」指导思想精华提炼。让你喜欢的女孩喜欢上你！）\" />\n    <dc:creator ns0:file-as=\"巫家民（Tango）\" ns0:role=\"aut\">巫家民（Tango）</dc:creator>\n    <dc:identifier ns0:scheme=\"MOBI-ASIN\">B06WP3PNMW</dc:identifier>\n    <dc:identifier id=\"uuid_id\" ns0:scheme=\"uuid\">7fcb6a64-0af3-4eaf-a3bb-83beff775530</dc:identifier>\n    <dc:identifier ns0:scheme=\"calibre\">7fcb6a64-0af3-4eaf-a3bb-83beff775530</dc:identifier>\n    <ns0:meta name=\"cover\" content=\"cover\" />\n    <dc:publisher>天津人民出版社</dc:publisher>\n  </ns0:metadata>\n  ",
+    "spine_character_total": 135956,
+    "replacement_summary": [],
+    "images_manifest": [
+      {
+        "index": 0,
+        "source_path": "cover.jpeg",
+        "width": 600,
+        "height": 800,
+        "sha256": "6ae3877f8e061b3bac13236ced682701aa56954967774c17ba2228438dbad191"
+      },
+      {
+        "index": 1,
+        "source_path": "images/00001.jpeg",
+        "width": 923,
+        "height": 1280,
+        "sha256": "ba3307905a8c802be9b32be437f02516f3b50da8361bbc3e0f697157fedcae8e"
+      },
+      {
+        "index": 2,
+        "source_path": "images/00002.jpeg",
+        "width": 910,
+        "height": 1326,
+        "sha256": "bf0887f80dd69bf1358768db0a11d6f5039ad743303b3ace27cf642abf7ea71f"
+      },
+      {
+        "index": 3,
+        "source_path": "images/00003.jpeg",
+        "width": 326,
+        "height": 369,
+        "sha256": "5c6fb205d6a79a8c88fe66331069bd776765150f15227b14b6440c7131c37123"
+      },
+      {
+        "index": 4,
+        "source_path": "images/00004.jpeg",
+        "width": 483,
+        "height": 503,
+        "sha256": "075d2e3fea7d289523e90e825c9680f30265d454da7f288a678d0870412427c8"
+      },
+      {
+        "index": 5,
+        "source_path": "images/00005.jpeg",
+        "width": 401,
+        "height": 368,
+        "sha256": "6bf22a5e875a9a8c2468fb9711ef31501ec6e7713a9b960b7eba4a29888e6354"
+      },
+      {
+        "index": 6,
+        "source_path": "images/00006.jpeg",
+        "width": 421,
+        "height": 341,
+        "sha256": "13915fd50b876b6d468eeb27e060b96b0341b386b9cdd8a254375e80e721ee9f"
+      },
+      {
+        "index": 7,
+        "source_path": "images/00007.jpeg",
+        "width": 364,
+        "height": 391,
+        "sha256": "0df0fbc01a6eea74be51c22327f00b88f1d86ef1f3d09b7e0eee4fd243ef04f5"
+      },
+      {
+        "index": 8,
+        "source_path": "images/00008.jpeg",
+        "width": 377,
+        "height": 394,
+        "sha256": "8590eb17b7758554e89d226d5807a3e31e7bd9dc8f73eebfa0e0ce046e25aff1"
+      },
+      {
+        "index": 9,
+        "source_path": "images/00009.jpeg",
+        "width": 326,
+        "height": 273,
+        "sha256": "120fde2f12c68119fa43e7c88f9e3f2caed40f06bff16eae8c6ded5529feb694"
+      },
+      {
+        "index": 10,
+        "source_path": "images/00010.jpeg",
+        "width": 302,
+        "height": 304,
+        "sha256": "da3550e5bec64b15d9c7986b4c050d2101c6069e465ab5c555770358aac7390c"
+      },
+      {
+        "index": 11,
+        "source_path": "images/00011.jpeg",
+        "width": 294,
+        "height": 267,
+        "sha256": "dd0813e42c9eb7260c339781932847457c90e74a2786d998e09b34d4c31a23bc"
+      },
+      {
+        "index": 12,
+        "source_path": "images/00012.jpeg",
+        "width": 244,
+        "height": 375,
+        "sha256": "c19e3cb0dcc5ddaa7b6e45bdc4ce3f4784440919135c9390faf93f6df6190c2e"
+      },
+      {
+        "index": 13,
+        "source_path": "images/00013.jpeg",
+        "width": 265,
+        "height": 314,
+        "sha256": "d61ea0bd1851281d5c0fa65d4b4d5f08814e10b843acb29c8a83d28e0fba3ced"
+      },
+      {
+        "index": 14,
+        "source_path": "images/00014.jpeg",
+        "width": 237,
+        "height": 224,
+        "sha256": "5352a08d0b968c4336736f0511203b4f5949bb03d579a99d0f3f37447031559e"
+      },
+      {
+        "index": 15,
+        "source_path": "images/00015.jpeg",
+        "width": 458,
+        "height": 208,
+        "sha256": "7d33871a406614bf03a2c88e5180766d62c946ed038f8b409a0e94f67a09c6e0"
+      },
+      {
+        "index": 16,
+        "source_path": "images/00016.jpeg",
+        "width": 316,
+        "height": 394,
+        "sha256": "d2ec084cd5121f7652c17eae5ad93373a1a6378745c3e27723586ded96250be9"
+      },
+      {
+        "index": 17,
+        "source_path": "images/00017.jpeg",
+        "width": 423,
+        "height": 418,
+        "sha256": "eed982ca3b5f925cfa7b467c5dc67d9985828010f6afe099c38c42c87500af47"
+      },
+      {
+        "index": 18,
+        "source_path": "images/00018.jpeg",
+        "width": 425,
+        "height": 356,
+        "sha256": "04ef77a686e60680fb257d4f7d2d79b48e1d84aa6f4e2f7ccf4c5559b98eaca0"
+      },
+      {
+        "index": 19,
+        "source_path": "images/00019.jpeg",
+        "width": 261,
+        "height": 389,
+        "sha256": "c961a28bbd16df2eb4ec4d60c4f7b920a2406f148ed1127e0112f29a3b0249c1"
+      },
+      {
+        "index": 20,
+        "source_path": "images/00020.jpeg",
+        "width": 294,
+        "height": 364,
+        "sha256": "baa71f88e9b233c18f8732b241fa3730e906d2436ba60d6d800bcbe996be418f"
+      },
+      {
+        "index": 21,
+        "source_path": "images/00021.jpeg",
+        "width": 365,
+        "height": 375,
+        "sha256": "ada2799dfd70aacc5e77fd137d838afd15c6b47c6197ccabcbee9dd8ee9dfbbc"
+      },
+      {
+        "index": 22,
+        "source_path": "images/00022.jpeg",
+        "width": 338,
+        "height": 305,
+        "sha256": "f6d6701852b056db914c70679b23e62d4d04f2cb81f08e9fa9612181076739b4"
+      },
+      {
+        "index": 23,
+        "source_path": "images/00023.jpeg",
+        "width": 495,
+        "height": 523,
+        "sha256": "f9092d9ed62fe1712359a44da63113bae6f66021218d1c98a6b3c7896225b3eb"
+      },
+      {
+        "index": 24,
+        "source_path": "images/00024.jpeg",
+        "width": 649,
+        "height": 210,
+        "sha256": "64ab616aae3c841e161cc83b9fcd16f23f24b508d8b7678e83552f3b8a6c0c81"
+      },
+      {
+        "index": 25,
+        "source_path": "images/00025.jpeg",
+        "width": 437,
+        "height": 515,
+        "sha256": "45dc90676b71968fe35de44d1f84766b2cbf8b0a8f53717d412d84f7ab3c3725"
+      },
+      {
+        "index": 26,
+        "source_path": "images/00026.jpeg",
+        "width": 444,
+        "height": 506,
+        "sha256": "10caefed5c10686cb40d0e47a7d0a02cae2ce4483e84fc19fc9a7ee7d3581753"
+      },
+      {
+        "index": 27,
+        "source_path": "images/00027.jpeg",
+        "width": 438,
+        "height": 389,
+        "sha256": "57dfd8e4877d7bb35cb429cb49827052f77e99374beb2eb4e851f7090dc5c721"
+      },
+      {
+        "index": 28,
+        "source_path": "images/00028.jpeg",
+        "width": 351,
+        "height": 410,
+        "sha256": "2b8f2fbc1f134cddcce57fccbd9f5d3df847df25f3d0e1df89058fd868af2fed"
+      },
+      {
+        "index": 29,
+        "source_path": "images/00029.jpeg",
+        "width": 307,
+        "height": 335,
+        "sha256": "bda37e4e2dcbd1374978f6f53add6458cded54c51fb5faec7fe3675c12d957f0"
+      },
+      {
+        "index": 30,
+        "source_path": "images/00030.jpeg",
+        "width": 324,
+        "height": 341,
+        "sha256": "3dee50e287c3eddfe70f2277ef0eb07d605578315fc7cbd0317ee0f6487293ec"
+      },
+      {
+        "index": 31,
+        "source_path": "images/00031.jpeg",
+        "width": 278,
+        "height": 305,
+        "sha256": "bf31c0e7b597e4556cf9b7029dd0d138721a836a042cfe9be993aefbf783abd3"
+      },
+      {
+        "index": 32,
+        "source_path": "images/00032.jpeg",
+        "width": 280,
+        "height": 282,
+        "sha256": "349fa005bf66149d2e734449eaee01ffed16729782574bab2a395a2cf4099adc"
+      },
+      {
+        "index": 33,
+        "source_path": "images/00033.jpeg",
+        "width": 288,
+        "height": 292,
+        "sha256": "44defe9b8c0cca4e5b0a508499d807c614dd45e34ebebcb15d0f0f4904bb3ee2"
+      },
+      {
+        "index": 34,
+        "source_path": "images/00034.jpeg",
+        "width": 264,
+        "height": 299,
+        "sha256": "89f7a6a5238e2f7d8c39bc0fde3fddd71003df1a9fead43836f7780eaf6d28ec"
+      },
+      {
+        "index": 35,
+        "source_path": "images/00035.jpeg",
+        "width": 283,
+        "height": 287,
+        "sha256": "c7d491072bfc41e1bb7ca386a3eaa2c7348798b6654a7d06f098e39656039c47"
+      },
+      {
+        "index": 36,
+        "source_path": "images/00036.jpeg",
+        "width": 300,
+        "height": 336,
+        "sha256": "35c3bbb3dbca882b01c637797b9090baf8e076d926ad338c0ffbd199e4d3ca11"
+      },
+      {
+        "index": 37,
+        "source_path": "images/00037.jpeg",
+        "width": 358,
+        "height": 348,
+        "sha256": "d3a8d1bd253fefd4c90550c75fe995e30e14810154f6838b4ece1b4b0980a15a"
+      },
+      {
+        "index": 38,
+        "source_path": "images/00038.jpeg",
+        "width": 644,
+        "height": 356,
+        "sha256": "2efc0d350904b0a3810e0dfebfa071c943b03101e093e93db679f21795f3cf9f"
+      },
+      {
+        "index": 39,
+        "source_path": "images/00039.jpeg",
+        "width": 316,
+        "height": 351,
+        "sha256": "bed3f06959c424f4b4cf18c2feb975ce11724cdeb184d885703e9a15b7542c6e"
+      },
+      {
+        "index": 40,
+        "source_path": "images/00040.jpeg",
+        "width": 331,
+        "height": 410,
+        "sha256": "1452974974e2feb697ac275f2ac015ab5f6292065fce3d13f83750c7931f75be"
+      },
+      {
+        "index": 41,
+        "source_path": "images/00041.jpeg",
+        "width": 407,
+        "height": 430,
+        "sha256": "8af18c11bd4f23f0bbb11c4d7a3e43486c1b2671650967fb0bcb4db01459d066"
+      },
+      {
+        "index": 42,
+        "source_path": "images/00042.jpeg",
+        "width": 634,
+        "height": 341,
+        "sha256": "dc2821476596aa6e0bebfe65b5cc717233253bb7e54a51ab4f129a3da4739245"
+      },
+      {
+        "index": 43,
+        "source_path": "images/00043.jpeg",
+        "width": 335,
+        "height": 356,
+        "sha256": "7071d6bea278e1307d618cbc98474d5af7ace4cc60e505e8b1761ea0b5a84ca9"
+      },
+      {
+        "index": 44,
+        "source_path": "images/00044.jpeg",
+        "width": 338,
+        "height": 345,
+        "sha256": "ede02e2572871ea360e4133402d2f91d8c43f7ca717dd419cc866d0943f96dbe"
+      },
+      {
+        "index": 45,
+        "source_path": "images/00045.jpeg",
+        "width": 326,
+        "height": 334,
+        "sha256": "4b3987a6d4d9c748f2458fa25ac42c3d1baa33acdbd901097ce035694fca27a6"
+      },
+      {
+        "index": 46,
+        "source_path": "images/00046.jpeg",
+        "width": 329,
+        "height": 331,
+        "sha256": "92096998c1d85bada327987a135415ee37e84e01835d7377f2c1712209bc442f"
+      },
+      {
+        "index": 47,
+        "source_path": "images/00047.jpeg",
+        "width": 335,
+        "height": 351,
+        "sha256": "c6fbbc9d3f125cb61d97cee28b245171482936cddbfb159404fb52a81d8d62cc"
+      },
+      {
+        "index": 48,
+        "source_path": "images/00048.jpeg",
+        "width": 345,
+        "height": 426,
+        "sha256": "3effd6ba40b1f7d5cf883d14e2666222864b5651056409a1a47f5863fdd1539e"
+      }
+    ],
+    "independent_XML_comparison": "exclude style/script,remove whitespace only"
+  },
+  "confirmed_actual_reading_batches": [
+    {
+      "batch": 1,
+      "ranges": [
+        {
+          "spine_item": 1,
+          "path": "titlepage.xhtml",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "spine_item": 2,
+          "path": "text/part0000.html",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "spine_item": 3,
+          "path": "text/part0001.html",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "spine_item": 4,
+          "path": "text/part0002.html",
+          "start": 0,
+          "end": 588
+        },
+        {
+          "spine_item": 5,
+          "path": "text/part0003.html",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "spine_item": 6,
+          "path": "text/part0004.html",
+          "start": 0,
+          "end": 6423
+        }
+      ],
+      "unique_range_characters": 7115,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 2,
+      "ranges": [
+        {
+          "spine_item": 7,
+          "path": "text/part0005.html",
+          "start": 0,
+          "end": 2940
+        },
+        {
+          "spine_item": 8,
+          "path": "text/part0006.html",
+          "start": 0,
+          "end": 7380
+        },
+        {
+          "spine_item": 9,
+          "path": "text/part0007.html",
+          "start": 0,
+          "end": 48
+        },
+        {
+          "spine_item": 10,
+          "path": "text/part0008.html",
+          "start": 0,
+          "end": 697
+        }
+      ],
+      "unique_range_characters": 11065,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 3,
+      "ranges": [
+        {
+          "spine_item": 11,
+          "path": "text/part0009.html",
+          "start": 0,
+          "end": 4046
+        },
+        {
+          "spine_item": 12,
+          "path": "text/part0010.html",
+          "start": 0,
+          "end": 6660
+        }
+      ],
+      "unique_range_characters": 10706,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 4,
+      "ranges": [
+        {
+          "spine_item": 13,
+          "path": "text/part0011.html",
+          "start": 0,
+          "end": 9000
+        },
+        {
+          "spine_item": 13,
+          "path": "text/part0011.html",
+          "start": 9000,
+          "end": 10545
+        },
+        {
+          "spine_item": 14,
+          "path": "text/part0012.html",
+          "start": 0,
+          "end": 757
+        },
+        {
+          "spine_item": 15,
+          "path": "text/part0013.html",
+          "start": 0,
+          "end": 109
+        }
+      ],
+      "unique_range_characters": 11411,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 5,
+      "ranges": [
+        {
+          "spine_item": 16,
+          "path": "text/part0014.html",
+          "start": 0,
+          "end": 4792
+        }
+      ],
+      "unique_range_characters": 4792,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 6,
+      "ranges": [
+        {
+          "spine_item": 17,
+          "path": "text/part0015.html",
+          "start": 0,
+          "end": 9000
+        }
+      ],
+      "unique_range_characters": 9000,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 7,
+      "ranges": [
+        {
+          "spine_item": 17,
+          "path": "text/part0015.html",
+          "start": 9000,
+          "end": 15234
+        },
+        {
+          "spine_item": 18,
+          "path": "text/part0016.html",
+          "start": 0,
+          "end": 2647
+        }
+      ],
+      "unique_range_characters": 8881,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 8,
+      "ranges": [
+        {
+          "spine_item": 19,
+          "path": "text/part0017.html",
+          "start": 0,
+          "end": 5621
+        },
+        {
+          "spine_item": 20,
+          "path": "text/part0018.html",
+          "start": 0,
+          "end": 625
+        },
+        {
+          "spine_item": 21,
+          "path": "text/part0019.html",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "spine_item": 22,
+          "path": "text/part0020.html",
+          "start": 0,
+          "end": 828
+        },
+        {
+          "spine_item": 23,
+          "path": "text/part0021.html",
+          "start": 0,
+          "end": 3190
+        }
+      ],
+      "unique_range_characters": 10355,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 9,
+      "ranges": [
+        {
+          "spine_item": 24,
+          "path": "text/part0022.html",
+          "start": 0,
+          "end": 7840
+        },
+        {
+          "spine_item": 25,
+          "path": "text/part0023.html",
+          "start": 0,
+          "end": 2739
+        }
+      ],
+      "unique_range_characters": 10579,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 10,
+      "ranges": [
+        {
+          "spine_item": 26,
+          "path": "text/part0024.html",
+          "start": 0,
+          "end": 8376
+        }
+      ],
+      "unique_range_characters": 8376,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 11,
+      "ranges": [
+        {
+          "spine_item": 27,
+          "path": "text/part0025.html",
+          "start": 0,
+          "end": 3836
+        },
+        {
+          "spine_item": 28,
+          "path": "text/part0026.html",
+          "start": 0,
+          "end": 3159
+        },
+        {
+          "spine_item": 29,
+          "path": "text/part0027.html",
+          "start": 0,
+          "end": 943
+        },
+        {
+          "spine_item": 30,
+          "path": "text/part0028.html",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "unique_range_characters": 8024,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 12,
+      "ranges": [
+        {
+          "spine_item": 31,
+          "path": "text/part0029.html",
+          "start": 0,
+          "end": 4277
+        },
+        {
+          "spine_item": 32,
+          "path": "text/part0030.html",
+          "start": 0,
+          "end": 2944
+        },
+        {
+          "spine_item": 33,
+          "path": "text/part0031.html",
+          "start": 0,
+          "end": 2578
+        }
+      ],
+      "unique_range_characters": 9799,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 13,
+      "ranges": [
+        {
+          "spine_item": 34,
+          "path": "text/part0032.html",
+          "start": 0,
+          "end": 9000
+        }
+      ],
+      "unique_range_characters": 9000,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 14,
+      "ranges": [
+        {
+          "spine_item": 34,
+          "path": "text/part0032.html",
+          "start": 9000,
+          "end": 14194
+        },
+        {
+          "spine_item": 35,
+          "path": "text/part0033.html",
+          "start": 0,
+          "end": 788
+        },
+        {
+          "spine_item": 36,
+          "path": "text/part0034.html",
+          "start": 0,
+          "end": 70
+        },
+        {
+          "spine_item": 37,
+          "path": "text/part0035.html",
+          "start": 0,
+          "end": 1057
+        },
+        {
+          "spine_item": 38,
+          "path": "text/part0036.html",
+          "start": 0,
+          "end": 1414
+        },
+        {
+          "spine_item": 39,
+          "path": "text/part0037.html",
+          "start": 0,
+          "end": 1121
+        }
+      ],
+      "unique_range_characters": 9644,
+      "confirmed_read_after_any_display_recovery": true
+    },
+    {
+      "batch": 15,
+      "ranges": [
+        {
+          "spine_item": 40,
+          "path": "text/part0038.html",
+          "start": 0,
+          "end": 3200
+        },
+        {
+          "spine_item": 41,
+          "path": "text/part0039.html",
+          "start": 0,
+          "end": 1506
+        },
+        {
+          "spine_item": 42,
+          "path": "text/part0040.html",
+          "start": 0,
+          "end": 1857
+        },
+        {
+          "spine_item": 43,
+          "path": "text/part0041.html",
+          "start": 0,
+          "end": 644
+        },
+        {
+          "spine_item": 44,
+          "path": "text/part0042.html",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "unique_range_characters": 7209,
+      "confirmed_read_after_any_display_recovery": true
+    }
+  ],
+  "supplemental_reading_after_truncated_display": [
+    {
+      "spine_item": 17,
+      "start": 1802,
+      "end": 2399,
+      "reason": "Combined batch4/5 outer tool display truncated a middle region;this full section was re-read separately before confirmation;overlap not counted as new characters."
+    }
+  ],
+  "visual_reading": {
+    "all49_raster_images_visually_read": true,
+    "image_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "montage_groups": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        19
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        24,
+        27
+      ],
+      [
+        28,
+        31
+      ],
+      [
+        32,
+        35
+      ],
+      [
+        36,
+        39
+      ],
+      [
+        40,
+        43
+      ],
+      [
+        44,
+        47
+      ],
+      [
+        48,
+        48
+      ]
+    ],
+    "additional_individual_original_views": [
+      2,
+      25,
+      26
+    ],
+    "visual_words_not_counted_as_native_or_OCR": true,
+    "raw_images_republished": false
+  },
+  "known_unread_current_content": [],
+  "original_edition_completeness_verified": false,
+  "unprovided_original_or_external_resources_and_verification_limits": [
+    "当前EPUB六章、后记、封面、书名/版权页及末页图标均已读，不据此认证正式原版无删节或出版社宣传效果。",
+    "脑区、演化、遗传、激素、NLP、冷读机制及研究转引未核原始论文；时长、比例、星级、自报千例和预测效果不作实证依据，不新增APA或DOI。",
+    "护理、美白、皮肤酸碱、气味记忆及性健康断言只读来源，未作医疗核验，不从恋爱课程给出产品、用药、疗程或功效建议。",
+    "外部课程、网站、所引完整书籍和视频未另行阅读；不注册、购买、安装、联系讲者或向他人外发。",
+    "只公开原创取舍与固定出处，不重新发布原文长摘、图片、私人对话、姓名、联系方式或匿名私人情节。原书声称获案例授权不自动成为本仓库的转载许可。",
+    "不继承失败全归用户、固定节奏、服从奖惩、制造嫉妒、虚假故事、跟随偶遇、身体测试和将拒绝改译为矜持；日常仍依据当前事实与双方自愿。"
+  ],
+  "original_note_groups": 64,
+  "new_exact_method_section_bindings": 273,
+  "new_method_source_entries": 26,
+  "notes_and_method_section_bindings": [
+    {
+      "id": "01",
+      "spine_items": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "locator": "封面、书名页、版权页、目录；images/00001.jpeg和00002.jpeg",
+      "title": "版本身份与图字分别记录",
+      "summary": "本份EPUB含44个阅读顺序项，封面及书名页署巫家民，版权页载2017年2月第1版等出版信息。本轮仅确认文件内实存信息，不据宣传副标题认证效果。图像页正文提取只有占位标题，不等于没有内容；单独读图，并以spine路径和图片名定位。",
+      "methods": [],
+      "heading": "B118-01 版本身份与图字分别记录",
+      "query": "B118-01",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "02",
+      "spine_items": [
+        5,
+        6
+      ],
+      "locator": "CHAPTER01、准备好发动引擎了吗、自救和做个野兽绅士",
+      "title": "扩大认识与练习表达，不承诺控制他人感情",
+      "summary": "可练习主动结识、自我表达和与人相处，而非只等缘分。作者的自述与大师课程故事不是效果研究，不能推成掌握定律便必然获得某个人。谁值得被爱也不由约会表现决定；不把一次受挫解释为整个人有问题，不将他人隐私叙事重发到公开库。",
+      "methods": [
+        "M04",
+        "M08",
+        "M10",
+        "M25"
+      ],
+      "heading": "B118-02 扩大认识与练习表达，不承诺控制他人感情",
+      "query": "B118-02",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "03",
+      "spine_items": [
+        7
+      ],
+      "locator": "不要寻找最权威的方法、欢迎不舒适感、需要承诺和投入",
+      "title": "练习由可承受的小行动开始",
+      "summary": "在方便且自愿的社交场合，练一次真实开场或分享，不将课程清单当成长义务。可以尝试喜欢的活动，不必付费或压缩学业工作来证明决心；不舒适可能来自陌生，也可能来自场合不妥或明确边界，应先辨别，不把不舒服一概称为成长。",
+      "methods": [
+        "M10",
+        "M22",
+        "M25"
+      ],
+      "heading": "B118-03 练习由可承受的小行动开始",
+      "query": "B118-03",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "04",
+      "spine_items": [
+        7
+      ],
+      "locator": "当你变得更好时世界会阻拦你、拥抱新思维也接受风险",
+      "title": "他人意见和关系受挫都按具体证据判断",
+      "summary": "批评可能有误，也可能指出真实风险；先核原话与发生的事，不预设世界都在阻拦、不把未成功归于自我排斥。双方可以拒绝，不由一次拒绝给谁贴物质、失败者或人格标签；只对已核的具体过失作修复。",
+      "methods": [
+        "M01",
+        "M08",
+        "M20",
+        "M21",
+        "M22"
+      ],
+      "heading": "B118-04 他人意见和关系受挫都按具体证据判断",
+      "query": "B118-04",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "05",
+      "spine_items": [
+        8
+      ],
+      "locator": "吸引、可得性、吸引力开关",
+      "title": "表达真实兴趣，同时了解双方是否合适",
+      "summary": "书中用吸引和可得性解释关系。可用的是既分享真实特质，也让对方知道自己愿意了解，不将热情一概视为低价值。需求与偏好可从原话、实际安排和交流确认，不凭直觉填补；不能把条件或第一印象当统一分数，也不能保证任何人必被吸引。",
+      "methods": [
+        "M04",
+        "M08",
+        "M09",
+        "M14",
+        "M22"
+      ],
+      "heading": "B118-05 表达真实兴趣，同时了解双方是否合适",
+      "query": "B118-05",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "06",
+      "spine_items": [
+        8
+      ],
+      "locator": "投入度、投入与自我说服、真命天女症",
+      "title": "看双方自愿投入，不制造沉没成本",
+      "summary": "关注双方是否主动了解、分享并兑现活动，而非只数自己发了多少。感动、花钱、牵手或付出不构成交往义务；不能借悲伤、失望、嫉妒让她难以退出，也不由付出推定喜欢。持续单边且无待办可收住，不给迷恋冠以疾病诊断。",
+      "methods": [
+        "M08",
+        "M18",
+        "M19",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-06 看双方自愿投入，不制造沉没成本",
+      "query": "B118-06",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "07",
+      "spine_items": [
+        8,
+        9,
+        10
+      ],
+      "locator": "图1-1、图1-2、步步为营、第一次见面",
+      "title": "阶段图和第一印象比例只作来源记录",
+      "summary": "图1-1是三因素概念图，图1-2展示认识、联系、互动、约会与升级的循环，是作者整理框架而非必经路径。千例、25000人、80%失败归第一印象等数字没有在本轮核原始数据；不拿它们诊断当前对象，不把一次开场或外形当永远无机会。",
+      "methods": [],
+      "heading": "B118-07 阶段图和第一印象比例只作来源记录",
+      "query": "B118-07",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "08",
+      "spine_items": [
+        11
+      ],
+      "locator": "生活价值、社交认证、学校酒吧餐厅",
+      "title": "真实生活与熟悉场景可以展示，不搭建假身份",
+      "summary": "分享自己确实参与的兴趣、朋友活动与工作学习，让相识的人了解实际生活；尊重工作人员，正常使用已熟悉的场所。不能雇人演朋友、编贵宾身份或借他人性别外貌为自己背书；也不因独处、没女性朋友或学历职业给人定低价值。",
+      "methods": [
+        "M04",
+        "M10",
+        "M14",
+        "M25"
+      ],
+      "heading": "B118-08 真实生活与熟悉场景可以展示，不搭建假身份",
+      "query": "B118-08",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "09",
+      "spine_items": [
+        12
+      ],
+      "locator": "着装基础建议、衣着合身、发型、搭配、配饰；图2-3至2-11",
+      "title": "形象细节按本人风格与场合呈现",
+      "summary": "原书的衣着和配饰建议可作观察生活细节的素材：如她提到某件衣服或兴趣饰品，真实回应由来即可。合身、舒服和本人喜好可以并存，不要求重买衣柜、穿西装或用贵表证明地位，不以特定发型和装扮判断人格、基因或所有女生的喜好。",
+      "methods": [
+        "M03",
+        "M04",
+        "M10",
+        "M25"
+      ],
+      "heading": "B118-09 形象细节按本人风格与场合呈现",
+      "query": "B118-09",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "10",
+      "spine_items": [
+        11,
+        12
+      ],
+      "locator": "进化择偶解释、基础面部护肤三步、唇齿护理、口臭与体味",
+      "title": "护理与繁殖断言另记范围，不从恋爱书生成医疗建议",
+      "summary": "有关生存繁衍、气味记忆、皮肤酸碱、洗牙美白和护理功效的断言，本轮只读原书未核原始研究。图示和经验叙述不作医学证据，不推荐具体产品、疗程或频率，也不将身体特征、口气和皮肤问题贬为不礼貌或整个人不配。",
+      "methods": [],
+      "heading": "B118-10 护理与繁殖断言另记范围，不从恋爱书生成医疗建议",
+      "query": "B118-10",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "11",
+      "spine_items": [
+        13
+      ],
+      "locator": "人类天生用肢体语言潜沟通、一些正面和负面的肢体语言",
+      "title": "动作补充语境，不当读心或兴趣证明",
+      "summary": "可以留意她是否愿意接近、是否明显不自在，并给舒服的交流空间。单一眼神、瞳孔、抱臂或身体前倾不能判定喜欢、撒谎或性格；语言内容和明确拒绝仍有效。7/38/55及动物类比只作未核来源，不迁移为微信交流比例。",
+      "methods": [
+        "M01",
+        "M08",
+        "M23"
+      ],
+      "heading": "B118-11 动作补充语境，不当读心或兴趣证明",
+      "query": "B118-11",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "12",
+      "spine_items": [
+        13,
+        14
+      ],
+      "locator": "笑容、自信、核心价值观、阴阳心态",
+      "title": "自然友善和真实边界可以同时表达",
+      "summary": "愿意交流时可以微笑、说清自己的感受与偏好，也可承认紧张或不想聊天。无需永远快乐或刻意笑出一种身份；不同意见有证据就回应，有过失才修复，不为表现稳定对所有误会先道歉，也不把侮辱都默默承受。",
+      "methods": [
+        "M04",
+        "M20",
+        "M21",
+        "M22",
+        "M25"
+      ],
+      "heading": "B118-12 自然友善和真实边界可以同时表达",
+      "query": "B118-12",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "13",
+      "spine_items": [
+        13
+      ],
+      "locator": "向外关注、适应陌生情境下的焦虑",
+      "title": "关注眼前的一项具体信息，不给紧张下诊断",
+      "summary": "先看场合是否方便、对方在做什么，再以一件确实看见的事接话；不需同时监控所有动作与内心。紧张的原因要看情境，不自动归成用户自卑；原书关于抑郁、注意和焦虑的解释未经本轮临床研究核验，不用气场框架诊断任何人。",
+      "methods": [
+        "M01",
+        "M03",
+        "M08",
+        "M25"
+      ],
+      "heading": "B118-13 关注眼前的一项具体信息，不给紧张下诊断",
+      "query": "B118-13",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "14",
+      "spine_items": [
+        14,
+        15
+      ],
+      "locator": "第一印象吸引力开关、第三章引语",
+      "title": "外形清单不能推成人格与自律评分",
+      "summary": "身材、穿着和情绪表现不足以评定自律、能力或值得被爱；装扮可按场合、预算与本人选择，不把舒适保暖视为借口。章节标题和文学引语只是原书表达，不授权抓人、强推或替别人决定亲密节奏。",
+      "methods": [],
+      "heading": "B118-14 外形清单不能推成人格与自律评分",
+      "query": "B118-14",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "15",
+      "spine_items": [
+        16
+      ],
+      "locator": "数量、偏爱、交集、同城活动兴趣班、建立自己的社交圈",
+      "title": "从愿意参与的共同活动增加认识机会",
+      "summary": "原书提示除聊天句式，也要看真实接触机会与共同生活交集。可选择本来愿意参加且方便社交的活动，通过实际共同内容认识人；不需要维持五个潜在对象或把收号当目标。不默认商场、校园或兴趣班的人单身且愿聊，也不为所谓资源要求用户高消费。",
+      "methods": [
+        "M03",
+        "M05",
+        "M10",
+        "M25"
+      ],
+      "heading": "B118-15 从愿意参与的共同活动增加认识机会",
+      "query": "B118-15",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "16",
+      "spine_items": [
+        16
+      ],
+      "locator": "相亲网站、社交软件、不要纠结一两次得失",
+      "title": "资料真实，认识与排他承诺分开",
+      "summary": "照片和简介写本人真实情况，聊得不错再商量语音或具体见面，不为快速见面绕过对方意愿。初识双方都可选择继续了解，不等于已有恋爱或排他承诺；已有约定则遵守。拒绝原因没有证据就未知，不能全盘否定用户，也不将明确拒绝改称黄灯。",
+      "methods": [
+        "M04",
+        "M08",
+        "M14",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-16 资料真实，认识与排他承诺分开",
+      "query": "B118-16",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "17",
+      "spine_items": [
+        16,
+        17
+      ],
+      "locator": "酒吧、负重练习、认识女性前的注意事项",
+      "title": "场合与清醒意愿先于练习指标",
+      "summary": "是否适合打招呼先看当下任务、环境和对方是否方便。可以有普通社交，不将任何场所中的人贴道德标签，也不靠酒精降低防备、跟随或堵路来增加机会。不喜欢嘈杂夜生活可选其他适合自己的活动，不能以必须负重训练强推消费或喝酒。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-17 场合与清醒意愿先于练习指标",
+      "query": "B118-17",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "18",
+      "spine_items": [
+        17
+      ],
+      "locator": "三秒法则及例外、留意搭讪邀请、三段式搭讪",
+      "title": "简短开场无需等完美，也不被三秒倒计时催促",
+      "summary": "场合合适时可用一句真实观察或坦率介绍发起交流；忙着办事、赶路或明确不愿时放过。三秒和成功率星级是课程约定，不是验证过的标准；站近、看你、整理头发都不是必然邀请。紧张不证明不够男性或失去机会。",
+      "methods": [
+        "M08",
+        "M23",
+        "M25",
+        "M26"
+      ],
+      "heading": "B118-18 简短开场无需等完美，也不被三秒倒计时催促",
+      "query": "B118-18",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "19",
+      "spine_items": [
+        17
+      ],
+      "locator": "真诚赞美、情境切入、微博微信分手、谢谢你、直接开场白",
+      "title": "开场来自真实细节，不编朋友分手或似曾相识",
+      "summary": "具体欣赏可以说自己实际喜欢的一点，现场话题用真的看见和真的感受；不熟悉的服饰无需装专家。不能编求助故事、假装见过或用贬低陌生人制造共同敌意。轻量夸张须有事实和接梗基础，初识没有基础时直接自然表达即可。",
+      "methods": [
+        "M03",
+        "M04",
+        "M06",
+        "M09",
+        "M25",
+        "M26"
+      ],
+      "heading": "B118-19 开场来自真实细节，不编朋友分手或似曾相识",
+      "query": "B118-19",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "20",
+      "spine_items": [
+        17
+      ],
+      "locator": "多人组合开场白、情境沟通与交流基本信息",
+      "title": "尊重整个小组，也听本人是否愿意",
+      "summary": "面对小组可先礼貌招呼，选择不会打断活动的时机，说明真实来意并给本人回应空间。朋友同意不代替她本人同意，不让朋友劝她、不强行分开伙伴。问座位是否有人不等于已获坐到她身边的许可；基本情况按双方自愿交流，不连续查户口。",
+      "methods": [
+        "M03",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-20 尊重整个小组，也听本人是否愿意",
+      "query": "B118-20",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "21",
+      "spine_items": [
+        17
+      ],
+      "locator": "交流基本信息、交换联系方式、发散式对话、三分钟教学对话",
+      "title": "回应具体内容，再露出一点真实自己",
+      "summary": "接住她已透露的活动、喜好或近况，适量分享自己的相关情况，让信息来自双方。基本介绍可以自然进行，不需以猜年龄、星座、独生或家排行包装采访。一个话题尚有双向内容就继续，不按发散要求强塞多个新话题，也不由她一字回答判冷淡。",
+      "methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M18",
+        "M26"
+      ],
+      "heading": "B118-21 回应具体内容，再露出一点真实自己",
+      "query": "B118-21",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "22",
+      "spine_items": [
+        17
+      ],
+      "locator": "交换联系方式、即时约会",
+      "title": "联系方式与临时活动都要给本人选择空间",
+      "summary": "聊得来可坦率提出互留联系方式，或双方都有空时商量一次具体活动；表达我或我们并不能自动代表共识。愿聊天不等于愿被触摸、闻气味或跟随转场，不把触摸配合作为门票。已答应再落实地点时间，被拒便停止相应方向。",
+      "methods": [
+        "M14",
+        "M15",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-22 联系方式与临时活动都要给本人选择空间",
+      "query": "B118-22",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "23",
+      "spine_items": [
+        17
+      ],
+      "locator": "切入角度、预留私人空间、情绪状态、时间限制；图3-3至3-5",
+      "title": "站位与时长为了让交流舒服，不为控制行进",
+      "summary": "从可见且不挡路的位置说话，音量让人听清并照顾现场环境，对方继续走就不跟随反复叫停。45度、距离环和半级情绪是书中教学模型，不作普适标准；赶时间或朋友在等须真实，不伪装退场来卸防备，也不以吵闹或拥挤自动获得靠近权限。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-23 站位与时长为了让交流舒服，不为控制行进",
+      "query": "B118-23",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "24",
+      "spine_items": [
+        18
+      ],
+      "locator": "交集—撤出—再遇；图3-6",
+      "title": "自然再遇可以回扣，不能设计跟踪偶遇",
+      "summary": "同一正常活动中真正再遇，可回扣刚才的话题或礼貌问候；短交流结束不必立即索要更多。不能暗中跟随、观察行踪、等她落单或把不愿交谈当欲迎还拒；举手帮忙没有回报要求，欣赏无需附带肤色或外形贬低。",
+      "methods": [
+        "M05",
+        "M09",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-24 自然再遇可以回扣，不能设计跟踪偶遇",
+      "query": "B118-24",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "25",
+      "spine_items": [
+        19
+      ],
+      "locator": "公开的自我介绍、相亲活动中的有效开场白",
+      "title": "自我介绍用真实的一件事，让对方容易接",
+      "summary": "说清自己做什么，再挑一个真正感兴趣的生活细节或具体工作片段，给对方能承接的内容；无需把履历全报完，也不必贬低职业标签。冷场或紧张不证明没有闪光点、不值得被爱，不能编成就或以嘲笑其他参与者来出彩。",
+      "methods": [
+        "M04",
+        "M10",
+        "M25",
+        "M26"
+      ],
+      "heading": "B118-25 自我介绍用真实的一件事，让对方容易接",
+      "query": "B118-25",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "26",
+      "spine_items": [
+        19,
+        20
+      ],
+      "locator": "相亲目的、合理理由、锁定目标、认识阶段开关",
+      "title": "相亲目的坦率表达，参加活动不等于同意每个人",
+      "summary": "可以说自己希望认识合适对象，认真恋爱或婚姻期待本身没有问题；不编陪朋友、不假装享受单身来降低所谓可得性。遵守活动流程并照顾本人愿意程度，不以付费参加推定必须聊天或接电话。昵称需双方接得舒服，不以承诺锁住后续回应。",
+      "methods": [
+        "M04",
+        "M14",
+        "M22",
+        "M23",
+        "M25"
+      ],
+      "heading": "B118-26 相亲目的坦率表达，参加活动不等于同意每个人",
+      "query": "B118-26",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "27",
+      "spine_items": [
+        21,
+        22,
+        23
+      ],
+      "locator": "兴趣指标、无兴趣指标、假性IOI、怎样解读",
+      "title": "兴趣主要看连续主动与实际投入，不能靠信号计数",
+      "summary": "可看是否主动展开、了解彼此、分享、接受具体活动和兑现安排；单次笑、看手机、抱臂、理发或舔唇有多种解释，不能独立判喜欢、冷漠或欺骗。三到五个IOI不授权身体接触，也不用拎包等服从测试分真假。有人不愿参与某事，不等于先前友好是假。",
+      "methods": [
+        "M01",
+        "M08",
+        "M18",
+        "M19",
+        "M23"
+      ],
+      "heading": "B118-27 兴趣主要看连续主动与实际投入，不能靠信号计数",
+      "query": "B118-27",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "28",
+      "spine_items": [
+        23
+      ],
+      "locator": "直接问喜不喜欢与解读兴趣",
+      "title": "了解意愿无需逼承诺，也不永久回避关系沟通",
+      "summary": "刚认识时不要求对方立即给感情结论，可以用一次具体邀请了解愿不愿继续接触。交往一段后，认真问关系期待和澄清意愿可以坦率进行；不能靠所谓潜台词替她回答，也不能把一个正常问题说成找死或破坏全部吸引。",
+      "methods": [
+        "M08",
+        "M14",
+        "M20",
+        "M22",
+        "M24"
+      ],
+      "heading": "B118-28 了解意愿无需逼承诺，也不永久回避关系沟通",
+      "query": "B118-28",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "29",
+      "spine_items": [
+        24
+      ],
+      "locator": "好奇但无需求、回避、不耐烦、不投入",
+      "title": "可以有兴趣，也不强求本轮结果",
+      "summary": "正常回应、表达兴趣和邀请不自动显得低价值；对方持续不展开且无待办时停止加码，保留自己的安排。不需假装无所谓、展示其他异性或冷落来重新吸引；也不把失约造成的实际影响一概说成不值一提。未知动机与已见行为分开。",
+      "methods": [
+        "M02",
+        "M08",
+        "M17",
+        "M19",
+        "M22"
+      ],
+      "heading": "B118-29 可以有兴趣，也不强求本轮结果",
+      "query": "B118-29",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "30",
+      "spine_items": [
+        24
+      ],
+      "locator": "抵抗、破坏舒适感、忽略",
+      "title": "不愿就是相应范围的边界，不查证后才尊重",
+      "summary": "她说有伴侣、不愿给信息、不想玩或不想继续，按本人表达停止该方向，不假设是自动拒绝或编造男友。对方若明显侮辱可简短设边界或结束，不需要隐忍换机会；不能借熟人旁敲侧击、施压或逼她证明。",
+      "methods": [
+        "M01",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-30 不愿就是相应范围的边界，不查证后才尊重",
+      "query": "B118-30",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "31",
+      "spine_items": [
+        24
+      ],
+      "locator": "自我排除、提前松手、减少回应、撤出提供价值",
+      "title": "正常接受赞美，不把关注变成奖惩",
+      "summary": "收到夸奖可以自然接住，认真交流时照常关注；不以她继续找理由赞你测试真假。身体犹豫或退缩便停止接触，不将松手设计成让她追认同的奖惩。想休息或有事可如实收尾，不假装忙碌、走神或编客户会议操纵回应。",
+      "methods": [
+        "M02",
+        "M04",
+        "M08",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-31 正常接受赞美，不把关注变成奖惩",
+      "query": "B118-31",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "32",
+      "spine_items": [
+        24
+      ],
+      "locator": "合理否定、利用推拉、动物问题教学游戏",
+      "title": "共同玩笑可以轻量回敬，不混入价值否定",
+      "summary": "对方明确接梗的轻松情境中，可围绕同一事实做一点夸张或相近强度回敬，接完回到话题。无需夸后必损、暗示不要她或设计失落来保持张力；不同意见说具体事，不拿年龄外貌肤色、家庭宗教与自尊开刀。玩笑不是摸鼻子等接触许可。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M07",
+        "M22",
+        "M23",
+        "M26"
+      ],
+      "heading": "B118-32 共同玩笑可以轻量回敬，不混入价值否定",
+      "query": "B118-32",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "33",
+      "spine_items": [
+        25
+      ],
+      "locator": "冷读注意事项、前五分钟冷读、渐进式冷读",
+      "title": "观察要有当下依据，并真正接受纠正",
+      "summary": "可从她刚说的具体事提一个有限感受，用听起来或我感觉表明可修正，并让她决定要不要展开。不能用通用双面句断定童年、家庭排行、缺乏安全感或并不快乐；即使加我感觉也不消除编造。她更正后采用新信息，不争辩其内心其实如此，不把冷读当诊断和套隐私的工具。",
+      "methods": [
+        "M01",
+        "M08",
+        "M11",
+        "M20"
+      ],
+      "heading": "B118-33 观察要有当下依据，并真正接受纠正",
+      "query": "B118-33",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "34",
+      "spine_items": [
+        26
+      ],
+      "locator": "DHV与DLV、基于价值展示的架构；图4-1",
+      "title": "让真实长处可见，不把回应和求助判成低价值",
+      "summary": "从实际兴趣、工作片段和生活经验中分享一件贴题内容，让双方有机会了解。正常赞美、认真回答、求意见或适时解释，不应一概列为低价值；一轮互动没收到期待回应，也不能由课中技巧有效论自动归责表达方式。价值分数与架构图不是当前人的测量。",
+      "methods": [
+        "M04",
+        "M08",
+        "M10",
+        "M13",
+        "M20",
+        "M26"
+      ],
+      "heading": "B118-34 让真实长处可见，不把回应和求助判成低价值",
+      "query": "B118-34",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "35",
+      "spine_items": [
+        26
+      ],
+      "locator": "预选与妒忌情结",
+      "title": "正常社交不用于制造吃醋或争夺",
+      "summary": "可以有自己的朋友与生活，也可以如实介绍真实社交关系；不借其他女性背书，不夸大追求者、不摆拍暧昧或故意让她不安。吃醋和愤怒有多种原因，不证明喜欢；关系期待可直接沟通，并尊重已有约定。",
+      "methods": [
+        "M08",
+        "M10",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-35 正常社交不用于制造吃醋或争夺",
+      "query": "B118-35",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "36",
+      "spine_items": [
+        26
+      ],
+      "locator": "好奇开场白、编写自己的故事、超限与反转",
+      "title": "真实小故事有具体细节，短说并留回应空间",
+      "summary": "可准备一件确实发生、自己愿分享的小事，说清发生了什么及自己的感受；她有兴趣再展开。笑点可以是双方明知的夸张，不把别人的段子当自身经历，不伪造事故或惊天秘密骗回复，不用删除责任与真实感受来塑造完美人设。也不将前任、同伴或他人的隐私当谈资。",
+      "methods": [
+        "M03",
+        "M04",
+        "M06",
+        "M10",
+        "M26"
+      ],
+      "heading": "B118-36 真实小故事有具体细节，短说并留回应空间",
+      "query": "B118-36",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "37",
+      "spine_items": [
+        26
+      ],
+      "locator": "自我价值、框架、状态、技巧、书末所附教学故事",
+      "title": "课程框架与个人经历不构成科学模型",
+      "summary": "本节四层架构、分值变化、预选第一开关及讲者自报反馈均未核原始研究，不能保证某技巧对所有人有效。原文教学叙事已读，公开库只留取舍，不转发姓名、对话或匿名私人情节，也不把书中别人的经历写成用户经历。",
+      "methods": [],
+      "heading": "B118-37 课程框架与个人经历不构成科学模型",
+      "query": "B118-37",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "38",
+      "spine_items": [
+        27
+      ],
+      "locator": "默契表现、回答问题、积极提供话题、默契与抗拒；图4-2",
+      "title": "默契看双方共同参与，不设置服从关卡",
+      "summary": "留意双方是否听取、回应、分享与协商安排，可以直接回应她的真实参与。帮忙、看包、游戏和聊天不等于愿进一步亲密；不配合一件事也不证明她不喜欢或用户第一印象差。各方向的意愿分别确认，不用7比3奖励或接触测试判断关系。",
+      "methods": [
+        "M03",
+        "M08",
+        "M13",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-38 默契看双方共同参与，不设置服从关卡",
+      "query": "B118-38",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "39",
+      "spine_items": [
+        27,
+        29
+      ],
+      "locator": "递进式筛选、善于聆听、愿意表达",
+      "title": "从真实话题了解合适之处，再具体欣赏",
+      "summary": "双方聊到爱好、生活偏好或重要安排时，可回应自己重视的点；她主动展开便认真听，愿意时分享自己的相关信息，真觉得开心就一起高兴。欣赏是自己的真实感受，不是她过关才给的奖赏；不能从养宠物推断适合当母亲，不用审查问题让她证明配得上。",
+      "methods": [
+        "M03",
+        "M04",
+        "M09",
+        "M12",
+        "M22"
+      ],
+      "heading": "B118-39 从真实话题了解合适之处，再具体欣赏",
+      "query": "B118-39",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "40",
+      "spine_items": [
+        28
+      ],
+      "locator": "提问挑剔认同指令四类、三不原则、接受夸大忽略扭曲反弹",
+      "title": "先辨普通问题与玩笑，不先定为废物测试",
+      "summary": "认真问年龄、安排或具体求助时按内容回答；隐私不想答可说明范围。双方明确在开玩笑时，可以同强度夸张或回敬，不把正常年龄问题强行性化，不借反弹回避必要问题。确有不尊重可表达边界，没证据不认定她通过刁难测试男人价值。",
+      "methods": [
+        "M04",
+        "M06",
+        "M13",
+        "M20",
+        "M22",
+        "M26"
+      ],
+      "heading": "B118-40 先辨普通问题与玩笑，不先定为废物测试",
+      "query": "B118-40",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "41",
+      "spine_items": [
+        28,
+        29,
+        30
+      ],
+      "locator": "好的框架、设定有利框架、互动阶段开关",
+      "title": "自信不等于预设她喜欢你或价值低于你",
+      "summary": "可以有自己的标准和选择，也需要按实际交流更新判断；不能把她更需要你、缺乏安全感或莫名生气是喜欢设为潜在事实。上进、善良和稳定不作优秀基因证明；原书框架、遗传解释与文学引语只记来源，不成为新的心理模型或当前对象事实。",
+      "methods": [],
+      "heading": "B118-41 自信不等于预设她喜欢你或价值低于你",
+      "query": "B118-41",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "42",
+      "spine_items": [
+        31
+      ],
+      "locator": "什么时候联系、见好就收、注意间隔时间",
+      "title": "联系和收尾按真实安排，不固定拖十分钟",
+      "summary": "初识后可回扣已有经历自然联系，当前是否待回要先核最后已发方向。忙或要休息就如实说，双方已经收尾可以不用再回；不能为制造期待故意消失，不设每条十分钟或隔两天重启的定时规则，也不把快回视为低价值。",
+      "methods": [
+        "M01",
+        "M02",
+        "M05",
+        "M19",
+        "M26"
+      ],
+      "heading": "B118-42 联系和收尾按真实安排，不固定拖十分钟",
+      "query": "B118-42",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "43",
+      "spine_items": [
+        31
+      ],
+      "locator": "短信息八法则、只聊之间的事情、表情与幼儿园式对话",
+      "title": "共同话题优先，正常问题与生活内容照常聊",
+      "summary": "有共同经历或已接住的玩笑就回扣，没有则承接她刚说的一项真实信息；可带一点自己的感受。问题可以正常问，避免连续采访；工作和日常不是禁区。表情不抵消辱骂，不按外向内向标签强塞离婚、怀孕或亲密角色，未见面也不抹去真实了解。",
+      "methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M26"
+      ],
+      "heading": "B118-43 共同话题优先，正常问题与生活内容照常聊",
+      "query": "B118-43",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "44",
+      "spine_items": [
+        31
+      ],
+      "locator": "头像资料、相册展示；图5-1至5-10",
+      "title": "展示本人真实生活，不伪造魅力素材",
+      "summary": "清楚的本人照片和真实兴趣、学习工作、运动或朋友活动可给对方了解的切入点；无需照十张清单摆满，不借他人经历、夸大地点或把脸修到不像本人。合照与居所先顾及隐私和他人许可，不用他人、小孩或女性朋友作基因与预选证明。书中平台显示数量是历史说法，本轮不当当前功能事实。",
+      "methods": [
+        "M04",
+        "M10",
+        "M22",
+        "M25"
+      ],
+      "heading": "B118-44 展示本人真实生活，不伪造魅力素材",
+      "query": "B118-44",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "45",
+      "spine_items": [
+        32
+      ],
+      "locator": "第一通电话、用交流过的事铺垫",
+      "title": "语音通话先看方便，内容仍回扣共同信息",
+      "summary": "双方愿意且方便时可以转语音，先说清目的，聊一件已知共同事或近期真实小事；听清、自然回应即可，不必演深沉声线。首次电话必须先闲聊、再等一两天邀约不是必要关卡，文字中已有双向了解也可直接商量见面。",
+      "methods": [
+        "M03",
+        "M04",
+        "M05",
+        "M14",
+        "M22"
+      ],
+      "heading": "B118-45 语音通话先看方便，内容仍回扣共同信息",
+      "query": "B118-45",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "46",
+      "spine_items": [
+        32
+      ],
+      "locator": "不回信息不接电话、最后一次联系",
+      "title": "未回就保留未知，不绕过屏蔽或追发劝说",
+      "summary": "先核是否仍待她回复及有无必要事务，不用重复发送、换号码、连续电话或最后机会式长文推进。长期无回应收住，不为她编住院、手机丢失等原因，也不自动责为用户表现差；一次未接还不能诊断，后续有真实新内容再按当前轮判断。",
+      "methods": [
+        "M01",
+        "M02",
+        "M17",
+        "M19",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-46 未回就保留未知，不绕过屏蔽或追发劝说",
+      "query": "B118-46",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "47",
+      "spine_items": [
+        33
+      ],
+      "locator": "邀约成本、电话邀约、逆向邀约",
+      "title": "邀约给一个可行日期和双方愿意的活动",
+      "summary": "根据已知兴趣与真实空闲，提出一次具体、距离时长合适的活动，让她可以接受或拒绝；有替代时间就承接。无需把多个邀约连续堆给她选择，不编全城传闻或以聊很久证明她喜欢。费用按双方愿意商量，谁请客不代表权力，也不以付款换亲密。",
+      "methods": [
+        "M14",
+        "M16",
+        "M17",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-47 邀约给一个可行日期和双方愿意的活动",
+      "query": "B118-47",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "48",
+      "spine_items": [
+        33
+      ],
+      "locator": "确定安排、见面前联系、放鸽子",
+      "title": "确认与改期跟随最新安排，不报复失约",
+      "summary": "答应后落实时间地点，必要时简短确认；她已表示会再通知就留给她。取消或改期以新信息为准，主动替代时间是实际线索，没有方案就收住，不恢复旧约定。失约的实际成本可以说明，不自动归用户没吸引力，也不能故意放鸽子吊胃口。",
+      "methods": [
+        "M15",
+        "M16",
+        "M17",
+        "M21",
+        "M22",
+        "M24"
+      ],
+      "heading": "B118-48 确认与改期跟随最新安排，不报复失约",
+      "query": "B118-48",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "49",
+      "spine_items": [
+        34
+      ],
+      "locator": "前半小时、三个十分钟、设计约会",
+      "title": "约会是互相了解，不受三十分钟升级期限约束",
+      "summary": "见面可回扣此前交流、分享真实感受并了解是否适合继续。没有身体接触、没有转场或一次气氛平淡，不自动等于失败与永远只能朋友；答应赴约也不证明已完全信任或同意亲密。不能为赶十分钟阶段制造情绪、推动接触或给用户定责。",
+      "methods": [
+        "M08",
+        "M14",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-49 约会是互相了解，不受三十分钟升级期限约束",
+      "query": "B118-49",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "50",
+      "spine_items": [
+        34
+      ],
+      "locator": "约会环境、最终目的地导向、转场",
+      "title": "活动方便交流，后续转场逐项商量",
+      "summary": "选双方愿意、距离预算与时间可行的场所，安排以舒服交流为目的。可以一起决定是否再去附近做一件事，也可以到此结束；不规定电影火锅必然失败，更不暗中把到家或独处设成必须达成的终点。转场不能作为制造熟悉错觉或隔离同伴的技术。",
+      "methods": [
+        "M14",
+        "M15",
+        "M16",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-50 活动方便交流，后续转场逐项商量",
+      "query": "B118-50",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "51",
+      "spine_items": [
+        34
+      ],
+      "locator": "选择座位；图5-11至5-13",
+      "title": "座位以双方舒服为准，不靠布置逼近",
+      "summary": "面对面、并排或斜坐都可以商量，关键是听得清、自在和保有选择。不能通过取消扶手靠背、缩小桌子等设计迫使她前倾靠近，不把坐姿或距离当默许触碰，也不将不愿挨近解释成不投入。",
+      "methods": [
+        "M14",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-51 座位以双方舒服为准，不靠布置逼近",
+      "query": "B118-51",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "52",
+      "spine_items": [
+        34
+      ],
+      "locator": "确认默契、角色扮演、共谋",
+      "title": "共同角色与旧梗只在双方明确接住时延伸",
+      "summary": "已有双方接住的轻松角色或共同笑点，可以小幅回扣，不必每次都新创。认真职业问题先答，不用绑架等惊吓故事来展示框架；角色和玩笑不是真实关系承诺，也不授权牵手、带回家或继续对方不愿的方向。没有接梗就回正常内容。",
+      "methods": [
+        "M03",
+        "M05",
+        "M06",
+        "M07",
+        "M23",
+        "M26"
+      ],
+      "heading": "B118-52 共同角色与旧梗只在双方明确接住时延伸",
+      "query": "B118-52",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "53",
+      "spine_items": [
+        34
+      ],
+      "locator": "引用自豪经历、口头词、寻找共性",
+      "title": "回扣她已分享的具体点，避免拿尴尬和隐私做梗",
+      "summary": "认真听她说过的事，之后在贴题处回扣一个双方都知道的细节，或欣赏她确实表现出的努力与能力。不要机械复读口头禅，不给路人编负面故事制造共谋，不凭共同点宣称天生默契；不熟悉的专业和兴趣可以坦率不了解，不编专业知识。",
+      "methods": [
+        "M03",
+        "M05",
+        "M08",
+        "M09",
+        "M26"
+      ],
+      "heading": "B118-53 回扣她已分享的具体点，避免拿尴尬和隐私做梗",
+      "query": "B118-53",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "54",
+      "spine_items": [
+        34
+      ],
+      "locator": "表达同感、让她了解你、展示敏感面",
+      "title": "同感与自我披露保持真实、适量和自愿",
+      "summary": "从她实际讲的困难或开心处回应，语气留可纠正余地；可以分享一点自己的真实感受与相关经历，不每轮继续发问。隐私由本人决定深度，不为制造一小时熟透的感觉套秘密，也不要求用户所有困难都已经解决后才有资格表达。",
+      "methods": [
+        "M04",
+        "M08",
+        "M10",
+        "M11",
+        "M12",
+        "M22"
+      ],
+      "heading": "B118-54 同感与自我披露保持真实、适量和自愿",
+      "query": "B118-54",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "55",
+      "spine_items": [
+        34
+      ],
+      "locator": "当心别当情感垃圾桶",
+      "title": "可以接住困扰，也可以说明自己的精力边界",
+      "summary": "她倾诉不自动等于只把你当朋友、你太有求必应或她在测试。先看她需要倾听还是具体帮助，能做的据实回应；负担过大可温和说明此刻精力和范围，不以先成为女友作为关心交换，不借咨询费或身体依靠强行调情。",
+      "methods": [
+        "M08",
+        "M11",
+        "M13",
+        "M22"
+      ],
+      "heading": "B118-55 可以接住困扰，也可以说明自己的精力边界",
+      "query": "B118-55",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "56",
+      "spine_items": [
+        34,
+        35
+      ],
+      "locator": "合理表白、正直、赞美、袒露心扉",
+      "title": "表达好感与确认关系都可以坦率进行",
+      "summary": "根据已有了解说出自己具体欣赏的一点，或在双向交往后明确谈期待；不要求一句话立刻换恋人承诺。被拒按范围停止，不忽略回应重启测试。身体动作不能替代双方对恋爱、排他或责任的明确沟通，有具体过失就承认修复。",
+      "methods": [
+        "M09",
+        "M14",
+        "M20",
+        "M21",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-56 表达好感与确认关系都可以坦率进行",
+      "query": "B118-56",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "57",
+      "spine_items": [
+        34
+      ],
+      "locator": "正确使用社交认证、她带朋友、初期不要接受她的邀约",
+      "title": "正常招待同行朋友，也可接受她主动发出的活动邀请",
+      "summary": "事先说清是否有同行者和活动安排，现场尊重每个人，不把朋友当障碍、资源或替代的亲密对象。她邀请你参加活动是可观察的新行为，是否参加看兴趣、关系阶段和真实空闲，不以她主导便自动拒绝，也不借另一位女性制造优越。",
+      "methods": [
+        "M01",
+        "M14",
+        "M15",
+        "M16",
+        "M22",
+        "M24"
+      ],
+      "heading": "B118-57 正常招待同行朋友，也可接受她主动发出的活动邀请",
+      "query": "B118-57",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "58",
+      "spine_items": [
+        34
+      ],
+      "locator": "预期判断偏差、约会需不断挑起情绪",
+      "title": "每次见面核当前信息，不将旧热度当本次同意",
+      "summary": "过去聊得热或愿亲近不保证这次同样愿意，当前需看她实际表达、安排及互动；有新回复也不能让旧低投入覆盖它。变化原因不清就未知，先考虑场合、任务和实际限制，不自动责为用户或对方人格。不能反过来声称一停顿就联系归零、必须重新制造情绪。",
+      "methods": [
+        "M01",
+        "M08",
+        "M15",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-58 每次见面核当前信息，不将旧热度当本次同意",
+      "query": "B118-58",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "59",
+      "spine_items": [
+        35,
+        36,
+        37
+      ],
+      "locator": "动觉、NLP、身体接触与爱的语言",
+      "title": "动觉和基因解释不证明所有人都想被触碰",
+      "summary": "本节的学说沿革、身体动觉、NLP和爱的语言引文均只核当前文件，没有核原研究或原书。不能从课程叙述推出每个人都渴望触碰、不碰便不能恋爱或精神交流无效，也不从害羞推成责任缺失。",
+      "methods": [],
+      "heading": "B118-59 动觉和基因解释不证明所有人都想被触碰",
+      "query": "B118-59",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "60",
+      "spine_items": [
+        38,
+        39
+      ],
+      "locator": "意外自然保护三类接触、早期适度接触、释放、主动责任",
+      "title": "亲近可以主动表达，接触需双方当前愿意",
+      "summary": "有双向了解时可以自然确认对方是否愿意牵手等具体亲近，不靠意外碰撞、拥挤和保护借口绕过意愿。不舒服、犹豫或后退就停并给空间，停止后不能仅靠释放几分钟自动重新触碰。主动不是男性必须完成的单方任务，更不是赶阶段和克服抗拒的责任。",
+      "methods": [
+        "M08",
+        "M14",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-60 亲近可以主动表达，接触需双方当前愿意",
+      "query": "B118-60",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "61",
+      "spine_items": [
+        40
+      ],
+      "locator": "适应舒适测试接吻四环节、图6-1至6-6",
+      "title": "身体动作不是恋爱与同意的计时器",
+      "summary": "握手、牵手和拥抱各自反映当下愿意参与的具体动作，不能由三秒六秒、勾手或十指相扣确认恋爱，更不能推定下一步同意。对方想说话应听她说，不以手指堵嘴或控制头部执行电影式流程。亲近可以自然问清，并让双方随时停止。",
+      "methods": [
+        "M08",
+        "M20",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-61 身体动作不是恋爱与同意的计时器",
+      "query": "B118-61",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "62",
+      "spine_items": [
+        41
+      ],
+      "locator": "矜持、进退有据、公共与独处区别",
+      "title": "抗拒先按不愿处理，不改译成矜持",
+      "summary": "躲开、不舒服、拒绝或说停就结束相应动作，不能按她内心其实渴望继续试探。独处、泳装、关系亲近或先前接受也不自动授权触碰；同意需要是本人当前自愿，慢一点不等于错过必需机会。拒绝一项不等于拒绝所有正常交流，但也不因此撤回该边界。",
+      "methods": [
+        "M01",
+        "M08",
+        "M22",
+        "M23"
+      ],
+      "heading": "B118-62 抗拒先按不愿处理，不改译成矜持",
+      "query": "B118-62",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "63",
+      "spine_items": [
+        42
+      ],
+      "locator": "不是交易、特别的人、建立共同预期",
+      "title": "长期相处的期待由双方说清并共同承担",
+      "summary": "具体关心可回扣她真实喜欢或在意的事，也应如实表达自己的联系频率、节日、财务和独立空间偏好，协商可持续的安排。不是一个人负责开船或控制全部未来；已有期待变化时可再谈，不自动把不满归为谁人格有问题。付出不换关系，不查手机、不禁正常社交。",
+      "methods": [
+        "M04",
+        "M05",
+        "M09",
+        "M15",
+        "M16",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "heading": "B118-63 长期相处的期待由双方说清并共同承担",
+      "query": "B118-63",
+      "path": "knowledge/books/B118.md"
+    },
+    {
+      "id": "64",
+      "spine_items": [
+        40,
+        41,
+        43,
+        44
+      ],
+      "locator": "亲密机制引文、后记、末页出品标识",
+      "title": "原始材料读完与科学效果核验分别记",
+      "summary": "本份六章与后记、49幅实存图片均在当前任务范围，书内关于脑机制、激素、基因、时长、比例和成功率的断言未经本轮原始研究核验。致谢称已获授权不自动转移给本仓库；只保留原创笔记、固定出处和真实读取范围，不重发私人叙事与原图，不宣称模型被永久训练。",
+      "methods": [],
+      "heading": "B118-64 原始材料读完与科学效果核验分别记",
+      "query": "B118-64",
+      "path": "knowledge/books/B118.md"
+    }
+  ],
+  "raw_text_photographs_and_private_narratives_republished": false,
+  "research_or_interaction_effectiveness_validated": false,
+  "next_book_body_opened_when_this_checkpoint_written": false
+}

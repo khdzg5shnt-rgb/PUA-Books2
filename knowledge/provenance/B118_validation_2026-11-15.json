@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "file_id": "B118",
+  "date": "2026-11-15",
+  "status": "passed",
+  "baseline": "93712bc05defccafe0a9b25b5b3a19ba9bcdccf3",
+  "validate_os": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "book_tasks_complete": 111,
+    "book_not_started": 8
+  },
+  "generated_method_views_check": true,
+  "git_diff_whitespace_check": true,
+  "unittest_methods_passed": 127,
+  "focused_reading_and_retrieval_checks": {
+    "ok": true,
+    "errors": [],
+    "exact_method_section_retrievals": 273,
+    "global_only_section_retrievals": 8,
+    "unbound_method_exclusion_queries": 64,
+    "all126_original_blobs_preserved": true,
+    "other_reading_records_unchanged": true,
+    "prior_method_actions_sources_preferred_sections_routes_tasks_preserved": true,
+    "all44_contiguous_spine_ranges_verified": true,
+    "native_characters_checked": 135956,
+    "independent_nonspace_sequences_equal": 44,
+    "all49_image_reading_records_and_hashes_present": true,
+    "truncated_display_section_reread_not_double_counted": true
+  },
+  "scope": "Structure,source identity,recorded reading ranges and retrieval only;not psychological mechanisms,real screenshot recognition or relationship effectiveness."
+}

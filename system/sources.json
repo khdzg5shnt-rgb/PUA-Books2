@@ -1571,9 +1571,17 @@
       "group": "books2_original_snapshot",
       "title": "野兽绅士 - 巫家民.epub",
       "git_blob_sha": "207ed441021cfb77587a81670c19dfe6b4202443",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B118.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B118_reading_2026-11-15.json",
+      "coverage_mode": "ordered_EPUB_spine_text_plus_all49_raster_images",
+      "completion_kind": "actual_supplied_EPUB_all44_spine_texts_and_all49_raster_images_read",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_extractable_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B119",
@@ -1987,25 +1995,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 110,
+    "current_book_files_text_complete": 111,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 9
+    "current_book_files_not_started": 8
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B118",
-    "path": "野兽绅士 - 巫家民.epub",
-    "bytes": 1790039,
-    "git_blob_sha": "207ed441021cfb77587a81670c19dfe6b4202443",
+    "id": "B119",
+    "path": "阴茎层次训练技术分享.pdf",
+    "bytes": 335599,
+    "git_blob_sha": "2911a0db63d91e2e57b7bc683e74fb5c42f3ea94",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "epub",
-    "next_spine_item": 1,
-    "spine_item_numbering": "1-based",
+    "format": "pdf",
+    "next_file_page": 1,
     "next_character": 0,
-    "start": "B116当前118页、封面图与表格已读，35组原创笔记和128处方法绑定先保存提交。B117既有完成项不重计；下一唯一主读B118《野兽绅士 - 巫家民.epub》，阅读顺序项1字符0，正文未打开。",
-    "next_content_unit": "Read B118 EPUB from 1-based spine item1 character0 after B116 reading,original notes,exact method bindings and checkpoint are committed;B117 already complete;B118 body unopened."
+    "start": "B118当前44项文字、49幅图像、64组笔记与273处精确方法绑定先保存提交。下一唯一主读B119《阴茎层次训练技术分享.pdf》，当前2页，从物理页1字符0开始，正文未打开。",
+    "next_content_unit": "Read B119 supplied two-page PDF from physical page1 character0 only after B118 all44 texts,49 images,original notes and checkpoint are committed;body unopened."
   },
   "deferred_work_units": []
 }
