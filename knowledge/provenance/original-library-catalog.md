@@ -4,7 +4,7 @@
 
 该快照共126个文件，其中119个书籍文件（88 PDF、30 EPUB、1 DOC），另7个支持文件。书籍文件不等于119部互不重复的原著。全部文件已下载并核对Git blob SHA与字节数；提取、OCR、阅读状态分开记录。
 
-当前完成109/119份任务，无部分处理文件、10份未开始。101份当前内容已覆盖（含历史B100严格同文复用），8份依用户授权结束并保留缺口。本轮B115《迷男方法》125页顺序读完，原生提取133688字符；封面图另读，主要图表及78段字体映射异常的可见原字已核清；新增84组原创笔记、362处精确方法引用。本轮无新增结束项。下一唯一主读B116《逆向恋爱术 - 蓝冰.pdf》物理页1字符0，正文未打开。[本轮记录](B115_progress_2026-11-15.md)。
+当前完成110/119份任务，无部分处理文件、9份未开始。102份当前内容已覆盖（含历史B100严格同文复用），8份依用户授权结束并保留缺口。本轮B116《逆向恋爱术》118页顺序读完，原生提取82330字符；封面图另读，表格及4页提取差异已核原页，新增35组原创笔记、128处精确方法绑定。无新增结束项。B117已完成不重计；下一唯一主读B118《野兽绅士 - 巫家民.epub》阅读顺序项1字符0，正文未打开。[本轮记录](B116_progress_2026-11-15.md)。
 
 早期初筛曾处理九份PDF共1589页，其中76页识别输出不足40字符，当时不计阅读。此前B039另行重建并读过380页OCR输出，采用新的页哈希与范围；这不是额外380个原始页。OCR缓存不提交，所有PDF文件页总计11165页。
 
@@ -128,7 +128,7 @@
 | B113 | [超级吸引力 - Jacob.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%B6%85%E7%BA%A7%E5%90%B8%E5%BC%95%E5%8A%9B%20-%20Jacob.pdf) | 101 | 101页文字及封面图已读；62组原创笔记，原版及外部资料另计 | [笔记](../books/B113.md) |
 | B114 | [迷上我 - 成真.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E4%B8%8A%E6%88%91%20-%20%E6%88%90%E7%9C%9F.epub) | 50 | 50条可辨文本已读；18处源损坏保留并授权结束；100组原创笔记 | [笔记](../books/B114.md) |
 | B115 | [迷男方法.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E8%BF%B7%E7%94%B7%E6%96%B9%E6%B3%95.pdf) | 125 | 125页及封面、图表、78段字体异常原字已读；84组原创笔记 | [笔记](../books/B115.md) |
-| B116 | [逆向恋爱术 - 蓝冰.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%80%86%E5%90%91%E6%81%8B%E7%88%B1%E6%9C%AF%20-%20%E8%93%9D%E5%86%B0.pdf) | 118 | 已提取/未读 | — |
+| B116 | [逆向恋爱术 - 蓝冰.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%80%86%E5%90%91%E6%81%8B%E7%88%B1%E6%9C%AF%20-%20%E8%93%9D%E5%86%B0.pdf) | 118 | 当前118页及封面/表格已读 | [精读](../books/B116.md) |
 | B117 | [逗女人笑 - Martin Merrill.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%80%97%E5%A5%B3%E4%BA%BA%E7%AC%91%20-%20Martin%20Merrill.pdf) | 16 | 正文读完 | [精读](../books/B117.md) |
 | B118 | [野兽绅士 - 巫家民.epub](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%87%8E%E5%85%BD%E7%BB%85%E5%A3%AB%20-%20%E5%B7%AB%E5%AE%B6%E6%B0%91.epub) | 44 | 已提取/未读 | — |
 | B119 | [阴茎层次训练技术分享.pdf](https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%98%B4%E8%8C%8E%E5%B1%82%E6%AC%A1%E8%AE%AD%E7%BB%83%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB.pdf) | 2 | 已提取/未读 | — |

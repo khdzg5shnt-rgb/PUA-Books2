@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "file_id": "B116",
+  "date": "2026-11-15",
+  "status": "passed",
+  "baseline": "9659e921a0ff26c18708a2de922effef6a37ea18",
+  "validate_os": {
+    "ok": true,
+    "methods": 26,
+    "routes": 36,
+    "task_modes": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "book_tasks_complete": 110,
+    "book_not_started": 9
+  },
+  "generated_method_views_check": true,
+  "git_diff_whitespace_check": true,
+  "unittest_methods_passed": 127,
+  "focused_reading_and_retrieval_checks": {
+    "ok": true,
+    "errors": [],
+    "exact_method_section_retrievals": 128,
+    "global_only_section_retrievals": 4,
+    "unbound_method_exclusion_queries": 35,
+    "all126_original_blobs_preserved": true,
+    "all_prior_method_actions_sources_preferred_sections_routes_tasks_preserved": true,
+    "other_reading_records_unchanged": true,
+    "contiguous_read_pages": 118,
+    "native_characters_checked": 82330,
+    "source_entries_added": 23,
+    "source_PDF_full_read_not_all_original_edition_claimed": true
+  },
+  "scope": "Checks validate structure,source identity,recorded ranges and retrieval;not psychological mechanisms,real screenshot recognition or relationship effectiveness."
+}

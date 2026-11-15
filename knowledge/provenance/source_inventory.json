@@ -17564,8 +17564,8 @@
       "download_verified": true,
       "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
       "source_url": "https://github.com/khdzg5shnt-rgb/PUA-Books2/blob/bc6a5d103481dec6583f702f25f36fd4a28fdbae/%E9%80%86%E5%90%91%E6%81%8B%E7%88%B1%E6%9C%AF%20-%20%E8%93%9D%E5%86%B0.pdf",
-      "reading_status": "unread",
-      "note": null,
+      "reading_status": "provided_file_text_complete",
+      "note": "knowledge/books/B116.md",
       "pages": 118,
       "spine_items": null,
       "ocr": {
@@ -17573,7 +17573,61 @@
         "short_output_pages_needing_visual_review": [],
         "cache_persisted_in_repository": false
       },
-      "edition_status": "unverified_original_edition_completeness"
+      "edition_status": "unverified_original_edition_completeness",
+      "reading_ledger": "knowledge/provenance/B116_reading_2026-11-15.json",
+      "coverage_mode": "ordered_native_PDF_text_with_cover_raster_and_table_order_visual_checks",
+      "completion_kind": "actual_supplied_PDF_all118_native_pages_read_plus_cover_raster_tables_and_extractor_order_visual_checks",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "source_sha256": "e8b324ba1e5b0b4bb92e373910c1af8bf2c469dc5b99b052c9265f931635166d",
+      "latest_reading": {
+        "date": "2026-11-15",
+        "ledger": "knowledge/provenance/B116_reading_2026-11-15.json",
+        "native_pages_read": 118,
+        "native_characters": 82330,
+        "actual_reading_batches": 10,
+        "OCR_run": false,
+        "individual_full_original_pages_viewed": [
+          1,
+          2,
+          10,
+          11,
+          17,
+          45,
+          50,
+          51,
+          52,
+          69,
+          99,
+          105,
+          111,
+          117,
+          118
+        ],
+        "all118_layout_overview_viewed": true,
+        "cover_raster_image_text_visually_read": true,
+        "raw_strict_exact_pages": 114,
+        "raw_character_multiset_exact_pages": 117,
+        "extractor_difference_pages_originals_checked": [
+          1,
+          10,
+          11,
+          51
+        ],
+        "known_unread_current_content": [],
+        "original_edition_completeness_verified": false,
+        "source_original_omissions_and_verification_limits": [
+          "只完成当前118页PDF；未对照正式出版物，不认证文件名蓝冰、封面团队署名或元数据制作署名的作者关系与原版完整性。",
+          "演化、遗传、生理、三层脑、布罗卡区、7%/93%、十倍解读能力及成瘾类断言只记录原书说法，未核原始研究，不作科学依据或效果保证。",
+          "外部网站、课程、邮件、付费服务未访问、注册、购买或外发；不算当前文件已读范围。",
+          "不公开原文长摘、图片、私人对话、姓名、联系方式或匿名私人叙事；仅保存原创摘要和固定出处。",
+          "原书的性别敌意、失败全归男性、打压、故意失约、奖惩关注、伪装朋友与拒绝后逼取号码不成为行动规则。"
+        ],
+        "original_note_groups": 35,
+        "new_exact_method_section_bindings": 128
+      }
     },
     {
       "index": 117,
@@ -17826,5 +17880,5 @@
       "edition_status": "unverified_original_edition_completeness"
     }
   ],
-  "latest_reading_update": "2026-11-15:B115 all125 native pages read in16 ordered batches;133688 extracted chars plus raster cover;78 bad-font spans501 mapped positions on43 pages visually read;28 full original pages plus125 overviews;101 footer/bidi-adjusted strict pages and125 character multisets,24 remaining object-order pages visually reviewed;84 original notes,362 exact citations;109/119=101 current coverages including B100 reuse+8 retained scope closures;next B116 P1 character0 body unopened."
+  "latest_reading_update": "2026-11-15:B116 current118-page PDF read in10 ordered batches;82330 native chars;cover raster and15 full original pages checked plus118 layout overviews;114 strict pages,117 multisets,all4 difference pages visually checked;35 original notes,128 exact section bindings;110/119=102 current coverages including B100 reuse+8 retained scope closures;next B118 spine1 character0 body unopened;B117 already completed."
 }

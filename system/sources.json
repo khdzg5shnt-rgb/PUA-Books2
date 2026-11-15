@@ -1545,9 +1545,17 @@
       "group": "books2_original_snapshot",
       "title": "逆向恋爱术 - 蓝冰.pdf",
       "git_blob_sha": "cc296cedcef026077bc179e4e24553b5b10667a3",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B116.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B116_reading_2026-11-15.json",
+      "coverage_mode": "ordered_native_PDF_text_with_cover_raster_and_table_order_visual_checks",
+      "completion_kind": "actual_supplied_PDF_all118_native_pages_read_plus_cover_raster_tables_and_extractor_order_visual_checks",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B117",
@@ -1979,24 +1987,25 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 109,
+    "current_book_files_text_complete": 110,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 10
+    "current_book_files_not_started": 9
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B116",
-    "path": "逆向恋爱术 - 蓝冰.pdf",
-    "bytes": 896178,
-    "git_blob_sha": "cc296cedcef026077bc179e4e24553b5b10667a3",
+    "id": "B118",
+    "path": "野兽绅士 - 巫家民.epub",
+    "bytes": 1790039,
+    "git_blob_sha": "207ed441021cfb77587a81670c19dfe6b4202443",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
-    "format": "pdf",
-    "next_file_page": 1,
+    "format": "epub",
+    "next_spine_item": 1,
+    "spine_item_numbering": "1-based",
     "next_character": 0,
-    "start": "B115当前125页、封面图、主要图表与78段字体异常原字已读；84组笔记、362处引用先保存提交。下一唯一主读B116《逆向恋爱术 - 蓝冰.pdf》，清单118页，从物理页1字符0开始，正文未打开。",
-    "next_content_unit": "Read B116 PDF from physical page1 character0 only after B115 complete current-file reading,84 original notes,362 bindings and checkpoint are committed; body unopened."
+    "start": "B116当前118页、封面图与表格已读，35组原创笔记和128处方法绑定先保存提交。B117既有完成项不重计；下一唯一主读B118《野兽绅士 - 巫家民.epub》，阅读顺序项1字符0，正文未打开。",
+    "next_content_unit": "Read B118 EPUB from 1-based spine item1 character0 after B116 reading,original notes,exact method bindings and checkpoint are committed;B117 already complete;B118 body unopened."
   },
   "deferred_work_units": []
 }
