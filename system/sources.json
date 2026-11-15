@@ -1528,9 +1528,17 @@
       "group": "books2_original_snapshot",
       "title": "迷男方法.pdf",
       "git_blob_sha": "dfbfcd006bd32d7a6d31cb968992626ea421eaf3",
-      "reading_status": "unread",
-      "local_entry": "knowledge/provenance/original-library-catalog.md",
-      "is_book": true
+      "reading_status": "provided_file_text_complete",
+      "local_entry": "knowledge/books/B115.md",
+      "is_book": true,
+      "reading_ledger": "knowledge/provenance/B115_reading_2026-11-15.json",
+      "coverage_mode": "ordered_native_PDF_text_with_original_raster_cover_diagram_order_and_font_mapping_visual_checks",
+      "completion_kind": "actual_supplied_PDF_all125_native_pages_read_plus_raster_cover_vector_diagrams_and78_font_spans_visually_checked",
+      "all_current_file_content_read": true,
+      "actual_reading_complete": true,
+      "all_supplied_native_text_read": true,
+      "task_complete": true,
+      "original_publication_complete": false
     },
     {
       "id": "B116",
@@ -1971,24 +1979,24 @@
     "uploads": 23,
     "public_github_sources": 9,
     "source_records": 158,
-    "current_book_files_text_complete": 108,
+    "current_book_files_text_complete": 109,
     "current_book_files_text_partial": 0,
-    "current_book_files_not_started": 11
+    "current_book_files_not_started": 10
   },
   "private_source_policy": "excluded; no private content imported",
   "every_record_has_internal_entry": true,
   "next_work_unit": {
-    "id": "B115",
-    "path": "迷男方法.pdf",
-    "bytes": 1455543,
-    "git_blob_sha": "dfbfcd006bd32d7a6d31cb968992626ea421eaf3",
+    "id": "B116",
+    "path": "逆向恋爱术 - 蓝冰.pdf",
+    "bytes": 896178,
+    "git_blob_sha": "cc296cedcef026077bc179e4e24553b5b10667a3",
     "source_commit": "bc6a5d103481dec6583f702f25f36fd4a28fdbae",
     "reading_status": "unread",
     "format": "pdf",
     "next_file_page": 1,
     "next_character": 0,
-    "start": "B114当前50条可辨文本已读，18处源损坏保留并授权结束；100组笔记、362处引用先保存提交。下一唯一主读B115《迷男方法.pdf》，清单125页，从物理页1字符0开始，正文未打开。",
-    "next_content_unit": "Read B115 PDF from physical page1 character0 only after B114 readable text, retained18 corrupted positions, notes and checkpoint are committed; body unopened."
+    "start": "B115当前125页、封面图、主要图表与78段字体异常原字已读；84组笔记、362处引用先保存提交。下一唯一主读B116《逆向恋爱术 - 蓝冰.pdf》，清单118页，从物理页1字符0开始，正文未打开。",
+    "next_content_unit": "Read B116 PDF from physical page1 character0 only after B115 complete current-file reading,84 original notes,362 bindings and checkpoint are committed; body unopened."
   },
   "deferred_work_units": []
 }
