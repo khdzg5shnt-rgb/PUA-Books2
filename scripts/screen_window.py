@@ -7,7 +7,7 @@ from runtime_io import validate_fact_values
 # These describe the particular bubble the reader is answering.
 BUBBLE_FIELDS = {'function', 'closed_answer_complete', 'current_turn_low',
                 'advice_requested', 'urgent_practical_need', 'roleplay_shared',
-                'current_scope_relation'}
+                'current_scope_relation', 'shared_callback_available'}
 
 # A new arrangement update applies to the turn, even when an earlier question
 # is the selected primary content. Other bubble observations remain separate.

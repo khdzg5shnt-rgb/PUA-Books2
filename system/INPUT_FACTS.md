@@ -19,7 +19,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | 字段 | 默认值 | 核对含义 |
 | --- | --- | --- |
 | `speaker_verified` | `false` | 已核对当前对象及每侧发言人；未知不能填true |
-| `text_legible` | `false` | 已读清会改变本轮回复的最新原句与引用；未知不能填true |
+| `text_legible` | `false` | 已核准会改变本轮回复的正文、语音内容或转写及引用；未知不能填true |
 | `latest_sender` | `"unknown"` | 最近已发方向：user、other或unknown；none仅表示已核尚无已发消息的首次开场；排除系统提示、引用与输入框草稿 |
 | `turn_gap` | `"none"` | 已发消息的时序、方向、缺失内容或本轮待答内容仍待核；优先由助手读已有上下文解决。 |
 | `pending_reply` | `false` | 当前最后一条是用户已发且对方未回；已有新回复时重置false |
@@ -38,7 +38,7 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 | `invite_ready` | `false` | 已核有适合提出邀请的事实基础；未知不自动满足 |
 | `user_availability_known` | `false` | 用户真实空闲已核实，不编日期 |
 | `activity_verified` | `false` | 拟提活动和安排真实已核实，不编顺路或假活动 |
-| `shared_callback_available` | `false` | 双方确实有这个共同经历/旧话题，不移植别人的故事 |
+| `shared_callback_available` | `false` | 当前内容确有自然关联的共同经历或旧话题；不是历史上有过素材就填true |
 | `roleplay_shared` | `false` | 双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可 |
 | `advice_requested` | `false` | 她明确求办法；不是看见情绪就假定要被指导 |
 | `urgent_practical_need` | `false` | 有已核的紧要现实事务，不是制造紧迫感 |
@@ -68,7 +68,11 @@ consecutive_low_rounds只统计可见连续轮次。认真提问、求助、明�
 
 在当前对象的 `facts` 中可附 `screens`。每个子列表按单张图里可见的先后排列。已发气泡使用正整数 `id` 和已核的 `sender`。编号大小没有时间含义。只给同一条已核气泡复用编号。草稿、旧引文、系统行可省略，也可仅记 `kind` 为 `draft`、`quote` 或 `notice`。不放原话、图片、昵称或账号。见[可运行的重叠截图示例](EXAMPLE_REQUEST.json)。
 
-当前对象、仍有效的边界和原有安排状态放在外层；本轮确有安排更新时可按下文标在对应气泡。使用多图时，`function`、`closed_answer_complete`、`current_turn_low`、`advice_requested`、`urgent_practical_need`、`roleplay_shared`、`current_scope_relation` 写在所属已发气泡的 `facts` 中，可按需省略。两张图里同一条气泡的补充标记可以合并；不同气泡的内容观察不拼接，标注冲突时先回图复核。
+当前对象、仍有效的边界和原有安排状态放在外层；本轮确有安排更新时可按下文标在对应气泡。使用多图时，`function`、`closed_answer_complete`、`current_turn_low`、`advice_requested`、`urgent_practical_need`、`roleplay_shared`、`current_scope_relation`、`shared_callback_available` 写在所属已发气泡的 `facts` 中，可按需省略。两张图里同一条气泡的补充标记可以合并；不同气泡的内容观察不拼接，标注冲突时先回图复核。
+
+`shared_callback_available`现在与角色玩笑一样按当前气泡核对；旧的多图请求若把它放在外层，应先根据已有原句移到真正相关的气泡，不能自动移到最后一条。当前气泡未标记时按默认false处理；另一条或历史轮次的共同话题不会覆盖当前新分享。平面请求仍可直接填该字段，但也必须核当前关联。
+
+语音、编辑与平台撤回按[截图输入规则](SCREENSHOT_PROTOCOL.md#语音编辑与平台撤回)处理。语音条长度不提供正文；同编号的新旧版本相互冲突时先核版本，不合并成事实。已核撤回的正文不作当前待答气泡，平台提示不用于自动解决请求、清除安排或解除拒绝。
 
 外层可给`reply_to_id`，表示助手核过原句后选定的本轮主内容。它与`last_id`不同：`last_id`只决定最新发送方向，`reply_to_id`只能选末个连续对方轮次里可证的已发气泡，不能选用户发言、未知发言人或已被用户回复隔开的旧轮。`screen_window.current_turn_ids`列出本轮可选编号。没有多图标注时不提供这个字段。
 

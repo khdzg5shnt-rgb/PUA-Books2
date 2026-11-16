@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.6.2",
+  "version": "1.6.3",
   "updated": "2026-11-16",
   "description": "按已核事实选一个动作的规则路由，不是兴趣分类器或成功率模型",
   "input_policy": "由读图者先核原文与时间线，再填写有限事实；只核会改变当前任务的缺口，不从孤立关键词自动判断动机",
@@ -1282,7 +1282,7 @@
   ],
   "field_help": {
     "speaker_verified": "已核对当前对象及每侧发言人；未知不能填true",
-    "text_legible": "当前任务所需原句已核清；未读清仍为false。只等待或已核空对话首次开场不强求无关正文，解释原句、新回复和必要通知仍核所需内容。",
+    "text_legible": "已核准会影响本轮的正文、语音内容或转写及引用；未知不能填true",
     "pending_reply": "当前最后一条是用户已发且对方未回；已有新回复时重置false",
     "necessary_new_logistics": "未回期间确有独立必要的新事务，不能借机催问",
     "refusal_scope": "当前明确拒绝的具体范围；不由语气、单字或旧标签推断",
@@ -1298,7 +1298,7 @@
     "invite_ready": "已核有适合提出邀请的事实基础；未知不自动满足",
     "user_availability_known": "用户真实空闲已核实，不编日期",
     "activity_verified": "拟提活动和安排真实已核实，不编顺路或假活动",
-    "shared_callback_available": "双方确实有这个共同经历/旧话题，不移植别人的故事",
+    "shared_callback_available": "当前待答内容确有自然关联的共同经历或旧话题；多图只标在对应气泡，不从历史轮次继承",
     "roleplay_shared": "双方正在自愿接同一个角色玩笑，不等于现实身份或其他许可",
     "advice_requested": "她明确求办法；不是看见情绪就假定要被指导",
     "urgent_practical_need": "有已核的紧要现实事务，不是制造紧迫感",

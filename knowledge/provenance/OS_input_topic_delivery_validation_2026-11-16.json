@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "1ba682622123f3b3b43a48c1a62b1e052ac10d64",
+  "runtime_version": "1.6.3",
+  "status": "passed",
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_input_topic_delivery_validation_2026-11-16.json",
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 179,
+    "new_test_methods": 11,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "new_CLI_examples_passed": 4,
+    "existing_retrieval_phrases_checked": 21,
+    "method_operations_bindings_preferred_titles_route_conditions_and_sources_preserved": true,
+    "reading119_actual108_plus11_scope_closures_unchanged": true,
+    "flat_current_callback_input_preserved": true,
+    "screen_global_callback_rejected_in_favor_of_verified_bubble_scope": true,
+    "unanswered_topic_recontact_exception_added": false,
+    "private_input_not_echoed_or_persisted": true,
+    "scope": "结构、人工标注的输入事实、当前气泡范围与路由检查；不证明实际音频转写、编辑或撤回识别、回复自然程度与恋爱效果。"
+  },
+  "structural_counts": {
+    "methods": 26,
+    "routes": 36,
+    "tasks": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "completed_book_tasks": 119
+  },
+  "audit_scope": [
+    "current screenshot, voice-content uncertainty, edit and withdrawal protocol",
+    "current-topic callback scope and unchanged waiting rules",
+    "one factual detail, one goal and observation points only when appropriate"
+  ],
+  "CLI_results": [
+    {
+      "example": "old_callback_new_share",
+      "route_id": "R27",
+      "action": "draft",
+      "method_id": "M03",
+      "max_candidates": 1
+    },
+    {
+      "example": "current_relevant_callback",
+      "route_id": "R23",
+      "action": "draft",
+      "method_id": "M05",
+      "max_candidates": 1
+    },
+    {
+      "example": "incoming_voice_content_unknown",
+      "route_id": "R00",
+      "action": "clarify",
+      "method_id": "M01",
+      "max_candidates": 0
+    },
+    {
+      "example": "unanswered_still_waits",
+      "route_id": "R04",
+      "action": "hold",
+      "method_id": "M02",
+      "max_candidates": 0
+    }
+  ],
+  "new_book_files_read": 0,
+  "new_method_source_bindings": 0,
+  "limitations": [
+    "Voice content and edit/withdrawal identities must be verified by the assistant; no new media recognition capability was added.",
+    "Flat callback input still requires manual verification of current relevance.",
+    "Legacy screen requests must place callback relevance on the verified sent bubble.",
+    "Reply detail and optional observation points are manual writing rules, not language-quality or relationship-outcome classifiers.",
+    "No real private chat, screenshot, draft or private case was saved."
+  ]
+}

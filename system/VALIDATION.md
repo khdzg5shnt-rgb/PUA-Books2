@@ -1,10 +1,12 @@
 # 当前检查范围
 
 <!-- CURRENT_SYSTEM_VALIDATION -->
-2026-11-16：运行1.6.2，119/119队列保持关闭。结构、视图同步、168项测试（新增13项）与158个既有虚构路由场景通过；21个旧检索说法保持有效，2个新CLI示例通过。[本轮验证](../knowledge/provenance/OS_revision_context_validation_2026-11-16.json) · [维护说明](../knowledge/provenance/OS_revision_context_2026-11-16.md)。
+2026-11-16：运行1.6.3，119/119队列保持关闭。结构、视图同步、179项测试（新增11项）与158个既有虚构路由场景通过；21个检索说法保持有效，4个新CLI示例通过。[本轮验证](../knowledge/provenance/OS_input_topic_delivery_validation_2026-11-16.json) · [维护说明](../knowledge/provenance/OS_input_topic_delivery_2026-11-16.md)。
 <!-- END_CURRENT_SYSTEM_VALIDATION -->
 
 ## 历史检查记录（以下各项按其日期和范围阅读）
+
+2026-11-16：运行1.6.2，119/119队列保持关闭。结构、视图同步、168项测试（新增13项）与158个既有虚构路由场景通过；21个旧检索说法保持有效，2个新CLI示例通过。[本轮验证](../knowledge/provenance/OS_revision_context_validation_2026-11-16.json) · [维护说明](../knowledge/provenance/OS_revision_context_2026-11-16.md)。
 
 2026-11-16：运行1.6.1，119/119队列保持关闭。结构、方法视图同步、155项测试（新增13项）与158个既有虚构路由场景通过；34组旧检索输出不变，21个说法核查为20个补充命中、1个原命中保留。[本轮验证](../knowledge/provenance/OS_focus_aliases_validation_2026-11-16.json) · [维护说明](../knowledge/provenance/OS_focus_aliases_2026-11-16.md)。
 
