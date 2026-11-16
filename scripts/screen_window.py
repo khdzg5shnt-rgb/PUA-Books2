@@ -13,6 +13,11 @@ BUBBLE_FIELDS = {'function', 'closed_answer_complete', 'current_turn_low',
 # is the selected primary content. Other bubble observations remain separate.
 STATE_FIELDS = {'invitation'}
 
+# These are already verified bubble functions, not inferred emotions. A light
+# trailing bubble alone does not establish that the substantive content ended.
+SUBSTANTIVE_FUNCTIONS = {'distress', 'good_news', 'correction'}
+LIGHT_TAIL_FUNCTIONS = {'unknown', 'banter', 'opening', 'closing'}
+
 
 def read_bubble(item, config):
     if not isinstance(item, dict):
@@ -233,6 +238,11 @@ def resolve_screens(screens, config, links, reply_to_id=None):
                           if pending_request(ident)), default=0)
         primary_help = [ident for ident in current_turn_ids if pending_request(ident)
                         and _help_priority(messages[ident][1]) == help_level] if help_level else []
+        light_tail = messages[last_id][1].get('function', 'unknown') in LIGHT_TAIL_FUNCTIONS
+
+        def substantive(ident):
+            return messages[ident][1].get('function') in SUBSTANTIVE_FUNCTIONS
+
         if reply_to_id is not None:
             if reply_to_id in resolved_requests:
                 raise ValueError('reply_to_id cannot select a request already resolved in this turn')
@@ -245,7 +255,8 @@ def resolve_screens(screens, config, links, reply_to_id=None):
                 gap = 'order'
             else:
                 raise ValueError('reply_to_id cannot select an earlier conversation turn')
-        elif any(pending_request(ident) for ident in possible_turn_ids
+        elif any(pending_request(ident) or (light_tail and substantive(ident))
+                 for ident in possible_turn_ids
                  if ident not in current_turn_ids):
             gap = 'order'
         elif pending_request(last_id):
@@ -257,6 +268,11 @@ def resolve_screens(screens, config, links, reply_to_id=None):
                 selected_id = last_id
         elif any(pending_request(ident) for ident in current_turn_ids
                  if ident != last_id):
+            gap = 'content'
+        elif light_tail and any(substantive(ident) for ident in current_turn_ids
+                                if ident != last_id):
+            # The reader must check the original content before choosing the
+            # main response, including whether the later closure is genuine.
             gap = 'content'
         else:
             selected_id = last_id

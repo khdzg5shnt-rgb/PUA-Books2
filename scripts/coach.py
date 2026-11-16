@@ -86,7 +86,7 @@ def _clarification(facts, decision):
             'order': '这几条里，最后发出去的是哪一句？',
             'sender': '最后一条已发消息是谁发的？',
             'missing': '最近一条已经发出去的消息是什么？',
-            'content': '她这几条里，当前还需要回答哪一句？',
+            'content': '她这几条里，当前主要需要回应哪一句？',
         }[decision['turn_gap']]
         return {'field': 'turn_gap', 'question': question}
     if route_id == 'R00S':

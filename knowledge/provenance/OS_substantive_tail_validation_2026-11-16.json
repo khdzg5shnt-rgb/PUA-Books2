@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "ea72e4d933eca371e889073d82b47eb4281cf32d",
+  "runtime_version": "1.6.4",
+  "status": "passed",
+  "checks": {
+    "status": "passed",
+    "validation": "knowledge/provenance/OS_substantive_tail_validation_2026-11-16.json",
+    "validate_os": true,
+    "generated_method_views_check": true,
+    "unit_tests_passed": 190,
+    "new_test_methods": 11,
+    "existing_synthetic_route_fixtures_unchanged_and_passed": 158,
+    "new_CLI_examples_passed": 4,
+    "existing_retrieval_phrases_checked": 21,
+    "method_operations_bindings_preferred_titles_route_conditions_and_sources_preserved": true,
+    "reading119_actual108_plus11_scope_closures_unchanged": true,
+    "five_task_contracts_preserved": true,
+    "verified_closure_and_new_substantive_topic_remain_allowed": true,
+    "unanswered_waiting_and_necessary_logistics_exception_preserved": true,
+    "private_input_not_echoed_or_persisted": true,
+    "scope": "结构、人工标注的同轮气泡作用、先后关系与路由检查；不验证真实读图、任意语义识别、回复自然程度或恋爱效果。"
+  },
+  "structural_counts": {
+    "methods": 26,
+    "routes": 36,
+    "tasks": 5,
+    "preferred_sections": 26,
+    "source_records": 158,
+    "archived_files": 44,
+    "completed_book_tasks": 119
+  },
+  "audit_scope": [
+    "same-turn distress, good news or correction before a light trailing bubble",
+    "verified primary selection, genuine closure and uncertain outgoing barriers",
+    "preservation of existing waiting, help, plan, boundary and revision handling"
+  ],
+  "CLI_results": [
+    {
+      "example": "substantive_then_light_tail",
+      "route_id": "R00T",
+      "action": "clarify",
+      "method_id": "M01",
+      "max_candidates": 0
+    },
+    {
+      "example": "verified_substantive_primary",
+      "route_id": "R15",
+      "action": "draft",
+      "method_id": "M11",
+      "max_candidates": 1
+    },
+    {
+      "example": "verified_later_closure",
+      "route_id": "R13C",
+      "action": "hold",
+      "method_id": "M18",
+      "max_candidates": 0
+    },
+    {
+      "example": "user_already_sent",
+      "route_id": "R04",
+      "action": "hold",
+      "method_id": "M02",
+      "max_candidates": 0
+    }
+  ],
+  "new_book_files_read": 0,
+  "new_method_source_bindings": 0,
+  "limitations": [
+    "Bubble functions and whether content has genuinely ended must still be verified by the assistant.",
+    "Content-gap prompts are resolved from existing context before requesting missing information.",
+    "This protects only the listed substantive functions and light trailing functions, not every semantic situation.",
+    "No real private chats, screenshots, drafts or case summaries were used or saved."
+  ]
+}

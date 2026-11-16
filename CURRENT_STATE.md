@@ -2,11 +2,11 @@
 
 更新于2026-11-16（Asia/Shanghai）。唯一日常仓库 khdzg5shnt-rgb/PUA-Books2。[启动](START_HERE.md) · [实战工作页](CHAT_GUIDANCE_PLAYBOOK.md) · [机器状态](system/work_state.json)。
 
-## 当前工作：聊天实战系统1.6.3
+## 当前工作：聊天实战系统1.6.4
 
-本轮沿现有输入、话题衔接与成品交付复核：补清语音、编辑与平台撤回的证据处理，将共同回扣标记限定到当前相关气泡，并明确具体细节与按需观察点。历史共同梗不覆盖新分享，未回复时仍先等，只保留原有独立必要事务例外。[维护记录](knowledge/provenance/OS_input_topic_delivery_2026-11-16.md) · [本轮检查](knowledge/provenance/OS_input_topic_delivery_validation_2026-11-16.json)。
+补上同轮非请求内容的核对：前面已讲困扰、好消息或事实更正，末条只是玩笑、未判作用的内容或收尾时，不自动只答末句。助手先读现有原句，选择仍需回应的主内容；确实结束或转题时仍可选择后句，不强制安慰或给建议。[维护记录](knowledge/provenance/OS_substantive_tail_2026-11-16.md) · [本轮检查](knowledge/provenance/OS_substantive_tail_validation_2026-11-16.json)。
 
-原有26方法、36路由、五种任务、检索映射与未发草稿消息绑定保留。普通怎么回只给一句，安排、等待、停止及明确边界继续优先。当前窗口的原话、媒体内容和版本仍由助手实际核准，不把程序检查当成真实读图或效果验证。[上轮修稿维护](knowledge/provenance/OS_revision_context_2026-11-16.md)。
+原有26方法、36路由、五种任务、检索映射与未发草稿消息绑定保留。求助优先、已发先等、取消改期和具体边界独立保留；不跨用户已发回复捞旧轮内容。没有新增书籍阅读或私人案例记录。[上轮输入与话题维护](knowledge/provenance/OS_input_topic_delivery_2026-11-16.md)。
 
 ## 完成进度：119/119
 
